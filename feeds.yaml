@@ -137,6 +137,41 @@ feeds:
     category: "incidents"
     tier: 1
 
+  - name: "Snowflake Status"
+    url: "https://status.snowflake.com/history.rss"
+    category: "incidents"
+    tier: 1
+
+  - name: "Azure Status"
+    url: "https://azure.status.microsoft/en-us/status/feed/"
+    category: "incidents"
+    tier: 1
+
+  - name: "GCP Status"
+    url: "https://status.cloud.google.com/en/feed.atom"
+    category: "incidents"
+    tier: 1
+
+  - name: "GitHub Status"
+    url: "https://www.githubstatus.com/history.rss"
+    category: "incidents"
+    tier: 1
+
+  - name: "Cloudflare Status"
+    url: "https://www.cloudflarestatus.com/history.rss"
+    category: "incidents"
+    tier: 1
+
+  - name: "OpenAI Status"
+    url: "https://status.openai.com/history.rss"
+    category: "incidents"
+    tier: 1
+
+  - name: "Anthropic Status"
+    url: "https://status.anthropic.com/history.rss"
+    category: "incidents"
+    tier: 1
+
   # === RESEARCH (arXiv - LLM scored) ===
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
