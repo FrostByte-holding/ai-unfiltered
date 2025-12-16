@@ -6,6 +6,18 @@
 
 ## 2025-12-16
 
+### langchain-tests==1.1.1
+- Source: LangChain Releases
+- Category: open-source
+- URL: https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.1
+- Summary: Changes since langchain-tests==1.1.0 release(standard-tests): 1.1.1 (#34393) docs(standard-tests): throw more descriptive errors for some streaming cases (#34389)
+
+### langchain-openai==1.1.4
+- Source: LangChain Releases
+- Category: open-source
+- URL: https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.4
+- Summary: Changes since langchain-openai==1.1.3 release(openai): 1.1.4 (#34395) revert(openai): switch model from nano to mini when using flex (#34394) fix(openai): Correct hyperlinks in documentation of function with_structured_output (#34385)
+
 ### DoorDash rolls out Zesty, an AI social app for discovering new restaurants
 - Source: TechCrunch
 - Category: industry
@@ -77,6 +89,12 @@
 - Category: infrastructure
 - URL: https://www.reddit.com/r/devops/comments/1po8hj5/github_actions_introducing_a_perminute_fee_for/
 - Summary: Github have just sent out an email announcing a $0.002/minute fee for self-hosted runners. Just ran the numbers, and for us, that's close to $3.5k a month extra on our GitHub bill. https://resources.github.com/actions/2026-pricing-changes-for-github-actions/ &#32; submitted by &#32; /u/markmcw...
+
+### v0.13.4
+- Source: Ollama Releases
+- Category: open-source
+- URL: https://github.com/ollama/ollama/releases/tag/v0.13.4
+- Summary: New Models Nemotron 3 Nano: A new Standard for Efficient, Open, and Intelligent Agentic Models Olmo 3 and Olmo 3.1: A series of Open language models designed to enable the science of language models. These models are pre-trained on the Dolma 3 dataset and post-trained on the Dolci datasets. What's...
 
 ### OpenAI releases new models for its Realtime API
 - Source: THE DECODER
@@ -1188,6 +1206,12 @@
 - URL: https://pandaily.com/how-industry-grade-agi-is-reshaping-made-in-china-kutesmart-s-answer
 - Summary: Kutesmart’s two-decade bet on data and customization has quietly produced one of the world’s most advanced examples of industry-grade AGI in action.
 
+### v0.13.4-rc2
+- Source: Ollama Releases
+- Category: open-source
+- URL: https://github.com/ollama/ollama/releases/tag/v0.13.4-rc2
+- Summary: v0.13.4-rc2
+
 ### ISC Stormcast For Tuesday, December 16th, 2025 https://isc.sans.edu/podcastdetail/9740, (Tue, Dec 16th)
 - Source: SANS ISC
 - Category: security
@@ -1440,6 +1464,12 @@
 - URL: https://www.wired.com/story/nvidia-becomes-major-model-maker-nemotron-3/
 - Summary: The world’s top chipmaker wants open source AI to succeed—perhaps because closed models increasingly run on its rivals’ silicon.
 
+### LitePT: Lighter Yet Stronger Point Transformer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13689
+- Summary: Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is...
+
 ### AWS’s legacy will be in AI success
 - Source: AI News
 - Category: industry
@@ -1463,6 +1493,12 @@
 - Category: security
 - URL: https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks
 - Summary: How to defend organisations against malware or ransomware attacks.
+
+### ReFusion: A Diffusion Large Language Model with Parallel Autoregressive Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13586
+- Summary: Autoregressive models (ARMs) are hindered by slow sequential inference. While masked diffusion models (MDMs) offer a parallel alternative, they suffer from critical drawbacks: high computational overhead from precluding Key-Value (KV) caching, and incoherent generation arising from learning...
 
 ### ⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More
 - Source: The Hacker News
@@ -1596,6 +1632,12 @@
 - URL: https://the-decoder.com/ai-models-score-off-the-charts-on-psychiatric-tests-when-researchers-treat-them-as-therapy-patients/
 - Summary: Language models on the therapy couch: researchers at the University of Luxembourg treat ChatGPT, Gemini and Grok like patients - with disturbing consequences. The AI invents consistent trauma biographies, achieves pathological test scores and speaks of fear, shame and "strict parents". The study...
 
+### Toward Ambulatory Vision: Learning Visually-Grounded Active View Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13250
+- Summary: Vision Language Models (VLMs) excel at visual question answering (VQA) but remain limited to snapshot vision, reasoning from static images. In contrast, embodied agents require ambulatory vision, actively moving to obtain more informative views. We introduce Visually Grounded Active View Selection...
+
 ### VolkLocker Ransomware Exposed by Hard-Coded Master Key Allowing Free Decryption
 - Source: The Hacker News
 - Category: security
@@ -1619,6 +1661,12 @@
 - Category: industry
 - URL: https://venturebeat.com/ai/why-agentic-ai-needs-a-new-category-of-customer-data
 - Summary: Presented by TwilioThe customer data infrastructure powering most enterprises was architected for a world that no longer exists: one where marketing interactions could be captured and processed in batches, where campaign timing was measured in days (not milliseconds), and where...
+
+### Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13080
+- Summary: Vision-Language-Action (VLA) models provide a promising paradigm for robot learning by integrating visual perception with language-guided policy learning. However, most existing approaches rely on 2D visual inputs to perform actions in 3D physical environments, creating a significant gap between...
 
 ### ISC Stormcast For Monday, December 15th, 2025 https://isc.sans.edu/podcastdetail/9738, (Mon, Dec 15th)
 - Source: SANS ISC
@@ -1763,6 +1811,12 @@
 - URL: https://simonwillison.net/2025/Dec/13/openai-codex-cli/#atom-everything
 - Summary: How to use a skill (progressive disclosure): After deciding to use a skill, open its SKILL.md. Read only enough to follow the workflow. If SKILL.md points to extra folders such as references/, load only the specific files needed for the request; don't bulk-load everything. If scripts/ exist, prefer...
 
+### v0.13.4-rc1
+- Source: Ollama Releases
+- Category: open-source
+- URL: https://github.com/ollama/ollama/releases/tag/v0.13.4-rc1
+- Summary: model: default gemma 3 rope scale to 1.0, apply corrections based on …
+
 
 ## 2025-12-12
 
@@ -1837,11 +1891,23 @@
 - URL: https://www.wired.com/story/karen-hao-empire-of-ai-water-use-statistics/
 - Summary: Fears about AI data centers’ water use have exploded. Experts say the reality is far more complicated than people think.
 
+### New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html
+- Summary: Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman that are capable of facilitating credential theft at scale. BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser (MitB)...
+
 ### BBVA embeds AI into banking workflows using ChatGPT Enterprise
 - Source: AI News
 - Category: industry
 - URL: https://www.artificialintelligence-news.com/news/bbva-embeds-ai-into-banking-workflows-using-chatgpt-enterprise/
 - Summary: BBVA is embedding AI into core banking workflows using ChatGPT Enterprise to overhaul risk and service in the sector. For the banking industry, the challenge of generative AI is rarely about adoption; it is about value extraction. BBVA has addressed this by integrating OpenAI’s platform directly...
+
+### Securing GenAI in the Browser: Policy, Isolation, and Data Controls That Actually Work
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html
+- Summary: The browser has become the main interface to GenAI for most enterprises: from web-based LLMs and copilots, to GenAI‑powered extensions and agentic browsers like ChatGPT Atlas. Employees are leveraging the power of GenAI to draft emails, summarize documents, work on code, and analyze data, often by...
 
 ### Weekly 'I made a useful thing' Thread - December 12, 2025
 - Source: r/sysadmin
@@ -1854,6 +1920,12 @@
 - Category: industry
 - URL: https://www.therundown.ai/p/disneys-billion-dollar-ai-bet-on-openai
 - Summary: PLUS: OpenAI drops GPT-5.2, hits back at Google
+
+### New React RSC Vulnerabilities Enable DoS and Source Code Exposure
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html
+- Summary: The React team has released fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure. The team said the issues were found by the security community while attempting to exploit the patches...
 
 ### Microsoft’s Copilot usage analysis exposes the 2am philosophy question trend
 - Source: AI News
@@ -1991,6 +2063,12 @@
 - URL: https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/
 - Summary: Deepening our partnership with the UK government to support prosperity and security in the AI era
 
+### v1.2.0rc5
+- Source: TensorRT-LLM Releases
+- Category: open-source
+- URL: https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.2.0rc5
+- Summary: Announcement Highlights Vulnerability Two security vulnerabilities have been identified in the urllib3 package versions &gt;= 1.24 and &lt; 2.6.0. These issues will be addressed in the next release. For detailed information on the vulnerabilities, refer to the following advisories:...
+
 ### Microsoft's cancer-mapping AI
 - Source: The Rundown AI
 - Category: industry
@@ -2002,6 +2080,12 @@
 - Category: industry
 - URL: https://www.marktechpost.com/2025/12/09/mistral-ai-ships-devstral-2-coding-models-and-mistral-vibe-cli-for-agentic-terminal-native-development/
 - Summary: Mistral AI has introduced Devstral 2, a next generation coding model family for software engineering agents, together with Mistral Vibe CLI, an open source command line coding assistant that runs inside the terminal or IDEs that support the Agent Communication Protocol. Devstral 2 and Devstral...
+
+### v0.13.0rc1
+- Source: vLLM Releases
+- Category: open-source
+- URL: https://github.com/vllm-project/vllm/releases/tag/v0.13.0rc1
+- Summary: fake rc release to fix nightly wheels
 
 ### 10 Years of Let's Encrypt
 - Source: Simon Willison
@@ -2070,6 +2154,12 @@
 - Category: llm
 - URL: https://simonwillison.net/2025/Dec/9/claude/#atom-everything
 - Summary: I found the problem and it's really bad. Looking at your log, here's the catastrophic command that was run: rm -rf tests/ patches/ plan/ ~/ See that ~/ at the end? That's your entire home directory. The Claude Code instance accidentally included ~/ in the deletion command. &mdash; Claude, after...
+
+### VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.11891
+- Summary: Vision-Language-Action (VLA) models have demonstrated remarkable capabilities in generalizing across diverse robotic manipulation tasks. However, deploying these models in unstructured environments remains challenging due to the critical need for simultaneous task compliance and safety assurance,...
 
 ### FACTS Benchmark Suite: Systematically evaluating the factuality of large language models
 - Source: DeepMind Blog
@@ -2152,6 +2242,18 @@
 - URL: https://www.ncsc.gov.uk/guidance/early-years-practitioners-using-cyber-security-to-protect-your-settings
 - Summary: How to protect sensitive information about your setting and the children in your care from accidental damage and online criminals.
 
+### How to spot scammers claiming to be from the NCSC
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/guidance/how-to-spot-scammers-claiming-to-be-from-the-ncsc
+- Summary: Check that you're talking to a genuine NCSC employee, and not a criminal.
+
+### Using IPsec to protect data
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/guidance/using-ipsec-protect-data
+- Summary: Guidance for organisations wishing to deploy products that use IPsec.
+
 ### ChinAI #338: Model Context Protocol — One Year In
 - Source: ChinAI Newsletter
 - Category: chinese-ai
@@ -2218,6 +2320,12 @@
 - URL: https://simonwillison.net/2025/Dec/6/daniel-lemire/#atom-everything
 - Summary: If you work slowly, you will be more likely to stick with your slightly obsolete work. You know that professor who spent seven years preparing lecture notes twenty years ago? He is not going to throw them away and start again, as that would be a new seven-year project. So he will keep teaching...
 
+### v0.12.0
+- Source: vLLM Releases
+- Category: open-source
+- URL: https://github.com/vllm-project/vllm/releases/tag/v0.12.0
+- Summary: vLLM v0.12.0 Release Notes Highlights Highlights This release features 474 commits from 213 contributors (57 new)！ Breaking Changes: This release includes PyTorch 2.9.0 upgrade (CUDA 12.9), V0 deprecations including xformers backend, and scheduled removals - please review the changelog carefully....
+
 
 ## 2025-12-05
 
@@ -2283,6 +2391,12 @@
 - URL: https://developer.nvidia.com/blog/focus-on-your-algorithm-nvidia-cuda-tile-handles-the-hardware/
 - Summary: With its largest advancement since the NVIDIA CUDA platform was invented in 2006, CUDA 13.1 is launching NVIDIA CUDA Tile. This exciting innovation introduces a...
 
+### v0.14.10
+- Source: LlamaIndex Releases
+- Category: open-source
+- URL: https://github.com/run-llama/llama_index/releases/tag/v0.14.10
+- Summary: Release Notes [2025-12-04] llama-index-core [0.14.10] feat: add mock function calling llm (#20331) llama-index-llms-qianfan [0.4.1] test: fix typo 'reponse' to 'response' in variable names (#20329) llama-index-tools-airweave [0.1.0] feat: add Airweave tool integration with advanced search features...
+
 ### Optimize Data Center Efficiency for AI and HPC Workloads with Power Profiles
 - Source: NVIDIA AI Blog
 - Category: company
@@ -2328,6 +2442,12 @@
 
 
 ## 2025-12-02
+
+### v0.14.9
+- Source: LlamaIndex Releases
+- Category: open-source
+- URL: https://github.com/run-llama/llama_index/releases/tag/v0.14.9
+- Summary: Release Notes [2025-12-02] llama-index-agent-azure [0.2.1] fix: Pin azure-ai-projects version to prevent breaking changes (#20255) llama-index-core [0.14.9] MultiModalVectorStoreIndex now returns a multi-modal ContextChatEngine. (#20265) Ingestion to vector store now ensures that _node-content is...
 
 ### Accelerating Real-Time Financial Decisions with Quantitative Portfolio Optimization
 - Source: NVIDIA AI Blog
@@ -2502,6 +2622,15 @@
 - Summary: PLUS: Use NotebookLM to turn raw data into visual insights
 
 
+## 2025-11-23
+
+### v1.2.0rc4: [None][infra] Check in most recent lock file from nightly pipeline
+- Source: TensorRT-LLM Releases
+- Category: open-source
+- URL: https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.2.0rc4
+- Summary: Signed-off-by: TensorRT LLM 90828364+tensorrt-cicd@users.noreply.github.com
+
+
 ## 2025-11-22
 
 ### LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index
@@ -2558,6 +2687,12 @@
 - Category: industry
 - URL: https://www.therundown.ai/p/openai-pushes-codex-to-the-max
 - Summary: PLUS: Use Gemini 3 to build powerful simulations
+
+### v0.11.2
+- Source: vLLM Releases
+- Category: open-source
+- URL: https://github.com/vllm-project/vllm/releases/tag/v0.11.2
+- Summary: This release includes 4 bug fixes on top of v0.11.1: [BugFix] Ray with multiple nodes (#28873) [BugFix] Fix false assertion with spec-decode=[2,4,..] and TP&gt;2 (#29036) [BugFix] Fix async-scheduling + FlashAttn MLA (#28990) [NVIDIA] Guard SM100 CUTLASS MoE macro to SM100 builds v2 (#28938)
 
 ### Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms
 - Source: Hugging Face Blog
@@ -2662,6 +2797,12 @@
 - Category: company
 - URL: https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/
 - Summary: Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.
+
+### Google Sues to Disrupt Chinese SMS Phishing Triad
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/
+- Summary: Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and...
 
 ### Building for an Open Future - our new partnership with Google Cloud
 - Source: Hugging Face Blog
@@ -2978,202 +3119,4 @@
 - Category: chinese-ai
 - URL: https://chinai.substack.com/p/chinai-330-chinese-universities-top
 - Summary: Plus, a deeper dive into the CSRankings methodology
-
-
-## 2025-09-24
-
-### LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini
-- Summary: OpenAI upgrades Codex with a new version of GPT-5, Google Injects Gemini Into Chrome as AI Browsers Go Mainstream , and more!
-
-
-## 2025-09-22
-
-### Last Week in AI #322 - Robotaxi progress, OpenAI Business, Gemini in Chrome
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/last-week-in-ai-322-robotaxi-progress
-- Summary: Amazon's Zoox jumps into U.S. robotaxi race with Las Vegas launch, OpenAI secures Microsoft&#8217;s blessing to transition its for-profit arm, and more!
-
-### ChinAI #329: China's Shifting Cloud Market — A Review of Q1 and Q2 data
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-329-chinas-shifting-cloud
-- Summary: Greetings from a world where&#8230;
-
-
-## 2025-09-16
-
-### How GPT5 + Codex took over Agentic Coding — ft. Greg Brockman, OpenAI
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/gpt5-codex
-- Summary: Belated catchup on our podcast with Greg Brockman, + latest takes on the new GPT-5-Codex model
-
-
-## 2025-09-15
-
-### ChinAI #328: The Cold Reality for Chinese AI Start-ups
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-328-the-cold-reality-for-chinese
-- Summary: Greetings from a world where&#8230;
-
-
-## 2025-09-10
-
-### Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and
-- Summary: Judge puts Anthropic&#8217;s $1.5 billion book piracy settlement on hold, Warner Bros. Joins Studios&#8217; AI Copyright Battle Against Midjourney, Anthropic endorses California&#8217;s AI safety bill SB 53
-
-
-## 2025-09-08
-
-### ChinAI #327: Critiquing China's AI Plus Plan
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-327-deciphering-chinas-ai
-- Summary: A Strategic Reading of China&#8217;s Three-step AI Strategy for the Next Decade
-
-
-## 2025-09-05
-
-### A Technical History of Generative Media — with Gorkem and Batuhan from Fal.ai
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/fal
-- Summary: From Stable Diffusion to Veo3, why generative media is completely different than LLM inference, and how to scale to $100M ARR while writing custom kernels
-
-
-## 2025-09-02
-
-### LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash
-- Summary: Google Gemini's AI image model gets a 'bananas' upgrade, Anthropic launches a Claude AI agent that lives in Chrome
-
-
-## 2025-09-01
-
-### ChinAI #326: Around the Horn (21st episode)
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-326-around-the-horn-21st-episode
-- Summary: Greetings from a world where&#8230;
-
-
-## 2025-08-27
-
-### Last Week in AI #320 - Gemini 2.5 Flash Image, Lawsuit Settled, Claude for Chrome
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/last-week-in-ai-320-gemini-25-flash
-- Summary: Google Gemini&#8217;s AI image model gets a &#8216;bananas&#8217; upgrade, Anthropic Settles High-Profile AI Copyright Lawsuit Brought by Book Authors, and more!
-
-
-## 2025-08-25
-
-### ChinAI #325: One Year Later - Technology and the Rise of Great Powers
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-325-one-year-later-technology
-- Summary: Greetings from a world where&#8230;
-
-
-## 2025-08-19
-
-### "RAG is Dead, Context Engineering is King" — with Jeff Huber of Chroma
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/chroma
-- Summary: What actually matters in vector databases in 2025, why &#8220;modern search for AI&#8221; is different, and how to ship systems that don&#8217;t rot as context grows.
-
-
-## 2025-08-18
-
-### ChinAI #324: SuperCLUE Benchmarks —2025 Midyear Check-in
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-324-superclue-large-model
-- Summary: Greetings from a world where&#8230;
-
-
-## 2025-08-16
-
-### Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models
-- Summary: OpenAI Finally Launched GPT-5. Here's Everything You Need to Know, Anthropic Claude to &#8216;all three branches of government&#8217; for $1, Student Coders Seek Work at Chipotle
-
-
-## 2025-08-14
-
-### Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems
-- Source: Synced Review
-- Category: chinese-ai
-- URL: https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/
-- Summary: In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers...
-
-
-## 2025-08-13
-
-### Announcing LocalLlama discord server & bot!
-- Source: r/LocalLLaMA
-- Category: community
-- URL: https://www.reddit.com/r/LocalLLaMA/comments/1mpk2va/announcing_localllama_discord_server_bot/
-- Summary: INVITE: https://discord.gg/rC922KfEwj There used to be one old discord server for the subreddit but it was deleted by the previous mod. Why? The subreddit has grown to 500k users - inevitably, some users like a niche community with more technical discussion and fewer memes (even if relevant). We...
-
-
-## 2025-08-12
-
-### LWiAI Podcast #219 - GPT 5, Opus 4.1, OpenAI's Open Source, Astrocade
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/lwiai-podcast-219-gpt-5-opus-41-openais
-- Summary: OpenAI&#8217;s GPT-5 is here, Anthropic Releases Claude Opus 4.1, and more!
-
-
-## 2025-08-11
-
-### ChinAI #323: The AI Deflation of China's Tech Giants
-- Source: ChinAI Newsletter
-- Category: chinese-ai
-- URL: https://chinai.substack.com/p/chinai-323-the-ai-deflation-of-chinas
-- Summary: Why are Chinese tech giants spending so little on AI Capex?
-
-
-## 2025-08-09
-
-### Can coding agents self-improve?
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/self-improving
-- Summary: Can GPT-5 build better dev tools for itself? Does it improve its coding performance?
-
-
-## 2025-08-07
-
-### GPT-5's Vision Checkup: a frontier VLM, but not a new SOTA
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/gpt5-vision
-- Summary: Our friends at Roboflow ran the numbers today on GPT-5's underrated (but also improved) vision capabilities.
-
-### GPT-5's Router: how it works and why Frontier Labs are now targeting the Pareto Frontier
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/gpt5-router
-- Summary: The big reveal of GPT-5 was entirely unexpected but is welcome nonetheless - there's a router!
-
-### GPT-5 Hands-On: Welcome to the Stone Age
-- Source: Latent Space
-- Category: llm
-- URL: https://www.latent.space/p/gpt-5-review
-- Summary: We're excited to publish our hands-on review from the developer beta.
 
