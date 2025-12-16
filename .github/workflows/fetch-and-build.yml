@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '.github/workflows/**'
 
 permissions:
   contents: write
@@ -20,18 +22,29 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      
       - run: pip install feedparser pyyaml
+      
       - run: python scripts/fetch_rss.py
+      
       - run: python scripts/build_site.py
-      - run: |
+      
+      - name: Commit and push changes
+        run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git pull --rebase origin main
           git add -A
-          git diff --staged --quiet || git commit -m "Update: $(date -u '+%Y-%m-%d %H:%M UTC' )"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
 
   deploy:
     needs: fetch-and-build
@@ -43,8 +56,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      
       - uses: actions/configure-pages@v4
+      
       - uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
+      
       - uses: actions/deploy-pages@v4
