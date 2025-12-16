@@ -1,5 +1,5 @@
 # AI Unfiltered - Focused RSS Feeds
-# Focus: Chinese AI, Open Source, Security, Infrastructure
+# Focus: Chinese AI, Open Source, Security, Incidents
 # Categories: chinese-ai, open-source, security, incidents, research
 
 feeds:
@@ -19,68 +19,92 @@ feeds:
     category: "chinese-ai"
     tier: 2
 
-  # === OPEN SOURCE MODEL RELEASES ===
-  # Chinese Open Source
-  - name: "Qwen Releases"
-    url: "https://rsshub.app/github/repos/QwenLM/Qwen2.5/releases"
+  # === OPEN SOURCE - Quality Sources Only ===
+  
+  # Curated Papers & News
+  - name: "HF Daily Papers"
+    url: "https://papers.takara.ai/api/feed"
     category: "open-source"
     tier: 1
-    max_per_day: 3
-    
-  - name: "DeepSeek Releases"
-    url: "https://rsshub.app/github/repos/deepseek-ai/DeepSeek-LLM/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-    
-  - name: "Yi Releases"
-    url: "https://rsshub.app/github/repos/01-ai/Yi/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  # Western Open Source
-  - name: "Mistral Releases"
-    url: "https://rsshub.app/github/repos/mistralai/mistral-inference/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "LLaMA Releases"
-    url: "https://rsshub.app/github/repos/meta-llama/llama/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  # Open Source Tools
-  - name: "Ollama Releases"
-    url: "https://rsshub.app/github/repos/ollama/ollama/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 2
-    
-  - name: "vLLM Releases"
-    url: "https://rsshub.app/github/repos/vllm-project/vllm/releases"
-    category: "open-source"
-    tier: 1
-    max_per_day: 2
-
-  - name: "TensorRT-LLM Releases"
-    url: "https://rsshub.app/github/repos/NVIDIA/TensorRT-LLM/releases"
-    category: "open-source"
-    tier: 2
-    max_per_day: 2
-
-  - name: "LangChain Releases"
-    url: "https://rsshub.app/github/repos/langchain-ai/langchain/releases"
-    category: "open-source"
-    tier: 2
-    max_per_day: 2
+    max_per_day: 5
 
   - name: "Hugging Face Blog"
     url: "https://huggingface.co/blog/feed.xml"
     category: "open-source"
     tier: 1
+
+  - name: "Latent Space"
+    url: "https://www.latent.space/feed"
+    category: "open-source"
+    tier: 1
+
+  - name: "The Gradient"
+    url: "https://thegradient.pub/rss/"
+    category: "open-source"
+    tier: 1
+
+  # GitHub Releases - Native .atom feeds (reliable)
+  - name: "Ollama Releases"
+    url: "https://github.com/ollama/ollama/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "vLLM Releases"
+    url: "https://github.com/vllm-project/vllm/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "LangChain Releases"
+    url: "https://github.com/langchain-ai/langchain/releases.atom"
+    category: "open-source"
+    tier: 2
+    max_per_day: 2
+
+  - name: "LlamaIndex Releases"
+    url: "https://github.com/run-llama/llama_index/releases.atom"
+    category: "open-source"
+    tier: 2
+    max_per_day: 2
+
+  - name: "Mistral Releases"
+    url: "https://github.com/mistralai/mistral-inference/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "LLaMA Releases"
+    url: "https://github.com/meta-llama/llama/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  # Chinese Open Source Models
+  - name: "Qwen Releases"
+    url: "https://github.com/QwenLM/Qwen2.5/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "DeepSeek Releases"
+    url: "https://github.com/deepseek-ai/DeepSeek-LLM/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "Yi Releases"
+    url: "https://github.com/01-ai/Yi/releases.atom"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  # NVIDIA Open Source
+  - name: "TensorRT-LLM Releases"
+    url: "https://github.com/NVIDIA/TensorRT-LLM/releases.atom"
+    category: "open-source"
+    tier: 2
+    max_per_day: 2
 
   # === SECURITY (Prompt Injection, Jailbreaks, AI Vulnerabilities) ===
   - name: "The Hacker News"
@@ -107,13 +131,13 @@ feeds:
     tier: 1
     max_per_day: 3
 
-  # === INCIDENTS (Outages, Failures, Operational Reality) ===
+  # === INCIDENTS (Outages, Failures) ===
   - name: "AWS Status"
     url: "https://status.aws.amazon.com/rss/all.rss"
     category: "incidents"
     tier: 1
 
-  # === RESEARCH (Filtered - only high-impact) ===
+  # === RESEARCH (arXiv - LLM scored) ===
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
     category: "research"
@@ -135,10 +159,10 @@ feeds:
     requires_scoring: true
     max_per_day: 5
 
-  # === COMPANY BLOGS (Only major players, no press releases) ===
+  # === COMPANY BLOGS (Major players only) ===
   - name: "OpenAI Blog"
     url: "https://openai.com/blog/rss/"
-    category: "open-source"
+    category: "research"
     tier: 1
     
   - name: "DeepMind Blog"
@@ -150,9 +174,3 @@ feeds:
     url: "http://googleaiblog.blogspot.com/atom.xml"
     category: "research"
     tier: 2
-
-  # === QUALITY NEWSLETTERS (Editorial, not aggregation) ===
-  - name: "Latent Space"
-    url: "https://www.latent.space/feed"
-    category: "open-source"
-    tier: 1
