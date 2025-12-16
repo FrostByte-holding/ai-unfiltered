@@ -1,0 +1,110 @@
+# AI Unfiltered - Curated RSS Feeds
+# Categories: research, chinese-ai, llm, industry, company, community
+
+feeds:
+  # === ARXIV (Research Papers) ===
+  - name: "arXiv AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "research"
+    
+  - name: "arXiv Machine Learning"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: "research"
+    
+  - name: "arXiv NLP"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "research"
+
+  # === CHINESE AI (Your Differentiator) ===
+  - name: "Synced Review"
+    url: "https://syncedreview.com/feed"
+    category: "chinese-ai"
+    
+  - name: "ChinAI Newsletter"
+    url: "https://chinai.substack.com/feed"
+    category: "chinese-ai"
+    
+  - name: "Pandaily"
+    url: "https://pandaily.com/feed"
+    category: "chinese-ai"
+
+  # === MAJOR AI COMPANIES ===
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss/"
+    category: "company"
+    
+  - name: "Google AI Blog"
+    url: "http://googleaiblog.blogspot.com/atom.xml"
+    category: "company"
+    
+  - name: "DeepMind Blog"
+    url: "https://deepmind.com/blog/feed/basic/"
+    category: "company"
+    
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "company"
+    
+  - name: "NVIDIA AI Blog"
+    url: "https://developer.nvidia.com/blog/feed"
+    category: "company"
+
+  # === AI NEWS SITES ===
+  - name: "VentureBeat AI"
+    url: "https://venturebeat.com/category/ai/feed/"
+    category: "industry"
+    
+  - name: "THE DECODER"
+    url: "https://the-decoder.com/feed/"
+    category: "industry"
+    
+  - name: "AI News"
+    url: "https://www.artificialintelligence-news.com/feed/rss/"
+    category: "industry"
+    
+  - name: "Unite.AI"
+    url: "https://www.unite.ai/feed/"
+    category: "industry"
+    
+  - name: "MarkTechPost"
+    url: "https://www.marktechpost.com/feed"
+    category: "industry"
+
+  # === NEWSLETTERS & BLOGS ===
+  - name: "Latent Space"
+    url: "https://www.latent.space/feed"
+    category: "llm"
+    
+  - name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+    category: "llm"
+    
+  - name: "The Rundown AI"
+    url: "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
+    category: "industry"
+    
+  - name: "Last Week in AI"
+    url: "https://lastweekin.ai/feed"
+    category: "industry"
+
+  # === COMMUNITY ===
+  - name: "r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/.rss"
+    category: "community"
+    
+  - name: "r/LocalLLaMA"
+    url: "https://www.reddit.com/r/LocalLLaMA/.rss"
+    category: "community"
+
+  # === TECH NEWS (AI sections) ===
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+    category: "industry"
+    
+  - name: "Wired AI"
+    url: "https://www.wired.com/feed/tag/ai/latest/rss"
+    category: "industry"
+    
+  - name: "MIT Technology Review"
+    url: "https://www.technologyreview.com/feed/"
+    category: "industry"

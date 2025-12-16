@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raw AI news. No fluff. Updated every 4 hours.">
+    <title>Community - AI Unfiltered</title>
+    <link rel="alternate" type="application/rss+xml" title="AI Unfiltered RSS" href="/rss.xml">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { 
+            background: #000; 
+            color: #e0e0e0; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        body { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        a { color: #4af; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        header { 
+            border-bottom: 1px solid #333; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px;
+        }
+        h1 { 
+            font-size: 1.5rem; 
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+        h1 a { color: #fff; }
+        .tagline { color: #666; font-size: 0.9rem; margin-top: 5px; }
+        nav { margin-top: 15px; }
+        nav a { 
+            margin-right: 15px; 
+            color: #888;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        nav a:hover, nav a.active { color: #4af; }
+        .article { 
+            margin-bottom: 25px; 
+            padding-bottom: 25px;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .article:last-child { border-bottom: none; }
+        .article-title { 
+            font-size: 1.1rem;
+            line-height: 1.4;
+        }
+        .article-title a { color: #fff; }
+        .article-meta { 
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .article-meta a { color: #666; }
+        .article-meta a:hover { color: #4af; }
+        .source { color: #4af; }
+        .category { 
+            background: #1a1a1a;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-left: 10px;
+        }
+        .summary {
+            margin-top: 8px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        footer { 
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #444;
+            font-size: 0.8rem;
+        }
+        footer a { color: #666; }
+        .updated { color: #333; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="/">AI Unfiltered</a></h1>
+        <p class="tagline">Raw AI news. No fluff. Updated every 4 hours.</p>
+        <nav>
+            <a href="/" class="">all</a>
+            <a href="/chinese-ai.html" class="">chinese ai</a>
+            <a href="/research.html" class="">research</a>
+            <a href="/llm.html" class="">llm</a>
+            <a href="/industry.html" class="">industry</a>
+            <a href="/rss.xml">rss</a>
+        </nav>
+    </header>
+    <main>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po7i0c/meta_announced_a_new_sam_audio_model_for_audio/" target="_blank" rel="noopener">Meta announced a new SAM Audio Model for audio editing that can segment sound from complex audio mixtures using text, visual, and time span prompts.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Source: https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/ SAM Audio transforms audio processing by making it easy to isolate any sound from complex audio mixtures using text, visual, and time span prompts. &amp;#32; submitted by &amp;#32; /u/Difficult-Cap-7527 [link] &amp;#32;...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po78bl/allen_institute_for_ai_introduces_molmo_2/" target="_blank" rel="noopener">Allen Institute for AI introduces Molmo 2</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">https://allenai.org/molmo I am super impressed by the ability to analyze videos (Video QA, Counting and pointing, Dense captioning), and it&#x27;s only 8B!! HuggingFace: https://huggingface.co/allenai/Molmo2-8B &amp;#32; submitted by &amp;#32; /u/Agitated_Camel1886 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po5uko/p_using_a_vector_quantized_variational/" target="_blank" rel="noopener">[P] Using a Vector Quantized Variational Autoencoder to learn Bad Apple!! live, with online learning.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I wanted to share something I was working on recently to experiment with VQ-VAEs! The goal of the project was to actively learn “Bad Apple!!” and reconstruct the song in the middle of training without seeing the current frame/audio sample. The song is only around 3 minutes so the VQ-VAE needed to...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po49p3/full_ai_voice_agent_whisper_700m_llm_neutts/" target="_blank" rel="noopener">Full AI Voice Agent (Whisper + 700M LLM + NeuTTS) running entirely on an Nvidia Jetson Orin Nano ($250 hardware) with no internet access</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">We’ve been playing with what&#x27;s truly possible for low-latency, privacy-first voice agents, and just released a demo: Agent Santa. https://reddit.com/link/1po49p3/video/s8sca29xzk7g1/player The entire voice-to-text-to-speech loop runs locally on a sub-$250 Nvidia Jetson Orin Nano. The ML Stack: STT:...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po43p3/denoising_language_models_for_speech_recognition/" target="_blank" rel="noopener">Denoising Language Models for Speech Recognition</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">We studied denoising language models (error correction models) as an alternative to standard language models. Denoising LMs use an encoder-decoder architecture, and are trained to reconstruct the original text from a corrupted version of it. We test them for speech recognition, and specifically...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po3v2l/xiaomimimomimov2flash_hugging_face/" target="_blank" rel="noopener">XiaomiMiMo/MiMo-V2-Flash · Hugging Face</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">MiMo-V2-Flash is a Mixture-of-Experts (MoE) language model with 309B total parameters and 15B active parameters. Designed for high-speed reasoning and agentic workflows, it utilizes a novel hybrid attention architecture and Multi-Token Prediction (MTP) to achieve state-of-the-art performance while...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po3ln2/key_highlights_of_nvidias_new_model/" target="_blank" rel="noopener">Key Highlights of NVIDIA’s New Model: Nemotron-Cascade-8B</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">[1] General-Purpose Reinforcement-Learned Model Trained through a sequential and domain-wise reinforcement learning pipeline built on top of a base Qwen3-8B model, enhancing performance across diverse task domains [2] Dual Reasoning &amp;amp; Instruction Modes Supports both thinking (reasoning) and...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po3bn4/xiaomimimomimov2flash_hugging_face/" target="_blank" rel="noopener">XiaomiMiMo/MiMo-V2-Flash · Hugging Face</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/Dark_Fire_12 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po2yut/p_cyreal_yet_another_jax_dataloader/" target="_blank" rel="noopener">[P] Cyreal - Yet Another Jax Dataloader</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Looking for a JAX dataloader that is fast, lightweight, and flexible? Try out Cyreal! GitHub Documentation Note: This is a new library and probably full of bugs. If you find one, please file an issue. Background JAX is a great library but the lack of dataloaders has been driving me crazy. I find it...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po2slg/my_professor_lent_me_an_a6000_so_i_tried_to_build/" target="_blank" rel="noopener">My professor lent me an A6000, so I tried to build a coding model. Here is Anni! (Qwen3-14B Fine-tune)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Feedback and suggestions are welcomed! Full Technical Write-up I’m a 2nd year undergrad AI student and just finished training my very first LLM. Like many of you, I wanted to train a capable coding model but didn&#x27;t have a cluster of H100s—just a single Nvidia A6000 (48GB) thanks to my professor :)...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po2m4m/p_plotting_8000_entities_embeddings_with_cluster/" target="_blank" rel="noopener">[P] Plotting ~8000 entities embeddings with cluster tags and ontologicol colour coding</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">This is a side project I&#x27;ve been working on for a few months. I&#x27;ve designed a trait based ontology; 32 bits each representating a yes/no question, I&#x27;ve created trait specifications including examples and edge cases for each trait. The user names and describes an entity (anything you can imagine)...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1po18y9/glm45v_glm46v_and_glm_46vflash_are_now_supported/" target="_blank" rel="noopener">GLM-4.5V, GLM-4.6V and GLM_4.6V-Flash are now supported by llama.cpp (GGUFs)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">you need this https://www.reddit.com/r/LocalLLaMA/comments/1pnz1je/support_for_glm4v_vision_encoder_has_been_merged/ &amp;#32; submitted by &amp;#32; /u/jacek2023 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po11wv/im_a_big_fan_of_small_models_infra_as_code_500mb/" target="_blank" rel="noopener">I&#x27;m a big fan of small models, Infra as Code 500MB model.. small enough for edge or browser [P]</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">https://github.com/saikiranrallabandi/inframind A fine-tuning toolkit for training small language models on Infrastructure-as-Code using reinforcement learning (GRPO/DAPO). InfraMind fine-tunes SLMs using GRPO/DAPO with domain-specific rewards to generate valid Terraform, Kubernetes, Docker, and...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1po08eu/d_are_we_training_models_on_answers_instead_of/" target="_blank" rel="noopener">[D] Are we training models on answers instead of questions?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Most datasets I’ve worked with are optimized around answers, like clean explanations, resolved threads, final conclusions, clear labels But recently I started thinking that a lot of human intelligence actually lives before the answer In the confusion In the badly phrased questions In the follow-ups...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnzt9y/2025_open_models_year_in_review/" target="_blank" rel="noopener">2025 Open Models Year in Review</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">https://preview.redd.it/x9r0l9rcyj7g1.png?width=1024&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=04829370c50c43b71249d0b687d517beaa024d53 AI research organization Interconnects released the 2025 Annual Review Report on Open-Source Models, stating that 2025 is a milestone year for the development of...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnz9xu/qwen3_next_speed_optimization_has_been_merged/" target="_blank" rel="noopener">Qwen3 Next speed optimization has been merged into llama.cpp</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/jacek2023 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnz80z/i_may_have_overquantized_this_little_guy/" target="_blank" rel="noopener">I may have over-quantized this little guy.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/AllergicToTeeth [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnz1je/support_for_glm4v_vision_encoder_has_been_merged/" target="_blank" rel="noopener">support for GLM4V vision encoder has been merged into llama.cpp</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/jacek2023 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pny30h/the_attention_hybrid_moe_architecture_is_the/" target="_blank" rel="noopener">The Attention Hybrid MoE Architecture is the Future. Now, AI Labs Should Dedicate Resources to Improve Long Context Recall Capabilities.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I have been using Qwen3-Next-80B-A30 since it was fully supported in Llama.cpp, and I found it to be the best open-weight model I&#x27;ve ever ran locally ((Unsloth)_Qwen3-Next-80B-A3B-Instruct-GGUF-Q6_K_XL). It&#x27;s also the first model I could run at full context size (256K) on a single RTX3090 (forcing...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnxxnq/nemotroncascade_8b14b_from_nvidia_qwen3_finetunes/" target="_blank" rel="noopener">Nemotron-Cascade 8B/14B from NVIDIA (Qwen3 finetunes)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;quot;powerful general-purpose model trained through sequential and domain-wise reinforcement learning&amp;quot; Results We evaluate our model against competitive reasoning models on a diverse set of benchmarks, covering general-knowledge reasoning, alignment and instruction following, mathematical...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnxkvw/llamacpp_support_for_nemotron_3_nano_merged/" target="_blank" rel="noopener">llama.cpp support for Nemotron 3 Nano merged!</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">https://github.com/ggml-org/llama.cpp/releases/tag/b7418 Details llama : add support for NVIDIA Nemotron 3 Nano (#18058) llama : add support for NVIDIA Nemotron Nano 3 This commit adds support for the NVIDIA Nemotron Nano 3 model, enabling the conversion and running of this model. &amp;#32; submitted...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnxekt/it_was_ilya_who_closed_openai/" target="_blank" rel="noopener">It was Ilya who &quot;closed&quot; OpenAI</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/licuphand [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnwmb9/p_real_time_unit_labeling_with_streaming/" target="_blank" rel="noopener">[P] Real time unit labeling with streaming NeuronCards and active probing (code and PDFs on GitHub)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I built a small Python demo that treats “labeling a neuron” as an online inference loop for AI units. Instead of a oneoff interpretability screenshot, it maintains a per unit NeuronCard that updates in realtime as probes stream in, with confidence and stability, and an active prober that chooses...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnvf0a/r_need_a_partner_for_icml_2026_paper/" target="_blank" rel="noopener">[R] Need a partner for ICML 2026 paper</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I have been writing a research paper specifically related to fundamental attention architecture. I have finished rhe methodology and implementation part but what remains is ablations and testing. If anyone is so kind to contribute with GPU clusters, i would be happy to name you as a co-author,...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnusp9/alibaba_opensources_cosyvoice_3_a_new_tts_model/" target="_blank" rel="noopener">Alibaba Open-Sources CosyVoice 3, a New TTS Model</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Key Features Language Coverage: Covers 9 common languages (Chinese, English, Japanese, Korean, German, Spanish, French, Italian, Russian), 18+ Chinese dialects/accents and meanwhile supports both multi-lingual/cross-lingual zero-shot voice cloning. Content Consistency &amp;amp; Naturalness: Achieves...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnul23/sometimes_its_stupid_even_if_it_works/" target="_blank" rel="noopener">Sometimes it’s stupid even if it works</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Someone gave me a quadro but I have a 1080ti already so no internal space… just strapped it to the outside with the riser cables looping out the back… works fine &amp;#32; submitted by &amp;#32; /u/Stunning_Mast2001 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnslcb/my_local_coding_agent_worked_2_hours_unsupervised/" target="_blank" rel="noopener">My Local coding agent worked 2 hours unsupervised and here is my setup</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Setup --- Model devstral-small-2 from bartowski IQ3_xxs version. Run with lm studio &amp;amp; intentionally limit the context at 40960 which should&#x27;t take more than (14gb ram even when context is full) ---Tool kilo code (set file limit to 500 lines) it will read in chunks 40960 ctx limit is actually a...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pno4dj/d_people_who_work_with_asr_models_does/" target="_blank" rel="noopener">[D] People who work with ASR models - does nvidia/parakeet-tdt-0.6b-v2 tend to give better results than nvidia/parakeet-tdt-0.6b-v3?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I have a work stream right now that invoves building around nvidia/parakeet for audio transcription tasks. Love the NeMo toolkit, and have been working on this since v2 was out (v2 dropping is what really made this work possible). They released v3 back in August, multi-lingual as well which is...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnm0r0/d_ilya_sutskevers_latest_tweet/" target="_blank" rel="noopener">[D] Ilya Sutskever&#x27;s latest tweet</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">One point I made that didn’t come across: Scaling the current thing will keep leading to improvements. In particular, it won’t stall. But something important will continue to be missing. What do you think that &amp;quot;something important&amp;quot; is, and more importantly, what will be the practical...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnllux/new_budget_local_ai_rig/" target="_blank" rel="noopener">New budget local AI rig</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">I wanted to buy 32GB Mi50s but decided against it because of their recent inflated prices. However, the 16GB versions are still affordable! I might buy another one in the future, or wait until the 32GB gets cheaper again. Qiyida X99 mobo with 32GB RAM and Xeon E5 2680 V4: 90 USD (AliExpress) 2x...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pniwfj/ai2_open_modeling_ama_ft_researchers_from_the/" target="_blank" rel="noopener">Ai2 Open Modeling AMA ft researchers from the Molmo and Olmo teams.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hi r/LocalLLaMA! We’re researchers and engineers from Ai2, the nonprofit AI lab. We recently announced: Molmo 2—open multimodal models for video + images that can return grounded answers (pixel coordinates + timestamps), trained with open datasets Olmo 3—a family of fully open language models...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnhbth/d_documenting_the_weaknesses_of_deep_learning_or/" target="_blank" rel="noopener">[D] Documenting the Weaknesses of Deep Learning (or are there any?)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Large Language models are themselves Deep Learning networks. They are a particular narrow subtype of encoder/decoder architecture called a transformer. Scaling Laws are being spoken about all over the Bay Area, and CEOs are asserting that they will scale their chatbots to AGI soon -- it is all just...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnfaqo/im_strong_enough_to_admit_that_this_bugs_the_hell/" target="_blank" rel="noopener">I&#x27;m strong enough to admit that this bugs the hell out of me</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">&amp;#32; submitted by &amp;#32; /u/ForsookComparison [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnegk8/d_idea_add_no_ai_slop_as_subreddit_rule/" target="_blank" rel="noopener">[D] Idea: add &quot;no AI slop&quot; as subreddit rule</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">As per title. I know this is kind of covered by &amp;quot;no spam&amp;quot; rule, but maybe calling out AI-generated slop and &amp;quot;novel idea&amp;quot; posts should have its own explicit rule. Maybe it would make it easier for mods to check out reported posts, with a more specific reason like that. What do...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pndxs2/r_structopt_a_firstorder_optimizer_driven_by/" target="_blank" rel="noopener">[R] StructOpt: a first-order optimizer driven by gradient dynamics</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Motivation Most adaptive first-order optimizers rely on statistics of the gradient itself — its magnitude, variance, or accumulated moments. However, the gradient alone does not fully describe how the local optimization landscape responds to parameter updates. An often underutilized source of...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pnc441/p_paperswithcodes_alternative_better_note/" target="_blank" rel="noopener">[P] PapersWithCode’s alternative + better note organizer: Wizwand</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hey all, since PapersWithCode has been down for a few months, we built an alternative tool called WizWand (wizwand.com) to bring back a similar PwC style SOTA / benchmark + paper to code experience. You can browse SOTA benchmarks and code links just like PwC ( wizwand.com/sota ). We reimplemented...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pnb824/chatterbox_turbo_new_opensource_voice_ai_model/" target="_blank" rel="noopener">Chatterbox Turbo, new open-source voice AI model, just released on Hugging Face</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Links: - Model (PyTorch): https://huggingface.co/ResembleAI/chatterbox-turbo - Model (ONNX): https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX - GitHub: https://github.com/resemble-ai/chatterbox - Demo: https://huggingface.co/spaces/ResembleAI/chatterbox-turbo-demo &amp;#32; submitted by &amp;#32;...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1pn8upp/nvidia_releases_nemotron_3_nano_a_new_30b_hybrid/" target="_blank" rel="noopener">NVIDIA releases Nemotron 3 Nano, a new 30B hybrid reasoning model!</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Unsloth GGUF: https://huggingface.co/unsloth/Nemotron-3-Nano-30B-A3B-GGUF Nemotron 3 has a 1M context window and the best in class performance for SWE-Bench, reasoning and chat. &amp;#32; submitted by &amp;#32; /u/Difficult-Cap-7527 [link] &amp;#32; [comments]</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pmzhef/d_tools_to_read_research_papers_effectively/" target="_blank" rel="noopener">[D] Tools to read research papers effectively</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">As the title says, I’m looking for tools—both software and device recommendations—to help me read research papers more effectively. By “effective,” I mean not just reading, but also organizing papers so they collectively support my research workflow. Right now, I’m printing out 8–10 pages per...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pmr2kh/d_discrete_diffusion_where_can_i_find_the/" target="_blank" rel="noopener">[D] Discrete Diffusion: where can I find the derivation for q(x_{t-1} | x_t, x_0)?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 14</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">It appears in DiffusionBERT ([1]) As well as in D3PM ([2]) [1]: DiffusionBERT [2]: D3PM But I don&#x27;t understand how to get to the final result. Expanding the Bayes fraction should give: Where division is elementwise as well, And if you try to equalize it with the pdf from the articles I&#x27;m stuck at:...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pmd9n2/d_on_the_linear_trap_of_autoregression/" target="_blank" rel="noopener">[D] On the linear trap of autoregression</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 14</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hi, during a casual conversation with a colleague, he mentioned the concept of the linearity trap, which seems to stem from the autoregressive feature of LLMs. However, he didn&#x27;t seem to have much domain-specific knowledge, so I didn&#x27;t get a good explanation; the problem just lingered in my mind,...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pmd5ul/d_causal_ml_did_a_useful_survey_or_textbook_emerge/" target="_blank" rel="noopener">[D] Causal ML, did a useful survey or textbook emerge?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 14</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hi, asking if a unified resource emerged on Causal ML. To be clear, I am asking specifically (and kindly) for a coherent and comparative discussion of some of the more recent advances (10y). I am hoping for a research survey/primer or a graduate textbook. It would be ideal that the resource...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pm7dbt/d_videoimage_genai_startup_coding_interview_advise/" target="_blank" rel="noopener">[D] Video/Image genAI startup coding interview advise.</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 14</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hi, I am applying for a video/image generation startup, and they have set up a coding interview. The recruiter was a bit vague and said they might ask you to code the transformer model. Can you suggest what should I prepare? So far I am planning to code a toy version of the following: LLM basics:...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pm2zsb/ilya_sutskever_is_puzzled_by_the_gap_between_ai/" target="_blank" rel="noopener">Ilya Sutskever is puzzled by the gap between AI benchmarks and the economic impact [D]</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 14</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">In a recent interview, Ilya Sutskever said: This is one of the very confusing things about the models right now. How to reconcile the fact that they are doing so well on evals... And you look at the evals and you go &amp;quot;Those are pretty hard evals&amp;quot;... They are doing so well! But the economic...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1plzkzu/r_efficient_virtuoso_a_latent_diffusion/" target="_blank" rel="noopener">[R] Efficient Virtuoso: A Latent Diffusion Transformer for Trajectory Planning (Strong results on Waymo Motion, trained on single RTX 3090)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 13</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hi r/MachineLearning comunity, I am an independent researcher focused on Autonomous Vehicle (AV) planning. I am releasing the paper, code, and weights for a project called Efficient Virtuoso. It is a conditional latent diffusion model (LDM) for generating multi-modal, long-horizon driving...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1plwkqz/d_do_some_research_areas_get_an_easier_accept_the/" target="_blank" rel="noopener">[D] Do Some Research Areas Get an Easier Accept? The Quiet Biases Hiding in ICLR&#x27;s Peer Review</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 13</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Hey all, So I am sure you already know the ICLR drama this year + since reciprocal reviewing, authors have struggled with reviews. Well, I scraped public OpenReview metadata for ICLR 2018–2025 and did a simple analysis of acceptance vs (i) review score, (ii) primary area, and (iii) year to see if...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1plg1gs/d_how_does_claude_perform_so_well_without_any/" target="_blank" rel="noopener">[D] How does Claude perform so well without any proprietary data?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 13</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Google has massive proprietary assets (Search, Gmail, Docs, YouTube). Microsoft/OpenAI has GitHub, Bing, Office, and enterprise data. xAI has direct access to Twitter/X&#x27;s social data. Meta has facebook data. Anthropic (Claude) however, doesn&#x27;t appear to own or control any comparably large...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pbxkt2/d_selfpromotion_thread/" target="_blank" rel="noopener">[D] Self-Promotion Thread</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 02</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/MachineLearning/comments/1pb25zo/d_monthly_whos_hiring_and_who_wants_to_be_hired/" target="_blank" rel="noopener">[D] Monthly Who&#x27;s Hiring and Who wants to be Hired?</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 01</span>
+                <span class="source">via r/MachineLearning</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you&#x27;re looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote |...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/LocalLLaMA/comments/1mpk2va/announcing_localllama_discord_server_bot/" target="_blank" rel="noopener">Announcing LocalLlama discord server &amp; bot!</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Aug 13</span>
+                <span class="source">via r/LocalLLaMA</span>
+                <a href="/community.html" class="category">community</a>
+            </div>
+            <p class="summary">INVITE: https://discord.gg/rC922KfEwj There used to be one old discord server for the subreddit but it was deleted by the previous mod. Why? The subreddit has grown to 500k users - inevitably, some users like a niche community with more technical discussion and fewer memes (even if relevant). We...</p>
+        </article>
+
+    </main>
+    <footer>
+        <p>
+            <a href="/rss.xml">RSS Feed</a> · 
+            Updated every 4 hours · 
+            <span class="updated">Last: 2025-12-16 17:31 UTC</span>
+        </p>
+        <p>Links to original sources. No content is copied.</p>
+    </footer>
+</body>
+</html>
