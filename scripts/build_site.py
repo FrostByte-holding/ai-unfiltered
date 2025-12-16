@@ -9,6 +9,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 from html import escape
+from collections import defaultdict
 
 # Paths
 ROOT_DIR = Path(__file__).parent.parent
@@ -19,10 +20,11 @@ DOCS_DIR = ROOT_DIR / "docs"
 SITE_NAME = "AI Unfiltered"
 SITE_DESCRIPTION = "Raw AI news. No fluff. Updated every 4 hours."
 ARTICLES_PER_PAGE = 100
+MAX_PER_SOURCE = 5  # Maximum articles per source per page
 
 
 def get_articles(conn, category=None, limit=ARTICLES_PER_PAGE):
-    """Fetch articles from database."""
+    """Fetch articles from database with per-source limits."""
     cursor = conn.cursor()
     
     if category:
@@ -32,16 +34,31 @@ def get_articles(conn, category=None, limit=ARTICLES_PER_PAGE):
             WHERE category = ?
             ORDER BY published DESC
             LIMIT ?
-        """, (category, limit))
+        """, (category, limit * 3))  # Fetch more to allow filtering
     else:
         cursor.execute("""
             SELECT id, title, url, source, category, published, summary
             FROM articles
             ORDER BY published DESC
             LIMIT ?
-        """, (limit,))
+        """, (limit * 3,))  # Fetch more to allow filtering
     
-    return cursor.fetchall()
+    all_articles = cursor.fetchall()
+    
+    # Apply per-source limit
+    source_counts = defaultdict(int)
+    filtered_articles = []
+    
+    for article in all_articles:
+        source = article[3]  # source is at index 3
+        if source_counts[source] < MAX_PER_SOURCE:
+            filtered_articles.append(article)
+            source_counts[source] += 1
+        
+        if len(filtered_articles) >= limit:
+            break
+    
+    return filtered_articles
 
 
 def get_categories(conn):
@@ -248,11 +265,11 @@ def generate_rss(articles):
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>{SITE_NAME}</title>
-        <link>https://frostbyte-holding.github.io/ai-unfiltered/</link>
+        <link>https://ai-unfiltered.com/</link>
         <description>{SITE_DESCRIPTION}</description>
         <language>en-us</language>
         <lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
-        <atom:link href="https://frostbyte-holding.github.io/ai-unfiltered/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         {items}
     </channel>
 </rss>
@@ -287,6 +304,7 @@ def main():
     """Main entry point."""
     print("=" * 50)
     print("AI Unfiltered - Site Generator")
+    print(f"Max {MAX_PER_SOURCE} articles per source")
     print("=" * 50)
     
     # Ensure docs directory exists
