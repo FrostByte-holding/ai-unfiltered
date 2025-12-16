@@ -1,5 +1,5 @@
 # AI Unfiltered - Curated RSS Feeds
-# Categories: research, chinese-ai, llm, industry, company, community
+# Categories: research, chinese-ai, llm, industry, company, community, open-source
 
 feeds:
   # === ARXIV (Research Papers) ===
@@ -95,6 +95,36 @@ feeds:
   - name: "r/LocalLLaMA"
     url: "https://www.reddit.com/r/LocalLLaMA/.rss"
     category: "community"
+
+  # === OPEN SOURCE AI ===
+  - name: "r/OpenSourceAI"
+    url: "https://www.reddit.com/r/OpenSourceAI/.rss"
+    category: "open-source"
+    max_per_day: 3
+    
+  - name: "Hugging Face Papers"
+    url: "https://huggingface.co/papers/rss"
+    category: "open-source"
+    
+  - name: "GitHub Trending ML"
+    url: "https://rsshub.app/github/trending/daily/python?since=daily"
+    category: "open-source"
+    max_per_day: 5
+    
+  # Chinese Open Source (these often release open-weight models)
+  - name: "DeepSeek Blog"
+    url: "https://api-docs.deepseek.com/news/rss"
+    category: "open-source"
+    
+  - name: "Qwen GitHub Releases"
+    url: "https://rsshub.app/github/repos/QwenLM/Qwen/releases"
+    category: "open-source"
+    max_per_day: 3
+    
+  - name: "01.AI GitHub"
+    url: "https://rsshub.app/github/repos/01-ai/Yi/releases"
+    category: "open-source"
+    max_per_day: 3
 
   # === TECH NEWS (AI sections) ===
   - name: "TechCrunch"

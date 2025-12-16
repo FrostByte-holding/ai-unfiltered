@@ -86,6 +86,7 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
     name = feed_config['name']
     url = feed_config['url']
     category = feed_config['category']
+    max_per_day = feed_config.get('max_per_day', 30)  # Default to 30 if not specified
     
     print(f"  Fetching: {name}")
     
@@ -98,6 +99,17 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
         
         cursor = conn.cursor()
         new_count = 0
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        
+        # Check how many articles from this source we already have today
+        cursor.execute("""
+            SELECT COUNT(*) FROM articles 
+            WHERE source = ? AND published LIKE ?
+        """, (name, f"{today}%"))
+        today_count = cursor.fetchone()[0]
+        
+        # Calculate remaining slots for today
+        remaining_slots = max(0, max_per_day - today_count)
         
         for entry in feed.entries[:30]:  # Limit to latest 30 per feed
             # Get URL
@@ -118,6 +130,10 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
             summary = clean_summary(entry.get('summary', entry.get('description', '')))
             fetched = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
             
+            # Check if we've hit the daily limit for this feed
+            if remaining_slots <= 0:
+                continue
+            
             # Insert
             cursor.execute("""
                 INSERT INTO articles (id, title, url, source, category, published, fetched, summary)
@@ -125,6 +141,7 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
             """, (article_id, title, url, name, category, published, fetched, summary))
             
             new_count += 1
+            remaining_slots -= 1
         
         conn.commit()
         print(f"    ✓ Added {new_count} new articles")

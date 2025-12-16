@@ -188,6 +188,7 @@ def generate_header(active_category=None):
             <a href="/chinese-ai.html" class="{'active' if active_category == 'chinese-ai' else ''}">chinese ai</a>
             <a href="/research.html" class="{'active' if active_category == 'research' else ''}">research</a>
             <a href="/llm.html" class="{'active' if active_category == 'llm' else ''}">llm</a>
+            <a href="/open-source.html" class="{'active' if active_category == 'open-source' else ''}">open source</a>
             <a href="/industry.html" class="{'active' if active_category == 'industry' else ''}">industry</a>
             <a href="/rss.xml">rss</a>
         </nav>
@@ -263,6 +264,7 @@ AI Unfiltered is an automated news aggregator focused on artificial intelligence
 - [Chinese AI](https://ai-unfiltered.com/chinese-ai.html): News about Chinese AI companies and research (DeepSeek, Qwen, Zhipu, etc.)
 - [Research](https://ai-unfiltered.com/research.html): Academic papers and research from arXiv
 - [LLM](https://ai-unfiltered.com/llm.html): Large Language Model news and developments
+- [Open Source](https://ai-unfiltered.com/open-source.html): Open source AI projects and discussions
 - [Industry](https://ai-unfiltered.com/industry.html): AI industry news, funding, and business
 - [Company](https://ai-unfiltered.com/company.html): Company blogs and announcements
 - [Community](https://ai-unfiltered.com/community.html): Reddit, forums, and community discussions
@@ -408,7 +410,7 @@ def main():
     build_page(conn, filename="index.html")
     
     # Build category pages
-    categories = ['chinese-ai', 'research', 'llm', 'industry', 'company', 'community']
+    categories = ['chinese-ai', 'research', 'llm', 'open-source', 'industry', 'company', 'community']
     for cat in categories:
         build_page(conn, category=cat, filename=f"{cat}.html")
     
