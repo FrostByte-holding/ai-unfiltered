@@ -2,6 +2,7 @@
 """
 AI Unfiltered - RSS Feed Fetcher
 Fetches articles from curated RSS feeds and stores in SQLite database.
+Includes LLM-based scoring for research papers to filter signal from noise.
 """
 
 import feedparser
@@ -9,6 +10,8 @@ import sqlite3
 import hashlib
 import yaml
 import os
+import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -16,6 +19,10 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent.parent
 FEEDS_FILE = ROOT_DIR / "feeds.yaml"
 DB_FILE = ROOT_DIR / "data" / "articles.db"
+
+# LLM scoring config
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', '')
+ENABLE_LLM_SCORING = bool(OPENAI_API_KEY)
 
 
 def init_db():
@@ -32,13 +39,26 @@ def init_db():
             category TEXT NOT NULL,
             published TEXT,
             fetched TEXT NOT NULL,
-            summary TEXT
+            summary TEXT,
+            score REAL DEFAULT 0,
+            tier INTEGER DEFAULT 2
         )
     """)
+    
+    # Add score and tier columns if they don't exist (migration)
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN score REAL DEFAULT 0")
+    except:
+        pass
+    try:
+        cursor.execute("ALTER TABLE articles ADD COLUMN tier INTEGER DEFAULT 2")
+    except:
+        pass
     
     # Index for faster queries
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_published ON articles(published DESC)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_category ON articles(category)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_score ON articles(score DESC)")
     
     conn.commit()
     return conn
@@ -51,7 +71,6 @@ def generate_id(url: str) -> str:
 
 def parse_date(entry) -> str:
     """Extract and normalize publication date from feed entry."""
-    # Try different date fields
     for field in ['published_parsed', 'updated_parsed', 'created_parsed']:
         if hasattr(entry, field) and getattr(entry, field):
             try:
@@ -59,8 +78,6 @@ def parse_date(entry) -> str:
                 return dt.strftime("%Y-%m-%d %H:%M:%S")
             except:
                 pass
-    
-    # Fallback to now
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
 
@@ -68,17 +85,60 @@ def clean_summary(summary: str, max_length: int = 300) -> str:
     """Clean and truncate summary text."""
     if not summary:
         return ""
-    
-    # Remove HTML tags (simple approach)
-    import re
     clean = re.sub(r'<[^>]+>', '', summary)
     clean = re.sub(r'\s+', ' ', clean).strip()
-    
-    # Truncate
     if len(clean) > max_length:
         clean = clean[:max_length].rsplit(' ', 1)[0] + "..."
-    
     return clean
+
+
+def score_research_paper(title: str, summary: str) -> float:
+    """
+    Use LLM to score research paper relevance and impact.
+    Returns score 0-10. Higher = more important.
+    """
+    if not ENABLE_LLM_SCORING:
+        return 5.0  # Default middle score if no API key
+    
+    try:
+        from openai import OpenAI
+        client = OpenAI()
+        
+        prompt = f"""Score this AI research paper from 0-10 based on:
+- Novelty (is this a new approach or incremental?)
+- Impact (will this matter to practitioners?)
+- Relevance (is this about LLMs, Chinese AI, open source, or security?)
+
+Title: {title}
+Abstract: {summary[:500]}
+
+Respond with ONLY a number 0-10. High scores (8-10) for:
+- New model architectures or training methods
+- Chinese AI developments (DeepSeek, Qwen, etc.)
+- Security/safety research
+- Significant benchmarks or evaluations
+
+Low scores (0-3) for:
+- Minor incremental improvements
+- Narrow domain applications
+- Survey papers without new contributions
+
+Score:"""
+
+        response = client.chat.completions.create(
+            model="gpt-4.1-nano",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=10,
+            temperature=0
+        )
+        
+        score_text = response.choices[0].message.content.strip()
+        score = float(re.search(r'[\d.]+', score_text).group())
+        return min(10, max(0, score))
+        
+    except Exception as e:
+        print(f"      LLM scoring failed: {e}")
+        return 5.0
 
 
 def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
@@ -86,7 +146,9 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
     name = feed_config['name']
     url = feed_config['url']
     category = feed_config['category']
-    max_per_day = feed_config.get('max_per_day', 30)  # Default to 30 if not specified
+    max_per_day = feed_config.get('max_per_day', 30)
+    tier = feed_config.get('tier', 2)
+    requires_scoring = feed_config.get('requires_scoring', False)
     
     print(f"  Fetching: {name}")
     
@@ -107,12 +169,12 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
             WHERE source = ? AND published LIKE ?
         """, (name, f"{today}%"))
         today_count = cursor.fetchone()[0]
-        
-        # Calculate remaining slots for today
         remaining_slots = max(0, max_per_day - today_count)
         
-        for entry in feed.entries[:30]:  # Limit to latest 30 per feed
-            # Get URL
+        # For scoring feeds, collect candidates first
+        candidates = []
+        
+        for entry in feed.entries[:30]:
             url = entry.get('link', '')
             if not url:
                 continue
@@ -124,24 +186,41 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
             if cursor.fetchone():
                 continue
             
-            # Extract data
             title = entry.get('title', 'Untitled')
             published = parse_date(entry)
             summary = clean_summary(entry.get('summary', entry.get('description', '')))
             fetched = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
             
-            # Check if we've hit the daily limit for this feed
-            if remaining_slots <= 0:
-                continue
+            candidates.append({
+                'id': article_id,
+                'title': title,
+                'url': url,
+                'published': published,
+                'summary': summary,
+                'fetched': fetched,
+                'score': 5.0
+            })
+        
+        # Score candidates if required
+        if requires_scoring and ENABLE_LLM_SCORING and candidates:
+            print(f"    Scoring {len(candidates)} papers...")
+            for c in candidates:
+                c['score'] = score_research_paper(c['title'], c['summary'])
+                print(f"      {c['score']:.1f} - {c['title'][:50]}...")
             
-            # Insert
+            # Sort by score and take top ones
+            candidates.sort(key=lambda x: x['score'], reverse=True)
+            candidates = [c for c in candidates if c['score'] >= 6.0][:remaining_slots]
+        else:
+            candidates = candidates[:remaining_slots]
+        
+        # Insert candidates
+        for c in candidates:
             cursor.execute("""
-                INSERT INTO articles (id, title, url, source, category, published, fetched, summary)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            """, (article_id, title, url, name, category, published, fetched, summary))
-            
+                INSERT INTO articles (id, title, url, source, category, published, fetched, summary, score, tier)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (c['id'], c['title'], c['url'], name, category, c['published'], c['fetched'], c['summary'], c['score'], tier))
             new_count += 1
-            remaining_slots -= 1
         
         conn.commit()
         print(f"    ✓ Added {new_count} new articles")
@@ -156,19 +235,17 @@ def main():
     """Main entry point."""
     print("=" * 50)
     print("AI Unfiltered - RSS Fetcher")
+    print(f"LLM Scoring: {'Enabled' if ENABLE_LLM_SCORING else 'Disabled'}")
     print("=" * 50)
     
-    # Load feeds config
     with open(FEEDS_FILE, 'r') as f:
         config = yaml.safe_load(f)
     
     feeds = config.get('feeds', [])
     print(f"\nLoaded {len(feeds)} feeds from config\n")
     
-    # Initialize database
     conn = init_db()
     
-    # Fetch all feeds
     total_new = 0
     for feed in feeds:
         new = fetch_feed(feed, conn)

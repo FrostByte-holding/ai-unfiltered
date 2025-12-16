@@ -18,7 +18,7 @@ DOCS_DIR = ROOT_DIR / "docs"
 
 # Site config
 SITE_NAME = "AI Unfiltered"
-SITE_DESCRIPTION = "Raw AI news. No fluff. Updated every 4 hours."
+SITE_DESCRIPTION = "Chinese AI • Open Source • Security • Incidents. Signal, not noise."
 ARTICLES_PER_PAGE = 100
 MAX_PER_SOURCE = 5  # Maximum articles per source per page
 
@@ -186,12 +186,10 @@ def generate_header(active_category=None):
         <nav>
             <a href="/" class="{'active' if not active_category else ''}">all</a>
             <a href="/chinese-ai.html" class="{'active' if active_category == 'chinese-ai' else ''}">chinese ai</a>
-            <a href="/research.html" class="{'active' if active_category == 'research' else ''}">research</a>
-            <a href="/llm.html" class="{'active' if active_category == 'llm' else ''}">llm</a>
             <a href="/open-source.html" class="{'active' if active_category == 'open-source' else ''}">open source</a>
             <a href="/security.html" class="{'active' if active_category == 'security' else ''}">security</a>
-            <a href="/infrastructure.html" class="{'active' if active_category == 'infrastructure' else ''}">infra</a>
-            <a href="/industry.html" class="{'active' if active_category == 'industry' else ''}">industry</a>
+            <a href="/incidents.html" class="{'active' if active_category == 'incidents' else ''}">incidents</a>
+            <a href="/research.html" class="{'active' if active_category == 'research' else ''}">research</a>
             <a href="/rss.xml">rss</a>
         </nav>
     </header>
@@ -251,9 +249,9 @@ def generate_llms_txt(conn):
     
     return f"""# AI Unfiltered
 
-> Raw AI news aggregator. No fluff. Updated every 4 hours.
+> Chinese AI • Open Source • Security • Incidents. Signal, not noise.
 
-AI Unfiltered is an automated news aggregator focused on artificial intelligence, machine learning, LLMs, and Chinese AI developments. We aggregate from 25+ RSS feeds and link to original sources.
+AI Unfiltered is a focused news aggregator covering what matters: Chinese AI developments, open source model releases, AI security incidents, and operational failures. No Reddit noise. No press release recycling. LLM-scored research papers.
 
 ## Stats
 - Total articles: {total}
@@ -262,16 +260,12 @@ AI Unfiltered is an automated news aggregator focused on artificial intelligence
 
 ## Sections
 
-- [All News](https://ai-unfiltered.com/): Latest AI news from all categories
-- [Chinese AI](https://ai-unfiltered.com/chinese-ai.html): News about Chinese AI companies and research (DeepSeek, Qwen, Zhipu, etc.)
-- [Research](https://ai-unfiltered.com/research.html): Academic papers and research from arXiv
-- [LLM](https://ai-unfiltered.com/llm.html): Large Language Model news and developments
-- [Open Source](https://ai-unfiltered.com/open-source.html): Open source AI tools (Ollama, vLLM, LangChain) and model releases (Mistral, LLaMA, Qwen, Yi)
-- [Security](https://ai-unfiltered.com/security.html): AI security, prompt injection, jailbreaks, and vulnerabilities
-- [Infrastructure](https://ai-unfiltered.com/infrastructure.html): Cloud outages, reliability issues, and ops problems
-- [Industry](https://ai-unfiltered.com/industry.html): AI industry news, funding, and business
-- [Company](https://ai-unfiltered.com/company.html): Company blogs and announcements
-- [Community](https://ai-unfiltered.com/community.html): Reddit, forums, and community discussions
+- [All News](https://ai-unfiltered.com/): Latest curated AI news
+- [Chinese AI](https://ai-unfiltered.com/chinese-ai.html): DeepSeek, Qwen, Zhipu, Baidu, ByteDance, and Chinese AI ecosystem
+- [Open Source](https://ai-unfiltered.com/open-source.html): Model releases (Mistral, LLaMA, Qwen, Yi) and tools (Ollama, vLLM, LangChain)
+- [Security](https://ai-unfiltered.com/security.html): Prompt injection, jailbreaks, AI vulnerabilities, and breaches
+- [Incidents](https://ai-unfiltered.com/incidents.html): Cloud outages, infrastructure failures, operational reality
+- [Research](https://ai-unfiltered.com/research.html): LLM-scored arXiv papers (filtered for impact, not volume)
 
 ## Feeds
 
@@ -414,7 +408,7 @@ def main():
     build_page(conn, filename="index.html")
     
     # Build category pages
-    categories = ['chinese-ai', 'research', 'llm', 'open-source', 'security', 'infrastructure', 'industry', 'company', 'community']
+    categories = ['chinese-ai', 'open-source', 'security', 'incidents', 'research']
     for cat in categories:
         build_page(conn, category=cat, filename=f"{cat}.html")
     

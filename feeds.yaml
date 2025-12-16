@@ -1,237 +1,164 @@
-# AI Unfiltered - Curated RSS Feeds
-# Categories: research, chinese-ai, llm, open-source, security, infrastructure, industry, company, community
+# AI Unfiltered - Focused RSS Feeds
+# Focus: Chinese AI, Open Source, Security, Infrastructure
+# Categories: chinese-ai, open-source, security, incidents, research
 
 feeds:
-  # === ARXIV (Research Papers) ===
-  - name: "arXiv AI"
-    url: "https://rss.arxiv.org/rss/cs.AI"
-    category: "research"
-    
-  - name: "arXiv Machine Learning"
-    url: "https://rss.arxiv.org/rss/cs.LG"
-    category: "research"
-    
-  - name: "arXiv NLP"
-    url: "https://rss.arxiv.org/rss/cs.CL"
-    category: "research"
-
-  # === CHINESE AI (Your Differentiator) ===
+  # === CHINESE AI (Primary Differentiator) ===
   - name: "Synced Review"
     url: "https://syncedreview.com/feed"
     category: "chinese-ai"
+    tier: 1
     
   - name: "ChinAI Newsletter"
     url: "https://chinai.substack.com/feed"
     category: "chinese-ai"
+    tier: 1
     
   - name: "Pandaily"
     url: "https://pandaily.com/feed"
     category: "chinese-ai"
+    tier: 2
 
-  # === MAJOR AI COMPANIES ===
-  - name: "OpenAI Blog"
-    url: "https://openai.com/blog/rss/"
-    category: "company"
-    
-  - name: "Google AI Blog"
-    url: "http://googleaiblog.blogspot.com/atom.xml"
-    category: "company"
-    
-  - name: "DeepMind Blog"
-    url: "https://deepmind.com/blog/feed/basic/"
-    category: "company"
-    
-  - name: "Hugging Face Blog"
-    url: "https://huggingface.co/blog/feed.xml"
-    category: "company"
-    
-  - name: "NVIDIA AI Blog"
-    url: "https://developer.nvidia.com/blog/feed"
-    category: "company"
-
-  # === AI NEWS SITES ===
-  - name: "VentureBeat AI"
-    url: "https://venturebeat.com/category/ai/feed/"
-    category: "industry"
-    
-  - name: "THE DECODER"
-    url: "https://the-decoder.com/feed/"
-    category: "industry"
-    
-  - name: "AI News"
-    url: "https://www.artificialintelligence-news.com/feed/rss/"
-    category: "industry"
-    
-  - name: "Unite.AI"
-    url: "https://www.unite.ai/feed/"
-    category: "industry"
-    
-  - name: "MarkTechPost"
-    url: "https://www.marktechpost.com/feed"
-    category: "industry"
-
-  # === NEWSLETTERS & BLOGS ===
-  - name: "Latent Space"
-    url: "https://www.latent.space/feed"
-    category: "llm"
-    
-  - name: "Simon Willison"
-    url: "https://simonwillison.net/atom/everything/"
-    category: "llm"
-    
-  - name: "The Rundown AI"
-    url: "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml"
-    category: "industry"
-    
-  - name: "Last Week in AI"
-    url: "https://lastweekin.ai/feed"
-    category: "industry"
-
-  # === COMMUNITY ===
-  - name: "r/MachineLearning"
-    url: "https://www.reddit.com/r/MachineLearning/.rss"
-    category: "community"
-    
-  - name: "r/LocalLLaMA"
-    url: "https://www.reddit.com/r/LocalLLaMA/.rss"
-    category: "community"
-
-  # === OPEN SOURCE AI ===
-  - name: "r/OpenSourceAI"
-    url: "https://www.reddit.com/r/OpenSourceAI/.rss"
+  # === OPEN SOURCE MODEL RELEASES ===
+  # Chinese Open Source
+  - name: "Qwen Releases"
+    url: "https://rsshub.app/github/repos/QwenLM/Qwen2.5/releases"
     category: "open-source"
+    tier: 1
     max_per_day: 3
     
-  - name: "Hugging Face Papers"
-    url: "https://huggingface.co/papers/rss"
+  - name: "DeepSeek Releases"
+    url: "https://rsshub.app/github/repos/deepseek-ai/DeepSeek-LLM/releases"
     category: "open-source"
+    tier: 1
+    max_per_day: 3
     
-  - name: "GitHub Trending ML"
-    url: "https://rsshub.app/github/trending/daily/python?since=daily"
+  - name: "Yi Releases"
+    url: "https://rsshub.app/github/repos/01-ai/Yi/releases"
     category: "open-source"
-    max_per_day: 5
+    tier: 1
+    max_per_day: 3
 
-  # Open Source Tools - GitHub Releases
+  # Western Open Source
+  - name: "Mistral Releases"
+    url: "https://rsshub.app/github/repos/mistralai/mistral-inference/releases"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  - name: "LLaMA Releases"
+    url: "https://rsshub.app/github/repos/meta-llama/llama/releases"
+    category: "open-source"
+    tier: 1
+    max_per_day: 3
+
+  # Open Source Tools
   - name: "Ollama Releases"
     url: "https://rsshub.app/github/repos/ollama/ollama/releases"
     category: "open-source"
+    tier: 1
     max_per_day: 2
     
   - name: "vLLM Releases"
     url: "https://rsshub.app/github/repos/vllm-project/vllm/releases"
     category: "open-source"
-    max_per_day: 2
-    
-  - name: "LangChain Releases"
-    url: "https://rsshub.app/github/repos/langchain-ai/langchain/releases"
-    category: "open-source"
-    max_per_day: 2
-    
-  - name: "LlamaIndex Releases"
-    url: "https://rsshub.app/github/repos/run-llama/llama_index/releases"
-    category: "open-source"
+    tier: 1
     max_per_day: 2
 
   - name: "TensorRT-LLM Releases"
     url: "https://rsshub.app/github/repos/NVIDIA/TensorRT-LLM/releases"
     category: "open-source"
+    tier: 2
     max_per_day: 2
 
-  # Chinese Open Source Models
-  - name: "DeepSeek Blog"
-    url: "https://api-docs.deepseek.com/news/rss"
+  - name: "LangChain Releases"
+    url: "https://rsshub.app/github/repos/langchain-ai/langchain/releases"
     category: "open-source"
-    
-  - name: "Qwen GitHub Releases"
-    url: "https://rsshub.app/github/repos/QwenLM/Qwen/releases"
-    category: "open-source"
-    max_per_day: 3
-    
-  - name: "01.AI Yi Releases"
-    url: "https://rsshub.app/github/repos/01-ai/Yi/releases"
-    category: "open-source"
-    max_per_day: 3
-
-  - name: "Mistral Releases"
-    url: "https://rsshub.app/github/repos/mistralai/mistral-inference/releases"
-    category: "open-source"
+    tier: 2
     max_per_day: 2
 
-  - name: "Meta LLaMA Releases"
-    url: "https://rsshub.app/github/repos/meta-llama/llama/releases"
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
     category: "open-source"
-    max_per_day: 2
+    tier: 1
 
-  # === AI SECURITY (Prompt Injection, Jailbreaks, Vulnerabilities) ===
-  - name: "The Hacker News AI"
+  # === SECURITY (Prompt Injection, Jailbreaks, AI Vulnerabilities) ===
+  - name: "The Hacker News"
     url: "https://feeds.feedburner.com/TheHackersNews"
     category: "security"
+    tier: 1
     max_per_day: 5
     
   - name: "Security Week"
     url: "https://www.securityweek.com/feed/"
     category: "security"
+    tier: 1
     max_per_day: 5
     
   - name: "NCSC UK"
     url: "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"
     category: "security"
+    tier: 1
     max_per_day: 3
     
   - name: "Krebs on Security"
     url: "https://krebsonsecurity.com/feed/"
     category: "security"
-    max_per_day: 3
-    
-  - name: "SANS ISC"
-    url: "https://isc.sans.edu/rssfeed.xml"
-    category: "security"
+    tier: 1
     max_per_day: 3
 
-  - name: "r/netsec"
-    url: "https://www.reddit.com/r/netsec/.rss"
-    category: "security"
-    max_per_day: 3
-
-  # === INFRASTRUCTURE (Outages, Cloud Issues, Reliability) ===
+  # === INCIDENTS (Outages, Failures, Operational Reality) ===
   - name: "AWS Status"
     url: "https://status.aws.amazon.com/rss/all.rss"
-    category: "infrastructure"
-    
+    category: "incidents"
+    tier: 1
+
   - name: "HN Outages"
-    url: "https://hnrss.org/newest?q=outage"
-    category: "infrastructure"
+    url: "https://hnrss.org/newest?q=outage+OR+down+OR+incident"
+    category: "incidents"
+    tier: 2
+    max_per_day: 5
+
+  # === RESEARCH (Filtered - only high-impact) ===
+  - name: "arXiv AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "research"
+    tier: 1
+    requires_scoring: true
     max_per_day: 5
     
-  - name: "HN AWS"
-    url: "https://hnrss.org/newest?q=AWS+down"
-    category: "infrastructure"
-    max_per_day: 3
+  - name: "arXiv Machine Learning"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: "research"
+    tier: 1
+    requires_scoring: true
+    max_per_day: 5
     
-  - name: "HN Cloud Reliability"
-    url: "https://hnrss.org/newest?q=cloud+reliability"
-    category: "infrastructure"
-    max_per_day: 3
+  - name: "arXiv NLP"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "research"
+    tier: 1
+    requires_scoring: true
+    max_per_day: 5
 
-  - name: "r/sysadmin"
-    url: "https://www.reddit.com/r/sysadmin/.rss"
-    category: "infrastructure"
-    max_per_day: 3
-
-  - name: "r/devops"
-    url: "https://www.reddit.com/r/devops/.rss"
-    category: "infrastructure"
-    max_per_day: 3
-
-  # === TECH NEWS (AI sections) ===
-  - name: "TechCrunch"
-    url: "https://techcrunch.com/feed/"
-    category: "industry"
+  # === COMPANY BLOGS (Only major players, no press releases) ===
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss/"
+    category: "open-source"
+    tier: 1
     
-  - name: "Wired AI"
-    url: "https://www.wired.com/feed/tag/ai/latest/rss"
-    category: "industry"
+  - name: "DeepMind Blog"
+    url: "https://deepmind.com/blog/feed/basic/"
+    category: "research"
+    tier: 1
     
-  - name: "MIT Technology Review"
-    url: "https://www.technologyreview.com/feed/"
-    category: "industry"
+  - name: "Google AI Blog"
+    url: "http://googleaiblog.blogspot.com/atom.xml"
+    category: "research"
+    tier: 2
+
+  # === QUALITY NEWSLETTERS (Editorial, not aggregation) ===
+  - name: "Latent Space"
+    url: "https://www.latent.space/feed"
+    category: "open-source"
+    tier: 1
