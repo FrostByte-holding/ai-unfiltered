@@ -189,6 +189,8 @@ def generate_header(active_category=None):
             <a href="/research.html" class="{'active' if active_category == 'research' else ''}">research</a>
             <a href="/llm.html" class="{'active' if active_category == 'llm' else ''}">llm</a>
             <a href="/open-source.html" class="{'active' if active_category == 'open-source' else ''}">open source</a>
+            <a href="/security.html" class="{'active' if active_category == 'security' else ''}">security</a>
+            <a href="/infrastructure.html" class="{'active' if active_category == 'infrastructure' else ''}">infra</a>
             <a href="/industry.html" class="{'active' if active_category == 'industry' else ''}">industry</a>
             <a href="/rss.xml">rss</a>
         </nav>
@@ -264,7 +266,9 @@ AI Unfiltered is an automated news aggregator focused on artificial intelligence
 - [Chinese AI](https://ai-unfiltered.com/chinese-ai.html): News about Chinese AI companies and research (DeepSeek, Qwen, Zhipu, etc.)
 - [Research](https://ai-unfiltered.com/research.html): Academic papers and research from arXiv
 - [LLM](https://ai-unfiltered.com/llm.html): Large Language Model news and developments
-- [Open Source](https://ai-unfiltered.com/open-source.html): Open source AI projects and discussions
+- [Open Source](https://ai-unfiltered.com/open-source.html): Open source AI tools (Ollama, vLLM, LangChain) and model releases (Mistral, LLaMA, Qwen, Yi)
+- [Security](https://ai-unfiltered.com/security.html): AI security, prompt injection, jailbreaks, and vulnerabilities
+- [Infrastructure](https://ai-unfiltered.com/infrastructure.html): Cloud outages, reliability issues, and ops problems
 - [Industry](https://ai-unfiltered.com/industry.html): AI industry news, funding, and business
 - [Company](https://ai-unfiltered.com/company.html): Company blogs and announcements
 - [Community](https://ai-unfiltered.com/community.html): Reddit, forums, and community discussions
@@ -410,7 +414,7 @@ def main():
     build_page(conn, filename="index.html")
     
     # Build category pages
-    categories = ['chinese-ai', 'research', 'llm', 'open-source', 'industry', 'company', 'community']
+    categories = ['chinese-ai', 'research', 'llm', 'open-source', 'security', 'infrastructure', 'industry', 'company', 'community']
     for cat in categories:
         build_page(conn, category=cat, filename=f"{cat}.html")
     

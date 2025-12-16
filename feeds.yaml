@@ -1,5 +1,5 @@
 # AI Unfiltered - Curated RSS Feeds
-# Categories: research, chinese-ai, llm, industry, company, community, open-source
+# Categories: research, chinese-ai, llm, open-source, security, infrastructure, industry, company, community
 
 feeds:
   # === ARXIV (Research Papers) ===
@@ -110,8 +110,34 @@ feeds:
     url: "https://rsshub.app/github/trending/daily/python?since=daily"
     category: "open-source"
     max_per_day: 5
+
+  # Open Source Tools - GitHub Releases
+  - name: "Ollama Releases"
+    url: "https://rsshub.app/github/repos/ollama/ollama/releases"
+    category: "open-source"
+    max_per_day: 2
     
-  # Chinese Open Source (these often release open-weight models)
+  - name: "vLLM Releases"
+    url: "https://rsshub.app/github/repos/vllm-project/vllm/releases"
+    category: "open-source"
+    max_per_day: 2
+    
+  - name: "LangChain Releases"
+    url: "https://rsshub.app/github/repos/langchain-ai/langchain/releases"
+    category: "open-source"
+    max_per_day: 2
+    
+  - name: "LlamaIndex Releases"
+    url: "https://rsshub.app/github/repos/run-llama/llama_index/releases"
+    category: "open-source"
+    max_per_day: 2
+
+  - name: "TensorRT-LLM Releases"
+    url: "https://rsshub.app/github/repos/NVIDIA/TensorRT-LLM/releases"
+    category: "open-source"
+    max_per_day: 2
+
+  # Chinese Open Source Models
   - name: "DeepSeek Blog"
     url: "https://api-docs.deepseek.com/news/rss"
     category: "open-source"
@@ -121,9 +147,80 @@ feeds:
     category: "open-source"
     max_per_day: 3
     
-  - name: "01.AI GitHub"
+  - name: "01.AI Yi Releases"
     url: "https://rsshub.app/github/repos/01-ai/Yi/releases"
     category: "open-source"
+    max_per_day: 3
+
+  - name: "Mistral Releases"
+    url: "https://rsshub.app/github/repos/mistralai/mistral-inference/releases"
+    category: "open-source"
+    max_per_day: 2
+
+  - name: "Meta LLaMA Releases"
+    url: "https://rsshub.app/github/repos/meta-llama/llama/releases"
+    category: "open-source"
+    max_per_day: 2
+
+  # === AI SECURITY (Prompt Injection, Jailbreaks, Vulnerabilities) ===
+  - name: "The Hacker News AI"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    category: "security"
+    max_per_day: 5
+    
+  - name: "Security Week"
+    url: "https://www.securityweek.com/feed/"
+    category: "security"
+    max_per_day: 5
+    
+  - name: "NCSC UK"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"
+    category: "security"
+    max_per_day: 3
+    
+  - name: "Krebs on Security"
+    url: "https://krebsonsecurity.com/feed/"
+    category: "security"
+    max_per_day: 3
+    
+  - name: "SANS ISC"
+    url: "https://isc.sans.edu/rssfeed.xml"
+    category: "security"
+    max_per_day: 3
+
+  - name: "r/netsec"
+    url: "https://www.reddit.com/r/netsec/.rss"
+    category: "security"
+    max_per_day: 3
+
+  # === INFRASTRUCTURE (Outages, Cloud Issues, Reliability) ===
+  - name: "AWS Status"
+    url: "https://status.aws.amazon.com/rss/all.rss"
+    category: "infrastructure"
+    
+  - name: "HN Outages"
+    url: "https://hnrss.org/newest?q=outage"
+    category: "infrastructure"
+    max_per_day: 5
+    
+  - name: "HN AWS"
+    url: "https://hnrss.org/newest?q=AWS+down"
+    category: "infrastructure"
+    max_per_day: 3
+    
+  - name: "HN Cloud Reliability"
+    url: "https://hnrss.org/newest?q=cloud+reliability"
+    category: "infrastructure"
+    max_per_day: 3
+
+  - name: "r/sysadmin"
+    url: "https://www.reddit.com/r/sysadmin/.rss"
+    category: "infrastructure"
+    max_per_day: 3
+
+  - name: "r/devops"
+    url: "https://www.reddit.com/r/devops/.rss"
+    category: "infrastructure"
     max_per_day: 3
 
   # === TECH NEWS (AI sections) ===
