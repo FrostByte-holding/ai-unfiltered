@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raw AI news. No fluff. Updated every 4 hours.">
+    <title>Open Source - AI Unfiltered</title>
+    <link rel="alternate" type="application/rss+xml" title="AI Unfiltered RSS" href="/rss.xml">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { 
+            background: #000; 
+            color: #e0e0e0; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        body { 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        a { color: #4af; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        header { 
+            border-bottom: 1px solid #333; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px;
+        }
+        h1 { 
+            font-size: 1.5rem; 
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+        h1 a { color: #fff; }
+        .tagline { color: #666; font-size: 0.9rem; margin-top: 5px; }
+        nav { margin-top: 15px; }
+        nav a { 
+            margin-right: 15px; 
+            color: #888;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        nav a:hover, nav a.active { color: #4af; }
+        .article { 
+            margin-bottom: 25px; 
+            padding-bottom: 25px;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        .article:last-child { border-bottom: none; }
+        .article-title { 
+            font-size: 1.1rem;
+            line-height: 1.4;
+        }
+        .article-title a { color: #fff; }
+        .article-meta { 
+            margin-top: 8px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .article-meta a { color: #666; }
+        .article-meta a:hover { color: #4af; }
+        .source { color: #4af; }
+        .category { 
+            background: #1a1a1a;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-left: 10px;
+        }
+        .summary {
+            margin-top: 8px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        footer { 
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #444;
+            font-size: 0.8rem;
+        }
+        footer a { color: #666; }
+        .updated { color: #333; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="/">AI Unfiltered</a></h1>
+        <p class="tagline">Raw AI news. No fluff. Updated every 4 hours.</p>
+        <nav>
+            <a href="/" class="">all</a>
+            <a href="/chinese-ai.html" class="">chinese ai</a>
+            <a href="/research.html" class="">research</a>
+            <a href="/llm.html" class="">llm</a>
+            <a href="/open-source.html" class="active">open source</a>
+            <a href="/industry.html" class="">industry</a>
+            <a href="/rss.xml">rss</a>
+        </nav>
+    </header>
+    <main>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/OpenSourceAI/comments/1po36ww/project_steer_opensource_active_reliability_layer/" target="_blank" rel="noopener">[Project] Steer: Open-source &quot;active reliability&quot; layer for AI agents (Python)</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 16</span>
+                <span class="source">via r/OpenSourceAI</span>
+                <a href="/open-source.html" class="category">open-source</a>
+            </div>
+            <p class="summary">I built Steer because I wanted a way to fix AI agent errors (bad JSON, PII leaks) without sending my data to a cloud observability platform. It is a local-first Python library that uses decorators (@capture) to enforce deterministic guardrails in runtime. Repo: https://github.com/imtt-dev/steer...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/OpenSourceAI/comments/1pnaegi/intent_vectors_for_ai_search_knowledge_graphs_for/" target="_blank" rel="noopener">Intent vectors for AI search + knowledge graphs for AI analytics</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/OpenSourceAI</span>
+                <a href="/open-source.html" class="category">open-source</a>
+            </div>
+            <p class="summary">Hey all, we started building an AI project manager. Users needed to search for context about projects, and discover insights like open tasks holding up a launch. Vector search was terrible at #1 (couldn&#x27;t connect that auth bugs + App Store rejection + PR delays were all part of the same launch...</p>
+        </article>
+
+        <article class="article">
+            <h2 class="article-title">
+                <a href="https://www.reddit.com/r/OpenSourceAI/comments/1pn4nqv/self_host_open_source_models/" target="_blank" rel="noopener">Self host open source models</a>
+            </h2>
+            <div class="article-meta">
+                <span class="date">Dec 15</span>
+                <span class="source">via r/OpenSourceAI</span>
+                <a href="/open-source.html" class="category">open-source</a>
+            </div>
+            <p class="summary">i&#x27;m currently building a kind of AI inference marketplace, where users can choose between different models to generate text, images, audio, etc. I just hit myself against a legal wall trying to use replicate (even when the model licences allow commercial use). So i&#x27;m redesigning that layer to only...</p>
+        </article>
+
+    </main>
+    <footer>
+        <p>
+            <a href="/rss.xml">RSS Feed</a> · 
+            Updated every 4 hours · 
+            <span class="updated">Last: 2025-12-16 19:04 UTC</span>
+        </p>
+        <p>Links to original sources. No content is copied.</p>
+    </footer>
+</body>
+</html>
