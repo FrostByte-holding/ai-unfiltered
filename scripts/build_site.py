@@ -237,6 +237,84 @@ def generate_footer():
 """
 
 
+def generate_llms_txt(conn):
+    """Generate llms.txt file for AI agents."""
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM articles')
+    total = cursor.fetchone()[0]
+    
+    cursor.execute('SELECT MIN(published), MAX(published) FROM articles')
+    min_date, max_date = cursor.fetchone()
+    
+    return f"""# AI Unfiltered
+
+> Raw AI news aggregator. No fluff. Updated every 4 hours.
+
+AI Unfiltered is an automated news aggregator focused on artificial intelligence, machine learning, LLMs, and Chinese AI developments. We aggregate from 25+ RSS feeds and link to original sources.
+
+## Stats
+- Total articles: {total}
+- Date range: {min_date[:10] if min_date else 'N/A'} to {max_date[:10] if max_date else 'N/A'}
+- Update frequency: Every 4 hours
+
+## Sections
+
+- [All News](https://ai-unfiltered.com/): Latest AI news from all categories
+- [Chinese AI](https://ai-unfiltered.com/chinese-ai.html): News about Chinese AI companies and research (DeepSeek, Qwen, Zhipu, etc.)
+- [Research](https://ai-unfiltered.com/research.html): Academic papers and research from arXiv
+- [LLM](https://ai-unfiltered.com/llm.html): Large Language Model news and developments
+- [Industry](https://ai-unfiltered.com/industry.html): AI industry news, funding, and business
+- [Company](https://ai-unfiltered.com/company.html): Company blogs and announcements
+- [Community](https://ai-unfiltered.com/community.html): Reddit, forums, and community discussions
+
+## Feeds
+
+- [RSS Feed](https://ai-unfiltered.com/rss.xml): Subscribe to get updates
+- [llms-full.txt](https://ai-unfiltered.com/llms-full.txt): Full article list for AI agents
+
+## Source
+
+Open source on GitHub: https://github.com/FrostByte-holding/ai-unfiltered
+"""
+
+
+def generate_llms_full_txt(conn):
+    """Generate llms-full.txt with all recent articles for AI agents."""
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT title, url, source, category, published, summary
+        FROM articles
+        ORDER BY published DESC
+        LIMIT 500
+    """)
+    articles = cursor.fetchall()
+    
+    content = """# AI Unfiltered - Full Article List
+
+> This file contains recent AI news articles for consumption by LLMs and AI agents.
+> Updated every 4 hours. Links to original sources.
+
+"""
+    
+    current_date = None
+    for title, url, source, category, published, summary in articles:
+        date_str = published[:10] if published else "Unknown"
+        
+        if date_str != current_date:
+            current_date = date_str
+            content += f"\n## {date_str}\n\n"
+        
+        content += f"### {title}\n"
+        content += f"- Source: {source}\n"
+        content += f"- Category: {category}\n"
+        content += f"- URL: {url}\n"
+        if summary:
+            content += f"- Summary: {summary}\n"
+        content += "\n"
+    
+    return content
+
+
 def generate_rss(articles):
     """Generate RSS feed XML."""
     items = ""
@@ -340,6 +418,17 @@ def main():
     with open(DOCS_DIR / "rss.xml", 'w', encoding='utf-8') as f:
         f.write(rss)
     print(f"  ✓ Built rss.xml")
+    
+    # Build llms.txt files for AI agents
+    llms_txt = generate_llms_txt(conn)
+    with open(DOCS_DIR / "llms.txt", 'w', encoding='utf-8') as f:
+        f.write(llms_txt)
+    print(f"  ✓ Built llms.txt")
+    
+    llms_full = generate_llms_full_txt(conn)
+    with open(DOCS_DIR / "llms-full.txt", 'w', encoding='utf-8') as f:
+        f.write(llms_full)
+    print(f"  ✓ Built llms-full.txt")
     
     # Create .nojekyll file for GitHub Pages
     (DOCS_DIR / ".nojekyll").touch()
