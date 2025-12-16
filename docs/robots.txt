@@ -1,0 +1,16 @@
+# AI Unfiltered - robots.txt
+# Welcome all crawlers, search engines, and AI agents
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ai-unfiltered.com/sitemap.xml
+
+# LLM-friendly files for AI agents
+# See https://llmstxt.org/ for the llms.txt standard
+# llms.txt: https://ai-unfiltered.com/llms.txt
+# llms-full.txt: https://ai-unfiltered.com/llms-full.txt
+
+# Crawl-delay: none - crawl as fast as you want
+# This is a static site, no rate limiting needed

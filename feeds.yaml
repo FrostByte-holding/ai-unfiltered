@@ -113,12 +113,6 @@ feeds:
     category: "incidents"
     tier: 1
 
-  - name: "HN Outages"
-    url: "https://hnrss.org/newest?q=outage+OR+down+OR+incident"
-    category: "incidents"
-    tier: 2
-    max_per_day: 5
-
   # === RESEARCH (Filtered - only high-impact) ===
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"

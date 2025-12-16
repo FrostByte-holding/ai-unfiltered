@@ -84,15 +84,40 @@ def format_date(date_str):
         return date_str[:10] if date_str else ""
 
 
-def generate_html_head(title, description=None):
-    """Generate HTML head section."""
+def generate_html_head(title, description=None, canonical=None):
+    """Generate HTML head section with full SEO optimization."""
     desc = description or SITE_DESCRIPTION
+    canonical_url = canonical or "https://ai-unfiltered.com/"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{escape(desc)}">
+    <meta name="keywords" content="AI news, Chinese AI, DeepSeek, Qwen, open source AI, LLM, machine learning, AI security, prompt injection, cloud outages">
+    <meta name="author" content="AI Unfiltered">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{SITE_NAME}">
+    <meta property="og:title" content="{escape(title)}">
+    <meta property="og:description" content="{escape(desc)}">
+    <meta property="og:url" content="{canonical_url}">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{escape(title)}">
+    <meta name="twitter:description" content="{escape(desc)}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{canonical_url}">
+    
+    <!-- LLM-friendly files -->
+    <link rel="alternate" type="text/plain" title="LLMs.txt" href="/llms.txt">
+    <link rel="alternate" type="text/plain" title="LLMs Full" href="/llms-full.txt">
+    
     <title>{escape(title)}</title>
     <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} RSS" href="/rss.xml">
     <style>
@@ -315,6 +340,35 @@ def generate_llms_full_txt(conn):
     return content
 
 
+def generate_sitemap(categories):
+    """Generate sitemap.xml for SEO."""
+    now = datetime.utcnow().strftime("%Y-%m-%d")
+    
+    urls = [
+        ('https://ai-unfiltered.com/', '1.0', 'daily'),
+        ('https://ai-unfiltered.com/llms.txt', '0.8', 'daily'),
+        ('https://ai-unfiltered.com/llms-full.txt', '0.8', 'daily'),
+        ('https://ai-unfiltered.com/rss.xml', '0.7', 'daily'),
+    ]
+    
+    for cat in categories:
+        urls.append((f'https://ai-unfiltered.com/{cat}.html', '0.9', 'daily'))
+    
+    url_entries = ""
+    for url, priority, freq in urls:
+        url_entries += f"""  <url>
+    <loc>{url}</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>{freq}</changefreq>
+    <priority>{priority}</priority>
+  </url>\n"""
+    
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{url_entries}</urlset>
+"""
+
+
 def generate_rss(articles):
     """Generate RSS feed XML."""
     items = ""
@@ -359,8 +413,10 @@ def build_page(conn, category=None, filename="index.html"):
     articles = get_articles(conn, category=category)
     
     title = f"{category.replace('-', ' ').title()} - {SITE_NAME}" if category else SITE_NAME
+    canonical = f"https://ai-unfiltered.com/{filename}"
+    desc = f"{category.replace('-', ' ').title()} news and updates" if category else SITE_DESCRIPTION
     
-    html = generate_html_head(title)
+    html = generate_html_head(title, description=desc, canonical=canonical)
     html += generate_header(active_category=category)
     
     if not articles:
@@ -429,6 +485,12 @@ def main():
     with open(DOCS_DIR / "llms-full.txt", 'w', encoding='utf-8') as f:
         f.write(llms_full)
     print(f"  ✓ Built llms-full.txt")
+    
+    # Build sitemap.xml for SEO
+    sitemap = generate_sitemap(categories)
+    with open(DOCS_DIR / "sitemap.xml", 'w', encoding='utf-8') as f:
+        f.write(sitemap)
+    print(f"  ✓ Built sitemap.xml")
     
     # Create .nojekyll file for GitHub Pages
     (DOCS_DIR / ".nojekyll").touch()
