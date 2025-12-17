@@ -19,9 +19,8 @@ feeds:
     category: "chinese-ai"
     tier: 2
 
-  # === OPEN SOURCE - Quality Sources Only ===
+  # === OPEN SOURCE - Editorial Sources Only (No GitHub Releases) ===
   
-  # Curated Papers & News
   - name: "HF Daily Papers"
     url: "https://papers.takara.ai/api/feed"
     category: "open-source"
@@ -42,69 +41,6 @@ feeds:
     url: "https://thegradient.pub/rss/"
     category: "open-source"
     tier: 1
-
-  # GitHub Releases - Native .atom feeds (reliable)
-  - name: "Ollama Releases"
-    url: "https://github.com/ollama/ollama/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "vLLM Releases"
-    url: "https://github.com/vllm-project/vllm/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "LangChain Releases"
-    url: "https://github.com/langchain-ai/langchain/releases.atom"
-    category: "open-source"
-    tier: 2
-    max_per_day: 2
-
-  - name: "LlamaIndex Releases"
-    url: "https://github.com/run-llama/llama_index/releases.atom"
-    category: "open-source"
-    tier: 2
-    max_per_day: 2
-
-  - name: "Mistral Releases"
-    url: "https://github.com/mistralai/mistral-inference/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "LLaMA Releases"
-    url: "https://github.com/meta-llama/llama/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  # Chinese Open Source Models
-  - name: "Qwen Releases"
-    url: "https://github.com/QwenLM/Qwen2.5/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "DeepSeek Releases"
-    url: "https://github.com/deepseek-ai/DeepSeek-LLM/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  - name: "Yi Releases"
-    url: "https://github.com/01-ai/Yi/releases.atom"
-    category: "open-source"
-    tier: 1
-    max_per_day: 3
-
-  # NVIDIA Open Source
-  - name: "TensorRT-LLM Releases"
-    url: "https://github.com/NVIDIA/TensorRT-LLM/releases.atom"
-    category: "open-source"
-    tier: 2
-    max_per_day: 2
 
   # === SECURITY (Prompt Injection, Jailbreaks, AI Vulnerabilities) ===
   - name: "The Hacker News"
