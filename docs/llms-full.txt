@@ -6,6 +6,12 @@
 
 ## 2025-12-17
 
+### Network Congestion
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mvhhpwfxprg5
+- Summary: Dec 17, 20:23 UTCMonitoring - A fix has been implemented and we are monitoring the results.Dec 17, 19:55 UTCInvestigating - Cloudflare is observing possible network congestion in the western North America. We are working to mitigate impact to Internet users in this region. Stream users may see...
+
 ### Home working: preparing your organisation and staff
 - Source: NCSC UK
 - Category: security
@@ -476,6 +482,12 @@
 - URL: https://tldr.takara.ai/p/2512.14699
 - Summary: The core challenge for streaming video generation is maintaining the content consistency in long context, which poses high requirement for the memory design. Most existing solutions maintain the memory by compressing historical frames with predefined strategies. However, different to-generate video...
 
+### MMGR: Multi-Modal Generative Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.14691
+- Summary: Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook...
+
 ### GraphQL Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -536,6 +548,12 @@
 - URL: https://the-decoder.com/nearly-half-of-us-workers-now-use-ai-on-the-job-but-most-arent-using-it-daily/
 - Summary: The share of US employees using AI at work climbed from 40 to 45 percent between Q2 and Q3 2025, according to a recent Gallup poll. The article Nearly half of US workers now use AI on the job, but most aren&#039;t using it daily appeared first on THE DECODER.
 
+### WorldPlay: Towards Long-Term Geometric Consistency for Real-Time Interactive World Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.14614
+- Summary: This paper presents WorldPlay, a streaming video diffusion model that enables real-time, interactive world modeling with long-term geometric consistency, resolving the trade-off between speed and memory that limits current methods. WorldPlay draws power from three key innovations. 1) We use a Dual...
+
 ### BNP Paribas introduces AI tool for investment banking
 - Source: AI News
 - Category: industry
@@ -547,6 +565,12 @@
 - Category: industry
 - URL: https://techcrunch.com/2025/12/16/everbloom-built-an-ai-to-turn-chicken-feathers-into-cashmere/
 - Summary: Everbloom has also developed a chemical process to transform waste fibers and feathers into upcycled materials that resemble everything from polyester to cashmere.
+
+### Incident With Copilot
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/lctp4bzd37h2
+- Summary: Dec 16, 12:00 UTCResolved - From 11:50-12:25 UTC, Copilot Coding Agent was unable to process new agent requests. This affected all users creating new jobs during this timeframe, while existing jobs remained unaffected. The cause of this issue was a change to the actions configuration where Copilot...
 
 ### The Sequence Knowledge #772: Generate Data Using Multiturn Data Synthesis
 - Source: The Sequence
@@ -577,6 +601,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.14550
 - Summary: Medical image restoration (MedIR) aims to recover high-quality medical images from their low-quality counterparts. Recent advancements in MedIR have focused on All-in-One models capable of simultaneously addressing multiple different MedIR tasks. However, due to significant differences in both...
+
+### VersatileFFN: Achieving Parameter Efficiency in LLMs via Adaptive Wide-and-Deep Reuse
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.14531
+- Summary: The rapid scaling of Large Language Models (LLMs) has achieved remarkable performance, but it also leads to prohibitive memory costs. Existing parameter-efficient approaches such as pruning and quantization mainly compress pretrained models without enhancing architectural capacity, thereby hitting...
 
 ### Nvidia's powerful open AI model play
 - Source: The Rundown AI
@@ -1574,6 +1604,12 @@
 - URL: https://tldr.takara.ai/p/2512.13689
 - Summary: Modern neural architectures for 3D point cloud processing contain both convolutional layers and attention blocks, but the best way to assemble them remains unclear. We analyse the role of different computational blocks in 3D point cloud networks and find an intuitive behaviour: convolution is...
 
+### Feedforward 3D Editing via Text-Steerable Image-to-3D
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13678
+- Summary: Recent progress in image-to-3D has opened up immense possibilities for design, AR/VR, and robotics. However, to use AI-generated 3D assets in real applications, a critical requirement is the capability to edit them easily. We present a feedforward method, Steer3D, to add text steerability to...
+
 ### Towards Interactive Intelligence for Digital Humans
 - Source: HF Daily Papers
 - Category: open-source
@@ -1585,6 +1621,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.13660
 - Summary: Spatial tracing, as a fundamental embodied interaction ability for robots, is inherently challenging as it requires multi-step metric-grounded reasoning compounded with complex spatial referring and real-world metric measurement. However, existing methods struggle with this compositional task. To...
+
+### Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.13655
+- Summary: Safety alignment mechanisms in large language models prevent responses to harmful queries through learned refusal behavior, yet these same mechanisms impede legitimate research applications including cognitive modeling, adversarial testing, and security analysis. While abliteration techniques...
 
 ### AWS’s legacy will be in AI success
 - Source: AI News
@@ -2999,48 +3041,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KBDM937GP2XEYT7EQHWNHZZR
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### AI cracks 30-year math problem
-- Source: The Rundown AI
-- Category: industry
-- URL: https://www.therundown.ai/p/ai-cracks-30-year-math-problem
-- Summary: PLUS: Use AI to find patents and innovation opportunities
-
-### Transformers v5: Simple model definitions powering the AI ecosystem
-- Source: Hugging Face Blog
-- Category: company
-- URL: https://huggingface.co/blog/transformers-v5
-
-
-## 2025-11-30
-
-### Elevated errors on Sonnet 4.5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/55p5hxp0wf3h
-- Summary: Nov 30, 21:16 UTCResolved - This incident has been resolved.Nov 30, 20:57 UTCMonitoring - A fix has been implemented and we are monitoring the results.Nov 30, 20:41 UTCIdentified - The issue has been identified and a fix is being implemented.Nov 30, 18:58 UTCUpdate - We are continuing to...
-
-### Unable to enable extended thinking on first message
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/xdd8z923lknw
-- Summary: Nov 30, 19:38 UTCResolved - This incident has been resolved.Nov 30, 19:35 UTCMonitoring - A fix has been implemented and we are monitoring the results.Nov 30, 19:15 UTCIdentified - The issue has been identified and a fix is being implemented.
-
-### Elevated errors for requests to Claude Haiku 4.5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/1wr14y0b18bj
-- Summary: Nov 30, 14:35 UTCResolved - This incident has been resolved.Nov 30, 14:21 UTCMonitoring - A fix has been implemented and we are monitoring the results.Nov 30, 14:06 UTCInvestigating - We are currently investigating this issue.
-
-### The Sequence Radar #763: Last Week AI Trifecta: Opus 4.5, DeepSeek Math, and FLUX.2
-- Source: The Sequence
-- Category: open-source
-- URL: https://thesequence.substack.com/p/the-sequence-radar-763-last-week
-- Summary: Definitely a week about models releases.
-
-### LWiAI Podcast #226 - Gemini 3, Claude Opus 4.5, Nano Banana Pro, LeJEPA
-- Source: Last Week in AI
-- Category: industry
-- URL: https://lastweekin.ai/p/lwiai-podcast-226-gemini-3-claude
-- Summary: Google launches Gemini 3 & Nano Banana Pro, Anthropic releases Opus 4.5, and more!
 
