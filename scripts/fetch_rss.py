@@ -187,8 +187,15 @@ def fetch_feed(feed_config: dict, conn: sqlite3.Connection) -> int:
                 continue
             
             title = entry.get('title', 'Untitled')
+            summary_raw = entry.get('summary', entry.get('description', ''))
+            
+            # Skip scheduled maintenance events (not real incidents)
+            skip_keywords = ['SCHEDULED', 'scheduled maintenance', 'Scheduled -', 'maintenance window']
+            if any(kw.lower() in (title + ' ' + summary_raw).lower() for kw in skip_keywords):
+                continue
+            
             published = parse_date(entry)
-            summary = clean_summary(entry.get('summary', entry.get('description', '')))
+            summary = clean_summary(summary_raw)
             fetched = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
             
             candidates.append({
