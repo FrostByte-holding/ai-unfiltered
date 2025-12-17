@@ -1711,6 +1711,12 @@
 - URL: https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html
 - Summary: Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman that are capable of facilitating credential theft at scale. BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser (MitB)...
 
+### Particulate: Feed-Forward 3D Object Articulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.11798
+- Summary: We present Particulate, a feed-forward approach that, given a single static 3D mesh of an everyday object, directly infers all attributes of the underlying articulated structure, including its 3D parts, kinematic structure, and motion constraints. At its core is a transformer network, Part...
+
 ### BBVA embeds AI into banking workflows using ChatGPT Enterprise
 - Source: AI News
 - Category: industry
@@ -1752,6 +1758,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/h140lstlzbw7
 - Summary: Dec 12, 08:00 UTCResolved - This incident has been resolved.
+
+### CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.11437
+- Summary: Integrating language models (LMs) in healthcare systems holds great promise for improving medical workflows and decision-making. However, a critical barrier to their real-world adoption is the lack of reliable evaluation of their trustworthiness, especially in multilingual healthcare settings....
 
 ### CISA Flags Actively Exploited GeoServer XXE Flaw in Updated KEV Catalog
 - Source: The Hacker News
@@ -1834,11 +1846,23 @@
 - URL: https://www.githubstatus.com/incidents/xntfc1fz5rfb
 - Summary: Dec 11, 17:53 UTCResolved - Between 13:25 UTC and 18:35 UTC on December 11th, GitHub experienced elevated traffic to portions of GitHub.com that exceeded previously provisioned capacity for specific request types. As a result, users encountered intermittent 500 errors. Impact was most pronounced on...
 
+### Causal Judge Evaluation: Calibrated Surrogate Metrics for LLM Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.11150
+- Summary: LLM-as-judge evaluation has become the de facto standard for scaling model assessment, but the practice is statistically unsound: uncalibrated scores can invert preferences, naive confidence intervals on uncalibrated scores achieve near-0% coverage, and importance-weighted estimators collapse under...
+
 ### The Disney-OpenAI Deal Redefines the AI Copyright War
 - Source: Wired AI
 - Category: industry
 - URL: https://www.wired.com/story/disney-and-openais-deal-is-a-major-turning-point/
 - Summary: Disney is hedging against the future. OpenAI is clearing a path for Sora. And together they’ve made a blueprint for how AI and Hollywood can move forward.
+
+### Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.11130
+- Summary: Stereo foundation models achieve strong zero-shot generalization but remain computationally prohibitive for real-time applications. Efficient stereo architectures, on the other hand, sacrifice robustness for speed and require costly per-domain fine-tuning. To bridge this gap, we present...
 
 ### Getting Started with Edge AI on NVIDIA Jetson: LLMs, VLMs, and Foundation Models for Robotics
 - Source: NVIDIA AI Blog
@@ -2587,6 +2611,12 @@
 - URL: https://thesequence.substack.com/p/the-sequence-knowledge-764-wanna
 - Summary: One of the most important synthetic data generation techniques of this new wave.
 
+### Fairy2i: Training Complex LLMs from Real LLMs with All Parameters in {pm 1, pm i}
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.02901
+- Summary: Large language models (LLMs) have revolutionized artificial intelligence, yet their massive memory and computational demands necessitate aggressive quantization, increasingly pushing representations toward the theoretical limit of a single bit. While complex-valued LLMs, such as iFairy, offer a...
+
 ### DeepSeek strikes again
 - Source: The Rundown AI
 - Category: industry
@@ -2705,6 +2735,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/k01mpjb8k6r4
 - Summary: Nov 27, 09:40 UTCResolved - This incident has been resolved.Nov 27, 09:22 UTCMonitoring - A fix has been implemented and we are monitoring the results.Nov 27, 09:10 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### NCSC handing over the baton of smart meter security: a decade of progress
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/blog-post/ncsc-handing-over-baton-smart-meter-security
+- Summary: Why transferring the Commercial Product Assurance scheme to industry ownership marks an important milestone.
 
 
 ## 2025-11-26
@@ -2867,6 +2903,12 @@
 - URL: https://www.therundown.ai/p/openai-braces-for-rough-vibes
 - Summary: PLUS: Use NotebookLM to turn raw data into visual insights
 
+### Choosing a managed service provider (MSP)
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/guidance/choosing-a-managed-service-provider-msp
+- Summary: An SME’s guide to selecting and working with managed service providers.
+
 
 ## 2025-11-23
 
@@ -3019,47 +3061,4 @@
 - Category: industry
 - URL: https://www.therundown.ai/p/exclusive-interview-with-google-deepmind-ceo-demis-hassabis
 - Summary: PLUS: Google heads into 'a new era of intelligence' with Gemini 3
-
-### AWS - US East (N. Virginia): INC0146924
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/tc0rx4jmzyqs
-- Summary: Nov 19, 06:49 UTCResolved - Current status: We've rolled back the configuration change and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community.Customer experience: Customers hosted...
-
-### Increased error rate on Claude 4 Sonnet
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/k1tz1gsmm4b1
-- Summary: Nov 19, 05:27 UTCResolved - This incident has been resolved.Nov 19, 02:00 UTCIdentified - The issue has been identified and a fix is being implemented.
-
-### Apriel-H1: The Surprising Key to Distilling Efficient Reasoning Models
-- Source: Hugging Face Blog
-- Category: company
-- URL: https://huggingface.co/blog/ServiceNow-AI/apriel-h1
-
-
-## 2025-11-18
-
-### New Tasks Creation Error for Codex Web
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KACCE2MY2Z917Q4J9ZKXZ9F1
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex (Operational) Deep Research (Operational)
-
-### Git operation failures
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/5q7nmlxz30sk
-- Summary: Nov 18, 21:59 UTCResolved - From Nov 18, 2025 20:30 UTC to Nov 18, 2025 21:34 UTC we experienced failures on all Git operations, including both SSH and HTTP Git client interactions, as well as raw file access. These failures also impacted products that rely on Git operations.The root cause was an...
-
-### Start building with Gemini 3
-- Source: DeepMind Blog
-- Category: company
-- URL: https://deepmind.google/blog/start-building-with-gemini-3/
-
-### We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region
-- Source: DeepMind Blog
-- Category: company
-- URL: https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/
-- Summary: Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region.
 
