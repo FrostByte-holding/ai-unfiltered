@@ -1893,6 +1893,12 @@
 - URL: https://thehackernews.com/2025/12/nanoremote-malware-uses-google-drive.html
 - Summary: Cybersecurity researchers have disclosed details of a new fully-featured Windows backdoor called NANOREMOTE that uses the Google Drive API for command-and-control (C2) purposes. According to a report from Elastic Security Labs, the malware shares code similarities with another implant codenamed...
 
+### Scaling Behavior of Discrete Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.10858
+- Summary: Modern LLM pre-training consumes vast amounts of compute and training data, making the scaling behavior, or scaling laws, of different models a key distinguishing factor. Discrete diffusion language models (DLMs) have been proposed as an alternative to autoregressive language models (ALMs)....
+
 ### The Sequence Opinion #770: The Post-GPU Era: Why AI Needs a New Kind of Computer
 - Source: The Sequence
 - Category: open-source
@@ -1922,6 +1928,24 @@
 - Category: industry
 - URL: https://www.therundown.ai/p/open-source-ai-crushes-elite-math-exam
 - Summary: PLUS: Fix bugs and ship features from Slack with Claude Code
+
+### CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.10715
+- Summary: Uncertainty estimation is essential for the safe clinical deployment of medical image segmentation systems, enabling the identification of unreliable predictions and supporting human oversight. While prior work has largely focused on pixel-level uncertainty, landmark-based segmentation offers...
+
+### Sharp Monocular View Synthesis in Less Than a Second
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.10685
+- Summary: We present SHARP, an approach to photorealistic view synthesis from a single image. Given a single photograph, SHARP regresses the parameters of a 3D Gaussian representation of the depicted scene. This is done in less than a second on a standard GPU via a single feedforward pass through a neural...
+
+### LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.10605
+- Summary: We propose LEO-RobotAgent, a general-purpose language-driven intelligent agent framework for robots. Under this framework, LLMs can operate different types of robots to complete unpredictable complex tasks across various scenarios. This framework features strong generalization, robustness, and...
 
 ### Chrome Targeted by Active In-the-Wild Exploit Tied to Undisclosed High-Severity Flaw
 - Source: The Hacker News
@@ -2364,6 +2388,12 @@
 - Category: open-source
 - URL: https://thesequence.substack.com/p/the-sequence-radar-767-last-week
 - Summary: Gemini Deep Think, Mistral 3 and Nova 2 dominated the AI headlines.
+
+### MeshSplatting: Differentiable Rendering with Opaque Meshes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.06818
+- Summary: Primitive-based splatting methods like 3D Gaussian Splatting have revolutionized novel view synthesis with real-time rendering. However, their point-based representations remain incompatible with mesh-based pipelines that power AR/VR and game engines. We present MeshSplatting, a mesh-based...
 
 
 ## 2025-12-06
@@ -3029,36 +3059,4 @@
 - Category: industry
 - URL: https://www.therundown.ai/p/openai-pushes-codex-to-the-max
 - Summary: PLUS: Use Gemini 3 to build powerful simulations
-
-### Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms
-- Source: Hugging Face Blog
-- Category: company
-- URL: https://huggingface.co/blog/anylanguagemodel
-
-
-## 2025-11-19
-
-### Incident with Actions
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/zs5ccnvqv64m
-- Summary: Nov 19, 18:07 UTCResolved - On November 19, between 17:36 UTC and 18:04 UTC, GitHub Actions service experienced degraded performance that caused excessive latency in queueing and updating workflow runs and job statuses. Operations related to artifacts, cache, job steps and logs also had...
-
-### The Cloudflare Outage May Be a Security Roadmap
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/
-- Summary: An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have...
-
-### The Sequence AI of the Week #757: 3D World Models in Action: Inside DeepMind’s SIMA 2 Architecture
-- Source: The Sequence
-- Category: open-source
-- URL: https://thesequence.substack.com/p/the-sequence-ai-of-the-week-756-3d
-- Summary: An agent that can generate interactive 3D environments.
-
-### Exclusive interview with Google DeepMind CEO Demis Hassabis
-- Source: The Rundown AI
-- Category: industry
-- URL: https://www.therundown.ai/p/exclusive-interview-with-google-deepmind-ceo-demis-hassabis
-- Summary: PLUS: Google heads into 'a new era of intelligence' with Gemini 3
 
