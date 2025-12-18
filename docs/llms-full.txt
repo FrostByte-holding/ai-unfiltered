@@ -6,6 +6,24 @@
 
 ## 2025-12-18
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/49y7x9g06l4x
+- Summary: Dec 18, 19:09 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Dec 18, 19:09 UTCUpdate - Copilot is operating normally.Dec 18, 19:05 UTCUpdate - We have...
+
+### Open models: Hot or Not with Nathan Lambert & Florian Brand
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/open-models-hot-or-not-with-nathan
+- Summary: A recording from Nathan Lambert's live video
+
+### Intermittent networking failures across GitHub-hosted Actions runners
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/x696x0g4t85l
+- Summary: Dec 18, 17:41 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Dec 18, 17:29 UTCUpdate - We are observing recovery with request from GitHub-hosted Actions...
+
 ### Intermittent networking issues across hosted runners
 - Source: GitHub Status
 - Category: incidents
@@ -344,6 +362,12 @@
 - URL: https://tldr.takara.ai/p/2512.15693
 - Summary: The misuse of AI-driven video generation technologies has raised serious social concerns, highlighting the urgent need for reliable AI-generated video detectors. However, most existing methods are limited to binary classification and lack the necessary explanations for human interpretation. In this...
 
+### Can LLMs Guide Their Own Exploration? Gradient-Guided Reinforcement Learning for LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.15687
+- Summary: Reinforcement learning has become essential for strengthening the reasoning abilities of large language models, yet current exploration mechanisms remain fundamentally misaligned with how these models actually learn. Entropy bonuses and external semantic comparators encourage surface level...
+
 ### NMFTA Warns of Surge and Sophistication of Cyber-Enabled Cargo Theft
 - Source: Security Week
 - Category: security
@@ -456,6 +480,12 @@
 - Category: security
 - URL: https://thehackernews.com/2025/12/ghostposter-malware-found-in-17-firefox.html
 - Summary: A new campaign named GhostPoster has leveraged logo files associated with 17 Mozilla Firefox browser add-ons to embed malicious JavaScript code designed to hijack affiliate links, inject tracking code, and commit click and ad fraud. The extensions have been collectively downloaded over 50,000...
+
+### SCOPE: Prompt Evolution for Enhancing Agent Effectiveness
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.15374
+- Summary: Large Language Model (LLM) agents are increasingly deployed in environments that generate massive, dynamic contexts. However, a critical bottleneck remains: while agents have access to this context, their static prompts lack the mechanisms to manage it effectively, leading to recurring Corrective...
 
 ### Dux Emerges From Stealth Mode With $9 Million in Funding
 - Source: Security Week
@@ -1035,6 +1065,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.14699
 - Summary: The core challenge for streaming video generation is maintaining the content consistency in long context, which poses high requirement for the memory design. Most existing solutions maintain the memory by compressing historical frames with predefined strategies. However, different to-generate video...
+
+### Universal Reasoning Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.14693
+- Summary: Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the...
 
 ### MMGR: Multi-Modal Generative Reasoning
 - Source: HF Daily Papers
@@ -2984,40 +3020,4 @@
 - Category: company
 - URL: https://developer.nvidia.com/blog/enhancing-communication-observability-of-ai-workloads-with-nccl-inspector/
 - Summary: When using the NVIDIA Collective Communication Library (NCCL) to run a deep learning training or inference workload that uses collective operations (such as...
-
-### Useful patterns for building HTML tools
-- Source: Simon Willison
-- Category: llm
-- URL: https://simonwillison.net/2025/Dec/10/html-tools/#atom-everything
-- Summary: I've started using the term HTML tools to refer to HTML applications that I've been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article...
-
-### Research on claude.ai down
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/fmck9hh84rgf
-- Summary: Dec 10, 20:21 UTCResolved - This incident has been resolved.Dec 10, 19:50 UTCIdentified - The issue has been identified and a fix is being implemented.Dec 10, 19:44 UTCInvestigating - We are currently investigating this issue.
-
-### React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple Sectors
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html
-- Summary: React2Shell continues to witness heavy exploitation, with threat actors leveraging the maximum-severity security flaw in React Server Components (RSC) to deliver cryptocurrency miners and an array of previously undocumented malware families, according to new findings from Huntress. This includes a...
-
-### The Normalization of Deviance in AI
-- Source: Simon Willison
-- Category: llm
-- URL: https://simonwillison.net/2025/Dec/10/normalization-of-deviance/#atom-everything
-- Summary: The Normalization of Deviance in AI This thought-provoking essay from Johann Rehberger directly addresses something that I’ve been worrying about for quite a while: in the absence of any headline-grabbing examples of prompt injection vulnerabilities causing real economic harm, is anyone going to...
-
-### New Talk: Building Olmo 3 Think
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/building-olmo-3-think
-- Summary: Re-recording my NeurIPS talks in one mega-take.
-
-### .NET SOAPwn Flaw Opens Door for File Writes and Remote Code Execution via Rogue WSDL
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2025/12/net-soapwn-flaw-opens-door-for-file.html
-- Summary: New research has uncovered exploitation primitives in the .NET Framework that could be leveraged against enterprise-grade applications to achieve remote code execution. WatchTowr Labs, which has codenamed the "invalid cast vulnerability" SOAPwn, said the issue impacts Barracuda Service Center RMM,...
 
