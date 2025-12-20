@@ -690,6 +690,12 @@
 - URL: https://tldr.takara.ai/p/2512.16921
 - Summary: Conventional evaluation methods for multimodal LLMs (MLLMs) lack interpretability and are often insufficient to fully disclose significant capability gaps across models. To address this, we introduce AuditDM, an automated framework that actively discovers and rectifies MLLM failure modes by...
 
+### EasyV2V: A High-quality Instruction-based Video Editing Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16920
+- Summary: While image editing has advanced rapidly, video editing remains less explored, facing challenges in consistency, control, and generalization. We study the design space of data, architecture, and control, and introduce EasyV2V, a simple and effective framework for instruction-based video editing. On...
+
 ### AdaTooler-V: Adaptive Tool-Use for Images and Videos
 - Source: HF Daily Papers
 - Category: open-source
@@ -816,6 +822,12 @@
 - URL: https://www.securityweek.com/iot-security-firm-exein-raises-e100-million/
 - Summary: The Italian company has raised nearly $200 million in 2025 for its widely used embedded cybersecurity platform. The post IoT Security Firm Exein Raises €100 Million appeared first on SecurityWeek.
 
+### JustRL: Scaling a 1.5B LLM with a Simple RL Recipe
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16649
+- Summary: Recent advances in reinforcement learning for large language models have converged on increasing complexity: multi-stage training pipelines, dynamic hyperparameter schedules, and curriculum learning strategies. This raises a fundamental question: Is this complexity necessary? We present JustRL, a...
+
 ### Rednote Restructures Core Community Operations, Creates “Live” and “Village” Units to Drive Growth
 - Source: Pandaily
 - Category: chinese-ai
@@ -881,6 +893,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/csqnr8s0g6hz
 - Summary: Dec 18, 06:15 UTCResolved - Between 6:15-6:20 UTC, customers reaching Madrid, ES would have experienced an elevated number of 4xx/5xx errors and latency.
+
+### Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16378
+- Summary: As Large Language Models (LLMs) expand beyond text, integrating speech as a native modality has given rise to SpeechLLMs, which aim to translate spoken language directly, thereby bypassing traditional transcription-based pipelines. Whether this integration improves speech-to-text translation...
 
 ### CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation
 - Source: The Hacker News
@@ -1422,6 +1440,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.15528
 - Summary: Visual Emotion Comprehension (VEC) aims to infer sentiment polarities or emotion categories from affective cues embedded in images. In recent years, Multimodal Large Language Models (MLLMs) have established a popular paradigm in VEC, leveraging their generalizability to unify VEC tasks defined...
+
+### Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.15489
+- Summary: High-quality mathematical reasoning supervision requires diverse reasoning styles, long-form traces, and effective tool integration, capabilities that existing datasets provide only in limited form. Leveraging the multi-mode generation ability of gpt-oss-120b, we introduce Nemotron-Math, a...
 
 ### Auto Parts Giant LKQ Confirms Oracle EBS Breach
 - Source: Security Week
@@ -2990,31 +3014,4 @@
 - Category: industry
 - URL: https://www.wired.com/story/openai-chief-communications-officer-hannah-wong-leaves/
 - Summary: Hannah Wong told staff she is moving on to her “next chapter.” The company will be running an executive search to find a replacement, according to a memo.
-
-
-## 2025-12-15
-
-### I ported JustHTML from Python to JavaScript with Codex CLI and GPT-5.2 in 4.5 hours
-- Source: Simon Willison
-- Category: llm
-- URL: https://simonwillison.net/2025/Dec/15/porting-justhtml/#atom-everything
-- Summary: I wrote about JustHTML yesterday - Emil Stenström's project to build a new standards compliant HTML5 parser in pure Python code using coding agents running against the comprehensive html5lib-tests testing library. Last night, purely out of curiosity, I decided to try porting JustHTML from Python to...
-
-### OpenAI-backed biotech firm Chai Discovery raises $130M Series B at $1.3B valuation
-- Source: TechCrunch
-- Category: industry
-- URL: https://techcrunch.com/2025/12/15/openai-backed-biotech-firm-chai-discovery-raises-130m-series-b-at-1-3b-valuation/
-- Summary: Chai is building foundation models for drug discovery, specifically to predict interactions between molecules so they could be reprogramed for cures.
-
-### SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14080
-- Summary: Mixture of Experts (MoE) models have emerged as the de facto architecture for scaling up language models without significantly increasing the computational cost. Recent MoE models demonstrate a clear trend towards high expert granularity (smaller expert intermediate dimension) and higher sparsity...
-
-### Efficient-DLM: From Autoregressive to Diffusion Language Models, and Beyond in Speed
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14067
-- Summary: Diffusion language models (dLMs) have emerged as a promising paradigm that enables parallel, non-autoregressive generation, but their learning efficiency lags behind that of autoregressive (AR) language models when trained from scratch. To this end, we study AR-to-dLM conversion to transform...
 
