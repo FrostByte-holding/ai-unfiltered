@@ -118,6 +118,9 @@ def generate_html_head(title, description=None, canonical=None):
     <link rel="alternate" type="text/plain" title="LLMs.txt" href="/llms.txt">
     <link rel="alternate" type="text/plain" title="LLMs Full" href="/llms-full.txt">
     
+    <!-- Analytics -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="979a94c1-da9b-4c86-9d91-32f8f75991ba"></script>
+    
     <title>{escape(title)}</title>
     <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} RSS" href="/rss.xml">
     <style>
