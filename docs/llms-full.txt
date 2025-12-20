@@ -714,6 +714,12 @@
 - URL: https://tldr.takara.ai/p/2512.16912
 - Summary: This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly...
 
+### MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16909
+- Summary: Mobile manipulators in households must both navigate and manipulate. This requires a compact, semantically rich scene representation that captures where objects are, how they function, and which parts are actionable. Scene graphs are a natural choice, yet prior work often separates spatial and...
+
 ### Alchemist: Unlocking Efficiency in Text-to-Image Model Training via Meta-Gradient Data Selection
 - Source: HF Daily Papers
 - Category: open-source
@@ -1225,6 +1231,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KCQ5FA8SEDPNZSZEH27V2H5X
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Fine-tuning (Operational)
+
+### ModelTables: A Corpus of Tables about Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16106
+- Summary: We present ModelTables, a benchmark of tables in Model Lakes that captures the structured semantics of performance and configuration tables often overlooked by text only retrieval. The corpus is built from Hugging Face model cards, GitHub READMEs, and referenced papers, linking each table to its...
 
 ### Network Congestion
 - Source: Cloudflare Status
@@ -2061,6 +2073,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.14681
 - Summary: Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques...
+
+### Sharing State Between Prompts and Programs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.14805
+- Summary: The rise of large language models (LLMs) has introduced a new type of programming: natural language programming. By writing prompts that direct LLMs to perform natural language processing, code generation, reasoning, etc., users are writing code in natural language -- natural language code -- for...
 
 ### EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models
 - Source: HF Daily Papers
@@ -2999,22 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.14067
 - Summary: Diffusion language models (dLMs) have emerged as a promising paradigm that enables parallel, non-autoregressive generation, but their learning efficiency lags behind that of autoregressive (AR) language models when trained from scratch. To this end, we study AR-to-dLM conversion to transform...
-
-### I hate that I love Riverside’s AI-driven ‘Rewind’ for podcasters
-- Source: TechCrunch
-- Category: industry
-- URL: https://techcrunch.com/2025/12/15/i-hate-that-i-love-riversides-ai-driven-rewind-for-podcasters/
-- Summary: Riverside's year-end review is amusing, but it represents a creative culture that's increasingly entwined with AI.
-
-### How to Design a Gemini-Powered Self-Correcting Multi-Agent AI System with Semantic Routing, Symbolic Guardrails, and Reflexive Orchestration
-- Source: MarkTechPost
-- Category: industry
-- URL: https://www.marktechpost.com/2025/12/15/how-to-design-a-gemini-powered-self-correcting-multi-agent-ai-system-with-semantic-routing-symbolic-guardrails-and-reflexive-orchestration/
-- Summary: In this tutorial, we explore how we design and run a full agentic AI orchestration pipeline powered by semantic routing, symbolic guardrails, and self-correction loops using Gemini. We walk through how we structure agents, dispatch tasks, enforce constraints, and refine outputs using a clean,...
-
-### HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14052
-- Summary: Current multimodal large lanauge models possess strong perceptual and reasoning capabilities, however high computational and memory requirements make them difficult to deploy directly on on-device environments. While small-parameter models are progressively endowed with strong general capabilities,...
 
