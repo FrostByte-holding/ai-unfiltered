@@ -6,6 +6,12 @@
 
 ## 2025-12-23
 
+### Google's year in review: 8 areas with research breakthroughs in 2025
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/
+- Summary: Google 2025 recap: Research breakthroughs of the year
+
 ### Researchers are getting organoids pregnant with human embryos
 - Source: MIT Tech Review AI
 - Category: research
@@ -869,6 +875,12 @@
 - URL: https://tldr.takara.ai/p/2512.17901
 - Summary: Despite the superior performance of Large Reasoning Models (LRMs), their reasoning behaviors are often counterintuitive, leading to suboptimal reasoning capabilities. To theoretically formalize the desired reasoning behaviors, this paper presents the Laws of Reasoning (LoRe), a unified framework...
 
+### RadarGen: Automotive Radar Point Cloud Generation from Cameras
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.17897
+- Summary: We present RadarGen, a diffusion model for synthesizing realistic automotive radar point clouds from multi-view camera imagery. RadarGen adapts efficient image-latent diffusion to the radar domain by representing radar measurements in bird's-eye-view form that encodes spatial structure together...
+
 ### Docker Makes 1,000 Hardened Images Free and Open Source
 - Source: Security Week
 - Category: security
@@ -1024,6 +1036,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KCTM1YZ1AW72M9JVW48TNJES
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Sora (Operational)
+
+### 3D-RE-GEN: 3D Reconstruction of Indoor Scenes with a Generative Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.17459
+- Summary: Recent advances in 3D scene generation produce visually appealing output, but current representations hinder artists' workflows that require modifiable 3D textured mesh scenes for visual effects and game development. Despite significant advances, current textured mesh scene reconstruction methods...
 
 ### SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories
 - Source: HF Daily Papers
@@ -1556,6 +1574,12 @@
 - URL: https://tldr.takara.ai/p/2512.16912
 - Summary: This paper examines the exploration-exploitation trade-off in reinforcement learning with verifiable rewards (RLVR), a framework for improving the reasoning of Large Language Models (LLMs). Recent studies suggest that RLVR can elicit strong mathematical reasoning in LLMs through two seemingly...
 
+### A Benchmark and Agentic Framework for Omni-Modal Reasoning and Tool Use in Long Videos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16978
+- Summary: Long-form multimodal video understanding requires integrating vision, speech, and ambient audio with coherent long-range reasoning. Existing benchmarks emphasize either temporal length or multimodal richness, but rarely both and while some incorporate open-ended questions and advanced metrics, they...
+
 ### Animate Any Character in Any World
 - Source: HF Daily Papers
 - Category: open-source
@@ -1597,6 +1621,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cisa-warns-of-exploited-flaw-in-asus-update-tool/
 - Summary: Tracked as CVE-2025-59374, the issue is a software backdoor implanted in Asus Live Update in a supply chain attack. The post CISA Warns of Exploited Flaw in Asus Update Tool appeared first on SecurityWeek.
+
+### Meta-RL Induces Exploration in Language Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16848
+- Summary: Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from...
 
 ### The Download: the worst technology of 2025, and Sam Altman’s AI hype
 - Source: MIT Tech Review AI
@@ -2993,34 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.14696
 - Summary: We introduce CRISP, a method that recovers simulatable human motion and scene geometry from monocular video. Prior work on joint human-scene reconstruction relies on data-driven priors and joint optimization with no physics in the loop, or recovers noisy geometry with artifacts that cause motion...
-
-### Universal Reasoning Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14693
-- Summary: Universal transformers (UTs) have been widely used for complex reasoning tasks such as ARC-AGI and Sudoku, yet the specific sources of their performance gains remain underexplored. In this work, we systematically analyze UTs variants and show that improvements on ARC-AGI primarily arise from the...
-
-### MMGR: Multi-Modal Generative Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14691
-- Summary: Video foundation models generate visually realistic and temporally coherent content, but their reliability as world simulators depends on whether they capture physical, logical, and spatial constraints. Existing metrics such as Frechet Video Distance (FVD) emphasize perceptual quality and overlook...
-
-### GraphQL Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/2wh6sj1mryd0
-- Summary: Dec 16, 13:53 UTCResolved - This incident has been resolved.Dec 16, 12:04 UTCIdentified - The issue has been identified and a fix is being implemented.Dec 16, 11:09 UTCInvestigating - Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers: Customers querying...
-
-### Fast and Accurate Causal Parallel Decoding using Jacobi Forcing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14681
-- Summary: Multi-token generation has emerged as a promising paradigm for accelerating transformer-based large model inference. Recent efforts primarily explore diffusion Large Language Models (dLLMs) for parallel decoding to reduce inference latency. To achieve AR-level generation quality, many techniques...
-
-### Sharing State Between Prompts and Programs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.14805
-- Summary: The rise of large language models (LLMs) has introduced a new type of programming: natural language programming. By writing prompts that direct LLMs to perform natural language processing, code generation, reasoning, etc., users are writing code in natural language -- natural language code -- for...
 
