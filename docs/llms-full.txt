@@ -6,6 +6,12 @@
 
 ## 2025-12-24
 
+### New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2025/12/new-macsync-macos-stealer-uses-signed.html
+- Summary: Cybersecurity researchers have discovered a new variant of a macOS information stealer called MacSync that's delivered by means of a digitally signed, notarized Swift application masquerading as a messaging app installer to bypass Apple's Gatekeeper checks. "Unlike earlier MacSync Stealer variants...
+
 ### Pro-Russian Hackers Claim Cyberattack on French Postal Service
 - Source: Security Week
 - Category: security
@@ -809,6 +815,12 @@
 - URL: https://tldr.takara.ai/p/2512.19402
 - Summary: Recent progress in robot learning has been driven by large-scale datasets and powerful visuomotor policy architectures, yet policy robustness remains limited by the substantial cost of collecting diverse demonstrations, particularly for spatial generalization in manipulation tasks. To reduce...
 
+### Brain-Grounded Axes for Reading and Steering LLM States
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.19399
+- Summary: Interpretability methods for large language models (LLMs) typically derive directions from textual supervision, which can lack external grounding. We propose using human brain activity not as a training signal but as a coordinate system for reading and steering LLM states. Using the SMN4Lang MEG...
+
 ### Elevated error rates on Opus 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -1190,6 +1202,12 @@
 - URL: https://thehackernews.com/2025/12/iranian-infy-apt-resurfaces-with-new.html
 - Summary: Threat hunters have discerned new activity associated with an Iranian threat actor known as Infy (aka Prince of Persia), nearly five years after the hacking group was observed targeting victims in Sweden, the Netherlands, and Turkey. "The scale of Prince of Persia's activity is more significant...
 
+### Does It Tie Out? Towards Autonomous Legal Agents in Venture Capital
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.18658
+- Summary: Before closing venture capital financing rounds, lawyers conduct diligence that includes tying out the capitalization table: verifying that every security (for example, shares, options, warrants) and issuance term (for example, vesting schedules, acceleration triggers, transfer restrictions) is...
+
 
 ## 2025-12-20
 
@@ -1204,6 +1222,12 @@
 - Category: security
 - URL: https://thehackernews.com/2025/12/us-doj-charges-54-in-atm-jackpotting.html
 - Summary: The U.S. Department of Justice (DoJ) this week announced the indictment of 54 individuals in connection with a multi-million dollar ATM jackpotting scheme. The large-scale conspiracy involved deploying malware named Ploutus to hack into automated teller machines (ATMs) across the U.S. and force...
+
+### MatSpray: Fusing 2D Material World Knowledge on 3D Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.18314
+- Summary: Manual modeling of material parameters and 3D geometry is a time consuming yet essential task in the gaming and film industries. While recent advances in 3D reconstruction have enabled accurate approximations of scene geometry and appearance, these methods often fall short in relighting scenarios...
 
 ### Research unavailable for some teams orgs
 - Source: Anthropic Status
@@ -2609,6 +2633,12 @@
 - URL: https://pandaily.com/world-s-first-embodied-ai-humanoid-robots-deployed-at-catl-battery-production-line-at-scale
 - Summary: CATL has launched the world's first production line using embodied AI humanoid robots, achieving over 99% success in a critical battery testing process.
 
+### LoPA: Scaling dLLM Inference via Lookahead Parallel Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.16229
+- Summary: Diffusion Large Language Models (dLLMs) have demonstrated significant potential for high-speed inference. However, current confidence-driven decoding strategies are constrained by limited parallelism, typically achieving only 1--3 tokens per forward pass (TPF). In this work, we identify that the...
+
 ### Tokenization in Transformers v5: Simpler, Clearer, and More Modular
 - Source: Hugging Face Blog
 - Category: open-source
@@ -2993,34 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.13764
 - Summary: arXiv:2512.13764v1 Announce Type: new Abstract: We study the special role of mathematics and coding inside the moduli space of psychometric batteries for AI agents. Building on the AAI framework and GVU dynamics from previous works, we define the Mathematics Fiber and show that, when paired with...
-
-### Delete and Retain: Efficient Unlearning for Document Classification
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.13711
-- Summary: arXiv:2512.13711v1 Announce Type: new Abstract: Machine unlearning aims to efficiently remove the influence of specific training data from a model without full retraining. While much progress has been made in unlearning for LLMs, document classification models remain relatively understudied. In...
-
-### Prediction of Respiratory Syncytial Virus-Associated Hospitalizations Using Machine Learning Models Based on Environmental Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.13712
-- Summary: arXiv:2512.13712v1 Announce Type: new Abstract: Respiratory syncytial virus (RSV) is a leading cause of hospitalization among young children, with outbreaks strongly influenced by environmental conditions. This study developed a machine learning framework to predict RSV-associated hospitalizations...
-
-### Federated Few-Shot Learning for Epileptic Seizure Detection Under Privacy Constraints
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.13717
-- Summary: arXiv:2512.13717v1 Announce Type: new Abstract: Many deep learning approaches have been developed for EEG-based seizure detection; however, most rely on access to large centralized annotated datasets. In clinical practice, EEG data are often scarce, patient-specific distributed across institutions,...
-
-### Time-Constrained Recommendations: Reinforcement Learning Strategies for E-Commerce
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.13726
-- Summary: arXiv:2512.13726v1 Announce Type: new Abstract: Unlike traditional recommendation tasks, finite user time budgets introduce a critical resource constraint, requiring the recommender system to balance item relevance and evaluation cost. For example, in a mobile shopping interface, users interact...
-
-### RAST-MoE-RL: A Regime-Aware Spatio-Temporal MoE Framework for Deep Reinforcement Learning in Ride-Hailing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.13727
-- Summary: arXiv:2512.13727v1 Announce Type: new Abstract: Ride-hailing platforms face the challenge of balancing passenger waiting times with overall system efficiency under highly uncertain supply-demand conditions. Adaptive delayed matching creates a trade-off between matching and pickup delays by deciding...
 
