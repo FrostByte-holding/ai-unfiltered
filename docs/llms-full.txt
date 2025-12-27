@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2025-12-27
+
+### New MongoDB Flaw Lets Unauthenticated Attackers Read Uninitialized Memory
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2025/12/new-mongodb-flaw-lets-unauthenticated.html
+- Summary: A high-severity security flaw has been disclosed in MongoDB that could allow unauthenticated users to read uninitialized heap memory. The vulnerability, tracked as CVE-2025-14847 (CVSS score: 8.7), has been described as a case of improper handling of length parameter inconsistency, which arises...
+
+
 ## 2025-12-26
 
 ### Trust Wallet Chrome Extension Breach Caused $7 Million Crypto Loss via Malicious Code
@@ -979,6 +988,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.20615
 - Summary: Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and...
+
+### Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.20605
+- Summary: Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token...
 
 ### Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models
 - Source: HF Daily Papers
@@ -3016,16 +3031,4 @@
 - Category: security
 - URL: https://www.securityweek.com/113000-impacted-by-data-breach-at-virginia-mental-health-authority/
 - Summary: Threat actors stole names, Social Security numbers, and financial and health information, and deployed ransomware on RBHA’s systems. The post 113,000 Impacted by Data Breach at Virginia Mental Health Authority appeared first on SecurityWeek.
-
-### Can AI really help us discover new materials?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2025/12/18/1130102/ai-materials-discovery/
-- Summary: Judging from headlines and social media posts in recent years, one might reasonably assume that AI is going to fix the power grid, cure the world’s diseases, and finish my holiday shopping for me. But maybe there’s just a whole lot of hype floating around out there. This week, we published a new...
-
-### DataFlow: An LLM-Driven Framework for Unified Data Preparation and Workflow Automation in the Era of Data-Centric AI
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.16676
-- Summary: The rapidly growing demand for high-quality data in Large Language Models (LLMs) has intensified the need for scalable, reliable, and semantically rich data preparation pipelines. However, current practices remain dominated by ad-hoc scripts and loosely specified workflows, which lack principled...
 
