@@ -249,6 +249,24 @@
 - URL: https://thehackernews.com/2025/12/weekly-recap-mongodb-attacks-wallet.html
 - Summary: Last week’s cyber news in 2025 was not about one big incident. It was about many small cracks opening at the same time. Tools people trust every day behave in unexpected ways. Old flaws resurfaced. New ones were used almost immediately. A common theme ran through it all in 2025. Attackers moved...
 
+### Web World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23676
+- Summary: Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the...
+
+### Nested Browser-Use Learning for Agentic Information Seeking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23647
+- Summary: Information-seeking (IS) agents have achieved strong performance across a range of wide and deep search tasks, yet their tool use remains largely restricted to API-level snippet retrieval and URL-based page fetching, limiting access to the richer information available through real browsing. While...
+
+### OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23646
+- Summary: Omnimodal large language models have made significant strides in unifying audio and visual modalities; however, they often lack the fine-grained cross-modal understanding and have difficulty with multimodal alignment. To address these limitations, we introduce OmniAgent, a fully audio-guided active...
+
 ### Fortinet Warns of New Attacks Exploiting Old Vulnerability
 - Source: Security Week
 - Category: security
@@ -308,6 +326,12 @@
 - Category: security
 - URL: https://www.securityweek.com/hacker-claims-theft-of-40-million-conde-nast-records-after-wired-data-leak/
 - Summary: A hacker named Lovely made public 2.3 million records representing Wired subscriber information. The post Hacker Claims Theft of 40 Million Condé Nast Records After Wired Data Leak appeared first on SecurityWeek.
+
+### Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23447
+- Summary: Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the...
 
 ### MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide
 - Source: The Hacker News
@@ -755,6 +779,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.22047
 - Summary: The development of GUI agents could revolutionize the next generation of human-computer interaction. Motivated by this vision, we present MAI-UI, a family of foundation GUI agents spanning the full spectrum of sizes, including 2B, 8B, 32B, and 235B-A22B variants. We identify four key challenges to...
+
+### SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.22322
+- Summary: Agentic reinforcement learning (RL) holds great promise for the development of autonomous agents under complex GUI tasks, but its scalability remains severely hampered by the verification of task completion. Existing task verification is treated as a passive, post-hoc process: a verifier (i.e.,...
 
 ### China's Top 10 Leading Outbound Companies in 2025
 - Source: Pandaily
@@ -3007,34 +3037,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.17650
 - Summary: The In-context generation paradigm recently has demonstrated strong power in instructional image editing with both data efficiency and synthesis quality. Nevertheless, shaping such in-context learning for instruction-based video editing is not trivial. Without specifying editing regions, the...
-
-### Simulstream: Open-Source Toolkit for Evaluation and Demonstration of Streaming Speech-to-Text Translation Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2512.17648
-- Summary: Streaming Speech-to-Text Translation (StreamST) requires producing translations concurrently with incoming speech, imposing strict latency constraints and demanding models that balance partial-information decision-making with high translation quality. Research efforts on the topic have so far...
-
-### New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html
-- Summary: Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access (DMA) attacks across architectures that implement a Unified Extensible Firmware Interface (UEFI) and...
-
-### CiDi Autonomous Driving Lists in Hong Kong, Becomes First Commercial Vehicle Autonomy Stock
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ci-di-autonomous-driving-lists-in-hong-kong-becomes-first-commercial-vehicle-autonomy-stock
-- Summary: CiDi's IPO marks a milestone for autonomous driving in commercial sectors like mining and ports, validating its “smart vehicle + infrastructure” model.
-
-### Leapmotor Begins Nationwide Delivery of Lafa 5 EV, Starting at $12,900
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/leapmotor-begins-nationwide-delivery-of-lafa-5-ev-starting-at-12-900
-- Summary: Leapmotor commenced delivery of its affordable Lafa 5 EV, starting under RMB 93,000, offering up to 605km range and available with LiDAR.
-
-### Shargreek Previews Shargeek 300 Power Bank Overseas, Pushes Portable Power Output to 300W
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shargreek-previews-shargeek-300-power-bank-overseas-pushes-portable-power-output-to-300-w
-- Summary: Charging brand Shargreek unveiled the Shargeek 300, a power bank boasting a massive 300W output for charging demanding devices like laptops and drones.
 
