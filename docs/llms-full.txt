@@ -564,6 +564,12 @@
 - URL: https://tldr.takara.ai/p/2512.23676
 - Summary: Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the...
 
+### End-to-End Test-Time Training for Long Context
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23675
+- Summary: We formulate long-context language modeling as a problem in continual learning rather than architecture design. Under this formulation, we only use a standard architecture -- a Transformer with sliding-window attention. However, our model continues learning at test time via next-token prediction on...
+
 ### Nested Browser-Use Learning for Agentic Information Seeking
 - Source: HF Daily Papers
 - Category: open-source
@@ -1029,6 +1035,12 @@
 
 ## 2025-12-28
 
+### Evaluating Parameter Efficient Methods for RLVR
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23165
+- Summary: We systematically evaluate Parameter-Efficient Fine-Tuning (PEFT) methods under the paradigm of Reinforcement Learning with Verifiable Rewards (RLVR). RLVR incentivizes language models to enhance their reasoning capabilities through verifiable feedback; however, while methods like LoRA are commonly...
+
 ### SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -1067,6 +1079,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.22525
 - Summary: Recently unified generation and editing models have achieved remarkable success with their impressive performance. These models rely mainly on text prompts for instruction-based editing and generation, but language often fails to capture users intended edit locations and fine-grained visual...
+
+### GraphLocator: Graph-guided Causal Reasoning for Issue Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.22469
+- Summary: The issue localization task aims to identify the locations in a software repository that requires modification given a natural language issue description. This task is fundamental yet challenging in automated software engineering due to the semantic gap between issue description and source code...
 
 
 ## 2025-12-26
@@ -1767,6 +1785,12 @@
 - URL: https://thehackernews.com/2025/12/sec-files-charges-over-14-million.html
 - Summary: The U.S. Securities and Exchange Commission (SEC) has filed charges against multiple companies for their alleged involvement in an elaborate cryptocurrency scam that swindled more than $14 million from retail investors. The complaint charged crypto asset trading platforms Morocoin Tech Corp., Berge...
 
+### UltraShape 1.0: High-Fidelity 3D Shape Generation via Scalable Geometric Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.21185
+- Summary: In this report, we introduce UltraShape 1.0, a scalable 3D diffusion framework for high-fidelity 3D geometry generation. The proposed approach adopts a two-stage generation pipeline: a coarse global structure is first synthesized and then refined to produce detailed, high-quality geometry. To...
+
 ### Italy Fines Apple €98.6 Million Over ATT Rules Limiting App Store Competition
 - Source: The Hacker News
 - Category: security
@@ -2084,6 +2108,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.21010
 - Summary: The rapid proliferation of Large Language Models (LLMs) and diverse specialized benchmarks necessitates a shift from fragmented, task-specific metrics to a holistic, competitive ranking system that effectively aggregates performance across multiple ability dimensions. Primarily using static...
+
+### GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.21008
+- Summary: Mixture-of-Experts (MoE) architectures have advanced the scaling of Large Language Models (LLMs) by activating only a sparse subset of parameters per input, enabling state-of-the-art performance with reduced computational cost. As these models are increasingly deployed in critical domains,...
 
 ### Learning from Next-Frame Prediction: Autoregressive Video Modeling Encodes Effective Representations
 - Source: HF Daily Papers
@@ -3001,34 +3031,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.17102
 - Summary: arXiv:2512.17102v1 Announce Type: new Abstract: Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in complex reasoning and multi-turn interactions but struggle to continuously improve and adapt when deployed in new environments. One promising approach is implementing...
-
-### Solomonoff-Inspired Hypothesis Ranking with LLMs for Prediction Under Uncertainty
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.17145
-- Summary: arXiv:2512.17145v1 Announce Type: new Abstract: Reasoning under uncertainty is a key challenge in AI, especially for real-world tasks, where problems with sparse data demands systematic generalisation. Existing approaches struggle to balance accuracy and simplicity when evaluating multiple...
-
-### GB-DQN: Gradient Boosted DQN Models for Non-stationary Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.17034
-- Summary: arXiv:2512.17034v1 Announce Type: new Abstract: Non-stationary environments pose a fundamental challenge for deep reinforcement learning, as changes in dynamics or rewards invalidate learned value functions and cause catastrophic forgetting. We propose \emph{Gradient-Boosted Deep Q-Networks...
-
-### SFBD-OMNI: Bridge models for lossy measurement restoration with limited clean samples
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.17051
-- Summary: arXiv:2512.17051v1 Announce Type: new Abstract: In many real-world scenarios, obtaining fully observed samples is prohibitively expensive or even infeasible, while partial and noisy observations are comparatively easy to collect. In this work, we study distribution restoration with abundant noisy...
-
-### Dynamic Tool Dependency Retrieval for Efficient Function Calling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.17052
-- Summary: arXiv:2512.17052v1 Announce Type: new Abstract: Function calling agents powered by Large Language Models (LLMs) select external tools to automate complex tasks. On-device agents typically use a retrieval module to select relevant tools, improving performance and reducing context length. However,...
-
-### Universal consistency of the $k$-NN rule in metric spaces and Nagata dimension. III
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.17058
-- Summary: arXiv:2512.17058v1 Announce Type: new Abstract: We prove the last remaining implication allowing to claim the equivalence of the following conditions for a complete separable metric space $X$: (1) The $k$-nearest neighbour classifier is (weakly) universally consistent in $X$, (2) The strong...
 
