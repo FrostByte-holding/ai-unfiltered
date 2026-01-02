@@ -501,6 +501,12 @@
 - URL: https://tldr.takara.ai/p/2512.24618
 - Summary: We introduce Youtu-LLM, a lightweight yet powerful language model that harmonizes high computational efficiency with native agentic intelligence. Unlike typical small models that rely on distillation, Youtu-LLM (1.96B) is pre-trained from scratch to systematically cultivate reasoning and planning...
 
+### Dynamic Large Concept Models: Latent Reasoning in an Adaptive Semantic Space
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.24617
+- Summary: Large Language Models (LLMs) apply uniform computation to all tokens, despite language exhibiting highly non-uniform information density. This token-uniform regime wastes capacity on locally predictable spans while under-allocating computation to semantically critical transitions. We propose...
+
 ### PhyGDPO: Physics-Aware Groupwise Direct Preference Optimization for Physically Consistent Text-to-Video Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -608,6 +614,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/in-silico-medicine-debuts-on-hkex-with-market-cap-exceeding-us-2-4-b-leading-the-year-s-largest-biotech-ipo-in-hong-kong
 - Summary: AI biopharma leader InSilico Medicine made a stellar debut on the Hong Kong Stock Exchange, raising US$294M in the year's largest biotech IPO there. Its shares surged 42% on the first day, valuing the company at over US$2.4 billion.
+
+### Guiding a Diffusion Transformer with the Internal Dynamics of Itself
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.24176
+- Summary: The diffusion model presents a powerful ability to capture the entire (conditional) data distribution. However, due to the lack of sufficient training and data to learn to cover low-probability areas, the model will be penalized for failing to generate high-quality images corresponding to these...
+
+### DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.24165
+- Summary: While recent Multimodal Large Language Models (MLLMs) have attained significant strides in multimodal reasoning, their reasoning processes remain predominantly text-centric, leading to suboptimal performance in complex long-horizon, vision-centric tasks. In this paper, we establish a novel...
 
 ### Bidirectional RAG: Safe Self-Improving Retrieval-Augmented Generation Through Multi-Stage Validation
 - Source: arXiv AI
@@ -1134,6 +1152,12 @@
 - URL: https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html
 - Summary: In December 2024, the popular Ultralytics AI library was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025, malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed...
 
+### A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.23380
+- Summary: Log anomaly detection is crucial for preserving the security of operating systems. Depending on the source of log data collection, various information is recorded in logs that can be considered log modalities. In light of this intuition, unimodal methods often struggle by ignoring the different...
+
 ### From Visual Perception to Deep Empathy: An Automated Assessment Framework for House-Tree-Person Drawings Using Multimodal LLMs and Multi-Agent Collaboration
 - Source: arXiv AI
 - Category: research
@@ -1493,6 +1517,12 @@
 
 
 ## 2025-12-27
+
+### On the Role of Discreteness in Diffusion LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.22630
+- Summary: Diffusion models offer appealing properties for language generation, such as parallel decoding and iterative refinement, but the discrete and highly structured nature of text challenges the direct application of diffusion principles. In this paper, we revisit diffusion language modeling from the...
 
 ### Dream-VL & Dream-VLA: Open Vision-Language and Vision-Language-Action Models with Diffusion Language Model Backbone
 - Source: HF Daily Papers
@@ -3004,34 +3034,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.18092
 - Summary: arXiv:2512.18092v1 Announce Type: new Abstract: Neuron identification is a popular tool in mechanistic interpretability, aiming to uncover the human-interpretable concepts represented by individual neurons in deep networks. While algorithms such as Network Dissection and CLIP-Dissect achieve great...
-
-### Rethinking Multi-Agent Intelligence Through the Lens of Small-World Networks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.18094
-- Summary: arXiv:2512.18094v1 Announce Type: new Abstract: Large language models (LLMs) have enabled multi-agent systems (MAS) in which multiple agents argue, critique, and coordinate to solve complex tasks, making communication topology a first-class design choice. Yet most existing LLM-based MAS either...
-
-### Efficient Mixture-of-Agents Serving via Tree-Structured Routing, Adaptive Pruning, and Dependency-Aware Prefill-Decode Overlap
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.18126
-- Summary: arXiv:2512.18126v1 Announce Type: new Abstract: Mixture-of-Agents (MoA) inference can suffer from dense inter-agent communication and low hardware utilization, which jointly inflate serving latency. We present a serving design that targets these bottlenecks through an algorithm-system co-design....
-
-### Unifying Causal Reinforcement Learning: Survey, Taxonomy, Algorithms and Applications
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.18135
-- Summary: arXiv:2512.18135v1 Announce Type: new Abstract: Integrating causal inference (CI) with reinforcement learning (RL) has emerged as a powerful paradigm to address critical limitations in classical RL, including low explainability, lack of robustness and generalization failures. Traditional RL...
-
-### Probabilistic Digital Twins of Users: Latent Representation Learning with Statistically Validated Semantics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.18056
-- Summary: arXiv:2512.18056v1 Announce Type: new Abstract: Understanding user identity and behavior is central to applications such as personalization, recommendation, and decision support. Most existing approaches rely on deterministic embeddings or black-box predictive models, offering limited uncertainty...
-
-### Microstructure-based Variational Neural Networks for Robust Uncertainty Quantification in Materials Digital Twins
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.18104
-- Summary: arXiv:2512.18104v1 Announce Type: new Abstract: Aleatoric uncertainties - irremovable variability in microstructure morphology, constituent behavior, and processing conditions - pose a major challenge to developing uncertainty-robust digital twins. We introduce the Variational Deep Material Network...
 
