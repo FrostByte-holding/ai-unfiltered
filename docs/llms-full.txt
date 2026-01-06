@@ -6,6 +6,18 @@
 
 ## 2026-01-06
 
+### ChatGPT issues while retrieving workspace members
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KEACZ6R02744RQKCMSK1ZG54
+- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components Login (Degraded performance) Search (Degraded performance) Image Generation (Degraded performance) GPTs (Degraded performance) Codex (Degraded performance) ChatGPT Atlas (Degraded performance) File...
+
+### Incident with Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/266hgcx77zqw
+- Summary: Jan 6, 17:06 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 6, 16:44 UTCUpdate - We are investigating issues downloading artifacts from Actions...
+
 ### Hacker Conversations: Katie Paxton-Fear Talks Autism, Morality and Hacking
 - Source: Security Week
 - Category: security
@@ -783,11 +795,23 @@
 - URL: https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/
 - Summary: The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about...
 
+### AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.00796
+- Summary: Reconstructing dynamic 3D scenes from monocular videos requires simultaneously capturing high-frequency appearance details and temporally continuous motion. Existing methods using single Gaussian primitives are limited by their low-pass filtering nature, while standard Gabor functions introduce...
+
 ### Transparent Tribe Launches New RAT Attacks Against Indian Government and Academia
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/01/transparent-tribe-launches-new-rat.html
 - Summary: The threat actor known as Transparent Tribe has been attributed to a fresh set of attacks targeting Indian governmental, academic, and strategic entities with a remote access trojan (RAT) that grants them persistent control over compromised hosts. "The campaign employs deceptive delivery...
+
+### The Reasoning-Creativity Trade-off: Toward Creativity-Driven Problem Solving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.00747
+- Summary: State-of-the-art large language model (LLM) pipelines rely on bootstrapped reasoning loops: sampling diverse chains of thought and reinforcing the highest-scoring ones, mainly optimizing correctness. We analyze how this design choice is sensitive to the collapse of the model's distribution over...
 
 ### Two US Cybersecurity Pros Plead Guilty Over Ransomware Attacks
 - Source: Security Week
@@ -1541,6 +1565,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.24165
 - Summary: While recent Multimodal Large Language Models (MLLMs) have attained significant strides in multimodal reasoning, their reasoning processes remain predominantly text-centric, leading to suboptimal performance in complex long-horizon, vision-centric tasks. In this paper, we establish a novel...
+
+### Taming Preference Mode Collapse via Directional Decoupling Alignment in Diffusion Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.24146
+- Summary: Recent studies have demonstrated significant progress in aligning text-to-image diffusion models with human preference via Reinforcement Learning from Human Feedback. However, while existing methods achieve high scores on automated reward metrics, they often lead to Preference Mode Collapse (PMC)-a...
 
 ### GARDO: Reinforcing Diffusion Models without Reward Hacking
 - Source: HF Daily Papers
@@ -2454,6 +2484,12 @@
 - URL: https://tldr.takara.ai/p/2512.22984
 - Summary: Recent text-to-image diffusion models have demonstrated remarkable generation of realistic facial images conditioned on textual prompts and human identities, enabling creating personalized facial imagery. However, existing prompt-based methods for removing or modifying identity-specific features...
 
+### Diversity or Precision? A Deep Dive into Next Token Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2512.22955
+- Summary: Recent advancements have shown that reinforcement learning (RL) can substantially improve the reasoning abilities of large language models (LLMs). The effectiveness of such RL training, however, depends critically on the exploration space defined by the pre-trained model's token-output...
+
 ### JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -3002,40 +3038,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.20662
 - Summary: arXiv:2512.20662v1 Announce Type: new Abstract: Large Language Models (LLMs) often exhibit behavioral artifacts such as laziness (premature truncation of responses or partial compliance with multi-part requests), decoding suboptimality (failure to select higher-quality sequences due to myopic...
-
-### Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Constraint Satisfaction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.20664
-- Summary: arXiv:2512.20664v1 Announce Type: new Abstract: Large Language Models (LLMs) frequently produce hallucinated statements that are assigned high likelihood by the model itself, exposing a fundamental limitation of probability-based verification. This suggests that hallucination is often not a...
-
-### Bridging the AI Trustworthiness Gap between Functions and Norms
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.20671
-- Summary: arXiv:2512.20671v1 Announce Type: new Abstract: Trustworthy Artificial Intelligence (TAI) is gaining traction due to regulations and functional benefits. While Functional TAI (FTAI) focuses on how to implement trustworthy systems, Normative TAI (NTAI) focuses on regulations that need to be...
-
-### Managing the Stochastic: Foundations of Learning in Neuro-Symbolic Systems for Software Engineering
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.20660
-- Summary: arXiv:2512.20660v1 Announce Type: new Abstract: Current approaches to AI coding agents appear to blur the lines between the Large Language Model (LLM) and the agent itself, asking the LLM to make decisions best left to deterministic processes. This leads to systems prone to stochastic failures such...
-
-### Dominating vs. Dominated: Generative Collapse in Diffusion Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.20666
-- Summary: arXiv:2512.20666v1 Announce Type: new Abstract: Text-to-image diffusion models have drawn significant attention for their ability to generate diverse and high-fidelity images. However, when generating from multi-concept prompts, one concept token often dominates the generation, suppressing the...
-
-### Forward Only Learning for Orthogonal Neural Networks of any Depth
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.20668
-- Summary: arXiv:2512.20668v1 Announce Type: new Abstract: Backpropagation is still the de facto algorithm used today to train neural networks. With the exponential growth of recent architectures, the computational cost of this algorithm also becomes a burden. The recent PEPITA and forward-only frameworks...
-
-### Improving Cardiac Risk Prediction Using Data Generation Techniques
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.20669
-- Summary: arXiv:2512.20669v1 Announce Type: new Abstract: Cardiac rehabilitation constitutes a structured clinical process involving multiple interdependent phases, individualized medical decisions, and the coordinated participation of diverse healthcare professionals. This sequential and adaptive nature...
 
