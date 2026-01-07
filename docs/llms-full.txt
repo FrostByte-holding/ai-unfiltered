@@ -6,6 +6,18 @@
 
 ## 2026-01-07
 
+### Claude subscription usage limits not visible in Claude.ai and Claude Code
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4hr61fgdzbtc
+- Summary: Jan 7, 19:20 UTCUpdate - We are continuing to investigate this issue.Jan 7, 19:07 UTCInvestigating - We are currently investigating this issue.
+
+### Some models missing in Copilot
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/vyxbxqhdt75d
+- Summary: Jan 7, 19:43 UTCUpdate - We have implemented a mitigation and confirmed that Copilot Pro and Business accounts now have access to the previously missing models. We will continue monitoring to ensure complete resolution.Jan 7, 19:29 UTCUpdate - We continue to investigate. We'll post another update...
+
 ### The Loudest Voices in Security Often Have the Least to Lose
 - Source: Security Week
 - Category: security
@@ -964,6 +976,12 @@
 - URL: https://thehackernews.com/2026/01/the-state-of-cybersecurity-in-2025key.html
 - Summary: Featuring: Cybersecurity is being reshaped by forces that extend beyond individual threats or tools. As organizations operate across cloud infrastructure, distributed endpoints, and complex supply chains, security has shifted from a collection of point solutions to a question of architecture,...
 
+### DiffProxy: Multi-View Human Mesh Recovery via Diffusion-Generated Dense Proxies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.02267
+- Summary: Human mesh recovery from multi-view images faces a fundamental challenge: real-world datasets contain imperfect ground-truth annotations that bias the models' training, while synthetic data with precise supervision suffers from domain gap. In this paper, we propose DiffProxy, a novel framework that...
+
 ### VAR RL Done Right: Tackling Asynchronous Policy Conflicts in Visual Autoregressive Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -981,6 +999,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.02204
 - Summary: We present NextFlow, a unified decoder-only autoregressive transformer trained on 6 trillion interleaved text-image discrete tokens. By leveraging a unified vision representation within a unified autoregressive architecture, NextFlow natively activates multimodal understanding and generation...
+
+### Confidence Estimation for LLMs in Multi-turn Interactions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.02179
+- Summary: While confidence estimation is a promising direction for mitigating hallucinations in Large Language Models (LLMs), current research dominantly focuses on single-turn settings. The dynamics of model confidence in multi-turn conversations, where context accumulates and ambiguity is progressively...
 
 ### Bitfinex Hack Convict Ilya Lichtenstein Released Early Under U.S. First Step Act
 - Source: The Hacker News
@@ -1519,6 +1543,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/d5t56pdnjxhd
 - Summary: Jan 1, 22:31 UTCResolved - The /features/copilot page has been restored.Jan 1, 21:24 UTCUpdate - Our Copilot feature page (https://github.com/features/copilot) is returning 500s. We are currently investigating. This does not impact the core GitHub application.Jan 1, 21:24 UTCInvestigating - We are...
+
+### CPPO: Contrastive Perception for Vision Language Policy Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.00501
+- Summary: We introduce CPPO, a Contrastive Perception Policy Optimization method for finetuning vision-language models (VLMs). While reinforcement learning (RL) has advanced reasoning in language models, extending it to multimodal reasoning requires improving both the perception and reasoning aspects. Prior...
 
 ### ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud Exploits, and 12+ Stories
 - Source: The Hacker News
@@ -2179,6 +2209,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2512.24146
 - Summary: Recent studies have demonstrated significant progress in aligning text-to-image diffusion models with human preference via Reinforcement Learning from Human Feedback. However, while existing methods achieve high scores on automated reward metrics, they often lead to Preference Mode Collapse (PMC)-a...
+
+### Selective Imperfection as a Generative Framework for Analysis, Creativity and Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.00863
+- Summary: We introduce materiomusic as a generative framework linking the hierarchical structures of matter with the compositional logic of music. Across proteins, spider webs and flame dynamics, vibrational and architectural principles recur as tonal hierarchies, harmonic progressions, and long-range...
 
 ### GARDO: Reinforcing Diffusion Models without Reward Hacking
 - Source: HF Daily Papers
@@ -2992,40 +3028,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.21715
 - Summary: arXiv:2512.21715v1 Announce Type: new Abstract: Theme detection is a fundamental task in user-centric dialogue systems, aiming to identify the latent topic of each utterance without relying on predefined schemas. Unlike intent induction, which operates within fixed label spaces, theme detection...
-
-### Ara-HOPE: Human-Centric Post-Editing Evaluation for Dialectal Arabic to Modern Standard Arabic Translation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2512.21787
-- Summary: arXiv:2512.21787v1 Announce Type: new Abstract: Dialectal Arabic to Modern Standard Arabic (DA-MSA) translation is a challenging task in Machine Translation (MT) due to significant lexical, syntactic, and semantic divergences between Arabic dialects and MSA. Existing automatic evaluation metrics...
-
-### Five Years of SciCap: What We Learned and Future Directions for Scientific Figure Captioning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2512.21789
-- Summary: arXiv:2512.21789v1 Announce Type: new Abstract: Between 2021 and 2025, the SciCap project grew from a small seed-funded idea at The Pennsylvania State University (Penn State) into one of the central efforts shaping the scientific figure-captioning landscape. Supported by a Penn State seed grant,...
-
-### Avatr Files for Hong Kong IPO at Valuation of USD 4.6 Billion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/avatr-files-for-hong-kong-ipo-at-valuation-of-usd-4-6-billion
-- Summary: Premium EV brand Avatr Technology, backed by Changan, CATL, and Huawei, has filed for a Hong Kong IPO. The filing reveals rapid sales growth and a valuation of approximately $4.6 billion.
-
-### Lingshuo Technology Secures Angel Funding, Focuses on Automotive-Grade RISC-V Chips
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/lingshuo-technology-secures-angel-funding-focuses-on-automotive-grade-risc-v-chips
-- Summary: Chip startup Lingshuo Technology has secured angel funding to develop high-safety RISC-V chips for cars. It aims to break into a market for critical domain controllers currently dominated by giants like Infineon and NXP.
-
-### Xiaomi Co-Founder Lin Bin Announces Long-Term Share Sale Plan of Up to USD 2 Billion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-co-founder-lin-bin-announces-long-term-share-sale-plan-of-up-to-usd-2-billion
-- Summary: Xiaomi co-founder and Vice Chairman Lin Bin has announced a planned sale of up to $2 billion worth of shares over several years, starting in late 2026, with proceeds earmarked for a new investment fund.
-
-### Leapmotor Unveils 10-Year Strategy, Launches Dual Flagship D-Series Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/leapmotor-unveils-10-year-strategy-launches-dual-flagship-d-series-models
-- Summary: EV maker Leapmotor has launched two premium models and announced its ambition to become a "world-class intelligent automaker." The move marks a strategic push into the higher-priced vehicle segment.
 
