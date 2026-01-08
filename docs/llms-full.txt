@@ -6,6 +6,18 @@
 
 ## 2026-01-08
 
+### INC0149526
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/zkz78zszy9wc
+- Summary: Jan 8, 20:22 UTCResolved - Current status: We've confirmed after a period of monitoring that our reversal of the offending change has remediated the issue, and our service is healthy. Users with existing sessions that are still impacted should refresh their sessions to experience relief. If you...
+
+### Increased latency on Sonnet 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/jlg58yl731jj
+- Summary: Jan 8, 17:43 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 8, 17:23 UTCInvestigating - We are currently investigating this issue.
+
 ### UK Government Unveils New Cyber Action Plan
 - Source: Security Week
 - Category: security
@@ -905,6 +917,12 @@
 - URL: https://www.securityweek.com/researchers-trap-scattered-lapsus-hunters-in-honeypot/
 - Summary: Using fake accounts and synthetic data to lure the hackers, the researchers gathered information on their servers. The post Researchers Trap Scattered Lapsus$ Hunters in Honeypot appeared first on SecurityWeek.
 
+### Muses: Designing, Composing, Generating Nonexistent Fantasy 3D Creatures without Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.03256
+- Summary: We present Muses, the first training-free method for fantastic 3D creature generation in a feed-forward paradigm. Previous methods, which rely on part-aware optimization, manual assembly, or 2D image generation, often produce unrealistic or incoherent 3D assets due to the challenges of intricate...
+
 ### InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields
 - Source: HF Daily Papers
 - Category: open-source
@@ -1036,6 +1054,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/mova-to-showcase-3-d-home-robotics-at-ces-2026-unveils-module-that-lets-robot-vacuums-fly
 - Summary: MOVA will showcase its “water, land, and air” home robots at CES 2026, featuring a “Pilot70” module that enables vacuum cleaners to fly between floors in multi-story homes.
+
+### Mechanistic Interpretability of Large-Scale Counting in LLMs through a System-2 Strategy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.02989
+- Summary: Large language models (LLMs), despite strong performance on complex mathematical problems, exhibit systematic limitations in counting tasks. This issue arises from architectural limits of transformers, where counting is performed across layers, leading to degraded precision for larger counting...
 
 ### Fengluan Education Raises Nearly  USD 1.43 million Angel Round; “Game-Like Courses” Hit 10,000 Paying Users in First Month
 - Source: Pandaily
@@ -1985,6 +2009,12 @@
 
 ## 2026-01-03
 
+### Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.01321
+- Summary: Digital twins, as precise digital representations of physical systems, have evolved from passive simulation tools into intelligent and autonomous entities through the integration of artificial intelligence technologies. This paper presents a unified four-stage framework that systematically...
+
 ### President Trump Orders Divestment in $2.9 Million Chips Deal to Protect US Security Interests
 - Source: Security Week
 - Category: security
@@ -2113,6 +2143,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/consumer-tech-brand-x-tool-files-for-hong-kong-ipo-after-200-m-tencent-led-pre-ipo-round
 - Summary: Consumer technology company xTool has filed for a Hong Kong listing after closing a $200 million pre-IPO round led by Tencent.
+
+### AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.00581
+- Summary: We introduce AceFF, a pre-trained machine learning interatomic potential (MLIP) optimized for small molecule drug discovery. While MLIPs have emerged as efficient alternatives to Density Functional Theory (DFT), generalizability across diverse chemical spaces remains difficult. AceFF addresses this...
 
 ### InfoSynth: Information-Guided Benchmark Synthesis for LLMs
 - Source: HF Daily Papers
@@ -2992,40 +3028,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.22443
 - Summary: arXiv:2512.22443v1 Announce Type: new Abstract: Large Language Models (LLMs) are reshaping learning paradigms, cognitive processes, and research methodologies across a wide range of domains. Integrating LLMs with professional fields and redefining the relationship between LLMs and domain-specific...
-
-### Constituency Structure over Eojeol in Korean Treebanks
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2512.22487
-- Summary: arXiv:2512.22487v1 Announce Type: new Abstract: The design of Korean constituency treebanks raises a fundamental representational question concerning the choice of terminal units. Although Korean words are morphologically complex, treating morphemes as constituency terminals conflates word internal...
-
-### Subgoaling Relaxation-based Heuristics for Numeric Planning with Infinite Actions
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.22367
-- Summary: arXiv:2512.22367v1 Announce Type: new Abstract: Numeric planning with control parameters extends the standard numeric planning model by introducing action parameters as free numeric variables that must be instantiated during planning. This results in a potentially infinite number of applicable...
-
-### HalluMat: Detecting Hallucinations in LLM-Generated Materials Science Content Through Multi-Stage Verification
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.22396
-- Summary: arXiv:2512.22396v1 Announce Type: new Abstract: Artificial Intelligence (AI), particularly Large Language Models (LLMs), is transforming scientific discovery, enabling rapid knowledge generation and hypothesis formulation. However, a critical challenge is hallucination, where LLMs generate...
-
-### Lightweight Inference-Time Personalization for Frozen Knowledge Graph Embeddings
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.22398
-- Summary: arXiv:2512.22398v1 Announce Type: new Abstract: Foundation models for knowledge graphs (KGs) achieve strong cohort-level performance in link prediction, yet fail to capture individual user preferences; a key disconnect between general relational reasoning and personalized ranking. We propose...
-
-### Monadic Context Engineering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.22431
-- Summary: arXiv:2512.22431v1 Announce Type: new Abstract: The proliferation of Large Language Models (LLMs) has catalyzed a shift towards autonomous agents capable of complex reasoning and tool use. However, current agent architectures are frequently constructed using imperative, ad hoc patterns. This...
-
-### DarkPatterns-LLM: A Multi-Layer Benchmark for Detecting Manipulative and Harmful AI Behavior
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.22470
-- Summary: arXiv:2512.22470v1 Announce Type: new Abstract: The proliferation of Large Language Models (LLMs) has intensified concerns about manipulative or deceptive behaviors that can undermine user autonomy, trust, and well-being. Existing safety benchmarks predominantly rely on coarse binary labels and...
 
