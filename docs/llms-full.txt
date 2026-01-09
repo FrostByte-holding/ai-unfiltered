@@ -6,6 +6,24 @@
 
 ## 2026-01-09
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/8bcsk6c4prjl
+- Summary: Jan 9, 20:07 UTCUpdate - We continue to investigate the problem with Copilot agent sessions not rendering in ai controls.Jan 9, 19:35 UTCUpdate - We continue to investigate the problem with Copilot agent sessions not rendering in ai controls.Jan 9, 19:02 UTCUpdate - We continue to investigate the...
+
+### New Subscription Activation & Payment Issues
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/pttlfp1vg4g3
+- Summary: Jan 9, 19:59 UTCIdentified - The issue has been identified and a fix should be coming soon for new purchases. After the issue is fixed, we will issue refunds for all users who were incorrectly charged and/or properly grant subscription access.The issue began around 10PM PST on 2026-01-08 and...
+
+### Claude Code Hits Different
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/claude-code-hits-different
+- Summary: Coding agents cross a meaningful threshold with Opus 4.5.
+
 ### In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k
 - Source: Security Week
 - Category: security
@@ -996,6 +1014,12 @@
 - URL: https://thehackernews.com/2026/01/microsoft-warns-misconfigured-email.html
 - Summary: Threat actors engaging in phishing attacks are exploiting routing scenarios and misconfigured spoof protections to impersonate organizations' domains and distribute emails that appear as if they have been sent internally. "Threat actors have leveraged this vector to deliver a wide variety of...
 
+### ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.03955
+- Summary: Existing 1D visual tokenizers for autoregressive (AR) generation largely follow the design principles of language modeling, as they are built directly upon transformers whose priors originate in language, yielding single-hierarchy latent tokens and treating visual data as flat sequential token...
+
 ### Doc-PP: Document Policy Preservation Benchmark for Large Vision-Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1019,6 +1043,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xiaohongshu-tests-paid-notes-feature
 - Summary: Xiaohongshu is piloting a paid content feature, allowing creators to monetize premium posts as it explores new growth in content and online fiction.
+
+### ROI-Reasoning: Rational Optimization for Inference via Pre-Computation Meta-Cognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.03822
+- Summary: Large language models (LLMs) can achieve strong reasoning performance with sufficient computation, but they do not inherently know how much computation a task requires. We study budgeted inference-time reasoning for multiple tasks under a strict global token constraint and formalize it as a Ordered...
 
 ### Textual Explanations and Their Evaluations for Reinforcement Learning Policy
 - Source: arXiv AI
@@ -1341,6 +1371,12 @@
 
 ## 2026-01-06
 
+### DiffCoT: Diffusion-styled Chain-of-Thought Reasoning in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.03559
+- Summary: Chain-of-Thought (CoT) reasoning improves multi-step mathematical problem solving in large language models but remains vulnerable to exposure bias and error accumulation, as early mistakes propagate irreversibly through autoregressive decoding. In this work, we propose DiffCoT, a diffusion-styled...
+
 ### Powering up (and saving) the planet
 - Source: MIT Tech Review AI
 - Category: research
@@ -1399,6 +1435,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/llama-nemotron-vl-1b
+
+### Evolving Programmatic Skill Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.03509
+- Summary: We study continual skill acquisition in open-ended embodied environments where an agent must construct, refine, and reuse an expanding library of executable skills. We introduce the Programmatic Skill Network (PSN), a framework in which skills are executable symbolic programs forming a...
 
 ### ChatGPT issues while retrieving workspace members
 - Source: OpenAI Status
@@ -1645,6 +1687,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/chen-tianqiao-dai-jifeng-team-releases-open-source-agent-model-miro-thinker-1-5-entering-the-top-performance-tier-with-30-b-parameters
 - Summary: MiroMind open-sourced its flagship agent model MiroThinker 1.5. With only 30B parameters, it rivals top-tier giants in benchmarks, achieving top performance at a fraction of the cost through interactive reasoning.
+
+### Pearmut: Human Evaluation of Translation Made Trivial
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.02933
+- Summary: Human evaluation is the gold standard for multilingual NLP, but is often skipped in practice and substituted with automatic metrics, because it is notoriously complex and slow to set up with existing tools with substantial engineering and operational overhead. We introduce Pearmut, a lightweight...
 
 ### New n8n Vulnerability (9.9 CVSS) Lets Authenticated Users Execute System Commands
 - Source: The Hacker News
@@ -2977,52 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2512.24497
 - Summary: arXiv:2512.24497v1 Announce Type: new Abstract: A long-standing challenge in AI is to develop agents capable of solving a wide range of physical tasks and generalizing to new, unseen tasks and environments. A popular recent approach involves training a world model from state-action trajectories and...
-
-### Thinking on Maps: How Foundation Model Agents Explore, Remember, and Reason Map Environments
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.24504
-- Summary: arXiv:2512.24504v1 Announce Type: new Abstract: Map environments provide a fundamental medium for representing spatial structure. Understanding how foundation model (FM) agents understand and act in such environments is therefore critical for enabling reliable map-based reasoning and applications....
-
-### Evaluating the Reasoning Abilities of LLMs on Underrepresented Mathematics Competition Problems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2512.24505
-- Summary: arXiv:2512.24505v1 Announce Type: new Abstract: Understanding the limitations of Large Language Models, or LLMs, in mathematical reasoning has been the focus of several recent studies. However, the majority of these studies use the same datasets for benchmarking, which limits the generalizability...
-
-### Exploring Cumulative Effects in Survival Data Using Deep Learning Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.23764
-- Summary: arXiv:2512.23764v1 Announce Type: new Abstract: In epidemiological research, modeling the cumulative effects of time-dependent exposures on survival outcomes presents a challenge due to their intricate temporal dynamics. Conventional spline-based statistical methods, though effective, require...
-
-### A Granular Grassmannian Clustering Framework via the Schubert Variety of Best Fit
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.23766
-- Summary: arXiv:2512.23766v1 Announce Type: new Abstract: In many classification and clustering tasks, it is useful to compute a geometric representative for a dataset or a cluster, such as a mean or median. When datasets are represented by subspaces, these representatives become points on the Grassmann or...
-
-### Enabling Physical AI at the Edge: Hardware-Accelerated Recovery of System Dynamics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.23767
-- Summary: arXiv:2512.23767v1 Announce Type: new Abstract: Physical AI at the edge -- enabling autonomous systems to understand and predict real-world dynamics in real time -- requires hardware-efficient learning and inference. Model recovery (MR), which identifies governing equations from sensor data, is a...
-
-### Safety-Biased Policy Optimisation: Towards Hard-Constrained Reinforcement Learning via Trust Regions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.23770
-- Summary: arXiv:2512.23770v1 Announce Type: new Abstract: Reinforcement learning (RL) in safety-critical domains requires agents to maximise rewards while strictly adhering to safety constraints. Existing approaches, such as Lagrangian and projection-based methods, often either fail to ensure near-zero...
-
-### FineFT: Efficient and Risk-Aware Ensemble Reinforcement Learning for Futures Trading
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2512.23773
-- Summary: arXiv:2512.23773v1 Announce Type: new Abstract: Futures are contracts obligating the exchange of an asset at a predetermined date and price, notable for their high leverage and liquidity and, therefore, thrive in the Crypto market. RL has been widely applied in various quantitative tasks. However,...
-
-### Entropy-Aware Speculative Decoding Toward Improved LLM Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2512.23765
-- Summary: arXiv:2512.23765v1 Announce Type: new Abstract: Speculative decoding (SD) accelerates large language model (LLM) reasoning by using a small draft model to generate candidate tokens, which the target LLM either accepts directly or regenerates upon rejection. However, excessive alignment between the...
 
