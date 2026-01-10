@@ -612,6 +612,12 @@
 - URL: https://www.securityweek.com/researchers-expose-whill-wheelchair-safety-risks-via-remote-hacking/
 - Summary: CISA advisory warns that unauthenticated Bluetooth access in WHILL devices allows for unauthorized movement. The post Researchers Expose WHILL Wheelchair Safety Risks via Remote Hacking appeared first on SecurityWeek.
 
+### Multi-Scale Local Speculative Decoding for Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.05149
+- Summary: Autoregressive (AR) models have achieved remarkable success in image synthesis, yet their sequential nature imposes significant latency constraints. Speculative Decoding offers a promising avenue for acceleration, but existing approaches are limited by token-level ambiguity and lack of spatial...
+
 ### VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control
 - Source: HF Daily Papers
 - Category: open-source
@@ -725,6 +731,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html
 - Summary: Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical records...
+
+### PyramidalWan: On Making Pretrained Video Model Pyramidal for Efficient Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.04792
+- Summary: Recently proposed pyramidal models decompose the conventional forward and backward diffusion processes into multiple stages operating at varying resolutions. These models handle inputs with higher noise levels at lower resolutions, while less noisy inputs are processed at higher resolutions. This...
 
 ### M3MAD-Bench: Are Multi-Agent Debates Really Effective Across Domains and Modalities?
 - Source: arXiv AI
@@ -1059,6 +1071,12 @@
 - URL: https://status.openai.com//incidents/01KEDB9WGPMX6HK8X629AFM907
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)
 
+### Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.04575
+- Summary: Behavior cloning is enjoying a resurgence in popularity as scaling both model and data sizes proves to provide a strong starting point for many tasks of interest. In this work, we introduce an open recipe for training a video game playing foundation model designed for inference in realtime on a...
+
 ### Claude subscription usage limits not visible in Claude.ai and Claude Code
 - Source: Anthropic Status
 - Category: incidents
@@ -1094,6 +1112,12 @@
 - Category: security
 - URL: https://www.securityweek.com/chrome-extensions-with-900000-downloads-caught-stealing-ai-chats/
 - Summary: Impersonating a legitimate extension from AITOPIA, the two malicious extensions were also exfiltrating users’ browser activity. The post Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats appeared first on SecurityWeek.
+
+### ReHyAt: Recurrent Hybrid Attention for Video Diffusion Transformers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.04342
+- Summary: Recent advances in video diffusion models have shifted towards transformer-based architectures, achieving state-of-the-art video generation but at the cost of quadratic attention complexity, which severely limits scalability for longer sequences. We introduce ReHyAt, a Recurrent Hybrid Attention...
 
 ### Deploying a hybrid approach to Web3 in the AI era
 - Source: MIT Tech Review AI
@@ -2282,6 +2306,12 @@
 
 ## 2026-01-05
 
+### Learning User Preferences Through Interaction for Long-Term Collaboration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.02702
+- Summary: As conversational agents accumulate experience collaborating with users, adapting to user preferences is essential for fostering long-term relationships and improving collaboration quality over time. We introduce MultiSessionCollab, a benchmark that evaluates how well agents can learn user...
+
 ### NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI
 - Source: Hugging Face Blog
 - Category: open-source
@@ -2995,37 +3025,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-s-nev-sales-report-card-for-2025-is-in
 - Summary: China’s major new energy vehicle (NEV) makers have released their 2025 sales figures, highlighting strong growth among startups and continued dominance by industry leaders.
-
-### DeepSeek Kicks Off the Year With New Paper Introducing the mHC Architecture
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deep-seek-kicks-off-the-year-with-new-paper-introducing-the-m-hc-architecture
-- Summary: DeepSeek has unveiled a new research paper proposing mHC, a novel architecture designed to stabilize large-scale model training while preserving performance gains.
-
-### Consumer Tech Brand xTool Files for Hong Kong IPO After $200M Tencent-Led Pre-IPO Round
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/consumer-tech-brand-x-tool-files-for-hong-kong-ipo-after-200-m-tencent-led-pre-ipo-round
-- Summary: Consumer technology company xTool has filed for a Hong Kong listing after closing a $200 million pre-IPO round led by Tencent.
-
-### AceFF: A State-of-the-Art Machine Learning Potential for Small Molecules
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.00581
-- Summary: We introduce AceFF, a pre-trained machine learning interatomic potential (MLIP) optimized for small molecule drug discovery. While MLIPs have emerged as efficient alternatives to Density Functional Theory (DFT), generalizability across diverse chemical spaces remains difficult. AceFF addresses this...
-
-### InfoSynth: Information-Guided Benchmark Synthesis for LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.00575
-- Summary: Large language models (LLMs) have demonstrated significant advancements in reasoning and code generation. However, efficiently creating new benchmarks to evaluate these capabilities remains a challenge. Traditional benchmark creation relies on manual human effort, a process that is both expensive...
-
-
-## 2026-01-01
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/d5t56pdnjxhd
-- Summary: Jan 1, 22:31 UTCResolved - The /features/copilot page has been restored.Jan 1, 21:24 UTCUpdate - Our Copilot feature page (https://github.com/features/copilot) is returning 500s. We are currently investigating. This does not impact the core GitHub application.Jan 1, 21:24 UTCInvestigating - We are...
 
