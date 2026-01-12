@@ -6,6 +6,30 @@
 
 ## 2026-01-12
 
+### Elevated rate of errors for multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/zt2q0ltqcvbx
+- Summary: Jan 12, 20:14 UTCResolved - This incident has been resolved.Jan 12, 18:39 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 12, 18:19 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 12, 18:18 UTCUpdate - We are continuing to...
+
+### Increased rate of errors for Opus 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/s2g3slcdq9jk
+- Summary: Jan 12, 20:14 UTCResolved - This incident has been resolved.Jan 12, 20:07 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 12, 19:21 UTCInvestigating - We are currently investigating this issue.
+
+### Connectors/Apps unselectable in ChatGPT Input Menu
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KESV314P64MK8XSV6Q5DCDJ2
+- Summary: Status: ResolvedConnectors/Apps are again selectable in the ChatGPT Input Menu.Affected components Connectors (Operational)
+
+### n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/01/n8n-supply-chain-attack-abuses.html
+- Summary: Threat actors have been observed uploading a set of eight packages on the npm registry that masqueraded as integrations targeting the n8n workflow automation platform to steal developers' OAuth credentials. One such package, named "n8n-nodes-hfgjf-irtuinvcm-lasdqewriit," mimics a Google Ads...
+
 ### ⚡ Weekly Recap: AI Automation Exploits, Telecom Espionage, Prompt Poaching & More
 - Source: The Hacker News
 - Category: security
@@ -332,6 +356,12 @@
 - URL: https://www.securityweek.com/trend-micro-patches-critical-code-execution-flaw-in-apex-central/
 - Summary: Tenable has released PoC code and technical details after the vendor announced the availability of patches for three vulnerabilities. The post Trend Micro Patches Critical Code Execution Flaw in Apex Central appeared first on SecurityWeek.
 
+### Chaining the Evidence: Robust Reinforcement Learning for Deep Search Agents with Citation-Aware Rubric Rewards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.06021
+- Summary: Reinforcement learning (RL) has emerged as a critical technique for enhancing LLM-based deep search agents. However, existing approaches primarily rely on binary outcome rewards, which fail to capture the comprehensiveness and factuality of agents' reasoning process, and often lead to undesirable...
+
 ### CISA Closes 10 Emergency Directives as Vulnerability Catalog Takes Over
 - Source: Security Week
 - Category: security
@@ -355,6 +385,12 @@
 - Category: security
 - URL: https://www.securityweek.com/zombieagent-attack-let-researchers-take-over-chatgpt/
 - Summary: Radware bypassed ChatGPT’s protections to exfiltrate user data and implant a persistent logic into the agent’s long-term memory. The post &#8216;ZombieAgent&#8217; Attack Let Researchers Take Over ChatGPT appeared first on SecurityWeek.
+
+### VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.05966
+- Summary: Recent advances in video generation have been dominated by diffusion and flow-matching models, which produce high-quality results but remain computationally intensive and difficult to scale. In this work, we introduce VideoAR, the first large-scale Visual Autoregressive (VAR) framework for video...
 
 ### 377,000 Impacted by Data Breach at Texas Gas Station Firm
 - Source: Security Week
@@ -409,6 +445,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.05851
 - Summary: Real-time multimodal auto-completion is essential for digital assistants, chatbots, design tools, and healthcare consultations, where user inputs rely on shared visual context. We introduce Multimodal Auto-Completion (MAC), a task that predicts upcoming characters in live chats using partially...
+
+### Goal Force: Teaching Video Models To Accomplish Physics-Conditioned Goals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.05848
+- Summary: Recent advancements in video generation have enabled the development of ``world models'' capable of simulating potential futures for robotics and planning. However, specifying precise goals for these models remains a challenge; text instructions are often too abstract to capture physical nuances,...
 
 ### Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions
 - Source: The Hacker News
@@ -727,6 +769,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.04212
 - Summary: arXiv:2601.04212v1 Announce Type: new Abstract: Large language models (LLMs) have exhibited remarkable proficiency in generating high-quality text; however, their propensity for producing hallucinations poses a significant challenge for their deployment in security-critical domains. In this work,...
+
+### GenCtrl -- A Formal Controllability Toolkit for Generative Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.05637
+- Summary: As generative models become ubiquitous, there is a critical need for fine-grained control over the generation process. Yet, while controlled generation methods from prompting to fine-tuning proliferate, a fundamental question remains unanswered: are these models truly controllable in the first...
 
 ### China Breaks Ground on Its First Stainless-Steel Rocket Super Factory, Targeting 25 Reusable Launches a Year
 - Source: Pandaily
@@ -2974,52 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.00084
 - Summary: arXiv:2601.00084v1 Announce Type: new Abstract: In fixed-confidence best arm identification (BAI), the objective is to quickly identify the optimal option while controlling the probability of error below a desired threshold. Despite the plethora of BAI algorithms, existing methods typically fall...
-
-### RIMRULE: Improving Tool-Using Language Agents via MDL-Guided Rule Learning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.00086
-- Summary: arXiv:2601.00086v1 Announce Type: new Abstract: Large language models (LLMs) often struggle to use tools reliably in domain-specific settings, where APIs may be idiosyncratic, under-documented, or tailored to private workflows. This highlights the need for effective adaptation to task-specific...
-
-### Universal Adaptive Constraint Propagation: Scaling Structured Inference for Large Language Models via Meta-Reinforcement Learning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.00095
-- Summary: arXiv:2601.00095v1 Announce Type: new Abstract: Large language models increasingly require structured inference, from JSON schema enforcement to multi-lingual parsing, where outputs must satisfy complex constraints. We introduce MetaJuLS, a meta-reinforcement learning approach that learns universal...
-
-### Pat-DEVAL: Chain-of-Legal-Thought Evaluation for Patent Description
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.00166
-- Summary: arXiv:2601.00166v1 Announce Type: new Abstract: Patent descriptions must deliver comprehensive technical disclosure while meeting strict legal standards such as enablement and written description requirements. Although large language models have enabled end-to-end automated patent drafting,...
-
-### Understanding Emotion in Discourse: Recognition Insights and Linguistic Patterns for Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.00181
-- Summary: arXiv:2601.00181v1 Announce Type: new Abstract: While Emotion Recognition in Conversation (ERC) has achieved high accuracy, two critical gaps remain: a limited understanding of \textit{which} architectural choices actually matter, and a lack of linguistic analysis connecting recognition to...
-
-### Knowledge Distillation for Temporal Knowledge Graph Reasoning with Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.00202
-- Summary: arXiv:2601.00202v1 Announce Type: new Abstract: Reasoning over temporal knowledge graphs (TKGs) is fundamental to improving the efficiency and reliability of intelligent decision-making systems and has become a key technological foundation for future artificial intelligence applications. Despite...
-
-### From Clay to Code: Typological and Material Reasoning in AI Interpretations of Iranian Pigeon Towers
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.00029
-- Summary: arXiv:2601.00029v1 Announce Type: new Abstract: This study investigates how generative AI systems interpret the architectural intelligence embedded in vernacular form. Using the Iranian pigeon tower as a case study, the research tests three diffusion models, Midjourney v6, DALL-E 3, and DreamStudio...
-
-### The Agentic Leash: Extracting Causal Feedback Fuzzy Cognitive Maps with LLMs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.00097
-- Summary: arXiv:2601.00097v1 Announce Type: new Abstract: We design a large-language-model (LLM) agent that extracts causal feedback fuzzy cognitive maps (FCMs) from raw text. The causal learning or extraction process is agentic both because of the LLM's semi-autonomy and because ultimately the FCM dynamical...
-
-### Mortar: Evolving Mechanics for Automatic Game Design
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.00105
-- Summary: arXiv:2601.00105v1 Announce Type: new Abstract: We present Mortar, a system for autonomously evolving game mechanics for automatic game design. Game mechanics define the rules and interactions that govern gameplay, and designing them manually is a time-consuming and expert-driven process. Mortar...
 
