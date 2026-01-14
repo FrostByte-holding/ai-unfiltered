@@ -6,6 +6,12 @@
 
 ## 2026-01-14
 
+### Incident with Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/j7yjswzyrktp
+- Summary: Jan 14, 20:21 UTCInvestigating - We are investigating reports of degraded performance for Webhooks
+
 ### RedVDS Cybercrime Service Disrupted by Microsoft and Law Enforcement
 - Source: Security Week
 - Category: security
@@ -1301,6 +1307,12 @@
 - URL: https://pandaily.com/pinduoduo-tests-billions-supermarket-leveraging-low-prices-to-expand-into-grocery-retail
 - Summary: Pinduoduo is piloting Billions Supermarket, a new in-app grocery section built on deep subsidies and coupons, signaling its push to extend its low-price strategy into high-frequency supermarket retail.
 
+### Stochastic CHAOS: Why Deterministic Inference Kills, and Distributional Variability Is the Heartbeat of Artifical Cognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.07239
+- Summary: Deterministic inference is a comforting ideal in classical software: the same program on the same input should always produce the same output. As large language models move into real-world deployment, this ideal has been imported wholesale into inference stacks. Recent work from the Thinking...
+
 ### Lost in the Noise: How Reasoning Models Fail with Contextual Distractors
 - Source: HF Daily Papers
 - Category: open-source
@@ -1333,6 +1345,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.07022
 - Summary: We introduce Solar Open, a 102B-parameter bilingual Mixture-of-Experts language model for underserved languages. Solar Open demonstrates a systematic methodology for building competitive LLMs by addressing three interconnected challenges. First, to train effectively despite data scarcity for...
+
+### Can Textual Reasoning Improve the Performance of MLLMs on Fine-grained Visual Classification?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.06993
+- Summary: Multi-modal large language models (MLLMs) exhibit strong general-purpose capabilities, yet still struggle on Fine-Grained Visual Classification (FGVC), a core perception task that requires subtle visual discrimination and is crucial for many real-world applications. A widely adopted strategy for...
 
 ### X-Coder: Advancing Competitive Programming with Fully Synthetic Tasks, Solutions, and Tests
 - Source: HF Daily Papers
@@ -1369,6 +1387,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.06789
 - Summary: While autonomous software engineering (SWE) agents are reshaping programming paradigms, they currently suffer from a "closed-world" limitation: they attempt to fix bugs from scratch or solely using local context, ignoring the immense historical human experience available on platforms like GitHub....
+
+### Artificial Entanglement in the Fine-Tuning of Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.06788
+- Summary: Large language models (LLMs) can be adapted to new tasks using parameter-efficient fine-tuning (PEFT) methods that modify only a small number of trainable parameters, often through low-rank updates. In this work, we adopt a quantum-information-inspired perspective to understand their effectiveness....
 
 
 ## 2026-01-10
@@ -1471,6 +1495,12 @@
 - Category: security
 - URL: https://www.securityweek.com/in-other-news-8000-ransomware-attacks-china-hacked-us-gov-emails-idhs-breach-impacts-700k/
 - Summary: Other noteworthy stories that might have slipped under the radar: Jaguar Land Rover sales crash, hundreds of gen-AI data policy violations, and Chinese cyberattacks against Taiwan intensified. The post In Other News: 8,000 Ransomware Attacks, China Hacked US Gov Emails, IDHS Breach Impacts 700k...
+
+### A Rising Tide Lifts All Boats: MTQE Rewards for Idioms Improve General Translation Quality
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.06307
+- Summary: Non-compositional expressions (e.g., idioms, proverbs, and metaphors) pose significant challenges for neural machine translation systems because their meanings cannot be derived from individual words alone. These expressions encode rich, cultural meaning, and have both figurative and literal...
 
 ### Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations
 - Source: The Hacker News
@@ -2176,6 +2206,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html
 - Summary: The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere. This week’s stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in. Read on to catch up before...
+
+### SPINAL -- Scaling-law and Preference Integration in Neural Alignment Layers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.06238
+- Summary: Direct Preference Optimization (DPO) is a principled, scalable alternative to RLHF for aligning large language models from pairwise preferences, but its internal geometric footprint remains undercharacterized, limiting audits, checkpoint comparisons, and failure prediction. We introduce SPINAL...
 
 ### Researchers Expose WHILL Wheelchair Safety Risks via Remote Hacking
 - Source: Security Week
@@ -2989,40 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.02643
 - Summary: arXiv:2601.02643v1 Announce Type: new Abstract: Tool-calling conversational agents querying structured databases often face two linked failures: underspecification (missing constraints needed to run a precise query) and infeasibility (the fully specified query returns an empty set because no item...
-
-### Physical Transformer
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.02433
-- Summary: arXiv:2601.02433v1 Announce Type: new Abstract: Digital AI systems spanning large language models, vision models, and generative architectures that operate primarily in symbolic, linguistic, or pixel domains. They have achieved striking progress, but almost all of this progress lives in virtual...
-
-### WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.02439
-- Summary: arXiv:2601.02439v1 Announce Type: new Abstract: We present WebGym, the largest-to-date open-source environment for training realistic visual web agents. Real websites are non-stationary and diverse, making artificial or small-scale task sets insufficient for robust policy learning. WebGym contains...
-
-### mHC-GNN: Manifold-Constrained Hyper-Connections for Graph Neural Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.02451
-- Summary: arXiv:2601.02451v1 Announce Type: new Abstract: Graph Neural Networks (GNNs) suffer from over-smoothing in deep architectures and expressiveness bounded by the 1-Weisfeiler-Leman (1-WL) test. We adapt Manifold-Constrained Hyper-Connections (\mhc)~\citep{xie2025mhc}, recently proposed for...
-
-### Polynomial Convergence of Riemannian Diffusion Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.02499
-- Summary: arXiv:2601.02499v1 Announce Type: new Abstract: Diffusion models have demonstrated remarkable empirical success in the recent years and are considered one of the state-of-the-art generative models in modern AI. These models consist of a forward process, which gradually diffuses the data...
-
-### GEM-Style Constraints for PEFT with Dual Gradient Projection in LoRA
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.02500
-- Summary: arXiv:2601.02500v1 Announce Type: new Abstract: Full fine-tuning of Large Language Models (LLMs) is computationally costly, motivating Continual Learning (CL) approaches that utilize parameter-efficient adapters. We revisit Gradient Episodic Memory (GEM) within the Low-Rank Adapter (LoRA) subspace...
-
-### WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.02391
-- Summary: arXiv:2601.02391v1 Announce Type: new Abstract: Wearable devices such as AI glasses are transforming voice assistants into always-available, hands-free collaborators that integrate seamlessly with daily life, but they also introduce challenges like egocentric audio affected by motion and noise,...
 
