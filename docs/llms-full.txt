@@ -6,6 +6,18 @@
 
 ## 2026-01-14
 
+### RedVDS Cybercrime Service Disrupted by Microsoft and Law Enforcement
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/redvds-cybercrime-service-disrupted-by-microsoft-and-law-enforcement/
+- Summary: RedVDS enables threat actors to set up servers that can be used for phishing, BEC attacks, account takeover, and fraud. The post RedVDS Cybercrime Service Disrupted by Microsoft and Law Enforcement appeared first on SecurityWeek.
+
+### The Download: next-gen nuclear, and the data center backlash
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/01/14/1131317/the-download-next-gen-nuclear-and-the-data-center-backlash/
+- Summary: This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How next-generation nuclear reactors break out of the 20th-century blueprint The popularity of commercial nuclear reactors has surged in...
+
 ### Claude Opus 4.5 model experiencing degraded performance
 - Source: GitHub Status
 - Category: incidents
@@ -399,11 +411,23 @@
 - URL: https://www.securityweek.com/spanish-energy-company-endesa-hacked/
 - Summary: Hackers stole complete customer information, including contact details, national identity numbers, and payment details. The post Spanish Energy Company Endesa Hacked appeared first on SecurityWeek.
 
+### End-to-End Video Character Replacement without Structural Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.08587
+- Summary: Controllable video character replacement with a user-provided identity remains a challenging problem due to the lack of paired video data. Prior works have predominantly relied on a reconstruction-based paradigm that requires per-frame segmentation masks and explicit structural guidance (e.g.,...
+
 ### New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html
 - Summary: Cybersecurity researchers have disclosed details of a new campaign dubbed SHADOW#REACTOR that employs an evasive multi-stage attack chain to deliver a commercially available remote administration tool called Remcos RAT and establish persistent, covert remote access. "The infection chain follows a...
+
+### Ministral 3
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.08584
+- Summary: We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for...
 
 ### Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF
 - Source: Security Week
@@ -440,6 +464,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ribo-lists-in-hong-kong-hillhouse-ventures-secures-over-5-return-through-long-term-backing
 - Summary: Chinese small nucleic acid drug firm Ribo made its Hong Kong debut as the sector's first listed company, with early backer Hillhouse Ventures reaping an over 5x return after six years of support.
+
+### JudgeRLVR: Judge First, Generate Second for Efficient Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.08468
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) has become a standard paradigm for reasoning in Large Language Models. However, optimizing solely for final-answer correctness often drives models into aimless, verbose exploration, where they rely on exhaustive trial-and-error tactics rather...
 
 ### "They parted illusions -- they parted disclaim marinade": Misalignment as structural fidelity in LLMs
 - Source: arXiv AI
@@ -952,6 +982,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/researchers-uncover-service-providers.html
 - Summary: Cybersecurity researchers have shed light on two service providers that supply online criminal networks with the necessary tools and infrastructure to fuel the pig butchering-as-a-service (PBaaS) economy. At least since 2016, Chinese-speaking criminal groups have erected industrial-scale scam...
+
+### On the Non-decoupling of Supervised Fine-tuning and Reinforcement Learning in Post-training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.07389
+- Summary: Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from...
 
 ### Naiad: Novel Agentic Intelligent Autonomous System for Inland Water Monitoring
 - Source: arXiv AI
@@ -2989,40 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.02391
 - Summary: arXiv:2601.02391v1 Announce Type: new Abstract: Wearable devices such as AI glasses are transforming voice assistants into always-available, hands-free collaborators that integrate seamlessly with daily life, but they also introduce challenges like egocentric audio affected by motion and noise,...
-
-### PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.02404
-- Summary: arXiv:2601.02404v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly...
-
-### Losses that Cook: Topological Optimal Transport for Structured Recipe Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.02531
-- Summary: arXiv:2601.02531v1 Announce Type: new Abstract: Cooking recipes are complex procedures that require not only a fluent and factual text, but also accurate timing, temperature, and procedural coherence, as well as the correct composition of ingredients. Standard training procedures are primarily...
-
-### ModeX: Evaluator-Free Best-of-N Selection for Open-Ended Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.02535
-- Summary: arXiv:2601.02535v1 Announce Type: new Abstract: Selecting a single high-quality output from multiple stochastic generations remains a fundamental challenge for large language models (LLMs), particularly in open-ended tasks where no canonical answer exists. While Best-of-N and self-consistency...
-
-### LoRA-Drop: Temporal LoRA Decoding for Efficient LLM Inference
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.02569
-- Summary: arXiv:2601.02569v1 Announce Type: new Abstract: Autoregressive large language models (LLMs) are bottlenecked by sequential decoding, where each new token typically requires executing all transformer layers. Existing dynamic-depth and layer-skipping methods reduce this cost, but often rely on...
-
-### Inferring Causal Graph Temporal Logic Formulas to Expedite Reinforcement Learning in Temporally Extended Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.02666
-- Summary: arXiv:2601.02666v1 Announce Type: new Abstract: Decision-making tasks often unfold on graphs with spatial-temporal dynamics. Black-box reinforcement learning often overlooks how local changes spread through network structure, limiting sample efficiency and interpretability. We present GTL-CIRL, a...
-
-### Learning from Prompt itself: the Hierarchical Attribution Prompt Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.02683
-- Summary: arXiv:2601.02683v1 Announce Type: new Abstract: Optimization is fundamental across numerous disciplines, typically following an iterative process of refining an initial solution to enhance performance. This principle is equally critical in prompt engineering, where designing effective prompts for...
 
