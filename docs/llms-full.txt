@@ -338,6 +338,12 @@
 - URL: https://www.securityweek.com/isverified-emerges-from-stealth-with-voice-deepfake-detection-apps/
 - Summary: isVerified provides Android and iOS mobile applications designed to protect enterprise communications. The post isVerified Emerges From Stealth With Voice Deepfake Detection Apps appeared first on SecurityWeek.
 
+### Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10611
+- Summary: Today's strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations...
+
 ### Network Performance Issues in Mumbai, India
 - Source: Cloudflare Status
 - Category: incidents
@@ -379,6 +385,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/4-outdated-habits-destroying-your-socs.html
 - Summary: It’s 2026, yet many SOCs are still operating the way they did years ago, using tools and processes designed for a very different threat landscape. Given the growth in volumes and complexity of cyber threats, outdated practices no longer fully support analysts’ needs, staggering investigations and...
+
+### A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10527
+- Summary: The rapid evolution of Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) has produced substantial gains in reasoning, perception, and generative capability across language and vision. However, whether these advances yield commensurate improvements in safety remains unclear,...
 
 ### Central Maine Healthcare Data Breach Impacts 145,000 Individuals
 - Source: Security Week
@@ -439,6 +451,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/6ykk5hyrg95v
 - Summary: Jan 15, 07:28 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10332
+- Summary: Recent progress in text-to-image (T2I) diffusion models (DMs) has enabled high-quality visual synthesis from diverse textual prompts. Yet, most existing T2I DMs, even those equipped with large language model (LLM)-based text encoders, remain text-pixel mappers -- they employ LLMs merely as text...
 
 ### Alibaba Pushes Qwen Into the Agent Era, Betting on “Useful AI” Over Mass Traffic
 - Source: Pandaily
@@ -819,6 +837,12 @@
 - Category: security
 - URL: https://www.securityweek.com/aikido-security-raises-60-million-at-1-billion-valuation/
 - Summary: The developer security company has raised a total of more than $84 million in funding. The post Aikido Security Raises $60 Million at $1 Billion Valuation appeared first on SecurityWeek.
+
+### [Retroactive] Incident with GitHub Copilot (GPT-5 model)
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/sq20c7lrwjrp
+- Summary: Jan 14, 18:00 UTCResolved - From January 14, 2026, at 18:15 UTC until January 15, 2026, at 11:30 UTC, GitHub Copilot users were unable to select the GPT-5 model for chat features in VS Code, JetBrains IDEs, and other IDE integrations. Users running GPT-5 in Auto mode experienced errors. Other...
 
 ### Investor Lawsuit Over CrowdStrike Outage Dismissed
 - Source: Security Week
@@ -1404,6 +1428,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-patches-exploited-windows-zero-day-111-other-vulnerabilities/
 - Summary: Two vulnerabilities patched this month by Microsoft were disclosed publicly before fixes were released. The post Microsoft Patches Exploited Windows Zero-Day, 111 Other Vulnerabilities appeared first on SecurityWeek.
+
+### OpenDecoder: Open Large Language Model Decoding to Incorporate Document Quality in RAG
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.09028
+- Summary: The development of large language models (LLMs) has achieved superior performance in a range of downstream tasks, including LLM-based retrieval-augmented generation (RAG). The quality of generated content heavily relies on the usefulness of the retrieved information and the capacity of LLMs'...
 
 ### Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages
 - Source: The Hacker News
@@ -2993,34 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.04250
 - Summary: arXiv:2601.04250v1 Announce Type: new Abstract: Energy efficiency is a first-order concern in AI deployment, as long-running inference can exceed training in cumulative carbon impact. We propose a bio-inspired framework that maps protein-folding energy basins to inference cost landscapes and...
-
-### Safety-Utility Conflicts Are Not Global: Surgical Alignment via Head-Level Diagnosis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.04262
-- Summary: arXiv:2601.04262v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) inherently presents a multi-objective optimization conflict, often accompanied by an unintended degradation of general capabilities. Existing mitigation strategies typically rely on global gradient...
-
-### Learning to Reason: Temporal Saliency Distillation for Interpretable Knowledge Transfer
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.04263
-- Summary: arXiv:2601.04263v1 Announce Type: new Abstract: Knowledge distillation has proven effective for model compression by transferring knowledge from a larger network called the teacher to a smaller network called the student. Current knowledge distillation in time series is predominantly based on logit...
-
-### MemKD: Memory-Discrepancy Knowledge Distillation for Efficient Time Series Classification
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.04264
-- Summary: arXiv:2601.04264v1 Announce Type: new Abstract: Deep learning models, particularly recurrent neural networks and their variants, such as long short-term memory, have significantly advanced time series data analysis. These models capture complex, sequential patterns in time series, enabling...
-
-### MedPI: Evaluating AI Systems in Medical Patient-facing Interactions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.04195
-- Summary: arXiv:2601.04195v1 Announce Type: new Abstract: We present MedPI, a high-dimensional benchmark for evaluating large language models (LLMs) in patient-clinician conversations. Unlike single-turn question-answer (QA) benchmarks, MedPI evaluates the medical dialogue across 105 dimensions comprising...
-
-### RAGVUE: A Diagnostic View for Explainable and Automated Evaluation of Retrieval-Augmented Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.04196
-- Summary: arXiv:2601.04196v1 Announce Type: new Abstract: Evaluating Retrieval-Augmented Generation (RAG) systems remains a challenging task: existing metrics often collapse heterogeneous behaviors into single scores and provide little insight into whether errors arise from retrieval,reasoning, or grounding....
 
