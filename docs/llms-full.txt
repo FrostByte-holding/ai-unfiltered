@@ -6,6 +6,18 @@
 
 ## 2026-01-17
 
+### Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/tennessee-man-pleads-guilty-to-repeatedly-hacking-supreme-courts-filing-system/
+- Summary: Nicholas Moore pleaded guilty to repeatedly hacking the U.S. Supreme Court’s filing system and illegally accessing computer systems belonging to AmeriCorps and the Department of Veterans Affairs. The post Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System appeared first...
+
+### OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html
+- Summary: OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access to its low-cost subscription globally. "You need to know that your data and conversations...
+
 ### Brex’s AI Hail Mary — With CTO James Reggio
 - Source: Latent Space
 - Category: open-source
@@ -533,6 +545,12 @@
 - URL: https://thehackernews.com/2026/01/researchers-reveal-reprompt-attack.html
 - Summary: Cybersecurity researchers have disclosed details of a new attack method dubbed Reprompt that could allow bad actors to exfiltrate sensitive data from artificial intelligence (AI) chatbots like Microsoft Copilot in a single click, while bypassing enterprise security controls entirely. "Only a single...
 
+### Alterbute: Editing Intrinsic Attributes of Objects in Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10714
+- Summary: We introduce Alterbute, a diffusion-based method for editing an object's intrinsic attributes in an image. We allow changing color, texture, material, and even the shape of an object, while preserving its perceived identity and scene context. Existing approaches either rely on unsupervised priors...
+
 ### MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching
 - Source: HF Daily Papers
 - Category: open-source
@@ -676,6 +694,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/palo-alto-fixes-globalprotect-dos-flaw.html
 - Summary: Palo Alto Networks has released security updates for a high-severity security flaw impacting GlobalProtect Gateway and Portal, for which it said there exists a proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-0227 (CVSS score: 7.7), has been described as a denial-of-service...
+
+### Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10338
+- Summary: The rise of AI agent frameworks has introduced agent skills, modular packages containing instructions and executable code that dynamically extend agent capabilities. While this architecture enables powerful customization, skills execute with implicit trust and minimal vetting, creating a...
 
 ### Compaction is having issues
 - Source: Anthropic Status
@@ -1254,6 +1278,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html
 - Summary: Microsoft on Tuesday rolled out its first security update for 2026, addressing 114 security flaws, including one vulnerability that it said has been actively exploited in the wild. Of the 114 flaws, eight are rated Critical, and 106 are rated Important in severity. As many as 58 vulnerabilities...
+
+### V-DPM: 4D Video Reconstruction with Dynamic Point Maps
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.09499
+- Summary: Powerful 3D representations such as DUSt3R invariant point maps, which encode 3D shape and camera parameters, have significantly advanced feed forward 3D reconstruction. While point maps assume static scenes, Dynamic Point Maps (DPMs) extend this concept to dynamic 3D content by additionally...
 
 ### Elevated error rates on Opus 4.5
 - Source: Anthropic Status
@@ -2206,6 +2236,12 @@
 - URL: https://tldr.takara.ai/p/2601.08303
 - Summary: Recent advances in diffusion transformers (DiTs) have set new standards in image generation, yet remain impractical for on-device deployment due to their high computational and memory costs. In this work, we present an efficient DiT framework tailored for mobile and edge devices that achieves...
 
+### Enhancing Sentiment Classification and Irony Detection in Large Language Models through Advanced Prompt Engineering Techniques
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.08302
+- Summary: This study investigates the use of prompt engineering to enhance large language models (LLMs), specifically GPT-4o-mini and gemini-1.5-flash, in sentiment analysis tasks. It evaluates advanced prompting techniques like few-shot learning, chain-of-thought prompting, and self-consistency against a...
+
 ### Demystifying the Slash Pattern in Attention: The Role of RoPE
 - Source: HF Daily Papers
 - Category: open-source
@@ -2987,43 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.06487
 - Summary: Reinforcement learning has substantially improved the performance of LLM agents on tasks with verifiable outcomes, but it still struggles on open-ended agent tasks with vast solution spaces (e.g., complex travel planning). Due to the absence of objective ground-truth for these tasks, current RL...
-
-### Degraded performance for API requests involving structured outputs.
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/846yxgg3v8nr
-- Summary: Jan 10, 03:37 UTCUpdate - We are continuing to investigate this issue.Jan 10, 03:37 UTCInvestigating - We are currently investigating a performance issue affecting API requests that use structured outputs and strict tool use.
-
-### Gecko: An Efficient Neural Architecture Inherently Processing Sequences with Arbitrary Lengths
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.06463
-- Summary: Designing a unified neural network to efficiently and inherently process sequential data with arbitrary lengths is a central and challenging problem in sequence modeling. The design choices in Transformer, including quadratic complexity and weak length extrapolation, have limited their ability to...
-
-
-## 2026-01-09
-
-### Does Inference Scaling Improve Reasoning Faithfulness? A Multi-Model Analysis of Self-Consistency Tradeoffs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.06423
-- Summary: Self-consistency has emerged as a popular technique for improving large language model accuracy on reasoning tasks. The approach is straightforward: generate multiple reasoning paths and select the most common answer through majority voting. While this reliably boosts accuracy, it remains unclear...
-
-### Structured Episodic Event Memory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.06411
-- Summary: Current approaches to memory in Large Language Models (LLMs) predominantly rely on static Retrieval-Augmented Generation (RAG), which often results in scattered retrieval and fails to capture the structural dependencies required for complex reasoning. For autonomous agents, these passive and flat...
-
-### BizFinBench.v2: A Unified Dual-Mode Bilingual Benchmark for Expert-Level Financial Capability Alignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.06401
-- Summary: Large language models have undergone rapid evolution, emerging as a pivotal technology for intelligence in financial operations. However, existing benchmarks are often constrained by pitfalls such as reliance on simulated or general-purpose samples and a focus on singular, offline static scenarios....
-
-### RigMo: Unifying Rig and Motion Learning for Generative Animation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.06378
-- Summary: Despite significant progress in 4D generation, rig and motion, the core structural and dynamic components of animation are typically modeled as separate problems. Existing pipelines rely on ground-truth skeletons and skinning weights for motion generation and treat auto-rigging as an independent...
 
