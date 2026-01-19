@@ -726,6 +726,12 @@
 - URL: https://tldr.takara.ai/p/2601.11087
 - Summary: Physical principles are fundamental to realistic visual simulation, but remain a significant oversight in transformer-based video generation. This gap highlights a critical limitation in rendering rigid body motion, a core tenet of classical mechanics. While computer graphics and physics-based...
 
+### AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11044
+- Summary: Large Language Models (LLMs) based autonomous agents demonstrate multifaceted capabilities to contribute substantially to economic production. However, existing benchmarks remain focused on single agentic capability, failing to capture long-horizon real-world scenarios. Moreover, the reliance on...
+
 ### BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search
 - Source: HF Daily Papers
 - Category: open-source
@@ -734,6 +740,12 @@
 
 
 ## 2026-01-15
+
+### What Matters in Data Curation for Multimodal Reasoning? Insights from the DCVLR Challenge
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10922
+- Summary: We study data curation for multimodal reasoning through the NeurIPS 2025 Data Curation for Vision-Language Reasoning (DCVLR) challenge, which isolates dataset selection by fixing the model and training protocol. Using a compact curated dataset derived primarily from Walton Multimodal Cold Start,...
 
 ### AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks
 - Source: The Hacker News
@@ -841,6 +853,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/threatsday-bulletin-ai-voice-cloning.html
 - Summary: The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere. This week’s stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in. Read on to catch up before...
+
+### Future Optical Flow Prediction Improves Robot Control & Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10781
+- Summary: Future motion representations, such as optical flow, offer immense value for control and generative tasks. However, forecasting generalizable spatially dense motion representations remains a key challenge, and learning such forecasting from noisy, real-world data remains relatively unexplored. We...
 
 ### Depthfirst Raises $40 Million for Vulnerability Management
 - Source: Security Week
@@ -1510,6 +1528,12 @@
 - URL: https://www.githubstatus.com/incidents/4htf8bgy1xlz
 - Summary: Jan 14, 12:23 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 14, 11:45 UTCUpdate - We are continuing to investigate issues with Claude Opus 4.5 and...
 
+### PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.09636
+- Summary: While GUI agents have shown strong performance under explicit and completion instructions, real-world deployment requires aligning with users' more complex implicit intents. In this work, we highlight Hierarchical Implicit Intent Alignment for Personalized GUI Agent (PersonalAlign), a new agent...
+
 ### Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution
 - Source: The Hacker News
 - Category: security
@@ -2100,6 +2124,12 @@
 - Category: research
 - URL: https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/
 - Summary: Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation.
+
+### Entropy Sentinel: Continuous LLM Accuracy Monitoring from Decoding Entropy Traces in STEM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.09001
+- Summary: Deploying LLMs raises two coupled challenges: (1) monitoring - estimating where a model underperforms as traffic and domains drift - and (2) improvement - prioritizing data acquisition to close the largest performance gaps. We test whether an inference-time signal can estimate slice-level accuracy...
 
 ### Imagine-then-Plan: Agent Learning from Adaptive Lookahead with World Models
 - Source: HF Daily Papers
@@ -2990,34 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.05371
 - Summary: arXiv:2601.05371v1 Announce Type: new Abstract: Gaussian Process (GP) regression is a powerful nonparametric Bayesian framework, but its performance depends critically on the choice of covariance kernel. Selecting an appropriate kernel is therefore central to model quality, yet remains one of the...
-
-### Inverting Non-Injective Functions with Twin Neural Network Regression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.05378
-- Summary: arXiv:2601.05378v1 Announce Type: new Abstract: Non-injective functions are not invertible. However, non-injective functions can be restricted to sub-domains on which they are locally injective and surjective and thus invertible if the dimensionality between input and output spaces are the same....
-
-### Imitation Learning for Combinatorial Optimisation under Uncertainty
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.05383
-- Summary: arXiv:2601.05383v1 Announce Type: new Abstract: Imitation learning (IL) provides a data-driven framework for approximating policies for large-scale combinatorial optimisation problems formulated as sequential decision problems (SDPs), where exact solution methods are computationally intractable. A...
-
-### Interactive Distillation for Cooperative Multi-Agent Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.05407
-- Summary: arXiv:2601.05407v1 Announce Type: new Abstract: Knowledge distillation (KD) has the potential to accelerate MARL by employing a centralized teacher for decentralized students but faces key bottlenecks. Specifically, there are (1) challenges in synthesizing high-performing teaching policies in...
-
-### Efficient Inference for Noisy LLM-as-a-Judge Evaluation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.05420
-- Summary: arXiv:2601.05420v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as automatic evaluators of generative AI outputs, a paradigm often referred to as "LLM-as-a-judge." In practice, LLM judges are imperfect predictions for the underlying truth and can exhibit...
-
-### Large Language Models Are Bad Dice Players: LLMs Struggle to Generate Random Numbers from Statistical Distributions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.05414
-- Summary: arXiv:2601.05414v1 Announce Type: new Abstract: As large language models (LLMs) transition from chat interfaces to integral components of stochastic pipelines across domains like educational assessment and synthetic data construction, the ability to faithfully sample from specified probability...
 
