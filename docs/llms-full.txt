@@ -6,6 +6,24 @@
 
 ## 2026-01-21
 
+### Elevated errors on Claude Sonnet 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/yrxt885v63jw
+- Summary: Jan 21, 15:32 UTCResolved - This incident has been resolved.Jan 21, 15:28 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 21, 15:01 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 21, 14:44 UTCInvestigating - We are currently...
+
+### Rethinking AI’s future in an augmented workplace
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/
+- Summary: There are many paths AI evolution could take. On one end of the spectrum, AI is dismissed as a marginal fad, another bubble fueled by notoriety and misallocated capital. On the other end, it’s cast as a dystopian force, destined to eliminate jobs on a large scale and destabilize economies. Markets...
+
+### Everyone wants AI sovereignty. No one can truly have it.
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/
+- Summary: Governments plan to pour $1.3 trillion into AI infrastructure by 2030 to invest in “sovereign AI,” with the premise being that countries should be in control of their own AI capabilities. The funds include financing for domestic data centers, locally trained models, independent supply chains, and...
+
 ### Copilot Chat - Grok Code Fast 1 Outage
 - Source: GitHub Status
 - Category: incidents
@@ -933,6 +951,12 @@
 - URL: https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html
 - Summary: OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access to its low-cost subscription globally. "You need to know that your data and conversations...
 
+### MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11969
+- Summary: Existing works increasingly adopt memory-centric mechanisms to process long contexts in a segment manner, and effective memory management is one of the key capabilities that enables large language models to effectively propagate information across the entire sequence. Therefore, leveraging reward...
+
 ### Brex’s AI Hail Mary — With CTO James Reggio
 - Source: Latent Space
 - Category: open-source
@@ -1025,6 +1049,12 @@
 - Category: security
 - URL: https://www.securityweek.com/whisperpair-attack-leaves-millions-of-bluetooth-accessories-open-to-hijacking/
 - Summary: The critical issue impacts Bluetooth audio accessories with improper Google Fast Pair implementations. The post WhisperPair Attack Leaves Millions of Audio Accessories Open to Hijacking appeared first on SecurityWeek.
+
+### PubMed-OCR: PMC Open Access OCR Annotations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11425
+- Summary: PubMed-OCR is an OCR-centric corpus of scientific articles derived from PubMed Central Open Access PDFs. Each page image is annotated with Google Cloud Vision and released in a compact JSON schema with word-, line-, and paragraph-level bounding boxes. The corpus spans 209.5K articles (1.5M pages;...
 
 ### Cybersecurity Firms React to China’s Reported Software Ban
 - Source: Security Week
@@ -1458,6 +1488,12 @@
 - URL: https://tldr.takara.ai/p/2601.11037
 - Summary: RL-based agentic search enables LLMs to solve complex questions via dynamic planning and external search. While this approach significantly enhances accuracy with agent policies optimized via large-scale reinforcement learning, we identify a critical gap in reliability: these agents fail to...
 
+### NAACL: Noise-AwAre Verbal Confidence Calibration for LLMs in RAG Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11004
+- Summary: Accurately assessing model confidence is essential for deploying large language models (LLMs) in mission-critical factual domains. While retrieval-augmented generation (RAG) is widely adopted to improve grounding, confidence calibration in RAG settings remains poorly understood. We conduct a...
+
 ### When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -1519,6 +1555,12 @@
 - Category: security
 - URL: https://www.securityweek.com/vibe-coding-tested-ai-agents-nail-sqli-but-fail-miserably-on-security-controls/
 - Summary: Vibe coding generates a curate’s egg program: good in parts, but the bad parts affect the whole program. The post Vibe Coding Tested: AI Agents Nail SQLi but Fail Miserably on Security Controls appeared first on SecurityWeek.
+
+### Medical SAM3: A Foundation Model for Universal Prompt-Driven Medical Image Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10880
+- Summary: Promptable segmentation foundation models such as SAM3 have demonstrated strong generalization capabilities through interactive and concept-based prompting. However, their direct applicability to medical image segmentation remains limited by severe domain shifts, the absence of privileged spatial...
 
 ### Exclusive eBook: How AGI Became a Consequential Conspiracy Theory
 - Source: MIT Tech Review AI
@@ -2362,6 +2404,12 @@
 - URL: https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html
 - Summary: Microsoft on Tuesday rolled out its first security update for 2026, addressing 114 security flaws, including one vulnerability that it said has been actively exploited in the wild. Of the 114 flaws, eight are rated Critical, and 106 are rated Important in severity. As many as 58 vulnerabilities...
 
+### CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.09512
+- Summary: To teach robots complex manipulation tasks, it is now a common practice to fine-tune a pre-trained vision-language-action model (VLA) on task-specific data. However, since this recipe updates existing representations, it is unsuitable for long-term operation in the real world, where robots must...
+
 ### V-DPM: 4D Video Reconstruction with Dynamic Point Maps
 - Source: HF Daily Papers
 - Category: open-source
@@ -2976,52 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.08665
 - Summary: VLA models have shown promising potential in embodied navigation by unifying perception and planning while inheriting the strong generalization abilities of large VLMs. However, most existing VLA models rely on reactive mappings directly from observations to actions, lacking the explicit reasoning...
-
-### Spanish Energy Company Endesa Hacked
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/spanish-energy-company-endesa-hacked/
-- Summary: Hackers stole complete customer information, including contact details, national identity numbers, and payment details. The post Spanish Energy Company Endesa Hacked appeared first on SecurityWeek.
-
-### ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08620
-- Summary: Retrieval-Augmented Generation (RAG) pipelines must address challenges beyond simple single-document retrieval, such as interpreting visual elements (tables, charts, images), synthesizing information across documents, and providing accurate source grounding. Existing benchmarks fail to capture this...
-
-### ExpSeek: Self-Triggered Experience Seeking for Web Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08605
-- Summary: Experience intervention in web agents emerges as a promising technical paradigm, enhancing agent interaction capabilities by providing valuable insights from accumulated experiences. However, existing methods predominantly inject experience passively as global context before task execution,...
-
-### End-to-End Video Character Replacement without Structural Guidance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08587
-- Summary: Controllable video character replacement with a user-provided identity remains a challenging problem due to the lack of paired video data. Prior works have predominantly relied on a reconstruction-based paradigm that requires per-frame segmentation masks and explicit structural guidance (e.g.,...
-
-### New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html
-- Summary: Cybersecurity researchers have disclosed details of a new campaign dubbed SHADOW#REACTOR that employs an evasive multi-stage attack chain to deliver a commercially available remote administration tool called Remcos RAT and establish persistent, covert remote access. "The infection chain follows a...
-
-### Ministral 3
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08584
-- Summary: We introduce the Ministral 3 series, a family of parameter-efficient dense language models designed for compute and memory constrained applications, available in three model sizes: 3B, 8B, and 14B parameters. For each model size, we release three variants: a pretrained base model for...
-
-### Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyber-fraud-overtakes-ransomware-as-top-ceo-concern-wef/
-- Summary: Ransomware remains the biggest concern for CISOs in 2026, according to WEF’s Global Cybersecurity Outlook 2026 report. The post Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF appeared first on SecurityWeek.
-
-### Your Group-Relative Advantage Is Biased
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08521
-- Summary: Reinforcement Learning from Verifier Rewards (RLVR) has emerged as a widely used approach for post-training large language models on reasoning tasks, with group-based methods such as GRPO and its variants gaining broad adoption. These methods rely on group-relative advantage estimation to avoid...
 
