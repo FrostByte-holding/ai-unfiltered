@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 21 Jan 2026 16:55:47 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 20:35:02 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>AWS - US West (Oregon): INC0150359</title>
+            <link>https://status.snowflake.com/incidents/s2j1bnnjshl4</link>
+            <guid>https://status.snowflake.com/incidents/s2j1bnnjshl4</guid>
+            <pubDate>Wed, 21 Jan 2026 20:14:42 +0000</pubDate>
+            <source url="https://status.snowflake.com/incidents/s2j1bnnjshl4">Snowflake Status</source>
+            <category>incidents</category>
+            <description>Jan 21, 20:14 UTCUpdate - Current status: We have refined our understanding of how this issue manifests, and determined that it is isolated to Snowsight. Our investigation is currently focused on potential issues with the Snowsight application-hosting layer and the Snowsight-specific database...</description>
+        </item>
+        <item>
+            <title>Policy pages for Copilot are timing out</title>
+            <link>https://www.githubstatus.com/incidents/6d5kv6l8d8q3</link>
+            <guid>https://www.githubstatus.com/incidents/6d5kv6l8d8q3</guid>
+            <pubDate>Wed, 21 Jan 2026 20:12:36 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/6d5kv6l8d8q3">GitHub Status</source>
+            <category>incidents</category>
+            <description>Jan 21, 20:12 UTCUpdate - We are continuing to investigate latency and timeout issues affecting Copilot policy pages.Jan 21, 19:37 UTCUpdate - We are investigating timeouts for customers visiting the Copilot policy pages for organizations and enterprises.Jan 21, 19:31 UTCInvestigating - We are...</description>
+        </item>
+        <item>
+            <title>Get Good at Agents</title>
+            <link>https://www.interconnects.ai/p/get-good-at-agents</link>
+            <guid>https://www.interconnects.ai/p/get-good-at-agents</guid>
+            <pubDate>Wed, 21 Jan 2026 17:05:15 +0000</pubDate>
+            <source url="https://www.interconnects.ai/p/get-good-at-agents">Interconnects</source>
+            <category>open-source</category>
+            <description>The tools are getting so powerful that we need to change how we scope, manage, and approach our work.</description>
+        </item>
         <item>
             <title>Elevated errors on Claude Sonnet 4.5</title>
             <link>https://status.claude.com/incidents/yrxt885v63jw</link>
@@ -430,33 +457,6 @@
             <source url="https://huggingface.co/blog/microsoft/diff-attn-v2">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>Introducing Waypoint-1: Real-time interactive video diffusion from Overworld</title>
-            <link>https://huggingface.co/blog/waypoint-1</link>
-            <guid>https://huggingface.co/blog/waypoint-1</guid>
-            <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-            <source url="https://huggingface.co/blog/waypoint-1">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>A BERTology View of LLM Orchestrations: Token- and Layer-Selective Probes for Efficient Single-Pass Classification</title>
-            <link>https://tldr.takara.ai/p/2601.13288</link>
-            <guid>https://tldr.takara.ai/p/2601.13288</guid>
-            <pubDate>Mon, 19 Jan 2026 13:40:29 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2601.13288">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Production LLM systems often rely on separate models for safety and other classification-heavy steps, increasing latency, VRAM footprint, and operational complexity. We instead reuse computation already paid for by the serving LLM: we train lightweight probes on its hidden states and predict labels...</description>
-        </item>
-        <item>
-            <title>Aligning Agentic World Models via Knowledgeable Experience Learning</title>
-            <link>https://tldr.takara.ai/p/2601.13247</link>
-            <guid>https://tldr.takara.ai/p/2601.13247</guid>
-            <pubDate>Mon, 19 Jan 2026 12:33:31 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2601.13247">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Current Large Language Models (LLMs) exhibit a critical modal disconnect: they possess vast semantic knowledge but lack the procedural grounding to respect the immutable laws of the physical world. Consequently, while these agents implicitly function as world models, their simulations often suffer...</description>
         </item>
     </channel>
 </rss>

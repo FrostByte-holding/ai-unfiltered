@@ -6,6 +6,24 @@
 
 ## 2026-01-21
 
+### AWS - US West (Oregon): INC0150359
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/s2j1bnnjshl4
+- Summary: Jan 21, 20:14 UTCUpdate - Current status: We have refined our understanding of how this issue manifests, and determined that it is isolated to Snowsight. Our investigation is currently focused on potential issues with the Snowsight application-hosting layer and the Snowsight-specific database...
+
+### Policy pages for Copilot are timing out
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/6d5kv6l8d8q3
+- Summary: Jan 21, 20:12 UTCUpdate - We are continuing to investigate latency and timeout issues affecting Copilot policy pages.Jan 21, 19:37 UTCUpdate - We are investigating timeouts for customers visiting the Copilot policy pages for organizations and enterprises.Jan 21, 19:31 UTCInvestigating - We are...
+
+### Get Good at Agents
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/get-good-at-agents
+- Summary: The tools are getting so powerful that we need to change how we scope, manage, and approach our work.
+
 ### Elevated errors on Claude Sonnet 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -1476,6 +1494,12 @@
 - URL: https://tldr.takara.ai/p/2601.11077
 - Summary: The evolution of Large Language Models (LLMs) into autonomous agents has expanded the scope of AI coding from localized code generation to complex, repository-level, and execution-driven problem solving. However, current benchmarks predominantly evaluate code logic in static contexts, neglecting...
 
+### Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11061
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) is highly effective for enhancing LLM reasoning, yet recent evidence shows models like Qwen 2.5 achieve significant gains even with spurious or incorrect rewards. We investigate this phenomenon and identify a "Perplexity Paradox": spurious RLVR...
+
 ### AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts
 - Source: HF Daily Papers
 - Category: open-source
@@ -2167,6 +2191,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.10124
 - Summary: Consistency learning with feature perturbation is a widely used strategy in semi-supervised medical image segmentation. However, many existing perturbation methods rely on dropout, and thus require a careful manual tuning of the dropout rate, which is a sensitive hyperparameter and often difficult...
+
+### SIN-Bench: Tracing Native Evidence Chains in Long-Context Multimodal Scientific Interleaved Literature
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.10108
+- Summary: Evaluating whether multimodal large language models truly understand long-form scientific papers remains challenging: answer-only metrics and synthetic "Needle-In-A-Haystack" tests often reward answer matching without requiring a causal, evidence-linked reasoning trace in the document. We propose...
 
 ### FlowAct-R1: Towards Interactive Humanoid Video Generation
 - Source: HF Daily Papers
@@ -2994,34 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/what-should-we-learn-from-how-attackers.html
 - Summary: Old Playbook, New Scale: While defenders are chasing trends, attackers are optimizing the basics The security industry loves talking about "new" threats. AI-powered attacks. Quantum-resistant encryption. Zero-trust architectures. But looking around, it seems like the most effective attacks in 2025...
-
-### Dutch Port Hacker Sentenced to Prison
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/dutch-port-hacker-sentenced-to-prison/
-- Summary: The 44-year-old individual planted remote access malware on a logistics firm’s systems, with help from employees. The post Dutch Port Hacker Sentenced to Prison appeared first on SecurityWeek.
-
-### ServiceNow Patches Critical AI Platform Flaw Allowing Unauthenticated User Impersonation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/servicenow-patches-critical-ai-platform.html
-- Summary: ServiceNow has disclosed details of a now-patched critical security flaw impacting its ServiceNow AI Platform that could enable an unauthenticated user to impersonate another user and perform arbitrary actions as that user. The vulnerability, tracked as CVE-2025-12420, carries a CVSS score of 9.3...
-
-### Parallel Context-of-Experts Decoding for Retrieval Augmented Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08670
-- Summary: Retrieval Augmented Generation faces a trade-off: concatenating documents in a long prompt enables multi-document reasoning but creates prefill bottlenecks, while encoding document KV caches separately offers speed but breaks cross-document interaction. We propose Parallel Context-of-Experts...
-
-### GitHub Copilot failures
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/1lnqb2vk25vn
-- Summary: Jan 13, 10:46 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 13, 10:46 UTCUpdate - Copilot is operating normally.Jan 13, 10:44 UTCUpdate - We are...
-
-### VLingNav: Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.08665
-- Summary: VLA models have shown promising potential in embodied navigation by unifying perception and planning while inheriting the strong generalization abilities of large VLMs. However, most existing VLA models rely on reactive mappings directly from observations to actions, lacking the explicit reasoning...
 
