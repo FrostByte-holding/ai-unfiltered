@@ -6,6 +6,12 @@
 
 ## 2026-01-22
 
+### AWS - US West (Oregon): INC0150440
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/0w11t7x10rzg
+- Summary: Jan 22, 19:48 UTCUpdate - Current status: Our investigation has led us to focus on a potential issue with the Snowsight application-hosting layer. We're restarting the systems related to the Snowsight application-hosting layer, and our initial observation of telemetry indicates that this is...
+
 ### Claude Code Authentication Issues
 - Source: Anthropic Status
 - Category: incidents
@@ -899,6 +905,12 @@
 - URL: https://www.technologyreview.com/2026/01/20/1131462/the-uk-government-is-backing-ai-scientists-that-can-run-their-own-experiments/
 - Summary: A number of startups and universities that are building “AI scientists” to design and run experiments in the lab, including robot biologists and chemists, have just won extra funding from the UK government agency that funds moonshot R&#38;D. The competition, set up by ARIA (the Advanced Research...
 
+### InT: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14209
+- Summary: Outcome-reward reinforcement learning (RL) has proven effective at improving the reasoning capabilities of large language models (LLMs). However, standard RL assigns credit only at the level of the final answer, penalizing entire reasoning traces when the outcome is incorrect and uniformly...
+
 ### The Download: digitizing India, and scoring embryos
 - Source: MIT Tech Review AI
 - Category: research
@@ -977,6 +989,12 @@
 - URL: https://tldr.takara.ai/p/2601.14027
 - Summary: Agentic systems have recently become the dominant paradigm for formal theorem proving, achieving strong performance by coordinating multiple models and tools. However, existing approaches often rely on task-specific pipelines and trained formal provers, limiting their flexibility and...
 
+### Locate, Steer, and Improve: A Practical Survey of Actionable Mechanistic Interpretability in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14004
+- Summary: Mechanistic Interpretability (MI) has emerged as a vital approach to demystify the opaque decision-making of Large Language Models (LLMs). However, existing reviews primarily treat MI as an observational science, summarizing analytical insights while lacking a systematic framework for actionable...
+
 ### AgentEHR: Advancing Autonomous Clinical Decision-Making via Retrospective Summarization
 - Source: HF Daily Papers
 - Category: open-source
@@ -1006,6 +1024,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/minieye-partners-with-india-s-sterling-group-advancing-localized-smart-driving-expansion
 - Summary: Minieye has entered a strategic partnership with India's Sterling Tools Ltd., marking a shift to localized expansion. This collaboration aims to deploy Minieye's ADAS and DMS solutions in India ahead of the country's 2027 ADAS mandate.
+
+### DARC: Decoupled Asymmetric Reasoning Curriculum for LLM Evolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.13761
+- Summary: Self-play with large language models has emerged as a promising paradigm for achieving self-improving artificial intelligence. However, existing self-play frameworks often suffer from optimization instability, due to (i) non-stationary objectives induced by solver-dependent reward feedback for the...
 
 ### Differential Transformer V2
 - Source: Hugging Face Blog
@@ -1061,6 +1085,12 @@
 
 
 ## 2026-01-19
+
+### DSAEval: Evaluating Data Science Agents on a Wide Range of Real-World Data Science Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.13591
+- Summary: Recent LLM-based data agents aim to automate data science tasks ranging from data analysis to deep learning. However, the open-ended nature of real-world data science problems, which often span multiple taxonomies and lack standard answers, poses a significant challenge for evaluation. To address...
 
 ### Towards Efficient and Robust Linguistic Emotion Diagnosis for Mental Health via Multi-Agent Instruction Refinement
 - Source: HF Daily Papers
@@ -1574,6 +1604,12 @@
 
 
 ## 2026-01-16
+
+### RemoteVAR: Autoregressive Visual Modeling for Remote Sensing Change Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11898
+- Summary: Remote sensing change detection aims to localize and characterize scene changes between two time points and is central to applications such as environmental monitoring and disaster assessment. Meanwhile, visual autoregressive models (VARs) have recently shown impressive image generation capability,...
 
 ### GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection
 - Source: The Hacker News
@@ -2988,40 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.09575
 - Summary: We propose OpenVoxel, a training-free algorithm for grouping and captioning sparse voxels for the open-vocabulary 3D scene understanding tasks. Given the sparse voxel rasterization (SVR) model obtained from multi-view images of a 3D scene, our OpenVoxel is able to produce meaningful groups that...
-
-### Designing safer links: secure connectivity for operational technology
-- Source: NCSC UK
-- Category: security
-- URL: https://www.ncsc.gov.uk/blog-post/designing-safer-links-secure-connectivity-for-ot
-- Summary: New principles help organisations to design, review, and secure connectivity to (and within) OT systems.
-
-### PixVerse Launches PixVerse R1, the World’s First General-Purpose Real-Time World Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pix-verse-launches-pix-verse-r1-the-world-s-first-general-purpose-real-time-world-model
-- Summary: PixVerse R1 reimagines AI video generation by transforming it into a real-time, interactive world rather than a static output.
-
-### Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.09536
-- Summary: Multimodal Large Language Models (MLLMs) are making significant progress in multimodal reasoning. Early approaches focus on pure text-based reasoning. More recent studies have incorporated multimodal information into the reasoning steps; however, they often follow a single task-specific reasoning...
-
-### Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortifone-fortisiem/
-- Summary: Exploitable without authentication, the two security defects could lead to configuration leak and code execution. The post Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM appeared first on SecurityWeek.
-
-### Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-144-firefox-147-patch-high-severity-vulnerabilities/
-- Summary: The two browser updates resolve 26 security defects, including bugs that could be exploited for code execution. The post Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.
-
-### Microsoft Fixes 114 Windows Flaws in January 2026 Patch, One Actively Exploited
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html
-- Summary: Microsoft on Tuesday rolled out its first security update for 2026, addressing 114 security flaws, including one vulnerability that it said has been actively exploited in the wild. Of the 114 flaws, eight are rated Critical, and 106 are rated Important in severity. As many as 58 vulnerabilities...
 
