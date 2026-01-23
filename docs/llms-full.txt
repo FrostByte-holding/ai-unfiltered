@@ -6,6 +6,12 @@
 
 ## 2026-01-23
 
+### Scaling without Slop
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/2026
+- Summary: We've been quiet &#8212; announcing our 2026 plans! The State of Latent Space is here.
+
 ### CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities
 - Source: The Hacker News
 - Category: security
@@ -1478,6 +1484,12 @@
 - URL: https://status.claude.com/incidents/l3q16xnl4t2f
 - Summary: Jan 20, 17:34 UTCResolved - This incident has been resolved.Jan 20, 17:20 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 20, 16:41 UTCInvestigating - We are currently investigating this issue.
 
+### GutenOCR: A Grounded Vision-Language Front-End for Documents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14490
+- Summary: GutenOCR is a family of grounded OCR front-ends obtained by fine-tuning Qwen2.5-VL-3B and Qwen2.5-VL-7B. The resulting single-checkpoint vision-language models expose reading, detection, and grounding through a unified, prompt-based interface. Trained on business documents, scientific articles, and...
+
 ### Incident affecting actions-runner-controller
 - Source: GitHub Status
 - Category: incidents
@@ -1513,6 +1525,18 @@
 - Category: security
 - URL: https://www.securityweek.com/chainlit-vulnerabilities-may-leak-sensitive-information/
 - Summary: The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data. The post Chainlit Vulnerabilities May Leak Sensitive Information appeared first on SecurityWeek.
+
+### Implicit Neural Representation Facilitates Unified Universal Vision Encoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14256
+- Summary: Models for image representation learning are typically designed for either recognition or generation. Various forms of contrastive learning help models learn to convert images to embeddings that are useful for classification, detection, and segmentation. On the other hand, models can be trained to...
+
+### Motion 3-to-4: 3D Motion Reconstruction for 4D Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14253
+- Summary: We present Motion 3-to-4, a feed-forward framework for synthesising high-quality 4D dynamic objects from a single monocular video and an optional 3D reference mesh. While recent advances have significantly improved 2D, video, and 3D content generation, 4D synthesis remains difficult due to limited...
 
 ### LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR
 - Source: HF Daily Papers
@@ -1814,6 +1838,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html
 - Summary: In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can...
+
+### CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.13262
+- Summary: While large language models (LLMs) have shown to perform well on monolingual mathematical and commonsense reasoning, they remain unreliable for multilingual medical reasoning applications, hindering their deployment in multilingual healthcare settings. We address this by first introducing...
 
 ### Aligning Agentic World Models via Knowledgeable Experience Learning
 - Source: HF Daily Papers
@@ -2399,6 +2429,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.11404
 - Summary: Vision-Language-Action (VLA) models have emerged as essential generalist robot policies for diverse manipulation tasks, conventionally relying on directly translating multimodal inputs into actions via Vision-Language Model (VLM) embeddings. Recent advancements have introduced explicit intermediary...
+
+### Show me the evidence: Evaluating the role of evidence and natural language explanations in AI-supported fact-checking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.11387
+- Summary: Although much research has focused on AI explanations to support decisions in complex information-seeking tasks such as fact-checking, the role of evidence is surprisingly under-researched. In our study, we systematically varied explanation type, AI prediction certainty, and correctness of AI...
 
 ### Issue with Ruleset Modification Audit Logs
 - Source: Cloudflare Status
@@ -2989,40 +3025,4 @@
 - Category: security
 - URL: https://www.securityweek.com/depthfirst-raises-40-million-for-vulnerability-management/
 - Summary: The startup will use the investment to accelerate R&#038;D, expand go-to-market efforts, and hire new talent. The post Depthfirst Raises $40 Million for Vulnerability Management appeared first on SecurityWeek.
-
-### PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.10657
-- Summary: Large Language Models (LLMs) have emerged as powerful operators for evolutionary search, yet the design of efficient search scaffolds remains ad hoc. While promising, current LLM-in-the-loop systems lack a systematic approach to managing the evolutionary process. We identify three distinct failure...
-
-### The Download: spying on the spies, and promising climate tech
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/15/1131361/the-download-spying-on-the-spies-and-promising-climate-tech/
-- Summary: This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the man hunting the spies in your smartphone In April 2025, Ronald Deibert left all electronic devices at home in Toronto and boarded...
-
-### isVerified Emerges From Stealth With Voice Deepfake Detection Apps
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/isverified-emerges-from-stealth-with-voice-deepfake-detection-apps/
-- Summary: isVerified provides Android and iOS mobile applications designed to protect enterprise communications. The post isVerified Emerges From Stealth With Voice Deepfake Detection Apps appeared first on SecurityWeek.
-
-### Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.10611
-- Summary: Today's strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations...
-
-### Network Performance Issues in Mumbai, India
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/xm12jkvc1bkq
-- Summary: Jan 15, 12:23 UTCResolved - This incident has been resolved.Jan 15, 12:09 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 15, 10:14 UTCIdentified - Cloudflare has identified resurfacing issues with Network Performance in Mumbai, India.We are working to analyze and...
-
-### New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/new-reprompt-attack-silently-siphons-microsoft-copilot-data/
-- Summary: The attack bypassed Copilot’s data leak protections and allowed for session exfiltration even after the Copilot chat was closed. The post New &#8216;Reprompt&#8217; Attack Silently Siphons Microsoft Copilot Data appeared first on SecurityWeek.
 
