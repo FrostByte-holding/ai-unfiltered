@@ -510,6 +510,12 @@
 - URL: https://tldr.takara.ai/p/2601.16206
 - Summary: We introduce LLM-in-Sandbox, enabling LLMs to explore within a code sandbox (i.e., a virtual computer), to elicit general intelligence in non-code domains. We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for...
 
+### 360Anything: Geometry-Free Lifting of Images and Videos to 360°
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.16192
+- Summary: Lifting perspective images and videos to 360° panoramas enables immersive 3D world generation. Existing approaches often rely on explicit geometric alignment between the perspective and the equirectangular projection (ERP) space. Yet, this requires known camera metadata, obscuring the application...
+
 ### Learning to Discover at Test Time
 - Source: HF Daily Papers
 - Category: open-source
@@ -1166,6 +1172,12 @@
 - Category: security
 - URL: https://www.securityweek.com/asymmetric-security-emerges-from-stealth-with-4-2-million-in-funding/
 - Summary: The startup’s platform leverages AI to automate forensic investigations, accelerating incident response. The post Asymmetric Security Emerges From Stealth With $4.2 Million in Funding appeared first on SecurityWeek.
+
+### Numba-Accelerated 2D Diffusion-Limited Aggregation: Implementation and Fractal Characterization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.15440
+- Summary: We present dla-ideal-solver, a high-performance framework for simulating two-dimensional Diffusion-Limited Aggregation (DLA) using Numba-accelerated Python. By leveraging just-in-time (JIT) compilation, we achieve computational throughput comparable to legacy static implementations while retaining...
 
 ### Rethinking AI’s future in an augmented workplace
 - Source: MIT Tech Review AI
@@ -3014,16 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.09974
 - Summary: arXiv:2601.09974v1 Announce Type: new Abstract: Personalizing Large Language Models typically relies on static retrieval or one-time adaptation, assuming user preferences remain invariant over time. However, real-world interactions are dynamic, where user interests continuously evolve, posing a...
-
-### Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.10011
-- Summary: arXiv:2601.10011v1 Announce Type: new Abstract: Existing NL2SQL systems face two critical limitations: (1) they rely on in-context learning with only correct examples, overlooking the rich signal in historical error-fix pairs that could guide more robust self-correction; and (2) test-time scaling...
-
-### Kinematic Tokenization: Optimization-Based Continuous-Time Tokens for Learnable Decision Policies in Noisy Time Series
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.09949
-- Summary: arXiv:2601.09949v1 Announce Type: new Abstract: Transformers are designed for discrete tokens, yet many real-world signals are continuous processes observed through noisy sampling. Discrete tokenizations (raw values, patches, finite differences) can be brittle in low signal-to-noise regimes,...
 
