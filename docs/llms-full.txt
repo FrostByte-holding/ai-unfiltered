@@ -270,6 +270,66 @@
 - URL: https://arxiv.org/abs/2601.15338
 - Summary: arXiv:2601.15338v1 Announce Type: new Abstract: Axial coding is a commonly used qualitative analysis method that enhances document understanding by organizing sentence-level open codes into broader categories. In this paper, we operationalize axial coding with large language models (LLMs)....
 
+### Panther: Faster and Cheaper Computations with Randomized Numerical Linear Algebra
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2601.15473
+- Summary: arXiv:2601.15473v1 Announce Type: new Abstract: Training modern deep learning models is increasingly constrained by GPU memory and compute limits. While Randomized Numerical Linear Algebra (RandNLA) offers proven techniques to compress these models, the lack of a unified, production-grade library...
+
+### Multi-Targeted Graph Backdoor Attack
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2601.15474
+- Summary: arXiv:2601.15474v1 Announce Type: new Abstract: Graph neural network (GNN) have demonstrated exceptional performance in solving critical problems across diverse domains yet remain susceptible to backdoor attacks. Existing studies on backdoor attack for graph classification are limited to single...
+
+### Early predicting of hospital admission using machine learning algorithms: Priority queues approach
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2601.15481
+- Summary: arXiv:2601.15481v1 Announce Type: new Abstract: Emergency Department overcrowding is a critical issue that compromises patient safety and operational efficiency, necessitating accurate demand forecasting for effective resource allocation. This study evaluates and compares three distinct predictive...
+
+### Martingale Foresight Sampling: A Principled Approach to Inference-Time LLM Decoding
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2601.15482
+- Summary: arXiv:2601.15482v1 Announce Type: new Abstract: Standard autoregressive decoding in large language models (LLMs) is inherently short-sighted, often failing to find globally optimal reasoning paths due to its token-by-token generation process. While inference-time strategies like foresight sampling...
+
+### MARS: Unleashing the Power of Speculative Decoding via Margin-Aware Verification
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2601.15498
+- Summary: arXiv:2601.15498v1 Announce Type: new Abstract: Speculative Decoding (SD) accelerates autoregressive large language model (LLM) inference by decoupling generation and verification. While recent methods improve draft quality by tightly coupling the drafter with the target model, the verification...
+
+### Memorization Dynamics in Knowledge Distillation for Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2601.15394
+- Summary: arXiv:2601.15394v1 Announce Type: new Abstract: Knowledge Distillation (KD) is increasingly adopted to transfer capabilities from large language models to smaller ones, offering significant improvements in efficiency and utility while often surpassing standard fine-tuning. Beyond performance, KD is...
+
+### Beyond Fixed Psychological Personas: State Beats Trait, but Language Models are State-Blind
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2601.15395
+- Summary: arXiv:2601.15395v1 Announce Type: new Abstract: User interactions with language models vary due to static properties of the user (trait) and the specific context of the interaction (state). However, existing persona datasets (like PersonaChat, PANDORA etc.) capture only trait, and ignore the impact...
+
+### Domain-Specific Knowledge Graphs in RAG-Enhanced Healthcare LLMs
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2601.15429
+- Summary: arXiv:2601.15429v1 Announce Type: new Abstract: Large Language Models (LLMs) generate fluent answers but can struggle with trustworthy, domain-specific reasoning. We evaluate whether domain knowledge graphs (KGs) improve Retrieval-Augmented Generation (RAG) for healthcare by constructing three...
+
+### Chunking, Retrieval, and Re-ranking: An Empirical Evaluation of RAG Architectures for Policy Document Question Answering
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2601.15457
+- Summary: arXiv:2601.15457v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into the public health policy sector offers a transformative approach to navigating the vast repositories of regulatory guidance maintained by agencies such as the Centers for Disease Control and...
+
+### Benchmarking LLMs for Pairwise Causal Discovery in Biomedical and Multi-Domain Contexts
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2601.15479
+- Summary: arXiv:2601.15479v1 Announce Type: new Abstract: The safe deployment of large language models (LLMs) in high-stakes fields like biomedicine, requires them to be able to reason about cause and effect. We investigate this ability by testing 13 open-source LLMs on a fundamental task: pairwise causal...
+
 ### Baichuan AI Launches Low-Hallucination Medical Model M3 Plus, Announces Free Access Program
 - Source: Pandaily
 - Category: chinese-ai
@@ -1616,6 +1676,12 @@
 - URL: https://www.technologyreview.com/2026/01/20/1130911/the-era-of-agentic-chaos-and-how-data-will-save-us/
 - Summary: AI agents are moving beyond coding assistants and customer service chatbots into the operational core of the enterprise. The ROI is promising, but autonomy without alignment is a recipe for chaos. Business leaders need to lay the essential foundations now. The agent explosion is coming Agents are...
 
+### Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.14417
+- Summary: Many spoken languages, including English, exhibit wide variation in dialects and accents, making accent control an important capability for flexible text-to-speech (TTS) models. Current TTS systems typically generate accented speech by conditioning on speaker embeddings associated with specific...
+
 ### Chainlit Vulnerabilities May Leak Sensitive Information
 - Source: Security Week
 - Category: security
@@ -2409,6 +2475,12 @@
 - URL: https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html
 - Summary: OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access to its low-cost subscription globally. "You need to know that your data and conversations...
 
+### sangkuriang: A pseudo-spectral Python library for Korteweg-de Vries soliton simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.12029
+- Summary: The Korteweg-de Vries (KdV) equation serves as a foundational model in nonlinear wave physics, describing the balance between dispersive spreading and nonlinear steepening that gives rise to solitons. This article introduces sangkuriang, an open-source Python library for solving this equation using...
+
 ### MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -2951,78 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.11096
 - Summary: Character image animation is gaining significant importance across various domains, driven by the demand for robust and flexible multi-subject rendering. While existing methods excel in single-person animation, they struggle to handle arbitrary subject counts, diverse character types, and spatial...
-
-### PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11087
-- Summary: Physical principles are fundamental to realistic visual simulation, but remain a significant oversight in transformer-based video generation. This gap highlights a critical limitation in rendering rigid body motion, a core tenet of classical mechanics. While computer graphics and physics-based...
-
-### ABC-Bench: Benchmarking Agentic Backend Coding in Real-World Development
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11077
-- Summary: The evolution of Large Language Models (LLMs) into autonomous agents has expanded the scope of AI coding from localized code generation to complex, repository-level, and execution-driven problem solving. However, current benchmarks predominantly evaluate code logic in static contexts, neglecting...
-
-### Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11061
-- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) is highly effective for enhancing LLM reasoning, yet recent evidence shows models like Qwen 2.5 achieve significant gains even with spurious or incorrect rewards. We investigate this phenomenon and identify a "Perplexity Paradox": spurious RLVR...
-
-### AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11044
-- Summary: Large Language Models (LLMs) based autonomous agents demonstrate multifaceted capabilities to contribute substantially to economic production. However, existing benchmarks remain focused on single agentic capability, failing to capture long-horizon real-world scenarios. Moreover, the reliance on...
-
-### BAPO: Boundary-Aware Policy Optimization for Reliable Agentic Search
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11037
-- Summary: RL-based agentic search enables LLMs to solve complex questions via dynamic planning and external search. While this approach significantly enhances accuracy with agent policies optimized via large-scale reinforcement learning, we identify a critical gap in reliability: these agents fail to...
-
-### NAACL: Noise-AwAre Verbal Confidence Calibration for LLMs in RAG Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11004
-- Summary: Accurately assessing model confidence is essential for deploying large language models (LLMs) in mission-critical factual domains. While retrieval-augmented generation (RAG) is widely adopted to improve grounding, confidence calibration in RAG settings remains poorly understood. We conduct a...
-
-### When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.11000
-- Summary: Personalized large language models (LLMs) adapt model behavior to individual users to enhance user satisfaction, yet personalization can inadvertently distort factual reasoning. We show that when personalized LLMs face factual queries, there exists a phenomenon where the model generates answers...
-
-
-## 2026-01-15
-
-### What Matters in Data Curation for Multimodal Reasoning? Insights from the DCVLR Challenge
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.10922
-- Summary: We study data curation for multimodal reasoning through the NeurIPS 2025 Data Curation for Vision-Language Reasoning (DCVLR) challenge, which isolates dataset selection by fixing the model and training protocol. Using a compact curated dataset derived primarily from Walton Multimodal Cold Start,...
-
-### AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html
-- Summary: A critical misconfiguration in Amazon Web Services (AWS) CodeBuild could have allowed complete takeover of the cloud service provider's own GitHub repositories, including its AWS JavaScript SDK, putting every AWS environment at risk. The vulnerability has been codenamed CodeBreach by cloud security...
-
-### Incident with Issues and Pull Requests
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/q987xpbqjbpl
-- Summary: Jan 15, 18:54 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 15, 18:54 UTCUpdate - Pull Requests is operating normally.Jan 15, 18:42 UTCUpdate -...
-
-### FrankenMotion: Part-level Human Motion Generation and Composition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.10909
-- Summary: Human motion generation from text prompts has made remarkable progress in recent years. However, existing methods primarily rely on either sequence-level or action-level descriptions due to the absence of fine-grained, part-level motion annotations. This limits their controllability over individual...
-
-### Introducing OptiMind, a research model designed for optimization
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/microsoft/optimind
 
