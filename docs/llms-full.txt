@@ -6,11 +6,28 @@
 
 ## 2026-01-27
 
+### Azure - Central US (Iowa): INC0150687
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/r32lgfpkzw0y
+- Summary: Jan 27, 19:30 UTCResolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
+### The first human test of a rejuvenation method will begin “shortly”
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/01/27/1131796/the-first-human-test-of-a-rejuvenation-method-will-begin-shortly/
+- Summary: When Elon Musk was at Davos last week, an interviewer asked him if he thought aging could be reversed. Musk said he hasn’t put much time into the problem but suspects it is “very solvable” and that when scientists discover why we age, it’s going to be something “obvious.” Not long after, the...
+
 ### Memcyco Raises $37 Million for Anti-Impersonation Technology
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/memcyco-raises-37-million-for-anti-impersonation-technology/
 - Summary: The startup will use the investment to fuel global expansion of its agentless platform, including in Latin America. The post Memcyco Raises $37 Million for Anti-Impersonation Technology appeared first on SecurityWeek.
+
+### Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2
 
 ### Elevated errors on Claude Haiku 3.5
 - Source: Anthropic Status
@@ -777,6 +794,12 @@
 - URL: https://status.claude.com/incidents/1f8s9zn12cfh
 - Summary: Jan 25, 08:05 UTCInvestigating - We are currently investigating this issue.
 
+### AR-Omni: A Unified Autoregressive Model for Any-to-Any Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17761
+- Summary: Real-world perception and interaction are inherently multimodal, encompassing not only language but also vision and speech, which motivates the development of "Omni" MLLMs that support both multimodal inputs and multimodal outputs. While a sequence of omni MLLMs has emerged, most existing systems...
+
 ### The Script is All You Need: An Agentic Framework for Long-Horizon Dialogue-to-Cinematic Video Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1245,6 +1268,12 @@
 - URL: https://tldr.takara.ai/p/2601.16515
 - Summary: Diffusion Transformers have recently demonstrated remarkable performance in video generation. However, the long input sequences result in high computational latency due to the quadratic complexity of full attention. Various sparse attention mechanisms have been proposed. Training-free sparse...
 
+### VISTA-PATH: An interactive foundation model for pathology image segmentation and quantitative analysis in computational pathology
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.16451
+- Summary: Accurate semantic segmentation for histopathology image is crucial for quantitative tissue analysis and downstream clinical modeling. Recent segmentation foundation models have improved generalization through large-scale pretraining, yet remain poorly aligned with pathology because they treat...
+
 
 ## 2026-01-22
 
@@ -1355,6 +1384,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.16208
 - Summary: Representation Autoencoders (RAEs) have shown distinct advantages in diffusion modeling on ImageNet by training in high-dimensional semantic latent spaces. In this work, we investigate whether this framework can scale to large-scale, freeform text-to-image (T2I) generation. We first scale RAE...
+
+### IVRA: Improving Visual-Token Relations for Robot Action Policy with Training-Free Hint-Based Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.16207
+- Summary: Many Vision-Language-Action (VLA) models flatten image patches into a 1D token sequence, weakening the 2D spatial cues needed for precise manipulation. We introduce IVRA, a lightweight, training-free method that improves spatial understanding by exploiting affinity hints already available in the...
 
 ### LLM-in-Sandbox Elicits General Agentic Intelligence
 - Source: HF Daily Papers
@@ -1523,6 +1558,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.15892
 - Summary: Diffusion-based language models (DLLMs) offer non-sequential, block-wise generation and richer data reuse compared to autoregressive (AR) models, but existing code DLLMs still lag behind strong AR baselines under comparable budgets. We revisit this setting in a controlled study and introduce...
+
+### Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17058
+- Summary: Data preparation aims to denoise raw datasets, uncover cross-dataset relationships, and extract valuable insights from them, which is essential for a wide range of data-centric applications. Driven by (i) rising demands for application-ready data (e.g., for analytics, visualization,...
 
 ### EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience
 - Source: HF Daily Papers
@@ -2639,6 +2680,11 @@
 - URL: https://www.cloudflarestatus.com/incidents/nn8vjw74mcf2
 - Summary: Jan 20, 16:01 UTCResolved - This incident has been resolved.Jan 20, 15:51 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 20, 14:22 UTCInvestigating - Cloudflare is aware of, and investigating an issue which might potentially impact some customers: D1 and Durable...
 
+### One Year Since the “DeepSeek Moment”
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment
+
 ### The era of agentic chaos and how data will save us
 - Source: MIT Tech Review AI
 - Category: research
@@ -2975,52 +3021,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/01/19/1131450/the-download-the-us-digital-rights-crackdown-and-ai-companionship/
 - Summary: This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What it’s like to be banned from the US for fighting online hate Just before Christmas the Trump administration dramatically escalated its...
-
-### ‘SolyxImmortal’ Information Stealer Emerges
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/solyximmortal-information-stealer-emerges/
-- Summary: The information stealer abuses legitimate APIs and libraries to exfiltrate data to Discord webhooks. The post &#8216;SolyxImmortal&#8217; Information Stealer Emerges appeared first on SecurityWeek.
-
-### Cyber Insights 2026: Information Sharing
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyber-insights-2026-information-sharing/
-- Summary: Information sharing is necessary for efficient cybersecurity, and is widespread; but never quite perfect in practice. The post Cyber Insights 2026: Information Sharing appeared first on SecurityWeek.
-
-### ⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html
-- Summary: In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can...
-
-### CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.13262
-- Summary: While large language models (LLMs) have shown to perform well on monolingual mathematical and commonsense reasoning, they remain unreliable for multilingual medical reasoning applications, hindering their deployment in multilingual healthcare settings. We address this by first introducing...
-
-### Aligning Agentic World Models via Knowledgeable Experience Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.13247
-- Summary: Current Large Language Models (LLMs) exhibit a critical modal disconnect: they possess vast semantic knowledge but lack the procedural grounding to respect the immutable laws of the physical world. Consequently, while these agents implicitly function as world models, their simulations often suffer...
-
-### New Reports Reinforce Cyberattack’s Role in Maduro Capture Blackout
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/new-reports-reinforce-cyberattacks-role-in-maduro-capture-blackout/
-- Summary: US officials told The New York Times that cyberattacks were used to turn off the lights in Caracas and disrupt air defense radars. The post New Reports Reinforce Cyberattack&#8217;s Role in Maduro Capture Blackout appeared first on SecurityWeek.
-
-### Going beyond pilots with composable and sovereign AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/19/1131422/going-beyond-pilots-with-composable-and-sovereign-ai/
-- Summary: Today marks an inflection point for enterprise AI adoption. Despite billions invested in generative AI, only 5% of integrated pilots deliver measurable business value and nearly one in two companies abandons AI initiatives before reaching production. The bottleneck is not the models themselves....
-
-### DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html
-- Summary: Just a few years ago, the cloud was touted as the “magic pill” for any cyber threat or performance issue. Many were lured by the “always-on” dream, trading granular control for the convenience of managed services. In recent years, many of us have learned (often the hard way) that public cloud...
 
