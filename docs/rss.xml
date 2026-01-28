@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 28 Jan 2026 16:41:12 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2026 20:35:28 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Service is operating normally: [RESOLVED] Elevated latencies for network change propagation</title>
+            <link>https://status.aws.amazon.com/</link>
+            <guid>https://status.aws.amazon.com/</guid>
+            <pubDate>Wed, 28 Jan 2026 19:22:00 +0000</pubDate>
+            <source url="https://status.aws.amazon.com/">AWS Status</source>
+            <category>incidents</category>
+            <description>Between 7:08 AM and 10:48 AM PST, we experienced elevated latencies for network change propagation in the EU-WEST-1 Region. This was due to a delay in propagation of configuration updates on a sub-system which supports external and cross account connectivity. Customers experienced delays when...</description>
+        </item>
         <item>
             <title>Actions Workflows Run Start Delays</title>
             <link>https://www.githubstatus.com/incidents/22zx8fw9qt4t</link>
@@ -448,15 +457,6 @@
             <source url="https://tldr.takara.ai/p/2601.19834">HF Daily Papers</source>
             <category>open-source</category>
             <description>Humans construct internal world models and reason by manipulating the concepts within these models. Recent advances in AI, particularly chain-of-thought (CoT) reasoning, approximate such human cognitive abilities, where world models are believed to be embedded within large language models....</description>
-        </item>
-        <item>
-            <title>Elevated Codex Error Rate</title>
-            <link>https://status.openai.com//incidents/01KFZB0A5C1D3TQED136VXFT9W</link>
-            <guid>https://status.openai.com//incidents/01KFZB0A5C1D3TQED136VXFT9W</guid>
-            <pubDate>Tue, 27 Jan 2026 11:03:26 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KFZB0A5C1D3TQED136VXFT9W">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Codex (Operational)</description>
         </item>
     </channel>
 </rss>

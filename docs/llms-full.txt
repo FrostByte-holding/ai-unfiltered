@@ -6,6 +6,12 @@
 
 ## 2026-01-28
 
+### Service is operating normally: [RESOLVED] Elevated latencies for network change propagation
+- Source: AWS Status
+- Category: incidents
+- URL: https://status.aws.amazon.com/
+- Summary: Between 7:08 AM and 10:48 AM PST, we experienced elevated latencies for network change propagation in the EU-WEST-1 Region. This was due to a delay in propagation of configuration updates on a sub-system which supports external and cross account connectivity. Customers experienced delays when...
+
 ### Actions Workflows Run Start Delays
 - Source: GitHub Status
 - Category: incidents
@@ -870,11 +876,23 @@
 - URL: https://www.technologyreview.com/2026/01/26/1124655/the-power-of-sound-in-a-virtual-world/
 - Summary: In an era where business, education, and even casual conversations occur via screens, sound has become a differentiating factor. We obsess over lighting, camera angles, and virtual backgrounds, but how we sound can be just as critical to credibility, trust, and connection. That’s the insight...
 
+### MortalMATH: Evaluating the Conflict Between Reasoning Objectives and Emergency Contexts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18790
+- Summary: Large Language Models are increasingly optimized for deep reasoning, prioritizing the correct execution of complex tasks over general conversation. We investigate whether this focus on calculation creates a "tunnel vision" that ignores safety in critical situations. We introduce MortalMATH, a...
+
 ### UI Remix: Supporting UI Design Through Interactive Example Retrieval and Remixing
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.18759
 - Summary: Designing user interfaces (UIs) is a critical step when launching products, building portfolios, or personalizing projects, yet end users without design expertise often struggle to articulate their intent and to trust design choices. Existing example-based tools either promote broad exploration,...
+
+### HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18753
+- Summary: The reliability of Large Language Models (LLMs) in high-stakes domains such as healthcare, law, and scientific discovery is often compromised by hallucinations. These failures typically stem from two sources: data-driven hallucinations and reasoning-driven hallucinations. However, existing...
 
 ### The Download: why LLMs are like aliens, and the future of head transplants
 - Source: MIT Tech Review AI
@@ -1346,6 +1364,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.18081
 - Summary: Despite the growing adoption of large language models (LLMs) in scientific research workflows, automated support for academic rebuttal, a crucial step in academic communication and peer review, remains largely underexplored. Existing approaches typically rely on off-the-shelf LLMs or simple...
+
+### TensorLens: End-to-End Transformer Analysis via High-Order Attention Tensors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17958
+- Summary: Attention matrices are fundamental to transformer research, supporting a broad range of applications including interpretability, visualization, manipulation, and distillation. Yet, most existing analyses focus on individual attention heads or layers, failing to account for the model's global...
 
 ### Masked Depth Modeling for Spatial Perception
 - Source: HF Daily Papers
@@ -1973,6 +1997,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.16276
 - Summary: Strategic decision-making in multi-agent settings is a key challenge for large language models (LLMs), particularly when coordination and negotiation must unfold over extended conversations. While recent work has explored the use of LLMs in isolated decision tasks, little attention has been given...
+
+### A Mechanistic View on Video Generation as World Models: State and Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17067
+- Summary: Large-scale video generation models have demonstrated emergent physical coherence, positioning them as potential world models. However, a gap remains between contemporary "stateless" video architectures and classic state-centric world model theories. This work bridges this gap by proposing a novel...
 
 ### Scaling Text-to-Image Diffusion Transformers with Representation Autoencoders
 - Source: HF Daily Papers
@@ -2989,34 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.11792
 - Summary: arXiv:2601.11792v1 Announce Type: new Abstract: Mathematical problem generation (MPG) is a significant research direction in the field of intelligent education. In recent years, the rapid development of large language models (LLMs) has enabled new technological approaches to problem-generation...
-
-### Multi-agent DRL-based Lane Change Decision Model for Cooperative Planning in Mixed Traffic
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.11809
-- Summary: arXiv:2601.11809v1 Announce Type: new Abstract: Connected automated vehicles (CAVs) possess the ability to communicate and coordinate with one another, enabling cooperative platooning that enhances both energy efficiency and traffic flow. However, during the initial stage of CAV deployment, the...
-
-### POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.11816
-- Summary: arXiv:2601.11816v1 Announce Type: new Abstract: Enterprise back office workflows require agentic systems that are auditable, policy-aligned, and operationally predictable, capabilities that generic multi-agent setups often fail to deliver. We present POLARIS (Policy-Aware LLM Agentic Reasoning for...
-
-### AI Co-Scientist for Knowledge Synthesis in Medical Contexts: A Proof of Concept
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.11825
-- Summary: arXiv:2601.11825v1 Announce Type: new Abstract: Research waste in biomedical science is driven by redundant studies, incomplete reporting, and the limited scalability of traditional evidence synthesis workflows. We present an AI co-scientist for scalable and transparent knowledge synthesis based on...
-
-### A Multimodal Data Processing Pipeline for MIMIC-IV Dataset
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.11606
-- Summary: arXiv:2601.11606v1 Announce Type: new Abstract: The MIMIC-IV dataset is a large, publicly available electronic health record (EHR) resource widely used for clinical machine learning research. It comprises multiple modalities, including structured data, clinical notes, waveforms, and imaging data....
-
-### Auxiliary-predicted Compress Memory Model(ApCM Model): A Neural Memory Storage Model Based on Invertible Compression and Learnable Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.11609
-- Summary: arXiv:2601.11609v1 Announce Type: new Abstract: Current large language models (LLMs) generally lack an effective runtime memory mechanism,making it difficult to adapt to dynamic and personalized interaction requirements. To address this issue, this paper proposes a novel neural memory storage...
 
