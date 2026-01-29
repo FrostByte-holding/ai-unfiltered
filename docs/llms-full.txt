@@ -6,6 +6,23 @@
 
 ## 2026-01-29
 
+### Some users are experiencing delays in purchasing additional API credits
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/29wh90pcv3r1
+- Summary: Jan 29, 19:51 UTCIdentified - Some customers are experiencing delays in having their successful credit purchases applied and in triggering credit auto-reloads. We have identified the issue and are working to resolve.Jan 29, 19:10 UTCInvestigating - We are currently investigating this issue.
+
+### Introducing NVIDIA Cosmos Policy for Advanced Robot Control
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control
+
+### Project Genie: Experimenting with infinite, interactive worlds
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/
+- Summary: Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.
+
 ### LLMs Hijacked, Monetized in ‘Operation Bizarre Bazaar’
 - Source: Security Week
 - Category: security
@@ -258,6 +275,11 @@
 - URL: https://pandaily.com/kunlun-tian-gong-unveils-mureka-v8-music-model-claims-global-no-1-and-connects-ai-music-to-commercial-distribution
 - Summary: Kunlun TianGong's latest AI music model, Mureka V8, claims to surpass top competitor Suno V5 and aims to transform music creation into an accessible form of expression, backed by new partnerships with industry veterans for commercial distribution.
 
+### Introducing Daggr: Chain apps programmatically, inspect visually
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/daggr
+
 
 ## 2026-01-28
 
@@ -435,6 +457,12 @@
 - URL: https://tldr.takara.ai/p/2601.20622
 - Summary: Sketching provides an intuitive way to convey dynamic intent in animation authoring (i.e., how elements change over time and space), making it a natural medium for automatic content creation. Yet existing approaches often constrain sketches to fixed command tokens or predefined visual forms,...
 
+### GDCNet: Generative Discrepancy Comparison Network for Multimodal Sarcasm Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20618
+- Summary: Multimodal sarcasm detection (MSD) aims to identify sarcasm within image-text pairs by modeling semantic incongruities across modalities. Existing methods often exploit cross-modal embedding misalignment to detect inconsistency but struggle when visual and textual content are loosely related or...
+
 ### Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation
 - Source: HF Daily Papers
 - Category: open-source
@@ -470,6 +498,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/catl-cto-signals-major-push-for-sodium-ion-batteries-the-goal-is-large-scale-adoption
 - Summary: CATL’s CTO says large-scale sodium-ion battery adoption will be key to the next phase of energy transition, with mass commercialization now underway in vehicles and storage.
+
+### Advancing Open-source World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20540
+- Summary: We present LingBot-World, an open-sourced world simulator stemming from video generation. Positioned as a top-tier world model, LingBot-World offers the following features. (1) It maintains high fidelity and robust dynamics in a broad spectrum of environments, including realism, scientific...
 
 ### High-Severity Remote Code Execution Vulnerability Patched in OpenSSL
 - Source: Security Week
@@ -831,6 +865,12 @@
 - URL: https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html
 - Summary: Cybersecurity researchers have disclosed details of a new campaign that combines ClickFix-style fake CAPTCHAs with a signed Microsoft Application Virtualization (App-V) script to distribute an information stealer called Amatera. "Instead of launching PowerShell directly, the attacker uses this...
 
+### Self-Distillation Enables Continual Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.19897
+- Summary: Continual learning, enabling models to acquire new skills and knowledge without degrading existing capabilities, remains a fundamental challenge for foundation models. While on-policy reinforcement learning can reduce forgetting, it requires explicit reward functions that are often unavailable....
+
 ### ‘PackageGate’ Flaws Open JavaScript Ecosystem to Supply Chain Attacks
 - Source: Security Week
 - Category: security
@@ -860,6 +900,12 @@
 - Category: security
 - URL: https://www.securityweek.com/chrome-edge-extensions-caught-stealing-chatgpt-sessions/
 - Summary: Marketed as ChatGPT enhancement and productivity tools, the extensions allow the threat actor to access the victim's ChatGPT data. The post Chrome, Edge Extensions Caught Stealing ChatGPT Sessions appeared first on SecurityWeek.
+
+### Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.19798
+- Summary: Despite the significant advancements represented by Vision-Language Models (VLMs), current architectures often exhibit limitations in retaining fine-grained visual information, leading to coarse-grained multimodal comprehension. We attribute this deficiency to a suboptimal training paradigm...
 
 ### CTEM in Practice: Prioritization, Validation, and Outcomes That Matter
 - Source: The Hacker News
@@ -2972,52 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.14525
 - Summary: arXiv:2601.14525v1 Announce Type: new Abstract: Automated AI research holds great potential to accelerate scientific discovery. However, current LLMs often generate plausible-looking but ineffective ideas. Execution grounding may help, but it is unclear whether automated execution is feasible and...
-
-### Self-Blinding and Counterfactual Self-Simulation Mitigate Biases and Sycophancy in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.14553
-- Summary: arXiv:2601.14553v1 Announce Type: new Abstract: Fair decisions require ignoring irrelevant, potentially biasing, information. To achieve this, decision-makers need to approximate what decision they would have made had they not known certain facts, such as the gender or race of a job candidate. This...
-
-### Rewarding How Models Think Pedagogically: Integrating Pedagogical Reasoning and Thinking Rewards for LLMs in Education
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.14560
-- Summary: arXiv:2601.14560v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as intelligent tutoring systems, yet research on optimizing LLMs specifically for educational contexts remains limited. Recent works have proposed reinforcement learning approaches for training...
-
-### Social Caption: Evaluating Social Understanding in Multimodal Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.14569
-- Summary: arXiv:2601.14569v1 Announce Type: new Abstract: Social understanding abilities are crucial for multimodal large language models (MLLMs) to interpret human social interactions. We introduce Social Caption, a framework grounded in interaction theory to evaluate social understanding abilities of MLLMs...
-
-### Semantic-Guided Unsupervised Video Summarization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.14773
-- Summary: arXiv:2601.14773v1 Announce Type: new Abstract: Video summarization is a crucial technique for social understanding, enabling efficient browsing of massive multimedia content and extraction of key information from social platforms. Most existing unsupervised summarization methods rely on Generative...
-
-### Towards Bound Consistency for the No-Overlap Constraint Using MDDs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.14784
-- Summary: arXiv:2601.14784v1 Announce Type: new Abstract: Achieving bound consistency for the no-overlap constraint is known to be NP-complete. Therefore, several polynomial-time tightening techniques, such as edge finding, not-first-not-last reasoning, and energetic reasoning, have been introduced for this...
-
-### CI4A: Semantic Component Interfaces for Agents Empowering Web Automation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.14790
-- Summary: arXiv:2601.14790v1 Announce Type: new Abstract: While Large Language Models demonstrate remarkable proficiency in high-level semantic planning, they remain limited in handling fine-grained, low-level web component manipulations. To address this limitation, extensive research has focused on...
-
-### Measuring and Aligning Abstraction in Vision-Language Models with Medical Taxonomies
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.14827
-- Summary: arXiv:2601.14827v1 Announce Type: new Abstract: Vision-Language Models show strong zero-shot performance for chest X-ray classification, but standard flat metrics fail to distinguish between clinically minor and severe errors. This work investigates how to quantify and mitigate abstraction errors...
-
-### Implementing Knowledge Representation and Reasoning with Object Oriented Design
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.14840
-- Summary: arXiv:2601.14840v1 Announce Type: new Abstract: This paper introduces KRROOD, a framework designed to bridge the integration gap between modern software engineering and Knowledge Representation & Reasoning (KR&amp;R) systems. While Object-Oriented Programming (OOP) is the standard for developing...
 
