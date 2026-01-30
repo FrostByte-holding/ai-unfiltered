@@ -6,6 +6,18 @@
 
 ## 2026-01-30
 
+### Some ChatGPT users may be experiencing issues with their subscription renewals
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KG80XW6H509B6MVRE05W99SF
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Partial outage)
+
+### Inside the marketplace powering bespoke AI deepfakes of real women
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/01/30/1131945/inside-the-marketplace-powering-bespoke-ai-deepfakes-of-real-women/
+- Summary: Civitai—an online marketplace for buying and selling AI-generated content, backed by the venture capital firm Andreessen Horowitz—is letting users buy custom instruction files for generating celebrity deepfakes. Some of these files were specifically designed to make pornographic images banned by...
+
 ### Thoughts on the job market in the age of LLMs
 - Source: Interconnects
 - Category: open-source
@@ -267,6 +279,12 @@
 - URL: https://status.claude.com/incidents/29wh90pcv3r1
 - Summary: Jan 29, 19:51 UTCIdentified - Some customers are experiencing delays in having their successful credit purchases applied and in triggering credit auto-reloads. We have identified the issue and are working to resolve.Jan 29, 19:10 UTCInvestigating - We are currently investigating this issue.
 
+### FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.22146
+- Summary: Due to limited supervised training data, large language models (LLMs) are typically pre-trained via a self-supervised "predict the next word" objective on a vast amount of unstructured text data. To make the resulting model useful to users, it is further trained on a far smaller amount of...
+
 ### DHS is using Google and Adobe AI to make videos
 - Source: MIT Tech Review AI
 - Category: research
@@ -338,6 +356,12 @@
 - URL: https://www.securityweek.com/n8n-vulnerabilities-could-lead-to-remote-code-execution/
 - Summary: The two bugs impacted n8n’s sandbox mechanism and could be exploited via weaknesses in the AST sanitization logic. The post N8n Vulnerabilities Could Lead to Remote Code Execution appeared first on SecurityWeek.
 
+### Quantum LEGO Learning: A Modular Design Principle for Hybrid Artificial Intelligence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21780
+- Summary: Hybrid quantum-classical learning models increasingly integrate neural networks with variational quantum circuits (VQCs) to exploit complementary inductive biases. However, many existing approaches rely on tightly coupled architectures or task-specific encoders, limiting conceptual clarity,...
+
 ### Dynamic Topology Awareness: Breaking the Granularity Rigidity in Vision-Language Navigation
 - Source: HF Daily Papers
 - Category: open-source
@@ -386,6 +410,12 @@
 - URL: https://tldr.takara.ai/p/2601.21581
 - Summary: Deep learning models struggle with uncertainty estimation. Many approaches are either computationally infeasible or underestimate uncertainty. We investigate \textit{BatchEnsemble} as a general and scalable method for uncertainty estimation across both tabular and time series tasks. To extend...
 
+### Bridging Functional and Representational Similarity via Usable Information
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21568
+- Summary: We present a unified framework for quantifying the similarity between representations through the lens of \textit{usable information}, offering a rigorous theoretical and empirical synthesis across three key dimensions. First, addressing functional similarity, we establish a formal link between...
+
 ### Google Disrupts IPIDEA Proxy Network
 - Source: Security Week
 - Category: security
@@ -428,6 +458,12 @@
 - URL: https://pandaily.com/former-byte-dance-executives-raise-eight-figure-angel-round-for-ai-comics-startup-pinecone-moment
 - Summary: Founded by ex-ByteDance talent, the startup behind the “Pinecone Moment” AI comics app has raised an eight-figure angel round to develop its vision of an AI-powered platform for storytelling and digital companionship.
 
+### Generation Enhances Understanding in Unified Multimodal Models via Multi-Representation Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21406
+- Summary: Unified Multimodal Models (UMMs) integrate both visual understanding and generation within a single framework. Their ultimate aspiration is to create a cycle where understanding and generation mutually reinforce each other. While recent post-training methods have successfully leveraged...
+
 ### Distinct Healthcare Launches Hong Kong IPO, Brings in He Xiaopeng and Tencent-Linked AI Firms as Cornerstone Investors
 - Source: Pandaily
 - Category: chinese-ai
@@ -469,6 +505,12 @@
 - Category: security
 - URL: https://www.securityweek.com/pwc-and-google-cloud-ink-400-million-deal-to-scale-ai-powered-defense/
 - Summary: The announcement comes just weeks after Palo Alto Networks and Google Cloud announced a multibillion-dollar AI and cloud security deal. The post PwC and Google Cloud Ink $400 Million Deal to Scale AI-Powered Defense appeared first on SecurityWeek.
+
+### L2R: Low-Rank and Lipschitz-Controlled Routing for Mixture-of-Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21349
+- Summary: Mixture-of-Experts (MoE) models scale neural networks by conditionally activating a small subset of experts, where the router plays a central role in determining expert specialization and overall model performance. However, many modern MoE systems still adopt linear routers in raw high-dimensional...
 
 ### Google Disrupts IPIDEA — One of the World’s Largest Residential Proxy Networks
 - Source: The Hacker News
@@ -2979,46 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.16344
 - Summary: Data science agents promise to accelerate discovery and insight-generation by turning data into executable analyses and findings. Yet existing data science benchmarks fall short due to fragmented evaluation interfaces that make cross-benchmark comparison difficult, narrow task coverage and a lack...
-
-### Dispatch from Davos: hot air, big egos and cold flexes
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/22/1131687/hot-air-cold-flexes-at-davos/
-- Summary: This story first appeared in The Debrief, our subscriber-only newsletter about the biggest news in tech by Mat Honan, Editor in Chief. Subscribe to read the next edition as soon as it lands. It’s supposed to be frigid in Davos this time of year. Part of the charm is seeing the world’s elite tromp...
-
-### Claude Code Authentication Issues
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/58sxy43h7kvf
-- Summary: Jan 22, 16:36 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 22, 16:29 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 22, 16:22 UTCInvestigating - We are currently investigating an issue affecting Claude Code authentication. Users...
-
-### Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html
-- Summary: A critical security flaw has been disclosed in the GNU InetUtils telnet daemon (telnetd) that went unnoticed for nearly 11 years. The vulnerability, tracked as CVE-2026-24061, is rated 9.8 out of 10.0 on the CVSS scoring system. It affects all versions of GNU InetUtils from version 1.9.3 up to and...
-
-### The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/the-upside-down-is-real-what-stranger-things-teaches-us-about-modern-cybersecurity/
-- Summary: To all those who are fighting the good fight in the world of cyber, keep collaborating to ensure our world never succumbs to the chaos of the Upside Down. The post The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity appeared first on SecurityWeek.
-
-### Elevated errors on claude.ai
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/ct82mw4kc0kt
-- Summary: Jan 22, 16:10 UTCUpdate - We are continuing to investigate this issue.Jan 22, 16:06 UTCInvestigating - We are currently investigating this issue.
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/cqb5hcy0gx18
-- Summary: Jan 22, 15:22 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 22, 15:22 UTCUpdate - We have identified an issue in one of our services and have...
-
-### Old Attack, New Speed: Researchers Optimize Page Cache Exploits
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/old-attack-new-speed-researchers-optimize-page-cache-exploits/
-- Summary: A team of researchers from the Graz University of Technology in Austria has revived page Linux page cache attacks. The post Old Attack, New Speed: Researchers Optimize Page Cache Exploits appeared first on SecurityWeek.
 
