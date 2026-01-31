@@ -6,6 +6,12 @@
 
 ## 2026-01-31
 
+### [AINews] Moltbook — the first Social Network for AI Agents (Clawdbots/OpenClaw bots)
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-moltbook-the-first-social
+- Summary: The craziest week in Simulative AI for a while
+
 ### Some Android users may be experiencing errors when signing up for ChatGPT with Google Authentication
 - Source: OpenAI Status
 - Category: incidents
@@ -467,6 +473,18 @@
 - URL: https://tldr.takara.ai/p/2601.21983
 - Summary: Bayesian inference allows us to define a posterior distribution over the weights of a generic neural network (NN). Exact posteriors are usually intractable, in which case approximations can be employed. One such approximation - variational inference - is computationally efficient when using...
 
+### Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21969
+- Summary: Large Language Models (LLMs) often hallucinate, generating content inconsistent with the input. Retrieval-Augmented Generation (RAG) and Reinforcement Learning with Human Feedback (RLHF) can mitigate hallucinations but require resource-intensive retrieval or large-scale fine-tuning. Decoding-based...
+
+### VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21915
+- Summary: Large multimodal models (LMMs) have demonstrated outstanding capabilities in various visual perception tasks, which has in turn made the evaluation of LMMs significant. However, the capability of video aesthetic quality assessment, which is a fundamental ability for human, remains underexplored for...
+
 ### A Low-Complexity Plug-and-Play Deep Learning Model for Generalizable Massive MIMO Precoding
 - Source: HF Daily Papers
 - Category: open-source
@@ -509,6 +527,12 @@
 - URL: https://tldr.takara.ai/p/2601.21751
 - Summary: Vision-Language Navigation in Continuous Environments (VLN-CE) presents a core challenge: grounding high-level linguistic instructions into precise, safe, and long-horizon spatial actions. Explicit topological maps have proven to be a vital solution for providing robust spatial memory in such...
 
+### Enhancing Language Models for Robust Greenwashing Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21722
+- Summary: Sustainability reports are critical for ESG assessment, yet greenwashing and vague claims often undermine their reliability. Existing NLP models lack robustness to these practices, typically relying on surface-level patterns that generalize poorly. We propose a parameter-efficient framework that...
+
 ### SolarWinds Patches Critical Web Help Desk Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -526,6 +550,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html
 - Summary: This week’s updates show how small changes can create real problems. Not loud incidents, but quiet shifts that are easy to miss until they add up. The kind that affects systems people rely on every day. Many of the stories point to the same trend: familiar tools being used in unexpected ways....
+
+### Few-Shot Domain Adaptation with Temporal References and Static Priors for Glacier Calving Front Delineation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21663
+- Summary: During benchmarking, the state-of-the-art model for glacier calving front delineation achieves near-human performance. However, when applied in a real-world setting at a novel study site, its delineation accuracy is insufficient for calving front products intended for further scientific analyses....
 
 ### Gauge-invariant representation holonomy
 - Source: HF Daily Papers
@@ -922,6 +952,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kunlun-tian-gong-unveils-mureka-v8-music-model-claims-global-no-1-and-connects-ai-music-to-commercial-distribution
 - Summary: Kunlun TianGong's latest AI music model, Mureka V8, claims to surpass top competitor Suno V5 and aims to transform music creation into an accessible form of expression, backed by new partnerships with industry veterans for commercial distribution.
+
+### A Flexible Empirical Bayes Approach to Generalized Linear Models, with Applications to Sparse Logistic Regression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21217
+- Summary: We introduce a flexible empirical Bayes approach for fitting Bayesian generalized linear models. Specifically, we adopt a novel mean-field variational inference (VI) method and the prior is estimated within the VI algorithm, making the method tuning-free. Unlike traditional VI methods that optimize...
 
 ### Introducing Daggr: Chain apps programmatically, inspect visually
 - Source: Hugging Face Blog
@@ -2985,40 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.15441
 - Summary: arXiv:2601.15441v1 Announce Type: new Abstract: Internal activations of diffusion models encode rich semantic information, but interpreting such representations remains challenging. While Sparse Autoencoders (SAEs) have shown promise in disentangling latent representations, existing SAE-based...
-
-### Learning from Synthetic Data: Limitations of ERM
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.15468
-- Summary: arXiv:2601.15468v1 Announce Type: new Abstract: The prevalence and low cost of LLMs have led to a rise of synthetic content. From review sites to court documents, ``natural'' content has been contaminated by data points that appear similar to natural data, but are in fact LLM-generated. In this...
-
-### Can We Trust LLM Detectors?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15301
-- Summary: arXiv:2601.15301v1 Announce Type: new Abstract: The rapid adoption of LLMs has increased the need for reliable AI text detection, yet existing detectors often fail outside controlled benchmarks. We systematically evaluate 2 dominant paradigms (training-free and supervised) and show that both are...
-
-### ICPO: Illocution-Calibrated Policy Optimization for Multi-Turn Conversation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15330
-- Summary: arXiv:2601.15330v1 Announce Type: new Abstract: Large Language Models (LLMs) in multi-turn conversations often suffer from a ``lost-in-conversation'' phenomenon, where they struggle to recover from early incorrect assumptions, particularly when users provide ambiguous initial instructions. We find...
-
-### RECAP: A Resource-Efficient Method for Adversarial Prompting in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15331
-- Summary: arXiv:2601.15331v1 Announce Type: new Abstract: The deployment of large language models (LLMs) has raised security concerns due to their susceptibility to producing harmful or policy-violating outputs when exposed to adversarial prompts. While alignment and guardrails mitigate common misuse, they...
-
-### No Reliable Evidence of Self-Reported Sentience in Small Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15334
-- Summary: arXiv:2601.15334v1 Announce Type: new Abstract: Whether language models possess sentience has no empirical answer. But whether they believe themselves to be sentient can, in principle, be tested. We do so by querying several open-weights models about their own consciousness, and then verifying...
-
-### From Quotes to Concepts: Axial Coding of Political Debates with Ensemble LMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15338
-- Summary: arXiv:2601.15338v1 Announce Type: new Abstract: Axial coding is a commonly used qualitative analysis method that enhances document understanding by organizing sentence-level open codes into broader categories. In this paper, we operationalize axial coding with large language models (LLMs)....
 
