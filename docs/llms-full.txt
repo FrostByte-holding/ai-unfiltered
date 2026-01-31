@@ -6,6 +6,12 @@
 
 ## 2026-01-31
 
+### CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/01/poland-attributes-december-cyber.html
+- Summary: CERT Polska, the Polish computer emergency response team, revealed that coordinated cyber attacks targeted more than 30 wind and photovoltaic farms, a private company from the manufacturing sector, and a large combined heat and power plant (CHP) supplying heat to almost half a million customers in...
+
 ### [AINews] Moltbook — the first Social Network for AI Agents (Clawdbots/OpenClaw bots)
 - Source: Latent Space
 - Category: open-source
@@ -456,6 +462,12 @@
 - URL: https://tldr.takara.ai/p/2601.22030
 - Summary: In large language model (LLM) unlearning, private information is required to be removed. Task arithmetic unlearns by subtracting a specific task vector (TV)--defined as the parameter difference between a privacy-information-tuned model and the original model. While efficient, it can cause...
 
+### Liquid Interfaces: A Dynamic Ontology for the Interoperability of Autonomous Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21993
+- Summary: Contemporary software architectures struggle to support autonomous agents whose reasoning is adaptive, probabilistic, and context-dependent, while system integration remains dominated by static interfaces and deterministic contracts. This paper introduces Liquid Interfaces, a coordination paradigm...
+
 ### Introducing NVIDIA Cosmos Policy for Advanced Robot Control
 - Source: Hugging Face Blog
 - Category: open-source
@@ -508,6 +520,12 @@
 - Category: security
 - URL: https://www.securityweek.com/llms-hijacked-monetized-in-operation-bizarre-bazaar/
 - Summary: An LLMjacking operation has been targeting exposed LLMs and MCPs at scale, for commercial monetization. The post LLMs Hijacked, Monetized in &#8216;Operation Bizarre Bazaar&#8217; appeared first on SecurityWeek.
+
+### Nonparametric LLM Evaluation from Preference Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21816
+- Summary: Evaluating the performance of large language models (LLMs) from human preference data is crucial for obtaining LLM leaderboards. However, many existing approaches either rely on restrictive parametric assumptions or lack valid uncertainty quantification when flexible machine learning methods are...
 
 ### N8n Vulnerabilities Could Lead to Remote Code Execution
 - Source: Security Week
@@ -1002,6 +1020,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/22zx8fw9qt4t
 - Summary: Jan 28, 15:54 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 28, 15:37 UTCUpdate - Actions workflow run starts are delayed. We are actively...
+
+### ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20679
+- Summary: Large language models (LLMs) have achieved remarkable progress in code generation, yet their potential for software protection remains largely untapped. Reverse engineering continues to threaten software security, while traditional virtual machine protection (VMP) relies on rigid, rule-based...
 
 ### What AI “remembers” about you is privacy’s next frontier
 - Source: MIT Tech Review AI
@@ -2683,6 +2707,18 @@
 - URL: https://tldr.takara.ai/p/2601.17668
 - Summary: Efficient key-value (KV) cache management is crucial for the practical deployment of large language models (LLMs), yet existing compression techniques often incur a trade-off between performance degradation and computational overhead. We propose a novel gating-based KV cache eviction method for...
 
+### Learning to Ideate for Machine Learning Engineering Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17596
+- Summary: Existing machine learning engineering (MLE) agents struggle to iteratively optimize their implemented algorithms for effectiveness. To address this, we introduce MLE-Ideator, a dual-agent framework that separates ideation from implementation. In our system, an implementation agent can request...
+
+### Stylizing ViT: Anatomy-Preserving Instance Style Transfer for Domain Generalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17586
+- Summary: Deep learning models in medical image analysis often struggle with generalizability across domains and demographic groups due to data heterogeneity and scarcity. Traditional augmentation improves robustness, but fails under substantial domain shifts. Recent advances in stylistic augmentation...
+
 ### AVMeme Exam: A Multimodal Multilingual Multicultural Benchmark for LLMs' Contextual and Cultural Knowledge and Thinking
 - Source: HF Daily Papers
 - Category: open-source
@@ -2985,40 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.15298
 - Summary: arXiv:2601.15298v1 Announce Type: new Abstract: Embedding retrofitting adjusts pre-trained word vectors using knowledge graph constraints to improve domain-specific retrieval. However, the effectiveness of retrofitting depends critically on knowledge graph quality, which in turn depends on text...
-
-### MALTopic: Multi-Agent LLM Topic Modeling Framework
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15299
-- Summary: arXiv:2601.15299v1 Announce Type: new Abstract: Topic modeling is a crucial technique for extracting latent themes from unstructured text data, particularly valuable in analyzing survey responses. However, traditional methods often only consider free-text responses and do not natively incorporate...
-
-### Intelligence Degradation in Long-Context LLMs: Critical Threshold Determination via Natural Length Distribution Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.15300
-- Summary: arXiv:2601.15300v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit catastrophic performance degradation when processing contexts approaching certain critical thresholds, even when information remains relevant. This intelligence degradation-defined as over 30% drop in task...
-
-### Attention-Informed Surrogates for Navigating Power-Performance Trade-offs in HPC
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.15399
-- Summary: arXiv:2601.15399v1 Announce Type: new Abstract: High-Performance Computing (HPC) schedulers must balance user performance with facility-wide resource constraints. The task boils down to selecting the optimal number of nodes for a given job. We present a surrogate-assisted multi-objective Bayesian...
-
-### Ambient Dataloops: Generative Models for Dataset Refinement
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.15417
-- Summary: arXiv:2601.15417v1 Announce Type: new Abstract: We propose Ambient Dataloops, an iterative framework for refining datasets that makes it easier for diffusion models to learn the underlying data distribution. Modern datasets contain samples of highly varying quality, and training directly on such...
-
-### Lattice: A Confidence-Gated Hybrid System for Uncertainty-Aware Sequential Prediction with Behavioral Archetypes
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.15423
-- Summary: arXiv:2601.15423v1 Announce Type: new Abstract: We introduce Lattice, a hybrid sequential prediction system that conditionally activates learned behavioral structure using binary confidence gating. The system clusters behavior windows into behavioral archetypes and uses binary confidence gating to...
-
-### CASL: Concept-Aligned Sparse Latents for Interpreting Diffusion Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.15441
-- Summary: arXiv:2601.15441v1 Announce Type: new Abstract: Internal activations of diffusion models encode rich semantic information, but interpreting such representations remains challenging. While Sparse Autoencoders (SAEs) have shown promise in disentangling latent representations, existing SAE-based...
 
