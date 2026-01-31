@@ -6,6 +6,12 @@
 
 ## 2026-01-31
 
+### Some users are experiencing memory leaks in Claude Code 2.0.27
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rl6pphjrc2r4
+- Summary: Jan 31, 20:18 UTCIdentified - We have identified the problem and are working on a fix. More details can be found in Github issue #22042.
+
 ### eScan Antivirus Delivers Malware in Supply Chain Attack
 - Source: Security Week
 - Category: security
@@ -575,6 +581,12 @@
 - URL: https://tldr.takara.ai/p/2601.21722
 - Summary: Sustainability reports are critical for ESG assessment, yet greenwashing and vague claims often undermine their reliability. Existing NLP models lack robustness to these practices, typically relying on surface-level patterns that generalize poorly. We propose a parameter-efficient framework that...
 
+### Why Attention Patterns Exist: A Unifying Temporal Perspective Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21709
+- Summary: Attention patterns play a crucial role in both training and inference of large language models (LLMs). Prior works have identified individual patterns such as retrieval heads, sink heads, and diagonal traces, yet these observations remain fragmented and lack a unifying explanation. To bridge this...
+
 ### SolarWinds Patches Critical Web Help Desk Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -754,6 +766,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.21342
 - Summary: Multimodal Large Language Models (MLLMs) have recently achieved substantial progress in general-purpose perception and reasoning. Nevertheless, their deployment in Food-Service and Retail Stores (FSRS) scenarios encounters two major obstacles: (i) real-world FSRS data, collected from heterogeneous...
+
+### Heterogeneous Vertiport Selection Optimization for On-Demand Air Taxi Services: A Deep Reinforcement Learning Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21316
+- Summary: Urban Air Mobility (UAM) has emerged as a transformative solution to alleviate urban congestion by utilizing low-altitude airspace, thereby reducing pressure on ground transportation networks. To enable truly efficient and seamless door-to-door travel experiences, UAM requires close integration...
 
 ### Token Entropy Regularization for Multi-modal Antenna Affiliation Identification
 - Source: HF Daily Papers
@@ -1027,11 +1045,23 @@
 - URL: https://www.latent.space/p/science
 - Summary: Why the time is right to start the world's first dedicated AI for Science podcast, and why AI Engineers should care
 
+### "Unlimited Realm of Exploration and Experimentation": Methods and Motivations of AI-Generated Sexual Content Creators
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21028
+- Summary: AI-generated media is radically changing the way content is both consumed and produced on the internet, and in no place is this potentially more visible than in sexual content. AI-generated sexual content (AIG-SC) is increasingly enabled by an ecosystem of individual AI developers, specialized...
+
 ### Service is operating normally: [RESOLVED] Elevated latencies for network change propagation
 - Source: AWS Status
 - Category: incidents
 - URL: https://status.aws.amazon.com/
 - Summary: Between 7:08 AM and 10:48 AM PST, we experienced elevated latencies for network change propagation in the EU-WEST-1 Region. This was due to a delay in propagation of configuration updates on a sub-system which supports external and cross account connectivity. Customers experienced delays when...
+
+### Parametric Quantum State Tomography with HyperRBMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20950
+- Summary: Quantum state tomography (QST) is essential for validating quantum devices but suffers from exponential scaling in system size. Neural-network quantum states, such as Restricted Boltzmann Machines (RBMs), can efficiently parameterize individual many-body quantum states and have been successfully...
 
 ### Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware
 - Source: The Hacker News
@@ -2710,6 +2740,12 @@
 - URL: https://tldr.takara.ai/p/2601.18067
 - Summary: Verilog's design cycle is inherently labor-intensive and necessitates extensive domain expertise. Although Large Language Models (LLMs) offer a promising pathway toward automation, their limited training data and intrinsic sequential reasoning fail to capture the strict formal logic and concurrency...
 
+### How Much Temporal Modeling is Enough? A Systematic Study of Hybrid CNN-RNN Architectures for Multi-Label ECG Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18830
+- Summary: Accurate multi-label classification of electrocardiogram (ECG) signals remains challenging due to the coexistence of multiple cardiac conditions, pronounced class imbalance, and long-range temporal dependencies in multi-lead recordings. Although recent studies increasingly rely on deep and stacked...
+
 ### RIR-Mega-Speech: A Reverberant Speech Corpus with Comprehensive Acoustic Metadata and Reproducible Evaluation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2985,40 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/from-verbal-humor-to-youth-comedy-how-generational-change-is-reshaping-chinese-comedy-culture
 - Summary: What happens when a culture’s sense of humor evolves from collective parables to hyper-personal confessions? In China, the journey from the ceremonial xiaopin of the CCTV Gala to the game-based sketches of online competitions maps a profound social transformation. This is the story of how comedy...
-
-### America’s coming war over AI regulation
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/
-- Summary: MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. In the final weeks of 2025, the battle over regulating artificial intelligence in the US reached a boiling point. On December 11,...
-
-### Measles is surging in the US. Wastewater tracking could help.
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/
-- Summary: This week marked a rather unpleasant anniversary: It’s a year since Texas reported a case of measles—the start of a significant outbreak that ended up spreading across multiple states. Since the start of January 2025, there have been over 2,500 confirmed cases of measles in the US. Three people...
-
-### 2 Venezuelans Convicted in US for Using Malware to Hack ATMs
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/2-venezuelans-convicted-in-us-for-using-malware-to-hack-atms/
-- Summary: Dozens of Venezuelan nationals have been charged by the US for their role in ATM jackpotting attacks. The post 2 Venezuelans Convicted in US for Using Malware to Hack ATMs appeared first on SecurityWeek.
-
-### SWE-Pruner: Self-Adaptive Context Pruning for Coding Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.16746
-- Summary: LLM agents have demonstrated remarkable capabilities in software development, but their performance is hampered by long interaction contexts, which incur high API costs and latency. While various context compression approaches such as LongLLMLingua have emerged to tackle this challenge, they...
-
-### Microsoft Flags Multi-Stage AitM Phishing and BEC Attacks Targeting Energy Firms
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/microsoft-flags-multi-stage-aitm.html
-- Summary: Microsoft has warned of a multi‑stage adversary‑in‑the‑middle (AitM) phishing and business email compromise (BEC) campaign targeting multiple organizations in the energy sector. "The campaign abused SharePoint file‑sharing services to deliver phishing payloads and relied on inbox rule creation to...
-
-### LongCat-Flash-Thinking-2601 Technical Report
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.16725
-- Summary: We introduce LongCat-Flash-Thinking-2601, a 560-billion-parameter open-source Mixture-of-Experts (MoE) reasoning model with superior agentic reasoning capability. LongCat-Flash-Thinking-2601 achieves state-of-the-art performance among open-source models on a wide range of agentic benchmarks,...
 
