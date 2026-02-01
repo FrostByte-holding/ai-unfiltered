@@ -1031,6 +1031,12 @@
 - URL: https://tldr.takara.ai/p/2601.21217
 - Summary: We introduce a flexible empirical Bayes approach for fitting Bayesian generalized linear models. Specifically, we adopt a novel mean-field variational inference (VI) method and the prior is estimated within the VI algorithm, making the method tuning-free. Unlike traditional VI methods that optimize...
 
+### What You Feel Is Not What They See: On Predicting Self-Reported Emotion from Third-Party Observer Labels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21130
+- Summary: Self-reported emotion labels capture internal experience, while third-party labels reflect external perception. These perspectives often diverge, limiting the applicability of third-party-trained models to self-report contexts. This gap is critical in mental health, where accurate self-report...
+
 ### Introducing Daggr: Chain apps programmatically, inspect visually
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1104,6 +1110,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cyber-insights-2026-offensive-security-where-it-is-and-where-its-going/
 - Summary: Malicious attacks are increasing in frequency, sophistication and damage. Defenders need to find and harden system weaknesses before attackers can attack them. The post Cyber Insights 2026: Offensive Security; Where It Is and Where It&#8217;s Going appeared first on SecurityWeek.
+
+### Detecting and Mitigating Memorization in Diffusion Models through Anisotropy of the Log-Probability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20642
+- Summary: Diffusion-based image generative models produce high-fidelity images through iterative denoising but remain vulnerable to memorization, where they unintentionally reproduce exact copies or parts of training images. Recent memorization detection methods are primarily based on the norm of score...
 
 ### Mesh Security Raises $12 Million for CSMA Platform
 - Source: Security Week
@@ -2126,6 +2138,12 @@
 - URL: https://tldr.takara.ai/p/2601.19149
 - Summary: G protein-coupled receptors (GPCRs) govern diverse physiological processes and are central to modern pharmacology. Yet discovering GPCR modulators remains challenging because receptor activation often arises from complex allosteric effects rather than direct binding affinity, and conventional...
 
+### Smart Split-Federated Learning over Noisy Channels for Embryo Image Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18948
+- Summary: Split-Federated (SplitFed) learning is an extension of federated learning that places minimal requirements on the clients computing infrastructure, since only a small portion of the overall model is deployed on the clients hardware. In SplitFed learning, feature values, gradient updates, and model...
+
 ### Regression in windows runners for public repositories
 - Source: GitHub Status
 - Category: incidents
@@ -2794,6 +2812,12 @@
 - URL: https://www.githubstatus.com/incidents/g697qcy5dsks
 - Summary: Jan 25, 03:08 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 25, 03:08 UTCUpdate - The issue has been resolved. We will continue to monitor to...
 
+### A Systemic Evaluation of Multimodal RAG Privacy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17644
+- Summary: The growing adoption of multimodal Retrieval-Augmented Generation (mRAG) pipelines for vision-centric tasks (e.g. visual QA) introduces important privacy challenges. In particular, while mRAG provides a practical capability to connect private datasets to improve model performance, it risks the...
+
 
 ## 2026-01-24
 
@@ -2880,6 +2904,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw affecting Broadcom VMware vCenter Server that was patched in June 2024 to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The...
+
+### TEXTS-Diff: TEXTS-Aware Diffusion Model for Real-World Text Image Super-Resolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17340
+- Summary: Real-world text image super-resolution aims to restore overall visual quality and text legibility in images suffering from diverse degradations and text distortions. However, the scarcity of text image data in existing datasets results in poor performance on text regions. In addition, datasets...
 
 ### Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers
 - Source: HF Daily Papers
@@ -2991,34 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/organizations-warned-of-exploited-zimbra-collaboration-vulnerability/
 - Summary: CISA has added the Zimbra flaw to the KEV catalog along with three other bugs exploited in the wild. The post Organizations Warned of Exploited Zimbra Collaboration Vulnerability appeared first on SecurityWeek.
-
-### Infotainment, EV Charger Exploits Earn Hackers $1M at Pwn2Own Automotive 2026
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/infotainment-ev-charger-exploits-earn-hackers-1m-at-pwn2own-automotive-2026/
-- Summary: Pwn2Own participants disclosed a total of 76 vulnerabilities during the three-day event. The post Infotainment, EV Charger Exploits Earn Hackers $1M at Pwn2Own Automotive 2026 appeared first on SecurityWeek.
-
-### TikTok Forms U.S. Joint Venture to Continue Operations Under 2025 Executive Order
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/tiktok-forms-us-joint-venture-to.html
-- Summary: TikTok on Friday officially announced that it formed a joint venture that will allow the hugely popular video-sharing application to continue operating in the U.S. The new venture, named TikTok USDS Joint Venture LLC, has been established in compliance with the Executive Order signed by U.S....
-
-### Phishing Attack Uses Stolen Credentials to Install LogMeIn RMM for Persistent Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html
-- Summary: Cybersecurity researchers have disclosed details of a new dual-vector campaign that leverages stolen credentials to deploy legitimate Remote Monitoring and Management (RMM) software for persistent remote access to compromised hosts. "Instead of deploying custom viruses, attackers are bypassing...
-
-### Fresh SmarterMail Flaw Exploited for Admin Access
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fresh-smartermail-flaw-exploited-for-admin-access/
-- Summary: The exploitation of the authentication bypass vulnerability started two days after patches were released. The post Fresh SmarterMail Flaw Exploited for Admin Access appeared first on SecurityWeek.
-
-### From Verbal Humor to Youth Comedy: How Generational Change Is Reshaping Chinese Comedy Culture
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/from-verbal-humor-to-youth-comedy-how-generational-change-is-reshaping-chinese-comedy-culture
-- Summary: What happens when a culture’s sense of humor evolves from collective parables to hyper-personal confessions? In China, the journey from the ceremonial xiaopin of the CCTV Gala to the game-based sketches of online competitions maps a profound social transformation. This is the story of how comedy...
 
