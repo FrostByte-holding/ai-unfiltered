@@ -698,6 +698,12 @@
 - URL: https://www.securityweek.com/google-disrupts-ipidea-proxy-network/
 - Summary: One of the largest residential proxy networks, IPIDEA enrolled devices through SDKs for mobile and desktop. The post Google Disrupts IPIDEA Proxy Network appeared first on SecurityWeek.
 
+### Meta Context Engineering via Agentic Skill Evolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21557
+- Summary: The operational efficacy of large language models relies heavily on their inference-time context. This has established Context Engineering (CE) as a formal discipline for optimizing these inputs. Current CE methods rely on manually crafted harnesses, such as rigid generation-reflection workflows...
+
 ### ShardMemo: Masked MoE Routing for Sharded Agentic LLM Memory
 - Source: HF Daily Papers
 - Category: open-source
@@ -1108,11 +1114,23 @@
 
 ## 2026-01-28
 
+### Magellan: Autonomous Discovery of Novel Compiler Optimization Heuristics with AlphaEvolve
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21096
+- Summary: Modern compilers rely on hand-crafted heuristics to guide optimization passes. These human-designed rules often struggle to adapt to the complexity of modern software and hardware and lead to high maintenance burden. To address this challenge, we present Magellan, an agentic framework that evolves...
+
 ### It's Time to Science
 - Source: Latent Space
 - Category: open-source
 - URL: https://www.latent.space/p/science
 - Summary: Why the time is right to start the world's first dedicated AI for Science podcast, and why AI Engineers should care
+
+### Signal from Structure: Exploiting Submodular Upper Bounds in Generative Flow Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21061
+- Summary: Generative Flow Networks (GFlowNets; GFNs) are a class of generative models that learn to sample compositional objects proportionally to their a priori unknown value, their reward. We focus on the case where the reward has a specified, actionable structure, namely that it is submodular. We show...
 
 ### "Unlimited Realm of Exploration and Experimentation": Methods and Motivations of AI-Generated Sexual Content Creators
 - Source: HF Daily Papers
@@ -2833,6 +2851,12 @@
 - URL: https://tldr.takara.ai/p/2601.18116
 - Summary: The rapid expansion of long-context Large Language Models (LLMs) has reignited debate on whether Retrieval-Augmented Generation (RAG) remains necessary. However, empirical evidence reveals persistent limitations of long-context inference, including the lost-in-the-middle phenomenon, high...
 
+### CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18026
+- Summary: Language identification (LID) is a fundamental step in curating multilingual corpora. However, LID models still perform poorly for many languages, especially on the noisy and heterogeneous web data often used to train multilingual language models. In this paper, we introduce CommonLID, a...
+
 ### DRPG (Decompose, Retrieve, Plan, Generate): An Agentic Framework for Academic Rebuttal
 - Source: HF Daily Papers
 - Category: open-source
@@ -2997,31 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.17340
 - Summary: Real-world text image super-resolution aims to restore overall visual quality and text legibility in images suffering from diverse degradations and text distortions. However, the scarcity of text image data in existing datasets results in poor performance on text regions. In addition, datasets...
-
-### Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17367
-- Summary: The quadratic complexity of standard attention mechanisms poses a significant scalability bottleneck for large language models (LLMs) in long-context scenarios. While hybrid attention strategies that combine sparse and full attention within a single model offer a viable solution, they typically...
-
-### SkyReels-V3 Technique Report
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17323
-- Summary: Video generation serves as a cornerstone for building world models, where multimodal contextual inference stands as the defining test of capability. In this end, we present SkyReels-V3, a conditional video generation model, built upon a unified multimodal in-context learning framework with...
-
-
-## 2026-01-23
-
-### PingPong: A Natural Benchmark for Multi-Turn Code-Switching Dialogues
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17277
-- Summary: Code-switching is a widespread practice among the world's multilingual majority, yet few benchmarks accurately reflect its complexity in everyday communication. We present PingPong, a benchmark for natural multi-party code-switching dialogues covering five language-combination variations, some of...
-
-### C-RADIOv4 (Tech Report)
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17237
-- Summary: By leveraging multi-teacher distillation, agglomerative vision backbones provide a unified student model that retains and improves the distinct capabilities of multiple teachers. In this tech report, we describe the most recent release of the C-RADIO family of models, C-RADIOv4, which builds upon...
 
