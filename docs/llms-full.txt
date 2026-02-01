@@ -554,6 +554,12 @@
 - URL: https://tldr.takara.ai/p/2601.21915
 - Summary: Large multimodal models (LMMs) have demonstrated outstanding capabilities in various visual perception tasks, which has in turn made the evaluation of LMMs significant. However, the capability of video aesthetic quality assessment, which is a fundamental ability for human, remains underexplored for...
 
+### From Meta-Thought to Execution: Cognitively Aligned Post-Training for Generalizable and Reliable LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21909
+- Summary: Current LLM post-training methods optimize complete reasoning trajectories through Supervised Fine-Tuning (SFT) followed by outcome-based Reinforcement Learning (RL). While effective, a closer examination reveals a fundamental gap: this approach does not align with how humans actually solve...
+
 ### A Low-Complexity Plug-and-Play Deep Learning Model for Generalizable Massive MIMO Precoding
 - Source: HF Daily Papers
 - Category: open-source
@@ -1137,6 +1143,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.21028
 - Summary: AI-generated media is radically changing the way content is both consumed and produced on the internet, and in no place is this potentially more visible than in sexual content. AI-generated sexual content (AIG-SC) is increasingly enabled by an ecosystem of individual AI developers, specialized...
+
+### Low performing pixel correction in computed tomography with unrolled network and synthetic data training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20995
+- Summary: Low performance pixels (LPP) in Computed Tomography (CT) detectors would lead to ring and streak artifacts in the reconstructed images, making them clinically unusable. In recent years, several solutions have been proposed to correct LPP artifacts, either in the image domain or in the sinogram...
 
 ### Service is operating normally: [RESOLVED] Elevated latencies for network change propagation
 - Source: AWS Status
@@ -2428,6 +2440,12 @@
 - URL: https://tldr.takara.ai/p/2601.18577
 - Summary: Modern video generators still struggle with complex physical dynamics, often falling short of physical realism. Existing approaches address this using external verifiers or additional training on augmented data, which is computationally expensive and still limited in capturing fine-grained motion....
 
+### Calibrating Beyond English: Language Diversity for Better Quantized Multilingual LLM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18306
+- Summary: Quantization is an effective technique for reducing the storage footprint and computational costs of Large Language Models (LLMs), but it often results in performance degradation. Existing post-training quantization methods typically use small, English-only calibration sets; however, their impact...
+
 ### Russian Sandworm Hackers Blamed for Cyberattack on Polish Power Grid
 - Source: Security Week
 - Category: security
@@ -2974,6 +2992,18 @@
 - URL: https://tldr.takara.ai/p/2601.17617
 - Summary: LLM-powered search agents are increasingly being used for multi-step information seeking tasks, yet the IR community lacks empirical understanding of how agentic search sessions unfold and how retrieved evidence is used. This paper presents a large-scale log analysis of agentic search based on...
 
+### PEARL: Prototype-Enhanced Alignment for Label-Efficient Representation Learning with Deployment-Driven Insights from Digital Governance Communication Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17495
+- Summary: In many deployed systems, new text inputs are handled by retrieving similar past cases, for example when routing and responding to citizen messages in digital governance platforms. When these systems fail, the problem is often not the language model itself, but that the nearest neighbors in the...
+
+### Clustering-driven Memory Compression for On-device Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.17443
+- Summary: Large language models (LLMs) often rely on user-specific memories distilled from past interactions to enable personalized generation. A common practice is to concatenate these memories with the input prompt, but this approach quickly exhausts the limited context available in on-device LLMs....
+
 ### NCSAM Noise-Compensated Sharpness-Aware Minimization for Noisy Label Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2991,34 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/baidu-unveils-ernie-5-0-with-2-4-trillion-parameters-ushering-in-a-new-era-of-multimodal-ai
 - Summary: Baidu’s ERNIE 5.0 sets a new benchmark for multimodal AI with its massive scale, unified architecture, and efficiency-focused design.
-
-### Nike Probing Potential Security Incident as Hackers Threaten to Leak Data
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/nike-probing-potential-security-incident-as-hackers-threaten-to-leak-data/
-- Summary: The WorldLeaks cybercrime group claims to have stolen information from the footwear and apparel giant’s systems. The post Nike Probing Potential Security Incident as Hackers Threaten to Leak Data appeared first on SecurityWeek.
-
-### New DynoWiper Malware Used in Attempted Sandworm Attack on Polish Power Sector
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/new-dynowiper-malware-used-in-attempted.html
-- Summary: The Russian nation-state hacking group known as Sandworm has been attributed to what has been described as the "largest cyber attack" targeting Poland's power system in the last week of December 2025. The attack was unsuccessful, the country's energy minister, Milosz Motyka, said last week. "The...
-
-### Who Approved This Agent? Rethinking Access, Accountability, and Risk in the Age of AI Agents
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/who-approved-this-agent-rethinking.html
-- Summary: AI agents are accelerating how work gets done. They schedule meetings, access data, trigger workflows, write code, and take action in real time, pushing productivity beyond human speed across the enterprise. Then comes the moment every security team eventually hits: &ldquo;Wait&hellip; who approved...
-
-### CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw affecting Broadcom VMware vCenter Server that was patched in June 2024 to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The...
-
-### TEXTS-Diff: TEXTS-Aware Diffusion Model for Real-World Text Image Super-Resolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17340
-- Summary: Real-world text image super-resolution aims to restore overall visual quality and text legibility in images suffering from diverse degradations and text distortions. However, the scarcity of text image data in existing datasets results in poor performance on text regions. In addition, datasets...
 
