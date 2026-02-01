@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 01 Feb 2026 08:36:19 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 01 Feb 2026 12:55:47 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Elevated errors on Claude Sonnet 4.5</title>
+            <link>https://status.claude.com/incidents/9qghqkbxtvml</link>
+            <guid>https://status.claude.com/incidents/9qghqkbxtvml</guid>
+            <pubDate>Sun, 01 Feb 2026 12:34:49 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/9qghqkbxtvml">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 1, 12:34 UTCResolved - As of 2026-02-01 03:55 PT / 11:55 UTC the errors are back to the baseline.Feb 1, 11:48 UTCUpdate - Start of errors 2026-02-01 03:36 PT / 11:36 UTC.Feb 1, 11:47 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>Elevated errors on Claude Opus 4.5</title>
+            <link>https://status.claude.com/incidents/y74v1yzcnzvb</link>
+            <guid>https://status.claude.com/incidents/y74v1yzcnzvb</guid>
+            <pubDate>Sun, 01 Feb 2026 11:42:07 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/y74v1yzcnzvb">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 1, 11:42 UTCResolved - The errors have returned to baseline as of 2026-02-01 02:51 / 10:51 UTC.Feb 1, 10:54 UTCUpdate - We are continuing to investigate this issue.Feb 1, 10:54 UTCInvestigating - We are investigating an issue with Opus 4.5 that started at 2026-02-01 02:41 PT / 10:41 UTC.</description>
+        </item>
         <item>
             <title>Some users are experiencing memory leaks in Claude Code 2.0.27</title>
             <link>https://status.claude.com/incidents/rl6pphjrc2r4</link>
@@ -439,24 +457,6 @@
             <source url="https://tldr.takara.ai/p/2601.22107">HF Daily Papers</source>
             <category>open-source</category>
             <description>We introduce Prior-Informed Flow Matching (PIFM), a conditional flow model for graph reconstruction. Reconstructing graphs from partial observations remains a key challenge; classical embedding methods often lack global consistency, while modern generative models struggle to incorporate structural...</description>
-        </item>
-        <item>
-            <title>Investigating Associational Biases in Inter-Model Communication of Large Generative Models</title>
-            <link>https://tldr.takara.ai/p/2601.22093</link>
-            <guid>https://tldr.takara.ai/p/2601.22093</guid>
-            <pubDate>Thu, 29 Jan 2026 18:29:55 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2601.22093">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Social bias in generative AI can manifest not only as performance disparities but also as associational bias, whereby models learn and reproduce stereotypical associations between concepts and demographic groups, even in the absence of explicit demographic information (e.g., associating doctors...</description>
-        </item>
-        <item>
-            <title>Unsupervised Decomposition and Recombination with Discriminator-Driven Diffusion Models</title>
-            <link>https://tldr.takara.ai/p/2601.22057</link>
-            <guid>https://tldr.takara.ai/p/2601.22057</guid>
-            <pubDate>Thu, 29 Jan 2026 17:57:06 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2601.22057">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Decomposing complex data into factorized representations can reveal reusable components and enable synthesizing new samples via component recombination. We investigate this in the context of diffusion-based models that learn factorized latent spaces without factor-level supervision. In images,...</description>
         </item>
     </channel>
 </rss>

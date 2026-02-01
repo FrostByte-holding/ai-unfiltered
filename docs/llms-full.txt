@@ -4,6 +4,21 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-01
+
+### Elevated errors on Claude Sonnet 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/9qghqkbxtvml
+- Summary: Feb 1, 12:34 UTCResolved - As of 2026-02-01 03:55 PT / 11:55 UTC the errors are back to the baseline.Feb 1, 11:48 UTCUpdate - Start of errors 2026-02-01 03:36 PT / 11:36 UTC.Feb 1, 11:47 UTCInvestigating - We are currently investigating this issue.
+
+### Elevated errors on Claude Opus 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/y74v1yzcnzvb
+- Summary: Feb 1, 11:42 UTCResolved - The errors have returned to baseline as of 2026-02-01 02:51 / 10:51 UTC.Feb 1, 10:54 UTCUpdate - We are continuing to investigate this issue.Feb 1, 10:54 UTCInvestigating - We are investigating an issue with Opus 4.5 that started at 2026-02-01 02:41 PT / 10:41 UTC.
+
+
 ## 2026-01-31
 
 ### Some users are experiencing memory leaks in Claude Code 2.0.27
@@ -515,6 +530,12 @@
 - URL: https://tldr.takara.ai/p/2601.21983
 - Summary: Bayesian inference allows us to define a posterior distribution over the weights of a generic neural network (NN). Exact posteriors are usually intractable, in which case approximations can be employed. One such approximation - variational inference - is computationally efficient when using...
 
+### VERSA: Verified Event Data Format for Reliable Soccer Analytics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21981
+- Summary: Event stream data is a critical resource for fine-grained analysis across various domains, including financial transactions, system operations, and sports. In sports, it is actively used for fine-grained analyses such as quantifying player contributions and identifying tactical patterns. However,...
+
 ### Investigation into using stochastic embedding representations for evaluating the trustworthiness of the Fréchet Inception Distance
 - Source: HF Daily Papers
 - Category: open-source
@@ -676,6 +697,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-disrupts-ipidea-proxy-network/
 - Summary: One of the largest residential proxy networks, IPIDEA enrolled devices through SDKs for mobile and desktop. The post Google Disrupts IPIDEA Proxy Network appeared first on SecurityWeek.
+
+### ShardMemo: Masked MoE Routing for Sharded Agentic LLM Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21545
+- Summary: Agentic large language model (LLM) systems rely on external memory for long-horizon state and concurrent multi-agent execution, but centralized indexes and heuristic partitions become bottlenecks as memory volume and parallel access grow. We present ShardMemo, a budgeted tiered memory service with...
 
 ### How the grid can ride out winter storms
 - Source: MIT Tech Review AI
@@ -1060,6 +1087,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.21210
 - Summary: Large language models (LLMs) are increasingly being applied to tasks that involve causal reasoning. However, current benchmarks often rely on string matching or surface-level metrics that do not capture whether the output of a model is formally valid under the semantics of causal reasoning. To...
+
+### Generative Recall, Dense Reranking: Learning Multi-View Semantic IDs for Efficient Text-to-Video Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21193
+- Summary: Text-to-Video Retrieval (TVR) is essential in video platforms. Dense retrieval with dual-modality encoders leads in accuracy, but its computation and storage scale poorly with corpus size. Thus, real-time large-scale applications adopt two-stage retrieval, where a fast recall model gathers a small...
 
 ### What You Feel Is Not What They See: On Predicting Self-Reported Emotion from Third-Party Observer Labels
 - Source: HF Daily Papers
@@ -2174,6 +2207,12 @@
 - URL: https://tldr.takara.ai/p/2601.19194
 - Summary: Speaker-attributed automatic speech recognition (ASR) in multi-speaker environments remains a major challenge. While some approaches achieve strong performance when fine-tuned on specific domains, few systems generalize well across out-of-domain datasets. Our prior work, Diarization-Conditioned...
 
+### Accelerated training of Gaussian processes using banded square exponential covariances
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.19007
+- Summary: We propose a novel approach to computationally efficient GP training based on the observation that square-exponential (SE) covariance matrices contain several off-diagonal entries extremely close to zero. We construct a principled procedure to eliminate those entries to produce a...
+
 ### GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery
 - Source: HF Daily Papers
 - Category: open-source
@@ -2197,6 +2236,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/01/26/1131728/inside-openais-big-play-for-science/
 - Summary: In the three years since ChatGPT’s explosive debut, OpenAI’s technology has upended a remarkable range of everyday activities at home, at work, in schools—anywhere people have a browser open or a phone out, which is everywhere. Now OpenAI is making an explicit play for scientists. In October, the...
+
+### Analyzing Images of Blood Cells with Quantum Machine Learning Methods: Equilibrium Propagation and Variational Quantum Circuits to Detect Acute Myeloid Leukemia
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.18710
+- Summary: This paper presents a feasibility study demonstrating that quantum machine learning (QML) algorithms achieve competitive performance on real-world medical imaging despite operating under severe constraints. We evaluate Equilibrium Propagation (EP), an energy-based learning method that does not use...
 
 ### Why chatbots are starting to check your age
 - Source: MIT Tech Review AI
@@ -2979,46 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.17237
 - Summary: By leveraging multi-teacher distillation, agglomerative vision backbones provide a unified student model that retains and improves the distinct capabilities of multiple teachers. In this tech report, we describe the most recent release of the C-RADIO family of models, C-RADIOv4, which builds upon...
-
-### Scaling without Slop
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/2026
-- Summary: We've been quiet &#8212; announcing our 2026 plans! The State of Latent Space is here.
-
-### CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2025-68645 (CVSS score: 8.8) - A PHP...
-
-### iFSQ: Improving FSQ for Image Generation with 1 Line of Code
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17124
-- Summary: The field of image generation is currently bifurcated into autoregressive (AR) models operating on discrete tokens and diffusion models utilizing continuous latents. This divide, rooted in the distinction between VQ-VAEs and VAEs, hinders unified modeling and fair benchmarking. Finite Scalar...
-
-### Fortinet Confirms FortiCloud SSO Exploitation Against Patched Devices
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fortinet-confirms-forticloud-sso-exploitation-against-patched-devices/
-- Summary: Similar to recent FortiCloud single sign-on (SSO) login vulnerabilities, the attacks bypass authentication. The post Fortinet Confirms FortiCloud SSO Exploitation Against Patched Devices appeared first on SecurityWeek.
-
-### In Other News: €1.2B GDPR Fines, Net-NTLMv1 Rainbow Tables, Rockwell Security Notice
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-e1-2b-gdpr-fines-net-ntlmv1-rainbow-tables-rockwell-security-notice/
-- Summary: Other noteworthy stories that might have slipped under the radar: Cloudflare WAF bypass, Canonical Snap Store abused for malware delivery, Curl terminating bug bounty program The post In Other News: €1.2B GDPR Fines, Net-NTLMv1 Rainbow Tables, Rockwell Security Notice appeared first on SecurityWeek.
-
-### VisGym: Diverse, Customizable, Scalable Environments for Multimodal Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.16973
-- Summary: Modern Vision-Language Models (VLMs) remain poorly characterized in multi-step visual interactions, particularly in how they integrate perception, memory, and action over long horizons. We introduce VisGym, a gymnasium of 17 environments for evaluating and training VLMs. The suite spans symbolic...
-
-### A Step to Decouple Optimization in 3DGS
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.16736
-- Summary: 3D Gaussian Splatting (3DGS) has emerged as a powerful technique for real-time novel view synthesis. As an explicit representation optimized through gradient propagation among primitives, optimization widely accepted in deep neural networks (DNNs) is actually adopted in 3DGS, such as synchronous...
 
