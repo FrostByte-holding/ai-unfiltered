@@ -4,6 +4,27 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-02
+
+### Li Auto Responds to R&D Restructuring Reports
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/li-auto-responds-to-r-and-d-restructuring-reports
+- Summary: Li Auto has confirmed a major R&amp;D restructuring that splits its development system into foundation model, software, and hardware teams, signaling an accelerated push into embodied intelligence and humanoid robotics.
+
+### From Goose Goose Duck to AI Social: KINGAME Bets on Cross-Sector Growth
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/from-goose-goose-duck-to-ai-social-kingame-bets-on-cross-sector-growth
+- Summary: KINGAME is betting on AI social apps like LoveyDovey—alongside viral hits such as Goose Goose Duck—to redefine its growth trajectory amid intensifying competition in China’s gaming market.
+
+### Credit purchase issues & delays
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/qtmzycrwksws
+- Summary: Feb 2, 02:08 UTCResolved - The incident has been resolvedFeb 1, 23:47 UTCMonitoring - Purchasing has been confirmed working regularly again, since around 2:30pm Pacific Time. Engineers are monitoring to ensure the system stays healthy.Feb 1, 23:08 UTCIdentified - The root cause has been discovered...
+
+
 ## 2026-02-01
 
 ### Elevated errors on Claude Sonnet 4.5
@@ -1088,6 +1109,12 @@
 - URL: https://pandaily.com/kunlun-tian-gong-unveils-mureka-v8-music-model-claims-global-no-1-and-connects-ai-music-to-commercial-distribution
 - Summary: Kunlun TianGong's latest AI music model, Mureka V8, claims to surpass top competitor Suno V5 and aims to transform music creation into an accessible form of expression, backed by new partnerships with industry veterans for commercial distribution.
 
+### Causal Discovery for Explainable AI: A Dual-Encoding Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21221
+- Summary: Understanding causal relationships among features is fundamental for explaining machine learning model decisions. However, traditional causal discovery methods face challenges with categorical variables due to numerical instability in conditional independence testing. We propose a dual-encoding...
+
 ### A Flexible Empirical Bayes Approach to Generalized Linear Models, with Applications to Sparse Logistic Regression
 - Source: HF Daily Papers
 - Category: open-source
@@ -1105,6 +1132,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.21193
 - Summary: Text-to-Video Retrieval (TVR) is essential in video platforms. Dense retrieval with dual-modality encoders leads in accuracy, but its computation and storage scale poorly with corpus size. Thus, real-time large-scale applications adopt two-stage retrieval, where a fast recall model gathers a small...
+
+### Maxwait: A Generalized Mechanism for Distributed Time-Sensitive Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.21146
+- Summary: Distributed time-sensitive systems must balance timing requirements (availability) and consistency in the presence of communication delays and synchronization uncertainty. This paper presents maxwait, a simple coordination mechanism with surprising generality that makes these tradeoffs explicit and...
 
 ### What You Feel Is Not What They See: On Predicting Self-Reported Emotion from Third-Party Observer Labels
 - Source: HF Daily Papers
@@ -1251,6 +1284,12 @@
 - Category: security
 - URL: https://www.securityweek.com/why-we-cant-let-ai-take-the-wheel-of-cyber-defense/
 - Summary: The fastest way to squander the promise of AI is to mistake automation for assurance, and novelty for resilience. The post Why We Can&#8217;t Let AI Take the Wheel of Cyber Defense appeared first on SecurityWeek.
+
+### CoBA: Integrated Deep Learning Model for Reliable Low-Altitude UAV Classification in mmWave Radio Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2601.20605
+- Summary: Uncrewed Aerial Vehicles (UAVs) are increasingly used in civilian and industrial applications, making secure low-altitude operations crucial. In dense mmWave environments, accurately classifying low-altitude UAVs as either inside authorized or restricted airspaces remains challenging, requiring...
 
 ### Linear representations in language models can change dramatically over a conversation
 - Source: HF Daily Papers
@@ -2985,40 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.17564
 - Summary: The Abstraction and Reasoning Corpus (ARC) tests AI systems' ability to perform human-like inductive reasoning from a few demonstration pairs. Existing Gymnasium-based RL environments severely limit experimental scale due to computational bottlenecks. We present JaxARC, an open-source,...
-
-### Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17617
-- Summary: LLM-powered search agents are increasingly being used for multi-step information seeking tasks, yet the IR community lacks empirical understanding of how agentic search sessions unfold and how retrieved evidence is used. This paper presents a large-scale log analysis of agentic search based on...
-
-### PEARL: Prototype-Enhanced Alignment for Label-Efficient Representation Learning with Deployment-Driven Insights from Digital Governance Communication Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17495
-- Summary: In many deployed systems, new text inputs are handled by retrieving similar past cases, for example when routing and responding to citizen messages in digital governance platforms. When these systems fail, the problem is often not the language model itself, but that the nearest neighbors in the...
-
-### Clustering-driven Memory Compression for On-device Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.17443
-- Summary: Large language models (LLMs) often rely on user-specific memories distilled from past interactions to enable personalized generation. A common practice is to concatenate these memories with the input prompt, but this approach quickly exhausts the limited context available in on-device LLMs....
-
-### NCSAM Noise-Compensated Sharpness-Aware Minimization for Noisy Label Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.19947
-- Summary: Learning from Noisy Labels (LNL) presents a fundamental challenge in deep learning, as real-world datasets often contain erroneous or corrupted annotations, \textit{e.g.}, data crawled from Web. Current research focuses on sophisticated label correction mechanisms. In contrast, this paper adopts a...
-
-### Multi-Stage Phishing Campaign Targets Russia with Amnesia RAT and Ransomware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/multi-stage-phishing-campaign-targets.html
-- Summary: A new multi-stage phishing campaign has been observed targeting users in Russia with ransomware and a remote access trojan called Amnesia RAT. "The attack begins with social engineering lures delivered via business-themed documents crafted to appear routine and benign," Fortinet FortiGuard Labs...
-
-### Baidu Unveils ERNIE 5.0 with 2.4 Trillion Parameters, Ushering in a New Era of Multimodal AI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/baidu-unveils-ernie-5-0-with-2-4-trillion-parameters-ushering-in-a-new-era-of-multimodal-ai
-- Summary: Baidu’s ERNIE 5.0 sets a new benchmark for multimodal AI with its massive scale, unified architecture, and efficiency-focused design.
 
