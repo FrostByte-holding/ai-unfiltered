@@ -6,6 +6,35 @@
 
 ## 2026-02-03
 
+### Elevated error rates for ChatGPT users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106
+- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components File uploads (Degraded performance) Voice mode (Degraded performance) Conversations (Degraded performance) Compliance API...
+
+### Elevated error rate establishing new connections to Claude.ai connectors
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/54rr0gbh596p
+- Summary: Feb 3, 20:26 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 3, 18:42 UTCInvestigating - We are currently investigating this issue.
+
+### SSO and magic link sign-in degraded on Claude Desktop
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4z202w15zst2
+- Summary: Feb 3, 20:05 UTCInvestigating - We are currently investigating this issue.
+
+### Elevated error rate on API across all Claude models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/d8v3zr02my00
+- Summary: Feb 3, 18:03 UTCResolved - This is a repeat of the earlier incident today. The incident started at 9:52 PT / 17:52 UTC and ended at 9:56 PT / 17:56 UTC. The percentage of requests impacted was also smaller.Feb 3, 18:00 UTCInvestigating - We are currently investigating this issue.
+
+### H Company's new Holo2 model takes the lead in UI Localization
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b
+
 ### Delays in UI updates for Actions Runs
 - Source: GitHub Status
 - Category: incidents
@@ -295,11 +324,23 @@
 - URL: https://tldr.takara.ai/p/2602.02488
 - Summary: We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with...
 
+### Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02477
+- Summary: Large language models (LLMs) have demonstrated strong reasoning capabilities through step-by-step chain-of-thought (CoT) reasoning. Nevertheless, at the limits of model capability, CoT often proves insufficient, and its strictly sequential nature constrains test-time scalability. A potential...
+
 ### Thinking with Comics: Enhancing Multimodal Reasoning through Structured Visual Storytelling
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.02453
 - Summary: Chain-of-Thought reasoning has driven large language models to extend from thinking with text to thinking with images and videos. However, different modalities still have clear limitations: static images struggle to represent temporal structure, while videos introduce substantial redundancy and...
+
+### SelvaMask: Segmenting Trees in Tropical Forests and Beyond
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02426
+- Summary: Tropical forests harbor most of the planet's tree biodiversity and are critical to global ecological balance. Canopy trees in particular play a disproportionate role in carbon storage and functioning of these ecosystems. Studying canopy trees at scale requires accurate delineation of individual...
 
 ### What we’ve been getting wrong about AI’s truth crisis
 - Source: MIT Tech Review AI
@@ -336,6 +377,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html
 - Summary: A high-severity security flaw has been disclosed in OpenClaw (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link. The issue, which is tracked as CVE-2026-25253 (CVSS score: 8.8), has been addressed in version 2026.1.29...
+
+### DFKI-Speech System for WildSpoof Challenge: A robust framework for SASV In-the-Wild
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02286
+- Summary: This paper presents the DFKI-Speech system developed for the WildSpoof Challenge under the Spoofing aware Automatic Speaker Verification (SASV) track. We propose a robust SASV framework in which a spoofing detector and a speaker verification (SV) network operate in tandem. The spoofing detector...
 
 ### Cloud Security Posture Management: silver bullet or another piece in the cloud puzzle?
 - Source: NCSC UK
@@ -480,6 +527,12 @@
 - Category: security
 - URL: https://www.securityweek.com/notepad-supply-chain-hack-conducted-by-china-via-hosting-provider/
 - Summary: The likely state-sponsored threat actor had access to the hosting provider for months and targeted only certain Notepad++ customers. The post Notepad++ Supply Chain Hack Conducted by China via Hosting Provider appeared first on SecurityWeek.
+
+### CloDS: Visual-Only Unsupervised Cloth Dynamics Learning in Unknown Conditions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01844
+- Summary: Deep learning has demonstrated remarkable capabilities in simulating complex dynamic systems. However, existing methods require known physical properties as supervision or inputs, limiting their applicability under unknown conditions. To explore this challenge, we introduce Cloth Dynamics Grounding...
 
 ### Notepad++ Official Update Mechanism Hijacked to Deliver Malware to Select Users
 - Source: The Hacker News
@@ -756,6 +809,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/former-alibaba-executives-join-robot-leasing-platform-bot-share-as-president-and-cso
 - Summary: Robot leasing platform BotShare has appointed two former Alibaba executives to lead nationwide channel expansion as it scales an operations-heavy robotics rental business following its seed funding round.
+
+### InfoTok: Regulating Information Flow for Capacity-Constrained Shared Visual Tokenization in Unified MLLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01554
+- Summary: Unified multimodal large language models (MLLMs) integrate image understanding and generation in a single framework, with the visual tokenizer acting as the sole interface that maps visual inputs into tokens for downstream tasks. However, existing shared-token designs are mostly architecture-driven...
 
 ### Kimi’s Overseas Revenue Surpasses Domestic, Aiming to Become “Anthropic + Manus”
 - Source: Pandaily
@@ -2958,64 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.16531
 - Summary: arXiv:2601.16531v2 Announce Type: new Abstract: We investigate whether high-frequency key collisions are a primary bottleneck in Engram-style conditional memory. To isolate the effect of collisions, we introduce Engram-Nine, a collision-free hot-tier extension that maps the most frequent n-grams...
-
-### Understanding and Improving UMAP with Geometric and Topological Priors: The JORC-UMAP Algorithm
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16552
-- Summary: arXiv:2601.16552v1 Announce Type: new Abstract: Nonlinear dimensionality reduction techniques, particularly UMAP, are widely used for visualizing high-dimensional data. However, UMAP's local Euclidean distance assumption often fails to capture intrinsic manifold geometry, leading to topological...
-
-### Dynamic Role Assignment for Multi-Agent Debate
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17152
-- Summary: arXiv:2601.17152v1 Announce Type: new Abstract: Multi-agent large language model (LLM) and vision-language model (VLM) debate systems employ specialized roles for complex problem-solving, yet model specializations are not leveraged to decide which model should fill which role. We propose dynamic...
-
-### Interpretability of the Intent Detection Problem: A New Approach
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17156
-- Summary: arXiv:2601.17156v1 Announce Type: new Abstract: Intent detection, a fundamental text classification task, aims to identify and label the semantics of user queries, playing a vital role in numerous business applications. Despite the dominance of deep learning techniques in this field, the internal...
-
-### Who Gets Which Message? Auditing Demographic Bias in LLM-Generated Targeted Text
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17172
-- Summary: arXiv:2601.17172v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly capable of generating personalized, persuasive text at scale, raising new questions about bias and fairness in automated communication. This paper presents the first systematic analysis of how LLMs behave...
-
-### Beyond Factual QA: Mentorship-Oriented Question Answering over Long-Form Multilingual Content
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17173
-- Summary: arXiv:2601.17173v1 Announce Type: new Abstract: Question answering systems are typically evaluated on factual correctness, yet many real-world applications-such as education and career guidance-require mentorship: responses that provide reflection and guidance. Existing QA benchmarks rarely capture...
-
-### Systematicity between Forms and Meanings across Languages Supports Efficient Communication
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17181
-- Summary: arXiv:2601.17181v1 Announce Type: new Abstract: Languages vary widely in how meanings map to word forms. These mappings have been found to support efficient communication; however, this theory does not account for systematic relations within word forms. We examine how a restricted set of...
-
-### A Syllogistic Probe: Tracing the Evolution of Logic Reasoning in Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17426
-- Summary: arXiv:2601.17426v1 Announce Type: new Abstract: Human logic has gradually shifted from intuition-driven inference to rigorous formal systems. Motivated by recent advances in large language models (LLMs), we explore whether LLMs exhibit a similar evolution in the underlying logical framework. Using...
-
-### Lattice: Generative Guardrails for Conversational Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17481
-- Summary: arXiv:2601.17481v1 Announce Type: new Abstract: Conversational AI systems require guardrails to prevent harmful outputs, yet existing approaches use static rules that cannot adapt to new threats or deployment contexts. We introduce Lattice, a framework for self-constructing and continuously...
-
-### Cognitive Platform Engineering for Autonomous Cloud Operations
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17542
-- Summary: arXiv:2601.17542v1 Announce Type: new Abstract: Modern DevOps practices have accelerated software delivery through automation, CI/CD pipelines, and observability tooling,but these approaches struggle to keep pace with the scale and dynamism of cloud-native systems. As telemetry volume grows and...
-
-### JaxARC: A High-Performance JAX-based Environment for Abstraction and Reasoning Research
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17564
-- Summary: arXiv:2601.17564v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) tests AI systems' ability to perform human-like inductive reasoning from a few demonstration pairs. Existing Gymnasium-based RL environments severely limit experimental scale due to computational bottlenecks....
 

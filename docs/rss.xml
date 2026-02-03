@@ -5,9 +5,54 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 03 Feb 2026 16:57:08 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 03 Feb 2026 20:40:44 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Elevated error rates for ChatGPT users</title>
+            <link>https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106</link>
+            <guid>https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106</guid>
+            <pubDate>Tue, 03 Feb 2026 20:32:27 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components File uploads (Degraded performance) Voice mode (Degraded performance) Conversations (Degraded performance) Compliance API...</description>
+        </item>
+        <item>
+            <title>Elevated error rate establishing new connections to Claude.ai connectors</title>
+            <link>https://status.claude.com/incidents/54rr0gbh596p</link>
+            <guid>https://status.claude.com/incidents/54rr0gbh596p</guid>
+            <pubDate>Tue, 03 Feb 2026 20:26:12 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/54rr0gbh596p">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 3, 20:26 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 3, 18:42 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>SSO and magic link sign-in degraded on Claude Desktop</title>
+            <link>https://status.claude.com/incidents/4z202w15zst2</link>
+            <guid>https://status.claude.com/incidents/4z202w15zst2</guid>
+            <pubDate>Tue, 03 Feb 2026 20:05:07 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/4z202w15zst2">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 3, 20:05 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>Elevated error rate on API across all Claude models</title>
+            <link>https://status.claude.com/incidents/d8v3zr02my00</link>
+            <guid>https://status.claude.com/incidents/d8v3zr02my00</guid>
+            <pubDate>Tue, 03 Feb 2026 18:03:31 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/d8v3zr02my00">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 3, 18:03 UTCResolved - This is a repeat of the earlier incident today. The incident started at 9:52 PT / 17:52 UTC and ended at 9:56 PT / 17:56 UTC. The percentage of requests impacted was also smaller.Feb 3, 18:00 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>H Company&#x27;s new Holo2 model takes the lead in UI Localization</title>
+            <link>https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b</link>
+            <guid>https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b</guid>
+            <pubDate>Tue, 03 Feb 2026 17:40:14 +0000</pubDate>
+            <source url="https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>Delays in UI updates for Actions Runs</title>
             <link>https://www.githubstatus.com/incidents/f314nlctbfs5</link>
@@ -396,6 +441,15 @@
             <description>We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with...</description>
         </item>
         <item>
+            <title>Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability</title>
+            <link>https://tldr.takara.ai/p/2602.02477</link>
+            <guid>https://tldr.takara.ai/p/2602.02477</guid>
+            <pubDate>Mon, 02 Feb 2026 18:54:54 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2602.02477">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Large language models (LLMs) have demonstrated strong reasoning capabilities through step-by-step chain-of-thought (CoT) reasoning. Nevertheless, at the limits of model capability, CoT often proves insufficient, and its strictly sequential nature constrains test-time scalability. A potential...</description>
+        </item>
+        <item>
             <title>Thinking with Comics: Enhancing Multimodal Reasoning through Structured Visual Storytelling</title>
             <link>https://tldr.takara.ai/p/2602.02453</link>
             <guid>https://tldr.takara.ai/p/2602.02453</guid>
@@ -403,60 +457,6 @@
             <source url="https://tldr.takara.ai/p/2602.02453">HF Daily Papers</source>
             <category>open-source</category>
             <description>Chain-of-Thought reasoning has driven large language models to extend from thinking with text to thinking with images and videos. However, different modalities still have clear limitations: static images struggle to represent temporal structure, while videos introduce substantial redundancy and...</description>
-        </item>
-        <item>
-            <title>What we’ve been getting wrong about AI’s truth crisis</title>
-            <link>https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/</link>
-            <guid>https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/</guid>
-            <pubDate>Mon, 02 Feb 2026 18:09:57 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&amp;#160;sign up here. What would it take to convince you that the era of truth decay we were long warned about—where AI content dupes us, shapes our beliefs even when we catch...</description>
-        </item>
-        <item>
-            <title>An Empirical Study on Noisy Data and LLM Pretraining Loss Divergence</title>
-            <link>https://tldr.takara.ai/p/2602.02400</link>
-            <guid>https://tldr.takara.ai/p/2602.02400</guid>
-            <pubDate>Mon, 02 Feb 2026 17:58:50 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.02400">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large-scale pretraining datasets drive the success of large language models (LLMs). However, these web-scale corpora inevitably contain large amounts of noisy data due to unregulated web content or randomness inherent in data. Although LLM pretrainers often speculate that such noise contributes to...</description>
-        </item>
-        <item>
-            <title>Disruption with some GitHub services</title>
-            <link>https://www.githubstatus.com/incidents/vj8q32xs2d32</link>
-            <guid>https://www.githubstatus.com/incidents/vj8q32xs2d32</guid>
-            <pubDate>Mon, 02 Feb 2026 17:43:51 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/vj8q32xs2d32">GitHub Status</source>
-            <category>incidents</category>
-            <description>Feb 2, 17:43 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 2, 17:42 UTCUpdate - We’ve observed a low rate (~0.01%) of 5xx errors for HTTP-based...</description>
-        </item>
-        <item>
-            <title>Spark: Modular Spiking Neural Networks</title>
-            <link>https://tldr.takara.ai/p/2602.02306</link>
-            <guid>https://tldr.takara.ai/p/2602.02306</guid>
-            <pubDate>Mon, 02 Feb 2026 16:36:58 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.02306">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Nowadays, neural networks act as a synonym for artificial intelligence. Present neural network models, although remarkably powerful, are inefficient both in terms of data and energy. Several alternative forms of neural networks have been proposed to address some of these problems. Specifically,...</description>
-        </item>
-        <item>
-            <title>Cloud Security Posture Management: silver bullet or another piece in the cloud puzzle?</title>
-            <link>https://www.ncsc.gov.uk/blog-post/cspm-silver-bullet-or-another-piece-in-the-cloud-puzzle</link>
-            <guid>https://www.ncsc.gov.uk/blog-post/cspm-silver-bullet-or-another-piece-in-the-cloud-puzzle</guid>
-            <pubDate>Mon, 02 Feb 2026 16:24:04 +0000</pubDate>
-            <source url="https://www.ncsc.gov.uk/blog-post/cspm-silver-bullet-or-another-piece-in-the-cloud-puzzle">NCSC UK</source>
-            <category>security</category>
-            <description>CSPM tools are big business. Could they be the answer to your cloud configuration problems?</description>
-        </item>
-        <item>
-            <title>Please Don’t Feed the Scattered Lapsus Shiny Hunters</title>
-            <link>https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/</link>
-            <guid>https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/</guid>
-            <pubDate>Mon, 02 Feb 2026 16:15:16 +0000</pubDate>
-            <source url="https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/">Krebs on Security</source>
-            <category>security</category>
-            <description>A prolific data ransom gang that calls itself Scattered Lapsus Shiny Hunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and… Read More &amp;#187;</description>
         </item>
     </channel>
 </rss>
