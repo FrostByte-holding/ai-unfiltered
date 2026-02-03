@@ -6,6 +6,47 @@
 
 ## 2026-02-03
 
+### Delays in UI updates for Actions Runs
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/f314nlctbfs5
+- Summary: Feb 3, 16:51 UTCUpdate - We've applied a mitigation to improve system throughput and are monitoring for reduced latency for job status updates.Feb 3, 16:10 UTCInvestigating - We are investigating reports of degraded performance for Actions
+
+### Elevated error rate on API across all Claude models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/pr6yx3bfr172
+- Summary: Feb 3, 15:56 UTCResolved - This incident has been resolved.Feb 3, 15:46 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### RADICL Raises $31 Million for vSOC
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/radicl-raises-31-million-for-vsoc/
+- Summary: The company will use the investment to accelerate development of its autonomous virtual security operations center (vSOC). The post RADICL Raises $31 Million for vSOC appeared first on SecurityWeek.
+
+### The Future of the Global Open-Source AI Ecosystem: From DeepSeek to AI+
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3
+
+### RapidFort Raises $42M to Automate Software Supply Chain Security
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/rapidfort-raises-42m-to-automate-software-supply-chain-security/
+- Summary: The company will use the latest capital to scale its go-to-market efforts and expand its platform’s capabilities. The post RapidFort Raises $42M to Automate Software Supply Chain Security appeared first on SecurityWeek.
+
+### [Webinar] The Smarter SOC Blueprint: Learn What to Build, Buy, and Automate
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html
+- Summary: Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress. Every vendor promises “complete coverage” or “AI-powered automation,” but inside most SOCs, teams are still overwhelmed, stretched thin, and unsure which tools are truly pulling their...
+
+### The Download: squeezing more metal out of aging mines, and AI’s truth crisis
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Microbes could extract the metal needed for cleantech In a pine forest on Michigan’s Upper Peninsula, the only active nickel mine in the US is...
+
 ### Hackers Leak 5.1 Million Panera Bread Records
 - Source: Security Week
 - Category: security
@@ -254,11 +295,23 @@
 - URL: https://tldr.takara.ai/p/2602.02488
 - Summary: We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with...
 
+### Thinking with Comics: Enhancing Multimodal Reasoning through Structured Visual Storytelling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02453
+- Summary: Chain-of-Thought reasoning has driven large language models to extend from thinking with text to thinking with images and videos. However, different modalities still have clear limitations: static images struggle to represent temporal structure, while videos introduce substantial redundancy and...
+
 ### What we’ve been getting wrong about AI’s truth crisis
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. What would it take to convince you that the era of truth decay we were long warned about—where AI content dupes us, shapes our beliefs even when we catch...
+
+### An Empirical Study on Noisy Data and LLM Pretraining Loss Divergence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02400
+- Summary: Large-scale pretraining datasets drive the success of large language models (LLMs). However, these web-scale corpora inevitably contain large amounts of noisy data due to unregulated web content or randomness inherent in data. Although LLM pretrainers often speculate that such noise contributes to...
 
 ### Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users
 - Source: The Hacker News
@@ -313,6 +366,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.02212
 - Summary: Despite significant progress in Visual-Language-Action (VLA), in highly complex and dynamic environments that involve real-time unpredictable interactions (such as 3D open worlds and large-scale PvP games), existing approaches remain inefficient at extracting action-critical signals from redundant...
+
+### Generalized Optimal Classification Trees: A Mixed-Integer Programming Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02173
+- Summary: Global optimization of decision trees is a long-standing challenge in combinatorial optimization, yet such models play an important role in interpretable machine learning. Although the problem has been investigated for several decades, only recent advances in discrete optimization have enabled...
+
+### ECHO: Entropy-Confidence Hybrid Optimization for Test-Time Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.02150
+- Summary: Test-time reinforcement learning generates multiple candidate answers via repeated rollouts and performs online updates using pseudo-labels constructed by majority voting. To reduce overhead and improve exploration, prior work introduces tree structured rollouts, which share reasoning prefixes and...
 
 ### The crucial first step for designing a successful enterprise AI system
 - Source: MIT Tech Review AI
@@ -463,6 +528,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.01714
 - Summary: Arabic remains one of the most underrepresented languages in natural language processing research, particularly in medical applications, due to the limited availability of open-source data and benchmarks. The lack of resources hinders efforts to evaluate and advance the multilingual capabilities of...
+
+### Beyond Mode Elicitation: Diversity-Preserving Reinforcement Learning via Latent Diffusion Reasoner
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01705
+- Summary: Recent reinforcement learning (RL) methods improve LLM reasoning by optimizing discrete Chain-of-Thought (CoT) generation; however, exploration in token space often suffers from diversity collapse as policy entropy decreases due to mode elicitation behavior in discrete RL. To mitigate this issue,...
 
 ### eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware
 - Source: The Hacker News
@@ -2947,76 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.17564
 - Summary: arXiv:2601.17564v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) tests AI systems' ability to perform human-like inductive reasoning from a few demonstration pairs. Existing Gymnasium-based RL environments severely limit experimental scale due to computational bottlenecks....
-
-### Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-driven Adaptive Experimental Design
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17587
-- Summary: arXiv:2601.17587v1 Announce Type: new Abstract: Configuring the parameters of additive manufacturing processes for metal alloys is a challenging problem due to complex relationships between input parameters (e.g., laser power, scan speed) and quality of printed outputs. The standard trial-and-error...
-
-### TelcoAI: Advancing 3GPP Technical Specification Search through Agentic Multi-Modal Retrieval-Augmented Generation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16984
-- Summary: arXiv:2601.16984v1 Announce Type: new Abstract: The 3rd Generation Partnership Project (3GPP) produces complex technical specifications essential to global telecommunications, yet their hierarchical structure, dense formatting, and multi-modal content make them difficult to process. While Large...
-
-### Sparsity-Aware Low-Rank Representation for Efficient Fine-Tuning of Large Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16991
-- Summary: arXiv:2601.16991v1 Announce Type: new Abstract: Adapting large pre-trained language models to downstream tasks often entails fine-tuning millions of parameters or deploying costly dense weight updates, which hinders their use in resource-constrained environments. Low-rank Adaptation (LoRA) reduces...
-
-### A Dataset of Dengue Hospitalizations in Brazil (1999 to 2021) with Weekly Disaggregation from Monthly Counts
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16994
-- Summary: arXiv:2601.16994v1 Announce Type: new Abstract: This data paper describes and publicly releases this dataset (v1.0.0), published on Zenodo under DOI 10.5281/zenodo.18189192. Motivated by the need to increase the temporal granularity of originally monthly data to enable more effective training of AI...
-
-### MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.17006
-- Summary: arXiv:2601.17006v1 Announce Type: new Abstract: In mathematical reasoning tasks, the advancement of Large Language Models (LLMs) relies heavily on high-quality training data with clearly defined and well-graded difficulty levels. However, existing data synthesis methods often suffer from limited...
-
-### Analysis of voice recordings features for Classification of Parkinson's Disease
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.17007
-- Summary: arXiv:2601.17007v1 Announce Type: new Abstract: Parkinson's disease (PD) is a chronic neurodegenerative disease. Early diagnosis is essential to mitigate the progressive deterioration of patients' quality of life. The most characteristic motor symptoms are very mild in the early stages, making...
-
-### Reasoning Beyond Literal: Cross-style Multimodal Reasoning for Figurative Language Understanding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17197
-- Summary: arXiv:2601.17197v1 Announce Type: new Abstract: Vision-language models (VLMs) have demonstrated strong reasoning abilities in literal multimodal tasks such as visual mathematics and science question answering. However, figurative language, such as sarcasm, humor, and metaphor, remains a significant...
-
-### Relating Word Embedding Gender Biases to Gender Gaps: A Cross-Cultural Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17203
-- Summary: arXiv:2601.17203v1 Announce Type: new Abstract: Modern models for common NLP tasks often employ machine learning techniques and train on journalistic, social media, or other culturally-derived text. These have recently been scrutinized for racial and gender biases, rooting from inherent bias in...
-
-### DF-RAG: Query-Aware Diversity for Retrieval-Augmented Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17212
-- Summary: arXiv:2601.17212v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) is a common technique for grounding language model outputs in domain-specific information. However, RAG is often challenged by reasoning-intensive question-answering (QA), since common retrieval methods like cosine...
-
-### Beyond Outcome Verification: Verifiable Process Reward Models for Structured Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17223
-- Summary: arXiv:2601.17223v1 Announce Type: new Abstract: Recent work on reinforcement learning with verifiable rewards (RLVR) has shown that large language models (LLMs) can be substantially improved using outcome-level verification signals, such as unit tests for code or exact-match checks for mathematics....
-
-### Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17226
-- Summary: arXiv:2601.17226v1 Announce Type: new Abstract: Despite the subjective nature of storytelling, past works on automatic story generation (ASG) have relied on limited ground truths for training and evaluation. In this work, we explore reinforcement learning (d-RLAIF) as a post-training alternative to...
-
-### World First！Beijing’s “Embodied Tien Kung” Humanoid Robot Directly Connects to Satellite for Autonomous Ground Operations
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/world-first-beijing-s-embodied-tien-kung-humanoid-robot-directly-connects-to-satellite-for-autonomous-ground-operations
-- Summary: Beijing’s Embodied Tien Kung achieved a world-first by directly connecting to a LEO satellite to perform fully autonomous operations without ground network support.
 
