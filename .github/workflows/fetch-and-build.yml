@@ -15,6 +15,10 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: fetch-and-build
+  cancel-in-progress: true
+
 jobs:
   fetch-and-build:
     runs-on: ubuntu-latest
@@ -41,9 +45,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update: $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main
-            git push
+            git commit -m "Update: $(date -u '+%Y-%m-%d %H:%M UTC' )"
+            git push --force-with-lease origin main
           fi
 
   deploy:
