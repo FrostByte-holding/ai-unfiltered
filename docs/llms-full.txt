@@ -4,13 +4,40 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-04
+
+### Some users may experience issues loading or starting conversations
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KGK3YJB8CPX0TJY924H02TZW
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
+
 ## 2026-02-03
+
+### Elevated error rates for finetuning jobs
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KGJMMMDDYD8RYNEVFNVYG99F
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Fine-tuning (Operational)
+
+### Elevated errors on Claude Opus 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/v4v6psj8hkh3
+- Summary: Feb 3, 23:06 UTCResolved - Users experienced errors on Opus 4.5 between 12:08 PM and 2:38 PM PT (20:08 and 22:38 UTC).Feb 3, 21:02 UTCInvestigating - We are currently investigating this issue.
 
 ### Elevated error rates for ChatGPT users
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106
 - Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components File uploads (Degraded performance) Voice mode (Degraded performance) Conversations (Degraded performance) Compliance API...
+
+### SSO and magic link sign-in degraded on Claude Desktop
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/mhxgcgjrjy7k
+- Summary: Feb 3, 20:30 UTCResolved - SSO and magic link sign-in degraded on Claude Desktop
 
 ### Elevated error rate establishing new connections to Claude.ai connectors
 - Source: Anthropic Status
@@ -41,6 +68,12 @@
 - URL: https://www.githubstatus.com/incidents/f314nlctbfs5
 - Summary: Feb 3, 16:51 UTCUpdate - We've applied a mitigation to improve system throughput and are monitoring for reduced latency for job status updates.Feb 3, 16:10 UTCInvestigating - We are investigating reports of degraded performance for Actions
 
+### Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html
+- Summary: Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critical...
+
 ### Elevated error rate on API across all Claude models
 - Source: Anthropic Status
 - Category: incidents
@@ -69,6 +102,24 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html
 - Summary: Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress. Every vendor promises “complete coverage” or “AI-powered automation,” but inside most SOCs, teams are still overwhelmed, stretched thin, and unsure which tools are truly pulling their...
+
+### Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html
+- Summary: Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular "@react-native-community/cli" npm package. Cybersecurity company VulnCheck said it first observed exploitation of CVE-2025-11953 (aka Metro4Shell) on December 21, 2025. With a...
+
+### Critical React Native Vulnerability Exploited in the Wild
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/
+- Summary: Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware. The post Critical React Native Vulnerability Exploited in the Wild appeared first on SecurityWeek.
+
+### Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/
+- Summary: OpenClaw (aka Moltbot and Clawdbot) is vulnerable to one-click remote code execution attacks. The post Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant appeared first on SecurityWeek.
 
 ### The Download: squeezing more metal out of aging mines, and AI’s truth crisis
 - Source: MIT Tech Review AI
@@ -254,6 +305,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.00017
 - Summary: arXiv:2602.00017v1 Announce Type: new Abstract: The importance of effective parent-child communication about sexual health is widely acknowledged, but real-world data on these conversations is scarce and challenging to collect, due to their private and sensitive nature. Although LLMs have been...
+
+### Assessing Domain-Level Susceptibility to Emergent Misalignment from Narrow Finetuning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.00298
+- Summary: arXiv:2602.00298v1 Announce Type: new Abstract: Emergent misalignment poses risks to AI safety as language models are increasingly used for autonomous tasks. In this paper, we present a population of large language models (LLMs) fine-tuned on insecure datasets spanning 11 diverse domains,...
+
+### Autonomous Data Processing using Meta-Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.00307
+- Summary: arXiv:2602.00307v1 Announce Type: new Abstract: Traditional data processing pipelines are typically static and handcrafted for specific tasks, limiting their adaptability to evolving requirements. While general-purpose agents and coding assistants can generate code for well-understood data...
+
+### SayNext-Bench: Why Do LLMs Struggle with Next-Utterance Prediction?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.00327
+- Summary: arXiv:2602.00327v1 Announce Type: new Abstract: We explore the use of large language models (LLMs) for next-utterance prediction in human dialogue. Despite recent advances in LLMs demonstrating their ability to engage in natural conversations with users, we show that even leading models...
+
+### MHDash: An Online Platform for Benchmarking Mental Health-Aware AI Assistants
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.00353
+- Summary: arXiv:2602.00353v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied in mental health support systems, where reliable recognition of high-risk states such as suicidal ideation and self-harm is safety-critical. However, existing evaluations primarily rely on...
+
+### Position: Agentic Evolution is the Path to Evolving LLMs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.00359
+- Summary: arXiv:2602.00359v1 Announce Type: new Abstract: As Large Language Models (LLMs) move from curated training sets into open-ended real-world environments, a fundamental limitation emerges: static training cannot keep pace with continual deployment environment change. Scaling training-time and...
+
+### Enhancing few-shot time series forecasting with LLM-guided diffusion
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.00040
+- Summary: arXiv:2602.00040v1 Announce Type: new Abstract: Time series forecasting in specialized domains is often constrained by limited data availability, where conventional models typically require large-scale datasets to effectively capture underlying temporal dynamics. To tackle this few-shot challenge,...
+
+### Extending Beacon to Hindi: Cultural Adaptation Drives Cross-Lingual Sycophancy
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.00046
+- Summary: arXiv:2602.00046v1 Announce Type: new Abstract: Sycophancy, the tendency of language models to prioritize agreement with user preferences over principled reasoning, has been identified as a persistent alignment failure in English-language evaluations. However, it remains unclear whether such...
+
+### Lightweight Edge Learning via Dataset Pruning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.00047
+- Summary: arXiv:2602.00047v1 Announce Type: new Abstract: Edge learning facilitates ubiquitous intelligence by enabling model training and adaptation directly on data-generating devices, thereby mitigating privacy risks and communication latency. However, the high computational and energy overhead of...
+
+### Distributional Reinforcement Learning for Condition-Based Maintenance of Multi-Pump Equipment
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.00051
+- Summary: arXiv:2602.00051v1 Announce Type: new Abstract: Condition-Based Maintenance (CBM) signifies a paradigm shift from reactive to proactive equipment management strategies in modern industrial systems. Conventional time-based maintenance schedules frequently engender superfluous expenditures and...
+
+### TextBFGS: Quasi-Newton Optimization for Discrete Executable Text via Gradient-Operator Retrieval
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.00059
+- Summary: arXiv:2602.00059v1 Announce Type: new Abstract: Optimizing discrete executable text such as prompts and code has recently been framed as a gradient-based process, effectively translating backpropagation concepts to the semantic space. However, existing methods predominantly operate as first-order...
+
+### Construct, Align, and Reason: Large Ontology Models for Enterprise Knowledge Management
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.00029
+- Summary: arXiv:2602.00029v1 Announce Type: new Abstract: Enterprise-scale knowledge management faces significant challenges in integrating multi-source heterogeneous data and enabling effective semantic reasoning. Traditional knowledge graphs often struggle with implicit relationship discovery and lack...
+
+### Reversible Diffusion Decoding for Diffusion Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.00150
+- Summary: arXiv:2602.00150v1 Announce Type: new Abstract: Diffusion language models enable parallel token generation through block-wise decoding, but their irreversible commitments can lead to stagnation, where the reverse diffusion process fails to make further progress under a suboptimal context.We propose...
+
+### DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.00238
+- Summary: arXiv:2602.00238v1 Announce Type: new Abstract: Existing retrieval-augmented generation (RAG) systems are primarily designed under the assumption that each query has a single correct answer. This overlooks common information-seeking scenarios with multiple plausible answers, where diversity is...
+
+### Benchmarking Uncertainty Calibration in Large Language Model Long-Form Question Answering
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.00279
+- Summary: arXiv:2602.00279v1 Announce Type: new Abstract: Large Language Models (LLMs) are commonly used in Question Answering (QA) settings, increasingly in the natural sciences if not science at large. Reliable Uncertainty Quantification (UQ) is critical for the trustworthy uptake of generated answers....
+
+### Faithful-Patchscopes: Understanding and Mitigating Model Bias in Hidden Representations Explanation of Large Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.00300
+- Summary: arXiv:2602.00300v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated strong capabilities for hidden representation interpretation through Patchscopes, a framework that uses LLMs themselves to generate human-readable explanations by decoding from internal hidden...
 
 ### Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group
 - Source: The Hacker News
@@ -504,6 +645,12 @@
 - URL: https://tldr.takara.ai/p/2602.01984
 - Summary: Large Vision-Language Models (LVLMs) achieve strong performance on single-image tasks, but their performance declines when multiple images are provided as input. One major reason is the cross-image information leakage, where the model struggles to distinguish information across different images....
 
+### S3-CoT: Self-Sampled Succinct Reasoning Enables Efficient Chain-of-Thought LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01982
+- Summary: Large language models (LLMs) equipped with chain-of-thought (CoT) achieve strong performance and offer a window into LLM behavior. However, recent evidence suggests that improvements in CoT capabilities often come with redundant reasoning processes, motivating a key question: Can LLMs acquire a...
+
 ### Microsoft Moves Closer to Disabling NTLM
 - Source: Security Week
 - Category: security
@@ -522,6 +669,12 @@
 - URL: https://www.technologyreview.com/2026/02/02/1132042/whats-next-for-ev-batteries-in-2026/
 - Summary: MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Demand for electric vehicles and the batteries that power them has never been hotter. In 2025, EVs made up over a quarter of...
 
+### Fact or Fake? Assessing the Role of Deepfake Detectors in Multimodal Misinformation Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01854
+- Summary: In multimodal misinformation, deception usually arises not just from pixel-level manipulations in an image, but from the semantic and contextual claim jointly expressed by the image-text pair. Yet most deepfake detectors, engineered to detect pixel-level forgeries, do not account for claim-level...
+
 ### Notepad++ Supply Chain Hack Conducted by China via Hosting Provider
 - Source: Security Week
 - Category: security
@@ -539,6 +692,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/notepad-official-update-mechanism.html
 - Summary: The maintainer of Notepad++ has revealed that state-sponsored attackers hijacked the utility's update mechanism to redirect update traffic to malicious servers instead. "The attack involved [an] infrastructure-level compromise that allowed malicious actors to intercept and redirect update traffic...
+
+### Position: Beyond Model-Centric Prediction -- Agentic Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01776
+- Summary: Time series forecasting has traditionally been formulated as a model-centric, static, and single-pass prediction problem that maps historical observations to future values. While this paradigm has driven substantial progress, it proves insufficient in adaptive and multi-turn settings where...
+
+### Zero2Text: Zero-Training Cross-Domain Inversion Attacks on Textual Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01757
+- Summary: The proliferation of retrieval-augmented generation (RAG) has established vector databases as critical infrastructure, yet they introduce severe privacy risks via embedding inversion attacks. Existing paradigms face a fundamental trade-off: optimization-based methods require computationally...
 
 ### Caocao Mobility’s Robotaxi 2.0 Integrates LEO Satellite Connectivity, to Launch Satellite-Based SOS Feature
 - Source: Pandaily
@@ -797,6 +962,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.01642
 - Summary: With limited high-quality data and growing compute, multi-epoch training is gaining back its importance across sub-areas of deep learning. Adam(W), versions of which are go-to optimizers for many tasks such as next token prediction, has two momentum hyperparameters $(β_1, β_2)$ controlling memory...
+
+### A2Eval: Agentic and Automated Evaluation for Embodied Brain
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.01640
+- Summary: Current embodied VLM evaluation relies on static, expert-defined, manually annotated benchmarks that exhibit severe redundancy and coverage imbalance. This labor intensive paradigm drains computational and annotation resources, inflates costs, and distorts model rankings, ultimately stifling...
 
 ### Federated Vision Transformer with Adaptive Focal Loss for Medical Image Classification
 - Source: HF Daily Papers
@@ -2849,172 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deep-way-secures-164-m-pre-ipo-financing-setting-record-in-autonomous-new-energy-heavy-truck-sector
 - Summary: DeepWay has raised $164 million in a record‑breaking Pre‑IPO round to accelerate commercialization of its autonomous new energy heavy truck technology and expand freight operations.
-
-### Benchmarks Saturate When The Model Gets Smarter Than The Judge
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.19532
-- Summary: Benchmarks are important tools to track progress in the development of Large Language Models (LLMs), yet inaccuracies in datasets and evaluation methods consistently undermine their effectiveness. Here, we present Omni-MATH-2, a manually revised version of the Omni-MATH dataset comprising a clean,...
-
-### [AINews] Anthropic launches the MCP Apps open spec, in Claude.ai
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-anthropic-launches-the-mcp
-- Summary: Open Standards for Rich generative UI is all you need.
-
-### Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html
-- Summary: Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks. The vulnerability, tracked as CVE-2026-21509, carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office....
-
-### Riddle Quest : The Enigma of Words
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.19273
-- Summary: Riddles are concise linguistic puzzles that describe an object or idea through indirect, figurative, or playful clues. They are a longstanding form of creative expression, requiring the solver to interpret hints, recognize patterns, and draw inferences to identify the answers. In this work, we...
-
-### Online parameter estimation for the Crazyflie quadcopter through an EM algorithm
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17009
-- Summary: arXiv:2601.17009v1 Announce Type: new Abstract: Drones are becoming more and more popular nowadays. They are small in size, low in cost, and reliable in operation. They contain a variety of sensors and can perform a variety of flight tasks, reaching places that are difficult or inaccessible for...
-
-### Interpreting Agentic Systems: Beyond Model Explanations to System-Level Accountability
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17168
-- Summary: arXiv:2601.17168v1 Announce Type: new Abstract: Agentic systems have transformed how Large Language Models (LLMs) can be leveraged to create autonomous systems with goal-directed behaviors, consisting of multi-step planning and the ability to interact with different environments. These systems...
-
-### Implementing Tensor Logic: Unifying Datalog and Neural Reasoning via Tensor Contraction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17188
-- Summary: arXiv:2601.17188v1 Announce Type: new Abstract: The unification of symbolic reasoning and neural networks remains a central challenge in artificial intelligence. Symbolic systems offer reliability and interpretability but lack scalability, while neural networks provide learning capabilities but...
-
-### High-Fidelity Longitudinal Patient Simulation Using Real-World Data
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17310
-- Summary: arXiv:2601.17310v1 Announce Type: new Abstract: Simulation is a powerful tool for exploring uncertainty. Its potential in clinical medicine is transformative and includes personalized treatment planning and virtual clinical trials. However, simulating patient trajectories is challenging because of...
-
-### Phase Transition for Budgeted Multi-Agent Synergy
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17311
-- Summary: arXiv:2601.17311v1 Announce Type: new Abstract: Multi-agent systems can improve reliability, yet under a fixed inference budget they often help, saturate, or even collapse. We develop a minimal and calibratable theory that predicts these regimes from three binding constraints of modern agent...
-
-### A Cautionary Tale of Self-Supervised Learning for Imaging Biomarkers: Alzheimer's Disease Case Study
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16467
-- Summary: arXiv:2601.16467v1 Announce Type: new Abstract: Discovery of sensitive and biologically grounded biomarkers is essential for early detection and monitoring of Alzheimer's disease (AD). Structural MRI is widely available but typically relies on hand-crafted features such as cortical thickness or...
-
-### Robust Categorical Data Clustering Guided by Multi-Granular Competitive Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16491
-- Summary: arXiv:2601.16491v1 Announce Type: new Abstract: Data set composed of categorical features is very common in big data analysis tasks. Since categorical features are usually with a limited number of qualitative possible values, the nested granular cluster effect is prevalent in the implicit discrete...
-
-### BoostFGL: Boosting Fairness in Federated Graph Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16496
-- Summary: arXiv:2601.16496v1 Announce Type: new Abstract: Federated graph learning (FGL) enables collaborative training of graph neural networks (GNNs) across decentralized subgraphs without exposing raw data. While existing FGL methods often achieve high overall accuracy, we show that this average...
-
-### kNN-Graph: An adaptive graph model for $k$-nearest neighbors
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16509
-- Summary: arXiv:2601.16509v1 Announce Type: new Abstract: The k-nearest neighbors (kNN) algorithm is a cornerstone of non-parametric classification in artificial intelligence, yet its deployment in large-scale applications is persistently constrained by the computational trade-off between inference speed and...
-
-### Finite-Time Analysis of Gradient Descent for Shallow Transformers
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16514
-- Summary: arXiv:2601.16514v1 Announce Type: new Abstract: Understanding why Transformers perform so well remains challenging due to their non-convex optimization landscape. In this work, we analyze a shallow Transformer with $m$ independent heads trained by projected gradient descent in the kernel regime....
-
-### Crystal-KV: Efficient KV Cache Management for Chain-of-Thought LLMs via Answer-First Principle
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.16986
-- Summary: arXiv:2601.16986v1 Announce Type: new Abstract: Chain-of-Thought (CoT) reasoning in large language models (LLMs) significantly improves accuracy on complex tasks, yet incurs excessive memory overhead due to the long think-stage sequences stored in the Key-Value (KV) cache. Unlike traditional...
-
-### Evaluating Reward Model Generalization via Pairwise Maximum Discrepancy Competitions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.16987
-- Summary: arXiv:2601.16987v1 Announce Type: new Abstract: Reward models (RMs) are central to aligning large language models, yet their practical effectiveness hinges on generalization to unseen prompts and shifting distributions. Most existing RM evaluations rely on static, pre-annotated preference datasets,...
-
-### Uncertainty Quantification for Named Entity Recognition via Full-Sequence and Subsequence Conformal Prediction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.16999
-- Summary: arXiv:2601.16999v1 Announce Type: new Abstract: Named Entity Recognition (NER) serves as a foundational component in many natural language processing (NLP) pipelines. However, current NER models typically output a single predicted label sequence without any accompanying measure of uncertainty,...
-
-### RAM-SD: Retrieval-Augmented Multi-agent framework for Sarcasm Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17002
-- Summary: arXiv:2601.17002v1 Announce Type: new Abstract: Sarcasm detection remains a significant challenge due to its reliance on nuanced contextual understanding, world knowledge, and multi-faceted linguistic cues that vary substantially across different sarcastic expressions. Existing approaches, from...
-
-### From Emotion to Expression: Theoretical Foundations and Resources for Fear Speech
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.17132
-- Summary: arXiv:2601.17132v1 Announce Type: new Abstract: Few forces rival fear in their ability to mobilize societies, distort communication, and reshape collective behavior. In computational linguistics, fear is primarily studied as an emotion, but not as a distinct form of speech. Fear speech content is...
-
-### TheoremForge: Scaling up Formal Data Synthesis with Low-Budget Agentic Workflow
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17332
-- Summary: arXiv:2601.17332v1 Announce Type: new Abstract: The high cost of agentic workflows in formal mathematics hinders large-scale data synthesis, exacerbating the scarcity of open-source corpora. To address this, we introduce \textbf{TheoremForge}, a cost-effective formal data synthesis pipeline that...
-
-### The Relativity of AGI: Distributional Axioms, Fragility, and Undecidability
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17335
-- Summary: arXiv:2601.17335v1 Announce Type: new Abstract: We study whether Artificial General Intelligence (AGI) admits a coherent theoretical definition that supports absolute claims of existence, robustness, or self-verification. We formalize AGI axiomatically as a distributional, resource-bounded semantic...
-
-### Are We Evaluating the Edit Locality of LLM Model Editing Properly?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17343
-- Summary: arXiv:2601.17343v1 Announce Type: new Abstract: Model editing has recently emerged as a popular paradigm for efficiently updating knowledge in LLMs. A central desideratum of updating knowledge is to balance editing efficacy, i.e., the successful injection of target knowledge, and specificity (also...
-
-### Multi-Agent Learning Path Planning via LLMs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17346
-- Summary: arXiv:2601.17346v1 Announce Type: new Abstract: The integration of large language models (LLMs) into intelligent tutoring systems offers transformative potential for personalized learning in higher education. However, most existing learning path planning approaches lack transparency, adaptability,...
-
-### Auditing Disability Representation in Vision-Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.17348
-- Summary: arXiv:2601.17348v1 Announce Type: new Abstract: Vision-language models (VLMs) are increasingly deployed in socially sensitive applications, yet their behavior with respect to disability remains underexplored. We study disability aware descriptions for person centric images, where models often...
-
-### Rethinking Large Language Models For Irregular Time Series Classification In Critical Care
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16516
-- Summary: arXiv:2601.16516v2 Announce Type: new Abstract: Time series data from the Intensive Care Unit (ICU) provides critical information for patient monitoring. While recent advancements in applying Large Language Models (LLMs) to time series modeling (TSM) have shown great promise, their effectiveness on...
-
-### DANCE: Dynamic, Available, Neighbor-gated Condensation for Federated Text-Attributed Graphs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16519
-- Summary: arXiv:2601.16519v1 Announce Type: new Abstract: Federated graph learning (FGL) enables collaborative training on graph data across multiple clients. With the rise of large language models (LLMs), textual attributes in FGL graphs are gaining attention. Text-attributed graph federated learning...
-
-### Beyond Superficial Unlearning: Sharpness-Aware Robust Erasure of Hallucinations in Multimodal LLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16527
-- Summary: arXiv:2601.16527v1 Announce Type: new Abstract: Multimodal LLMs are powerful but prone to object hallucinations, which describe non-existent entities and harm reliability. While recent unlearning methods attempt to mitigate this, we identify a critical flaw: structural fragility. We empirically...
-
-### A Collision-Free Hot-Tier Extension for Engram-Style Conditional Memory: A Controlled Study of Training Dynamics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.16531
-- Summary: arXiv:2601.16531v2 Announce Type: new Abstract: We investigate whether high-frequency key collisions are a primary bottleneck in Engram-style conditional memory. To isolate the effect of collisions, we introduce Engram-Nine, a collision-free hot-tier extension that maps the most frequent n-grams...
 

@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 03 Feb 2026 20:40:44 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 04 Feb 2026 02:22:09 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Some users may experience issues loading or starting conversations</title>
+            <link>https://status.openai.com//incidents/01KGK3YJB8CPX0TJY924H02TZW</link>
+            <guid>https://status.openai.com//incidents/01KGK3YJB8CPX0TJY924H02TZW</guid>
+            <pubDate>Wed, 04 Feb 2026 01:42:51 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KGK3YJB8CPX0TJY924H02TZW">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)</description>
+        </item>
+        <item>
+            <title>Elevated error rates for finetuning jobs</title>
+            <link>https://status.openai.com//incidents/01KGJMMMDDYD8RYNEVFNVYG99F</link>
+            <guid>https://status.openai.com//incidents/01KGJMMMDDYD8RYNEVFNVYG99F</guid>
+            <pubDate>Tue, 03 Feb 2026 23:32:01 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KGJMMMDDYD8RYNEVFNVYG99F">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Fine-tuning (Operational)</description>
+        </item>
+        <item>
+            <title>Elevated errors on Claude Opus 4.5</title>
+            <link>https://status.claude.com/incidents/v4v6psj8hkh3</link>
+            <guid>https://status.claude.com/incidents/v4v6psj8hkh3</guid>
+            <pubDate>Tue, 03 Feb 2026 23:06:21 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/v4v6psj8hkh3">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 3, 23:06 UTCResolved - Users experienced errors on Opus 4.5 between 12:08 PM and 2:38 PM PT (20:08 and 22:38 UTC).Feb 3, 21:02 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
         <item>
             <title>Elevated error rates for ChatGPT users</title>
             <link>https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106</link>
@@ -16,6 +43,15 @@
             <source url="https://status.openai.com//incidents/01KGJK9Q6PDB3C3VX6MPCY6106">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components File uploads (Degraded performance) Voice mode (Degraded performance) Conversations (Degraded performance) Compliance API...</description>
+        </item>
+        <item>
+            <title>SSO and magic link sign-in degraded on Claude Desktop</title>
+            <link>https://status.claude.com/incidents/mhxgcgjrjy7k</link>
+            <guid>https://status.claude.com/incidents/mhxgcgjrjy7k</guid>
+            <pubDate>Tue, 03 Feb 2026 20:30:00 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/mhxgcgjrjy7k">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 3, 20:30 UTCResolved - SSO and magic link sign-in degraded on Claude Desktop</description>
         </item>
         <item>
             <title>Elevated error rate establishing new connections to Claude.ai connectors</title>
@@ -63,13 +99,13 @@
             <description>Feb 3, 16:51 UTCUpdate - We&#x27;ve applied a mitigation to improve system throughput and are monitoring for reduced latency for job status updates.Feb 3, 16:10 UTCInvestigating - We are investigating reports of degraded performance for Actions</description>
         </item>
         <item>
-            <title>Elevated error rate on API across all Claude models</title>
-            <link>https://status.claude.com/incidents/pr6yx3bfr172</link>
-            <guid>https://status.claude.com/incidents/pr6yx3bfr172</guid>
-            <pubDate>Tue, 03 Feb 2026 15:56:07 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/pr6yx3bfr172">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Feb 3, 15:56 UTCResolved - This incident has been resolved.Feb 3, 15:46 UTCIdentified - The issue has been identified and a fix is being implemented.</description>
+            <title>Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata</title>
+            <link>https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html</link>
+            <guid>https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html</guid>
+            <pubDate>Tue, 03 Feb 2026 16:41:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html">The Hacker News</source>
+            <category>security</category>
+            <description>Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critical...</description>
         </item>
         <item>
             <title>RADICL Raises $31 Million for vSOC</title>
@@ -108,6 +144,33 @@
             <description>Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress. Every vendor promises “complete coverage” or “AI-powered automation,” but inside most SOCs, teams are still overwhelmed, stretched thin, and unsure which tools are truly pulling their...</description>
         </item>
         <item>
+            <title>Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package</title>
+            <link>https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html</link>
+            <guid>https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html</guid>
+            <pubDate>Tue, 03 Feb 2026 14:00:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html">The Hacker News</source>
+            <category>security</category>
+            <description>Threat actors have been observed exploiting a critical security flaw impacting the Metro Development Server in the popular &quot;@react-native-community/cli&quot; npm package. Cybersecurity company VulnCheck said it first observed exploitation of CVE-2025-11953 (aka Metro4Shell) on December 21, 2025. With a...</description>
+        </item>
+        <item>
+            <title>Critical React Native Vulnerability Exploited in the Wild</title>
+            <link>https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/</link>
+            <guid>https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/</guid>
+            <pubDate>Tue, 03 Feb 2026 14:00:00 +0000</pubDate>
+            <source url="https://www.securityweek.com/critical-react-native-vulnerability-exploited-in-the-wild/">Security Week</source>
+            <category>security</category>
+            <description>Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware. The post Critical React Native Vulnerability Exploited in the Wild appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant</title>
+            <link>https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/</link>
+            <guid>https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/</guid>
+            <pubDate>Tue, 03 Feb 2026 13:44:55 +0000</pubDate>
+            <source url="https://www.securityweek.com/vulnerability-allows-hackers-to-hijack-openclaw-ai-assistant/">Security Week</source>
+            <category>security</category>
+            <description>OpenClaw (aka Moltbot and Clawdbot) is vulnerable to one-click remote code execution attacks. The post Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant appeared first on SecurityWeek.</description>
+        </item>
+        <item>
             <title>The Download: squeezing more metal out of aging mines, and AI’s truth crisis</title>
             <link>https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/</link>
             <guid>https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/</guid>
@@ -135,15 +198,6 @@
             <description></description>
         </item>
         <item>
-            <title>Russia’s APT28 Rapidly Weaponizes Newly Patched Office Vulnerability</title>
-            <link>https://www.securityweek.com/russias-apt28-rapidly-weaponizes-newly-patched-office-vulnerability/</link>
-            <guid>https://www.securityweek.com/russias-apt28-rapidly-weaponizes-newly-patched-office-vulnerability/</guid>
-            <pubDate>Tue, 03 Feb 2026 11:22:52 +0000</pubDate>
-            <source url="https://www.securityweek.com/russias-apt28-rapidly-weaponizes-newly-patched-office-vulnerability/">Security Week</source>
-            <category>security</category>
-            <description>The attacks targeting Europe were analyzed by Ukraine’s CERT-UA and the cybersecurity company Zscaler. The post Russia&amp;#8217;s APT28 Rapidly Weaponizes Newly Patched Office Vulnerability appeared first on SecurityWeek.</description>
-        </item>
-        <item>
             <title>When Cloud Outages Ripple Across the Internet</title>
             <link>https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html</link>
             <guid>https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html</guid>
@@ -151,15 +205,6 @@
             <source url="https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html">The Hacker News</source>
             <category>security</category>
             <description>Recent major cloud service outages have been hard to miss. High-profile incidents affecting providers such as AWS, Azure, and Cloudflare have disrupted large parts of the internet, taking down websites and services that many other systems depend on. The resulting ripple effects have halted...</description>
-        </item>
-        <item>
-            <title>Kasada Raises $20 Million for Anti-Bot Expansion</title>
-            <link>https://www.securityweek.com/kasada-raises-20-million-for-anti-bot-expansion/</link>
-            <guid>https://www.securityweek.com/kasada-raises-20-million-for-anti-bot-expansion/</guid>
-            <pubDate>Tue, 03 Feb 2026 11:00:00 +0000</pubDate>
-            <source url="https://www.securityweek.com/kasada-raises-20-million-for-anti-bot-expansion/">Security Week</source>
-            <category>security</category>
-            <description>The company will invest in market expansion and accelerating product capabilities. The post Kasada Raises $20 Million for Anti-Bot Expansion appeared first on SecurityWeek.</description>
         </item>
         <item>
             <title>Incident with Copilot</title>
@@ -241,15 +286,6 @@
             <source url="https://www.latent.space/p/ainews-openai-codex-app-death-of">Latent Space</source>
             <category>open-source</category>
             <description>The meta is moving fast.</description>
-        </item>
-        <item>
-            <title>Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox</title>
-            <link>https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html</link>
-            <guid>https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html</guid>
-            <pubDate>Tue, 03 Feb 2026 05:39:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html">The Hacker News</source>
-            <category>security</category>
-            <description>Mozilla on Monday announced a new controls section in its Firefox desktop browser settings that allows users to completely turn off generative artificial intelligence (GenAI) features. &quot;It provides a single place to block current and future generative AI features in Firefox,&quot; Ajit Varma, head of...</description>
         </item>
         <item>
             <title>Scalable and Secure AI Inference in Healthcare: A Comparative Benchmarking of FastAPI and Triton Inference Server on Kubernetes</title>
@@ -387,15 +423,6 @@
             <description>arXiv:2602.00017v1 Announce Type: new Abstract: The importance of effective parent-child communication about sexual health is widely acknowledged, but real-world data on these conversations is scarce and challenging to collect, due to their private and sensitive nature. Although LLMs have been...</description>
         </item>
         <item>
-            <title>Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group</title>
-            <link>https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html</link>
-            <guid>https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html</guid>
-            <pubDate>Tue, 03 Feb 2026 04:55:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html">The Hacker News</source>
-            <category>security</category>
-            <description>A China-linked threat actor known as Lotus Blossom has been attributed with medium confidence to the recently discovered compromise of the infrastructure hosting Notepad++. The attack enabled the state-sponsored hacking group to deliver a previously undocumented backdoor codenamed Chrysalis to...</description>
-        </item>
-        <item>
             <title>Incident with Actions</title>
             <link>https://www.githubstatus.com/incidents/xwn6hjps36ty</link>
             <guid>https://www.githubstatus.com/incidents/xwn6hjps36ty</guid>
@@ -414,15 +441,6 @@
             <description>Feb 3, 00:54 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 3, 00:54 UTCUpdate - Codespaces is operating normally.Feb 3, 00:25 UTCUpdate -...</description>
         </item>
         <item>
-            <title>Elevated errors on Claude Opus 4.5</title>
-            <link>https://status.claude.com/incidents/lvvsg4wy0mhj</link>
-            <guid>https://status.claude.com/incidents/lvvsg4wy0mhj</guid>
-            <pubDate>Mon, 02 Feb 2026 23:18:43 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/lvvsg4wy0mhj">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Feb 2, 23:18 UTCResolved - Users experienced errors on Opus 4.5 between 15:09 PT / 23:09 UTC to 15:15 PT / 23:15.Feb 2, 23:15 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
             <title>Reward-free Alignment for Conflicting Objectives</title>
             <link>https://tldr.takara.ai/p/2602.02495</link>
             <guid>https://tldr.takara.ai/p/2602.02495</guid>
@@ -439,24 +457,6 @@
             <source url="https://tldr.takara.ai/p/2602.02488">HF Daily Papers</source>
             <category>open-source</category>
             <description>We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with...</description>
-        </item>
-        <item>
-            <title>Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability</title>
-            <link>https://tldr.takara.ai/p/2602.02477</link>
-            <guid>https://tldr.takara.ai/p/2602.02477</guid>
-            <pubDate>Mon, 02 Feb 2026 18:54:54 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.02477">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large language models (LLMs) have demonstrated strong reasoning capabilities through step-by-step chain-of-thought (CoT) reasoning. Nevertheless, at the limits of model capability, CoT often proves insufficient, and its strictly sequential nature constrains test-time scalability. A potential...</description>
-        </item>
-        <item>
-            <title>Thinking with Comics: Enhancing Multimodal Reasoning through Structured Visual Storytelling</title>
-            <link>https://tldr.takara.ai/p/2602.02453</link>
-            <guid>https://tldr.takara.ai/p/2602.02453</guid>
-            <pubDate>Mon, 02 Feb 2026 18:43:57 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.02453">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Chain-of-Thought reasoning has driven large language models to extend from thinking with text to thinking with images and videos. However, different modalities still have clear limitations: static images struggle to represent temporal structure, while videos introduce substantial redundancy and...</description>
         </item>
     </channel>
 </rss>
