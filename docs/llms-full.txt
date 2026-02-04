@@ -6,6 +6,18 @@
 
 ## 2026-02-04
 
+### Why Nvidia builds open models with Bryan Catanzaro
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/why-nvidia-builds-open-models-with
+- Summary: Interconnects interview #17 on the past, present, and future of the Nemotron project.
+
+### ChatGPT Availability Impacted
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KGMVV926ZSCD1MSDBS07AWYA
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components File uploads (Operational) GPTs (Operational) Deep Research (Operational) Codex (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational) Login (Operational) Voice mode (Operational)...
+
 ### Elevated errors on Claude models
 - Source: Anthropic Status
 - Category: incidents
@@ -308,6 +320,12 @@
 - URL: https://status.claude.com/incidents/4z202w15zst2
 - Summary: Feb 3, 20:05 UTCInvestigating - We are currently investigating this issue.
 
+### Continuous Control of Editing Models via Adaptive-Origin Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.03826
+- Summary: Diffusion-based editing models have emerged as a powerful tool for semantic image and video manipulation. However, existing models lack a mechanism for smoothly controlling the intensity of text-guided edits. In standard text-conditioned generation, Classifier-Free Guidance (CFG) impacts prompt...
+
 ### Conformal Thinking: Risk Control for Reasoning on a Compute Budget
 - Source: HF Daily Papers
 - Category: open-source
@@ -348,6 +366,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html
 - Summary: Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critical...
+
+### Instruction Anchors: Dissecting the Causal Dynamics of Modality Arbitration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.03677
+- Summary: Modality following serves as the capacity of multimodal large language models (MLLMs) to selectively utilize multimodal contexts based on user instructions. It is fundamental to ensuring safety and reliability in real-world deployments. However, the underlying mechanisms governing this...
 
 ### Elevated error rate on API across all Claude models
 - Source: Anthropic Status
@@ -438,6 +462,12 @@
 - URL: https://www.securityweek.com/hackers-leak-5-1-million-panera-bread-accounts/
 - Summary: ShinyHunters has claimed the theft of 14 million records from the US bakery-cafe chain’s systems. The post Hackers Leak 5.1 Million Panera Bread Records appeared first on SecurityWeek.
 
+### UnHype: CLIP-Guided Hypernetworks for Dynamic LoRA Unlearning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.03410
+- Summary: Recent advances in large-scale diffusion models have intensified concerns about their potential misuse, particularly in generating realistic yet harmful or socially disruptive content. This challenge has spurred growing interest in effective machine unlearning, the process of selectively removing...
+
 ### Training Design for Text-to-Image Models: Lessons from Ablations
 - Source: Hugging Face Blog
 - Category: open-source
@@ -526,6 +556,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.03184
 - Summary: Although Key-Value (KV) Cache is essential for efficient large language models (LLMs) inference, its growing memory footprint in long-context scenarios poses a significant bottleneck, making KVCache compression crucial. Current compression methods rely on rigid splitting strategies, such as fixed...
+
+### Contrastive Concept-Tree Search for LLM-Assisted Algorithm Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.03132
+- Summary: Large language Model (LLM)-assisted algorithm discovery is an iterative, black-box optimization process over programs to approximatively solve a target task, where an LLM proposes candidate programs and an external evaluator provides task feedback. Despite intense recent research on the topic and...
 
 ### Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox
 - Source: The Hacker News
@@ -736,6 +772,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.03100
 - Summary: Large Language Models (LLMs) are increasingly deployed as agents that operate in real-world environments, introducing safety risks beyond linguistic harm. Existing agent safety evaluations rely on risk-oriented tasks tailored to specific agent settings, resulting in limited coverage of safety risk...
+
+### ReMiT: RL-Guided Mid-Training for Iterative LLM Evolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.03075
+- Summary: Standard training pipelines for large language models (LLMs) are typically unidirectional, progressing from pre-training to post-training. However, the potential for a bidirectional process--where insights from post-training retroactively improve the pre-trained foundation--remains unexplored. We...
 
 ### IVC-Prune: Revealing the Implicit Visual Coordinates in LVLMs for Vision Token Pruning
 - Source: HF Daily Papers
@@ -2978,46 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.18902
 - Summary: arXiv:2601.18902v1 Announce Type: new Abstract: Speculative Decoding (SD) is a key technique for accelerating Large Language Model (LLM) inference, but it typically requires training a draft model on a large dataset. We approach this problem from a data-centric perspective, finding that not all...
-
-### BabyReasoningBench: Generating Developmentally-Inspired Reasoning Tasks for Evaluating Baby Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.18933
-- Summary: arXiv:2601.18933v1 Announce Type: new Abstract: Traditional evaluations of reasoning capabilities of language models are dominated by adult-centric benchmarks that presuppose broad world knowledge, complex instruction following, and mature pragmatic competence. These assumptions are mismatched to...
-
-### LLMs versus the Halting Problem: Revisiting Program Termination Prediction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.18987
-- Summary: arXiv:2601.18987v1 Announce Type: new Abstract: Determining whether a program terminates is a central problem in computer science. Turing's foundational result established the Halting Problem as undecidable, showing that no algorithm can universally determine termination for all programs and...
-
-### More at Stake: How Payoff and Language Shape LLM Agent Strategies in Cooperation Dilemmas
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.19082
-- Summary: arXiv:2601.19082v1 Announce Type: new Abstract: As LLMs increasingly act as autonomous agents in interactive and multi-agent settings, understanding their strategic behavior is critical for safety, coordination, and AI-driven social and economic systems. We investigate how payoff magnitude and...
-
-### Uncertainty-Aware 3D Emotional Talking Face Synthesis with Emotion Prior Distillation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.19112
-- Summary: arXiv:2601.19112v1 Announce Type: new Abstract: Emotional Talking Face synthesis is pivotal in multimedia and signal processing, yet existing 3D methods suffer from two critical challenges: poor audio-vision emotion alignment, manifested as difficult audio emotion extraction and inadequate control...
-
-### Exploring Weaknesses in Function Call Models via Reinforcement Learning: An Adversarial Data Augmentation Approach
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.19122
-- Summary: arXiv:2601.19122v1 Announce Type: new Abstract: Function call capabilities have become crucial for Large Language Models (LLMs), enabling them to interact more effectively with external tools and APIs. Existing methods for improving the function call capabilities of LLMs rely on data obtained...
-
-### Length-Adaptive Interest Network for Balancing Long and Short Sequence Modeling in CTR Prediction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.19142
-- Summary: arXiv:2601.19142v1 Announce Type: new Abstract: User behavior sequences in modern recommendation systems exhibit significant length heterogeneity, ranging from sparse short-term interactions to rich long-term histories. While longer sequences provide more context, we observe that increasing the...
-
-### TS-Debate: Multimodal Collaborative Debate for Zero-Shot Time Series Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2601.19151
-- Summary: arXiv:2601.19151v1 Announce Type: new Abstract: Recent progress at the intersection of large language models (LLMs) and time series (TS) analysis has revealed both promise and fragility. While LLMs can reason over temporal structure given carefully engineered context, they often struggle with...
 
