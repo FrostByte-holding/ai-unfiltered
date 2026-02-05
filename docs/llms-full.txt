@@ -278,6 +278,12 @@
 - URL: https://www.interconnects.ai/p/why-nvidia-builds-open-models-with
 - Summary: Interconnects interview #17 on the past, present, and future of the Nemotron project.
 
+### X2HDR: HDR Image Generation in a Perceptually Uniform Space
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04814
+- Summary: High-dynamic-range (HDR) formats and displays are becoming increasingly prevalent, yet state-of-the-art image generators (e.g., Stable Diffusion and FLUX) typically remain limited to low-dynamic-range (LDR) output due to the lack of large-scale HDR training data. In this work, we show that existing...
+
 ### Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models
 - Source: The Hacker News
 - Category: security
@@ -366,6 +372,12 @@
 - Category: security
 - URL: https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/
 - Summary: The flaws dubbed LookOut can be exploited for remote code execution and data exfiltration. The post Vulnerabilities Allowed Full Compromise of Google Looker Instances appeared first on SecurityWeek.
+
+### Unmasking Superspreaders: Data-Driven Approaches for Identifying and Comparing Key Influencers of Conspiracy Theories on X.com
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04546
+- Summary: Conspiracy theories can threaten society by spreading misinformation, deepening polarization, and eroding trust in democratic institutions. Social media often fuels the spread of conspiracies, primarily driven by two key actors: Superspreaders -- influential individuals disseminating conspiracy...
 
 ### $C$-$ΔΘ$: Circuit-Restricted Weight Arithmetic for Selective Refusal
 - Source: HF Daily Papers
@@ -456,6 +468,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.04361
 - Summary: Visual AutoRegressive (VAR) modeling has garnered significant attention for its innovative next-scale prediction paradigm. However, mainstream VAR paradigms attend to all tokens across historical scales at each autoregressive step. As the next scale resolution grows, the computational complexity of...
+
+### Mosaic Learning: A Framework for Decentralized Learning with Model Fragmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04352
+- Summary: Decentralized learning (DL) enables collaborative machine learning (ML) without a central server, making it suitable for settings where training data cannot be centrally hosted. We introduce Mosaic Learning, a DL framework that decomposes models into fragments and disseminates them independently...
 
 ### Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks
 - Source: Security Week
@@ -768,6 +786,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.04120
 - Summary: Though Explainable AI (XAI) has made significant advancements, its inclusion in edge and IoT systems is typically ad-hoc and inefficient. Most current methods are "coupled" in such a way that they generate explanations simultaneously with model inferences. As a result, these approaches incur...
+
+### Toward Effective Multimodal Graph Foundation Model: A Divide-and-Conquer Based Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04116
+- Summary: Graph Foundation Models (GFMs) have achieved remarkable success in generalizing across diverse domains. However, they mainly focus on Text-Attributed Graphs (TAGs), leaving Multimodal-Attributed Graphs (MAGs) largely untapped. Developing Multimodal Graph Foundation Models (MGFMs) allows for...
+
+### CoRe: Context-Robust Remasking for Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04096
+- Summary: Standard decoding in Masked Diffusion Models (MDMs) is hindered by context rigidity: tokens are retained based on transient high confidence, often ignoring that early predictions lack full context. This creates cascade effects where initial inconsistencies misguide the remaining generation....
 
 ### Community Evals: Because we're done trusting black-box leaderboards over the community
 - Source: Hugging Face Blog
@@ -2989,34 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2601.19944
 - Summary: arXiv:2601.19944v1 Announce Type: new Abstract: We study model-agnostic post-hoc calibration methods intended to improve probabilistic predictions in supervised binary classification on real i.i.d. tabular data, with particular emphasis on conformal and Venn-based approaches that provide...
-
-### NCSAM Noise-Compensated Sharpness-Aware Minimization for Noisy Label Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.19947
-- Summary: arXiv:2601.19947v1 Announce Type: new Abstract: Learning from Noisy Labels (LNL) presents a fundamental challenge in deep learning, as real-world datasets often contain erroneous or corrupted annotations, \textit{e.g.}, data crawled from Web. Current research focuses on sophisticated label...
-
-### Probabilistic Sensing: Intelligence in Data Sampling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.19953
-- Summary: arXiv:2601.19953v1 Announce Type: new Abstract: Extending the intelligence of sensors to the data-acquisition process - deciding whether to sample or not - can result in transformative energy-efficiency gains. However, making such a decision in a deterministic manner involves risk of losing...
-
-### MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2601.19961
-- Summary: arXiv:2601.19961v1 Announce Type: new Abstract: We present MeanCache, a training-free caching framework for efficient Flow Matching inference. Existing caching methods reduce redundant computation but typically rely on instantaneous velocity information (e.g., feature caching), which often leads to...
-
-### Lowest Span Confidence: A Zero-Shot Metric for Efficient and Black-Box Hallucination Detection in LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.19918
-- Summary: arXiv:2601.19918v1 Announce Type: new Abstract: Hallucinations in Large Language Models (LLMs), i.e., the tendency to generate plausible but non-factual content, pose a significant challenge for their reliable deployment in high-stakes environments. However, existing hallucination detection methods...
-
-### FastWhisper: Adaptive Self-knowledge Distillation for Real-time Automatic Speech Recognition
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2601.19919
-- Summary: arXiv:2601.19919v1 Announce Type: new Abstract: Knowledge distillation is one of the most effective methods for model compression. Previous studies have focused on the student model effectively training the predictive distribution of the teacher model. However, during training, the student model...
 
