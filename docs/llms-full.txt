@@ -6,6 +6,18 @@
 
 ## 2026-02-05
 
+### [AINews] ElevenLabs $500m Series D at $11B, Cerebras $1B Series H at $23B, Vibe Coding -> Agentic Engineering
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at
+- Summary: SOTA Audio models, Fast Chips, and Koding Agents are all you need.
+
+### Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html
+- Summary: A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands. The flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that...
+
 ### Knowledge Model Prompting Increases LLM Performance on Planning Tasks
 - Source: arXiv AI
 - Category: research
@@ -96,6 +108,12 @@
 - URL: https://arxiv.org/abs/2602.04033
 - Summary: arXiv:2602.04033v1 Announce Type: new Abstract: Recent studies evaluate the value orientation of large language models (LLMs) using adapted social surveys, typically by prompting models with survey questions and comparing their responses to average human responses. This paper identifies limitations...
 
+### Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html
+- Summary: Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure. Datadog Security Labs said it observed threat actors associated...
+
 ### Tencent Hunyuan Open-Sources HPC-Ops, Claims Up to 30% Inference Throughput Gains
 - Source: Pandaily
 - Category: chinese-ai
@@ -165,10 +183,22 @@
 - URL: https://status.claude.com/incidents/pvbysfjjrf8m
 - Summary: Feb 4, 16:53 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 4, 16:39 UTCInvestigating - We are currently investigating this issue.
 
+### Let Experts Feel Uncertainty: A Multi-Expert Label Distribution Approach to Probabilistic Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04678
+- Summary: Time series forecasting in real-world applications requires both high predictive accuracy and interpretable uncertainty quantification. Traditional point prediction methods often fail to capture the inherent uncertainty in time series data, while existing probabilistic approaches struggle to...
+
 ### Nemotron ColEmbed V2: Raising the Bar for Multimodal Retrieval with ViDoRe V3’s Top Model
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/nemotron-colembed-v2
+
+### Disentangling meaning from language in LLM-based machine translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04613
+- Summary: Mechanistic Interpretability (MI) seeks to explain how neural networks implement their capabilities, but the scale of Large Language Models (LLMs) has limited prior MI work in Machine Translation (MT) to word-level analyses. We study sentence-level MT from a mechanistic perspective by analyzing...
 
 ### Blockchain Intelligence Firm TRM Labs Raises $70 Million at $1 Billion Valuation
 - Source: Security Week
@@ -193,6 +223,12 @@
 - Category: security
 - URL: https://www.securityweek.com/vulnerabilities-allowed-full-compromise-of-google-looker-instances/
 - Summary: The flaws dubbed LookOut can be exploited for remote code execution and data exfiltration. The post Vulnerabilities Allowed Full Compromise of Google Looker Instances appeared first on SecurityWeek.
+
+### $C$-$ΔΘ$: Circuit-Restricted Weight Arithmetic for Selective Refusal
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04521
+- Summary: Modern deployments require LLMs to enforce safety policies at scale, yet many controls rely on inference-time interventions that add recurring compute cost and serving complexity. Activation steering is widely used, but it requires runtime hooks and scales cost with the number of generations;...
 
 ### The Download: the future of nuclear power plants, and social media-fueled AI hype
 - Source: MIT Tech Review AI
@@ -260,6 +296,12 @@
 - URL: https://www.securityweek.com/fresh-solarwinds-vulnerability-exploited-in-attacks/
 - Summary: The critical-severity SolarWinds Web Help Desk flaw could lead to unauthenticated remote code execution. The post Fresh SolarWinds Vulnerability Exploited in Attacks appeared first on SecurityWeek.
 
+### SparVAR: Exploring Sparsity in Visual AutoRegressive Modeling for Training-Free Acceleration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04361
+- Summary: Visual AutoRegressive (VAR) modeling has garnered significant attention for its innovative next-scale prediction paradigm. However, mainstream VAR paradigms attend to all tokens across historical scales at each autoregressive step. As the next scale resolution grows, the computational complexity of...
+
 ### Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks
 - Source: Security Week
 - Category: security
@@ -313,6 +355,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/are-you-dead-is-not-a-curse-ai-ni-laoji-is-the-antidote-a-digital-philosophy-of-survival-for-china-s-gen-z
 - Summary: China’s Gen Z is turning dark humor and radical self-care into a practical philosophy of survival, using apps like “Are You Dead?” and memes like “ai ni laoji” to confront loneliness, risk, and self-worth in an uncertain era.
+
+### Towards Next-Generation SLAM: A Survey on 3DGS-SLAM Focusing on Performance, Robustness, and Future Directions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.04251
+- Summary: Traditional Simultaneous Localization and Mapping (SLAM) systems often face limitations including coarse rendering quality, insufficient recovery of scene details, and poor robustness in dynamic environments. 3D Gaussian Splatting (3DGS), with its efficient explicit representation and high-quality...
 
 ### CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog
 - Source: The Hacker News
@@ -2975,52 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2601.20950
 - Summary: Quantum state tomography (QST) is essential for validating quantum devices but suffers from exponential scaling in system size. Neural-network quantum states, such as Restricted Boltzmann Machines (RBMs), can efficiently parameterize individual many-body quantum states and have been successfully...
-
-### Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html
-- Summary: Cybersecurity researchers have flagged a new malicious Microsoft Visual Studio Code (VS Code) extension for Moltbot (formerly Clawdbot) on the official Extension Marketplace that claims to be a free artificial intelligence (AI) coding assistant, but stealthily drops a malicious payload on...
-
-### Non-Markov Multi-Round Conversational Image Generation with History-Conditioned MLLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.20911
-- Summary: Conversational image generation requires a model to follow user instructions across multiple rounds of interaction, grounded in interleaved text and images that accumulate as chat history. While recent multimodal large language models (MLLMs) can generate and edit images, most existing multi-turn...
-
-### Roundtables: Why AI Companies Are Betting on Next-Gen Nuclear
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/28/1131340/roundtables-why-ai-companies-are-betting-on-next-gen-nuclear/
-- Summary: AI is driving unprecedented investment for massive data centers and an energy supply that can support its huge computational appetite. One potential source of electricity for these facilities is next-generation nuclear power plants, which could be cheaper to construct and safer to operate than...
-
-### Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html
-- Summary: The "coordinated" cyber attack targeting multiple sites across the Polish power grid has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM. Operational technology (OT) cybersecurity company Dragos, in a new intelligence brief published Tuesday,...
-
-### Actions Workflows Run Start Delays
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/22zx8fw9qt4t
-- Summary: Jan 28, 15:54 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Jan 28, 15:37 UTCUpdate - Actions workflow run starts are delayed. We are actively...
-
-### Li-ViP3D++: Query-Gated Deformable Camera-LiDAR Fusion for End-to-End Perception and Trajectory Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.20720
-- Summary: End-to-end perception and trajectory prediction from raw sensor data is one of the key capabilities for autonomous driving. Modular pipelines restrict information flow and can amplify upstream errors. Recent query-based, fully differentiable perception-and-prediction (PnP) models mitigate these...
-
-### Positive-Unlabeled Reinforcement Learning Distillation for On-Premise Small Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.20687
-- Summary: Due to constraints on privacy, cost, and latency, on-premise deployment of small models is increasingly common. However, most practical pipelines stop at supervised fine-tuning (SFT) and fail to reach the reinforcement learning (RL) alignment stage. The main reason is that RL alignment typically...
-
-### ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.20679
-- Summary: Large language models (LLMs) have achieved remarkable progress in code generation, yet their potential for software protection remains largely untapped. Reverse engineering continues to threaten software security, while traditional virtual machine protection (VMP) relies on rigid, rule-based...
 
