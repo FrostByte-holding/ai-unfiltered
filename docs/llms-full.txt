@@ -6,6 +6,24 @@
 
 ## 2026-02-06
 
+### Elevated error rates on claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/2gjynbb7ydph
+- Summary: Feb 6, 19:30 UTCResolved - This issue has been resolved.
+
+### Incident with Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/41mrvyqnmnmb
+- Summary: Feb 6, 18:36 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 6, 18:36 UTCUpdate - Some GitHub Mobile app users may be unable to add review comments...
+
+### Moltbook was peak AI theater
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/
+- Summary: For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on...
+
 ### China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery
 - Source: The Hacker News
 - Category: security
@@ -332,6 +350,12 @@
 - URL: https://tldr.takara.ai/p/2602.05723
 - Summary: In financial Retrieval-Augmented Generation (RAG) systems, models frequently rely on retrieved documents to generate accurate responses due to the time-sensitive nature of the financial domain. While retrieved documents help address knowledge gaps, model-generated responses still suffer from...
 
+### Anchored Policy Optimization: Mitigating Exploration Collapse Via Support-Constrained Rectification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.05717
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) is increasingly viewed as a tree pruning mechanism. However, we identify a systemic pathology termed Recursive Space Contraction (RSC), an irreversible collapse driven by the combined dynamics of positive sharpening and negative squeezing, where...
+
 ### Researchers Expose Network of 150 Cloned Law Firm Websites in AI-Powered Scam Campaign
 - Source: Security Week
 - Category: security
@@ -398,6 +422,12 @@
 - URL: https://www.securityweek.com/critical-n8n-sandbox-escape-could-lead-to-server-compromise/
 - Summary: The vulnerability could allow attackers to execute arbitrary commands and steal credentials and other secrets. The post Critical N8n Sandbox Escape Could Lead to Server Compromise appeared first on SecurityWeek.
 
+### ArkTS-CodeSearch: A Open-Source ArkTS Dataset for Code Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.05550
+- Summary: ArkTS is a core programming language in the OpenHarmony ecosystem, yet research on ArkTS code intelligence is hindered by the lack of public datasets and evaluation benchmarks. This paper presents a large-scale ArkTS dataset constructed from open-source repositories, targeting code retrieval and...
+
 ### Three questions about next-generation nuclear power, answered
 - Source: MIT Tech Review AI
 - Category: research
@@ -439,6 +469,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/model-best-open-sources-next-generation-multimodal-ai-model-mini-cpm-o-4-5
 - Summary: ModelBest has open-sourced MiniCPM-o 4.5, a full-duplex multimodal AI model designed for real-time interactive dialogue, speech generation, and voice cloning.
+
+### Thermodynamic Limits of Physical Intelligence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.05463
+- Summary: Modern AI systems achieve remarkable capabilities at the cost of substantial energy consumption. To connect intelligence to physical efficiency, we propose two complementary bits-per-joule metrics under explicit accounting conventions: (1) Thermodynamic Epiplexity per Joule -- bits of structural...
 
 ### vivo Confirms Vlog Camera Project, Targeting DJI Pocket with 2026 Release
 - Source: Pandaily
@@ -482,11 +518,23 @@
 - URL: https://www.latent.space/p/ainews-elevenlabs-500m-series-d-at
 - Summary: SOTA Audio models, Fast Chips, and Koding Agents are all you need.
 
+### Reduced-Order Surrogates for Forced Flexible Mesh Coastal-Ocean Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.05416
+- Summary: While POD-based surrogates are widely explored for hydrodynamic applications, the use of Koopman Autoencoders for real-world coastal-ocean modelling remains relatively limited. This paper introduces a flexible Koopman autoencoder formulation that incorporates meteorological forcings and boundary...
+
 ### SciDef: Automating Definition Extraction from Academic Literature with Large Language Models
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.05413
 - Summary: Definitions are the foundation for any scientific work, but with a significant increase in publication numbers, gathering definitions relevant to any keyword has become challenging. We therefore introduce SciDef, an LLM-based pipeline for automated definition extraction. We test SciDef on DefExtra...
+
+### Late-to-Early Training: LET LLMs Learn Earlier, So Faster and Better
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.05393
+- Summary: As Large Language Models (LLMs) achieve remarkable empirical success through scaling model and data size, pretraining has become increasingly critical yet computationally prohibitive, hindering rapid development. Despite the availability of numerous pretrained LLMs developed at significant...
 
 ### IESR:Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models
 - Source: HF Daily Papers
@@ -2972,55 +3020,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/4p8qn3xkqhff
 - Summary: Jan 30, 03:01 UTCResolved - This incident has been resolved.Jan 29, 12:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Jan 29, 05:10 UTCIdentified - The issue has been identified and a fix is being implemented.Jan 29, 04:24 UTCInvestigating - Cloudflare is...
-
-### Rethinking Anonymity Claims in Synthetic Data Generation: A Model-Centric Privacy Attack Perspective
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.22434
-- Summary: Training generative machine learning models to produce synthetic tabular data has become a popular approach for enhancing privacy in data sharing. As this typically involves processing sensitive personal information, releasing either the trained model or generated synthetic datasets can still pose...
-
-
-## 2026-01-29
-
-### Dependence-Aware Label Aggregation for LLM-as-a-Judge via Ising Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.22336
-- Summary: Large-scale AI evaluation increasingly relies on aggregating binary judgments from $K$ annotators, including LLMs used as judges. Most classical methods, e.g., Dawid-Skene or (weighted) majority voting, assume annotators are conditionally independent given the true label $Y\in\{0,1\}$, an...
-
-### The AI Hype Index: Grok makes porn, and Claude Code nails your job
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/
-- Summary: Everyone is panicking because AI is very bad; everyone is panicking because AI is very good. It’s just that you never know which one you’re going to get. Grok is a pornography machine. Claude Code can do anything from building websites to reading your MRI. So of course Gen Z is spooked by what...
-
-### Some users are experiencing delays in purchasing additional API credits
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/29wh90pcv3r1
-- Summary: Jan 29, 19:51 UTCIdentified - Some customers are experiencing delays in having their successful credit purchases applied and in triggering credit auto-reloads. We have identified the issue and are working to resolve.Jan 29, 19:10 UTCInvestigating - We are currently investigating this issue.
-
-### SurrogateSHAP: Training-Free Contributor Attribution for Text-to-Image (T2I) Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.22276
-- Summary: As Text-to-Image (T2I) diffusion models are increasingly used in real-world creative workflows, a principled framework for valuing contributors who provide a collection of data is essential for fair compensation and sustainable data marketplaces. While the Shapley value offers a theoretically...
-
-### FineInstructions: Scaling Synthetic Instructions to Pre-Training Scale
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.22146
-- Summary: Due to limited supervised training data, large language models (LLMs) are typically pre-trained via a self-supervised "predict the next word" objective on a vast amount of unstructured text data. To make the resulting model useful to users, it is further trained on a far smaller amount of...
-
-### DHS is using Google and Adobe AI to make videos
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/
-- Summary: The US Department of Homeland Security is using AI video generators from Google and Adobe to make and edit content shared with the public, a new document reveals. It comes as immigration agencies have flooded social media with content to support President Trump&#8217;s mass deportation agenda—some...
-
-### Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2601.22141
-- Summary: In pruning, the Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all...
 
