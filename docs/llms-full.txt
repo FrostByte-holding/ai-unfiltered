@@ -6,6 +6,18 @@
 
 ## 2026-02-11
 
+### Is a secure AI assistant possible?
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/
+- Summary: AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That...
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/7ylfn6fnwgrq
+- Summary: Feb 11, 19:37 UTCUpdate - We're continuing to work toward mitigation with our capacity provider, and adding capacity.Feb 11, 19:00 UTCUpdate - Actions is experiencing capacity constraints with larger hosted runners, leading to high wait times. Standard hosted labels and self-hosted runners are not...
+
 ### Incident with API Requests
 - Source: GitHub Status
 - Category: incidents
@@ -315,6 +327,12 @@
 - URL: https://www.securityweek.com/6-actively-exploited-zero-days-patched-by-microsoft-with-february-2026-updates/
 - Summary: Microsoft’s Patch Tuesday updates fix roughly 60 vulnerabilities found in the company’s products. The post 6 Actively Exploited Zero-Days Patched by Microsoft With February 2026 Updates appeared first on SecurityWeek.
 
+### Step-resolved data attribution for looped transformers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10097
+- Summary: We study how individual training examples shape the internal computation of looped transformers, where a shared block is applied for $τ$ recurrent iterations to enable latent reasoning. Existing training-data influence estimators such as TracIn yield a single scalar score that aggregates over all...
+
 ### Quantum-Audit: Evaluating the Reasoning Limits of LLMs on Quantum Computing
 - Source: HF Daily Papers
 - Category: open-source
@@ -387,11 +405,29 @@
 - URL: https://www.latent.space/p/scientist-simulator
 - Summary: LLMs (alone) won&#8217;t cure cancer
 
+### MVISTA-4D: View-Consistent 4D World Model with Test-Time Action Inference for Robotic Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09878
+- Summary: World-model-based imagine-then-act becomes a promising paradigm for robotic manipulation, yet existing approaches typically support either purely image-based forecasting or reasoning over partial 3D geometry, limiting their ability to predict complete 4D scene dynamics. This work proposes a novel...
+
 ### SAP Patches Critical CRM, S/4HANA, NetWeaver Vulnerabilities
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/sap-patches-critical-crm-s-4hana-netweaver-vulnerabilities/
 - Summary: SAP has released 26 new and one updated security notes on February 2026 security patch day. The post SAP Patches Critical CRM, S/4HANA, NetWeaver Vulnerabilities appeared first on SecurityWeek.
+
+### Kelix Technique Report
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09843
+- Summary: Autoregressive large language models (LLMs) scale well by expressing diverse tasks as sequences of discrete natural-language tokens and training with next-token prediction, which unifies comprehension and generation under self-supervision. Extending this paradigm to multimodal data requires a...
+
+### Step-Size Stability in Stochastic Optimization: A Theoretical Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09842
+- Summary: We present a theoretical analysis of stochastic optimization methods in terms of their sensitivity with respect to the step size. We identify a key quantity that, for each method, describes how the performance degrades as the step size becomes too large. For convex problems, we show that this...
 
 ### Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools
 - Source: The Hacker News
@@ -500,6 +536,12 @@
 - Category: security
 - URL: https://www.securityweek.com/singapore-rootkits-zero-day-used-in-chinese-attack-on-major-telecom-firms/
 - Summary: China-linked UNC3886 targeted all four major telecom providers, but did not disrupt services or access customer information. The post Singapore: Rootkits, Zero-Day Used in Chinese Attack on Major Telecom Firms appeared first on SecurityWeek.
+
+### AGMark: Attention-Guided Dynamic Watermarking for Large Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09611
+- Summary: Watermarking has emerged as a pivotal solution for content traceability and intellectual property protection in Large Vision-Language Models (LVLMs). However, vision-agnostic watermarks may introduce visually irrelevant tokens and disrupt visual grounding by enforcing indiscriminate pseudo-random...
 
 ### Rashomon Sets and Model Multiplicity in Federated Learning
 - Source: HF Daily Papers
@@ -2981,46 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.00456
 - Summary: arXiv:2602.00456v1 Announce Type: new Abstract: As AI agents integrate into enterprise applications, their evaluation demands benchmarks that reflect the complexity of real-world operations. Instead, existing benchmarks overemphasize open-domains such as code, use narrow accuracy metrics, and lack...
-
-### Dual Latent Memory for Visual Multi-agent System
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.00471
-- Summary: arXiv:2602.00471v1 Announce Type: new Abstract: While Visual Multi-Agent Systems (VMAS) promise to enhance comprehensive abilities through inter-agent collaboration, empirical evidence reveals a counter-intuitive "scaling wall": increasing agent turns often degrades performance while exponentially...
-
-### Replacing Parameters with Preferences: Federated Alignment of Heterogeneous Vision-Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.00485
-- Summary: arXiv:2602.00485v1 Announce Type: new Abstract: VLMs have broad potential in privacy-sensitive domains such as healthcare and finance, yet strict data-sharing constraints render centralized training infeasible. FL mitigates this issue by enabling decentralized training, but practical deployments...
-
-### PCBSchemaGen: Constraint-Guided Schematic Design via LLM for Printed Circuit Boards (PCB)
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.00510
-- Summary: arXiv:2602.00510v1 Announce Type: new Abstract: Printed Circuit Board (PCB) schematic design plays an essential role in all areas of electronic industries. Unlike prior works that focus on digital or analog circuits alone, PCB design must handle heterogeneous digital, analog, and power signals...
-
-### GraphDancer: Training LLMs to Explore and Reason over Graphs via Curriculum Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.02518
-- Summary: arXiv:2602.02518v1 Announce Type: new Abstract: Large language models (LLMs) increasingly rely on external knowledge to improve factuality, yet many real-world knowledge sources are organized as heterogeneous graphs rather than plain text. Reasoning over such graph-structured knowledge poses two...
-
-### Scaled Dot-Product Attention implements projection of inputs onto a common surface
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.02521
-- Summary: arXiv:2602.02521v1 Announce Type: new Abstract: Scaled dot-product attention (SDPA) is a fundamental component responsible for the success of large-language models and other nonlinear signal processing applications. The rationale for SDPA has been based upon "query, key, value" concepts borrowed...
-
-### IMU-1: Sample-Efficient Pre-training of Small Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.02522
-- Summary: arXiv:2602.02522v1 Announce Type: new Abstract: We present IMU-1, a 430M-parameter language model trained on 72B tokens that approaches the benchmark performance of models trained on 56x more data. We describe a validated training recipe combining recent architectural interventions (QK-norm...
-
-### TabularMath: Evaluating Computational Extrapolation in Tabular Learning via Program-Verified Synthesis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.02523
-- Summary: arXiv:2602.02523v1 Announce Type: new Abstract: Standard tabular benchmarks mainly focus on the evaluation of a model's capability to interpolate values inside a data manifold, where models good at performing local statistical smoothing are rewarded. However, there exists a very large category of...
 
