@@ -6,6 +6,18 @@
 
 ## 2026-02-12
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/y7kzv1ps2qrm
+- Summary: Feb 12, 20:34 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 12, 19:59 UTCUpdate - Next Edit Suggestions availability is recovering. We are...
+
+### Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html
+- Summary: Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970 using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as various hacking groups continue to weaponize the tool for accelerating various phases of the cyber...
+
 ### Intermittent disruption with Copilot completions and inline suggestions
 - Source: GitHub Status
 - Category: incidents
@@ -356,6 +368,12 @@
 - URL: https://status.claude.com/incidents/trwd5kvsclv6
 - Summary: Feb 11, 15:43 UTCResolved - This incident has been resolved.Feb 11, 14:52 UTCInvestigating - We are currently investigating this issue.
 
+### Search or Accelerate: Confidence-Switched Position Beam Search for Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10953
+- Summary: Diffusion Language Models (DLMs) generate text by iteratively denoising a masked sequence, repeatedly deciding which positions to commit at each step. Standard decoding follows a greedy rule: unmask the most confident positions, yet this local choice can lock the model into a suboptimal unmasking...
+
 ### Towards Learning a Generalizable 3D Scene Representation from 2D Observations
 - Source: HF Daily Papers
 - Category: open-source
@@ -367,6 +385,12 @@
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-identity-under-attack-strengthen-your-identity-defenses/
 - Summary: Gain practical insights on balancing security, user experience, and operational efficiency while staying ahead of increasingly sophisticated threats. The post Webinar Today: Identity Under Attack &#8211; Strengthen Your Identity Defenses appeared first on SecurityWeek.
+
+### Spatial-Morphological Modeling for Multi-Attribute Imputation of Urban Blocks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10923
+- Summary: Accurate reconstruction of missing morphological indicators of a city is crucial for urban planning and data-driven analysis. This study presents the spatial-morphological (SM) imputer tool, which combines data-driven morphological clustering with neighborhood-based methods to reconstruct missing...
 
 ### Elevated errors on Claude Sonnet 4.5
 - Source: Anthropic Status
@@ -403,6 +427,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html
 - Summary: It's Patch Tuesday, which means a number of software vendors have released patches for various security vulnerabilities impacting their products and services. Microsoft issued fixes for 59 flaws, including six actively exploited zero-days in various Windows components that could be abused to bypass...
+
+### Self-Supervised Learning for Speaker Recognition: A study and review
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10829
+- Summary: Deep learning models trained in a supervised setting have revolutionized audio and speech processing. However, their performance inherently depends on the quantity of human-annotated data, making them costly to scale and prone to poor generalization under unseen conditions. To address these...
 
 ### Security in the Dark: Recognizing the Signs of Hidden Information
 - Source: Security Week
@@ -487,6 +517,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html
 - Summary: Cybersecurity researchers have disclosed details of a new botnet operation called SSHStalker that relies on the Internet Relay Chat (IRC) communication protocol for command-and-control (C2) purposes. "The toolset blends stealth helpers with legacy-era Linux exploitation: Alongside log cleaners...
+
+### Evaluation metrics for temporal preservation in synthetic longitudinal patient data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10643
+- Summary: This study introduces a set of metrics for evaluating temporal preservation in synthetic longitudinal patient data, defined as artificially generated data that mimic real patients' repeated measurements over time. The proposed metrics assess how synthetic data reproduces key temporal...
 
 ### Google-Intel Security Audit Reveals Severe TDX Vulnerability Allowing Full Compromise
 - Source: Security Week
@@ -739,6 +775,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.09372
 - Summary: arXiv:2602.09372v1 Announce Type: new Abstract: Large Language Model agents demonstrate potential in solving real-world problems via tools, yet generalist intelligence is bottlenecked by scarce high-quality, long-horizon data. Existing methods collect privacy-constrained API logs or generate...
+
+### 3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10516
+- Summary: Audio-driven 3D talking avatar generation is increasingly important in virtual communication, digital humans, and interactive media, where avatars must preserve identity, synchronize lip motion with speech, express emotion, and exhibit lifelike spatial dynamics, collectively defining a broader...
 
 ### Med-SegLens: Latent-Level Model Diffing for Interpretable Medical Image Segmentation
 - Source: HF Daily Papers
@@ -2981,46 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.03911
 - Summary: arXiv:2602.03911v1 Announce Type: new Abstract: The target network update frequency (TUF) is a central stabilization mechanism in (deep) Q-learning. However, their selection remains poorly understood and is often treated merely as another tunable hyperparameter rather than as a principled design...
-
-### Echo State Networks for Time Series Forecasting: Hyperparameter Sweep and Benchmarking
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.03912
-- Summary: arXiv:2602.03912v1 Announce Type: new Abstract: This paper investigates the forecasting performance of Echo State Networks (ESNs) for univariate time series forecasting using a subset of the M4 Forecasting Competition dataset. Focusing on monthly and quarterly time series with at most 20 years of...
-
-### Causal Discovery for Cross-Sectional Data Based on Super-Structure and Divide-and-Conquer
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.03914
-- Summary: arXiv:2602.03914v1 Announce Type: new Abstract: This paper tackles a critical bottleneck in Super-Structure-based divide-and-conquer causal discovery: the high computational cost of constructing accurate Super-Structures--particularly when conditional independence (CI) tests are expensive and...
-
-### SpecMD: A Comprehensive Study On Speculative Expert Prefetching
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.03921
-- Summary: arXiv:2602.03921v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable sparse expert activation, meaning that only a subset of the model's parameters is used during each inference. However, to translate this sparsity into practical performance, an expert caching mechanism is...
-
-### Online Vector Quantized Attention
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.03922
-- Summary: arXiv:2602.03922v1 Announce Type: new Abstract: Standard sequence mixing layers used in language models struggle to balance efficiency and performance. Self-attention performs well on long context tasks but has expensive quadratic compute and linear memory costs, while linear attention and SSMs use...
-
-### Abstraction Induces the Brain Alignment of Language and Speech Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.04081
-- Summary: arXiv:2602.04081v1 Announce Type: new Abstract: Research has repeatedly demonstrated that intermediate hidden states extracted from large language models and speech audio models predict measured brain response to natural language stimuli. Yet, very little is known about the representation...
-
-### Expert Selections In MoE Models Reveal (Almost) As Much As Text
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.04105
-- Summary: arXiv:2602.04105v1 Announce Type: new Abstract: We present a text-reconstruction attack on mixture-of-experts (MoE) language models that recovers tokens from expert selections alone. In MoE models, each token is routed to a subset of expert subnetworks; we show these routing decisions leak...
-
-### DELTA: Deliberative Multi-Agent Reasoning with Reinforcement Learning for Multimodal Psychological Counseling
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.04112
-- Summary: arXiv:2602.04112v1 Announce Type: new Abstract: Psychological counseling is a fundamentally multimodal cognitive process in which clinicians integrate verbal content with visual and vocal cues to infer clients' mental states and respond empathically. However, most existing language-model-based...
 
