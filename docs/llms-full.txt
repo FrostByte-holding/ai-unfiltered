@@ -6,6 +6,18 @@
 
 ## 2026-02-13
 
+### UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html
+- Summary: A previously unknown threat actor tracked as UAT-9921 has been observed leveraging a new modular framework called VoidLink in its campaigns targeting the technology and financial services sectors, according to findings from Cisco Talos. "This threat actor seems to have been active since 2019,...
+
+### Network Performance Issues in Delhi, India
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/q9gxb2cvymt5
+- Summary: Feb 13, 14:30 UTCResolved - Cloudflare has resolved an issue regarding network performance in Delhi, India. The incident occurred between 14:38 and 14:40UTC. Performance has returned to baseline levels, and we are continuing to monitor the region to ensure stability.
+
 ### Elevated 4xx errors being returned from Cloudflare AI Search
 - Source: Cloudflare Status
 - Category: incidents
@@ -240,6 +252,11 @@
 - URL: https://pandaily.com/alibaba-s-qwen-app-hits-73-5-million-daily-users-during-lunar-new-year-ai-orders-top-120-million-in-six-days
 - Summary: Alibaba’s Qwen hit 73.5M DAU during Lunar New Year, closing in on the industry leader, after its “$432M free order campaign” drove 120M+ AI-powered transactions in six days.
 
+### Custom Kernels for All from Codex and Claude
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/custom-cuda-kernels-agent-skills
+
 
 ## 2026-02-12
 
@@ -260,6 +277,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/y7kzv1ps2qrm
 - Summary: Feb 12, 20:34 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 12, 19:59 UTCUpdate - Next Edit Suggestions availability is recovering. We are...
+
+### Think like a Scientist: Physics-guided LLM Agent for Equation Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.12259
+- Summary: Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most...
 
 ### Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support
 - Source: The Hacker News
@@ -321,11 +344,23 @@
 - URL: https://tldr.takara.ai/p/2602.12021
 - Summary: Linear recurrent networks (LRNNs) and linear state space models (SSMs) promise computational and memory efficiency on long-sequence modeling tasks, yet their diagonal state transitions limit expressivity. Dense and nonlinear architectures (e.g., LSTMs) on the other hand are provably more...
 
+### Disentangling Ambiguity from Instability in Large Language Models: A Clinical Text-to-SQL Case Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.12015
+- Summary: Deploying large language models for clinical Text-to-SQL requires distinguishing two qualitatively different causes of output diversity: (i) input ambiguity that should trigger clarification, and (ii) model instability that should trigger human review. We propose CLUES, a framework that models...
+
 ### Can Local Vision-Language Models improve Activity Recognition over Vision Transformers? -- Case Study on Newborn Resuscitation
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.12002
 - Summary: Accurate documentation of newborn resuscitation is essential for quality improvement and adherence to clinical guidelines, yet remains underutilized in practice. Previous work using 3D-CNNs and Vision Transformers (ViT) has shown promising results in detecting key activities from newborn...
+
+### TAVAE: A VAE with Adaptable Priors Explains Contextual Modulation in the Visual Cortex
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11956
+- Summary: The brain interprets visual information through learned regularities, a computation formalized as probabilistic inference under a prior. The visual cortex establishes priors for this inference, some delivered through established top-down connections that inform low-level cortices about statistics...
 
 ### The Download: AI-enhanced cybercrime, and secure AI assistants
 - Source: MIT Tech Review AI
@@ -338,6 +373,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.11903
 - Summary: No-reference video quality assessment (NR-VQA) for gaming videos is challenging due to limited human-rated datasets and unique content characteristics including fast motion, stylized graphics, and compression artifacts. We present MTL-VQA, a multi-task learning framework that uses full-reference...
+
+### LLM-based Triplet Extraction from Financial Reports
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11886
+- Summary: Corporate financial reports are a valuable source of structured knowledge for Knowledge Graph construction, but the lack of annotated ground truth in this domain makes evaluation difficult. We present a semi-automated pipeline for Subject-Predicate-Object triplet extraction that uses...
 
 ### ApolloMD Data Breach Impacts 626,000 Individuals
 - Source: Security Week
@@ -368,6 +409,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-to-enable-windows-baseline-security-with-new-runtime-integrity-safeguards/
 - Summary: Windows will have runtime safeguards enabled by default, ensuring that only properly signed software runs. The post Microsoft to Enable &#8216;Windows Baseline Security&#8217; With New Runtime Integrity Safeguards appeared first on SecurityWeek.
+
+### JEPA-VLA: Video Predictive Embedding is Needed for VLA Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11832
+- Summary: Recent vision-language-action (VLA) models built upon pretrained vision-language models (VLMs) have achieved significant improvements in robotic manipulation. However, current VLAs still suffer from low sample efficiency and limited generalization. This paper argues that these limitations are...
 
 ### Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns
 - Source: Security Week
@@ -2976,55 +3023,4 @@
 - Category: security
 - URL: https://www.securityweek.com/zscaler-acquires-browser-security-firm-squarex/
 - Summary: Zscaler says the acquisition will allow customers to embed lightweight extensions into any browser, providing increased security and eliminating the need for third-party browsers. The post Zscaler Acquires Browser Security Firm SquareX appeared first on SecurityWeek.
-
-
-## 2026-02-05
-
-### The First Mechanistic Interpretability Frontier Lab — Myra Deng & Mark Bissell of Goodfire AI
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/goodfire
-- Summary: Tickets for AIE Miami and AIE Europe are on sale now!
-
-### InterPrior: Scaling Generative Control for Physics-Based Human-Object Interactions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.06035
-- Summary: Humans rarely plan whole-body interactions with objects at the level of explicit whole-body movements. High-level intentions, such as affordance, define the goal, while coordinated balance, contact, and manipulation can emerge naturally from underlying physical and motor priors. Scaling such priors...
-
-### RISE-Video: Can Video Generators Decode Implicit World Rules?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.05986
-- Summary: While generative video models have achieved remarkable visual fidelity, their capacity to internalize and reason over implicit world rules remains a critical yet under-explored frontier. To bridge this gap, we present RISE-Video, a pioneering reasoning-oriented benchmark for Text-Image-to-Video...
-
-### Better Source, Better Flow: Learning Condition-Dependent Source Distribution for Flow Matching
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.05951
-- Summary: Flow matching has recently emerged as a promising alternative to diffusion-based generative models, particularly for text-to-image generation. Despite its flexibility in allowing arbitrary source distributions, most existing approaches rely on a standard Gaussian distribution, a choice inherited...
-
-### AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html
-- Summary: The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds. Cloudflare, which automatically detected and mitigated the activity, said it's part of a growing number...
-
-### Regularized Calibration with Successive Rounding for Post-Training Quantization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.05902
-- Summary: Large language models (LLMs) deliver robust performance across diverse applications, yet their deployment often faces challenges due to the memory and latency costs of storing and accessing billions of parameters. Post-training quantization (PTQ) enables efficient inference by mapping pretrained...
-
-### Dr. Kernel: Reinforcement Learning Done Right for Triton Kernel Generations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.05885
-- Summary: High-quality kernel is critical for scalable AI systems, and enabling LLMs to generate such code would advance AI development. However, training LLMs for this task requires sufficient data, a robust environment, and the process is often vulnerable to reward hacking and lazy optimization. In these...
-
-### A Guide to Large Language Models in Modeling and Simulation: From Core Techniques to Critical Challenges
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.05883
-- Summary: Large language models (LLMs) have rapidly become familiar tools to researchers and practitioners. Concepts such as prompting, temperature, or few-shot examples are now widely recognized, and LLMs are increasingly used in Modeling & Simulation (M&amp;S) workflows. However, practices that appear...
 
