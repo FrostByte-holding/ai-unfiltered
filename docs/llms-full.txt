@@ -6,6 +6,12 @@
 
 ## 2026-02-14
 
+### Issues with Code Execution Tool
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/49s6mwrdyz8j
+- Summary: Feb 14, 16:27 UTCMonitoring - We have identified the issue with the Code Execution tool and have rolled out a fix. We're monitoring to confirm resolution.Feb 14, 16:13 UTCInvestigating - We're currently investigating an issue where API requests using the Code Execution Tool are erroring for users.
+
 ### Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data
 - Source: Security Week
 - Category: security
@@ -641,6 +647,12 @@
 - URL: https://tldr.takara.ai/p/2602.11956
 - Summary: The brain interprets visual information through learned regularities, a computation formalized as probabilistic inference under a prior. The visual cortex establishes priors for this inference, some delivered through established top-down connections that inform low-level cortices about statistics...
 
+### Who Does What? Archetypes of Roles Assigned to LLMs During Human-AI Decision-Making
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11924
+- Summary: LLMs are increasingly supporting decision-making across high-stakes domains, requiring critical reflection on the socio-technical factors that shape how humans and LLMs are assigned roles and interact during human-in-the-loop decision-making. This paper introduces the concept of human-LLM...
+
 ### The Download: AI-enhanced cybercrime, and secure AI assistants
 - Source: MIT Tech Review AI
 - Category: research
@@ -706,6 +718,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/5txsjlt9299p
 - Summary: Feb 12, 11:12 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 12, 11:01 UTCUpdate - We have resolved the issue and are seeing full recovery.Feb 12,...
+
+### CAAL: Confidence-Aware Active Learning for Heteroscedastic Atmospheric Regression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11825
+- Summary: Quantifying the impacts of air pollution on health and climate relies on key atmospheric particle properties such as toxicity and hygroscopicity. However, these properties typically require complex observational techniques or expensive particle-resolved numerical simulations, limiting the...
 
 ### AI is already making online crimes easier. It could get much worse.
 - Source: MIT Tech Review AI
@@ -1363,6 +1381,12 @@
 - URL: https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-addressed-by-siemens-schneider-aveva-phoenix-contact/
 - Summary: Several vulnerabilities have been patched and mitigated across the industrial giants’ products. The post ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Schneider, Aveva, Phoenix Contact appeared first on SecurityWeek.
 
+### Flow-Enabled Generalization to Human Demonstrations in Few-Shot Imitation Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10594
+- Summary: Imitation Learning (IL) enables robots to learn complex skills from demonstrations without explicit task modeling, but it typically requires large amounts of demonstrations, creating significant collection costs. Prior work has investigated using flow as an intermediate representation to enable the...
+
 ### XPeng Aridge’s “Land Aircraft Carrier” Flying Car Passes –35°C Extreme Tests, Set for 2026 Rollout
 - Source: Pandaily
 - Category: chinese-ai
@@ -1725,6 +1749,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.10085
 - Summary: Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is...
+
+### Simple Image Processing and Similarity Measures Can Link Data Samples across Databases through Brain MRI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10043
+- Summary: Head Magnetic Resonance Imaging (MRI) is routinely collected and shared for research under strict regulatory frameworks. These frameworks require removing potential identifiers before sharing. But, even after skull stripping, the brain parenchyma contains unique signatures that can match other MRIs...
 
 ### EU Unconditionally Approves Google’s $32B Acquisition of Wiz
 - Source: Security Week
@@ -2479,6 +2509,12 @@
 - URL: https://tldr.takara.ai/p/2602.08603
 - Summary: Composed image retrieval (CIR) requires complex reasoning over heterogeneous visual and textual constraints. Existing approaches largely fall into two paradigms: unified embedding retrieval, which suffers from single-model myopia, and heuristic agentic retrieval, which is limited by suboptimal,...
 
+### Beyond Scalar Scores: Reinforcement Learning for Error-Aware Quality Estimation of Machine Translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.08600
+- Summary: Quality Estimation (QE) aims to assess the quality of machine translation (MT) outputs without relying on reference translations, making it essential for real-world, large-scale MT evaluation. Large Language Models (LLMs) have shown significant promise in advancing the field of quality estimation...
+
 ### Recent SolarWinds Flaws Potentially Exploited as Zero-Days
 - Source: Security Week
 - Category: security
@@ -2987,43 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.05249
 - Summary: arXiv:2602.05249v1 Announce Type: new Abstract: As general intelligent agents are poised for widespread deployment in diverse households, evaluation tailored to each unique unseen 3D environment has become a critical prerequisite. However, existing benchmarks suffer from severe data contamination...
-
-### Beyond Cosine Similarity
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05266
-- Summary: arXiv:2602.05266v1 Announce Type: new Abstract: Cosine similarity, the standard metric for measuring semantic similarity in vector spaces, is mathematically grounded in the Cauchy-Schwarz inequality, which inherently limits it to capturing linear relationships--a constraint that fails to model the...
-
-### [AINews] AI vs SaaS: The Unreasonable Effectiveness of Centralizing the AI Heartbeat
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-ai-vs-saas-the-unreasonable
-- Summary: A quiet day lets us reflect on a through line from OpenClaw to Frontier to MCP UI to Cursor/Anthropic Teams
-
-
-## 2026-02-06
-
-### Elevated error rates on claude.ai
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/2gjynbb7ydph
-- Summary: Feb 6, 19:30 UTCResolved - This issue has been resolved.
-
-### Incident with Pull Requests
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/41mrvyqnmnmb
-- Summary: Feb 6, 18:36 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 6, 18:36 UTCUpdate - Some GitHub Mobile app users may be unable to add review comments...
-
-### Moltbook was peak AI theater
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/
-- Summary: For a few days this week the hottest new hangout on the internet was a vibe-coded Reddit clone called Moltbook, which billed itself as a social network for bots. As the website’s tagline puts it: “Where AI agents share, discuss, and upvote. Humans welcome to observe.” We observed! Launched on...
-
-### China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html
-- Summary: Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife that's operated by China-nexus threat actors since at least 2019. The framework comprises seven Linux-based implants that are designed to perform deep packet...
 

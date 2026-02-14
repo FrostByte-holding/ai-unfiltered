@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 14 Feb 2026 12:55:12 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2026 16:34:03 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Issues with Code Execution Tool</title>
+            <link>https://status.claude.com/incidents/49s6mwrdyz8j</link>
+            <guid>https://status.claude.com/incidents/49s6mwrdyz8j</guid>
+            <pubDate>Sat, 14 Feb 2026 16:27:37 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/49s6mwrdyz8j">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 14, 16:27 UTCMonitoring - We have identified the issue with the Code Execution tool and have rolled out a fix. We&#x27;re monitoring to confirm resolution.Feb 14, 16:13 UTCInvestigating - We&#x27;re currently investigating an issue where API requests using the Code Execution Tool are erroring for users.</description>
+        </item>
         <item>
             <title>Over 300 Malicious Chrome Extensions Caught Leaking or Stealing User Data</title>
             <link>https://www.securityweek.com/over-300-malicious-chrome-extensions-caught-leaking-or-stealing-user-data/</link>
@@ -448,15 +457,6 @@
             <source url="https://tldr.takara.ai/p/2602.12276">HF Daily Papers</source>
             <category>open-source</category>
             <description>Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly...</description>
-        </item>
-        <item>
-            <title>Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data</title>
-            <link>https://tldr.takara.ai/p/2602.12267</link>
-            <guid>https://tldr.takara.ai/p/2602.12267</guid>
-            <pubDate>Thu, 12 Feb 2026 18:54:57 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.12267">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio. Instead of this static design, we propose treating the corruption...</description>
         </item>
     </channel>
 </rss>
