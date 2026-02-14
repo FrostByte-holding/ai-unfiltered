@@ -6,6 +6,12 @@
 
 ## 2026-02-14
 
+### Delays in Support Email Processing
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KHENBA61A9PJHE092HXW60RA
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.
+
 ### Issues with Code Execution Tool
 - Source: Anthropic Status
 - Category: incidents
@@ -1081,6 +1087,12 @@
 - URL: https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/
 - Summary: AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That...
 
+### Evaluating Alignment of Behavioral Dispositions in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11328
+- Summary: As LLMs integrate into our daily lives, understanding their behavior becomes essential. In this work, we focus on behavioral dispositions$-$the underlying tendencies that shape responses in social contexts$-$and introduce a framework to study how closely the dispositions expressed by LLMs align...
+
 ### Nevada Unveils New Statewide Data Classification Policy Months After Cyberattack
 - Source: Security Week
 - Category: security
@@ -1762,6 +1774,12 @@
 - URL: https://www.securityweek.com/eu-unconditionally-approves-googles-32b-acquisition-of-wiz/
 - Summary: The European Commission’s ruling is based on extensive feedback from customers and rival cloud security and infrastructure vendors. The post EU Unconditionally Approves Google&#8217;s $32B Acquisition of Wiz appeared first on SecurityWeek.
 
+### MEVER: Multi-Modal and Explainable Claim Verification with Graph-based Evidence Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10023
+- Summary: Verifying the truthfulness of claims usually requires joint multi-modal reasoning over both textual and visual evidence, such as analyzing both textual caption and chart image for claim verification. In addition, to make the reasoning process transparent, a textual explanation is necessary to...
+
 ### DPRK Operatives Impersonate Professionals on LinkedIn to Infiltrate Companies
 - Source: The Hacker News
 - Category: security
@@ -2037,6 +2055,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/noematrix-secures-series-a-funding-to-accelerate-embodied-ai-development
 - Summary: Noematrix completes Series A financing to accelerate the development and real-world deployment of its versatile embodied AI solutions.
+
+### Listen to the Layers: Mitigating Hallucinations with Inter-Layer Disagreement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09486
+- Summary: Pretrained Large Language Models (LLMs) are prone to generating fluent yet factually incorrect text-a phenomenon known as hallucinations, undermining their reliability and utility in downstream tasks. We hypothesize that a generated text span's factuality is correlated with its representational...
 
 ### RSAC Releases Quantickle Open Source Threat Intelligence Visualization Tool
 - Source: Security Week
@@ -2901,6 +2925,12 @@
 - URL: https://tldr.takara.ai/p/2602.08025
 - Summary: World models aim to understand, remember, and predict dynamic visual environments, yet a unified benchmark for evaluating their fundamental abilities remains lacking. To address this gap, we introduce MIND, the first open-domain closed-loop revisited benchmark for evaluating Memory consIstency and...
 
+### SparseEval: Efficient Evaluation of Large Language Models by Sparse Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.07909
+- Summary: As large language models (LLMs) continue to scale up, their performance on various downstream tasks has significantly improved. However, evaluating their capabilities has become increasingly expensive, as performing inference on a large number of benchmark samples incurs high computational costs....
+
 ### OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills
 - Source: The Hacker News
 - Category: security
@@ -2933,6 +2963,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/mm4pj02mp4gq
 - Summary: Feb 7, 16:31 UTCResolved - As of 16:27 UTC / 8:27 PT the incident has been resolved.Feb 7, 16:08 UTCIdentified - Starting with 15:15 UTC / 7:15 PT we've seen errors on our API for several models. We have identified the issue and are rolling out a fix.Feb 7, 15:59 UTCInvestigating - We are currently...
+
+### Visualizing the Invisible: Enhancing Radiologist Performance in Breast Mammography via Task-Driven Chromatic Encoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.07568
+- Summary: Purpose:Mammography screening is less sensitive in dense breasts, where tissue overlap and subtle findings increase perceptual difficulty. We present MammoColor, an end-to-end framework with a Task-Driven Chromatic Encoding (TDCE) module that converts single-channel mammograms into TDCE-encoded...
 
 ### Organizations Urged to Replace Discontinued Edge Devices
 - Source: Security Week
@@ -2987,40 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.05133
 - Summary: arXiv:2602.05133v1 Announce Type: new Abstract: Traffic prediction in data-scarce, cross-city settings is challenging due to complex nonlinear dynamics and domain shifts. Existing methods often fail to capture traffic's inherent chaotic nature for effective few-shot learning. We propose CAST-CKT, a...
-
-### HugRAG: Hierarchical Causal Knowledge Graph Design for RAG
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05143
-- Summary: arXiv:2602.05143v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) has enhanced large language models by enabling access to external knowledge, with graph-based RAG emerging as a powerful paradigm for structured retrieval and reasoning. However, existing graph-based methods often...
-
-### First Proof
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05192
-- Summary: arXiv:2602.05192v1 Announce Type: new Abstract: To assess the ability of current AI systems to correctly answer research-level mathematics questions, we share a set of ten math questions which have arisen naturally in the research process of the authors. The questions had not been shared publicly...
-
-### Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05195
-- Summary: arXiv:2602.05195v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) promises grounded question answering, yet domain settings with multiple heterogeneous knowledge bases (KBs) remain challenging. In Chinese Tibetan medicine, encyclopedia entries are often dense and easy to match,...
-
-### Surgery: Mitigating Harmful Fine-Tuning for Large Language Models via Attention Sink
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05228
-- Summary: arXiv:2602.05228v1 Announce Type: new Abstract: Harmful fine-tuning can invalidate safety alignment of large language models, exposing significant safety risks. In this paper, we utilize the attention sink mechanism to mitigate harmful fine-tuning. Specifically, we first measure a statistic named...
-
-### Explainable AI: A Combined XAI Framework for Explaining Brain Tumour Detection Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05240
-- Summary: arXiv:2602.05240v1 Announce Type: new Abstract: This study explores the integration of multiple Explainable AI (XAI) techniques to enhance the interpretability of deep learning models for brain tumour detection. A custom Convolutional Neural Network (CNN) was developed and trained on the BraTS 2021...
-
-### Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05249
-- Summary: arXiv:2602.05249v1 Announce Type: new Abstract: As general intelligent agents are poised for widespread deployment in diverse households, evaluation tailored to each unique unseen 3D environment has become a critical prerequisite. However, existing benchmarks suffer from severe data contamination...
 
