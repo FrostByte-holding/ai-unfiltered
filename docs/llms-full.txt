@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-15
+
+### Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html
+- Summary: Microsoft has disclosed details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (DNS) lookup to retrieve the next-stage payload. Specifically, the attack relies on using the...
+
+
 ## 2026-02-14
 
 ### Delays in Support Email Processing
@@ -719,6 +728,12 @@
 - URL: https://tldr.takara.ai/p/2602.11832
 - Summary: Recent vision-language-action (VLA) models built upon pretrained vision-language models (VLMs) have achieved significant improvements in robotic manipulation. However, current VLAs still suffer from low sample efficiency and limited generalization. This paper argues that these limitations are...
 
+### Towards Sustainable Investment Policies Informed by Opponent Shaping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11829
+- Summary: Addressing climate change requires global coordination, yet rational economic actors often prioritize immediate gains over collective welfare, resulting in social dilemmas. InvestESG is a recently proposed multi-agent simulation that captures the dynamic interplay between investors and companies...
+
 ### Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns
 - Source: Security Week
 - Category: security
@@ -1357,6 +1372,12 @@
 - URL: https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html
 - Summary: Cybersecurity researchers have disclosed details of a new botnet operation called SSHStalker that relies on the Internet Relay Chat (IRC) communication protocol for command-and-control (C2) purposes. "The toolset blends stealth helpers with legacy-era Linux exploitation: Alongside log cleaners...
 
+### The Magic Correlations: Understanding Knowledge Transfer from Pretraining to Supervised Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11217
+- Summary: Understanding how language model capabilities transfer from pretraining to supervised fine-tuning (SFT) is fundamental to efficient model development and data curation. In this work, we investigate four core questions: RQ1. To what extent do accuracy and confidence rankings established during...
+
 ### UMEM: Unified Memory Extraction and Management Framework for Generalizable Memory
 - Source: HF Daily Papers
 - Category: open-source
@@ -1716,6 +1737,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/zhipu-ai-s-market-cap-surges-past-hk-150-billion-nearly-tripling-its-ipo-valuation
 - Summary: Zhipu AI’s stock surged past HK$150 billion in market value as speculation intensifies that OpenRouter’s mysterious “Pony Alpha” model may be its upcoming GLM-5.
+
+### A Dual-Stream Physics-Augmented Unsupervised Architecture for Runtime Embedded Vehicle Health Monitoring
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10432
+- Summary: Runtime quantification of vehicle operational intensity is essential for predictive maintenance and condition monitoring in commercial and heavy-duty fleets. Traditional metrics like mileage fail to capture mechanical burden, while unsupervised deep learning models detect statistical anomalies,...
 
 ### When are We Worried? Temporal Trends of Anxiety and What They Reveal about Us
 - Source: HF Daily Papers
@@ -2395,6 +2422,12 @@
 - URL: https://tldr.takara.ai/p/2602.10154
 - Summary: Multimodal Large Language Models (MLLMs) enhance collaboration in Extended Reality (XR) environments by enabling flexible object and animation creation through the combination of natural language and visual inputs. However, visual data captured by XR headsets includes real-world backgrounds that...
 
+### CausalGDP: Causality-Guided Diffusion Policies for Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09207
+- Summary: Reinforcement learning (RL) has achieved remarkable success in a wide range of sequential decision-making problems. Recent diffusion-based policies further improve RL by modeling complex, high-dimensional action distributions. However, existing diffusion policies primarily rely on statistical...
+
 ### Fair Feature Importance Scores via Feature Occlusion and Permutation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2664,6 +2697,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.08430
 - Summary: We revisit the problem of training attention-based sparse image matching models for various local features. We first identify one critical design choice that has been previously overlooked, which significantly impacts the performance of the LightGlue model. We then investigate the role of detectors...
+
+### Prism: Spectral-Aware Block-Sparse Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.08426
+- Summary: Block-sparse attention is promising for accelerating long-context LLM pre-filling, yet identifying relevant blocks efficiently remains a bottleneck. Existing methods typically employ coarse-grained attention as a proxy for block importance estimation, but often resort to expensive token-level...
 
 ### New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog
 - Source: Security Week
@@ -2982,42 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/hesai-partners-with-grab-to-accelerate-large-scale-li-dar-adoption-in-southeast-asia
 - Summary: Hesai has partnered with Grab to make the Southeast Asian tech giant its exclusive LiDAR distributor, accelerating large-scale adoption across robotics and autonomous mobility in the region.
-
-### Transformers.js v4 Preview: Now Available on NPM!
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/transformersjs-v4
-
-
-## 2026-02-08
-
-### MIND: Benchmarking Memory Consistency and Action Control in World Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08025
-- Summary: World models aim to understand, remember, and predict dynamic visual environments, yet a unified benchmark for evaluating their fundamental abilities remains lacking. To address this gap, we introduce MIND, the first open-domain closed-loop revisited benchmark for evaluating Memory consIstency and...
-
-### A Unified Density Operator View of Flow Control and Merging
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08012
-- Summary: Recent progress in large-scale flow and diffusion models raised two fundamental algorithmic challenges: (i) control-based reward adaptation of pre-trained flows, and (ii) integration of multiple models, i.e., flow merging. While current approaches address them separately, we introduce a unifying...
-
-### MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.07993
-- Summary: Recent advances in instruction-based image editing have shown remarkable progress. However, existing methods remain limited to relatively simple editing operations, hindering real-world applications that require complex and compositional instructions. In this work, we address these limitations from...
-
-### SparseEval: Efficient Evaluation of Large Language Models by Sparse Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.07909
-- Summary: As large language models (LLMs) continue to scale up, their performance on various downstream tasks has significantly improved. However, evaluating their capabilities has become increasingly expensive, as performing inference on a large number of benchmark samples incurs high computational costs....
-
-### OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html
-- Summary: OpenClaw (formerly Moltbot and Clawdbot) has announced that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem. "All skills published to ClawHub are now...
 
