@@ -1786,6 +1786,12 @@
 - URL: https://thehackernews.com/2026/02/dprk-operatives-impersonate.html
 - Summary: The information technology (IT) workers associated with the Democratic People's Republic of Korea (DPRK) are now applying to remote positions using real LinkedIn accounts of individuals they're impersonating, marking a new escalation of the fraudulent scheme. "These profiles often have verified...
 
+### ADORA: Training Reasoning Models with Dynamic Advantage Estimation on Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10019
+- Summary: Reinforcement learning has become a cornerstone technique for developing reasoning models in complex tasks, ranging from mathematical problem-solving to imaginary reasoning. The optimization of these models typically relies on policy gradient methods, whose efficacy hinges on the accurate...
+
 ### Patch Tuesday: Adobe Fixes 44 Vulnerabilities in Creative Apps
 - Source: Security Week
 - Category: security
@@ -2079,6 +2085,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.09457
 - Summary: We study online learning in the random-order model, where the multiset of loss functions is chosen adversarially but revealed in a uniformly random order. Building on the batch-to-online conversion by Dong and Yoshida (2023), we show that if an offline algorithm admits a...
+
+### Breaking the Pre-Sampling Barrier: Activation-Informed Difficulty-Aware Self-Consistency
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09438
+- Summary: Self-Consistency (SC) is an effective decoding strategy that improves the reasoning performance of Large Language Models (LLMs) by generating multiple chain-of-thought reasoning paths and selecting the final answer via majority voting. However, it suffers from substantial inference costs because it...
 
 ### Beyond Input-Output: Rethinking Creativity through Design-by-Analogy in Human-AI Collaboration
 - Source: HF Daily Papers
@@ -2376,6 +2388,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.09169
 - Summary: Fully finetuning foundation language models (LMs) with billions of parameters is often impractical due to high computational costs, memory requirements, and the risk of overfitting. Although methods like low-rank adapters help address these challenges by adding small trainable modules to the frozen...
+
+### FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09163
+- Summary: Scientific knowledge bases accelerate discovery by curating findings from primary literature into structured, queryable formats for both human researchers and emerging AI systems. Maintaining these resources requires expert curators to search relevant papers, reconcile evidence across documents,...
 
 ### Incident with Issues, Actions and Git Operations
 - Source: GitHub Status
@@ -2689,6 +2707,12 @@
 - URL: https://tldr.takara.ai/p/2602.08289
 - Summary: With the continuous progress of digitization in Chinese judicial institutions, a substantial amount of electronic legal document information has been accumulated. To unlock its potential value, entity and relation extraction for legal documents has emerged as a crucial task. However, existing...
 
+### Predicting Open Source Software Sustainability with Deep Temporal Neural Hierarchical Architectures and Explainable AI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09064
+- Summary: Open Source Software (OSS) projects follow diverse lifecycle trajectories shaped by evolving patterns of contribution, coordination, and community engagement. Understanding these trajectories is essential for stakeholders seeking to assess project organization and health at scale. However, prior...
+
 ### Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning
 - Source: arXiv AI
 - Category: research
@@ -2925,6 +2949,12 @@
 - URL: https://tldr.takara.ai/p/2602.08025
 - Summary: World models aim to understand, remember, and predict dynamic visual environments, yet a unified benchmark for evaluating their fundamental abilities remains lacking. To address this gap, we introduce MIND, the first open-domain closed-loop revisited benchmark for evaluating Memory consIstency and...
 
+### MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.07993
+- Summary: Recent advances in instruction-based image editing have shown remarkable progress. However, existing methods remain limited to relatively simple editing operations, hindering real-world applications that require complex and compositional instructions. In this work, we address these limitations from...
+
 ### SparseEval: Efficient Evaluation of Large Language Models by Sparse Optimization
 - Source: HF Daily Papers
 - Category: open-source
@@ -2993,34 +3023,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KGVN79RRX11YCQZ52C68ZT1N
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### Partial Recovery of ongoing Service Degradation in West US region
-- Source: Azure Status
-- Category: incidents
-- URL: https://azurestatusprodncus.azurewebsites.net/en-us/status/
-- Summary: Impact: Starting at 08:00 UTC on 07 February 2026, a subset of customers using Azure services in the West US region may experience intermittent service unavailability or delays in monitoring and log data for some resources hosted in the affected datacenter areas. Impacted customers may observe...
-
-### Partial Recovery of ongoing Service Degradation in West US region
-- Source: Azure Status
-- Category: incidents
-- URL: https://azurestatusprodwus.azurewebsites.net/en-us/status/
-- Summary: Impact Statement: Starting at 08:00 UTC on 07 February 2026, a subset of customers using Azure services in the West US region may experience intermittent service unavailability or delays in monitoring and log data for some resources hosted in the affected datacenter areas. Impacted services include...
-
-### Democratic Preference Alignment via Sortition-Weighted RLHF
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05113
-- Summary: arXiv:2602.05113v1 Announce Type: new Abstract: Whose values should AI systems learn? Preference based alignment methods like RLHF derive their training signal from human raters, yet these rater pools are typically convenience samples that systematically over represent some demographics and under...
-
-### SocialVeil: Probing Social Intelligence of Language Agents under Communication Barriers
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05115
-- Summary: arXiv:2602.05115v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated in interactive environments to test their social intelligence. However, existing benchmarks often assume idealized communication between agents, limiting our ability to diagnose whether LLMs can...
-
-### CAST-CKT: Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer for Traffic Flow Prediction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.05133
-- Summary: arXiv:2602.05133v1 Announce Type: new Abstract: Traffic prediction in data-scarce, cross-city settings is challenging due to complex nonlinear dynamics and domain shifts. Existing methods often fail to capture traffic's inherent chaotic nature for effective few-shot learning. We propose CAST-CKT, a...
 
