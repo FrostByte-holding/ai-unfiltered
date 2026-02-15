@@ -581,6 +581,12 @@
 - URL: https://tldr.takara.ai/p/2602.12144
 - Summary: AI coding agents are increasingly contributing to software development, yet their impact on mobile development has received little empirical attention. In this paper, we present the first category-level empirical study of agent-generated code in open-source mobile app projects. We analyzed PR...
 
+### STAR : Bridging Statistical and Agentic Reasoning for Large Model Performance Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.12143
+- Summary: As comprehensive large model evaluation becomes prohibitively expensive, predicting model performance from limited observations has become essential. However, existing statistical methods struggle with pattern shifts, data sparsity, and lack of explanation, while pure LLM methods remain unreliable....
+
 ### Gemini 3 Deep Think: Advancing science, research and engineering
 - Source: DeepMind Blog
 - Category: research
@@ -2389,6 +2395,12 @@
 - URL: https://tldr.takara.ai/p/2602.10154
 - Summary: Multimodal Large Language Models (MLLMs) enhance collaboration in Extended Reality (XR) environments by enabling flexible object and animation creation through the combination of natural language and visual inputs. However, visual data captured by XR headsets includes real-world backgrounds that...
 
+### Fair Feature Importance Scores via Feature Occlusion and Permutation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09196
+- Summary: As machine learning models increasingly impact society, their opaque nature poses challenges to trust and accountability, particularly in fairness contexts. Understanding how individual features influence model outcomes is crucial for building interpretable and equitable models. While feature...
+
 ### Copilot Policy Propagation Delays
 - Source: GitHub Status
 - Category: incidents
@@ -2598,6 +2610,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.08586
 - Summary: Multi-agent collaboration has emerged as a promising paradigm for enhancing reasoning capabilities of Large Language Models (LLMs). However, existing approaches remain largely heuristic, lacking principled guidance on what drives performance gains and how to systematically optimize multi-agent...
+
+### Conditional Sequence Modeling for Safe Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.08584
+- Summary: Offline safe reinforcement learning (RL) aims to learn policies from a fixed dataset while maximizing performance under cumulative cost constraints. In practice, deployment requirements often vary across scenarios, necessitating a single policy that can adapt zero-shot to different cost thresholds....
 
 ### Degraded performance for Copilot Coding Agent
 - Source: GitHub Status
@@ -2979,6 +2997,12 @@
 - URL: https://tldr.takara.ai/p/2602.08025
 - Summary: World models aim to understand, remember, and predict dynamic visual environments, yet a unified benchmark for evaluating their fundamental abilities remains lacking. To address this gap, we introduce MIND, the first open-domain closed-loop revisited benchmark for evaluating Memory consIstency and...
 
+### A Unified Density Operator View of Flow Control and Merging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.08012
+- Summary: Recent progress in large-scale flow and diffusion models raised two fundamental algorithmic challenges: (i) control-based reward adaptation of pre-trained flows, and (ii) integration of multiple models, i.e., flow merging. While current approaches address them separately, we introduce a unifying...
+
 ### MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance
 - Source: HF Daily Papers
 - Category: open-source
@@ -2996,31 +3020,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html
 - Summary: OpenClaw (formerly Moltbot and Clawdbot) has announced that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader efforts to bolster the security of the agentic ecosystem. "All skills published to ClawHub are now...
-
-### Out of the box age estimation through facial imagery: A Comprehensive Benchmark of Vision-Language Models vs. out-of-the-box Traditional Architectures
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.07815
-- Summary: Facial age estimation plays a critical role in content moderation, age verification, and deepfake detection. However, no prior benchmark has systematically compared modern vision-language models (VLMs) with specialized age estimation architectures. We present the first large-scale cross-paradigm...
-
-### Approximating Matrix Functions with Deep Neural Networks and Transformers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.07800
-- Summary: Transformers have revolutionized natural language processing, but their use for numerical computation has received less attention. We study the approximation of matrix functions, which map scalar functions to matrices, using neural networks including transformers. We focus on functions mapping...
-
-
-## 2026-02-07
-
-### Experts Have World Models. LLMs Have Word Models.
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/adversarial-reasoning
-- Summary: Most expert work isn&#8217;t &#8220;produce a probable artifact&#8221;; it's "choose a good move considering other agents, guessing hidden state". LLMs default to single-shot artifacts and need World Models to progress
-
-### On Generation in Metric Spaces
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.07710
-- Summary: We study generation in separable metric instance spaces. We extend the language generation framework from Kleinberg and Mullainathan [2024] beyond countable domains by defining novelty through metric separation and allowing asymmetric novelty parameters for the adversary and the generator. We...
 
