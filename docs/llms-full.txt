@@ -6,6 +6,18 @@
 
 ## 2026-02-16
 
+### Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html
+- Summary: Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environment. "This finding marks a significant milestone in the evolution of infostealer behavior: the...
+
+### Increased error rates on Codex Cloud
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KHKQWHXEF4WJY8WGX24RA07R
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex (Operational)
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -821,6 +833,12 @@
 - URL: https://status.claude.com/incidents/95wtp412zh3z
 - Summary: Feb 12, 15:17 UTCResolved - This incident has been resolved.Feb 12, 14:45 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 12, 14:18 UTCInvestigating - We are currently investigating this issue.
 
+### Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.12036
+- Summary: Large-scale verifiable prompts underpin the success of Reinforcement Learning with Verifiable Rewards (RLVR), but they contain many uninformative examples and are costly to expand further. Recent studies focus on better exploiting limited training data by prioritizing hard prompts whose rollout...
+
 ### Improved state mixing in higher-order and block diagonal linear recurrent networks
 - Source: HF Daily Papers
 - Category: open-source
@@ -1241,6 +1259,12 @@
 - URL: https://arxiv.org/abs/2602.10354
 - Summary: arXiv:2602.10354v1 Announce Type: new Abstract: Satellite foundation models produce dense embeddings whose physical interpretability remains poorly understood, limiting their integration into environmental decision systems. Using 12.1 million samples across the Continental United States...
 
+### Move What Matters: Parameter-Efficient Domain Adaptation via Optimal Transport Flow for Collaborative Perception
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11565
+- Summary: Fast domain adaptation remains a fundamental challenge for deploying multi-agent systems across diverse environments in Vehicle-to-Everything (V2X) collaborative perception. Despite the success of Parameter-Efficient Fine-Tuning (PEFT) in natural language processing and conventional vision tasks,...
+
 ### Supervise-assisted Multi-modality Fusion Diffusion Model for PET Restoration
 - Source: HF Daily Papers
 - Category: open-source
@@ -1434,6 +1458,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.10953
 - Summary: Diffusion Language Models (DLMs) generate text by iteratively denoising a masked sequence, repeatedly deciding which positions to commit at each step. Standard decoding follows a greedy rule: unmask the most confident positions, yet this local choice can lock the model into a suboptimal unmasking...
+
+### Latent Generative Solvers for Generalizable Long-Term Physics Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11229
+- Summary: We study long-horizon surrogate simulation across heterogeneous PDE systems. We introduce Latent Generative Solvers (LGS), a two-stage framework that (i) maps diverse PDE states into a shared latent physics space with a pretrained VAE, and (ii) learns probabilistic latent dynamics with a...
 
 ### Towards Learning a Generalizable 3D Scene Representation from 2D Observations
 - Source: HF Daily Papers
@@ -2779,6 +2809,12 @@
 - URL: https://tldr.takara.ai/p/2602.10150
 - Summary: Accurate simulation of turbulent flows is fundamental to scientific and engineering applications. Direct numerical simulation (DNS) offers the highest fidelity but is computationally prohibitive, while existing data-driven alternatives struggle with stable long-horizon rollouts, physical...
 
+### Next Concept Prediction in Discrete Latent Space Leads to Stronger Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.08984
+- Summary: We propose Next Concept Prediction (NCP), a generative pretraining paradigm built on top of Next Token Prediction (NTP). NCP predicts discrete concepts that span multiple tokens, thereby forming a more challenging pretraining objective. Our model, ConceptLM, quantizes hidden states using Vector...
+
 ### Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2988,40 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html
 - Summary: The threat actor known as Bloody Wolf has been linked to a campaign targeting Uzbekistan and Russia to infect systems with a remote access trojan known as NetSupport RAT. Cybersecurity vendor Kaspersky is tracking the activity under the moniker Stan Ghouls. The threat actor is known to be active...
-
-### Characterizing, Evaluating, and Optimizing Complex Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08498
-- Summary: Large Reasoning Models (LRMs) increasingly rely on reasoning traces with complex internal structures. However, existing work lacks a unified answer to three fundamental questions: (1) what defines high-quality reasoning, (2) how to reliably evaluate long, implicitly structured reasoning traces, and...
-
-### Reliability-aware Execution Gating for Near-field and Off-axis Vision-guided Robotic Alignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08466
-- Summary: Vision-guided robotic systems are increasingly deployed in precision alignment tasks that require reliable execution under near-field and off-axis configurations. While recent advances in pose estimation have significantly improved numerical accuracy, practical robotic systems still suffer from...
-
-### Understanding and Optimizing Attention-Based Sparse Matching for Diverse Local Features
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08430
-- Summary: We revisit the problem of training attention-based sparse image matching models for various local features. We first identify one critical design choice that has been previously overlooked, which significantly impacts the performance of the LightGlue model. We then investigate the role of detectors...
-
-### Prism: Spectral-Aware Block-Sparse Attention
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.08426
-- Summary: Block-sparse attention is promising for accelerating long-context LLM pre-filling, yet identifying relevant blocks efficiently remains a bottleneck. Existing methods typically employ coarse-grained attention as a proxy for block importance estimation, but often resort to expensive token-level...
-
-### New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/new-paper-and-tool-help-security-teams-move-beyond-blind-reliance-on-cisas-kev-catalog/
-- Summary: The KEV list is useful but largely misunderstood. KEVology explains what it is, and how best to use it. The post New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA&#8217;s KEV Catalog appeared first on SecurityWeek.
-
-### Degraded Performance in Webhooks API and UI, Pull Requests
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/ffz2k716tlhx
-- Summary: Feb 9, 08:52 UTCUpdate - We are continuing to investigate intermittent elevated timeouts.Feb 9, 08:17 UTCUpdate - We are investigating intermittent latency and errors with Webhooks API, Webhooks UI, and PRs. We will continue to keep users updated on progress towards mitigation.Feb 9, 08:17...
 
