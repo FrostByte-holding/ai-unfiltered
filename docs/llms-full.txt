@@ -6,6 +6,18 @@
 
 ## 2026-02-16
 
+### Google Patches First Actively Exploited Chrome Zero-Day of 2026
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/
+- Summary: A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution. The post Google Patches First Actively Exploited Chrome Zero-Day of 2026 appeared first on SecurityWeek.
+
+### New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html
+- Summary: Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild. The high-severity vulnerability, tracked as CVE-2026-2441 (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim...
+
 ### GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory
 - Source: arXiv AI
 - Category: research
@@ -881,6 +893,12 @@
 - URL: https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/
 - Summary: MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025,...
 
+### Text2GQL-Bench: A Text to Graph Query Language Benchmark [Experiment, Analysis & Benchmark]
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11745
+- Summary: Graph models are fundamental to data analysis in domains rich with complex relationships. Text-to-Graph-Query-Language (Text-to-GQL) systems act as a translator, converting natural language into executable graph queries. This capability allows Large Language Models (LLMs) to directly analyze and...
+
 ### Nucleus Raises $20 Million for Exposure Management
 - Source: Security Week
 - Category: security
@@ -1230,6 +1248,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/7ylfn6fnwgrq
 - Summary: Feb 11, 19:37 UTCUpdate - We're continuing to work toward mitigation with our capacity provider, and adding capacity.Feb 11, 19:00 UTCUpdate - Actions is experiencing capacity constraints with larger hosted runners, leading to high wait times. Standard hosted labels and self-hosted runners are not...
+
+### On Decision-Valued Maps and Representational Dependence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.11295
+- Summary: A computational engine applied to different representations of the same data can produce different discrete outcomes, with some representations preserving the result and others changing it entirely. A decision-valued map records which representations preserve the outcome and which change it,...
 
 ### SCRAPL: Scattering Transform with Random Paths for Machine Learning
 - Source: HF Daily Papers
@@ -2524,6 +2548,12 @@
 - URL: https://tldr.takara.ai/p/2602.09312
 - Summary: Utilizing Large Language Models (LLM) as chatbots in diverse business scenarios often presents the challenge of maintaining topic continuity. Abrupt shifts in topics can lead to poor user experiences and inefficient utilization of computational resources. In this paper, we present a topic...
 
+### How Far Can You Grow? Characterizing the Extrapolation Frontier of Graph Generative Models for Materials Science
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.09309
+- Summary: Every generative model for crystalline materials harbors a critical structure size beyond which its outputs quietly become unreliable -- we call this the extrapolation frontier. Despite its direct consequences for nanomaterial design, this frontier has never been systematically measured. We...
+
 ### Triggered: A Statistical Analysis of Environmental Influences on Extremist Groups
 - Source: HF Daily Papers
 - Category: open-source
@@ -2628,6 +2658,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.09002
 - Summary: Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense...
+
+### PEST: Physics-Enhanced Swin Transformer for 3D Turbulence Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.10150
+- Summary: Accurate simulation of turbulent flows is fundamental to scientific and engineering applications. Direct numerical simulation (DNS) offers the highest fidelity but is computationally prohibitive, while existing data-driven alternatives struggle with stable long-horizon rollouts, physical...
 
 ### Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning
 - Source: HF Daily Papers
@@ -2988,40 +3024,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.06093
 - Summary: arXiv:2602.06093v1 Announce Type: new Abstract: The lightweight semi-supervised learning (LSL) strategy provides an effective approach of conserving labeled samples and minimizing model inference costs. Prior research has effectively applied knowledge transfer learning and co-training...
-
-### Agentic Workflow Using RBA$_\theta$ for Event Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.06097
-- Summary: arXiv:2602.06097v1 Announce Type: new Abstract: Wind power ramp events are difficult to forecast due to strong variability, multi-scale dynamics, and site-specific meteorological effects. This paper proposes an event-first, frequency-aware forecasting paradigm that directly predicts ramp events and...
-
-### Toward Faithful and Complete Answer Construction from a Single Document
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.06103
-- Summary: arXiv:2602.06103v1 Announce Type: new Abstract: Modern large language models (LLMs) are powerful generators driven by statistical next-token prediction. While effective at producing fluent text, this design biases models toward high-probability continuations rather than exhaustive and faithful...
-
-### Pragmatic Curiosity: A Hybrid Learning-Optimization Paradigm via Active Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.06104
-- Summary: arXiv:2602.06104v1 Announce Type: new Abstract: Many engineering and scientific workflows depend on expensive black-box evaluations, requiring decision-making that simultaneously improves performance and reduces uncertainty. Bayesian optimization (BO) and Bayesian experimental design (BED) offer...
-
-### Private and interpretable clinical prediction with quantum-inspired tensor train models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.06110
-- Summary: arXiv:2602.06110v1 Announce Type: new Abstract: Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable...
-
-### Recontextualizing Famous Quotes for Brand Slogan Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06049
-- Summary: arXiv:2602.06049v1 Announce Type: new Abstract: Slogans are concise and memorable catchphrases that play a crucial role in advertising by conveying brand identity and shaping public perception. However, advertising fatigue reduces the effectiveness of repeated slogans, creating a growing demand for...
-
-### Relevance-aware Multi-context Contrastive Decoding for Retrieval-augmented Visual Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06050
-- Summary: arXiv:2602.06050v1 Announce Type: new Abstract: Despite the remarkable capabilities of Large Vision Language Models (LVLMs), they still lack detailed knowledge about specific entities. Retrieval-augmented Generation (RAG) is a widely adopted solution that enhances LVLMs by providing additional...
 
