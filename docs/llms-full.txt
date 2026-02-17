@@ -6,6 +6,36 @@
 
 ## 2026-02-17
 
+### opus 4.6 elevated errors
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/bryrpn54npvn
+- Summary: Feb 17, 20:16 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 17, 19:20 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Intermittent errors in skills-related functionality
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/5pr1d63fdjml
+- Summary: Feb 17, 20:15 UTCInvestigating - We are seeing periods of high error rates in a skills-related service used by claude.ai, Claude Desktop app, and our API.
+
+### Intermittent authentication failures on GitHub
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/xs6xtcv196g7
+- Summary: Feb 17, 19:06 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 17, 18:55 UTCUpdate - We are continuing to monitor the mitigation and continuing to see...
+
+### Elevated errors on Claude Sonnet 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rrgvzzm78zln
+- Summary: Feb 17, 19:02 UTCResolved - This incident has been resolved.Feb 17, 18:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 17, 18:26 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 17, 18:01 UTCInvestigating - We are currently...
+
+### Open models in perpetual catch-up
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/open-models-in-perpetual-catch-up
+- Summary: The open-closed gap, distillation, innovation timescales, how open models win, specialized models, what&#8217;s missing, etc.
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -219,6 +249,12 @@
 - URL: https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html
 - Summary: A new study has found that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions. "The attacks range in severity from integrity violations to the complete compromise of all vaults in an...
 
+### MacroGuide: Topological Guidance for Macrocycle Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14977
+- Summary: Macrocycles are ring-shaped molecules that offer a promising alternative to small-molecule drugs due to their enhanced selectivity and binding affinity against difficult targets. Despite their chemical value, they remain underexplored in generative modeling, likely owing to their scarcity in public...
+
 ### Increased error rates on Codex Cloud
 - Source: OpenAI Status
 - Category: incidents
@@ -236,6 +272,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.14872
 - Summary: Reinforcement learning with verifiable rewards (RLVR) has been a main driver of recent breakthroughs in large reasoning models. Yet it remains a mystery how rewards based solely on final outcomes can help overcome the long-horizon barrier to extended reasoning. To understand this, we develop a...
+
+### Interactionless Inverse Reinforcement Learning: A Data-Centric Framework for Durable Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14844
+- Summary: AI alignment is growing in importance, yet current approaches suffer from a critical structural flaw that entangles the safety objectives with the agent's policy. Methods such as Reinforcement Learning from Human Feedback and Direct Preference Optimization create opaque, single-use alignment...
+
+### RF-GPT: Teaching AI to See the Wireless World
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14833
+- Summary: Large language models (LLMs) and multimodal models have become powerful general-purpose reasoning systems. However, radio-frequency (RF) signals, which underpin wireless systems, are still not natively supported by these models. Existing LLM-based approaches for telecom focus mainly on text and...
 
 ### Dior, Louis Vuitton, Tiffany Fined $25 Million in South Korea After Data Breaches
 - Source: Security Week
@@ -339,6 +387,12 @@
 - URL: https://tldr.takara.ai/p/2602.14582
 - Summary: You Only Look Once (YOLO) has been the prominent model for computer vision in deep learning for a decade. This study explores the novel aspects of YOLO26, the most recent version in the YOLO series. The elimination of Distribution Focal Loss (DFL), implementation of End-to-End NMS-Free Inference,...
 
+### DriveFine: Refining-Augmented Masked Diffusion VLA for Precise and Robust Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14577
+- Summary: Vision-Language-Action (VLA) models for autonomous driving increasingly adopt generative planners trained with imitation learning followed by reinforcement learning. Diffusion-based planners suffer from modality alignment difficulties, low training efficiency, and limited generalization....
+
 ### Google Patches First Actively Exploited Chrome Zero-Day of 2026
 - Source: Security Week
 - Category: security
@@ -356,6 +410,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html
 - Summary: Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild. The high-severity vulnerability, tracked as CVE-2026-2441 (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim...
+
+### Query as Anchor: Scenario-Adaptive User Representation via Large Language Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14492
+- Summary: Industrial-scale user representation learning requires balancing robust universality with acute task-sensitivity. However, existing paradigms primarily yield static, task-agnostic embeddings that struggle to reconcile the divergent requirements of downstream scenarios within unified vector spaces....
 
 ### Measuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation
 - Source: HF Daily Papers
@@ -2964,64 +3024,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.06291
 - Summary: arXiv:2602.06291v1 Announce Type: new Abstract: Recent progress in reasoning models suggests that generating plausible attempts for research-level mathematics may be within reach, but verification remains a bottleneck, consuming scarce expert time. We hypothesize that a meaningful solution should...
-
-### Lost in Speech: Benchmarking, Evaluation, and Parsing of Spoken Code-Switching Beyond Standard UD Assumptions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06307
-- Summary: arXiv:2602.06307v1 Announce Type: new Abstract: Spoken code-switching (CSW) challenges syntactic parsing in ways not observed in written text. Disfluencies, repetition, ellipsis, and discourse-driven structure routinely violate standard Universal Dependencies (UD) assumptions, causing parsers and...
-
-### Can Post-Training Transform LLMs into Causal Reasoners?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06337
-- Summary: arXiv:2602.06337v1 Announce Type: new Abstract: Causal inference is essential for decision-making but remains challenging for non-experts. While large language models (LLMs) show promise in this domain, their precise causal estimation capabilities are still limited, and the impact of post-training...
-
-### SHINE: A Scalable In-Context Hypernetwork for Mapping Context to LoRA in a Single Pass
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06358
-- Summary: arXiv:2602.06358v1 Announce Type: new Abstract: We propose SHINE (Scalable Hyper In-context NEtwork), a scalable hypernetwork that can map diverse meaningful contexts into high-quality LoRA adapters for large language models (LLM). By reusing the frozen LLM's own parameters in an in-context...
-
-### Cost-Aware Model Selection for Text Classification: Multi-Objective Trade-offs Between Fine-Tuned Encoders and LLM Prompting in Production
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.06370
-- Summary: arXiv:2602.06370v1 Announce Type: new Abstract: Large language models (LLMs) such as GPT-4o and Claude Sonnet 4.5 have demonstrated strong capabilities in open-ended reasoning and generative language tasks, leading to their widespread adoption across a broad range of NLP applications. However, for...
-
-### Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html
-- Summary: Fortinet has released security updates to address a critical flaw impacting FortiClientEMS that could lead to the execution of arbitrary code on susceptible systems. The vulnerability, tracked as CVE-2026-21643, has a CVSS rating of 9.1 out of a maximum of 10.0. "An improper neutralization of...
-
-### [AINews] "Sci-Fi with a touch of Madness"
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-sci-fi-with-a-touch-of-madness
-- Summary: a quiet day lets us reflect on a pithy quote from the ClawFather.
-
-### MossCode Raises Million-Dollar Angel Round at a $100 Million Valuation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moss-code-raises-million-dollar-angel-round-at-a-100-million-valuation
-- Summary: AI sports wearables startup MossCode has secured a million-dollar angel round at a $100 million valuation as it prepares to launch in Europe and the U.S. in 2026.
-
-### Pony.ai Rolls Out First Mass-Produced Toyota bZ4X Robotaxi
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pony-ai-rolls-out-first-mass-produced-toyota-b-z4-x-robotaxi
-- Summary: Pony.ai and Toyota have reached a major milestone as the first mass-produced Toyota bZ4X Robotaxi rolls off the line, paving the way for large-scale autonomous ride-hailing in China.
-
-### Alibaba’s Next-Generation Open-Source Model Qwen 3.5 Comes Into Focus
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-s-next-generation-open-source-model-qwen-3-5-comes-into-focus
-- Summary: Alibaba is preparing to release Qwen 3.5, a next-generation open-source, multimodal model expected to headline a wave of major AI launches during the 2026 Lunar New Year.
-
-### Xiaohongshu Is Quietly Developing an AI Video Editor Called OpenStoryline
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaohongshu-is-quietly-developing-an-ai-video-editor-called-open-storyline
-- Summary: Xiaohongshu is quietly building OpenStoryline, an AI-driven conversational video editor aimed at dramatically lowering the barrier to short-form content creation.
 
