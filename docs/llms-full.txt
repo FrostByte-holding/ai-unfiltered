@@ -6,6 +6,18 @@
 
 ## 2026-02-18
 
+### Workers AI elevated error rates
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/vbnc13cks551
+- Summary: Feb 18, 19:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 18, 18:42 UTCIdentified - Users might experience higher 429 errors
+
+### Degraded performance in merge queue
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/p1ymhg64hdfq
+- Summary: Feb 18, 19:20 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 18, 19:18 UTCUpdate - We have seen significant recovery in merge queue we are...
+
 ### Sora 2 Degraded Performance
 - Source: OpenAI Status
 - Category: incidents
@@ -227,6 +239,11 @@
 - URL: https://status.claude.com/incidents/d6lxkq6m53yy
 - Summary: Feb 18, 00:10 UTCResolved - This incident has been resolved.Feb 17, 23:59 UTCUpdate - We are continuing to monitor for any further issues.Feb 17, 23:59 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 17, 23:56 UTCInvestigating - We are currently investigating this...
 
+### One-Shot Any Web App with Gradio's gr.HTML
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/gradio-html-one-shot-apps
+
 
 ## 2026-02-17
 
@@ -259,6 +276,12 @@
 - URL: https://status.claude.com/incidents/rrgvzzm78zln
 - Summary: Feb 17, 19:02 UTCResolved - This incident has been resolved.Feb 17, 18:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 17, 18:26 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 17, 18:01 UTCInvestigating - We are currently...
 
+### Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15827
+- Summary: While recent advances in humanoid locomotion have achieved stable walking on varied terrains, capturing the agility and adaptivity of highly dynamic human motions remains an open challenge. In particular, agile parkour in complex environments demands not only low-level robustness, but also...
+
 ### Neural Scaling Laws for Boosted Jet Tagging
 - Source: HF Daily Papers
 - Category: open-source
@@ -276,6 +299,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
 - Summary: Cybersecurity researchers have disclosed that artificial intelligence (AI) assistants that support web browsing or URL fetching capabilities can be turned into stealthy command-and-control (C2) relays, a technique that could allow attackers to blend into legitimate enterprise communications and...
+
+### ViTaB-A: Evaluating Multimodal Large Language Models on Visual Table Attribution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15769
+- Summary: Multimodal Large Language Models (mLLMs) are often used to answer questions in structured data such as tables in Markdown, JSON, and images. While these models can often give correct answers, users also need to know where those answers come from. In this work, we study structured data...
+
+### Beyond Binary Classification: Detecting Fine-Grained Sexism in Social Media Videos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15757
+- Summary: Online sexism appears in various forms, which makes its detection challenging. Although automated tools can enhance the identification of sexist content, they are often restricted to binary classification. Consequently, more subtle manifestations of sexism may remain undetected due to the lack of...
 
 ### Open models in perpetual catch-up
 - Source: Interconnects
@@ -336,6 +371,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.15620
 - Summary: Reinforcement Learning (RL) has significantly improved large language model reasoning, but existing RL fine-tuning methods rely heavily on heuristic techniques such as entropy regularization and reweighting to maintain stability. In practice, they often experience late-stage performance collapse,...
+
+### The geometry of online conversations and the causal antecedents of conflictual discourse
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15600
+- Summary: This article investigates the causal antecedents of conflictual language and the geometry of interaction in online threaded conversations related to climate change. We employ three annotation dimensions, inferred through LLM prompting and averaging, to capture complementary aspects of discursive...
 
 ### API Threats Grow in Scale as AI Expands the Blast Radius
 - Source: Security Week
@@ -654,6 +695,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.15332
 - Summary: Understanding how language models carry out long-horizon reasoning remains an open challenge. Existing interpretability methods often highlight tokens or spans correlated with an answer, but they rarely reveal where the model makes consequential reasoning turns, which earlier context causally...
+
+### Accelerating Large-Scale Dataset Distillation via Exploration-Exploitation Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15277
+- Summary: Dataset distillation compresses the original data into compact synthetic datasets, reducing training time and storage while retaining model performance, enabling deployment under limited resources. Although recent decoupling-based distillation methods enable dataset distillation at large-scale,...
 
 
 ## 2026-02-16
@@ -2977,52 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.10095
 - Summary: Causality -- referring to temporal, uni-directional cause-effect relationships between components -- underlies many complex generative processes, including videos, language, and robot trajectories. Current causal diffusion models entangle temporal reasoning with iterative denoising, applying causal...
-
-### Quantum-Audit: Evaluating the Reasoning Limits of LLMs on Quantum Computing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10092
-- Summary: Language models have become practical tools for quantum computing education and research, from summarizing technical papers to explaining theoretical concepts and answering questions about recent developments in the field. While existing benchmarks evaluate quantum code generation and circuit...
-
-### Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10090
-- Summary: Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent...
-
-### CODE-SHARP: Continuous Open-ended Discovery and Evolution of Skills as Hierarchical Reward Programs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10085
-- Summary: Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is...
-
-### Dissecting Performative Prediction: A Comprehensive Survey
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10176
-- Summary: The field of performative prediction had its beginnings in 2020 with the seminal paper "Performative Prediction" by Perdomo et al., which established a novel machine learning setup where the deployment of a predictive model causes a distribution shift in the environment, which in turn causes a...
-
-### Chain of Mindset: Reasoning with Adaptive Cognitive Modes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10063
-- Summary: Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process. However, existing LLM reasoning...
-
-### Simple Image Processing and Similarity Measures Can Link Data Samples across Databases through Brain MRI
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10043
-- Summary: Head Magnetic Resonance Imaging (MRI) is routinely collected and shared for research under strict regulatory frameworks. These frameworks require removing potential identifiers before sharing. But, even after skull stripping, the brain parenchyma contains unique signatures that can match other MRIs...
-
-### EU Unconditionally Approves Google’s $32B Acquisition of Wiz
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/eu-unconditionally-approves-googles-32b-acquisition-of-wiz/
-- Summary: The European Commission’s ruling is based on extensive feedback from customers and rival cloud security and infrastructure vendors. The post EU Unconditionally Approves Google&#8217;s $32B Acquisition of Wiz appeared first on SecurityWeek.
-
-### MEVER: Multi-Modal and Explainable Claim Verification with Graph-based Evidence Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10023
-- Summary: Verifying the truthfulness of claims usually requires joint multi-modal reasoning over both textual and visual evidence, such as analyzing both textual caption and chart image for claim verification. In addition, to make the reasoning process transparent, a textual explanation is necessary to...
 
