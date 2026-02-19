@@ -6,6 +6,18 @@
 
 ## 2026-02-19
 
+### CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html
+- Summary: Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST, likely targeting supporters of Iran's ongoing protests to conduct information theft and long-term espionage. The Acronis Threat Research Unit (TRU) said it observed the activity after January 9, with the...
+
+### [AINews] Anthropic's Agent Autonomy study
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-anthropics-agent-autonomy
+- Summary: a quiet day lets us dive deep into Anthropic's own version of the METR data
+
 ### Towards Efficient Constraint Handling in Neural Solvers for Routing Problems
 - Source: arXiv AI
 - Category: research
@@ -123,11 +135,29 @@
 - URL: https://www.githubstatus.com/incidents/p1ymhg64hdfq
 - Summary: Feb 18, 19:20 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 18, 19:18 UTCUpdate - We have seen significant recovery in merge queue we are...
 
+### Reinforced Fast Weights with Next-Sequence Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16704
+- Summary: Fast weight architectures offer a promising alternative to attention-based transformers for long-context modeling by maintaining constant memory overhead regardless of context length. However, their potential is limited by the next-token prediction (NTP) training paradigm. NTP optimizes...
+
+### Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16699
+- Summary: LLMs are increasingly being used for complex problems which are not necessarily resolved in a single response, but require interacting with an environment to acquire information. In these scenarios, LLMs must reason about inherent cost-uncertainty tradeoffs in when to stop exploring and commit to...
+
 ### Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html
 - Summary: New research from the Citizen Lab has found signs that Kenyan authorities used a commercial forensic extraction tool manufactured by Israeli company Cellebrite to break into a prominent dissident's phone, making it the latest case of abuse of the technology targeting civil society. The...
+
+### Explainable AI: Context-Aware Layer-Wise Integrated Gradients for Explaining Transformer Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16608
+- Summary: Transformer models achieve state-of-the-art performance across domains and tasks, yet their deeply layered representations make their predictions difficult to interpret. Existing explainability methods rely on final-layer attributions, capture either local token-level attributions or global...
 
 ### Sora 2 Degraded Performance
 - Source: OpenAI Status
@@ -247,6 +277,12 @@
 - Category: security
 - URL: https://www.securityweek.com/palo-alto-networks-to-acquire-koi-in-reported-400-million-transaction/
 - Summary: Koi has developed an endpoint security solution that Palo Alto will use to enhance its products. The post Palo Alto Networks to Acquire Koi in Reported $400 Million Transaction appeared first on SecurityWeek.
+
+### AFFMAE: Scalable and Efficient Vision Pretraining for Desktop Graphics Cards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16249
+- Summary: Self-supervised pretraining has transformed computer vision by enabling data-efficient fine-tuning, yet high-resolution training typically requires server-scale infrastructure, limiting in-domain foundation model development for many research laboratories. Masked Autoencoders (MAE) reduce...
 
 ### Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware
 - Source: The Hacker News
@@ -457,6 +493,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/ftrsh0r62qks
 - Summary: Feb 18, 04:07 UTCResolved - This incident has been resolved.Feb 18, 03:38 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 18, 03:23 UTCInvestigating - We are currently investigating this issue.
+
+### Human-AI Collaboration in Large Language Model-Integrated Building Energy Management Systems: The Role of User Domain Knowledge and AI Literacy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16140
+- Summary: This study aimed to comprehend how user domain knowledge and artificial intelligence (AI) literacy impact the effective use of human-AI interactive building energy management system (BEMS). While prior studies have investigated the potential of integrating large language models (LLMs) into BEMS or...
 
 ### CSS errors on Claude.ai
 - Source: Anthropic Status
@@ -2982,46 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.10560
 - Summary: While reasoning over long context is crucial for various real-world applications, it remains challenging for large language models (LLMs) as they suffer from performance degradation as the context length grows. Recent work MemAgent has tried to tackle this by processing context chunk-by-chunk in an...
-
-### C^2ROPE: Causal Continuous Rotary Positional Encoding for 3D Large Multimodal-Models Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10551
-- Summary: Recent advances in 3D Large Multimodal Models (LMMs) built on Large Language Models (LLMs) have established the alignment of 3D visual features with LLM representations as the dominant paradigm. However, the inherited Rotary Position Embedding (RoPE) introduces limitations for multimodal...
-
-### Bridging the Compression-Precision Paradox: A Hybrid Architecture for Clinical EEG Report Generation with Guaranteed Measurement Accuracy
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10544
-- Summary: Automated EEG monitoring requires clinician-level precision for seizure detection and reporting. Clinical EEG recordings exceed LLM context windows, requiring extreme compression (400:1+ ratios) that destroys fine-grained temporal precision. A 0.5 Hz error distinguishes absence epilepsy from...
-
-### [AINews] Qwen Image 2 and Seedance 2
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-qwen-image-2-and-seedance
-- Summary: Strong generative media showings from China
-
-### A Small-Scale System for Autoregressive Program Synthesis Enabling Controlled Experimentation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.09112
-- Summary: arXiv:2602.09112v1 Announce Type: new Abstract: What research can be pursued with small models trained to complete true programs? Typically, researchers study program synthesis via large language models (LLMs) which introduce issues such as knowing what is in or out of distribution, understanding...
-
-### Uncertainty-Aware Multimodal Emotion Recognition through Dirichlet Parameterization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.09121
-- Summary: arXiv:2602.09121v1 Announce Type: new Abstract: In this work, we present a lightweight and privacy-preserving Multimodal Emotion Recognition (MER) framework designed for deployment on edge devices. To demonstrate framework's versatility, our implementation uses three modalities - speech, text and...
-
-### PABU: Progress-Aware Belief Update for Efficient LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.09138
-- Summary: arXiv:2602.09138v1 Announce Type: new Abstract: Large Language Model (LLM) agents commonly condition actions on full action-observation histories, which introduce task-irrelevant information that easily leads to redundant actions and higher inference cost. We propose Progress-Aware Belief Update...
-
-### CoMMa: Contribution-Aware Medical Multi-Agents From A Game-Theoretic Perspective
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.09159
-- Summary: arXiv:2602.09159v1 Announce Type: new Abstract: Recent multi-agent frameworks have broadened the ability to tackle oncology decision support tasks that require reasoning over dynamic, heterogeneous patient data. We propose Contribution-Aware Medical Multi-Agents (CoMMa), a decentralized LLM-agent...
 
