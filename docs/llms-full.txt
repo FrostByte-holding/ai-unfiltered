@@ -14,6 +14,12 @@
 
 ## 2026-02-19
 
+### PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html
+- Summary: Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and achieves persistence. The malware has been codenamed PromptSpy by ESET. The malware is equipped to...
+
 ### Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z
 - Source: Latent Space
 - Category: open-source
@@ -333,6 +339,12 @@
 - URL: https://www.securityweek.com/cogent-security-raises-42-million-for-ai-driven-vulnerability-management/
 - Summary: The Series A funding round, led by Bain Capital, brings the total raised by Cogent to $53 million. The post Cogent Security Raises $42 Million for AI-Driven Vulnerability Management appeared first on SecurityWeek.
 
+### Intra-Fairness Dynamics: The Bias Spillover Effect in Targeted LLM Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16438
+- Summary: Conventional large language model (LLM) fairness alignment largely focuses on mitigating bias along single sensitive attributes, overlooking fairness as an inherently multidimensional and context-specific value. This approach risks creating systems that achieve narrow fairness metrics while...
+
 ### Vulnerabilities in Popular PDF Platforms Allowed Account Takeover, Data Exfiltration
 - Source: Security Week
 - Category: security
@@ -350,6 +362,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Welcome to the dark side of crypto’s permissionless dream Jean-Paul Thorbjornsen, an Australian man in his mid-30s, with a rural Catholic upbringing,...
+
+### Verifiable Semantics for Agent-to-Agent Communication
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16424
+- Summary: Multiagent AI systems require consistent communication, but we lack methods to verify that agents share the same understanding of the terms used. Natural language is interpretable but vulnerable to semantic drift, while learned protocols are efficient but opaque. We propose a certification protocol...
 
 ### Multi-Channel Replay Speech Detection using Acoustic Maps
 - Source: HF Daily Papers
@@ -404,6 +422,18 @@
 - Category: security
 - URL: https://www.securityweek.com/cisa-hackers-exploiting-vulnerability-in-product-of-taiwan-security-firm-teamt5/
 - Summary: The vulnerability added to CISA’s KEV catalog affects ThreatSonar Anti-Ransomware and it was patched in 2024. The post CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5 appeared first on SecurityWeek.
+
+### BAT: Better Audio Transformer Guided by Convex Gated Probing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16305
+- Summary: Probing is widely adopted in computer vision to faithfully evaluate self-supervised learning (SSL) embeddings, as fine-tuning may misrepresent their inherent quality. In contrast, audio SSL models still rely on fine-tuning because simple probing fails to unlock their full potential and alters their...
+
+### Aladdin-FTI @ AMIYA Three Wishes for Arabic NLP: Fidelity, Diglossia, and Multidialectal Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16290
+- Summary: Arabic dialects have long been under-represented in Natural Language Processing (NLP) research due to their non-standardization and high variability, which pose challenges for computational modeling. Recent advances in the field, such as Large Language Models (LLMs), offer promising avenues to...
 
 ### Prediction of Major Solar Flares Using Interpretable Class-dependent Reward Framework with Active Region Magnetograms and Domain Knowledge
 - Source: HF Daily Papers
@@ -656,6 +686,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.16145
 - Summary: There are a number of existing studies analysing the convergence behaviour of graph neural networks on large random graphs. Unfortunately, the majority of these studies do not model correlations between node features, which would naturally exist in a variety of real-life networks. Consequently, the...
+
+### Ratio Covers of Convex Sets and Optimal Mixture Density Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16142
+- Summary: We study density estimation in Kullback-Leibler divergence: given an i.i.d. sample from an unknown density $p$, the goal is to construct an estimator $\widehat p$ such that $\mathrm{KL}(p,\widehat p)$ is small with high probability. We consider two settings involving a finite dictionary of $M$...
 
 ### Human-AI Collaboration in Large Language Model-Integrated Building Energy Management Systems: The Role of User Domain Knowledge and AI Literacy
 - Source: HF Daily Papers
@@ -2989,40 +3025,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/02/11/1132724/the-download-inside-the-quitgpt-movement-and-evs-in-africa/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A “QuitGPT” campaign is urging people to cancel their ChatGPT subscriptions In September, Alfred Stephen, a freelance software developer in...
-
-### Microsoft to Refresh Windows Secure Boot Certificates in June 2026
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-to-refresh-windows-secure-boot-certificates-in-june-2026/
-- Summary: After a decade and a half of service, the current certificates will expire, and new ones will be rolled out. The post Microsoft to Refresh Windows Secure Boot Certificates in June 2026 appeared first on SecurityWeek.
-
-### Why Does RL Generalize Better Than SFT? A Data-Centric Perspective on VLM Post-Training
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10815
-- Summary: The adaptation of large-scale Vision-Language Models (VLMs) through post-training reveals a pronounced generalization gap: models fine-tuned with Reinforcement Learning (RL) consistently achieve superior out-of-distribution (OOD) performance compared to those trained with Supervised Fine-Tuning...
-
-### See, Plan, Snap: Evaluating Multimodal GUI Agents in Scratch
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10814
-- Summary: Block-based programming environments such as Scratch play a central role in low-code education, yet evaluating the capabilities of AI agents to construct programs through Graphical User Interfaces (GUIs) remains underexplored. We introduce ScratchWorld, a benchmark for evaluating multimodal GUI...
-
-### Transport, Don't Generate: Deterministic Geometric Flows for Combinatorial Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.10794
-- Summary: Recent advances in Neural Combinatorial Optimization (NCO) have been dominated by diffusion models that treat the Euclidean Traveling Salesman Problem (TSP) as a stochastic $N \times N$ heatmap generation task. In this paper, we propose CycFlow, a framework that replaces iterative edge denoising...
-
-### Hacker Conversations: Professional Hacker Douglas Day
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hacker-conversations-professional-hacker-douglas-day/
-- Summary: Day became a professional hacker by choice. But that doesn’t mean he isn’t a natural hacker. The post Hacker Conversations: Professional Hacker Douglas Day appeared first on SecurityWeek.
-
-### Ivanti Patches Endpoint Manager Vulnerabilities Disclosed in October 2025
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ivanti-patches-endpoint-manager-vulnerabilities-disclosed-in-october-2025/
-- Summary: It also fixed a high-severity authentication bypass that could be exploited remotely without authentication to obtain credentials. The post Ivanti Patches Endpoint Manager Vulnerabilities Disclosed in October 2025 appeared first on SecurityWeek.
 
