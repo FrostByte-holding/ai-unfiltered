@@ -6,6 +6,24 @@
 
 ## 2026-02-20
 
+### [AINews] Gemini 3.1 Pro: 2x 3.0 on ARC-AGI 2
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-gemini-31-pro-2x-30-on-arc
+- Summary: It&#8217;s Google&#8217;s turn.
+
+### PromptSpy Android Malware Abuses Gemini AI at Runtime for Persistence
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/promptspy-android-malware-abuses-gemini-ai-at-runtime-for-persistence/
+- Summary: The malware leverages Gemini to analyze on-screen elements and ensure that it remains on the device even after a reboot. The post PromptSpy Android Malware Abuses Gemini AI at Runtime for Persistence appeared first on SecurityWeek.
+
+### Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html
+- Summary: Two former Google engineers and one of their husbands have been indicted in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the information to unauthorized locations, including Iran. Samaneh Ghandali, 41, and her husband Mohammadjavad...
+
 ### AIdentifyAGE Ontology for Decision Support in Forensic Dental Age Assessment
 - Source: arXiv AI
 - Category: research
@@ -122,11 +140,29 @@
 - URL: https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html
 - Summary: Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges. Windows Admin Center is a locally deployed, browser-based management tool set that lets users manage their Windows Clients, Servers, and Clusters without the need...
 
+### Revisiting Weight Regularization for Low-Rank Continual Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17559
+- Summary: Continual Learning (CL) with large-scale pre-trained models (PTMs) has recently gained wide attention, shifting the focus from training from scratch to continually adapting PTMs. This has given rise to a promising paradigm: parameter-efficient continual learning (PECL), where task interference is...
+
+### Adaptive Decentralized Composite Optimization via Three-Operator Splitting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17545
+- Summary: The paper studies decentralized optimization over networks, where agents minimize a sum of {\it locally} smooth (strongly) convex losses and plus a nonsmooth convex extended value term. We propose decentralized methods wherein agents {\it adaptively} adjust their stepsize via local backtracking...
+
 ### Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z
 - Source: Latent Space
 - Category: open-source
 - URL: https://www.latent.space/p/a16z
 - Summary: From pioneering software-defined networking to backing many of the most aggressive AI model companies of this cycle, Martin Casado and Sarah Wang sit at the center of the capital, compute, and talent arms race reshaping the tech industry.
+
+### Position: Evaluation of ECG Representations Must Be Fixed
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17531
+- Summary: This position paper argues that current benchmarking practice in 12-lead ECG representation learning must be fixed to ensure progress is reliable and aligned with clinically meaningful objectives. The field has largely converged on three public multi-label benchmarks (PTB-XL, CPSC2018, CSN)...
 
 ### Gemini 3.1 Pro: A smarter model for your most complex tasks
 - Source: DeepMind Blog
@@ -222,6 +258,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html
 - Summary: Cybersecurity researchers have disclosed details of a new Android trojan called Massiv that's designed to facilitate device takeover (DTO) attacks for financial theft. The malware, according to ThreatFabric, masquerades as seemingly harmless IPTV apps to deceive victims, indicating that the...
+
+### Extending quantum theory with AI-assisted deterministic game theory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17213
+- Summary: We present an AI-assisted framework for predicting individual runs of complex quantum experiments, including contextuality and causality (adaptive measurements), within our long-term programme of discovering a local hidden-variable theory that extends quantum theory. In order to circumvent...
 
 ### German Rail Giant Deutsche Bahn Hit by Large-Scale DDoS Attack
 - Source: Security Week
@@ -438,6 +480,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/q2dl751rxp53
 - Summary: Feb 19, 03:36 UTCIdentified - Cloudflare has identified an issue with WARP connectivity on iOS and a fix is being implemented. It is possible for the latest version of the Cloudflare One Agent app on iOS to end up in a bad state where it cannot connect to Cloudflare's edge network. When the app is...
+
+### HQFS: Hybrid Quantum Classical Financial Security with VQC Forecasting, QUBO Annealing, and Audit-Ready Post-Quantum Signing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16976
+- Summary: Here's the corrected paragraph with all punctuation and formatting issues fixed: Financial risk systems usually follow a two-step routine: a model predicts return or risk, and then an optimizer makes a decision such as a portfolio rebalance. In practice, this split can break under real constraints....
 
 
 ## 2026-02-18
@@ -2975,52 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.10210
 - Summary: arXiv:2602.10210v1 Announce Type: new Abstract: Large language models (LLMs) continue to struggle with knowledge-intensive questions that require up-to-date information and multi-hop reasoning. Augmenting LLMs with hybrid external knowledge, such as unstructured text and structured knowledge...
-
-### Rank-Accuracy Trade-off for LoRA: A Gradient-Flow Analysis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.10212
-- Summary: arXiv:2602.10212v1 Announce Type: new Abstract: Previous empirical studies have shown that LoRA achieves accuracy comparable to full-parameter methods on downstream fine-tuning tasks, even for rank-1 updates. By contrast, the theoretical underpinnings of the dependence of LoRA's accuracy on update...
-
-### ELROND: Exploring and decomposing intrinsic capabilities of diffusion models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.10216
-- Summary: arXiv:2602.10216v1 Announce Type: new Abstract: A single text prompt passed to a diffusion model often yields a wide range of visual outputs determined solely by stochastic process, leaving users with no direct control over which specific semantic variations appear in the image. While existing...
-
-### Temper-Then-Tilt: Principled Unlearning for Generative Models through Tempering and Classifier Guidance
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.10217
-- Summary: arXiv:2602.10217v1 Announce Type: new Abstract: We study machine unlearning in large generative models by framing the task as density ratio estimation to a target distribution rather than supervised fine-tuning. While classifier guidance is a standard approach for approximating this ratio and can...
-
-### The Subjectivity of Respect in Police Traffic Stops: Modeling Community Perspectives in Body-Worn Camera Footage
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.10339
-- Summary: arXiv:2602.10339v1 Announce Type: new Abstract: Traffic stops are among the most frequent police-civilian interactions, and body-worn cameras (BWCs) provide a unique record of how these encounters unfold. Respect is a central dimension of these interactions, shaping public trust and perceived...
-
-### Geometry-Aware Decoding with Wasserstein-Regularized Truncation and Mass Penalties for Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.10346
-- Summary: arXiv:2602.10346v1 Announce Type: new Abstract: Large language models (LLMs) must balance diversity and creativity against logical coherence in open-ended generation. Existing truncation-based samplers are effective but largely heuristic, relying mainly on probability mass and entropy while...
-
-### When Less Is More? Diagnosing ASR Predictions in Sardinian via Layer-Wise Decoding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.10350
-- Summary: arXiv:2602.10350v1 Announce Type: new Abstract: Recent studies have shown that intermediate layers in multilingual speech models often encode more phonetically accurate representations than the final output layer. In this work, we apply a layer-wise decoding strategy to a pretrained Wav2Vec2 model...
-
-### Learning Self-Interpretation from Interpretability Artifacts: Training Lightweight Adapters on Vector-Label Pairs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.10352
-- Summary: arXiv:2602.10352v1 Announce Type: new Abstract: Self-interpretation methods prompt language models to describe their own internal states, but remain unreliable due to hyperparameter sensitivity. We show that training lightweight adapters on interpretability artifacts, while keeping the LM entirely...
-
-### Physically Interpretable AlphaEarth Foundation Model Embeddings Enable LLM-Based Land Surface Intelligence
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.10354
-- Summary: arXiv:2602.10354v1 Announce Type: new Abstract: Satellite foundation models produce dense embeddings whose physical interpretability remains poorly understood, limiting their integration into environmental decision systems. Using 12.1 million samples across the Continental United States...
 
