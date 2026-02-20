@@ -6,6 +6,36 @@
 
 ## 2026-02-20
 
+### Sonnet 4 errors
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rypj3860pyv0
+- Summary: Feb 20, 20:17 UTCResolved - This incident has been resolved.Feb 20, 20:10 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 20, 19:42 UTCInvestigating - We are currently investigating this issue.
+
+### Extended job start delays for larger hosted runners
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/zhfdlzldgh51
+- Summary: Feb 20, 20:01 UTCUpdate - We are investigating reports of degraded performance for Larger Hosted RunnersFeb 20, 20:00 UTCInvestigating - We are investigating reports of impacted performance for some GitHub services.
+
+### ‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/
+- Summary: Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses...
+
+### Cloudflare is investigating connectivity issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kwy3dt82bwbt
+- Summary: Feb 20, 19:45 UTCUpdate - Cloudflare is continuing to work on restoring service for impacted customers to what it was before the outage. Customers can self-mitigate by readvertising their prefixes in the dashboard. Refer to:...
+
+### Elevated errors on one.one.one.one landing page
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/g3ny6xp5f6nw
+- Summary: Feb 20, 18:56 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 20, 18:47 UTCInvestigating - Customers are experiencing elevated 403 errors on 1.1.1.1 landing page. DNS resolution using Public DNS resolver 1.1.1.1 is not impacted. Cache purge and Debugging page is...
+
 ### NIST’s Quantum Breakthrough: Single Photons Produced on a Chip
 - Source: Security Week
 - Category: security
@@ -229,6 +259,24 @@
 - URL: https://tldr.takara.ai/p/2602.17632
 - Summary: Modern offline Reinforcement Learning (RL) methods find performant actor-critics, however, fine-tuning these actor-critics online with value-based RL algorithms typically causes immediate drops in performance. We provide evidence consistent with the hypothesis that, in the loss landscape, offline...
 
+### Unmasking the Factual-Conceptual Gap in Persian Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17623
+- Summary: While emerging Persian NLP benchmarks have expanded into pragmatics and politeness, they rarely distinguish between memorized cultural facts and the ability to reason about implicit social norms. We introduce DivanBench, a diagnostic benchmark focused on superstitions and customs, arbitrary,...
+
+### Towards Anytime-Valid Statistical Watermarking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17608
+- Summary: The proliferation of Large Language Models (LLMs) necessitates efficient mechanisms to distinguish machine-generated content from human text. While statistical watermarking has emerged as a promising solution, existing methods suffer from two critical limitations: the lack of a principled approach...
+
+### AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17594
+- Summary: Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human...
+
 ### PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence
 - Source: The Hacker News
 - Category: security
@@ -365,6 +413,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html
 - Summary: We’ve all seen this before: a developer deploys a new cloud workload and grants overly broad permissions just to keep the sprint moving. An engineer generates a "temporary" API key for testing and forgets to revoke it. In the past, these were minor operational risks, debts you’d eventually pay down...
+
+### Efficient privacy loss accounting for subsampling and random allocation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17284
+- Summary: We consider the privacy amplification properties of a sampling scheme in which a user's data is used in $k$ steps chosen randomly and uniformly from a sequence (or set) of $t$ steps. This sampling scheme has been recently applied in the context of differentially private optimization (Chua et al.,...
 
 ### Unified Latents (UL): How to train your latents
 - Source: HF Daily Papers
@@ -629,6 +683,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/q2dl751rxp53
 - Summary: Feb 19, 03:36 UTCIdentified - Cloudflare has identified an issue with WARP connectivity on iOS and a fix is being implemented. It is possible for the latest version of the Cloudflare One Agent app on iOS to end up in a bad state where it cannot connect to Cloudflare's edge network. When the app is...
+
+### Exploring LLMs for User Story Extraction from Mockups
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16997
+- Summary: User stories are one of the most widely used artifacts in the software industry to define functional requirements. In parallel, the use of high-fidelity mockups facilitates end-user participation in defining their needs. In this work, we explore how combining these techniques with large language...
 
 ### Fundamental Limits of Black-Box Safety Evaluation: Information-Theoretic and Computational Barriers from Latent Context Conditioning
 - Source: HF Daily Papers
@@ -2962,64 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.11745
 - Summary: Graph models are fundamental to data analysis in domains rich with complex relationships. Text-to-Graph-Query-Language (Text-to-GQL) systems act as a translator, converting natural language into executable graph queries. This capability allows Large Language Models (LLMs) to directly analyze and...
-
-### Nucleus Raises $20 Million for Exposure Management
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/nucleus-raises-20-million-for-exposure-management/
-- Summary: The company will use the investment to scale operations and deepen intelligence and automation. The post Nucleus Raises $20 Million for Exposure Management appeared first on SecurityWeek.
-
-### Adapting Vision-Language Models for E-commerce Understanding at Scale
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11733
-- Summary: E-commerce product understanding demands by nature, strong multimodal comprehension from text, images, and structured attributes. General-purpose Vision-Language Models (VLMs) enable generalizable multimodal latent modelling, yet there is no documented, well-known strategy for adapting them to the...
-
-### STVG-R1: Incentivizing Instance-Level Reasoning and Grounding in Videos via Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11730
-- Summary: In vision-language models (VLMs), misalignment between textual descriptions and visual coordinates often induces hallucinations. This issue becomes particularly severe in dense prediction tasks such as spatial-temporal video grounding (STVG). Prior approaches typically focus on enhancing...
-
-### Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11729
-- Summary: Model diffing, the process of comparing models' internal representations to identify their differences, is a promising approach for uncovering safety-critical behaviors in new models. However, its application has so far been primarily focused on comparing a base model with its finetune. Since new...
-
-### Incident with Codespaces
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/7m8kxmjq0y7m
-- Summary: Feb 12, 08:32 UTCUpdate - We now understand the source of the VM create/resume failures and are working with our partners to mitigate the impact.Feb 12, 08:02 UTCUpdate - We are seeing an increase in Codespaces creation and resuming failures across multiple regions, primarily in EMEA. Our team are...
-
-### SpiralFormer: Looped Transformers Can Learn Hierarchical Dependencies via Multi-Resolution Recursion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11698
-- Summary: Recursive (looped) Transformers decouple computational depth from parameter depth by repeatedly applying shared layers, providing an explicit architectural primitive for iterative refinement and latent reasoning. However, early looped Transformers often underperform non-recursive baselines of equal...
-
-### Apple Patches iOS Zero-Day Exploited in ‘Extremely Sophisticated Attack’
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/apple-patches-ios-zero-day-exploited-in-extremely-sophisticated-attack/
-- Summary: Impacting the ‘dyld’ system component, the memory corruption issue can be exploited for arbitrary code execution. The post Apple Patches iOS Zero-Day Exploited in &#8216;Extremely Sophisticated Attack&#8217; appeared first on SecurityWeek.
-
-### Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11674
-- Summary: Large Language Models (LLMs) are advancing rapidly, yet the benchmarks used to measure this progress are becoming increasingly unreliable. Score inflation and selective reporting have eroded the authority of standard benchmarks, leaving the community uncertain about which evaluation results remain...
-
-### U-Net with Hadamard Transform and DCT Latent Spaces for Next-day Wildfire Spread Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.11672
-- Summary: We developed a lightweight and computationally efficient tool for next-day wildfire spread prediction using multimodal satellite data as input. The deep learning model, which we call Transform Domain Fusion UNet (TD-FusionUNet), incorporates trainable Hadamard Transform and Discrete Cosine...
-
-### [AINews] Z.ai GLM-5: New SOTA Open Weights LLM
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-zai-glm-5-new-sota-open-weights
-- Summary: We have Opus 4.5 at home
 
