@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 21 Feb 2026 02:10:59 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2026 05:06:32 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>[AINews] The Custom ASIC Thesis</title>
+            <link>https://www.latent.space/p/ainews-the-custom-asic-thesis</link>
+            <guid>https://www.latent.space/p/ainews-the-custom-asic-thesis</guid>
+            <pubDate>Sat, 21 Feb 2026 02:45:01 +0000</pubDate>
+            <source url="https://www.latent.space/p/ainews-the-custom-asic-thesis">Latent Space</source>
+            <category>open-source</category>
+            <description>Taalas HC1 runs 16,960 tok/s/user Llama 3.1 8B with custom silicon. Actually fast LLMs are on their way...</description>
+        </item>
         <item>
             <title>Increased latency in ChatGPT for some users</title>
             <link>https://status.openai.com//incidents/01KHYH2KT8VNWS146V0S09MF29</link>
@@ -396,6 +405,15 @@
             <description></description>
         </item>
         <item>
+            <title>Sink-Aware Pruning for Diffusion Language Models</title>
+            <link>https://tldr.takara.ai/p/2602.17664</link>
+            <guid>https://tldr.takara.ai/p/2602.17664</guid>
+            <pubDate>Thu, 19 Feb 2026 18:59:50 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2602.17664">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Diffusion Language Models (DLMs) incur high inference cost due to iterative denoising, motivating efficient pruning. Existing pruning heuristics largely inherited from autoregressive (AR) LLMs, typically preserve attention sink tokens because AR sinks serve as stable global anchors. We show that...</description>
+        </item>
+        <item>
             <title>CLEF HIPE-2026: Evaluating Accurate and Efficient Person-Place Relation Extraction from Multilingual Historical Texts</title>
             <link>https://tldr.takara.ai/p/2602.17663</link>
             <guid>https://tldr.takara.ai/p/2602.17663</guid>
@@ -414,6 +432,15 @@
             <description>Reward modeling is a core component of modern alignment pipelines including RLHF and RLAIF, underpinning policy optimization methods including PPO and TRPO. However, training reliable reward models relies heavily on human-labeled preference data, which is costly and limited, motivating the use of...</description>
         </item>
         <item>
+            <title>Mine and Refine: Optimizing Graded Relevance in E-commerce Search Retrieval</title>
+            <link>https://tldr.takara.ai/p/2602.17654</link>
+            <guid>https://tldr.takara.ai/p/2602.17654</guid>
+            <pubDate>Thu, 19 Feb 2026 18:56:36 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2602.17654">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>We propose a two-stage &quot;Mine and Refine&quot; contrastive training framework for semantic text embeddings to enhance multi-category e-commerce search retrieval. Large scale e-commerce search demands embeddings that generalize to long tail, noisy queries while adhering to scalable supervision compatible...</description>
+        </item>
+        <item>
             <title>SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer</title>
             <link>https://tldr.takara.ai/p/2602.17632</link>
             <guid>https://tldr.takara.ai/p/2602.17632</guid>
@@ -423,24 +450,6 @@
             <description>Modern offline Reinforcement Learning (RL) methods find performant actor-critics, however, fine-tuning these actor-critics online with value-based RL algorithms typically causes immediate drops in performance. We provide evidence consistent with the hypothesis that, in the loss landscape, offline...</description>
         </item>
         <item>
-            <title>Unmasking the Factual-Conceptual Gap in Persian Language Models</title>
-            <link>https://tldr.takara.ai/p/2602.17623</link>
-            <guid>https://tldr.takara.ai/p/2602.17623</guid>
-            <pubDate>Thu, 19 Feb 2026 18:42:46 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.17623">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>While emerging Persian NLP benchmarks have expanded into pragmatics and politeness, they rarely distinguish between memorized cultural facts and the ability to reason about implicit social norms. We introduce DivanBench, a diagnostic benchmark focused on superstitions and customs, arbitrary,...</description>
-        </item>
-        <item>
-            <title>Towards Anytime-Valid Statistical Watermarking</title>
-            <link>https://tldr.takara.ai/p/2602.17608</link>
-            <guid>https://tldr.takara.ai/p/2602.17608</guid>
-            <pubDate>Thu, 19 Feb 2026 18:32:26 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.17608">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>The proliferation of Large Language Models (LLMs) necessitates efficient mechanisms to distinguish machine-generated content from human text. While statistical watermarking has emerged as a promising solution, existing methods suffer from two critical limitations: the lack of a principled approach...</description>
-        </item>
-        <item>
             <title>Inside AI’s $10B+ Capital Flywheel — Martin Casado &amp; Sarah Wang of a16z</title>
             <link>https://www.latent.space/p/a16z</link>
             <guid>https://www.latent.space/p/a16z</guid>
@@ -448,15 +457,6 @@
             <source url="https://www.latent.space/p/a16z">Latent Space</source>
             <category>open-source</category>
             <description>From pioneering software-defined networking to backing many of the most aggressive AI model companies of this cycle, Martin Casado and Sarah Wang sit at the center of the capital, compute, and talent arms race reshaping the tech industry.</description>
-        </item>
-        <item>
-            <title>Gemini 3.1 Pro: A smarter model for your most complex tasks</title>
-            <link>https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/</link>
-            <guid>https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/</guid>
-            <pubDate>Thu, 19 Feb 2026 16:06:14 +0000</pubDate>
-            <source url="https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/">DeepMind Blog</source>
-            <category>research</category>
-            <description>3.1 Pro is designed for tasks where a simple answer isn’t enough.</description>
         </item>
     </channel>
 </rss>

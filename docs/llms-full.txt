@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-21
+
+### [AINews] The Custom ASIC Thesis
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-the-custom-asic-thesis
+- Summary: Taalas HC1 runs 16,960 tok/s/user Llama 3.1 8B with custom silicon. Actually fast LLMs are on their way...
+
+
 ## 2026-02-20
 
 ### Increased latency in ChatGPT for some users
@@ -373,6 +382,12 @@
 
 ## 2026-02-19
 
+### Sink-Aware Pruning for Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17664
+- Summary: Diffusion Language Models (DLMs) incur high inference cost due to iterative denoising, motivating efficient pruning. Existing pruning heuristics largely inherited from autoregressive (AR) LLMs, typically preserve attention sink tokens because AR sinks serve as stable global anchors. We show that...
+
 ### CLEF HIPE-2026: Evaluating Accurate and Efficient Person-Place Relation Extraction from Multilingual Historical Texts
 - Source: HF Daily Papers
 - Category: open-source
@@ -384,6 +399,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.17658
 - Summary: Reward modeling is a core component of modern alignment pipelines including RLHF and RLAIF, underpinning policy optimization methods including PPO and TRPO. However, training reliable reward models relies heavily on human-labeled preference data, which is costly and limited, motivating the use of...
+
+### Mine and Refine: Optimizing Graded Relevance in E-commerce Search Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17654
+- Summary: We propose a two-stage "Mine and Refine" contrastive training framework for semantic text embeddings to enhance multi-category e-commerce search retrieval. Large scale e-commerce search demands embeddings that generalize to long tail, noisy queries while adhering to scalable supervision compatible...
 
 ### SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer
 - Source: HF Daily Papers
@@ -642,6 +663,18 @@
 - URL: https://tldr.takara.ai/p/2602.17101
 - Summary: 3D reconstruction serves as the foundational layer for numerous robotic perception tasks, including 6D object pose estimation and grasp pose generation. Modern 3D reconstruction methods for objects can produce visually and geometrically impressive meshes from multi-view images, yet standard...
 
+### Synergizing Transport-Based Generative Models and Latent Geometry for Stochastic Closure Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17089
+- Summary: Diffusion models recently developed for generative AI tasks can produce high-quality samples while still maintaining diversity among samples to promote mode coverage, providing a promising path for learning stochastic closure models. Compared to other types of generative AI models, such as GANs and...
+
+### ComptonUNet: A Deep Learning Model for GRB Localization with Compton Cameras under Noisy and Low-Statistic Conditions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17085
+- Summary: Gamma-ray bursts (GRBs) are among the most energetic transient phenomena in the universe and serve as powerful probes for high-energy astrophysical processes. In particular, faint GRBs originating from a distant universe may provide unique insights into the early stages of star formation. However,...
+
 ### Towards Efficient Constraint Handling in Neural Solvers for Routing Problems
 - Source: arXiv AI
 - Category: research
@@ -839,6 +872,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/q2dl751rxp53
 - Summary: Feb 19, 03:36 UTCIdentified - Cloudflare has identified an issue with WARP connectivity on iOS and a fix is being implemented. It is possible for the latest version of the Cloudflare One Agent app on iOS to end up in a bad state where it cannot connect to Cloudflare's edge network. When the app is...
+
+### StructCore: Structure-Aware Image-Level Scoring for Training-Free Unsupervised Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17048
+- Summary: Max pooling is the de facto standard for converting anomaly score maps into image-level decisions in memory-bank-based unsupervised anomaly detection (UAD). However, because it relies on a single extreme response, it discards most information about how anomaly evidence is distributed and structured...
 
 ### Exploring LLMs for User Story Extraction from Mockups
 - Source: HF Daily Papers
@@ -2986,40 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.12125
 - Summary: On-policy distillation (OPD), which aligns the student with the teacher's logit distribution on student-generated trajectories, has demonstrated strong empirical gains in improving student performance and often outperforms off-policy distillation and reinforcement learning (RL) paradigms. In this...
-
-### Meta-Sel: Efficient Demonstration Selection for In-Context Learning via Supervised Meta-Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12123
-- Summary: Demonstration selection is a practical bottleneck in in-context learning (ICL): under a tight prompt budget, accuracy can change substantially depending on which few-shot examples are included, yet selection must remain cheap enough to run per query over large candidate pools. We propose Meta-Sel,...
-
-### high error rate in text-embedding-3-small
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KH94NGSXNH9H4WBPXB3RFZWX
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery. You may still be experiencing high latency.Affected components Embeddings (Operational)
-
-### Multi Graph Search for High-Dimensional Robot Motion Planning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12096
-- Summary: Efficient motion planning for high-dimensional robotic systems, such as manipulators and mobile manipulators, is critical for real-time operation and reliable deployment. Although advances in planning algorithms have enhanced scalability to high-dimensional state spaces, these improvements often...
-
-### Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12089
-- Summary: As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N = 243) in which participants play three multi-turn bargaining games in groups...
-
-### Elevated errors on Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/95wtp412zh3z
-- Summary: Feb 12, 15:17 UTCResolved - This incident has been resolved.Feb 12, 14:45 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 12, 14:18 UTCInvestigating - We are currently investigating this issue.
-
-### Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12036
-- Summary: Large-scale verifiable prompts underpin the success of Reinforcement Learning with Verifiable Rewards (RLVR), but they contain many uninformative examples and are costly to expand further. Recent studies focus on better exploiting limited training data by prioritizing hard prompts whose rollout...
 
