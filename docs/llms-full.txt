@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-02-22
+
+### Analytics Engine API Increased 500s
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/97x6ymy4dd74
+- Summary: Feb 22, 20:17 UTCMonitoring - We have identified the cause of this issue and implemented a fix. We are currently monitoring the results.Feb 22, 19:36 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting the Analytics Engine API. Users may be experiencing an increase of 500...
+
+
 ## 2026-02-21
 
 ### Opus 4.6 elevated error rates
@@ -1512,6 +1521,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja
 
+### Improving Interactive In-Context Learning from Natural Language Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16066
+- Summary: Adapting one's thought process based on corrective feedback is an essential ability in human learning, particularly in collaborative settings. In contrast, the current large language model training paradigm relies heavily on modeling vast, static corpora. While effective for knowledge acquisition,...
+
 ### opus 4.6 elevated errors
 - Source: Anthropic Status
 - Category: incidents
@@ -1769,6 +1784,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/my-day-getting-my-hands-dirty-with-ndr.html
 - Summary: My objectiveThe role of NDR in SOC workflowsStarting up the NDR systemHow AI complements the human responseWhat else did I try out?What could I see with NDR that I wouldn’t otherwise?Am I ready to be a network security analyst now? My objective As someone relatively inexperienced with network...
+
+### Towards Expectation Detection in Language: A Case Study on Treatment Expectations in Reddit
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15504
+- Summary: Patients' expectations towards their treatment have a substantial effect on the treatments' success. While primarily studied in clinical settings, online patient platforms like medical subreddits may hold complementary insights: treatment expectations that patients feel unnecessary or uncomfortable...
 
 ### ExLipBaB: Exact Lipschitz Constant Computation for Piecewise Linear Neural Networks
 - Source: HF Daily Papers
@@ -2060,6 +2081,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.15183
 - Summary: Vision Language Models (VLMs) are designed to extend Large Language Models (LLMs) with visual capabilities, yet in this work we observe a surprising phenomenon: VLMs can outperform their underlying LLMs on purely text-only tasks, particularly in long-context information retrieval. To investigate...
+
+### Learning Representations from Incomplete EHR Data with Dual-Masked Autoencoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15159
+- Summary: Learning from electronic health records (EHRs) time series is challenging due to irregular sam- pling, heterogeneous missingness, and the resulting sparsity of observations. Prior self-supervised meth- ods either impute before learning, represent missingness through a dedicated input signal, or...
 
 ### Image Generation with a Sphere Encoder
 - Source: HF Daily Papers
@@ -2532,6 +2559,18 @@
 
 ## 2026-02-15
 
+### KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14293
+- Summary: Optimizing CUDA code across multiple generations of GPU architectures is challenging, as achieving peak performance requires an extensive exploration of an increasingly complex, hardware-specific optimization space. Traditional compilers are constrained by fixed heuristics, whereas finetuning Large...
+
+### A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14158
+- Summary: Large language models (LLMs) show promise for healthcare question answering, but clinical use is limited by weak verification, insufficient evidence grounding, and unreliable confidence signalling. We propose a multi-agent medical QA framework that combines complementary LLMs with evidence...
+
 ### Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging
 - Source: The Hacker News
 - Category: security
@@ -2987,40 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.11166
 - Summary: arXiv:2602.11166v1 Announce Type: new Abstract: Parameter-efficient fine-tuning (PEFT) methods are widely used to adapt large language models (LLMs) to downstream tasks and are often assumed to improve factual correctness. However, how the parameter-efficient fine-tuning methods affect...
-
-### Visualizing and Benchmarking LLM Factual Hallucination Tendencies via Internal State Analysis and Clustering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.11167
-- Summary: arXiv:2602.11167v1 Announce Type: new Abstract: Large Language Models (LLMs) often hallucinate, generating nonsensical or false information that can be especially harmful in sensitive fields such as medicine or law. To study this phenomenon systematically, we introduce FalseCite, a curated dataset...
-
-### Enhancing SDG-Text Classification with Combinatorial Fusion Analysis and Generative AI
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.11168
-- Summary: arXiv:2602.11168v1 Announce Type: new Abstract: (Natural Language Processing) NLP techniques such as text classification and topic discovery are very useful in many application areas including information retrieval, knowledge discovery, policy formulation, and decision-making. However, it remains a...
-
-### Disentangling Direction and Magnitude in Transformer Representations: A Double Dissociation Through L2-Matched Perturbation Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.11169
-- Summary: arXiv:2602.11169v1 Announce Type: new Abstract: Transformer hidden states encode information as high-dimensional vectors, yet whether direction (orientation in representational space) and magnitude (vector norm) serve distinct functional roles remains unclear. Studying Pythia-family models, we...
-
-### PRIME: Policy-Reinforced Iterative Multi-agent Execution for Algorithmic Reasoning in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.11170
-- Summary: arXiv:2602.11170v1 Announce Type: new Abstract: Large language models have demonstrated remarkable capabilities across diverse reasoning tasks, yet their performance on algorithmic reasoning remains limited. To handle this limitation, we propose PRIME (Policy-Reinforced Iterative Multi-agent...
-
-### AutoNavi Launches ABot-M0 and ABot-N0 Embodied Foundation Models, Tops 10 Global Benchmarks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/auto-navi-launches-a-bot-m0-and-a-bot-n0-embodied-foundation-models-tops-10-global-benchmarks
-- Summary: AutoNavi unveiled ABot-M0 & ABot-N0, embodied foundation models for manipulation and navigation, topping 10 global benchmarks with 80.5% success rate on Libero-Plus (+30% vs pi0).
-
-### iFLYREC Surpasses 100 Million Users, Becomes iFLYTEK‘s Second 100M-Scale Core Product
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/i-flyrec-surpasses-100-million-users-becomes-i-flytek-s-second-100-m-scale-core-product
-- Summary: iFLYTEK’s speech‑to‑text SaaS product iFLYREC surpassed 100M users, delivering 60%+ gross profit growth for three consecutive years — with zero in‑app ads.
 
