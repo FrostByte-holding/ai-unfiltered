@@ -921,6 +921,12 @@
 - URL: https://tldr.takara.ai/p/2602.17048
 - Summary: Max pooling is the de facto standard for converting anomaly score maps into image-level decisions in memory-bank-based unsupervised anomaly detection (UAD). However, because it relies on a single extreme response, it discards most information about how anomaly evidence is distributed and structured...
 
+### Transforming Behavioral Neuroscience Discovery with In-Context Learning and AI-Enhanced Tensor Methods
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.17027
+- Summary: Scientific discovery pipelines typically involve complex, rigid, and time-consuming processes, from data preparation to analyzing and interpreting findings. Recent advances in AI have the potential to transform such pipelines in a way that domain experts can focus on interpreting and understanding...
+
 ### Exploring LLMs for User Story Extraction from Mockups
 - Source: HF Daily Papers
 - Category: open-source
@@ -1578,6 +1584,12 @@
 - URL: https://tldr.takara.ai/p/2602.15757
 - Summary: Online sexism appears in various forms, which makes its detection challenging. Although automated tools can enhance the identification of sexist content, they are often restricted to binary classification. Consequently, more subtle manifestations of sexism may remain undetected due to the lack of...
 
+### A Note on Non-Composability of Layerwise Approximate Verification for Neural Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15756
+- Summary: A natural and informal approach to verifiable (or zero-knowledge) ML inference over floating-point data is: ``prove that each layer was computed correctly up to tolerance $δ$; therefore the final output is a reasonable inference result''. This short note gives a simple counterexample showing that...
+
 ### Open models in perpetual catch-up
 - Source: Interconnects
 - Category: open-source
@@ -2030,6 +2042,12 @@
 
 
 ## 2026-02-16
+
+### From Diagnosis to Inoculation: Building Cognitive Resistance to AI Disempowerment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15265
+- Summary: Recent empirical research by Sharma et al. (2026) demonstrated that AI assistant interactions carry meaningful potential for situational human disempowerment, including reality distortion, value judgment distortion, and action distortion. While this work provides a critical diagnosis of the...
 
 ### Shopping Research Feature Down
 - Source: OpenAI Status
@@ -2505,6 +2523,12 @@
 - URL: https://tldr.takara.ai/p/2602.14374
 - Summary: Retrieval-augmented generation (RAG) is a widely used framework for reducing hallucinations in large language models (LLMs) on domain-specific tasks by retrieving relevant documents from a database to support accurate responses. However, when the database contains sensitive corpora, such as medical...
 
+### Image-based Joint-level Detection for Inflammation in Rheumatoid Arthritis from Small and Imbalanced Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14365
+- Summary: Rheumatoid arthritis (RA) is an autoimmune disease characterized by systemic joint inflammation. Early diagnosis and tight follow-up are essential to the management of RA, as ongoing inflammation can cause irreversible joint damage. The detection of arthritis is important for diagnosis and...
+
 
 ## 2026-02-15
 
@@ -2639,6 +2663,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html
 - Summary: A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL. Google Threat Intelligence Group (GTIG) described the hack group as possibly affiliated with Russian intelligence services. The threat actor is assessed to have...
+
+### Eventizing Traditionally Opaque Binary Neural Networks as 1-safe Petri net Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.13128
+- Summary: Binary Neural Networks (BNNs) offer a low-complexity and energy-efficient alternative to traditional full-precision neural networks by constraining their weights and activations to binary values. However, their discrete, highly non-linear behavior makes them difficult to explain, validate and...
 
 ### ALS stole this musician’s voice. AI let him sing again.
 - Source: MIT Tech Review AI
@@ -2993,36 +3023,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/i-flyrec-surpasses-100-million-users-becomes-i-flytek-s-second-100-m-scale-core-product
 - Summary: iFLYTEK’s speech‑to‑text SaaS product iFLYREC surpassed 100M users, delivering 60%+ gross profit growth for three consecutive years — with zero in‑app ads.
-
-### Xiaomi Open-Sources 4.7B-Parameter Embodied AI Model With 80ms Latency
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-open-sources-4-7-b-parameter-embodied-ai-model-with-80ms-latency
-- Summary: Xiaomi open‑sourced Xiaomi-Robotics-0, a 4.7B‑parameter embodied VLA model with 80ms inference latency and 30Hz real‑time control — running on an RTX 4090.
-
-### Xiaohongshu Open-Sources FireRed-Image-Edit, Achieves SOTA Across Multiple Benchmarks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaohongshu-open-sources-fire-red-image-edit-achieves-sota-across-multiple-benchmarks
-- Summary: Xiaohongshu open‑sourced FireRed-Image-Edit, a SOTA image editing foundation model that excels in text rendering, style transfer, and old photo restoration — weights coming soon.
-
-### Alibaba‘s Qwen App Hits 73.5 Million Daily Users During Lunar New Year， AI Orders Top 120 Million in Six Days
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-s-qwen-app-hits-73-5-million-daily-users-during-lunar-new-year-ai-orders-top-120-million-in-six-days
-- Summary: Alibaba’s Qwen hit 73.5M DAU during Lunar New Year, closing in on the industry leader, after its “$432M free order campaign” drove 120M+ AI-powered transactions in six days.
-
-### Custom Kernels for All from Codex and Claude
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/custom-cuda-kernels-agent-skills
-
-
-## 2026-02-12
-
-### Owning the AI Pareto Frontier — Jeff Dean
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/jeffdean
-- Summary: From rewriting Google&#8217;s search stack in the early 2000s to reviving sparse trillion-parameter models and co-designing TPUs with frontier ML research, Jeff Dean has quietly shaped nearly every layer of the modern AI stack.
 
