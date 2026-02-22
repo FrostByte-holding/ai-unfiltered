@@ -1253,6 +1253,18 @@
 - URL: https://www.latent.space/p/ainews-claude-sonnet-46-clean-upgrade
 - Summary: Anthropic notches another W.
 
+### UCTECG-Net: Uncertainty-aware Convolution Transformer ECG Network for Arrhythmia Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16216
+- Summary: Deep learning has improved automated electrocardiogram (ECG) classification, but limited insight into prediction reliability hinders its use in safety-critical settings. This paper proposes UCTECG-Net, an uncertainty-aware hybrid architecture that combines one-dimensional convolutions and...
+
+### Deep TPC: Temporal-Prior Conditioning for Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16188
+- Summary: LLM-for-time series (TS) methods typically treat time shallowly, injecting positional or prompt-based cues once at the input of a largely frozen decoder, which limits temporal reasoning as this information degrades through the layers. We introduce Temporal-Prior Conditioning (TPC), which elevates...
+
 ### Attention-gated U-Net model for semantic segmentation of brain tumors and feature extraction for survival prognosis
 - Source: arXiv AI
 - Category: research
@@ -2055,6 +2067,12 @@
 - URL: https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html
 - Summary: Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environment. "This finding marks a significant milestone in the evolution of infostealer behavior: the...
 
+### Spectral Convolution on Orbifolds for Geometric Deep Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14997
+- Summary: Geometric deep learning (GDL) deals with supervised learning on data domains that go beyond Euclidean structure, such as data with graph or manifold structure. Due to the demand that arises from application-related data, there is a need to identify further topological and geometric structures with...
+
 ### Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers
 - Source: The Hacker News
 - Category: security
@@ -2192,6 +2210,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.14653
 - Summary: The Uniform Information Density (UID) hypothesis posits that speakers are subject to a communicative pressure to distribute information evenly within utterances, minimising surprisal variance. While this hypothesis has been tested empirically, prior studies are limited exclusively to text-only...
+
+### Arbor: A Framework for Reliable Navigation of Critical Conversation Flows
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14643
+- Summary: Large language models struggle to maintain strict adherence to structured workflows in high-stakes domains such as healthcare triage. Monolithic approaches that encode entire decision structures within a single prompt are prone to instruction-following degradation as prompt length increases,...
 
 ### The scientist using AI to hunt for antibiotics just about everywhere
 - Source: MIT Tech Review AI
@@ -2489,6 +2513,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html
 - Summary: Microsoft has disclosed details of a new version of the ClickFix social engineering tactic in which the attackers trick unsuspecting users into running commands that carry out a Domain Name System (DNS) lookup to retrieve the next-stage payload. Specifically, the attack relies on using the...
+
+### Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14027
+- Summary: Autoregressive video diffusion models have emerged as a scalable paradigm for long video generation. However, they often suffer from severe extrapolation failure, where rapid error accumulation leads to significant temporal degradation when extending beyond training horizons. We identify that this...
 
 
 ## 2026-02-14
@@ -2995,34 +3025,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/jeffdean
 - Summary: From rewriting Google&#8217;s search stack in the early 2000s to reviving sparse trillion-parameter models and co-designing TPUs with frontier ML research, Jeff Dean has quietly shaped nearly every layer of the modern AI stack.
-
-### ChatGPT Conversation Issues
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KH9WCWZ41K9ST9FGB1V15DFC
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/y7kzv1ps2qrm
-- Summary: Feb 12, 20:34 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 12, 19:59 UTCUpdate - Next Edit Suggestions availability is recovering. We are...
-
-### Agentic Test-Time Scaling for WebAgents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12276
-- Summary: Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly...
-
-### Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12267
-- Summary: Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio. Instead of this static design, we propose treating the corruption...
-
-### Think like a Scientist: Physics-guided LLM Agent for Equation Discovery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12259
-- Summary: Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most...
 
