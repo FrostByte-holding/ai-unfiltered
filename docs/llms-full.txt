@@ -1530,6 +1530,12 @@
 - URL: https://tldr.takara.ai/p/2602.15799
 - Summary: Fine-tuning aligned language models on benign tasks unpredictably degrades safety guardrails, even when training data contains no harmful content and developers have no adversarial intent. We show that the prevailing explanation, that fine-tuning updates should be orthogonal to safety-critical...
 
+### This human study did not involve human subjects: Validating LLM simulations as behavioral evidence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15785
+- Summary: A growing literature uses large language models (LLMs) as synthetic participants to generate cost-effective and nearly instantaneous responses in social science experiments. However, there is limited guidance on when such simulations support valid inference about human behavior. We contrast two...
+
 ### Neural Scaling Laws for Boosted Jet Tagging
 - Source: HF Daily Papers
 - Category: open-source
@@ -1673,6 +1679,12 @@
 - Category: research
 - URL: https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/
 - Summary: Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education
+
+### Scenario Approach with Post-Design Certification of User-Specified Properties
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15568
+- Summary: The scenario approach is an established data-driven design framework that comes equipped with a powerful theory linking design complexity to generalization properties. In this approach, data are simultaneously used both for design and for certifying the design's reliability, without resorting to a...
 
 ### The Download: the rise of luxury car theft, and fighting antimicrobial resistance
 - Source: MIT Tech Review AI
@@ -2013,6 +2025,12 @@
 - URL: https://status.openai.com//incidents/01KHM3D6HBAX95H7V8MXHNKDK6
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Search (Operational)
 
+### Seeing to Generalize: How Visual Data Corrects Binding Shortcuts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15183
+- Summary: Vision Language Models (VLMs) are designed to extend Large Language Models (LLMs) with visual capabilities, yet in this work we observe a surprising phenomenon: VLMs can outperform their underlying LLMs on purely text-only tasks, particularly in long-context information retrieval. To investigate...
+
 ### Image Generation with a Sphere Encoder
 - Source: HF Daily Papers
 - Category: open-source
@@ -2222,6 +2240,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.14525
 - Summary: Domain-generalized LiDAR semantic segmentation (LSS) seeks to train models on source-domain point clouds that generalize reliably to multiple unseen target domains, which is essential for real-world LiDAR applications. However, existing approaches assume similar acquisition views (e.g.,...
+
+### Efficient Text-Guided Convolutional Adapter for the Diffusion Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14514
+- Summary: We introduce the Nexus Adapters, novel text-guided efficient adapters to the diffusion-based framework for the Structure Preserving Conditional Generation (SPCG). Recently, structure-preserving methods have achieved promising results in conditional image generation by using a base model for prompt...
 
 ### New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released
 - Source: The Hacker News
@@ -2468,6 +2492,12 @@
 
 
 ## 2026-02-14
+
+### Parameter-Efficient Fine-Tuning of DINOv2 for Large-Scale Font Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.13889
+- Summary: We present a font classification system capable of identifying 394 font families from rendered text images. Our approach fine-tunes a DINOv2 Vision Transformer using Low-Rank Adaptation (LoRA), achieving approximately 86% top-1 accuracy while training fewer than 1% of the model's 87.2M parameters....
 
 ### Delays in Support Email Processing
 - Source: OpenAI Status
@@ -2995,34 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.12259
 - Summary: Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most...
-
-### Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html
-- Summary: Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970 using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as various hacking groups continue to weaponize the tool for accelerating various phases of the cyber...
-
-### The Observer Effect in World Models: Invasive Adaptation Corrupts Latent Physics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12218
-- Summary: Determining whether neural models internalize physical laws as world models, rather than exploiting statistical shortcuts, remains challenging, especially under out-of-distribution (OOD) shifts. Standard evaluations often test latent capability via downstream adaptation (e.g., fine-tuning or...
-
-### WaveFormer: Wavelet Embedding Transformer for Biomedical Signals
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12189
-- Summary: Biomedical signal classification presents unique challenges due to long sequences, complex temporal dynamics, and multi-scale frequency patterns that are poorly captured by standard transformer architectures. We propose WaveFormer, a transformer architecture that integrates wavelet decomposition at...
-
-### Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.12181
-- Summary: Convex Markov Games (cMGs) were recently introduced as a broad class of multi-agent learning problems that generalize Markov games to settings where strategic agents optimize general utilities beyond additive rewards. While cMGs expand the modeling frontier, their theoretical foundations,...
-
-### Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html
-- Summary: Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the North Korea-linked Lazarus Group. The coordinated campaign has been codenamed graphalgo in reference...
 
