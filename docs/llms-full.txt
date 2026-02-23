@@ -6,6 +6,30 @@
 
 ## 2026-02-23
 
+### Code search experiencing degraded performance
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/jn8kcmg5ydch
+- Summary: Feb 23, 20:33 UTCUpdate - We are continuing to investigate elevated latency and timeouts for code search.Feb 23, 19:59 UTCInvestigating - We are investigating reports of impacted performance for some GitHub services.
+
+### ⚡️SWE-Bench-Dead: The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/swe-bench-dead
+- Summary: It's time to take the next step up in frontier agent evals.
+
+### Peptides are everywhere. Here’s what you need to know.
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/02/23/1133522/peptides-are-everywhere-heres-what-you-need-to-know/
+- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Want to lose weight? Get shredded? Stay mentally sharp? A wellness influencer might tell you to take peptides, the...
+
+### Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html
+- Summary: Cybersecurity researchers have disclosed details of a new cryptojacking campaign that uses pirated software bundles as lures to deploy a bespoke XMRig miner program on compromised hosts. "Analysis of the recovered dropper, persistence triggers, and mining payload reveals a sophisticated,...
+
 ### Incident with Copilot
 - Source: GitHub Status
 - Category: incidents
@@ -1188,6 +1212,12 @@
 - URL: https://tldr.takara.ai/p/2602.16699
 - Summary: LLMs are increasingly being used for complex problems which are not necessarily resolved in a single response, but require interacting with an environment to acquire information. In these scenarios, LLMs must reason about inherent cost-uncertainty tradeoffs in when to stop exploring and commit to...
 
+### Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic, and Text Tokens
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16687
+- Summary: Current audio language models are predominantly text-first, either extending pre-trained text LLM backbones or relying on semantic-only audio tokens, limiting general audio modeling. This paper presents a systematic empirical study of native audio foundation models that apply next-token prediction...
+
 ### PredMapNet: Future and Historical Reasoning for Consistent Online HD Vectorized Map Construction
 - Source: HF Daily Papers
 - Category: open-source
@@ -1776,6 +1806,12 @@
 - URL: https://status.claude.com/incidents/5pr1d63fdjml
 - Summary: Feb 17, 20:15 UTCInvestigating - We are seeing periods of high error rates in a skills-related service used by claude.ai, Claude Desktop app, and our API.
 
+### Non-Contact Physiological Monitoring in Pediatric Intensive Care Units via Adaptive Masking and Self-Supervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15967
+- Summary: Continuous monitoring of vital signs in Pediatric Intensive Care Units (PICUs) is essential for early detection of clinical deterioration and effective clinical decision-making. However, contact-based sensors such as pulse oximeters may cause skin irritation, increase infection risk, and lead to...
+
 ### Intermittent authentication failures on GitHub
 - Source: GitHub Status
 - Category: incidents
@@ -1967,6 +2003,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.15568
 - Summary: The scenario approach is an established data-driven design framework that comes equipped with a powerful theory linking design complexity to generalization properties. In this approach, data are simultaneously used both for design and for certifying the design's reliability, without resorting to a...
+
+### Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15564
+- Summary: Text-to-SQL has recently achieved impressive progress, yet remains difficult to apply effectively in real-world scenarios. This gap stems from the reliance on single static workflows, fundamentally limiting scalability to out-of-distribution and long-tail scenarios. Instead of requiring users to...
 
 ### The Download: the rise of luxury car theft, and fighting antimicrobial resistance
 - Source: MIT Tech Review AI
@@ -2337,6 +2379,12 @@
 - URL: https://tldr.takara.ai/p/2602.15265
 - Summary: Recent empirical research by Sharma et al. (2026) demonstrated that AI assistant interactions carry meaningful potential for situational human disempowerment, including reality distortion, value judgment distortion, and action distortion. While this work provides a critical diagnosis of the...
 
+### GenAI for Systems: Recurring Challenges and Design Principles from Software to Silicon
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15241
+- Summary: Generative AI is reshaping how computing systems are designed, optimized, and built, yet research remains fragmented across software, architecture, and chip design communities. This paper takes a cross-stack perspective, examining how generative models are being applied from code generation and...
+
 ### Shopping Research Feature Down
 - Source: OpenAI Status
 - Category: incidents
@@ -2588,6 +2636,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.14559
 - Summary: The primary focus of multi-agent reinforcement learning (MARL) has been to study interactions among a fixed number of agents embedded in an environment. However, in the real world, the number of agents is neither fixed nor known a priori. Moreover, an agent can decide to create other agents (for...
+
+### OmniVTON++: Training-Free Universal Virtual Try-On with Principal Pose Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14552
+- Summary: Image-based Virtual Try-On (VTON) concerns the synthesis of realistic person imagery through garment re-rendering under human pose and body constraints. In practice, however, existing approaches are typically optimized for specific data conditions, making their deployment reliant on retraining and...
 
 ### Google Patches First Actively Exploited Chrome Zero-Day of 2026
 - Source: Security Week
@@ -2972,61 +3026,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-why-openai-should-build-slack
 - Summary: a quiet day lets us answer a Sam Altman question
-
-### Elevated errors on Claude models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/bybkm0xccbm6
-- Summary: Feb 14, 07:31 UTCUpdate - We are continuing to investigate this issue.Feb 14, 07:27 UTCInvestigating - We are currently investigating this issue.
-
-### Doubao Launches Chinese New Year Campaign With Cash and Tech Giveaways
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-launches-chinese-new-year-campaign-with-cash-and-tech-giveaways
-- Summary: ByteDance's Doubao AI app launched its Chinese New Year campaign on February 13, giving away cash prizes up to RMB 8,888 ($1,234) and over 100,000 tech gifts during the Spring Festival Gala on February 16 .
-
-### AgiBot Unveils Expedition A3 Humanoid Capable of High-Difficulty Aerial Moves
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/agi-bot-unveils-expedition-a3-humanoid-capable-of-high-difficulty-aerial-moves
-- Summary: AgiBot unveiled its Expedition A3 humanoid robot on February 13, showcasing "martial artist-level" dynamic movements including aerial kicks and spinning ground techniques in a real-world demonstration .
-
-### Ant Group Extends Ant A-Fu New User Bonus Campaign
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ant-group-extends-ant-a-fu-new-user-bonus-campaign
-- Summary: Ant Group extended its Ant A-Fu AI health app registration bonus campaign through Lunar New Year's Eve, offering new users an RMB 16.8 ($2.33) Alipay red packet due to strong response.
-
-### Ant Group Open-Sources Trillion-Parameter Reasoning Model Ring-2.5-1T
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ant-group-open-sources-trillion-parameter-reasoning-model-ring-2-5-1-t
-- Summary: Ant Group open-sourced Ring-2.5-1T, the world's first trillion-parameter reasoning model built on hybrid linear architecture, achieving gold-medal-level scores on mathematical Olympiad simulations .
-
-### ByteDance Launches Seedream 5.0 Lite Image Model With Real-Time Retrieval
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byte-dance-launches-seedream-5-0-lite-image-model-with-real-time-retrieval
-- Summary: ByteDance's Seed team released Seedream 5.0 Lite, an AI image-generation model with real-time retrieval capabilities and built-in professional knowledge bases for complex logical reasoning tasks .
-
-
-## 2026-02-13
-
-### Disruption with some GitHub services regarding file upload
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/lvf95rlzkxrr
-- Summary: Feb 13, 22:58 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 13, 22:30 UTCInvestigating - We are investigating reports of impacted performance for...
-
-### MCP not working in Research in claude.ai
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/9zrz07205y1r
-- Summary: Feb 13, 17:56 UTCInvestigating - We are currently investigating this issue.
-
-### Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html
-- Summary: A previously undocumented threat actor has been attributed to attacks targeting Ukrainian organizations with malware known as CANFAIL. Google Threat Intelligence Group (GTIG) described the hack group as possibly affiliated with Russian intelligence services. The threat actor is assessed to have...
 
