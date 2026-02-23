@@ -6,6 +6,18 @@
 
 ## 2026-02-23
 
+### Elevated errors on Claude Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/162g24n9sm8p
+- Summary: Feb 23, 08:13 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 23, 08:00 UTCInvestigating - We are currently investigating this issue.
+
+### MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html
+- Summary: The Iranian hacking group known as MuddyWater (aka Earth Vetala, Mango Sandstorm, and MUDDYCOAST) has targeted several organizations and individuals mainly located across the Middle East and North Africa (MENA) region as part of a new campaign codenamed Operation Olalampo. The activity, first...
+
 ### Epistemic Traps: Rational Misalignment Driven by Model Misspecification
 - Source: arXiv AI
 - Category: research
@@ -1638,6 +1650,12 @@
 - URL: https://tldr.takara.ai/p/2602.16066
 - Summary: Adapting one's thought process based on corrective feedback is an essential ability in human learning, particularly in collaborative settings. In contrast, the current large language model training paradigm relies heavily on modeling vast, static corpora. While effective for knowledge acquisition,...
 
+### Evidence-Grounded Subspecialty Reasoning: Evaluating a Curated Clinical Intelligence Layer on the 2025 Endocrinology Board-Style Examination
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16050
+- Summary: Background: Large language models have demonstrated strong performance on general medical examinations, but subspecialty clinical reasoning remains challenging due to rapidly evolving guidelines and nuanced evidence hierarchies. Methods: We evaluated January Mirror, an evidence-grounded clinical...
+
 ### opus 4.6 elevated errors
 - Source: Anthropic Status
 - Category: incidents
@@ -2166,6 +2184,18 @@
 - URL: https://tldr.takara.ai/p/2602.15332
 - Summary: Understanding how language models carry out long-horizon reasoning remains an open challenge. Existing interpretability methods often highlight tokens or spans correlated with an answer, but they rarely reveal where the model makes consequential reasoning turns, which earlier context causally...
 
+### Unforgeable Watermarks for Language Models via Robust Signatures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15323
+- Summary: Language models now routinely produce text that is difficult to distinguish from human writing, raising the need for robust tools to verify content provenance. Watermarking has emerged as a promising countermeasure, with existing work largely focused on model quality preservation and robust...
+
+### The Information Geometry of Softmax: Probing and Steering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15293
+- Summary: This paper concerns the question of how AI systems encode semantic structure into the geometric structure of their representation spaces. The motivating observation of this paper is that the natural geometry of these representation spaces should reflect the way models use representations to produce...
+
 ### Visual Persuasion: What Influences Decisions of Vision-Language Models?
 - Source: HF Daily Papers
 - Category: open-source
@@ -2198,6 +2228,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.15183
 - Summary: Vision Language Models (VLMs) are designed to extend Large Language Models (LLMs) with visual capabilities, yet in this work we observe a surprising phenomenon: VLMs can outperform their underlying LLMs on purely text-only tasks, particularly in long-context information retrieval. To investigate...
+
+### Learning the S-matrix from data: Rediscovering gravity from gauge theory via symbolic regression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.15169
+- Summary: We demonstrate that modern machine-learning methods can autonomously reconstruct several flagship analytic structures in scattering amplitudes directly from numerical on-shell data. In particular, we show that the Kawai--Lewellen--Tye (KLT) relations can be rediscovered using symbolic regression...
 
 ### Learning Representations from Incomplete EHR Data with Dual-Masked Autoencoding
 - Source: HF Daily Papers
@@ -2694,6 +2730,12 @@
 - URL: https://tldr.takara.ai/p/2602.14293
 - Summary: Optimizing CUDA code across multiple generations of GPU architectures is challenging, as achieving peak performance requires an extensive exploration of an increasingly complex, hardware-specific optimization space. Traditional compilers are constrained by fixed heuristics, whereas finetuning Large...
 
+### Knowing When Not to Answer: Abstention-Aware Scientific Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14189
+- Summary: Large language models are increasingly used to answer and verify scientific claims, yet existing evaluations typically assume that a model must always produce a definitive answer. In scientific settings, however, unsupported or uncertain conclusions can be more harmful than abstaining. We study...
+
 ### A Multi-Agent Framework for Medical AI: Leveraging Fine-Tuned GPT, LLaMA, and DeepSeek R1 for Evidence-Based and Bias-Aware Clinical Query Processing
 - Source: HF Daily Papers
 - Category: open-source
@@ -2987,46 +3029,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/3-d-ai-chip-startup-suanmiao-tech-raises-nearly-rmb-1-billion-in-two-rounds
 - Summary: 3D AI chip startup Suanmiao raised nearly RMB 1B in Pre‑A/Pre‑A1 rounds to mass‑produce 100% domestic 3D inference chips, breaking the memory wall with 3D stacking — a legacy from its Ethereum mining dominance .
-
-### MiniMax Unveils M2.5: $1/HR “Full‑Stack AI Employee” Rivals Claude Opus 4.6
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/mini-max-unveils-m2-5-1-hr-full-stack-ai-employee-rivals-claude-opus-4-6
-- Summary: MiniMax open‑sourced M2.5, a 10B‑activated‑parameter coding model scoring 80.2% on SWE‑Bench Verified, with 100 TPS inference at $1/hr — driving 10K+ Agents built in 24 hours .
-
-### AgiBot‘s Data Arm Maniformer Secures Hundreds of Millions in Seed & Angel Funding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/agi-bot-s-data-arm-maniformer-secures-hundreds-of-millions-in-seed-and-angel-funding
-- Summary: AgiBot’s data arm Maniformer raised hundreds of millions of yuan in seed & angel rounds led by Sequoia China to tackle the 5M+ hour embodied AI data gap, positioning itself as the industry’s data infrastructure backbone .
-
-### China Revives Tianfu Cup Hacking Contest Under Increased Secrecy
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/china-revives-tianfu-cup-hacking-contest-under-increased-secrecy/
-- Summary: Rewards for exploits are reportedly much smaller than in the contest’s glory days. The post China Revives Tianfu Cup Hacking Contest Under Increased Secrecy appeared first on SecurityWeek.
-
-### Explaining AI Without Code: A User Study on Explainable AI
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.11159
-- Summary: arXiv:2602.11159v1 Announce Type: new Abstract: The increasing use of Machine Learning (ML) in sensitive domains such as healthcare, finance, and public policy has raised concerns about the transparency of automated decisions. Explainable AI (XAI) addresses this by clarifying how models generate...
-
-### Latent Generative Solvers for Generalizable Long-Term Physics Simulation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.11229
-- Summary: arXiv:2602.11229v1 Announce Type: new Abstract: We study long-horizon surrogate simulation across heterogeneous PDE systems. We introduce Latent Generative Solvers (LGS), a two-stage framework that (i) maps diverse PDE states into a shared latent physics space with a pretrained VAE, and (ii) learns...
-
-### On Decision-Valued Maps and Representational Dependence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.11295
-- Summary: arXiv:2602.11295v1 Announce Type: new Abstract: A computational engine applied to different representations of the same data can produce different discrete outcomes, with some representations preserving the result and others changing it entirely. A decision-valued map records which representations...
-
-### Voxtral Realtime
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.11298
-- Summary: arXiv:2602.11298v1 Announce Type: new Abstract: We introduce Voxtral Realtime, a natively streaming automatic speech recognition model that matches offline transcription quality at sub-second latency. Unlike approaches that adapt offline models through chunking or sliding windows, Voxtral Realtime...
 
