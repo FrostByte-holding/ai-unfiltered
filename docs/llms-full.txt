@@ -1005,6 +1005,12 @@
 - URL: https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html
 - Summary: New research from the Citizen Lab has found signs that Kenyan authorities used a commercial forensic extraction tool manufactured by Israeli company Cellebrite to break into a prominent dissident's phone, making it the latest case of abuse of the technology targeting civil society. The...
 
+### Almost Sure Convergence of Differential Temporal Difference Learning for Average Reward Markov Decision Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16629
+- Summary: The average reward is a fundamental performance metric in reinforcement learning (RL) focusing on the long-run performance of an agent. Differential temporal difference (TD) learning algorithms are a major advance for average reward RL as they provide an efficient online method to learn the value...
+
 ### Causal and Compositional Abstraction
 - Source: HF Daily Papers
 - Category: open-source
@@ -1105,6 +1111,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html
 - Summary: Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors to steal local files and execute code remotely. The extensions, which have been collectively...
+
+### Causally-Guided Automated Feature Engineering with Multi-Agent Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16435
+- Summary: Automated feature engineering (AFE) enables AI systems to autonomously construct high-utility representations from raw tabular data. However, existing AFE methods rely on statistical heuristics, yielding brittle features that fail under distribution shift. We introduce CAFE, a framework that...
 
 ### The Download: a blockchain enigma, and the algorithms governing our lives
 - Source: MIT Tech Review AI
@@ -1471,6 +1483,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.16160
 - Summary: Transformer-based single-object trackers achieve state-of-the-art accuracy but rely on fixed-depth inference, executing the full encoder--decoder stack for every frame regardless of visual complexity, thereby incurring unnecessary computational cost in long video sequences dominated by temporally...
+
+### Balancing Faithfulness and Performance in Reasoning via Multi-Listener Soft Execution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.16154
+- Summary: Chain-of-thought (CoT) reasoning sometimes fails to faithfully reflect the true computation of a large language model (LLM), hampering its utility in explaining how LLMs arrive at their answers. Moreover, optimizing for faithfulness and interpretability in reasoning often degrades task performance....
 
 ### Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing
 - Source: HF Daily Papers
@@ -2142,11 +2160,23 @@
 - URL: https://tldr.takara.ai/p/2602.14934
 - Summary: Reliable uncertainty estimates are crucial for deploying pretrained models; yet, many strong methods for quantifying uncertainty require retraining, Monte Carlo sampling, or expensive second-order computations and may alter a frozen backbone's predictions. To address this, we introduce Gaussian...
 
+### MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14926
+- Summary: To address the global health threat of antimicrobial resistance, antimicrobial peptides (AMP) are being explored for their potent and promising ability to fight resistant pathogens. While artificial intelligence (AI) is being employed to advance AMP discovery and design, most AMP design models...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/r3w8gj1cx65g
 - Summary: Feb 16, 16:36 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 16, 16:05 UTCInvestigating - We are currently investigating this issue. Our team is actively working to identify the root cause.
+
+### Algorithmic Simplification of Neural Networks with Mosaic-of-Motifs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.14896
+- Summary: Large-scale deep learning models are well-suited for compression. Methods like pruning, quantization, and knowledge distillation have been used to achieve massive reductions in the number of model parameters, with marginal performance drops across a variety of architectures and tasks. This raises...
 
 ### CT-Bench: A Benchmark for Multimodal Lesion Understanding in Computed Tomography
 - Source: HF Daily Papers
@@ -2996,34 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.11190
 - Summary: arXiv:2602.11190v1 Announce Type: new Abstract: Time series forecasting is crucial for the World Wide Web and represents a core technical challenge in ensuring the stable and efficient operation of modern web services, such as intelligent transportation and website throughput. However, we have...
-
-### MELINOE: Fine-Tuning Enables Memory-Efficient Inference for Mixture-of-Experts Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.11192
-- Summary: arXiv:2602.11192v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) model architectures can significantly reduce the number of activated parameters per token, enabling computationally efficient training and inference. However, their large overall parameter counts and model sizes have precluded...
-
-### Predicting the post-wildfire mudflow onset using machine learning models on multi-parameter experimental data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.11194
-- Summary: arXiv:2602.11194v1 Announce Type: new Abstract: Post-wildfire mudflows are increasingly hazardous due to the prevalence of wildfires, including those on the wildland-urban interface. Upon burning, soil on the surface or immediately beneath becomes hydrophobic, a phenomenon that occurs predominantly...
-
-### AM-FM: A Foundation Model for Ambient Intelligence Through WiFi
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.11200
-- Summary: arXiv:2602.11200v1 Announce Type: new Abstract: Ambient intelligence, continuously understanding human presence, activity, and physiology in physical spaces, is fundamental to smart environments, health monitoring, and human-computer interaction. WiFi infrastructure provides a ubiquitous,...
-
-### Zero-Sacrifice Persistent-Robustness Adversarial Defense for Pre-Trained Encoders
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.11204
-- Summary: arXiv:2602.11204v1 Announce Type: new Abstract: The widespread use of publicly available pre-trained encoders from self-supervised learning (SSL) has exposed a critical vulnerability: their susceptibility to downstream-agnostic adversarial examples (DAEs), which are crafted without knowledge of the...
-
-### Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.11166
-- Summary: arXiv:2602.11166v1 Announce Type: new Abstract: Parameter-efficient fine-tuning (PEFT) methods are widely used to adapt large language models (LLMs) to downstream tasks and are often assumed to improve factual correctness. However, how the parameter-efficient fine-tuning methods affect...
 
