@@ -6,6 +6,36 @@
 
 ## 2026-02-25
 
+### Claude Desktop failing to open on Windows
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/d392wcgvxl01
+- Summary: Feb 25, 16:31 UTCIdentified - We are currently working on deploying a fix to the Claude Desktop app.Feb 25, 16:23 UTCMonitoring - A fix has been deployed and we're monitoring error rates.Feb 25, 16:23 UTCInvestigating - We have identified an issue leading to the Claude Desktop app failing to start...
+
+### Incident with Copilot Agent Sessions impacting CCA/CCR
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/l1bt9psnsqpg
+- Summary: Feb 25, 16:44 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 25, 16:38 UTCInvestigating - We are investigating reports of degraded performance for...
+
+### Connectivity degradation in Hamburg, Germany datacenter
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/3srddc47306x
+- Summary: Feb 25, 16:30 UTCResolved - Between 16:32 and 16:38 UTC, a connectivity degradation occurred in Hamburg, Germany datacenter.
+
+### Elevated errors on Claude Sonnet 4.6 and Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/37smd4qkjv2r
+- Summary: Feb 25, 16:22 UTCResolved - This incident has been resolved.Feb 25, 15:42 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 25, 15:02 UTCUpdate - We are continuing to investigate this issue.Feb 25, 13:58 UTCInvestigating - We are currently investigating this issue.
+
+### SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html
+- Summary: The notorious cybercrime collective known as Scattered LAPSUS$ Hunters (SLH) has been observed offering financial incentives to recruit women to pull off social engineering attacks. The idea is to hire them for voice phishing campaigns targeting IT help desks, Dataminr said in a new threat brief....
+
 ### Ex-US Defense Contractor Executive Jailed for Selling Exploits to Russia
 - Source: Security Week
 - Category: security
@@ -303,6 +333,24 @@
 - URL: https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
 - Summary: A vulnerability in GitHub Codespaces could have been exploited by bad actors to seize control of repositories by injecting malicious Copilot instructions in a GitHub issue. The artificial intelligence (AI)-driven vulnerability has been codenamed RoguePilot by Orca Security. It has since been...
 
+### Spa3R: Predictive Spatial Field Modeling for 3D Visual Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21186
+- Summary: While Vision-Language Models (VLMs) exhibit exceptional 2D visual understanding, their ability to comprehend and reason about 3D space--a cornerstone of spatial intelligence--remains superficial. Current methodologies attempt to bridge this domain gap either by relying on explicit 3D modalities or...
+
+### SynthRender and IRIS: Open-Source Framework and Dataset for Bidirectional Sim-Real Transfer in Industrial Object Perception
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21141
+- Summary: Object perception is fundamental for tasks such as robotic material handling and quality inspection. However, modern supervised deep-learning perception models require large datasets for robust automation under semi-uncontrolled conditions. The cost of acquiring and annotating such data for...
+
+### "Are You Sure?": An Empirical Study of Human Perception Vulnerability in LLM-Driven Agentic Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21127
+- Summary: Large language model (LLM) agents are rapidly becoming trusted copilots in high-stakes domains like software development and healthcare. However, this deepening trust introduces a novel attack surface: Agent-Mediated Deception (AMD), where compromised agents are weaponized against their human...
+
 ### How much does distillation really matter for Chinese LLMs?
 - Source: Interconnects
 - Category: open-source
@@ -321,11 +369,23 @@
 - URL: https://www.securityweek.com/arkanix-stealer-malware-disappears-shortly-after-debut/
 - Summary: Written in C++ and Python, the malware exfiltrates system information, browser data, and steals files. The post &#8216;Arkanix Stealer&#8217; Malware Disappears Shortly After Debut appeared first on SecurityWeek.
 
+### Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20981
+- Summary: Scaling multimodal alignment between video and audio is challenging, particularly due to limited data and the mismatch between text descriptions and frame-level video information. In this work, we tackle the scaling challenge in multimodal-to-audio generation, examining whether models trained on...
+
 ### VMware Aria Operations Vulnerability Could Allow Remote Code Execution
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/vmware-aria-operations-vulnerability-could-allow-remote-code-execution/
 - Summary: Broadcom has patched several vulnerabilities in VMware Aria Operations, including high-severity flaws. The post VMware Aria Operations Vulnerability Could Allow Remote Code Execution appeared first on SecurityWeek.
+
+### Some Simple Economics of AGI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20946
+- Summary: For millennia, human cognition was the primary engine of progress on Earth. As AI decouples cognition from biology, the marginal cost of measurable execution falls to zero, absorbing any labor capturable by metrics--including creative, analytical, and innovative work. The binding constraint on...
 
 ### UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware
 - Source: The Hacker News
@@ -2962,64 +3022,4 @@
 - Category: security
 - URL: https://www.securityweek.com/hackers-offer-to-sell-millions-of-eurail-user-records/
 - Summary: Eurail has confirmed that the stolen data is up for sale, but it’s still trying to determine how many individuals are impacted. The post Hackers Offer to Sell Millions of Eurail User Records appeared first on SecurityWeek.
-
-### New user-created skills are not working in Claude.ai
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/55dry9k1s8vg
-- Summary: Feb 17, 15:26 UTCInvestigating - We are currently investigating an issue with new user-created skills on Claude.ai. Our team is actively working to identify the root cause.
-
-### UniTAF: A Modular Framework for Joint Text-to-Speech and Audio-to-Face Modeling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15651
-- Summary: This work considers merging two independent models, TTS and A2F, into a unified model to enable internal feature transfer, thereby improving the consistency between audio and facial expressions generated from text. We also discuss the extension of the emotion control mechanism from TTS to the joint...
-
-### Continuous-Time Piecewise-Linear Recurrent Neural Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15649
-- Summary: In dynamical systems reconstruction (DSR) we aim to recover the dynamical system (DS) underlying observed time series. Specifically, we aim to learn a generative surrogate model which approximates the underlying, data-generating DS, and recreates its long-term properties (`climate statistics'). In...
-
-### STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15620
-- Summary: Reinforcement Learning (RL) has significantly improved large language model reasoning, but existing RL fine-tuning methods rely heavily on heuristic techniques such as entropy regularization and reweighting to maintain stability. In practice, they often experience late-stage performance collapse,...
-
-### The geometry of online conversations and the causal antecedents of conflictual discourse
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15600
-- Summary: This article investigates the causal antecedents of conflictual language and the geometry of interaction in online threaded conversations related to climate change. We employ three annotation dimensions, inferred through LLM prompting and averaging, to capture complementary aspects of discursive...
-
-### API Threats Grow in Scale as AI Expands the Blast Radius
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/api-threats-grow-in-scale-as-ai-expands-the-blast-radius/
-- Summary: New research shows attackers increasingly abusing APIs at machine speed as AI-driven systems widen exposure and amplify impact. The post API Threats Grow in Scale as AI Expands the Blast Radius appeared first on SecurityWeek.
-
-### Cyber Insights 2026: The Ongoing Fight to Secure Industrial Control Systems
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyber-insights-2026-the-ongoing-fight-to-secure-industrial-control-systems/
-- Summary: As nation-state actors, ransomware groups, and aging infrastructure collide, organizations must rethink how they defend critical operations through resilience, visibility, and modern security strategies. The post Cyber Insights 2026: The Ongoing Fight to Secure Industrial Control Systems appeared...
-
-### Clinically Inspired Symptom-Guided Depression Detection from Emotion-Aware Speech Representations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15578
-- Summary: Depression manifests through a diverse set of symptoms such as sleep disturbance, loss of interest, and concentration difficulties. However, most existing works treat depression prediction either as a binary label or an overall severity score without explicitly modeling symptom-specific...
-
-### Accelerating discovery in India through AI-powered science and education
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/
-- Summary: Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education
-
-### Scenario Approach with Post-Design Certification of User-Specified Properties
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.15568
-- Summary: The scenario approach is an established data-driven design framework that comes equipped with a powerful theory linking design complexity to generalization properties. In this approach, data are simultaneously used both for design and for certifying the design's reliability, without resorting to a...
 
