@@ -5,9 +5,54 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 25 Feb 2026 17:11:03 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2026 20:38:53 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Artifact generation (asking the model to generate a spreadsheet or slideshow) on ChatGPT is down for all users.</title>
+            <link>https://status.openai.com//incidents/01KJB80QA8P62R9X3B71YAZEAK</link>
+            <guid>https://status.openai.com//incidents/01KJB80QA8P62R9X3B71YAZEAK</guid>
+            <pubDate>Wed, 25 Feb 2026 20:32:00 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KJB80QA8P62R9X3B71YAZEAK">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: InvestigatingWe are investigating the issue for the listed services.Affected components Compliance API (Degraded performance) Deep Research (Degraded performance) Voice mode (Degraded performance) Search (Degraded performance) Image Generation (Degraded performance) GPTs (Degraded...</description>
+        </item>
+        <item>
+            <title>Elevated errors on Claude Opus 4.6</title>
+            <link>https://status.claude.com/incidents/p4y2931r0pmy</link>
+            <guid>https://status.claude.com/incidents/p4y2931r0pmy</guid>
+            <pubDate>Wed, 25 Feb 2026 19:37:29 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/p4y2931r0pmy">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 25, 19:37 UTCResolved - This incident has been resolved.Feb 25, 19:33 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 25, 19:15 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>Elevated error rates across multiple models</title>
+            <link>https://status.claude.com/incidents/bdxgsy48hp00</link>
+            <guid>https://status.claude.com/incidents/bdxgsy48hp00</guid>
+            <pubDate>Wed, 25 Feb 2026 17:46:47 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/bdxgsy48hp00">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Feb 25, 17:46 UTCResolved - This incident has been resolved.Feb 25, 17:21 UTCUpdate - We are continuing to investigate this issue.Feb 25, 17:21 UTCUpdate - We are continuing to investigate this issue.Feb 25, 17:15 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>🔬Searching the Space of All Possible Materials — Prof. Max Welling, CuspAI</title>
+            <link>https://www.latent.space/p/cuspai</link>
+            <guid>https://www.latent.space/p/cuspai</guid>
+            <pubDate>Wed, 25 Feb 2026 17:36:18 +0000</pubDate>
+            <source url="https://www.latent.space/p/cuspai">Latent Space</source>
+            <category>open-source</category>
+            <description>Editor&amp;#8217;s note: CuspAI raised a $100m Series A in September and is rumored to have reached a unicorn valuation. They have all-star advisors from Geoff Hinton to Yann Lecun and team of deep domain experts</description>
+        </item>
+        <item>
+            <title>Workers Cron Triggers not firing</title>
+            <link>https://www.cloudflarestatus.com/incidents/dtt7mqb3zkxm</link>
+            <guid>https://www.cloudflarestatus.com/incidents/dtt7mqb3zkxm</guid>
+            <pubDate>Wed, 25 Feb 2026 17:30:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/dtt7mqb3zkxm">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Feb 25, 17:30 UTCResolved - Cloudflare is aware of and has mitigated an issue which impacted Workers Cron Triggers not firing for some customers. This impacted some users from 17:54 to 18:18 UTC.</description>
+        </item>
         <item>
             <title>Claude Desktop failing to open on Windows</title>
             <link>https://status.claude.com/incidents/d392wcgvxl01</link>
@@ -387,6 +432,15 @@
             <description>While Vision-Language Models (VLMs) exhibit exceptional 2D visual understanding, their ability to comprehend and reason about 3D space--a cornerstone of spatial intelligence--remains superficial. Current methodologies attempt to bridge this domain gap either by relying on explicit 3D modalities or...</description>
         </item>
         <item>
+            <title>The Diffusion Duality, Chapter II: $Ψ$-Samplers and Efficient Curriculum</title>
+            <link>https://tldr.takara.ai/p/2602.21185</link>
+            <guid>https://tldr.takara.ai/p/2602.21185</guid>
+            <pubDate>Tue, 24 Feb 2026 18:35:22 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2602.21185">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Uniform-state discrete diffusion models excel at few-step generation and guidance due to their ability to self-correct, making them preferred over autoregressive or Masked diffusion models in these settings. However, their sampling quality plateaus with ancestral samplers as the number of steps...</description>
+        </item>
+        <item>
             <title>SynthRender and IRIS: Open-Source Framework and Dataset for Bidirectional Sim-Real Transfer in Industrial Object Perception</title>
             <link>https://tldr.takara.ai/p/2602.21141</link>
             <guid>https://tldr.takara.ai/p/2602.21141</guid>
@@ -403,60 +457,6 @@
             <source url="https://tldr.takara.ai/p/2602.21127">HF Daily Papers</source>
             <category>open-source</category>
             <description>Large language model (LLM) agents are rapidly becoming trusted copilots in high-stakes domains like software development and healthcare. However, this deepening trust introduces a novel attack surface: Agent-Mediated Deception (AMD), where compromised agents are weaponized against their human...</description>
-        </item>
-        <item>
-            <title>How much does distillation really matter for Chinese LLMs?</title>
-            <link>https://www.interconnects.ai/p/how-much-does-distillation-really</link>
-            <guid>https://www.interconnects.ai/p/how-much-does-distillation-really</guid>
-            <pubDate>Tue, 24 Feb 2026 16:06:43 +0000</pubDate>
-            <source url="https://www.interconnects.ai/p/how-much-does-distillation-really">Interconnects</source>
-            <category>open-source</category>
-            <description>Reacting to Anthropic&#x27;s post on &quot;distillation attacks.&quot;</description>
-        </item>
-        <item>
-            <title>Not Just What&#x27;s There: Enabling CLIP to Comprehend Negated Visual Descriptions Without Fine-tuning</title>
-            <link>https://tldr.takara.ai/p/2602.21035</link>
-            <guid>https://tldr.takara.ai/p/2602.21035</guid>
-            <pubDate>Tue, 24 Feb 2026 15:55:39 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.21035">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Vision-Language Models (VLMs) like CLIP struggle to understand negation, often embedding affirmatives and negatives similarly (e.g., matching &quot;no dog&quot; with dog images). Existing methods refine negation understanding via fine-tuning CLIP&#x27;s text encoder, risking overfitting. In this work, we propose...</description>
-        </item>
-        <item>
-            <title>Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models</title>
-            <link>https://tldr.takara.ai/p/2602.20981</link>
-            <guid>https://tldr.takara.ai/p/2602.20981</guid>
-            <pubDate>Tue, 24 Feb 2026 15:01:39 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2602.20981">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Scaling multimodal alignment between video and audio is challenging, particularly due to limited data and the mismatch between text descriptions and frame-level video information. In this work, we tackle the scaling challenge in multimodal-to-audio generation, examining whether models trained on...</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Sonnet 4.6</title>
-            <link>https://status.claude.com/incidents/61lq9gtznd0s</link>
-            <guid>https://status.claude.com/incidents/61lq9gtznd0s</guid>
-            <pubDate>Tue, 24 Feb 2026 13:00:08 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/61lq9gtznd0s">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Feb 24, 13:00 UTCUpdate - Previously this incident named Sonnet 4.5 as the affected model. This is a mistake and the model affected is Sonnet 4.6. Sorry.Feb 24, 12:22 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Sonnet 4.6</title>
-            <link>https://status.claude.com/incidents/krthksf7mfyq</link>
-            <guid>https://status.claude.com/incidents/krthksf7mfyq</guid>
-            <pubDate>Tue, 24 Feb 2026 07:41:22 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/krthksf7mfyq">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Feb 24, 07:41 UTCResolved - As of 23:27 PT / 7:27 UTC the errors are back to the baseline.Feb 24, 07:22 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>[AINews] Anthropic accuses DeepSeek, Moonshot, and MiniMax of &gt;16 million &quot;industrial-scale distillation attacks&quot;</title>
-            <link>https://www.latent.space/p/ainews-anthropic-accuses-deepseek</link>
-            <guid>https://www.latent.space/p/ainews-anthropic-accuses-deepseek</guid>
-            <pubDate>Tue, 24 Feb 2026 04:48:01 +0000</pubDate>
-            <source url="https://www.latent.space/p/ainews-anthropic-accuses-deepseek">Latent Space</source>
-            <category>open-source</category>
-            <description>the US-China cold war takes a big step up</description>
         </item>
     </channel>
 </rss>
