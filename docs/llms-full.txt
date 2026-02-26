@@ -6,6 +6,12 @@
 
 ## 2026-02-26
 
+### Claude Code showing "JSON Parse error: Unexpected EOF" and writing excessive files on Windows
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/3kjy2zn2w2bj
+- Summary: Feb 26, 19:57 UTCIdentified - We have identified a bug where Windows users are experiencing significant write contention for the .claude.json global config file, starting with Claude Code 2.1.59. We are working on a hotfix.
+
 ### Network Performance issues in Frankfurt, Germany
 - Source: Cloudflare Status
 - Category: incidents
@@ -356,6 +362,12 @@
 - URL: https://www.githubstatus.com/incidents/l1bt9psnsqpg
 - Summary: Feb 25, 16:44 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Feb 25, 16:38 UTCInvestigating - We are investigating reports of degraded performance for...
 
+### Coarsening Bias from Variable Discretization in Causal Functionals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22083
+- Summary: A class of causal effect functionals requires integration over conditional densities of continuous variables, as in mediation effects and nonparametric identification in causal graphical models. Estimating such densities and evaluating the resulting integrals can be statistically and...
+
 ### Connectivity degradation in Hamburg, Germany datacenter
 - Source: Cloudflare Status
 - Category: incidents
@@ -415,6 +427,12 @@
 - Category: security
 - URL: https://www.securityweek.com/medical-device-maker-ufp-technologies-hit-by-cyberattack/
 - Summary: UFP Technologies appears to have been targeted in a ransomware attack that involved data theft and file-encrypting malware. The post Medical Device Maker UFP Technologies Hit by Cyberattack appeared first on SecurityWeek.
+
+### 2-Step Agent: A Framework for the Interaction of a Decision Maker with AI Decision Support
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21889
+- Summary: Across a growing number of fields, human decision making is supported by predictions from AI models. However, we still lack a deep understanding of the effects of adoption of these technologies. In this paper, we introduce a general computational framework, the 2-Step Agent, which models the...
 
 ### The Download: introducing the Crime issue
 - Source: MIT Tech Review AI
@@ -500,11 +518,23 @@
 - URL: https://tldr.takara.ai/p/2602.21762
 - Summary: Single-point annotation is increasingly prominent in visual tasks for labeling cost reduction. However, it challenges tasks requiring high precision, such as the point-prompted instance segmentation (PPIS) task, which aims to estimate precise masks using single-point prompts to train a segmentation...
 
+### From Words to Amino Acids: Does the Curse of Depth Persist?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21750
+- Summary: Protein language models (PLMs) have become widely adopted as general-purpose models, demonstrating strong performance in protein engineering and de novo design. Like large language models (LLMs), they are typically trained as deep transformers with next-token or masked-token prediction objectives...
+
 ### Reddit Hit With $20 Million UK Data Privacy Fine Over Child Safety Failings
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/reddit-hit-with-20-million-uk-data-privacy-fine-over-child-safety-failings/
 - Summary: Britain’s data privacy watchdog slapped online forum Reddit on Tuesday with a fine worth nearly $20 million for failures involving children’s personal information. The post Reddit Hit With $20 Million UK Data Privacy Fine Over Child Safety Failings appeared first on SecurityWeek.
+
+### SigVLP: Sigmoid Volume-Language Pre-Training for Self-Supervised CT-Volume Adaptive Representation Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21735
+- Summary: Large-scale, volumetric medical imaging datasets typically aggregate scans from different vendors and devices, resulting in highly variable resolution, slice thicknesses, and numbers of slices per study. Consequently, training representation models usually requires cropping or interpolating along...
 
 ### Private and Robust Contribution Evaluation in Federated Learning
 - Source: HF Daily Papers
@@ -793,6 +823,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/unitree-robotics-g1-robot-appears-at-beijing-s-temple-of-heaven-showcasing-a-kung-fu-inspired-group-demonstration
 - Summary: Unitree Robotics’ G1 humanoid robots demonstrate unprecedented athletic capability through a large-scale kung fu–inspired group performance at Beijing’s Temple of Heaven.
+
+### Muon+: Towards Better Muon via One Additional Normalization Step
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21545
+- Summary: The Muon optimizer has demonstrated promising performance in pre-training large language models through gradient (or momentum) orthogonalization. In this work, we propose a simple yet effective enhancement to Muon, namely Muon+, which introduces an additional normalization step after...
 
 ### Pseudo-View Enhancement via Confidence Fusion for Unposed Sparse-View Reconstruction
 - Source: HF Daily Papers
@@ -2988,39 +3024,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KHRP7P1JF885BYA8SDWBDBR1
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Video generation (Operational)
-
-### Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html
-- Summary: Cybersecurity researchers have disclosed a critical security flaw in the Grandstream GXP1600 series of VoIP phones that could allow an attacker to seize control of susceptible devices. The vulnerability, tracked as CVE-2026-2329, carries a CVSS score of 9.3 out of a maximum of 10.0. It has been...
-
-### IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-research/itbenchandmast
-
-### A new way to express yourself: Gemini can now create music
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/
-- Summary: The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.
-
-### Google DeepMind wants to know if chatbots are just virtue signaling
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/
-- Summary: Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medical advisors, and so on—to be scrutinized with the same kind of rigor as their ability to code or do math. As LLMs improve, people are asking them to...
-
-### Elevated error rates across multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/kqxx66h5qsy2
-- Summary: Feb 18, 15:59 UTCUpdate - We are continuing to monitor for any further issues.Feb 18, 15:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 18, 15:36 UTCInvestigating - We are currently investigating this issue.
-
-### RIDER: 3D RNA Inverse Design with Reinforcement Learning-Guided Diffusion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.16548
-- Summary: The inverse design of RNA three-dimensional (3D) structures is crucial for engineering functional RNAs in synthetic biology and therapeutics. While recent deep learning approaches have advanced this field, they are typically optimized and evaluated using native sequence recovery, which is a limited...
 
