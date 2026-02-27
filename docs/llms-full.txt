@@ -6,6 +6,42 @@
 
 ## 2026-02-27
 
+### Issues creating API tokens involving Zero Trust Write permissions
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/nzqx41m4y0hv
+- Summary: Feb 27, 20:05 UTCResolved - This incident has been resolved.Feb 27, 17:21 UTCInvestigating - Cloudflare is investigating issues creating API tokens that result in a "1001: Failed common permission check against resources" error. This specifically impacts token creation attempts that include the...
+
+### Sonnet 4.6 elevated error rate
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/0xc7ybw5wd3x
+- Summary: Feb 27, 19:43 UTCResolved - This incident has been resolved.Feb 27, 19:32 UTCInvestigating - We are currently investigating this issue.
+
+### METR’s Joel Becker on exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/metr
+- Summary: AIE Europe CFP and AIE World&#8217;s Fair paper submissions for CAIS peer review are due TODAY - do not delay!
+
+### DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html
+- Summary: The U.S. Department of Justice (DoJ) this week announced the seizure of $61 million worth of Tether that were allegedly associated with bogus cryptocurrency schemes known as pig butchering. The confiscated funds were traced to cryptocurrency addresses used for the laundering of criminally derived...
+
+### 900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html
+- Summary: The Shadowserver Foundation has revealed that over 900 Sangoma FreePBX instances still remain infected with web shells as part of attacks that exploited a command injection vulnerability starting in December 2025. Of these, 401 instances are located in the U.S., followed by 51 in Brazil, 43 in...
+
+### Claude Desktop login issues
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/70jm56f7jlpk
+- Summary: Feb 27, 17:21 UTCResolved - This incident has been resolved.Feb 27, 17:21 UTCUpdate - We are continuing to monitor for any further issues.Feb 27, 14:00 UTCMonitoring - Some new logins to the Claude Desktop app were not working.
+
 ### RESOLVED: Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.
 - Source: GCP Status
 - Category: incidents
@@ -279,6 +315,12 @@
 - URL: https://status.claude.com/incidents/3kjy2zn2w2bj
 - Summary: Feb 26, 19:57 UTCIdentified - We have identified a bug where Windows users are experiencing significant write contention for the .claude.json global config file, starting with Claude Code 2.1.59. We are working on a hotfix.
 
+### Sensor Generalization for Adaptive Sensing in Event-based Object Detection via Joint Distribution Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.23357
+- Summary: Bio-inspired event cameras have recently attracted significant research due to their asynchronous and low-latency capabilities. These features provide a high dynamic range and significantly reduce motion blur. However, because of the novelty in the nature of their output signals, there is a gap in...
+
 ### Bitwise Systolic Array Architecture for Runtime-Reconfigurable Multi-precision Quantized Multiplication on Hardware Accelerators
 - Source: HF Daily Papers
 - Category: open-source
@@ -308,6 +350,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/1g2685s6hyb5
 - Summary: Feb 26, 16:35 UTCResolved - This incident has been resolved.Feb 26, 16:25 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 26, 16:23 UTCIdentified - The issue has been identified and a fix is being implemented.Feb 26, 16:14 UTCUpdate - We are continuing to...
+
+### Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.23172
+- Summary: Capturing 4D spatiotemporal surroundings is crucial for the safe and reliable operation of robots in dynamic environments. However, most existing methods address only one side of the problem: they either provide coarse geometric tracking via bounding boxes, or detailed 3D structures like...
 
 ### SettleFL: Trustless and Scalable Reward Settlement Protocol for Federated Learning on Permissionless Blockchains (Extended version)
 - Source: HF Daily Papers
@@ -464,6 +512,12 @@
 - Category: security
 - URL: https://www.securityweek.com/trend-micro-patches-critical-apex-one-vulnerabilities/
 - Summary: TrendAI has fixed eight critical and high-severity issues in Windows and macOS endpoint security products. The post Trend Micro Patches Critical Apex One Vulnerabilities appeared first on SecurityWeek.
+
+### GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22800
+- Summary: Atmospheric turbulence causes significant image degradation due to pixel displacement (tilt) and blur, particularly in long-range imaging applications. In this paper, we propose a novel framework for atmospheric turbulence mitigation, GSTurb, which integrates optical flow-guided tilt correction and...
 
 ### Cisco Patches Catalyst SD-WAN Zero-Day Exploited by Highly Sophisticated Hackers
 - Source: Security Week
@@ -716,6 +770,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.22625
 - Summary: We introduce DiffBMP, a scalable and efficient differentiable rendering engine for a collection of bitmap images. Our work addresses a limitation that traditional differentiable renderers are constrained to vector graphics, given that most images in the world are bitmaps. Our core contribution is a...
+
+### Instruction-based Image Editing with Planning, Reasoning, and Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22624
+- Summary: Editing images via instruction provides a natural way to generate interactive content, but it is a big challenge due to the higher requirement of scene understanding and generation. Prior work utilizes a chain of large language models, object segmentation models, and editing models for this task....
+
+### Operationalizing Fairness: Post-Hoc Threshold Optimization Under Hard Resource Limits
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22560
+- Summary: The deployment of machine learning in high-stakes domains requires a balance between predictive safety and algorithmic fairness. However, existing fairness interventions often as- sume unconstrained resources and employ group-specific decision thresholds that violate anti- discrimination...
 
 ### MiniMax Launches MaxClaw With One-Click OpenClaw Deployment
 - Source: Pandaily
@@ -2959,70 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.17663
 - Summary: HIPE-2026 is a CLEF evaluation lab dedicated to person-place relation extraction from noisy, multilingual historical texts. Building on the HIPE-2020 and HIPE-2022 campaigns, it extends the series toward semantic relation extraction by targeting the task of identifying person--place associations in...
-
-### MARS: Margin-Aware Reward-Modeling with Self-Refinement
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17658
-- Summary: Reward modeling is a core component of modern alignment pipelines including RLHF and RLAIF, underpinning policy optimization methods including PPO and TRPO. However, training reliable reward models relies heavily on human-labeled preference data, which is costly and limited, motivating the use of...
-
-### What Language is This? Ask Your Tokenizer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17655
-- Summary: Language Identification (LID) is an important component of many multilingual natural language processing pipelines, where it facilitates corpus curation, training data analysis, and cross-lingual evaluation of large language models. Despite near-perfect performance on high-resource languages,...
-
-### Mine and Refine: Optimizing Graded Relevance in E-commerce Search Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17654
-- Summary: We propose a two-stage "Mine and Refine" contrastive training framework for semantic text embeddings to enhance multi-category e-commerce search retrieval. Large scale e-commerce search demands embeddings that generalize to long tail, noisy queries while adhering to scalable supervision compatible...
-
-### SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17632
-- Summary: Modern offline Reinforcement Learning (RL) methods find performant actor-critics, however, fine-tuning these actor-critics online with value-based RL algorithms typically causes immediate drops in performance. We provide evidence consistent with the hypothesis that, in the loss landscape, offline...
-
-### Unmasking the Factual-Conceptual Gap in Persian Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17623
-- Summary: While emerging Persian NLP benchmarks have expanded into pragmatics and politeness, they rarely distinguish between memorized cultural facts and the ability to reason about implicit social norms. We introduce DivanBench, a diagnostic benchmark focused on superstitions and customs, arbitrary,...
-
-### Towards Anytime-Valid Statistical Watermarking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17608
-- Summary: The proliferation of Large Language Models (LLMs) necessitates efficient mechanisms to distinguish machine-generated content from human text. While statistical watermarking has emerged as a promising solution, existing methods suffer from two critical limitations: the lack of a principled approach...
-
-### AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17594
-- Summary: Rigorously evaluating machine intelligence against the broad spectrum of human general intelligence has become increasingly important and challenging in this era of rapid technological advance. Conventional AI benchmarks typically assess only narrow capabilities in a limited range of human...
-
-### PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html
-- Summary: Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and achieves persistence. The malware has been codenamed PromptSpy by ESET. The malware is equipped to...
-
-### INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html
-- Summary: An international cybercrime operation against online scams has led to 651 arrests and recovered more than $4.3 million as part of an effort led by law enforcement agencies from 16 African countries. The initiative, codenamed Operation Red Card 2.0, took place between December 8, 2025 and January...
-
-### Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html
-- Summary: Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges. Windows Admin Center is a locally deployed, browser-based management tool set that lets users manage their Windows Clients, Servers, and Clusters without the need...
-
-### Revisiting Weight Regularization for Low-Rank Continual Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17559
-- Summary: Continual Learning (CL) with large-scale pre-trained models (PTMs) has recently gained wide attention, shifting the focus from training from scratch to continually adapting PTMs. This has given rise to a promising paradigm: parameter-efficient continual learning (PECL), where task interference is...
 
