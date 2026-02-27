@@ -6,11 +6,35 @@
 
 ## 2026-02-27
 
+### RESOLVED: Vertex AI Gemini API customers experienced increased error rates when accessing the global endpoint.
+- Source: GCP Status
+- Category: incidents
+- URL: https://status.cloud.google.com/incidents/41E5S3mkTGDfkZuJZH5k
+- Summary: Incident began at 2026-02-27 04:36 and ended at 2026-02-27 06:45 (all times are US/Pacific).Description Between Friday, 2026-02-27, 04:36 and 06:45 PST, customers experienced increased error rates when accessing the Vertex Gemini API Global endpoint. The issue impacted API requests to multiple...
+
+### Elevated errors on claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/zp9x05pcbwxq
+- Summary: Feb 27, 13:41 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 27, 13:14 UTCInvestigating - We are currently investigating this issue.
+
+### The Download: how AI is shaking up Go, and a cybersecurity mystery
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/02/27/1133754/the-download-how-ai-is-shaking-up-go-and-a-cybersecurity-mystery/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is rewiring how the world’s best Go players think Ten years ago AlphaGo, Google DeepMind’s AI program, stunned the world by defeating the South...
+
 ### Elevated errors on claude.ai
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/6rw4nd44bqqh
 - Summary: Feb 27, 12:59 UTCInvestigating - We are currently investigating this issue.
+
+### ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html
+- Summary: The North Korean threat actor known as ScarCruft has been attributed to a fresh set of tools, including a backdoor that uses Zoho WorkDrive for command-and-control (C2) communications to fetch more payloads and an implant that uses removable media to relay commands and breach air-gapped networks....
 
 ### Chilean Carding Shop Operator Extradited to US
 - Source: Security Week
@@ -351,11 +375,23 @@
 - URL: https://azurestatusprodscus.azurewebsites.net/en-us/status/
 - Summary: We are investigating an alert where customers may see exceptions or errors during create or update operations on Azure SQL Managed Instance. We will provide more information as it becomes available.&nbsp;
 
+### Scaling Laws of Global Weather Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22962
+- Summary: Data-driven models are revolutionizing weather forecasting. To optimize training efficiency and model performance, this paper analyzes empirical scaling laws within this domain. We investigate the relationship between model performance (validation loss) and three key factors: model size ($N$),...
+
 ### Gambit Security Emerges From Stealth With $61 Million in Funding
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/gambit-security-emerges-from-stealth-with-61-million-in-funding/
 - Summary: The seed and Series A investment will enable the startup to accelerate product development and expand sales and customer success teams. The post Gambit Security Emerges From Stealth With $61 Million in Funding appeared first on SecurityWeek.
+
+### Generalization Bounds of Stochastic Gradient Descent in Homogeneous Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22936
+- Summary: Algorithmic stability is among the most potent techniques in generalization analysis. However, its derivation usually requires a stepsize $η_t = \mathcal{O}(1/t)$ under non-convex training regimes, where $t$ denotes iterations. This rigid decay of the stepsize potentially impedes optimization and...
 
 ### Zyxel Patches Critical Vulnerability in Many Device Models
 - Source: Security Week
@@ -375,6 +411,12 @@
 - URL: https://tldr.takara.ai/p/2602.22917
 - Summary: Multimodal models ideally should generalize to unseen domains while remaining data-efficient to reduce annotation costs. To this end, we introduce and study a new problem, Semi-Supervised Multimodal Domain Generalization (SSMDG), which aims to learn robust multimodal models from multi-source data...
 
+### NoRA: Breaking the Linear Ceiling of Low-Rank Adaptation via Manifold Expansion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22911
+- Summary: Low-Rank Adaptation (LoRA) dominates parameter-efficient fine-tuning (PEFT). However, it faces a critical ``linear ceiling'' in complex reasoning tasks: simply increasing the rank yields diminishing returns due to intrinsic linear constraints. We introduce NoRA (Non-linear Rank Adaptation), a...
+
 ### Incident with Copilot
 - Source: GitHub Status
 - Category: incidents
@@ -386,6 +428,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/
 - Summary: When a company claims to have created what’s essentially the holy grail of batteries, there are bound to be some questions. Interest has been swirling since Donut Lab, a Finnish company, announced last month that it had a new solid-state battery technology, one that was ready for large-scale...
+
+### GraspLDP: Towards Generalizable Grasping Policy via Latent Diffusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22862
+- Summary: This paper focuses on enhancing the grasping precision and generalization of manipulation policies learned via imitation learning. Diffusion-based policy learning methods have recently become the mainstream approach for robotic manipulation tasks. As grasping is a critical subtask in manipulation,...
 
 ### Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware
 - Source: The Hacker News
@@ -476,6 +524,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html
 - Summary: A newly disclosed maximum-severity security flaw in Cisco Catalyst SD-WAN Controller (formerly vSmart) and Catalyst SD-WAN Manager (formerly vManage) has come under active exploitation in the wild as part of malicious activity that dates back to 2023. The vulnerability, tracked as CVE-2026-20127...
+
+### MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22638
+- Summary: Route-planning agents powered by large language models (LLMs) have emerged as a promising paradigm for supporting everyday human mobility through natural language interaction and tool-mediated decision making. However, systematic evaluation in real-world mobility settings is hindered by diverse...
 
 ### A Dynamic Survey of Soft Set Theory and Its Extensions
 - Source: arXiv AI
@@ -2971,58 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.17559
 - Summary: Continual Learning (CL) with large-scale pre-trained models (PTMs) has recently gained wide attention, shifting the focus from training from scratch to continually adapting PTMs. This has given rise to a promising paradigm: parameter-efficient continual learning (PECL), where task interference is...
-
-### Adaptive Decentralized Composite Optimization via Three-Operator Splitting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17545
-- Summary: The paper studies decentralized optimization over networks, where agents minimize a sum of {\it locally} smooth (strongly) convex losses and plus a nonsmooth convex extended value term. We propose decentralized methods wherein agents {\it adaptively} adjust their stepsize via local backtracking...
-
-### Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/a16z
-- Summary: From pioneering software-defined networking to backing many of the most aggressive AI model companies of this cycle, Martin Casado and Sarah Wang sit at the center of the capital, compute, and talent arms race reshaping the tech industry.
-
-### LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17535
-- Summary: Medical vision-language models (VLMs) are strong zero-shot recognizers for medical imaging, but their reliability under domain shift hinges on calibrated uncertainty with guarantees. Split conformal prediction (SCP) offers finite-sample coverage, yet prediction sets often become large (low...
-
-### Position: Evaluation of ECG Representations Must Be Fixed
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17531
-- Summary: This position paper argues that current benchmarking practice in 12-lead ECG representation learning must be fixed to ensure progress is reliable and aligned with clinically meaningful objectives. The field has largely converged on three public multi-label benchmarks (PTB-XL, CPSC2018, CSN)...
-
-### Learning with Boolean threshold functions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17493
-- Summary: We develop a method for training neural networks on Boolean data in which the values at all nodes are strictly $\pm 1$, and the resulting models are typically equivalent to networks whose nonzero weights are also $\pm 1$. The method replaces loss minimization with a nonconvex constraint...
-
-### Gemini 3.1 Pro: A smarter model for your most complex tasks
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/
-- Summary: 3.1 Pro is designed for tasks where a simple answer isn’t enough.
-
-### Claude's responses not appearing in Cowork
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/p66ph1brd3zc
-- Summary: Feb 19, 16:03 UTCResolved - This incident has been resolved.Feb 19, 15:36 UTCUpdate - We are continuing to investigate this issue.Feb 19, 15:30 UTCInvestigating - We are currently investigating this issue.
-
-### Microsoft has a new plan to prove what’s real and what’s AI online
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/
-- Summary: AI-enabled deception now permeates our online lives. There are the high-profile cases you may easily spot, like when White House officials recently shared a manipulated image of a protester in Minnesota and then mocked those asking about it. Other times, it slips quietly into social media feeds and...
-
-### What Do LLMs Associate with Your Name? A Human-Centered Black-Box Audit of Personal Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.17483
-- Summary: Large language models (LLMs), and conversational agents based on them, are exposed to personal data (PD) during pre-training and during user interactions. Prior work shows that PD can resurface, yet users lack insight into how strongly models associate specific information to their identity. We...
 
