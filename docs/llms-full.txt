@@ -6,6 +6,12 @@
 
 ## 2026-02-28
 
+### Elevated errors on claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/ddyyz34c24vt
+- Summary: Feb 28, 15:50 UTCResolved - This incident has been resolved.Feb 28, 13:07 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 28, 12:57 UTCInvestigating - We are currently investigating this issue.
+
 ### Who is the Kimwolf Botmaster “Dort”?
 - Source: Krebs on Security
 - Category: security
@@ -1406,6 +1412,12 @@
 - URL: https://thehackernews.com/2026/02/top-5-ways-broken-triage-increases.html
 - Summary: Triage is supposed to make things simpler. In a lot of teams, it does the opposite. When you can’t reach a confident verdict early, alerts turn into repeat checks, back-and-forth, and “just escalate it” calls. That cost doesn’t stay inside the SOC; it shows up as missed SLAs, higher cost per case,...
 
+### Multi-Level Causal Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22287
+- Summary: Abstractions of causal models allow for the coarsening of models such that relations of cause and effect are preserved. Whereas abstractions focus on the relation between two models, in this paper we study a framework for causal embeddings which enable multiple detailed models to be mapped into...
+
 ### Medical Device Maker UFP Technologies Hit by Cyberattack
 - Source: Security Week
 - Category: security
@@ -1898,6 +1910,12 @@
 - URL: https://tldr.takara.ai/p/2602.21461
 - Summary: Vector glyphs are the atomic units of digital typography, yet most learning-based pipelines still depend on carefully curated exemplar sheets and raster-to-vector postprocessing, which limits accessibility and editability. We introduce VecGlypher, a single multimodal language model that generates...
 
+### Revisiting Text Ranking in Deep Research
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21456
+- Summary: Deep research has emerged as an important task that aims to address hard queries through extensive open-web exploration. To tackle it, most prior work equips large language model (LLM)-based agents with opaque web search APIs, enabling agents to iteratively issue search queries, retrieve external...
+
 
 ## 2026-02-24
 
@@ -2086,6 +2104,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html
 - Summary: A Russia-aligned threat actor has been observed targeting a European financial institution as part of a social engineering attack to likely facilitate intelligence gathering or financial theft, signaling a possible expansion of the threat actor's targeting beyond Ukraine and into entities...
+
+### HELP: HyperNode Expansion and Logical Path-Guided Evidence Localization for Accurate and Efficient GraphRAG
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20926
+- Summary: Large Language Models (LLMs) often struggle with inherent knowledge boundaries and hallucinations, limiting their reliability in knowledge-intensive tasks. While Retrieval-Augmented Generation (RAG) mitigates these issues, it frequently overlooks structural interdependencies essential for multi-hop...
 
 ### CISO Conversations: Timothy Youngblood; 4x Fortune 500 CISO/CSO
 - Source: Security Week
@@ -2502,6 +2526,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/jn8kcmg5ydch
 - Summary: Feb 23, 20:33 UTCUpdate - We are continuing to investigate elevated latency and timeouts for code search.Feb 23, 19:59 UTCInvestigating - We are investigating reports of impacted performance for some GitHub services.
+
+### Learning Physical Principles from Interaction: Self-Evolving Planning via Test-Time Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20323
+- Summary: Reliable object manipulation requires understanding physical properties that vary across objects and environments. Vision-language model (VLM) planners can reason about friction and stability in general terms; however, they often cannot predict how a specific ball will roll on a particular surface...
 
 ### ⚡️SWE-Bench-Dead: The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals & Human Data
 - Source: Latent Space
@@ -2988,37 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.18029
 - Summary: arXiv:2602.18029v1 Announce Type: new Abstract: Evaluation is no longer a final checkpoint in the machine learning lifecycle. As AI systems evolve from static models to compound, tool-using agents, evaluation becomes a core control function. The question is no longer "How good is the model?" but...
-
-### Less is More: Convergence Benefits of Fewer Data Weight Updates over Longer Horizon
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.19510
-- Summary: Data mixing--the strategic reweighting of training domains--is a critical component in training robust machine learning models. This problem is naturally formulated as a bilevel optimization task, where the outer loop optimizes domain weights to minimize validation loss, and the inner loop...
-
-### Softmax is not Enough (for Adaptive Conformal Classification)
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.19498
-- Summary: The merit of Conformal Prediction (CP), as a distribution-free framework for uncertainty quantification, depends on generating prediction sets that are efficient, reflected in small average set sizes, while adaptive, meaning they signal uncertainty by varying in size according to input difficulty....
-
-### CountEx: Fine-Grained Counting via Exemplars and Exclusion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.19432
-- Summary: This paper presents CountEx, a discriminative visual counting framework designed to address a key limitation of existing prompt-based methods: the inability to explicitly exclude visually similar distractors. While current approaches allow users to specify what to count via inclusion prompts, they...
-
-### In Defense of Cosine Similarity: Normalization Eliminates the Gauge Freedom
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.19393
-- Summary: Steck, Ekanadham, and Kallus [arXiv:2403.05440] demonstrate that cosine similarity of learned embeddings from matrix factorization models can be rendered arbitrary by a diagonal ``gauge'' matrix $D$. Their result is correct and important for practitioners who compute cosine similarity on embeddings...
-
-
-## 2026-02-22
-
-### PerSoMed: A Large-Scale Balanced Dataset for Persian Social Media Text Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.19333
-- Summary: This research introduces the first large-scale, well-balanced Persian social media text classification dataset, specifically designed to address the lack of comprehensive resources in this domain. The dataset comprises 36,000 posts across nine categories (Economic, Artistic, Sports, Political,...
 
