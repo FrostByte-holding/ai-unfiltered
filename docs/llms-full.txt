@@ -6,6 +6,18 @@
 
 ## 2026-02-28
 
+### Elevated errors on Claude Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/pmx7385vm0z1
+- Summary: Feb 28, 18:34 UTCResolved - Between 9:50 PT / 17:50 UTC and 10:12 PT / 18:12 UTC we had a high rate of errors on Claude Opus 4.6. This has now endedFeb 28, 18:09 UTCInvestigating - We are currently investigating this issue.
+
+### ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html
+- Summary: OpenClaw has fixed a high-severity security issue that, if successfully exploited, could have allowed a malicious website to connect to a locally running artificial intelligence (AI) agent and take over control. "Our vulnerability lives in the core system itself – no plugins, no marketplace, no...
+
 ### Elevated errors on claude.ai
 - Source: Anthropic Status
 - Category: incidents
@@ -996,6 +1008,12 @@
 - URL: https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html
 - Summary: A newly disclosed maximum-severity security flaw in Cisco Catalyst SD-WAN Controller (formerly vSmart) and Catalyst SD-WAN Manager (formerly vManage) has come under active exploitation in the wild as part of malicious activity that dates back to 2023. The vulnerability, tracked as CVE-2026-20127...
 
+### MUG: Meta-path-aware Universal Heterogeneous Graph Pre-Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22645
+- Summary: Universal graph pre-training has emerged as a key paradigm in graph representation learning, offering a promising way to train encoders to learn transferable representations from unlabeled graphs and to effectively generalize across a wide range of downstream tasks. However, recent explorations in...
+
 ### MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios
 - Source: HF Daily Papers
 - Category: open-source
@@ -1286,6 +1304,12 @@
 - URL: https://status.claude.com/incidents/p4y2931r0pmy
 - Summary: Feb 25, 19:37 UTCResolved - This incident has been resolved.Feb 25, 19:33 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 25, 19:15 UTCInvestigating - We are currently investigating this issue.
 
+### Testable Learning of General Halfspaces under Massart Noise
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22300
+- Summary: We study the algorithmic task of testably learning general Massart halfspaces under the Gaussian distribution. In the testable learning setting, the aim is the design of a tester-learner pair satisfying the following properties: (1) if the tester accepts, the learner outputs a hypothesis and a...
+
 ### Provable Last-Iterate Convergence for Multi-Objective Safe LLM Alignment via Optimistic Primal-Dual
 - Source: HF Daily Papers
 - Category: open-source
@@ -1459,6 +1483,12 @@
 - Category: security
 - URL: https://www.securityweek.com/over-12-million-users-impacted-by-cargurus-data-breach/
 - Summary: Hackers claim to have stolen personally identifiable information and internal corporate data from the automotive firm. The post Over 12 Million Users Impacted by CarGurus Data Breach appeared first on SecurityWeek.
+
+### Resilient Federated Chain: Transforming Blockchain Consensus into an Active Defense Layer for Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21841
+- Summary: Federated Learning (FL) has emerged as a key paradigm for building Trustworthy AI systems by enabling privacy-preserving, decentralized model training. However, FL is highly susceptible to adversarial attacks that compromise model integrity and data confidentiality, a vulnerability exacerbated by...
 
 ### SecurityWeek Report: 426 Cybersecurity M&A Deals Announced in 2025
 - Source: Security Week
@@ -2231,6 +2261,12 @@
 - URL: https://pandaily.com/xpeng-to-hire-8-000-more-staff-in-2026-as-it-bets-big-on-physical-ai-globalization
 - Summary: Xpeng plans to hire 8,000 more employees in 2026 while pushing simultaneous mass production of robots, flying cars, and Robotaxis in a decisive year for its “physical AI + globalization” strategy.
 
+### SurgAtt-Tracker: Online Surgical Attention Tracking via Temporal Proposal Reranking and Motion-Aware Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20636
+- Summary: Accurate and stable field-of-view (FoV) guidance is critical for safe and efficient minimally invasive surgery, yet existing approaches often conflate visual attention estimation with downstream camera control or rely on direct object-centric assumptions. In this work, we formulate surgical...
+
 ### German Chancellor Merz to Visit Unitree Robotics During China Trip
 - Source: Pandaily
 - Category: chinese-ai
@@ -2833,6 +2869,12 @@
 - URL: https://tldr.takara.ai/p/2602.19533
 - Summary: This paper investigates the grokking phenomenon, which refers to the sudden transition from a long memorization to generalization observed during neural networks training, in the context of learning multiplication in finite-dimensional algebras (FDA). While prior work on grokking has focused mainly...
 
+### A Statistical Approach for Modeling Irregular Multivariate Time Series with Missing Observations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.19531
+- Summary: Irregular multivariate time series with missing values present significant challenges for predictive modeling in domains such as healthcare. While deep learning approaches often focus on temporal interpolation or complex architectures to handle irregularities, we propose a simpler yet effective...
+
 ### OSInsert: Towards High-authenticity and High-fidelity Image Composition
 - Source: HF Daily Papers
 - Category: open-source
@@ -2976,46 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.17685
 - Summary: arXiv:2602.17685v1 Announce Type: new Abstract: This paper addresses the challenge of multi target active debris removal (ADR) in Low Earth Orbit (LEO) by introducing a unified coelliptic maneuver framework that combines Hohmann transfers, safety ellipse proximity operations, and explicit refueling...
-
-### Curriculum Learning for Efficient Chain-of-Thought Distillation via Structure-Aware Masking and GRPO
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.17686
-- Summary: arXiv:2602.17686v1 Announce Type: new Abstract: Distilling Chain-of-Thought (CoT) reasoning from large language models into compact student models presents a fundamental challenge: teacher rationales are often too verbose for smaller models to faithfully reproduce. Existing approaches either...
-
-### AnCoder: Anchored Code Generation via Discrete Diffusion Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.17688
-- Summary: arXiv:2602.17688v1 Announce Type: new Abstract: Diffusion language models offer a compelling alternative to autoregressive code generation, enabling global planning and iterative refinement of complex program logic. However, existing approaches fail to respect the rigid structure of programming...
-
-### Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17911
-- Summary: arXiv:2602.17911v1 Announce Type: new Abstract: Current biomedical question answering (QA) systems often assume that medical knowledge applies uniformly, yet real-world clinical reasoning is inherently conditional: nearly every decision depends on patient-specific factors such as comorbidities and...
-
-### Analyzing LLM Instruction Optimization for Tabular Fact Verification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17937
-- Summary: arXiv:2602.17937v1 Announce Type: new Abstract: Instruction optimization provides a lightweight, model-agnostic approach to enhancing the reasoning performance of large language models (LLMs). This paper presents the first systematic comparison of instruction optimization, based on the DSPy...
-
-### CUICurate: A GraphRAG-based Framework for Automated Clinical Concept Curation for NLP applications
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17949
-- Summary: arXiv:2602.17949v1 Announce Type: new Abstract: Background: Clinical named entity recognition tools commonly map free text to Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs). For many downstream tasks, however, the clinically meaningful unit is not a single CUI but a...
-
-### Decomposing Retrieval Failures in RAG for Long-Document Financial Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17981
-- Summary: arXiv:2602.17981v1 Announce Type: new Abstract: Retrieval-augmented generation is increasingly used for financial question answering over long regulatory filings, yet reliability depends on retrieving the exact context needed to justify answers in high stakes settings. We study a frequent failure...
-
-### Towards More Standardized AI Evaluation: From Models to Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18029
-- Summary: arXiv:2602.18029v1 Announce Type: new Abstract: Evaluation is no longer a final checkpoint in the machine learning lifecycle. As AI systems evolve from static models to compound, tool-using agents, evaluation becomes a core control function. The question is no longer "How good is the model?" but...
 
