@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-03-01
+
+### Increased Authentication Failures Affecting Some Users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KJM0AYG5PAY9EYRFH4T6JHP6
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
+
+
 ## 2026-02-28
 
 ### Elevated errors on Claude Opus 4.6
@@ -839,6 +848,12 @@
 - Category: security
 - URL: https://www.securityweek.com/gambit-security-emerges-from-stealth-with-61-million-in-funding/
 - Summary: The seed and Series A investment will enable the startup to accelerate product development and expand sales and customer success teams. The post Gambit Security Emerges From Stealth With $61 Million in Funding appeared first on SecurityWeek.
+
+### UCM: Unifying Camera Control and Memory with Time-aware Positional Encoding Warping for World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22960
+- Summary: World models based on video generation demonstrate remarkable potential for simulating interactive environments but face persistent difficulties in two key areas: maintaining long-term content consistency when scenes are revisited and enabling precise camera control from user-provided inputs....
 
 ### Generalization Bounds of Stochastic Gradient Descent in Homogeneous Neural Networks
 - Source: HF Daily Papers
@@ -2057,6 +2072,12 @@
 - URL: https://tldr.takara.ai/p/2602.21178
 - Summary: Deep learning has significantly advanced automated brain tumor diagnosis, yet clinical adoption remains limited by interpretability and computational constraints. Conventional models often act as opaque ''black boxes'' and fail to quantify the complex, irregular tumor boundaries that characterize...
 
+### Neural network optimization strategies and the topography of the loss landscape
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21276
+- Summary: Neural networks are trained by optimizing multi-dimensional sets of fitting parameters on non-convex loss landscapes. Low-loss regions of the landscapes correspond to the parameter sets that perform well on the training data. A key issue in machine learning is the performance of trained neural...
+
 ### A Benchmark for Deep Information Synthesis
 - Source: HF Daily Papers
 - Category: open-source
@@ -2092,6 +2113,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.21098
 - Summary: Understanding the locations of occupants in a commercial built environment is critical for realizing energy savings by delivering lighting, heating, and cooling only where it is needed. The key to achieving this goal is being able to recognize zone occupancy in real time, without impeding...
+
+### ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21078
+- Summary: Federated Semi-Supervised Learning (FSSL) aims to collaboratively train a global model across clients by leveraging partially-annotated local data in a privacy-preserving manner. In FSSL, data heterogeneity is a challenging issue, which exists both across clients and within clients. External...
 
 ### How much does distillation really matter for Chinese LLMs?
 - Source: Interconnects
@@ -2260,6 +2287,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.20677
 - Summary: Urban systems, as dynamic complex systems, continuously generate spatio-temporal data streams that encode the fundamental laws of human mobility and city evolution. While AI for Science has witnessed the transformative power of foundation models in disciplines like genomics and meteorology, urban...
+
+### BBQ-to-Image: Numeric Bounding Box and Qolor Control in Large-Scale Text-to-Image Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.20672
+- Summary: Text-to-image models have rapidly advanced in realism and controllability, with recent approaches leveraging long, detailed captions to support fine-grained generation. However, a fundamental parametric gap remains: existing models rely on descriptive language, whereas professional workflows...
 
 ### DANCE: Doubly Adaptive Neighborhood Conformal Estimation
 - Source: HF Daily Papers
@@ -2988,34 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.17682
 - Summary: arXiv:2602.17682v1 Announce Type: new Abstract: Consistency-based generative models like Shortcut and MeanFlow achieve impressive results via a target-aware design for solving the Probability Flow ODE (PF-ODE). Typically, such methods introduce a target time $r$ alongside the current time $t$ to...
-
-### QueryPlot: Generating Geological Evidence Layers using Natural Language Queries for Mineral Exploration
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17784
-- Summary: arXiv:2602.17784v1 Announce Type: new Abstract: Mineral prospectivity mapping requires synthesizing heterogeneous geological knowledge, including textual deposit models and geospatial datasets, to identify regions likely to host specific mineral deposit types. This process is traditionally manual...
-
-### Neural Synchrony Between Socially Interacting Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17815
-- Summary: arXiv:2602.17815v1 Announce Type: new Abstract: Neuroscience has uncovered a fundamental mechanism of our social nature: human brain activity becomes synchronized with others in many social contexts involving interaction. Traditionally, social minds have been regarded as an exclusive property of...
-
-### On the scaling relationship between cloze probabilities and language model next-token prediction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17848
-- Summary: arXiv:2602.17848v1 Announce Type: new Abstract: Recent work has shown that larger language models have better predictive power for eye movement and reading time data. While even the best models under-allocate probability mass to human responses, larger models assign higher-quality estimates of next...
-
-### Understanding Unreliability of Steering Vectors in Language Models: Geometric Predictors and the Limits of Linear Approximations
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17881
-- Summary: arXiv:2602.17881v1 Announce Type: new Abstract: Steering vectors are a lightweight method for controlling language model behavior by adding a learned bias to the activations at inference time. Although effective on average, steering effect sizes vary across samples and are unreliable for many...
-
-### Improving Neural Topic Modeling with Semantically-Grounded Soft Label Distributions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.17907
-- Summary: arXiv:2602.17907v1 Announce Type: new Abstract: Traditional neural topic models are typically optimized by reconstructing the document's Bag-of-Words (BoW) representations, overlooking contextual information and struggling with data sparsity. In this work, we propose a novel approach to construct...
 
