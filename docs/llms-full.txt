@@ -6,6 +6,42 @@
 
 ## 2026-03-02
 
+### Incident with Pull Requests /pulls
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/vhpmx9vc93m0
+- Summary: Mar 2, 20:02 UTCUpdate - We are experiencing issues with the Pull Requests dashboard that prevent users from filtering their pull requests. We have identified a mitigation and are deploying a fix. We'll post another update by 21:00 UTC.Mar 2, 19:23 UTCUpdate - We are seeing a degraded experience...
+
+### Elevated errors on Claude Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vqnfq1179169
+- Summary: Mar 2, 18:54 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 18:18 UTCInvestigating - We are seeing a repeat of this issue, we are currently investigating.Mar 2, 18:07 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 17:56...
+
+### Cloudflare Peering Portal Authentication Issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/tzlnzb58ghvd
+- Summary: Mar 2, 18:09 UTCResolved - This incident has been resolved.Feb 27, 13:24 UTCUpdate - We are continuing to work on a fix for this issue.Feb 27, 02:27 UTCIdentified - Cloudflare is aware of, and investigating an issue which impacts multiple customers/peers who use peering.cloudflare.com. This issue...
+
+### OpenAI’s “compromise” with the Pentagon is what Anthropic feared
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/
+- Summary: On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pursuing only after the Pentagon’s public reprimand of Anthropic, were “definitely rushed.” In its...
+
+### Elevated errors in claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/63943gpfb97z
+- Summary: Mar 2, 17:23 UTCResolved - This incident has been resolved.Mar 2, 17:08 UTCInvestigating - We are currently investigating this issue.
+
+### New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html
+- Summary: Cybersecurity researchers have disclosed details of a now-patched security flaw in Google Chrome that could have permitted attackers to escalate privileges and gain access to local files on the system. The vulnerability, tracked as CVE-2026-0628 (CVSS score: 8.8), has been described as a case of...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -518,6 +554,12 @@
 - Category: security
 - URL: https://www.securityweek.com/in-other-news-attck-advisory-council-russian-cyberattacks-aid-missile-strikes-predator-bypasses-ios-indicators/
 - Summary: Other noteworthy stories that might have slipped under the radar: cyber valuations surge, OpenAI disrupts malicious AI use, ShinyHunters claims Odido breach. The post In Other News: ATT&#038;CK Advisory Council, Russian Cyberattacks Aid Missile Strikes, Predator Bypasses iOS Indicators appeared...
+
+### CIRCLE: A Framework for Evaluating AI from a Real-World Lens
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.24055
+- Summary: This paper proposes CIRCLE, a six-stage, lifecycle-based framework to bridge the reality gap between model-centric performance metrics and AI's materialized outcomes in deployment. While existing frameworks like MLOps focus on system stability and benchmarks measure abstract capabilities,...
 
 ### 38 Million Allegedly Impacted by ManoMano Data Breach
 - Source: Security Week
@@ -1808,6 +1850,12 @@
 - URL: https://tldr.takara.ai/p/2602.21978
 - Summary: Recent work has examined language models from a linguistic perspective to better understand how they acquire language. Most existing benchmarks focus on judging grammatical acceptability, whereas the ability to interpret meanings conveyed by grammatical forms has received much less attention. We...
 
+### MEDSYN: Benchmarking Multi-EviDence SYNthesis in Complex Clinical Cases for Multimodal Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21950
+- Summary: Multimodal large language models (MLLMs) have shown great potential in medical applications, yet existing benchmarks inadequately capture real-world clinical complexity. We introduce MEDSYN, a multilingual, multimodal benchmark of highly complex clinical cases with up to 7 distinct visual clinical...
+
 ### Top 5 Ways Broken Triage Increases Business Risk Instead of Reducing It
 - Source: The Hacker News
 - Category: security
@@ -1861,6 +1909,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.21858
 - Summary: Multimodal large language models (MLLMs) have made significant progress in mobile agent development, yet their capabilities are predominantly confined to a reactive paradigm, where they merely execute explicit user commands. The emerging paradigm of proactive intelligence, where agents autonomously...
+
+### FewMMBench: A Benchmark for Multimodal Few-Shot Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21854
+- Summary: As multimodal large language models (MLLMs) advance in handling interleaved image-text data, assessing their few-shot learning capabilities remains an open challenge. In this paper, we introduce FewMMBench, a comprehensive benchmark designed to evaluate MLLMs under few-shot conditions, with a focus...
 
 ### Over 12 Million Users Impacted by CarGurus Data Breach
 - Source: Security Week
@@ -2968,58 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.18487
 - Summary: arXiv:2602.18487v1 Announce Type: new Abstract: This paper introduces GLiNER-bi-Encoder, a novel architecture for Named Entity Recognition (NER) that harmonizes zero-shot flexibility with industrial-scale efficiency. While the original GLiNER framework offers strong generalization, its...
-
-### Luna-2: Scalable Single-Token Evaluation with Small Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18583
-- Summary: arXiv:2602.18583v1 Announce Type: new Abstract: Real-time guardrails require evaluation that is accurate, cheap, and fast - yet today's default, LLM-as-a-judge (LLMAJ), is slow, expensive, and operationally non-deterministic due to multi-token generation. We present Luna-2, a novel architecture...
-
-### DP-RFT: Learning to Generate Synthetic Text via Differentially Private Reinforcement Fine-Tuning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18633
-- Summary: arXiv:2602.18633v1 Announce Type: new Abstract: Differentially private (DP) synthetic data generation plays a pivotal role in developing large language models (LLMs) on private data, where data owners cannot provide eyes-on access to individual examples. Generating DP synthetic data typically...
-
-### PolyFrame at MWE-2026 AdMIRe 2: When Words Are Not Enough: Multimodal Idiom Disambiguation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18652
-- Summary: arXiv:2602.18652v1 Announce Type: new Abstract: Multimodal models struggle with idiomatic expressions due to their non-compositional meanings, a challenge amplified in multilingual settings. We introduced PolyFrame, our system for the MWE-2026 AdMIRe2 shared task on multimodal idiom disambiguation,...
-
-### From Trial by Fire To Sleep Like a Baby: A Lexicon of Anxiety Associations for 20k English Multiword Expressions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18692
-- Summary: arXiv:2602.18692v1 Announce Type: new Abstract: Anxiety is the unease about a possible future negative outcome. In recent years, there has been growing interest in understanding how anxiety relates to our health, well-being, body, mind, and behaviour. This includes work on lexical resources for...
-
-### [AINews] Anthropic accuses DeepSeek, Moonshot, and MiniMax of >16 million "industrial-scale distillation attacks"
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-anthropic-accuses-deepseek
-- Summary: the US-China cold war takes a big step up
-
-### PFGNet: A Fully Convolutional Frequency-Guided Peripheral Gating Network for Efficient Spatiotemporal Predictive Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.20537
-- Summary: Spatiotemporal predictive learning (STPL) aims to forecast future frames from past observations and is essential across a wide range of applications. Compared with recurrent or hybrid architectures, pure convolutional models offer superior efficiency and full parallelism, yet their fixed receptive...
-
-### From Performance to Purpose: A Sociotechnical Taxonomy for Evaluating Large Language Model Utility
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.20513
-- Summary: As large language models (LLMs) continue to improve at completing discrete tasks, they are being integrated into increasingly complex and diverse real-world systems. However, task-level success alone does not establish a model's fit for use in practice. In applied, high-stakes settings, LLM...
-
-### AI² Robotics Raises Over RMB 1B in Series B, Touted as China’s “Most Tesla-Like” Robotics Startup
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ai-robotics-raises-over-rmb-1-b-in-series-b-touted-as-china-s-most-tesla-like-robotics-startup
-- Summary: AI² Robotics raised over USD 140 million in Series B funding, surpassing a USD 1.4 billion valuation as investors position it as China’s “most Tesla-like” robotics startup.
-
-### Kimi Surpasses Last Year’s Full-Year Revenue in 20 Days, Becomes China’s Fastest “Decacorn”
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kimi-surpasses-last-year-s-full-year-revenue-in-20-days-becomes-china-s-fastest-decacorn
-- Summary: Moonshot AI’s Kimi has generated more revenue in 20 days than in all of 2025, reaching a USD 10 billion valuation in just over two years.
 
