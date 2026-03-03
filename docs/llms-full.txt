@@ -6,6 +6,18 @@
 
 ## 2026-03-03
 
+### Claude Opus 4.6 Fast not appearing for some Copilot users
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/nglcmhr2kfb0
+- Summary: Mar 3, 20:31 UTCInvestigating - We are investigating reports of degraded performance for Copilot
+
+### Incident with Copilot and Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/n07yy1bk6kc4
+- Summary: Mar 3, 20:09 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 3, 20:06 UTCUpdate - We're seeing recovery across all services. We're continuing to...
+
 ### PRX Part 3 — Training a Text-to-Image Model in 24h!
 - Source: Hugging Face Blog
 - Category: open-source
@@ -343,11 +355,23 @@
 - URL: https://status.claude.com/incidents/vqnfq1179169
 - Summary: Mar 2, 18:54 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 18:18 UTCInvestigating - We are seeing a repeat of this issue, we are currently investigating.Mar 2, 18:07 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 17:56...
 
+### De-paradox Tree: Breaking Down Simpson's Paradox via A Kernel-Based Partition Algorithm
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02174
+- Summary: Real-world observational datasets and machine learning have revolutionized data-driven decision-making, yet many models rely on empirical associations that may be misleading due to confounding and subgroup heterogeneity. Simpson's paradox exemplifies this challenge, where aggregated and...
+
 ### Cloudflare Peering Portal Authentication Issue
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/tzlnzb58ghvd
 - Summary: Mar 2, 18:09 UTCResolved - This incident has been resolved.Feb 27, 13:24 UTCUpdate - We are continuing to work on a fix for this issue.Feb 27, 02:27 UTCIdentified - Cloudflare is aware of, and investigating an issue which impacts multiple customers/peers who use peering.cloudflare.com. This issue...
+
+### Recursive Models for Long-Horizon Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02112
+- Summary: Modern language models reason within bounded context, an inherent constraint that poses a fundamental barrier to long-horizon reasoning. We identify recursion as a core principle for overcoming this barrier, and propose recursive models as a minimal realization, where the model can recursively...
 
 ### OpenAI’s “compromise” with the Pentagon is what Anthropic feared
 - Source: MIT Tech Review AI
@@ -396,6 +420,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KJQMDBTHS18NGB9Q5M0NH7A1
 - Summary: Status: InvestigatingWe are investigating increased error dates in Sora API.Affected components Sora (Degraded performance)
+
+### Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02010
+- Summary: Many differentially private (DP) data release systems either output DP synthetic data and leave analysts to perform inference as usual, which can lead to severe miscalibration, or output a DP point estimate without a principled way to do uncertainty quantification. This paper develops a clean and...
 
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
@@ -558,6 +588,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.01571
 - Summary: Recent advancements in Generative Reward Models (GRMs) have demonstrated that scaling the length of Chain-of-Thought (CoT) reasoning considerably enhances the reliability of evaluation. However, current works predominantly rely on unstructured length scaling, ignoring the divergent efficacy of...
+
+### S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.01554
+- Summary: The smart home is a key domain within the Society 5.0 vision for a human-centered society. Smart home technologies rapidly evolve, and research should diversify while remaining aligned with Society 5.0 objectives. Democratizing smart home research would engage a broader community of innovators...
 
 ### Scalable Multi-Task Low-Rank Model Adaptation
 - Source: HF Daily Papers
@@ -762,6 +798,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/alibaba-tongyi-unveils-fun-cosy-voice3-5-and-fun-audio-gen-vd-with-free-style-voice-generation
 - Summary: Alibaba Tongyi has launched Fun-CosyVoice3.5 and Fun-AudioGen-VD, enabling natural language-controlled voice cloning and fully immersive audio scene generation.
+
+### Unifying Language-Action Understanding and Generation for Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.01441
+- Summary: Vision-Language-Action (VLA) models are emerging as a promising paradigm for end-to-end autonomous driving, valued for their potential to leverage world knowledge and reason about complex driving scenes. However, existing methods suffer from two critical limitations: a persistent misalignment...
 
 ### Meituan’s GN06 Launches Public Beta of AI-Native Browser Tabbit
 - Source: Pandaily
@@ -2981,46 +3023,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
 - Summary: A vulnerability in GitHub Codespaces could have been exploited by bad actors to seize control of repositories by injecting malicious Copilot instructions in a GitHub issue. The artificial intelligence (AI)-driven vulnerability has been codenamed RoguePilot by Orca Security. It has since been...
-
-### On Data Engineering for Scaling LLM Terminal Capabilities
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21193
-- Summary: Despite rapid recent progress in the terminal capabilities of large language models, the training data strategies behind state-of-the-art terminal agents remain largely undisclosed. We address this gap through a systematic study of data engineering practices for terminal agents, making two key...
-
-### Statistical Query Lower Bounds for Smoothed Agnostic Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21191
-- Summary: We study the complexity of smoothed agnostic learning, recently introduced by~\cite{CKKMS24}, in which the learner competes with the best classifier in a target class under slight Gaussian perturbations of the inputs. Specifically, we focus on the prototypical task of agnostically learning...
-
-### Human Video Generation from a Single Image with 3D Pose and View Control
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21188
-- Summary: Recent diffusion methods have made significant progress in generating videos from single images due to their powerful visual generation capabilities. However, challenges persist in image-to-video synthesis, particularly in human video generation, where inferring view-consistent, motion-dependent...
-
-### Spa3R: Predictive Spatial Field Modeling for 3D Visual Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21186
-- Summary: While Vision-Language Models (VLMs) exhibit exceptional 2D visual understanding, their ability to comprehend and reason about 3D space--a cornerstone of spatial intelligence--remains superficial. Current methodologies attempt to bridge this domain gap either by relying on explicit 3D modalities or...
-
-### The Diffusion Duality, Chapter II: $Ψ$-Samplers and Efficient Curriculum
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21185
-- Summary: Uniform-state discrete diffusion models excel at few-step generation and guidance due to their ability to self-correct, making them preferred over autoregressive or Masked diffusion models in these settings. However, their sampling quality plateaus with ancestral samplers as the number of steps...
-
-### Mask-HybridGNet: Graph-based segmentation with emergent anatomical correspondence from pixel-level supervision
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21179
-- Summary: Graph-based medical image segmentation represents anatomical structures using boundary graphs, providing fixed-topology landmarks and inherent population-level correspondences. However, their clinical adoption has been hindered by a major requirement: training datasets with manually annotated...
-
-### XMorph: Explainable Brain Tumor Analysis Via LLM-Assisted Hybrid Deep Intelligence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21178
-- Summary: Deep learning has significantly advanced automated brain tumor diagnosis, yet clinical adoption remains limited by interpretability and computational constraints. Conventional models often act as opaque ''black boxes'' and fail to quantify the complex, irregular tumor boundaries that characterize...
 
