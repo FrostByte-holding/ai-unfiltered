@@ -4,7 +4,34 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-03-03
+
+### Users may experience elevated error rate in Codex
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KJRP6KJKP51AGPA5FW8FWFFM
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex (Operational)
+
+### Delayed visibility of newly added issues on project boards
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/0yjbtp1d2cpc
+- Summary: Mar 3, 01:40 UTCUpdate - The delay for project board updates has increased to up to 3 hours. We've identified a potential cause and are working on remediation.Mar 3, 00:52 UTCUpdate - Project board updates — including adding issues, pull requests, and changing fields such as "Status" — are...
+
+
 ## 2026-03-02
+
+### How to Kill the Code Review
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/reviews-dead
+- Summary: Human-written code died in 2025. Code reviews will die in 2026.
+
+### Workers and Pages builds, Pages API unavailable
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/8vw91kg0nx5h
+- Summary: Mar 2, 21:48 UTCResolved - This incident has been resolved.Mar 2, 21:32 UTCMonitoring - Builds have been stable since 21:12 UTC and we are monitoring the fix.Mar 2, 21:16 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 2, 20:54 UTCUpdate - We are continuing to...
 
 ### Incident with Pull Requests /pulls
 - Source: GitHub Status
@@ -42,6 +69,12 @@
 - URL: https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html
 - Summary: Cybersecurity researchers have disclosed details of a now-patched security flaw in Google Chrome that could have permitted attackers to escalate privileges and gain access to local files on the system. The vulnerability, tracked as CVE-2026-0628 (CVSS score: 8.8), has been described as a case of...
 
+### Google Develops Merkle Tree Certificates to Enable Quantum-Resistant HTTPS in Chrome
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/google-develops-merkle-tree.html
+- Summary: Google has announced a new program in its Chrome browser to ensure that HTTPS certificates are secure against the future risk posed by quantum computers. "To ensure the scalability and efficiency of the ecosystem, Chrome has no immediate plan to add traditional X.509 certificates containing...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -65,6 +98,24 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/5zg05jnrqmzg
 - Summary: Mar 2, 15:50 UTCResolved - This incident has been resolved.Mar 2, 15:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 14:42 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 2, 14:35 UTCUpdate - We are continuing to investigate...
+
+### Vulnerability Allowed Hijacking Chrome’s Gemini Live AI Assistant
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/vulnerability-allowed-hijacking-chromes-gemini-live-ai-assistant/
+- Summary: Malicious extensions could hijack the Gemini Live in Chrome feature to spy on users and steal their files. The post Vulnerability Allowed Hijacking Chrome&#8217;s Gemini Live AI Assistant appeared first on SecurityWeek.
+
+### OpenClaw Vulnerability Allowed Websites to Hijack AI Agents
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openclaw-vulnerability-allowed-malicious-websites-to-hijack-ai-agents/
+- Summary: Malicious websites could open a WebSocket connection to localhost on the OpenClaw gateway port, brute force passwords, and take control of the agent. The post OpenClaw Vulnerability Allowed Websites to Hijack AI Agents appeared first on SecurityWeek.
+
+### Madison Square Garden Data Breach Confirmed Months After Hacker Attack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/madison-square-garden-data-breach-confirmed-months-after-hacker-attack/
+- Summary: The company is one of the many victims of the 2025 Oracle E-Business Suite (EBS) hacking campaign. The post Madison Square Garden Data Breach Confirmed Months After Hacker Attack appeared first on SecurityWeek.
 
 ### ⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More
 - Source: The Hacker News
@@ -263,6 +314,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.23479
 - Summary: arXiv:2602.23479v1 Announce Type: new Abstract: Though patients are increasingly granted digital access to their electronic health records (EHRs), existing interfaces may not support precise, trustworthy answers to patient-specific questions. Large language models (LLM) show promise in clinical...
+
+### SleepLM: Natural-Language Intelligence for Human Sleep
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.23605
+- Summary: arXiv:2602.23605v1 Announce Type: new Abstract: We present SleepLM, a family of sleep-language foundation models that enable human sleep alignment, interpretation, and interaction with natural language. Despite the critical role of sleep, learning-based sleep analysis systems operate in closed...
+
+### MMKG-RDS: Reasoning Data Synthesis via Deep Mining of Multimodal Knowledge Graphs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.23632
+- Summary: arXiv:2602.23632v1 Announce Type: new Abstract: Synthesizing high-quality training data is crucial for enhancing domain models' reasoning abilities. Existing methods face limitations in long-tail knowledge coverage, effectiveness verification, and interpretability. Knowledge-graph-based approaches...
+
+### AI Must Embrace Specialization via Superhuman Adaptable Intelligence
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.23643
+- Summary: arXiv:2602.23643v1 Announce Type: new Abstract: Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI is an AI that can...
+
+### PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.23668
+- Summary: arXiv:2602.23668v1 Announce Type: new Abstract: Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to redundant tool usage,...
+
+### ODAR: Principled Adaptive Routing for LLM Reasoning via Active Inference
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2602.23681
+- Summary: arXiv:2602.23681v1 Announce Type: new Abstract: The paradigm of large language model (LLM) reasoning is shifting from parameter scaling to test-time compute scaling, yet many existing approaches still rely on uniform brute-force sampling (for example, fixed best-of-N or self-consistency) that is...
+
+### Human Supervision as an Information Bottleneck: A Unified Theory of Error Floors in Human-Guided Learning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.23446
+- Summary: arXiv:2602.23446v1 Announce Type: new Abstract: Large language models are trained primarily on human-generated data and feedback, yet they exhibit persistent errors arising from annotation noise, subjective preferences, and the limited expressive bandwidth of natural language. We argue that these...
+
+### Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.23459
+- Summary: arXiv:2602.23459v1 Announce Type: new Abstract: Psychiatric questionnaires are highly context sensitive and often only weakly predict subsequent symptom severity, which makes the prognostic relationship difficult to learn. Although flexible nonlinear models can improve predictive accuracy, their...
+
+### Uncertainty-aware Language Guidance for Concept Bottleneck Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.23495
+- Summary: arXiv:2602.23495v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide inherent interpretability by first mapping input samples to high-level semantic concepts, followed by a combination of these concepts for the final classification. However, the annotation of...
+
+### FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.23504
+- Summary: arXiv:2602.23504v1 Announce Type: new Abstract: Federated Learning (FL) enables a group of clients to collaboratively train a model without sharing individual data, but its performance drops when client data are heterogeneous. Clustered FL tackles this by grouping similar clients. However, existing...
+
+### Sample Size Calculations for Developing Clinical Prediction Models: Overview and pmsims R package
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2602.23507
+- Summary: arXiv:2602.23507v1 Announce Type: new Abstract: Background: Clinical prediction models are increasingly used to inform healthcare decisions, but determining the minimum sample size for their development remains a critical and unresolved challenge. Inadequate sample sizes can lead to overfitting,...
+
+### IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.23481
+- Summary: arXiv:2602.23481v1 Announce Type: new Abstract: Understanding and extracting structured insights from unstructured documents remains a foundational challenge in industrial NLP. While Large Language Models (LLMs) enable zero-shot extraction, traditional pipelines often fail to handle multi-document...
+
+### Humans and LLMs Diverge on Probabilistic Inferences
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.23546
+- Summary: arXiv:2602.23546v1 Announce Type: new Abstract: Human reasoning often involves working over limited information to arrive at probabilistic conclusions. In its simplest form, this involves making an inference that is not strictly entailed by a premise, but rather only likely given the premise. While...
+
+### France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.23547
+- Summary: arXiv:2602.23547v1 Announce Type: new Abstract: Sentences like "She will go to France or Spain, or perhaps to Germany or France." appear formally redundant, yet become acceptable in contexts such as "Mary will go to a philosophy program in France or Spain, or a mathematics program in Germany or...
+
+### Multi-Agent Causal Reasoning for Suicide Ideation Detection Through Online Conversations
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.23577
+- Summary: arXiv:2602.23577v1 Announce Type: new Abstract: Suicide remains a pressing global public health concern. While social media platforms offer opportunities for early risk detection through online conversation trees, existing approaches face two major limitations: (1) They rely on predefined rules...
+
+### BRIDGE the Gap: Mitigating Bias Amplification in Automated Scoring of English Language Learners via Inter-group Data Augmentation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2602.23580
+- Summary: arXiv:2602.23580v1 Announce Type: new Abstract: In the field of educational assessment, automated scoring systems increasingly rely on deep learning and large language models (LLMs). However, these systems face significant risks of bias amplification, where model prediction gaps between student...
 
 ### Alibaba Tongyi Unveils Fun-CosyVoice3.5 and Fun-AudioGen-VD With FreeStyle Voice Generation
 - Source: Pandaily
@@ -1706,6 +1847,12 @@
 - URL: https://status.claude.com/incidents/p4y2931r0pmy
 - Summary: Feb 25, 19:37 UTCResolved - This incident has been resolved.Feb 25, 19:33 UTCMonitoring - A fix has been implemented and we are monitoring the results.Feb 25, 19:15 UTCInvestigating - We are currently investigating this issue.
 
+### Enabling clinical use of foundation models in histopathology
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22347
+- Summary: Foundation models in histopathology are expected to facilitate the development of high-performing and generalisable deep learning systems. However, current models capture not only biologically relevant features, but also pre-analytic and scanner-specific variation that bias the predictions of...
+
 ### Testable Learning of General Halfspaces under Massart Noise
 - Source: HF Daily Papers
 - Category: open-source
@@ -1819,6 +1966,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-disrupts-chinese-cyberespionage-campaign-targeting-telecoms-governments/
 - Summary: The UNC2814 threat actor has been active since at least 2017, targeting organizations across 42 countries. The post Google Disrupts Chinese Hackers Targeting Telecoms, Governments appeared first on SecurityWeek.
+
+### DLT-Corpus: A Large-Scale Text Collection for the Distributed Ledger Technology Domain
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.22045
+- Summary: We introduce DLT-Corpus, the largest domain-specific text collection for Distributed Ledger Technology (DLT) research to date: 2.98 billion tokens from 22.12 million documents spanning scientific literature (37,440 publications), United States Patent and Trademark Office (USPTO) patents (49,023...
 
 ### SolarWinds Patches Four Critical Serv-U Vulnerabilities
 - Source: Security Week
@@ -2525,6 +2678,12 @@
 - URL: https://tldr.takara.ai/p/2602.21141
 - Summary: Object perception is fundamental for tasks such as robotic material handling and quality inspection. However, modern supervised deep-learning perception models require large datasets for robust automation under semi-uncontrolled conditions. The cost of acquiring and annotating such data for...
 
+### UDVideoQA: A Traffic Video Question Answering Dataset for Multi-Object Spatio-Temporal Reasoning in Urban Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2602.21137
+- Summary: Understanding the complex, multi-agent dynamics of urban traffic remains a fundamental challenge for video language models. This paper introduces Urban Dynamics VideoQA, a benchmark dataset that captures the unscripted real-world behavior of dynamic urban scenes. UDVideoQA is curated from 16 hours...
+
 ### "Are You Sure?": An Empirical Study of Human Perception Vulnerability in LLM-Driven Agentic Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2866,160 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.20566
 - Summary: Vision-Language-Action (VLA) models have achieved significant breakthroughs by leveraging Large Vision Language Models (VLMs) to jointly interpret instructions and visual inputs. However, the substantial increase in visual tokens, particularly from multi-view inputs, poses serious challenges to...
-
-### On the Dynamics of Observation and Semantics
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18494
-- Summary: arXiv:2602.18494v1 Announce Type: new Abstract: A dominant paradigm in visual intelligence treats semantics as a static property of latent representations, assuming that meaning can be discovered through geometric proximity in high dimensional embedding spaces. In this work, we argue that this view...
-
-### Hierarchical Reward Design from Language: Enhancing Alignment of Agent Behavior with Human Specifications
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18582
-- Summary: arXiv:2602.18582v1 Announce Type: new Abstract: When training artificial intelligence (AI) to perform tasks, humans often care not only about whether a task is completed but also how it is performed. As AI agents tackle increasingly complex tasks, aligning their behavior with human-provided...
-
-### Feedback-based Automated Verification in Vibe Coding of CAS Adaptation Built on Constraint Logic
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18607
-- Summary: arXiv:2602.18607v1 Announce Type: new Abstract: In CAS adaptation, a challenge is to define the dynamic architecture of the system and changes in its behavior. Implementation-wise, this is projected into an adaptation mechanism, typically realized as an Adaptation Manager (AM). With the advances of...
-
-### Decoding ML Decision: An Agentic Reasoning Framework for Large-Scale Ranking System
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18640
-- Summary: arXiv:2602.18640v1 Announce Type: new Abstract: Modern large-scale ranking systems operate within a sophisticated landscape of competing objectives, operational constraints, and evolving product requirements. Progress in this domain is increasingly bottlenecked by the engineering context...
-
-### Spilled Energy in Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18671
-- Summary: arXiv:2602.18671v1 Announce Type: new Abstract: We reinterpret the final Large Language Model (LLM) softmax classifier as an Energy-Based Model (EBM), decomposing the sequence-to-sequence probability chain into multiple interacting EBMs at inference. This principled approach allows us to track...
-
-### Revisiting the Seasonal Trend Decomposition for Enhanced Time Series Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18465
-- Summary: arXiv:2602.18465v1 Announce Type: new Abstract: Time series forecasting presents significant challenges in real-world applications across various domains. Building upon the decomposition of the time series, we enhance the architecture of machine learning models for better multivariate time series...
-
-### Physiologically Informed Deep Learning: A Multi-Scale Framework for Next-Generation PBPK Modeling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18472
-- Summary: arXiv:2602.18472v1 Announce Type: new Abstract: Physiologically Based Pharmacokinetic (PBPK) modeling is a cornerstone of model-informed drug development (MIDD), providing a mechanistic framework to predict drug absorption, distribution, metabolism, and excretion (ADME). Despite its utility,...
-
-### Decentralized Attention Fails Centralized Signals: Rethinking Transformers for Medical Time Series
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18473
-- Summary: arXiv:2602.18473v1 Announce Type: new Abstract: Accurate analysis of medical time series (MedTS) data, such as electroencephalography (EEG) and electrocardiography (ECG), plays a pivotal role in healthcare applications, including the diagnosis of brain and heart diseases. MedTS data typically...
-
-### Support Vector Data Description for Radar Target Detection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18486
-- Summary: arXiv:2602.18486v1 Announce Type: new Abstract: Classical radar detection techniques rely on adaptive detectors that estimate the noise covariance matrix from target-free secondary data. While effective in Gaussian environments, these methods degrade in the presence of clutter, which is better...
-
-### Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18493
-- Summary: arXiv:2602.18493v1 Announce Type: new Abstract: Long-context LLMs and Retrieval-Augmented Generation (RAG) systems process information passively, deferring state tracking, contradiction resolution, and evidence aggregation to query time, which becomes brittle under ultra long streams with frequent...
-
-### ReportLogic: Evaluating Logical Quality in Deep Research Reports
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18446
-- Summary: arXiv:2602.18446v1 Announce Type: new Abstract: Users increasingly rely on Large Language Models (LLMs) for Deep Research, using them to synthesize diverse sources into structured reports that support understanding and action. In this context, the practical reliability of such reports hinges on...
-
-### ConfSpec: Efficient Step-Level Speculative Reasoning via Confidence-Gated Verification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18447
-- Summary: arXiv:2602.18447v1 Announce Type: new Abstract: Chain-of-Thought reasoning significantly improves the performance of large language models on complex tasks, but incurs high inference latency due to long generation traces. Step-level speculative reasoning aims to mitigate this cost, yet existing...
-
-### INSURE-Dial: A Phase-Aware Conversational Dataset \& Benchmark for Compliance Verification and Phase Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18448
-- Summary: arXiv:2602.18448v1 Announce Type: new Abstract: Administrative phone tasks drain roughly 1 trillion USD annually from U.S. healthcare, with over 500 million insurance-benefit verification calls manually handled in 2024. We introduce INSURE-Dial, to our knowledge the first public benchmark for...
-
-### Prompt Optimization Via Diffusion Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18449
-- Summary: arXiv:2602.18449v1 Announce Type: new Abstract: We propose a diffusion-based framework for prompt optimization that leverages Diffusion Language Models (DLMs) to iteratively refine system prompts through masked denoising. By conditioning on interaction traces, including user queries, model...
-
-### Asymptotic Semantic Collapse in Hierarchical Optimization
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18450
-- Summary: arXiv:2602.18450v1 Announce Type: new Abstract: Multi-agent language systems can exhibit a failure mode where a shared dominant context progressively absorbs individual semantics, yielding near-uniform behavior across agents. We study this effect under the name Asymptotic Semantic Collapse in...
-
-### Many AI Analysts, One Dataset: Navigating the Agentic Data Science Multiverse
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18710
-- Summary: arXiv:2602.18710v1 Announce Type: new Abstract: The conclusions of empirical research depend not only on data but on a sequence of analytic decisions that published results seldom make explicit. Past ``many-analyst" studies have demonstrated this: independent teams testing the same hypothesis on...
-
-### Task-Aware Exploration via a Predictive Bisimulation Metric
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18724
-- Summary: arXiv:2602.18724v1 Announce Type: new Abstract: Accelerating exploration in visual reinforcement learning under sparse rewards remains challenging due to the substantial task-irrelevant variations. Despite advances in intrinsic exploration, many methods either assume access to low-dimensional...
-
-### Beyond Description: A Multimodal Agent Framework for Insightful Chart Summarization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18731
-- Summary: arXiv:2602.18731v1 Announce Type: new Abstract: Chart summarization is crucial for enhancing data accessibility and the efficient consumption of information. However, existing methods, including those with Multimodal Large Language Models (MLLMs), primarily focus on low-level data descriptions and...
-
-### Federated Reasoning Distillation Framework with Model Learnability-Aware Data Allocation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18749
-- Summary: arXiv:2602.18749v1 Announce Type: new Abstract: Data allocation plays a critical role in federated large language model (LLM) and small language models (SLMs) reasoning collaboration. Nevertheless, existing data allocation methods fail to address an under-explored challenge in collaboration:...
-
-### The Convergence of Schema-Guided Dialogue Systems and the Model Context Protocol
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.18764
-- Summary: arXiv:2602.18764v1 Announce Type: new Abstract: This paper establishes a fundamental convergence: Schema-Guided Dialogue (SGD) and the Model Context Protocol (MCP) represent two manifestations of a unified paradigm for deterministic, auditable LLM-agent interaction. SGD, designed for dialogue-based...
-
-### Weak-Form Evolutionary Kolmogorov-Arnold Networks for Solving Partial Differential Equations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18515
-- Summary: arXiv:2602.18515v1 Announce Type: new Abstract: Partial differential equations (PDEs) form a central component of scientific computing. Among recent advances in deep learning, evolutionary neural networks have been developed to successively capture the temporal dynamics of time-dependent PDEs via...
-
-### Measuring the Prevalence of Policy Violating Content with ML Assisted Sampling and LLM Labeling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18518
-- Summary: arXiv:2602.18518v1 Announce Type: new Abstract: Content safety teams need metrics that reflect what users actually experience, not only what is reported. We study prevalence: the fraction of user views (impressions) that went to content violating a given policy on a given day. Accurate prevalence...
-
-### Wide Open Gazes: Quantifying Visual Exploratory Behavior in Soccer with Pose Enhanced Positional Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18519
-- Summary: arXiv:2602.18519v1 Announce Type: new Abstract: Traditional approaches to measuring visual exploratory behavior in soccer rely on counting visual exploratory actions (VEAs) based on rapid head movements exceeding 125{\deg}/s, but this method suffer from player position bias (i.e., a focus on...
-
-### AdaptStress: Online Adaptive Learning for Interpretable and Personalized Stress Prediction Using Multivariate and Sparse Physiological Signals
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18521
-- Summary: arXiv:2602.18521v1 Announce Type: new Abstract: Continuous stress forecasting could potentially contribute to lifestyle interventions. This paper presents a novel, explainable, and individualized approach for stress prediction using physiological data from consumer-grade smartwatches. We develop a...
-
-### The Geometry of Multi-Task Grokking: Transverse Instability, Superposition, and Weight Decay Phase Structure
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.18523
-- Summary: arXiv:2602.18523v1 Announce Type: new Abstract: Grokking -- the abrupt transition from memorization to generalization long after near-zero training loss -- has been studied mainly in single-task settings. We extend geometric analysis to multi-task modular arithmetic, training shared-trunk...
-
-### The Million-Label NER: Breaking Scale Barriers with GLiNER bi-encoder
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.18487
-- Summary: arXiv:2602.18487v1 Announce Type: new Abstract: This paper introduces GLiNER-bi-Encoder, a novel architecture for Named Entity Recognition (NER) that harmonizes zero-shot flexibility with industrial-scale efficiency. While the original GLiNER framework offers strong generalization, its...
 
