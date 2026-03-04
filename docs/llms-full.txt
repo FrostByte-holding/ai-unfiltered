@@ -6,6 +6,12 @@
 
 ## 2026-03-04
 
+### Cloudflare Dashboard displaying incorrect API token type
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xl7s60h7nmzg
+- Summary: Mar 4, 18:45 UTCResolved - This incident has been resolved.Mar 4, 18:17 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 4, 18:13 UTCInvestigating - Cloudflare is investigating an issue with the Cloudflare Dashboard where Account API Tokens are not being displayed...
+
 ### CNI Degraded Performance
 - Source: Cloudflare Status
 - Category: incidents
@@ -77,6 +83,12 @@
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-designing-an-ot-soc-for-safety-reliability-and-business-continuity/
 - Summary: Join the webinar as we explore a blueprint for an OT SOC leveraging an integrated OT Security Platform to safeguard operations and maintain business continuity. The post Webinar Today: Designing an OT SOC for Safety, Reliability, and Business Continuity appeared first on SecurityWeek.
+
+### Cloudflare GraphQL API outage for DNS metrics
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4dxj1cn1gcjl
+- Summary: Mar 4, 12:00 UTCResolved - Cloudflare GraphQL API experienced an outage between 11:56 and 17:00 UTC affecting DNS metrics queries across all regions. This issue has been resolved.
 
 ### New RFP Template for AI Usage Control and AI Governance
 - Source: The Hacker News
@@ -297,6 +309,12 @@
 - URL: https://www.securityweek.com/iranian-strikes-on-amazon-data-centers-highlight-industrys-vulnerability-to-physical-disasters/
 - Summary: Two AWS data centers in the United Arab Emirates were “directly struck” and another facility in Bahrain was also damaged after a drone landed nearby. The post Iranian Strikes on Amazon Data Centers Highlight Industry’s Vulnerability to Physical Disasters appeared first on SecurityWeek.
 
+### The elbow statistic: Multiscale clustering statistical significance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03235
+- Summary: Selecting the number of clusters remains a fundamental challenge in unsupervised learning. Existing criteria typically target a single ``optimal'' partition, often overlooking statistically meaningful structure present at multiple resolutions. We introduce ElbowSig, a framework that formalizes the...
+
 ### I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables
 - Source: HF Daily Papers
 - Category: open-source
@@ -368,6 +386,12 @@
 - URL: https://www.interconnects.ai/p/latest-open-artifacts-19-qwen-35
 - Summary: Welcome to the year of the horse!
 
+### How to Model AI Agents as Personas?: Applying the Persona Ecosystem Playground to 41,300 Posts on Moltbook for Behavioral Insights
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03140
+- Summary: AI agents are increasingly active on social media platforms, generating content and interacting with one another at scale. Yet the behavioral diversity of these agents remains poorly understood, and methods for characterizing distinct agent types and studying how they engage with shared topics are...
+
 ### Fig Security Launches With $38 Million to Bolster SecOps Resilience
 - Source: Security Week
 - Category: security
@@ -432,6 +456,18 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This startup claims it can stop lightning and prevent catastrophic wildfires Startup&#160;Skyward Wildfire&#160;says it can prevent catastrophic...
+
+### CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02951
+- Summary: Graphical User Interface (GUI) Agents, benefiting from recent advances in multimodal large language models (MLLM), have achieved significant development. However, due to the frequent updates of GUI applications, adapting to new tasks without forgetting old tasks in GUI continual learning remains an...
+
+### On the Structural Limitations of Weight-Based Neural Adaptation and the Role of Reversible Behavioral Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02934
+- Summary: Neural models are usually adapted through changes in parameters shared among model components via fine-tuning, alignment-based training, and reinforcement learning. These changes have been found effective in short-term optimization. However, they result in long-term alterations in the model's base...
 
 ### Android Update Patches Exploited Qualcomm Zero-Day
 - Source: Security Week
@@ -558,6 +594,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/sloppylemming-targets-pakistan-and.html
 - Summary: The threat activity cluster known as SloppyLemming has been attributed to a fresh set of attacks targeting government entities and critical infrastructure operators in Pakistan and Bangladesh. The activity, per Arctic Wolf, took place between January 2025 and January 2026. It involves the use of...
+
+### Evaluating Cross-Modal Reasoning Ability and Problem Characteristics with Multimodal Item Response Theory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02663
+- Summary: Multimodal Large Language Models (MLLMs) have recently emerged as general architectures capable of reasoning over diverse modalities. Benchmarks for MLLMs should measure their ability for cross-modal integration. However, current benchmarks are filled with shortcut questions, which can be solved...
 
 ### Multi-Sourced, Multi-Agent Evidence Retrieval for Fact-Checking
 - Source: arXiv AI
@@ -2981,46 +3023,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/02/top-5-ways-broken-triage-increases.html
 - Summary: Triage is supposed to make things simpler. In a lot of teams, it does the opposite. When you can’t reach a confident verdict early, alerts turn into repeat checks, back-and-forth, and “just escalate it” calls. That cost doesn’t stay inside the SOC; it shows up as missed SLAs, higher cost per case,...
-
-### Multi-Level Causal Embeddings
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22287
-- Summary: Abstractions of causal models allow for the coarsening of models such that relations of cause and effect are preserved. Whereas abstractions focus on the relation between two models, in this paper we study a framework for causal embeddings which enable multiple detailed models to be mapped into...
-
-### Small Wins Big: Comparing Large Language Models and Domain Fine-Tuned Models for Sarcasm Detection in Code-Mixed Hinglish Text
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21933
-- Summary: Sarcasm detection in multilingual and code-mixed environments remains a challenging task for natural language processing models due to structural variations, informal expressions, and low-resource linguistic availability. This study compares four large language models, Llama 3.1, Mistral, Gemma 3,...
-
-### Medical Device Maker UFP Technologies Hit by Cyberattack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/medical-device-maker-ufp-technologies-hit-by-cyberattack/
-- Summary: UFP Technologies appears to have been targeted in a ransomware attack that involved data theft and file-encrypting malware. The post Medical Device Maker UFP Technologies Hit by Cyberattack appeared first on SecurityWeek.
-
-### 2-Step Agent: A Framework for the Interaction of a Decision Maker with AI Decision Support
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.21889
-- Summary: Across a growing number of fields, human decision making is supported by predictions from AI models. However, we still lack a deep understanding of the effects of adoption of these technologies. In this paper, we introduce a general computational framework, the 2-Step Agent, which models the...
-
-### The Download: introducing the Crime issue
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/02/25/1133653/the-download-introducing-the-crime-issue/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Crime issue Technology has long made crime and its prosecution a game of cat and mouse. But those same new technologies that have...
-
-### Ex-US Defense Contractor Executive Jailed for Selling Exploits to Russia
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ex-us-defense-contractor-executive-jailed-for-selling-exploits-to-russia/
-- Summary: Peter Williams was sentenced to 87 months in prison for selling cyber exploits to a Russian broker. The post Ex-US Defense Contractor Executive Jailed for Selling Exploits to Russia appeared first on SecurityWeek.
-
-### Malicious NuGet Packages Stole ASP.NET Data; npm Package Dropped Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html
-- Summary: Cybersecurity researchers have discovered four malicious NuGet packages that are designed to target ASP.NET web application developers to steal sensitive data. The campaign, discovered by Socket, exfiltrates ASP.NET Identity data, including user accounts, role assignments, and permission mappings,...
 
