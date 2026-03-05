@@ -6,6 +6,29 @@
 
 ## 2026-03-05
 
+### Multiple services are affected, service degradation
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/g5gnt5l5hf56
+- Summary: Mar 5, 17:48 UTCUpdate - We are back to queueing Actions workflow runs at nominal rates and we are monitoring the clearing of queued runs during the incident.Mar 5, 17:25 UTCUpdate - We have applied mitigations for connection failures across backend resources and we are observing a recovery in...
+
+### Olmo Hybrid and future LLM architectures
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/olmo-hybrid-and-future-llm-architectures
+- Summary: The latest Olmo model and discussions at the frontier of open-source post training tools.
+
+### The Download: an AI agent’s hit piece, and preventing lightning
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/05/1133968/the-download-ai-agent-hit-piece-preventing-lightning/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Online harassment is entering its AI era Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a...
+
+### Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms
+
 ### Cloudflare Radar Delays
 - Source: Cloudflare Status
 - Category: incidents
@@ -95,6 +118,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/giga-ai-completes-nearly-usd-137-million-pre-b-round
 - Summary: Giga AI, a company specializing in embodied foundation models, completed a nearly RMB 1 billion (approx. USD 137 million) Pre-B round on March 5, 2026, with backing from SINO IC Capital, CICC Capital, and existing investors, to advance its world model technology and scale production of its Maker...
+
+### High Error Rate in Realtime API (EU)
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KJZG0ADWGBF4K6AJ5EDFV52T
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Video viewing (Operational) Compliance API (Operational) Responses (Operational) Chat Completions (Operational) Fine-tuning (Operational) Deep Research (Operational) Connectors/Apps (Operational) Images (Operational)...
 
 ### Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks
 - Source: The Hacker News
@@ -276,6 +305,11 @@
 - URL: https://www.latent.space/p/box
 - Summary: The reception to our recent post on Code Reviews has been strong. Catch up!
 
+### Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/modular-diffusers
+
 
 ## 2026-03-04
 
@@ -303,6 +337,12 @@
 - URL: https://tldr.takara.ai/p/2603.04356
 - Summary: Recent advances in robot learning have accelerated progress toward generalist robots that can perform everyday tasks in human environments. Yet it remains difficult to gauge how close we are to this vision. The field lacks a reproducible, large-scale benchmark for systematic evaluation. To fill...
 
+### SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04334
+- Summary: We present SpotIt+, an open-source tool for evaluating Text-to-SQL systems via bounded equivalence verification. Given a generated SQL query and the ground truth, SpotIt+ actively searches for database instances that differentiate the two queries. To ensure that the generated counterexamples...
+
 ### New LexisNexis Data Breach Confirmed After Hackers Leak Files
 - Source: Security Week
 - Category: security
@@ -314,6 +354,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html
 - Summary: Cybersecurity researchers have warned of a surge in retaliatory hacktivist activity following the U.S.-Israel coordinated military campaign against Iran, codenamed Epic Fury and Roaring Lion. "The hacktivist threat in the Middle East is highly lopsided, with two groups, Keymous+ and DieNet, driving...
+
+### When AI Fails, What Works? A Data-Driven Taxonomy of Real-World AI Risk Mitigation Strategies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04259
+- Summary: Large language models (LLMs) are increasingly embedded in high-stakes workflows, where failures propagate beyond isolated model errors into systemic breakdowns that can lead to legal exposure, reputational damage, and material financial losses. Building on this shift from model-centric risks to...
 
 ### CNI Degraded Performance
 - Source: Cloudflare Status
@@ -357,11 +403,23 @@
 - URL: https://www.securityweek.com/hacker-conversations-inti-de-ceukelaire-raging-against-the-machine-creatively/
 - Summary: A Belgian national, De Ceukelaire’ did not set out to be a hacker. Like many hackers he was born with the potential to become one and only gradually realized he is one. The post Hacker Conversations: Inti De Ceukelaire, Raging Against the Machine Creatively appeared first on SecurityWeek.
 
+### A Multi-Agent Framework for Interpreting Multivariate Physiological Time Series
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04142
+- Summary: Continuous physiological monitoring is central to emergency care, yet deploying trustworthy AI is challenging. While LLMs can translate complex physiological signals into clinical narratives, it is unclear how agentic systems perform relative to zero-shot inference. To address these questions, we...
+
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/4xx67ythzxg5
 - Summary: Mar 4, 14:55 UTCResolved - The incident for Haiku 4.5 has been between 6:45 PT / 14:45 UTC and 6:50 PT / 14:50 UTC.Mar 4, 14:47 UTCInvestigating - We are currently investigating this issue.
+
+### FINEST: Improving LLM Responses to Sensitive Topics Through Fine-Grained Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04123
+- Summary: Large Language Models (LLMs) often generate overly cautious and vague responses on sensitive topics, sacrificing helpfulness for safety. Existing evaluation frameworks lack systematic methods to identify and address specific weaknesses in responses to sensitive topics, making it difficult to...
 
 ### EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR
 - Source: HF Daily Papers
@@ -692,6 +750,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.03700
 - Summary: Despite the remarkable empirical success of score-based diffusion models, their statistical guarantees remain underdeveloped. Existing analyses often provide pessimistic convergence rates that do not reflect the intrinsic low-dimensional structure common in real data, such as that arising in...
+
+### EvoPrune: Early-Stage Visual Token Pruning for Efficient MLLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03681
+- Summary: Multimodal Large Language Models (MLLMs) have shown strong performance in vision-language tasks, but their inference efficiency is severely limited by the exponential growth of visual tokens in complex scenarios such as high-resolution images and videos. Existing visual token pruning methods mainly...
 
 ### [AINews] Anthropic @ $19B ARR, Qwen team leaves, Gemini and GPT bump up fast models
 - Source: Latent Space
@@ -2958,70 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2602.22769
 - Summary: Large Language Models (LLMs) are deployed as autonomous agents in increasingly complex applications, where enabling long-horizon memory is critical for achieving strong performance. However, a significant gap exists between practical applications and current evaluation standards for agent memory:...
-
-### Beyond Detection: Multi-Scale Hidden-Code for Natural Image Deepfake Recovery and Factual Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22759
-- Summary: Recent advances in image authenticity have primarily focused on deepfake detection and localization, leaving recovery of tampered contents for factual retrieval relatively underexplored. We propose a unified hidden-code recovery framework that enables both retrieval and restoration from post-hoc...
-
-### AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22740
-- Summary: Referring Image Segmentation (RIS) aims to segment an object in an image identified by a natural language expression. The paper introduces Alignment-Aware Masked Learning (AML), a training strategy to enhance RIS by explicitly estimating pixel-level vision-language alignment, filtering out poorly...
-
-### Xiaomi SU7 Crash Investigation: Door Couldn't Open Due to Low-Voltage Failure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-su-7-crash-investigation-door-couldn-t-open-due-to-low-voltage-failure
-- Summary: Forensic report on fatal Chengdu Xiaomi SU7 crash reveals doors couldn't open due to low-voltage failure after 167 km/h impact, with no mechanical emergency handles — driver died from burns.
-
-### Ex-SenseTime Industrial Robotics Team Raises Tens of Millions for Wheeled Robots
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ex-sense-time-industrial-robotics-team-raises-tens-of-millions-for-wheeled-robots
-- Summary: Shenzhen Tianyuanxing Technology, founded by SenseTime's former industrial robotics team, secures tens of millions in angel funding for its TX01 wheeled humanoid robot targeting industrial automation.
-
-### Beijing-Based AI Storage Firm XSKY, Funded to Series F+, Files for Hong Kong IPO
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/beijing-based-ai-storage-firm-xsky-funded-to-series-f-files-for-hong-kong-ipo
-- Summary: XSKY, a Beijing-based distributed AI storage provider backed by Boyu Capital and Tencent, files for Hong Kong IPO after achieving profitability with RMB 811 million in revenue for first nine months of 2025.
-
-### Pang Ruoming Leaves Meta's $200M Package to Join OpenAI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pang-ruoming-leaves-meta-s-200-m-package-to-join-open-ai
-- Summary: Top AI infrastructure leader Pang Ruoming departs Meta after just seven months — despite a $200 million compensation package — to join OpenAI following aggressive recruitment.
-
-### Hesai Deepens Nvidia Partnership, Debuts on CCTV Gala with Unitree
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hesai-deepens-nvidia-partnership-debuts-on-cctv-gala-with-unitree
-- Summary: Hesai strengthens its role as a "Physical AI infrastructure builder," partnering with Nvidia on L4 platforms while its JT128 lidar powers Unitree's humanoid robots on CCTV's Spring Festival Gala.
-
-### AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22724
-- Summary: Large language model (LLM) agents increasingly rely on external tools and retrieval systems to autonomously complete complex tasks. However, this design exposes agents to indirect prompt injection (IPI), where attacker-controlled context embedded in tool outputs or retrieved content silently steers...
-
-### RLHFless: Serverless Computing for Efficient RLHF
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22718
-- Summary: Reinforcement Learning from Human Feedback (RLHF) has been widely applied to Large Language Model (LLM) post-training to align model outputs with human preferences. Recent models, such as DeepSeek-R1, have also shown RLHF's potential to improve LLM reasoning on complex tasks. In RL, inference and...
-
-### SoPE: Spherical Coordinate-Based Positional Embedding for Enhancing Spatial Perception of 3D LVLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22716
-- Summary: 3D Large Vision-Language Models (3D LVLMs) built upon Large Language Models (LLMs) have achieved remarkable progress across various multimodal tasks. However, their inherited position-dependent modeling mechanism, Rotary Position Embedding (RoPE), remains suboptimal for 3D multimodal understanding....
-
-### Knob: A Physics-Inspired Gating Interface for Interpretable and Controllable Neural Dynamics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22702
-- Summary: Existing neural network calibration methods often treat calibration as a static, post-hoc optimization task. However, this neglects the dynamic and temporal nature of real-world inference. Moreover, existing methods do not provide an intuitive interface enabling human operators to dynamically...
 
