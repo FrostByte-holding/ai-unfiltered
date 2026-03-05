@@ -6,6 +6,12 @@
 
 ## 2026-03-05
 
+### ChatGPT Issues Sending Messages
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KJZK6XF3E5M2DRNZQ1EDDMJ4
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
 ### Multiple services are affected, service degradation
 - Source: GitHub Status
 - Category: incidents
@@ -337,6 +343,12 @@
 - URL: https://tldr.takara.ai/p/2603.04356
 - Summary: Recent advances in robot learning have accelerated progress toward generalist robots that can perform everyday tasks in human environments. Yet it remains difficult to gauge how close we are to this vision. The field lacks a reproducible, large-scale benchmark for systematic evaluation. To fill...
 
+### RANGER: Sparsely-Gated Mixture-of-Experts with Adaptive Retrieval Re-ranking for Pathology Report Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04348
+- Summary: Pathology report generation remains a relatively under-explored downstream task, primarily due to the gigapixel scale and complex morphological heterogeneity of Whole Slide Images (WSIs). Existing pathology report generation frameworks typically employ transformer architectures, relying on a...
+
 ### SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints
 - Source: HF Daily Papers
 - Category: open-source
@@ -372,6 +384,18 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/5dbf8slk8mhr
 - Summary: Mar 4, 16:13 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 4, 15:58 UTCInvestigating - The earlier issues with Haiku 4.5 have reappeared.
+
+### Nearest-Neighbor Density Estimation for Dependency Suppression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04224
+- Summary: The ability to remove unwanted dependencies from data is crucial in various domains, including fairness, robust learning, and privacy protection. In this work, we propose an encoder-based approach that learns a representation independent of a sensitive variable but otherwise preserving essential...
+
+### ZeSTA: Zero-Shot TTS Augmentation with Domain-Conditioned Training for Data-Efficient Personalized Speech Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04219
+- Summary: We investigate the use of zero-shot text-to-speech (ZS-TTS) as a data augmentation source for low-resource personalized speech synthesis. While synthetic augmentation can provide linguistically rich and phonetically diverse speech, naively mixing large amounts of synthetic speech with limited real...
 
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
@@ -505,6 +529,12 @@
 - URL: https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html
 - Summary: As AI becomes the central engine for enterprise productivity, security leaders are finally getting the green light — and the budget — to secure it. But there’s a quiet crisis unfolding in the boardroom: many organizations know they need "AI Governance," but they have no idea what they are actually...
 
+### Slice-wise quality assessment of high b-value breast DWI via deep learning-based artifact detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03941
+- Summary: Diffusion-weighted imaging (DWI) can support lesion detection and characterization in breast magnetic resonance imaging (MRI), however especially high b-value diffusion-weighted acquisitions can be prone to intensity artifacts that can affect diagnostic image assessment. This study aims to detect...
+
 ### Architecture and evaluation protocol for transformer-based visual object tracking in UAV applications
 - Source: HF Daily Papers
 - Category: open-source
@@ -558,6 +588,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/pico-unveils-self-developed-chip-strategy-flagship-headset-project-swan-and-new-pico-os-6
 - Summary: PICO previewed its high-end XR strategy with Project Swan, a dual-chip flagship headset and the new spatial OS 6 aimed at redefining XR as a computing platform.
+
+### ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03742
+- Summary: Despite the remarkable performance of large language models (LLMs) in text-to-SQL (SQL generation), correctly producing SQL queries remains challenging during initial generation. The SQL refinement task is subsequently introduced to correct syntactic and semantic errors in generated SQL queries....
 
 ### Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving
 - Source: arXiv AI
@@ -2986,40 +3022,4 @@
 - Category: security
 - URL: https://www.securityweek.com/us-sanctions-russian-exploit-broker-operation-zero/
 - Summary: The broker acquired eight zero-day exploits from a US defense contractor executive jailed for his actions. The post US Sanctions Russian Exploit Broker Operation Zero appeared first on SecurityWeek.
-
-### Malicious StripeApi NuGet Package Mimicked Official Library and Stole API Tokens
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html
-- Summary: Cybersecurity researchers have disclosed details of a new malicious package discovered on the NuGet Gallery, impersonating a library from financial services firm Stripe in an attempt to target the financial sector. The package, codenamed StripeApi.Net, attempts to masquerade as Stripe.net, a...
-
-### America was winning the race to find Martian life. Then China jumped in.
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/02/26/1133584/america-china-mars-sample-return-space-race-nasa/
-- Summary: To most people, rocks are just rocks. To geologists, they are much, much more: crystal-filled time capsules with the power to reveal the state of the planet at the very moment they were forged.&#160; For decades, NASA had been on a time capsule hunt like none other—one across Mars. Its rovers have...
-
-### Trend Micro Patches Critical Apex One Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/trend-micro-patches-critical-apex-one-vulnerabilities/
-- Summary: TrendAI has fixed eight critical and high-severity issues in Windows and macOS endpoint security products. The post Trend Micro Patches Critical Apex One Vulnerabilities appeared first on SecurityWeek.
-
-### GSTurb: Gaussian Splatting for Atmospheric Turbulence Mitigation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22800
-- Summary: Atmospheric turbulence causes significant image degradation due to pixel displacement (tilt) and blur, particularly in long-range imaging applications. In this paper, we propose a novel framework for atmospheric turbulence mitigation, GSTurb, which integrates optical flow-guided tilt correction and...
-
-### Cisco Patches Catalyst SD-WAN Zero-Day Exploited by Highly Sophisticated Hackers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-patches-catalyst-sd-wan-zero-day-exploited-by-highly-sophisticated-hackers/
-- Summary: Already added to CISA’s KEV catalog, the flaw allows attackers to bypass authentication and gain administrative privileges. The post Cisco Patches Catalyst SD-WAN Zero-Day Exploited by Highly Sophisticated Hackers appeared first on SecurityWeek.
-
-### AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2602.22769
-- Summary: Large Language Models (LLMs) are deployed as autonomous agents in increasingly complex applications, where enabling long-horizon memory is critical for achieving strong performance. However, a significant gap exists between practical applications and current evaluation standards for agent memory:...
 
