@@ -6,6 +6,18 @@
 
 ## 2026-03-07
 
+### US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/
+- Summary: Trump’s Cyber Strategy calls for stronger deterrence against cyber adversaries, modernization of federal networks, protection of critical infrastructure, and investment in technologies such as AI and post-quantum cryptography. The post US Cyber Strategy Targets Adversaries, Critical Infrastructure,...
+
+### Elevated errors on Claude Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/qy1zsq4wwp1q
+- Summary: Mar 7, 13:58 UTCInvestigating - We are currently investigating this issue.
+
 ### Over 100 GitHub Repositories Distributing BoryptGrab Stealer
 - Source: Security Week
 - Category: security
@@ -1677,6 +1689,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/t2skq2t69g5s
 - Summary: Mar 3, 23:42 UTCResolved - This incident has been resolved.Mar 3, 22:15 UTCInvestigating - Cloudflare is investigating an issue where origins may receive challenge solve requests instead of the original challenged request. This issue affects customers using WAF Challenge actions globally.We are...
 
+### RAG-X: Systematic Diagnosis of Retrieval-Augmented Generation for Medical Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03541
+- Summary: Automated question-answering (QA) systems increasingly rely on retrieval-augmented generation (RAG) to ground large language models (LLMs) in authoritative medical knowledge, ensuring clinical accuracy and patient safety in Artificial Intelligence (AI) applications for healthcare. Despite progress...
+
 ### Pages builds unable to start
 - Source: Cloudflare Status
 - Category: incidents
@@ -1706,6 +1724,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.03235
 - Summary: Selecting the number of clusters remains a fundamental challenge in unsupervised learning. Existing criteria typically target a single ``optimal'' partition, often overlooking statistically meaningful structure present at multiple resolutions. We introduce ElbowSig, a framework that formalizes the...
+
+### Inverse Reconstruction of Shock Time Series from Shock Response Spectrum Curves using Machine Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03229
+- Summary: The shock response spectrum (SRS) is widely used to characterize the response of single-degree-of-freedom (SDOF) systems to transient accelerations. Because the mapping from acceleration time history to SRS is nonlinear and many-to-one, reconstructing time-domain signals from a target spectrum is...
 
 ### I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables
 - Source: HF Daily Papers
@@ -1812,6 +1836,12 @@
 - Category: security
 - URL: https://www.securityweek.com/honeywell-researcher-clash-over-impact-of-building-controller-vulnerability/
 - Summary: The researcher says he has identified thousands of internet-exposed IQ4 building management controllers. The post Honeywell, Researcher Clash Over Impact of Building Controller Vulnerability appeared first on SecurityWeek.
+
+### TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03072
+- Summary: Large language models (LLMs) are increasingly used to assist scientists across diverse workflows. A key challenge is generating high-quality figures from textual descriptions, often represented as TikZ programs that can be rendered as scientific images. Prior research has proposed a variety of...
 
 ### Heterogeneous Time Constants Improve Stability in Equilibrium Propagation
 - Source: HF Daily Papers
@@ -1980,6 +2010,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-truth-in-the-time-of-artifice
 - Summary: A quiet day lets us question the nature of reality
+
+### Neural quantum support vector data description for one-class classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02700
+- Summary: One-class classification (OCC) is a fundamental problem in machine learning with numerous applications, such as anomaly detection and quality control. With the increasing complexity and dimensionality of modern datasets, there is a growing demand for advanced OCC techniques with better expressivity...
 
 ### Industrial Embodied Intelligence Company Raises Hundreds of Millions in Funding
 - Source: Pandaily
@@ -2947,6 +2983,12 @@
 - URL: https://tldr.takara.ai/p/2603.00888
 - Summary: Despite exceptional predictive performance of Deep sequence models (DSMs), the main concern of their deployment centers around the lack of uncertainty awareness. In contrast, probabilistic models quantify the uncertainty associated with unobserved variables with rules of probability. Notably,...
 
+### Knowledge without Wisdom: Measuring Misalignment between LLMs and Intended Impact
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.00883
+- Summary: LLMs increasingly excel on AI benchmarks, but doing so does not guarantee validity for downstream tasks. This study evaluates the performance of leading foundation models (FMs, i.e., generative pre-trained base LLMs) with out-of-distribution (OOD) tasks of the teaching and learning of...
+
 
 ## 2026-02-28
 
@@ -2979,46 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/canadian-tire-data-breach-impacts-38-million-accounts/
 - Summary: Names, addresses, email addresses, phone numbers, and encrypted passwords were compromised in the attack. The post Canadian Tire Data Breach Impacts 38 Million Accounts appeared first on SecurityWeek.
-
-### Elevated 500 error rate on Cache Purge API requests
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/ct0pn2kwtfn1
-- Summary: Feb 28, 11:00 UTCResolved - Cloudflare investigated and mitigated an issue that caused customers on Europe, Middle East, Africa and western Asia Pacific regions to observe a higher 500 error rate on Cache Purge API requests from 10:35 to 11:00 today.
-
-### Increased traffic and elevated 5xx errors in Salt Lake City, US region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/y5lq12l646nh
-- Summary: Feb 28, 10:00 UTCResolved - Cloudflare is aware and has already mitigated an increased level of errors in our data centers in the Salt Lake City area.This may have impacted customers web site visitors in the region for about 15 minutes each time, in these timestamps:23/02 - 03:30 UTC26/02 - 03:45...
-
-### Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html
-- Summary: New research has found that Google Cloud API keys, typically designated as project identifiers for billing purposes, could be abused to authenticate to sensitive Gemini endpoints and access private data. The findings come from Truffle Security, which discovered nearly 3,000 Google API keys...
-
-### DeepSeek to Release V4 Multimodal Model Next Week with Native Image, Video, and Text Generation Support
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deep-seek-to-release-v4-multimodal-model-next-week-with-native-image-video-and-text-generation-support
-- Summary: DeepSeek will release its V4 multimodal large language model next week with native support for image, video, and text generation, prioritizing early access for domestic chip partners Huawei and Cambricon over NVIDIA and AMD .
-
-### Constructing the Black Myth Universe: Tiger Vanguard
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/constructing-the-black-myth-universe-tiger-vanguard
-- Summary: Some video game bosses you forget the moment you defeat them. The Tiger Vanguard is not one of them. I wanted to write about him because he represents something...
-
-### Anker-Backed All-Terrain Robotics Company Secures Over $14.4 million in Series A Funding Led by China Growth Capital
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/anker-backed-all-terrain-robotics-company-secures-over-14-4-million-in-series-a-funding-led-by-china-growth-capital
-- Summary: Juewu Technology has raised over RMB 100 million (over $14.4 million) in Series A funding led by China Growth Capital, following 1 million kilometers of field testing for its modular deformable robot platform designed for heavy-load all-terrain applications.
-
-### TENWAYS Files for Hong Kong IPO: Fastest-Growing E-Bike Company in Europe with Hillhouse, Tencent, Alibaba as Shareholders
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tenways-files-for-hong-kong-ipo-fastest-growing-e-bike-company-in-europe-with-hillhouse-tencent-alibaba-as-shareholders
-- Summary: TENWAYS has filed for a Hong Kong main board listing, aiming to become Europe's fastest-growing e-bike company with backing from Hillhouse Ventures, Tencent, and Alibaba, having achieved profitability in Q1-3 2025 .
 
