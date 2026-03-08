@@ -1812,6 +1812,12 @@
 - URL: https://tldr.takara.ai/p/2603.03229
 - Summary: The shock response spectrum (SRS) is widely used to characterize the response of single-degree-of-freedom (SDOF) systems to transient accelerations. Because the mapping from acceleration time history to SRS is nonlinear and many-to-one, reconstructing time-domain signals from a target spectrum is...
 
+### Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03226
+- Summary: Differential Privacy (DP) is becoming central to large-scale training as privacy regulations tighten. We revisit how DP noise interacts with adaptivity in optimization through the lens of stochastic differential equations, providing the first SDE-based analysis of private optimizers. Focusing on...
+
 ### Scalable Contrastive Causal Discovery under Unknown Soft Interventions
 - Source: HF Daily Papers
 - Category: open-source
@@ -1929,6 +1935,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/s0pmy4yywshv
 - Summary: Mar 3, 15:39 UTCResolved - This incident has been resolved.Mar 3, 14:51 UTCInvestigating - We are currently investigating this issue.
+
+### MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03101
+- Summary: The CLIP model's outstanding generalization has driven recent success in Zero-Shot Anomaly Detection (ZSAD) for detecting anomalies in unseen categories. The core challenge in ZSAD is to specialize the model for anomaly detection tasks while preserving CLIP's powerful generalization capability....
 
 ### Honeywell, Researcher Clash Over Impact of Building Controller Vulnerability
 - Source: Security Week
@@ -2104,6 +2116,12 @@
 - URL: https://www.securityweek.com/researchers-uncover-method-to-track-cars-via-tire-sensors/
 - Summary: Using low-cost receivers deployed along roads, academic researchers tracked drivers and their movement patterns. The post Researchers Uncover Method to Track Cars via Tire Sensors appeared first on SecurityWeek.
 
+### Scores Know Bobs Voice: Speaker Impersonation Attack
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02781
+- Summary: Advances in deep learning have enabled the widespread deployment of speaker recognition systems (SRSs), yet they remain vulnerable to score-based impersonation attacks. Existing attacks that operate directly on raw waveforms require a large number of queries due to the difficulty of optimizing in...
+
 ### Microsoft Warns OAuth Redirect Abuse Delivers Malware to Government Targets
 - Source: The Hacker News
 - Category: security
@@ -2193,6 +2211,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.02648
 - Summary: Transparent object instance segmentation presents significant challenges in computer vision, due to the inherent properties of transparent objects, including boundary blur, low contrast, and high dependence on background context. Existing methods often fail as they depend on strong appearance cues...
+
+### MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02630
+- Summary: Large Language Models (LLMs) have achieved great success in many real-world applications, especially the one serving as the cognitive backbone of Multi-Agent Systems (MAS) to orchestrate complex workflows in practice. Since many deployment scenarios preclude MAS workflow modifications and its...
 
 ### Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation
 - Source: HF Daily Papers
@@ -2421,6 +2445,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.02560
 - Summary: Multimodal Image Fusion (MMIF) integrates complementary information from various modalities to produce clearer and more informative fused images. MMIF under adverse weather is particularly crucial in autonomous driving and UAV monitoring applications. However, existing adverse weather fusion...
+
+### CoDAR: Continuous Diffusion Language Models are More Powerful Than You Think
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02547
+- Summary: We study why continuous diffusion language models (DLMs) have lagged behind discrete diffusion approaches despite their appealing continuous generative dynamics. Under a controlled token--recovery study, we identify token rounding, the final projection from denoised embeddings to tokens, as a...
 
 ### On Discriminative vs. Generative classifiers: Rethinking MLLMs for Action Understanding
 - Source: HF Daily Papers
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.23632
 - Summary: arXiv:2602.23632v1 Announce Type: new Abstract: Synthesizing high-quality training data is crucial for enhancing domain models' reasoning abilities. Existing methods face limitations in long-tail knowledge coverage, effectiveness verification, and interpretability. Knowledge-graph-based approaches...
-
-### AI Must Embrace Specialization via Superhuman Adaptable Intelligence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.23643
-- Summary: arXiv:2602.23643v1 Announce Type: new Abstract: Everyone from AI executives and researchers to doomsayers, politicians, and activists is talking about Artificial General Intelligence (AGI). Yet, they often don't seem to agree on its exact definition. One common definition of AGI is an AI that can...
-
-### PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.23668
-- Summary: arXiv:2602.23668v1 Announce Type: new Abstract: Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to redundant tool usage,...
-
-### ODAR: Principled Adaptive Routing for LLM Reasoning via Active Inference
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2602.23681
-- Summary: arXiv:2602.23681v1 Announce Type: new Abstract: The paradigm of large language model (LLM) reasoning is shifting from parameter scaling to test-time compute scaling, yet many existing approaches still rely on uniform brute-force sampling (for example, fixed best-of-N or self-consistency) that is...
-
-### Human Supervision as an Information Bottleneck: A Unified Theory of Error Floors in Human-Guided Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.23446
-- Summary: arXiv:2602.23446v1 Announce Type: new Abstract: Large language models are trained primarily on human-generated data and feedback, yet they exhibit persistent errors arising from annotation noise, subjective preferences, and the limited expressive bandwidth of natural language. We argue that these...
-
-### Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.23459
-- Summary: arXiv:2602.23459v1 Announce Type: new Abstract: Psychiatric questionnaires are highly context sensitive and often only weakly predict subsequent symptom severity, which makes the prognostic relationship difficult to learn. Although flexible nonlinear models can improve predictive accuracy, their...
 
