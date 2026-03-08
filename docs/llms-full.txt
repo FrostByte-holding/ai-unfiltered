@@ -718,6 +718,12 @@
 - URL: https://pandaily.com/alibaba-approves-qwen-lead-lin-junyang-s-resignation-cto-zhou-jingren-assumes-control-deep-mind-s-zhou-hao-joins
 - Summary: Alibaba Group CEO Eddie Wu approved the resignation of Qwen lead Lin Junyang on March 5, 2026, following his sudden departure announcement, with DeepMind's Zhou Hao joining to lead post-training efforts as the company restructures its AI team toward horizontal specialization.
 
+### $\nabla$-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04948
+- Summary: Scaling inference-time compute for Large Language Models (LLMs) has unlocked unprecedented reasoning capabilities. However, existing inference-time scaling methods typically rely on inefficient and suboptimal discrete search algorithms or trial-and-error prompting to improve the online policy. In...
+
 ### Adaptive Prototype-based Interpretable Grading of Prostate Cancer
 - Source: HF Daily Papers
 - Category: open-source
@@ -1743,6 +1749,12 @@
 - URL: https://www.securityweek.com/iranian-strikes-on-amazon-data-centers-highlight-industrys-vulnerability-to-physical-disasters/
 - Summary: Two AWS data centers in the United Arab Emirates were “directly struck” and another facility in Bahrain was also damaged after a drone landed nearby. The post Iranian Strikes on Amazon Data Centers Highlight Industry’s Vulnerability to Physical Disasters appeared first on SecurityWeek.
 
+### [Re] FairDICE: A Gap Between Theory And Practice
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03454
+- Summary: Offline Reinforcement Learning (RL) is an emerging field of RL in which policies are learned solely from demonstrations. Within offline RL, some environments involve balancing multiple objectives, but existing multi-objective offline RL algorithms do not provide an efficient way to find a fair...
+
 ### The elbow statistic: Multiscale clustering statistical significance
 - Source: HF Daily Papers
 - Category: open-source
@@ -1766,6 +1778,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.03195
 - Summary: Vision-Language-Action (VLA) models are a promising path toward embodied intelligence, yet they often overlook the predictive and temporal-causal structure underlying visual dynamics. World-model VLAs address this by predicting future frames, but waste capacity reconstructing redundant backgrounds....
+
+### A Covering Framework for Offline POMDPs Learning using Belief Space Metric
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03191
+- Summary: In off policy evaluation (OPE) for partially observable Markov decision processes (POMDPs), an agent must infer hidden states from past observations, which exacerbates both the curse of horizon and the curse of memory in existing OPE methods. This paper introduces a novel covering analysis...
 
 ### Type-Aware Retrieval-Augmented Generation with Dependency Closure for Solver-Executable Industrial Optimization Modeling
 - Source: HF Daily Papers
@@ -2107,6 +2125,12 @@
 - URL: https://tldr.takara.ai/p/2603.02623
 - Summary: While skill-centric approaches leverage foundation models to enhance generalization in compositional tasks, they often rely on fixed skill libraries, limiting adaptability to new tasks without manual intervention. To address this, we propose Uni-Skill, a Unified Skill-centric framework that...
 
+### Real-Time Generative Policy via Langevin-Guided Flow Matching for Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02613
+- Summary: Reinforcement learning (RL) is a fundamental methodology in autonomous driving systems, where generative policies exhibit considerable potential by leveraging their ability to model complex distributions to enhance exploration. However, their inherent high inference latency severely impedes their...
+
 ### VLMFusionOcc3D: VLM Assisted Multi-Modal 3D Semantic Occupancy Prediction
 - Source: HF Daily Papers
 - Category: open-source
@@ -2391,6 +2415,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/8vw91kg0nx5h
 - Summary: Mar 2, 21:48 UTCResolved - This incident has been resolved.Mar 2, 21:32 UTCMonitoring - Builds have been stable since 21:12 UTC and we are monitoring the fix.Mar 2, 21:16 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 2, 20:54 UTCUpdate - We are continuing to...
+
+### Advancing Earth Observation Through Machine Learning: A TorchGeo Tutorial
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02386
+- Summary: Earth observation machine learning pipelines differ fundamentally from standard computer vision workflows. Imagery is typically delivered as large, georeferenced scenes, labels may be raster masks or vector geometries in distinct coordinate reference systems, and both training and evaluation often...
 
 ### Incident with Pull Requests /pulls
 - Source: GitHub Status
@@ -2985,37 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/aito-secures-200-initial-orders-in-uae-marking-strong-middle-east-debut
 - Summary: AITO secured 200 initial orders in the UAE, marking its first breakthrough in the Middle East market.
-
-### Huawei Unveils U6GHz Full-Series 5G-A Solutions and Launches Open-Source A2A-T Project at MWC 2026
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-unveils-u6-g-hz-full-series-5-g-a-solutions-and-launches-open-source-a2-a-t-project-at-mwc-2026
-- Summary: Huawei unveiled U6GHz full-scenario 5G-A solutions and open-sourced its A2A-T protocol at MWC 2026, strengthening the foundation for AI-driven networks and 6G evolution.
-
-### Mixue Confirms Plans to Build Its First Snow King Theme Park
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/mixue-confirms-plans-to-build-its-first-snow-king-theme-park
-- Summary: Mixue Bingcheng will build its first Snow King theme park in Zhengzhou, expanding its fast-growing mascot IP into immersive offline entertainment.
-
-### ASTRA-bench: Evaluating Tool-Use Agent Reasoning and Action Planning with Personal User Context
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01357
-- Summary: Next-generation AI must manage vast personal data, diverse tools, and multi-step reasoning, yet most benchmarks remain context-free and single-turn. We present ASTRA-bench (Assistant Skills in Tool-use, Reasoning \& Action-planning), a benchmark that uniquely unifies time-evolving personal context...
-
-
-## 2026-03-01
-
-### AWS - Middle East (UAE): INC0152681
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/rby2mg3mxmvp
-- Summary: Mar 1, 14:55 UTCUpdate - Current status: We're continuing to coordinate with our third-party cloud platform to develop and implement a fix to restore service. We'll provide another update within 4 hours.Customer experience: Customers hosted in the specified regions may be unable to access or use...
-
-### Hackers Weaponize Claude Code in Mexican Government Cyberattack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hackers-weaponize-claude-code-in-mexican-government-cyberattack/
-- Summary: The AI was abused to write exploits, create tools, and automatically exfiltrate over 150GB of data. The post Hackers Weaponize Claude Code in Mexican Government Cyberattack appeared first on SecurityWeek.
 
