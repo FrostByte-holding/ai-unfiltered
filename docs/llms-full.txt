@@ -655,6 +655,12 @@
 - URL: https://thehackernews.com/2026/03/dust-specter-targets-iraqi-officials.html
 - Summary: A suspected Iran-nexus threat actor has been attributed to a campaign targeting government officials in Iraq by impersonating the country's Ministry of Foreign Affairs to deliver a set of never-before-seen malware. Zscaler ThreatLabz, which observed the activity in January 2026, is tracking the...
 
+### MoRe: Motion-aware Feed-forward 4D Reconstruction Transformer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.05078
+- Summary: Reconstructing dynamic 4D scenes remains challenging due to the presence of moving objects that corrupt camera pose estimation. Existing optimization methods alleviate this issue with additional supervision, but they are mostly computationally expensive and impractical in real-time applications. To...
+
 ### Reclaim Security Raises $20 Million to Accelerate Remediation
 - Source: Security Week
 - Category: security
@@ -1377,6 +1383,12 @@
 - URL: https://www.securityweek.com/google-plans-two-week-release-schedule-for-chrome/
 - Summary: Starting September 2026, new Chrome iterations will be released twice as fast, part of a two-week cycle. The post Google Plans Two-Week Release Schedule for Chrome appeared first on SecurityWeek.
 
+### LoRA-MME: Multi-Model Ensemble of LoRA-Tuned Encoders for Code Comment Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03959
+- Summary: Code comment classification is a critical task for automated software documentation and analysis. In the context of the NLBSE'26 Tool Competition, we present LoRA-MME, a Multi-Model Ensemble architecture utilizing Parameter-Efficient Fine-Tuning (PEFT). Our approach addresses the multi-label...
+
 ### New RFP Template for AI Usage Control and AI Governance
 - Source: The Hacker News
 - Category: security
@@ -1800,6 +1812,12 @@
 - URL: https://tldr.takara.ai/p/2603.03229
 - Summary: The shock response spectrum (SRS) is widely used to characterize the response of single-degree-of-freedom (SDOF) systems to transient accelerations. Because the mapping from acceleration time history to SRS is nonlinear and many-to-one, reconstructing time-domain signals from a target spectrum is...
 
+### Scalable Contrastive Causal Discovery under Unknown Soft Interventions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03411
+- Summary: Observational causal discovery is only identifiable up to the Markov equivalence class. While interventions can reduce this ambiguity, in practice interventions are often soft with multiple unknown targets. In many realistic scenarios, only a single intervention regime is observed. We propose a...
+
 ### I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables
 - Source: HF Daily Papers
 - Category: open-source
@@ -1823,6 +1841,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.03180
 - Summary: Automated industrial optimization modeling requires reliable translation of natural-language requirements into solver-executable code. However, large language models often generate non-compilable models due to missing declarations, type inconsistencies, and incomplete dependency contexts. We...
+
+### A Short Note on a Variant of the Squint Algorithm
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03409
+- Summary: This short note describes a simple variant of the Squint algorithm of Koolen and Van Erven [2015] for the classic expert problem. Via an equally simple modification of their proof, we prove that this variant ensures a regret bound that resembles the one shown in a recent work by Freund et al....
 
 ### Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations
 - Source: The Hacker News
@@ -2533,6 +2557,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/tzlnzb58ghvd
 - Summary: Mar 2, 18:09 UTCResolved - This incident has been resolved.Feb 27, 13:24 UTCUpdate - We are continuing to work on a fix for this issue.Feb 27, 02:27 UTCIdentified - Cloudflare is aware of, and investigating an issue which impacts multiple customers/peers who use peering.cloudflare.com. This issue...
 
+### LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02146
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Large Language Models (LLMs) by optimizing them against factual outcomes. However, this paradigm falters in long-context scenarios, as its reliance on internal parametric knowledge is...
+
 ### Machine Learning (ML) library in Linux kernel
 - Source: HF Daily Papers
 - Category: open-source
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2602.23459
 - Summary: arXiv:2602.23459v1 Announce Type: new Abstract: Psychiatric questionnaires are highly context sensitive and often only weakly predict subsequent symptom severity, which makes the prognostic relationship difficult to learn. Although flexible nonlinear models can improve predictive accuracy, their...
-
-### Uncertainty-aware Language Guidance for Concept Bottleneck Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.23495
-- Summary: arXiv:2602.23495v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide inherent interpretability by first mapping input samples to high-level semantic concepts, followed by a combination of these concepts for the final classification. However, the annotation of...
-
-### FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.23504
-- Summary: arXiv:2602.23504v1 Announce Type: new Abstract: Federated Learning (FL) enables a group of clients to collaboratively train a model without sharing individual data, but its performance drops when client data are heterogeneous. Clustered FL tackles this by grouping similar clients. However, existing...
-
-### Sample Size Calculations for Developing Clinical Prediction Models: Overview and pmsims R package
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2602.23507
-- Summary: arXiv:2602.23507v1 Announce Type: new Abstract: Background: Clinical prediction models are increasingly used to inform healthcare decisions, but determining the minimum sample size for their development remains a critical and unresolved challenge. Inadequate sample sizes can lead to overfitting,...
-
-### IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.23481
-- Summary: arXiv:2602.23481v1 Announce Type: new Abstract: Understanding and extracting structured insights from unstructured documents remains a foundational challenge in industrial NLP. While Large Language Models (LLMs) enable zero-shot extraction, traditional pipelines often fail to handle multi-document...
-
-### Humans and LLMs Diverge on Probabilistic Inferences
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2602.23546
-- Summary: arXiv:2602.23546v1 Announce Type: new Abstract: Human reasoning often involves working over limited information to arrive at probabilistic conclusions. In its simplest form, this involves making an inference that is not strictly entailed by a premise, but rather only likely given the premise. While...
 
