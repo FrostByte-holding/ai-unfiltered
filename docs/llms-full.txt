@@ -1266,6 +1266,12 @@
 - URL: https://tldr.takara.ai/p/2603.04123
 - Summary: Large Language Models (LLMs) often generate overly cautious and vague responses on sensitive topics, sacrificing helpfulness for safety. Existing evaluation frameworks lack systematic methods to identify and address specific weaknesses in responses to sensitive topics, making it difficult to...
 
+### Efficient Point Cloud Processing with High-Dimensional Positional Encoding and Non-Local MLPs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04099
+- Summary: Multi-Layer Perceptron (MLP) models are the foundation of contemporary point cloud processing. However, their complex network architectures obscure the source of their strength and limit the application of these models. In this article, we develop a two-stage abstraction and refinement (ABS-REF)...
+
 ### EgoPoseFormer v2: Accurate Egocentric Human Motion Estimation for AR/VR
 - Source: HF Daily Papers
 - Category: open-source
@@ -1668,6 +1674,12 @@
 - URL: https://www.latent.space/p/ainews-anthropic-19b-arr-qwen-team
 - Summary: a quiet day
 
+### A Stein Identity for q-Gaussians with Bounded Support
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03673
+- Summary: Stein's identity is a fundamental tool in machine learning with applications in generative models, stochastic optimization, and other problems involving gradients of expectations under Gaussian distributions. Less attention has been paid to problems with non-Gaussian expectations. Here, we consider...
+
 ### Flowith Raises Multi-Million Dollar Seed Round to Build an Action-Oriented OS for the Agentic AI Era
 - Source: Pandaily
 - Category: chinese-ai
@@ -2047,6 +2059,12 @@
 - URL: https://tldr.takara.ai/p/2603.03389
 - Summary: Obtaining a single-vector representation from a Large Language Model's (LLM) token-level outputs is a critical step for nearly all sentence-level tasks. However, standard pooling methods like mean or max aggregation treat tokens as an independent set, discarding the rich relational structure...
 
+### Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02760
+- Summary: Diffusion large language models (dLLMs) have recently attracted significant attention for their ability to enhance diversity, controllability, and parallelism. However, their non-sequential, bidirectionally masked generation makes quality assessment difficult, underscoring the need for effective...
+
 ### CoShadow: Multi-Object Shadow Generation for Image Compositing via Diffusion Model
 - Source: HF Daily Papers
 - Category: open-source
@@ -2346,6 +2364,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.02560
 - Summary: Multimodal Image Fusion (MMIF) integrates complementary information from various modalities to produce clearer and more informative fused images. MMIF under adverse weather is particularly crucial in autonomous driving and UAV monitoring applications. However, existing adverse weather fusion...
+
+### On Discriminative vs. Generative classifiers: Rethinking MLLMs for Action Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02546
+- Summary: Multimodal Large Language Models (MLLMs) have advanced open-world action understanding and can be adapted as generative classifiers for closed-set settings by autoregressively generating action labels as text. However, this approach is inefficient, and shared subwords across action labels introduce...
 
 ### MiniMax's First Post-IPO Results Beat Expectations: ARR Exceeds $150 Million, Transitioning to 'AI Platform' Company
 - Source: Pandaily
@@ -2962,6 +2986,12 @@
 - URL: https://arxiv.org/abs/2602.23580
 - Summary: arXiv:2602.23580v1 Announce Type: new Abstract: In the field of educational assessment, automated scoring systems increasingly rely on deep learning and large language models (LLMs). However, these systems face significant risks of bias amplification, where model prediction gaps between student...
 
+### SEAnet: A Deep Learning Architecture for Data Series Similarity Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.01448
+- Summary: A key operation for massive data series collection analysis is similarity search. According to recent studies, SAX-based indexes offer state-of-the-art performance for similarity search tasks. However, their performance lags under high-frequency, weakly correlated, excessively noisy, or other...
+
 ### Alibaba Tongyi Unveils Fun-CosyVoice3.5 and Fun-AudioGen-VD With FreeStyle Voice Generation
 - Source: Pandaily
 - Category: chinese-ai
@@ -2985,34 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/noetix-robotics-secures-nearly-rmb-1-billion-in-series-b-funding-led-by-catl-backed-cd-capital
 - Summary: Noetix Robotics has raised nearly $140 million in a CATL-backed Series B round, doubling down on consumer-focused humanoid and biomimetic robots.
-
-### SciDER: Scientific Data-centric End-to-end Researcher
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01421
-- Summary: Automated scientific discovery with large language models is transforming the research lifecycle from ideation to experimentation, yet existing agents struggle to autonomously process raw data collected from scientific experiments. We introduce SciDER, a data-centric end-to-end system that...
-
-### Tackling multiphysics problems via finite element-guided physics-informed operator learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01420
-- Summary: This work presents a finite element-guided physics-informed operator learning framework for multiphysics problems with coupled partial differential equations (PDEs) on arbitrary domains. Implemented with Folax, a JAX-based operator-learning platform, the proposed framework learns a mapping from the...
-
-### Cambricon Posts First Full-Year Profit Since Listing as 2025 Revenue Surges 453%
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cambricon-posts-first-full-year-profit-since-listing-as-2025-revenue-surges-453
-- Summary: Cambricon posted its first full-year profit since listing, with 2025 revenue surging 453% amid booming AI computing demand.
-
-### Honor Partners with ARRI to Bring Cinematic Imaging to Robot Phone
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honor-partners-with-arri-to-bring-cinematic-imaging-to-robot-phone
-- Summary: Honor has partnered with ARRI to integrate cinema-grade color science into its upcoming Robot Phone, bringing professional filmmaking standards to smartphones.
-
-### AITO Secures 200 Initial Orders in UAE, Marking Strong Middle East Debut
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/aito-secures-200-initial-orders-in-uae-marking-strong-middle-east-debut
-- Summary: AITO secured 200 initial orders in the UAE, marking its first breakthrough in the Middle East market.
 
