@@ -6,6 +6,36 @@
 
 ## 2026-03-09
 
+### ClickFix Attack Uses Windows Terminal to Evade Detection
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/clickfix-attack-uses-windows-terminal-to-evade-detection/
+- Summary: Fake CAPTCHA pages instruct victims to paste malicious commands in the Windows Terminal instead of the Run dialog. The post ClickFix Attack Uses Windows Terminal to Evade Detection appeared first on SecurityWeek.
+
+### Internet Infrastructure TLD .arpa Abused in Phishing Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/internet-infrastructure-tld-arpa-abused-in-phishing-attacks/
+- Summary: Abusing DNS record management controls, the threat actor hides the location of malicious content via Cloudflare. The post Internet Infrastructure TLD .arpa Abused in Phishing Attacks appeared first on SecurityWeek.
+
+### Can the Security Platform Finally Deliver for the Mid-Market?
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html
+- Summary: Mid-market organizations are constantly striving to achieve security levels on a par with their enterprise peers. With heightened awareness of supply chain attacks, your customers and business partners are defining the security level you must meet. What if you could be the enabler for your...
+
+### Cloned AI Tool Sites Distribute Malware in ‘InstallFix’ Campaign
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/
+- Summary: Threat actors replace legitimate commands on the cloned installation webpages with malicious commands. The post Cloned AI Tool Sites Distribute Malware in &#8216;InstallFix&#8217; Campaign appeared first on SecurityWeek.
+
+### Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html
+- Summary: Two Google Chrome extensions have turned malicious after what appears to be a case of ownership transfer, offering attackers a way to push malware to downstream customers, inject arbitrary code, and harvest sensitive data. The extensions in question, both originally associated with a developer...
+
 ### Former vivo Star Product Manager Song Ziwei Launches AI Hardware Startup, Raises Over RMB 100 Million
 - Source: Pandaily
 - Category: chinese-ai
@@ -671,6 +701,12 @@
 - URL: https://www.githubstatus.com/incidents/g9j4tmfqdd09
 - Summary: Mar 5, 23:55 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 5, 23:40 UTCUpdate - We are close to full recovery. Actions and dependent services...
 
+### LTLGuard: Formalizing LTL Specifications with Compact Language Models and Lightweight Symbolic Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.05728
+- Summary: Translating informal requirements into formal specifications is challenging due to the ambiguity and variability of natural language (NL). This challenge is particularly pronounced when relying on compact (small and medium) language models, which may lack robust knowledge of temporal logic and thus...
+
 ### ChatGPT Issues Sending Messages
 - Source: OpenAI Status
 - Category: incidents
@@ -1221,6 +1257,12 @@
 - Category: security
 - URL: https://www.securityweek.com/nation-state-ios-exploit-kit-coruna-found-powering-global-attacks/
 - Summary: Google and iVerify analysis reveals a powerful exploit kit originally used by Russian state actors that is now appearing in broader criminal campaigns. The post Nation-State iOS Exploit Kit ‘Coruna’ Found Powering Global Attacks appeared first on SecurityWeek.
+
+### MADCrowner: Margin Aware Dental Crown Design with Template Deformation and Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04771
+- Summary: Dental crown restoration is one of the most common treatment modalities for tooth defect, where personalized dental crown design is critical. While computer-aided design (CAD) systems have notably enhanced the efficiency of dental crown design, extensive manual adjustments are still required in the...
 
 ### DSA-SRGS: Super-Resolution Gaussian Splatting for Dynamic Sparse-View DSA Reconstruction
 - Source: HF Daily Papers
@@ -1983,6 +2025,12 @@
 - URL: https://tldr.takara.ai/p/2603.03454
 - Summary: Offline Reinforcement Learning (RL) is an emerging field of RL in which policies are learned solely from demonstrations. Within offline RL, some environments involve balancing multiple objectives, but existing multi-objective offline RL algorithms do not provide an efficient way to find a fair...
 
+### Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03278
+- Summary: The ability to conduct and learn from interaction and experience is a central challenge in robotics, offering a scalable alternative to labor-intensive human demonstrations. However, realizing such "play" requires (1) a policy robust to diverse, potentially out-of-distribution environment states,...
+
 ### The elbow statistic: Multiscale clustering statistical significance
 - Source: HF Daily Papers
 - Category: open-source
@@ -2629,6 +2677,12 @@
 - URL: https://tldr.takara.ai/p/2603.02582
 - Summary: Creating functional Digital Twins, simulatable 3D replicas of the real world, is a central challenge in computer vision. Current methods like NeRF produce visually rich but functionally incomplete twins. The key barrier is the lack of underlying material properties (e.g., permittivity,...
 
+### EdgeFLow: Serverless Federated Learning via Sequential Model Migration in Edge Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02562
+- Summary: Federated Learning (FL) has emerged as a transformative distributed learning paradigm in the era of Internet of Things (IoT), reconceptualizing data processing methodologies. However, FL systems face significant communication bottlenecks due to inevitable client-server data exchanges and...
+
 ### CAWM-Mamba: A unified model for infrared-visible image fusion and compound adverse weather restoration
 - Source: HF Daily Papers
 - Category: open-source
@@ -2967,58 +3021,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/0ghc53zpsfmt
 - Summary: Mar 2, 12:21 UTCUpdate - We have identified that the Claude API is working as intended. The issues we are seeing are related to Claude.ai and with the login/logout paths.Mar 2, 12:06 UTCUpdate - We are continuing to investigate this issue.Mar 2, 11:49 UTCInvestigating - We are currently...
-
-### Unable to view logs in Durable Objects dashboard
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/d6yvhvqy3b2f
-- Summary: Mar 2, 12:10 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 2, 11:58 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting viewing logs in the Durable Objects dashboard. We are working to understand and mitigate the impact
-
-### Alert: NCSC advises UK organisations to take action following conflict in the Middle East
-- Source: NCSC UK
-- Category: security
-- URL: https://www.ncsc.gov.uk/news/ncsc-advises-uk-organisations-take-action-following-conflict-in-middle-east
-- Summary: In response to the evolving events in the Middle East, the NCSC is advising that UK organisations review their cyber security posture.
-
-### AnnoABSA: A Web-Based Annotation Tool for Aspect-Based Sentiment Analysis with Retrieval-Augmented Suggestions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01773
-- Summary: We introduce AnnoABSA, the first web-based annotation tool to support the full spectrum of Aspect-Based Sentiment Analysis (ABSA) tasks. The tool is highly customizable, enabling flexible configuration of sentiment elements and task-specific requirements. Alongside manual annotation, AnnoABSA...
-
-### How to Protect Your SaaS from Bot Attacks with SafeLine WAF
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html
-- Summary: Most SaaS teams remember the day their user traffic started growing fast. Few notice the day bots started targeting them. On paper, everything looks great: more sign-ups, more sessions, more API calls. But in reality, something feels off: Sign-ups increase, but users aren’t activating. Server costs...
-
-### North Korean APT Targets Air-Gapped Systems in Recent Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/north-korean-apt-targets-air-gapped-systems-in-recent-campaign/
-- Summary: Using Windows shortcut files, the APT deployed a new implant, a loader, a propagation tool, and two backdoors. The post North Korean APT Targets Air-Gapped Systems in Recent Campaign appeared first on SecurityWeek.
-
-### Google Working Towards Quantum-Safe Chrome HTTPS Certificates
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/google-working-towards-quantum-safe-chrome-https-certificates/
-- Summary: The internet giant is developing an evolution of the certificates based on Merkle Tree Certificates (MTCs). The post Google Working Towards Quantum-Safe Chrome HTTPS Certificates appeared first on SecurityWeek.
-
-### Practical Deep Heteroskedastic Regression
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01750
-- Summary: Uncertainty quantification (UQ) in deep learning regression is of wide interest, as it supports critical applications including sequential decision making and risk-sensitive tasks. In heteroskedastic regression, where the uncertainty of the target depends on the input, a common approach is to train...
-
-### US-Israel and Iran Trade Cyberattacks: Pro-West Hacks Cause Disruption as Tehran Retaliates
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-israel-and-iran-trade-cyberattacks-pro-west-hacks-cause-disruption-as-tehran-retaliates/
-- Summary: Both sides conduct hacking and other attacks, including the deployment of wiper malware, DDoS, and disruptions to critical infrastructure. The post US-Israel and Iran Trade Cyberattacks: Pro-West Hacks Cause Disruption as Tehran Retaliates appeared first on SecurityWeek.
-
-### GMP: A Benchmark for Content Moderation under Co-occurring Violations and Dynamic Rules
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01724
-- Summary: Online content moderation is essential for maintaining a healthy digital environment, and reliance on AI for this task continues to grow. Consider a user comment using national stereotypes to insult a politician. This example illustrates two critical challenges in real-world scenarios: (1)...
 
