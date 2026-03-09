@@ -6,6 +6,11 @@
 
 ## 2026-03-09
 
+### Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-4-speech
+
 ### Elevated conversation errors for Enterprise and Edu users
 - Source: OpenAI Status
 - Category: incidents
@@ -245,6 +250,16 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xunce-tech-added-to-stock-connect-as-china-s-palantir-annual-revenue-nears-rmb-1-3-billion
 - Summary: Xunce Tech, dubbed “China’s Palantir,” expects 2025 revenue to double to RMB 1.28B ($178M) while narrowing losses, as demand for real-time AI data infrastructure surges.
+
+### Ulysses Sequence Parallelism: Training with Million-Token Contexts
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ulysses-sp
+
+### LeRobot v0.5.0: Scaling Every Dimension
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/lerobot-release-v050
 
 
 ## 2026-03-08
@@ -1288,6 +1303,12 @@
 - URL: https://arxiv.org/abs/2603.03299
 - Summary: arXiv:2603.03299v1 Announce Type: new Abstract: Large language models (LLMs) have been noted to fabricate scholarly citations, yet the scope of this behavior across providers, domains, and prompting conditions remains poorly quantified. We present one of the largest citation hallucination audits to...
 
+### Quadratic polarity and polar Fenchel-Young divergences from the canonical Legendre polarity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.04812
+- Summary: Polarity is a fundamental reciprocal duality of $n$-dimensional projective geometry which associates to points polar hyperplanes, and more generally $k$-dimensional convex bodies to polar $(n-1-k)$-dimensional convex bodies. It is well-known that the Legendre-Fenchel transformation of functions can...
+
 ### Meta-D: Metadata-Aware Architectures for Brain Tumor Analysis and Missing-Modality Segmentation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2061,6 +2082,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/d16lvqqfbgl6
 - Summary: Mar 3, 21:29 UTCResolved - This incident has been resolved.Mar 3, 21:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 3, 21:03 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting Pages builds. Customers may see their Pages builds fail to...
 
+### Directional Neural Collapse Explains Few-Shot Transfer in Self-Supervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03530
+- Summary: Frozen self-supervised representations often transfer well with only a few labels across many semantic tasks. We argue that a single geometric quantity, \emph{directional} CDNV (decision-axis variance), sits at the core of two favorable behaviors: strong few-shot transfer within a task, and low...
+
 ### Claude Opus 4.6 Fast not appearing for some Copilot users
 - Source: GitHub Status
 - Category: incidents
@@ -2304,6 +2331,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.03005
 - Summary: Multi-agent large language model frameworks are promising for complex multi step reasoning, yet existing systems remain weak for scientific and knowledge intensive domains due to static prompts and agent roles, rigid workflows, and homogeneous model reliance, leading to poor domain adaptation,...
+
+### SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.03002
+- Summary: Genuine spatial reasoning relies on the capacity to construct and manipulate coherent internal spatial representations, often conceptualized as mental models, rather than merely processing surface linguistic associations. While large language models exhibit advanced capabilities across various...
 
 ### New ‘AirSnitch’ Attack Shows Wi-Fi Client Isolation Could Be a False Sense of Security
 - Source: Security Week
@@ -2878,6 +2911,12 @@
 - URL: https://tldr.takara.ai/p/2603.02348
 - Summary: We study diffusion-based model predictive control (Diffusion-MPC) in discrete combinatorial domains using Tetris as a case study. Our planner samples candidate placement sequences with a MaskGIT-style discrete denoiser and selects actions via reranking. We analyze three key factors: (1)...
 
+### Characterizing Memorization in Diffusion Language Models: Generalized Extraction and Sampling Effects
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02333
+- Summary: Autoregressive language models (ARMs) have been shown to memorize and occasionally reproduce training data verbatim, raising concerns about privacy and copyright liability. Diffusion language models (DLMs) have recently emerged as a competitive alternative, yet their memorization behavior remains...
+
 ### HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images
 - Source: HF Daily Papers
 - Category: open-source
@@ -2913,6 +2952,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.02174
 - Summary: Real-world observational datasets and machine learning have revolutionized data-driven decision-making, yet many models rely on empirical associations that may be misleading due to confounding and subgroup heterogeneity. Simpson's paradox exemplifies this challenge, where aggregated and...
+
+### Scaling Retrieval Augmented Generation with RAG Fusion: Lessons from an Industry Deployment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.02153
+- Summary: Retrieval-Augmented Generation (RAG) systems commonly adopt retrieval fusion techniques such as multi-query retrieval and reciprocal rank fusion (RRF) to increase document recall, under the assumption that higher recall leads to better answer quality. While these methods show consistent gains in...
 
 ### Cloudflare Peering Portal Authentication Issue
 - Source: Cloudflare Status
@@ -2973,52 +3018,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/0j8dkb38jymf
 - Summary: Mar 2, 16:50 UTCInvestigating - We are currently investigating this issue.
-
-### File uploads and file processing failing
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KJQJRF7J0CKT82SHDZ85YG4Y
-- Summary: Status: IdentifiedWe identified the issue and the team is working towards a mitigationAffected components Compliance API (Degraded performance) Image Generation (Degraded performance) GPTs (Degraded performance) Agent (Degraded performance) Login (Degraded performance) Deep Research (Degraded...
-
-### EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02041
-- Summary: Large language models (LLMs) are predominantly trained on English-centric data, resulting in uneven performance for smaller languages. We study whether continued pretraining (CPT) can substantially improve Estonian capabilities in a pretrained multilingual LLM while preserving its English and...
-
-### Graph neural network force fields for adiabatic dynamics of lattice Hamiltonians
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02039
-- Summary: Scalable and symmetry-consistent force-field models are essential for extending quantum-accurate simulations to large spatiotemporal scales. While descriptor-based neural networks can incorporate lattice symmetries through carefully engineered features, we show that graph neural networks (GNNs)...
-
-### Errors in Sora API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KJQMDBTHS18NGB9Q5M0NH7A1
-- Summary: Status: InvestigatingWe are investigating increased error dates in Sora API.Affected components Sora (Degraded performance)
-
-### Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02010
-- Summary: Many differentially private (DP) data release systems either output DP synthetic data and leave analysts to perform inference as usual, which can lead to severe miscalibration, or output a DP point estimate without a principled way to do uncertainty quantification. This paper develops a clean and...
-
-### Elevated errors on Claude Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/5zg05jnrqmzg
-- Summary: Mar 2, 15:50 UTCResolved - This incident has been resolved.Mar 2, 15:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 2, 14:42 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 2, 14:35 UTCUpdate - We are continuing to investigate...
-
-### According to Me: Long-Term Personalized Referential Memory QA
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01990
-- Summary: Personalized AI assistants must recall and reason over long-term user memory, which naturally spans multiple modalities and sources such as images, videos, and emails. However, existing Long-term Memory benchmarks focus primarily on dialogue history, failing to capture realistic personalized...
-
-### CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.01973
-- Summary: This report presents CharacterFlywheel, an iterative flywheel process for improving large language models (LLMs) in production social chat applications across Instagram, WhatsApp, and Messenger. Starting from LLaMA 3.1, we refined models across 15 generations using data from both internal and...
 
