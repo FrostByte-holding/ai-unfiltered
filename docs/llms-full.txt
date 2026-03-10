@@ -6,6 +6,23 @@
 
 ## 2026-03-10
 
+### Zero Trust Dashboard UI: Issues creating Tunnels with Zero Trust Edit role
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rrjrzp8nnbpn
+- Summary: Mar 10, 20:15 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 10, 19:56 UTCInvestigating - Cloudflare is investigating permission issues within the Zero Trust Dashboard UI where customers assigned the Zero Trust Edit role are unable to create Cloudflare Tunnels....
+
+### How NVIDIA Builds Open Data for AI
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/open-data-for-ai
+
+### Degraded performance with the Support chat
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKCBMVXANKXVCPE2760437BR
+- Summary: Status: IdentifiedWe are still implementing the mitigation. As a temporary solution, customers looking to reach out to OpenAI Support can email support@openai.com "support@openai.com": mailto:support@openai.com.
+
 ### Issue solving Challenge Pages
 - Source: Cloudflare Status
 - Category: incidents
@@ -306,6 +323,18 @@
 - URL: https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html
 - Summary: Cybersecurity researchers have discovered a malicious npm package that masquerades as an OpenClaw installer to deploy a remote access trojan (RAT) and steal sensitive data from compromised hosts. The package, named "@openclaw-ai/openclawai," was uploaded to the registry by a user named...
 
+### Evaluating Financial Intelligence in Large Language Models: Benchmarking SuperInvesting AI with LLM Engines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08704
+- Summary: Large language models are increasingly used for financial analysis and investment research, yet systematic evaluation of their financial reasoning capabilities remains limited. In this work, we introduce the AI Financial Intelligence Benchmark (AFIB), a multi-dimensional evaluation framework...
+
+### Benchmarking Language Modeling for Lossless Compression of Full-Fidelity Audio
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08683
+- Summary: Autoregressive "language" models (LMs) trained on raw waveforms can be repurposed for lossless audio compression, but prior work is limited to 8-bit audio, leaving open whether such approaches work for practical settings (16/24-bit) and can compete with existing codecs. We benchmark LM-based...
+
 ### StreamReady: Learning What to Answer and When in Long Streaming Videos
 - Source: HF Daily Papers
 - Category: open-source
@@ -408,6 +437,12 @@
 - URL: https://tldr.takara.ai/p/2603.08317
 - Summary: Humans consistently outperform state-of-the-art AI models in action recognition, particularly in challenging real-world conditions involving low resolution, occlusion, and visual clutter. Understanding the sources of this performance gap is essential for developing more robust and human-aligned...
 
+### Deconstructing Multimodal Mathematical Reasoning: Towards a Unified Perception-Alignment-Reasoning Paradigm
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08291
+- Summary: Multimodal Mathematical Reasoning (MMR) has recently attracted increasing attention for its capability to solve mathematical problems that involve both textual and visual modalities. However, current models still face significant challenges in real-world visual math tasks. They often misinterpret...
+
 ### Internet Infrastructure TLD .arpa Abused in Phishing Attacks
 - Source: Security Week
 - Category: security
@@ -437,6 +472,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cloned-ai-tool-sites-distribute-malware-in-installfix-campaign/
 - Summary: Threat actors replace legitimate commands on the cloned installation webpages with malicious commands. The post Cloned AI Tool Sites Distribute Malware in &#8216;InstallFix&#8217; Campaign appeared first on SecurityWeek.
+
+### GarmentPainter: Efficient 3D Garment Texture Synthesis with Character-Guided Diffusion Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08228
+- Summary: Generating high-fidelity, 3D-consistent garment textures remains a challenging problem due to the inherent complexities of garment structures and the stringent requirement for detailed, globally consistent texture synthesis. Existing approaches either rely on 2D-based diffusion models, which...
 
 ### Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft
 - Source: The Hacker News
@@ -497,6 +538,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/simplexity-robotics-raises-rmb-2-billion-in-just-six-months-becoming-the-fastest-unicorn-in-embodied-ai
 - Summary: Chinese embodied AI startup Simplexity Robotics has raised $280 million in under six months, becoming the fastest unicorn in the sector with backing from Tencent and Alibaba.
+
+### ViSA-Enhanced Aerial VLN: A Visual-Spatial Reasoning Enhanced Framework for Aerial Vision-Language Navigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08007
+- Summary: Existing aerial Vision-Language Navigation (VLN) methods predominantly adopt a detection-and-planning pipeline, which converts open-vocabulary detections into discrete textual scene graphs. These approaches are plagued by inadequate spatial reasoning capabilities and inherent linguistic...
 
 ### Amortizing Maximum Inner Product Search with Learned Support Functions
 - Source: HF Daily Papers
@@ -2968,52 +3015,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html
 - Summary: Microsoft on Monday warned of phishing campaigns that employ phishing emails and OAuth URL redirection mechanisms to bypass conventional phishing defenses implemented in email and browsers. The activity, the company said, targets government and public-sector organizations with the end goal of...
-
-### Towards Improved Sentence Representations using Token Graphs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.03389
-- Summary: Obtaining a single-vector representation from a Large Language Model's (LLM) token-level outputs is a critical step for nearly all sentence-level tasks. However, standard pooling methods like mean or max aggregation treat tokens as an independent set, discarding the rich relational structure...
-
-### Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02760
-- Summary: Diffusion large language models (dLLMs) have recently attracted significant attention for their ability to enhance diversity, controllability, and parallelism. However, their non-sequential, bidirectionally masked generation makes quality assessment difficult, underscoring the need for effective...
-
-### CoShadow: Multi-Object Shadow Generation for Image Compositing via Diffusion Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02743
-- Summary: Realistic shadow generation is crucial for achieving seamless image compositing, yet existing methods primarily focus on single-object insertion and often fail to generalize when multiple foreground objects are composited into a background scene. In practice, however, modern compositing pipelines...
-
-### Elevated errors on Claude Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/kyj825w6vxr8
-- Summary: Mar 3, 08:31 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 3, 06:59 UTCInvestigating - We are currently investigating this issue.
-
-### Single Microphone Own Voice Detection based on Simulated Transfer Functions for Hearing Aids
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02724
-- Summary: This paper presents a simulation-based approach to own voice detection (OVD) in hearing aids using a single microphone. While OVD can significantly improve user comfort and speech intelligibility, existing solutions often rely on multiple microphones or additional sensors, increasing device...
-
-### [AINews] Truth in the time of Artifice
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-truth-in-the-time-of-artifice
-- Summary: A quiet day lets us question the nature of reality
-
-### Neural quantum support vector data description for one-class classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02700
-- Summary: One-class classification (OCC) is a fundamental problem in machine learning with numerous applications, such as anomaly detection and quality control. With the increasing complexity and dimensionality of modern datasets, there is a growing demand for advanced OCC techniques with better expressivity...
-
-### Industrial Embodied Intelligence Company Raises Hundreds of Millions in Funding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/industrial-embodied-intelligence-company-raises-hundreds-of-millions-in-funding
-- Summary: Shanghai Dajie Robot has raised hundreds of millions in Series D funding to advance its RoBIM CLOUD platform, which enables robots to autonomously understand and execute complex manufacturing tasks.
 
