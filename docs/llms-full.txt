@@ -6,11 +6,47 @@
 
 ## 2026-03-10
 
+### Issue solving Challenge Pages
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xqr7v0ddqycs
+- Summary: Mar 10, 16:45 UTCResolved - Some visitors may have had issues solving Challenge Pages, unable to complete the challenge successfully
+
+### Browser-based RDP experiencing issues with Firefox
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/qnrqslq9w8lk
+- Summary: Mar 10, 15:04 UTCResolved - An interim solution has been identified. Users can open a new tab in Firefox, enter `about:config`, and locate the `dom.events.testing.asyncClipboard` setting, and set it to `true`.Mar 10, 13:28 UTCInvestigating - Cloudflare is investigating an issue where browser-based...
+
+### Access Configuration Updates Delayed
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kpvq8n03fxqv
+- Summary: Mar 10, 14:49 UTCInvestigating - There are delays with Access configuration changes making it to the edge. Existing configuration and logins are not impacted.
+
+### How Pokémon Go is giving delivery robots an inch-perfect view of the world
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/
+- Summary: Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a...
+
 ### Active – Azure OpenAI Service request failures in multiple regions
 - Source: Azure Status
 - Category: incidents
 - URL: https://azurestatusprodcac.azurewebsites.net/en-us/status/
 - Summary: Impact Statement: Starting at 06:35 UTC on 10 March 2026, a subset of customers using Azure OpenAI Service in multiple regions may experience intermittent request failures or reduced availability.Current Status: We detected this issue through automated service monitoring after observing an elevated...
+
+### Prioritizing energy intelligence for sustainable growth
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/
+- Summary: Loudoun County, Virginia, once known for its pastoral scenery and proximity to Washington, DC, has earned a more modern reputation in recent years: The area has the highest concentration of data centers on the planet. Ten years ago, these facilities powered email and e-commerce. Today, thanks to...
+
+### The Download: AI’s role in the Iran war, and an escalating legal fight
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How AI is turning the Iran conflict into&#160;theater&#160; Much of the spotlight on AI in the Iran conflict has focused on models like Claude...
 
 ### Hundreds of Salesforce Customers Allegedly Targeted in New Data Theft Campaign
 - Source: Security Week
@@ -251,6 +287,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/async-rl-training-landscape
 
+### Introducing Storage Buckets on the Hugging Face Hub
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/storage-buckets
+
 
 ## 2026-03-09
 
@@ -282,6 +323,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KK9M0QQJ2WAX76WCHY7M9KQJ
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### The Neural Compass: Probabilistic Relative Feature Fields for Robotic Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08544
+- Summary: Object co-occurrences provide a key cue for finding objects successfully and efficiently in unfamiliar environments. Typically, one looks for cups in kitchens and views fridges as evidence of being in a kitchen. Such priors have also been exploited in artificial agents, but they are typically...
 
 ### Incident with Webhooks
 - Source: GitHub Status
@@ -325,11 +372,23 @@
 - URL: https://www.technologyreview.com/2026/03/09/1134050/the-download-ai-surveillance-laws-white-house-cracks-down-defiant-labs/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Is the Pentagon allowed to surveil Americans with AI? The ongoing public feud between the Department of Defense and the AI company Anthropic has...
 
+### From games to biology and beyond: 10 years of AlphaGo’s impact
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/10-years-of-alphago/
+- Summary: Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.
+
 ### ⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
 - Summary: Another week in cybersecurity. Another week of "you've got to be kidding me." Attackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday morning. That's kind of just how it goes now. The good news? There were some actual wins this week. Real...
+
+### AULLM++: Structural Reasoning with Large Language Models for Micro-Expression Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08387
+- Summary: Micro-expression Action Unit (AU) detection identifies localized AUs from subtle facial muscle activations, providing a foundation for decoding affective cues. Previous methods face three key limitations: (1) heavy reliance on low-density visual information, rendering discriminative evidence...
 
 ### Do Language Models Know Theo Has a Wife? Investigating the Proviso Problem
 - Source: HF Daily Papers
@@ -367,6 +426,12 @@
 - URL: https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html
 - Summary: Mid-market organizations are constantly striving to achieve security levels on a par with their enterprise peers. With heightened awareness of supply chain attacks, your customers and business partners are defining the security level you must meet. What if you could be the enabler for your...
 
+### AdaCultureSafe: Adaptive Cultural Safety Grounded by Cultural Knowledge in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08275
+- Summary: With the widespread adoption of Large Language Models (LLMs), respecting indigenous cultures becomes essential for models' culturally safety and responsible global applications. Existing studies separately consider cultural safety and cultural knowledge and neglect that the former should be...
+
 ### Cloned AI Tool Sites Distribute Malware in ‘InstallFix’ Campaign
 - Source: Security Week
 - Category: security
@@ -378,6 +443,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html
 - Summary: Two Google Chrome extensions have turned malicious after what appears to be a case of ownership transfer, offering attackers a way to push malware to downstream customers, inject arbitrary code, and harvest sensitive data. The extensions in question, both originally associated with a developer...
+
+### Evolution Strategy-Based Calibration for Low-Bit Quantization of Speech Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08173
+- Summary: Quantization has become essential for the efficient deployment of speech processing systems. Although widely studied, most existing quantization methods were developed for vision and NLP architectures, while the specific challenges of audio signals remain largely overlooked. In particular, we show...
 
 ### UniGround: Universal 3D Visual Grounding via Training-Free Scene Parsing
 - Source: HF Daily Papers
@@ -648,6 +719,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xunce-tech-added-to-stock-connect-as-china-s-palantir-annual-revenue-nears-rmb-1-3-billion
 - Summary: Xunce Tech, dubbed “China’s Palantir,” expects 2025 revenue to double to RMB 1.28B ($178M) while narrowing losses, as demand for real-time AI data infrastructure surges.
+
+### LeJOT-AutoML: LLM-Driven Feature Engineering for Job Execution Time Prediction in Databricks Cost Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.07897
+- Summary: Databricks job orchestration systems (e.g., LeJOT) reduce cloud costs by selecting low-priced compute configurations while meeting latency and dependency constraints. Accurate execution-time prediction under heterogeneous instance types and non-stationary runtime conditions is therefore critical....
 
 ### Hospitality-VQA: Decision-Oriented Informativeness Evaluation for Vision-Language Models
 - Source: HF Daily Papers
@@ -2939,82 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/industrial-embodied-intelligence-company-raises-hundreds-of-millions-in-funding
 - Summary: Shanghai Dajie Robot has raised hundreds of millions in Series D funding to advance its RoBIM CLOUD platform, which enables robots to autonomously understand and execute complex manufacturing tasks.
-
-### Xiaomi Auto Releases Vision GT Design Documentary
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-auto-releases-vision-gt-design-documentary
-- Summary: Xiaomi has unveiled its Vision Gran Turismo concept car at MWC 2026, created by its global design team and becoming the first technology company to join the prestigious virtual concept car project.
-
-### Xiaoyubot Founder Applies "Hit Product Logic" to Industrial General-Purpose Embodied Intelligence
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaoyubot-founder-applies-hit-product-logic-to-industrial-general-purpose-embodied-intelligence
-- Summary: Xiaoyubot, founded by former Xiaomi MIUI head Qiao Zhongliang, has completed Series B financing to scale its "one brain, multiple forms" embodied intelligence platform for industrial welding robots.
-
-### Guangnian Chuda Secures Million-Dollar Angel Round to Build "Automated Revenue Center"
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/guangnian-chuda-secures-million-dollar-angel-round-to-build-automated-revenue-center
-- Summary: Guangnian Chuda, an AI-driven overseas marketing solutions provider for SMEs, has secured a million-dollar angel round led by Impa Ventures to scale its "Sales Agent" product.
-
-### Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html
-- Summary: Google on Monday disclosed that a high-severity security flaw impacting an open-source Qualcomm component used in Android devices has been exploited in the wild. The vulnerability in question is CVE-2026-21385 (CVSS score: 7.8), a buffer over-read in the Graphics component. "Memory corruption when...
-
-### SloppyLemming Targets Pakistan and Bangladesh Governments Using Dual Malware Chains
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/sloppylemming-targets-pakistan-and.html
-- Summary: The threat activity cluster known as SloppyLemming has been attributed to a fresh set of attacks targeting government entities and critical infrastructure operators in Pakistan and Bangladesh. The activity, per Arctic Wolf, took place between January 2025 and January 2026. It involves the use of...
-
-### Evaluating Cross-Modal Reasoning Ability and Problem Characteristics with Multimodal Item Response Theory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02663
-- Summary: Multimodal Large Language Models (MLLMs) have recently emerged as general architectures capable of reasoning over diverse modalities. Benchmarks for MLLMs should measure their ability for cross-modal integration. However, current benchmarks are filled with shortcut questions, which can be solved...
-
-### OmniFashion: Towards Generalist Fashion Intelligence via Multi-Task Vision-Language Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02658
-- Summary: Fashion intelligence spans multiple tasks, i.e., retrieval, recommendation, recognition, and dialogue, yet remains hindered by fragmented supervision and incomplete fashion annotations. These limitations jointly restrict the formation of consistent visual-semantic structures, preventing recent...
-
-### SEP-YOLO: Fourier-Domain Feature Representation for Transparent Object Instance Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02648
-- Summary: Transparent object instance segmentation presents significant challenges in computer vision, due to the inherent properties of transparent objects, including boundary blur, low contrast, and high dependence on background context. Existing methods often fail as they depend on strong appearance cues...
-
-### The Vienna 4G/5G Drive-Test Dataset
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02638
-- Summary: Machine learning for mobile network analysis, planning, and optimization is often limited by the lack of large, comprehensive real-world datasets. This paper introduces the Vienna 4G/5G Drive-Test Dataset, a city-scale open dataset of georeferenced Long Term Evolution (LTE) and 5G New Radio (NR)...
-
-### MASPOB: Bandit-Based Prompt Optimization for Multi-Agent Systems with Graph Neural Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02630
-- Summary: Large Language Models (LLMs) have achieved great success in many real-world applications, especially the one serving as the cognitive backbone of Multi-Agent Systems (MAS) to orchestrate complex workflows in practice. Since many deployment scenarios preclude MAS workflow modifications and its...
-
-### Uni-Skill: Building Self-Evolving Skill Repository for Generalizable Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02623
-- Summary: While skill-centric approaches leverage foundation models to enhance generalization in compositional tasks, they often rely on fixed skill libraries, limiting adaptability to new tasks without manual intervention. To address this, we propose Uni-Skill, a Unified Skill-centric framework that...
-
-### Real-Time Generative Policy via Langevin-Guided Flow Matching for Autonomous Driving
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02613
-- Summary: Reinforcement learning (RL) is a fundamental methodology in autonomous driving systems, where generative policies exhibit considerable potential by leveraging their ability to model complex distributions to enhance exploration. However, their inherent high inference latency severely impedes their...
-
-### VLMFusionOcc3D: VLM Assisted Multi-Modal 3D Semantic Occupancy Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.02609
-- Summary: This paper introduces VLMFusionOcc3D, a robust multimodal framework for dense 3D semantic occupancy prediction in autonomous driving. Current voxel-based occupancy models often struggle with semantic ambiguity in sparse geometric grids and performance degradation under adverse weather conditions....
 
