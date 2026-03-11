@@ -6,6 +6,30 @@
 
 ## 2026-03-11
 
+### issues with Cloudflare Dashboard
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hymt4phl3dks
+- Summary: Mar 11, 19:35 UTCUpdate - The issue has been identified and a fix is being implemented. A remediation has been put in place. The team is working on a long term resolution.Mar 11, 19:12 UTCIdentified - We are continuing to work on a fix for this issue.Mar 11, 19:01 UTCUpdate - We are continuing to...
+
+### Elevated conversation errors for ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKF8E0FPME7NBS95Q8Q0N6AH
+- Summary: Status: IdentifiedWe have identified that some users are experiencing elevated errors for ChatGPT conversations We are working on implementing a mitigation.Affected components Conversations (Degraded performance)
+
+### Elevated error rates for Deep Research in Enterprise Workspaces
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKF5RQTSB25839GBZ33S7MWX
+- Summary: Status: Identified We have identified that some Enterprise users are experiencing elevated errors for Deep Research. We are continuing to work on implementing a mitigation.Affected components Deep Research (Degraded performance)
+
+### Network Connectivity/52X errors in KUL
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/cl1hd88p3v74
+- Summary: Mar 11, 19:15 UTCResolved - Customers connecting through Kuala Lumpur may have noticed degraded network connectivity and 52X errors between 18:16 and 18:25 UTC
+
 ### Increased Errors in the Budapest regio
 - Source: Cloudflare Status
 - Category: incidents
@@ -337,6 +361,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/xqr7v0ddqycs
 - Summary: Mar 10, 16:45 UTCResolved - Some visitors may have had issues solving Challenge Pages, unable to complete the challenge successfully
 
+### MissBench: Benchmarking Multimodal Affective Analysis under Imbalanced Missing Modalities
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09874
+- Summary: Multimodal affective computing underpins key tasks such as sentiment analysis and emotion recognition. Standard evaluations, however, often assume that textual, acoustic, and visual modalities are equally available. In real applications, some modalities are systematically more fragile or expensive,...
+
 ### FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials
 - Source: The Hacker News
 - Category: security
@@ -396,6 +426,12 @@
 - Category: security
 - URL: https://www.securityweek.com/thousands-affected-by-ericsson-data-breach/
 - Summary: The telecommunications equipment and services giant has blamed the incident on a third-party vendor. The post Thousands Affected by Ericsson Data Breach appeared first on SecurityWeek.
+
+### TriFusion-SR: Joint Tri-Modal Medical Image Fusion and SR
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09702
+- Summary: Multimodal medical image fusion facilitates comprehensive diagnosis by aggregating complementary structural and functional information, but its effectiveness is limited by resolution degradation and modality discrepancies. Existing approaches typically perform image fusion and super-resolution (SR)...
 
 ### DRIFT: Dual-Representation Inter-Fusion Transformer for Automated Driving Perception with 4D Radar Point Clouds
 - Source: HF Daily Papers
@@ -564,6 +600,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/psi-bot-raises-280-m-to-accelerate-embodied-ai-data-collection-and-logistics-deployment
 - Summary: PsiBot completes a $280 million angel and Pre-Series A financing round backed by state-backed funds and strategic investors, aiming to scale embodied AI data infrastructure and expand logistics deployments.
+
+### CLoE: Expert Consistency Learning for Missing Modality Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09316
+- Summary: Multimodal medical image segmentation often faces missing modalities at inference, which induces disagreement among modality experts and makes fusion unstable, particularly on small foreground structures. We propose Consistency Learning of Experts (CLoE), a consistency-driven framework for...
 
 ### Diagnosing and Repairing Citation Failures in Generative Engine Optimization
 - Source: HF Daily Papers
@@ -799,11 +841,23 @@
 - URL: https://arxiv.org/abs/2603.06910
 - Summary: arXiv:2603.06910v1 Announce Type: new Abstract: This study investigates whether large language models (LLMs) exhibit cross-linguistic differences in mental health evaluations. Focusing on Chinese and English, we examine two widely used models, GPT-4o and Qwen3, to assess whether prompt language...
 
+### Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09137
+- Summary: Osteoporosis is a skeletal disease typically diagnosed using dual-energy X-ray absorptiometry (DXA), which quantifies areal bone mineral density but overlooks bone microarchitecture and surrounding soft tissues. High-resolution peripheral quantitative computed tomography (HR-pQCT) enables...
+
 ### [AINews] Autoresearch: Sparks of Recursive Self Improvement
 - Source: Latent Space
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive
 - Summary: AGI takes another small step forward.
+
+### Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09095
+- Summary: Multimodal large language models (MLLMs) can process text presented as images, yet they often perform worse than when the same content is provided as textual tokens. We systematically diagnose this "modality gap" by evaluating seven MLLMs across seven benchmarks in five input modes, spanning both...
 
 ### CATL Powers to $9.9B Profit in 2025, Up 42%
 - Source: Pandaily
@@ -2962,58 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.02359
 - Summary: arXiv:2603.02359v1 Announce Type: new Abstract: Digital advertising increasingly relies on visual content, yet marketers lack rigorous methods for understanding how specific visual attributes causally affect consumer engagement. This paper addresses a fundamental methodological challenge:...
-
-### Can machines be uncertain?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.02365
-- Summary: arXiv:2603.02365v1 Announce Type: new Abstract: The paper investigates whether and how AI systems can realize states of uncertainty. By adopting a functionalist and behavioral perspective, it examines how symbolic, connectionist and hybrid architectures make room for uncertainty. The paper...
-
-### RxnNano:Training Compact LLMs for Chemical Reaction and Retrosynthesis Prediction via Hierarchical Curriculum Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.02215
-- Summary: arXiv:2603.02215v1 Announce Type: new Abstract: Chemical reaction prediction is pivotal for accelerating drug discovery and synthesis planning. Despite advances in data-driven models, current approaches are hindered by an overemphasis on parameter and dataset scaling. Some methods coupled with...
-
-### ATPO: Adaptive Tree Policy Optimization for Multi-Turn Medical Dialogue
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.02216
-- Summary: arXiv:2603.02216v1 Announce Type: new Abstract: Effective information seeking in multi-turn medical dialogues is critical for accurate diagnosis, especially when dealing with incomplete information. Aligning Large Language Models (LLMs) for these interactive scenarios is challenging due to the...
-
-### Is Retraining-Free Enough? The Necessity of Router Calibration for Efficient MoE Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.02217
-- Summary: arXiv:2603.02217v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models scale capacity efficiently, but their massive parameter footprint creates a deployment-time memory bottleneck. We organize retraining-free MoE compression into three paradigms - Expert Pruning, Expert Editing, and...
-
-### Self-Play Only Evolves When Self-Synthetic Pipeline Ensures Learnable Information Gain
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.02218
-- Summary: arXiv:2603.02218v1 Announce Type: new Abstract: Large language models (LLMs) make it plausible to build systems that improve through self-evolving loops, but many existing proposals are better understood as self-play and often plateau quickly. A central failure mode is that the loop synthesises...
-
-### NExT-Guard: Training-Free Streaming Safeguard without Token-Level Labels
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.02219
-- Summary: arXiv:2603.02219v1 Announce Type: new Abstract: Large language models are increasingly deployed in streaming scenarios, rendering conventional post-hoc safeguards ineffective as they fail to interdict unsafe content in real-time. While streaming safeguards based on token-level supervised training...
-
-### A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.02213
-- Summary: arXiv:2603.02213v1 Announce Type: new Abstract: Symbolic sequences such as written language and genomic DNA display characteristic frequency distributions and long-range correlations extending over many symbols. In language, this takes the form of Zipf's law for word frequencies together with...
-
-### Universal Conceptual Structure in Neural Translation: Probing NLLB-200's Multilingual Geometry
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.02258
-- Summary: arXiv:2603.02258v1 Announce Type: new Abstract: Do neural machine translation models learn language-universal conceptual representations, or do they merely cluster languages by surface similarity? We investigate this question by probing the representation geometry of Meta's NLLB-200, a 200-language...
-
-### Characterizing Memorization in Diffusion Language Models: Generalized Extraction and Sampling Effects
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.02333
-- Summary: arXiv:2603.02333v1 Announce Type: new Abstract: Autoregressive language models (ARMs) have been shown to memorize and occasionally reproduce training data verbatim, raising concerns about privacy and copyright liability. Diffusion language models (DLMs) have recently emerged as a competitive...
 
