@@ -6,6 +6,18 @@
 
 ## 2026-03-12
 
+### INC0153465
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/kpkc19wpf1m0
+- Summary: Mar 12, 20:18 UTCUpdate - Current status: We're continuing to monitor as the rollback of the Snowflake Intelligence update progresses. Affected customers should continue to experience relief as the rollback advances and reaches their environment. We'll provide another update within 4 hours.Customer...
+
+### Some users seeing "No Accessible Workspaces" when attempting to login via SSO
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
+
 ### Increased Error Rates in North America West
 - Source: Cloudflare Status
 - Category: incidents
@@ -350,6 +362,12 @@
 - URL: https://tldr.takara.ai/p/2603.11001
 - Summary: Human uplift studies - or studies that measure AI effects on human performance relative to a status quo, typically using randomized controlled trial (RCT) methodology - are increasingly used to inform deployment, governance, and safety decisions for frontier AI systems. While the methods underlying...
 
+### ForwardFlow: Simulation only statistical inference using deep learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10991
+- Summary: Deep learning models are being used for the analysis of parametric statistical models based on simulation-only frameworks. Bayesian models using normalizing flows simulate data from a prior distribution and are composed of two deep neural networks: a summary network that learns a sufficient...
+
 ### Pointy - A Lightweight Transformer for Point Cloud Foundation Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -559,6 +577,12 @@
 - URL: https://pandaily.com/huawei-qiankun-doubles-down-on-li-dar-with-new-896-line-sensor-for-smart-driving
 - Summary: Huawei Qiankun unveiled an industry-leading 896-line LiDAR, bringing image-level perception to mass-produced smart vehicles and pushing LiDAR technology toward mainstream adoption.
 
+### A Universal Nearest-Neighbor Estimator for Intrinsic Dimensionality
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10493
+- Summary: Estimating the intrinsic dimensionality (ID) of data is a fundamental problem in machine learning and computer vision, providing insight into the true degrees of freedom underlying high-dimensional observations. Existing methods often rely on geometric or distributional assumptions and can...
+
 ### UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours
 - Source: The Hacker News
 - Category: security
@@ -582,6 +606,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches
 - Summary: World Models are what next generation AI needs.
+
+### Aligning Large Language Models with Searcher Preferences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10473
+- Summary: The paradigm shift from item-centric ranking to answer-centric synthesis is redefining the role of search engines. While recent industrial progress has applied generative techniques to closed-set item ranking in e-commerce, research and deployment of open-ended generative search on large content...
 
 ### Honor Considers Sub-Brand Launch in China; Humanoid Robots Target Consumer Market
 - Source: Pandaily
@@ -835,11 +865,23 @@
 - URL: https://pandaily.com/oppo-to-raise-prices-on-some-existing-smartphones-as-memory-costs-surge
 - Summary: Rising AI-driven memory costs are forcing Chinese smartphone makers, including OPPO, to raise device prices in what could become the industry’s largest price hike in five years.
 
+### What do near-optimal learning rate schedules look like?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10301
+- Summary: A basic unanswered question in neural network training is: what is the best learning rate schedule shape for a given workload? The choice of learning rate schedule is a key factor in the success or failure of the training process, but beyond having some kind of warmup and decay, there is no...
+
 ### Microsoft Patch Tuesday, March 2026 Edition
 - Source: Krebs on Security
 - Category: security
 - URL: https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/
 - Summary: Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing "zero-day" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from...
+
+### Conversational AI-Enhanced Exploration System to Query Large-Scale Digitised Collections of Natural History Museums
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10285
+- Summary: Recent digitisation efforts in natural history museums have produced large volumes of collection data, yet their scale and scientific complexity often hinder public access and understanding. Conventional data management tools, such as databases, restrict exploration through keyword-based search or...
 
 
 ## 2026-03-10
@@ -2974,46 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.03290
 - Summary: arXiv:2603.03290v1 Announce Type: new Abstract: Long-horizon LLM agents require memory systems that remain accurate under fixed context budgets. However, existing systems struggle with two persistent challenges in long-term dialogue: (i) \textbf{disconnected evidence}, where multi-hop answers...
-
-### One Bias After Another: Mechanistic Reward Shaping and Persistent Biases in Language Reward Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.03291
-- Summary: arXiv:2603.03291v1 Announce Type: new Abstract: Reward Models (RMs) are crucial for online alignment of language models (LMs) with human preferences. However, RM-based preference-tuning is vulnerable to reward hacking, whereby LM policies learn undesirable behaviors from flawed RMs. By...
-
-### From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.03292
-- Summary: arXiv:2603.03292v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit high reasoning capacity in medical question-answering, but their tendency to produce hallucinations and outdated knowledge poses critical risks in healthcare fields. While Retrieval-Augmented Generation (RAG)...
-
-### SE-Search: Self-Evolving Search Agent via Memory and Dense Reward
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.03293
-- Summary: arXiv:2603.03293v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) reduces hallucinations and factual errors in large language models (LLMs) by conditioning generation on retrieved external knowledge. Recent search agents further cast RAG as an autonomous, multi-turn...
-
-### Fine-Tuning and Evaluating Conversational AI for Agricultural Advisory
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.03294
-- Summary: arXiv:2603.03294v1 Announce Type: new Abstract: Large Language Models show promise for agricultural advisory, yet vanilla models exhibit unsupported recommendations, generic advice lacking specific, actionable detail, and communication styles misaligned with smallholder farmer needs. In high stakes...
-
-### RAGNav: A Retrieval-Augmented Topological Reasoning Framework for Multi-Goal Visual-Language Navigation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.03745
-- Summary: arXiv:2603.03745v1 Announce Type: new Abstract: Vision-Language Navigation (VLN) is evolving from single-point pathfinding toward the more challenging Multi-Goal VLN. This task requires agents to accurately identify multiple entities while collaboratively reasoning over their spatial-physical...
-
-### AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.03761
-- Summary: arXiv:2603.03761v1 Announce Type: new Abstract: LLM agents are rapidly becoming the practical interface for task automation, yet the ecosystem lacks a principled way to choose among an exploding space of deployable configurations. Existing LLM leaderboards and tool/agent benchmarks evaluate...
-
-### LifeBench: A Benchmark for Long-Horizon Multi-Source Memory
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.03781
-- Summary: arXiv:2603.03781v1 Announce Type: new Abstract: Long-term memory is fundamental for personalized agents capable of accumulating knowledge, reasoning over user experiences, and adapting across time. However, existing memory benchmarks primarily target declarative memory, specifically semantic and...
 
