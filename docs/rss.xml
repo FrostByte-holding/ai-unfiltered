@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 13 Mar 2026 16:43:38 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2026 20:38:18 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Responses API errors when using background mode</title>
+            <link>https://status.openai.com//incidents/01KKMB9HWS1B9452FT6BV6KDD6</link>
+            <guid>https://status.openai.com//incidents/01KKMB9HWS1B9452FT6BV6KDD6</guid>
+            <pubDate>Fri, 13 Mar 2026 20:03:53 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KKMB9HWS1B9452FT6BV6KDD6">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)</description>
+        </item>
+        <item>
+            <title>Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline</title>
+            <link>https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval</link>
+            <guid>https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval</guid>
+            <pubDate>Fri, 13 Mar 2026 20:00:00 +0000</pubDate>
+            <source url="https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Elevated errors on Claude Opus 4.6 and Sonnet 4.6</title>
+            <link>https://status.claude.com/incidents/q58b2gkv64pw</link>
+            <guid>https://status.claude.com/incidents/q58b2gkv64pw</guid>
+            <pubDate>Fri, 13 Mar 2026 19:18:42 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/q58b2gkv64pw">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Mar 13, 18:37 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
         <item>
             <title>Degraded performance for various services</title>
             <link>https://www.githubstatus.com/incidents/xsxcyn25nfmq</link>
@@ -414,6 +441,15 @@
             <description>Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)</description>
         </item>
         <item>
+            <title>The Latent Color Subspace: Emergent Order in High-Dimensional Chaos</title>
+            <link>https://tldr.takara.ai/p/2603.12261</link>
+            <guid>https://tldr.takara.ai/p/2603.12261</guid>
+            <pubDate>Thu, 12 Mar 2026 17:59:48 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2603.12261">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Text-to-image generation models have advanced rapidly, yet achieving fine-grained control over generated images remains difficult, largely due to limited understanding of how semantic information is encoded. We develop an interpretation of the color representation in the Variational Autoencoder...</description>
+        </item>
+        <item>
             <title>Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing</title>
             <link>https://tldr.takara.ai/p/2603.12254</link>
             <guid>https://tldr.takara.ai/p/2603.12254</guid>
@@ -421,42 +457,6 @@
             <source url="https://tldr.takara.ai/p/2603.12254">HF Daily Papers</source>
             <category>open-source</category>
             <description>Multi-modal large language models (MLLMs) have advanced general-purpose video understanding but struggle with long, high-resolution videos -- they process every pixel equally in their vision transformers (ViTs) or LLMs despite significant spatiotemporal redundancy. We introduce AutoGaze, a...</description>
-        </item>
-        <item>
-            <title>One Model, Many Budgets: Elastic Latent Interfaces for Diffusion Transformers</title>
-            <link>https://tldr.takara.ai/p/2603.12245</link>
-            <guid>https://tldr.takara.ai/p/2603.12245</guid>
-            <pubDate>Thu, 12 Mar 2026 17:57:04 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2603.12245">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Diffusion transformers (DiTs) achieve high generative quality but lock FLOPs to image resolution, limiting principled latency-quality trade-offs, and allocate computation uniformly across input spatial tokens, wasting resource allocation to unimportant regions. We introduce Elastic Latent Interface...</description>
-        </item>
-        <item>
-            <title>Increased Error Rates in North America West</title>
-            <link>https://www.cloudflarestatus.com/incidents/42ks97f78px8</link>
-            <guid>https://www.cloudflarestatus.com/incidents/42ks97f78px8</guid>
-            <pubDate>Thu, 12 Mar 2026 16:46:10 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/42ks97f78px8">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Mar 12, 16:46 UTCUpdate - We are continuing to investigate this issue.Mar 12, 16:45 UTCInvestigating - Users may experience increased error rates when interacting with Cloudflare services in the Seattle region.</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Sonnet 4.6</title>
-            <link>https://status.claude.com/incidents/tdp33ycsk4rb</link>
-            <guid>https://status.claude.com/incidents/tdp33ycsk4rb</guid>
-            <pubDate>Thu, 12 Mar 2026 16:34:27 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/tdp33ycsk4rb">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Mar 12, 16:34 UTCIdentified - A repeat of an earlier issue today started at 9:27 PT / 16:27 UTC.</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Sonnet 4.6 and on Claude.ai</title>
-            <link>https://status.claude.com/incidents/28hx7gp8hnzw</link>
-            <guid>https://status.claude.com/incidents/28hx7gp8hnzw</guid>
-            <pubDate>Thu, 12 Mar 2026 16:28:26 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/28hx7gp8hnzw">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Mar 12, 16:28 UTCResolved - This incident has been resolved.Mar 12, 16:07 UTCMonitoring - We recently had an incident on Sonnet 4.6 between 8:30 PT / 15:30 UTC and 8:44 PT / 15:44 UTC where users would have seen a higher error rate across Claude Code, Claude API, and Claude.ai.Separately, we also...</description>
         </item>
     </channel>
 </rss>

@@ -6,6 +6,23 @@
 
 ## 2026-03-13
 
+### Responses API errors when using background mode
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKMB9HWS1B9452FT6BV6KDD6
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)
+
+### Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval
+
+### Elevated errors on Claude Opus 4.6 and Sonnet 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/q58b2gkv64pw
+- Summary: Mar 13, 18:37 UTCInvestigating - We are currently investigating this issue.
+
 ### Degraded performance for various services
 - Source: GitHub Status
 - Category: incidents
@@ -314,6 +331,12 @@
 - URL: https://status.openai.com//incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
 
+### The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12261
+- Summary: Text-to-image generation models have advanced rapidly, yet achieving fine-grained control over generated images remains difficult, largely due to limited understanding of how semantic information is encoded. We develop an interpretation of the color representation in the Variational Autoencoder...
+
 ### Attend Before Attention: Efficient and Scalable Video Understanding via Autoregressive Gazing
 - Source: HF Daily Papers
 - Category: open-source
@@ -373,6 +396,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/gtj167mtk9pg
 - Summary: Mar 12, 15:48 UTCResolved - This incident has been resolved.Mar 12, 15:42 UTCInvestigating - We are currently investigating this issue.
+
+### Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12020
+- Summary: Deep Reinforcement Learning (DRL) offers a robust alternative to traditional control methods for autonomous underwater docking, particularly in adapting to unpredictable environmental conditions. However, bridging the "sim-to-real" gap and managing high training latencies remain significant...
 
 ### Nyxus: A Next Generation Image Feature Extraction Library for the Big Data and AI Era
 - Source: HF Daily Papers
@@ -446,6 +475,12 @@
 - URL: https://www.securityweek.com/the-human-ioc-why-security-professionals-struggle-with-social-vetting/
 - Summary: Applying SOC-level rigor to the rumors, politics, and 'human intel' can make or break a security team. The post The Human IOC: Why Security Professionals Struggle with Social Vetting appeared first on SecurityWeek.
 
+### The Landscape of Generative AI in Information Systems: A Synthesis of Secondary Reviews and Research Agendas
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11842
+- Summary: As organizations grapple with the rapid adoption of Generative AI (GenAI), this study synthesizes the state of knowledge through a systematic literature review of secondary studies and research agendas. Analyzing 28 papers published since 2023, we find that while GenAI offers transformative...
+
 ### Splunk, Zoom Patch Severe Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -463,6 +498,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html
 - Summary: The most dangerous phishing campaigns aren’t just designed to fool employees. Many are designed to exhaust the analysts investigating them. When a phishing investigation takes 12 hours instead of five minutes, the outcome can shift from a contained incident to a breach. For years, the cybersecurity...
+
+### Intrinsic Concept Extraction Based on Compositional Interpretability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11795
+- Summary: Unsupervised Concept Extraction aims to extract concepts from a single image; however, existing methods suffer from the inability to extract composable intrinsic concepts. To address this, this paper introduces a new task called Compositional and Interpretable Intrinsic Concept Extraction (CI-ICE)....
 
 ### Cisco Patches High-Severity IOS XR Vulnerabilities
 - Source: Security Week
@@ -541,6 +582,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-replit-agent-4-the-knowledge
 - Summary: Replit Agent 4 lets us reflect on a couple disparate releases.
+
+### Performance Evaluation of Open-Source Large Language Models for Assisting Pathology Report Writing in Japanese
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11597
+- Summary: The performance of large language models (LLMs) for supporting pathology report writing in Japanese remains unexplored. We evaluated seven open-source LLMs from three perspectives: (A) generation and information extraction of pathology diagnosis text following predefined formats, (B) correction of...
 
 ### CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed
 - Source: The Hacker News
@@ -2968,52 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.04427
 - Summary: arXiv:2603.04427v1 Announce Type: new Abstract: Standard transformer attention uses identical dimensionality for queries, keys, and values ($d_q = d_k = d_v = \dmodel$). Our insight is that these components serve fundamentally different roles, and this symmetry is unnecessary. Queries and keys...
-
-### CTRL-RAG: Contrastive Likelihood Reward Based Reinforcement Learning for Context-Faithful RAG Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.04406
-- Summary: arXiv:2603.04406v1 Announce Type: new Abstract: With the growing use of Retrieval-Augmented Generation (RAG), training large language models (LLMs) for context-sensitive reasoning and faithfulness is increasingly important. Existing RAG-oriented reinforcement learning (RL) methods rely on external...
-
-### Semantic Containment as a Fundamental Property of Emergent Misalignment
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.04407
-- Summary: arXiv:2603.04407v1 Announce Type: new Abstract: Fine-tuning language models on narrowly harmful data causes emergent misalignment (EM) -- behavioral failures extending far beyond training distributions. Recent work demonstrates compartmentalization of misalignment behind contextual triggers, but...
-
-### Probing Memes in LLMs: A Paradigm for the Entangled Evaluation World
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.04408
-- Summary: arXiv:2603.04408v1 Announce Type: new Abstract: Current evaluation paradigms for large language models (LLMs) characterize models and datasets separately, yielding coarse descriptions: items in datasets are treated as pre-labeled entries, and models are summarized by overall scores such as...
-
-### Unpacking Human Preference for LLMs: Demographically Aware Evaluation with the HUMAINE Framework
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.04409
-- Summary: arXiv:2603.04409v1 Announce Type: new Abstract: The evaluation of large language models faces significant challenges. Technical benchmarks often lack real-world relevance, while existing human preference evaluations suffer from unrepresentative sampling, superficial assessment depth, and...
-
-### SalamahBench: Toward Standardized Safety Evaluation for Arabic Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.04410
-- Summary: arXiv:2603.04410v1 Announce Type: new Abstract: Safety alignment in Language Models (LMs) is fundamental for trustworthy AI. However, while different stakeholders are trying to leverage Arabic Language Models (ALMs), systematic safety evaluation of ALMs remains largely underexplored, limiting their...
-
-### Self-Attribution Bias: When AI Monitors Go Easy on Themselves
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.04582
-- Summary: arXiv:2603.04582v1 Announce Type: new Abstract: Agentic systems increasingly rely on language models to monitor their own behavior. For example, coding agents may self critique generated code for pull request approval or assess the safety of tool-use actions. We show that this design pattern can...
-
-### ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.04589
-- Summary: arXiv:2603.04589v1 Announce Type: new Abstract: Electrocardiography (ECG) analysis is crucial for cardiac diagnosis, yet existing foundation models often fail to capture the periodicity and diverse features required for varied clinical tasks. We propose ECG-MoE, a hybrid architecture that...
-
-### Towards automated data analysis: A guided framework for LLM-based risk estimation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.04631
-- Summary: arXiv:2603.04631v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into critical decision-making pipelines, a trend that raises the demand for robust and automated data analysis. Current approaches to dataset risk analysis are limited to manual auditing methods...
 
