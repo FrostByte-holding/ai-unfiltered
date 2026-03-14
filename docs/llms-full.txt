@@ -6,6 +6,12 @@
 
 ## 2026-03-14
 
+### OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
+- Summary: China's National Computer Network Emergency Response Technical Team (CNCERT) has issued a warning about the security stemming from the use of OpenClaw (formerly Clawdbot and Moltbot), an open-source and self-hosted autonomous artificial intelligence (AI) agent. In a post shared on WeChat, CNCERT...
+
 ### GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers
 - Source: The Hacker News
 - Category: security
@@ -490,6 +496,12 @@
 - URL: https://status.openai.com//incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
 
+### MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12266
+- Summary: Multimodal Large Language Models (MLLMs) are increasingly used to carry out visual workflows such as navigating GUIs, where the next step depends on verified visual compositional conditions (e.g., "if a permission dialog appears and the color of the interface is green, click Allow") and the process...
+
 ### Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously
 - Source: HF Daily Papers
 - Category: open-source
@@ -652,6 +664,12 @@
 - URL: https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks/
 - Summary: The issue allows attackers to inject SQL queries and extract sensitive information from the database. The post Ally WordPress Plugin Flaw Exposes Over 200,000 Websites to Attacks appeared first on SecurityWeek.
 
+### Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11866
+- Summary: While deep learning has advanced single-image deraining, existing models suffer from a fundamental limitation: they employ a static inference paradigm that fails to adapt to the complex, coupled degradations (e.g., noise artifacts, blur, and color deviation) of real-world rain. Consequently,...
+
 ### The Human IOC: Why Security Professionals Struggle with Social Vetting
 - Source: Security Week
 - Category: security
@@ -753,6 +771,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/agibot-showcases-full-robot-lineup-at-awe-2026
 - Summary: AGIBOT showcased its full robot family—Yuanzheng, Lingxi, Jingling, and Kuo—at AWE 2026, demonstrating humanoid robots performing calligraphy, comedy, and dance with natural interaction.
+
+### MedPruner: Training-Free Hierarchical Token Pruning for Efficient 3D Medical Image Understanding in Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11625
+- Summary: While specialized Medical Vision-Language Models (VLMs) have achieved remarkable success in interpreting 2D and 3D medical modalities, their deployment for 3D volumetric data remains constrained by significant computational inefficiencies. Current architectures typically suffer from massive...
 
 ### Tencent’s WorkBuddy Agent Tool Adds Direct WeChat Integration
 - Source: Pandaily
@@ -1354,6 +1378,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.10658
 - Summary: Earth observation (EO) missions produce petabytes of multispectral imagery, increasingly analyzed using large Geospatial Foundation Models (GeoFMs). Alongside end-to-end adaptation, workflows make growing use of intermediate representations as task-agnostic embeddings, enabling models to compute...
+
+### Self-Scaled Broyden Family of Quasi-Newton Methods in JAX
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10599
+- Summary: We present a JAX implementation of the Self-Scaled Broyden family of quasi-Newton methods, fully compatible with JAX and building on the Optimistix~\cite{rader_optimistix_2024} optimisation library. The implementation includes BFGS, DFP, Broyden and their Self-Scaled variants(SSBFGS, SSDFP,...
 
 ### R4-CGQA: Retrieval-based Vision Language Models for Computer Graphics Image Quality Assessment
 - Source: HF Daily Papers
@@ -2983,37 +3013,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.07690
 - Summary: Streaming Visual Geometry Transformers such as StreamVGGT enable strong online 3D perception but suffer from unbounded KV-cache growth, which limits deployment over long streams. We revisit bounded-memory streaming from the perspective of geometric support. In geometry-driven reasoning, memory...
-
-### Exoskeleton Control through Learning to Reduce Biological Joint Moments in Simulations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.07629
-- Summary: Data-driven joint-moment predictors offer a scalable alternative to laboratory-based inverse-dynamics pipelines for biomechanics estimation and exoskeleton control. Meanwhile, physics-based reinforcement learning (RL) enables simulation-trained controllers to learn dynamics-aware assistance...
-
-### Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/recent-cisco-catalyst-sd-wan-vulnerability-now-widely-exploited/
-- Summary: WatchTowr reports seeing exploitation attempts for CVE-2026-20127 from numerous unique IP addresses. The post Recent Cisco Catalyst SD-WAN Vulnerability Now Widely Exploited appeared first on SecurityWeek.
-
-
-## 2026-03-07
-
-### AWS - Europe (Zürich): INC0153183
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/6ghqh8nfw4wc
-- Summary: Mar 7, 20:05 UTCInvestigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 60 minutes.Customer experience: Customers hosted in the specified regions may be unable to access or use multiple core Snowflake services and features. Affected...
-
-### OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html
-- Summary: OpenAI on Friday began rolling out Codex Security, an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities. The feature is available in a research preview to ChatGPT Pro, Enterprise, Business, and Edu customers via the Codex...
-
-### US Cyber Strategy Targets Adversaries, Critical Infrastructure, and Emerging Technologies
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-cyber-strategy-targets-adversaries-critical-infrastructure-and-emerging-technologies/
-- Summary: Trump’s Cyber Strategy calls for stronger deterrence against cyber adversaries, modernization of federal networks, protection of critical infrastructure, and investment in technologies such as AI and post-quantum cryptography. The post US Cyber Strategy Targets Adversaries, Critical Infrastructure,...
 
