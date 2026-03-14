@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-03-14
+
+### [AINews] Context Drought
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-context-drought
+- Summary: a quiet day lets us reflect on Anthropic's belated GA of 1M context windows after Gemini and OpenAI.
+
+
 ## 2026-03-13
 
 ### Responses API errors when using background mode
@@ -469,6 +478,12 @@
 - URL: https://status.openai.com//incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
 
+### Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12262
+- Summary: Online Video Large Language Models (VideoLLMs) play a critical role in supporting responsive, real-time interaction. Existing methods focus on streaming perception, lacking a synchronized logical reasoning stream. However, directly applying test-time scaling methods incurs unacceptable response...
+
 ### The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
 - Source: HF Daily Papers
 - Category: open-source
@@ -535,6 +550,12 @@
 - URL: https://status.claude.com/incidents/gtj167mtk9pg
 - Summary: Mar 12, 15:48 UTCResolved - This incident has been resolved.Mar 12, 15:42 UTCInvestigating - We are currently investigating this issue.
 
+### Node-RF: Learning Generalized Continuous Space-Time Scene Dynamics with Neural ODE-based NeRFs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12078
+- Summary: Predicting scene dynamics from visual observations is challenging. Existing methods capture dynamics only within observed boundaries failing to extrapolate far beyond the training sequence. Node-RF (Neural ODE-based NeRF) overcomes this limitation by integrating Neural Ordinary Differential...
+
 ### Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application
 - Source: HF Daily Papers
 - Category: open-source
@@ -558,6 +579,12 @@
 - Category: security
 - URL: https://www.securityweek.com/apple-updates-older-ios-versions-to-patch-coruna-exploits/
 - Summary: The company has released iOS and iPadOS versions 16.7.15 and 15.8.7 to patch the vulnerabilities. The post Apple Updates Legacy iOS Versions to Patch Coruna Exploits appeared first on SecurityWeek.
+
+### Effective Resistance Rewiring: A Simple Topological Correction for Over-Squashing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11944
+- Summary: Graph Neural Networks struggle to capture long-range dependencies due to over-squashing, where information from exponentially growing neighborhoods must pass through a small number of structural bottlenecks. While recent rewiring methods attempt to alleviate this limitation, many rely on local...
 
 ### PicoSAM3: Real-Time In-Sensor Region-of-Interest Segmentation
 - Source: HF Daily Papers
@@ -750,6 +777,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.11597
 - Summary: The performance of large language models (LLMs) for supporting pathology report writing in Japanese remains unexplored. We evaluated seven open-source LLMs from three perspectives: (A) generation and information extraction of pathology diagnosis text following predefined formats, (B) correction of...
+
+### CAETC: Causal Autoencoding and Treatment Conditioning for Counterfactual Estimation over Time
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11565
+- Summary: Counterfactual estimation over time is important in various applications, such as personalized medicine. However, time-dependent confounding bias in observational data still poses a significant challenge in achieving accurate and efficient estimation. We introduce causal autoencoding and treatment...
 
 ### CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed
 - Source: The Hacker News
@@ -959,6 +992,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench
+
+### KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11501
+- Summary: Graph-based Retrieval-Augmented Generation (GraphRAG) constructs the Knowledge Graph (KG) from external databases to enhance the timeliness and accuracy of Large Language Model (LLM) generations.However,this reliance on external data introduces new attack surfaces.Attackers can inject poisoned...
 
 ### Disruption with some GitHub services
 - Source: GitHub Status
@@ -2979,40 +3018,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/htjkfrfnzq12
 - Summary: Mar 6, 16:23 UTCResolved - This incident has been resolved.Mar 6, 16:01 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 6, 15:34 UTCInvestigating - Some API requests to api.anthropic.com are experiencing connection timeouts due to network degradation at an upstream...
-
-### ArmorCode Raises $16 Million for Exposure Management Platform
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/
-- Summary: The company will accelerate platform development, expand go-to-market efforts, and invest in product innovation. The post ArmorCode Raises $16 Million for Exposure Management Platform appeared first on SecurityWeek.
-
-### In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei Strike
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-fbi-hacked-us-security-pro-killed-in-iran-war-hijacked-cameras-used-in-khamenei-strike/
-- Summary: Other noteworthy stories that might have slipped under the radar: Avira antivirus vulnerabilities, Transport for London data breach affects 10 million, Gaming cheat exposes North Korean hacker. The post In Other News: FBI Hacked, US Security Pro Killed in Iran War, Hijacked Cameras Used in Khamenei...
-
-### Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html
-- Summary: The Pakistan-aligned threat actor known as Transparent Tribe has become the latest hacking group to embrace artificial intelligence (AI)-powered coding tools to strike targets with various implants. The activity is designed to produce a "high-volume, mediocre mass of implants" that are developed...
-
-### Issues with 1.1.1.1 public resolver in North America
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/bjb5fx7vwxk0
-- Summary: Mar 6, 14:43 UTCResolved - This incident has been resolved.Mar 6, 14:24 UTCInvestigating - Cloudflare is aware of, and investigating, an issue which potentially impacts multiple users in North America that use 1.1.1.1 public resolver. Further detail will be provided as more information becomes...
-
-### Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html
-- Summary: Cybersecurity researchers have disclosed details of a multi-stage malware campaign that uses batch scripts as a pathway to deliver various encrypted remote access trojan (RATs) payloads that correspond to XWorm, AsyncRAT, and Xeno RAT. The stealthy attack chain has been codenamed VOID#GEIST by...
-
-### Dean Ball on open models and government control
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/how-anthropic-vs-dow-impacts-open
-- Summary: Subtle precedents on the future of open models set by the unfolding Anthropic v. Department of War case.
 
