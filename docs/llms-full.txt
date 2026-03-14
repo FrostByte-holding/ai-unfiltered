@@ -6,6 +6,12 @@
 
 ## 2026-03-14
 
+### Critical HPE AOS-CX Vulnerability Allows Admin Password Resets
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/
+- Summary: The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls. The post Critical HPE AOS-CX Vulnerability Allows Admin Password Resets appeared first on SecurityWeek.
+
 ### [AINews] Context Drought
 - Source: Latent Space
 - Category: open-source
@@ -748,6 +754,12 @@
 - URL: https://pandaily.com/tencent-s-work-buddy-agent-tool-adds-direct-we-chat-integration
 - Summary: Tencent's AI agent WorkBuddy has been updated to support direct WeChat connectivity, allowing users to remotely command their desktop AI via mobile messages.
 
+### The Density of Cross-Persistence Diagrams and Its Applications
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11623
+- Summary: Topological Data Analysis (TDA) provides powerful tools to explore the shape and structure of data through topological features such as clusters, loops, and voids. Persistence diagrams are a cornerstone of TDA, capturing the evolution of these features across scales. While effective for analyzing...
+
 ### CarbonSeeker’s Consumer Continuous-Fiber 3D Printer Raises $4.7M on Kickstarter
 - Source: Pandaily
 - Category: chinese-ai
@@ -1324,6 +1336,12 @@
 - Category: security
 - URL: https://www.securityweek.com/michelin-confirms-data-breach-linked-to-oracle-ebs-attack/
 - Summary: The cybercriminals have leaked more than 300GB of files allegedly stolen from the tire giant. The post Michelin Confirms Data Breach Linked to Oracle EBS Attack appeared first on SecurityWeek.
+
+### ResWM: Residual-Action World Model for Visual RL
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11110
+- Summary: Learning predictive world models from raw visual observations is a central challenge in reinforcement learning (RL), especially for robotics and continuous control. Conventional model-based RL frameworks directly condition future predictions on absolute actions, which makes optimization unstable:...
 
 ### How To Embed Matters: Evaluation of EO Embedding Design Choices
 - Source: HF Daily Papers
@@ -2539,6 +2557,12 @@
 - URL: https://www.securityweek.com/internet-infrastructure-tld-arpa-abused-in-phishing-attacks/
 - Summary: Abusing DNS record management controls, the threat actor hides the location of malicious content via Cloudflare. The post Internet Infrastructure TLD .arpa Abused in Phishing Attacks appeared first on SecurityWeek.
 
+### PolyFormer: learning efficient reformulations for scalable optimization under complex physical constraints
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08283
+- Summary: Real-world optimization problems are often constrained by complex physical laws that limit computational scalability. These constraints are inherently tied to complex regions, and thus learning models that incorporate physical and geometric knowledge, i.e., physics-informed machine learning (PIML),...
+
 ### Using Multimodal and Language-Agnostic Sentence Embeddings for Abstractive Summarization
 - Source: HF Daily Papers
 - Category: open-source
@@ -2592,6 +2616,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.08131
 - Summary: Understanding and localizing objects in complex 3D environments from natural language descriptions, known as 3D Visual Grounding (3DVG), is a foundational challenge in embodied AI, with broad implications for robotics, augmented reality, and human-machine interaction. Large-scale pre-trained...
+
+### SaiVLA-0: Cerebrum--Pons--Cerebellum Tripartite Architecture for Compute-Aware Vision-Language-Action
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08124
+- Summary: We revisit Vision-Language-Action through a neuroscience-inspired triad. Biologically, the Cerebrum provides stable high-level multimodal priors and remains frozen; the Pons Adapter integrates these cortical features with real-time proprioceptive inputs and compiles intent into execution-ready...
+
+### TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08075
+- Summary: On-the-fly category discovery (OCD) aims to recognize known categories while simultaneously discovering novel ones from an unlabeled online stream, using a model trained only on labeled data. Existing approaches freeze the feature extractor trained offline and employ a hash-based framework that...
 
 ### Speed3R: Sparse Feed-forward 3D Reconstruction Models
 - Source: HF Daily Papers
@@ -2980,43 +3016,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-ai-engineer-will-be-the-last
 - Summary: a quiet day lets us reflect on the jobs debate.
-
-### FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fbi-investigating-suspicious-cyber-activity-on-system-holding-sensitive-surveillance-information/
-- Summary: The bureau is working to determine the scope and impact of the problem, according to a notification sent to members of Congress. The post FBI Investigating ‘Suspicious’ Cyber Activity on System Holding Sensitive Surveillance Information appeared first on SecurityWeek.
-
-### Login Issues
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KK2T9TNTF5V3BSJ9T8D2S5CY
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational) Login (Operational) Login (Operational)
-
-
-## 2026-03-06
-
-### Errors with Compliance API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KK2R1TEV8VBRPZA1829N6MDJ
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Compliance API (Operational)
-
-### Incident with Webhooks
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/tqyg889tl8qz
-- Summary: Mar 6, 20:18 UTCUpdate - We have deployed a fix for the issue causing some users to experience intermittent failures when accessing the Webhooks API and configuration pages. We are monitoring to confirm full recovery.Mar 6, 19:39 UTCUpdate - We continue working on mitigations to restore service.Mar...
-
-### Access Configuration Updates Delayed
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9sbjbzxxfpbl
-- Summary: Mar 6, 20:06 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 6, 19:30 UTCInvestigating - Access configuration changes are experiencing delays propagating to the edge. Existing configurations and logins are not impacted.
-
-### Is the Pentagon allowed to surveil Americans with AI?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/
-- Summary: The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after...
 
