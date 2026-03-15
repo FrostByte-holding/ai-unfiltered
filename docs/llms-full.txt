@@ -1517,6 +1517,12 @@
 - URL: https://tldr.takara.ai/p/2603.10395
 - Summary: Graph generation is a fundamental task with broad applications, such as drug discovery. Recently, discrete flow matching-based graph generation, \aka, graph flow model (GFM), has emerged due to its superior performance and flexible sampling. However, effectively aligning GFMs with complex human...
 
+### Variance-Aware Adaptive Weighting for Diffusion Model Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10391
+- Summary: Diffusion models have recently achieved remarkable success in generative modeling, yet their training dynamics across different noise levels remain highly imbalanced, which can lead to inefficient optimization and unstable learning behavior. In this work, we investigate this imbalance from the...
+
 ### MASEval: Extending Multi-Agent Evaluation from Models to Systems
 - Source: arXiv AI
 - Category: research
@@ -1837,6 +1843,12 @@
 - URL: https://tldr.takara.ai/p/2603.09827
 - Summary: As embodied models become powerful, humans will collaborate with multiple embodied AI agents at their workplace or home in the future. To ensure better communication between human users and the multi-agent system, it is crucial to interpret incoming information from agents in parallel and refer to...
 
+### VLM-Loc: Localization in Point Cloud Maps via Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09826
+- Summary: Text-to-point-cloud (T2P) localization aims to infer precise spatial positions within 3D point cloud maps from natural language descriptions, reflecting how humans perceive and communicate spatial layouts through language. However, existing methods largely rely on shallow text-point cloud...
+
 ### What is Missing? Explaining Neurons Activated by Absent Concepts
 - Source: HF Daily Papers
 - Category: open-source
@@ -2155,6 +2167,12 @@
 - URL: https://tldr.takara.ai/p/2603.09241
 - Summary: Visual navigation requires agents to reach goals in complex environments through perception and planning. World models address this task by simulating action-conditioned state transitions to predict future observations. Current navigation world models typically learn state evolution under actions...
 
+### Why LLMs Fail: A Failure Analysis and Partial Success Measurement for Automated Security Patch Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.10072
+- Summary: Large Language Models (LLMs) show promise for Automated Program Repair (APR), yet their effectiveness on security vulnerabilities remains poorly characterized. This study analyzes 319 LLM-generated security patchesacross 64 Java vulnerabilities from the Vul4J benchmark. Using tri-axis evaluation...
+
 ### Huawei Exceeds ITU Partner2Connect Pledge Target, Bringing Connectivity to 170 Million People Globally
 - Source: Pandaily
 - Category: chinese-ai
@@ -2472,6 +2490,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.08659
 - Summary: The emergence of large reasoning models demonstrates that scaling inference-time compute significantly enhances performance on complex tasks. However, it often falls into another trap: overthinking simple problems, where repetitive rationales yield minimal accuracy gains at a disproportionately...
+
+### Integral Formulas for Vector Spherical Tensor Products
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08630
+- Summary: We derive integral formulas that simplify the Vector Spherical Tensor Product recently introduced by Xie et al., which generalizes the Gaunt tensor product to antisymmetric couplings. In particular, we obtain explicit closed-form expressions for the antisymmetric analogues of the Gaunt...
 
 ### StreamReady: Learning What to Answer and When in Long Streaming Videos
 - Source: HF Daily Papers
@@ -2988,29 +3012,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.07868
 - Summary: Recent advances in Vision-Language Models (VLMs) have demonstrated impressive multimodal understanding in general domains. However, their applicability to decision-oriented domains such as hospitality remains largely unexplored. In this work, we investigate how well VLMs can perform visual question...
-
-### Ulysses Sequence Parallelism: Training with Million-Token Contexts
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ulysses-sp
-
-### LeRobot v0.5.0: Scaling Every Dimension
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lerobot-release-v050
-
-
-## 2026-03-08
-
-### How AI Assistants are Moving the Security Goalposts
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
-- Summary: AI-based assistants or "agents" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these...
-
-### FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.07690
-- Summary: Streaming Visual Geometry Transformers such as StreamVGGT enable strong online 3D perception but suffer from unbounded KV-cache growth, which limits deployment over long streams. We revisit bounded-memory streaming from the perspective of geometric support. In geometry-driven reasoning, memory...
 
