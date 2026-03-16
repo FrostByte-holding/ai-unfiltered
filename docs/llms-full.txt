@@ -6,6 +6,12 @@
 
 ## 2026-03-16
 
+### Cloudflare Analytics Availability Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/r245q93sbv69
+- Summary: Mar 16, 18:55 UTCInvestigating - We are currently investigating issues with Cloudflare Analytics. Customers might experience elevated rate of errors, increased latency while reading data via Cloudflare API, and/or delays in updating analytics data.
+
 ### Elevated errors on Claude Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -843,6 +849,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/42ks97f78px8
 - Summary: Mar 12, 16:46 UTCUpdate - We are continuing to investigate this issue.Mar 12, 16:45 UTCInvestigating - Users may experience increased error rates when interacting with Cloudflare services in the Seattle region.
 
+### TopoBench: Benchmarking LLMs on Hard Topological Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12133
+- Summary: Solving topological grid puzzles requires reasoning over global spatial invariants such as connectivity, loop closure, and region symmetry and remains challenging for even the most powerful large language models (LLMs). To study these abilities under controlled settings, we introduce TopoBench, a...
+
 ### Cloudchamber Service Degradation
 - Source: Cloudflare Status
 - Category: incidents
@@ -1016,6 +1028,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.11795
 - Summary: Unsupervised Concept Extraction aims to extract concepts from a single image; however, existing methods suffer from the inability to extract composable intrinsic concepts. To address this, this paper introduces a new task called Compositional and Interpretable Intrinsic Concept Extraction (CI-ICE)....
+
+### Legal-DC: Benchmarking Retrieval-Augmented Generation for Legal Documents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11772
+- Summary: Retrieval-Augmented Generation (RAG) has emerged as a promising technology for legal document consultation, yet its application in Chinese legal scenarios faces two key limitations: existing benchmarks lack specialized support for joint retriever-generator evaluation, and mainstream RAG systems...
 
 ### Cisco Patches High-Severity IOS XR Vulnerabilities
 - Source: Security Week
@@ -1438,6 +1456,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.11319
 - Summary: We consider the robustness of score-based generative modeling to errors in the estimate of the score function. In particular, we show that Langevin dynamics is not robust to the L^2 errors (more generally L^p errors) in the estimate of the score function. It is well-established that with small L^2...
+
+### Client-Conditional Federated Learning via Local Training Data Statistics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.11307
+- Summary: Federated learning (FL) under data heterogeneity remains challenging: existing methods either ignore client differences (FedAvg), require costly cluster discovery (IFCA), or maintain per-client models (Ditto). All degrade when data is sparse or heterogeneity is multi-dimensional. We propose...
 
 ### issues with Cloudflare Dashboard
 - Source: Cloudflare Status
@@ -2310,6 +2334,12 @@
 - URL: https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/
 - Summary: Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a...
 
+### VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.09673
+- Summary: Simultaneous Localization and Mapping (SLAM) with 3D Gaussian Splatting (3DGS) enables fast, differentiable rendering and high-fidelity reconstruction across diverse real-world scenes. However, existing 3DGS-SLAM approaches handle measurement reliability implicitly, making pose estimation and...
+
 ### DiffWind: Physics-Informed Differentiable Modeling of Wind-Driven Object Dynamics
 - Source: HF Daily Papers
 - Category: open-source
@@ -2899,6 +2929,12 @@
 - URL: https://tldr.takara.ai/p/2603.08999
 - Summary: Large language models (LLMs) achieve strong reasoning performance through chain-of-thought (CoT) reasoning, yet often generate unnecessarily long reasoning paths that incur high inference cost. Recent self-consistency-based approaches further improve accuracy but require sampling and aggregating...
 
+### MEGC2026: Micro-Expression Grand Challenge on Visual Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08927
+- Summary: Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion but attempts to suppress or repress the facial expression, typically found in a high-stakes environment. In recent years, substantial advancements have been made in the...
+
 ### Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge
 - Source: Hugging Face Blog
 - Category: open-source
@@ -2981,40 +3017,4 @@
 - Category: security
 - URL: https://www.securityweek.com/cybersecurity-ma-roundup-42-deals-announced-in-february-2026/
 - Summary: Significant cybersecurity M&#038;A deals announced by Check Point, Booz Allen, Proofpoint, Sophos, Palo Alto Networks, and Zscaler. The post Cybersecurity M&#038;A Roundup: 42 Deals Announced in February 2026 appeared first on SecurityWeek.
-
-### Efficient Credal Prediction through Decalibration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.08495
-- Summary: A reliable representation of uncertainty is essential for the application of modern machine learning methods in safety-critical settings. In this regard, the use of credal sets (i.e., convex sets of probability distributions) has recently been proposed as a suitable approach to representing...
-
-### How AI is turning the Iran conflict into theater
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/
-- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV?”&#160; The author of that post on X was referring to an online intelligence dashboard...
-
-### Codex CLI unresponsive
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KK9JA8JKQKDW1W24T09NHBYH
-- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components Codex (Degraded performance)
-
-### UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html
-- Summary: The North Korean threat actor known as UNC4899 is suspected to be behind a sophisticated cloud compromise campaign targeting a cryptocurrency organization in 2025 to steal millions of dollars in cryptocurrency. The activity has been attributed with moderate confidence to the state-sponsored...
-
-### A prospective clinical feasibility study of a conversational diagnostic AI in an ambulatory primary care clinic
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.08448
-- Summary: Large language model (LLM)-based AI systems have shown promise for patient-facing diagnostic and management conversations in simulated settings. Translating these systems into clinical practice requires assessment in real-world workflows with rigorous safety oversight. We report a prospective,...
-
-### The usability imperative for securing digital asset devices
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/09/1132352/the-usability-imperative-for-securing-digital-asset-devices/
-- Summary: When Tony Fadell started working on the iPod, usability often trumped security. The result was an iterative process. Every time someone would find a security weakness or a way to hack the device, the development group would iterate to add measures and fix the issues. Yet, flaws would frequently be...
 
