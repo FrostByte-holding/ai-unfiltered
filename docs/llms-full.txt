@@ -6,6 +6,12 @@
 
 ## 2026-03-15
 
+### SSL Certificate Provisioning Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xkdvq0zhntr2
+- Summary: Mar 15, 23:10 UTCResolved - This incident is now resolved.Mar 15, 22:50 UTCMonitoring - We have identified and implemented a fix for this issue. We are currently monitoring the results.Mar 15, 22:46 UTCInvestigating - Cloudflare is investigating delays in provisioning SSL certificates. New SSL...
+
 ### Loblaw Data Breach Impacts Customer Information
 - Source: Security Week
 - Category: security
@@ -504,6 +510,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance)
+
+### EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.12267
+- Summary: Autoregressive (AR) video generative models rely on video tokenizers that compress pixels into discrete token sequences. The length of these token sequences is crucial for balancing reconstruction quality against downstream generation computational cost. Traditional video tokenizers apply a uniform...
 
 ### MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning
 - Source: HF Daily Papers
@@ -2758,11 +2770,23 @@
 - URL: https://tldr.takara.ai/p/2603.08228
 - Summary: Generating high-fidelity, 3D-consistent garment textures remains a challenging problem due to the inherent complexities of garment structures and the stringent requirement for detailed, globally consistent texture synthesis. Existing approaches either rely on 2D-based diffusion models, which...
 
+### The Conundrum of Trustworthy Research on Attacking Personally Identifiable Information Removal Techniques
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08207
+- Summary: Removing personally identifiable information (PII) from texts is necessary to comply with various data protection regulations and to enable data sharing without compromising privacy. However, recent works show that documents sanitized by PII removal techniques are vulnerable to reconstruction...
+
 ### Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html
 - Summary: Two Google Chrome extensions have turned malicious after what appears to be a case of ownership transfer, offering attackers a way to push malware to downstream customers, inject arbitrary code, and harvest sensitive data. The extensions in question, both originally associated with a developer...
+
+### TildeOpen LLM: Leveraging Curriculum Learning to Achieve Equitable Language Representation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08182
+- Summary: Large language models often underperform in many European languages due to the dominance of English and a few high-resource languages in training data. This paper presents TildeOpen LLM, a 30-billion-parameter open-weight foundational model trained for 34 European languages to promote linguistic...
 
 ### Evolution Strategy-Based Calibration for Low-Bit Quantization of Speech Models
 - Source: HF Daily Papers
@@ -2782,11 +2806,23 @@
 - URL: https://tldr.takara.ai/p/2603.08124
 - Summary: We revisit Vision-Language-Action through a neuroscience-inspired triad. Biologically, the Cerebrum provides stable high-level multimodal priors and remains frozen; the Pons Adapter integrates these cortical features with real-time proprioceptive inputs and compiles intent into execution-ready...
 
+### Invisible Safety Threat: Malicious Finetuning for LLM via Steganography
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08104
+- Summary: Understanding and addressing potential safety alignment risks in large language models (LLMs) is critical for ensuring their safe and trustworthy deployment. In this paper, we highlight an insidious safety threat: a compromised LLM can maintain a facade of proper safety alignment while covertly...
+
 ### TALON: Test-time Adaptive Learning for On-the-Fly Category Discovery
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.08075
 - Summary: On-the-fly category discovery (OCD) aims to recognize known categories while simultaneously discovering novel ones from an unlabeled online stream, using a model trained only on labeled data. Existing approaches freeze the feature extractor trained offline and employ a hash-based framework that...
+
+### Enhancing Cross-View UAV Geolocalization via LVLM-Driven Relational Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.08063
+- Summary: The primary objective of cross-view UAV geolocalization is to identify the exact spatial coordinates of drone-captured imagery by aligning it with extensive, geo-referenced satellite databases. Current approaches typically extract features independently from each perspective and rely on basic...
 
 ### Speed3R: Sparse Feed-forward 3D Reconstruction Models
 - Source: HF Daily Papers
@@ -2979,40 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.05560
 - Summary: arXiv:2603.05560v1 Announce Type: new Abstract: We investigate the Continuous-Time Koopman Autoencoder (CT-KAE) as a lightweight surrogate model for long-horizon ocean state forecasting in a two-layer quasi-geostrophic (QG) system. By projecting nonlinear dynamics into a latent space governed by a...
-
-### When AI Levels the Playing Field: Skill Homogenization, Asset Concentration, and Two Regimes of Inequality
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.05565
-- Summary: arXiv:2603.05565v1 Announce Type: new Abstract: Generative AI compresses within-task skill differences while shifting economic value toward concentrated complementary assets, creating an apparent paradox: the technology that equalizes individual performance may widen aggregate inequality. We...
-
-### Aligning the True Semantics: Constrained Decoupling and Distribution Sampling for Cross-Modal Alignment
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.05566
-- Summary: arXiv:2603.05566v1 Announce Type: new Abstract: Cross-modal alignment is a crucial task in multimodal learning aimed at achieving semantic consistency between vision and language. This requires that image-text pairs exhibit similar semantics. Traditional algorithms pursue embedding consistency to...
-
-### FuseDiff: Symmetry-Preserving Joint Diffusion for Dual-Target Structure-Based Drug Design
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.05567
-- Summary: arXiv:2603.05567v1 Announce Type: new Abstract: Dual-target structure-based drug design aims to generate a single ligand together with two pocket-specific binding poses, each compatible with a corresponding target pocket, enabling polypharmacological therapies with improved efficacy and reduced...
-
-### Why Depth Matters in Parallelizable Sequence Models: A Lie Algebraic View
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.05573
-- Summary: arXiv:2603.05573v1 Announce Type: new Abstract: Scalable sequence models, such as Transformer variants and structured state-space models, often trade expressivity power for sequence-level parallelism, which enables efficient training. Here we examine the bounds on error and how error scales when...
-
-### FreeTxt-Vi: A Benchmarked Vietnamese-English Toolkit for Segmentation, Sentiment, and Summarisation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.05690
-- Summary: arXiv:2603.05690v1 Announce Type: new Abstract: FreeTxt-Vi is a free and open source web based toolkit for creating and analysing bilingual Vietnamese English text collections. Positioned at the intersection of corpus linguistics and natural language processing NLP it enables users to build explore...
-
-### Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.05698
-- Summary: arXiv:2603.05698v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) was introduced to enhance the capabilities of Large Language Models (LLMs) beyond their encoded prior knowledge. This is achieved by providing LLMs with an external source of knowledge, which helps reduce factual...
 
