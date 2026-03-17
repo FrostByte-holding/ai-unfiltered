@@ -6,6 +6,30 @@
 
 ## 2026-03-17
 
+### Elevated errors on Claude Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/mhnzmndv58bt
+- Summary: Mar 17, 20:02 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 17, 19:47 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Excel Plugin is inaccessible for some users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKYDB848BK4162KR5XFYFZCV
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Connectors/Apps (Operational)
+
+### High Error rates with ChatGPT 5.4 Pro
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KKYG7H8Y0BAN8MGWER3H17EV
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html
+- Summary: Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries. In a report published Monday, BeyondTrust revealed that Amazon Bedrock AgentCore Code Interpreter's...
+
 ### State of Open Source on Hugging Face: Spring 2026
 - Source: Hugging Face Blog
 - Category: open-source
@@ -324,6 +348,12 @@
 - URL: https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It&#8217;s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are...
 
+### Are Dilemmas and Conflicts in LLM Alignment Solvable? A View from Priority Graph
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15527
+- Summary: As Large Language Models (LLMs) become more powerful and autonomous, they increasingly face conflicts and dilemmas in many scenarios. We first summarize and taxonomize these diverse conflicts. Then, we model the LLM's preferences to make different choices as a priority graph, where instructions and...
+
 ### Elevated errors on Claude Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -383,6 +413,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.15295
 - Summary: Large language models (LLMs) have shown remarkable performance across various sentence-based linguistic phenomena, yet their ability to capture cross-sentence paradigmatic patterns, such as verb alternations, remains underexplored. In this work, we present curated paradigm-based datasets for four...
+
+### Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15280
+- Summary: Recent advances in large language models have driven the emergence of intelligent agents operating in open-world, multimodal environments. To support long-term reasoning, such agents are typically equipped with external memory systems. However, most existing multimodal agent memories rely primarily...
+
+### HalDec-Bench: Benchmarking Hallucination Detector in Image Captioning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15253
+- Summary: Hallucination detection in captions (HalDec) assesses a vision-language model's ability to correctly align image content with text by identifying errors in captions that misrepresent the image. Beyond evaluation, effective hallucination detection is also essential for curating high-quality...
 
 ### The next phase of open models
 - Source: Interconnects
@@ -479,6 +521,12 @@
 - URL: https://pandaily.com/noetix-robotics-delivers-spring-festival-gala-robot-bumi-deepens-partnership-with-jd
 - Summary: Noetix Robotics delivered its Spring Festival Gala humanoid robot Bumi to users at AWE 2026 and announced deeper cooperation with JD.com to expand consumer adoption.
 
+### Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14992
+- Summary: Short-form video platforms are major channels for news but also fertile ground for multimodal misinformation where each modality appears plausible alone yet cross-modal relationships are subtly inconsistent, like mismatched visuals and captions. On two benchmark datasets, FakeSV (Chinese) and...
+
 ### Hacking Attempt Reported at Poland’s Nuclear Research Center
 - Source: Security Week
 - Category: security
@@ -514,6 +562,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/nubia-z80-ultra-becomes-world-s-first-ai-phone-with-native-open-claw-integration
 - Summary: Nubia has launched internal testing for OpenClaw on the Z80 Ultra, making it the world’s first smartphone to natively integrate the AI agent framework at the system level.
+
+### Photonic Quantum-Enhanced Knowledge Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14898
+- Summary: Photonic quantum processors naturally produce intrinsically stochastic measurement outcomes, offering a hardware-native source of structured randomness that can be exploited during machine-learning training. Here we introduce Photonic Quantum-Enhanced Knowledge Distillation (PQKD), a hybrid quantum...
 
 ### Personalized Federated Learning with Residual Fisher Information for Medical Image Segmentation
 - Source: HF Daily Papers
@@ -2963,58 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.10083
 - Summary: Quantum machine learning models based on parameterized circuits can be viewed as Fourier series approximators. However, they often struggle to learn functions with multiple frequency components, particularly high-frequency or non-dominant ones; a phenomenon we term the quantum Fourier...
-
-### Probing the Reliability of Driving VLMs: From Inconsistent Responses to Grounded Temporal Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09512
-- Summary: A reliable driving assistant should provide consistent responses based on temporally grounded reasoning derived from observed information. In this work, we investigate whether Vision-Language Models (VLMs), when applied as driving assistants, can response consistantly and understand how present...
-
-### TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09511
-- Summary: On-device tuning of deep neural networks enables long-term adaptation at the edge while preserving data privacy. However, the high computational and memory demands of backpropagation pose significant challenges for ultra-low-power, memory-constrained extreme-edge devices. These challenges are...
-
-### The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html
-- Summary: You can't control when the next critical vulnerability drops. You can control how much of your environment is exposed when it does. The problem is that most teams have more internet-facing exposure than they realise. Intruder's Head of Security digs into why this happens and how teams can manage it...
-
-### SIM Swaps Expose a Critical Flaw in Identity Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sim-swaps-expose-a-critical-flaw-in-identity-security/
-- Summary: SIM swap attacks exploit misplaced trust in phone numbers and human processes to bypass authentication controls and seize high-value accounts. The post SIM Swaps Expose a Critical Flaw in Identity Security appeared first on SecurityWeek.
-
-### APT28 Uses BEARDSHELL and COVENANT Malware to Spy on Ukrainian Military
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html
-- Summary: The Russian state-sponsored hacking group tracked as APT28 has been observed using a pair of implants dubbed BEARDSHELL and COVENANT to facilitate long‑term surveillance of Ukrainian military personnel. The two malware families have been put to use since April 2024, ESET said in a new report shared...
-
-### OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09471
-- Summary: Vision-Language Models (VLMs) have demonstrated effective perception and reasoning capabilities on general-domain tasks, leading to growing interest in their application to Earth observation. However, a systematic benchmark for comprehensively evaluating remote sensing vision-language models...
-
-### CyberThreat-Eval: Can Large Language Models Automate Real-World Threat Research?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09452
-- Summary: Analyzing Open Source Intelligence (OSINT) from large volumes of data is critical for drafting and publishing comprehensive CTI reports. This process usually follows a three-stage workflow -- triage, deep search and TI drafting. While Large Language Models (LLMs) offer a promising route toward...
-
-### Common Sense vs. Morality: The Curious Case of Narrative Focus Bias in LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09434
-- Summary: Large Language Models (LLMs) are increasingly deployed across diverse real-world applications and user communities. As such, it is crucial that these models remain both morally grounded and knowledge-aware. In this work, we uncover a critical limitation of current LLMs -- their tendency to...
-
-### PromptDLA: A Domain-aware Prompt Document Layout Analysis Framework with Descriptive Knowledge as a Cue
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.09414
-- Summary: Document Layout Analysis (DLA) is crucial for document artificial intelligence and has recently received increasing attention, resulting in an influx of large-scale public DLA datasets. Existing work often combines data from various domains in recent public DLA datasets to improve the...
 
