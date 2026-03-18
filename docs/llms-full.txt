@@ -6,6 +6,30 @@
 
 ## 2026-03-18
 
+### Dashboard Login Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/wfhk060gdd3s
+- Summary: Mar 18, 20:30 UTCInvestigating - Investigating issues with logging into the Dashboard silently failing, especially via SSO
+
+### Cloudflare Dashboard and Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/q8nwrk4g476h
+- Summary: Mar 18, 20:16 UTCResolved - This incident has been resolved.Mar 18, 20:00 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 18, 19:50 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the...
+
+### Webhook delivery is delayed
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/x1g78jx4sgfk
+- Summary: Mar 18, 19:46 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 18, 19:25 UTCUpdate - We are seeing recovery and are continuing to monitor the latency...
+
+### Some R2 assets incomplete on 206 responses
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2c0xskfq9gpq
+- Summary: Mar 18, 19:31 UTCUpdate - A fix is being rolled out.Mar 18, 19:30 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 18, 17:11 UTCInvestigating - Some R2 customers may experience incomplete assets and broken connections during 206 responses
+
 ### User Requests Timing Out / Content Not Loading
 - Source: OpenAI Status
 - Category: incidents
@@ -361,6 +385,12 @@
 - URL: https://status.claude.com/incidents/t252hkdgt81f
 - Summary: Mar 17, 15:45 UTCResolved - This incident has been resolved.Mar 17, 15:28 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 17, 15:21 UTCUpdate - We are continuing to work on a fix for this issue.Mar 17, 14:07 UTCIdentified - The issue has been identified and a fix is...
 
+### HMAR: Hierarchical Modality-Aware Expert and Dynamic Routing Medical Image Retrieval Architecture
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16679
+- Summary: Medical image retrieval (MIR) is a critical component of computer-aided diagnosis, yet existing systems suffer from three persistent limitations: uniform feature encoding that fails to account for the varying clinical importance of anatomical structures, ambiguous similarity metrics based on coarse...
+
 ### UK Companies House Exposed Details of Millions of Firms
 - Source: Security Week
 - Category: security
@@ -385,11 +415,23 @@
 - URL: https://tldr.takara.ai/p/2603.16568
 - Summary: We study a simple unsupervised regularization scheme for autoencoders called Manifold-Matching (MMAE): we align the pairwise distances in the latent space to those of the input data space by minimizing mean squared error. Because alignment occurs on pairwise distances rather than coordinates, it...
 
+### Deep Learning-Driven Black-Box Doherty Power Amplifier with Pixelated Output Combiner and Extended Efficiency Range
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16565
+- Summary: This article presents a deep learning-driven inverse design methodology for Doherty power amplifiers (PA) with multi-port pixelated output combiner networks. A deep convolutional neural network (CNN) is developed and trained as an electromagnetic (EM) surrogate model to accurately and rapidly...
+
 ### Surf AI Raises $57 Million for Agentic Security Operations Platform
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/surf-ai-raises-57-million-for-agentic-security-operations-platform/
 - Summary: The company has announced its launch, backed by funding from Accel, Cyberstarts, and Boldstart Ventures. The post Surf AI Raises $57 Million for Agentic Security Operations Platform appeared first on SecurityWeek.
+
+### BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16557
+- Summary: Large language models (LLMs) increasingly store user preferences in persistent memory to support personalization across interactions. However, in third-party communication settings governed by social and institutional norms, some user preferences may be inappropriate to apply. We introduce...
 
 ### Robotic Surgery Giant Intuitive Discloses Cyberattack
 - Source: Security Week
@@ -546,11 +588,23 @@
 - URL: https://tldr.takara.ai/p/2603.16141
 - Summary: Autonomous Unmanned Aerial Vehicle (UAV) swarms are increasingly used as rapidly deployable aerial relays and sensing platforms, yet practical deployments must operate under partial observability and intermittent peer-to-peer links. We present a graph-based multi-agent reinforcement learning...
 
+### DualPrim: Compact 3D Reconstruction with Positive and Negative Primitives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16133
+- Summary: Neural reconstructions often trade structure for fidelity, yielding dense and unstructured meshes with irregular topology and weak part boundaries that hinder editing, animation, and downstream asset reuse. We present DualPrim, a compact and structured 3D reconstruction framework. Unlike...
+
 ### CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a medium-severity security flaw impacting Wing FTP to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, CVE-2025-47813 (CVSS score: 4.3), is an information...
+
+### Functorial Neural Architectures from Higher Inductive Types
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16123
+- Summary: Neural networks systematically fail at compositional generalization -- producing correct outputs for novel combinations of known parts. We show that this failure is architectural: compositional generalization is equivalent to functoriality of the decoder, and this perspective yields both guarantees...
 
 ### Elevated errors for sign-in and account creation
 - Source: OpenAI Status
@@ -2963,58 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.10473
 - Summary: The paradigm shift from item-centric ranking to answer-centric synthesis is redefining the role of search engines. While recent industrial progress has applied generative techniques to closed-set item ranking in e-commerce, research and deployment of open-ended generative search on large content...
-
-### Honor Considers Sub-Brand Launch in China; Humanoid Robots Target Consumer Market
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honor-considers-sub-brand-launch-in-china-humanoid-robots-target-consumer-market
-- Summary: Honor plans a sub-brand in China and targets consumer markets with humanoid robots, highlighting its AI-driven Alpha strategy and the new Magic V6 foldable flagship.
-
-### G-STAR: End-to-End Global Speaker-Tracking Attributed Recognition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10468
-- Summary: We study timestamped speaker-attributed ASR for long-form, multi-party speech with overlap, where chunk-wise inference must preserve meeting-level speaker identity consistency while producing time-stamped, speaker-labeled transcripts. Previous Speech-LLM systems tend to prioritize either local...
-
-### Tencent Secretly Developing AI Agent for WeChat to Handle Everyday Tasks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-secretly-developing-ai-agent-for-we-chat-to-handle-everyday-tasks
-- Summary: Tencent is secretly embedding an AI agent in WeChat to handle everyday tasks, aiming to rival Alibaba and ByteDance in the AI agent race.
-
-### Interventional Time Series Priors for Causal Foundation Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.11090
-- Summary: Prior-data fitted networks (PFNs) have emerged as powerful foundation models for tabular causal inference, yet their extension to time series remains limited by the absence of synthetic data generators that provide interventional targets. Existing time series benchmarks generate observational data...
-
-### GGMPs: Generalized Gaussian Mixture Processes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10442
-- Summary: Conditional density estimation is complicated by multimodality, heteroscedasticity, and strong non-Gaussianity. Gaussian processes (GPs) provide a principled nonparametric framework with calibrated uncertainty, but standard GP regression is limited by its unimodal Gaussian predictive form. We...
-
-### Domain-Adaptive Health Indicator Learning with Degradation-Stage Synchronized Sampling and Cross-Domain Autoencoder
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10430
-- Summary: The construction of high quality health indicators (HIs) is crucial for effective prognostics and health management. Although deep learning has significantly advanced HI modeling, existing approaches often struggle with distribution mismatches resulting from varying operating conditions. Although...
-
-### Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html
-- Summary: Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors. The Rust packages, published to crates.io, are listed below - chrono_anchor dnp3times time_calibrator time_calibrators time-sync The...
-
-### Frames2Residual: Spatiotemporal Decoupling for Self-Supervised Video Denoising
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10417
-- Summary: Self-supervised video denoising methods typically extend image-based frameworks into the temporal dimension, yet they often struggle to integrate inter-frame temporal consistency with intra-frame spatial specificity. Existing Video Blind-Spot Networks (BSNs) require noise independence by masking...
-
-### Enhancing Network Intrusion Detection Systems: A Multi-Layer Ensemble Approach to Mitigate Adversarial Attacks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10413
-- Summary: Adversarial examples can represent a serious threat to machine learning (ML) algorithms. If used to manipulate the behaviour of ML-based Network Intrusion Detection Systems (NIDS), they can jeopardize network security. In this work, we aim to mitigate such risks by increasing the robustness of NIDS...
 
