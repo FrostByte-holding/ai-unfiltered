@@ -6,6 +6,36 @@
 
 ## 2026-03-18
 
+### User Requests Timing Out / Content Not Loading
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KM0T1EX1951XDWA8CN82PEHA
+- Summary: Status: InvestigatingWe are continuing to investigate the cause of the issue.Affected components Video generation (Partial outage)
+
+### Cloudflare Analytics degraded in US region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/7f5nbvjfc59p
+- Summary: Mar 18, 16:22 UTCInvestigating - Users of GraphQL API may experience issues reaching certain datasets in US region. The team is investigating the issue with the underlying platform. Data might be delayed.
+
+### Elevated errors on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/p88wl8gmb05c
+- Summary: Mar 18, 16:05 UTCResolved - This incident has been resolved.Mar 18, 15:27 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 18, 15:19 UTCUpdate - Claude Code login/logout actions are also affected by this outage.Mar 18, 15:16 UTCInvestigating - We are currently...
+
+### Cloud Security Startup Native Exits Stealth With $42 Million in Funding
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cloud-security-startup-native-exits-stealth-with-42-million-in-funding/
+- Summary: Phil Venables, former CISO of Google Cloud and now a venture partner at Ballistic Ventures, has joined Native’s board of directors. The post Cloud Security Startup Native Exits Stealth With $42 Million in Funding appeared first on SecurityWeek.
+
+### ‘DarkSword’ iOS Exploit Kit Used by State-Sponsored Hackers, Spyware Vendors
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/darksword-ios-exploit-kit-used-by-state-sponsored-hackers-spyware-vendors/
+- Summary: Targeting six iOS vulnerabilities and leading to full device compromise, the exploit chain is meant for surveillance. The post &#8216;DarkSword&#8217; iOS Exploit Kit Used by State-Sponsored Hackers, Spyware Vendors appeared first on SecurityWeek.
+
 ### GPT 5.4 is a big step for Codex
 - Source: Interconnects
 - Category: open-source
@@ -296,6 +326,12 @@
 - URL: https://status.openai.com//incidents/01KKYG7H8Y0BAN8MGWER3H17EV
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
 
+### M^3: Dense Matching Meets Multi-View Foundation Models for Monocular Gaussian Splatting SLAM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16844
+- Summary: Streaming reconstruction from uncalibrated monocular video remains challenging, as it requires both high-precision pose estimation and computationally efficient online refinement in dynamic environments. While coupling 3D foundation models with SLAM frameworks is a promising paradigm, a critical...
+
 ### AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE
 - Source: The Hacker News
 - Category: security
@@ -331,11 +367,23 @@
 - URL: https://www.securityweek.com/uk-companies-house-exposed-details-of-millions-of-firms/
 - Summary: The government agency confirmed the vulnerability could have been exploited to obtain company details and alter records. The post UK Companies House Exposed Details of Millions of Firms appeared first on SecurityWeek.
 
+### Simplex-to-Euclidean Bijection for Conjugate and Calibrated Multiclass Gaussian Process
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16621
+- Summary: We propose a conjugate and calibrated Gaussian process (GP) model for multi-class classification by exploiting the geometry of the probability simplex. Our approach uses Aitchison geometry to map simplex-valued class probabilities to an unconstrained Euclidean representation, turning classification...
+
 ### LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html
 - Summary: The ransomware operation known as LeakNet has adopted the ClickFix social engineering tactic delivered through compromised websites as an initial access method. The use of ClickFix, where users are tricked into manually running malicious commands to address non-existent errors, is a departure from...
+
+### Manifold-Matching Autoencoders
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16568
+- Summary: We study a simple unsupervised regularization scheme for autoencoders called Manifold-Matching (MMAE): we align the pairwise distances in the latent space to those of the input data space by minimizing mean squared error. Because alignment occurs on pairwise distances rather than coordinates, it...
 
 ### Surf AI Raises $57 Million for Agentic Security Operations Platform
 - Source: Security Week
@@ -450,11 +498,23 @@
 - URL: https://tldr.takara.ai/p/2603.16281
 - Summary: Electroencephalography (EEG) is a widely used tool for studying brain function, with applications in clinical neuroscience, diagnosis, and brain-computer interfaces (BCIs). Recent EEG foundation models trained on large unlabeled corpora aim to learn transferable representations, but their...
 
+### VIGOR: VIdeo Geometry-Oriented Reward for Temporal Generative Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16271
+- Summary: Video diffusion models lack explicit geometric supervision during training, leading to inconsistency artifacts such as object deformation, spatial drift, and depth violations in generated videos. To address this limitation, we propose a geometry-based reward model that leverages pretrained...
+
 ### Elevated errors on Claude Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/66wxjy8wc8fx
 - Summary: Mar 17, 08:23 UTCIdentified - The issue has been identified and a fix is being implemented. At this stage, only free Claude.ai users are being impacted.Mar 17, 08:04 UTCInvestigating - We are currently investigating this issue.
+
+### Proactive Rejection and Grounded Execution: A Dual-Stage Intent Analysis Paradigm for Safe and Efficient AIoT Smart Homes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16207
+- Summary: As Large Language Models (LLMs) transition from information providers to embodied agents in the Internet of Things (IoT), they face significant challenges regarding reliability and interaction efficiency. Direct execution of LLM-generated commands often leads to entity hallucinations (e.g., trying...
 
 ### ECHO: Edge-Cloud Humanoid Orchestration for Language-to-Motion Control
 - Source: HF Daily Papers
@@ -2957,64 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.10413
 - Summary: Adversarial examples can represent a serious threat to machine learning (ML) algorithms. If used to manipulate the behaviour of ML-based Network Intrusion Detection Systems (NIDS), they can jeopardize network security. In this work, we aim to mitigate such risks by increasing the robustness of NIDS...
-
-### Graph-GRPO: Training Graph Flow Models with Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10395
-- Summary: Graph generation is a fundamental task with broad applications, such as drug discovery. Recently, discrete flow matching-based graph generation, \aka, graph flow model (GFM), has emerged due to its superior performance and flexible sampling. However, effectively aligning GFMs with complex human...
-
-### Variance-Aware Adaptive Weighting for Diffusion Model Training
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.10391
-- Summary: Diffusion models have recently achieved remarkable success in generative modeling, yet their training dynamics across different noise levels remain highly imbalanced, which can lead to inefficient optimization and unstable learning behavior. In this work, we investigate this imbalance from the...
-
-### MASEval: Extending Multi-Agent Evaluation from Models to Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.08835
-- Summary: arXiv:2603.08835v1 Announce Type: new Abstract: The rapid adoption of LLM-based agentic systems has produced a rich ecosystem of frameworks (smolagents, LangGraph, AutoGen, CAMEL, LlamaIndex, i.a.). Yet existing benchmarks are model-centric: they fix the agentic setup and do not compare other...
-
-### LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.08852
-- Summary: arXiv:2603.08852v1 Announce Type: new Abstract: As multi-agent AI systems grow in complexity, the protocols connecting them constrain their capabilities. Current protocols such as A2A and MCP do not expose model-level properties as first-class primitives, ignoring properties fundamental to...
-
-### Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.08877
-- Summary: arXiv:2603.08877v1 Announce Type: new Abstract: Agentic Retrieval-Augmented Generation (RAG) systems combine iterative search, planning prompts, and retrieval backends, but deployed settings impose explicit budgets on tool calls and completion tokens. We present a controlled measurement study of...
-
-### Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.08933
-- Summary: arXiv:2603.08933v1 Announce Type: new Abstract: The first 72 hours of a missing-child investigation are critical for successful recovery. However, law enforcement agencies often face fragmented, unstructured data and a lack of dynamic, geospatial predictive tools. Our system, Guardian, provides an...
-
-### AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.08938
-- Summary: arXiv:2603.08938v1 Announce Type: new Abstract: The rapid emergence of open-source, locally hosted intelligent agents marks a critical inflection point in human-computer interaction. Systems such as OpenClaw demonstrate that Large Language Model (LLM)-based agents can autonomously operate local...
-
-### Equitable Multi-Task Learning for AI-RANs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.08717
-- Summary: arXiv:2603.08717v1 Announce Type: new Abstract: AI-enabled Radio Access Networks (AI-RANs) are expected to serve heterogeneous users with time-varying learning tasks over shared edge resources. Ensuring equitable inference performance across these users requires adaptive and fair learning...
-
-### Hindsight Credit Assignment for Long-Horizon LLM Agents
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.08754
-- Summary: arXiv:2603.08754v1 Announce Type: new Abstract: Large Language Model (LLM) agents often face significant credit assignment challenges in long-horizon, multi-step tasks due to sparse rewards. Existing value-free methods, such as Group Relative Policy Optimization (GRPO), encounter two fundamental...
-
-### Generalized Reduction to the Isotropy for Flexible Equivariant Neural Fields
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.08758
-- Summary: arXiv:2603.08758v1 Announce Type: new Abstract: Many geometric learning problems require invariants on heterogeneous product spaces, i.e., products of distinct spaces carrying different group actions, where standard techniques do not directly apply. We show that, when a group $G$ acts transitively...
 
