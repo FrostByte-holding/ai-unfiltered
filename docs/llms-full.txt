@@ -398,6 +398,12 @@
 - URL: https://www.securityweek.com/cloud-security-startup-native-exits-stealth-with-42-million-in-funding/
 - Summary: Phil Venables, former CISO of Google Cloud and now a venture partner at Ballistic Ventures, has joined Native’s board of directors. The post Cloud Security Startup Native Exits Stealth With $42 Million in Funding appeared first on SecurityWeek.
 
+### Omni-3DEdit: Generalized Versatile 3D Editing in One-Pass
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17841
+- Summary: Most instruction-driven 3D editing methods rely on 2D models to guide the explicit and iterative optimization of 3D representations. This paradigm, however, suffers from two primary drawbacks. First, it lacks a universal design of different 3D editing tasks because the explicit manipulation of 3D...
+
 ### ‘DarkSword’ iOS Exploit Kit Used by State-Sponsored Hackers, Spyware Vendors
 - Source: Security Week
 - Category: security
@@ -439,6 +445,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.17787
 - Summary: Enterprise AI deploys dozens of autonomous agent nodes across workflows, each acting on the same entities with no shared memory and no common governance. We identify five structural challenges arising from this memory governance gap: memory silos across agent workflows; governance fragmentation...
+
+### Modeling Overlapped Speech with Shuffles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17769
+- Summary: We propose to model parallel streams of data, such as overlapped speech, using shuffles. Specifically, this paper shows how the shuffle product and partial order finite-state automata (FSAs) can be used for alignment and speaker-attributed transcription of overlapped speech. We train using the...
 
 ### Shadow AI Risk: How SaaS Apps Are Quietly Enabling Massive Breaches
 - Source: Security Week
@@ -493,6 +505,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.17651
 - Summary: Generative inbetweening (GI) seeks to synthesize realistic intermediate frames between the first and last keyframes beyond mere interpolation. As sequences become sparser and motions larger, previous GI models struggle with inconsistent frames with unstable pacing and semantic misalignment. Since...
+
+### DSS-GAN: Directional State Space GAN with Mamba backbone for Class-Conditional Image Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17637
+- Summary: We present DSS-GAN, the first generative adversarial network to employ Mamba as a hierarchical generator backbone for noise-to-image synthesis. The central contribution is Directional Latent Routing (DLR), a novel conditioning mechanism that decomposes the latent vector into direction-specific...
 
 ### Claude Code Security and Magecart: Getting the Threat Model Right
 - Source: The Hacker News
@@ -553,6 +571,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.17484
 - Summary: Language models struggle to generalize beyond pretraining context lengths, limiting long-horizon reasoning and retrieval. Continued pretraining on long-context data can help but is expensive due to the quadratic scaling of Attention. We observe that most tokens do not require (Global) Attention...
+
+### Efficient Soft Actor-Critic with LLM-Based Action-Level Guidance for Continuous Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17468
+- Summary: We present GuidedSAC, a novel reinforcement learning (RL) algorithm that facilitates efficient exploration in vast state-action spaces. GuidedSAC leverages large language models (LLMs) as intelligent supervisors that provide action-level guidance for the Soft Actor-Critic (SAC) algorithm. The...
 
 ### Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit
 - Source: The Hacker News
@@ -853,6 +877,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/honda-s-reverse-export-to-japan-a-struggling-ev-and-china-s-changing-role
 - Summary: Honda is exporting its underperforming China-built EV back to Japan, highlighting both its struggles in China’s EV market and a broader strategic reset.
+
+### Adaptive Anchor Policies for Efficient 4D Gaussian Streaming
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17227
+- Summary: Dynamic scene reconstruction with Gaussian Splatting has enabled efficient streaming for real-time rendering and free-viewpoint video. However, most pipelines rely on fixed anchor selection such as Farthest Point Sampling (FPS), typically using 8,192 anchors regardless of scene complexity, which...
 
 
 ## 2026-03-17
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.10359
 - Summary: arXiv:2603.10359v1 Announce Type: new Abstract: Distilling reasoning capabilities from Large Reasoning Models (LRMs) into smaller models is typically constrained by the limitation of rejection sampling. Standard methods treat the teacher as a static filter, discarding complex "corner-case" problems...
-
-### Beyond Scalars: Evaluating and Understanding LLM Reasoning via Geometric Progress and Stability
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.10384
-- Summary: arXiv:2603.10384v1 Announce Type: new Abstract: Evaluating LLM reliability via scalar probabilities often fails to capture the structural dynamics of reasoning. We introduce TRACED, a framework that assesses reasoning quality through theoretically grounded geometric kinematics. By decomposing...
-
-### Verbalizing LLM's Higher-order Uncertainty via Imprecise Probabilities
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.10396
-- Summary: arXiv:2603.10396v1 Announce Type: new Abstract: Despite the growing demand for eliciting uncertainty from large language models (LLMs), empirical evidence suggests that LLM behavior is not always adequately captured by the elicitation techniques developed under the classical probabilistic...
-
-### Explainable LLM Unlearning Through Reasoning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.09980
-- Summary: arXiv:2603.09980v1 Announce Type: new Abstract: LLM unlearning is essential for mitigating safety, copyright, and privacy concerns in pre-trained large language models (LLMs). Compared to preference alignment, it offers a more explicit way by removing undesirable knowledge characterized by specific...
-
-### MoE-SpAc: Efficient MoE Inference Based on Speculative Activation Utility in Heterogeneous Edge Scenarios
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.09983
-- Summary: arXiv:2603.09983v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models enable scalable performance but face severe memory constraints on edge devices. Existing offloading strategies struggle with I/O bottlenecks due to the dynamic, low-information nature of autoregressive expert...
-
-### Personalized Group Relative Policy Optimization for Heterogenous Preference Alignment
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.10009
-- Summary: arXiv:2603.10009v1 Announce Type: new Abstract: Despite their sophisticated general-purpose capabilities, Large Language Models (LLMs) often fail to align with diverse individual preferences because standard post-training methods, like Reinforcement Learning with Human Feedback (RLHF), optimize for...
 
