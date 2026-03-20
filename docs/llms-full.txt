@@ -6,6 +6,23 @@
 
 ## 2026-03-20
 
+### Pinned chats are not loading on web browsers for ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ
+- Summary: Status: IdentifiedWe are still implementing the mitigation.Affected components Conversations (Degraded performance)
+
+### What's New in Mellea 0.4.0 + Granite Libraries Release
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-libraries
+
+### The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI is throwing everything into building a fully automated researcher&#160; OpenAI has a new grand challenge: building an AI researcher—a fully...
+
 ### US Confirms Handala Link to Iran Government Amid Takedown of Hackers’ Sites
 - Source: Security Week
 - Category: security
@@ -273,11 +290,23 @@
 - URL: https://www.securityweek.com/oasis-security-raises-120-million-for-agentic-access-management/
 - Summary: The company will invest in R&#038;D, product expansion across AI frameworks, and in scaling go-to-market and sales efforts. The post Oasis Security Raises $120 Million for Agentic Access Management appeared first on SecurityWeek.
 
+### Spectrally-Guided Diffusion Noise Schedules
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19222
+- Summary: Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically...
+
 ### 1stProtect Emerges From Stealth With $20 Million in Funding
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/1stprotect-emerges-from-stealth-with-20-million-in-funding/
 - Summary: The company’s endpoint security platform monitors behavior and verifies user intent to stop cyberattacks in real time. The post 1stProtect Emerges From Stealth With $20 Million in Funding appeared first on SecurityWeek.
+
+### Robustness, Cost, and Attack-Surface Concentration in Phishing Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19204
+- Summary: Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d.\ evaluation, yet deployment security depends on robustness to post-deployment feature manipulation. We study this gap through a cost-aware evasion framework that models discrete, monotone feature edits...
 
 ### Critical ScreenConnect Vulnerability Exposes Machine Keys
 - Source: Security Week
@@ -362,6 +391,12 @@
 - URL: https://www.securityweek.com/russian-apt-exploits-zimbra-vulnerability-against-ukraine/
 - Summary: Insufficient sanitization of CSS content within HTML emails leads to inline script execution when the message is opened in a browser. The post Russian APT Exploits Zimbra Vulnerability Against Ukraine appeared first on SecurityWeek.
 
+### Evaluating LLM-Generated Lessons from the Language Learning Students' Perspective: A Short Case Study on Duolingo
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18873
+- Summary: Popular language learning applications such as Duolingo use large language models (LLMs) to generate lessons for its users. Most lessons focus on general real-world scenarios such as greetings, ordering food, or asking directions, with limited support for profession-specific contexts. This gap can...
+
 ### New Perseus Android Banking Malware Monitors Notes Apps to Extract Sensitive Data
 - Source: The Hacker News
 - Category: security
@@ -404,6 +439,12 @@
 - URL: https://www.securityweek.com/raven-emerges-from-stealth-with-20-million-in-funding/
 - Summary: Raven’s platform observes applications at runtime to detect anomalous behavior and prevent cyberattacks. The post Raven Emerges From Stealth With $20 Million in Funding appeared first on SecurityWeek.
 
+### Ontology-Guided Diffusion for Zero-Shot Visual Sim2Real Transfer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18719
+- Summary: Bridging the simulation-to-reality (sim2real) gap remains challenging as labelled real-world data is scarce. Existing diffusion-based approaches rely on unstructured prompts or statistical alignment, which do not capture the structured factors that make images look real. We introduce Ontology-...
+
 ### Why the world doesn’t recycle more nuclear waste
 - Source: MIT Tech Review AI
 - Category: research
@@ -433,6 +474,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/3gp4vwptgdr8
 - Summary: Mar 19, 08:43 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 19, 08:37 UTCInvestigating - Cloudflare is investigating network performance issues that may impact a subset of users in Mumbai, India. Some users may experience increased latency or intermittent errors....
+
+### myMNIST: Benchmark of PETNN, KAN, and Classical Deep Learning Models for Burmese Handwritten Digit Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18597
+- Summary: We present the first systematic benchmark on myMNIST (formerly BHDD), a publicly available Burmese handwritten digit dataset important for Myanmar NLP/AI research. We evaluate eleven architectures spanning classical deep learning models (Multi-Layer Perceptron, Convolutional Neural Network, Long...
 
 ### Xiaomi Unveils Three In-House Foundation Models, Confirms MiMo-V2-Pro Identity
 - Source: Pandaily
@@ -2971,54 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.11394
 - Summary: arXiv:2603.11394v1 Announce Type: new Abstract: Patients and clinicians are increasingly using chatbots powered by large language models (LLMs) for healthcare inquiries. While state-of-the-art LLMs exhibit high performance on static diagnostic reasoning benchmarks, their efficacy across multi-turn...
-
-### TARS’s A1 Robot Earns a Guinness World Records Title Through Real Industrial Work
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tars-s-a1-robot-earns-a-guinness-world-records-title-through-real-industrial-work
-- Summary: A robot developed by TARS has set a Guinness World Record by completing 105 sub-millimeter wire-harness assemblies in one hour, showcasing how embodied AI is moving from experimental demonstrations to real industrial productivity.
-
-### Baidu Launches the World’s First Mobile “Lobster” Application
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/baidu-launches-the-world-s-first-mobile-lobster-application
-- Summary: Baidu is accelerating the mobile AI agent ecosystem with the launch of Operator, the world’s first “mobile lobster” application designed to control multiple apps through simple chat commands.
-
-### WeChat’s In-House AI Model Reportedly in Development, Launch Planned Within the Year
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/we-chat-s-in-house-ai-model-reportedly-in-development-launch-planned-within-the-year
-- Summary: WeChat is reportedly building its own AI model and intelligent assistant, aiming to integrate deeply with Mini Programs and transform the platform into a universal interface for digital life.
-
-### Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place
-
-
-## 2026-03-12
-
-### Network Performance Issues in Russia
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/g3xt150pkk9h
-- Summary: Mar 12, 23:56 UTCResolved - This incident has been resolved.Mar 12, 23:56 UTCUpdate - We are continuing to investigate this issue.Mar 12, 23:31 UTCUpdate - We are continuing to investigate this issue.Mar 12, 20:08 UTCInvestigating - Cloudflare is investigating issues with network performance in...
-
-### AI Gateway
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9lhzy23km7fv
-- Summary: Mar 12, 23:15 UTCResolved - This incident has been resolved.Mar 12, 23:07 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 12, 22:09 UTCInvestigating - Prepaid billing unable to purchase credits.
-
-### Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/turbopuffer
-- Summary: Turbopuffer came out of a reading app.
-
-### A defense official reveals how AI chatbots could be used for targeting decisions
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/
-- Summary: The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as...
 
