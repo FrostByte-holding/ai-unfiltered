@@ -6,6 +6,11 @@
 
 ## 2026-03-20
 
+### Build a Domain-Specific Embedding Model in Under a Day
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune
+
 ### Pinned chats are not loading on web browsers for ChatGPT
 - Source: OpenAI Status
 - Category: incidents
@@ -391,6 +396,12 @@
 - URL: https://www.securityweek.com/russian-apt-exploits-zimbra-vulnerability-against-ukraine/
 - Summary: Insufficient sanitization of CSS content within HTML emails leads to inline script execution when the message is opened in a browser. The post Russian APT Exploits Zimbra Vulnerability Against Ukraine appeared first on SecurityWeek.
 
+### A Human-in/on-the-Loop Framework for Accessible Text Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18879
+- Summary: Plain Language and Easy-to-Read formats in text simplification are essential for cognitive accessibility. Yet current automatic simplification and evaluation pipelines remain largely automated, metric-driven, and fail to reflect user comprehension or normative standards. This paper introduces a...
+
 ### Evaluating LLM-Generated Lessons from the Language Learning Students' Perspective: A Short Case Study on Duolingo
 - Source: HF Daily Papers
 - Category: open-source
@@ -456,6 +467,18 @@
 - Category: security
 - URL: https://www.securityweek.com/cisa-warns-of-attacks-exploiting-recent-sharepoint-vulnerability/
 - Summary: The SharePoint remote code execution vulnerability CVE-2026-20963, which Microsoft patched in January, has been exploited in the wild. The post CISA Warns of Attacks Exploiting Recent SharePoint Vulnerability appeared first on SecurityWeek.
+
+### Revisiting Label Inference Attacks in Vertical Federated Learning: Why They Are Vulnerable and How to Defend
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18680
+- Summary: Vertical federated learning (VFL) allows an active party with a top model, and multiple passive parties with bottom models to collaborate. In this scenario, passive parties possessing only features may attempt to infer active party's private labels, making label inference attacks (LIAs) a...
+
+### Words at Play: Benchmarking Audio Pun Understanding in Large Audio-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18678
+- Summary: Puns represent a typical linguistic phenomenon that exploits polysemy and phonetic ambiguity to generate humour, posing unique challenges for natural language understanding. Within pun research, audio plays a central role in human communication except text and images, while datasets and systematic...
 
 ### DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover
 - Source: The Hacker News
@@ -703,6 +726,12 @@
 - URL: https://arxiv.org/abs/2603.17067
 - Summary: arXiv:2603.17067v1 Announce Type: new Abstract: Many evaluations of Large Language Models (LLMs) target tasks that are inherently ill-defined, with unclear input and output spaces and ambiguous success criteria. We analyze why existing evaluation benchmarks and metrics fail to provide reliable or...
 
+### Discounted Beta--Bernoulli Reward Estimation for Sample-Efficient Reinforcement Learning with Verifiable Rewards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18444
+- Summary: Reinforcement learning with verifiable rewards (RLVR) has emerged as an effective post-training paradigm for improving the reasoning capabilities of large language models. However, existing group-based RLVR methods often suffer from severe sample inefficiency. This inefficiency stems from reliance...
+
 ### Disruption with Copilot Coding Agent sessions
 - Source: GitHub Status
 - Category: incidents
@@ -726,6 +755,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/oppo-launches-find-n6-foldable-at-1-400-targets-flattest-display-design
 - Summary: OPPO has launched the Find N6 foldable flagship starting at RMB 9,999 (approx. USD 1,374), featuring titanium hinge technology that virtually eliminates the screen crease.
+
+### Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18402
+- Summary: We present Inst4DGS, an instance-decomposed 4D Gaussian Splatting (4DGS) approach with long-horizon per-Gaussian trajectories. While dynamic 4DGS has advanced rapidly, instance-decomposed 4DGS remains underexplored, largely due to the difficulty of associating inconsistent instance labels across...
 
 ### XPeng Unveils Updated P7 Starting at $28,000 with Next-Gen Autonomous Driving Stack
 - Source: Pandaily
@@ -2982,40 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.11119
 - Summary: arXiv:2603.11119v1 Announce Type: new Abstract: Electroencephalography(EEG)-basedemotionrecognitionre- mains challenging in cross-subject settings due to severe inter-subject variability. Existing methods mainly learn subject-invariant features, but often under-exploit stimulus-locked group...
-
-### High-resolution weather-guided surrogate modeling for data-efficient cross-location building energy prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.11121
-- Summary: arXiv:2603.11121v1 Announce Type: new Abstract: Building design optimization often depends on physics-based simulation tools such as EnergyPlus, which, although accurate, are computationally expensive and slow. Surrogate models provide a faster alternative, yet most are location-specific, and even...
-
-### Artificial Intelligence for Sentiment Analysis of Persian Poetry
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.11254
-- Summary: arXiv:2603.11254v1 Announce Type: new Abstract: Recent advancements of the Artificial Intelligence (AI) have led to the development of large language models (LLMs) that are capable of understanding, analysing, and creating textual data. These language models open a significant opportunity in...
-
-### ThReadMed-QA: A Multi-Turn Medical Dialogue Benchmark from Real Patient Questions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.11281
-- Summary: arXiv:2603.11281v1 Announce Type: new Abstract: Medical question-answering benchmarks predominantly evaluate single-turn exchanges, failing to capture the iterative, clarification-seeking nature of real patient consultations. We introduce ThReadMed-QA, a benchmark of 2,437 fully-answered...
-
-### Temporal Text Classification with Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.11295
-- Summary: arXiv:2603.11295v1 Announce Type: new Abstract: Languages change over time. Computational models can be trained to recognize such changes enabling them to estimate the publication date of texts. Despite recent advancements in Large Language Models (LLMs), their performance on automatic dating of...
-
-### Evaluating Explainable AI Attribution Methods in Neural Machine Translation via Attention-Guided Knowledge Distillation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.11342
-- Summary: arXiv:2603.11342v1 Announce Type: new Abstract: The study of the attribution of input features to the output of neural network models is an active area of research. While numerous Explainable AI (XAI) techniques have been proposed to interpret these models, the systematic and automated evaluation...
-
-### Stop Listening to Me! How Multi-turn Conversations Can Degrade Diagnostic Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.11394
-- Summary: arXiv:2603.11394v1 Announce Type: new Abstract: Patients and clinicians are increasingly using chatbots powered by large language models (LLMs) for healthcare inquiries. While state-of-the-art LLMs exhibit high performance on static diagnostic reasoning benchmarks, their efficacy across multi-turn...
 
