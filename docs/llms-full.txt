@@ -6,6 +6,18 @@
 
 ## 2026-03-21
 
+### Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html
+- Summary: The threat actors behind the supply chain attack targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm packages with a previously undocumented self-propagating worm dubbed CanisterWorm. The name is a reference...
+
+### AWS - US West (Oregon): INC0154019
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/p3x136d3mcsp
+- Summary: Mar 21, 07:12 UTCResolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
 ### Elevated error rates on Claude Opus and Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -448,6 +460,12 @@
 - URL: https://tldr.takara.ai/p/2603.19224
 - Summary: Video object removal aims to eliminate dynamic target objects and their visual effects, such as deformation, shadows, and reflections, while restoring seamless backgrounds. Recent diffusion-based video inpainting and object removal methods can remove the objects but often struggle to erase these...
 
+### F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19223
+- Summary: We present F2LLM-v2, a new family of general-purpose, multilingual embedding models in 8 distinct sizes ranging from 80M to 14B. Trained on a newly curated composite of 60 million publicly available high-quality data samples, F2LLM-v2 supports more than 200 languages, with a particular emphasis on...
+
 ### Spectrally-Guided Diffusion Noise Schedules
 - Source: HF Daily Papers
 - Category: open-source
@@ -466,6 +484,12 @@
 - URL: https://tldr.takara.ai/p/2603.19204
 - Summary: Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d.\ evaluation, yet deployment security depends on robustness to post-deployment feature manipulation. We study this gap through a cost-aware evasion framework that models discrete, monotone feature edits...
 
+### Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19193
+- Summary: Bird's-Eye-View (BEV) perception serves as a cornerstone for autonomous driving, offering a unified spatial representation that fuses surrounding-view images to enable reasoning for various downstream tasks, such as semantic segmentation, 3D object detection, and motion prediction. However, most...
+
 ### Box Maze: A Process-Control Architecture for Reliable LLM Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -483,6 +507,12 @@
 - Category: security
 - URL: https://www.securityweek.com/privacy-platform-cloaked-raises-375m-to-expand-consumer-tools-and-enterprise-reach/
 - Summary: Cloaked plans to introduce AI agents designed to act on behalf of users to monitor, manage, and enforce privacy preferences and security postures. The post Privacy Platform Cloaked Raises $375M to Expand Enterprise Reach appeared first on SecurityWeek.
+
+### Fast and Effective Computation of Generalized Symmetric Matrix Factorization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19147
+- Summary: In this paper, we study a nonconvex, nonsmooth, and non-Lipschitz generalized symmetric matrix factorization model that unifies a broad class of matrix factorization formulations arising in machine learning, image science, engineering, and related areas. We first establish two exactness properties....
 
 ### CustomTex: High-fidelity Indoor Scene Texturing via Multi-Reference Customization
 - Source: HF Daily Papers
@@ -525,6 +555,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.19039
 - Summary: Vision-language models (VLMs) have shown promise in earth observation (EO), yet they struggle with tasks that require grounding complex spatial reasoning in precise pixel-level visual representations. To address this problem, we introduce TerraScope, a unified VLM that delivers pixel-grounded...
+
+### FUMO: Prior-Modulated Diffusion for Single Image Reflection Removal
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19036
+- Summary: Single image reflection removal (SIRR) is challenging in real scenes, where reflection strength varies spatially and reflection patterns are tightly entangled with transmission structures. This paper presents a diffusion model with prior modulation framework (FUMO) that introduces explicit guidance...
 
 ### Iran Readied Cyberattack Capabilities for Response Prior to Epic Fury
 - Source: Security Week
@@ -728,6 +764,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kunlun-tech-s-sky-reels-v4-tops-global-text-to-video-ranking
 - Summary: Kunlun Tech's SkyReels-V4 model has ranked first globally in the "Text to Video (With Audio)" category on the Artificial Analysis leaderboard, surpassing mainstream models including Kling 3.0, Google Veo 3.1, and OpenAI Sora 2 .
+
+### SpecForge: A Flexible and Efficient Open-Source Training Framework for Speculative Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18567
+- Summary: Large language models incur high inference latency due to sequential autoregressive decoding. Speculative decoding alleviates this bottleneck by using a lightweight draft model to propose multiple tokens for batched verification. However, its adoption has been limited by the lack of high-quality...
 
 ### SCISSR: Scribble-Conditioned Interactive Surgical Segmentation and Refinement
 - Source: HF Daily Papers
@@ -2978,46 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/miro-mind-announces-three-ai-scientists-joining-the-team-from-x-ai-fair-and-leading-global-universities
 - Summary: MiroMind has announced the appointment of three world-class AI scientists from xAI, FAIR, and top global universities to its leadership team, solidifying the core technical pillars for its Heavy Duty Solver engine and advancing its vision of “Discoverable Intelligence.”
-
-### Onyx Security Launches With $40 Million in Funding
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/onyx-security-launches-with-40-million-in-funding/
-- Summary: The startup is building a control pane to help organizations oversee autonomous AI agents and rapidly adopt them. The post Onyx Security Launches With $40 Million in Funding appeared first on SecurityWeek.
-
-### Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html
-- Summary: Google on Thursday released security updates for its Chrome web browser to address two high-severity vulnerabilities that it said have been exploited in the wild. The list of vulnerabilities is as follows - CVE-2026-3909 (CVSS score: 8.8) - An out-of-bounds write vulnerability in the Skia 2D...
-
-### Future AI chips could be built on glass
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/
-- Summary: Human-made glass is thousands of years old. But it’s now poised to find its way into the AI chips used in the world’s newest and largest data centers. This year, a South Korean company called Absolics is planning to start commercial production of special glass panels designed to make...
-
-### StairMed Raises $72.5 Million: Alibaba and Tencent Back China’s Brain-Machine Interface Pioneer
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/stair-med-raises-72-5-million-alibaba-and-tencent-back-china-s-brain-machine-interface-pioneer
-- Summary: StairMed has secured $72.5 million in strategic funding, cementing its position as the first brain-machine interface company backed by both Alibaba and Tencent while advancing cutting-edge clinical and implantable neurotechnology.
-
-### AIsphere Secures $300 Million Series C Funding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/a-isphere-secures-300-million-series-c-funding
-- Summary: AIsphere has raised a record-breaking $300 million Series C round, underscoring the rapid global rise of its PixVerse video-generation models and accelerating its push toward real-time interactive “world models.”
-
-### China’s Smart Driving Corps Launches a Head-On Challenge
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-s-smart-driving-corps-launches-a-head-on-challenge
-- Summary: While Tesla's FSD entry remains delayed in China, local automakers like VOYAH are already mass-delivering fully validated smart-driving vehicles that outperform it by mastering the country's unique road conditions.
-
-### Kosmera Cars Expected to Start at $87,000 with Over 1,000 km Range
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kosmera-cars-expected-to-start-at-87-000-with-over-1-000-km-range
-- Summary: Kosmera, the automotive brand of Dreame Technology, has unveiled its first high-performance vehicle with over 1,000 km of range and a projected starting price of $87,000.
 
