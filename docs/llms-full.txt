@@ -1772,6 +1772,12 @@
 - URL: https://tldr.takara.ai/p/2603.16844
 - Summary: Streaming reconstruction from uncalibrated monocular video remains challenging, as it requires both high-precision pose estimation and computationally efficient online refinement in dynamic environments. While coupling 3D foundation models with SLAM frameworks is a promising paradigm, a critical...
 
+### IOSVLM: A 3D Vision-Language Model for Unified Dental Diagnosis from Intraoral Scans
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16781
+- Summary: 3D intraoral scans (IOS) are increasingly adopted in routine dentistry due to abundant geometric evidence, and unified multi-disease diagnosis is desirable for clinical documentation and communication. While recent works introduce dental vision-language models (VLMs) to enable unified diagnosis and...
+
 ### AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE
 - Source: The Hacker News
 - Category: security
@@ -2337,6 +2343,12 @@
 
 ## 2026-03-16
 
+### Mostly Text, Smart Visuals: Asymmetric Text-Visual Pruning for Large Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16001
+- Summary: Network pruning is an effective technique for enabling lightweight Large Vision-Language Models (LVLMs), which primarily incorporates both weights and activations into the importance metric. However, existing efforts typically process calibration data from different modalities in a unified manner,...
+
 ### Elevated R2 Error Rate in India
 - Source: Cloudflare Status
 - Category: incidents
@@ -2365,6 +2377,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/r245q93sbv69
 - Summary: Mar 16, 18:55 UTCInvestigating - We are currently investigating issues with Cloudflare Analytics. Customers might experience elevated rate of errors, increased latency while reading data via Cloudflare API, and/or delays in updating analytics data.
+
+### Mask Is What DLLM Needs: A Masked Data Training Paradigm for Diffusion LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15803
+- Summary: Discrete diffusion models offer global context awareness and flexible parallel generation. However, uniform random noise schedulers in standard DLLM training overlook the highly non-uniform information density inherent in real-world sequences. This wastes optimization resources on low-density...
 
 ### HorizonMath: Measuring AI Progress Toward Mathematical Discovery with Automatic Verification
 - Source: HF Daily Papers
@@ -2923,6 +2941,12 @@
 - URL: https://tldr.takara.ai/p/2603.14738
 - Summary: Event cameras promise low latency and high dynamic range, yet their sparse output challenges integration into standard robotic pipelines. We introduce \nameframew (Efficient Event Camera Volume System), a novel framework that models event streams as continuous-time Dirac impulse trains, enabling...
 
+### Beyond Creed: A Non-Identity Safety Condition A Strong Empirical Alternative to Identity Framing in Low-Data LoRA Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14723
+- Summary: How safety supervision is written may matter more than the explicit identity content it contains. We study low-data LoRA safety fine-tuning with four supervision formats built from the same core safety rules: constitutional rules (A), creed-style identity framing (B), a B-matched creed condition...
+
 ### Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention
 - Source: HF Daily Papers
 - Category: open-source
@@ -2949,6 +2973,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/xkdvq0zhntr2
 - Summary: Mar 15, 23:10 UTCResolved - This incident is now resolved.Mar 15, 22:50 UTCMonitoring - We have identified and implemented a fix for this issue. We are currently monitoring the results.Mar 15, 22:46 UTCInvestigating - Cloudflare is investigating delays in provisioning SSL certificates. New SSL...
+
+### Geometric and Topological Deep Learning for Predicting Thermo-mechanical Performance in Cold Spray Deposition Process Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14478
+- Summary: This study presents a geometric deep learning framework for predicting cold spray particle impact responses using finite element simulation data. A parametric dataset was generated through automated Abaqus simulations spanning a systematic range of particle velocity, particle temperature, and...
 
 ### Loblaw Data Breach Impacts Customer Information
 - Source: Security Week
@@ -2988,36 +3018,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-context-drought
 - Summary: a quiet day lets us reflect on Anthropic's belated GA of 1M context windows after Gemini and OpenAI.
-
-
-## 2026-03-13
-
-### Responses API errors when using background mode
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KKMB9HWS1B9452FT6BV6KDD6
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)
-
-### Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval
-
-### Elevated errors on Claude Opus 4.6 and Sonnet 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/q58b2gkv64pw
-- Summary: Mar 13, 18:37 UTCInvestigating - We are currently investigating this issue.
-
-### Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html
-- Summary: A suspected China-based cyber espionage operation has targeted Southeast Asian military organizations as part of a state-sponsored campaign that dates back to at least 2020. Palo Alto Networks Unit 42 is tracking the threat activity under the moniker CL-STA-1087, where CL refers to cluster, and STA...
-
-### Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html
-- Summary: Meta has announced plans to discontinue support for end-to-end encryption (E2EE) for chats on Instagram after May 8, 2026. "If you have chats that are impacted by this change, you will see instructions on how you can download any media or messages you may want to keep," the social media giant said...
 
