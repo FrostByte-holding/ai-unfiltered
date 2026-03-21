@@ -466,6 +466,12 @@
 - URL: https://tldr.takara.ai/p/2603.19204
 - Summary: Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d.\ evaluation, yet deployment security depends on robustness to post-deployment feature manipulation. We study this gap through a cost-aware evasion framework that models discrete, monotone feature edits...
 
+### Box Maze: A Process-Control Architecture for Reliable LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19182
+- Summary: Large language models (LLMs) demonstrate strong generative capabilities but remain vulnerable to hallucination and unreliable reasoning under adversarial prompting. Existing safety approaches -- such as reinforcement learning from human feedback (RLHF) and output filtering -- primarily operate at...
+
 ### Critical ScreenConnect Vulnerability Exposes Machine Keys
 - Source: Security Week
 - Category: security
@@ -496,6 +502,12 @@
 - URL: https://status.claude.com/incidents/bf1hsq5gbm9b
 - Summary: Mar 19, 16:16 UTCResolved - This incident started at 8:53 PT / 15:53 UTC and the errors have now returned to baseline since 9:14 PT / 16:14 UTC.Mar 19, 15:59 UTCInvestigating - We are currently investigating this issue.
 
+### DROID-SLAM in the Wild
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19076
+- Summary: We present a robust, real-time RGB SLAM system that handles dynamic environments by leveraging differentiable Uncertainty-aware Bundle Adjustment. Traditional SLAM methods typically assume static scenes, leading to tracking failures in the presence of motion. Recent dynamic SLAM approaches attempt...
+
 ### Cloudflare Pages API is seeing increased error rate.
 - Source: Cloudflare Status
 - Category: incidents
@@ -507,6 +519,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/mfhmykgrbzt5
 - Summary: Mar 19, 15:46 UTCResolved - As of 8:42 PT / 15:42 UTC the error rate has now returned to baseline.Mar 19, 15:37 UTCInvestigating - We are currently investigating elevated errors that started at 8:23 PT / 15:23 UTC.
+
+### TerraScope: Pixel-Grounded Visual Reasoning for Earth Observation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19039
+- Summary: Vision-language models (VLMs) have shown promise in earth observation (EO), yet they struggle with tasks that require grounding complex spatial reasoning in precise pixel-level visual representations. To address this problem, we introduce TerraScope, a unified VLM that delivers pixel-grounded...
 
 ### Iran Readied Cyberattack Capabilities for Response Prior to Epic Fury
 - Source: Security Week
@@ -711,6 +729,12 @@
 - URL: https://pandaily.com/kunlun-tech-s-sky-reels-v4-tops-global-text-to-video-ranking
 - Summary: Kunlun Tech's SkyReels-V4 model has ranked first globally in the "Text to Video (With Audio)" category on the Artificial Analysis leaderboard, surpassing mainstream models including Kling 3.0, Google Veo 3.1, and OpenAI Sora 2 .
 
+### SCISSR: Scribble-Conditioned Interactive Surgical Segmentation and Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18544
+- Summary: Accurate segmentation of tissues and instruments in surgical scenes is annotation-intensive due to irregular shapes, thin structures, specularities, and frequent occlusions. While SAM models support point, box, and mask prompts, points are often too sparse and boxes too coarse to localize such...
+
 ### [AINews] MiniMax 2.7: GLM-5 at 1/3 cost SOTA Open Model
 - Source: Latent Space
 - Category: open-source
@@ -722,6 +746,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged government agencies to apply patches for two security flaws impacting Synacor Zimbra Collaboration Suite (ZCS) and Microsoft Office SharePoint, stating they have been actively exploited in the wild. The vulnerabilities in...
+
+### Efficient Video Diffusion with Sparse Information Transmission for Video Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18501
+- Summary: Video compression aims to maximize reconstruction quality with minimal bitrates. Beyond standard distortion metrics, perceptual quality and temporal consistency are also critical. However, at ultra-low bitrates, traditional end-to-end compression models tend to produce blurry images of poor...
 
 ### A Dynamic Survey of Fuzzy, Intuitionistic Fuzzy, Neutrosophic, Plithogenic, and Extensional Sets
 - Source: arXiv AI
@@ -2990,34 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kosmera-cars-expected-to-start-at-87-000-with-over-1-000-km-range
 - Summary: Kosmera, the automotive brand of Dreame Technology, has unveiled its first high-performance vehicle with over 1,000 km of range and a projected starting price of $87,000.
-
-### DJI Officially Unveils First 8K Flagship Panoramic Drone: Avata 360
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dji-officially-unveils-first-8-k-flagship-panoramic-drone-avata-360
-- Summary: DJI has unveiled the Avata 360, its first 8K panoramic drone, promising immersive aerial imaging and advanced flight capabilities.
-
-### Cloudflare Dashboard and Cloudflare API service issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/cntyn4jrg1jd
-- Summary: Mar 13, 08:30 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 13, 08:05 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 13, 07:49 UTCUpdate - We are continuing to investigate this issue.Mar 13, 07:33 UTCUpdate - We are continuing to...
-
-### Authorities Disrupt SocksEscort Proxy Service Powered by AVrecon Botnet
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/authorities-disrupt-socksescort-proxy-service-powered-by-avrecon-botnet/
-- Summary: Law enforcement agencies in the US and Europe targeted the cybercrime service that has impacted 360,000 devices since 2020. The post Authorities Disrupt SocksEscort Proxy Service Powered by AVrecon Botnet appeared first on SecurityWeek.
-
-### Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html
-- Summary: Cybersecurity researchers have disclosed multiple security vulnerabilities within the Linux kernel's AppArmor module that could be exploited by unprivileged users to circumvent kernel protections, escalate to root, and undermine container isolation guarantees. The nine confused deputy...
-
-### Chrome 146 Update Patches Two Exploited Zero-Days
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-146-update-patches-two-exploited-zero-days/
-- Summary: The flaws can be exploited to manipulate data and bypass security restrictions, potentially leading to code execution. The post Chrome 146 Update Patches Two Exploited Zero-Days appeared first on SecurityWeek.
 
