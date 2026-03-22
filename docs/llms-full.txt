@@ -1410,6 +1410,12 @@
 - URL: https://pandaily.com/geely-reports-record-2025-revenue-of-rmb-345-23-billion-up-25-yo-y
 - Summary: Geely posts record 2025 revenue of $47.7 billion as vehicle sales surge 39%.
 
+### Baguan-TS: A Sequence-Native In-Context Learning Model for Time Series Forecasting with Covariates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17439
+- Summary: Transformers enable in-context learning (ICL) for rapid, gradient-free adaptation in time series forecasting, yet most ICL-style approaches rely on tabularized, hand-crafted features, while end-to-end sequence models lack inference-time adaptation. We bridge this gap with a unified framework,...
+
 ### Tencent Cloud Unveils “Key Sandbox” for AI Agents: Grant Permissions, Not Secrets
 - Source: Pandaily
 - Category: chinese-ai
@@ -1451,6 +1457,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.17372
 - Summary: Large vision-language models (VLMs) often exhibit weakened safety alignment with the integration of the visual modality. Even when text prompts contain explicit harmful intent, adding an image can substantially increase jailbreak success rates. In this paper, we observe that VLMs can clearly...
+
+### Material Magic Wand: Material-Aware Grouping of 3D Parts in Untextured Meshes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17370
+- Summary: We introduce the problem of material-aware part grouping in untextured meshes. Many real-world shapes, such as scales of pinecones or windows of buildings, contain repeated structures that share the same material but exhibit geometric variations. When assigning materials to such meshes, these...
 
 ### Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23
 - Source: The Hacker News
@@ -1753,6 +1765,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/mhnzmndv58bt
 - Summary: Mar 17, 20:02 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 17, 19:47 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Ensemble Self-Training for Unsupervised Machine Translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17087
+- Summary: We present an ensemble-driven self-training framework for unsupervised neural machine translation (UNMT). Starting from a primary language pair, we train multiple UNMT models that share the same translation task but differ in an auxiliary language, inducing structured diversity across models. We...
 
 ### Excel Plugin is inaccessible for some users
 - Source: OpenAI Status
@@ -2994,25 +3012,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.14703
 - Summary: Large language models and AI agents have recently shown promise in automating software performance optimization, but existing approaches predominantly rely on local, syntax-driven code transformations. This limits their ability to reason about program behavior and capture whole system performance...
-
-### E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14684
-- Summary: The emergence of neural radiance fields (NeRF) and 3D Gaussian splatting (3DGS) has advanced novel view synthesis (NVS). These methods, however, require high-quality RGB inputs and accurate corresponding poses, limiting robustness under real-world conditions such as fast camera motion or adverse...
-
-
-## 2026-03-15
-
-### SSL Certificate Provisioning Delays
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/xkdvq0zhntr2
-- Summary: Mar 15, 23:10 UTCResolved - This incident is now resolved.Mar 15, 22:50 UTCMonitoring - We have identified and implemented a fix for this issue. We are currently monitoring the results.Mar 15, 22:46 UTCInvestigating - Cloudflare is investigating delays in provisioning SSL certificates. New SSL...
-
-### Continual Few-shot Adaptation for Synthetic Fingerprint Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14632
-- Summary: The quality and realism of synthetically generated fingerprint images have increased significantly over the past decade fueled by advancements in generative artificial intelligence (GenAI). This has exacerbated the vulnerability of fingerprint recognition systems to data injection attacks, where...
 
