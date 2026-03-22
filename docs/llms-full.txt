@@ -741,6 +741,12 @@
 - URL: https://tldr.takara.ai/p/2603.18678
 - Summary: Puns represent a typical linguistic phenomenon that exploits polysemy and phonetic ambiguity to generate humour, posing unique challenges for natural language understanding. Within pun research, audio plays a central role in human communication except text and images, while datasets and systematic...
 
+### Cognitive Amplification vs Cognitive Delegation in Human-AI Systems: A Metric Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18677
+- Summary: Artificial intelligence is increasingly embedded in human decision-making, where it can either enhance human reasoning or induce excessive cognitive dependence. This paper introduces a conceptual and mathematical framework for distinguishing cognitive amplification, in which AI improves hybrid...
+
 ### DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover
 - Source: The Hacker News
 - Category: security
@@ -812,6 +818,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-minimax-27-glm-5-at-13-cost
 - Summary: congrats MiniMax!!
+
+### Correlation-Weighted Multi-Reward Optimization for Compositional Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18528
+- Summary: Text-to-image models produce images that align well with natural language prompts, but compositional generation has long been a central challenge. Models often struggle to satisfy multiple concepts within a single prompt, frequently omitting some concepts and resulting in partial success. Such...
 
 ### CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks
 - Source: The Hacker News
@@ -1754,6 +1766,12 @@
 - URL: https://status.openai.com//incidents/01KKYG7H8Y0BAN8MGWER3H17EV
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
 
+### Dependence Fidelity and Downstream Inference Stability in Generative Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17041
+- Summary: Recent advances in generative AI have led to increasingly realistic synthetic data, yet evaluation criteria remain focused on marginal distribution matching. While these diagnostics assess local realism, they provide limited insight into whether a generative model preserves the multivariate...
+
 ### HopChain: Multi-Hop Data Synthesis for Generalizable Vision-Language Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -1943,6 +1961,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cisa-flags-year-old-wing-ftp-vulnerability-as-exploited/
 - Summary: Tracked as CVE-2025-47813, the flaw leads to the disclosure of the full local installation path of the application. The post CISA Flags Year-Old Wing FTP Vulnerability as Exploited appeared first on SecurityWeek.
+
+### Explainable machine learning workflows for radio astronomical data processing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16350
+- Summary: Radio astronomy relies heavily on efficient and accurate processing pipelines to deliver science ready data. With the increasing data flow of modern radio telescopes, manual configuration of such data processing pipelines is infeasible. Machine learning (ML) is already emerging as a viable solution...
 
 ### AI, APIs and DDoS Collide in New Era of Coordinated Cyberattacks
 - Source: Security Week
@@ -2974,6 +2998,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/xkdvq0zhntr2
 - Summary: Mar 15, 23:10 UTCResolved - This incident is now resolved.Mar 15, 22:50 UTCMonitoring - We have identified and implemented a fix for this issue. We are currently monitoring the results.Mar 15, 22:46 UTCInvestigating - Cloudflare is investigating delays in provisioning SSL certificates. New SSL...
 
+### Emotional Cost Functions for AI Safety: Teaching Agents to Feel the Weight of Irreversible Consequences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14531
+- Summary: Humans learn from catastrophic mistakes not through numerical penalties, but through qualitative suffering that reshapes who they are. Current AI safety approaches replicate none of this. Reward shaping captures magnitude, not meaning. Rule-based alignment constrains behaviour, but does not change...
+
 ### Geometric and Topological Deep Learning for Predicting Thermo-mechanical Performance in Cold Spray Deposition Process Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -2985,37 +3015,4 @@
 - Category: security
 - URL: https://www.securityweek.com/loblaw-data-breach-impacts-customer-information/
 - Summary: Personal information such as names, email addresses, and phone numbers was accessed by hackers. The post Loblaw Data Breach Impacts Customer Information appeared first on SecurityWeek.
-
-### Not All Directions Matter: Toward Structured and Task-Aware Low-Rank Adaptation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14228
-- Summary: Low-Rank Adaptation (LoRA) has become a cornerstone of parameter-efficient fine-tuning (PEFT). Yet, its efficacy is hampered by two fundamental limitations: semantic drift, by treating all update directions with equal importance, and structural incoherence, from adapting layers independently,...
-
-
-## 2026-03-14
-
-### OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
-- Summary: China's National Computer Network Emergency Response Technical Team (CNCERT) has issued a warning about the security stemming from the use of OpenClaw (formerly Clawdbot and Moltbot), an open-source and self-hosted autonomous artificial intelligence (AI) agent. In a post shared on WeChat, CNCERT...
-
-### GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html
-- Summary: Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a "significant escalation" in how it propagates through the Open VSX registry. "Instead of requiring every malicious listing to embed the loader directly, the threat actor is now abusing...
-
-### Critical HPE AOS-CX Vulnerability Allows Admin Password Resets
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-hpe-aos-cx-vulnerability-allows-admin-password-resets/
-- Summary: The vulnerability can be exploited remotely, without authentication, to circumvent existing authentication controls. The post Critical HPE AOS-CX Vulnerability Allows Admin Password Resets appeared first on SecurityWeek.
-
-### [AINews] Context Drought
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-context-drought
-- Summary: a quiet day lets us reflect on Anthropic's belated GA of 1M context windows after Gemini and OpenAI.
 
