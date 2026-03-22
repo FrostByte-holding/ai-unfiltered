@@ -6,6 +6,18 @@
 
 ## 2026-03-22
 
+### Lossy self-improvement
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/lossy-self-improvement
+- Summary: The case for why self-improvement is real but it doesn't lead to fast takeoff.
+
+### Claude.ai and Claude login down
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/f4wqmj8rhjsc
+- Summary: Mar 22, 18:51 UTCResolved - This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normalMar 22, 18:43 UTCMonitoring - A mitigation has been applied. Logins have returned to normal, the team is continuing to monitor the situation.Mar 22,...
+
 ### Delayed response completion on Claude.ai
 - Source: Anthropic Status
 - Category: incidents
@@ -785,6 +797,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/3gp4vwptgdr8
 - Summary: Mar 19, 08:43 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 19, 08:37 UTCInvestigating - Cloudflare is investigating network performance issues that may impact a subset of users in Mumbai, India. Some users may experience increased latency or intermittent errors....
+
+### SJD-PAC: Accelerating Speculative Jacobi Decoding via Proactive Drafting and Adaptive Continuation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18599
+- Summary: Speculative Jacobi Decoding (SJD) offers a draft-model-free approach to accelerate autoregressive text-to-image synthesis. However, the high-entropy nature of visual generation yields low draft-token acceptance rates in complex regions, creating a bottleneck that severely limits overall throughput....
 
 ### myMNIST: Benchmark of PETNN, KAN, and Classical Deep Learning Models for Burmese Handwritten Digit Recognition
 - Source: HF Daily Papers
@@ -1787,6 +1805,12 @@
 - URL: https://status.claude.com/incidents/mhnzmndv58bt
 - Summary: Mar 17, 20:02 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 17, 19:47 UTCIdentified - The issue has been identified and a fix is being implemented.
 
+### Knowledge Localization in Mixture-of-Experts LLMs Using Cross-Lingual Inconsistency
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17102
+- Summary: Modern LLMs continue to exhibit significant variance in behavior across languages, such as being able to recall factual information in some languages but not others. While typically studied as a problem to be mitigated, in this work, we propose leveraging this cross-lingual inconsistency as a tool...
+
 ### Ensemble Self-Training for Unsupervised Machine Translation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2000,6 +2024,12 @@
 - Category: security
 - URL: https://www.securityweek.com/tracebit-raises-20m-for-cloud-native-deception-technology/
 - Summary: The company plans to scale its products, expand to new markets, and grow its marketing and engineering teams. The post Tracebit Raises $20M for Cloud-Native Deception Technology appeared first on SecurityWeek.
+
+### Trained Persistent Memory for Frozen Encoder--Decoder LLMs: Six Architectural Methods
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16413
+- Summary: Frozen encoder--decoder language models are stateless: the latent representation is discarded after every forward pass, so no information persists across sessions. This paper presents a \textbf{proof-of-concept pilot study} showing that persistent memory in the \emph{continuous latent space} of a...
 
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
@@ -2452,6 +2482,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/physical-ai-for-healthcare-robotics
+
+### Evaluating Causal Discovery Algorithms for Path-Specific Fairness and Utility in Healthcare
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15926
+- Summary: Causal discovery in health data faces evaluation challenges when ground truth is unknown. We address this by collaborating with experts to construct proxy ground-truth graphs, establishing benchmarks for synthetic Alzheimer's disease and heart failure clinical records data. We evaluate the...
 
 ### GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos
 - Source: The Hacker News
@@ -2979,40 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.12277
 - Summary: arXiv:2603.12277v1 Announce Type: new Abstract: Language models remain vulnerable to prompt injection attacks despite extensive safety training. We trace this failure to role confusion: models infer roles from how text is written, not where it comes from. We design novel role probes to capture how...
-
-### LLM-Augmented Therapy Normalization and Aspect-Based Sentiment Analysis for Treatment-Resistant Depression on Reddit
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.12343
-- Summary: arXiv:2603.12343v1 Announce Type: new Abstract: Treatment-resistant depression (TRD) is a severe form of major depressive disorder in which patients do not achieve remission despite multiple adequate treatment trials. Evidence across pharmacologic options for TRD remains limited, and trials often...
-
-### TASTE-Streaming: Towards Streamable Text-Aligned Speech Tokenization and Embedding for Spoken Language Modeling
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.12350
-- Summary: arXiv:2603.12350v1 Announce Type: new Abstract: Text-speech joint spoken language modeling (SLM) aims at natural and intelligent speech-based interactions, but developing such a system may suffer from modality mismatch: speech unit sequences are much longer than text tokens. Prior work reduces this...
-
-### Not Just the Destination, But the Journey: Reasoning Traces Causally Shape Generalization Behaviors
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.12397
-- Summary: arXiv:2603.12397v1 Announce Type: new Abstract: Chain-of-Thought (CoT) is often viewed as a window into LLM decision-making, yet recent work suggests it may function merely as post-hoc rationalization. This raises a critical alignment question: Does the reasoning trace causally shape model...
-
-### Interpreting Negation in GPT-2: Layer- and Head-Level Causal Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.12423
-- Summary: arXiv:2603.12423v1 Announce Type: new Abstract: Negation remains a persistent challenge for modern language models, often causing reversed meanings or factual errors. In this work, we conduct a causal analysis of how GPT-2 Small internally processes such linguistic transformations. We examine its...
-
-### Multi-Task Genetic Algorithm with Multi-Granularity Encoding for Protein-Nucleotide Binding Site Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14797
-- Summary: Accurate identification of protein-nucleotide binding sites is fundamental to deciphering molecular mechanisms and accelerating drug discovery. However, current computational methods often struggle with suboptimal performance due to inadequate feature representation and rigid fusion mechanisms,...
-
-### Tencent Cloud Becomes Sponsor of OpenClaw Community
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-cloud-becomes-sponsor-of-open-claw-community
-- Summary: Tencent Cloud has become a sponsor of the OpenClaw community while launching a nationwide campaign to help users deploy the open-source AI platform.
 
