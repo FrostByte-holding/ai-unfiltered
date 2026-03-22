@@ -4,6 +4,21 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-03-22
+
+### Delayed response completion on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/cjwz4sx4pl5j
+- Summary: Mar 22, 12:34 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 22, 11:14 UTCInvestigating - Since approximately 20:00 UTC / 13:00 PT on Friday, March 20, Claude.ai responses may appear to "hang" for around 5 seconds after the text has finished streaming before the...
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/7vwbds3snh28
+- Summary: Mar 22, 10:02 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 22, 09:27 UTCUpdate - We are investigating intermittently high latency and errors from...
+
+
 ## 2026-03-21
 
 ### FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks
@@ -501,6 +516,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.19222
 - Summary: Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically...
+
+### Online Learning and Equilibrium Computation with Ranking Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.19221
+- Summary: Online learning in arbitrary, and possibly adversarial, environments has been extensively studied in sequential decision-making, and it is closely connected to equilibrium computation in game theory. Most existing online learning algorithms rely on \emph{numeric} utility feedback from the...
 
 ### 1stProtect Emerges From Stealth With $20 Million in Funding
 - Source: Security Week
@@ -1808,6 +1829,12 @@
 - URL: https://tldr.takara.ai/p/2603.16844
 - Summary: Streaming reconstruction from uncalibrated monocular video remains challenging, as it requires both high-precision pose estimation and computationally efficient online refinement in dynamic environments. While coupling 3D foundation models with SLAM frameworks is a promising paradigm, a critical...
 
+### WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16816
+- Summary: Depth estimation and 3D reconstruction have been extensively studied as core topics in computer vision. Starting from rigid objects with relatively simple geometric shapes, such as vehicles, the research has expanded to address general objects, including challenging deformable objects, such as...
+
 ### IOSVLM: A 3D Vision-Language Model for Unified Dental Diagnosis from Intraoral Scans
 - Source: HF Daily Papers
 - Category: open-source
@@ -1872,6 +1899,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.16621
 - Summary: We propose a conjugate and calibrated Gaussian process (GP) model for multi-class classification by exploiting the geometry of the probability simplex. Our approach uses Aitchison geometry to map simplex-valued class probabilities to an unconstrained Euclidean representation, turning classification...
+
+### Tarab: A Multi-Dialect Corpus of Arabic Lyrics and Poetry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16601
+- Summary: We introduce the Tarab Corpus, a large-scale cultural and linguistic resource that brings together Arabic song lyrics and poetry within a unified analytical framework. The corpus comprises 2.56 million verses and more than 13.5 million tokens, making it, to our knowledge, the largest open Arabic...
 
 ### LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader
 - Source: The Hacker News
@@ -2516,6 +2549,12 @@
 - URL: https://status.claude.com/incidents/81m3f5p97qkk
 - Summary: Mar 16, 14:21 UTCResolved - This incident has been resolved.Mar 16, 13:56 UTCInvestigating - We are currently investigating this issue.
 
+### MeMix: Writing Less, Remembering More for Streaming 3D Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15330
+- Summary: Reconstruction is a fundamental task in 3D vision and a fundamental capability for spatial intelligence. Particularly, streaming 3D reconstruction is central to real-time spatial perception, yet existing recurrent online models often suffer from progressive degradation on long sequences due to...
+
 ### ⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More
 - Source: The Hacker News
 - Category: security
@@ -2682,6 +2721,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/zhipu-ai-unveils-glm-5-turbo-and-open-claw-packages-shares-jump-16
 - Summary: Zhipu AI launched the GLM-5-Turbo model optimized for OpenClaw agents alongside new “OpenClaw Packages,” driving a 16% surge in its shares.
+
+### Voronoi-based Second-order Descriptor with Whitened Metric in LiDAR Place Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.14974
+- Summary: The pooling layer plays a vital role in aggregating local descriptors into the metrizable global descriptor in the LiDAR Place Recognition (LPR). In particular, the second-order pooling is capable of capturing higher-order interactions among local descriptors. However, its existing methods in the...
 
 ### GeoNVS: Geometry Grounded Video Diffusion for Novel View Synthesis
 - Source: HF Daily Papers
@@ -2970,46 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/pony-ai-robotaxi-integrates-with-tencent-mobility-services-to-accelerate-l4-autonomous-driving-deployment
 - Summary: Pony.ai’s Robotaxi service is now accessible through WeChat’s Tencent Mobility Services mini program in Guangzhou, expanding the real-world deployment of L4 autonomous ride-hailing.
-
-### Dreame Launches Glow AI Ring Featuring World’s First Fingertip ECG Monitoring
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dreame-launches-glow-ai-ring-featuring-world-s-first-fingertip-ecg-monitoring
-- Summary: Dreame has unveiled the Glow AI Ring, the first smart ring to integrate AI-powered ECG, heart rate, and blood oxygen monitoring into a fingertip wearable.
-
-### PHAC: Promptable Human Amodal Completion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14741
-- Summary: Conditional image generation methods are increasingly used in human-centric applications, yet existing human amodal completion (HAC) models offer users limited control over the completed content. Given an occluded person image, they hallucinate invisible regions while preserving visible ones, but...
-
-### Efficient Event Camera Volume System
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14738
-- Summary: Event cameras promise low latency and high dynamic range, yet their sparse output challenges integration into standard robotic pipelines. We introduce \nameframew (Efficient Event Camera Volume System), a novel framework that models event streams as continuous-time Dirac impulse trains, enabling...
-
-### Beyond Creed: A Non-Identity Safety Condition A Strong Empirical Alternative to Identity Framing in Low-Data LoRA Fine-Tuning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14723
-- Summary: How safety supervision is written may matter more than the explicit identity content it contains. We study low-data LoRA safety fine-tuning with four supervision formats built from the same core safety rules: constitutional rules (A), creed-style identity framing (B), a B-matched creed condition...
-
-### Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14709
-- Summary: Recent advances in time series foundation models (TSFMs) demonstrate strong expressive capacity through large-scale pretraining across diverse time series domains. Zero-shot time series forecasting with TSFMs, however, exhibits limited generalization to unseen datasets, which retrieval-augmented...
-
-### AdapterTune: Zero-Initialized Low-Rank Adapters for Frozen Vision Transformers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14706
-- Summary: Frozen-backbone transfer with Vision Transformers faces two under-addressed issues: optimization instability when adapters are naively inserted into a fixed feature extractor, and the absence of principled guidance for setting adapter capacity. We introduce AdapterTune, which augments each...
-
-### Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.14703
-- Summary: Large language models and AI agents have recently shown promise in automating software performance optimization, but existing approaches predominantly rely on local, syntax-driven code transformations. This limits their ability to reason about program behavior and capture whole system performance...
 
