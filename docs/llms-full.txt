@@ -6,6 +6,18 @@
 
 ## 2026-03-23
 
+### Request Trace is failing for some requests
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/frjvk8vnhvqs
+- Summary: Mar 23, 20:25 UTCInvestigating - The request trace feature is failing for some cacheable assets. Failing requests are returning 400 Bad Request.
+
+### Elevated errors on Claude.ai [retroactive]
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/0kxm85c9w7rw
+- Summary: Mar 23, 17:10 UTCResolved - This incident has been resolved.Mar 23, 17:03 UTCInvestigating - Between 9:10 PT / 16:10 UTC and 9:26 PT / 16:26 UTC users saw an elevated rate of errors on Claude.aiThe Claude API was unaffected.
+
 ### The hardest question to answer about AI-fueled delusions
 - Source: MIT Tech Review AI
 - Category: research
@@ -1416,6 +1428,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/2c0xskfq9gpq
 - Summary: Mar 18, 19:31 UTCUpdate - A fix is being rolled out.Mar 18, 19:30 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 18, 17:11 UTCInvestigating - Some R2 customers may experience incomplete assets and broken connections during 206 responses
 
+### ResNets of All Shapes and Sizes: Convergence of Training Dynamics in the Large-scale Limit
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.18168
+- Summary: We establish convergence of the training dynamics of residual neural networks (ResNets) to their joint infinite depth L, hidden width M, and embedding dimension D limit. Specifically, we consider ResNets with two-layer perceptron blocks in the maximal local feature update (MLU) regime and prove...
+
 ### Autonomous Offensive Security Firm XBOW Raises $120M at $1B+ Valuation
 - Source: Security Week
 - Category: security
@@ -2066,6 +2084,12 @@
 - URL: https://www.latent.space/p/felix-anthropic
 - Summary: Claude Cowork came out of an accident.
 
+### Intent Formalization: A Grand Challenge for Reliable Coding in the Age of AI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.17150
+- Summary: Agentic AI systems can now generate code with remarkable fluency, but a fundamental question remains: \emph{does the generated code actually do what the user intended?} The gap between informal natural language requirements and precise program behavior -- the \emph{intent gap} -- has always plagued...
+
 ### Cloudflare Workers Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -2268,6 +2292,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.16557
 - Summary: Large language models (LLMs) increasingly store user preferences in persistent memory to support personalization across interactions. However, in third-party communication settings governed by social and institutional norms, some user preferences may be inappropriate to apply. We introduce...
+
+### How often do Answers Change? Estimating Recency Requirements in Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.16544
+- Summary: Large language models (LLMs) often rely on outdated knowledge when answering time-sensitive questions, leading to confident yet incorrect responses. Without explicit signals indicating whether up-to-date information is required, models struggle to decide when to retrieve external evidence, how to...
 
 ### Robotic Surgery Giant Intuitive Discloses Cyberattack
 - Source: Security Week
@@ -2792,6 +2822,12 @@
 - URL: https://tldr.takara.ai/p/2603.15926
 - Summary: Causal discovery in health data faces evaluation challenges when ground truth is unknown. We address this by collaborating with experts to construct proxy ground-truth graphs, establishing benchmarks for synthetic Alzheimer's disease and heart failure clinical records data. We evaluate the...
 
+### Federated Learning for Privacy-Preserving Medical AI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.15901
+- Summary: This dissertation investigates privacy-preserving federated learning for Alzheimer's disease classification using three-dimensional MRI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Existing methodologies often suffer from unrealistic data partitioning, inadequate privacy...
+
 ### GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos
 - Source: The Hacker News
 - Category: security
@@ -2983,40 +3019,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Future AI chips could be built on glass&#160; Human-made glass is thousands of years old. But&#160;it’s&#160;now poised to find its way into the AI...
-
-### Threat Actor Targeting VPN Users in New Credential Theft Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/threat-actor-targeting-vpn-users-in-new-credential-theft-campaign/
-- Summary: Storm-2561 is distributing fake VPN clients through SEO poisoning, deploying trojans, and stealing login information. The post Threat Actor Targeting VPN Users in New Credential Theft Campaign appeared first on SecurityWeek.
-
-### The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.15189
-- Summary: We study best-arm identification in stochastic dueling bandits under the sole assumption that a Condorcet winner exists, i.e., an arm that wins each noisy pairwise comparison with probability at least $1/2$. We introduce a new identification procedure that exploits the full gap matrix...
-
-### What Matters for Scalable and Robust Learning in End-to-End Driving Planners?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.15185
-- Summary: End-to-end autonomous driving has gained significant attention for its potential to learn robust behavior in interactive scenarios and scale with data. Popular architectures often build on separate modules for perception and planning connected through latent representations, such as bird's eye view...
-
-### Why Security Validation Is Becoming Agentic
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/why-security-validation-is-becoming.html
-- Summary: If you run security at any reasonably complex organization, your validation stack probably looks something like this: a BAS tool in one corner. A pentest engagement, or maybe an automated pentesting product, in another. A vulnerability scanner feeding an attack surface management platform somewhere...
-
-### ForceMemo: Python Repositories Compromised in GlassWorm Aftermath
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/forcememo-python-repositories-compromised-in-glassworm-aftermath/
-- Summary: Hundreds of GitHub accounts were accessed using credentials stolen in the VS Code GlassWorm campaign. The post ForceMemo: Python Repositories Compromised in GlassWorm Aftermath appeared first on SecurityWeek.
-
-### TextOVSR: Text-Guided Real-World Opera Video Super-Resolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.15153
-- Summary: Many classic opera videos exhibit poor visual quality due to the limitations of early filming equipment and long-term degradation during storage. Although real-world video super-resolution (RWVSR) has achieved significant advances in recent years, directly applying existing methods to degraded...
 
