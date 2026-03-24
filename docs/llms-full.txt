@@ -6,6 +6,36 @@
 
 ## 2026-03-24
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/kp06czybl7dw
+- Summary: Mar 24, 20:38 UTCUpdate - We are investigating elevated error rates affecting multiple GitHub services including Actions, Issues, Pull Requests, Webhooks, Codespaces, and login functionality. Some users may have experienced errors when accessing these features. Most services are now showing signs...
+
+### Elevated error rates on Realtime API SIP endpoints
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KMGE1FY97K34FN718KDBKR12
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Realtime (Operational)
+
+### Network Performance Issues in Osaka, Japan datacenter (KIX)
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/bt3kxrzssk2h
+- Summary: Mar 24, 18:32 UTCResolved - This incident has been resolved.Mar 24, 18:13 UTCIdentified - Cloudflare is investigating issues with Network Performance in Osaka, Japan datacenter (KIX).We are working to analyze and mitigate this problem. More updates to follow shortly.
+
+### Exclusive eBook: Are we ready to hand AI agents the keys?
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/24/1134531/exclusive-ebook-are-we-ready-to-hand-ai-agents-the-keys/
+- Summary: We’re starting to give AI agents real autonomy, but are we prepared for what could happen next? This subscriber-only eBook explores this and angles from experts, such as “If we continue on the current path … we are basically playing Russian roulette with humanity.” by Grace Huckins June 12, 2025...
+
+### Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/sn641zvm39tz
+- Summary: Mar 24, 18:15 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 24, 17:59 UTCUpdate - The Cloudflare Workers and GraphQL API is experiencing increased errors and changes to Cron Triggers may be delayed. Already deployed Workers and existing Cron Triggers are...
+
 ### Teams Github Notifications App is down
 - Source: GitHub Status
 - Category: incidents
@@ -326,6 +356,12 @@
 - URL: https://tldr.takara.ai/p/2603.22206
 - Summary: Multi-agent applications often execute complex tasks as multi-stage workflows, where each stage is an LLM call whose output becomes part of context for subsequent steps. Existing LLM serving systems largely assume homogeneous clusters with identical model replicas. This design overlooks the...
 
+### Enhancing Document-Level Machine Translation via Filtered Synthetic Corpora and Two-Stage LLM Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22186
+- Summary: In Machine Translation, Large Language Models (LLMs) have generally underperformed compared to conventional encoder-decoder systems and thus see limited adoption. However, LLMs excel at modeling contextual information, making them a natural fit for document-level translation tasks where coherence...
+
 ### The hardest question to answer about AI-fueled delusions
 - Source: MIT Tech Review AI
 - Category: research
@@ -416,11 +452,23 @@
 - URL: https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html
 - Summary: AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. That connectivity is what makes it powerful – but it’s also what makes Bedrock a target. When an AI...
 
+### Holistic Scaling Laws for Optimal Mixture-of-Experts Architecture Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21862
+- Summary: Scaling laws for Large Language Models govern macroscopic resource allocation, yet translating them into precise Mixture-of-Experts (MoE) architectural configurations remains an open problem due to the combinatorially vast design space. Existing MoE scaling studies are constrained by experimental...
+
 ### Sim-to-Real of Humanoid Locomotion Policies via Joint Torque Space Perturbation Injection
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.21853
 - Summary: This paper proposes a novel alternative to existing sim-to-real methods for training control policies with simulated experiences. Unlike prior methods that typically rely on domain randomization over a fixed finite set of parameters, the proposed approach injects state-dependent perturbations into...
+
+### Agentic Personas for Adaptive Scientific Explanations with Knowledge Graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21846
+- Summary: AI explanation methods often assume a static user model, producing non-adaptive explanations regardless of expert goals, reasoning strategies, or decision contexts. Knowledge graph-based explanations, despite their capacity for grounded, path-based reasoning, inherit this limitation. In complex...
 
 ### QNAP Patches Four Vulnerabilities Exploited at Pwn2Own
 - Source: Security Week
@@ -505,6 +553,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.21654
 - Summary: Retrieval-Augmented Generation (RAG) significantly mitigates the hallucinations and domain knowledge deficiency in large language models by incorporating external knowledge bases. However, the multi-module architecture of RAG introduces complex system-level security vulnerabilities. Guided by the...
+
+### MISApp: Multi-Hop Intent-Aware Session Graph Learning for Next App Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21653
+- Summary: Predicting the next mobile app a user will launch is essential for proactive mobile services. Yet accurate prediction remains challenging in real-world settings, where user intent can shift rapidly within short sessions and user-specific historical profiles are often sparse or unavailable,...
 
 ### Efficient Zero-Shot AI-Generated Image Detection
 - Source: HF Daily Papers
@@ -709,6 +763,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/alibaba-s-qwen3-5-max-preview-debuts-on-lm-arena-tops-global-models
 - Summary: Alibaba’s Qwen3.5-Max-Preview tops LMArena rankings, beating both global and domestic AI models.
+
+### Unregistered Spectral Image Fusion: Unmixing, Adversarial Learning, and Recoverability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21510
+- Summary: This paper addresses the fusion of a pair of spatially unregistered hyperspectral image (HSI) and multispectral image (MSI) covering roughly overlapping regions. HSIs offer high spectral but low spatial resolution, while MSIs provide the opposite. The goal is to integrate their complementary...
 
 ### WeRide Launches Slovakia’s First Autonomous Driving Project
 - Source: Pandaily
@@ -2959,64 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.16141
 - Summary: Autonomous Unmanned Aerial Vehicle (UAV) swarms are increasingly used as rapidly deployable aerial relays and sensing platforms, yet practical deployments must operate under partial observability and intermittent peer-to-peer links. We present a graph-based multi-agent reinforcement learning...
-
-### DualPrim: Compact 3D Reconstruction with Positive and Negative Primitives
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.16133
-- Summary: Neural reconstructions often trade structure for fidelity, yielding dense and unstructured meshes with irregular topology and weak part boundaries that hinder editing, animation, and downstream asset reuse. We present DualPrim, a compact and structured 3D reconstruction framework. Unlike...
-
-### CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a medium-severity security flaw impacting Wing FTP to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, CVE-2025-47813 (CVSS score: 4.3), is an information...
-
-### Functorial Neural Architectures from Higher Inductive Types
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.16123
-- Summary: Neural networks systematically fail at compositional generalization -- producing correct outputs for novel combinations of known parts. We show that this failure is architectural: compositional generalization is equivalent to functoriality of the decoder, and this perspective yields both guarantees...
-
-### Elevated errors for sign-in and account creation
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KKWW47249GJZZP9ZGR1PTHV5
-- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for sign-ins and account creations. We are working on implementing a mitigation.Affected components Login (Operational)
-
-### Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.16104
-- Summary: Agentic workflows are composed of sequences of interdependent Large Language Model (LLM) calls, and they have become a dominant workload in modern AI systems. These workflows exhibit extensive redundancy from overlapping prompts and intermediate results due to speculative and parallel exploration....
-
-### Human Attribution of Causality to AI Across Agency, Misuse, and Misalignment
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.13236
-- Summary: arXiv:2603.13236v1 Announce Type: new Abstract: AI-related incidents are becoming increasingly frequent and severe, ranging from safety failures to misuse by malicious actors. In such complex situations, identifying which elements caused an adverse outcome, the problem of cause selection, is a...
-
-### A Dual-Path Generative Framework for Zero-Day Fraud Detection in Banking Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.13237
-- Summary: arXiv:2603.13237v1 Announce Type: new Abstract: High-frequency banking environments face a critical trade-off between low-latency fraud detection and the regulatory explainability demanded by GDPR. Traditional rule-based and discriminative models struggle with "zero-day" attacks due to extreme...
-
-### Benchmarking Zero-Shot Reasoning Approaches for Error Detection in Solidity Smart Contracts
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.13239
-- Summary: arXiv:2603.13239v1 Announce Type: new Abstract: Smart contracts play a central role in blockchain systems by encoding financial and operational logic. Still, their susceptibility to subtle security flaws poses significant risks of financial loss and erosion of trust. LLMs create new opportunities...
-
-### Think First, Diffuse Fast: Improving Diffusion Language Model Reasoning via Autoregressive Plan Conditioning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.13243
-- Summary: arXiv:2603.13243v1 Announce Type: new Abstract: Diffusion large language models (dLLMs) generate text via iterative denoising but consistently underperform on multi-step reasoning. We hypothesize this gap stems from a coordination problem: AR models build coherence token-by-token, while diffusion...
-
-### Automating Document Intelligence in Statutory City Planning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.13245
-- Summary: arXiv:2603.13245v1 Announce Type: new Abstract: UK planning authorities face a legislative conflict between the Planning Act, which mandates public access to application documents, and the Data Protection Act, which requires protection of personal information. This situation creates a manually...
 
