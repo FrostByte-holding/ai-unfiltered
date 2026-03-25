@@ -429,6 +429,12 @@
 - URL: https://www.securityweek.com/rsac-2026-conference-announcements-summary-day-1/
 - Summary: A summary of the announcements made by vendors on the first day of the RSAC 2026 Conference. The post RSAC 2026 Conference Announcements Summary (Day 1) appeared first on SecurityWeek.
 
+### Edge Radar Material Classification Under Geometry Shifts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23342
+- Summary: Material awareness can improve robotic navigation and interaction, particularly in conditions where cameras and LiDAR degrade. We present a lightweight mmWave radar material classification pipeline designed for ultra-low-power edge devices (TI IWRL6432), using compact range-bin intensity...
+
 ### Contextual Graph Matching with Correlated Gaussian Features
 - Source: HF Daily Papers
 - Category: open-source
@@ -440,6 +446,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.23282
 - Summary: Accurate short-term forecasting of air temperature and relative humidity is critical for urban management, especially in topographically complex cities such as Chongqing, China. This study compares seven machine learning models: eXtreme Gradient Boosting (XGBoost), Random Forest, Support Vector...
+
+### A Multimodal Framework for Human-Multi-Agent Interaction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23271
+- Summary: Human-robot interaction is increasingly moving toward multi-robot, socially grounded environments. Existing systems struggle to integrate multimodal perception, embodied expression, and coordinated decision-making in a unified framework. This limits natural and scalable interaction in shared...
 
 ### MemCollab: Cross-Agent Memory Collaboration via Contrastive Trajectory Distillation
 - Source: HF Daily Papers
@@ -543,6 +555,12 @@
 - URL: https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html
 - Summary: On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner report types, “a Market Guide defines a market and explains what clients can expect it to do in the short...
 
+### MedCausalX: Adaptive Causal Reasoning with Self-Reflection for Trustworthy Medical Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23085
+- Summary: Vision-Language Models (VLMs) have enabled interpretable medical diagnosis by integrating visual perception with linguistic reasoning. Yet, existing medical chain-of-thought (CoT) models lack explicit mechanisms to represent and enforce causal reasoning, leaving them vulnerable to spurious...
+
 ### Critical Citrix NetScaler Vulnerability Poised for Exploitation, Security Firms Warn
 - Source: Security Week
 - Category: security
@@ -555,11 +573,23 @@
 - URL: https://tldr.takara.ai/p/2603.23069
 - Summary: The task of authorship style transfer involves rewriting text in the style of a target author while preserving the meaning of the original text. Existing style transfer methods train a single model on large corpora to model all target styles at once: this high-cost approach offers limited...
 
+### MLLM-HWSI: A Multimodal Large Language Model for Hierarchical Whole Slide Image Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23067
+- Summary: Whole Slide Images (WSIs) exhibit hierarchical structure, where diagnostic information emerges from cellular morphology, regional tissue organization, and global context. Existing Computational Pathology (CPath) Multimodal Large Language Models (MLLMs) typically compress an entire WSI into a single...
+
 ### Prompt Amplification and Zero-Shot Late Fusion in Audio-Language Models for Speech Emotion Recognition
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.23057
 - Summary: Audio-Language Models (ALMs) are making strides in understanding speech and non-speech audio. However, domain-specialist Foundation Models (FMs) remain the best for closed-ended speech processing tasks such as Speech Emotion Recognition (SER). Using ALMs for Zero-shot SER is a popular choice, but...
+
+### Post-Selection Distributional Model Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23055
+- Summary: Formal model evaluation methods typically certify that a model satisfies a prescribed target key performance indicator (KPI) level. However, in many applications, the relevant target KPI level may not be known a priori, and the user may instead wish to compare candidate models by analyzing the full...
 
 ### Mazda Says Employee, Partner Information Stolen in Cyberattack
 - Source: Security Week
@@ -2992,34 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.15639
 - Summary: arXiv:2603.15639v1 Announce Type: new Abstract: AI agents are increasingly granted economic agency (executing trades, managing budgets, negotiating contracts, and spawning sub-agents), yet current frameworks gate this agency on capability benchmarks that are empirically uncorrelated with...
-
-### Form Follows Function: Recursive Stem Model
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.15641
-- Summary: arXiv:2603.15641v1 Announce Type: new Abstract: Recursive reasoning models such as Hierarchical Reasoning Model (HRM) and Tiny Recursive Model (TRM) show that small, weight-shared networks can solve compute-heavy and NP puzzles by iteratively refining latent states, but their training typically...
-
-### Tokenization Tradeoffs in Structured EHR Foundation Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.15644
-- Summary: arXiv:2603.15644v1 Announce Type: new Abstract: Foundation models for structured electronic health records (EHRs) are pretrained on longitudinal sequences of timestamped clinical events to learn adaptable patient representations. Tokenization -- how these timelines are converted into discrete model...
-
-### XLinear: Frequency-Enhanced MLP with CrossFilter for Robust Long-Range Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.15645
-- Summary: arXiv:2603.15645v1 Announce Type: new Abstract: Time series forecasters are widely used across various domains. Among them, MLP (multi-layer perceptron)-based forecasters have been proven to be more robust to noise compared to Transformer-based forecasters. However, MLP struggles to capture complex...
-
-### Alternating Reinforcement Learning with Contextual Rubric Rewards
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.15646
-- Summary: arXiv:2603.15646v1 Announce Type: new Abstract: Reinforcement Learning with Rubric Rewards (RLRR) is a framework that extends conventional reinforcement learning from human feedback (RLHF) and verifiable rewards (RLVR) by replacing scalar preference signals with structured, multi-dimensional,...
-
-### Steering Frozen LLMs: Adaptive Social Alignment via Online Prompt Routing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.15647
-- Summary: arXiv:2603.15647v1 Announce Type: new Abstract: Large language models (LLMs) are typically governed by post-training alignment (e.g., RLHF or DPO), which yields a largely static policy during deployment and inference. However, real-world safety is a full-lifecycle problem: static defenses degrade...
 
