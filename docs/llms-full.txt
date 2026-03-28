@@ -497,6 +497,12 @@
 - URL: https://tldr.takara.ai/p/2603.25745
 - Summary: Existing feed-forward 3D Gaussian Splatting methods predict pixel-aligned primitives, leading to a quadratic growth in primitive count as resolution increases. This fundamentally limits their scalability, making high-resolution synthesis such as 4K intractable. We introduce LGTM (Less Gaussians,...
 
+### MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25744
+- Summary: Vision Foundation Models (VFMs) have become the cornerstone of modern computer vision, offering robust representations across a wide array of tasks. While recent advances allow these models to handle varying input sizes during training, inference typically remains restricted to a single, fixed...
+
 ### PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow
 - Source: HF Daily Papers
 - Category: open-source
@@ -526,6 +532,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.25686
 - Summary: Cross-view geo-localization (CVGL) estimates a camera's location by matching a street-view image to geo-referenced overhead imagery, enabling GPS-denied localization and navigation. Existing methods almost universally formulate CVGL as an image-retrieval problem in a contrastively trained embedding...
+
+### Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25624
+- Summary: Explanations are central to improving transparency, trust, and user satisfaction in recommender systems (RS), yet it remains unclear how different explanation formats (visual vs. textual) are suited to users with different personal characteristics (PCs). To this end, we report a within-subject user...
 
 ### UNIC: Neural Garment Deformation Field for Real-time Clothed Character Animation
 - Source: HF Daily Papers
@@ -1040,6 +1052,12 @@
 - URL: https://tldr.takara.ai/p/2603.24584
 - Summary: Vision--Language--Action (VLA) policies have shown strong progress in mapping language instructions and visual observations to robotic actions, yet their reliability degrades in cluttered scenes with distractors. By analyzing failure cases, we find that many errors do not arise from infeasible...
 
+### MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.24579
+- Summary: Hallucination remains a critical bottleneck for large language models (LLMs), undermining their reliability in real-world applications, especially in Retrieval-Augmented Generation (RAG) systems. While existing hallucination detection methods employ LLM-as-a-judge to verify LLM outputs against...
+
 ### Towards Training-Free Scene Text Editing
 - Source: HF Daily Papers
 - Category: open-source
@@ -1393,6 +1411,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/pop-mart-expands-into-home-appliances-blind-box-giant-pushes-diversification-strategy
 - Summary: Pop Mart is entering the home appliance market, with product launches set for next month as part of a broader diversification push.
+
+### HGGT: Robust and Flexible 3D Hand Mesh Reconstruction from Uncalibrated Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.23997
+- Summary: Recovering high-fidelity 3D hand geometry from images is a critical task in computer vision, holding significant value for domains such as robotics, animation and VR/AR. Crucially, scalable applications demand both accuracy and deployment flexibility, requiring the ability to leverage massive...
 
 ### Alibaba Cloud Fully Opens JVS Claw, No Invite Needed to Raise Your Own “Cloud Lobster”
 - Source: Pandaily
@@ -2920,6 +2944,12 @@
 - URL: https://status.claude.com/incidents/f4wqmj8rhjsc
 - Summary: Mar 22, 18:51 UTCResolved - This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normalMar 22, 18:43 UTCMonitoring - A mitigation has been applied. Logins have returned to normal, the team is continuing to monitor the situation.Mar 22,...
 
+### EmoTaG: Emotion-Aware Talking Head Synthesis on Gaussian Splatting with Few-Shot Personalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21332
+- Summary: Audio-driven 3D talking head synthesis has advanced rapidly with Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS). By leveraging rich pre-trained priors, few-shot methods enable instant personalization from just a few seconds of video. However, under expressive facial motion, existing...
+
 ### More Than Sum of Its Parts: Deciphering Intent Shifts in Multimodal Hate Speech Detection
 - Source: HF Daily Papers
 - Category: open-source
@@ -2997,33 +3027,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/dreamer
 - Summary: /dev/agents is out of stealth as Dreamer, and the vision is staggeringly ambitious. $10,000 prizes for new tools and Special access for Latent Space subscribers!
-
-### Build a Domain-Specific Embedding Model in Under a Day
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune
-
-### Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html
-- Summary: Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets. The latest incident impacted GitHub Actions "aquasecurity/trivy-action" and "aquasecurity/setup-trivy,"...
-
-### In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-new-android-safeguards-operation-alice-uk-toughens-cyber-reporting/
-- Summary: Other noteworthy stories that might have slipped under the radar: vulnerabilities found in KVM devices, Claudy Day Claude vulnerabilities, The Gentlemen ransomware group. The post In Other News: New Android Safeguards, Operation Alice, UK Toughens Cyber Reporting appeared first on SecurityWeek.
-
-### Pinned chats are not loading on web browsers for ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ
-- Summary: Status: IdentifiedWe are still implementing the mitigation.Affected components Conversations (Degraded performance)
-
-### Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html
-- Summary: A critical security flaw impacting Langflow has come under active exploitation within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities. The security defect, tracked as CVE-2026-33017 (CVSS score: 9.3), is a case of missing...
 
