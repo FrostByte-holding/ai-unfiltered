@@ -6,6 +6,18 @@
 
 ## 2026-03-27
 
+### Intermittent 500s on RealtimeKit API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/zmmcl8p948xk
+- Summary: Mar 27, 23:57 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Realtime APIs. RealtimeKit meetings are unaffected.These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
+
+### Cloudflare Pages - Custom Domain Management Degraded
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/8sm9t09dzflk
+- Summary: Mar 27, 23:32 UTCResolved - This incident has been resolved.Mar 27, 22:37 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 27, 22:36 UTCInvestigating - Cloudflare has identified an issue impacting the API for managing and adding custom domains in Cloudflare Pages....
+
 ### Network Performance Issues in Minneapolis, US datacenter (MSP)
 - Source: Cloudflare Status
 - Category: incidents
@@ -24,6 +36,18 @@
 - URL: https://www.cloudflarestatus.com/incidents/nhbmmcrzhpzk
 - Summary: Mar 27, 18:00 UTCResolved - Cloudflare identified an increase in 5xx errors with our CDN service in Fortaleza, Brazil datacenter (FOR). Users may have experienced an increase in errors between 18:17 UTC and 18:39 UTC on March 27, 2026.
 
+### Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html
+- Summary: Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update. The development was first reported by MacRumors. "Apple is aware of attacks targeting out-of-date iOS software,...
+
+### TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html
+- Summary: TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data. The two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March...
+
 ### Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account
 - Source: Security Week
 - Category: security
@@ -36,6 +60,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/6hsss7v8qb2m
 - Summary: Mar 27, 15:39 UTCResolved - Cloudflare has identified and resolved an issue impacting the Cloudflare Pages API, Pages Builds and Workers Builds.Customers may have seen impact from 27th March 15:00 UTC to 15:29 UTCDeployed Workers and Pages projects are unaffected
 
+### In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/
+- Summary: Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions. The post In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline appeared first on SecurityWeek.
+
 ### ClawPhone: Redefining the Smartphone as a Living AI Agent——the first native Android app for OpenClaw
 - Source: Pandaily
 - Category: chinese-ai
@@ -47,6 +77,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html
 - Summary: Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry. "The pipeline had a single...
+
+### OpenAI Launches Bug Bounty Program for Abuse and Safety Risks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/
+- Summary: Through the new program, OpenAI will reward reports covering design or implementation issues leading to material harm. The post OpenAI Launches Bug Bounty Program for Abuse and Safety Risks appeared first on SecurityWeek.
 
 ### The Download: the internet’s best weather app, and why people freeze their brains
 - Source: MIT Tech Review AI
@@ -270,6 +306,96 @@
 - URL: https://arxiv.org/abs/2603.24797
 - Summary: arXiv:2603.24797v1 Announce Type: new Abstract: To fully capture the meaning of a sentence, semantic representations should encode aspect, which describes the internal temporal structure of events. In graph-based meaning representation frameworks such as Uniform Meaning Representations (UMR),...
 
+### Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2603.24768
+- Summary: arXiv:2603.24768v1 Announce Type: new Abstract: The engineering design research community has studied agentic AI systems that use Large Language Model (LLM) agents to automate the engineering design process. However, these systems are prone to some of the same pathologies that plague humans. Just...
+
+### ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2603.24787
+- Summary: arXiv:2603.24787v1 Announce Type: new Abstract: Routing has emerged as a promising strategy for balancing performance and cost in large language model (LLM) systems that combine lightweight models with powerful but expensive large models. Recent studies show that \emph{probe routing}, which...
+
+### Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2603.24853
+- Summary: arXiv:2603.24853v1 Announce Type: new Abstract: Ethical debates in AI have primarily focused on back-end issues such as data governance, model training, and algorithmic decision-making. Less attention has been paid to the ethical significance of front-end design choices, such as the interaction and...
+
+### SentinelAI: A Multi-Agent Framework for Structuring and Linking NG9-1-1 Emergency Incident Data
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2603.24856
+- Summary: arXiv:2603.24856v1 Announce Type: new Abstract: Emergency response systems generate data from many agencies and systems. In practice, correlating and updating this information across sources in a way that aligns with Next Generation 9-1-1 data standards remains challenging. Ideally, this data...
+
+### How Far Are Vision-Language Models from Constructing the Real World? A Benchmark for Physical Generative Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2603.24866
+- Summary: arXiv:2603.24866v1 Announce Type: new Abstract: The physical world is not merely visual; it is governed by rigorous structural and procedural constraints. Yet, the evaluation of vision-language models (VLMs) remains heavily skewed toward perceptual realism, prioritizing the generation of visually...
+
+### Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2603.24647
+- Summary: arXiv:2603.24647v1 Announce Type: new Abstract: The autoresearch repository enables an LLM agent to search for optimal hyperparameter configurations on an unconstrained search space by editing the training code directly. Given a fixed compute budget and constraints, we use \emph{autoresearch} as a...
+
+### Energy-Efficient Hierarchical Federated Anomaly Detection for the Internet of Underwater Things via Selective Cooperative Aggregation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2603.24648
+- Summary: arXiv:2603.24648v1 Announce Type: new Abstract: Anomaly detection is a core service in the Internet of Underwater Things, yet training accurate distributed models underwater is difficult because acoustic links are low-bandwidth, energy-intensive, and often unable to support direct sensor-to-surface...
+
+### Amplified Patch-Level Differential Privacy for Free via Random Cropping
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2603.24695
+- Summary: arXiv:2603.24695v1 Announce Type: new Abstract: Random cropping is one of the most common data augmentation techniques in computer vision, yet the role of its inherent randomness in training differentially private machine learning models has thus far gone unexplored. We observe that when sensitive...
+
+### Training LLMs for Multi-Step Tool Orchestration with Constrained Data Synthesis and Graduated Rewards
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2603.24709
+- Summary: arXiv:2603.24709v1 Announce Type: new Abstract: Multi-step tool orchestration, where LLMs must invoke multiple dependent APIs in the correct order while propagating intermediate outputs, remains challenging. State-of-the-art models frequently fail on full sequence execution, with parameter value...
+
+### Can an Actor-Critic Optimization Framework Improve Analog Design Optimization?
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2603.24714
+- Summary: arXiv:2603.24714v1 Announce Type: new Abstract: Analog design often slows down because even small changes to device sizes or biases require expensive simulation cycles, and high-quality solutions typically occupy only a narrow part of a very large search space. While existing optimizers reduce some...
+
+### Synthetic Rewriting as a Quality Multiplier: Evidence from Portuguese Continued Pretraining
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2603.24826
+- Summary: arXiv:2603.24826v1 Announce Type: new Abstract: Synthetic data generation through document rewriting has emerged as a promising technique for improving language model pretraining, yet most studies focus on English and do not systematically control for the quality of the source data being rewritten....
+
+### Prune as You Generate: Online Rollout Pruning for Faster and Better RLVR
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2603.24840
+- Summary: arXiv:2603.24840v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, methods such as GRPO and DAPO suffer from substantial computational cost, since they rely on sampling...
+
+### LogSigma at SemEval-2026 Task 3: Uncertainty-Weighted Multitask Learning for Dimensional Aspect-Based Sentiment Analysis
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2603.24896
+- Summary: arXiv:2603.24896v1 Announce Type: new Abstract: This paper describes LogSigma, our system for SemEval-2026 Task 3: Dimensional Aspect-Based Sentiment Analysis (DimABSA). Unlike traditional Aspect-Based Sentiment Analysis (ABSA), which predicts discrete sentiment labels, DimABSA requires predicting...
+
+### Estimating near-verbatim extraction risk in language models with decoding-constrained beam search
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2603.24917
+- Summary: arXiv:2603.24917v1 Announce Type: new Abstract: Recent work shows that standard greedy-decoding extraction methods for quantifying memorization in LLMs miss how extraction risk varies across sequences. Probabilistic extraction -- computing the probability of generating a target suffix given a...
+
+### Toward domain-specific machine translation and quality estimation systems
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2603.24955
+- Summary: arXiv:2603.24955v1 Announce Type: new Abstract: Machine Translation (MT) and Quality Estimation (QE) perform well in general domains but degrade under domain mismatch. This dissertation studies how to adapt MT and QE systems to specialized domains through a set of data-focused contributions....
+
 ### [AINews] Everything is CLI
 - Source: Latent Space
 - Category: open-source
@@ -369,6 +495,12 @@
 - URL: https://tldr.takara.ai/p/2603.25499
 - Summary: Object detectors deployed in safety-critical environments can fail silently, e.g. missing pedestrians, workers, or other safety-critical objects without emitting any warning. Traditional Out Of Distribution (OOD) detection methods focus on identifying unfamiliar inputs, but do not directly predict...
 
+### Not a fragment, but the whole: Map-based evaluation of data-driven Fire Danger Index models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25469
+- Summary: A growing body of literature has focused on predicting wildfire occurrence using machine learning methods, capitalizing on high-resolution data and fire predictors that canonical process-based frameworks largely ignore. Standard evaluation metrics for an ML classifier, while important, provide a...
+
 ### Hightower Holding Data Breach Impacts 130,000
 - Source: Security Week
 - Category: security
@@ -410,6 +542,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cisco-patches-multiple-vulnerabilities-in-ios-software/
 - Summary: The high- and medium-severity flaws could lead to denial-of-service, secure boot bypass, information disclosure, and privilege escalation. The post Cisco Patches Multiple Vulnerabilities in IOS Software appeared first on SecurityWeek.
+
+### Supercharging Federated Intelligence Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25374
+- Summary: RAG typically assumes centralized access to documents, which breaks down when knowledge is distributed across private data silos. We propose a secure Federated RAG system built using Flower that performs local silo retrieval, while server-side aggregation and text generation run inside an attested,...
 
 ### Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception
 - Source: The Hacker News
@@ -464,6 +602,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.25241
 - Summary: Combinatorial optimization problems like the Traveling Salesman Problem are critical in industry yet NP-hard. Neural Combinatorial Optimization has shown promise, but its reliance on online reinforcement learning (RL) hampers deployment and underutilizes decades of algorithmic knowledge. We address...
+
+### Translation or Recitation? Calibrating Evaluation Scores for Machine Translation of Extremely Low-Resource Languages
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25222
+- Summary: The landscape of extremely low-resource machine translation (MT) is characterized by perplexing variability in reported performance, often making results across different language pairs difficult to contextualize. For researchers focused on specific language groups -- such as ancient languages --...
 
 ### CardioDiT: Latent Diffusion Transformers for 4D Cardiac MRI Synthesis
 - Source: HF Daily Papers
@@ -723,6 +867,12 @@
 - URL: https://www.latent.space/p/ainews-the-biggest-claude-launch
 - Summary: We thought about this carefully before choosing hyperbole; but it is warranted.
 
+### Distributed Real-Time Vehicle Control for Emergency Vehicle Transit: A Scalable Cooperative Method
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25000
+- Summary: Rapid transit of emergency vehicles is critical for saving lives and reducing property loss but often relies on surrounding ordinary vehicles to cooperatively adjust their driving behaviors. It is important to ensure rapid transit of emergency vehicles while minimizing the impact on ordinary...
+
 ### XPeng Unveils 2026 MONA M03 with Turing AI Chip and Enhanced Range
 - Source: Pandaily
 - Category: chinese-ai
@@ -752,6 +902,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kunlun-tech-s-mureka-v8-tops-global-ai-music-model-rankings
 - Summary: Chinese tech firm Kunlun Tech’s AI music model Mureka V8 has claimed the top spot in both vocal and instrumental categories on the Artificial Analysis benchmark, surpassing global rivals like Suno V4.5 and Udio v1.5 Allegro.
+
+### BiFM: Bidirectional Flow Matching for Few-Step Image Editing and Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.24942
+- Summary: Recent diffusion and flow matching models have demonstrated strong capabilities in image generation and editing by progressively removing noise through iterative sampling. While this enables flexible inversion for semantic-preserving edits, few-step sampling regimes suffer from poor forward process...
 
 ### Access for Infrastructure RDP intermittent connectivity issues
 - Source: Cloudflare Status
@@ -2867,160 +3023,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/alibaba-unveils-token-strategy-targets-100-billion-in-annual-cloud-and-ai-revenue-within-five-years
 - Summary: Alibaba is betting on a sweeping shift to the Token-driven AI economy, aiming to transform its cloud business into a $100 billion engine and redefine how markets value the company.
-
-### ADASPACE Achieves World’s First OpenClaw-Powered Space Computing Control of Ground Robots
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/adaspace-achieves-world-s-first-open-claw-powered-space-computing-control-of-ground-robots
-- Summary: A groundbreaking experiment by ADASPACE demonstrates, for the first time, how space-based AI computing can directly power and control robots on Earth through natural language.
-
-### Xiaomi Introduces New-Generation Xiaomi SU7 Series: The Driver's Car for a New Era
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-introduces-new-generation-xiaomi-su-7-series-the-driver-s-car-for-a-new-era
-- Summary: Xiaomi introduces the new-generation SU7, featuring comprehensive upgrades in design, comfort, and technology to deliver a more refined and premium driving experience.
-
-### DEAF: A Benchmark for Diagnostic Evaluation of Acoustic Faithfulness in Audio Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18048
-- Summary: arXiv:2603.18048v1 Announce Type: new Abstract: Recent Audio Multimodal Large Language Models (Audio MLLMs) demonstrate impressive performance on speech benchmarks, yet it remains unclear whether these models genuinely process acoustic signals or rely on text-based semantic inference. To...
-
-### Continually self-improving AI
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18073
-- Summary: arXiv:2603.18073v1 Announce Type: new Abstract: Modern language model-based AI systems are remarkably powerful, yet their capabilities remain fundamentally capped by their human creators in three key ways. First, although a model's weights can be updated via fine-tuning, acquiring new knowledge...
-
-### Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18085
-- Summary: arXiv:2603.18085v1 Announce Type: new Abstract: Recent incidents have highlighted alarming cases where human-AI interactions led to negative psychological outcomes, including mental health crises and even user harm. As LLMs serve as sources of guidance, emotional support, and even informal therapy,...
-
-### Adaptive Domain Models: Bayesian Evolution, Warm Rotation, and Principled Training for Geometric and Neuromorphic AI
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18104
-- Summary: arXiv:2603.18104v1 Announce Type: new Abstract: Prevailing AI training infrastructure assumes reverse-mode automatic differentiation over IEEE-754 arithmetic. The memory overhead of training relative to inference, optimizer complexity, and structural degradation of geometric properties through...
-
-### Don't Vibe Code, Do Skele-Code: Interactive No-Code Notebooks for Subject Matter Experts to Build Lower-Cost Agentic Workflows
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18122
-- Summary: arXiv:2603.18122v1 Announce Type: new Abstract: Skele-Code is a natural-language and graph-based interface for building workflows with AI agents, designed especially for less or non-technical users. It supports incremental, interactive notebook-style development, and each step is converted to code...
-
-### Frayed RoPE and Long Inputs: A Geometric Perspective
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18017
-- Summary: arXiv:2603.18017v1 Announce Type: new Abstract: Rotary Positional Embedding (RoPE) is a widely adopted technique for encoding position in language models, which, while effective, causes performance breakdown when input length exceeds training length. Prior analyses assert (rightly) that long inputs...
-
-### Engineering Verifiable Modularity in Transformers via Per-Layer Supervision
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18029
-- Summary: arXiv:2603.18029v1 Announce Type: new Abstract: Transformers resist surgical control. Ablating an attention head identified as critical for capitalization produces minimal behavioral change because distributed redundancy compensates for damage. This Hydra effect renders interpretability illusory:...
-
-### InfoMamba: An Attention-Free Hybrid Mamba-Transformer Model
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18031
-- Summary: arXiv:2603.18031v1 Announce Type: new Abstract: Balancing fine-grained local modeling with long-range dependency capture under computational constraints remains a central challenge in sequence modeling. While Transformers provide strong token mixing, they suffer from quadratic complexity, whereas...
-
-### Towards Differentiating Between Failures and Domain Shifts in Industrial Data Streams
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18032
-- Summary: arXiv:2603.18032v1 Announce Type: new Abstract: Anomaly and failure detection methods are crucial in identifying deviations from normal system operational conditions, which allows for actions to be taken in advance, usually preventing more serious damages. Long-lasting deviations indicate failures,...
-
-### Taming Epilepsy: Mean Field Control of Whole-Brain Dynamics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18035
-- Summary: arXiv:2603.18035v1 Announce Type: new Abstract: Controlling the high-dimensional neural dynamics during epileptic seizures remains a significant challenge due to the nonlinear characteristics and complex connectivity of the brain. In this paper, we propose a novel framework, namely...
-
-### Do Large Language Models Possess a Theory of Mind? A Comparative Evaluation Using the Strange Stories Paradigm
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.18007
-- Summary: arXiv:2603.18007v1 Announce Type: new Abstract: The study explores whether current Large Language Models (LLMs) exhibit Theory of Mind (ToM) capabilities -- specifically, the ability to infer others' beliefs, intentions, and emotions from text. Given that LLMs are trained on language data without...
-
-### TherapyGym: Evaluating and Aligning Clinical Fidelity and Safety in Therapy Chatbots
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.18008
-- Summary: arXiv:2603.18008v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for mental-health support; yet prevailing evaluation methods--fluency metrics, preference tests, and generic dialogue benchmarks--fail to capture the clinically critical dimensions of psychotherapy....
-
-### How Confident Is the First Token? An Uncertainty-Calibrated Prompt Optimization Framework for Large Language Model Classification and Understanding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.18009
-- Summary: arXiv:2603.18009v1 Announce Type: new Abstract: With the widespread adoption of large language models (LLMs) in natural language processing, prompt engineering and retrieval-augmented generation (RAG) have become mainstream to enhance LLMs' performance on complex tasks. However, LLMs generate...
-
-### Agentic Framework for Political Biography Extraction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.18010
-- Summary: arXiv:2603.18010v1 Announce Type: new Abstract: The production of large-scale political datasets typically demands extracting structured facts from vast piles of unstructured documents or web sources, a task that traditionally relies on expensive human experts and remains prohibitively difficult to...
-
-### Controllable Evidence Selection in Retrieval-Augmented Question Answering via Deterministic Utility Gating
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.18011
-- Summary: arXiv:2603.18011v1 Announce Type: new Abstract: Many modern AI question-answering systems convert text into vectors and retrieve the closest matches to a user question. While effective for topical similarity, similarity scores alone do not explain why some retrieved text can serve as evidence while...
-
-### Efficient Dense Crowd Trajectory Prediction Via Dynamic Clustering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18166
-- Summary: arXiv:2603.18166v1 Announce Type: new Abstract: Crowd trajectory prediction plays a crucial role in public safety and management, where it can help prevent disasters such as stampedes. Recent works address the problem by predicting individual trajectories and considering surrounding objects based...
-
-### TeachingCoach: A Fine-Tuned Scaffolding Chatbot for Instructional Guidance to Instructors
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18189
-- Summary: arXiv:2603.18189v1 Announce Type: new Abstract: Higher education instructors often lack timely and pedagogically grounded support, as scalable instructional guidance remains limited and existing tools rely on generic chatbot advice or non-scalable teaching center human-human consultations. We...
-
-### Access Controlled Website Interaction for Agentic AI with Delegated Critical Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18197
-- Summary: arXiv:2603.18197v1 Announce Type: new Abstract: Recent studies reveal gaps in delegating critical tasks to agentic AI that accesses websites on the user's behalf, primarily due to limited access control mechanisms on websites designed for agentic AI. In response, we propose a design of...
-
-### A Computationally Efficient Learning of Artificial Intelligence System Reliability Considering Error Propagation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18201
-- Summary: arXiv:2603.18201v1 Announce Type: new Abstract: Artificial Intelligence (AI) systems are increasingly prominent in emerging smart cities, yet their reliability remains a critical concern. These systems typically operate through a sequence of interconnected functional stages, where upstream errors...
-
-### Retrieval-Augmented LLM Agents: Learning to Learn from Experience
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.18272
-- Summary: arXiv:2603.18272v1 Announce Type: new Abstract: While large language models (LLMs) have advanced the development of general-purpose agents, achieving robust generalization to unseen tasks remains a significant challenge. Current approaches typically rely on either fine-tuning or training-free...
-
-### MST-Direct: Matching via Sinkhorn Transport for Multivariate Geostatistical Simulation with Complex Non-Linear Dependencies
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18036
-- Summary: arXiv:2603.18036v1 Announce Type: new Abstract: Multivariate geostatistical simulation requires the faithful reproduction of complex non-linear dependencies among geological variables, including bimodal distributions, step functions, and heteroscedastic relationships. Traditional methods such as...
-
-### Adapting Methods for Domain-Specific Japanese Small LMs: Scale, Architecture, and Quantization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18037
-- Summary: arXiv:2603.18037v1 Announce Type: new Abstract: This paper presents a systematic methodology for building domain-specific Japanese small language models using QLoRA fine-tuning. We address three core questions: optimal training scale, base-model selection, and architecture-aware quantization. Stage...
-
-### Quotient Geometry and Persistence-Stable Metrics for Swarm Configurations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18041
-- Summary: arXiv:2603.18041v1 Announce Type: new Abstract: Swarm and constellation reconfiguration can be viewed as motion of an unordered point configuration in an ambient space. Here, we provide persistence-stable, symmetry-invariant geometric representations for comparing and monitoring multi-agent...
-
-### NANOZK: Layerwise Zero-Knowledge Proofs for Verifiable Large Language Model Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.18046
-- Summary: arXiv:2603.18046v1 Announce Type: new Abstract: When users query proprietary LLM APIs, they receive outputs with no cryptographic assurance that the claimed model was actually used. Service providers could substitute cheaper models, apply aggressive quantization, or return cached responses - all...
 
