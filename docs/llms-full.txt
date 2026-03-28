@@ -6,6 +6,24 @@
 
 ## 2026-03-28
 
+### Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/
+- Summary: The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer. The post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.
+
+### Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html
+- Summary: A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to...
+
+### A woman’s uterus has been kept alive outside the body for the first time
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/28/1134766/womans-uterus-kept-alive-outside-the-body-first/
+- Summary: “Think of this as a human body,” says Javier González. In front of me is essentially a metal box on wheels. Standing at around a meter in height, it reminds me of a stainless-steel counter in a restaurant kitchen. It is covered in flexible plastic tubing—which act as veins and arteries—connecting a...
+
 ### TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign
 - Source: The Hacker News
 - Category: security
@@ -429,6 +447,11 @@
 - URL: https://status.claude.com/incidents/vcp3jwhttwrg
 - Summary: Mar 27, 00:49 UTCResolved - This incident has been resolved.Mar 26, 23:06 UTCIdentified - We have identified an issue resulting in a low rate of errors on requests to Claude Opus 4.6 and Sonnet 4.6, we are continuing to work to fully resolve this issue and will provide additional updates.Mar 26,...
 
+### Liberate your OpenClaw
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/liberate-your-openclaw
+
 
 ## 2026-03-26
 
@@ -611,6 +634,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/coruna-ios-kit-reuses-2023.html
 - Summary: The kernel exploit for two security vulnerabilities used in the recently uncovered Apple iOS exploit kit known as Coruna is an updated version of the same exploit that was used in the Operation Triangulation campaign back in 2023, according to new findings from Kaspersky. "When Coruna was first...
+
+### SliderQuant: Accurate Post-Training Quantization for LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.25284
+- Summary: In this paper, we address post-training quantization (PTQ) for large language models (LLMs) from an overlooked perspective: given a pre-trained high-precision LLM, the predominant sequential quantization framework treats different layers equally, but this may be not optimal in challenging bit-width...
 
 ### Alleged RedLine Malware Administrator Extradited to US
 - Source: Security Week
@@ -1950,6 +1979,12 @@
 - URL: https://tldr.takara.ai/p/2603.22977
 - Summary: Dari, the primary language of Afghanistan, is spoken by tens of millions of people yet remains largely absent from the misinformation detection literature. We address this gap with DariMis, the first manually annotated dataset of 9,224 Dari-language YouTube videos, labeled across two dimensions:...
 
+### VLGOR: Visual-Language Knowledge Guided Offline Reinforcement Learning for Generalizable Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22892
+- Summary: Combining Large Language Models (LLMs) with Reinforcement Learning (RL) enables agents to interpret language instructions more effectively for task execution. However, LLMs typically lack direct perception of the physical environment, which limits their understanding of environmental dynamics and...
+
 ### TreeTeaming: Autonomous Red-Teaming of Vision-Language Models via Hierarchical Strategy Exploration
 - Source: HF Daily Papers
 - Category: open-source
@@ -2214,6 +2249,12 @@
 - URL: https://arxiv.org/abs/2603.20219
 - Summary: arXiv:2603.20219v1 Announce Type: new Abstract: Autoregressive language models trained with next-token prediction generate text by sampling one discrete token at a time. Although very scalable, this objective forces the model to commit at every step, preventing it from exploring or reflecting upon...
 
+### HyFI: Hyperbolic Feature Interpolation for Brain-Vision Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22721
+- Summary: Recent progress in artificial intelligence has encouraged numerous attempts to understand and decode human visual system from brain signals. These prior works typically align neural activity independently with semantic and perceptual features extracted from images using pre-trained vision models....
+
 ### Increase in AI Gateway errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -2269,6 +2310,12 @@
 
 
 ## 2026-03-23
+
+### Privacy-Preserving Reinforcement Learning from Human Feedback via Decoupled Reward Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22563
+- Summary: Preference-based fine-tuning has become an important component in training large language models, and the data used at this stage may contain sensitive user information. A central question is how to design a differentially private pipeline that is well suited to the distinct structure of...
 
 ### Request Trace is failing for some requests
 - Source: Cloudflare Status
@@ -2894,6 +2941,12 @@
 - URL: https://status.snowflake.com/incidents/p3x136d3mcsp
 - Summary: Mar 21, 07:12 UTCResolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
 
+### Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.20607
+- Summary: Vision-Language-Action (VLA) models show strong generalization for robotic control, but finetuning them with reinforcement learning (RL) is constrained by the high cost and safety risks of real-world interaction. Training VLA models in interactive world models avoids these issues but introduces...
+
 ### Elevated error rates on Claude Opus and Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -2972,58 +3025,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/y1blz4n4bfcb
 - Summary: Mar 20, 12:17 UTCUpdate - We are continuing for work on a fix for this issueMar 20, 11:21 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 20, 11:09 UTCInvestigating - Cloudflare is investigating issues with Network Performance for customers in the Jakarta areaWe are...
-
-### OpenAI is throwing everything into building a fully automated researcher
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/
-- Summary: OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself....
-
-### Cape Raises $100 Million for Protection Against Cellular Security Threats
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cape-raises-100-million-for-protection-against-cellular-security-threats/
-- Summary: Cape offers a privacy-focused mobile virtual network operator (MVNO) service for consumers, enterprises, and governments. The post Cape Raises $100 Million for Protection Against Cellular Security Threats appeared first on SecurityWeek.
-
-### Navia Data Breach Impacts 2.7 Million
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/navia-data-breach-impacts-2-7-million/
-- Summary: Between late December 2025 and mid-January 2026, hackers stole personal and health plan information from Navia’s environment. The post Navia Data Breach Impacts 2.7 Million appeared first on SecurityWeek.
-
-### Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html
-- Summary: Google on Thursday announced a new "advanced flow" for Android sideloading that requires a mandatory 24-hour wait period to install apps from unverified developers in an attempt to balance openness with safety. The new changes come against the backdrop of a developer verification mandate the tech...
-
-### Thousands of Magento Sites Hit in Ongoing Defacement Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/thousands-of-magento-sites-hit-in-ongoing-defacement-campaign/
-- Summary: The attacks started on February 27 and have targeted e-commerce platforms, global brands, and government services. The post Thousands of Magento Sites Hit in Ongoing Defacement Campaign appeared first on SecurityWeek.
-
-### The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html
-- Summary: Artificial Intelligence (AI) is changing how individuals and organizations conduct many activities, including how cybercriminals carry out phishing attacks and iterate on malware. Now, cybercriminals are using AI to generate personalized phishing emails, deepfakes and malware that evade traditional...
-
-### SynapX Raises Nearly $50 Million in Seed Round Within Two Months of Founding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/synap-x-raises-nearly-50-million-in-seed-round-within-two-months-of-founding
-- Summary: SynapX raises nearly $50 million just weeks after launch, positioning itself as a key player in advancing Physical AGI and embodied intelligence.
-
-### Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html
-- Summary: Sansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover. The vulnerability has been codenamed PolyShell by Sansec owing to the fact that the attack hinges on...
-
-### Horizon Robotics Reports $546 Million Revenue in 2025, Accelerating ADAS Adoption
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/horizon-robotics-reports-546-million-revenue-in-2025-accelerating-adas-adoption
-- Summary: Horizon Robotics reports strong 2025 growth, driven by rising demand for ADAS chips and its push to bring advanced driving technology to the mass market.
 
