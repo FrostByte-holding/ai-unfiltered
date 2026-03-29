@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-03-29
+
+### Dispatch sessions not responding in Claude Desktop
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/q5qk1234v205
+- Summary: Mar 29, 00:53 UTCIdentified - We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation. We have identified the cause and are working...
+
+
 ## 2026-03-28
 
 ### Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack
@@ -2362,6 +2371,12 @@
 - URL: https://tldr.takara.ai/p/2603.22665
 - Summary: The standard practice in Large Language Models (LLMs) is to base predictions on the final-layer token representations. Recent studies, however, show that intermediate layers encode substantial information, which may contain more task-relevant features than the final-layer representations alone....
 
+### Large-Scale Avalanche Mapping from SAR Images with Deep Learning-based Change Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22658
+- Summary: Accurate change detection from satellite imagery is essential for monitoring rapid mass-movement hazards such as snow avalanches, which increasingly threaten human life, infrastructure, and ecosystems due to their rising frequency and intensity. This study presents a systematic investigation of...
+
 
 ## 2026-03-23
 
@@ -2484,6 +2499,12 @@
 - Category: security
 - URL: https://www.securityweek.com/m-trends-2026-initial-access-handoff-shrinks-from-hours-to-22-seconds/
 - Summary: The latest M-Trends report is based on insights from over 500,000 hours of Mandiant incident response investigations in 2025. The post M-Trends 2026: Initial Access Handoff Shrinks From Hours to 22 Seconds appeared first on SecurityWeek.
+
+### On the Failure of Topic-Matched Contrast Baselines in Multi-Directional Refusal Abliteration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22061
+- Summary: Inasmuch as the removal of refusal behavior from instruction-tuned language models by directional abliteration requires the extraction of refusal-mediating directions from the residual stream activation space, and inasmuch as the construction of the contrast baseline against which harmful prompt...
 
 ### Uncertainty-guided Compositional Alignment with Part-to-Whole Semantic Representativeness in Hyperbolic Vision-Language Models
 - Source: HF Daily Papers
@@ -3006,25 +3027,4 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/p3x136d3mcsp
 - Summary: Mar 21, 07:12 UTCResolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
-
-### Towards Practical World Model-based Reinforcement Learning for Vision-Language-Action Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.20607
-- Summary: Vision-Language-Action (VLA) models show strong generalization for robotic control, but finetuning them with reinforcement learning (RL) is constrained by the high cost and safety risks of real-world interaction. Training VLA models in interactive world models avoids these issues but introduces...
-
-### Elevated error rates on Claude Opus and Sonnet 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/tj7zxr47cfx6
-- Summary: Mar 21, 01:42 UTCResolved - This incident has been resolved.Mar 21, 00:58 UTCUpdate - We have observed success rates return to normal for Claude Opus 4.6, and are working to fully resolve elevated errors for Claude Sonnet 4.6.Mar 21, 00:17 UTCIdentified - We have identified an issue resulting in...
-
-
-## 2026-03-20
-
-### Dreamer: the Personal Agent OS — David Singleton
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/dreamer
-- Summary: /dev/agents is out of stealth as Dreamer, and the vision is staggeringly ambitious. $10,000 prizes for new tools and Special access for Latent Space subscribers!
 
