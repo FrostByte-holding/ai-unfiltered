@@ -6,6 +6,24 @@
 
 ## 2026-03-30
 
+### There are more AI health tools than ever—but how well do they work?
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/
+- Summary: Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted...
+
+### DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html
+- Summary: A new campaign has leveraged the ClickFix social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad. "It likely uses AI-assisted obfuscation and process injection to evade static scanning, while credential theft starts immediately and captures...
+
+### ⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html
+- Summary: Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped being theoretical right around the time defenders stopped paying attention. There's a bit of everything...
+
 ### Elevated delays in Actions workflow runs and Pull Request status updates
 - Source: GitHub Status
 - Category: incidents
@@ -380,6 +398,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/claw-phone-redefining-the-smartphone-as-a-living-ai-agent-the-first-native-android-app-for-open-claw-1
 - Summary: ClawPhone, the first native Android app for the OpenClaw framework, transforms smartphones into autonomous AI agents capable of cross-app automation, smart home control, and emotionally aware interactions—all without requiring OS root access.
+
+### Meta-Learned Adaptive Optimization for Robust Human Mesh Recovery with Uncertainty-Aware Parameter Updates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.26447
+- Summary: Human mesh recovery from single images remains challenging due to inherent depth ambiguity and limited generalization across domains. While recent methods combine regression and optimization approaches, they struggle with poor initialization for test-time refinement and inefficient parameter...
 
 ### Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks
 - Source: The Hacker News
@@ -2405,6 +2429,12 @@
 - URL: https://status.openai.com//incidents/01KMEZM1ETZZREZ5N61MSXTH4C
 - Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components File uploads (Degraded performance)
 
+### Predictive Photometric Uncertainty in Gaussian Splatting for Novel View Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22786
+- Summary: Recent advances in 3D Gaussian Splatting have enabled impressive photorealistic novel view synthesis. However, to transition from a pure rendering engine to a reliable spatial map for autonomous agents and safety-critical applications, knowing where the representation is uncertain is as important...
+
 ### AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization
 - Source: arXiv AI
 - Category: research
@@ -2653,6 +2683,12 @@
 
 ## 2026-03-23
 
+### Learning to Trust: How Humans Mentally Recalibrate AI Confidence Signals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.22634
+- Summary: Productive human-AI collaboration requires appropriate reliance, yet contemporary AI systems are often miscalibrated, exhibiting systematic overconfidence or underconfidence. We investigate whether humans can learn to mentally recalibrate AI confidence signals through repeated experience. In a...
+
 ### To Agree or To Be Right? The Grounding-Sycophancy Tradeoff in Medical Vision-Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -2893,6 +2929,12 @@
 - URL: https://tldr.takara.ai/p/2603.21784
 - Summary: Burst image restoration aims to reconstruct a high-quality image from burst images, which are typically captured using manually designed exposure settings. Although these exposure settings significantly influence the final restoration performance, the problem of finding optimal exposure settings...
 
+### Extending Precipitation Nowcasting Horizons via Spectral Fusion of Radar Observations and Foundation Model Priors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.21768
+- Summary: Precipitation nowcasting is critical for disaster mitigation and aviation safety. However, radar-only models frequently suffer from a lack of large-scale atmospheric context, leading to performance degradation at longer lead times. While integrating meteorological variables predicted by weather...
+
 ### Model selection in hybrid quantum neural networks with applications to quantum transformer architectures
 - Source: HF Daily Papers
 - Category: open-source
@@ -2982,46 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
 - Summary: Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's...
-
-### When Visuals Aren't the Problem: Evaluating Vision-Language Models on Misleading Data Visualizations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.22368
-- Summary: Visualizations help communicate data insights, but deceptive data representations can distort their interpretation and propagate misinformation. While recent Vision Language Models (VLMs) perform well on many chart understanding tasks, their ability to detect misleading visualizations, especially...
-
-### Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracle-releases-emergency-patch-for-critical-identity-manager-vulnerability/
-- Summary: CVE-2026-21992 can be used without authentication for remote code execution and it may have been exploited in the wild. The post Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability appeared first on SecurityWeek.
-
-### Rethinking Visual Privacy: A Compositional Privacy Risk Framework for Severity Assessment with VLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.21573
-- Summary: Existing visual privacy benchmarks largely treat privacy as a binary property, labeling images as private or non-private based on visible sensitive content. We argue that privacy is fundamentally compositional. Attributes that are benign in isolation may combine to produce severe privacy...
-
-### When both Grounding and not Grounding are Bad -- A Partially Grounded Encoding of Planning into SAT (Extended Version)
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.19429
-- Summary: arXiv:2603.19429v1 Announce Type: new Abstract: Classical planning problems are typically defined using lifted first-order representations, which offer compactness and generality. While most planners ground these representations to simplify reasoning, this can cause an exponential blowup in size....
-
-### Hyperagents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.19461
-- Summary: arXiv:2603.19461v1 Announce Type: new Abstract: Self-improving AI systems aim to reduce reliance on human engineering by learning to improve their own learning and problem-solving processes. Existing approaches to self-improvement rely on fixed, handcrafted meta-level mechanisms, fundamentally...
-
-### Teaching an Agent to Sketch One Part at a Time
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.19500
-- Summary: arXiv:2603.19500v1 Announce Type: new Abstract: We develop a method for producing vector sketches one part at a time. To do this, we train a multi-modal language model-based agent using a novel multi-turn process-reward reinforcement learning following supervised fine-tuning. Our approach is...
-
-### Learning to Disprove: Formal Counterexample Generation with Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.19514
-- Summary: arXiv:2603.19514v1 Announce Type: new Abstract: Mathematical reasoning demands two critical, complementary skills: constructing rigorous proofs for true statements and discovering counterexamples that disprove false ones. However, current AI efforts in mathematics focus almost exclusively on proof...
 
