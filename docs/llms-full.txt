@@ -6,6 +6,24 @@
 
 ## 2026-03-31
 
+### Elevated Error Rate for R2 APAC Buckets
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4kwswvyf0m0w
+- Summary: Mar 31, 20:34 UTCInvestigating - Some customers may have experienced elevated error rates accessing R2 buckets in the APAC region. We are investigating the issue and will provide updates as more information becomes available.
+
+### Unavailable connectors in Claude.ai desktop applications
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/z5scppyhphjk
+- Summary: Mar 31, 20:12 UTCIdentified - We have identified an issue which has resulted in some Claude.ai connectors becoming unavailable within the desktop application. We are working to restore access to these extensions, and will provide an update as soon as possible.
+
+### Opus 4.6 error rate elevated
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/65w1yxq40m3l
+- Summary: Mar 31, 19:41 UTCIdentified - The issue has been identified and a fix is being implemented.
+
 ### Incident with Pull Requests: High percentage of 500s
 - Source: GitHub Status
 - Category: incidents
@@ -307,6 +325,12 @@
 - URL: https://tldr.takara.ai/p/2603.28750
 - Summary: Recurrent networks do not need Jacobian propagation to adapt online. The hidden state already carries temporal credit through the forward pass; immediate derivatives suffice if you stop corrupting them with stale trace memory and normalize gradient scales across parameter groups. An architectural...
 
+### SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28731
+- Summary: Modern distributed systems integrate heterogeneous services, REST APIs with different schema versions, GraphQL endpoints, and IoT devices with proprietary payloads that suffer from persistent schema mismatches. Traditional static adapters require manual coding for every schema pair and cannot...
+
 ### Stepwise Credit Assignment for GRPO on Flow-Matching Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -517,6 +541,12 @@
 - URL: https://tldr.takara.ai/p/2603.28066
 - Summary: Generative agent simulations operate at two scales: individual personas for character interaction, and population models for collective behavior analysis and intervention testing. We propose a third scale: meso-level simulation - interaction with group-level representations that retain grounding in...
 
+### \textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28064
+- Summary: This paper addresses the problem of dynamic scene surface reconstruction using Gaussian Splatting (GS), aiming to recover temporally consistent geometry. While existing GS-based dynamic surface reconstruction methods can yield superior reconstruction, they are typically limited to either a single...
+
 ### Who Wrote the Book? Detecting and Attributing LLM Ghostwriters
 - Source: HF Daily Papers
 - Category: open-source
@@ -534,6 +564,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.28046
 - Summary: Dogfight is a tactical behavior of cooperation between fighters. Inspired by this, this paper proposes a novel metaphor-free metaheuristic algorithm called Dogfight Search (DoS). Unlike traditional algorithms, DoS draws algorithmic framework from the inspiration, but its search mechanism is...
+
+### Event6D: Event-based Novel Object 6D Pose Tracking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28045
+- Summary: Event cameras provide microsecond latency, making them suitable for 6D object pose tracking in fast, dynamic scenes where conventional RGB and depth pipelines suffer from motion blur and large pixel displacements. We introduce EventTrack6D, an event-depth tracking framework that generalizes to...
 
 ### Physically Inspired Gaussian Splatting for HDR Novel View Synthesis
 - Source: HF Daily Papers
@@ -750,6 +786,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/meituan-open-sources-native-multimodal-model-long-cat-next
 - Summary: A truly native multimodal model, LongCat-Next unifies text, vision, and audio as tokens within a single architecture.
+
+### ForestSim: A Synthetic Benchmark for Intelligent Vehicle Perception in Unstructured Forest Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.27923
+- Summary: Robust scene understanding is essential for intelligent vehicles operating in natural, unstructured environments. While semantic segmentation datasets for structured urban driving are abundant, the datasets for extremely unstructured wild environments remain scarce due to the difficulty and cost of...
+
+### ITQ3_S: High-Fidelity 3-bit LLM Inference via Interleaved Ternary Quantization with Rotation-Domain Smoothing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.27914
+- Summary: We present \textbf{ITQ3\_S} (Interleaved Ternary Quantization -- Specialized), a novel 3-bit weight quantization format for large language models (LLMs) that integrates \textbf{TurboQuant (TQ)}, a rotation-domain adaptive quantization strategy based on the Fast Walsh-Hadamard Transform (FWHT)....
 
 
 ## 2026-03-29
@@ -2975,52 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.22813
 - Summary: Humans often juggle multiple, sometimes conflicting objectives and shift their priorities as circumstances change, rather than following a fixed objective function. In contrast, most computational decision-making and multi-objective RL methods assume static preference weights or a known scalar...
-
-### ABSTRAL: Automatic Design of Multi-Agent Systems Through Iterative Refinement and Topology Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.22791
-- Summary: How should multi-agent systems be designed, and can that design knowledge be captured in a form that is inspectable, revisable, and transferable? We introduce ABSTRAL, a framework that treats MAS architecture as an evolving natural-language document, an artifact refined through contrastive trace...
-
-### Some customer may encounter errors creating, updating projects, and uploading files
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KMEZM1ETZZREZ5N61MSXTH4C
-- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components File uploads (Degraded performance)
-
-### Predictive Photometric Uncertainty in Gaussian Splatting for Novel View Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.22786
-- Summary: Recent advances in 3D Gaussian Splatting have enabled impressive photorealistic novel view synthesis. However, to transition from a pure rendering engine to a reliable spatial map for autonomous agents and safety-critical applications, knowing where the representation is uncertain is as important...
-
-### AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20213
-- Summary: arXiv:2603.20213v1 Announce Type: new Abstract: Generative search engines represent a transition from traditional ranking-based retrieval to Large Language Model (LLM)-based synthesis, transforming optimization goals from ranking prominence towards content inclusion. Generative Engine Optimization...
-
-### ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20260
-- Summary: arXiv:2603.20260v1 Announce Type: new Abstract: The integration of Large Language Models into Multi-Agent Systems (MAS) has enabled the so-lution of complex, long-horizon tasks through collaborative reasoning. However, this collec-tive intelligence is inherently fragile, as a single logical fallacy...
-
-### Domain-Specialized Tree of Thought through Plug-and-Play Predictors
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20267
-- Summary: arXiv:2603.20267v1 Announce Type: new Abstract: While Large Language Models (LLMs) have advanced complex reasoning, prominent methods like the Tree of Thoughts (ToT) framework face a critical trade-off between exploration depth and computational efficiency. Existing ToT implementations often rely...
-
-### FactorSmith: Agentic Simulation Generation via Markov Decision Process Decomposition with Planner-Designer-Critic Refinement
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20270
-- Summary: arXiv:2603.20270v1 Announce Type: new Abstract: Generating executable simulations from natural language specifications remains a challenging problem due to the limited reasoning capacity of large language models (LLMs) when confronted with large, interconnected codebases. This paper presents...
-
-### Me, Myself, and $\pi$ : Evaluating and Explaining LLM Introspection
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20276
-- Summary: arXiv:2603.20276v1 Announce Type: new Abstract: A hallmark of human intelligence is Introspection-the ability to assess and reason about one's own cognitive processes. Introspection has emerged as a promising but contested capability in large language models (LLMs). However, current evaluations...
 

@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 31 Mar 2026 17:01:02 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 20:46:30 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Elevated Error Rate for R2 APAC Buckets</title>
+            <link>https://www.cloudflarestatus.com/incidents/4kwswvyf0m0w</link>
+            <guid>https://www.cloudflarestatus.com/incidents/4kwswvyf0m0w</guid>
+            <pubDate>Tue, 31 Mar 2026 20:34:17 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/4kwswvyf0m0w">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Mar 31, 20:34 UTCInvestigating - Some customers may have experienced elevated error rates accessing R2 buckets in the APAC region. We are investigating the issue and will provide updates as more information becomes available.</description>
+        </item>
+        <item>
+            <title>Unavailable connectors in Claude.ai desktop applications</title>
+            <link>https://status.claude.com/incidents/z5scppyhphjk</link>
+            <guid>https://status.claude.com/incidents/z5scppyhphjk</guid>
+            <pubDate>Tue, 31 Mar 2026 20:12:05 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/z5scppyhphjk">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Mar 31, 20:12 UTCIdentified - We have identified an issue which has resulted in some Claude.ai connectors becoming unavailable within the desktop application. We are working to restore access to these extensions, and will provide an update as soon as possible.</description>
+        </item>
+        <item>
+            <title>Opus 4.6 error rate elevated</title>
+            <link>https://status.claude.com/incidents/65w1yxq40m3l</link>
+            <guid>https://status.claude.com/incidents/65w1yxq40m3l</guid>
+            <pubDate>Tue, 31 Mar 2026 19:41:35 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/65w1yxq40m3l">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Mar 31, 19:41 UTCIdentified - The issue has been identified and a fix is being implemented.</description>
+        </item>
         <item>
             <title>Incident with Pull Requests: High percentage of 500s</title>
             <link>https://www.githubstatus.com/incidents/ml7wplmxbt5l</link>
@@ -405,6 +432,15 @@
             <description>Recurrent networks do not need Jacobian propagation to adapt online. The hidden state already carries temporal credit through the forward pass; immediate derivatives suffice if you stop corrupting them with stale trace memory and normalize gradient scales across parameter groups. An architectural...</description>
         </item>
         <item>
+            <title>SAGAI-MID: A Generative AI-Driven Middleware for Dynamic Runtime Interoperability</title>
+            <link>https://tldr.takara.ai/p/2603.28731</link>
+            <guid>https://tldr.takara.ai/p/2603.28731</guid>
+            <pubDate>Mon, 30 Mar 2026 17:46:41 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2603.28731">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Modern distributed systems integrate heterogeneous services, REST APIs with different schema versions, GraphQL endpoints, and IoT devices with proprietary payloads that suffer from persistent schema mismatches. Traditional static adapters require manual coding for every schema pair and cannot...</description>
+        </item>
+        <item>
             <title>Stepwise Credit Assignment for GRPO on Flow-Matching Models</title>
             <link>https://tldr.takara.ai/p/2603.28718</link>
             <guid>https://tldr.takara.ai/p/2603.28718</guid>
@@ -421,42 +457,6 @@
             <source url="https://tldr.takara.ai/p/2603.28716">HF Daily Papers</source>
             <category>open-source</category>
             <description>Agentic reinforcement learning (RL) can benefit substantially from reusable experience, yet existing skill-based methods mainly extract trajectory-level guidance and often lack principled mechanisms for maintaining an evolving skill memory. We propose D2Skill, a dynamic dual-granularity skill bank...</description>
-        </item>
-        <item>
-            <title>There are more AI health tools than ever—but how well do they work?</title>
-            <link>https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/</link>
-            <guid>https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/</guid>
-            <pubDate>Mon, 30 Mar 2026 16:00:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted...</description>
-        </item>
-        <item>
-            <title>The Pentagon’s culture war tactic against Anthropic has backfired</title>
-            <link>https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/</link>
-            <guid>https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/</guid>
-            <pubDate>Mon, 30 Mar 2026 15:42:50 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its...</description>
-        </item>
-        <item>
-            <title>Evolutionary Discovery of Reinforcement Learning Algorithms via Large Language Models</title>
-            <link>https://tldr.takara.ai/p/2603.28416</link>
-            <guid>https://tldr.takara.ai/p/2603.28416</guid>
-            <pubDate>Mon, 30 Mar 2026 13:28:01 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2603.28416">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Reinforcement learning algorithms are defined by their learning update rules, which are typically hand-designed and fixed. We present an evolutionary framework for discovering reinforcement learning algorithms by searching directly over executable update rules that implement complete training...</description>
-        </item>
-        <item>
-            <title>Elevated delays in Actions workflow runs and Pull Request status updates</title>
-            <link>https://www.githubstatus.com/incidents/c3ctbhdcvcc8</link>
-            <guid>https://www.githubstatus.com/incidents/c3ctbhdcvcc8</guid>
-            <pubDate>Mon, 30 Mar 2026 13:25:38 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/c3ctbhdcvcc8">GitHub Status</source>
-            <category>incidents</category>
-            <description>Mar 30, 13:25 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 30, 13:25 UTCUpdate - The degradation has been mitigated. We are monitoring to ensure...</description>
         </item>
     </channel>
 </rss>
