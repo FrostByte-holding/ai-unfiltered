@@ -6,6 +6,47 @@
 
 ## 2026-03-31
 
+### Incident with Pull Requests: High percentage of 500s
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/ml7wplmxbt5l
+- Summary: Mar 31, 16:35 UTCUpdate - We are seeing recovery in latency and timeouts of requests related to pull requests, even though 500s are still elevated. While we are continuing to investigate, we are applying a mitigation and expect further recovery after it is applied.Mar 31, 16:15 UTCUpdate - We are...
+
+### TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
+- Summary: A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia dubbed TrueChaos. The vulnerability in question is CVE-2026-3502 (CVSS score: 7.8), a lack of integrity...
+
+### Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-4-vision
+
+### Issues with metered billing report generation
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/2yb2tvwny50l
+- Summary: Mar 31, 15:10 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Mar 31, 15:01 UTCMonitoring - The degradation has been mitigated. We are monitoring to...
+
+### Elevated failures for some users joining ChatGPT Enterprise and ChatGPT Edu workspaces via SSO.
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KN2572VPZRK41ZVAVP9FS5JR
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational)
+
+### Shifting to AI model customization is an architectural imperative
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/
+- Summary: In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into incremental gains. The exception is domain-specialized intelligence, where true step-function...
+
+### Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html
+- Summary: Cybersecurity researchers have disclosed a security "blind spot" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain unauthorized access to sensitive data and compromise an organization's cloud environment. According to...
+
 ### The Download: AI health tools and the Pentagon’s Anthropic culture war
 - Source: MIT Tech Review AI
 - Category: research
@@ -17,6 +58,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/
 - Summary: For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of individual humans completing tasks.&#160; This...
+
+### NCSC warns of messaging app targeting
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/news/ncsc-warns-of-messaging-app-targeting
+- Summary: The NCSC has issued actions for individuals at risk of targeted attacks against messaging apps.
 
 ### Google Slashes Quantum Resource Requirements for Breaking Cryptocurrency Encryption
 - Source: Security Week
@@ -228,6 +275,11 @@
 - URL: https://www.latent.space/p/ainews-the-last-4-jobs-in-tech
 - Summary: a quiet day lets us examine an interesting mental model
 
+### TRL v1.0: Post-Training Library Built to Move with the Field
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/trl-v1
+
 
 ## 2026-03-30
 
@@ -248,6 +300,24 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
 - Summary: A previously unknown vulnerability in OpenAI ChatGPT allowed sensitive conversation data to be exfiltrated without user knowledge or consent, according to new findings from Check Point. "A single malicious prompt could turn an otherwise ordinary conversation into a covert exfiltration channel,...
+
+### Temporal Credit Is Free
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28750
+- Summary: Recurrent networks do not need Jacobian propagation to adapt online. The hidden state already carries temporal credit through the forward pass; immediate derivatives suffice if you stop corrupting them with stale trace memory and normalize gradient scales across parameter groups. An architectural...
+
+### Stepwise Credit Assignment for GRPO on Flow-Matching Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28718
+- Summary: Flow-GRPO successfully applies reinforcement learning to flow models, but uses uniform credit assignment across all steps. This ignores the temporal structure of diffusion generation: early steps determine composition and content (low-frequency structure), while late steps resolve details and...
+
+### Dynamic Dual-Granularity Skill Bank for Agentic RL
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28716
+- Summary: Agentic reinforcement learning (RL) can benefit substantially from reusable experience, yet existing skill-based methods mainly extract trajectory-level guidance and often lack principled mechanisms for maintaining an evolving skill memory. We propose D2Skill, a dynamic dual-granularity skill bank...
 
 ### There are more AI health tools than ever—but how well do they work?
 - Source: MIT Tech Review AI
@@ -446,6 +516,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.28066
 - Summary: Generative agent simulations operate at two scales: individual personas for character interaction, and population models for collective behavior analysis and intervention testing. We propose a third scale: meso-level simulation - interaction with group-level representations that retain grounding in...
+
+### Who Wrote the Book? Detecting and Attributing LLM Ghostwriters
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28054
+- Summary: In this paper, we introduce GhostWriteBench, a dataset for LLM authorship attribution. It comprises long-form texts (50K+ words per book) generated by frontier LLMs, and is designed to test generalisation across multiple out-of-distribution (OOD) dimensions, including domain and unseen LLM author....
+
+### Drift-AR: Single-Step Visual Autoregressive Generation via Anti-Symmetric Drifting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28049
+- Summary: Autoregressive (AR)-Diffusion hybrid paradigms combine AR's structured semantic modeling with diffusion's high-fidelity synthesis, yet suffer from a dual speed bottleneck: the sequential AR stage and the iterative multi-step denoising of the diffusion vision decode stage. Existing methods address...
 
 ### Dogfight Search: A Swarm-Based Optimization Algorithm for Complex Engineering Optimization and Mountainous Terrain Path Planning
 - Source: HF Daily Papers
@@ -2941,88 +3023,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.20276
 - Summary: arXiv:2603.20276v1 Announce Type: new Abstract: A hallmark of human intelligence is Introspection-the ability to assess and reason about one's own cognitive processes. Introspection has emerged as a promising but contested capability in large language models (LLMs). However, current evaluations...
-
-### JointFM-0.1: A Foundation Model for Multi-Target Joint Distributional Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.20266
-- Summary: arXiv:2603.20266v1 Announce Type: new Abstract: Despite the rapid advancements in Artificial Intelligence (AI), Stochastic Differential Equations (SDEs) remain the gold-standard formalism for modeling systems under uncertainty. However, applying SDEs in practice is fraught with challenges: modeling...
-
-### MARLIN: Multi-Agent Reinforcement Learning for Incremental DAG Discovery
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.20295
-- Summary: arXiv:2603.20295v1 Announce Type: new Abstract: Uncovering causal structures from observational data is crucial for understanding complex systems and making informed decisions. While reinforcement learning (RL) has shown promise in identifying these structures in the form of a directed acyclic...
-
-### Collaborative Adaptive Curriculum for Progressive Knowledge Distillation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.20296
-- Summary: arXiv:2603.20296v1 Announce Type: new Abstract: Recent advances in collaborative knowledge distillation have demonstrated cutting-edge performance for resource-constrained distributed multimedia learning scenarios. However, achieving such competitiveness requires addressing a fundamental mismatch:...
-
-### Transformer-Based Predictive Maintenance for Risk-Aware Instrument Calibration
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.20297
-- Summary: arXiv:2603.20297v1 Announce Type: new Abstract: Accurate calibration is essential for instruments whose measurements must remain traceable, reliable, and compliant over long operating periods. Fixed-interval programs are easy to administer, but they ignore that instruments drift at different rates...
-
-### Rolling-Origin Validation Reverses Model Rankings in Multi-Step PM10 Forecasting: XGBoost, SARIMA, and Persistence
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.20315
-- Summary: arXiv:2603.20315v1 Announce Type: new Abstract: (a) Many air quality forecasting studies report gains from machine learning, but evaluations often use static chronological splits and omit persistence baselines, so the operational added value under routine updating is unclear. (b) Using 2,350 daily...
-
-### Enhancing Safety of Large Language Models via Embedding Space Separation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.20206
-- Summary: arXiv:2603.20206v1 Announce Type: new Abstract: Large language models (LLMs) have achieved impressive capabilities, yet ensuring their safety against harmful prompts remains a critical challenge. Recent work has revealed that the latent representations (embeddings) of harmful and safe queries in...
-
-### RedacBench: Can AI Erase Your Secrets?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.20208
-- Summary: arXiv:2603.20208v1 Announce Type: new Abstract: Modern language models can readily extract sensitive information from unstructured text, making redaction -- the selective removal of such information -- critical for data security. However, existing benchmarks for redaction typically focus on...
-
-### Children's Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based Reasoning Benchmark for MLLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.20209
-- Summary: arXiv:2603.20209v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) combine the linguistic strengths of LLMs with the ability to process multimodal data, enbaling them to address a broader range of visual tasks. Because MLLMs aim at more general, human-like competence than...
-
-### CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.20210
-- Summary: arXiv:2603.20210v1 Announce Type: new Abstract: Masked Diffusion Models (MDMs) provide an efficient non-causal alternative to autoregressive generation but often struggle with token dependencies and semantic incoherence due to their reliance on discrete marginal distributions. We address these...
-
-### Fast-Slow Thinking RM: Efficient Integration of Scalar and Generative Reward Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.20212
-- Summary: arXiv:2603.20212v1 Announce Type: new Abstract: Reward models (RMs) are critical for aligning Large Language Models via Reinforcement Learning from Human Feedback (RLHF). While Generative Reward Models (GRMs) achieve superior accuracy through chain-of-thought (CoT) reasoning, they incur substantial...
-
-### AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20285
-- Summary: arXiv:2603.20285v1 Announce Type: new Abstract: Cooperative multi-agent methods for embodied AI are almost universally evaluated under idealized communication: zero latency, no packet loss, and unlimited bandwidth. Real-world deployment on robots with wireless links, autonomous vehicles on...
-
-### LLM-Enhanced Energy Contrastive Learning for Out-of-Distribution Detection in Text-Attributed Graphs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20293
-- Summary: arXiv:2603.20293v1 Announce Type: new Abstract: Text-attributed graphs, where nodes are enriched with textual attributes, have become a powerful tool for modeling real-world networks such as citation, social, and transaction networks. However, existing methods for learning from these graphs often...
-
-### Compression is all you need: Modeling Mathematics
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20396
-- Summary: arXiv:2603.20396v1 Announce Type: new Abstract: Human mathematics (HM), the mathematics humans discover and value, is a vanishingly small subset of formal mathematics (FM), the totality of all valid deductions. We argue that HM is distinguished by its compressibility through hierarchically nested...
-
-### Leveraging Natural Language Processing and Machine Learning for Evidence-Based Food Security Policy Decision-Making in Data-Scarce Making
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.20425
-- Summary: arXiv:2603.20425v1 Announce Type: new Abstract: Food security policy formulation in data-scarce regions remains a critical challenge due to limited structured datasets, fragmented textual reports, and demographic bias in decision-making systems. This study proposes ZeroHungerAI, an integrated...
 
