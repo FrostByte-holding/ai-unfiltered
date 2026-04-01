@@ -6,11 +6,52 @@
 
 ## 2026-04-01
 
+### Depthfirst Raises $80 Million in Series B Funding
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/depthfirst-raises-80-million-in-series-b-funding/
+- Summary: The startup will expand its AI research team, train additional security models, and scale enterprise adoption. The post Depthfirst Raises $80 Million in Series B Funding appeared first on SecurityWeek.
+
+### Holo3: Breaking the Computer Use Frontier
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Hcompany/holo3
+
+### GitHub audit logs are unavailable
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/00h92ct3ggvv
+- Summary: Apr 1, 16:10 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 1, 16:07 UTCUpdate - A routine credential rotation has failed for our our audit logs...
+
+### Disruption with GitHub's code search
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/xs2p9z3b73r3
+- Summary: Apr 1, 16:00 UTCUpdate - We identified an issue in our ingestion pipeline that degraded the freshness of Code Search results. While fixing the issue with the ingestion pipeline, a deployment caused a loss of dynamic configuration which is causing most requests for Code Search results to fail. We...
+
+### Toy Giant Hasbro Hit by Cyberattack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/
+- Summary: The company is investigating the full scope of the incident, including whether any files have been compromised. The post Toy Giant Hasbro Hit by Cyberattack appeared first on SecurityWeek.
+
+### Microsoft Warns of WhatsApp-Delivered VBS Malware Hijacking Windows via UAC Bypass
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/microsoft-warns-of-whatsapp-delivered.html
+- Summary: Microsoft is calling attention to a new campaign that has leveraged WhatsApp messages to distribute malicious Visual Basic Script (VBS) files. The activity, beginning in late February 2026, leverages these scripts to initiate a multi-stage infection chain for establishing persistence and enabling...
+
 ### Webinar Today: Agentic AI vs. Identity’s Last Mile Problem
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-agentic-ai-vs-identitys-last-mile-problem/
 - Summary: Join the webcast as we explore what Agentic AI can and cannot solve today, and real world breach scenarios linked to disconnected applications. The post Webinar Today: Agentic AI vs. Identity’s Last Mile Problem appeared first on SecurityWeek.
+
+### Block the Prompt, Not the Work: The End of "Doctor No"
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/block-prompt-not-work-end-of-doctor-no.html
+- Summary: There is a character that keeps appearing in enterprise security departments, and most CISOs know exactly who that is. It doesn&rsquo;t build. It doesn&rsquo;t enable. Its entire function is to say "No." No to ChatGPT. No to DeepSeek. No to the file-sharing tool the product team swears by. For...
 
 ### Incident with Copilot
 - Source: GitHub Status
@@ -421,6 +462,12 @@
 - URL: https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html
 - Summary: The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of attack, speed of exploitation, and speed of change across modern environments. This is the defining...
 
+### Can LLM Agents Identify Spoken Dialects like a Linguist?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29541
+- Summary: Due to the scarcity of labeled dialectal speech, audio dialect classification is a challenging task for most languages, including Swiss German. In this work, we explore the ability of large language models (LLMs) as agents in understanding the dialects and whether they can show comparable...
+
 ### StrongSwan Flaw Allows Unauthenticated Attackers to Crash VPNs
 - Source: Security Week
 - Category: security
@@ -445,11 +492,23 @@
 - URL: https://tldr.takara.ai/p/2603.29518
 - Summary: Conversational systems should generate diverse language forms to interact fluently and accurately with users. In this context, Natural Language Generation (NLG) engines convert Meaning Representations (MRs) into sentences, directly influencing user perception. These MRs usually encode the...
 
+### Metriplector: From Field Theory to Neural Architecture
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29496
+- Summary: We present Metriplector, a neural architecture primitive in which the input configures an abstract physical system -- fields, sources, and operators -- and the dynamics of that system is the computation. Multiple fields evolve via coupled metriplectic dynamics, and the stress-energy tensor...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/k3z0fjwdjkzl
 - Summary: Mar 31, 08:53 UTCInvestigating - Issue started at 1:33 PT / 8:53 UTC.
+
+### EarthEmbeddingExplorer: A Web Application for Cross-Modal Retrieval of Global Satellite Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29441
+- Summary: While the Earth observation community has witnessed a surge in high-impact foundation models and global Earth embedding datasets, a significant barrier remains in translating these academic assets into freely accessible tools. This tutorial introduces EarthEmbeddingExplorer, an interactive web...
 
 ### OPPO Schedules Find X9 Launch Event for April 21
 - Source: Pandaily
@@ -492,6 +551,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html
 - Summary: The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axios have been found to inject "plain-crypto-js" version 4.2.1 as a fake dependency. According to...
+
+### Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29252
+- Summary: Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (MLLMs). In this paper, we study this problem from the perspective of visual memory mechanism, and proposed a novel and training-free approach, termed \emph{Flexible Memory}...
 
 ### Monocular Building Height Estimation from PhiSat-2 Imagery: Dataset and Method
 - Source: HF Daily Papers
@@ -714,6 +779,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/giga-ai-s-giga-world-1-tops-global-world-model-benchmark
 - Summary: Chinese AI startup GigaAI has topped the WorldArena leaderboard with its GigaWorld-1 world model, outperforming tech giants like Google and Nvidia.
+
+### Designing FSMs Specifications from Requirements with GPT 4.0
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29140
+- Summary: Finite state machines (FSM) are executable formal specifications of reactive systems. These machines are designed based on systems' requirements. The requirements are often recorded in textual documents written in natural languages. FSMs play a crucial role in different phases of the model-driven...
 
 ### Economics of Human and AI Collaboration: When is Partial Automation More Attractive than Full Automation?
 - Source: HF Daily Papers
@@ -2950,76 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.22404
 - Summary: arXiv:2603.22404v1 Announce Type: new Abstract: Consider a market of competing model providers selling query access to models with varying costs and capabilities. Customers submit problem instances and are willing to pay up to a budget for a verifiable solution. An arbitrageur efficiently allocates...
-
-### Maximum Entropy Relaxation of Multi-Way Cardinality Constraints for Synthetic Population Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.22558
-- Summary: arXiv:2603.22558v1 Announce Type: new Abstract: Generating synthetic populations from aggregate statistics is a core component of microsimulation, agent-based modeling, policy analysis, and privacy-preserving data release. Beyond classical census marginals, many applications require matching...
-
-### AI Mental Models: Learned Intuition and Deliberation in a Bounded Neural Architecture
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.22561
-- Summary: arXiv:2603.22561v1 Announce Type: new Abstract: This paper asks whether a bounded neural architecture can exhibit a meaningful division of labor between intuition and deliberation on a classic 64-item syllogistic reasoning benchmark. More broadly, the benchmark is relevant to ongoing debates about...
-
-### Research on Individual Trait Clustering and Development Pathway Adaptation Based on the K-means Algorithm
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.22302
-- Summary: arXiv:2603.22302v1 Announce Type: new Abstract: With the development of information technology, the application of artificial intelligence and machine learning in the field of education shows great potential. This study aims to explore how to utilize K-means clustering algorithm to provide accurate...
-
-### Sample Transform Cost-Based Training-Free Hallucination Detector for Large Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.22303
-- Summary: arXiv:2603.22303v1 Announce Type: new Abstract: Hallucinations in large language models (LLMs) remain a central obstacle to trustworthy deployment, motivating detectors that are accurate, lightweight, and broadly applicable. Since an LLM with a prompt defines a conditional distribution, we argue...
-
-### Mitigating Premature Discretization with Progressive Quantization for Robust Vector Tokenization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.22304
-- Summary: arXiv:2603.22304v1 Announce Type: new Abstract: Vector Quantization (VQ) has become the cornerstone of tokenization for many multimodal Large Language Models and diffusion synthesis. However, existing VQ paradigms suffer from a fundamental conflict: they enforce discretization before the encoder...
-
-### CN-Buzz2Portfolio: A Chinese-Market Dataset and Benchmark for LLM-Based Macro and Sector Asset Allocation from Daily Trending Financial News
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.22305
-- Summary: arXiv:2603.22305v1 Announce Type: new Abstract: Large Language Models (LLMs) are rapidly transitioning from static Natural Language Processing (NLP) tasks including sentiment analysis and event extraction to acting as dynamic decision-making agents in complex financial environments. However, the...
-
-### Full waveform inversion method based on diffusion model
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.22307
-- Summary: arXiv:2603.22307v1 Announce Type: new Abstract: Seismic full-waveform inversion is a core technology for obtaining high-resolution subsurface model parameters. However, its highly nonlinear characteristics and strong dependence on the initial model often lead to the inversion process getting...
-
-### Whether, Not Which: Mechanistic Interpretability Reveals Dissociable Affect Reception and Emotion Categorization in LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22295
-- Summary: arXiv:2603.22295v1 Announce Type: new Abstract: Large language models appear to develop internal representations of emotion -- "emotion circuits," "emotion neurons," and structured emotional manifolds have been reported across multiple model families. But every study making these claims uses...
-
-### Sparse but Critical: A Token-Level Analysis of Distributional Shifts in RLVR Fine-Tuning of LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22446
-- Summary: arXiv:2603.22446v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) has significantly improved reasoning in large language models (LLMs), yet the token-level mechanisms underlying these improvements remain unclear. We present a systematic empirical study of RLVR's...
-
-### Towards Automated Community Notes Generation with Large Vision Language Models for Combating Contextual Deception
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22453
-- Summary: arXiv:2603.22453v1 Announce Type: new Abstract: Community Notes have emerged as an effective crowd-sourced mechanism for combating online deception on social media platforms. However, its reliance on human contributors limits both the timeliness and scalability. In this work, we study the automated...
-
-### LLM-guided headline rewriting for clickability enhancement without clickbait
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22459
-- Summary: arXiv:2603.22459v1 Announce Type: new Abstract: Enhancing reader engagement while preserving informational fidelity is a central challenge in controllable text generation for news media. Optimizing news headlines for reader engagement is often conflated with clickbait, resulting in exaggerated or...
-
-### Functional Component Ablation Reveals Specialization Patterns in Hybrid Language Model Architectures
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22473
-- Summary: arXiv:2603.22473v1 Announce Type: new Abstract: Hybrid language models combining attention with state space models (SSMs) or linear attention offer improved efficiency, but whether both components are genuinely utilized remains unclear. We present a functional component ablation framework applied...
 
