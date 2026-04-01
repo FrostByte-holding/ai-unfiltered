@@ -6,6 +6,12 @@
 
 ## 2026-04-01
 
+### Network Performance Issues in Phoenix, AZ
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2699bq15k06w
+- Summary: Apr 1, 20:18 UTCResolved - This incident has been resolved.Apr 1, 20:03 UTCInvestigating - Cloudflare is investigating issues affecting traffic in the Phoenix, AZ area. Customers proxied through this location may experience errors or degraded performance.
+
 ### Depthfirst Raises $80 Million in Series B Funding
 - Source: Security Week
 - Category: security
@@ -343,6 +349,12 @@
 - URL: https://www.securityweek.com/censys-raises-70-million-for-internet-intelligence-platform/
 - Summary: The latest funding round brings the total venture capital investment in Censys to $149 million. The post Censys Raises $70 Million for Internet Intelligence Platform appeared first on SecurityWeek.
 
+### FLEURS-Kobani: Extending the FLEURS Dataset for Northern Kurdish
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29892
+- Summary: FLEURS offers n-way parallel speech for 100+ languages, but Northern Kurdish is not one of them, which limits benchmarking for automatic speech recognition and speech translation tasks in this language. We present FLEURS-Kobani, a Northern Kurdish (ISO 639-3 KMR) spoken extension of the FLEURS...
+
 ### The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust
 - Source: Security Week
 - Category: security
@@ -389,6 +401,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/
 - Summary: In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into incremental gains. The exception is domain-specialized intelligence, where true step-function...
+
+### Training-Free Dynamic Upcycling of Expert Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29765
+- Summary: Large Language Models (LLMs) have achieved remarkable performance on a wide range of specialized tasks, exhibiting strong problem-solving capabilities. However, training these models is prohibitively expensive, and they often lack domain-specific expertise because they rely on general knowledge...
 
 ### TeamPCP Moves From OSS to AWS Environments
 - Source: Security Week
@@ -498,6 +516,12 @@
 - URL: https://tldr.takara.ai/p/2603.29496
 - Summary: We present Metriplector, a neural architecture primitive in which the input configures an abstract physical system -- fields, sources, and operators -- and the dynamics of that system is the computation. Multiple fields evolve via coupled metriplectic dynamics, and the stress-energy tensor...
 
+### iPoster: Content-Aware Layout Generation for Interactive Poster Design via Graph-Enhanced Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29469
+- Summary: We present iPoster, an interactive layout generation framework that empowers users to guide content-aware poster layout design by specifying flexible constraints. iPoster enables users to specify partial intentions within the intention module, such as element categories, sizes, positions, or coarse...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -551,6 +575,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html
 - Summary: The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axios have been found to inject "plain-crypto-js" version 4.2.1 as a fake dependency. According to...
+
+### ConInfer: Context-Aware Inference for Training-Free Open-Vocabulary Remote Sensing Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29271
+- Summary: Training-free open-vocabulary remote sensing segmentation (OVRSS), empowered by vision-language models, has emerged as a promising paradigm for achieving category-agnostic semantic understanding in remote sensing imagery. Existing approaches mainly focus on enhancing feature representations or...
 
 ### Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism
 - Source: HF Daily Papers
@@ -767,6 +797,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deep-seek-restores-service-after-11-hour-outage-amid-model-upgrade-speculation
 - Summary: Chinese AI firm DeepSeek experienced an 11-hour outage after users reported a significant performance boost, sparking speculation of a silent model upgrade. Service has since been restored.
+
+### SimMOF: AI agent for Automated MOF Simulations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29152
+- Summary: Metal-organic frameworks (MOFs) offer a vast design space, and as such, computational simulations play a critical role in predicting their structural and physicochemical properties. However, MOF simulations remain difficult to access because reliable analysis require expert decisions for workflow...
 
 ### SpatialPoint Integrates Depth as Core Input for Vision-Language Models
 - Source: Pandaily
@@ -2985,40 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.22289
 - Summary: arXiv:2603.22289v1 Announce Type: new Abstract: Knowledge Tracing (KT) models students' evolving knowledge states to predict future performance, serving as a foundation for personalized education. While traditional deep learning models achieve high accuracy, they often lack interpretability. Large...
-
-### Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic Data
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22290
-- Summary: arXiv:2603.22290v1 Announce Type: new Abstract: Low-resource languages (LRLs) often lack high-quality, large-scale datasets for training effective text embedding models, hindering their application in tasks like retrieval-augmented generation (RAG) and semantic search. In this work, we challenge...
-
-### Evaluating Large Language Models' Responses to Sexual and Reproductive Health Queries in Nepali
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22291
-- Summary: arXiv:2603.22291v1 Announce Type: new Abstract: As Large Language Models (LLMs) become integrated into daily life, they are increasingly used for personal queries, including Sexual and Reproductive Health (SRH), allowing users to chat anonymously without fear of judgment. However, current...
-
-### TIPS: Turn-Level Information-Potential Reward Shaping for Search-Augmented LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.22293
-- Summary: arXiv:2603.22293v1 Announce Type: new Abstract: Search-augmented large language models (LLMs) trained with reinforcement learning (RL) have achieved strong results on open-domain question answering (QA), but training still remains a significant challenge. The optimization is often unstable due to...
-
-### STEM Agent: A Self-Adapting, Tool-Enabled, Extensible Architecture for Multi-Protocol AI Agent Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.22359
-- Summary: arXiv:2603.22359v1 Announce Type: new Abstract: Current AI agent frameworks commit early to a single interaction protocol, a fixed tool integration strategy, and static user models, limiting their deployment across diverse interaction paradigms. To address these constraints, we introduce STEM Agent...
-
-### From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.22386
-- Summary: arXiv:2603.22386v1 Announce Type: new Abstract: Large language model (LLM)-based systems are becoming increasingly popular for solving tasks by constructing executable workflows that interleave LLM calls, information retrieval, tool use, code execution, memory updates, and verification. This survey...
-
-### Computational Arbitrage in AI Model Markets
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.22404
-- Summary: arXiv:2603.22404v1 Announce Type: new Abstract: Consider a market of competing model providers selling query access to models with varying costs and capabilities. Customers submit problem instances and are willing to pay up to a budget for a verifiable solution. An arbitrageur efficiently allocates...
 
