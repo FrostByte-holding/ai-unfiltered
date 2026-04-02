@@ -6,6 +6,36 @@
 
 ## 2026-04-02
 
+### Digital Experience Monitoring (DEX) Delay
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/dxhf5ttltj1j
+- Summary: Apr 2, 16:50 UTCInvestigating - Cloudflare is investigating an issue where Digital Experience Monitoring (DEX) data delivered via Logpush may experience delays. DEX dashboard functionality and other Logpush datasets are not affected.
+
+### ChatGPT Dictation Elevated Error Rate
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KN78XN18M5VB6DSRTCWMJRYN
+- Summary: Status: InvestigatingWe are investigating the issue for the listed services and working on mitigating impact.Affected components Voice mode (Partial outage)
+
+### Copilot Coding Agent failing to start some jobs
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/j3sgbdw2lw3c
+- Summary: Apr 2, 16:30 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 2, 16:28 UTCUpdate - When assigning tasks to Copilot Cloud Agent, the task will appear...
+
+### Gemma 4: Byte for byte, the most capable open models
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
+- Summary: Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.
+
+### Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
+- Summary: Cisco&nbsp;has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The&nbsp;vulnerability,...
+
 ### Cache Purging Delays
 - Source: Cloudflare Status
 - Category: incidents
@@ -276,6 +306,11 @@
 - URL: https://www.cloudflarestatus.com/incidents/9pm89mfstyw1
 - Summary: Apr 2, 01:07 UTCInvestigating - A small percentage of cache assets in buenos aires are seeing elevated latency.Cloudflare is investigating the issue.
 
+### Welcome Gemma 4: Frontier multimodal intelligence on device
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/gemma4
+
 
 ## 2026-04-01
 
@@ -296,6 +331,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.01171
 - Summary: Although self-supervised 3D anomaly detection assumes that acquiring high-precision point clouds is computationally expensive, in real manufacturing scenarios it is often feasible to collect a limited number of anomalous samples. Therefore, we study open-set supervised 3D anomaly detection, where...
+
+### Property-Level Flood Risk Assessment Using AI-Enabled Street-View Lowest Floor Elevation Extraction and ML Imputation Across Texas
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01153
+- Summary: This paper argues that AI-enabled analysis of street-view imagery, complemented by performance-gated machine-learning imputation, provides a viable pathway for generating building-specific elevation data at regional scale for flood risk assessment. We develop and apply a three-stage pipeline across...
 
 ### Depthfirst Raises $80 Million in Series B Funding
 - Source: Security Week
@@ -452,6 +493,12 @@
 - URL: https://tldr.takara.ai/p/2604.00651
 - Summary: The integration of artificial intelligence (AI), particularly Convolutional Neural Networks (CNNs), into dermatological diagnosis demonstrates substantial clinical potential. While existing literature predominantly benchmarks algorithmic performance against human experts, our study adopts a novel...
 
+### DirectFisheye-GS: Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00648
+- Summary: 3D Gaussian Splatting (3DGS) has enabled efficient 3D scene reconstruction from everyday images with real-time, high-fidelity rendering, greatly advancing VR/AR applications. Fisheye cameras, with their wider field of view (FOV), promise high-quality reconstructions from fewer inputs and have...
+
 ### Axios NPM Package Breached in North Korean Supply Chain Attack
 - Source: Security Week
 - Category: security
@@ -469,6 +516,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/moonshot-ai-surpasses-100-m-arr-one-month-after-kimi-k2-5-launch
 - Summary: Moonshot AI crosses $100M ARR just one month after Kimi K2.5, as demand for agent-driven AI surges.
+
+### English to Central Kurdish Speech Translation: Corpus Creation, Evaluation, and Orthographic Standardization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00613
+- Summary: We present KUTED, a speech-to-text translation (S2TT) dataset for Central Kurdish, derived from TED and TEDx talks. The corpus comprises 91,000 sentence pairs, including 170 hours of English audio, 1.65 million English tokens, and 1.40 million Central Kurdish tokens. We evaluate KUTED on the S2TT...
 
 ### Moore Threads Secures RMB 660 Million Computing Cluster Order
 - Source: Pandaily
@@ -757,6 +810,12 @@
 - URL: https://pandaily.com/byte-dance-launches-standalone-version-of-ai-coding-tool-trae-solo
 - Summary: ByteDance’s TRAE SOLO brings cross-platform, AI-powered coding and workflow automation into a unified, always-on workspace.
 
+### EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00392
+- Summary: Modern LLM agents increasingly create their own tools at runtime -- from Python functions to API clients -- yet existing benchmarks evaluate them almost exclusively by downstream task completion. This is analogous to judging a software engineer only by whether their code runs, ignoring redundancy,...
+
 ### Elevated errors and latency on Claude Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -768,6 +827,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.00359
 - Summary: Scanning transmission electron microscopy (STEM) has become a cornerstone instrument for semiconductor materials metrology, enabling nanoscale analysis of complex multilayer structures that define device performance. Developing effective metrology workflows for such systems requires balancing...
+
+### Is One Token All It Takes? Graph Pooling Tokens for LLM-based GraphQA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00342
+- Summary: The integration of Graph Neural Networks (GNNs) with Large Language Models (LLMs) has emerged as a promising paradigm for Graph Question Answering (GraphQA). However, effective methods for encoding complex structural information into the LLM's latent space remain an open challenge. Current...
 
 
 ## 2026-03-31
@@ -2955,70 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.23511
 - Summary: arXiv:2603.23511v1 Announce Type: new Abstract: Document intelligence requires accurate text extraction and reliable reasoning over document content. We introduce \textbf{DISCO}, a \emph{Document Intelligence Suite for COmparative Evaluation}, that evaluates optical character recognition (OCR)...
-
-### S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Graph Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.23512
-- Summary: arXiv:2603.23512v1 Announce Type: new Abstract: We present S-Path-RAG, a semantic-aware shortest-path Retrieval-Augmented Generation framework designed to improve multi-hop question answering over large knowledge graphs. S-Path-RAG departs from one-shot, text-heavy retrieval by enumerating...
-
-### Berta: an open-source, modular tool for AI-enabled clinical documentation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.23513
-- Summary: arXiv:2603.23513v1 Announce Type: new Abstract: Commercial AI scribes cost \$99-600 per physician per month, operate as opaque systems, and do not return data to institutional infrastructure, limiting organizational control over data governance, quality improvement, and clinical workflows. We...
-
-### DepthCharge: A Domain-Agnostic Framework for Measuring Depth-Dependent Knowledge in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.23514
-- Summary: arXiv:2603.23514v1 Announce Type: new Abstract: Large Language Models appear competent when answering general questions but often fail when pushed into domain-specific details. No existing methodology provides an out-of-the-box solution for measuring how deeply LLMs can sustain accurate responses...
-
-### Training a Large Language Model for Medical Coding Using Privacy-Preserving Synthetic Clinical Data
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.23515
-- Summary: arXiv:2603.23515v1 Announce Type: new Abstract: Improving the accuracy and reliability of medical coding reduces clinician burnout and supports revenue cycle processes, freeing providers to focus more on patient care. However, automating the assignment of ICD-10-CM and CPT codes from clinical...
-
-### [AINews] The Biggest Claude Launch of All Time
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-the-biggest-claude-launch
-- Summary: We thought about this carefully before choosing hyperbole; but it is warranted.
-
-### Distributed Real-Time Vehicle Control for Emergency Vehicle Transit: A Scalable Cooperative Method
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25000
-- Summary: Rapid transit of emergency vehicles is critical for saving lives and reducing property loss but often relies on surrounding ordinary vehicles to cooperatively adjust their driving behaviors. It is important to ensure rapid transit of emergency vehicles while minimizing the impact on ordinary...
-
-### Efficient Detection of Bad Benchmark Items with Novel Scalability Coefficients
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.24999
-- Summary: The validity of assessments, from large-scale AI benchmarks to human classrooms, depends on the quality of individual items, yet modern evaluation instruments often contain thousands of items with minimal psychometric vetting. We introduce a new family of nonparametric scalability coefficients...
-
-### XPeng Unveils 2026 MONA M03 with Turing AI Chip and Enhanced Range
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/x-peng-unveils-2026-mona-m03-with-turing-ai-chip-and-enhanced-range
-- Summary: XPeng has launched the 2026 MONA M03, featuring the new Turing AI chip with 750 TOPS of computing power and a maximum driving range extended to 640 kilometers.
-
-### Kuaishou Expects $3.6 Billion Capex in 2026 to Boost AI Infrastructure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kuaishou-expects-3-6-billion-capex-in-2026-to-boost-ai-infrastructure
-- Summary: Kuaishou Technology expects its 2026 capital expenditure to reach approximately $3.6 billion, with the significant increase primarily funding computing infrastructure for its Kling large model.
-
-### XtalPi Turns Profitable in 2025 as Revenue Surges 201%
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xtal-pi-turns-profitable-in-2025-as-revenue-surges-201
-- Summary: XtalPi Holdings reported its first annual profit in 2025, with revenue surging 201% to approximately $112 million, making it the first profitable publicly listed AI for Science company in Hong Kong.
-
-### SUNRISING AI Raises Over $14 Million Within Six Months of Founding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sunrising-ai-raises-over-14-million-within-six-months-of-founding
-- Summary: Industrial embodied AI startup SUNRISING AI has raised over $14 million in multiple early-stage rounds within six months of its founding, with IDG Capital among the co-leads.
 
