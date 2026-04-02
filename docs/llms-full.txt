@@ -6,6 +6,24 @@
 
 ## 2026-04-02
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/d96l71t3h63k
+- Summary: Apr 2, 20:35 UTCUpdate - Although we are observing recovery once again, we expect continued periods of degradation. Work that is queued during times of degradation does eventually get processed. We continue to investigate and find a mitigation, and will update again within 2 hours.Apr 2, 19:28...
+
+### Elevated latency uploading Workers Static Assets
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/lsb9p4jxhcdz
+- Summary: Apr 2, 18:47 UTCResolved - This incident has been resolved.Apr 2, 17:39 UTCInvestigating - Cloudflare is investigating elevated latency uploading Workers Static Assets. Workers scripts which are already uploaded are not impacted.
+
+### Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/moonlake
+- Summary: We cap out our World Models coverage with one of the most exciting new approaches - long running, multiplayer, interactive world models built with agents bootstrapped from game engines!
+
 ### Digital Experience Monitoring (DEX) Delay
 - Source: Cloudflare Status
 - Category: incidents
@@ -332,6 +350,12 @@
 - URL: https://tldr.takara.ai/p/2604.01171
 - Summary: Although self-supervised 3D anomaly detection assumes that acquiring high-precision point clouds is computationally expensive, in real manufacturing scenarios it is often feasible to collect a limited number of anomalous samples. Therefore, we study open-set supervised 3D anomaly detection, where...
 
+### Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01170
+- Summary: While test-time scaling has enabled large language models to solve highly difficult tasks, state-of-the-art results come at exorbitant compute costs. These inefficiencies can be attributed to the miscalibration of post-trained language models, and the lack of calibration in popular sampling...
+
 ### Property-Level Flood Risk Assessment Using AI-Enabled Street-View Lowest Floor Elevation Extraction and ML Imputation Across Texas
 - Source: HF Daily Papers
 - Category: open-source
@@ -378,6 +402,18 @@
 - Category: security
 - URL: https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/
 - Summary: The company is investigating the full scope of the incident, including whether any files have been compromised. The post Toy Giant Hasbro Hit by Cyberattack appeared first on SecurityWeek.
+
+### Fast and Accurate Probing of In-Training LLMs' Downstream Performances
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01025
+- Summary: The paradigm of scaling Large Language Models (LLMs) in both parameter size and test time has pushed the boundaries of AI capabilities, but at the cost of making the traditional generative evaluation paradigm prohibitively expensive, therefore making the latency of LLM's in-training downstream...
+
+### AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01014
+- Summary: Membership Inference Attacks (MIAs) serve as a fundamental auditing tool for evaluating training data leakage in machine learning models. However, existing methodologies predominantly rely on static, handcrafted heuristics that lack adaptability, often leading to suboptimal performance when...
 
 ### New DeepLoad Malware Dropped in ClickFix Attacks
 - Source: Security Week
@@ -552,6 +588,12 @@
 - URL: https://status.claude.com/incidents/fvj2fgqrchsj
 - Summary: Apr 1, 07:01 UTCResolved - We have identified an issue which resulted in elevated rates of timeouts when making requests to Claude Opus 4.6 and Sonnet 4.6 from 17:45 UTC on March 31 through 05:52 UTC on April 1. This issue has been resolved.
 
+### HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00556
+- Summary: Housing selection is a high-stakes and largely irreversible decision problem. We study housing consultation as a decision-support interface for housing selection. Existing housing platforms and many LLM-based assistants often reduce this process to ranking or recommendation, resulting in opaque...
+
 ### BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery
 - Source: HF Daily Papers
 - Category: open-source
@@ -581,6 +623,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.00523
 - Summary: We study for the first time, stochastic dueling bandits over continuous action spaces with Lipschitz structure, where feedback is purely comparative. While dueling bandits and Lipschitz bandits have been studied separately, their combination has remained unexplored. We propose the first algorithm...
+
+### Executing as You Generate: Hiding Execution Latency in LLM Code Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00491
+- Summary: Current LLM-based coding agents follow a serial execution paradigm: the model first generates the complete code, then invokes an interpreter to execute it. This sequential workflow leaves the executor idle during generation and the generator idle during execution, resulting in unnecessary...
 
 ### ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts
 - Source: arXiv AI
@@ -2972,52 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.23625
 - Summary: arXiv:2603.23625v1 Announce Type: new Abstract: Artificial intelligence (AI) is increasingly being explored in health and social care to reduce administrative workload and allow staff to spend more time on patient care. This paper evaluates a voice-enabled Care Home Smart Speaker designed to...
-
-### Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.23638
-- Summary: arXiv:2603.23638v1 Announce Type: new Abstract: Large language models (LLMs) have enabled agentic systems that can reason, plan, and act across complex tasks, but it remains unclear whether they can allocate resources effectively under uncertainty. Unlike short-horizon reactive decisions,...
-
-### GTO Wizard Benchmark
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.23660
-- Summary: arXiv:2603.23660v1 Announce Type: new Abstract: We introduce GTO Wizard Benchmark, a public API and standardized evaluation framework for benchmarking algorithms in Heads-Up No-Limit Texas Hold'em (HUNL). The benchmark evaluates agents against GTO Wizard AI, a state-of-the-art superhuman poker...
-
-### AscendOptimizer: Episodic Agent for Ascend NPU Operator Optimization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.23566
-- Summary: arXiv:2603.23566v1 Announce Type: new Abstract: AscendC (Ascend C) operator optimization on Huawei Ascend neural processing units (NPUs) faces a two-fold knowledge bottleneck: unlike the CUDA ecosystem, there are few public reference implementations to learn from, and performance hinges on a...
-
-### Causal Reconstruction of Sentiment Signals from Sparse News Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.23568
-- Summary: arXiv:2603.23568v1 Announce Type: new Abstract: Sentiment signals derived from sparse news are commonly used in financial analysis and technology monitoring, yet transforming raw article-level observations into reliable temporal series remains a largely unsolved engineering problem. Rather than...
-
-### StateLinFormer: Stateful Training Enhancing Long-term Memory in Navigation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.23571
-- Summary: arXiv:2603.23571v1 Announce Type: new Abstract: Effective navigation intelligence relies on long-term memory to support both immediate generalization and sustained adaptation. However, existing approaches face a dilemma: modular systems rely on explicit mapping but lack flexibility, while...
-
-### Dual-Criterion Curriculum Learning: Application to Temporal Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.23573
-- Summary: arXiv:2603.23573v1 Announce Type: new Abstract: Curriculum Learning (CL) is a meta-learning paradigm that trains a model by feeding the data instances incrementally according to a schedule, which is based on difficulty progression. Defining meaningful difficulty assessment measures is crucial and...
-
-### PoiCGAN: A Targeted Poisoning Based on Feature-Label Joint Perturbation in Federated Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.23574
-- Summary: arXiv:2603.23574v1 Announce Type: new Abstract: Federated Learning (FL), as a popular distributed learning paradigm, has shown outstanding performance in improving computational efficiency and protecting data privacy, and is widely applied in industrial image classification. However, due to its...
-
-### DISCO: Document Intelligence Suite for COmparative Evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.23511
-- Summary: arXiv:2603.23511v1 Announce Type: new Abstract: Document intelligence requires accurate text extraction and reliable reasoning over document content. We introduce \textbf{DISCO}, a \emph{Document Intelligence Suite for COmparative Evaluation}, that evaluates optical character recognition (OCR)...
 
