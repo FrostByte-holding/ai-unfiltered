@@ -6,6 +6,18 @@
 
 ## 2026-04-03
 
+### WARP connectivity issues affecting a subset of windows users, using latest version 2026.3.846.0.
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/nprdhrx1cx9b
+- Summary: Apr 3, 08:45 UTCUpdate - We are continuing to monitor for any further issues.Apr 3, 08:45 UTCMonitoring - A fix has been implemented, and we are currently monitoring.Apr 3, 08:39 UTCUpdate - We are continuing the investigation of this issueApr 3, 08:08 UTCInvestigating - We are currently...
+
+### [AINews] Gemma 4: The best small Multimodal Open Models, dramatically better than Gemma 3 in every way
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-gemma-4-the-best-small-multimodal
+- Summary: A welcome update from Google!
+
 ### Baidu Health Launches “Youyi Assistant” with Medical AI Agent Features
 - Source: Pandaily
 - Category: chinese-ai
@@ -183,6 +195,18 @@
 - URL: https://www.latent.space/p/moonlake
 - Summary: We cap out our World Models coverage with one of the most exciting new approaches - long running, multiplayer, interactive world models built with agents bootstrapped from game engines!
 
+### Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02288
+- Summary: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to...
+
+### Modular Energy Steering for Safe Text-to-Image Generation with Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02265
+- Summary: Controlling the behavior of text-to-image generative models is critical for safe and practical deployment. Existing safety approaches typically rely on model fine-tuning or curated datasets, which can degrade generation quality or limit scalability. We propose an inference-time steering framework...
+
 ### Digital Experience Monitoring (DEX) Delay
 - Source: Cloudflare Status
 - Category: incidents
@@ -213,11 +237,23 @@
 - URL: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
 - Summary: Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.
 
+### AstroConcepts: A Large-Scale Multi-Label Classification Corpus for Astrophysics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02156
+- Summary: Scientific multi-label text classification suffers from extreme class imbalance, where specialized terminology exhibits severe power-law distributions that challenge standard classification approaches. Existing scientific corpora lack comprehensive controlled vocabularies, focusing instead on broad...
+
 ### Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
 - Summary: Cisco&nbsp;has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The&nbsp;vulnerability,...
+
+### AA-SVD : Anchored and Adaptive SVD for Large Language Model Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02119
+- Summary: We introduce a fast low-rank factorization-based framework for compressing large language models that enables rapid compression of billion-parameter models without retraining. Unlike existing factorization-based approaches that optimize only on the original inputs, ignoring distribution shifts from...
 
 ### Cybersecurity M&A Roundup: 38 Deals Announced in March 2026
 - Source: Security Week
@@ -392,6 +428,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/lenovo-unveils-two-ai-devices-targeting-consumer-and-enterprise-markets
 - Summary: Lenovo has launched two AI-native devices—YOGA AI Mini for consumers and Think AI Tiny for enterprises—expanding its push into AI-powered computing across personal and business use cases.
+
+### Do Large Language Models Mentalize When They Teach?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01594
+- Summary: How do LLMs decide what to teach next: by reasoning about a learner's knowledge, or by using simpler rules of thumb? We test this in a controlled task previously used to study human teaching strategies. On each trial, a teacher LLM sees a hypothetical learner's trajectory through a reward-annotated...
 
 ### Linx Security Raises $50 Million for Identity Security and Governance
 - Source: Security Week
@@ -2981,46 +3023,4 @@
 - Category: research
 - URL: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/
 - Summary: Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.
-
-### PAWS: Perception of Articulation in the Wild at Scale from Egocentric Videos
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25539
-- Summary: Articulation perception aims to recover the motion and structure of articulated objects (e.g., drawers and cupboards), and is fundamental to 3D scene understanding in robotics, simulation, and animation. Existing learning-based methods rely heavily on supervised training with high-quality 3D data...
-
-### CHIRP dataset: towards long-term, individual-level, behavioral monitoring of bird populations in the wild
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25524
-- Summary: Long-term behavioral monitoring of individual animals is crucial for studying behavioral changes that occur over different time scales, especially for conservation and evolutionary biology. Computer vision methods have proven to benefit biodiversity monitoring, but automated behavior monitoring in...
-
-### Knowledge-Guided Failure Prediction: Detecting When Object Detectors Miss Safety-Critical Objects
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25499
-- Summary: Object detectors deployed in safety-critical environments can fail silently, e.g. missing pedestrians, workers, or other safety-critical objects without emitting any warning. Traditional Out Of Distribution (OOD) detection methods focus on identifying unfamiliar inputs, but do not directly predict...
-
-### Not a fragment, but the whole: Map-based evaluation of data-driven Fire Danger Index models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25469
-- Summary: A growing body of literature has focused on predicting wildfire occurrence using machine learning methods, capitalizing on high-resolution data and fire predictors that canonical process-based frameworks largely ignore. Standard evaluation metrics for an ML classifier, while important, provide a...
-
-### Hightower Holding Data Breach Impacts 130,000
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hightower-holding-data-breach-impacts-130000/
-- Summary: The holdings company says hackers stole names, Social Security numbers, and driver’s license numbers from its environment. The post Hightower Holding Data Breach Impacts 130,000 appeared first on SecurityWeek.
-
-### CIAR: Interval-based Collaborative Decoding for Image Generation Acceleration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.25463
-- Summary: Auto-regressive (AR) models have recently made notable progress in image generation, achieving performance comparable to diffusion-based approaches. However, their computational intensity and sequential nature impede on-device deployment, causing disruptive latency. We address this via a...
-
-### BIND Updates Patch High-Severity Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/bind-updates-patch-high-severity-vulnerabilities-2/
-- Summary: Specially crafted domains could be used to cause out-of-memory conditions, leading to memory leaks in the BIND resolvers. The post BIND Updates Patch High-Severity Vulnerabilities appeared first on SecurityWeek.
 
