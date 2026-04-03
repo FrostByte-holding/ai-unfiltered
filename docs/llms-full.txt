@@ -285,6 +285,12 @@
 - URL: https://tldr.takara.ai/p/2604.02288
 - Summary: Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to...
 
+### Deep Neural Network Based Roadwork Detection for Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02282
+- Summary: Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neural network with LiDAR data. The system identifies...
+
 ### Modular Energy Steering for Safe Text-to-Image Generation with Foundation Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -356,6 +362,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cybersecurity-ma-roundup-38-deals-announced-in-march-2026/
 - Summary: Significant cybersecurity M&#038;A deals announced by Airbus, Cellebrite, Databricks, Quantum eMotion, Rapid7, and OpenAI. The post Cybersecurity M&#038;A Roundup: 38 Deals Announced in March 2026 appeared first on SecurityWeek.
+
+### GroundVTS: Visual Token Sampling in Multimodal Large Language Models for Video Temporal Grounding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02093
+- Summary: Video temporal grounding (VTG) is a critical task in video understanding and a key capability for extending video large language models (Vid-LLMs) to broader applications. However, existing Vid-LLMs rely on uniform frame sampling to extract video information, resulting in a sparse distribution of...
 
 ### Center-Aware Detection with Swin-based Co-DETR Framework for Cervical Cytology
 - Source: HF Daily Papers
@@ -735,11 +747,23 @@
 - URL: https://arxiv.org/abs/2604.00007
 - Summary: arXiv:2604.00007v1 Announce Type: new Abstract: We present Dynin-Omni, the first masked-diffusion-based omnimodal foundation model that unifies text, image, and speech understanding and generation, together with video understanding, within a single architecture. Unlike autoregressive unified models...
 
+### EXHIB: A Benchmark for Realistic and Diverse Evaluation of Function Similarity in the Wild
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01554
+- Summary: Binary Function Similarity Detection (BFSD) is a core problem in software security, supporting tasks such as vulnerability analysis, malware classification, and patch provenance. In the past few decades, numerous models and tools have been developed for this application; however, due to the lack of...
+
 ### X Square Robot's Wang Qian: Robots will eventually reach Mars
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/x-square-robot-s-wang-qian-robots-will-eventually-reach-mars
 - Summary: At EAIDC 2026 in Shenzhen, X Square Robot CEO Wang Qian outlined the company’s push toward scalable embodied AI, predicting that general-purpose robots could eventually operate even in extreme environments like Mars.
+
+### Countering Catastrophic Forgetting of Large Language Models for Better Instruction Following via Weight-Space Model Merging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01538
+- Summary: Large language models have been adopted in the medical domain for clinical documentation to reduce clinician burden. However, studies have reported that LLMs often "forget" a significant amount of instruction-following ability when fine-tuned using a task-specific medical dataset, a critical...
 
 ### Increased 1003 / 403 errors in Workers
 - Source: Cloudflare Status
@@ -752,6 +776,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/9pm89mfstyw1
 - Summary: Apr 2, 01:07 UTCInvestigating - A small percentage of cache assets in buenos aires are seeing elevated latency.Cloudflare is investigating the issue.
+
+### From SWE-ZERO to SWE-HERO: Execution-free to Execution-based Fine-tuning for Software Engineering Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01496
+- Summary: We introduce SWE-ZERO to SWE-HERO, a two-stage SFT recipe that achieves state-of-the-art results on SWE-bench by distilling open-weight frontier LLMs. Our pipeline replaces resource-heavy dependencies with an evolutionary refinement strategy: (1) SWE-ZERO utilizes large-scale, execution-free...
 
 ### Welcome Gemma 4: Frontier multimodal intelligence on device
 - Source: Hugging Face Blog
@@ -2991,34 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.24826
 - Summary: arXiv:2603.24826v1 Announce Type: new Abstract: Synthetic data generation through document rewriting has emerged as a promising technique for improving language model pretraining, yet most studies focus on English and do not systematically control for the quality of the source data being rewritten....
-
-### Prune as You Generate: Online Rollout Pruning for Faster and Better RLVR
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24840
-- Summary: arXiv:2603.24840v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, methods such as GRPO and DAPO suffer from substantial computational cost, since they rely on sampling...
-
-### LogSigma at SemEval-2026 Task 3: Uncertainty-Weighted Multitask Learning for Dimensional Aspect-Based Sentiment Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24896
-- Summary: arXiv:2603.24896v1 Announce Type: new Abstract: This paper describes LogSigma, our system for SemEval-2026 Task 3: Dimensional Aspect-Based Sentiment Analysis (DimABSA). Unlike traditional Aspect-Based Sentiment Analysis (ABSA), which predicts discrete sentiment labels, DimABSA requires predicting...
-
-### Estimating near-verbatim extraction risk in language models with decoding-constrained beam search
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24917
-- Summary: arXiv:2603.24917v1 Announce Type: new Abstract: Recent work shows that standard greedy-decoding extraction methods for quantifying memorization in LLMs miss how extraction risk varies across sequences. Probabilistic extraction -- computing the probability of generating a target suffix given a...
-
-### Toward domain-specific machine translation and quality estimation systems
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24955
-- Summary: arXiv:2603.24955v1 Announce Type: new Abstract: Machine Translation (MT) and Quality Estimation (QE) perform well in general domains but degrade under domain mismatch. This dissertation studies how to adapt MT and QE systems to specialized domains through a set of data-focused contributions....
-
-### [AINews] Everything is CLI
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-everything-is-cli
-- Summary: a quiet day lets us reflect on the growing trend of CLIs for ~everything~ agents
 
