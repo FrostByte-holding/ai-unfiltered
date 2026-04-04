@@ -6,6 +6,24 @@
 
 ## 2026-04-03
 
+### Queue resource error
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/s29h7cf03vds
+- Summary: Apr 3, 23:57 UTCUpdate - We are continuing to work on a fix for this issue.Apr 3, 23:53 UTCIdentified - Cloudflare is investigating an increased level of errors for customers running updates to Queues via Terraform.
+
+### Customers using our Email Security product might see some links flagged as suspicious
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kljzxjznrpm4
+- Summary: Apr 3, 22:47 UTCResolved - Emails were sent today with a signature that had a a minor typo inadvertently caused it to flag legitimate emails. We have immediately corrected the issue, and going forward, these emails will no longer be incorrectly flagged.
+
+### [AINews] Good Friday
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-good-friday
+- Summary: a quiet day.
+
 ### Elevated errors on requests to Claude Sonnet 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -41,6 +59,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model
 - Summary: Hint: it's not benchmark scores.
+
+### Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html
+- Summary: Threat&nbsp;actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research&nbsp;Team. "Instead of exposing command execution through URL parameters or...
 
 ### TrueConf Zero-Day Exploited in Asian Government Attacks
 - Source: Security Week
@@ -83,6 +107,18 @@
 - Category: security
 - URL: https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/
 - Summary: Using automated scanning and the Nexus Listener collection framework, the hackers compromised over 750 systems. The post React2Shell Exploited in Large-Scale Credential Harvesting Campaign appeared first on SecurityWeek.
+
+### T-Mobile Sets the Record Straight on Latest Data Breach Filing
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/
+- Summary: The cybersecurity incident involved an insider and had a limited impact, the telecoms giant told SecurityWeek. The post T-Mobile Sets the Record Straight on Latest Data Breach Filing appeared first on SecurityWeek.
+
+### North Korean Hackers Drain $285 Million From Drift in 10 Seconds
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/north-korean-hackers-drain-285-million-from-drift-in-10-seconds/
+- Summary: The attackers prepared infrastructure and multiple nonce-based transactions, took over an admin key, and drained five vaults. The post North Korean Hackers Drain $285 Million From Drift in 10 Seconds appeared first on SecurityWeek.
 
 ### Genspark Raises $385 Million, Accelerates Commercialization of AI Agent Platform
 - Source: Pandaily
@@ -264,6 +300,96 @@
 - URL: https://arxiv.org/abs/2604.00013
 - Summary: arXiv:2604.00013v1 Announce Type: new Abstract: Multimodal sentiment analysis aims to understand human emotions by integrating textual, auditory, and visual modalities. Although Multimodal Large Language Models (MLLMs) have achieved state-of-the-art performance via supervised fine-tuning (SFT),...
 
+### Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.00510
+- Summary: arXiv:2604.00510v1 Announce Type: new Abstract: Monte Carlo Tree Search (MCTS) is an effective test-time compute scaling (TTCS) method for improving the reasoning performance of large language models, but its highly variable execution time leads to severe long-tail latency in practice. Existing...
+
+### Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.00547
+- Summary: arXiv:2604.00547v1 Announce Type: new Abstract: Unified Multimodal Large Models (UMLMs) integrate understanding and generation capabilities within a single architecture. While this architectural unification, driven by the deep fusion of multimodal features, enhances model performance, it also...
+
+### BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.00550
+- Summary: arXiv:2604.00550v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into life sciences has catalyzed the development of "AI Scientists." However, translating these theoretical capabilities into deployment-ready research environments exposes profound infrastructural...
+
+### Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems: A Neurosymbolic Architecture for Domain-Grounded AI Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.00555
+- Summary: arXiv:2604.00555v1 Announce Type: new Abstract: Enterprise adoption of Large Language Models (LLMs) is constrained by hallucination, domain drift, and the inability to enforce regulatory compliance at the reasoning level. We present a neurosymbolic architecture implemented within the Foundation...
+
+### Agent psychometrics: Task-level performance prediction in agentic coding benchmarks
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.00594
+- Summary: arXiv:2604.00594v1 Announce Type: new Abstract: As the focus in LLM-based coding shifts from static single-step code generation to multi-step agentic interaction with tools and environments, understanding which tasks will challenge agents and why becomes increasingly difficult. This is compounded...
+
+### JetPrism: diagnosing convergence for generative simulation and inverse problems in nuclear physics
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2604.01313
+- Summary: arXiv:2604.01313v1 Announce Type: new Abstract: High-fidelity Monte Carlo simulations and complex inverse problems, such as mapping smeared experimental observations to ground-truth states, are computationally intensive yet essential for robust data analysis. Conditional Flow Matching (CFM) offers...
+
+### Detecting Complex Money Laundering Patterns with Incremental and Distributed Graph Modeling
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2604.01315
+- Summary: arXiv:2604.01315v1 Announce Type: new Abstract: Money launderers take advantage of limitations in existing detection approaches by hiding their financial footprints in a deceitful manner. They manage this by replicating transaction patterns that the monitoring systems cannot easily distinguish. As...
+
+### Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2604.01328
+- Summary: arXiv:2604.01328v1 Announce Type: new Abstract: Traditional scientific discovery relies on an iterative hypothesise-experiment-refine cycle that has driven progress for centuries, but its intuitive, ad-hoc implementation often wastes resources, yields inefficient designs, and misses critical...
+
+### Model Merging via Data-Free Covariance Estimation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2604.01329
+- Summary: arXiv:2604.01329v1 Announce Type: new Abstract: Model merging provides a way of cheaply combining individual models to produce a model that inherits each individual's capabilities. While some merging methods can approach the performance of multitask training, they are often heuristically motivated...
+
+### SECURE: Stable Early Collision Understanding via Robust Embeddings in Autonomous Driving
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2604.01337
+- Summary: arXiv:2604.01337v1 Announce Type: new Abstract: While deep learning has significantly advanced accident anticipation, the robustness of these safety-critical systems against real-world perturbations remains a major challenge. We reveal that state-of-the-art models like CRASH, despite their high...
+
+### Disentangling Prompt Element Level Risk Factors for Hallucinations and Omissions in Mental Health LLM Responses
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2604.00014
+- Summary: arXiv:2604.00014v1 Announce Type: new Abstract: Mental health concerns are often expressed outside clinical settings, including in high-distress help seeking, where safety-critical guidance may be needed. Consumer health informatics systems increasingly incorporate large language models (LLMs) for...
+
+### ASCAT: An Arabic Scientific Corpus and Benchmark for Advanced Translation Evaluation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2604.00015
+- Summary: arXiv:2604.00015v1 Announce Type: new Abstract: We present ASCAT (Arabic Scientific Corpus for Advanced Translation), a high-quality English-Arabic parallel benchmark corpus designed for scientific translation evaluation constructed through a systematic multi-engine translation and human validation...
+
+### Are they human? Detecting large language models by probing human memory constraints
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2604.00016
+- Summary: arXiv:2604.00016v1 Announce Type: new Abstract: The validity of online behavioral research relies on study participants being human rather than machine. In the past, it was possible to detect machines by posing simple challenges that were easily solved by humans but not by machines. General-purpose...
+
+### Semantic Shifts of Psychological Concepts in Scientific and Popular Media Discourse: A Distributional Semantics Analysis of Russian-Language Corpora
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2604.00017
+- Summary: arXiv:2604.00017v1 Announce Type: new Abstract: This article examines semantic shifts in psychological concepts across scientific and popular media discourse using methods of distributional semantics applied to Russian-language corpora. Two corpora were compiled: a scientific corpus of...
+
+### Think Twice Before You Write -- an Entropy-based Decoding Strategy to Enhance LLM Reasoning
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2604.00018
+- Summary: arXiv:2604.00018v1 Announce Type: new Abstract: Decoding strategies play a central role in shaping the reasoning ability of large language models (LLMs). Traditional methods such as greedy decoding and beam search often suffer from error propagation, while sampling-based approaches introduce...
+
 ### Hanfu Photo Tourism: The Viral Formula Powering China’s Cultural Travel Boom
 - Source: Pandaily
 - Category: chinese-ai
@@ -309,6 +435,12 @@
 - URL: https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/
 - Summary: Within days of each other, Anthropic first leaked the source code to Claude Code, and then a critical vulnerability was found by Adversa AI. The post Critical Vulnerability in Claude Code Emerges Days After Source Leak appeared first on SecurityWeek.
 
+### Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02324
+- Summary: Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised...
+
 ### Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun
 - Source: Latent Space
 - Category: open-source
@@ -332,6 +464,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.02265
 - Summary: Controlling the behavior of text-to-image generative models is critical for safe and practical deployment. Existing safety approaches typically rely on model fine-tuning or curated datasets, which can degrade generation quality or limit scalability. We propose an inference-time steering framework...
+
+### Retrieval-Augmented Question Answering over Scientific Literature for the Electron-Ion Collider
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02259
+- Summary: To harness the power of Language Models in answering domain specific specialized technical questions, Retrieval Augmented Generation (RAG) is been used widely. In this work, we have developed a Q\&amp;A application inspired by the Retrieval Augmented Generation (RAG), which is comprised of an...
 
 ### Digital Experience Monitoring (DEX) Delay
 - Source: Cloudflare Status
@@ -417,6 +555,12 @@
 - URL: https://tldr.takara.ai/p/2604.02090
 - Summary: Automated analysis of Pap smear images is critical for cervical cancer screening but remains challenging due to dense cell distribution and complex morphology. In this paper, we present our winning solution for the RIVA Cervical Cytology Challenge, achieving 1st place in Track B and 2nd place in...
 
+### FlowSlider: Training-Free Continuous Image Editing via Fidelity-Steering Decomposition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02088
+- Summary: Continuous image editing aims to provide slider-style control of edit strength while preserving source-image fidelity and maintaining a consistent edit direction. Existing learning-based slider methods typically rely on auxiliary modules trained with synthetic or proxy supervision. This introduces...
+
 ### Systematic Analyses of Reinforcement Learning Controllers in Signalized Urban Corridors
 - Source: HF Daily Papers
 - Category: open-source
@@ -447,6 +591,12 @@
 - URL: https://www.securityweek.com/cisco-patches-critical-and-high-severity-vulnerabilities/
 - Summary: The bugs could lead to authentication bypass, remote code execution, information disclosure, and privilege escalation. The post Cisco Patches Critical and High-Severity Vulnerabilities appeared first on SecurityWeek.
 
+### Diagnosing Translated Benchmarks: An Automated Quality Assurance Study of the EU20 Benchmark Suite
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01957
+- Summary: Machine-translated benchmark datasets reduce costs and offer scale, but noise, loss of structure, and uneven quality weaken confidence. What matters is not merely whether we can translate, but also whether we can measure and verify translation reliability at scale. We study translation quality in...
+
 ### The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO
 - Source: MIT Tech Review AI
 - Category: research
@@ -470,6 +620,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html
 - Summary: A&nbsp;financially motivated operation&nbsp;codenamed REF1695&nbsp;has been&nbsp;observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November&nbsp;2023. "Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action)...
+
+### Enhancing Medical Visual Grounding via Knowledge-guided Spatial Prompts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01915
+- Summary: Medical Visual Grounding (MVG) aims to identify diagnostically relevant phrases from free-text radiology reports and localize their corresponding regions in medical images, providing interpretable visual evidence to support clinical decision-making. Although recent Vision-Language Models (VLMs)...
 
 ### The State of Trusted Open Source Report
 - Source: The Hacker News
@@ -2865,160 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ai-materials-company-kaiwu-ji-secures-hundreds-of-millions-in-angel-plus-funding
 - Summary: AI‑driven materials science firm Kaiwu Ji raised hundreds of millions USD in an Angel Plus round led by Monolith to scale its dual‑engine AI platform for material design.
-
-### CISA Flags Critical PTC Vulnerability That Had German Police Mobilized
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisa-flags-critical-ptc-vulnerability-that-had-german-police-mobilized/
-- Summary: Police in Germany physically warned organizations about the critical PTC Windchill vulnerability tracked as CVE-2026-4681. The post CISA Flags Critical PTC Vulnerability That Had German Police Mobilized appeared first on SecurityWeek.
-
-### Here’s why some people choose cryonics to store their bodies and brains after death
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/
-- Summary: This week I reported on some rather unusual research that focuses on the brain of L. Stephen Coles. Coles was a gerontologist who died from pancreatic cancer in 2014. He had spent the latter part of his career specializing in human longevity. And before he died, he decided to have his brain...
-
-### LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html
-- Summary: Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conversation history. Both LangChain and LangGraph are open-source frameworks that are used to build...
-
-### Elevated error rates on Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/b9802k1zb5l2
-- Summary: Mar 27, 06:59 UTCInvestigating - We are currently investigating this issue.
-
-### A Human-Inspired Decoupled Architecture for Efficient Audio Representation Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.26098
-- Summary: While self-supervised learning (SSL) has revolutionized audio representation, the excessive parameterization and quadratic computational cost of standard Transformers limit their deployment on resource-constrained devices. To address this bottleneck, we propose HEAR (Human-inspired Efficient Audio...
-
-### Sugon Unveils scaleX40 Supernode Targeting Enterprise AI Compute Demand
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sugon-unveils-scale-x40-supernode-targeting-enterprise-ai-compute-demand
-- Summary: Sugon has launched the scaleX40, a cable-free supernode system designed to bridge the gap between small servers and large AI clusters. The system offers 40-GPU configuration with 40-70% less power consumption, targeting enterprise AI deployments starting at approximately $1–2 million.
-
-### JD.com Expands in Europe with Joybuy Self-Operated E-Commerce Platform
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/jd-com-expands-in-europe-with-joybuy-self-operated-e-commerce-platform
-- Summary: JD.com has launched its self-operated platform, Joybuy, in six European markets, offering same-day delivery powered by over 60 logistics hubs. The asset-heavy expansion aims to compete with Amazon and local retailers through a subscription service priced at £3.99 (approx. $5.10) per month .
-
-### Moonshot AI Weighs Hong Kong IPO as Funding Demand Surges
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moonshot-ai-weighs-hong-kong-ipo-as-funding-demand-surges
-- Summary: Moonshot AI is exploring a Hong Kong IPO and a new funding round of up to $1 billion at a pre-money valuation of $18 billion. The move reflects a broader trend of leading Chinese AI firms transitioning from private fundraising to public markets.
-
-### Alibaba’s Qwen Integrated into Hongqi Smart Cockpit for In-Car AI Services
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-s-qwen-integrated-into-hongqi-smart-cockpit-for-in-car-ai-services
-- Summary: Alibaba’s Qwen AI has been integrated into the Hongqi HS6 PHEV, enabling the vehicle to execute complex multi-step commands and generate complete travel plans in real-time. This marks a shift from reactive features to proactive, scenario-based in-car services.
-
-### Moonshot AI’s Yang Zhilin Details Kimi K2.5 at ZGC Forum
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moonshot-ai-s-yang-zhilin-details-kimi-k2-5-at-zgc-forum
-- Summary: Moonshot AI founder Yang Zhilin unveiled the open-source Kimi K2.5 model, highlighting a new architecture that boosts performance with minimal cost. He emphasized that AI is shifting towards machine-led research to accelerate innovation.
-
-### Incident with Copilot
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/9vyj2jwsk8by
-- Summary: Mar 27, 05:00 UTCResolved - On March 27, 2026, from 02:30 to 04:56 UTC, a misconfiguration in our rate limiting system caused users on Copilot Free, Student, Pro, and Pro+ plans to experience unexpected rate limit errors. The configuration that was incorrectly applied was intended solely for...
-
-### ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.24621
-- Summary: arXiv:2603.24621v1 Announce Type: new Abstract: We introduce ARC-AGI-3, an interactive benchmark for studying agentic intelligence through novel, abstract, turn-based environments in which agents must explore, infer goals, build internal models of environment dynamics, and plan effective action...
-
-### When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.24676
-- Summary: arXiv:2603.24676v1 Announce Type: new Abstract: Multi-agent systems powered by large language models (LLMs) are increasingly deployed in settings that shape consequential decisions, both directly and indirectly. Yet it remains unclear whether their outcomes reflect collective reasoning, systematic...
-
-### AutoSAM: an Agentic Framework for Automating Input File Generation for the SAM Code with Multi-Modal Retrieval-Augmented Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.24736
-- Summary: arXiv:2603.24736v1 Announce Type: new Abstract: In the design and safety analysis of advanced reactor systems, constructing input files for system-level thermal-hydraulics codes such as the System Analysis Module (SAM) remains a labor-intensive task. Analysts must extract and reconcile design data...
-
-### Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.24742
-- Summary: arXiv:2603.24742v1 Announce Type: new Abstract: AI safety is an increasingly urgent concern as the capabilities and adoption of AI systems grow. Existing evolutionary models of AI governance have primarily examined incentives for safe development and effective regulation, typically representing...
-
-### Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.24747
-- Summary: arXiv:2603.24747v1 Announce Type: new Abstract: The emergence of large language model agents capable of invoking external tools has created urgent need for formal verification of agent protocols. Two paradigms dominate this space: Schema-Guided Dialogue (SGD), a research framework for zero-shot API...
-
-### DyMRL: Dynamic Multispace Representation Learning for Multimodal Event Forecasting in Knowledge Graph
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.24636
-- Summary: arXiv:2603.24636v1 Announce Type: new Abstract: Accurate representation of multimodal knowledge is crucial for event forecasting in real-world scenarios. However, existing studies have largely focused on static settings, overlooking the dynamic acquisition and fusion of multimodal knowledge. 1) At...
-
-### How unconstrained machine-learning models learn physical symmetries
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.24638
-- Summary: arXiv:2603.24638v1 Announce Type: new Abstract: The requirement of generating predictions that exactly fulfill the fundamental symmetry of the corresponding physical quantities has profoundly shaped the development of machine-learning models for physical simulations. In many cases, models are built...
-
-### Experiential Reflective Learning for Self-Improving LLM Agents
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.24639
-- Summary: arXiv:2603.24639v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled the development of autonomous agents capable of complex reasoning and multi-step problem solving. However, these agents struggle to adapt to specialized environments and do not leverage past...
-
-### Learning Mesh-Free Discrete Differential Operators with Self-Supervised Graph Neural Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.24641
-- Summary: arXiv:2603.24641v1 Announce Type: new Abstract: Mesh-free numerical methods provide flexible discretisations for complex geometries; however, classical meshless discrete differential operators typically trade low computational cost for limited accuracy or high accuracy for substantial per-stencil...
-
-### Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.24644
-- Summary: arXiv:2603.24644v1 Announce Type: new Abstract: Digital twin technology, when combined with physics-informed machine learning with simulation results of Aspen, offers transformative capabilities for industrial process monitoring, control, and optimization. In this work, the proposed model presents...
-
-### When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24651
-- Summary: arXiv:2603.24651v1 Announce Type: new Abstract: Automatic depression detection from doctor-patient conversations has gained momentum thanks to the availability of public corpora and advances in language modeling. However, interpretability remains limited: strong performance is often reported...
-
-### Demystifying When Pruning Works via Representation Hierarchies
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24652
-- Summary: arXiv:2603.24652v1 Announce Type: new Abstract: Network pruning, which removes less important parameters or architectures, is often expected to improve efficiency while preserving performance. However, this expectation does not consistently hold across language tasks: pruned models can perform well...
-
-### Fine-Tuning A Large Language Model for Systematic Review Screening
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24767
-- Summary: arXiv:2603.24767v1 Announce Type: new Abstract: Systematic reviews traditionally have taken considerable amounts of human time and energy to complete, in part due to the extensive number of titles and abstracts that must be reviewed for potential inclusion. Recently, researchers have begun to...
-
-### Evaluating Fine-Tuned LLM Model For Medical Transcription With Small Low-Resource Languages Validated Dataset
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24772
-- Summary: arXiv:2603.24772v1 Announce Type: new Abstract: Clinical documentation is a critical factor for patient safety, diagnosis, and continuity of care. The administrative burden of EHRs is a significant factor in physician burnout. This is a critical issue for low-resource languages, including Finnish....
-
-### Enhancing Structured Meaning Representations with Aspect Classification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.24797
-- Summary: arXiv:2603.24797v1 Announce Type: new Abstract: To fully capture the meaning of a sentence, semantic representations should encode aspect, which describes the internal temporal structure of events. In graph-based meaning representation frameworks such as Uniform Meaning Representations (UMR),...
 

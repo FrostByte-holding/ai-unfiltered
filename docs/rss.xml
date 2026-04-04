@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 03 Apr 2026 20:39:55 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 04 Apr 2026 02:28:04 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Queue resource error</title>
+            <link>https://www.cloudflarestatus.com/incidents/s29h7cf03vds</link>
+            <guid>https://www.cloudflarestatus.com/incidents/s29h7cf03vds</guid>
+            <pubDate>Fri, 03 Apr 2026 23:57:51 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/s29h7cf03vds">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Apr 3, 23:57 UTCUpdate - We are continuing to work on a fix for this issue.Apr 3, 23:53 UTCIdentified - Cloudflare is investigating an increased level of errors for customers running updates to Queues via Terraform.</description>
+        </item>
+        <item>
+            <title>Customers using our Email Security product might see some links flagged as suspicious</title>
+            <link>https://www.cloudflarestatus.com/incidents/kljzxjznrpm4</link>
+            <guid>https://www.cloudflarestatus.com/incidents/kljzxjznrpm4</guid>
+            <pubDate>Fri, 03 Apr 2026 22:47:02 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/kljzxjznrpm4">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Apr 3, 22:47 UTCResolved - Emails were sent today with a signature that had a a minor typo inadvertently caused it to flag legitimate emails. We have immediately corrected the issue, and going forward, these emails will no longer be incorrectly flagged.</description>
+        </item>
+        <item>
+            <title>[AINews] Good Friday</title>
+            <link>https://www.latent.space/p/ainews-good-friday</link>
+            <guid>https://www.latent.space/p/ainews-good-friday</guid>
+            <pubDate>Fri, 03 Apr 2026 22:03:37 +0000</pubDate>
+            <source url="https://www.latent.space/p/ainews-good-friday">Latent Space</source>
+            <category>open-source</category>
+            <description>a quiet day.</description>
+        </item>
         <item>
             <title>Elevated errors on requests to Claude Sonnet 4.6</title>
             <link>https://status.claude.com/incidents/fznql3y9tpn7</link>
@@ -61,6 +88,15 @@
             <source url="https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model">Interconnects</source>
             <category>open-source</category>
             <description>Hint: it&#x27;s not benchmark scores.</description>
+        </item>
+        <item>
+            <title>Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers</title>
+            <link>https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html</link>
+            <guid>https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html</guid>
+            <pubDate>Fri, 03 Apr 2026 15:32:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html">The Hacker News</source>
+            <category>security</category>
+            <description>Threat&amp;nbsp;actors are increasingly using HTTP cookies as a control channel for PHP-based web shells on Linux servers and to achieve remote code execution, according to findings from the Microsoft Defender Security Research&amp;nbsp;Team. &quot;Instead of exposing command execution through URL parameters or...</description>
         </item>
         <item>
             <title>TrueConf Zero-Day Exploited in Asian Government Attacks</title>
@@ -187,15 +223,6 @@
             <source url="https://www.cloudflarestatus.com/incidents/nprdhrx1cx9b">Cloudflare Status</source>
             <category>incidents</category>
             <description>Apr 3, 08:45 UTCUpdate - We are continuing to monitor for any further issues.Apr 3, 08:45 UTCMonitoring - A fix has been implemented, and we are currently monitoring.Apr 3, 08:39 UTCUpdate - We are continuing the investigation of this issueApr 3, 08:08 UTCInvestigating - We are currently...</description>
-        </item>
-        <item>
-            <title>Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK</title>
-            <link>https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html</link>
-            <guid>https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html</guid>
-            <pubDate>Fri, 03 Apr 2026 08:35:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html">The Hacker News</source>
-            <category>security</category>
-            <description>Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1,&amp;nbsp;2026. &quot;Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving...</description>
         </item>
         <item>
             <title>[AINews] Gemma 4: The best small Multimodal Open Models, dramatically better than Gemma 3 in every way</title>
@@ -369,6 +396,15 @@
             <description>Apr 2, 18:47 UTCResolved - This incident has been resolved.Apr 2, 17:39 UTCInvestigating - Cloudflare is investigating elevated latency uploading Workers Static Assets. Workers scripts which are already uploaded are not impacted.</description>
         </item>
         <item>
+            <title>Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation</title>
+            <link>https://tldr.takara.ai/p/2604.02324</link>
+            <guid>https://tldr.takara.ai/p/2604.02324</guid>
+            <pubDate>Thu, 02 Apr 2026 17:59:19 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2604.02324">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised...</description>
+        </item>
+        <item>
             <title>Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun</title>
             <link>https://www.latent.space/p/moonlake</link>
             <guid>https://www.latent.space/p/moonlake</guid>
@@ -405,13 +441,13 @@
             <description>Controlling the behavior of text-to-image generative models is critical for safe and practical deployment. Existing safety approaches typically rely on model fine-tuning or curated datasets, which can degrade generation quality or limit scalability. We propose an inference-time steering framework...</description>
         </item>
         <item>
-            <title>Digital Experience Monitoring (DEX) Delay</title>
-            <link>https://www.cloudflarestatus.com/incidents/dxhf5ttltj1j</link>
-            <guid>https://www.cloudflarestatus.com/incidents/dxhf5ttltj1j</guid>
-            <pubDate>Thu, 02 Apr 2026 16:50:25 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/dxhf5ttltj1j">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Apr 2, 16:50 UTCInvestigating - Cloudflare is investigating an issue where Digital Experience Monitoring (DEX) data delivered via Logpush may experience delays. DEX dashboard functionality and other Logpush datasets are not affected.</description>
+            <title>Retrieval-Augmented Question Answering over Scientific Literature for the Electron-Ion Collider</title>
+            <link>https://tldr.takara.ai/p/2604.02259</link>
+            <guid>https://tldr.takara.ai/p/2604.02259</guid>
+            <pubDate>Thu, 02 Apr 2026 16:52:48 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2604.02259">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>To harness the power of Language Models in answering domain specific specialized technical questions, Retrieval Augmented Generation (RAG) is been used widely. In this work, we have developed a Q\&amp;amp;A application inspired by the Retrieval Augmented Generation (RAG), which is comprised of an...</description>
         </item>
         <item>
             <title>ChatGPT Dictation Elevated Error Rate</title>
@@ -421,42 +457,6 @@
             <source url="https://status.openai.com//incidents/01KN78XN18M5VB6DSRTCWMJRYN">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: InvestigatingWe are investigating the issue for the listed services and working on mitigating impact.Affected components Voice mode (Partial outage)</description>
-        </item>
-        <item>
-            <title>Copilot Coding Agent failing to start some jobs</title>
-            <link>https://www.githubstatus.com/incidents/j3sgbdw2lw3c</link>
-            <guid>https://www.githubstatus.com/incidents/j3sgbdw2lw3c</guid>
-            <pubDate>Thu, 02 Apr 2026 16:30:05 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/j3sgbdw2lw3c">GitHub Status</source>
-            <category>incidents</category>
-            <description>Apr 2, 16:30 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 2, 16:28 UTCUpdate - When assigning tasks to Copilot Cloud Agent, the task will appear...</description>
-        </item>
-        <item>
-            <title>Gemma 4: Byte for byte, the most capable open models</title>
-            <link>https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/</link>
-            <guid>https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/</guid>
-            <pubDate>Thu, 02 Apr 2026 16:00:49 +0000</pubDate>
-            <source url="https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/">DeepMind Blog</source>
-            <category>research</category>
-            <description>Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.</description>
-        </item>
-        <item>
-            <title>Lightweight Spatiotemporal Highway Lane Detection via 3D-ResNet and PINet with ROI-Aware Attention</title>
-            <link>https://tldr.takara.ai/p/2604.02188</link>
-            <guid>https://tldr.takara.ai/p/2604.02188</guid>
-            <pubDate>Thu, 02 Apr 2026 15:47:16 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.02188">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>This paper presents a lightweight, end-to-end highway lane detection architecture that jointly captures spatial and temporal information for robust performance in real-world driving scenarios. Building on the strengths of 3D convolutional neural networks and instance segmentation, we propose two...</description>
-        </item>
-        <item>
-            <title>Adam&#x27;s Law: Textual Frequency Law on Large Language Models</title>
-            <link>https://tldr.takara.ai/p/2604.02176</link>
-            <guid>https://tldr.takara.ai/p/2604.02176</guid>
-            <pubDate>Thu, 02 Apr 2026 15:39:25 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.02176">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>While textual frequency has been validated as relevant to human cognition in reading speed, its relatedness to Large Language Models (LLMs) is seldom studied. We propose a novel research direction in terms of textual data frequency, which is an understudied topic, to the best of our knowledge. Our...</description>
         </item>
     </channel>
 </rss>
