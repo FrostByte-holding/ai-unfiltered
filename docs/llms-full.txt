@@ -6,6 +6,12 @@
 
 ## 2026-04-04
 
+### Sonnet 4.6 and Opus 4.6 elevated error rate
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/7n7xgqws441v
+- Summary: Apr 4, 17:30 UTCResolved - Between 10:09 and 10:31 PDT, Sonnet 4.6 and Opus 4.6 experienced elevated error rates across most product surfaces.
+
 ### European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack
 - Source: Security Week
 - Category: security
@@ -1058,6 +1064,12 @@
 
 ## 2026-04-01
 
+### Type-Checked Compliance: Deterministic Guardrails for Agentic Financial Systems Using Lean 4 Theorem Proving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01483
+- Summary: The rapid evolution of autonomous, agentic artificial intelligence within financial services has introduced an existential architectural crisis: large language models (LLMs) are probabilistic, non-deterministic systems operating in domains that demand absolute, mathematically verifiable compliance...
+
 ### Errors on the Claude.ai desktop application
 - Source: Anthropic Status
 - Category: incidents
@@ -1206,6 +1218,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html
 - Summary: A multi-pronged phishing campaign is targeting Spanish-speaking users in organizations across Latin America and Europe to deliver Windows banking trojans like Casbaneiro (aka Metamorfo) via another malware called Horabot. The activity has been attributed to a Brazilian cybercrime threat actor...
+
+### Continual Vision-Language Learning for Remote Sensing: Benchmarking and Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00820
+- Summary: Current remote sensing vision-language models (RS VLMs) demonstrate impressive performance in image interpretation but rely on static training data, limiting their ability to accommodate continuously emerging sensing modalities and downstream tasks. This exposes a fundamental challenge: enabling RS...
 
 ### DVGT-2: Vision-Geometry-Action Model for Autonomous Driving at Scale
 - Source: HF Daily Papers
@@ -1814,6 +1832,12 @@
 - URL: https://tldr.takara.ai/p/2603.29693
 - Summary: A robust decision-making process must take into account uncertainty, especially when the choice involves inherent risks. Because artificial Intelligence (AI) systems are increasingly integrated into decision-making workflows, managing uncertainty relies more and more on the metacognitive...
 
+### View-oriented Conversation Compiler for Agent Trace Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29678
+- Summary: Agent traces carry increasing analytical value in agentic systems and context engineering, yet most prior work treats conversation format as a trivial implementation detail. Modern agent conversations, however, contain deeply structured content, including nested tool calls and results,...
+
 ### Agenda-based Narrative Extraction: Steering Pathfinding Algorithms with Large Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1981,6 +2005,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/alibaba-launches-qwen3-5-omni-multimodal-model
 - Summary: Alibaba's Qwen team launched Qwen3.5-Omni, a full-modal AI model supporting 113 languages for speech recognition, 36 for speech generation, and achieving 215 SOTA results across multimodal benchmarks.
+
+### Beyond Corner Patches: Semantics-Aware Backdoor Attack in Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29328
+- Summary: Backdoor attacks on federated learning (FL) are most often evaluated with synthetic corner patches or out-of-distribution (OOD) patterns that are unlikely to arise in practice. In this paper, we revisit the backdoor threat to standard FL (a single global model) under a more realistic setting where...
 
 ### Geek+ Reports $440M Revenue in 2025, Achieves Full-Year Profitability
 - Source: Pandaily
@@ -2337,6 +2367,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.28708
 - Summary: This paper presents the design and evaluation of a GPU-accelerated inference pipeline for transformer models using NVIDIA TensorRT with mixed-precision optimization. We evaluate BERT-base (110M parameters) and GPT-2 (124M parameters) across batch sizes from 1 to 32 and sequence lengths from 32 to...
+
+### Divide and Restore: A Modular Task-Decoupled Framework for Universal Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28658
+- Summary: Restoring images affected by various types of degradation, such as noise, blur, or improper exposure, remains a significant challenge in computer vision. While recent trends favor complex monolithic all-in-one architectures, these models often suffer from negative task interference and require...
 
 ### Seeing with You: Perception-Reasoning Coevolution for Multimodal Reasoning
 - Source: HF Daily Papers
@@ -2988,40 +3024,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/nhbmmcrzhpzk
 - Summary: Mar 27, 18:00 UTCResolved - Cloudflare identified an increase in 5xx errors with our CDN service in Fortaleza, Brazil datacenter (FOR). Users may have experienced an increase in errors between 18:17 UTC and 18:39 UTC on March 27, 2026.
-
-### Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html
-- Summary: Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update. The development was first reported by MacRumors. "Apple is aware of attacks targeting out-of-date iOS software,...
-
-### TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html
-- Summary: TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data. The two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March...
-
-### Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/
-- Summary: The group that it was making available for download emails and other documents from Patel’s account. The post Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel’s Personal Account appeared first on SecurityWeek.
-
-### Cloudflare Pages API is seeing increased error rate
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/6hsss7v8qb2m
-- Summary: Mar 27, 15:39 UTCResolved - Cloudflare has identified and resolved an issue impacting the Cloudflare Pages API, Pages Builds and Workers Builds.Customers may have seen impact from 27th March 15:00 UTC to 15:29 UTCDeployed Workers and Pages projects are unaffected
-
-### In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/
-- Summary: Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions. The post In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline appeared first on SecurityWeek.
-
-### ClawPhone: Redefining the Smartphone as a Living AI Agent——the first native Android app for OpenClaw
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/claw-phone-redefining-the-smartphone-as-a-living-ai-agent-the-first-native-android-app-for-open-claw-1
-- Summary: ClawPhone, the first native Android app for the OpenClaw framework, transforms smartphones into autonomous AI agents capable of cross-app automation, smart home control, and emotionally aware interactions—all without requiring OS root access.
 
