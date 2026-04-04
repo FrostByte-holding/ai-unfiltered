@@ -489,6 +489,12 @@
 - URL: https://www.githubstatus.com/incidents/j3sgbdw2lw3c
 - Summary: Apr 2, 16:30 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 2, 16:28 UTCUpdate - When assigning tasks to Copilot Cloud Agent, the task will appear...
 
+### Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02230
+- Summary: For Large Language Models (LLMs) to be reliably deployed, models must effectively know when not to answer: abstain. Reasoning models, in particular, have gained attention for impressive performance on complex tasks. However, reasoning models have been shown to have worse abstention abilities....
+
 ### Apple Rolls Out DarkSword Exploit Protection to More Devices
 - Source: Security Week
 - Category: security
@@ -524,6 +530,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
 - Summary: Cisco&nbsp;has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The&nbsp;vulnerability,...
+
+### Auction-Based Online Policy Adaptation for Evolving Objectives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02151
+- Summary: We consider multi-objective reinforcement learning problems where objectives come from an identical family -- such as the class of reachability objectives -- and may appear or disappear at runtime. Our goal is to design adaptive policies that can efficiently adjust their behaviors as the set of...
 
 ### AA-SVD : Anchored and Adaptive SVD for Large Language Model Compression
 - Source: HF Daily Papers
@@ -717,11 +729,23 @@
 - URL: https://www.securityweek.com/variance-raises-21-5m-for-compliance-investigation-platform-powered-by-ai-agents/
 - Summary: Variance has raised a total of $26 million in funding and the latest investment will fuel platform growth. The post Variance Raises $21.5M for Compliance Investigation Platform Powered by AI Agents appeared first on SecurityWeek.
 
+### Solving the Two-dimensional single stock size Cuting Stock Problem with SAT and MaxSAT
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01732
+- Summary: Cutting rectangular items from stock sheets to satisfy demands while minimizing waste is a central manufacturing task. The Two-Dimensional Single Stock Size Cutting Stock Problem (2D-CSSP) generalizes bin packing by requiring multiple copies of each item type, which causes a strong combinatorial...
+
 ### XREAL Files for Hong Kong IPO, Targets Smart Glasses Leadership
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/xreal-files-for-hong-kong-ipo-targets-smart-glasses-leadership
 - Summary: XREAL has filed for a Hong Kong IPO as it targets leadership in smart glasses, reporting 2025 revenue of about $72 million (RMB 516M) and over 70% overseas sales. The company is expanding into spatial computing and AI-powered devices through partnerships including Google.
+
+### End-to-End Shared Attention Estimation via Group Detection with Feedback Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01714
+- Summary: This paper proposes an end-to-end shared attention estimation method via group detection. Most previous methods estimate shared attention (SA) without detecting the actual group of people focusing on it, or assume that there is a single SA point in a given image. These issues limit the...
 
 ### Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit
 - Source: The Hacker News
@@ -998,6 +1022,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.01508
 - Summary: Tool using agents often fail for operational reasons even when language understanding is strong. Common causes include invalid arguments, interface drift, weak recovery, and inefficient retry behavior. We introduce ToolMisuseBench, an offline deterministic benchmark for evaluating tool misuse and...
+
+### Non-monotonicity in Conformal Risk Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01502
+- Summary: Conformal risk control (CRC) provides distribution-free guarantees for controlling the expected loss at a user-specified level. Existing theory typically assumes that the loss decreases monotonically with a tuning parameter that governs the size of the prediction set. This assumption is often...
 
 ### From SWE-ZERO to SWE-HERO: Execution-free to Execution-based Fine-tuning for Software Engineering Agents
 - Source: HF Daily Papers
@@ -2991,34 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/shenzhen-hello-tech-energy-launches-jackery-solar-vault-3-series-in-the-european-market
 - Summary: Shenzhen Hello Tech Energy launched the Jackery SolarVault 3 series in Europe, a modular solar storage system starting at 2.5 kWh with AI‑driven energy management that adapts to real‑time electricity prices.
-
-### Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html
-- Summary: A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent attacks leveraging a custom Windows ransomware strain codenamed GenieLocker. "Bearlyfy (also known as...
-
-### iliconCore Technology Launches aiX-apply-4B, Boosting Code Change Efficiency
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ilicon-core-technology-launches-ai-x-apply-4-b-boosting-code-change-efficiency
-- Summary: SiliconCore Technology unveiled aiX-apply-4B, a lightweight code‑modification model achieving 93.8% accuracy across 20+ programming languages while running on a single consumer‑grade GPU.
-
-### ByteDance’s CapCut Launches Dreamina Seedance 2.0 Across Multiple Global Regions
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byte-dance-s-cap-cut-launches-dreamina-seedance-2-0-across-multiple-global-regions
-- Summary: ByteDance’s CapCut rolled out its Dreamina Seedance 2.0 AI video model across Africa, South America, the Middle East, and Southeast Asia, enabling 15‑second generations in six aspect ratios.
-
-### Xingyi Technology Secures Tens of Millions in Series A Funding, Focuses on Ego-Centric Embodied Intelligence Data
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xingyi-technology-secures-tens-of-millions-in-series-a-funding-focuses-on-ego-centric-embodied-intelligence-data
-- Summary: Tsinghua‑incubated Xingyi Technology raised tens of millions USD in Series A funding to develop ego‑centric data systems for embodied intelligence, aiming to open‑source up to 10,000 hours of high‑precision datasets this year.
-
-### AI Materials Company Kaiwu Ji Secures Hundreds of Millions in Angel Plus Funding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ai-materials-company-kaiwu-ji-secures-hundreds-of-millions-in-angel-plus-funding
-- Summary: AI‑driven materials science firm Kaiwu Ji raised hundreds of millions USD in an Angel Plus round led by Monolith to scale its dual‑engine AI platform for material design.
 
