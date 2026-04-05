@@ -489,6 +489,12 @@
 - URL: https://tldr.takara.ai/p/2604.02282
 - Summary: Road construction sites create major challenges for both autonomous vehicles and human drivers due to their highly dynamic and heterogeneous nature. This paper presents a real-time system that detects and localizes roadworks by combining a YOLO neural network with LiDAR data. The system identifies...
 
+### The Self Driving Portfolio: Agentic Architecture for Institutional Asset Management
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02279
+- Summary: Agentic AI shifts the investor's role from analytical execution to oversight. We present an agentic strategic asset allocation pipeline in which approximately 50 specialized agents produce capital market assumptions, construct portfolios using over 20 competing methods, and critique and vote on...
+
 ### Modular Energy Steering for Safe Text-to-Image Generation with Foundation Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -2345,6 +2351,12 @@
 - URL: https://tldr.takara.ai/p/2603.29121
 - Summary: This paper develops a unified framework for evaluating the optimal degree of task automation. Moving beyond binary automate-or-not assessments, we model automation intensity as a continuous choice in which firms minimize costs by selecting an AI accuracy level, from no automation through partial...
 
+### Predictor-Based Output-Feedback Control of Linear Systems with Time-Varying Input and Measurement Delays via Neural-Approximated Prediction Horizons
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29117
+- Summary: Due to simplicity and strong stability guarantees, predictor feedback methods have stood as a popular approach for time delay systems since the 1950s. For time-varying delays, however, implementation requires computing a prediction horizon defined by the inverse of the delay function, which is...
+
 ### [AINews] The Last 4 Jobs in Tech
 - Source: Latent Space
 - Category: open-source
@@ -2365,6 +2377,12 @@
 
 ## 2026-03-30
 
+### The Spectral Edge Thesis: A Mathematical Framework for Intra-Signal Phase Transitions in Neural Network Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28964
+- Summary: We develop the spectral edge thesis: phase transitions in neural network training -- grokking, capability gains, loss plateaus -- are controlled by the spectral gap of the rolling-window Gram matrix of parameter updates. In the extreme aspect ratio regime (parameters $P \sim 10^8$, window $W \sim...
+
 ### Mistral: Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample
 - Source: Latent Space
 - Category: open-source
@@ -2376,6 +2394,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/kzrvz4n54x0t
 - Summary: Mar 30, 18:30 UTCResolved - Cloudflare identified an increase in 5xx errors with our CDN service in the Fortaleza, Brazil datacenter (FOR). Users may have experienced an increase in errors between 18:44 UTC and 19:12 UTC on March 30, 2026. The issue has been resolved
+
+### Calibrated Fusion for Heterogeneous Graph-Vector Retrieval in Multi-Hop QA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28886
+- Summary: Graph-augmented retrieval combines dense similarity with graph-based relevance signals such as Personalized PageRank (PPR), but these scores have different distributions and are not directly comparable. We study this as a score calibration problem for heterogeneous retrieval fusion in multi-hop...
 
 ### OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability
 - Source: The Hacker News
@@ -2974,6 +2998,12 @@
 - URL: https://tldr.takara.ai/p/2603.27593
 - Summary: Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and complex videos. However, real-world deployments increasingly require streaming perception and proactive interaction, where video frames arrive online and the system must decide not only...
 
+### Drag or Traction: Understanding How Designers Appropriate Friction in AI Ideation Outputs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.27550
+- Summary: Seamless AI presents output as a finished, polished product that users consume rather than shape. This risks design fixation: users anchor on AI suggestions rather than generating their own ideas. We propose Generative Friction, which introduces intentional disruptions to AI output (fragmentation,...
+
 ### Account creation and login are unstable across all surfaces
 - Source: OpenAI Status
 - Category: incidents
@@ -2994,34 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.28817
 - Summary: Small Language Models (SLMs) are emerging as efficient and economically viable alternatives to Large Language Models (LLMs), offering competitive performance with significantly lower computational costs and latency. These advantages make SLMs suitable for resource-constrained and efficient...
-
-### Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html
-- Summary: Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet. Handala Hack Team, which carried out the breach, said on its website...
-
-### From Inference Routing to Agent Orchestration: Declarative Policy Compilation with Cross-Layer Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.27299
-- Summary: The Semantic Router DSL is a non-Turing-complete policy language deployed in production for per-request LLM inference routing: content signals (embedding similarity, PII detection, jailbreak scoring) feed into weighted projections and priority-ordered decision trees that select a model, enforce...
-
-### Elevated errors on Opus 4.6 Fast Mode
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/pgxwhv06t0y8
-- Summary: Mar 28, 14:53 UTCResolved - This incident has been resolved.Mar 28, 13:55 UTCMonitoring - A fix has been implemented and we are monitoring the results.Mar 28, 13:01 UTCInvestigating - We are currently investigating this issue.
-
-### Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/
-- Summary: The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer. The post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.
-
-### Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html
-- Summary: A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr. The vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to...
 
