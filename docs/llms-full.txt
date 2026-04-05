@@ -642,6 +642,12 @@
 - URL: https://www.securityweek.com/250000-affected-by-data-breach-at-nacogdoches-memorial-hospital/
 - Summary: In January 2026, a threat actor hacked the hospital’s internal network and stole personal and health information. The post 250,000 Affected by Data Breach at Nacogdoches Memorial Hospital appeared first on SecurityWeek.
 
+### ImplicitBBQ: Benchmarking Implicit Bias in Large Language Models through Characteristic Based Cues
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01925
+- Summary: Large Language Models increasingly suppress biased outputs when demographic identity is stated explicitly, yet may still exhibit implicit biases when identity is conveyed indirectly. Existing benchmarks use name based proxies to detect implicit biases, which carry weak associations with many social...
+
 ### Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners
 - Source: The Hacker News
 - Category: security
@@ -773,6 +779,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-a-quiet-april-fools
 - Summary: a quiet day
+
+### CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01658
+- Summary: Large language model (LLM)-based evolution is a promising approach for open-ended discovery, where progress requires sustained search and knowledge accumulation. Existing methods still rely heavily on fixed heuristics and hard-coded exploration rules, which limit the autonomy of LLM agents. We...
 
 ### ThinknCheck: Grounded Claim Verification with Compact, Reasoning-Driven, and Interpretable Models
 - Source: HF Daily Papers
@@ -1188,6 +1200,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.00897
 - Summary: Machine learning-based weather forecasting models now surpass state-of-the-art numerical weather prediction systems, but training and operating these models at high spatial resolution remains computationally expensive. We present a modular framework that decouples forecasting from spatial...
+
+### Beyond Symbolic Solving: Multi Chain-of-Thought Voting for Geometric Reasoning in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00890
+- Summary: Geometric Problem Solving (GPS) remains at the heart of enhancing mathematical reasoning in large language models because it requires the combination of diagrammatic understanding, symbolic manipulation and logical inference. In existing literature, researchers have chiefly focused on synchronising...
 
 ### US Charges Uranium Crypto Exchange Hacker
 - Source: Security Week
@@ -1706,6 +1724,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/65w1yxq40m3l
 - Summary: Mar 31, 19:41 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Neural-Assisted in-Motion Self-Heading Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00168
+- Summary: Autonomous platforms operating in the oceans require accurate navigation to successfully complete their mission. In this regard, the initial heading estimation accuracy and the time required to achieve it play a critical role. The initial heading is traditionally estimated by model-based approaches...
 
 ### Android Developer Verification Rollout Begins Ahead of September Enforcement
 - Source: The Hacker News
@@ -2872,6 +2896,12 @@
 - URL: https://tldr.takara.ai/p/2603.27942
 - Summary: Japanese scene text poses challenges that multilingual benchmarks often fail to capture, including mixed scripts, frequent vertical writing, and a character inventory far larger than the Latin alphabet. Although Japanese is included in several multilingual benchmarks, these resources do not...
 
+### A Cross-Scale Decoder with Token Refinement for Off-Road Semantic Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.27931
+- Summary: Off-road semantic segmentation is fundamentally challenged by irregular terrain, vegetation clutter, and inherent annotation ambiguity. Unlike urban scenes with crisp object boundaries, off-road environments exhibit strong class-level similarity among terrain categories, resulting in thick and...
+
 ### ForestSim: A Synthetic Benchmark for Intelligent Vehicle Perception in Unstructured Forest Environments
 - Source: HF Daily Papers
 - Category: open-source
@@ -2991,37 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.27101
 - Summary: Large-scale maps of field boundaries are essential for agricultural monitoring tasks. Existing deep learning approaches for satellite-based field mapping are sensitive to illumination, spatial scale, and changes in geographic location. We conduct the first systematic evaluation of segmentation and...
-
-
-## 2026-03-27
-
-### Intermittent 500s on RealtimeKit API
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/zmmcl8p948xk
-- Summary: Mar 27, 23:57 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Realtime APIs. RealtimeKit meetings are unaffected.These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.
-
-### Cloudflare Pages - Custom Domain Management Degraded
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/8sm9t09dzflk
-- Summary: Mar 27, 23:32 UTCResolved - This incident has been resolved.Mar 27, 22:37 UTCIdentified - The issue has been identified and a fix is being implemented.Mar 27, 22:36 UTCInvestigating - Cloudflare has identified an issue impacting the API for managing and adding custom domains in Cloudflare Pages....
-
-### Network Performance Issues in Minneapolis, US datacenter (MSP)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/hy0dq5g5mfx7
-- Summary: Mar 27, 19:00 UTCResolved - Cloudflare identified issues with network performance in Minneapolis, US datacenter (MSP) datacenter between 19:12 and 19:35 UTC on March 27, 2026.
-
-### INC0154408
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/xj5gygqqc5w8
-- Summary: Mar 27, 18:34 UTCIdentified - Current status: We've identified an issue affecting the visibility of Native Apps listings within Snowsight, and we're developing and implementing a fix to restore service. We'll provide another update within 12 hours.Customer experience: Customers are unable to see or...
-
-### Increase in 5xx Errors in Fortaleza, Brazil datacenter (FOR)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/nhbmmcrzhpzk
-- Summary: Mar 27, 18:00 UTCResolved - Cloudflare identified an increase in 5xx errors with our CDN service in Fortaleza, Brazil datacenter (FOR). Users may have experienced an increase in errors between 18:17 UTC and 18:39 UTC on March 27, 2026.
 
