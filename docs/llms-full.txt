@@ -585,6 +585,12 @@
 - URL: https://tldr.takara.ai/p/2604.02118
 - Summary: Evaluating factual correctness of LLM generated natural language explanations grounded in time series data remains an open challenge. Although modern models generate textual interpretations of numerical signals, existing evaluation methods are limited: reference based similarity metrics and...
 
+### Reliable Control-Point Selection for Steering Reasoning in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02113
+- Summary: Steering vectors offer a training-free mechanism for controlling reasoning behaviors in large language models, but constructing effective vectors requires identifying genuine behavioral signals in the model's hidden states. For behaviors that can be toggled via prompts, this is straightforward....
+
 ### Cybersecurity M&A Roundup: 38 Deals Announced in March 2026
 - Source: Security Week
 - Category: security
@@ -1120,6 +1126,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/2699bq15k06w
 - Summary: Apr 1, 20:18 UTCResolved - This incident has been resolved.Apr 1, 20:03 UTCInvestigating - Cloudflare is investigating issues affecting traffic in the Phoenix, AZ area. Customers proxied through this location may experience errors or degraded performance.
+
+### Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01204
+- Summary: Primitive-based methods such as 3D Gaussian Splatting have recently become the state-of-the-art for novel-view synthesis and related reconstruction tasks. Compared to neural fields, these representations are more flexible, adaptive, and scale better to large scenes. However, the limited...
 
 ### Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects
 - Source: HF Daily Papers
@@ -1800,6 +1812,12 @@
 - URL: https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
 - Summary: A high-severity security flaw in the TrueConf client video conferencing software has been exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia dubbed TrueChaos. The vulnerability in question is CVE-2026-3502 (CVSS score: 7.8), a lack of integrity...
 
+### End-to-End Image Compression with Segmentation Guided Dual Coding for Wind Turbines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29927
+- Summary: Transferring large volumes of high-resolution images during wind turbine inspections introduces a bottleneck in assessing and detecting severe defects. Efficient coding must preserve high fidelity in blade regions while aggressively compressing the background. In this work, we propose an end-to-end...
+
 ### Censys Raises $70 Million for Internet Intelligence Platform
 - Source: Security Week
 - Category: security
@@ -2050,6 +2068,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.29419
 - Summary: Understanding object affordances is essential for enabling robots to perform purposeful and fine-grained interactions in diverse and unstructured environments. However, existing approaches either rely on retrieval, which is fragile due to sparsity and coverage gaps, or on large-scale models, which...
+
+### Extend3D: Town-Scale 3D Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29387
+- Summary: In this paper, we propose Extend3D, a training-free pipeline for 3D scene generation from a single image, built upon an object-centric 3D generative model. To overcome the limitations of fixed-size latent spaces in object-centric models for representing wide scenes, we extend the latent space in...
 
 ### OPPO Schedules Find X9 Launch Event for April 21
 - Source: Pandaily
@@ -2997,28 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.27817
 - Summary: Street-level imagery contains personally identifiable information (PII), some of which is context-dependent. Existing anonymization methods either over-process images or miss subtle identifiers, while API-based solutions compromise data sovereignty. We present an agentic framework CAIAMAR...
-
-### Needle in the Repo: A Benchmark for Maintainability in AI-Generated Repository Edits
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.27745
-- Summary: AI coding agents can now complete complex programming tasks, but existing evaluations largely emphasize behavioral correctness and often overlook maintainability risks such as weak modularity or testability. We present Needle in the Repo (NITR), a diagnostic probe-and-oracle framework for...
-
-### The role of neuromorphic principles in the future of biomedicine and healthcare
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.27716
-- Summary: Neuromorphic engineering has matured over the past four decades and is currently experiencing explosive growth with the potential to transform biomedical engineering and neurotechnologies. Participants at the Neuromorphic Principles in Biomedicine and Healthcare (NPBH) Workshop (October 2024) --...
-
-### Customized Visual Storytelling with Unified Multimodal LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.27690
-- Summary: Multimodal story customization aims to generate coherent story flows conditioned on textual descriptions, reference identity images, and shot types. While recent progress in story generation has shown promising results, most approaches rely on text-only inputs. A few studies incorporate character...
-
-### STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.27593
-- Summary: Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and complex videos. However, real-world deployments increasingly require streaming perception and proactive interaction, where video frames arrive online and the system must decide not only...
 
