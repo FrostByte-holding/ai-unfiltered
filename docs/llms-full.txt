@@ -1098,6 +1098,12 @@
 - URL: https://tldr.takara.ai/p/2604.01624
 - Summary: Diffusion language models (DLMs) expose their denoising trajectories, offering a natural handle for inference-time control; accordingly, an ideal hallucination mitigation framework should intervene during generation using this model-native signal rather than relying on an externally trained...
 
+### Random Coordinate Descent on the Wasserstein Space of Probability Measures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01606
+- Summary: Optimization over the space of probability measures endowed with the Wasserstein-2 geometry is central to modern machine learning and mean-field modeling. However, traditional methods relying on full Wasserstein gradients often suffer from high computational overhead in high-dimensional or...
+
 ### Do Large Language Models Mentalize When They Teach?
 - Source: HF Daily Papers
 - Category: open-source
@@ -1405,6 +1411,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.01170
 - Summary: While test-time scaling has enabled large language models to solve highly difficult tasks, state-of-the-art results come at exorbitant compute costs. These inefficiencies can be attributed to the miscalibration of post-trained language models, and the lack of calibration in popular sampling...
+
+### Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.01169
+- Summary: A fundamental challenge in science and engineering is the simulation-to-experiment gap. While we often possess prior knowledge of physical laws, these physical laws can be too difficult to solve exactly for complex systems. Such systems are commonly modeled using simulators, which impose...
 
 ### Property-Level Flood Risk Assessment Using AI-Enabled Street-View Lowest Floor Elevation Extraction and ML Imputation Across Texas
 - Source: HF Daily Papers
@@ -1758,6 +1770,12 @@
 - URL: https://tldr.takara.ai/p/2604.00491
 - Summary: Current LLM-based coding agents follow a serial execution paradigm: the model first generates the complete code, then invokes an interpreter to execute it. This sequential workflow leaves the executor idle during generation and the generator idle during execution, resulting in unnecessary...
 
+### First Logit Boosting: Visual Grounding Method to Mitigate Object Hallucination in Large Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.00455
+- Summary: Recent Large Vision-Language Models (LVLMs) have demonstrated remarkable performance across various multimodal tasks that require understanding both visual and linguistic inputs. However, object hallucination -- the generation of nonexistent objects in answers -- remains a persistent challenge....
+
 ### ChartDiff: A Large-Scale Benchmark for Comprehending Pairs of Charts
 - Source: arXiv AI
 - Category: research
@@ -2016,6 +2034,11 @@
 - URL: https://tldr.takara.ai/p/2604.00339
 - Summary: Predicting startup success from founder career data is hard. The signal is weak, the labels are rare (9%), and most founders who succeed look almost identical to those who fail. We engineer 28 structured features directly from raw JSON fields -- jobs, education, exits -- and combine them with a...
 
+### Any Custom Frontend with Gradio's Backend
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/introducing-gradio-server
+
 
 ## 2026-03-31
 
@@ -2221,6 +2244,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2603.29632
 - Summary: As AI agents evolve, the community is rapidly shifting from single Large Language Models (LLMs) to Multi-Agent Systems (MAS) to overcome cognitive bottlenecks in automated research. However, the optimal multi-agent coordination framework for these autonomous agents remains largely unexplored. In...
+
+### Storing Less, Finding More: How Novelty Filtering Improves Cross-Modal Retrieval on Edge Cameras
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29631
+- Summary: Always-on edge cameras generate continuous video streams where redundant frames degrade cross-modal retrieval by crowding correct results out of top-k search. This paper presents a streaming retrieval architecture: an on-device epsilon-net filter retains only semantically novel frames, building a...
 
 ### Google Slashes Quantum Resource Requirements for Breaking Cryptocurrency Encryption
 - Source: Security Week
@@ -2824,6 +2853,12 @@
 - URL: https://tldr.takara.ai/p/2603.28572
 - Summary: Denoising models such as Diffusion or Flow Matching have recently advanced generative modeling for discrete structures, yet most approaches either operate directly in the discrete state space, causing abrupt state changes. We introduce simplex denoising, a simple yet effective generative framework...
 
+### T-Norm Operators for EU AI Act Compliance Classification: An Empirical Comparison of Lukasiewicz, Product, and Gödel Semantics in a Neuro-Symbolic Reasoning System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28558
+- Summary: We present a first comparative pilot study of three t-norm operators -- Lukasiewicz (T_L), Product (T_P), and Gödel (T_G) - as logical conjunction mechanisms in a neuro-symbolic reasoning system for EU AI Act compliance classification. Using the LGGT+ (Logic-Guided Graph Transformers Plus) engine...
+
 ### Healthcare IT Platform CareCloud Probing Potential Data Breach
 - Source: Security Week
 - Category: security
@@ -2985,40 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/agibot-rolls-out-10-000th-unit-as-embodied-ai-enters-scaling-phase
 - Summary: AGIBOT hits 10,000 units, signaling rapid scaling of embodied AI robots and strong global market leadership.
-
-### From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28163
-- Summary: App store reviews provide a constant flow of real user feedback that can help improve software requirements. However, these reviews are often messy, informal, and difficult to analyze manually at scale. Although automated techniques exist, many do not perform well when replicated and often fail to...
-
-### XPeng to Launch 2026 MONA M03 on April 2 with Upgraded AI and Extended Range
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/x-peng-to-launch-2026-mona-m03-on-april-2-with-upgraded-ai-and-extended-range
-- Summary: XPeng’s 2026 MONA M03 brings 750 TOPS AI power and 640 km range to the sub-$20,000 EV segment.
-
-### Chery and JLR to Launch FREELANDER Brand, New Model Teased with Huawei’s 896-Line LiDAR
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/chery-and-jlr-to-launch-freelander-brand-new-model-teased-with-huawei-s-896-line-li-dar
-- Summary: Chery and JLR’s new FREELANDER brand debuts with a Huawei-powered 896-line LiDAR, signaling a major push into high-end smart EVs.
-
-### BYD Secures 2.6GWh Overseas Order to Supply Energy Storage Systems for Four Chilean Power Stations
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byd-secures-2-6-g-wh-overseas-order-to-supply-energy-storage-systems-for-four-chilean-power-stations
-- Summary: BYD lands a 2.6GWh deal in Chile, strengthening its global energy storage footprint through a major solar-plus-storage project.
-
-### Weibo Partners with Baidu AI Cloud’s DuClaw to Expand AI Agent Ecosystem
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/weibo-partners-with-baidu-ai-cloud-s-du-claw-to-expand-ai-agent-ecosystem
-- Summary: Weibo integrates Baidu AI Cloud’s DuClaw to enhance personalized content creation and real-time trend analysis within its platform.
-
-### FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/
-- Summary: The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old. The post FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers appeared first on SecurityWeek.
 
