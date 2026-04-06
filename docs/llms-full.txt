@@ -6,6 +6,48 @@
 
 ## 2026-04-06
 
+### Elevated errors on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vfjv5x6qkd4j
+- Summary: Apr 6, 16:44 UTCMonitoring - We have applied a fix, and are seeing success rates recover across affected services. We are continuing to monitor to ensure there is no recurrence of issues.Apr 6, 16:17 UTCUpdate - We are continuing to work on a fix for this issue.Apr 6, 15:54 UTCUpdate - This issue...
+
+### The one piece of data that could actually shed light on your job and AI
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Within Silicon Valley’s orbit, an AI-fueled jobs apocalypse is spoken about as a given. The mood is so grim that a societal impacts researcher at Anthropic,...
+
+### Google DeepMind Researchers Map Web Attacks Against AI Agents
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-deepmind-researchers-map-web-attacks-against-ai-agents/
+- Summary: A vulnerability named ‘AI Agent Traps’ allows attackers to manipulate, deceive, and exploit visiting agents via malicious web content. The post Google DeepMind Researchers Map Web Attacks Against AI Agents appeared first on SecurityWeek.
+
+### Digital experience Logpush delay
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/5gk4x9zhw6tx
+- Summary: Apr 6, 15:18 UTCIdentified - Cloudflare One customers that use LogPush to ingest DEX Device State Events will see up to a 20 minute delay. DEX data in the dashboard and the API is not impacted
+
+### Delay in some zone configuration deployment
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/x6rt392sc7m5
+- Summary: Apr 6, 15:00 UTCResolved - We have resolved an issue that caused a minor delay in configuration deployments across a small number of zones between 14:56 and 20:36 UTC on April 5, 2026.
+
+### Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
+- Summary: Your attack surface no&nbsp;longer lives&nbsp;on one operating system, and neither do the campaigns targeting&nbsp;it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many...
+
+### ⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html
+- Summary: This&nbsp;week had real hits. The&nbsp;key software got tampered with. Active&nbsp;bugs showed up in the tools people use every day. Some&nbsp;attacks didn’t even need much effort because the path was already&nbsp;there. One weak spot now spreads wider than before. What&nbsp;starts small can reach...
+
 ### How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers
 - Source: The Hacker News
 - Category: security
@@ -647,6 +689,12 @@
 - Category: security
 - URL: https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/
 - Summary: Within days of each other, Anthropic first leaked the source code to Claude Code, and then a critical vulnerability was found by Adversa AI. The post Critical Vulnerability in Claude Code Emerges Days After Source Leak appeared first on SecurityWeek.
+
+### Steerable Visual Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02327
+- Summary: Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way...
 
 ### Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation
 - Source: HF Daily Papers
@@ -2252,6 +2300,12 @@
 - URL: https://tldr.takara.ai/p/2603.29475
 - Summary: Survival analysis is crucial for many medical applications but remains challenging for modern machine learning due to limited data, censoring, and the heterogeneity of tabular covariates. While the prior-fitted paradigm, which relies on pretraining models on large collections of synthetic datasets,...
 
+### From Big Data to Fast Data: Towards High-Quality Datasets for Machine Learning Applications from Closed-Loop Data Collection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29474
+- Summary: The increasing capabilities of machine learning models, such as vision-language and multimodal language models, are placing growing demands on data in automotive systems engineering, making the quality and relevance of collected data enablers for the development and validation of such systems....
+
 ### iPoster: Content-Aware Layout Generation for Interactive Poster Design via Graph-Enhanced Diffusion Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -2734,6 +2788,12 @@
 - URL: https://tldr.takara.ai/p/2603.28658
 - Summary: Restoring images affected by various types of degradation, such as noise, blur, or improper exposure, remains a significant challenge in computer vision. While recent trends favor complex monolithic all-in-one architectures, these models often suffer from negative task interference and require...
 
+### Trust-Aware Routing for Distributed Generative AI Inference at the Edge
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28622
+- Summary: Emerging deployments of Generative AI increasingly execute inference across decentralized and heterogeneous edge devices rather than on a single trusted server. In such environments, a single device failure or misbehavior can disrupt the entire inference process, making traditional best-effort...
+
 ### Seeing with You: Perception-Reasoning Coevolution for Multimodal Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2961,64 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/
 - Summary: The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old. The post FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers appeared first on SecurityWeek.
-
-### F5 BIG-IP DoS Flaw Upgraded to Critical RCE, Now Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/f5-big-ip-dos-flaw-upgraded-to-critical-rce-now-exploited-in-the-wild/
-- Summary: Initially disclosed as a high-severity denial-of-service (DoS), the bug was reclassified as a critical RCE issue. The post F5 BIG-IP DoS Flaw Upgraded to Critical RCE, Now Exploited in the Wild appeared first on SecurityWeek.
-
-### Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/03/three-china-linked-clusters-target.html
-- Summary: Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a "complex and well-resourced operation." The campaigns have led to the deployment of various malware families, including HIUPAN (aka USBFect, MISTCLOAK,...
-
-### Koopman-based surrogate modeling for reinforcement-learning-control of Rayleigh-Benard convection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28074
-- Summary: Training reinforcement learning (RL) agents to control fluid dynamics systems is computationally expensive due to the high cost of direct numerical simulations (DNS) of the governing equations. Surrogate models offer a promising alternative by approximating the dynamics at a fraction of the...
-
-### Synonymix: Unified Group Personas for Generative Simulations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28066
-- Summary: Generative agent simulations operate at two scales: individual personas for character interaction, and population models for collective behavior analysis and intervention testing. We propose a third scale: meso-level simulation - interaction with group-level representations that retain grounding in...
-
-### \textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28064
-- Summary: This paper addresses the problem of dynamic scene surface reconstruction using Gaussian Splatting (GS), aiming to recover temporally consistent geometry. While existing GS-based dynamic surface reconstruction methods can yield superior reconstruction, they are typically limited to either a single...
-
-### Who Wrote the Book? Detecting and Attributing LLM Ghostwriters
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28054
-- Summary: In this paper, we introduce GhostWriteBench, a dataset for LLM authorship attribution. It comprises long-form texts (50K+ words per book) generated by frontier LLMs, and is designed to test generalisation across multiple out-of-distribution (OOD) dimensions, including domain and unseen LLM author....
-
-### Drift-AR: Single-Step Visual Autoregressive Generation via Anti-Symmetric Drifting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28049
-- Summary: Autoregressive (AR)-Diffusion hybrid paradigms combine AR's structured semantic modeling with diffusion's high-fidelity synthesis, yet suffer from a dual speed bottleneck: the sequential AR stage and the iterative multi-step denoising of the diffusion vision decode stage. Existing methods address...
-
-### Dogfight Search: A Swarm-Based Optimization Algorithm for Complex Engineering Optimization and Mountainous Terrain Path Planning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28046
-- Summary: Dogfight is a tactical behavior of cooperation between fighters. Inspired by this, this paper proposes a novel metaphor-free metaheuristic algorithm called Dogfight Search (DoS). Unlike traditional algorithms, DoS draws algorithmic framework from the inspiration, but its search mechanism is...
-
-### Event6D: Event-based Novel Object 6D Pose Tracking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28045
-- Summary: Event cameras provide microsecond latency, making them suitable for 6D object pose tracking in fast, dynamic scenes where conventional RGB and depth pipelines suffer from motion blur and large pixel displacements. We introduce EventTrack6D, an event-depth tracking framework that generalizes to...
-
-### Physically Inspired Gaussian Splatting for HDR Novel View Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2603.28020
-- Summary: High dynamic range novel view synthesis (HDR-NVS) reconstructs scenes with dynamic details by fusing multi-exposure low dynamic range (LDR) views, yet it struggles to capture ambient illumination-dependent appearance. Implicitly supervising HDR content by constraining tone-mapped results fails in...
 
