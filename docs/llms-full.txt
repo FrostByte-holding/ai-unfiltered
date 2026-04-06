@@ -6,6 +6,18 @@
 
 ## 2026-04-06
 
+### Some users may experience empty response from ChatGPT in web
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KNGPM84F5G72B8Y7ASYNB11H
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html
+- Summary: Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. The threat actor, who went by the alias UNKN, functioned as a...
+
 ### Delayed Cloudflare Page Shield data updates
 - Source: Cloudflare Status
 - Category: incidents
@@ -548,6 +560,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/2026-x-peng-mona-m03-launched-with-prices-starting-at-rmb-119-800
 - Summary: XPeng Motors has launched the 2026 MONA M03, with prices starting at approximately $16,500, offering upgraded AI-driven driving capabilities and improved range of up to 640 km. The entry-level EV targets younger buyers with strong value, enhanced smart features, and limited-time incentives.
+
+### Drift-Resilient Temporal Priors for Visual Tracking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.02654
+- Summary: Temporal information is crucial for visual tracking, but existing multi-frame trackers are vulnerable to model drift caused by naively aggregating noisy historical predictions. In this paper, we introduce DTPTrack, a lightweight and generalizable module designed to be seamlessly integrated into...
 
 
 ## 2026-04-02
@@ -2492,6 +2510,12 @@
 - URL: https://tldr.takara.ai/p/2603.29216
 - Summary: Large Language Models (LLMs) have emerged as a popular choice in vulnerability detection studies given their foundational capabilities, open source availability, and variety of models, but have limited scalability due to extensive compute requirements. Using the natural graph relational structure...
 
+### Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.29185
+- Summary: Visual relocalization is a fundamental task in the field of 3D computer vision, estimating a camera's pose when it revisits a previously known scene. While point-based hierarchical relocalization methods have shown strong scalability and efficiency, they are often limited by sparse image...
+
 ### Sigenergy Clears Hong Kong Listing Hearing as Revenue Hits $1.25 Billion
 - Source: Pandaily
 - Category: chinese-ai
@@ -2577,6 +2601,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/voxtral
 - Summary: Mistral is one of the world's leading frontier model labs, and has just launched Voxtral TTS, their latest step in their strategy to offer open frontier intelligence for every modality.
+
+### Decoding Functional Networks for Visual Categories via GNNs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28931
+- Summary: Understanding how large-scale brain networks represent visual categories is fundamental to linking perception and cortical organization. Using high-resolution 7T fMRI from the Natural Scenes Dataset, we construct parcel-level functional graphs and train a signed Graph Neural Network that models...
 
 ### Increase in 5xx Errors in Fortaleza, Brazil datacenter (FOR)
 - Source: Cloudflare Status
@@ -2715,6 +2745,12 @@
 - Category: security
 - URL: https://www.securityweek.com/huskeys-emerges-from-stealth-with-8-million-in-funding/
 - Summary: The startup has built an edge security management (ESM) platform, an AI engine atop the entire edge security stack. The post Huskeys Emerges From Stealth With $8 Million in Funding appeared first on SecurityWeek.
+
+### Tailoring AI-Driven Reading Scaffolds to the Distinct Needs of Neurodiverse Learners
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2603.28370
+- Summary: Neurodiverse learners often require reading supports, yet increasing scaffold richness can sometimes overload attention and working memory rather than improve comprehension. Grounded in the Construction-Integration model and a contingent scaffolding perspective, we examine how structural versus...
 
 ### Not All Subjectivity Is the Same! Defining Desiderata for the Evaluation of Subjectivity in NLP
 - Source: HF Daily Papers
@@ -2985,40 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.25752
 - Summary: arXiv:2603.25752v1 Announce Type: new Abstract: In real-world scenarios, audio and video signals are often subject to environmental noise and limited acquisition conditions, resulting in extracted features containing excessive noise. Furthermore, there is an imbalance in data quality and...
-
-### RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.25804
-- Summary: arXiv:2603.25804v1 Announce Type: new Abstract: Vision-Language Models (VLMs) have demonstrated impressive capabilities in code generation across various domains. However, their ability to replicate complex, multi-panel visualizations from real-world data remains largely unassessed. To address this...
-
-### Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.25821
-- Summary: arXiv:2603.25821v1 Announce Type: new Abstract: We present Doctorina MedBench, a comprehensive evaluation framework for agent-based medical AI based on the simulation of realistic physician-patient interactions. Unlike traditional medical benchmarks that rely on solving standardized test questions,...
-
-### Gradient-Informed Training for Low-Resource Multilingual Speech Translation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.25836
-- Summary: arXiv:2603.25836v1 Announce Type: new Abstract: In low-resource multilingual speech-to-text translation, uniform architectural sharing across languages frequently introduces representation conflicts that impede convergence. This work proposes a principled methodology to automatically determine...
-
-### Methods for Knowledge Graph Construction from Text Collections: Development and Applications
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.25862
-- Summary: arXiv:2603.25862v1 Announce Type: new Abstract: Virtually every sector of society is experiencing a dramatic growth in the volume of unstructured textual data that is generated and published, from news and social media online interactions, through open access scholarly communications and...
-
-### CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.26512
-- Summary: arXiv:2603.26512v1 Announce Type: new Abstract: Existing methods for text-to-CAD generation either operate in a single pass with no geometric verification or rely on lossy visual feedback that cannot resolve dimensional errors. We present CADSmith, a multi-agent pipeline that generates CadQuery...
-
-### Stabilizing Rubric Integration Training via Decoupled Advantage Normalization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.26535
-- Summary: arXiv:2603.26535v1 Announce Type: new Abstract: We propose Process-Aware Policy Optimization (PAPO), a method that integrates process-level evaluation into Group Relative Policy Optimization (GRPO) through decoupled advantage normalization, to address two limitations of existing reward designs....
 
