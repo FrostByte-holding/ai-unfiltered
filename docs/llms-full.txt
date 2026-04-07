@@ -6,6 +6,24 @@
 
 ## 2026-04-07
 
+### Azure - East US 2 (Virginia): INC0155020
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/g47n1w0d9v90
+- Summary: Apr 7, 20:08 UTCMonitoring - Current status: We've confirmed that our service has recovered following the routing of affected traffic to healthy infrastructure, and we're continuing to monitor as the health of Snowsight continues to improve. Other services are fully recovered, but some users who...
+
+### Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/harness-eng
+- Summary: We shed light on OpenAI's first Dark Factory for the first time.
+
+### Russia Hacked Routers to Steal Microsoft Office Tokens
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/
+- Summary: Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens...
+
 ### Analytics Delays and Errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -333,6 +351,12 @@
 - URL: https://tldr.takara.ai/p/2604.04876
 - Summary: Ensuring that artificial intelligence (AI) systems satisfy formal safety and policy constraints is a central challenge in safety-critical domains. While limitations of verification are often attributed to combinatorial complexity and model expressiveness, we show that they arise from intrinsic...
 
+### Optimizing LLM Prompt Engineering with DSPy Based Declarative Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04869
+- Summary: Large Language Models (LLMs) have shown strong performance across a wide range of natural language processing tasks; however, their effectiveness is highly dependent on prompt design, structure, and embedded reasoning signals. Conventional prompt engineering methods largely rely on heuristic...
+
 ### Elevated errors on Claude.ai
 - Source: Anthropic Status
 - Category: incidents
@@ -399,6 +423,12 @@
 - URL: https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html
 - Summary: Your attack surface no&nbsp;longer lives&nbsp;on one operating system, and neither do the campaigns targeting&nbsp;it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many...
 
+### On Ambiguity: The case of fraction, its meanings and roles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04647
+- Summary: We contemplate the notion of ambiguity in mathematical discourse. We consider a general method of resolving ambiguity and semantic options for sustaining a resolution. The general discussion is applied to the case of `fraction' which is ill-defined and ambiguous in the literature of elementary...
+
 ### ⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More
 - Source: The Hacker News
 - Category: security
@@ -410,6 +440,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04634
 - Summary: The rapid advancement of video generation models has enabled the creation of highly realistic synthetic media, raising significant societal concerns regarding the spread of misinformation. However, current detection methods suffer from critical limitations. They rely on preprocessing operations...
+
+### Dynamic Free-Rider Detection in Federated Learning via Simulated Attack Patterns
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04611
+- Summary: Federated learning (FL) enables multiple clients to collaboratively train a global model by aggregating local updates without sharing private data. However, FL often faces the challenge of free-riders, clients who submit fake model parameters without performing actual training to obtain the global...
 
 ### How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers
 - Source: The Hacker News
@@ -482,6 +518,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html
 - Summary: Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. The threat actor, who went by the alias UNKN, functioned as a...
+
+### TinyNina: A Resource-Efficient Edge-AI Framework for Sustainable Air Quality Monitoring via Intra-Image Satellite Super-Resolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04445
+- Summary: Nitrogen dioxide (NO$_2$) is a primary atmospheric pollutant and a significant contributor to respiratory morbidity and urban climate-related challenges. While satellite platforms like Sentinel-2 provide global coverage, their native spatial resolution often limits the precision required,...
 
 ### Delayed Cloudflare Page Shield data updates
 - Source: Cloudflare Status
@@ -686,6 +728,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/pjx3nm483dgh
 - Summary: Apr 6, 01:59 UTCResolved - Between 16:11 UTC on April 5 and 00:14 UTC on April 6, an error impacted SOC alerting for Core applications. The issue has been resolved, and all systems are now fully operational. No ongoing impact is expected.
+
+### Benchmarking Multi-turn Medical Diagnosis: Hold, Lure, and Self-Correction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04325
+- Summary: Large language models (LLMs) achieve high accuracy in medical diagnosis when all clinical information is provided in a single turn, yet how they behave under multi-turn evidence accumulation closer to real clinical reasoning remains unexplored. We introduce MINT (Medical Incremental N-Turn...
 
 
 ## 2026-04-05
@@ -2973,52 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.26948
 - Summary: arXiv:2603.26948v1 Announce Type: new Abstract: Existing approaches for predictive process monitoring are sub-symbolic, meaning that they learn correlations between descriptive features and a target feature fully based on data, e.g., predicting the surgical needs of a patient based on historical...
-
-### Mitigating Forgetting in Continual Learning with Selective Gradient Projection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26671
-- Summary: arXiv:2603.26671v1 Announce Type: new Abstract: As neural networks are increasingly deployed in dynamic environments, they face the challenge of catastrophic forgetting, the tendency to overwrite previously learned knowledge when adapting to new tasks, resulting in severe performance degradation on...
-
-### Boundary-aware Prototype-driven Adversarial Alignment for Cross-Corpus EEG Emotion Recognition
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26713
-- Summary: arXiv:2603.26713v1 Announce Type: new Abstract: Electroencephalography (EEG)-based emotion recognition suffers from severe performance degradation when models are transferred across heterogeneous datasets due to physiological variability, experimental paradigm differences, and device...
-
-### Learning to Select Visual In-Context Demonstrations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26775
-- Summary: arXiv:2603.26775v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) adapt to visual tasks via in-context learning (ICL), which relies heavily on demonstration quality. The dominant demonstration selection strategy is unsupervised k-Nearest Neighbor (kNN) search. While simple,...
-
-### TED: Training-Free Experience Distillation for Multimodal Reasoning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26778
-- Summary: arXiv:2603.26778v1 Announce Type: new Abstract: Knowledge distillation is typically realized by transferring a teacher model's knowledge into a student's parameters through supervised or reinforcement-based optimization. While effective, such approaches require repeated parameter updates and...
-
-### A Step Toward Federated Pretraining of Multimodal Large Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26786
-- Summary: arXiv:2603.26786v1 Announce Type: new Abstract: The rapid evolution of Multimodal Large Language Models (MLLMs) is bottlenecked by the saturation of high-quality public data, while vast amounts of diverse multimodal data remain inaccessible in privacy-sensitive silos. Federated Learning (FL) offers...
-
-### GeoBlock: Inferring Block Granularity from Dependency Geometry in Diffusion Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.26675
-- Summary: arXiv:2603.26675v1 Announce Type: new Abstract: Block diffusion enables efficient parallel refinement in diffusion language models, but its decoding behavior depends critically on block size. Existing block-sizing strategies rely on fixed rules or heuristic signals and do not account for the...
-
-### AlpsBench: An LLM Personalization Benchmark for Real-Dialogue Memorization and Preference Alignment
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.26680
-- Summary: arXiv:2603.26680v1 Announce Type: new Abstract: As Large Language Models (LLMs) evolve into lifelong AI assistants, LLM personalization has become a critical frontier. However, progress is currently bottlenecked by the absence of a gold-standard evaluation benchmark. Existing benchmarks either...
-
-### The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.26707
-- Summary: arXiv:2603.26707v1 Announce Type: new Abstract: This paper documents and theorises a self-reinforcing dynamic between two measurable trends: the exponential expansion of large language model (LLM) context windows and the secular contraction of human sustained-attention capacity. We term the...
 
