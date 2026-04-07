@@ -6,6 +6,36 @@
 
 ## 2026-04-07
 
+### Analytics Delays and Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hcymjjyr55rs
+- Summary: Apr 7, 16:35 UTCIdentified - The cause of this issue has been identified and a fix is being implemented.Apr 7, 15:55 UTCInvestigating - Cloudflare Analytics processing is running behind. This affects timely delivery of customer data. This also affects querying data, and some users may see errors...
+
+### Elevated errors on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/124yr07585k9
+- Summary: Apr 7, 15:59 UTCResolved - From 14:32–15:12 UTC, we saw elevated errors impacting various Claude services, including Claude.ai and Claude Code authentication. These errors have been resolved.Apr 7, 15:22 UTCMonitoring - We have applied a fix and success rates have returned to normal. We are...
+
+### Desalination plants in the Middle East are increasingly vulnerable
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/07/1135235/desalination-technology-water/
+- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. As the conflict in Iran has escalated, a crucial resource is under fire: the desalination technology that supplies water...
+
+### Cloudflare Dashboard and Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/w7v0csd4n8yj
+- Summary: Apr 7, 14:27 UTCResolved - This incident has been resolved.Apr 7, 14:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 7, 13:39 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 7, 13:34 UTCMonitoring - A fix has been implemented and...
+
+### Enabling agent-first process redesign
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/
+- Summary: Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically. As they interact with data, systems, people, and other agents in real time, AI agents can execute entire workflows autonomously. But unlocking their potential requires redesigning processes around...
+
 ### Webinar Today: Why Automated Pentesting Alone Is Not Enough
 - Source: Security Week
 - Category: security
@@ -339,6 +369,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/5gk4x9zhw6tx
 - Summary: Apr 6, 15:18 UTCIdentified - Cloudflare One customers that use LogPush to ingest DEX Device State Events will see up to a 20 minute delay. DEX data in the dashboard and the API is not impacted
 
+### Lighting Up or Dimming Down? Exploring Dark Patterns of LLMs in Co-Creativity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04735
+- Summary: Large language models (LLMs) are increasingly acting as collaborative writing partners, raising questions about their impact on human agency. In this exploratory work, we investigate five "dark patterns" in human-AI co-creativity -- subtle model behaviors that can suppress or distort the creative...
+
 ### Delay in some zone configuration deployment
 - Source: Cloudflare Status
 - Category: incidents
@@ -351,6 +387,12 @@
 - URL: https://tldr.takara.ai/p/2604.04686
 - Summary: In introductory presentations of policy gradients, one often derives the REINFORCE estimator using the full trajectory return and then states, by ``causality,'' that the full return may be replaced by the reward-to-go. Although this statement is correct, it is frequently presented at a level of...
 
+### ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04667
+- Summary: Real-time depth reconstruction from ultra-high-resolution UAV imagery is essential for time-critical geospatial tasks such as disaster response, yet remains challenging due to wide-baseline parallax, large image sizes, low-texture or specular surfaces, occlusions, and strict computational...
+
 ### Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps
 - Source: The Hacker News
 - Category: security
@@ -362,6 +404,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html
 - Summary: This&nbsp;week had real hits. The&nbsp;key software got tampered with. Active&nbsp;bugs showed up in the tools people use every day. Some&nbsp;attacks didn’t even need much effort because the path was already&nbsp;there. One weak spot now spreads wider than before. What&nbsp;starts small can reach...
+
+### Preserving Forgery Artifacts: AI-Generated Video Detection at Native Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04634
+- Summary: The rapid advancement of video generation models has enabled the creation of highly realistic synthetic media, raising significant societal concerns regarding the spread of misinformation. However, current detection methods suffer from critical limitations. They rely on preprocessing operations...
 
 ### How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers
 - Source: The Hacker News
@@ -416,6 +464,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04518
 - Summary: Deep Neural Networks (DNNs) are increasingly utilized in high-stakes domains like medical diagnostics and autonomous driving where model reliability is critical. However, the research landscape for ensuring this reliability is terminologically fractured across communities that pursue the same goal...
+
+### SLaB: Sparse-Lowrank-Binary Decomposition for Efficient Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04493
+- Summary: The rapid growth of large language models (LLMs) presents significant deployment challenges due to their massive computational and memory demands. While model compression, such as network pruning, offers potential solutions, most existing methods often fail to maintain good performance at high...
+
+### A Patch-based Cross-view Regularized Framework for Backdoor Defense in Multimodal Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04488
+- Summary: Multimodal large language models have become an important infrastructure for unified processing of visual and linguistic tasks. However, such models are highly susceptible to backdoor implantation during supervised fine-tuning and will steadily output the attacker's predefined harmful responses...
 
 ### BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks
 - Source: The Hacker News
@@ -2961,64 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.26707
 - Summary: arXiv:2603.26707v1 Announce Type: new Abstract: This paper documents and theorises a self-reinforcing dynamic between two measurable trends: the exponential expansion of large language model (LLM) context windows and the secular contraction of human sustained-attention capacity. We term the...
-
-### Do Multilingual VLMs Reason Equally? A Cross-Lingual Visual Reasoning Audit for Indian Languages
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.26742
-- Summary: arXiv:2603.26742v1 Announce Type: new Abstract: Vision-language models score well on mathematical, scientific, and spatial reasoning benchmarks, yet these evaluations are overwhelmingly English. I present the first cross-lingual visual reasoning audit for Indian languages. 980 questions from...
-
-### LogicDiff: Logic-Guided Denoising Improves Reasoning in Masked Diffusion Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.26771
-- Summary: arXiv:2603.26771v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) generate text by iteratively unmasking tokens from a fully masked sequence, offering parallel generation and bidirectional context. However, their standard confidence-based unmasking strategy systematically...
-
-### Transparency as Architecture: Structural Compliance Gaps in EU AI Act Article 50 II
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.26983
-- Summary: arXiv:2603.26983v1 Announce Type: new Abstract: Art. 50 II of the EU Artificial Intelligence Act mandates dual transparency for AI-generated content: outputs must be labeled in both human-understandable and machine-readable form for automated verification. This requirement, entering into force in...
-
-### FormalProofBench: Can Models Write Graduate Level Math Proofs That Are Formally Verified?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.26996
-- Summary: arXiv:2603.26996v1 Announce Type: new Abstract: We present FormalProofBench, a private benchmark designed to evaluate whether AI models can produce formally verified mathematical proofs at the graduate level. Each task pairs a natural-language problem with a Lean~4 formal statement, and a model...
-
-### When Verification Hurts: Asymmetric Effects of Multi-Agent Feedback in Logic Proof Tutoring
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.27076
-- Summary: arXiv:2603.27076v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for automated tutoring, but their reliability in structured symbolic domains remains unclear. We study step-level feedback for propositional logic proofs, which require precise symbolic reasoning...
-
-### The Price of Meaning: Why Every Semantic Memory System Forgets
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.27116
-- Summary: arXiv:2603.27116v1 Announce Type: new Abstract: Every major AI memory system in production today organises information by meaning. That organisation enables generalisation, analogy, and conceptual retrieval -- but it comes at a price. We prove that the same geometric structure enabling semantic...
-
-### MediHive: A Decentralized Agent Collective for Medical Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.27150
-- Summary: arXiv:2603.27150v1 Announce Type: new Abstract: Large language models (LLMs) have revolutionized medical reasoning tasks, yet single-agent systems often falter on complex, interdisciplinary problems requiring robust handling of uncertainty and conflicting evidence. Multi-agent systems (MAS)...
-
-### Robust Batch-Level Query Routing for Large Language Models under Cost and Capacity Constraints
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26796
-- Summary: arXiv:2603.26796v1 Announce Type: new Abstract: We study the problem of routing queries to large language models (LLMs) under cost, GPU resources, and concurrency constraints. Prior per-query routing methods often fail to control batch-level cost, especially under non-uniform or adversarial...
-
-### MemGuard-Alpha: Detecting and Filtering Memorization-Contaminated Signals in LLM-Based Financial Forecasting via Membership Inference and Cross-Model Disagreement
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26797
-- Summary: arXiv:2603.26797v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to generate financial alpha signals, yet growing evidence shows that LLMs memorize historical financial data from their training corpora, producing spurious predictive accuracy that collapses...
-
-### Explaining, Verifying, and Aligning Semantic Hierarchies in Vision-Language Model Embeddings
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.26798
-- Summary: arXiv:2603.26798v1 Announce Type: new Abstract: Vision-language model (VLM) encoders such as CLIP enable strong retrieval and zero-shot classification in a shared image-text embedding space, yet the semantic organization of this space is rarely inspected. We present a post-hoc framework to explain,...
 
