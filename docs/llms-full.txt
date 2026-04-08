@@ -6,6 +6,23 @@
 
 ## 2026-04-08
 
+### ALTK‑Evolve: On‑the‑Job Learning for AI Agents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/altk-evolve
+
+### Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/
+- Summary: We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I...
+
+### APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html
+- Summary: The Russian threat actor known&nbsp;as APT28 (aka Forest Blizzard and Pawn Storm) has been linked to a fresh spear-phishing campaign targeting Ukraine and its allies to deploy a previously undocumented malware suite&nbsp;codenamed PRISMEX. "PRISMEX combines advanced steganography, component object...
+
 ### Massachusetts Hospital Diverts Ambulances as Cyberattack Causes Disruption
 - Source: Security Week
 - Category: security
@@ -240,6 +257,11 @@
 - URL: https://www.latent.space/p/ainews-anthropic-30b-arr-project
 - Summary: Anthropic steps up the offensive vs OpenAI's upcoming IPO woes
 
+### Safetensors is Joining the PyTorch Foundation
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/safetensors-joins-pytorch-foundation
+
 
 ## 2026-04-07
 
@@ -254,6 +276,30 @@
 - Category: security
 - URL: https://www.securityweek.com/anthropic-unveils-claude-mythos-a-cybersecurity-breakthrough-that-could-also-supercharge-attacks/
 - Summary: New AI model drives Project Glasswing, a effort to secure critical software before advanced capabilities fall into the wrong hands. The post Anthropic Unveils ‘Claude Mythos’ &#8211; A Cybersecurity Breakthrough That Could Also Supercharge Attacks appeared first on SecurityWeek.
+
+### Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06170
+- Summary: The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being...
+
+### Action Images: End-to-End Policy Learning via Multiview Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06168
+- Summary: World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or use action representations that are not pixel-grounded, making...
+
+### The Character Error Vector: Decomposable errors for page-level OCR evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06160
+- Summary: The Character Error Rate (CER) is a key metric for evaluating the quality of Optical Character Recognition (OCR). However, this metric assumes that text has been perfectly parsed, which is often not the case. Under page-parsing errors, CER becomes undefined, limiting its use as a metric and making...
+
+### Toward Consistent World Models with Multi-Token Prediction and Latent Semantic Enhancement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06155
+- Summary: Whether Large Language Models (LLMs) develop coherent internal world models remains a core debate. While conventional Next-Token Prediction (NTP) focuses on one-step-ahead supervision, Multi-Token Prediction (MTP) has shown promise in learning more structured representations. In this work, we...
 
 ### Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries
 - Source: HF Daily Papers
@@ -344,6 +390,12 @@
 - Category: security
 - URL: https://www.securityweek.com/severe-strongbox-vulnerability-patched-in-android/
 - Summary: A critical DoS vulnerability in the Framework component of Android has also been fixed with the latest update. The post Severe StrongBox Vulnerability Patched in Android appeared first on SecurityWeek.
+
+### Appearance Decomposition Gaussian Splatting for Multi-Traversal Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05908
+- Summary: Multi-traversal scene reconstruction is important for high-fidelity autonomous driving simulation and digital twin construction. This task involves integrating multiple sequences captured from the same geographical area at different times. In this context, a primary challenge is the significant...
 
 ### Enabling agent-first process redesign
 - Source: MIT Tech Review AI
@@ -2969,58 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.29023
 - Summary: arXiv:2603.29023v1 Announce Type: new Abstract: Large language models lack persistent, structured memory for long-term interaction and context-sensitive retrieval. Expanding context windows does not solve this: recent evidence shows that context length alone degrades reasoning by up to 85% - even...
-
-### The Model Says Walk: How Surface Heuristics Override Implicit Constraints in LLM Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.29025
-- Summary: arXiv:2603.29025v1 Announce Type: new Abstract: Large language models systematically fail when a salient surface cue conflicts with an unstated feasibility constraint. We study this through a diagnose-measure-bridge-treat framework. Causal-behavioral analysis of the ``car wash problem'' across six...
-
-### On the limited utility of parallel data for learning shared multilingual representations
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.29026
-- Summary: arXiv:2603.29026v1 Announce Type: new Abstract: Shared multilingual representations are essential for cross-lingual tasks and knowledge transfer across languages. This study looks at the impact of parallel data, i.e. translated sentences, in pretraining as a signal to trigger representations that...
-
-### An Empirical Recipe for Universal Phone Recognition
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.29042
-- Summary: arXiv:2603.29042v1 Announce Type: new Abstract: Phone recognition (PR) is a key enabler of multilingual and low-resource speech processing tasks, yet robust performance remains elusive. Highly performant English-focused models do not generalize across languages, while multilingual models...
-
-### Dual Perspectives in Emotion Attribution: A Generator-Interpreter Framework for Cross-Cultural Analysis of Emotion in LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.29077
-- Summary: arXiv:2603.29077v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used in cross-cultural systems to understand and adapt to human emotions, which are shaped by cultural norms of expression and interpretation. However, prior work on emotion attribution has focused mainly...
-
-### Polysemanticity or Polysemy? Lexical Identity Confounds Superposition Metrics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.00443
-- Summary: If the same neuron activates for both "lender" and "riverside," standard metrics attribute the overlap to superposition--the neuron must be compressing two unrelated concepts. This work explores how much of the overlap is due a lexical confound: neurons fire for a shared word form (such as "bank")...
-
-### ZTE Teams Up with ByteDance to Develop Next-Gen Doubao AI Phone
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zte-teams-up-with-byte-dance-to-develop-next-gen-doubao-ai-phone
-- Summary: ZTE and ByteDance are advancing a new Doubao AI phone, signaling the rise of system-level, AI-native smartphones.
-
-### ByteDance’s Doubao Integrates Douyin E-commerce for In-App Purchases
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byte-dance-s-doubao-integrates-douyin-e-commerce-for-in-app-purchases
-- Summary: Doubao is testing in-app shopping via Douyin e-commerce, enabling seamless AI-driven purchases without leaving the app.
-
-### Zhipu’s MaaS ARR Hits RMB 1.7 Billion, Driven by API Boom
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhipu-s-maa-s-arr-hits-rmb-1-7-billion-driven-by-api-boom
-- Summary: Zhipu’s MaaS ARR hit $235M as surging API demand proves strong models alone can drive explosive AI monetization.
-
-### Changan Bets on Combustion Engines Amid EV Boom
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/changan-bets-on-combustion-engines-amid-ev-boom
-- Summary: Changan Auto is doubling down on gasoline vehicles with its Blue Whale Super Hybrid, pushing ultra-low fuel consumption despite the EV boom.
 
