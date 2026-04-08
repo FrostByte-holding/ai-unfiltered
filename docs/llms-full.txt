@@ -6,6 +6,24 @@
 
 ## 2026-04-08
 
+### Outage affecting Workspace Creation
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/z0bqmftj68dr
+- Summary: Apr 8, 19:40 UTCResolved - The issue affecting API workspace creation has been resolved. Impact occurred from approximately 4:15 PM to 7:30 PM UTC.Apr 8, 19:28 UTCMonitoring - A fix has been deployed for the issue affecting API workspace creation and we are monitoring for recovery.Apr 8, 19:22...
+
+### Elevated errors on Claude.ai, API, Claude Code
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/5f418rpyb84x
+- Summary: Apr 8, 17:50 UTCResolved - From 17:25–17:44 UTC, we saw elevated errors on attempts to log into Claude.ai (mobile, web, and desktop) and platform.claude.com, as well as /login attempts via Claude Code. This issue is now resolved.Apr 8, 17:46 UTCInvestigating - We are currently investigating an...
+
+### Elevated Errors with Login
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KNQ1XDJ1T0NS4P15YNEG5FPV
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational) Login (Operational)
+
 ### ALTK‑Evolve: On‑the‑Job Learning for AI Agents
 - Source: Hugging Face Blog
 - Category: open-source
@@ -307,6 +325,18 @@
 - URL: https://tldr.takara.ai/p/2604.06148
 - Summary: The governance of artificial intelligence has a blind spot: the machine identities that AI systems use to act. AI agents, service accounts, API tokens, and automated workflows now outnumber human identities in enterprise environments by ratios exceeding 80 to 1, yet no integrated framework exists...
 
+### Shot-Based Quantum Encoding: A Data-Loading Paradigm for Quantum Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06135
+- Summary: Efficient data loading remains a bottleneck for near-term quantum machine-learning. Existing schemes (angle, amplitude, and basis encoding) either underuse the exponential Hilbert-space capacity or require circuit depths that exceed the coherence budgets of noisy intermediate-scale quantum...
+
+### SEM-ROVER: Semantic Voxel-Guided Diffusion for Large-Scale Driving Scene Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06113
+- Summary: Scalable generation of outdoor driving scenes requires 3D representations that remain consistent across multiple viewpoints and scale to large areas. Existing solutions either rely on image or video generative models distilled to 3D space, harming the geometric coherence and restricting the...
+
 ### Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony
 - Source: Latent Space
 - Category: open-source
@@ -505,6 +535,12 @@
 - URL: https://tldr.takara.ai/p/2604.05663
 - Summary: Traffic signal control (TSC) is a core component of intelligent transportation systems (ITS), aiming to reduce congestion, emissions, and travel time. Recent approaches based on reinforcement learning (RL) and large language models (LLMs) have improved adaptivity, but still suffer from limited...
 
+### BPC-Net: Annotation-Free Skin Lesion Segmentation via Boundary Probability Calibration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05594
+- Summary: Annotation-free skin lesion segmentation is attractive for low-resource dermoscopic deployment. However, its performance remains constrained by three coupled challenges: noisy pseudo-label supervision, unstable transfer under limited target-domain data, and boundary probability under-confidence....
+
 ### New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips
 - Source: The Hacker News
 - Category: security
@@ -522,6 +558,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.05564
 - Summary: We describe THIVLVC, a two-stage system for the EvaLatin 2026 Dependency Parsing task. Given a Latin sentence, we retrieve structurally similar entries from the CIRCSE treebank using sentence length and POS n-gram similarity, then prompt a large language model to refine the baseline parse from...
+
+### FastDiSS: Few-step Match Many-step Diffusion Language Model on Sequence-to-Sequence Generation--Full Version
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05551
+- Summary: Self-conditioning has been central to the success of continuous diffusion language models, as it allows models to correct previous errors. Yet its ability degrades precisely in the regime where diffusion is most attractive for deployment: few-step sampling for fast inference. In this study, we show...
+
+### From Large Language Model Predicates to Logic Tensor Networks: Neurosymbolic Offer Validation in Regulated Procurement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05539
+- Summary: We present a neurosymbolic approach, i.e., combining symbolic and subsymbolic artificial intelligence, to validating offer documents in regulated public institutions. We employ a language model to extract information and then aggregate with an LTN (Logic Tensor Network) to make an auditable...
 
 ### Increased Durable Object Errors in AMS
 - Source: Cloudflare Status
@@ -2973,52 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2603.29075
 - Summary: arXiv:2603.29075v1 Announce Type: new Abstract: The way we're thinking about generative AI right now is fundamentally individual. We see this not just in how users interact with models but also in how models are built, how they're benchmarked, and how commercial and research strategies using AI are...
-
-### PAR$^2$-RAG: Planned Active Retrieval and Reasoning for Multi-Hop Question Answering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.29085
-- Summary: arXiv:2603.29085v1 Announce Type: new Abstract: Large language models (LLMs) remain brittle on multi-hop question answering (MHQA), where answering requires combining evidence across documents through retrieval and reasoning. Iterative retrieval systems can fail by locking onto an early low-recall...
-
-### GISTBench: Evaluating LLM User Understanding via Evidence-Based Interest Verification
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2603.29112
-- Summary: arXiv:2603.29112v1 Announce Type: new Abstract: We introduce GISTBench, a benchmark for evaluating Large Language Models' (LLMs) ability to understand users from their interaction histories in recommendation systems. Unlike traditional RecSys benchmarks that focus on item prediction accuracy, our...
-
-### OneComp: One-Line Revolution for Generative AI Model Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.28845
-- Summary: arXiv:2603.28845v1 Announce Type: new Abstract: Deploying foundation models is increasingly constrained by memory footprint, latency, and hardware costs. Post-training compression can mitigate these bottlenecks by reducing the precision of model parameters without significantly degrading...
-
-### Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.28916
-- Summary: arXiv:2603.28916v1 Announce Type: new Abstract: The increasing availability of spatio-temporal tracking data has created new opportunities for analysing tactical behaviour in football. However, many existing approaches evaluate passes primarily through outcome-based metrics such as scoring...
-
-### Beta-Scheduling: Momentum from Critical Damping as a Diagnostic and Correction Tool for Neural Network Training
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.28921
-- Summary: arXiv:2603.28921v1 Announce Type: new Abstract: Standard neural network training uses constant momentum (typically 0.9), a convention dating to 1964 with limited theoretical justification for its optimality. We derive a time-varying momentum schedule from the critically damped harmonic oscillator:...
-
-### A Neural Tension Operator for Curve Subdivision across Constant Curvature Geometries
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.28937
-- Summary: arXiv:2603.28937v1 Announce Type: new Abstract: Interpolatory subdivision schemes generate smooth curves from piecewise-linear control polygons by repeatedly inserting new vertices. Classical schemes rely on a single global tension parameter and typically require separate formulations in Euclidean,...
-
-### Foundations of Polar Linear Algebra
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2603.28939
-- Summary: arXiv:2603.28939v1 Announce Type: new Abstract: This work revisits operator learning from a spectral perspective by introducing Polar Linear Algebra, a structured framework based on polar geometry that combines a linear radial component with a periodic angular component. Starting from this...
-
-### Human-Like Lifelong Memory: A Neuroscience-Grounded Architecture for Infinite Interaction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2603.29023
-- Summary: arXiv:2603.29023v1 Announce Type: new Abstract: Large language models lack persistent, structured memory for long-term interaction and context-sensitive retrieval. Expanding context windows does not solve this: recent evidence shows that context length alone degrades reasoning by up to 85% - even...
 
