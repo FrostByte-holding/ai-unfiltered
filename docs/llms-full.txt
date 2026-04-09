@@ -275,6 +275,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/multimodal-sentence-transformers
 
+### Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/waypoint-1-5
+
 
 ## 2026-04-08
 
@@ -301,6 +306,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/9wt5yhn1lcm1
 - Summary: Apr 8, 19:30 UTCResolved - Between 19:47 and 21:57UTC on April 8, 2026, Cloudflare identified and mitigated a network performance issue specifically affecting our Miami and Atlanta regions. Users may have experienced increased latency or intermittent connectivity due to degraded routing paths in...
+
+### Fast Spatial Memory with Elastic Test-Time Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07350
+- Summary: Large Chunk Test-Time Training (LaCT) has shown strong performance on long-context 3D reconstruction, but its fully plastic inference-time updates remain vulnerable to catastrophic forgetting and overfitting. As a result, LaCT is typically instantiated with a single large chunk spanning the full...
 
 ### Measurement of Generative AI Workload Power Profiles for Whole-Facility Data Center Infrastructure Planning
 - Source: HF Daily Papers
@@ -367,6 +378,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/altk-evolve
 
+### Accuracy Improvement of Semi-Supervised Segmentation Using Supervised ClassMix and Sup-Unsup Feature Discriminator
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07122
+- Summary: In semantic segmentation, the creation of pixel-level labels for training data incurs significant costs. To address this problem, semi-supervised learning, which utilizes a small number of labeled images alongside unlabeled images to enhance the performance, has gained attention. A conventional...
+
 ### Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why
 - Source: MIT Tech Review AI
 - Category: research
@@ -390,6 +407,12 @@
 - Category: security
 - URL: https://www.securityweek.com/fbi-cybercrime-losses-neared-21-billion-in-2025/
 - Summary: The FBI received over 1 million complaints of malicious activity in 2025, with investment, BEC, and tech support scams causing the highest losses. The post FBI: Cybercrime Losses Neared $21 Billion in 2025 appeared first on SecurityWeek.
+
+### KITE: Keyframe-Indexed Tokenized Evidence for VLM-Based Robot Failure Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07034
+- Summary: We present KITE, a training-free, keyframe-anchored, layout-grounded front-end that converts long robot-execution videos into compact, interpretable tokenized evidence for vision-language models (VLMs). KITE distills each trajectory into a small set of motion-salient keyframes with open-vocabulary...
 
 ### ConceptTracer: Interactive Analysis of Concept Saliency and Selectivity in Neural Representations
 - Source: HF Daily Papers
@@ -469,6 +492,12 @@
 - URL: https://status.claude.com/incidents/lhws0phdvzz3
 - Summary: Apr 8, 09:01 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 8, 07:59 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 8, 07:06 UTCUpdate - We are continuing to investigate this issue.Apr 8, 06:23 UTCInvestigating - We are currently...
 
+### FedDetox: Robust Federated SLM Alignment via On-Device Data Sanitization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06833
+- Summary: As high quality public data becomes scarce, Federated Learning (FL) provides a vital pathway to leverage valuable private user data while preserving privacy. However, real-world client data often contains toxic or unsafe information. This leads to a critical issue we define as unintended data...
+
 ### Samsung Reportedly Plans Major China Restructuring, Retaining Only Mobile and Memory Units
 - Source: Pandaily
 - Category: chinese-ai
@@ -528,6 +557,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/b8dkfysdvf3l
 - Summary: Apr 8, 06:45 UTCResolved - Cloudflare investigated increased HTTP 5XX errors in Sau Paulo between 0645: - 06:55 UTC. Issue has been resolved
+
+### Exploring 6D Object Pose Estimation with Deformation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06720
+- Summary: We present DeSOPE, a large-scale dataset for 6DoF deformed objects. Most 6D object pose methods assume rigid or articulated objects, an assumption that fails in practice as objects deviate from their canonical shapes due to wear, impact, or deformation. To model this, we introduce the DeSOPE...
 
 ### VDPP: Video Depth Post-Processing for Speed and Scalability
 - Source: HF Daily Papers
@@ -2987,40 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.00006
 - Summary: arXiv:2604.00006v1 Announce Type: new Abstract: AI-powered recruitment tools are increasingly adopted in personnel selection, yet they struggle to capture the requisition (req)-specific personal competencies (PCs) that distinguish successful candidates beyond job categories. We propose a large...
-
-### Dynin-Omni: Omnimodal Unified Large Diffusion Language Model
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00007
-- Summary: arXiv:2604.00007v1 Announce Type: new Abstract: We present Dynin-Omni, the first masked-diffusion-based omnimodal foundation model that unifies text, image, and speech understanding and generation, together with video understanding, within a single architecture. Unlike autoregressive unified models...
-
-### EXHIB: A Benchmark for Realistic and Diverse Evaluation of Function Similarity in the Wild
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.01554
-- Summary: Binary Function Similarity Detection (BFSD) is a core problem in software security, supporting tasks such as vulnerability analysis, malware classification, and patch provenance. In the past few decades, numerous models and tools have been developed for this application; however, due to the lack of...
-
-### X Square Robot's Wang Qian: Robots will eventually reach Mars
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/x-square-robot-s-wang-qian-robots-will-eventually-reach-mars
-- Summary: At EAIDC 2026 in Shenzhen, X Square Robot CEO Wang Qian outlined the company’s push toward scalable embodied AI, predicting that general-purpose robots could eventually operate even in extreme environments like Mars.
-
-### Countering Catastrophic Forgetting of Large Language Models for Better Instruction Following via Weight-Space Model Merging
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.01538
-- Summary: Large language models have been adopted in the medical domain for clinical documentation to reduce clinician burden. However, studies have reported that LLMs often "forget" a significant amount of instruction-following ability when fine-tuned using a task-specific medical dataset, a critical...
-
-### Increased 1003 / 403 errors in Workers
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/2hh3phljpr7x
-- Summary: Apr 2, 01:10 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 2, 00:47 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting some Workers invocations. Customers may be seeing 1003/403 errors when doing fetch() calls inside a Worker.We are...
-
-### Cache Assets in Buenos Aires
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9pm89mfstyw1
-- Summary: Apr 2, 01:07 UTCInvestigating - A small percentage of cache assets in buenos aires are seeing elevated latency.Cloudflare is investigating the issue.
 
