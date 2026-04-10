@@ -6,6 +6,36 @@
 
 ## 2026-04-10
 
+### Elevated errors on requests to Claude models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/411xbc51v608
+- Summary: Apr 10, 16:51 UTCResolved - The issue affecting requests to non-Opus models has been resolved.Apr 10, 16:42 UTCIdentified - We have identified the current issue as affecting requests to models other than Claude Opus 4.6, and are working to fully resolve this issue. We will provide additional...
+
+### Increased HTTP 5xx errors in Philadelphia colo
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xx44fv4qfnch
+- Summary: Apr 10, 16:42 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 10, 15:56 UTCUpdate - We are continuing to work on a fix for this issue.Apr 10, 15:55 UTCIdentified - Cloudflare is investigating an increased level of 5xx errors in Philadelphia. We are working to...
+
+### Workers Assets increased upload failure
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/wt7ydt03k9hb
+- Summary: Apr 10, 16:26 UTCResolved - This incident has been resolved.Apr 10, 16:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 10, 14:06 UTCIdentified - Cloudflare has identified an issue impacting Workers Assets uploads. Customers may be seeing an increase in Workers...
+
+### What’s in a name? Moderna’s “vaccine” vs. “therapy” dilemma
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/
+- Summary: Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine—or an “individualized neoantigen treatment”? That’s the Trump-era vocabulary paradox facing Moderna, the covid-19 shot maker whose plans for next-generation mRNA vaccines against flus and...
+
+### GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html
+- Summary: Cybersecurity researchers have flagged yet another evolution of the&nbsp;ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's&nbsp;machine. The technique has been discovered in an Open VSX...
+
 ### Problems with third-party Claude and Codex Agent sessions not being listed in the agents tab dashboard
 - Source: GitHub Status
 - Category: incidents
@@ -267,6 +297,18 @@
 - URL: https://tldr.takara.ai/p/2604.08532
 - Summary: Large-scale multi-view reconstruction models have made remarkable progress, but most existing approaches still rely on fully supervised training with ground-truth 3D/4D annotations. Such annotations are expensive and particularly scarce for dynamic scenes, limiting scalability. We propose SelfEvo,...
 
+### PSI: Shared State as the Missing Layer for Coherent AI-Generated Instruments in Personal AI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08529
+- Summary: Personal AI tools can now be generated from natural-language requests, but they often remain isolated after creation. We present PSI, a shared-state architecture that turns independently generated modules into coherent instruments: persistent, connected, and chat-complementary artifacts accessible...
+
+### MolmoWeb: Open Visual Web Agent and Open Data for the Open Web
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08516
+- Summary: Web agents--autonomous systems that navigate and execute tasks on the web on behalf of users--have the potential to transform how people interact with the digital world. However, the most capable web agents today rely on proprietary models with undisclosed training data and recipes, limiting...
+
 ### EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets
 - Source: The Hacker News
 - Category: security
@@ -332,6 +374,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html
 - Summary: Thursday. Another week, another batch of things that probably should've been caught sooner but&nbsp;weren't. This&nbsp;one's got some range — old vulnerabilities getting new life, a few "why was that even possible" moments, attackers leaning on platforms and tools you'd normally trust without...
+
+### Value-Guidance MeanFlow for Offline Multi-Agent Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08174
+- Summary: Offline multi-agent reinforcement learning (MARL) aims to learn the optimal joint policy from pre-collected datasets, requiring a trade-off between maximizing global returns and mitigating distribution shift from offline data. Recent studies use diffusion or flow generative models to capture...
 
 ### Google API Keys in Android Apps Expose Gemini Endpoints to Unauthorized Access
 - Source: Security Week
@@ -405,6 +453,12 @@
 - URL: https://www.securityweek.com/google-warns-of-new-campaign-targeting-bpos-to-steal-corporate-data/
 - Summary: Tracked as UNC6783, the threat actor is likely linked to Mr. Raccoon, the hacker behind the alleged theft of Adobe data from a BPO. The post Google Warns of New Campaign Targeting BPOs to Steal Corporate Data appeared first on SecurityWeek.
 
+### LogAct: Enabling Agentic Reliability via Shared Logs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07988
+- Summary: Agents are LLM-driven components that can mutate environments in powerful, arbitrary ways. Extracting guarantees for the execution of agents in production environments can be challenging due to asynchrony and failures. In this paper, we propose a new abstraction called LogAct, where each agent is a...
+
 ### Sonnet 4.6 elevated rate of errors
 - Source: Anthropic Status
 - Category: incidents
@@ -476,6 +530,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/neue-hct-secures-design-wins-for-single-chip-urban-noa-solution-mass-production-set-for-q3-2026
 - Summary: neueHCT’s single-chip urban NOA solution wins major automaker deals, signaling a shift toward affordable, full-scenario intelligent driving.
+
+### Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07890
+- Summary: Highly multiplexed microscopy enables rich spatial characterization of tissues at single-cell resolution, yet most analyses rely on two-dimensional sections despite inherently three-dimensional tissue organization. Acquiring dense volumetric data in spatial proteomics remains costly and technically...
 
 ### $3.6 Million Stolen in Bitcoin Depot Hack
 - Source: Security Week
@@ -2965,64 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.02259
 - Summary: To harness the power of Language Models in answering domain specific specialized technical questions, Retrieval Augmented Generation (RAG) is been used widely. In this work, we have developed a Q\&amp;A application inspired by the Retrieval Augmented Generation (RAG), which is comprised of an...
-
-### Digital Experience Monitoring (DEX) Delay
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/dxhf5ttltj1j
-- Summary: Apr 2, 16:50 UTCInvestigating - Cloudflare is investigating an issue where Digital Experience Monitoring (DEX) data delivered via Logpush may experience delays. DEX dashboard functionality and other Logpush datasets are not affected.
-
-### ChatGPT Dictation Elevated Error Rate
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KN78XN18M5VB6DSRTCWMJRYN
-- Summary: Status: InvestigatingWe are investigating the issue for the listed services and working on mitigating impact.Affected components Voice mode (Partial outage)
-
-### Copilot Coding Agent failing to start some jobs
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/j3sgbdw2lw3c
-- Summary: Apr 2, 16:30 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 2, 16:28 UTCUpdate - When assigning tasks to Copilot Cloud Agent, the task will appear...
-
-### Answering the Wrong Question: Reasoning Trace Inversion for Abstention in LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.02230
-- Summary: For Large Language Models (LLMs) to be reliably deployed, models must effectively know when not to answer: abstain. Reasoning models, in particular, have gained attention for impressive performance on complex tasks. However, reasoning models have been shown to have worse abstention abilities....
-
-### Apple Rolls Out DarkSword Exploit Protection to More Devices
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/apple-rolls-out-darksword-exploit-protection-to-more-devices/
-- Summary: The DarkSword exploit kit has been used by both state-sponsored hackers and commercial spyware vendors. The post Apple Rolls Out DarkSword Exploit Protection to More Devices appeared first on SecurityWeek.
-
-### Gemma 4: Byte for byte, the most capable open models
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
-- Summary: Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.
-
-### Lightweight Spatiotemporal Highway Lane Detection via 3D-ResNet and PINet with ROI-Aware Attention
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.02188
-- Summary: This paper presents a lightweight, end-to-end highway lane detection architecture that jointly captures spatial and temporal information for robust performance in real-world driving scenarios. Building on the strengths of 3D convolutional neural networks and instance segmentation, we propose two...
-
-### Adam's Law: Textual Frequency Law on Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.02176
-- Summary: While textual frequency has been validated as relevant to human cognition in reading speed, its relatedness to Large Language Models (LLMs) is seldom studied. We propose a novel research direction in terms of textual data frequency, which is an understudied topic, to the best of our knowledge. Our...
-
-### AstroConcepts: A Large-Scale Multi-Label Classification Corpus for Astrophysics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.02156
-- Summary: Scientific multi-label text classification suffers from extreme class imbalance, where specialized terminology exhibits severe power-law distributions that challenge standard classification approaches. Existing scientific corpora lack comprehensive controlled vocabularies, focusing instead on broad...
-
-### Brief Is Better: Non-Monotonic Chain-of-Thought Budget Effects in Function-Calling Language Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.02155
-- Summary: How much should a language agent think before taking action? Chain-of-thought (CoT) reasoning is widely assumed to improve agent performance, but the relationship between reasoning length and accuracy in structured tool-use settings remains poorly understood. We present a systematic study of CoT...
 
