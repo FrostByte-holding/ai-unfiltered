@@ -6,6 +6,36 @@
 
 ## 2026-04-10
 
+### Critical Marimo Flaw Exploited Hours After Public Disclosure
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-marimo-flaw-exploited-hours-after-public-disclosure/
+- Summary: Within nine hours, a hacker built an exploit from the unauthenticated bug’s advisory and started using it in the wild. The post Critical Marimo Flaw Exploited Hours After Public Disclosure appeared first on SecurityWeek.
+
+### Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html
+- Summary: Google has&nbsp;made Device Bound Session Credentials&nbsp;(DBSC) generally available to all Windows users of its Chrome web browser, months after&nbsp;it began&nbsp;testing the security feature in open&nbsp;beta. The public availability is currently limited to Windows users on Chrome 146, with...
+
+### Google Rolls Out Cookie Theft Protections in Chrome
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-rolls-out-cookie-theft-protections-in-chrome/
+- Summary: New Device Bound Session Credentials render stolen session cookies unusable by cryptographically binding authentication. The post Google Rolls Out Cookie Theft Protections in Chrome appeared first on SecurityWeek.
+
+### Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/microsoft-finds-vulnerability-exposing-millions-of-android-crypto-wallet-users/
+- Summary: The security hole affected an EngageLab SDK and it was reported by Microsoft to the vendor one year ago. The post Microsoft Finds Vulnerability Exposing Millions of Android Crypto Wallet Users appeared first on SecurityWeek.
+
+### Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html
+- Summary: Unknown threat actors have hijacked the update system for the Smart Slider 3 Pro plugin for WordPress and Joomla to push a poisoned version containing a backdoor. The incident impacts Smart Slider 3 Pro version 3.5.1.35 for WordPress, per WordPress security company Patchstack. Smart Slider 3 is a...
+
 ### Issue with API platform login and account creation
 - Source: OpenAI Status
 - Category: incidents
@@ -177,11 +207,23 @@
 - URL: https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html
 - Summary: A previously undocumented threat cluster&nbsp;dubbed UAT-10362 has been attributed to spear-phishing campaigns targeting Taiwanese non-governmental organizations (NGOs) and suspected universities to deploy a new Lua-based malware called LucidRook. "LucidRook is a sophisticated stager that embeds a...
 
+### SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08368
+- Summary: Parameter-efficient fine-tuning (PEFT) methods, such as LoRA, enable scalable adaptation of foundation models by injecting low-rank adapters. However, their communication and storage costs remain a major bottleneck in resource-constrained settings. We propose SOLAR (Subspace-Oriented Latent Adapter...
+
 ### Increased HTTP 5xx errors in Philadelphia colo
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ysv5lb7wdwht
 - Summary: Apr 9, 14:30 UTCResolved - Between 14:41 and 16:34 UTC on April 9th, 2026, we experienced an elevated level of HTTP 5xx errors affecting traffic through our Philadelphia (PHL) data center. The issue has been mitigated now.
+
+### Neural-Symbolic Knowledge Tracing: Injecting Educational Knowledge into Deep Learning for Responsible Learner Modelling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08263
+- Summary: The growing use of artificial intelligence (AI) in education, particularly large language models (LLMs), has increased interest in intelligent tutoring systems. However, LLMs often show limited adaptivity and struggle to model learners' evolving knowledge over time, highlighting the need for...
 
 ### Apple Intelligence AI Guardrails Bypassed in New Attack
 - Source: Security Week
@@ -285,11 +327,29 @@
 - URL: https://www.securityweek.com/300000-people-impacted-by-eurail-data-breach/
 - Summary: In December 2025, hackers stole names and passport numbers from the European travel company’s network. The post 300,000 People Impacted by Eurail Data Breach appeared first on SecurityWeek.
 
+### Pruning Extensions and Efficiency Trade-Offs for Sustainable Time Series Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07953
+- Summary: Time series classification (TSC) enables important use cases, however lacks a unified understanding of performance trade-offs across models, datasets, and hardware. While resource awareness has grown in the field, TSC methods have not yet been rigorously evaluated for energy efficiency. This paper...
+
 ### MiniMax Launches MMX-CLI for AI Agent Automation
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/mini-max-launches-mmx-cli-for-ai-agent-automation
 - Summary: MiniMax’s MMX-CLI enables AI agents to run full multimodal workflows autonomously with optimized, machine-friendly design.
+
+### Tarot-SAM3: Training-free SAM3 for Any Referring Expression Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07916
+- Summary: Referring Expression Segmentation (RES) aims to segment image regions described by natural-language expressions, serving as a bridge between vision and language understanding. Existing RES methods, however, rely heavily on large annotated datasets and are limited to either explicit or implicit...
+
+### Mitigating Entangled Steering in Large Vision-Language Models for Hallucination Reduction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07914
+- Summary: Large Vision-Language Models (LVLMs) have achieved remarkable success across cross-modal tasks but remain hindered by hallucinations, producing textual outputs inconsistent with visual content. Existing methods mitigate hallucinations but often alter generation behavior, resulting in shorter...
 
 ### ByteDance Unveils Full-Duplex Voice Model Seeduplex
 - Source: Pandaily
@@ -2965,64 +3025,4 @@
 - Category: security
 - URL: https://www.securityweek.com/250000-affected-by-data-breach-at-nacogdoches-memorial-hospital/
 - Summary: In January 2026, a threat actor hacked the hospital’s internal network and stole personal and health information. The post 250,000 Affected by Data Breach at Nacogdoches Memorial Hospital appeared first on SecurityWeek.
-
-### ImplicitBBQ: Benchmarking Implicit Bias in Large Language Models through Characteristic Based Cues
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.01925
-- Summary: Large Language Models increasingly suppress biased outputs when demographic identity is stated explicitly, yet may still exhibit implicit biases when identity is conveyed indirectly. Existing benchmarks use name based proxies to detect implicit biases, which carry weak associations with many social...
-
-### Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html
-- Summary: A&nbsp;financially motivated operation&nbsp;codenamed REF1695&nbsp;has been&nbsp;observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November&nbsp;2023. "Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action)...
-
-### Is Clinical Text Enough? A Multimodal Study on Mortality Prediction in Heart Failure Patients
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.01924
-- Summary: Accurate short-term mortality prediction in heart failure (HF) remains challenging, particularly when relying on structured electronic health record (EHR) data alone. We evaluate transformer-based models on a French HF cohort, comparing text-only, structured-only, multimodal, and LLM-based...
-
-### Enhancing Medical Visual Grounding via Knowledge-guided Spatial Prompts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.01915
-- Summary: Medical Visual Grounding (MVG) aims to identify diagnostically relevant phrases from free-text radiology reports and localize their corresponding regions in medical images, providing interpretable visual evidence to support clinical decision-making. Although recent Vision-Language Models (VLMs)...
-
-### The State of Trusted Open Source Report
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html
-- Summary: In December&nbsp;2025, we shared the first-ever The State of Trusted Open&nbsp;Source report, featuring insights from our product data and customer base on open source consumption across our catalog of container image projects, versions, images, language libraries, and builds. These&nbsp;insights...
-
-### Mercor Hit by LiteLLM Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mercor-hit-by-litellm-supply-chain-attack/
-- Summary: The AI recruiting firm is investigating the incident as Lapsus$ claimed the theft of 4TB of Mercor data. The post Mercor Hit by LiteLLM Supply Chain Attack appeared first on SecurityWeek.
-
-### Cloudflare AI Search Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/q11341q4x28m
-- Summary: Apr 2, 10:29 UTCResolved - This incident has been resolved.Apr 2, 10:17 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 2, 09:05 UTCInvestigating - Cloudflare is aware of and investigating an issue with AI Search. Customers may observe 7001 and internal error...
-
-### Fuel prices are soaring. Plastic could be next.
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/
-- Summary: As the war in Iran continues to engulf the Middle East and the Strait of Hormuz stays closed, one of the most visible global economic ripple effects has been fossil-fuel prices. In particular, you can’t get away from news about the price of gasoline, which just topped an average of $4 a gallon in...
-
-### Sophisticated CrystalX RAT Emerges
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sophisticated-crystalx-rat-emerges/
-- Summary: The malware can spy on victims, steal their information, and make configuration changes on devices. The post Sophisticated CrystalX RAT Emerges appeared first on SecurityWeek.
-
-### WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html
-- Summary: Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with&nbsp;spyware. According to reports from Italian&nbsp;newspaper La Repubblica and news&nbsp;agency ANSA, the vast majority of the targets are...
 
