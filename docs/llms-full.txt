@@ -6,6 +6,12 @@
 
 ## 2026-04-11
 
+### The inevitable need for an open model consortium
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model
+- Summary: And yes, I hate consortia too.
+
 ### Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data
 - Source: The Hacker News
 - Category: security
@@ -539,6 +545,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html
 - Summary: Thursday. Another week, another batch of things that probably should've been caught sooner but&nbsp;weren't. This&nbsp;one's got some range — old vulnerabilities getting new life, a few "why was that even possible" moments, attackers leaning on platforms and tools you'd normally trust without...
+
+### Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08178
+- Summary: In classical Reinforcement Learning from Human Feedback (RLHF), Reward Models (RMs) serve as the fundamental signal provider for model alignment. As Large Language Models evolve into agentic systems capable of autonomous tool invocation and complex reasoning, the paradigm of reward modeling faces...
 
 ### Value-Guidance MeanFlow for Offline Multi-Agent Reinforcement Learning
 - Source: HF Daily Papers
@@ -1080,6 +1092,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KNQ1XDJ1T0NS4P15YNEG5FPV
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational) Login (Operational)
+
+### An Analysis of Artificial Intelligence Adoption in NIH-Funded Research
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07424
+- Summary: Understanding the landscape of artificial intelligence (AI) and machine learning (ML) adoption across the National Institutes of Health (NIH) portfolio is critical for research funding strategy, institutional planning, and health policy. The advent of large language models (LLMs) has fundamentally...
 
 ### GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos
 - Source: HF Daily Papers
@@ -1808,6 +1826,12 @@
 - URL: https://www.securityweek.com/grafanaghost-attackers-can-abuse-grafana-to-leak-enterprise-data/
 - Summary: By targeting Grafana’s AI components, attackers can point to external resources and inject indirect prompts to bypass safeguards. The post GrafanaGhost: Attackers Can Abuse Grafana to Leak Enterprise Data appeared first on SecurityWeek.
 
+### Understanding Performance Gap Between Parallel and Sequential Sampling in Large Reasoning Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05868
+- Summary: Large Reasoning Models (LRMs) have shown remarkable performance on challenging questions, such as math and coding. However, to obtain a high quality solution, one may need to sample more than once. In principal, there are two sampling strategies that can be composed to form more complex processes:...
+
 ### Webinar Today: Why Automated Pentesting Alone Is Not Enough
 - Source: Security Week
 - Category: security
@@ -1837,6 +1861,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
 - Summary: In&nbsp;the rapid evolution of&nbsp;the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security&nbsp;leaders: Identity programs are maturing, yet the risk is actually increasing. According to new research from&nbsp;the Ponemon&nbsp;Institute, hundreds of applications within...
+
+### Beyond the Beep: Scalable Collision Anticipation and Real-Time Explainability with BADAS-2.0
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05767
+- Summary: We present BADAS-2.0, the second generation of our collision anticipation system, building on BADAS-1.0 [7], which showed that fine-tuning V-JEPA2 [1] on large-scale ego-centric dashcam data outperforms both academic baselines and production ADAS systems. BADAS-2.0 advances the state of the art...
 
 ### The Download: AI’s impact on jobs, and data centres in space
 - Source: MIT Tech Review AI
@@ -2314,6 +2344,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04869
 - Summary: Large Language Models (LLMs) have shown strong performance across a wide range of natural language processing tasks; however, their effectiveness is highly dependent on prompt design, structure, and embedded reasoning signals. Conventional prompt engineering methods largely rely on heuristic...
+
+### Strengthening Human-Centric Chain-of-Thought Reasoning Integrity in LLMs via a Structured Prompt Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04852
+- Summary: Chain-of-Thought (CoT) prompting has been used to enhance the reasoning capability of LLMs. However, its reliability in security-sensitive analytical tasks remains insufficiently examined, particularly under structured human evaluation. Alternative approaches, such as model scaling and fine-tuning...
 
 ### Elevated errors on Claude.ai
 - Source: Anthropic Status
@@ -2989,40 +3025,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/infinity-ark-secures-pre-a-funding-to-advance-aios-and-smart-hardware-strategy
 - Summary: Infinity Ark has raised multiple Pre-A rounds worth tens of millions of USD to develop its EVA OS, targeting next-generation AI-powered smart devices.
-
-### Alibaba Launches Qwen3.6-Plus, Enhancing Coding and AI Agent Capabilities
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-launches-qwen3-6-plus-enhancing-coding-and-ai-agent-capabilities
-- Summary: Alibaba has launched Qwen3.6-Plus, a multimodal model with up to 1 million-token context, enhancing coding and AI agent capabilities for developers.
-
-### Yonghe Medical: A New Chinese Variable Reshaping the Global Hair Transplant Industry
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/yonghe-medical-a-new-chinese-variable-reshaping-the-global-hair-transplant-industry
-- Summary: Yonghe Medical, China’s largest hair transplant chain, returned to profitability in 2025 with revenue of ~$250 million and net profit of ~$10 million, driven by margin expansion and operational restructuring. Founder Zhang Yu is now targeting global expansion by exporting Yonghe’s clinical system...
-
-### Self-Routing: Parameter-Free Expert Routing from Hidden States
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.00421
-- Summary: arXiv:2604.00421v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) layers increase model capacity by activating only a small subset of experts per token, and typically rely on a learned router to map hidden states to expert assignments. In this work, we ask whether a dedicated learned router...
-
-### Execution-Verified Reinforcement Learning for Optimization Modeling
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.00442
-- Summary: arXiv:2604.00442v1 Announce Type: new Abstract: Automating optimization modeling with LLMs is a promising path toward scalable decision intelligence, but existing approaches either rely on agentic pipelines built on closed-source LLMs with high inference latency, or fine-tune smaller LLMs using...
-
-### Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.00445
-- Summary: arXiv:2604.00445v1 Announce Type: new Abstract: Uncertainty estimation (UE) aims to detect hallucinated outputs of large language models (LLMs) to improve their reliability. However, UE metrics often exhibit unstable performance across configurations, which significantly limits their applicability....
-
-### Logarithmic Scores, Power-Law Discoveries: Disentangling Measurement from Coverage in Agent-Based Evaluation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.00477
-- Summary: arXiv:2604.00477v1 Announce Type: new Abstract: LLM-based agent judges are an emerging approach to evaluating conversational AI, yet a fundamental uncertainty remains: can we trust their assessments, and if so, how many are needed? Through 960 sessions with two model pairs across 15 tasks, we show...
 
