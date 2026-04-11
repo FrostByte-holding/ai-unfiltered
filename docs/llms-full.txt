@@ -1670,6 +1670,12 @@
 - URL: https://status.snowflake.com/incidents/g47n1w0d9v90
 - Summary: Apr 7, 20:08 UTCMonitoring - Current status: We've confirmed that our service has recovered following the routing of affected traffic to healthy infrastructure, and we're continuing to monitor as the health of Snowsight continues to improve. Other services are fully recovered, but some users who...
 
+### The Unreasonable Effectiveness of Data for Recommender Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06420
+- Summary: In recommender systems, collecting, storing, and processing large-scale interaction data is increasingly costly in terms of time, energy, and computation, yet it remains unclear when additional data stops providing meaningful gains. This paper investigates how offline recommendation performance...
+
 ### Anthropic Unveils ‘Claude Mythos’ – A Cybersecurity Breakthrough That Could Also Supercharge Attacks
 - Source: Security Week
 - Category: security
@@ -1933,6 +1939,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html
 - Summary: When talking about credential security, the focus usually lands on breach prevention. This&nbsp;makes sense&nbsp;when IBM’s 2025 Cost of a Data Breach&nbsp;Report puts the average cost of a breach at $4.4&nbsp;million. Avoiding even one major incident is enough to justify most security investments,...
+
+### Can Large Language Models Reinvent Foundational Algorithms?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05716
+- Summary: LLMs have shown strong potential to advance scientific discovery. Whether they possess the capacity for foundational innovation, however, remains an open question. In this work, we focus on a prerequisite for foundational innovation: can LLMs reinvent foundational algorithms in computer science?...
 
 ### Medusa Ransomware Fast to Exploit Vulnerabilities, Breached Systems
 - Source: Security Week
@@ -2356,6 +2368,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04929
 - Summary: Most vision-language models (VLMs) apply a large language model (LLM) as the decoder, where the response tokens are generated sequentially through autoregression. Therefore, the number of output tokens can be the bottleneck of the end-to-end latency. However, different models may require vastly...
+
+### FileGram: Grounding Agent Personalization in File-System Behavioral Traces
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04901
+- Summary: Coworking AI agents operating within local file systems are rapidly emerging as a paradigm in human-AI interaction; however, effective personalization remains limited by severe data constraints, as strict privacy barriers and the difficulty of jointly collecting multimodal real-world traces prevent...
 
 ### Incompleteness of AI Safety Verification via Kolmogorov Complexity
 - Source: HF Daily Papers
@@ -2822,6 +2840,12 @@
 
 ## 2026-04-05
 
+### Good Rankings, Wrong Probabilities: A Calibration Audit of Multimodal Cancer Survival Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04239
+- Summary: Multimodal deep learning models that fuse whole-slide histopathology images with genomic data have achieved strong discriminative performance for cancer survival prediction, as measured by the concordance index. Yet whether the survival probabilities derived from these models - either directly from...
+
 ### $285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation
 - Source: The Hacker News
 - Category: security
@@ -2854,6 +2878,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/7n7xgqws441v
 - Summary: Apr 4, 17:30 UTCResolved - Between 10:09 and 10:31 PDT, Sonnet 4.6 and Opus 4.6 experienced elevated error rates across most product surfaces.
+
+### Spatiotemporal-Aware Bit-Flip Injection on DNN-based Advanced Driver Assistance Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.03753
+- Summary: Modern advanced driver assistance systems (ADAS) rely on deep neural networks (DNNs) for perception and planning. Since DNNs' parameters reside in DRAM during inference, bit flips caused by cosmic radiation or low-voltage operation may corrupt DNN computations, distort driving decisions, and lead...
 
 ### European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack
 - Source: Security Week
@@ -2995,34 +3025,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/eve-energy-reports-2025-revenue-growth-as-multi-segment-strategy-supports-expansion
 - Summary: EVE Energy reported $8.5 billion in 2025 revenue, driven by strong growth in both power and energy storage batteries, supported by global expansion and diversified operations.
-
-### LONGi Launches Energy Storage Strategy, Targets Overseas Markets and System Integration
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/lon-gi-launches-energy-storage-strategy-targets-overseas-markets-and-system-integration
-- Summary: LONGiSolar launched its “LONGi ONE” strategy to expand into energy storage, focusing on system integration and overseas markets with expected returns by 2027–2028.
-
-### New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html
-- Summary: Cybersecurity researchers&nbsp;have discovered a new version of&nbsp;the SparkCat malware on the Apple App Store and Google Play Store, more than a year after the&nbsp;trojan was discovered targeting both the mobile operating&nbsp;systems. The&nbsp;malware&nbsp;has&nbsp;been found to conceal itself...
-
-### UBTECH Offers Up to $17 Million Salary to Hire Chief Scientist as Humanoid Robot Revenue Grows
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ubtech-offers-up-to-17-million-salary-to-hire-chief-scientist-as-humanoid-robot-revenue-grows
-- Summary: UBTECHRobotics is offering up to $17 million annually to hire a chief scientist, as humanoid robots become its largest revenue driver with over 1,000 units sold in 2025.
-
-### WARP connectivity issues affecting a subset of windows users, using latest version 2026.3.846.0.
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/nprdhrx1cx9b
-- Summary: Apr 3, 08:45 UTCUpdate - We are continuing to monitor for any further issues.Apr 3, 08:45 UTCMonitoring - A fix has been implemented, and we are currently monitoring.Apr 3, 08:39 UTCUpdate - We are continuing the investigation of this issueApr 3, 08:08 UTCInvestigating - We are currently...
-
-### Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html
-- Summary: Solana-based decentralized exchange Drift has confirmed that attackers drained about $285 million from the platform during a security incident that took place on April 1,&nbsp;2026. "Earlier today, a malicious actor gained unauthorized access to Drift Protocol through a novel attack involving...
 
