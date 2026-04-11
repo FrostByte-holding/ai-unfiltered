@@ -450,6 +450,12 @@
 - URL: https://tldr.takara.ai/p/2604.08516
 - Summary: Web agents--autonomous systems that navigate and execute tasks on the web on behalf of users--have the potential to transform how people interact with the digital world. However, the most capable web agents today rely on proprietary models with undisclosed training data and recipes, limiting...
 
+### sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08501
+- Summary: Science currently offers two options for quality assurance, both inadequate. Journal gatekeeping claims to verify both integrity and contribution, but actually measures prestige: peer review is slow, biased, and misses fabricated citations even at top venues. Open science provides no quality...
+
 ### EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets
 - Source: The Hacker News
 - Category: security
@@ -461,6 +467,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.08476
 - Summary: Multimodal reasoning models (MRMs) trained with reinforcement learning with verifiable rewards (RLVR) show improved accuracy on visual reasoning benchmarks. However, we observe that accuracy gains often come at the cost of reasoning quality: generated Chain-of-Thought (CoT) traces are frequently...
+
+### LAMP: Lift Image-Editing as General 3D Priors for Open-world Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08475
+- Summary: Human-like generalization in open-world remains a fundamental challenge for robotic manipulation. Existing learning-based methods, including reinforcement learning, imitation learning, and vision-language-action-models (VLAs), often struggle with novel tasks and unseen environments. Another...
 
 ### Disruption with some GitHub services
 - Source: GitHub Status
@@ -744,6 +756,12 @@
 - URL: https://www.githubstatus.com/incidents/bnvg7qml7krl
 - Summary: Apr 9, 04:57 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 9, 04:57 UTCMonitoring - The degradation has been mitigated. We are monitoring to ensure...
 
+### Structured Distillation of Web Agent Capabilities Enables Generalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07776
+- Summary: Frontier LLMs can navigate complex websites, but their cost and reliance on third-party APIs make local deployment impractical. We introduce Agent-as-Annotators, a framework that structures synthetic trajectory generation for web agents by analogy to human annotation roles, replacing the Task...
+
 ### Non-monotonic causal discovery with Kolmogorov-Arnold Fuzzy Cognitive Maps
 - Source: arXiv AI
 - Category: research
@@ -930,6 +948,12 @@
 - URL: https://pandaily.com/jd-com-reportedly-blocks-external-ai-tools-meituan-tightens-use-of-alibaba-s-qwen-model
 - Summary: JD.com blocks external AI tools while Meituan restricts Alibaba’s Qwen model, as tech giants double down on in-house AI.
 
+### Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07763
+- Summary: As generative artificial intelligence evolves, deepfake attacks have escalated from single-modality manipulations to complex, multimodal threats. Existing forensic techniques face a severe generalization bottleneck: by relying excessively on superficial, modality-specific artifacts, they neglect...
+
 ### Huawei Teases AI Glasses Launch as Executive Shares First Camera Sample
 - Source: Pandaily
 - Category: chinese-ai
@@ -941,6 +965,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.07747
 - Summary: Reinforcement learning with verifiable rewards (RLVR) can improve low-$k$ reasoning accuracy while narrowing solution coverage on challenging math questions, and pass@1 gains do not necessarily translate into better large-$k$ performance. Existing hint-based approaches can make challenging...
+
+### Beyond Pedestrians: Caption-Guided CLIP Framework for High-Difficulty Video-based Person Re-Identification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07740
+- Summary: In recent years, video-based person Re-Identification (ReID) has gained attention for its ability to leverage spatiotemporal cues to match individuals across non-overlapping cameras. However, current methods struggle with high-difficulty scenarios, such as sports and dance performances, where...
 
 ### Alibaba Reshuffles AI Leadership, Elevates Tongyi Lab and Appoints Li Feifei as Alibaba Cloud CTO
 - Source: Pandaily
@@ -2995,34 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.01308
 - Summary: arXiv:2604.01308v1 Announce Type: new Abstract: Designing reliable integrated energy systems for industrial processes requires optimization and verification models across multiple fidelities, from architecture-level sizing to high-fidelity dynamic operation. However, model mismatch across...
-
-### How Trustworthy Are LLM-as-Judge Ratings for Interpretive Responses? Implications for Qualitative Research Workflows
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00008
-- Summary: arXiv:2604.00008v1 Announce Type: new Abstract: As qualitative researchers show growing interest in using automated tools to support interpretive analysis, a large language model (LLM) is often introduced into an analytic workflow as is, without systematic evaluation of interpretive quality or...
-
-### Eyla: Toward an Identity-Anchored LLM Architecture with Integrated Biological Priors -- Vision, Implementation Attempt, and Lessons from AI-Assisted Development
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00009
-- Summary: arXiv:2604.00009v1 Announce Type: new Abstract: We present the design rationale, implementation attempt, and failure analysis of Eyla, a proposed identity-anchored LLM architecture that integrates biologically-inspired subsystems -- including HiPPO-initialized state-space models, zero-initialized...
-
-### Can LLMs Perceive Time? An Empirical Investigation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00010
-- Summary: arXiv:2604.00010v1 Announce Type: new Abstract: Large language models cannot estimate how long their own tasks take. We investigate this limitation through four experiments across 68 tasks and four model families. Pre-task estimates overshoot actual duration by 4--7$\times$ ($p < 0.001$), with...
-
-### Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00012
-- Summary: arXiv:2604.00012v1 Announce Type: new Abstract: Despite the impressive performance of general-purpose large language models (LLMs), they often require fine-tuning or post-training to excel at specific tasks. For instance, large reasoning models (LRMs), such as the DeepSeek-R1 series, demonstrate...
-
-### MSA-Thinker: Discrimination-Calibration Reasoning with Hint-Guided Reinforcement Learning for Multimodal Sentiment Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.00013
-- Summary: arXiv:2604.00013v1 Announce Type: new Abstract: Multimodal sentiment analysis aims to understand human emotions by integrating textual, auditory, and visual modalities. Although Multimodal Large Language Models (MLLMs) have achieved state-of-the-art performance via supervised fine-tuning (SFT),...
 
