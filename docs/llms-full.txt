@@ -1102,6 +1102,12 @@
 - URL: https://www.latent.space/p/ainews-meta-superintelligence-labs
 - Summary: a quiet day lets us reflect on MSL finally shipping!
 
+### Reasoning Graphs: Deterministic Agent Accuracy through Evidence-Centric Chain-of-Thought Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07595
+- Summary: Language model agents reason from scratch on every query: each time an agent retrieves evidence and deliberates, the chain of thought is discarded and the next similar query starts with no prior insight. This produces lower accuracy and high variance, as the same type of query can succeed or fail...
+
 ### Outage affecting Workspace Creation
 - Source: Anthropic Status
 - Category: incidents
@@ -1781,6 +1787,12 @@
 - URL: https://www.latent.space/p/harness-eng
 - Summary: We shed light on OpenAI's first Dark Factory for the first time.
 
+### AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06296
+- Summary: AI agents are increasingly deployed in real-world applications, including systems such as Manus, OpenClaw, and coding agents. Existing research has primarily focused on \emph{server-side} efficiency, proposing methods such as caching, speculative execution, traffic scheduling, and load balancing to...
+
 ### Russia Hacked Routers to Steal Microsoft Office Tokens
 - Source: Krebs on Security
 - Category: security
@@ -2128,6 +2140,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html
 - Summary: A&nbsp;China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate "high-velocity" attacks and break into susceptible internet-facing&nbsp;systems. "The threat actor's high operational...
+
+### On the Role of Fault Localization Context for LLM-Based Program Repair
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05481
+- Summary: Fault Localization (FL) is a key component of Large Language Model (LLM)-based Automated Program Repair (APR), yet its impact remains underexplored. In particular, it is unclear how much localization is needed, whether additional context beyond the predicted buggy location is beneficial, and how...
 
 ### OntoTKGE: Ontology-Enhanced Temporal Knowledge Graph Extrapolation
 - Source: HF Daily Papers
@@ -2612,6 +2630,12 @@
 - URL: https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html
 - Summary: Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro. Qilin...
 
+### Visual Prompt Based Reasoning for Offroad Mapping using Multimodal LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04564
+- Summary: Traditional approaches to off-road autonomy rely on separate models for terrain classification, height estimation, and quantifying slip or slope conditions. Utilizing several models requires training each component separately, having task specific datasets, and fine-tuning. In this work, we present...
+
 ### Fortinet Rushes Emergency Fixes for Exploited Zero-Day
 - Source: Security Week
 - Category: security
@@ -2933,6 +2957,12 @@
 - URL: https://tldr.takara.ai/p/2604.04107
 - Summary: Data-driven neural networks are increasingly used as surrogate forward models in geophysics, but it remains unclear whether they recover only the data mapping or also the underlying physical sensitivity structure. Here we test this question using surface-wave dispersion. By comparing automatically...
 
+### Detecting Media Clones in Cultural Repositories Using a Positive Unlabeled Learning Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04071
+- Summary: We formulate curator-in-the-loop duplicate discovery in the AtticPOT repository as a Positive-Unlabeled (PU) learning problem. Given a single anchor per artefact, we train a lightweight per-query Clone Encoder on augmented views of the anchor and score the unlabeled repository with an interpretable...
+
 ### 36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants
 - Source: The Hacker News
 - Category: security
@@ -2998,34 +3028,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/kljzxjznrpm4
 - Summary: Apr 3, 22:47 UTCResolved - Emails were sent today with a signature that had a a minor typo inadvertently caused it to flag legitimate emails. We have immediately corrected the issue, and going forward, these emails will no longer be incorrectly flagged.
-
-### [AINews] Good Friday
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-good-friday
-- Summary: a quiet day.
-
-### Elevated errors on requests to Claude Sonnet 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/fznql3y9tpn7
-- Summary: Apr 3, 19:21 UTCResolved - This incident has been resolved.Apr 3, 18:12 UTCInvestigating - We are currently investigating an issue resulting in elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.
-
-### Pages increased deployment errors
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/45bv19jtvnl9
-- Summary: Apr 3, 17:55 UTCResolved - This incident has been resolved.Apr 3, 17:18 UTCUpdate - We are continuing to monitor for any further issues.Apr 3, 17:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 3, 16:50 UTCIdentified - Cloudflare has identified an issue impacting...
-
-### China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html
-- Summary: A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025,&nbsp;following a two-year&nbsp;period of minimal targeting in the&nbsp;region. The campaign has been attributed&nbsp;to TA416, a cluster of activity that overlaps with DarkPeony,...
-
-### Four things we’d need to put data centers in space
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/
-- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. In January, Elon Musk’s SpaceX filed an application with the US Federal Communications Commission to launch up to one...
 
