@@ -597,6 +597,12 @@
 - URL: https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html
 - Summary: Thursday. Another week, another batch of things that probably should've been caught sooner but&nbsp;weren't. This&nbsp;one's got some range — old vulnerabilities getting new life, a few "why was that even possible" moments, attackers leaning on platforms and tools you'd normally trust without...
 
+### Long-Term Embeddings for Balanced Personalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08181
+- Summary: Modern transformer-based sequential recommenders excel at capturing short-term intent but often suffer from recency bias, overlooking stable long-term preferences. While extending sequence lengths is an intuitive fix, it is computationally inefficient, and recent interactions tend to dominate the...
+
 ### Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -824,6 +830,12 @@
 - Category: security
 - URL: https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/
 - Summary: A hacker transferred more than 50 bitcoin from the Bitcoin ATM operator’s wallets after stealing credentials. The post $3.6 Million Stolen in Bitcoin Depot Hack appeared first on SecurityWeek.
+
+### ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07851
+- Summary: With the rise of LLMs, there is an increasing need for intelligent recommendation assistants that can handle complex queries and provide personalized, reasoning-driven recommendations. LLM-based recommenders show potential but face challenges in multi-step reasoning, underscoring the need for...
 
 ### Disruption with GitHub notifications
 - Source: GitHub Status
@@ -2081,6 +2093,12 @@
 - URL: https://tldr.takara.ai/p/2604.05551
 - Summary: Self-conditioning has been central to the success of continuous diffusion language models, as it allows models to correct previous errors. Yet its ability degrades precisely in the regime where diffusion is most attractive for deployment: few-step sampling for fast inference. In this study, we show...
 
+### AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05550
+- Summary: Artificial intelligence research increasingly depends on prolonged cycles of reproduction, debugging, and iterative refinement to achieve State-Of-The-Art (SOTA) performance, creating a growing need for systems that can accelerate the full pipeline of empirical model optimization. In this work, we...
+
 ### From Large Language Model Predicates to Logic Tensor Networks: Neurosymbolic Offer Validation in Regulated Procurement
 - Source: HF Daily Papers
 - Category: open-source
@@ -2437,6 +2455,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/xmqkb966qt1h
 - Summary: Apr 6, 21:45 UTCResolved - This incident has been resolved.Apr 6, 21:26 UTCInvestigating - We are currently investigating this issue.
+
+### From Use to Oversight: How Mental Models Influence User Behavior and Output in AI Writing Assistants
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05166
+- Summary: AI-based writing assistants are ubiquitous, yet little is known about how users' mental models shape their use. We examine two types of mental models -- functional or related to what the system does, and structural or related to how the system works -- and how they affect control behavior -- how...
 
 ### Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations
 - Source: The Hacker News
@@ -2963,6 +2987,12 @@
 - URL: https://tldr.takara.ai/p/2604.04071
 - Summary: We formulate curator-in-the-loop duplicate discovery in the AtticPOT repository as a Positive-Unlabeled (PU) learning problem. Given a single anchor per artefact, we train a lightweight per-query Clone Encoder on augmented views of the anchor and score the unlabeled repository with an interpretable...
 
+### Prune-Quantize-Distill: An Ordered Pipeline for Efficient Neural Network Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04988
+- Summary: Modern deployment often requires trading accuracy for efficiency under tight CPU and memory constraints, yet common compression proxies such as parameter count or FLOPs do not reliably predict wall-clock inference time. In particular, unstructured sparsity can reduce model storage while failing to...
+
 ### 36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants
 - Source: The Hacker News
 - Category: security
@@ -2995,37 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.03753
 - Summary: Modern advanced driver assistance systems (ADAS) rely on deep neural networks (DNNs) for perception and planning. Since DNNs' parameters reside in DRAM during inference, bit flips caused by cosmic radiation or low-voltage operation may corrupt DNN computations, distort driving decisions, and lead...
-
-### Shower-Aware Dual-Stream Voxel Networks for Structural Defect Detection in Cosmic-Ray Muon Tomography
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.03741
-- Summary: We present SA-DSVN, a 3D convolutional architecture for voxel-level segmentation of structural defects in reinforced concrete using cosmic-ray muon tomography. Unlike conventional reconstruction methods (POCA, MLSD) that rely solely on muon scattering angles, our approach jointly processes...
-
-### European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/
-- Summary: Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared first on SecurityWeek.
-
-### Selective Forgetting for Large Reasoning Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.03571
-- Summary: Large Reasoning Models (LRMs) generate structured chains of thought (CoTs) before producing final answers, making them especially vulnerable to knowledge leakage through intermediate reasoning steps. Yet, the memorization of sensitive information in the training data such as copyrighted and private...
-
-
-## 2026-04-03
-
-### Queue resource error
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/s29h7cf03vds
-- Summary: Apr 3, 23:57 UTCUpdate - We are continuing to work on a fix for this issue.Apr 3, 23:53 UTCIdentified - Cloudflare is investigating an increased level of errors for customers running updates to Queues via Terraform.
-
-### Customers using our Email Security product might see some links flagged as suspicious
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/kljzxjznrpm4
-- Summary: Apr 3, 22:47 UTCResolved - Emails were sent today with a signature that had a a minor typo inadvertently caused it to flag legitimate emails. We have immediately corrected the issue, and going forward, these emails will no longer be incorrectly flagged.
 
