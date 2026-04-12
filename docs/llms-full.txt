@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-04-12
+
+### Workers AI Gemma 4 model unhealthy
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/f22tkcz6x9ll
+- Summary: Apr 12, 02:00 UTCResolved - This incident has been resolved.Apr 12, 00:29 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 11, 21:52 UTCInvestigating - Cloudflare is investigating isssues with Workers AI Gemma 4 model. Users may experience elevated error rates when...
+
+
 ## 2026-04-11
 
 ### The inevitable need for an open model consortium
@@ -461,6 +470,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.08516
 - Summary: Web agents--autonomous systems that navigate and execute tasks on the web on behalf of users--have the potential to transform how people interact with the digital world. However, the most capable web agents today rely on proprietary models with undisclosed training data and recipes, limiting...
+
+### When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08513
+- Summary: Transfer learning followed by fine-tuning is widely adopted in medical image classification due to consistent gains in diagnostic performance. However, in multi-class settings with overlapping visual features, improvements in accuracy do not guarantee stability of the visual evidence used to...
 
 ### sciwrite-lint: Verification Infrastructure for the Age of Science Vibe-Writing
 - Source: HF Daily Papers
@@ -1886,6 +1901,12 @@
 - URL: https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html
 - Summary: In&nbsp;the rapid evolution of&nbsp;the 2026 threat landscape, a frustrating paradox has emerged for CISOs and security&nbsp;leaders: Identity programs are maturing, yet the risk is actually increasing. According to new research from&nbsp;the Ponemon&nbsp;Institute, hundreds of applications within...
 
+### GenomeQA: Benchmarking General Large Language Models for Genome Sequence Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.05774
+- Summary: Large Language Models (LLMs) are increasingly adopted as conversational assistants in genomics, where they are mainly used to reason over biological knowledge, annotations, and analysis outputs through natural language interfaces. However, existing benchmarks either focus on specialized DNA models...
+
 ### Beyond the Beep: Scalable Collision Anticipation and Real-Time Explainability with BADAS-2.0
 - Source: HF Daily Papers
 - Category: open-source
@@ -2368,6 +2389,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04929
 - Summary: Most vision-language models (VLMs) apply a large language model (LLM) as the decoder, where the response tokens are generated sequentially through autoregression. Therefore, the number of output tokens can be the bottleneck of the end-to-end latency. However, different models may require vastly...
+
+### Empowering Power Outage Prediction with Spatially Aware Hybrid Graph Neural Networks and Contrastive Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.04916
+- Summary: Extreme weather events, such as severe storms, hurricanes, snowstorms, and ice storms, which are exacerbated by climate change, frequently cause widespread power outages. These outages halt industrial operations, impact communities, damage critical infrastructure, profoundly disrupt economies, and...
 
 ### FileGram: Grounding Agent Personalization in File-System Behavioral Traces
 - Source: HF Daily Papers
@@ -2885,11 +2912,23 @@
 - URL: https://tldr.takara.ai/p/2604.03753
 - Summary: Modern advanced driver assistance systems (ADAS) rely on deep neural networks (DNNs) for perception and planning. Since DNNs' parameters reside in DRAM during inference, bit flips caused by cosmic radiation or low-voltage operation may corrupt DNN computations, distort driving decisions, and lead...
 
+### Shower-Aware Dual-Stream Voxel Networks for Structural Defect Detection in Cosmic-Ray Muon Tomography
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.03741
+- Summary: We present SA-DSVN, a 3D convolutional architecture for voxel-level segmentation of structural defects in reinforced concrete using cosmic-ray muon tomography. Unlike conventional reconstruction methods (POCA, MLSD) that rely solely on muon scattering angles, our approach jointly processes...
+
 ### European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/european-commission-confirms-data-breach-linked-to-trivy-supply-chain-attack/
 - Summary: Hackers stole over 300GB of data from the Commission’s AWS environment, including personal information. The post European Commission Confirms Data Breach Linked to Trivy Supply Chain Attack appeared first on SecurityWeek.
+
+### Selective Forgetting for Large Reasoning Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.03571
+- Summary: Large Reasoning Models (LRMs) generate structured chains of thought (CoTs) before producing final answers, making them especially vulnerable to knowledge leakage through intermediate reasoning steps. Yet, the memorization of sensitive information in the training data such as copyrighted and private...
 
 
 ## 2026-04-03
@@ -2989,40 +3028,4 @@
 - Category: security
 - URL: https://www.securityweek.com/mobile-attack-surface-expands-as-enterprises-lose-control/
 - Summary: Shadow AI embedded in everyday apps, combined with outdated mobile devices and zero-click exploits, is creating a new and largely unseen mobile risk. The post Mobile Attack Surface Expands as Enterprises Lose Control appeared first on SecurityWeek.
-
-### React2Shell Exploited in Large-Scale Credential Harvesting Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/
-- Summary: Using automated scanning and the Nexus Listener collection framework, the hackers compromised over 750 systems. The post React2Shell Exploited in Large-Scale Credential Harvesting Campaign appeared first on SecurityWeek.
-
-### T-Mobile Sets the Record Straight on Latest Data Breach Filing
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/t-mobile-sets-the-record-straight-on-latest-data-breach-filing/
-- Summary: The cybersecurity incident involved an insider and had a limited impact, the telecoms giant told SecurityWeek. The post T-Mobile Sets the Record Straight on Latest Data Breach Filing appeared first on SecurityWeek.
-
-### North Korean Hackers Drain $285 Million From Drift in 10 Seconds
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/north-korean-hackers-drain-285-million-from-drift-in-10-seconds/
-- Summary: The attackers prepared infrastructure and multiple nonce-based transactions, took over an admin key, and drained five vaults. The post North Korean Hackers Drain $285 Million From Drift in 10 Seconds appeared first on SecurityWeek.
-
-### Genspark Raises $385 Million, Accelerates Commercialization of AI Agent Platform
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/genspark-raises-385-million-accelerates-commercialization-of-ai-agent-platform
-- Summary: Genspark has raised $385 million at a $1.6 billion valuation, as its AI Agent platform gains traction in Japan with strong user engagement. The company is scaling its “AI Workspace” to accelerate enterprise adoption.
-
-### Mizzen Insight Raises Nearly $10 Million as AI User Research Platform Scales Rapidly
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/mizzen-insight-raises-nearly-10-million-as-ai-user-research-platform-scales-rapidly
-- Summary: Mizzen Insight raised nearly $10 million to scale its AI-powered user research platform, cutting research cycles from weeks to under a day while serving clients like AlibabaGroup and Xiaomi.
-
-### EVE Energy Reports 2025 Revenue Growth as Multi-Segment Strategy Supports Expansion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/eve-energy-reports-2025-revenue-growth-as-multi-segment-strategy-supports-expansion
-- Summary: EVE Energy reported $8.5 billion in 2025 revenue, driven by strong growth in both power and energy storage batteries, supported by global expansion and diversified operations.
 
