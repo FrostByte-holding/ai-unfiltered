@@ -6,6 +6,18 @@
 
 ## 2026-04-13
 
+### Incident with Pages
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/96r9hyz795sv
+- Summary: Apr 13, 20:35 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 13, 20:32 UTCUpdate - We have mitigated the issue with Pages.Apr 13, 20:30...
+
+### Increased KV latency and timeouts
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/lq1vw7z9xthq
+- Summary: Apr 13, 20:15 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting a subset of KV API requests, resulting in increased latency and timeouts. Workers using Assets are also experiencing errors. This does not impact KV through the binding.
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -732,6 +744,12 @@
 - URL: https://www.interconnects.ai/p/claude-mythos-and-misguided-open
 - Summary: Another dance around fears of open-source.
 
+### EfficientSign: An Attention-Enhanced Lightweight Architecture for Indian Sign Language Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08694
+- Summary: How do you build a sign language recognizer that works on a phone? That question drove this work. We built EfficientSign, a lightweight model which takes EfficientNet-B0 and focuses on two attention modules (Squeeze-and-Excitation for channel focus, and a spatial attention layer that focuses on the...
+
 ### Self-Improving 4D Perception via Self-Distillation
 - Source: HF Daily Papers
 - Category: open-source
@@ -953,6 +971,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.08068
 - Summary: Decoding visual information from electroencephalography (EEG) has recently achieved promising results, primarily focusing on reconstructing two-dimensional (2D) images from brain activity. However, the reconstruction of three-dimensional (3D) representations remains largely unexplored. This limits...
+
+### Multimodal Latent Reasoning via Predictive Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.08065
+- Summary: Tool-augmented multimodal reasoning enables visual language models (VLMs) to improve perception by interacting with external tools (e.g., cropping, depth estimation). However, such approaches incur substantial inference overhead, require specialized supervision, and are prone to erroneous tool...
 
 ### EEG2Vision: A Multimodal EEG-Based Framework for 2D Visual Reconstruction in Cognitive Neuroscience
 - Source: HF Daily Papers
@@ -1326,6 +1350,12 @@
 - URL: https://tldr.takara.ai/p/2604.07763
 - Summary: As generative artificial intelligence evolves, deepfake attacks have escalated from single-modality manipulations to complex, multimodal threats. Existing forensic techniques face a severe generalization bottleneck: by relying excessively on superficial, modality-specific artifacts, they neglect...
 
+### WUTDet: A 100K-Scale Ship Detection Dataset and Benchmarks with Dense Small Objects
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.07759
+- Summary: Ship detection for navigation is a fundamental perception task in intelligent waterway transportation systems. However, existing public ship detection datasets remain limited in terms of scale, the proportion of small-object instances, and scene diversity, which hinders the systematic evaluation...
+
 ### Huawei Teases AI Glasses Launch as Executive Shares First Camera Sample
 - Source: Pandaily
 - Category: chinese-ai
@@ -1685,6 +1715,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/lhws0phdvzz3
 - Summary: Apr 8, 09:01 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 8, 07:59 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 8, 07:06 UTCUpdate - We are continuing to investigate this issue.Apr 8, 06:23 UTCInvestigating - We are currently...
+
+### On the Step Length Confounding in LLM Reasoning Data Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.06834
+- Summary: Large reasoning models have recently demonstrated strong performance on complex tasks that require long chain-of-thought reasoning, through supervised fine-tuning on large-scale and high-quality datasets. To construct such datasets, existing pipelines generate long reasoning data from more capable...
 
 ### FedDetox: Robust Federated SLM Alignment via On-Device Data Sanitization
 - Source: HF Daily Papers
@@ -2986,40 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.04611
 - Summary: Federated learning (FL) enables multiple clients to collaboratively train a global model by aggregating local updates without sharing private data. However, FL often faces the challenge of free-riders, clients who submit fake model parameters without performing actual training to obtain the global...
-
-### How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html
-- Summary: The&nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That&nbsp;laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI&nbsp;agents. In&nbsp;March 2026, the TeamPCP...
-
-### Guardarian Users Targeted With Malicious Strapi NPM Packages
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/guardarian-users-targeted-with-malicious-strapi-npm-packages/
-- Summary: Hackers published 36 NPM packages posing as Strapi plugins to execute shells, escape containers, and harvest credentials. The post Guardarian Users Targeted With Malicious Strapi NPM Packages appeared first on SecurityWeek.
-
-### North Korean Hackers Target High-Profile Node.js Maintainers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/north-korean-hackers-target-high-profile-node-js-maintainers/
-- Summary: The threat actor behind the Axios supply chain attack has been aiming at other maintainers in its social engineering campaign. The post North Korean Hackers Target High-Profile Node.js Maintainers appeared first on SecurityWeek.
-
-### AI is changing how small online sellers decide what to make
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/
-- Summary: For years Mike McClary sold the Guardian LTE Flashlight, a heavy-duty black model, online through his small outdoor brand. The product, designed for brightness and durability, became one of his most popular items ever. Even after he stopped offering it around 2017, customers kept sending him emails...
-
-### Noisy Nonreciprocal Pairwise Comparisons: Scale Variation, Noise Calibration, and Admissible Ranking Regions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.04588
-- Summary: Pairwise comparisons are widely used in decision analysis, preference modeling, and evaluation problems. In many practical situations, the observed comparison matrix is not reciprocal. This lack of reciprocity is often treated as a defect to be corrected immediately. In this article, we adopt a...
-
-### GET /v1/responses endpoint is currently down and unable to serve requests
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KNH45H33H4J553XBG6TJ3PQF
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)
 
