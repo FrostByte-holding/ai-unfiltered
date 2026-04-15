@@ -6,6 +6,30 @@
 
 ## 2026-04-15
 
+### Elevated Error Rate for Durable Objects and R2 Buckets in the APAC region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2ldjdg3lm049
+- Summary: Apr 15, 20:47 UTCResolved - This incident has been resolved.Apr 15, 17:43 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 15, 17:33 UTCInvestigating - Customers with R2 data or Durable Objects in APAC may experience high latency or elevated error rates.
+
+### Network Performance issues - Increased HTTP 5xx Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/l9zjqmh2nctn
+- Summary: Apr 15, 19:27 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 15, 19:14 UTCUpdate - We are continuing to investigate this issue.Apr 15, 19:13 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 5xx errors. We are working to analyse and mitigate...
+
+### ChatGPT FedRAMP workspaces not loading
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KP96N94V5AJX22P8APDX6XH2
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components FedRAMP (Operational)
+
+### My bets on open models, mid-2026
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026
+- Summary: What I expect to come next and why, focused on the open-closed gap.
+
 ### Elevated errors on Claude.ai, API, Claude Code
 - Source: Anthropic Status
 - Category: incidents
@@ -71,6 +95,11 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/15/1135904/the-download-nasa-nuclear-powered-spacecraft-10-things-that-matter-in-ai-right-now/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. NASA is building the first nuclear reactor-powered interplanetary spacecraft. How will it work?&#160; Just before Artemis II began its historic...
+
+### Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis
 
 ### Retaining defensive advantage in the age of frontier AI cyber capabilities
 - Source: NCSC UK
@@ -314,6 +343,12 @@
 - URL: https://www.technologyreview.com/2026/04/14/1134397/redefining-the-future-of-software-engineering/
 - Summary: Software engineering has experienced two seismic shifts this century. First was the rise of the open source movement, which gradually made code accessible to developers and engineers everywhere. Second, the adoption of development operations (DevOps) and agile methodologies took software from...
 
+### Lyra 2.0: Explorable Generative 3D Worlds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13036
+- Summary: Recent advances in video generation enable a new paradigm for 3D scene creation: generating camera-controlled videos that simulate scene walkthroughs, then lifting them to 3D via feed-forward reconstruction techniques. This generative reconstruction approach combines the visual fidelity and...
+
 ### SceneCritic: A Symbolic Evaluator for 3D Indoor Scene Synthesis
 - Source: HF Daily Papers
 - Category: open-source
@@ -350,6 +385,12 @@
 - URL: https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
 - Summary: Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities&nbsp;have been&nbsp;described as command injection flaws affecting the Perforce VCS...
 
+### VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12887
+- Summary: Visual tokenizers map high-dimensional raw pixels into a compressed representation for downstream modeling. Beyond compression, tokenizers dictate what information is preserved and how it is organized. A de facto standard approach to video tokenization is to represent a video as a spatiotemporal 3D...
+
 ### Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security
 - Source: The Hacker News
 - Category: security
@@ -373,6 +414,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.12733
 - Summary: In recent years, Sound AI is being increasingly used to predict machine failures. By attaching a microphone to the machine of interest, one can get real time data on machine behavior from the field. Traditionally, Convolutional Neural Net (CNN) architectures have been used to analyze spectrogram...
+
+### On Higher-Order Geometric Refinements of Classical Covariance Asymptotics: An Approach via Intrinsic and Extrinsic Information Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12725
+- Summary: Classical Fisher-information asymptotics describe the covariance of regular efficient estimators through the local quadratic approximation of the log-likelihood, and thus capture first-order geometry only. In curved models, including mixtures, curved exponential families, latent-variable models,...
 
 ### Network Congestion
 - Source: Cloudflare Status
@@ -433,6 +480,12 @@
 - Category: security
 - URL: https://www.securityweek.com/sap-patches-critical-abap-vulnerability/
 - Summary: The company has released 19 new security notes addressing flaws in over a dozen enterprise products. The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.
+
+### Relaxing Anchor-Frame Dominance for Mitigating Hallucinations in Video Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12582
+- Summary: Recent Video Large Language Models (Video-LLMs) have demonstrated strong capability in video understanding, yet they still suffer from hallucinations. Existing mitigation methods typically rely on training, input modification, auxiliary guidance, or additional decoding procedures, while largely...
 
 ### Coming soon: 10 Things That Matter in AI Right Now
 - Source: MIT Tech Review AI
@@ -511,6 +564,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/zte-upgrades-ai-strategy-advances-connectivity-computing-dual-engine-infrastructure-approach
 - Summary: ZTE is shifting toward a “connectivity + compute” AI infrastructure strategy, reporting about 150% growth in its computing business in 2025.
+
+### KG-Reasoner: A Reinforced Model for End-to-End Multi-Hop Knowledge Graph Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12487
+- Summary: Large Language Models (LLMs) exhibit strong abilities in natural language understanding and generation, yet they struggle with knowledge-intensive reasoning. Structured Knowledge Graphs (KGs) provide an effective form of external knowledge representation and have been widely used to enhance...
 
 ### BeingBeyond Releases Being-H0.7 Embodied World Model Trained on 200,000 Hours of Human VideoTrained on 200,000 Hours of Human Video [图片]
 - Source: Pandaily
@@ -2962,64 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.04940
 - Summary: arXiv:2604.04940v1 Announce Type: new Abstract: Designing effective heuristics for NP-hard combinatorial optimization problems remains a challenging and expertise-intensive task. Existing applications of large language models (LLMs) primarily rely on one-shot code synthesis, yielding brittle...
-
-### Algebraic Structure Discovery for Real World Combinatorial Optimisation Problems: A General Framework from Abstract Algebra to Quotient Space Learning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.04941
-- Summary: arXiv:2604.04941v1 Announce Type: new Abstract: Many combinatorial optimisation problems hide algebraic structures that, once exposed, shrink the search space and improve the chance of finding the global optimal solution. We present a general framework that (i) identifies algebraic structure, (ii)...
-
-### A Theory-guided Weighted $L^2$ Loss for solving the BGK model via Physics-informed neural networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04971
-- Summary: arXiv:2604.04971v1 Announce Type: new Abstract: While Physics-Informed Neural Networks offer a promising framework for solving partial differential equations, the standard $L^2$ loss formulation is fundamentally insufficient when applied to the Bhatnagar-Gross-Krook (BGK) model. Specifically,...
-
-### Territory Paint Wars: Diagnosing and Mitigating Failure Modes in Competitive Multi-Agent PPO
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04983
-- Summary: arXiv:2604.04983v1 Announce Type: new Abstract: We present Territory Paint Wars, a minimal competitive multi-agent reinforcement learning environment implemented in Unity, and use it to systematically investigate failure modes of Proximal Policy Optimisation (PPO) under self-play. A first agent...
-
-### Enhancing sample efficiency in reinforcement-learning-based flow control: replacing the critic with an adaptive reduced-order model
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04986
-- Summary: arXiv:2604.04986v1 Announce Type: new Abstract: Model-free deep reinforcement learning (DRL) methods suffer from poor sample efficiency. To overcome this limitation, this work introduces an adaptive reduced-order-model (ROM)-based reinforcement learning framework for active flow control. In...
-
-### Cactus: Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04987
-- Summary: arXiv:2604.04987v1 Announce Type: new Abstract: Speculative sampling (SpS) has been successful in accelerating the decoding throughput of auto-regressive large language models by leveraging smaller draft models. SpS strictly enforces the generated distribution to match that of the verifier LLM....
-
-### Prune-Quantize-Distill: An Ordered Pipeline for Efficient Neural Network Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04988
-- Summary: arXiv:2604.04988v1 Announce Type: new Abstract: Modern deployment often requires trading accuracy for efficiency under tight CPU and memory constraints, yet common compression proxies such as parameter count or FLOPs do not reliably predict wall-clock inference time. In particular, unstructured...
-
-### TDA-RC: Task-Driven Alignment for Knowledge-Based Reasoning Chains in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.04942
-- Summary: arXiv:2604.04942v1 Announce Type: new Abstract: Enhancing the reasoning capability of large language models (LLMs) remains a core challenge in natural language processing. The Chain-of-Thought (CoT) paradigm dominates practical applications for its single-round efficiency, yet its reasoning chains...
-
-### The Illusion of Latent Generalization: Bi-directionality and the Reversal Curse
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.04943
-- Summary: arXiv:2604.04943v1 Announce Type: new Abstract: The reversal curse describes a failure of autoregressive language models to retrieve a fact in reverse order (e.g., training on ``$A > B$'' but failing on ``$B < A$''). Recent work shows that objectives with bidirectional supervision (e.g.,...
-
-### Inclusion-of-Thoughts: Mitigating Preference Instability via Purifying the Decision Space
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.04944
-- Summary: arXiv:2604.04944v1 Announce Type: new Abstract: Multiple-choice questions (MCQs) are widely used to evaluate large language models (LLMs). However, LLMs remain vulnerable to the presence of plausible distractors. This often diverts attention toward irrelevant choices, resulting in unstable...
-
-### Phase-Associative Memory: Sequence Modeling in Complex Hilbert Space
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.05030
-- Summary: arXiv:2604.05030v1 Announce Type: new Abstract: We present Phase-Associative Memory (PAM), a recurrent sequence model in which all representations are complex-valued, associations accumulate in a matrix state $S_{t}$ $\in$ $\mathbb{C}^{d \times d}$ via outer products, and retrieval operates through...
 
