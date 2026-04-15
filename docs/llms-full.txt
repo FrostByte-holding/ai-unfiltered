@@ -6,6 +6,30 @@
 
 ## 2026-04-15
 
+### Elevated errors on Claude.ai, API, Claude Code
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/f00h6l76tsjs
+- Summary: Apr 15, 16:29 UTCUpdate - We have seen success rates for login to Claude.ai, including via Claude Code, stabilize and are working to fully resolve this issue. We will provide an update shortly.Apr 15, 15:40 UTCUpdate - Claude.ai and Platform are down. Login for Claude Code does not work via...
+
+### Cloudflare Billing Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/g1ds3j4z8hpn
+- Summary: Apr 15, 16:23 UTCResolved - This incident has been resolved.Apr 15, 14:19 UTCIdentified - Cloudflare is experiencing problems in processing changes through our billing subscription service for Argo Smart Routing. All other services are operating normally. We will provide an update once billing...
+
+### Cloudflare Workers API Latency
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/ydt10jsg02jq
+- Summary: Apr 15, 16:07 UTCResolved - This incident has been resolved.Apr 15, 15:29 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 15, 14:37 UTCInvestigating - Cloudflare is investigating an increased latency when interacting with Workers Builds via webhooks from git...
+
+### Gemini 3.1 Flash TTS: the next generation of expressive AI speech
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/
+- Summary: Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.
+
 ### ‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks
 - Source: Security Week
 - Category: security
@@ -23,6 +47,18 @@
 - Category: security
 - URL: https://www.securityweek.com/ciso-conversations-ross-mckerchar-ciso-at-sophos/
 - Summary: Sophos’ Ross McKerchar discusses leadership at scale, retaining talent, defending against AI-enabled threats, and the industry’s growing trust problem. The post CISO Conversations: Ross McKerchar, CISO at Sophos appeared first on SecurityWeek.
+
+### Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html
+- Summary: A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the&nbsp;wild. The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors...
+
+### April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html
+- Summary: A number&nbsp;of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday&nbsp;releases. Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business...
 
 ### Mirax RAT Targeting Android Users in Europe
 - Source: Security Week
@@ -284,6 +320,12 @@
 - URL: https://tldr.takara.ai/p/2604.13035
 - Summary: Large Language Models (LLMs) and Vision-Language Models (VLMs) increasingly generate indoor scenes through intermediate structures such as layouts and scene graphs, yet evaluation still relies on LLM or VLM judges that score rendered views, making judgments sensitive to viewpoint, prompt phrasing,...
 
+### Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12992
+- Summary: Predicting counterfactual outcomes in longitudinal data, where sequential treatment decisions heavily depend on evolving patient states, is critical yet notoriously challenging due to complex time-dependent confounding and inadequate uncertainty quantification in existing methods. We introduce the...
+
 ### Account Creation Issues
 - Source: OpenAI Status
 - Category: incidents
@@ -325,6 +367,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.12757
 - Summary: Adversarial robustness is essential for deploying neural networks in safety-critical applications, yet standard evaluation methods either require expensive adversarial attacks or report only a single aggregate score that obscures how robustness is distributed across classes. We introduce the...
+
+### Transformer Based Machine Fault Detection From Audio Input
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12733
+- Summary: In recent years, Sound AI is being increasingly used to predict machine failures. By attaching a microphone to the machine of interest, one can get real time data on machine behavior from the field. Traditionally, Convolutional Neural Net (CNN) architectures have been used to analyze spectrogram...
 
 ### Network Congestion
 - Source: Cloudflare Status
@@ -374,6 +422,12 @@
 - URL: https://tldr.takara.ai/p/2604.12626
 - Summary: Training embodied AI agents depends critically on the visual fidelity of simulation environments and the ability to model dynamic humans. Current simulators rely on mesh-based rasterization with limited visual realism, and their support for dynamic human avatars, where available, is constrained to...
 
+### DeepTest Tool Competition 2026: Benchmarking an LLM-Based Automotive Assistant
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12615
+- Summary: This report summarizes the results of the first edition of the Large Language Model (LLM) Testing competition, held as part of the DeepTest workshop at ICSE 2026. Four tools competed in benchmarking an LLM-based car manual information retrieval application, with the objective of identifying user...
+
 ### SAP Patches Critical ABAP Vulnerability
 - Source: Security Week
 - Category: security
@@ -391,6 +445,12 @@
 - Category: security
 - URL: https://www.securityweek.com/triad-nexus-evades-sanctions-to-fuel-cybercrime/
 - Summary: The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions. The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on SecurityWeek.
+
+### Cross-Attentive Multiview Fusion of Vision-Language Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12551
+- Summary: Vision-language models have been key to the development of open-vocabulary 2D semantic segmentation. Lifting these models from 2D images to 3D scenes, however, remains a challenging problem. Existing approaches typically back-project and average 2D descriptors across views, or heuristically select...
 
 ### Google Adds Rust DNS Parser to Pixel Phones for Better Security
 - Source: Security Week
@@ -493,6 +553,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.12411
 - Summary: Segmentation models based on deep neural networks demonstrate strong generalization for medical image segmentation. However, they often exhibit overconfidence or underconfidence, leading to unreliable confidence scores for segmentation masks, especially in ambiguous regions. This undermines the...
+
+### Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12379
+- Summary: Large language models (LLMs) increasingly rely on explicit reasoning to solve coding tasks, yet evaluating the quality of this reasoning remains challenging. Existing reasoning evaluators are not designed for coding, and current benchmarks focus primarily on code generation, leaving other coding...
 
 ### ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers
 - Source: The Hacker News
@@ -2956,70 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.05030
 - Summary: arXiv:2604.05030v1 Announce Type: new Abstract: We present Phase-Associative Memory (PAM), a recurrent sequence model in which all representations are complex-valued, associations accumulate in a matrix state $S_{t}$ $\in$ $\mathbb{C}^{d \times d}$ via outer products, and retrieval operates through...
-
-### This Treatment Works, Right? Evaluating LLM Sensitivity to Patient Question Framing in Medical QA
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.05051
-- Summary: arXiv:2604.05051v1 Announce Type: new Abstract: Patients are increasingly turning to large language models (LLMs) with medical questions that are complex and difficult to articulate clearly. However, LLMs are sensitive to prompt phrasings and can be influenced by the way questions are worded....
-
-### PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.05018
-- Summary: arXiv:2604.05018v1 Announce Type: new Abstract: Synthesizing unstructured research materials into manuscripts is an essential yet under-explored challenge in AI-driven scientific discovery. Existing autonomous writers are rigidly coupled to specific experimental pipelines, and produce superficial...
-
-### Part-Level 3D Gaussian Vehicle Generation with Joint and Hinge Axis Estimation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.05070
-- Summary: arXiv:2604.05070v1 Announce Type: new Abstract: Simulation is essential for autonomous driving, yet current frameworks often model vehicles as rigid assets and fail to capture part-level articulation. With perception algorithms increasingly leveraging dynamics such as wheel steering or door...
-
-### MMORF: A Multi-agent Framework for Designing Multi-objective Retrosynthesis Planning Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.05075
-- Summary: arXiv:2604.05075v1 Announce Type: new Abstract: Multi-objective retrosynthesis planning is a critical chemistry task requiring dynamic balancing of quality, safety, and cost objectives. Language model-based multi-agent systems (MAS) offer a promising approach for this task: leveraging interactions...
-
-### MedGemma 1.5 Technical Report
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.05081
-- Summary: arXiv:2604.05081v1 Announce Type: new Abstract: We introduce MedGemma 1.5 4B, the latest model in the MedGemma collection. MedGemma 1.5 expands on MedGemma 1 by integrating additional capabilities: high-dimensional medical imaging (CT/MRI volumes and histopathology whole slide images), anatomical...
-
-### Uncertainty-Guided Latent Diagnostic Trajectory Learning for Sequential Clinical Diagnosis
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.05116
-- Summary: arXiv:2604.05116v1 Announce Type: new Abstract: Clinical diagnosis requires sequential evidence acquisition under uncertainty. However, most Large Language Model (LLM) based diagnostic systems assume fully observed patient information and therefore do not explicitly model how clinical evidence...
-
-### Learning-Based Multi-Criteria Decision Making Model for Sawmill Location Problems
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04996
-- Summary: arXiv:2604.04996v1 Announce Type: new Abstract: Strategically locating a sawmill is vital for enhancing the efficiency, profitability, and sustainability of timber supply chains. Our study proposes a Learning-Based Multi-Criteria Decision-Making (LB-MCDM) framework that integrates machine learning...
-
-### El Nino Prediction Based on Weather Forecast and Geographical Time-series Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04998
-- Summary: arXiv:2604.04998v1 Announce Type: new Abstract: This paper proposes a novel framework for enhancing the prediction accuracy and lead time of El Ni\~no events, crucial for mitigating their global climatic, economic, and societal impacts. Traditional prediction models often rely on oceanic and...
-
-### PRIME: Prototype-Driven Multimodal Pretraining for Cancer Prognosis with Missing Modalities
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.04999
-- Summary: arXiv:2604.04999v1 Announce Type: new Abstract: Multimodal self-supervised pretraining offers a promising route to cancer prognosis by integrating histopathology whole-slide images, gene expression, and pathology reports, yet most existing approaches require fully paired and complete inputs. In...
-
-### Learning Stable Predictors from Weak Supervision under Distribution Shift
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.05002
-- Summary: arXiv:2604.05002v1 Announce Type: new Abstract: Learning from weak or proxy supervision is common when ground-truth labels are unavailable, yet robustness under distribution shift remains poorly understood, especially when the supervision mechanism itself changes. We formalize this as supervision...
-
-### Energy-Based Dynamical Models for Neurocomputation, Learning, and Optimization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.05042
-- Summary: arXiv:2604.05042v1 Announce Type: new Abstract: Recent advances at the intersection of control theory, neuroscience, and machine learning have revealed novel mechanisms by which dynamical systems perform computation. These advances encompass a wide range of conceptual, mathematical, and...
 
