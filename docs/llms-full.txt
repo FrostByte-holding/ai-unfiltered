@@ -6,6 +6,18 @@
 
 ## 2026-04-16
 
+### Claude Cowork not starting for some users
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/qj05p69fff9h
+- Summary: Apr 16, 20:47 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 16, 19:24 UTCInvestigating - We are currently investigating this issue on the v1.3036.0 release of Claude Desktop
+
+### Responses API Streaming Error
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KPBWZ18HR2G685X2XMZD78EP
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Responses (Degraded performance)
+
 ### Incident with Codespaces
 - Source: GitHub Status
 - Category: incidents
@@ -391,6 +403,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/g1ds3j4z8hpn
 - Summary: Apr 15, 16:23 UTCResolved - This incident has been resolved.Apr 15, 14:19 UTCIdentified - Cloudflare is experiencing problems in processing changes through our billing subscription service for Argo Smart Routing. All other services are operating normally. We will provide an update once billing...
 
+### Hierarchical Reinforcement Learning with Runtime Safety Shielding for Power Grid Operation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14032
+- Summary: Reinforcement learning has shown promise for automating power-grid operation tasks such as topology control and congestion management. However, its deployment in real-world power systems remains limited by strict safety requirements, brittleness under rare disturbances, and poor generalization to...
+
 ### Cloudflare Workers API Latency
 - Source: Cloudflare Status
 - Category: incidents
@@ -403,6 +421,12 @@
 - URL: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/
 - Summary: Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.
 
+### MAny: Merge Anything for Multimodal Continual Instruction Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14016
+- Summary: Multimodal Continual Instruction Tuning (MCIT) is essential for sequential task adaptation of Multimodal Large Language Models (MLLMs) but is severely restricted by catastrophic forgetting. While existing literature focuses on the reasoning language backbone, in this work, we expose a critical yet...
+
 ### Exploited Vulnerability Exposes Nginx Servers to Hacking
 - Source: Security Week
 - Category: security
@@ -414,6 +438,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.13891
 - Summary: Automated driving at unsignalized intersections is challenging due to complex multi-vehicle interactions and the need to balance safety and efficiency. Model Predictive Control (MPC) offers structured constraint handling through optimization but relies on hand-crafted rules that often produce...
+
+### Sandpile Economics: Theory, Identification, and Evidence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13890
+- Summary: Why do capitalist economies recurrently generate crises whose severity is disproportionate to the size of the triggering shock? This paper proposes a structural answer grounded in the evolutionary geometry of production networks. As economies evolve through specialization, integration, and...
 
 ### Capsule Security Emerges From Stealth With $7 Million in Funding
 - Source: Security Week
@@ -827,6 +857,12 @@
 - URL: https://www.latent.space/p/ainews-humanitys-last-gasp
 - Summary: a quiet day lets us reflect on work in the time of AI
 
+### VibeFlow: Versatile Video Chroma-Lux Editing through Self-Supervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13425
+- Summary: Video chroma-lux editing, which aims to modify illumination and color while preserving structural and temporal fidelity, remains a significant challenge. Existing methods typically rely on expensive supervised training with synthetic paired data. This paper proposes VibeFlow, a novel...
+
 ### GenRobot.AI Launches Hand Data Capture Device for Embodied AI
 - Source: Pandaily
 - Category: chinese-ai
@@ -868,6 +904,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/03hlhwx1rhvg
 - Summary: Apr 15, 00:26 UTCResolved - This incident has been resolved.Apr 15, 00:06 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 14, 21:01 UTCInvestigating - Cloudflare is investigating delays in container scheduling
+
+### A 3D SAM-Based Progressive Prompting Framework for Multi-Task Segmentation of Radiotherapy-induced Normal Tissue Injuries in Limited-Data Settings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13367
+- Summary: Radiotherapy-induced normal tissue injury is a clinically important complication, and accurate segmentation of injury regions from medical images could facilitate disease assessment, treatment planning, and longitudinal monitoring. However, automatic segmentation of these lesions remains largely...
 
 
 ## 2026-04-14
@@ -2980,46 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.06227
 - Summary: arXiv:2604.06227v1 Announce Type: new Abstract: Accurate short-term forecasting of agricultural commodity prices is critical for food security planning and smallholder income stabilisation in developing economies, yet machine-learning-ready datasets for this purpose remain scarce in South Asia....
-
-### Probabilistic Language Tries: A Unified Framework for Compression, Decision Policies, and Execution Reuse
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06228
-- Summary: arXiv:2604.06228v1 Announce Type: new Abstract: We introduce probabilistic language tries (PLTs), a unified representation that makes explicit the prefix structure implicitly defined by any generative model over sequences. By assigning to each outgoing edge the conditional probability of the...
-
-### FLeX: Fourier-based Low-rank EXpansion for multilingual transfer
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06253
-- Summary: arXiv:2604.06253v1 Announce Type: new Abstract: Cross-lingual code generation is critical in enterprise environments where multiple programming languages coexist. However, fine-tuning large language models (LLMs) individually for each language is computationally prohibitive. This paper investigates...
-
-### Spectral Edge Dynamics Reveal Functional Modes of Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06256
-- Summary: arXiv:2604.06256v1 Announce Type: new Abstract: Training dynamics during grokking concentrate along a small number of dominant update directions -- the spectral edge -- which reliably distinguishes grokking from non-grokking regimes. We show that standard mechanistic interpretability tools (head...
-
-### $S^3$: Stratified Scaling Search for Test-Time in Diffusion Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06260
-- Summary: arXiv:2604.06260v1 Announce Type: new Abstract: Test-time scaling investigates whether a fixed diffusion language model (DLM) can generate better outputs when given more inference compute, without additional training. However, naive best-of-$K$ sampling is fundamentally limited because it...
-
-### LLM-Augmented Knowledge Base Construction For Root Cause Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.06171
-- Summary: arXiv:2604.06171v1 Announce Type: new Abstract: Communications networks now form the backbone of our digital world, with fast and reliable connectivity. However, even with appropriate redundancy and failover mechanisms, it is difficult to guarantee "five 9s" (99.999 %) reliability, requiring rapid...
-
-### The Stepwise Informativeness Assumption: Why are Entropy Dynamics and Reasoning Correlated in LLMs?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.06192
-- Summary: arXiv:2604.06192v1 Announce Type: new Abstract: Recent work uses entropy-based signals at multiple representation levels to study reasoning in large language models, but the field remains largely empirical. A central unresolved puzzle is why internal entropy dynamics, defined under the predictive...
-
-### Depression Detection at the Point of Care: Automated Analysis of Linguistic Signals from Routine Primary Care Encounters
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.06193
-- Summary: arXiv:2604.06193v1 Announce Type: new Abstract: Depression is underdiagnosed in primary care, yet timely identification remains critical. Recorded clinical encounters, increasingly common with digital scribing technologies, present an opportunity to detect depression from naturalistic dialogue. We...
 
