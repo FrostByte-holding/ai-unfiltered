@@ -6,11 +6,35 @@
 
 ## 2026-04-16
 
+### Incident with Codespaces
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/bjyfg0yz1lwj
+- Summary: Apr 16, 16:37 UTCUpdate - Our provider is implementing a mitigation and we are seeing signs of recovery.Apr 16, 15:49 UTCUpdate - We found an issue that impacts 70% of Codespaces. We are engaged with the provider and working towards mitigation.Apr 16, 15:41 UTCUpdate - Codespaces is experiencing...
+
+### API Analytics Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hj0sdpxfz18g
+- Summary: Apr 16, 15:32 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 16, 14:22 UTCInvestigating - We are currently investigating a temporary drop in the availability of our Analytics API. We are working to mitigate this problem. More updates to follow shortly.
+
+### GCP - US Central 1 (Iowa): INC0155608
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/0lj68wp0lphb
+- Summary: Apr 16, 15:08 UTCResolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
 ### API Analytics Delays
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ltchj26ydwsk
 - Summary: Apr 16, 13:34 UTCResolved - This incident has been resolved.Apr 16, 13:03 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 16, 13:02 UTCInvestigating - We are currently investigating a temporary drop in the availability of our Analytics API. We are working to...
+
+### Workers script upload issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mbqg86s1x8zv
+- Summary: Apr 16, 13:30 UTCResolved - Cloudflare is aware of and has mitigated an issue which impacted Workers script uploads between 14:51 UTC to 15:00 UTC on 16th April 2026This did not impact Workers traffic.
 
 ### Making AI operational in constrained public sector environments
 - Source: MIT Tech Review AI
@@ -299,6 +323,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/train-multimodal-sentence-transformers
 
+### The PR you would have opened yourself
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/transformers-to-mlx
+
 
 ## 2026-04-15
 
@@ -325,6 +354,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026
 - Summary: What I expect to come next and why, focused on the open-closed gap.
+
+### ROSE: Retrieval-Oriented Segmentation Enhancement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14147
+- Summary: Existing segmentation models based on multimodal large language models (MLLMs), such as LISA, often struggle with novel or emerging entities due to their inability to incorporate up-to-date knowledge. To address this challenge, we introduce the Novel Emerging Segmentation Task (NEST), which focuses...
 
 ### n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails
 - Source: The Hacker News
@@ -373,6 +408,12 @@
 - Category: security
 - URL: https://www.securityweek.com/exploited-vulnerability-exposes-nginx-servers-to-hacking/
 - Summary: Hackers are exploiting CVE-2026-33032, a critical remote takeover vulnerability in the Nginx UI management tool. The post Exploited Vulnerability Exposes Nginx Servers to Hacking appeared first on SecurityWeek.
+
+### Beyond Conservative Automated Driving in Multi-Agent Scenarios via Coupled Model Predictive Control and Deep Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13891
+- Summary: Automated driving at unsignalized intersections is challenging due to complex multi-vehicle interactions and the need to balance safety and efficiency. Model Predictive Control (MPC) offers structured constraint handling through optimization but relies on hand-crafted rules that often produce...
 
 ### Capsule Security Emerges From Stealth With $7 Million in Funding
 - Source: Security Week
@@ -462,6 +503,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/
 - Summary: From inside a money-laundering center in Cambodia, an employee opens a popular Vietnamese banking app on his phone. The app asks him to upload a photo associated with the account, so he clicks on a picture of a 30-something Asian man. Next, the app requests to open the camera for a video “liveness”...
+
+### TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13737
+- Summary: Recommender systems have historically developed along two largely independent paradigms: feature interaction models for modeling correlations among multi-field categorical features, and sequential models for capturing user behavior dynamics from historical interaction sequences. Although recent...
 
 ### Jump-Start Reinforcement Learning with Vision-Language-Action Regularization
 - Source: HF Daily Papers
@@ -569,6 +616,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/
 - Summary: The practice of privacy-led user experience (UX) is a design philosophy that treats transparency around data collection and usage as an integral part of the customer relationship. An undertapped opportunity in digital marketing, privacy-led UX treats user consent not as a tick-box compliance...
+
+### RobotPan: A 360$^\circ$ Surround-View Robotic Vision System for Embodied Perception
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13476
+- Summary: Surround-view perception is increasingly important for robotic navigation and loco-manipulation, especially in human-in-the-loop settings such as teleoperation, data collection, and emergency takeover. However, current robotic visual interfaces are often limited to narrow forward-facing views, or,...
 
 ### OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams
 - Source: The Hacker News
@@ -761,6 +814,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.12076
 - Summary: arXiv:2604.12076v1 Announce Type: new Abstract: The Identifiable Victim Effect (IVE) $-$ the tendency to allocate greater resources to a specific, narratively described victim than to a statistically characterized group facing equivalent hardship $-$ is one of the most robust findings in moral...
+
+### MaMe & MaRe: Matrix-Based Token Merging and Restoration for Efficient Visual Perception and Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13432
+- Summary: Token compression is crucial for mitigating the quadratic complexity of self-attention mechanisms in Vision Transformers (ViTs), which often involve numerous input tokens. Existing methods, such as ToMe, rely on GPU-inefficient operations (e.g., sorting, scattered writes), introducing overheads...
 
 ### [AINews] Humanity's Last Gasp
 - Source: Latent Space
@@ -2963,64 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.06193
 - Summary: arXiv:2604.06193v1 Announce Type: new Abstract: Depression is underdiagnosed in primary care, yet timely identification remains critical. Recorded clinical encounters, increasingly common with digital scribing technologies, present an opportunity to detect depression from naturalistic dialogue. We...
-
-### Hallucination as output-boundary misclassification: a composite abstention architecture for language models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.06195
-- Summary: arXiv:2604.06195v1 Announce Type: new Abstract: Large language models often produce unsupported claims. We frame this as a misclassification error at the output boundary, where internally generated completions are emitted as if they were grounded in evidence. This motivates a composite intervention...
-
-### Consistency-Guided Decoding with Proof-Driven Disambiguation for Three-Way Logical Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.06196
-- Summary: arXiv:2604.06196v1 Announce Type: new Abstract: Three-way logical question answering (QA) assigns $True/False/Unknown$ to a hypothesis $H$ given a premise set $S$. While modern large language models (LLMs) can be accurate on isolated examples, we identify two recurring failure modes in 3-way logic...
-
-### High-Precision Estimation of the State-Space Complexity of Shogi via the Monte Carlo Method
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06189
-- Summary: arXiv:2604.06189v1 Announce Type: new Abstract: Determining the state-space complexity of the game of Shogi (Japanese Chess) has been a challenging problem, with previous combinatorial estimates leaving a gap of five orders of magnitude ($10^{64}$ to $10^{69}$). This large gap arises from the...
-
-### Blind Refusal: Language Models Refuse to Help Users Evade Unjust, Absurd, and Illegitimate Rules
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06233
-- Summary: arXiv:2604.06233v1 Announce Type: new Abstract: Safety-trained language models routinely refuse requests for help circumventing rules. But not all rules deserve compliance. When users ask for help evading rules imposed by an illegitimate authority, rules that are deeply unjust or absurd in their...
-
-### Toward Reducing Unproductive Container Moves: Predicting Service Requirements and Dwell Times
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06251
-- Summary: arXiv:2604.06251v1 Announce Type: new Abstract: This article presents the results of a data science study conducted at a container terminal, aimed at reducing unproductive container moves through the prediction of service requirements and container dwell times. We develop and evaluate machine...
-
-### Weakly Supervised Distillation of Hallucination Signals into Transformer Representations
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06277
-- Summary: arXiv:2604.06277v1 Announce Type: new Abstract: Existing hallucination detection methods for large language models (LLMs) rely on external verification at inference time, requiring gold answers, retrieval systems, or auxiliary judge models. We ask whether this external supervision can instead be...
-
-### SymptomWise: A Deterministic Reasoning Layer for Reliable and Efficient AI Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06375
-- Summary: arXiv:2604.06375v1 Announce Type: new Abstract: AI-driven symptom analysis systems face persistent challenges in reliability, interpretability, and hallucination. End-to-end generative approaches often lack traceability and may produce unsupported or inconsistent diagnostic outputs in...
-
-### SMT-AD: a scalable quantum-inspired anomaly detection approach
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06265
-- Summary: arXiv:2604.06265v1 Announce Type: new Abstract: Quantum-inspired tensor networks algorithms have shown to be effective and efficient models for machine learning tasks, including anomaly detection. Here, we propose a highly parallelizable quantum-inspired approach which we call SMT-AD from...
-
-### MO-RiskVAE: A Multi-Omics Variational Autoencoder for Survival Risk Modeling in Multiple MyelomaMO-RiskVAE
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06267
-- Summary: arXiv:2604.06267v1 Announce Type: new Abstract: Multimodal variational autoencoders (VAEs) have emerged as a powerful framework for survival risk modeling in multiple myeloma by integrating heterogeneous omics and clinical data. However, when trained under survival supervision, standard latent...
-
-### RAGEN-2: Reasoning Collapse in Agentic RL
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06268
-- Summary: arXiv:2604.06268v1 Announce Type: new Abstract: RL training of multi-turn LLM agents is inherently unstable, and reasoning quality directly determines task performance. Entropy is widely used to track reasoning stability. However, entropy only measures diversity within the same input, and cannot...
 
