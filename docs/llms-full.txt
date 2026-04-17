@@ -6,6 +6,30 @@
 
 ## 2026-04-17
 
+### Increase in API errors and latency
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/q6jpylk84lk4
+- Summary: Apr 17, 20:31 UTCResolved - This incident has been resolved.Apr 17, 20:25 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 17, 20:19 UTCIdentified - Cloudflare is aware of an increase of errors and latency across a number of APIs.We are working to analyse and...
+
+### Errors uploading documents to Google Drive in Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4t4qg3vkrz6z
+- Summary: Apr 17, 19:56 UTCResolved - The issue affecting uploads to Google Drive has been resolved.Apr 17, 18:59 UTCInvestigating - We are investigating an issue causing errors when uploading documents to Google Drive from Claude.ai, including the desktop app and Cowork.
+
+### Increased errors in Seattle or Argo Smart Routing
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/9pfwpmcrldqw
+- Summary: Apr 17, 19:50 UTCResolved - This incident has been resolved.Apr 17, 18:01 UTCInvestigating - Customers connecting in Seattle or who have Argo Smart Routing enabled that is routing them through Seattle may be seeing increased errors.
+
+### Elevated 502 errors returned from some locations
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/9nldmr976mb3
+- Summary: Apr 17, 17:23 UTCResolved - This incident has been resolved.Apr 17, 17:03 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 17, 16:57 UTCInvestigating - Elevated 502 errors returned from some locations
+
 ### co ccTLD DNS errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -338,6 +362,12 @@
 - URL: https://www.githubstatus.com/incidents/bjyfg0yz1lwj
 - Summary: Apr 16, 16:37 UTCUpdate - Our provider is implementing a mitigation and we are seeing signs of recovery.Apr 16, 15:49 UTCUpdate - We found an issue that impacts 70% of Codespaces. We are engaged with the provider and working towards mitigation.Apr 16, 15:41 UTCUpdate - Codespaces is experiencing...
 
+### RL-STPA: Adapting System-Theoretic Hazard Analysis for Safety-Critical Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.15201
+- Summary: As reinforcement learning (RL) deployments expand into safety-critical domains, existing evaluation methods fail to systematically identify hazards arising from the black-box nature of neural network enabled policies and distributional shift between training and deployment. This paper introduces...
+
 ### Unsupervised Skeleton-Based Action Segmentation via Hierarchical Spatiotemporal Vector Quantization
 - Source: HF Daily Papers
 - Category: open-source
@@ -458,6 +488,12 @@
 - URL: https://www.securityweek.com/microsoft-paid-out-2-3-million-at-zero-day-quest-2026-hacking-contest/
 - Summary: Researchers found more than 80 high-impact cloud and AI vulnerabilities during the event, which had a $5 million prize pool. The post Microsoft Paid Out $2.3 Million at Zero Day Quest 2026 Hacking Contest appeared first on SecurityWeek.
 
+### GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14878
+- Summary: Generative Retrieval (GR) offers a promising paradigm for recommendation through next-token prediction (NTP). However, scaling it to large-scale industrial systems introduces three challenges: (i) within a single request, the identical model inputs may produce inconsistent outputs due to the...
+
 ### Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks
 - Source: The Hacker News
 - Category: security
@@ -511,6 +547,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cisco-patches-critical-vulnerabilities-in-webex-ise/
 - Summary: The flaws can be exploited remotely to impersonate users or execute arbitrary commands on the underlying OS. The post Cisco Patches Critical Vulnerabilities in Webex, ISE appeared first on SecurityWeek.
+
+### Beyond Literal Summarization: Redefining Hallucination for Medical SOAP Note Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14829
+- Summary: Evaluating large language models (LLMs) for clinical documentation tasks such as SOAP note generation remains challenging. Unlike standard summarization, these tasks require clinical abstraction, normalization of colloquial language, and medically grounded inference. However, prevailing evaluation...
 
 ### Minyue Technology Secures Pre-B+ Funding Round to Expand Industrial AI Welding Systems
 - Source: Pandaily
@@ -595,6 +637,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.14656
 - Summary: Most medical multimodal benchmarks focus on static tasks such as image question answering, report generation, and plain-language rewriting. Patient education is more demanding: systems must identify relevant evidence across images, show patients where to look, explain findings in accessible...
+
+### Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14643
+- Summary: Adversarial attacks pose a severe threat to the reliability of deep learning models in remote sensing (RS) image classification. Most existing methods rely on direct pixel-wise perturbations, failing to exploit the inherent atmospheric characteristics of RS imagery or survive real-world image...
 
 ### StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation
 - Source: HF Daily Papers
@@ -823,6 +871,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.13062
 - Summary: arXiv:2604.13062v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have demonstrated strong capabilities in code generation and text synthesis, yet their potential for symbolic physical reasoning in domain-specific scientific problems remains underexplored. We present a...
+
+### Predicting Post-Traumatic Epilepsy from Clinical Records using Large Language Model Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14547
+- Summary: Objective: Post-traumatic epilepsy (PTE) is a debilitating neurological disorder that develops after traumatic brain injury (TBI). Early prediction of PTE remains challenging due to heterogeneous clinical data, limited positive cases, and reliance on resource-intensive neuroimaging data. We...
 
 ### StepFun Reportedly Restructures for Potential Hong Kong IPO
 - Source: Pandaily
@@ -2966,58 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.06401
 - Summary: arXiv:2604.06401v1 Announce Type: new Abstract: The large language models (LLMs) might produce a persuasive argument within mathematical and logical fields, although such argument often includes some minor missteps, including the entire omission of side conditions, invalid inference patterns, or...
-
-### BDI-Kit Demo: A Toolkit for Programmable and Conversational Data Harmonization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06405
-- Summary: arXiv:2604.06405v1 Announce Type: new Abstract: Data harmonization remains a major bottleneck for integrative analysis due to heterogeneity in schemas, value representations, and domain-specific conventions. BDI-Kit provides an extensible toolkit for schema and value matching. It exposes two...
-
-### On Emotion-Sensitive Decision Making of Small Language Model Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.06562
-- Summary: arXiv:2604.06562v1 Announce Type: new Abstract: Small language models (SLM) are increasingly used as interactive decision-making agents, yet most decision-oriented evaluations ignore emotion as a causal factor influencing behavior. We study emotion-sensitive decision making by combining...
-
-### AgentOpt v0.1 Technical Report: Client-Side Optimization for LLM-Based Agent
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06296
-- Summary: arXiv:2604.06296v1 Announce Type: new Abstract: AI agents are increasingly deployed in real-world applications, including systems such as Manus, OpenClaw, and coding agents. Existing research has primarily focused on \emph{server-side} efficiency, proposing methods such as caching, speculative...
-
-### Limits of Difficulty Scaling: Hard Samples Yield Diminishing Returns in GRPO-Tuned SLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06298
-- Summary: arXiv:2604.06298v1 Announce Type: new Abstract: Recent alignment work on Large Language Models (LLMs) suggests preference optimization can improve reasoning by shifting probability mass toward better solutions. We test this claim in a resource-constrained setting by applying GRPO with LoRA to SLMs...
-
-### Drifting Fields are not Conservative
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06333
-- Summary: arXiv:2604.06333v1 Announce Type: new Abstract: Drifting models generate high-quality samples in a single forward pass by transporting generated samples toward the data distribution using a vector valued drift field. We investigate whether this procedure is equivalent to optimizing a scalar loss...
-
-### BiScale-GTR: Fragment-Aware Graph Transformers for Multi-Scale Molecular Representation Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06336
-- Summary: arXiv:2604.06336v1 Announce Type: new Abstract: Graph Transformers have recently attracted attention for molecular property prediction by combining the inductive biases of graph neural networks (GNNs) with the global receptive field of Transformers. However, many existing hybrid architectures...
-
-### Bi-Level Optimization for Single Domain Generalization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.06349
-- Summary: arXiv:2604.06349v1 Announce Type: new Abstract: Generalizing from a single labeled source domain to unseen target domains, without access to any target data during training, remains a fundamental challenge in robust machine learning. We address this underexplored setting, known as Single Domain...
-
-### Contextual Earnings-22: A Speech Recognition Benchmark with Custom Vocabulary in the Wild
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.07354
-- Summary: arXiv:2604.07354v1 Announce Type: new Abstract: The accuracy frontier of speech-to-text systems has plateaued on academic benchmarks.1 In contrast, industrial benchmarks and adoption in high-stakes domains suggest otherwise. We hypothesize that the primary difference between the two is contextual...
-
-### Hybrid CNN-Transformer Architecture for Arabic Speech Emotion Recognition
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.07357
-- Summary: arXiv:2604.07357v1 Announce Type: new Abstract: Recognizing emotions from speech using machine learning has become an active research area due to its importance in building human-centered applications. However, while many studies have been conducted in English, German, and other European and Asian...
 
