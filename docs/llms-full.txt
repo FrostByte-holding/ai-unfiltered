@@ -497,6 +497,12 @@
 - URL: https://status.openai.com//incidents/01KPBWZ18HR2G685X2XMZD78EP
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Responses (Degraded performance)
 
+### TokenLight: Precise Lighting Control in Images using Attribute Tokens
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.15310
+- Summary: This paper presents a method for image relighting that enables precise and continuous control over multiple illumination attributes in a photograph. We formulate relighting as a conditional image generation task and introduce attribute tokens to encode distinct lighting factors such as intensity,...
+
 ### MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1797,6 +1803,12 @@
 - URL: https://pandaily.com/agibot-streams-8-hour-factory-shift-validates-embodied-ai-in-manufacturing
 - Summary: AGIBOT livestreamed its Yuanling G2 robot working an 8-hour shift on a 3C assembly line with 99.5% success, marking what the company calls the first scaled deployment of embodied AI in industrial manufacturing.
 
+### UniBlendNet: Unified Global, Multi-Scale, and Region-Adaptive Modeling for Ambient Lighting Normalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13383
+- Summary: Ambient Lighting Normalization (ALN) aims to restore images degraded by complex, spatially varying illumination conditions. Existing methods, such as IFBlend, leverage frequency-domain priors to model illumination variations, but still suffer from limited global context modeling and insufficient...
+
 ### Empirical Evidence of Complexity-Induced Limits in Large Language Models on Finite Discrete State-Space Problems with Explicit Validity Constraints
 - Source: HF Daily Papers
 - Category: open-source
@@ -2529,6 +2541,12 @@
 - URL: https://tldr.takara.ai/p/2604.11685
 - Summary: 3D Gaussian Splatting (3DGS) has become a state-of-the-art framework for real-time, high-fidelity novel view synthesis. However, its substantial storage requirements and inherently unstructured representation pose challenges for deployment in streaming and resource-constrained environments....
 
+### NetworkNet: A Deep Neural Network Approach for Random Networks with Sparse Nodal Attributes and Complex Nodal Heterogeneity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11673
+- Summary: Heterogeneous network data with rich nodal information become increasingly prevalent across multidisciplinary research, yet accurately modeling complex nodal heterogeneity and simultaneously selecting influential nodal attributes remains an open challenge. This problem is central to many...
+
 ### Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning
 - Source: DeepMind Blog
 - Category: research
@@ -2546,6 +2564,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.11611
 - Summary: To overcome the sparse reward challenge in reinforcement learning (RL) for agents based on large language models (LLMs), we propose Mutual Information Self-Evaluation (MISE), an RL paradigm that utilizes hindsight generative self-evaluation as dense reward signals while simultaneously calibrating...
+
+### MLLM-as-a-Judge Exhibits Model Preference Bias
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11589
+- Summary: Automatic evaluation using multimodal large language models (MLLMs), commonly referred to as MLLM-as-a-Judge, has been widely used to measure model performance. If such MLLM-as-a-Judge methods were biased, they could distort model comparisons and benchmark-driven scientific progress. However, it...
 
 ### Computation of Least Trimmed Squares: A Branch-and-Bound framework with Hyperplane Arrangement Enhancements
 - Source: HF Daily Papers
@@ -2594,6 +2618,12 @@
 - Category: security
 - URL: https://www.securityweek.com/browsergate-claims-of-linkedin-spying-clash-with-security-research-findings/
 - Summary: Claims that “Microsoft is running one of the largest corporate espionage operations in modern history” face scrutiny as researchers analyze LinkedIn’s browser extension probing The post BrowserGate: Claims of LinkedIn ‘Spying’ Clash With Security Research Findings appeared first on SecurityWeek.
+
+### Beyond Model Design: Data-Centric Training and Self-Ensemble for Gaussian Color Image Denoising
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11468
+- Summary: This paper presents our solution to the NTIRE 2026 Image Denoising Challenge (Gaussian color image denoising at fixed noise level $σ= 50$). Rather than proposing a new restoration backbone, we revisit the performance boundary of the mature Restormer architecture from two complementary directions:...
 
 ### ⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More
 - Source: The Hacker News
@@ -2984,34 +3014,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.08563
 - Summary: arXiv:2604.08563v1 Announce Type: new Abstract: Extended reasoning models represent a transformative shift in Large Language Model (LLM) capabilities by enabling explicit test-time computation for complex problem solving. However, the optimal configuration of sampling temperature and prompting...
-
-### FineEdit: Fine-Grained Image Edit with Bounding Box Guidance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.10954
-- Summary: Diffusion-based image editing models have achieved significant progress in real world applications. However, conventional models typically rely on natural language prompts, which often lack the precision required to localize target objects. Consequently, these models struggle to maintain background...
-
-### UniPROT: Uniform Prototype Selection via Partial Optimal Transport with Submodular Guarantees
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.10952
-- Summary: Selecting prototypical examples from a source distribution to represent a target data distribution is a fundamental problem in machine learning. Existing subset selection methods often rely on implicit importance scores, which can be skewed towards majority classes and lead to low-quality...
-
-### Pony.ai Unveils PonyWorld 2.0, Marking a New Paradigm Shift in Autonomous Driving
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pony-ai-unveils-pony-world-2-0-marking-a-new-paradigm-shift-in-autonomous-driving
-- Summary: Pony.ai’s PonyWorld 2.0 enables autonomous systems to self-diagnose and evolve, redefining how self-driving AI is trained.
-
-### Chery Launches First Overseas Regional Hub in Barcelona to Accelerate European Expansion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/chery-launches-first-overseas-regional-hub-in-barcelona-to-accelerate-european-expansion
-- Summary: Chery’s new Barcelona hub marks a major step in its European expansion and long-term localization strategy.
-
-### Tencent Cloud Rolls Out QClaw V2 With Multi-Agent Collaboration
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-cloud-rolls-out-q-claw-v2-with-multi-agent-collaboration
-- Summary: Tencent Cloud’s QClaw V2 brings multi-agent collaboration to consumer AI assistants, but scalability and memory limitations remain key challenges.
 
