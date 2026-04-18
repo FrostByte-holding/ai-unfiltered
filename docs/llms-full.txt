@@ -6,6 +6,24 @@
 
 ## 2026-04-18
 
+### $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
+- Summary: Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell victim to what it described as a large-scale cyber attack that...
+
+### [AINews] The Two Sides of OpenClaw
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-the-two-sides-of-openclaw
+- Summary: a quiet day lets us reflect on openclaw this week.
+
+### Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
+- Summary: Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42. The attack targeting TBK DVR devices has been found to...
+
 ### Cloudflare Workers AI Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -569,6 +587,12 @@
 - URL: https://tldr.takara.ai/p/2604.14984
 - Summary: As companies enter the race for agentic AI adoption, fears surface around agentic autonomy and its subsequent risks. These fears compound as companies scale their agentic AI adoption with low-code applications, without a comparable scaling in their governance processes and expertise resulting in a...
 
+### Hybrid Decision Making via Conformal VLM-generated Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14980
+- Summary: Building on recent advances in AI, hybrid decision making (HDM) holds the promise of improving human decision quality and reducing cognitive load. We work in the context of learning to guide (LtG), a recently proposed HDM framework in which the human is always responsible for the final decision:...
+
 ### ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories
 - Source: The Hacker News
 - Category: security
@@ -874,6 +898,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.14607
 - Summary: We study the overall process of automatic formalization of GDPR provisions using large language models, within a human-in-the-loop verification framework. Rather than aiming for full autonomy, we adopt a role-specialized workflow in which LLM-based AI components, operating in a multi-agent setting...
+
+### Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14604
+- Summary: Modern Large audio-language models (LALMs) power intelligent voice interactions by tightly integrating audio and text. This integration, however, expands the attack surface beyond text and introduces vulnerabilities in the continuous, high-dimensional audio channel. While prior work studied audio...
 
 ### CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification
 - Source: HF Daily Papers
@@ -2667,11 +2697,23 @@
 - URL: https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html
 - Summary: OpenAI&nbsp;revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or&nbsp;internal system&nbsp;was compromised. "Out of an abundance of caution, we are taking steps to protect the process that certifies...
 
+### Improving Layout Representation Learning Across Inconsistently Annotated Datasets via Agentic Harmonization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11042
+- Summary: Fine-tuning object detection (OD) models on combined datasets assumes annotation compatibility, yet datasets often encode conflicting spatial definitions for semantically equivalent categories. We propose an agentic label harmonization workflow that uses a vision-language model to reconcile both...
+
 ### Intelligent Approval of Access Control Flow in Office Automation Systems via Relational Modeling
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.11040
 - Summary: Office automation (OA) systems play a crucial role in enterprise operations and management, with access control flow approval (ACFA) being a key component that manages the accessibility of various resources. However, traditional ACFA requires approval from the person in charge at each step, which...
+
+### Uncertainty-Aware Web-Conditioned Scientific Fact-Checking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11036
+- Summary: Scientific fact-checking is vital for assessing claims in specialized domains such as biomedicine and materials science, yet existing systems often hallucinate or apply inconsistent reasoning, especially when verifying technical, compositional claims against an evidence snippet under source and...
 
 ### When Valid Signals Fail: Regime Boundaries Between LLM Features and RL Trading Policies
 - Source: HF Daily Papers
@@ -2961,6 +3003,12 @@
 
 ## 2026-04-11
 
+### CodeComp: Structural KV Cache Compression for Agentic Coding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.10235
+- Summary: Agentic code tasks such as fault localization and patch generation require processing long codebases under tight memory constraints, where the Key-Value (KV) cache becomes the primary inference bottleneck. Existing compression methods rely exclusively on attention signals to estimate token...
+
 ### The inevitable need for an open model consortium
 - Source: Interconnects
 - Category: open-source
@@ -2972,55 +3020,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
 - Summary: Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law&nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called&nbsp;Webloc. The tool was developed by Israeli company Cobwebs...
-
-### Some users may experience issues accessing ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KNX13FBVMC6GJHJ2BQBSRKT8
-- Summary: Status: ResolvedAll impacted services have now fully recovered.
-
-### Email login down
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/qcfvv041lb1k
-- Summary: Apr 11, 00:00 UTCResolved - Email login was broken between approximately 3:46 PM and 4:52 PM PDT on April 10, 2026.
-
-
-## 2026-04-10
-
-### [AINews] AI Engineer Europe 2026
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-ai-engineer-europe-2026
-- Summary: Two quiet days in a row let us reflect on the first AIE in London.
-
-### Elevated errors on requests to Claude models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/411xbc51v608
-- Summary: Apr 10, 16:51 UTCResolved - The issue affecting requests to non-Opus models has been resolved.Apr 10, 16:42 UTCIdentified - We have identified the current issue as affecting requests to models other than Claude Opus 4.6, and are working to fully resolve this issue. We will provide additional...
-
-### Increased HTTP 5xx errors in Philadelphia colo
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/xx44fv4qfnch
-- Summary: Apr 10, 16:42 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 10, 15:56 UTCUpdate - We are continuing to work on a fix for this issue.Apr 10, 15:55 UTCIdentified - Cloudflare is investigating an increased level of 5xx errors in Philadelphia. We are working to...
-
-### Workers Assets increased upload failure
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/wt7ydt03k9hb
-- Summary: Apr 10, 16:26 UTCResolved - This incident has been resolved.Apr 10, 16:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 10, 14:06 UTCIdentified - Cloudflare has identified an issue impacting Workers Assets uploads. Customers may be seeing an increase in Workers...
-
-### In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-cyberattack-stings-stryker-windows-zero-day-china-supercomputer-hack/
-- Summary: Other noteworthy stories that might have slipped under the radar: Jones Day hacked, Internet Bug Bounty program paused due to AI, new Mac stealer malware. The post In Other News: Cyberattack Stings Stryker, Windows Zero-Day, China Supercomputer Hack appeared first on SecurityWeek.
-
-### What’s in a name? Moderna’s “vaccine” vs. “therapy” dilemma
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/
-- Summary: Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine—or an “individualized neoantigen treatment”? That’s the Trump-era vocabulary paradox facing Moderna, the covid-19 shot maker whose plans for next-generation mRNA vaccines against flus and...
 
