@@ -515,6 +515,12 @@
 - URL: https://tldr.takara.ai/p/2604.15196
 - Summary: We propose a novel hierarchical spatiotemporal vector quantization framework for unsupervised skeleton-based temporal action segmentation. We first introduce a hierarchical approach, which includes two consecutive levels of vector quantization. Specifically, the lower level associates skeletons...
 
+### Boundary-Centric Active Learning for Temporal Action Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.15173
+- Summary: Temporal action segmentation (TAS) demands dense temporal supervision, yet most of the annotation cost in untrimmed videos is spent identifying and refining action transitions, where segmentation errors concentrate and small temporal shifts disproportionately degrade segmental metrics. We introduce...
+
 ### API Analytics Delays
 - Source: Cloudflare Status
 - Category: incidents
@@ -556,6 +562,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/mbqg86s1x8zv
 - Summary: Apr 16, 13:30 UTCResolved - Cloudflare is aware of and has mitigated an issue which impacted Workers script uploads between 14:51 UTC to 15:00 UTC on 16th April 2026This did not impact Workers traffic.
+
+### Agentic Explainability at Scale: Between Corporate Fears and XAI Needs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14984
+- Summary: As companies enter the race for agentic AI adoption, fears surface around agentic autonomy and its subsequent risks. These fears compound as companies scale their agentic AI adoption with low-code applications, without a comparable scaling in their governance processes and expertise resulting in a...
 
 ### ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories
 - Source: The Hacker News
@@ -628,6 +640,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-paid-out-2-3-million-at-zero-day-quest-2026-hacking-contest/
 - Summary: Researchers found more than 80 high-impact cloud and AI vulnerabilities during the event, which had a $5 million prize pool. The post Microsoft Paid Out $2.3 Million at Zero Day Quest 2026 Hacking Contest appeared first on SecurityWeek.
+
+### xFODE: An Explainable Fuzzy Additive ODE Framework for System Identification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14883
+- Summary: Recent advances in Deep Learning (DL) have strengthened data-driven System Identification (SysID), with Neural and Fuzzy Ordinary Differential Equation (NODE/FODE) models achieving high accuracy in nonlinear dynamic modeling. Yet, system states in these frameworks are often reconstructed without...
 
 ### GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation
 - Source: HF Daily Papers
@@ -760,6 +778,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/7jbzthbc1dwr
 - Summary: Apr 16, 07:43 UTCResolved - Earlier today we had an outage on Opus 4.6 that started at 23:03 PT / 6:03 UTC and ended at 00:26 PT / 7:26 UTC.Apr 16, 06:50 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### RELOAD: A Robust and Efficient Learned Query Optimizer for Database Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14725
+- Summary: Recent advances in query optimization have shifted from traditional rule-based and cost-based techniques towards machine learning-driven approaches. Among these, reinforcement learning (RL) has attracted significant attention due to its ability to optimize long-term performance by learning policies...
 
 ### Data Synthesis Improves 3D Myotube Instance Segmentation
 - Source: HF Daily Papers
@@ -1036,6 +1060,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.13062
 - Summary: arXiv:2604.13062v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have demonstrated strong capabilities in code generation and text synthesis, yet their potential for symbolic physical reasoning in domain-specific scientific problems remains underexplored. We present a...
+
+### MapSR: Prompt-Driven Land Cover Map Super-Resolution via Vision Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14582
+- Summary: High-resolution (HR) land-cover mapping is often constrained by the high cost of dense HR annotations. We revisit this problem from the perspective of map super-resolution, which enhances coarse low-resolution (LR) land-cover products into HR maps at the resolution of the input imagery. Existing...
 
 ### Predicting Post-Traumatic Epilepsy from Clinical Records using Large Language Model Embeddings
 - Source: HF Daily Papers
@@ -2993,34 +3023,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/
 - Summary: Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine—or an “individualized neoantigen treatment”? That’s the Trump-era vocabulary paradox facing Moderna, the covid-19 shot maker whose plans for next-generation mRNA vaccines against flus and...
-
-### Some Claude.ai share links were inaccessible
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/ccm8hy0pld48
-- Summary: Apr 10, 14:00 UTCResolved - Between April 2 and April 10, some users who were not signed in to Claude.ai (web, mobile, desktop) were not able to access some Claude.ai sharing links.
-
-### Juniper Networks Patches Dozens of Junos OS Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/juniper-networks-patches-dozens-of-junos-os-vulnerabilities/
-- Summary: A critical-severity flaw could be exploited remotely, without authentication, to take over a vulnerable device. The post Juniper Networks Patches Dozens of Junos OS Vulnerabilities appeared first on SecurityWeek.
-
-### GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html
-- Summary: Cybersecurity researchers have flagged yet another evolution of the&nbsp;ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's&nbsp;machine. The technique has been discovered in an Open VSX...
-
-### Problems with third-party Claude and Codex Agent sessions not being listed in the agents tab dashboard
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/8hn4vclxz1lq
-- Summary: Apr 10, 13:08 UTCUpdate - We are investigating third party Claude and Codex Cloud Agent sessions not being listed in the agents tab dashboard.Apr 10, 13:07 UTCInvestigating - We are investigating reports of impacted performance for some GitHub services.
-
-### Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/industry-reactions-to-iran-hacking-ics-in-critical-infrastructure-feedback-friday/
-- Summary: The US government has warned that Iran-linked hackers are manipulating PLCs and SCADA systems to cause disruption. The post Industry Reactions to Iran Hacking ICS in Critical Infrastructure: Feedback Friday appeared first on SecurityWeek.
 
