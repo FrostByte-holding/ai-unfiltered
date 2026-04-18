@@ -6,6 +6,18 @@
 
 ## 2026-04-18
 
+### Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/
+- Summary: Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption. The post Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks appeared first on SecurityWeek.
+
+### HTTP Log Analytics Issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/w6z0dx54d2l5
+- Summary: Apr 18, 09:42 UTCInvestigating - Some customers in US may observe inaccurate HTTP analytics metrics being shown in the Cloudflare Dashboard. All Cloudflare traffic and security services remain operational and unimpacted.We are working to mitigate this problem. More updates to follow shortly.
+
 ### $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
 - Source: The Hacker News
 - Category: security
@@ -1229,6 +1241,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/g1ds3j4z8hpn
 - Summary: Apr 15, 16:23 UTCResolved - This incident has been resolved.Apr 15, 14:19 UTCIdentified - Cloudflare is experiencing problems in processing changes through our billing subscription service for Argo Smart Routing. All other services are operating normally. We will provide an update once billing...
 
+### First-See-Then-Design: A Multi-Stakeholder View for Optimal Performance-Fairness Trade-Offs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14035
+- Summary: Fairness in algorithmic decision-making is often defined in the predictive space, where predictive performance - used as a proxy for decision-maker (DM) utility - is traded off against prediction-based fairness notions, such as demographic parity or equality of opportunity. This perspective,...
+
 ### Hierarchical Reinforcement Learning with Runtime Safety Shielding for Power Grid Operation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1878,6 +1896,12 @@
 - URL: https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html
 - Summary: Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational&nbsp;level. "The new Rust-based DNS parser significantly reduces our...
 
+### Multi-modal panoramic 3D outdoor datasets for place categorization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13142
+- Summary: We present two multi-modal panoramic 3D outdoor (MPO) datasets for semantic place categorization with six categories: forest, coast, residential area, urban area and indoor/outdoor parking lot. The first dataset consists of 650 static panoramic scans of dense (9,000,000 points) 3D color and...
+
 ### AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud
 - Source: The Hacker News
 - Category: security
@@ -2118,11 +2142,23 @@
 - URL: https://tldr.takara.ai/p/2604.12379
 - Summary: Large language models (LLMs) increasingly rely on explicit reasoning to solve coding tasks, yet evaluating the quality of this reasoning remains challenging. Existing reasoning evaluators are not designed for coding, and current benchmarks focus primarily on code generation, leaving other coding...
 
+### PrivEraserVerify: Efficient, Private, and Verifiable Federated Unlearning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12348
+- Summary: Federated learning (FL) enables collaborative model training without sharing raw data, offering a promising path toward privacy preserving artificial intelligence. However, FL models may still memorize sensitive information from participants, conflicting with the right to be forgotten (RTBF). To...
+
 ### Unlocking the Potential of Grounding DINO in Videos: Parameter-Efficient Adaptation for Limited-Data Spatial-Temporal Localization
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.12346
 - Summary: Spatio-temporal video grounding (STVG) aims to localize queried objects within dynamic video segments. Prevailing fully-trained approaches are notoriously data-hungry. However, gathering large-scale STVG data is exceptionally challenging: dense frame-level bounding boxes and complex temporal...
+
+### Information-Geometric Decomposition of Generalization Error in Unsupervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12340
+- Summary: We decompose the Kullback--Leibler generalization error (GE) -- the expected KL divergence from the data distribution to the trained model -- of unsupervised learning into three non-negative components: model error, data bias, and variance. The decomposition is exact for any e-flat model class and...
 
 ### ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers
 - Source: The Hacker News
@@ -2691,6 +2727,12 @@
 - URL: https://pandaily.com/i-space-raises-rmb-7-billion-in-pre-ipo-series-e-round
 - Summary: i-Space is raising $970 million to accelerate reusable rocket development ahead of its planned 2027 IPO.
 
+### Bottleneck Tokens for Unified Multimodal Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11095
+- Summary: Adapting decoder-only multimodal large language models (MLLMs) for unified multimodal retrieval faces two structural gaps. First, existing methods rely on implicit pooling, which overloads the hidden state of a standard vocabulary token (e.g., ) as the sequence-level representation, a mechanism...
+
 ### OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident
 - Source: The Hacker News
 - Category: security
@@ -2975,49 +3017,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.
-
-### Adobe Patches Reader Zero-Day Exploited for Months
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/adobe-patches-reader-zero-day-exploited-for-months/
-- Summary: The vulnerability is tracked as CVE-2026-34621 and Adobe has confirmed that it can be exploited for arbitrary code execution. The post Adobe Patches Reader Zero-Day Exploited for Months appeared first on SecurityWeek.
-
-### CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html
-- Summary: Unknown threat actors compromised CPUID ("cpuid[.]com"), a website&nbsp;that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX&nbsp;RAT....
-
-### Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
-- Summary: Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that&nbsp;has come under active exploitation in the&nbsp;wild. The vulnerability, assigned the CVE identifier CVE-2026-34621, carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could...
-
-### Workers AI Gemma 4 model unhealthy
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/f22tkcz6x9ll
-- Summary: Apr 12, 02:00 UTCResolved - This incident has been resolved.Apr 12, 00:29 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 11, 21:52 UTCInvestigating - Cloudflare is investigating isssues with Workers AI Gemma 4 model. Users may experience elevated error rates when...
-
-
-## 2026-04-11
-
-### CodeComp: Structural KV Cache Compression for Agentic Coding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.10235
-- Summary: Agentic code tasks such as fault localization and patch generation require processing long codebases under tight memory constraints, where the Key-Value (KV) cache becomes the primary inference bottleneck. Existing compression methods rely exclusively on attention signals to estimate token...
-
-### The inevitable need for an open model consortium
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model
-- Summary: And yes, I hate consortia too.
-
-### Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
-- Summary: Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law&nbsp;enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called&nbsp;Webloc. The tool was developed by Israeli company Cobwebs...
 
