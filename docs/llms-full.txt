@@ -1483,6 +1483,12 @@
 - URL: https://tldr.takara.ai/p/2604.13695
 - Summary: Reliable and interpretable decision-making is essential in medical imaging, where diagnostic outcomes directly influence patient care. Despite advances in deep learning, most medical AI systems operate as opaque black boxes, providing little insight into why a particular diagnosis was reached. In...
 
+### Beyond Voxel 3D Editing: Learning from 3D Masks and Self-Constructed Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13688
+- Summary: 3D editing refers to the ability to apply local or global modifications to 3D assets. Effective 3D editing requires maintaining semantic consistency by performing localized changes according to prompts, while also preserving local invariance so that unchanged regions remain consistent with the...
+
 ### VRAG-DFD: Verifiable Retrieval-Augmentation for MLLM-based Deepfake Detection
 - Source: HF Daily Papers
 - Category: open-source
@@ -1589,6 +1595,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html
 - Summary: OpenAI on Tuesday&nbsp;unveiled GPT-5.4-Cyber, a variant of its latest flagship&nbsp;model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier&nbsp;model, Mythos. "The progressive use of AI accelerates defenders – those...
+
+### Asymmetric-Loss-Guided Hybrid CNN-BiLSTM-Attention Model for Industrial RUL Prediction with Interpretable Failure Heatmaps
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13459
+- Summary: Turbofan engine degradation under sustained operational stress necessitates robust prognostic systems capable of accurately estimating the Remaining Useful Life (RUL) of critical components. Existing deep learning approaches frequently fail to simultaneously capture multi-sensor spatial...
 
 ### A Study of Failure Modes in Two-Stage Human-Object Interaction Detection
 - Source: HF Daily Papers
@@ -2700,6 +2712,12 @@
 - URL: https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html
 - Summary: The U.S. Federal Bureau of Investigation (FBI), in partnership with the Indonesian National Police, has dismantled the infrastructure associated with a global phishing operation that leveraged an off-the-shelf toolkit&nbsp;called W3LL to steal thousands of victims' account credentials and attempt...
 
+### Relax: An Asynchronous Reinforcement Learning Engine for Omni-Modal Post-Training at Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11554
+- Summary: Reinforcement learning (RL) post-training has proven effective at unlocking reasoning, self-reflection, and tool-use capabilities in large language models. As models extend to omni-modal inputs and agentic multi-turn workflows, RL training systems face three interdependent challenges: heterogeneous...
+
 ### SVD-Prune: Training-Free Token Pruning For Efficient Vision-Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -2778,6 +2796,12 @@
 - URL: https://www.securityweek.com/international-operation-targets-multimillion-dollar-crypto-theft-schemes/
 - Summary: Law enforcement in the US, UK and Canada identified more than $45 million in cryptocurrency and froze $12 million. The post International Operation Targets Multimillion-Dollar Crypto Theft Schemes appeared first on SecurityWeek.
 
+### The Salami Slicing Threat: Exploiting Cumulative Risks in LLM Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11309
+- Summary: Large Language Models (LLMs) face prominent security risks from jailbreaking, a practice that manipulates models to bypass built-in security constraints and generate unethical or unsafe content. Among various jailbreak techniques, multi-turn jailbreak attacks are more covert and persistent than...
+
 ### PaperScope: A Multi-Modal Multi-Document Benchmark for Agentic Deep Research Across Massive Scientific Papers
 - Source: HF Daily Papers
 - Category: open-source
@@ -2789,6 +2813,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cpuid-hacked-to-serve-trojanized-cpu-z-and-hwmonitor-downloads/
 - Summary: Download links were replaced by a Russian-speaking threat actor to distribute a recently emerged malware named STX RAT. The post CPUID Hacked to Serve Trojanized CPU-Z and HWMonitor Downloads appeared first on SecurityWeek.
+
+### Mycelium-Index: A Streaming Approximate Nearest Neighbor Index with Myelial Edge Decay, Traffic-Driven Reinforcement, and Adaptive Living Hierarchy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11274
+- Summary: We present mycelium-index, a streaming approximate nearest neighbor (ANN) index for high-dimensional vector spaces, inspired by the adaptive growth patterns of biological mycelium. The system continuously adapts its topology through myelial edge decay and reinforcement, a traffic-driven living...
 
 ### Job titles of the future: Wildlife first responder
 - Source: MIT Tech Review AI
@@ -2987,34 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.08707
 - Summary: arXiv:2604.08707v1 Announce Type: new Abstract: Monadic second order logic (MSO2) plays an important role in parameterized complexity due to the Courcelle's theorem. This theorem states that the problem of checking if a given graph has a property specified by a given MSO2 formula can be solved by a...
-
-### GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08553
-- Summary: arXiv:2604.08553v1 Announce Type: new Abstract: Large Language Models (LLMs) have shown strong performance on text-attributed graphs (TAGs) due to their superior semantic understanding ability on textual node features. However, their effectiveness as predictors in the low-resource setting, where...
-
-### Memory-Guided Trust-Region Bayesian Optimization (MG-TuRBO) for High Dimensions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08569
-- Summary: arXiv:2604.08569v1 Announce Type: new Abstract: Traffic simulation and digital-twin calibration is a challenging optimization problem with a limited simulation budget. Each trial requires an expensive simulation run, and the relationship between calibration inputs and model error is often...
-
-### QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08570
-- Summary: arXiv:2604.08570v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used for code generation, yet quantum code generation is still evaluated mostly within single frameworks, making it difficult to separate quantum reasoning from framework familiarity. We introduce...
-
-### Robust Reasoning Benchmark
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08571
-- Summary: arXiv:2604.08571v1 Announce Type: new Abstract: While Large Language Models (LLMs) achieve high performance on standard mathematical benchmarks, their underlying reasoning processes remain highly overfit to standard textual formatting. We propose a perturbation pipeline consisting of 14 techniques...
-
-### Ranked Activation Shift for Post-Hoc Out-of-Distribution Detection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08572
-- Summary: arXiv:2604.08572v1 Announce Type: new Abstract: State-of-the-art post-hoc out-of-distribution detection methods rely on intermediate layer activation editing. However, they exhibit inconsistent performance across datasets and models. We show that this instability is driven by differences in the...
 
