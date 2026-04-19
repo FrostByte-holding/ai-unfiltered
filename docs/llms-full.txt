@@ -1878,6 +1878,12 @@
 - URL: https://tldr.takara.ai/p/2604.13035
 - Summary: Large Language Models (LLMs) and Vision-Language Models (VLMs) increasingly generate indoor scenes through intermediate structures such as layouts and scene graphs, yet evaluation still relies on LLM or VLM judges that score rendered views, making judgments sensitive to viewpoint, prompt phrasing,...
 
+### Classical and Quantum Speedups for Non-Convex Optimization via Energy Conserving Descent
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13022
+- Summary: The Energy Conserving Descent (ECD) algorithm was recently proposed (De Luca & Silverstein, 2022) as a global non-convex optimization method. Unlike gradient descent, appropriately configured ECD dynamics escape strict local minima and converge to a global minimum, making it appealing for machine...
+
 ### Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data
 - Source: HF Daily Papers
 - Category: open-source
@@ -1919,6 +1925,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html
 - Summary: Two high-severity security vulnerabilities&nbsp;have been disclosed in Composer, a package&nbsp;manager for&nbsp;PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities&nbsp;have been&nbsp;described as command injection flaws affecting the Perforce VCS...
+
+### BEAM: Bi-level Memory-adaptive Algorithmic Evolution for LLM-Powered Heuristic Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12898
+- Summary: Large Language Model-based Hyper Heuristic (LHH) has recently emerged as an efficient way for automatic heuristic design. However, most existing LHHs just perform well in optimizing a single function within a pre-defined solver. Their single-layer evolution makes them not effective enough to write...
 
 ### VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization
 - Source: HF Daily Papers
@@ -2469,6 +2481,18 @@
 
 ## 2026-04-13
 
+### Observing the unobserved confounding through its effects: toward randomized trial-like estimates from real-world survival data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12137
+- Summary: Background: Randomized controlled trials (RCTs) are costly, time-consuming, and often infeasible, while treatment-effect estimation from observational data is limited by unobserved confounding. Methods: We developed a three-step framework to address unobserved confounding in observational survival...
+
+### When Self-Reference Fails to Close: Matrix-Level Dynamics in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12128
+- Summary: We investigate how self-referential inputs alter the internal matrix dynamics of large language models. Measuring 106 scalar metrics across up to 7 analysis passes on four models from three architecture families -- Qwen3-VL-8B, Llama-3.2-11B, Llama-3.3-70B, and Gemma-2-9B -- over 300 prompts in a...
+
 ### Incident with Pages
 - Source: GitHub Status
 - Category: incidents
@@ -2990,28 +3014,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.08559
 - Summary: arXiv:2604.08559v1 Announce Type: new Abstract: Large language models (LLMs) have achieved strong performance on medical exam-style tasks, motivating growing interest in their deployment in real-world clinical settings. However, clinical decision-making is inherently safety-critical,...
-
-### Uncertainty Estimation for the Open-Set Text Classification systems
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.08560
-- Summary: arXiv:2604.08560v1 Announce Type: new Abstract: Accurate uncertainty estimation is essential for building robust and trustworthy recognition systems. In this paper, we consider the open-set text classification (OSTC) task - and uncertainty estimation for it. For OSTC a text sample should be...
-
-### A Representation-Level Assessment of Bias Mitigation in Foundation Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.08561
-- Summary: arXiv:2604.08561v1 Announce Type: new Abstract: We investigate how successful bias mitigation reshapes the embedding space of encoder-only and decoder-only foundation models, offering an internal audit of model behaviour through representational analysis. Using BERT and Llama2 as representative...
-
-### Neural networks for Text-to-Speech evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.08562
-- Summary: arXiv:2604.08562v1 Announce Type: new Abstract: Ensuring that Text-to-Speech (TTS) systems deliver human-perceived quality at scale is a central challenge for modern speech technologies. Human subjective evaluation protocols such as Mean Opinion Score (MOS) and Side-by-Side (SBS) comparisons remain...
-
-### Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.08563
-- Summary: arXiv:2604.08563v1 Announce Type: new Abstract: Extended reasoning models represent a transformative shift in Large Language Model (LLM) capabilities by enabling explicit test-time computation for complex problem solving. However, the optimal configuration of sampling temperature and prompting...
 
