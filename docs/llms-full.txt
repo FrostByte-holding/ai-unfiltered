@@ -1881,6 +1881,18 @@
 - URL: https://www.securityweek.com/microsoft-patches-exploited-sharepoint-zero-day-and-160-other-vulnerabilities/
 - Summary: Experts say this is the second-largest Microsoft Patch Tuesday ever based on CVE count. The post Microsoft Patches Exploited SharePoint Zero-Day and 160 Other Vulnerabilities appeared first on SecurityWeek.
 
+### Magnitude Is All You Need? Rethinking Phase in Quantum Encoding of Complex SAR Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14229
+- Summary: Synthetic Aperture Radar (SAR) data is inherently complex-valued, while quantum machine learning (QML) models naturally operate in complex Hilbert spaces. This apparent alignment suggests that incorporating both magnitude and phase information into quantum encoding should improve performance in SAR...
+
+### SciFi: A Safe, Lightweight, User-Friendly, and Fully Autonomous Agentic AI Workflow for Scientific Applications
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13180
+- Summary: Recent advances in agentic AI have enabled increasingly autonomous workflows, but existing systems still face substantial challenges in achieving reliable deployment in real-world scientific research. In this work, we present a safe, lightweight, and user-friendly agentic framework for the...
+
 ### Redefining the future of software engineering
 - Source: MIT Tech Review AI
 - Category: research
@@ -2532,6 +2544,24 @@
 - URL: https://tldr.takara.ai/p/2604.12128
 - Summary: We investigate how self-referential inputs alter the internal matrix dynamics of large language models. Measuring 106 scalar metrics across up to 7 analysis passes on four models from three architecture families -- Qwen3-VL-8B, Llama-3.2-11B, Llama-3.3-70B, and Gemma-2-9B -- over 300 prompts in a...
 
+### INST-Align: Implicit Neural Alignment for Spatial Transcriptomics via Canonical Expression Fields
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12084
+- Summary: Spatial transcriptomics (ST) measures mRNA expression while preserving spatial organization, but multi-slice analysis faces two coupled difficulties: large non-rigid deformations across slices and inter-slice batch effects when alignment and integration are treated independently. We present...
+
+### Robust Reasoning and Learning with Brain-Inspired Representations under Hardware-Induced Nonlinearities
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12079
+- Summary: Traditional machine learning depends on high-precision arithmetic and near-ideal hardware assumptions, which is increasingly challenged by variability in aggressively scaled semiconductor devices. Compute-in-memory (CIM) architectures alleviate data-movement bottlenecks and improve energy...
+
+### Empirical Evaluation of PDF Parsing and Chunking for Financial Question Answering with RAG
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12047
+- Summary: PDF files are primarily intended for human reading rather than automated processing. In addition, the heterogeneous content of PDFs, such as text, tables, and images, poses significant challenges for parsing and information extraction. To address these difficulties, both practitioners and...
+
 ### Incident with Pages
 - Source: GitHub Status
 - Category: incidents
@@ -2987,34 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.08557
 - Summary: arXiv:2604.08557v1 Announce Type: new Abstract: Diffusion-based language models (dLLMs) generate text by iteratively denoising masked token sequences. We show that their safety alignment rests on a single fragile assumption: that the denoising schedule is monotonic and committed tokens are never...
-
-### WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.08558
-- Summary: arXiv:2604.08558v1 Announce Type: new Abstract: Recent decoder-only autoregressive text-to-speech (AR-TTS) models produce high-fidelity speech, but their memory and compute costs scale quadratically with sequence length due to full self-attention. In this paper, we propose WAND, Windowed Attention...
-
-### Model Space Reasoning as Search in Feedback Space for Planning Domain Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.08712
-- Summary: arXiv:2604.08712v1 Announce Type: new Abstract: The generation of planning domains from natural language descriptions remains an open problem even with the advent of large language models and reasoning models. Recent work suggests that while LLMs have the ability to assist with domain generation,...
-
-### Artifacts as Memory Beyond the Agent Boundary
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.08756
-- Summary: arXiv:2604.08756v1 Announce Type: new Abstract: The situated view of cognition holds that intelligent behavior depends not only on internal memory, but on an agent's active use of environmental resources. Here, we begin formalizing this intuition within Reinforcement Learning (RL). We introduce a...
-
-### Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.08863
-- Summary: arXiv:2604.08863v1 Announce Type: new Abstract: Recovering analytical solutions of physical fields from visual observations is a fundamental yet underexplored capability for AI-assisted scientific reasoning. We study visual-to-symbolic analytical solution inference (ViSA) for two-dimensional linear...
-
-### SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.08865
-- Summary: arXiv:2604.08865v1 Announce Type: new Abstract: Proximal Policy Optimization (PPO) is central to aligning Large Language Models (LLMs) in reasoning tasks with verifiable rewards. However, standard token-level PPO struggles in this setting due to the instability of temporal credit assignment over...
 
