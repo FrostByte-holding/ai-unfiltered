@@ -1202,6 +1202,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/2ldjdg3lm049
 - Summary: Apr 15, 20:47 UTCResolved - This incident has been resolved.Apr 15, 17:43 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 15, 17:33 UTCInvestigating - Customers with R2 data or Durable Objects in APAC may experience high latency or elevated error rates.
 
+### FoodSense: A Multisensory Food Dataset and Benchmark for Predicting Taste, Smell, Texture, and Sound from Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.14388
+- Summary: Humans routinely infer taste, smell, texture, and even sound from food images a phenomenon well studied in cognitive science. However, prior vision language research on food has focused primarily on recognition tasks such as meal identification, ingredient detection, and nutrition estimation....
+
 ### Network Performance issues - Increased HTTP 5xx Errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -1476,6 +1482,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.13695
 - Summary: Reliable and interpretable decision-making is essential in medical imaging, where diagnostic outcomes directly influence patient care. Despite advances in deep learning, most medical AI systems operate as opaque black boxes, providing little insight into why a particular diagnosis was reached. In...
+
+### VRAG-DFD: Verifiable Retrieval-Augmentation for MLLM-based Deepfake Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.13660
+- Summary: In Deepfake Detection (DFD) tasks, researchers proposed two types of MLLM-based methods: complementary combination with small DFD detectors, or static forgery knowledge injection.The lack of professional forgery knowledge hinders the performance of these DFD-MLLMs.To solve this, we deeply...
 
 ### Meet HoloTab by HCompany. Your AI browser companion.
 - Source: Hugging Face Blog
@@ -2499,6 +2511,12 @@
 - URL: https://tldr.takara.ai/p/2604.12176
 - Summary: Relational reasoning is the ability to infer relations that jointly bind multiple entities, attributes, or variables. This ability is central to scientific reasoning, but existing evaluations of relational reasoning in large language models often focus on structured inputs such as tables, graphs,...
 
+### VidTAG: Temporally Aligned Video to GPS Geolocalization with Denoising Sequence Prediction at a Global Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12159
+- Summary: The task of video geolocalization aims to determine the precise GPS coordinates of a video's origin and map its trajectory; with applications in forensics, social media, and exploration. Existing classification-based approaches operate at a coarse city-level granularity and fail to capture...
+
 
 ## 2026-04-13
 
@@ -2850,6 +2868,12 @@
 - URL: https://tldr.takara.ai/p/2604.11042
 - Summary: Fine-tuning object detection (OD) models on combined datasets assumes annotation compatibility, yet datasets often encode conflicting spatial definitions for semantically equivalent categories. We propose an agentic label harmonization workflow that uses a vision-language model to reconcile both...
 
+### From Topology to Trajectory: LLM-Driven World Models For Supply Chain Resilience
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.11041
+- Summary: Semiconductor supply chains face unprecedented resilience challenges amidst global geopolitical turbulence. Conventional Large Language Model (LLM) planners, when confronting such non-stationary "Policy Black Swan" events, frequently suffer from Decision Paralysis or a severe Grounding Gap due to...
+
 ### Intelligent Approval of Access Control Flow in Office Automation Systems via Relational Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -2993,28 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.08865
 - Summary: arXiv:2604.08865v1 Announce Type: new Abstract: Proximal Policy Optimization (PPO) is central to aligning Large Language Models (LLMs) in reasoning tasks with verifiable rewards. However, standard token-level PPO struggles in this setting due to the instability of temporal credit assignment over...
-
-### StaRPO: Stability-Augmented Reinforcement Policy Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.08905
-- Summary: arXiv:2604.08905v1 Announce Type: new Abstract: Reinforcement learning (RL) is effective in enhancing the accuracy of large language models in complex reasoning tasks. Existing RL policy optimization frameworks rely on final-answer correctness as feedback signals and rarely capture the internal...
-
-### Silhouette Loss: Differentiable Global Structure Learning for Deep Representations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08573
-- Summary: arXiv:2604.08573v1 Announce Type: new Abstract: Learning discriminative representations is a central goal of supervised deep learning. While cross-entropy (CE) remains the dominant objective for classification, it does not explicitly enforce desirable geometric properties in the embedding space,...
-
-### Distilling Genomic Models for Efficient mRNA Representation Learning via Embedding Matching
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08574
-- Summary: arXiv:2604.08574v1 Announce Type: new Abstract: Large Genomic Foundation Models have recently achieved remarkable results and in-vivo translation capabilities. However these models quickly grow to over a few Billion of parameters and are expensive to run when compute is limited. To overcome this...
-
-### MolPaQ: Modular Quantum-Classical Patch Learning for Interpretable Molecular Generation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.08575
-- Summary: arXiv:2604.08575v1 Announce Type: new Abstract: Molecular generative models must jointly ensure validity, diversity, and property control, yet existing approaches typically trade off among these objectives. We present MOLPAQ, a modular quantum-classical generator that assembles molecules from...
 
