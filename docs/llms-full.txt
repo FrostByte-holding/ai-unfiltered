@@ -6,6 +6,24 @@
 
 ## 2026-04-20
 
+### Users unable to load ChatGPT, Codex and API Platform
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KPNN2V2SMP3TAN3MCJK87W50
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Agent (Operational) Connectors/Apps (Operational) Voice mode (Operational) Search (Operational) Compliance API (Operational) Image Generation (Operational) Deep Research (Operational) ChatGPT Atlas...
+
+### 🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/noetik
+- Summary: 95% of cancer treatments fail to pass clinical trials, but it may be a matching problem &#8212; that Noetik is solving with autoregressive transformers like TARIO-2!
+
+### ⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html
+- Summary: Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push...
+
 ### Elevated errors for uploading files
 - Source: Anthropic Status
 - Category: incidents
@@ -2280,6 +2298,12 @@
 - URL: https://tldr.takara.ai/p/2604.12929
 - Summary: We present Grasp in Gaussians (GraG), a fast and robust method for reconstructing dynamic 3D hand-object interactions from a single monocular video. Unlike recent approaches that optimize heavy neural representations, our method focuses on tracking the hand and the object efficiently, once...
 
+### CoDe-R: Refining Decompiler Output with LLMs via Rationale Guidance and Adaptive Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12913
+- Summary: Binary decompilation is a critical reverse engineering task aimed at reconstructing high-level source code from stripped executables. Although Large Language Models (LLMs) have recently shown promise, they often suffer from "logical hallucinations" and "semantic misalignment" due to the...
+
 ### New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released
 - Source: The Hacker News
 - Category: security
@@ -2937,6 +2961,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/lq1vw7z9xthq
 - Summary: Apr 13, 20:15 UTCInvestigating - Cloudflare is aware of and investigating an issue impacting a subset of KV API requests, resulting in increased latency and timeouts. Workers using Assets are also experiencing errors. This does not impact KV through the binding.
 
+### When to Forget: A Memory Governance Primitive
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.12007
+- Summary: Agent memory systems accumulate experience but currently lack a principled operational metric for memory quality governance -- deciding which memories to trust, suppress, or deprecate as the agent's task distribution shifts. Write-time importance scores are static; dynamic management systems use...
+
 ### Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2990,34 +3020,4 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/1ghdqdbyyjmt
 - Summary: Apr 13, 16:59 UTCUpdate - We have identified the root cause and are rolling out a fix for Copilot. The services should now be in recovery, with expected full recovery in 5 to 10 minutes.Apr 13, 16:41 UTCInvestigating - We are investigating reports of impacted performance for some GitHub services.
-
-### SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.11716
-- Summary: Prior representative ReAct-style approaches in autonomous Software Engineering (SWE) typically lack the explicit System-2 reasoning required for deep analysis and handling complex edge cases. While recent reasoning models demonstrate the potential of extended Chain-of-Thought (CoT), applying them...
-
-### Claude.ai down
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/6jd2m42f8mld
-- Summary: Apr 13, 16:35 UTCResolved - We have resolved the issue resulting in elevated errors on login for Claude.ai and Claude Code betwen 15:31 to 16:19 UTC.Apr 13, 16:16 UTCIdentified - We have identified the issue affecting Claude.ai and Claude Code logins. We are working to apply a fix for this issue,...
-
-### Unfolding 3D Gaussian Splatting via Iterative Gaussian Synopsis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.11685
-- Summary: 3D Gaussian Splatting (3DGS) has become a state-of-the-art framework for real-time, high-fidelity novel view synthesis. However, its substantial storage requirements and inherently unstructured representation pose challenges for deployment in streaming and resource-constrained environments....
-
-### NetworkNet: A Deep Neural Network Approach for Random Networks with Sparse Nodal Attributes and Complex Nodal Heterogeneity
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.11673
-- Summary: Heterogeneous network data with rich nodal information become increasingly prevalent across multidisciplinary research, yet accurately modeling complex nodal heterogeneity and simultaneously selecting influential nodal attributes remains an open challenge. This problem is central to many...
-
-### Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-robotics-er-1-6/
-- Summary: Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.
 
