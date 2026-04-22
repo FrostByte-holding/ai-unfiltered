@@ -6,6 +6,35 @@
 
 ## 2026-04-22
 
+### Disruption with Copilot chat and Copilot Coding Agent
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/8790jgb3ky6t
+- Summary: Apr 22, 16:58 UTCUpdate - Mitigation is progressing for Copilot chat and cloud agent.Apr 22, 16:24 UTCUpdate - We continue to work on mitigation for Copilot chat and cloud agent.Apr 22, 15:43 UTCUpdate - We are aware of users seeing errors interacting with Copilot chat on github.com and Copilot...
+
+### Email Delivery Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/g52mpwwhbgl2
+- Summary: Apr 22, 16:21 UTCResolved - This incident has been resolved.Apr 22, 15:34 UTCInvestigating - Cloudflare is investigating a delay in our ability to send emails. This includes password reset, mFA token emails. We are working to resolve the issue. More updates to follow shortly.
+
+### Gemma 4 VLA Demo on Jetson Orin Nano Super
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/gemma4
+
+### Alibaba Introduces “Qwen XiaoJiuWo” Avatar to Unify AI Assistant Ecosystem
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-introduces-qwen-xiao-jiu-wo-avatar-to-unify-ai-assistant-ecosystem
+- Summary: Alibaba launched “Qwen XiaoJiuWo,” a unified AI assistant avatar integrated across its ecosystem, as the Qwen app reached 166 million monthly active users in China.
+
+### Enterprise, business & education workspaces seeing elevated rate of conversation errors
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KPTQAPRRSTTSSPDBGNG34FD5
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
 ### Analytics Engine API increased errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -29,6 +58,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: 10 Things That Matter in AI Right Now What actually matters in AI right now? It’s getting harder to tell amid the constant launches,...
+
+### World-first NCSC-engineered device secures vulnerable display links
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/news/world-first-ncsc-engineered-device-secures-vulnerable-display-links
+- Summary: SilentGlass, a plug-and-play device, actively blocks any unexpected or malicious HDMI and Display Port connections.
 
 ### Mirai Botnet Targets Flaw in Discontinued D-Link Routers
 - Source: Security Week
@@ -357,6 +392,12 @@
 - URL: https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-security/
 - Summary: As AI agents increasingly work alongside humans across organizations, companies could be inadvertently opening a new attack surface. Insecure agents can be manipulated to access sensitive systems and proprietary data, increasing enterprise risk. In some modern enterprises, non-human identities...
 
+### Exploring Language-Agnosticity in Function Vectors: A Case Study in Machine Translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19678
+- Summary: Function vectors (FVs) are vector representations of tasks extracted from model activations during in-context learning. While prior work has shown that multilingual model representations can be language-agnostic, it remains unclear whether the same holds for function vectors. We study whether FVs...
+
 ### Log Explorer Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -368,6 +409,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/b4235qyfzx2z
 - Summary: Apr 21, 16:45 UTCUpdate - The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.Apr 21, 16:18 UTCUpdate - We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with...
+
+### MOSA: Motion-Guided Semantic Alignment for Dynamic Scene Graph Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19631
+- Summary: Dynamic Scene Graph Generation (DSGG) aims to structurally model objects and their dynamic interactions in video sequences for high-level semantic understanding. However, existing methods struggle with fine-grained relationship modeling, semantic representation utilization, and the ability to model...
 
 ### Cloudflare Pages build issues
 - Source: Cloudflare Status
@@ -512,6 +559,12 @@
 - URL: https://www.technologyreview.com/2026/04/21/1135231/digging-for-truth-north-pole-past-seabed/
 - Summary: In the past, even with an icebreaker and during peak melt season, getting to the North Pole wasn’t a sure bet. It took favorable winds to crack the frozen ocean surface, and ships had to fight through ice that had grown many meters thick over several winters. In the summer of 2025, though, Jochen...
 
+### Location Not Found: Exposing Implicit Local and Global Biases in Multilingual LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19292
+- Summary: Multilingual large language models (LLMs) have minimized the fluency gap between languages. This advancement, however, exposes models to the risk of biased behavior, as knowledge and norms may propagate across languages. In this work, we aim to quantify models' inter- and intra-lingual biases, via...
+
 ### HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human-LLM Collaborative Writing
 - Source: HF Daily Papers
 - Category: open-source
@@ -583,6 +636,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/s3bld7pfdyvh
 - Summary: Apr 21, 05:27 UTCResolved - This incident has been resolved.Apr 21, 05:11 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 21, 04:58 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 21, 04:58 UTCInvestigating - Cloudflare is...
+
+### Multi-modal Test-time Adaptation via Adaptive Probabilistic Gaussian Calibration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19093
+- Summary: Multi-modal test-time adaptation (TTA) enhances the resilience of benchmark multi-modal models against distribution shifts by leveraging the unlabeled target data during inference. Despite the documented success, the advancement of multi-modal TTA methodologies has been impeded by a persistent...
 
 ### Product-of-Experts Training Reduces Dataset Artifacts in Natural Language Inference
 - Source: HF Daily Papers
@@ -769,6 +828,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.16396
 - Summary: arXiv:2604.16396v1 Announce Type: new Abstract: Islamic inheritance law (ilm al-mawar{\i}th) presents a challenging domain for evaluating large language models' structured reasoning capabilities, requiring multi-step legal analysis, rule-based blocking decisions, and precise fractional...
+
+### RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19047
+- Summary: Existing QA benchmarks typically assume distinct documents with minimal overlap, yet real-world retrieval-augmented generation (RAG) systems operate on corpora such as financial reports, legal codes, and patents, where information is highly redundant and documents exhibit strong inter-document...
 
 ### Plausible Reasoning and First-Order Plausible Logic
 - Source: HF Daily Papers
@@ -2952,69 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.13688
 - Summary: 3D editing refers to the ability to apply local or global modifications to 3D assets. Effective 3D editing requires maintaining semantic consistency by performing localized changes according to prompts, while also preserving local invariance so that unchanged regions remain consistent with the...
-
-### VRAG-DFD: Verifiable Retrieval-Augmentation for MLLM-based Deepfake Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13660
-- Summary: In Deepfake Detection (DFD) tasks, researchers proposed two types of MLLM-based methods: complementary combination with small DFD detectors, or static forgery knowledge injection.The lack of professional forgery knowledge hinders the performance of these DFD-MLLMs.To solve this, we deeply...
-
-### Meet HoloTab by HCompany. Your AI browser companion.
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/Hcompany/holotab
-
-### ESCAPE: Episodic Spatial Memory and Adaptive Execution Policy for Long-Horizon Mobile Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13633
-- Summary: Coordinating navigation and manipulation with robust performance is essential for embodied AI in complex indoor environments. However, as tasks extend over long horizons, existing methods often struggle due to catastrophic forgetting, spatial inconsistency, and rigid execution. To address these...
-
-### No one’s sure if synthetic mirror life will kill us all
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/
-- Summary: For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a...
-
-### Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html
-- Summary: Microsoft on Tuesday released updates to address a&nbsp;record 169 security&nbsp;flaws across its product portfolio, including one vulnerability that&nbsp;has been actively&nbsp;exploited in the&nbsp;wild. Of these 169 vulnerabilities, 157 are rated Important, eight are rated&nbsp;Critical, three...
-
-### C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13618
-- Summary: Rubric-augmented verification guides reward models with explicit evaluation criteria, yielding more reliable judgments than single-model verification. However, most existing methods require costly rubric annotations, limiting scalability. Moreover, we find that rubric generation is vulnerable to a...
-
-### Luminous Ventures Closes USD 700 Million+ Dual-Currency Funds
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/luminous-ventures-closes-usd-700-million-dual-currency-funds
-- Summary: Luminous Ventures has raised over USD 700 million across new USD and RMB funds, marking China‘s largest VC fundraise of 2026 so far, with LPs including sovereign wealth funds and global tech corporates.
-
-### Bota Biosciences Launches SAION AI Platform for Bio-Manufacturing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bota-biosciences-launches-saion-ai-platform-for-bio-manufacturing
-- Summary: Bota Biosciences has launched SAION AI, a physical AI platform that connects cognition, orchestration, and execution to automate bio-manufacturing, reducing strain development from years to months.
-
-### Delta Intelligence Raises USD 14 Million+ to Build Humanoid Foundation Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/delta-intelligence-raises-usd-14-million-to-build-humanoid-foundation-models
-- Summary: Delta Intelligence has raised over USD 14 million to build humanoid foundation models combining a proprietary 3D world engine, enabling full-body loco-manipulation for industrial and real-world tasks.
-
-### Qwen AI Glasses S1 Launch at USD 500
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/qwen-ai-glasses-s1-launch-at-usd-500
-- Summary: Alibaba‘s Qwen AI Glasses S1 are now on sale for USD 500, featuring multimodal voice-vision interaction, dual-eye displays, a 12MP camera, and hot-swappable batteries for extended use.
-
-### Alibaba Cloud to Raise DDoS Protection Pricing by Up to 50 Percent
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-cloud-to-raise-d-do-s-protection-pricing-by-up-to-50-percent
-- Summary: Alibaba Cloud will raise prices for DDoS protection services by up to 50% starting July 15, 2026, with the mainland China Elastic 95 feature increasing to USD 21 per Mbps per month.
 
