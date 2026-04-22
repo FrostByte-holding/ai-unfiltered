@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Apr 2026 17:05:03 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 20:58:19 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Cloudflare Registration Data Access Protocol (RDAP) Issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/8j595rnp7wd8</link>
+            <guid>https://www.cloudflarestatus.com/incidents/8j595rnp7wd8</guid>
+            <pubDate>Wed, 22 Apr 2026 20:46:49 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/8j595rnp7wd8">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Apr 22, 20:46 UTCInvestigating - Cloudflare is investigating issues with its Registration Data Access Protocol endpoint: https://rdap.cloudflare.com/RDAP lookup functionality is unavailable.We are working to understand the full impact and mitigate this problem. More updates to follow shortly.</description>
+        </item>
+        <item>
+            <title>Disruption with some GitHub services</title>
+            <link>https://www.githubstatus.com/incidents/c53mty24vwg8</link>
+            <guid>https://www.githubstatus.com/incidents/c53mty24vwg8</guid>
+            <pubDate>Wed, 22 Apr 2026 20:37:21 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/c53mty24vwg8">GitHub Status</source>
+            <category>incidents</category>
+            <description>Apr 22, 20:37 UTCUpdate - We have identified the root cause of the disruption affecting Copilot Coding Agent and Issues. Copilot @-mentions on pull requests are not being processed, and some issue-related functionality may be degraded. A fix has been developed and is being applied. Apr 22, 20:02...</description>
+        </item>
+        <item>
+            <title>Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO</title>
+            <link>https://www.latent.space/p/shopify</link>
+            <guid>https://www.latent.space/p/shopify</guid>
+            <pubDate>Wed, 22 Apr 2026 19:33:49 +0000</pubDate>
+            <source url="https://www.latent.space/p/shopify">Latent Space</source>
+            <category>open-source</category>
+            <description>Early bird discounts for the San Francisco World&amp;#8217;s Fair, the biggest AIE gathering of the year, end today - prices will go up by ~$500 tonight so do please lock in ASAP!</description>
+        </item>
         <item>
             <title>Disruption with Copilot chat and Copilot Coding Agent</title>
             <link>https://www.githubstatus.com/incidents/8790jgb3ky6t</link>
@@ -414,13 +441,13 @@
             <description>Apr 21, 20:19 UTCResolved - This incident has been resolved.Apr 21, 19:57 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 21, 18:09 UTCIdentified - Cloudflare has identified an issue with customers creating/updating Page Rules with the Host Header Override setting....</description>
         </item>
         <item>
-            <title>Cloudflare Gateway HTTP Logs issues</title>
-            <link>https://www.cloudflarestatus.com/incidents/d9krn2y3ydss</link>
-            <guid>https://www.cloudflarestatus.com/incidents/d9krn2y3ydss</guid>
-            <pubDate>Tue, 21 Apr 2026 19:36:02 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/d9krn2y3ydss">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Apr 21, 19:36 UTCInvestigating - Cloudflare is observing issues with Cloudflare Gateway HTTP Logs service that may delay log ingestion.</description>
+            <title>CityRAG: Stepping Into a City via Spatially-Grounded Video Generation</title>
+            <link>https://tldr.takara.ai/p/2604.19741</link>
+            <guid>https://tldr.takara.ai/p/2604.19741</guid>
+            <pubDate>Tue, 21 Apr 2026 17:59:03 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2604.19741">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>We address the problem of generating a 3D-consistent, navigable environment that is spatially grounded: a simulation of a real location. Existing video generative models can produce a plausible sequence that is consistent with a text (T2V) or image (I2V) prompt. However, the capability to...</description>
         </item>
         <item>
             <title>Benign Overfitting in Adversarial Training for Vision Transformers</title>
@@ -430,33 +457,6 @@
             <source url="https://tldr.takara.ai/p/2604.19724">HF Daily Papers</source>
             <category>open-source</category>
             <description>Despite the remarkable success of Vision Transformers (ViTs) across a wide range of vision tasks, recent studies have revealed that they remain vulnerable to adversarial examples, much like Convolutional Neural Networks (CNNs). A common empirical defense strategy is adversarial training, yet the...</description>
-        </item>
-        <item>
-            <title>Adaptive MSD-Splitting: Enhancing C4.5 and Random Forests for Skewed Continuous Attributes</title>
-            <link>https://tldr.takara.ai/p/2604.19722</link>
-            <guid>https://tldr.takara.ai/p/2604.19722</guid>
-            <pubDate>Tue, 21 Apr 2026 17:48:27 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.19722">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>The discretization of continuous numerical attributes remains a persistent computational bottleneck in the induction of decision trees, particularly as dataset dimensions scale. Building upon the recently proposed MSD-Splitting technique -- which bins continuous data using the empirical mean and...</description>
-        </item>
-        <item>
-            <title>Exploring Language-Agnosticity in Function Vectors: A Case Study in Machine Translation</title>
-            <link>https://tldr.takara.ai/p/2604.19678</link>
-            <guid>https://tldr.takara.ai/p/2604.19678</guid>
-            <pubDate>Tue, 21 Apr 2026 16:56:55 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.19678">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Function vectors (FVs) are vector representations of tasks extracted from model activations during in-context learning. While prior work has shown that multilingual model representations can be language-agnostic, it remains unclear whether the same holds for function vectors. We study whether FVs...</description>
-        </item>
-        <item>
-            <title>Disruption with projects service</title>
-            <link>https://www.githubstatus.com/incidents/b4235qyfzx2z</link>
-            <guid>https://www.githubstatus.com/incidents/b4235qyfzx2z</guid>
-            <pubDate>Tue, 21 Apr 2026 16:45:22 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/b4235qyfzx2z">GitHub Status</source>
-            <category>incidents</category>
-            <description>Apr 21, 16:45 UTCUpdate - The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.Apr 21, 16:18 UTCUpdate - We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with...</description>
         </item>
     </channel>
 </rss>

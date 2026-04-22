@@ -6,6 +6,24 @@
 
 ## 2026-04-22
 
+### Cloudflare Registration Data Access Protocol (RDAP) Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/8j595rnp7wd8
+- Summary: Apr 22, 20:46 UTCInvestigating - Cloudflare is investigating issues with its Registration Data Access Protocol endpoint: https://rdap.cloudflare.com/RDAP lookup functionality is unavailable.We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/c53mty24vwg8
+- Summary: Apr 22, 20:37 UTCUpdate - We have identified the root cause of the disruption affecting Copilot Coding Agent and Issues. Copilot @-mentions on pull requests are not being processed, and some issue-related functionality may be degraded. A fix has been developed and is being applied. Apr 22, 20:02...
+
+### Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/shopify
+- Summary: Early bird discounts for the San Francisco World&#8217;s Fair, the biggest AIE gathering of the year, end today - prices will go up by ~$500 tonight so do please lock in ASAP!
+
 ### Disruption with Copilot chat and Copilot Coding Agent
 - Source: GitHub Status
 - Category: incidents
@@ -374,6 +392,12 @@
 - URL: https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html
 - Summary: Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC. According to new research published by Check Point, the command-and-control (C2 or C&amp;C) server linked to SystemBC has led to the...
 
+### CityRAG: Stepping Into a City via Spatially-Grounded Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19741
+- Summary: We address the problem of generating a 3D-consistent, navigable environment that is spatially grounded: a simulation of a real location. Existing video generative models can produce a plausible sequence that is consistent with a text (T2V) or image (I2V) prompt. However, the capability to...
+
 ### Benign Overfitting in Adversarial Training for Vision Transformers
 - Source: HF Daily Papers
 - Category: open-source
@@ -409,6 +433,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/b4235qyfzx2z
 - Summary: Apr 21, 16:45 UTCUpdate - The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.Apr 21, 16:18 UTCUpdate - We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with...
+
+### CreatiParser: Generative Image Parsing of Raster Graphic Designs into Editable Layers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19632
+- Summary: Graphic design images consist of multiple editable layers, such as text, background, and decorative elements, while most generative models produce rasterized outputs without explicit layer structures, limiting downstream editing. Existing graphic design parsing methods typically rely on multi-stage...
 
 ### MOSA: Motion-Guided Semantic Alignment for Dynamic Scene Graph Generation
 - Source: HF Daily Papers
@@ -619,6 +649,12 @@
 - URL: https://pandaily.com/motorevo-raises-usd-tens-of-millions-in-a-round-sixth-funding-in-one-year
 - Summary: Motorevo, a Chinese integrated robotic joint module supplier, has raised tens of millions of USD in an A++ round—its sixth financing in under a year—to scale production capacity toward 500,000 units by 2026.
 
+### SAW-INT4: System-Aware 4-Bit KV-Cache Quantization for Real-World LLM Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19157
+- Summary: KV-cache memory is a major bottleneck in real-world LLM serving, where systems must simultaneously support latency-sensitive small-batch requests and high-throughput concurrent workloads. Although many KV-cache compression methods improve offline accuracy or compression ratio, they often violate...
+
 ### Diff-SBSR: Learning Multimodal Feature-Enhanced Diffusion Models for Zero-Shot Sketch-Based 3D Shape Retrieval
 - Source: HF Daily Papers
 - Category: open-source
@@ -642,6 +678,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.19093
 - Summary: Multi-modal test-time adaptation (TTA) enhances the resilience of benchmark multi-modal models against distribution shifts by leveraging the unlabeled target data during inference. Despite the documented success, the advancement of multi-modal TTA methodologies has been impeded by a persistent...
+
+### S2MAM: Semi-supervised Meta Additive Model for Robust Estimation and Variable Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19072
+- Summary: Semi-supervised learning with manifold regularization is a classical framework for jointly learning from both labeled and unlabeled data, where the key requirement is that the support of the unknown marginal distribution has the geometric structure of a Riemannian manifold. Typically, the...
 
 ### Product-of-Experts Training Reduces Dataset Artifacts in Natural Language Inference
 - Source: HF Daily Papers
@@ -852,6 +894,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KPPY7B8PMYHJWDNFY9TMJX33
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Codex API (Degraded performance) Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance)
+
+### Toward Clinically Acceptable Chest X-ray Report Generation: A Qualitative Retrospective Pilot Study of CXRMate-2
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18967
+- Summary: Chest X-ray (CXR) radiology report generation (RRG) models have shown rapid progress, yet their clinical utility remains uncertain due to limited evaluation by radiologists. We present CXRMate-2, a state-of-the-art CXR RRG model that integrates structured multimodal conditioning and reinforcement...
 
 ### ELEGOO Raises USD Tens of Millions in B+ Round Backed by Meituan and DJI
 - Source: Pandaily
@@ -2969,52 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html
 - Summary: Few technologies have moved from experimentation to boardroom mandate as quickly as AI. Across&nbsp;industries, leadership teams have embraced its broader potential, and boards, investors, and executives are already pushing organizations to adopt it across operational and security...
-
-### Cyberscammers are bypassing banks’ security with illicit tools sold on Telegram
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/
-- Summary: From inside a money-laundering center in Cambodia, an employee opens a popular Vietnamese banking app on his phone. The app asks him to upload a photo associated with the account, so he clicks on a picture of a 30-something Asian man. Next, the app requests to open the camera for a video “liveness”...
-
-### TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13737
-- Summary: Recommender systems have historically developed along two largely independent paradigms: feature interaction models for modeling correlations among multi-field categorical features, and sequential models for capturing user behavior dynamics from historical interaction sequences. Although recent...
-
-### Jump-Start Reinforcement Learning with Vision-Language-Action Regularization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13733
-- Summary: Reinforcement learning (RL) enables high-frequency, closed-loop control for robotic manipulation, but scaling to long-horizon tasks with sparse or imperfect rewards remains difficult due to inefficient exploration and poor credit assignment. Vision-Language-Action (VLA) models leverage large-scale...
-
-### $10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT and Gov Networks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/10-domain-could-have-handed-hackers-25k-endpoints-including-in-ot-and-gov-networks/
-- Summary: Researchers found adware capable of killing cybersecurity products and pushing more dangerous payloads to infected systems. The post $10 Domain Could Have Handed Hackers 25k Endpoints, Including in OT and Gov Networks appeared first on SecurityWeek.
-
-### Towards Fine-grained Temporal Perception: Post-Training Large Audio-Language Models with Audio-Side Time Prompt
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13715
-- Summary: Large Audio-Language Models (LALMs) enable general audio understanding and demonstrate remarkable performance across various audio tasks. However, these models still face challenges in temporal perception (e.g., inferring event onset and offset), leading to limited utility in fine-grained...
-
-### Trump Urges Extending Foreign Surveillance Program as Some Lawmakers Push for US Privacy Protections
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/trump-urges-extending-foreign-surveillance-program-as-some-lawmakers-push-for-us-privacy-protections/
-- Summary: Congress is set to take up the reauthorization of a divisive program that lets U.S. spy agencies pore over foreigners’ calls, texts and emails. The post Trump Urges Extending Foreign Surveillance Program as Some Lawmakers Push for US Privacy Protections appeared first on SecurityWeek.
-
-### Med-CAM: Minimal Evidence for Explaining Medical Decision Making
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13695
-- Summary: Reliable and interpretable decision-making is essential in medical imaging, where diagnostic outcomes directly influence patient care. Despite advances in deep learning, most medical AI systems operate as opaque black boxes, providing little insight into why a particular diagnosis was reached. In...
-
-### Beyond Voxel 3D Editing: Learning from 3D Masks and Self-Constructed Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.13688
-- Summary: 3D editing refers to the ability to apply local or global modifications to 3D assets. Effective 3D editing requires maintaining semantic consistency by performing localized changes according to prompts, while also preserving local invariance so that unchanged regions remain consistent with the...
 
