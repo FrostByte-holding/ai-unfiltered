@@ -6,6 +6,30 @@
 
 ## 2026-04-23
 
+### Incident with Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/zsg1lk7w13cf
+- Summary: Apr 23, 20:47 UTCUpdate - Pull Requests is operating normally.Apr 23, 19:58 UTCUpdate - We have identified a regression in merge queue behavior present when squash merging or rebasing. We have identified the root-cause and are in the process of reverting the change.Apr 23, 19:50 UTCInvestigating -...
+
+### Elevated errors in Codex
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KPXS9FY1X6WHYM2K3BQHJZQW
+- Summary: Status: ResolvedGPT-5.5 is now available to all paid users in Codex. If you continue to see access issues, please update to the latest Codex version. We’ll share another update if needed.Affected components App (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web...
+
+### Disruption with users unable to start Claude and Codex agent task from the web
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/40f3r1jvjwl2
+- Summary: Apr 23, 19:42 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 23, 19:33 UTCUpdate - We have identified the root cause of the issue and are working on...
+
+### AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/unsupervised-learning-2026
+- Summary: Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.
+
 ### Incident with multiple GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -345,6 +369,12 @@
 - URL: https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html
 - Summary: Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens. The supply chain worm has been detected by both Socket and StepSecurity, with the companies tracking the...
 
+### DAIRE: A lightweight AI model for real-time detection of Controller Area Network attacks in the Internet of Vehicles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20771
+- Summary: The Internet of Vehicles (IoV) is advancing modern transportation by improving safety, efficiency, and intelligence. However, the reliance on the Controller Area Network (CAN) introduces critical security risks, as CAN-based communication is highly vulnerable to cyberattacks. Addressing this...
+
 ### Disruption with Copilot chat and Copilot Coding Agent
 - Source: GitHub Status
 - Category: incidents
@@ -362,6 +392,18 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/g52mpwwhbgl2
 - Summary: Apr 22, 16:21 UTCResolved - This incident has been resolved.Apr 22, 15:34 UTCInvestigating - Cloudflare is investigating a delay in our ability to send emails. This includes password reset, mFA token emails. We are working to resolve the issue. More updates to follow shortly.
+
+### Interval POMDP Shielding for Imperfect-Perception Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20728
+- Summary: Autonomous systems that rely on learned perception can make unsafe decisions when sensor readings are misclassified. We study shielding for this setting: given a proposed action, a shield blocks actions that could violate safety. We consider the common case where system dynamics are known but...
+
+### GeoRelight: Learning Joint Geometrical Relighting and Reconstruction with Flexible Multi-Modal Diffusion Transformers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20715
+- Summary: Relighting a person from a single photo is an attractive but ill-posed task, as a 2D image ambiguously entangles 3D geometry, intrinsic appearance, and illumination. Current methods either use sequential pipelines that suffer from error accumulation, or they do not explicitly leverage 3D geometry...
 
 ### QuanForge: A Mutation Testing Framework for Quantum Neural Networks
 - Source: HF Daily Papers
@@ -487,6 +529,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html
 - Summary: On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more worrying part sat inside the private messages. Some of those...
+
+### Scalable AI Inference: Performance Analysis and Optimization of AI Model Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20420
+- Summary: AI research often emphasizes model design and algorithmic performance, while deployment and inference remain comparatively underexplored despite being critical for real-world use. This study addresses that gap by investigating the performance and optimization of a BentoML-based AI inference system...
 
 ### Decoupled DiLoCo: A new frontier for resilient, distributed AI training
 - Source: DeepMind Blog
@@ -804,6 +852,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.20131
 - Summary: Increasingly, studies are exploring using Large Language Models (LLMs) for accelerated or scaled qualitative analysis of text data. While we can compare LLM accuracy against human labels directly for deductive coding, or labeling text, it is more challenging to judge the ethics and effectiveness of...
+
+### Topology-Aware Skeleton Detection via Lighthouse-Guided Structured Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20123
+- Summary: In natural images, object skeletons are used to represent geometric shapes. However, even slight variations in pose or movement can cause noticeable changes in skeleton structure, increasing the difficulty of detecting the skeleton and often resulting in discontinuous skeletons. Existing methods...
 
 ### ChatGPT free users are seeing errors when having conversations
 - Source: OpenAI Status
@@ -2966,58 +3020,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/16/1135928/carbon-removal-microsoft/
 - Summary: Last week, news outlets reported that Microsoft was pausing carbon removal purchases. It was something of a bombshell. The thing is, Microsoft is the carbon removal market. The company has single-handedly purchased something like 80% of all contracted carbon removal. If you’re looking for someone...
-
-### The Unseen Ally: Erlang Shen in the World of Black Myth: Wukong
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/the-unseen-ally-erlang-shen-in-the-world-of-black-myth-wukong
-- Summary: In the grand tapestry of Black Myth: Wukong, few characters command as much intrigue, reverence, and raw power as Erlang Shen. Known as Yang Jian, the Three-Eye...
-
-### Ransomware Hits Automotive Data Expert Autovista
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ransomware-hits-automotive-data-expert-autovista/
-- Summary: The automotive analysis and data company is working with external experts to investigate the attack. The post Ransomware Hits Automotive Data Expert Autovista appeared first on SecurityWeek.
-
-### Network performance issues in the Hyderabad (HYD) region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/7x6x1sy776ln
-- Summary: Apr 16, 08:59 UTCResolved - This incident has been resolved.Apr 16, 08:51 UTCMonitoring - Some customers may have experienced network performance issues for traffic landing at the Hyderabad (HYD) datacenter. The issue has been identified and fixed.
-
-### Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/claude-code-gemini-cli-github-copilot-agents-vulnerable-to-prompt-injection-via-comments/
-- Summary: A researcher has disclosed the details of the AI attack method he has named ‘Comment and Control’. The post Claude Code, Gemini CLI, GitHub Copilot Agents Vulnerable to Prompt Injection via Comments appeared first on SecurityWeek.
-
-### OmniGCD: Abstracting Generalized Category Discovery for Modality Agnosticism
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14762
-- Summary: Generalized Category Discovery (GCD) challenges methods to identify known and novel classes using partially labeled data, mirroring human category learning. Unlike prior GCD methods, which operate within a single modality and require dataset-specific fine-tuning, we propose a modality-agnostic GCD...
-
-### Personalized and Context-Aware Transformer Models for Predicting Post-Intervention Physiological Responses from Wearable Sensor Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14738
-- Summary: Consumer wearables enable continuous measurement of physiological data related to stress and recovery, but turning these streams into actionable, personalized stress-management recommendations remains a challenge. In practice, users often do not know how a given intervention, defined as an activity...
-
-### Opus 4.6 elevated rate of errors
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/7jbzthbc1dwr
-- Summary: Apr 16, 07:43 UTCResolved - Earlier today we had an outage on Opus 4.6 that started at 23:03 PT / 6:03 UTC and ended at 00:26 PT / 7:26 UTC.Apr 16, 06:50 UTCIdentified - The issue has been identified and a fix is being implemented.
-
-### RELOAD: A Robust and Efficient Learned Query Optimizer for Database Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14725
-- Summary: Recent advances in query optimization have shifted from traditional rule-based and cost-based techniques towards machine learning-driven approaches. Among these, reinforcement learning (RL) has attracted significant attention due to its ability to optimize long-term performance by learning policies...
-
-### Data Synthesis Improves 3D Myotube Instance Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14720
-- Summary: Myotubes are multinucleated muscle fibers serving as key model systems for studying muscle physiology, disease mechanisms, and drug responses. Mechanistic studies and drug screening thereby rely on quantitative morphological readouts such as diameter, length, and branching degree, which in turn...
 
