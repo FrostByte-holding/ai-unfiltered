@@ -6,6 +6,42 @@
 
 ## 2026-04-23
 
+### Incident with multiple GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/myrbk7jvvs6p
+- Summary: Apr 23, 17:10 UTCUpdate - Webhooks is operating normally.Apr 23, 17:04 UTCUpdate - Many services are mitigated and are validating the remaining services.Apr 23, 17:03 UTCUpdate - The degradation affecting Actions and Copilot has been mitigated. We are monitoring to ensure stability.Apr 23, 16:52...
+
+### Web Analytics Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/jtkhdctxpm2p
+- Summary: Apr 23, 17:03 UTCInvestigating - Cloudflare Web Analytics processing is running behind. This affects timely delivery of customer data.These delays do not impact analytics for DNS and Rate Limiting.
+
+### Elevated error rates and latency for Moderation API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KPXKMRJ72KA5SYTEH509CQA5
+- Summary: Status: InvestigatingWe are investigating elevated error rates and latency affecting the Moderation API.Affected components Moderations (Degraded performance)
+
+### Elevated errors on Claude Opus 4.7
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/1gz3fcvd76fx
+- Summary: Apr 23, 15:59 UTCResolved - We've had an incident between 08:23 PT / 15:23 UTC and 8:35 PT / 15:35 UTC. We have fully recovered.Apr 23, 15:37 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 23, 15:29 UTCInvestigating - We are currently investigating this issue.
+
+### Investigating errors on GitHub
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/3f30ycplyr7l
+- Summary: Apr 23, 15:18 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.Apr 23, 15:02 UTCMonitoring - The degradation affecting Actions, Codespaces, Copilot and...
+
+### Beyond the Model Race: How Tencent Is Building Its Global AI Moat
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/beyond-the-model-race-how-tencent-is-building-its-global-ai-moat
+- Summary: Tencent just open-sourced Hy3 preview, a 295B-parameter mixture-of-experts model with a 256K context window, capping a week that also delivered a 3D world model and the global beta of its QClaw consumer agent. The flurry reveals a deliberate bet on the “harness” layer—the engineering scaffolding of...
+
 ### Chinese Cybersecurity Firm’s AI Hacking Claims Draw Comparisons to Claude Mythos
 - Source: Security Week
 - Category: security
@@ -368,6 +404,12 @@
 - URL: https://status.openai.com//incidents/01KPTQAPRRSTTSSPDBGNG34FD5
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
 
+### Evaluating Assurance Cases as Text-Attributed Graphs for Structure and Provenance Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20577
+- Summary: An assurance case is a structured argument document that justifies claims about a system's requirements or properties, which are supported by evidence. In regulated domains, these are crucial for meeting compliance and safety requirements to industry standards. We propose a graph diagnostic...
+
 ### Analytics Engine API increased errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -391,6 +433,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: 10 Things That Matter in AI Right Now What actually matters in AI right now? It’s getting harder to tell amid the constant launches,...
+
+### Random Walk on Point Clouds for Feature Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20474
+- Summary: The points on the point clouds that can entirely outline the shape of the model are of critical importance, as they serve as the foundation for numerous point cloud processing tasks and are widely utilized in computer graphics and computer-aided design. This study introduces a novel method, RWoDSN,...
 
 ### World-first NCSC-engineered device secures vulnerable display links
 - Source: NCSC UK
@@ -416,6 +464,12 @@
 - URL: https://www.securityweek.com/claude-mythos-finds-271-firefox-vulnerabilities/
 - Summary: All the flaws could have also been found by an elite human researcher, according to Mozilla. The post Claude Mythos Finds 271 Firefox Vulnerabilities appeared first on SecurityWeek.
 
+### Shift-Up: A Framework for Software Engineering Guardrails in AI-native Software Development -- Initial Findings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20436
+- Summary: Generative AI (GenAI) is reshaping software engineering by shifting development from manual coding toward agent-driven implementation. While vibe coding promises rapid prototyping, it often suffers from architectural drift, limited traceability, and reduced maintainability. Applying the design...
+
 ### Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack
 - Source: The Hacker News
 - Category: security
@@ -433,6 +487,11 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html
 - Summary: On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more worrying part sat inside the private messages. Some of those...
+
+### Decoupled DiLoCo: A new frontier for resilient, distributed AI training
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/decoupled-diloco/
 
 ### AI needs a strong data fabric to deliver business value
 - Source: MIT Tech Review AI
@@ -476,6 +535,12 @@
 - URL: https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html
 - Summary: Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has...
 
+### ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20358
+- Summary: The Composed Image Retrieval (CIR) task provides a flexible retrieval paradigm via a reference image and modification text, but it heavily relies on expensive and error-prone triplet annotations. This paper systematically investigates the Noisy Triplet Correspondence (NTC) problem introduced by...
+
 ### Oracle Patches 450 Vulnerabilities With April 2026 CPU
 - Source: Security Week
 - Category: security
@@ -487,6 +552,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/9wx6bv6lfnr7
 - Summary: Apr 22, 08:30 UTCInvestigating - Cloudflare is experiencing delays in activating customer sites. This does not impact existing active sites already in production. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+
+### SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20319
+- Summary: Fine-grained spatiotemporal reasoning on surgical videos is critical, yet the capabilities of Multi-modal Large Language Models (MLLMs) in this domain remain largely unexplored. To bridge this gap, we introduce SurgCoT, a unified benchmark for evaluating chain-of-thought (CoT) reasoning in MLLMs...
 
 ### Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles
 - Source: The Hacker News
@@ -2949,76 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.14720
 - Summary: Myotubes are multinucleated muscle fibers serving as key model systems for studying muscle physiology, disease mechanisms, and drug responses. Mechanistic studies and drug screening thereby rely on quantitative morphological readouts such as diameter, length, and branching degree, which in turn...
-
-### The Agentification of Scientific Research: A Physicist's Perspective
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14718
-- Summary: This article argues that the most important significance of the AI revolution, especially the rise of large language models, lies not simply in automation, but in a fundamental change in how complex information and human know-how are carried, replicated, and shared. From this perspective, AI for...
-
-### Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14717
-- Summary: Persistent language-model agents increasingly combine tool use, tiered memory, reflective prompting, and runtime adaptation. In such systems, behavior is shaped not only by current prompts but by mutable internal conditions that influence future action. This paper introduces layered mutability, a...
-
-### NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14706
-- Summary: Recent advances in 3D Gaussian Splatting (3DGS) have enabled highly efficient and photorealistic novel view synthesis. However, segmenting objects accurately in 3DGS remains challenging due to the discrete nature of Gaussian representations, which often leads to aliasing and artifacts at object...
-
-### [AINews] RIP Pull Requests (2005-2026)
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-rip-pull-requests-2005-2026
-- Summary: a quiet day lets us report on the death of the pull requests
-
-### UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html
-- Summary: The Computer Emergencies Response Team of Ukraine (CERT-UA)&nbsp;has disclosed details of a new&nbsp;campaign that has&nbsp;targeted governments and municipal healthcare institutions, mainly clinics and emergency hospitals, to deliver malware capable of stealing sensitive data from Chromium-based...
-
-### Rethinking Patient Education as Multi-turn Multi-modal Interaction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14656
-- Summary: Most medical multimodal benchmarks focus on static tasks such as image question answering, report generation, and plain-language rewriting. Patient education is more demanding: systems must identify relevant evidence across images, show patients where to look, explain findings in accessible...
-
-### Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14643
-- Summary: Adversarial attacks pose a severe threat to the reliability of deep learning models in remote sensing (RS) image classification. Most existing methods rely on direct pixel-wise perturbations, failing to exploit the inherent atmospheric characteristics of RS imagery or survive real-world image...
-
-### StoryCoder: Narrative Reformulation for Structured Reasoning in LLM Code Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14631
-- Summary: Effective code generation requires both model capability and a problem representation that carefully structures how models reason and plan. Existing approaches augment reasoning steps or inject specific structure into how models think, but leave scattered problem conditions unchanged. Inspired by...
-
-### vivo Globally Launches X300 Ultra and X300 FE, Dual Flagships Redefine Mobile Imaging for Pros and Urban Explorers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/vivo-globally-launches-x300-ultra-and-x300-fe-dual-flagships-redefine-mobile-imaging-for-pros-and-urban-explorers
-- Summary: vivo has globally launched the X300 Ultra and X300 FE, two flagship smartphones featuring ZEISS co-engineered imaging systems and advanced AI-powered photography designed for both professional creators and urban users.
-
-### CMTM: Cross-Modal Token Modulation for Unsupervised Video Object Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.14630
-- Summary: Recent advances in unsupervised video object segmentation have highlighted the potential of two-stream architectures that integrate appearance and motion cues. However, fully leveraging these complementary sources of information requires effectively modeling their interdependencies. In this paper,...
-
-### MagicLab Demonstrates Large-Scale Robot Coordination in Outdoor Performance
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/magic-lab-demonstrates-large-scale-robot-coordination-in-outdoor-performance
-- Summary: MagicLab coordinated nearly 300 robots in a large-scale outdoor performance under challenging conditions, demonstrating multi-robot system stability.
-
-### Kuaikan Manhua Expands into AI Interactive Content, Targets May Beta Launch
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kuaikan-manhua-expands-into-ai-interactive-content-targets-may-beta-launch
-- Summary: Kuaikan Manhua is developing AI-powered interactive content, aiming to create virtual characters with evolving memory and long-term user engagement.
 
