@@ -6,6 +6,18 @@
 
 ## 2026-04-24
 
+### Delays with Actions Jobs for Larger Runners using VNet Injection in the East US region
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/3dqg0nhwnxs2
+- Summary: Apr 24, 19:14 UTCUpdate - This is related to the public impact, "Multiservice impact for Azure Workloads in East US" shared at https://azure.status.microsoft/Apr 24, 19:09 UTCUpdate - We are investigating reports of degraded performance for Larger Runners with vnet injection in East US and we are...
+
+### Issues with sign-ups on platform.claude.com
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/s0lttkq5mmt2
+- Summary: Apr 24, 17:32 UTCResolved - This incident has been resolved.Apr 24, 17:03 UTCInvestigating - We are currently investigating an issue resulting in errors when attempting to sign up at platform.claude.com
+
 ### WARP connectivity issues in Bulgaria
 - Source: Cloudflare Status
 - Category: incidents
@@ -386,6 +398,12 @@
 - URL: https://pandaily.com/beyond-the-model-race-how-tencent-is-building-its-global-ai-moat
 - Summary: Tencent just open-sourced Hy3 preview, a 295B-parameter mixture-of-experts model with a 256K context window, capping a week that also delivered a 3D world model and the global beta of its QClaw consumer agent. The flurry reveals a deliberate bet on the “harness” layer—the engineering scaffolding of...
 
+### WorldMark: A Unified Benchmark Suite for Interactive Video World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21686
+- Summary: Interactive video generation models such as Genie, YUME, HY-World, and Matrix-Game are advancing rapidly, yet every model is evaluated on its own benchmark with private scenes and trajectories, making fair cross-model comparison impossible. Existing public benchmarks offer useful metrics such as...
+
 ### Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign
 - Source: The Hacker News
 - Category: security
@@ -409,6 +427,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.21632
 - Summary: We investigate the ability of decoder-only transformer models to perform abstract symbolic reasoning; specifically solving propositional logic reasoning problems given in-context. Previous work demonstrated that models fail to generalize to problems involving variable names that were not observed...
+
+### Promoting Simple Agents: Ensemble Methods for Event-Log Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21629
+- Summary: We compare lightweight automata-based models (n-grams) with neural architectures (LSTM, Transformer) for next-activity prediction in streaming event logs. Experiments on synthetic patterns and five real-world process mining datasets show that n-grams with appropriate context windows achieve...
 
 ### Chinese Cybersecurity Firm’s AI Hacking Claims Draw Comparisons to Claude Mythos
 - Source: Security Week
@@ -584,11 +608,29 @@
 - URL: https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html
 - Summary: Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described as a logging issue that has been addressed with improved...
 
+### VG-CoT: Towards Trustworthy Visual Reasoning via Grounded Chain-of-Thought
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21396
+- Summary: The advancement of Large Vision-Language Models (LVLMs) requires precise local region-based reasoning that faithfully grounds the model's logic in actual visual evidence. However, existing datasets face limitations in scalability due to extensive manual annotation and lack of explicit alignment...
+
 ### Recent Microsoft Defender Vulnerability Exploited as Zero-Day
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/recent-microsoft-defender-vulnerability-exploited-as-zero-day/
 - Summary: The flaw allows attackers to access the SAM database, extract NTLM hashes, and gain System privileges. The post Recent Microsoft Defender Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.
+
+### SparseGF: A Height-Aware Sparse Segmentation Framework with Context Compression for Robust Ground Filtering Across Urban to Natural Scenes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21356
+- Summary: High-quality digital terrain models derived from airborne laser scanning (ALS) data are essential for a wide range of geospatial analyses, and their generation typically relies on robust ground filtering (GF) to separate point clouds across diverse landscapes into ground and non-ground parts....
+
+### Symbolic Grounding Reveals Representational Bottlenecks in Abstract Visual Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21346
+- Summary: Vision--language models (VLMs) often fail on abstract visual reasoning benchmarks such as Bongard problems, raising the question of whether the main bottleneck lies in reasoning or representation. We study this on Bongard-LOGO, a synthetic benchmark of abstract concept learning with ground-truth...
 
 ### Sub-Token Routing in LoRA for Adaptation and Query-Aware KV Compression
 - Source: HF Daily Papers
@@ -2976,46 +3018,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/
 - Summary: The handsome new book Maintenance: Of Everything, Part One, by the tech industry legend Stewart Brand, promises to be the first in a series offering “a comprehensive overview of the civilizational importance of maintenance.” One of Brand’s several biographers described him as a mainstay of both...
-
-### How robots learn: A brief, contemporary history
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/
-- Summary: Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto plants. Aim for C-3P0; end up with the Roomba.&#160; The real ambition for many of these researchers was...
-
-### Recent Apache ActiveMQ Vulnerability Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/recent-apache-activemq-vulnerability-exploited-in-the-wild/
-- Summary: The remote code execution vulnerability tracked as CVE-2026-34197 came to light in early April. The post Recent Apache ActiveMQ Vulnerability Exploited in the Wild appeared first on SecurityWeek.
-
-### Two North Korean IT Worker Scheme Facilitators Jailed in the US
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/two-north-korean-it-worker-scheme-facilitators-jailed-in-the-us/
-- Summary: Kejia Wang and Zhenxing Wang compromised the identities of dozens of US persons to help land jobs at over 100 companies. The post Two North Korean IT Worker Scheme Facilitators Jailed in the US appeared first on SecurityWeek.
-
-### Zhuanzhuan Plans to Establish International Business Headquarters in Hong Kong
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhuanzhuan-plans-to-establish-international-business-headquarters-in-hong-kong
-- Summary: Zhuanzhuan plans a Hong Kong international HQ as it scales its recommerce business globally.
-
-### ZionSiphon Malware Targets ICS in Water Facilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/zionsiphon-malware-targets-ics-in-water-facilities/
-- Summary: The malware is configured to operate on systems associated with Israeli water treatment and desalination plants. The post ZionSiphon Malware Targets ICS in Water Facilities appeared first on SecurityWeek.
-
-### ByteDance Denies Reports of Near $14M Annual Pay Package for DeepSeek Researcher Hire
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byte-dance-denies-reports-of-near-14-m-annual-pay-package-for-deep-seek-researcher-hire
-- Summary: ByteDance denies offering a near $14M annual package to a DeepSeek researcher, calling compensation reports “inaccurate.”
-
-### Maniformer Launches One-Stop Physical AI Data Platform to Power the AGI Era
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/maniformer-launches-one-stop-physical-ai-data-platform-to-power-the-agi-era
-- Summary: Maniformer unveils a full-stack physical AI data platform to tackle the industry’s massive data shortage and accelerate embodied AI at scale.
 
