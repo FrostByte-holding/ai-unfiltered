@@ -6,6 +6,42 @@
 
 ## 2026-04-25
 
+### [AINews] DeepSeek V4 Pro (1.6T-A49B) and Flash (284B-A13B), Base and Instruct — runnable on Huawei Ascend chips
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and
+- Summary: The prodigal Tiger returns... but is no longer the benchmarks leader.
+
+### Architecture of an AI-Based Automated Course of Action Generation System for Military Operations
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.20862
+- Summary: arXiv:2604.20862v1 Announce Type: new Abstract: The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA...
+
+### Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.20972
+- Summary: arXiv:2604.20972v1 Announce Type: new Abstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize...
+
+### Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.20987
+- Summary: arXiv:2604.20987v1 Announce Type: new Abstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and...
+
+### Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.20995
+- Summary: arXiv:2604.20995v1 Announce Type: new Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior...
+
+### The Last Harness You'll Ever Build
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2604.21003
+- Summary: arXiv:2604.21003v1 Announce Type: new Abstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis,...
+
 ### Claude Code v2.1.120 Crashes on Startup
 - Source: Anthropic Status
 - Category: incidents
@@ -485,11 +521,23 @@
 - URL: https://tldr.takara.ai/p/2604.21931
 - Summary: How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a...
 
+### When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21911
+- Summary: Despite impressive progress in capabilities of large vision-language models (LVLMs), these systems remain vulnerable to hallucinations, i.e., outputs that are not grounded in the visual input. Prior work has attributed hallucinations in LVLMs to factors such as limitations of the vision backbone or...
+
 ### Directional Confusions Reveal Divergent Inductive Biases Through Rate-Distortion Geometry in Human and Machine Vision
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.21909
 - Summary: Humans and modern vision models can reach similar classification accuracy while making systematically different kinds of mistakes - differing not in how often they err, but in who gets mistaken for whom, and in which direction. We show that these directional confusions reveal distinct inductive...
+
+### Locating acts of mechanistic reasoning in student team conversations with mechanistic machine learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21870
+- Summary: STEM education researchers are often interested in identifying moments of students' mechanistic reasoning for deeper analysis, but have limited capacity to search through many team conversation transcripts to find segments with a high concentration of such reasoning. We offer a solution in the form...
 
 ### Incident with multiple GitHub services
 - Source: GitHub Status
@@ -587,6 +635,12 @@
 - URL: https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html
 - Summary: You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the...
 
+### GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21649
+- Summary: Large Language Models (LLMs) have shown immense potential in Knowledge Graph Completion (KGC), yet bridging the modality gap between continuous graph embeddings and discrete LLM tokens remains a critical challenge. While recent quantization-based approaches attempt to align these modalities, they...
+
 ### To See the Unseen: on the Generalization Ability of Transformers in Symbolic Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -604,6 +658,12 @@
 - Category: security
 - URL: https://www.securityweek.com/chinese-cybersecurity-firms-ai-hacking-claims-draw-comparisons-to-claude-mythos/
 - Summary: 360 Digital Security Group claims to have uncovered 1,000 vulnerabilities using AI, including at the Tianfu Cup hacking contest. The post Chinese Cybersecurity Firm&#8217;s AI Hacking Claims Draw Comparisons to Claude Mythos appeared first on SecurityWeek.
+
+### DryRUN: On the Role of Public Tests in LLM-Driven Code Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21598
+- Summary: Multi-agent frameworks are widely used in autonomous code generation and have applications in complex algorithmic problem-solving. Recent work has addressed the challenge of generating functionally correct code by incorporating simulation-driven planning and debugging, where language models trace...
 
 ### The Download: introducing the Nature issue
 - Source: MIT Tech Review AI
@@ -802,6 +862,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.21335
 - Summary: Sub-token routing offers a finer control axis for transformer efficiency than the coarse units used in most prior work, such as tokens, pages, heads, or layers. In this paper, we study routing within a token representation itself in LoRA-adapted transformers. The motivation is that a relevant token...
+
+### Adversarial Evasion in Non-Stationary Malware Detection: Minimizing Drift Signals through Similarity-Constrained Perturbations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21310
+- Summary: Deep learning has emerged as a powerful approach for malware detection, demonstrating impressive accuracy across various data representations. However, these models face critical limitations in real-world, non-stationary environments where both malware characteristics and detection systems...
 
 ### LatRef-Diff: Latent and Reference-Guided Diffusion for Facial Attribute Editing and Style Manipulation
 - Source: HF Daily Papers
@@ -2947,70 +3013,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.15588
 - Summary: arXiv:2604.15588v1 Announce Type: new Abstract: The integration of Large Language Models (LLMs) into scientific workflows presents exciting opportunities to accelerate biomedical discovery. However, the reactive nature of LLMs, which respond only when prompted, limits their effectiveness in...
-
-### LLM attribution analysis across different fine-tuning strategies and model scales for automated code compliance
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.15589
-- Summary: arXiv:2604.15589v1 Announce Type: new Abstract: Existing research on large language models (LLMs) for automated code compliance has primarily focused on performance, treating the models as black boxes and overlooking how training decisions affect their interpretive behavior. This paper addresses...
-
-### DALM: A Domain-Algebraic Language Model via Three-Phase Structured Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.15593
-- Summary: arXiv:2604.15593v1 Announce Type: new Abstract: Large language models compress heterogeneous knowledge into a single parameter space, allowing facts from different domains to interfere during generation. We propose DALM, a Domain-Algebraic Language Model that replaces unconstrained token generation...
-
-### LLMs Corrupt Your Documents When You Delegate
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.15597
-- Summary: arXiv:2604.15597v1 Announce Type: new Abstract: Large Language Models (LLMs) are poised to disrupt knowledge work, with the emergence of delegated work as a new interaction paradigm (e.g., vibe coding). Delegation requires trust - the expectation that the LLM will faithfully execute the task...
-
-### When Vision-Language Models Judge Without Seeing: Exposing Informativeness Bias
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.17768
-- Summary: The reliability of VLM-as-a-Judge is critical for the automatic evaluation of vision-language models (VLMs). Despite recent progress, our analysis reveals that VLM-as-a-Judge often pays limited attention to the image when making decisions. Instead, they often blindly favor the more informative...
-
-### Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
-- Summary: Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to "certain" internal Vercel systems. The incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the...
-
-### DJI Teases New Agricultural Drone Launch on April 21
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dji-teases-new-agricultural-drone-launch-on-april-21
-- Summary: DJI is set to launch a new product on April 21, widely expected to be its latest agricultural drone.
-
-### Honor Develops New Robotics Lineup After “Lightning,” Including Quadruped Robot Dog and Dexterous Hand
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honor-develops-new-robotics-lineup-after-lightning-including-quadruped-robot-dog-and-dexterous-hand
-- Summary: Honor is expanding beyond humanoids with a robot dog and dexterous hand, pushing toward consumer-ready embodied AI.
-
-### SHAREBOT Expands to 13 Countries, Aiming to Evolve from Rental Platform to Global Robotics Hub
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sharebot-expands-to-13-countries-aiming-to-evolve-from-rental-platform-to-global-robotics-hub
-- Summary: SHAREBOT is expanding to 13 countries, aiming to transform robot rentals into a global, full-stack robotics ecosystem.
-
-### MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.17730
-- Summary: Large language models (LLMs) are increasingly explored as scalable tools for mental health counseling, yet evaluating their safety remains challenging due to the interactional and context-dependent nature of clinical harm. Existing evaluation frameworks predominantly assess isolated responses using...
-
-### Hesai Unveils New Products and Strategy, Aiming to Redefine Physical AI Infrastructure from Autos to Robotics
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hesai-unveils-new-products-and-strategy-aiming-to-redefine-physical-ai-infrastructure-from-autos-to-robotics
-- Summary: Hesai unveiled the world’s first 6D full-color LiDAR chip and a new “spatial intelligence” strategy, signaling a major leap in physical AI infrastructure.
-
-### Humanoid Robots Break the 1-Hour Barrier in Half Marathon, Rapidly Closing Gap with Humans
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/humanoid-robots-break-the-1-hour-barrier-in-half-marathon-rapidly-closing-gap-with-humans
-- Summary: Humanoid robots shattered the 1-hour half marathon barrier, signaling a shift from lab research to real-world deployment.
 
