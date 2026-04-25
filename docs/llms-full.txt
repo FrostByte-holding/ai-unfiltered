@@ -1928,6 +1928,12 @@
 - URL: https://tldr.takara.ai/p/2604.19741
 - Summary: We address the problem of generating a 3D-consistent, navigable environment that is spatially grounded: a simulation of a real location. Existing video generative models can produce a plausible sequence that is consistent with a text (T2V) or image (I2V) prompt. However, the capability to...
 
+### Wan-Image: Pushing the Boundaries of Generative Visual Intelligence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19858
+- Summary: We present Wan-Image, a unified visual generation system explicitly engineered to paradigm-shift image generation models from casual synthesizers into professional-grade productivity tools. While contemporary diffusion models excel at aesthetic generation, they frequently encounter critical...
+
 ### Benign Overfitting in Adversarial Training for Vision Transformers
 - Source: HF Daily Papers
 - Category: open-source
@@ -2178,6 +2184,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.19292
 - Summary: Multilingual large language models (LLMs) have minimized the fluency gap between languages. This advancement, however, exposes models to the risk of biased behavior, as knowledge and norms may propagate across languages. In this work, we aim to quantify models' inter- and intra-lingual biases, via...
+
+### Spatio-temporal modelling of electric vehicle charging demand
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19841
+- Summary: Accurate forecasting of electric vehicle (EV) charging demand is critical for grid management and infrastructure planning. Yet the field continues to rely on legacy benchmarks; such as the Palo Alto (2020) dataset; that fail to reflect the scale and behavioral diversity of modern charging networks....
 
 ### HarDBench: A Benchmark for Draft-Based Co-Authoring Jailbreak Attacks for Safe Human-LLM Collaborative Writing
 - Source: HF Daily Papers
@@ -2588,6 +2600,12 @@
 - URL: https://tldr.takara.ai/p/2604.18569
 - Summary: In this work, we revisit the problem of active sequential prediction-powered mean estimation, where at each round one must decide the query probability of the ground-truth label upon observing the covariates of a sample. Furthermore, if the label is not queried, the prediction from a machine...
 
+### Benchmarking System Dynamics AI Assistants: Cloud Versus Local LLMs on CLD Extraction and Discussion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18566
+- Summary: We present a systematic evaluation of large language model families -- spanning both proprietary cloud APIs and locally-hosted open-source models -- on two purpose-built benchmarks for System Dynamics AI assistance: the \textbf{CLD Leaderboard} (53 tests, structured causal loop diagram extraction)...
+
 ### A Note on TurboQuant and the Earlier DRIVE/EDEN Line of Work
 - Source: HF Daily Papers
 - Category: open-source
@@ -2611,6 +2629,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KPNN2V2SMP3TAN3MCJK87W50
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Agent (Operational) Connectors/Apps (Operational) Voice mode (Operational) Search (Operational) Compliance API (Operational) Image Generation (Operational) Deep Research (Operational) ChatGPT Atlas...
+
+### Too Correct to Learn: Reinforcement Learning on Saturated Reasoning Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18493
+- Summary: Reinforcement Learning (RL) enhances LLM reasoning, yet a paradox emerges as models scale: strong base models saturate standard benchmarks (e.g., MATH), yielding correct but homogeneous solutions. In such environments, the lack of failure cases causes the advantage signal in group-relative...
 
 ### XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments
 - Source: HF Daily Papers
@@ -2653,6 +2677,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.18418
 - Summary: Recent advances in deep research systems enable large language models to retrieve, synthesize, and reason over large-scale external knowledge. In medicine, developing clinical guidelines critically depends on such deep evidence integration. However, existing benchmarks fail to evaluate this...
+
+### Six Llamas: Comparative Religious Ethics Through LoRA-Adapted Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18404
+- Summary: We present Six Llamas, a comparative study examining whether large language models fine-tuned on distinct religious corpora encode systematically different patterns of ethical reasoning. Six variants of Meta-Llama-3.1-8B are constructed: one unmodified control and five LoRA-adapted models trained...
 
 ### LBFTI: Layer-Based Facial Template Inversion for Identity-Preserving Fine-Grained Face Reconstruction
 - Source: HF Daily Papers
@@ -2983,34 +3013,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.15351
 - Summary: arXiv:2604.15351v1 Announce Type: new Abstract: Low-Rank Adaptation (LoRA) has become the dominant parameter-efficient fine-tuning method for large language models, yet standard practice applies LoRA adapters uniformly to all transformer layers regardless of their relevance to the downstream task....
-
-### Sequential KV Cache Compression via Probabilistic Language Tries: Beyond the Per-Vector Shannon Limit
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.15356
-- Summary: arXiv:2604.15356v1 Announce Type: new Abstract: Recent work on KV cache quantization, culminating in TurboQuant, has approached the Shannon entropy limit for per-vector compression of transformer key-value caches. We observe that this limit applies to a strictly weaker problem than the one that...
-
-### Mapping High-Performance Regions in Battery Scheduling across Data Uncertainty, Battery Design, and Planning Horizons
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.15360
-- Summary: arXiv:2604.15360v1 Announce Type: new Abstract: This study presents a triadic analysis of energy storage operation under multi-stage model predictive control, investigating the interplay between data characteristics, forecast uncertainty, planning horizon, and battery c-rate. Synthetic datasets are...
-
-### M3R: Localized Rainfall Nowcasting with Meteorology-Informed MultiModal Attention
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.15377
-- Summary: arXiv:2604.15377v1 Announce Type: new Abstract: Accurate and timely rainfall nowcasting is crucial for disaster mitigation and water resource management. Despite recent advances in deep learning, precipitation prediction remains challenging due to limitations in effectively leveraging diverse...
-
-### Applied Explainability for Large Language Models: A Comparative Study
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.15371
-- Summary: arXiv:2604.15371v1 Announce Type: new Abstract: Large language models (LLMs) achieve strong performance across many natural language processing tasks, yet their decision processes remain difficult to interpret. This lack of transparency creates challenges for trust, debugging, and deployment in...
-
-### Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.15490
-- Summary: arXiv:2604.15490v1 Announce Type: new Abstract: Recent developments in reasoning capabilities have enabled large language models to solve increasingly complex mathematical, symbolic, and logical tasks. Interestingly, while reasoning models are often trained to generate monolingual text, these...
 
