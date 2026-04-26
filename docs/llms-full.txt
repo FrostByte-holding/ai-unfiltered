@@ -929,6 +929,12 @@
 - URL: https://tldr.takara.ai/p/2604.21391
 - Summary: Bridging high-level semantic understanding with low-level physical control remains a persistent challenge in embodied intelligence, stemming from the fundamental spatiotemporal scale mismatch between cognition and action. Existing generative VLA policies typically adopt a "Generation-from-Noise"...
 
+### EdgeFormer: local patch-based edge detection transformer on point clouds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21387
+- Summary: Edge points on 3D point clouds can clearly convey 3D geometry and surface characteristics, therefore, edge detection is widely used in many vision applications with high industrial and commercial demands. However, the fine-grained edge features are difficult to detect effectively as they are...
+
 ### SparseGF: A Height-Aware Sparse Segmentation Framework with Context Compression for Robust Ground Filtering Across Urban to Natural Scenes
 - Source: HF Daily Papers
 - Category: open-source
@@ -1222,6 +1228,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.21182
 - Summary: We propose WildSplatter, a feed-forward 3D Gaussian Splatting (3DGS) model for unconstrained images with unknown camera parameters and varying lighting conditions. 3DGS is an effective scene representation that enables high-quality, real-time rendering; however, it typically requires iterative...
+
+### Graph Neural Network-Informed Predictive Flows for Faster Ford-Fulkerson and PAC-Learnability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21175
+- Summary: We propose a learning-augmented framework for accelerating max-flow computation and image segmentation by integrating Graph Neural Networks (GNNs) with the Ford-Fulkerson algorithm. Rather than predicting initial flows, our method learns edge importance probabilities to guide augmenting path...
 
 ### X Square Robot Launches WALL-B Embodied AI Model for Home Deployment
 - Source: Pandaily
@@ -2329,6 +2341,12 @@
 - URL: https://tldr.takara.ai/p/2604.19151
 - Summary: Existing Indic ASR benchmarks often use scripted, clean speech and leaderboard driven evaluation that encourages dataset specific overfitting. In addition, strict single reference WER penalizes natural spelling variation in Indian languages, including non standardized spellings of code-mixed...
 
+### RL-ABC: Reinforcement Learning for Accelerator Beamline Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19146
+- Summary: Particle accelerator beamline optimization is a high-dimensional control problem traditionally requiring significant expert intervention. We present RLABC (Reinforcement Learning for Accelerator Beamline Control), an open-source Python framework that automatically transforms standard Elegant...
+
 ### Diff-SBSR: Learning Multimodal Feature-Enhanced Diffusion Models for Zero-Shot Sketch-Based 3D Shape Retrieval
 - Source: HF Daily Papers
 - Category: open-source
@@ -2648,6 +2666,12 @@
 - URL: https://tldr.takara.ai/p/2604.18828
 - Summary: Artificial Intelligence (AI) surrogate models provide a computationally efficient alternative to full-physics simulations, but no public datasets currently exist for training and validating models of high-explosive-driven, multi-material shock dynamics. Simulating shock propagation is challenging...
 
+### Sparse Network Inference under Imperfect Detection and its Application to Ecological Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18820
+- Summary: Recovering latent structure from count data has received considerable attention in network inference, particularly when one seeks both cross-group interactions and within-group similarity patterns in bipartite networks, which is widely used in ecology research. Such networks are often sparse and...
+
 ### EfficientPENet: Real-Time Depth Completion from Sparse LiDAR via Lightweight Multi-Modal Fusion
 - Source: HF Daily Papers
 - Category: open-source
@@ -2671,6 +2695,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.18716
 - Summary: Today, machine learning is widely applied in sensitive, security-related, and financially lucrative applications. Model extraction attacks undermine current business models where a model owner sells model access, e.g., via MLaaS APIs. Additionally, stolen models can enable powerful white-box...
+
+### Probing for Reading Times
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18712
+- Summary: Probing has shown that language model representations encode rich linguistic information, but it remains unclear whether they also capture cognitive signals about human processing. In this work, we probe language model representations for human reading times. Using regularized linear regression on...
 
 ### MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval
 - Source: HF Daily Papers
@@ -2983,34 +3013,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/meituan-and-kuaishou-expand-ecosystems-with-social-gaming-and-in-app-knowledge-features
 - Summary: Meituan adds social features to gaming while Kuaishou launches an in-app encyclopedia, signaling a broader push to strengthen ecosystem stickiness.
-
-### Embodied AI Startup X Square Robot Raises Nearly $276M in Series B Led by Xiaomi and Sequoia China
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/embodied-ai-startup-x-square-robot-raises-nearly-276-m-in-series-b-led-by-xiaomi-and-sequoia-china
-- Summary: X Square Robot has raised $276M in Series B, backed by Xiaomi and Sequoia China, highlighting surging investor interest in embodied AI.
-
-### Audi and SAIC Form New JV Tech Entity, Transferring Core R&D Teams
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/audi-and-saic-form-new-jv-tech-entity-transferring-core-r-and-d-teams
-- Summary: Audi and SAIC are spinning off R&amp;D into a new joint venture to accelerate localized innovation while keeping sales within existing channels.
-
-### Employing General-Purpose and Biomedical Large Language Models with Advanced Prompt Engineering for Pharmacoepidemiologic Study Design
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.17988
-- Summary: Background: The potential of large language models (LLMs) to automate and support pharmacoepidemiologic study design is an emerging area of interest, yet their reliability remains insufficiently characterized. General-purpose LLMs often display inaccuracies, while the comparative performance of...
-
-### Chinese tech workers are starting to train their AI doubles–and pushing back
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/
-- Summary: Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier this month a GitHub project called Colleague Skill, which claimed workers could use it to “distill”...
-
-### From Fallback to Frontline: When Can LLMs be Superior Annotators of Human Perspectives?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.17968
-- Summary: Although large language models (LLMs) are increasingly used as annotators at scale, they are typically treated as a pragmatic fallback rather than a faithful estimator of human perspectives. This work challenges that presumption. By framing perspective-taking as the estimation of a latent...
 
