@@ -965,6 +965,12 @@
 - URL: https://tldr.takara.ai/p/2604.21335
 - Summary: Sub-token routing offers a finer control axis for transformer efficiency than the coarse units used in most prior work, such as tokens, pages, heads, or layers. In this paper, we study routing within a token representation itself in LoRA-adapted transformers. The motivation is that a relevant token...
 
+### an interpretable vision transformer framework for automated brain tumor classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21311
+- Summary: Brain tumors represent one of the most critical neurological conditions, where early and accurate diagnosis is directly correlated with patient survival rates. Manual interpretation of Magnetic Resonance Imaging (MRI) scans is time-intensive, subject to inter-observer variability, and demands...
+
 ### Adversarial Evasion in Non-Stationary Malware Detection: Minimizing Drift Signals through Similarity-Constrained Perturbations
 - Source: HF Daily Papers
 - Category: open-source
@@ -2024,6 +2030,12 @@
 - URL: https://tldr.takara.ai/p/2604.19858
 - Summary: We present Wan-Image, a unified visual generation system explicitly engineered to paradigm-shift image generation models from casual synthesizers into professional-grade productivity tools. While contemporary diffusion models excel at aesthetic generation, they frequently encounter critical...
 
+### UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19734
+- Summary: Scaling humanoid foundation models is bottlenecked by the scarcity of robotic data. While massive egocentric human data offers a scalable alternative, bridging the cross-embodiment chasm remains a fundamental challenge due to kinematic mismatches. We introduce UniT (Unified Latent Action Tokenizer...
+
 ### Benign Overfitting in Adversarial Training for Vision Transformers
 - Source: HF Daily Papers
 - Category: open-source
@@ -2131,6 +2143,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.19851
 - Summary: In an election where $n$ voters rank $m$ candidates, a Condorcet winning set is a committee of $k$ candidates such that for any outside candidate, a majority of voters prefer some committee member. Condorcet's paradox shows that some elections admit no Condorcet winning sets with a single candidate...
+
+### RF-HiT: Rectified Flow Hierarchical Transformer for General Medical Image Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19570
+- Summary: Accurate medical image segmentation requires both long-range contextual reasoning and precise boundary delineation, a task where existing transformer- and diffusion-based paradigms are frequently bottlenecked by quadratic computational complexity and prohibitive inference latency. We propose...
 
 ### EgoSelf: From Memory to Personalized Egocentric Assistant
 - Source: HF Daily Papers
@@ -2702,6 +2720,12 @@
 - URL: https://tldr.takara.ai/p/2604.18820
 - Summary: Recovering latent structure from count data has received considerable attention in network inference, particularly when one seeks both cross-group interactions and within-group similarity patterns in bipartite networks, which is widely used in ecology research. Such networks are often sparse and...
 
+### Discriminative-Generative Synergy for Occlusion Robust 3D Human Mesh Recovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21712
+- Summary: 3D human mesh recovery from monocular RGB images aims to estimate anatomically plausible 3D human models for downstream applications, but remains challenging under partial or severe occlusions. Regression-based methods are efficient yet often produce implausible or inaccurate results in...
+
 ### EfficientPENet: Real-Time Depth Completion from Sparse LiDAR via Lightweight Multi-Modal Fusion
 - Source: HF Daily Papers
 - Category: open-source
@@ -2839,6 +2863,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.19827
 - Summary: Software engineering faces a fundamental challenge: multi-agent AI systems fail in ways that defy explanation by traditional theories. While individual agents perform correctly, their interactions degrade entire ecosystems, revealing a gap in our understanding of software evolution. This paper...
+
+### EAST: Early Action Prediction Sampling Strategy with Token Masking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18367
+- Summary: Early action prediction seeks to anticipate an action before it fully unfolds, but limited visual evidence makes this task especially challenging. We introduce EAST, a simple and efficient framework that enables a model to reason about incomplete observations. In our empirical study, we identify...
 
 ### LBFTI: Layer-Based Facial Template Inversion for Identity-Preserving Fine-Grained Face Reconstruction
 - Source: HF Daily Papers
@@ -2983,34 +3013,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/fmz74mc27dkf
 - Summary: Apr 20, 11:08 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 20, 10:13 UTCIdentified - Cloudflare is aware of, and investigating an issue where some requests processed by workers may not be correctly enforcing rulesets rate limiting counts.
-
-### Bluesky Disrupted by Sophisticated DDoS Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/bluesky-disrupted-by-sophisticated-ddos-attack/
-- Summary: A pro-Iran hacker group has taken credit for the attack on Bluesky, which appears to have lasted 24 hours. The post Bluesky Disrupted by Sophisticated DDoS Attack appeared first on SecurityWeek.
-
-### Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
-- Summary: Cybersecurity researchers have discovered a critical "by design" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain. "This flaw enables Arbitrary Command Execution...
-
-### Enhancing Anomaly-Based Intrusion Detection Systems with Process Mining
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18066
-- Summary: Anomaly-based Intrusion Detection Systems (IDSs) ensure protection against malicious attacks on networked systems. While deep learning-based IDSs achieve effective performance, their limited trustworthiness due to black-box architectures remains a critical constraint. Despite existing explainable...
-
-### Senate Extends Surveillance Powers Until April 30 After Chaotic Votes in House
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/senate-extends-surveillance-powers-until-april-30-after-chaotic-votes-in-house/
-- Summary: The Senate approved a short-term renewal until April 30 of a controversial surveillance program used by U.S. spy agencies. The post Senate Extends Surveillance Powers Until April 30 After Chaotic Votes in House appeared first on SecurityWeek.
-
-### JudgeMeNot: Personalizing Large Language Models to Emulate Judicial Reasoning in Hebrew
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18041
-- Summary: Despite significant advances in large language models, personalizing them for individual decision-makers remains an open problem. Here, we introduce a synthetic-organic supervision pipeline that transforms raw judicial decisions into instruction-tuning data, enabling parameter-efficient fine-tuning...
 
