@@ -593,6 +593,12 @@
 - URL: https://tldr.takara.ai/p/2604.21930
 - Summary: Streaming Continual Learning (CL) typically converts a continuous stream into a sequence of discrete tasks through temporal partitioning. We argue that this temporal taskification step is not a neutral preprocessing choice, but a structural component of evaluation: different valid splits of the...
 
+### Fine-Tuning Regimes Define Distinct Continual Learning Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21927
+- Summary: Continual learning (CL) studies how models acquire tasks sequentially while retaining previously learned knowledge. Despite substantial progress in benchmarking CL methods, comparative evaluations typically keep the fine-tuning regime fixed. In this paper, we argue that the fine-tuning regime,...
+
 ### When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -676,6 +682,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.21744
 - Summary: The capabilities of AI-assisted coding are progressing at breakneck speed. Chat-based vibe coding has evolved into fully fledged AI-assisted, agentic software development using agent scaffolds where the human developer creates a plan that agentic AIs implement. One current trend is utilizing...
+
+### Enabling and Inhibitory Pathways of University Students' Willingness to Disclose AI Use: A Cognition-Affect-Conation Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21733
+- Summary: The increasing integration of artificial intelligence (AI) in higher education has raised important questions regarding students' transparency in reporting AI-assisted work. This study investigates the psychological mechanisms underlying university students' willingness to disclose AI use by...
 
 ### Beyond the Model Race: How Tencent Is Building Its Global AI Moat
 - Source: Pandaily
@@ -1564,6 +1576,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html
 - Summary: Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector. "The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations,...
+
+### Efficient INT8 Single-Image Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20291
+- Summary: Efficient single-image super-resolution (SISR) requires balancing reconstruction fidelity, model compactness, and robustness under low-bit deployment, which is especially challenging for x3 SR. We present a deployment-oriented quantized SISR framework based on an extract-refine-upsample design. The...
 
 ### Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape
 - Source: The Hacker News
@@ -2834,6 +2852,12 @@
 - URL: https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html
 - Summary: Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push...
 
+### DeepRitzSplit Neural Operator for Phase-Field Models via Energy Splitting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.18261
+- Summary: The multi-scale and non-linear nature of phase-field models of solidification requires fine spatial and temporal discretization, leading to long computation times. This could be overcome with artificial-intelligence approaches. Surrogate models based on neural operators could have a lower...
+
 ### Elevated errors for uploading files
 - Source: Anthropic Status
 - Category: incidents
@@ -2989,28 +3013,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.18026
 - Summary: Many deployed systems expose black-box objectives whose minimizing configuration shifts with an externally observed context. When contexts revisit a small set of latent regimes, an optimizer that discards history pays repeated adaptation cost; when each step must remain inexpensive, full...
-
-### Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KPMVSSRWY55RX257730KS2FA
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.
-
-### Half of the 6 Million Internet-Facing FTP Servers Lack Encryption
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/half-of-the-6-million-internet-facing-ftp-servers-lack-encryption/
-- Summary: The continued use of the half-century-old protocol exposes enterprises and end users to various types of attacks. The post Half of the 6 Million Internet-Facing FTP Servers Lack Encryption appeared first on SecurityWeek.
-
-### Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18005
-- Summary: Multi-agent systems (MAS) are increasingly used for open-ended idea generation, driven by the expectation that collective interaction will broaden the exploration diversity. However, when and why such collaboration truly expands the solution space remains unclear. We present a systematic empirical...
-
-### Meituan and Kuaishou Expand Ecosystems with Social Gaming and In-App Knowledge Features
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/meituan-and-kuaishou-expand-ecosystems-with-social-gaming-and-in-app-knowledge-features
-- Summary: Meituan adds social features to gaming while Kuaishou launches an in-app encyclopedia, signaling a broader push to strengthen ecosystem stickiness.
 
