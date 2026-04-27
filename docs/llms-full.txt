@@ -6,11 +6,53 @@
 
 ## 2026-04-27
 
+### Incomplete Windows Patch Opens Door to Zero-Click Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/
+- Summary: The initial vulnerability was exploited by Russia-linked APT28 in attacks against Ukraine and EU countries. The post Incomplete Windows Patch Opens Door to Zero-Click Attacks appeared first on SecurityWeek.
+
+### Rebuilding the data stack for AI
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/
+- Summary: Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI...
+
+### OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/
+- Summary: A code reuse issue enabled comma characters in certificate principals to be interpreted as list separators. The post OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years appeared first on SecurityWeek.
+
+### The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three reasons why DeepSeek’s new model matters On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model....
+
 ### Could your choice of metrics be harming your SOC?
 - Source: NCSC UK
 - Category: security
 - URL: https://www.ncsc.gov.uk/blogs/could-your-choice-of-metrics-be-harming-your-soc
 - Summary: Poor metrics can render a well-intentioned security operation centre entirely ineffective.
+
+### Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html
+- Summary: Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate,...
+
+### PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
+- Summary: A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging...
+
+### Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html
+- Summary: Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm. The cluster of 73 extensions has been identified as cloned versions of their legitimate...
 
 ### Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access
 - Source: Security Week
@@ -1442,6 +1484,12 @@
 - URL: https://status.claude.com/incidents/t6v0k97s0802
 - Summary: Apr 23, 02:00 UTCResolved - We have identified and resolved an issue which resulted in issues with model responses when making use of structured outputs via the Anthropic API between 16:10 UTC on April 22 and 01:59 UTC on April 23. During this period, structured outputs containing some forms of...
 
+### On Reasoning Behind Next Occupation Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21204
+- Summary: In this work, we develop a novel reasoning approach to enhance the performance of large language models (LLMs) in future occupation prediction. In this approach, a reason generator first derives a ``reason'' for a user using his/her past education and career history. The reason summarizes the...
+
 ### How VLAs (Really) Work In Open-World Environments
 - Source: HF Daily Papers
 - Category: open-source
@@ -1831,6 +1879,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.20256
 - Summary: A common strategy in transfer learning is few shot fine-tuning, but its success is highly dependent on the quality of samples selected as training examples. Active learning methods such as uncertainty sampling and diversity sampling can select useful samples. However, under extremely low-resource...
+
+### Bio-inspired Color Constancy: From Gray Anchoring Theory to Gray Pixel Methods
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20243
+- Summary: Color constancy is a fundamental ability of many biological visual systems and a crucial step in computer imaging systems. Bio-inspired modeling offers a promising way to elucidate the computational principles underlying color constancy and to develop efficient computational methods. However,...
 
 ### Tencent Launches Overseas Beta of QClaw AI Agent Platform
 - Source: Pandaily
@@ -2417,6 +2471,12 @@
 - URL: https://www.securityweek.com/dozens-of-malicious-crypto-apps-land-in-apple-app-store/
 - Summary: Masquerading as popular cryptocurrency wallets, the apps can hijack recovery phrases and private keys. The post Dozens of Malicious Crypto Apps Land in Apple App Store appeared first on SecurityWeek.
 
+### Watts-per-Intelligence Part II: Algorithmic Catalysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20897
+- Summary: We develop a thermodynamic theory of algorithmic catalysis within the watts-per-intelligence framework, identifying reusable computational structures that reduce irreversible operations for a task class while satisfying bounded restoration and structural selectivity constraints. We prove that any...
+
 ### ZC-Swish: Stabilizing Deep BN-Free Networks for Edge and Micro-Batch Applications
 - Source: HF Daily Papers
 - Category: open-source
@@ -2440,6 +2500,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/mq15qk6bgc63
 - Summary: Apr 21, 12:58 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Access in a limited number of geographic locations.Customers using Cloudflare Access can experience a small number of errors. We are working to understand the full impact and mitigate this problem. More updates to...
+
+### CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19414
+- Summary: Sequential Recommendation (SR) aims to predict the next interaction of a user based on their behavior sequence, where complementary relations often provide essential signals for predicting the next item. However, mainstream models relying on sparse co-purchase statistics often mistake spurious...
 
 ### NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs
 - Source: The Hacker News
@@ -2947,73 +3013,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/cybersecurity-openness
-
-
-## 2026-04-20
-
-### Some users will see higher error rates on Codex
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KPPJX4KHFAWS8YQE3KW235X7
-- Summary: Status: ResolvedAll impacted services have now fully recovered.
-
-### DDF2Pol: A Dual-Domain Feature Fusion Network for PolSAR Image Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18853
-- Summary: This paper presents DDF2Pol, a lightweight dual-domain convolutional neural network for PolSAR image classification. The proposed architecture integrates two parallel feature extraction streams, one real-valued and one complex-valued, designed to capture complementary spatial and polarimetric...
-
-### The High Explosives and Affected Targets (HEAT) Dataset
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18828
-- Summary: Artificial Intelligence (AI) surrogate models provide a computationally efficient alternative to full-physics simulations, but no public datasets currently exist for training and validating models of high-explosive-driven, multi-material shock dynamics. Simulating shock propagation is challenging...
-
-### Sparse Network Inference under Imperfect Detection and its Application to Ecological Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18820
-- Summary: Recovering latent structure from count data has received considerable attention in network inference, particularly when one seeks both cross-group interactions and within-group similarity patterns in bipartite networks, which is widely used in ecology research. Such networks are often sparse and...
-
-### Discriminative-Generative Synergy for Occlusion Robust 3D Human Mesh Recovery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.21712
-- Summary: 3D human mesh recovery from monocular RGB images aims to estimate anatomically plausible 3D human models for downstream applications, but remains challenging under partial or severe occlusions. Regression-based methods are efficient yet often produce implausible or inaccurate results in...
-
-### EfficientPENet: Real-Time Depth Completion from Sparse LiDAR via Lightweight Multi-Modal Fusion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18790
-- Summary: Depth completion from sparse LiDAR measurements and corresponding RGB images is a prerequisite for accurate 3D perception in robotic systems. Existing methods achieve high accuracy on standard benchmarks but rely on heavy backbone architectures that preclude real-time deployment on embedded...
-
-### Elevated errors for ChatGPT conversations in Europe
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KPNZ1BW91D4S3V5PWWEVQ5F1
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### Reading today's open-closed performance gap
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/reading-todays-open-closed-performance
-- Summary: The complex factors that determine the single evaluation number so many focus on. Plus, how this changes in the future.
-
-### TrEEStealer: Stealing Decision Trees via Enclave Side Channels
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18716
-- Summary: Today, machine learning is widely applied in sensitive, security-related, and financially lucrative applications. Model extraction attacks undermine current business models where a model owner sells model access, e.g., via MLaaS APIs. Additionally, stolen models can enable powerful white-box...
-
-### Probing for Reading Times
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18712
-- Summary: Probing has shown that language model representations encode rich linguistic information, but it remains unclear whether they also capture cognitive signals about human processing. In this work, we probe language model representations for human reading times. Using regularized linear regression on...
-
-### MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18584
-- Summary: Mathematical problem solving remains a challenging test of reasoning for large language and multimodal models, yet existing benchmarks are limited in size, language coverage, and task diversity. We introduce MathNet, a high-quality, large-scale, multimodal, and multilingual dataset of...
 
