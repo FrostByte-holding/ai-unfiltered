@@ -6,6 +6,36 @@
 
 ## 2026-04-27
 
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/vq183jvj6vrw
+- Summary: Apr 27, 17:01 UTCUpdate - Copilot Cloud Agent (CCA) jobs using the Codex agent are failing after starting. To avoid this issue, please choose a different agent. We are investigating the cause and working towards remediationApr 27, 16:48 UTCInvestigating - We are investigating reports of impacted...
+
+### GitHub search is degraded
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/ql942tw29yl6
+- Summary: Apr 27, 16:53 UTCUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.Apr 27, 16:39 UTCUpdate - Packages is experiencing degraded performance. We are continuing to investigate.Apr 27, 16:36 UTCUpdate - Issues is experiencing degraded performance. We are...
+
+### The missing step between hype and profit
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes....
+
+### Elevated billing related errors on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/mct55f8gxb7k
+- Summary: Apr 27, 15:18 UTCResolved - This incident has been resolved.Apr 27, 14:11 UTCInvestigating - We are currently investigating this issue.
+
+### Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html
+- Summary: Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. "Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that...
+
 ### Incomplete Windows Patch Opens Door to Zero-Click Attacks
 - Source: Security Week
 - Category: security
@@ -245,6 +275,11 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/robotera-raises-nearly-350-m-in-two-months-claims-first-pmf-in-embodied-ai
 - Summary: Robotera raises nearly $350M in two months as it scales embodied AI robots and achieves early commercialization in logistics.
+
+### How to build scalable web apps with OpenAI's Privacy Filter
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/openai-privacy-filter-web-apps
 
 
 ## 2026-04-25
@@ -1202,6 +1237,12 @@
 - URL: https://tldr.takara.ai/p/2604.21387
 - Summary: Edge points on 3D point clouds can clearly convey 3D geometry and surface characteristics, therefore, edge detection is widely used in many vision applications with high industrial and commercial demands. However, the fine-grained edge features are difficult to detect effectively as they are...
 
+### Conjecture and Inquiry: Quantifying Software Performance Requirements via Interactive Retrieval-Augmented Preference Elicitation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21380
+- Summary: Since software performance requirements are documented in natural language, quantifying them into mathematical forms is essential for software engineering. Yet, the vagueness in performance requirements and uncertainty of human cognition have caused highly uncertain ambiguity in the...
+
 ### SparseGF: A Height-Aware Sparse Segmentation Framework with Context Compression for Robust Ground Filtering Across Urban to Natural Scenes
 - Source: HF Daily Papers
 - Category: open-source
@@ -1528,6 +1569,12 @@
 
 ## 2026-04-22
 
+### Weighting What Matters: Boosting Sample Efficiency in Medical Report Generation via Token Reweighting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.21082
+- Summary: Training vision-language models (VLMs) for medical report generation is often hindered by the scarcity of high-quality annotated data. This work evaluates the use of a weighted loss function to improve data efficiency. Compared to standard cross-entropy loss, which treats all token prediction...
+
 ### Cloudflare Registration Data Access Protocol (RDAP) Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -1557,6 +1604,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.20817
 - Summary: Language models trained on natural text learn to represent numbers using periodic features with dominant periods at $T=2, 5, 10$. In this paper, we identify a two-tiered hierarchy of these features: while Transformers, Linear RNNs, LSTMs, and classical word embeddings trained in different ways all...
+
+### Relative Principals, Pluralistic Alignment, and the Structural Value Alignment Problem
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.20805
+- Summary: The value alignment problem for artificial intelligence (AI) is often framed as a purely technical or normative challenge, sometimes focused on hypothetical future systems. I argue that the problem is better understood as a structural question about governance: not whether an AI system is aligned...
 
 ### Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens
 - Source: The Hacker News
@@ -2519,6 +2572,12 @@
 - URL: https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/
 - Summary: Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server. The post Unsecured Perforce Servers Expose Sensitive Data From Major Orgs appeared first on SecurityWeek.
 
+### Revisiting Catastrophic Forgetting in Continual Knowledge Graph Embedding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.19401
+- Summary: Knowledge Graph Embeddings (KGEs) support a wide range of downstream tasks over Knowledge Graphs (KGs). In practice, KGs evolve as new entities and facts are added, motivating Continual Knowledge Graph Embedding (CKGE) methods that update embeddings over time. Current CKGE approaches address...
+
 ### Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster
 - Source: Security Week
 - Category: security
@@ -2955,62 +3014,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.19015
 - Summary: Federated fine-tuning of Large Language Models (LLMs) is obstructed by a trilemma of challenges: protecting LLMs intellectual property (IP), ensuring client privacy, and mitigating performance loss on heterogeneous data. Existing methods like Offsite-Tuning (OT) secure the LLMs IP by having clients...
-
-### Some users may encounter issues with GPT-5.4-C model in Codex
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KPPY7B8PMYHJWDNFY9TMJX33
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Codex API (Degraded performance) Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance)
-
-### Toward Clinically Acceptable Chest X-ray Report Generation: A Qualitative Retrospective Pilot Study of CXRMate-2
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.18967
-- Summary: Chest X-ray (CXR) radiology report generation (RRG) models have shown rapid progress, yet their clinical utility remains uncertain due to limited evaluation by radiologists. We present CXRMate-2, a state-of-the-art CXR RRG model that integrates structured multimodal conditioning and reinforcement...
-
-### ELEGOO Raises USD Tens of Millions in B+ Round Backed by Meituan and DJI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/elegoo-raises-usd-tens-of-millions-in-b-round-backed-by-meituan-and-dji
-- Summary: Consumer 3D printing firm ELEGOO has raised tens of millions of USD in a B+ round from investors including DJIGlobal and Meituan, aiming to close the gap with market leaders as its 2025 revenue surpasses $320 million USD.
-
-### NASN Automotive Electronics Receives Approval for Hong Kong Listing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/nasn-automotive-electronics-receives-approval-for-hong-kong-listing
-- Summary: NASN Automotive Electronics, a Chinese specialist in by-wire chassis systems, has received regulatory clearance for its planned Hong Kong IPO, positioning it as a potential frontrunner in the autonomous driving supply chain.
-
-### ShadowAI Raises USD 14 Million for 3D World Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shadow-ai-raises-usd-14-million-for-3-d-world-models
-- Summary: Embodied AI startup ShadowAI has secured nearly $14 million USD in cumulative early-stage funding to advance its native 3D dynamic world model, which enables low-cost real-time spatial data capture for flexible manufacturing robots.
-
-### FAIRLAND Files for Hong Kong IPO, Reports USD 140 Million Revenue
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/fairland-files-for-hong-kong-ipo-reports-usd-140-million-revenue
-- Summary: FAIRLAND Group, China's largest smart pool equipment supplier, has filed for a Hong Kong IPO after reporting a 33.1% revenue jump to $140 million USD in 2025, despite swinging to a net loss amid heavy D2C expansion.
-
-### Alibaba Releases Qwen3.6-Max-Preview
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-releases-qwen3-6-max-preview
-- Summary: Alibaba has unveiled Qwen3.6-Max-Preview, the latest and most capable model in its Qwen series, demonstrating enhanced performance in agentic coding, world knowledge, and instruction following.
-
-### How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas
-
-### [AINews] Moonshot Kimi K2.6: the world's leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds
-- Summary: Yay Kimi!!!
-
-### AI and the Future of Cybersecurity: Why Openness Matters
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/cybersecurity-openness
 
