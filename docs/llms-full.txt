@@ -6,6 +6,12 @@
 
 ## 2026-04-28
 
+### Duplicated values in X-Forwarded-For header
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/yg4t0swj39fg
+- Summary: Apr 28, 20:39 UTCUpdate - We are continuing to work on a fix for this issue.Apr 28, 19:00 UTCUpdate - We are continuing to work on a fix for this issue. A fix is expected to roll out over the next ~11 hours - ETA ~07:00 UTC 29 Apr. 2026.Apr 28, 19:00 UTCIdentified - The issue has been identified...
+
 ### Claude.ai unavailable
 - Source: Anthropic Status
 - Category: incidents
@@ -367,6 +373,12 @@
 - URL: https://status.claude.com/incidents/mct55f8gxb7k
 - Summary: Apr 27, 15:18 UTCResolved - This incident has been resolved.Apr 27, 14:11 UTCInvestigating - We are currently investigating this issue.
 
+### Fraud Detection in Cryptocurrency Markets with Spatio-Temporal Graph Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24590
+- Summary: Technological advancements in cryptocurrency markets have increased accessibility for investors, but concurrently exposed them to the risks of market manipulations. Existing fraud detection mechanisms typically rely on machine learning methods that treat each financial asset (i.e., token) and its...
+
 ### RACANet: Reliability-Aware Crowd Anchor Network for RGB-T Crowd Counting
 - Source: HF Daily Papers
 - Category: open-source
@@ -378,6 +390,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html
 - Summary: Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. "Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that...
+
+### CA-IDD: Cross-Attention Guided Identity-Conditional Diffusion for Identity-Consistent Face Swapping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24493
+- Summary: Face swapping aims to optimize realistic facial image generation by leveraging the identity of a source face onto a target face while preserving pose, expression, and context. However, existing methods, especially GAN-based methods, often struggle to balance identity preservation and visual realism...
 
 ### ⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More
 - Source: The Hacker News
@@ -409,6 +427,12 @@
 - URL: https://tldr.takara.ai/p/2604.24401
 - Summary: Large Audio-Language Models show consistent performance gains across speech and audio benchmarks, yet high scores may not reflect true auditory perception. If a model can answer questions without processing the acoustic signal, the benchmark fails as a measure of auditory understanding. We present...
 
+### Complexity of Linear Regions in Self-supervised Deep ReLU Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24393
+- Summary: There has been growing interest in studying the complexity of Rectified Linear Unit (ReLU) based activation networks. Recent work investigates the evolution of the number of piecewise-linear partitions (linear regions) that are formed during training. However, current research is limited to...
+
 ### The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
 - Source: MIT Tech Review AI
 - Category: research
@@ -420,6 +444,12 @@
 - Category: security
 - URL: https://www.securityweek.com/malicious-ai-prompt-injection-attacks-increasing-but-sophistication-still-low-google/
 - Summary: The tech giant found that many indirect prompt injection attempts are harmless, but some malicious exploits have also been identified. The post Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google appeared first on SecurityWeek.
+
+### PathMoG: A Pathway-Centric Modular Graph Neural Network for Multi-Omics Survival Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24371
+- Summary: Cancer survival prediction from multi-omics data remains challenging because prognostic signals are high-dimensional, heterogeneous, and distributed across interacting genes and pathways. We propose PathMoG, a pathway-centric modular graph neural network for multi-omics survival prediction. PathMoG...
 
 ### Could your choice of metrics be harming your SOC?
 - Source: NCSC UK
@@ -438,6 +468,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
 - Summary: A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging...
+
+### ARETE: Attention-based Rasterized Encoding for Topology Estimation using HSV-transformed Crowdsourced Vehicle Fleet Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24353
+- Summary: The continuous advancement of autonomous driving (AD) introduces challenges across multiple disciplines to ensure safe and efficient driving. One such challenge is the generation of High-Definition (HD) maps, which must remain up to date and highly accurate for downstream automotive tasks. One...
 
 ### Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware
 - Source: The Hacker News
@@ -2980,40 +3016,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/pykgy6sq109l
 - Summary: Apr 21, 16:49 UTCResolved - This incident has been resolved.Apr 21, 16:31 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 21, 16:25 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 21, 15:02 UTCInvestigating - Cloudflare is...
-
-### Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.19667
-- Summary: At present, executable visual workflows have emerged as a mainstream paradigm in real-world industrial deployments, offering strong reliability and controllability. However, in current practice, such workflows are almost entirely constructed through manual engineering: developers must carefully...
-
-### Disruption with projects service
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/b4235qyfzx2z
-- Summary: Apr 21, 16:45 UTCUpdate - The mitigation is deployed and we are seeing recorvery in the queues and will provide an update as to when full recovery will be realized.Apr 21, 16:18 UTCUpdate - We are deploying a fix to relieve the queue of delayed data. Some users may still experience delays with...
-
-### CreatiParser: Generative Image Parsing of Raster Graphic Designs into Editable Layers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.19632
-- Summary: Graphic design images consist of multiple editable layers, such as text, background, and decorative elements, while most generative models produce rasterized outputs without explicit layer structures, limiting downstream editing. Existing graphic design parsing methods typically rely on multi-stage...
-
-### MOSA: Motion-Guided Semantic Alignment for Dynamic Scene Graph Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.19631
-- Summary: Dynamic Scene Graph Generation (DSGG) aims to structurally model objects and their dynamic interactions in video sequences for high-level semantic understanding. However, existing methods struggle with fine-grained relationship modeling, semantic representation utilization, and the ability to model...
-
-### Cloudflare Pages build issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/c87g79p2xg7r
-- Summary: Apr 21, 16:07 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 21, 15:46 UTCInvestigating - Cloudflare is aware of and investigating an issue with Cloudflare Pages builds which potentially impacts multiple customers. Users may not be able to push changes to their...
-
-### Network Performance Issues in Seattle, Washington
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/mzt8f71v2qzn
-- Summary: Apr 21, 16:03 UTCMonitoring - Cloudflare has identified and mitigated issues with network performance in Seattle. We have implemented a fix and are currently monitoring
 
