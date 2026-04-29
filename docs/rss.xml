@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 29 Apr 2026 14:04:08 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 17:41:14 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>AI evals are becoming the new compute bottleneck</title>
+            <link>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</link>
+            <guid>https://huggingface.co/blog/evaleval/eval-costs-bottleneck</guid>
+            <pubDate>Wed, 29 Apr 2026 16:45:09 +0000</pubDate>
+            <source url="https://huggingface.co/blog/evaleval/eval-costs-bottleneck">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Granite 4.1 LLMs: How They’re Built</title>
+            <link>https://huggingface.co/blog/ibm-granite/granite-4-1</link>
+            <guid>https://huggingface.co/blog/ibm-granite/granite-4-1</guid>
+            <pubDate>Wed, 29 Apr 2026 15:01:48 +0000</pubDate>
+            <source url="https://huggingface.co/blog/ibm-granite/granite-4-1">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>Elevated errors on Claude Haiku 4.5</title>
             <link>https://status.claude.com/incidents/3yxsctr39y3j</link>
@@ -351,6 +369,15 @@
             <description>Apr 29, 00:00 UTCResolved - The incident is now resolved. The impact was between 16:25 PT / 23:25 UTC and 16:33 PT / 23:33 UTC.Apr 28, 23:33 UTCInvestigating - We are currently investigating this issue.</description>
         </item>
         <item>
+            <title>DeepInfra on Hugging Face Inference Providers 🔥</title>
+            <link>https://huggingface.co/blog/inference-providers-deepinfra</link>
+            <guid>https://huggingface.co/blog/inference-providers-deepinfra</guid>
+            <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+            <source url="https://huggingface.co/blog/inference-providers-deepinfra">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
             <title>Codex stream is disconnecting intermittently</title>
             <link>https://status.openai.com//incidents/01KQB4AMHC9CKFYT863PMXN1YR</link>
             <guid>https://status.openai.com//incidents/01KQB4AMHC9CKFYT863PMXN1YR</guid>
@@ -387,6 +414,15 @@
             <description>In this work, we propose Mutual Forcing, a framework for fast autoregressive audio-video generation with long-horizon audio-video synchronization. Our approach addresses two key challenges: joint audio-video modeling and fast autoregressive generation. To ease joint audio-video optimization, we...</description>
         </item>
         <item>
+            <title>At the Edge of the Heart: ULP FPGA-Based CNN for On-Device Cardiac Feature Extraction in Smart Health Sensors for Astronauts</title>
+            <link>https://tldr.takara.ai/p/2604.25799</link>
+            <guid>https://tldr.takara.ai/p/2604.25799</guid>
+            <pubDate>Tue, 28 Apr 2026 16:10:16 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2604.25799">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>The convergence of accelerating human spaceflight ambitions and critical terrestrial health monitoring demands is driving unprecedented requirements for reliable, real-time feature extraction on extremely resource-constrained wearable health sensors. We present an ultra-low-power (ULP)...</description>
+        </item>
+        <item>
             <title>Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents</title>
             <link>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</link>
             <guid>https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence</guid>
@@ -421,42 +457,6 @@
             <source url="https://tldr.takara.ai/p/2604.25680">HF Daily Papers</source>
             <category>open-source</category>
             <description>Unaddressed pain in neonates can lead to adverse effects, including delayed development and slower weight gain, emphasising the need for more objective and reliable pain assessment methods. Hence, automated methods using behavioural and physiological pain indicators have been developed to aid...</description>
-        </item>
-        <item>
-            <title>Disruption with some GitHub services</title>
-            <link>https://www.githubstatus.com/incidents/dbypmw7h77l5</link>
-            <guid>https://www.githubstatus.com/incidents/dbypmw7h77l5</guid>
-            <pubDate>Tue, 28 Apr 2026 14:02:36 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/dbypmw7h77l5">GitHub Status</source>
-            <category>incidents</category>
-            <description>Apr 28, 14:02 UTCInvestigating - Actions is experiencing degraded performance. We are continuing to investigate.Apr 28, 13:59 UTCMonitoring - Actions is experiencing capacity constraints with hosted ubuntu-latest and ubuntu-24.02, leading to high wait times. Other hosted labels and self-hosted...</description>
-        </item>
-        <item>
-            <title>Elevated error rates in Sora API for some users</title>
-            <link>https://status.openai.com//incidents/01KQA5SDSC9P4VGBZ9EPPR06MH</link>
-            <guid>https://status.openai.com//incidents/01KQA5SDSC9P4VGBZ9EPPR06MH</guid>
-            <pubDate>Tue, 28 Apr 2026 13:52:19 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KQA5SDSC9P4VGBZ9EPPR06MH">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: InvestigatingWe are investigating the issue for the listed services.Affected components Sora (Degraded performance)</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Sonnet 4.5</title>
-            <link>https://status.claude.com/incidents/x1y91zcb2rp2</link>
-            <guid>https://status.claude.com/incidents/x1y91zcb2rp2</guid>
-            <pubDate>Tue, 28 Apr 2026 13:50:06 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/x1y91zcb2rp2">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Apr 28, 13:50 UTCResolved - The incident has now been resolved. The timeline for the elevated errors was 6:22 PT / 13:22 UTC -&gt; 6:39 PT / 13:39 UTC.Apr 28, 13:29 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Bye Bye Perspective API: Lessons for Measurement Infrastructure in NLP, CSS and LLM Evaluation</title>
-            <link>https://tldr.takara.ai/p/2604.25580</link>
-            <guid>https://tldr.takara.ai/p/2604.25580</guid>
-            <pubDate>Tue, 28 Apr 2026 12:49:54 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.25580">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>The closure of Perspective API at the end of 2026 discards what has functioned as the de facto standard for automated toxicity measurement in NLP, CSS, and LLM evaluation research. We document the structural dependence that the communities built on this single proprietary tool and discuss how this...</description>
         </item>
     </channel>
 </rss>

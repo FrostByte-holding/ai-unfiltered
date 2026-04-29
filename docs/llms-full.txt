@@ -6,6 +6,16 @@
 
 ## 2026-04-29
 
+### AI evals are becoming the new compute bottleneck
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/evaleval/eval-costs-bottleneck
+
+### Granite 4.1 LLMs: How They’re Built
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-4-1
+
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -270,6 +280,11 @@
 - URL: https://status.claude.com/incidents/lryjwwy0q9pl
 - Summary: Apr 29, 00:00 UTCResolved - The incident is now resolved. The impact was between 16:25 PT / 23:25 UTC and 16:33 PT / 23:33 UTC.Apr 28, 23:33 UTCInvestigating - We are currently investigating this issue.
 
+### DeepInfra on Hugging Face Inference Providers 🔥
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/inference-providers-deepinfra
+
 
 ## 2026-04-28
 
@@ -320,6 +335,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.25819
 - Summary: In this work, we propose Mutual Forcing, a framework for fast autoregressive audio-video generation with long-horizon audio-video synchronization. Our approach addresses two key challenges: joint audio-video modeling and fast autoregressive generation. To ease joint audio-video optimization, we...
+
+### At the Edge of the Heart: ULP FPGA-Based CNN for On-Device Cardiac Feature Extraction in Smart Health Sensors for Astronauts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25799
+- Summary: The convergence of accelerating human spaceflight ambitions and critical terrestrial health monitoring demands is driving unprecedented requirements for reliable, real-time feature extraction on extremely resource-constrained wearable health sensors. We present an ultra-low-power (ULP)...
 
 ### Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents
 - Source: Hugging Face Blog
@@ -380,6 +401,12 @@
 - URL: https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html
 - Summary: Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors. The fact that VECT's...
 
+### LLM-ReSum: A Framework for LLM Reflective Summarization through Self-Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25665
+- Summary: Reliable evaluation of large language model (LLM)-generated summaries remains an open challenge, particularly across heterogeneous domains and document lengths. We conduct a comprehensive meta-evaluation of 14 automatic summarization metrics and LLM-based evaluators across seven datasets spanning...
+
 ### Elevated error rates in Sora API for some users
 - Source: OpenAI Status
 - Category: incidents
@@ -409,6 +436,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/c20m4lbfd6pm
 - Summary: Apr 28, 12:45 UTCResolved - The incident has now been resolved. The elevated error rate for Haiku 4.5 was between 4:53 PT / 11:53 UTC and 5:36 PT / 12:44 UTC.Apr 28, 12:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 28, 12:24 UTCInvestigating - We are currently...
+
+### Dictionary learning for Kernel EDMD
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25572
+- Summary: Studying nonlinear dynamical systems through their state space behavior can be challenging, and one possible alternative is to analyze them via their associated Koopman operator. This turns the nonlinear problem into a linear, infinite-dimensional one. To approximate the operator in finite...
 
 ### Dozens of Open VSX Extension Clones Linked to GlassWorm Malware
 - Source: Security Week
@@ -458,11 +491,23 @@
 - URL: https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html
 - Summary: When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast. Anthropic’s new model, Claude...
 
+### Do LLMs Capture Embodied Cognition and Cultural Variation? Cross-Linguistic Evidence from Demonstratives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25423
+- Summary: Do large language models (LLMs) truly acquire embodied cognition and cultural conventions from text? We introduce demonstratives, fundamental spatial expressions like "this/that" in English and "zhè/nà" in Chinese, as a novel probe for grounded knowledge. Using 6,400 responses from 320 native...
+
 ### JURY-RL: Votes Propose, Proofs Dispose for Label-Free RLVR
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.25419
 - Summary: Reinforcement learning with verifiable rewards (RLVR) enhances the reasoning of large language models (LLMs), but standard RLVR often depends on human-annotated answers or carefully curated reward specifications. In machine-checkable domains, label-free alternatives such as majority voting or...
+
+### Biased Dreams: Limitations to Epistemic Uncertainty Quantification in Latent Space Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25416
+- Summary: Model-Based Reinforcement Learning distinguishes between physical dynamics models operating on proprioceptive inputs and latent dynamics models operating on high-dimensional image observations. A prominent latent approach is the Recurrent State Space Model used in the Dreamer family. While...
 
 ### Network Performance Issues in IST
 - Source: Cloudflare Status
@@ -2968,52 +3013,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/22/1135430/california-town-scheme-get-rid-geese/
 - Summary: “Pull over!” I order my brother one sunny February afternoon. Our target is in sight: a gaggle of Canada geese, pecking at grass near the dog park. As I approach, tiptoeing over their grayish-white poop, I notice that one bird wears a white cuff around its slender black neck. It’s a GPS...
-
-### There is no nature anymore
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/22/1135440/editors-letter-may-2026/
-- Summary: When people talk about “nature,” they’re generally talking about things that aren’t made by human beings. Rocks. Reefs. Red wolves. But while there is plenty of God’s creation to go around, it is hard to think of anything on Earth that human hands haven’t affected. In the Brazilian rainforest,...
-
-### Los Angeles is finally going underground
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/22/1135449/los-angeles-subway-going-underground/
-- Summary: Los Angeles deserves its reputation as the quintessential car city—the rhythms of its 2,200 square miles are dictated by wide boulevards and concrete arcs of freeways. But it once had a world-class rail transit system, and for the last three decades, the city has been rebuilding a network of...
-
-### Google Antigravity in Crosshairs of Security Researchers, Cybercriminals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/google-antigravity-in-crosshairs-of-security-researchers-cybercriminals/
-- Summary: Researchers discovered a remote code execution vulnerability and cybercriminals are using its reputation to deliver malware. The post Google Antigravity in Crosshairs of Security Researchers, Cybercriminals appeared first on SecurityWeek.
-
-### Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html
-- Summary: Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has...
-
-### ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.20358
-- Summary: The Composed Image Retrieval (CIR) task provides a flexible retrieval paradigm via a reference image and modification text, but it heavily relies on expensive and error-prone triplet annotations. This paper systematically investigates the Noisy Triplet Correspondence (NTC) problem introduced by...
-
-### Oracle Patches 450 Vulnerabilities With April 2026 CPU
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracle-patches-450-vulnerabilities-with-april-2026-cpu/
-- Summary: The company released 481 new security patches across 28 product families, including over 300 fixes for remotely exploitable, unauthenticated flaws. The post Oracle Patches 450 Vulnerabilities With April 2026 CPU appeared first on SecurityWeek.
-
-### Stability-Driven Motion Generation for Object-Guided Human-Human Co-Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.20336
-- Summary: Co-manipulation requires multiple humans to synchronize their motions with a shared object while ensuring reasonable interactions, maintaining natural poses, and preserving stable states. However, most existing motion generation approaches are designed for single-character scenarios or fail to...
-
-### Zone Activation Delays
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9wx6bv6lfnr7
-- Summary: Apr 22, 08:30 UTCInvestigating - Cloudflare is experiencing delays in activating customer sites. This does not impact existing active sites already in production. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
 
