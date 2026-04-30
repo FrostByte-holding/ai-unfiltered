@@ -6,6 +6,60 @@
 
 ## 2026-04-30
 
+### ‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/
+- Summary: Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions. The post &#8216;Copy Fail&#8217; Logic Flaw in Linux Kernel Enables System Takeover appeared first on SecurityWeek.
+
+### New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
+- Summary: Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. "An...
+
+### Sandhills Medical Says Ransomware Breach Affects 170,000
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/
+- Summary: It took the healthcare organization nearly one year to publicly disclose a data breach after it was targeted by Inc Ransom. The post Sandhills Medical Says Ransomware Breach Affects 170,000 appeared first on SecurityWeek.
+
+### Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html
+- Summary: Google has addressed a maximum severity security flaw in Gemini CLI -- the "@google/gemini-cli" npm package and the "google-github-actions/run-gemini-cli" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems. "The vulnerability allowed an...
+
+### XtalPi Reports First Full-Year Profit, Holds USD 1 Billion Cash
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xtal-pi-reports-first-full-year-profit-holds-usd-1-billion-cash
+- Summary: XtalPi posted its first full-year net profit of RMB 258 million ($36 million) on revenue of RMB 800 million, powered by a major pharma deal and rapid growth in its automated lab business, with over RMB 7 billion in cash for future expansion.
+
+### Shuowei Optoelectronics Nears USD 14 Million Funding for Space Solar
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/shuowei-optoelectronics-nears-usd-14-million-funding-for-space-solar
+- Summary: Beijing-based Shuowei Optoelectronics is closing a nearly RMB 100 million ($14 million) funding round led by Qifu Capital to advance its perovskite-based solar wing technology for commercial space applications.
+
+### Linkhou Raises USD Tens of Millions to Expand Robotics Components Production
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/linkhou-raises-usd-tens-of-millions-to-expand-robotics-components-production
+- Summary: Suzhou-based Linkhou has raised hundreds of millions of yuan in a Series B+ round led by China Internet Investment Fund to scale production of its core components for embodied AI robots, including vision modules and mobile chassis.
+
+### AI² Robotics Founder Defends VLA, Launches NeuroVLA Model
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ai-robotics-founder-defends-vla-launches-neuro-vla-model
+- Summary: AI² Robotics founder Guo Yandong defended VLA as the core architecture for embodied intelligence, unveiling the NeuroVLA brain-inspired model and the AlphaBrain Platform, an open-source toolkit with plug-and-play world model support.
+
+### Infrawaves Files for Hong Kong IPO at USD 1.3 Billion Valuation
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/infrawaves-files-for-hong-kong-ipo-at-usd-1-3-billion-valuation
+- Summary: Infrawaves, China's largest independent AI computing cluster provider by 2025 revenue, has filed for a Hong Kong IPO, reporting a three-year revenue CAGR of 304.5% and its first annual profit in 2024.
+
 ### Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital
 - Source: arXiv AI
 - Category: research
@@ -176,6 +230,12 @@
 - URL: https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html
 - Summary: Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini...
 
+### Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26779
+- Summary: RL post-training of frontier language models is increasingly bottlenecked by autoregressive rollout generation, making rollout acceleration a central systems challenge. Many existing efficiency methods improve throughput by changing the rollout or optimization regime, for example, through...
+
 ### Granite 4.1 LLMs: How They’re Built
 - Source: Hugging Face Blog
 - Category: open-source
@@ -271,6 +331,12 @@
 - URL: https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/
 - Summary: Today, nuclear energy enjoys a rare moment of support across the political spectrum in the US. Interest from tech companies that are scrambling to meet demand for massive data centers has sparked a resurgence of money and attention in the industry. That newfound interest is exactly why it’s time to...
 
+### CoQuant: Joint Weight-Activation Subspace Projection for Mixed-Precision LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26378
+- Summary: Post-training quantization (PTQ) has become an important technique for reducing the inference cost of Large Language Models (LLMs). While recent mixed-precision methods improve ultra-low bit quantization by preserving critical subspaces in high precision, they typically construct these subspaces...
+
 ### SHAREBOT Raises Several Hundred Million RMB in New Funding as It Scales Rapid Robot Deployment Network
 - Source: Pandaily
 - Category: chinese-ai
@@ -282,6 +348,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/sense-time-launches-sense-nova-u1-moving-toward-a-unified-model-era-of-understanding-and-generation
 - Summary: SenseTime open-sources SenseNova U1, a unified multimodal model built on its NEO-unify architecture that merges understanding and generation into a single framework.
+
+### AlphaJet: Automated Conceptual Aircraft Synthesis via Disentangled Generative Priors and Topology-Preserving Evolutionary Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26337
+- Summary: Conceptual aircraft design is traditionally an expert-mediated iterative process in which a human designer proposes a configuration, runs low-order physics, inspects the result, and re-proposes. We present AlphaJet, an end-to-end automated synthesis pipeline that closes this loop. From a textual...
 
 ### Ant Group Open-Sources Ling-2.6-Flash Model with Multiple Precision Options
 - Source: Pandaily
@@ -517,6 +589,12 @@
 - URL: https://arxiv.org/abs/2604.25011
 - Summary: arXiv:2604.25011v1 Announce Type: new Abstract: Reinforcement learning (RL)-based post-training often improves the reasoning performance of large language models (LLMs) beyond the training domain, while supervised fine-tuning (SFT) frequently leads to general capabilities forgetting. However, the...
 
+### Calibrated Surprise: An Information-Theoretic Account of Creative Quality
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26269
+- Summary: The essence of good creative writing is calibrated surprise: when constraints from all relevant dimensions act together, the feasible solution space collapses into a narrow region, and the surviving choices look least predictable from an unconstrained view. "Calibrated" has a precise meaning: the...
+
 ### Azure - UK South (London): INC0156355
 - Source: Snowflake Status
 - Category: incidents
@@ -540,6 +618,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/labubu-fridge-sparks-frenzy-as-resale-prices-soar-15x-before-launch
 - Summary: Pop Mart’s limited-edition LABUBU fridge is being resold for up to 15 times its retail price even before its official launch.
+
+### EnerGS: Energy-Based Gaussian Splatting with Partial Geometric Priors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26238
+- Summary: 3D Gaussian Splatting (3DGS) has been widely adopted for scene reconstruction, where training inherently constitutes a highly coupled and non-convex optimization problem. Recent works commonly incorporate geometric priors, such as LiDAR measurements, either for initialization or as training...
 
 ### [AINews] not much happened today
 - Source: Latent Space
@@ -2932,88 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.19755
 - Summary: arXiv:2604.19755v1 Announce Type: new Abstract: Anti-money laundering (AML) transaction monitoring generates large volumes of alerts that must be rapidly triaged by investigators under strict audit and governance constraints. While large language models (LLMs) can summarize heterogeneous evidence...
-
-### Graph-Theoretic Models for the Prediction of Molecular Measurements
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.19840
-- Summary: arXiv:2604.19840v1 Announce Type: new Abstract: Graph-theoretic approaches offer simplicity, interpretability, and low computational cost for molecular property prediction. Among these, the model proposed by Mukwembi and Nyabadza, based on the external activity $D(G)$ and internal activity...
-
-### Rethinking Reinforcement Fine-Tuning in LVLM: Convergence, Reward Decomposition, and Generalization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.19857
-- Summary: arXiv:2604.19857v1 Announce Type: new Abstract: Reinforcement fine-tuning with verifiable rewards (RLVR) has emerged as a powerful paradigm for equipping large vision-language models (LVLMs) with agentic capabilities such as tool use and multi-step reasoning. Despite striking empirical successes,...
-
-### DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.19859
-- Summary: arXiv:2604.19859v1 Announce Type: new Abstract: Edge-scale deep research agents based on small language models are attractive for real-world deployment due to their advantages in cost, latency, and privacy. In this work, we study how to train a strong small deep research agent under limited...
-
-### Super Apriel: One Checkpoint, Many Speeds
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.19877
-- Summary: arXiv:2604.19877v1 Announce Type: new Abstract: We release Super Apriel, a 15B-parameter supernet in which every decoder layer provides four trained mixer choices -- Full Attention (FA), Sliding Window Attention (SWA), Kimi Delta Attention (KDA), and Gated DeltaNet (GDN). A placement selects one...
-
-### A Multi-Plant Machine Learning Framework for Emission Prediction, Forecasting, and Control in Cement Manufacturing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.19903
-- Summary: arXiv:2604.19903v1 Announce Type: new Abstract: Cement production is among the largest contributors to industrial air pollution, emitting ~3 Mt NOx/year. The industry-standard mitigation approach, selective non-catalytic reduction (SNCR), exhibits low NH3 utilization efficiency, resulting in...
-
-### TTKV: Temporal-Tiered KV Cache for Long-Context LLM Inference
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.19769
-- Summary: arXiv:2604.19769v1 Announce Type: new Abstract: Key-value (KV) caching is critical for efficient inference in large language models (LLMs), yet its memory footprint scales linearly with context length, resulting in a severe scalability bottleneck. Existing approaches largely treat KV states as...
-
-### Hybrid Multi-Phase Page Matching and Multi-Layer Diff Detection for Japanese Building Permit Document Review
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.19770
-- Summary: arXiv:2604.19770v1 Announce Type: new Abstract: We present a hybrid multi-phase page matching algorithm for automated comparison of Japanese building permit document sets. Building permit review in Japan requires cross-referencing large PDF document sets across revision cycles, a process that is...
-
-### Cognis: Context-Aware Memory for Conversational AI Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.19771
-- Summary: arXiv:2604.19771v1 Announce Type: new Abstract: LLM agents lack persistent memory, causing conversations to reset each session and preventing personalization over time. We present Lyzr Cognis, a unified memory architecture for conversational AI agents that addresses this limitation through a...
-
-### CoAuthorAI: A Human in the Loop System For Scientific Book Writing
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.19772
-- Summary: arXiv:2604.19772v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used in scientific writing but struggle with book-length tasks, often producing inconsistent structure and unreliable citations. We introduce CoAuthorAI, a human-in-the-loop writing system that combines...
-
-### PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD Generation with Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.19773
-- Summary: arXiv:2604.19773v1 Announce Type: new Abstract: The construction of CAD models has traditionally relied on labor-intensive manual operations and specialized expertise. Recent advances in large language models (LLMs) have inspired research into text-to-CAD generation. However, existing approaches...
-
-### Hyperloop Transformers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.21254
-- Summary: LLM architecture research generally aims to maximize model quality subject to fixed compute/latency budgets. However, many applications of interest such as edge and on-device deployment are further constrained by the model's memory footprint, thus motivating parameter-efficient architectures for...
-
-### Xiaomi Opens Public Beta for Its Most Advanced AI Model Series MiMo-V2.5
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-opens-public-beta-for-its-most-advanced-ai-model-series-mi-mo-v2-5
-- Summary: Xiaomi has launched the MiMo-V2.5 series in public beta, with its flagship model rivaling top global AI systems in complex tasks.
-
-### Anker Unveils In-House “Thus” Chip to Bring On-Device AI Across Its Product Line
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/anker-unveils-in-house-thus-chip-to-bring-on-device-ai-across-its-product-line
-- Summary: Anker has launched its Thus chip to enable efficient on-device AI, starting with next-gen headphones powered by in-memory computing.
-
-### Assessing Emulator Design and Training for Modal Aerosol Microphysics Parameterizations in E3SMv2
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.21233
-- Summary: Toward the goal of using Scientific Machine Learning (SciML) emulators to improve the numerical representation of aerosol processes in global atmospheric models, we explore the emulation of aerosol microphysics processes under cloud-free conditions in the 4-mode Modal Aerosol Module (MAM4) within...
 
