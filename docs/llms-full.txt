@@ -267,6 +267,12 @@
 - URL: https://tldr.takara.ai/p/2604.28167
 - Summary: In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of simulated parameter points and characterize each point using long-time dynamical observables. These...
 
+### On the Proper Treatment of Units in Surprisal Theory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.28147
+- Summary: Surprisal theory links human processing effort to the predictability of an upcoming linguistic unit, but empirical work often leaves the notion of a unit underspecified. In practice, experimental stimuli are segmented into linguistically motivated units (e.g., words), while pretrained language...
+
 ### PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials
 - Source: The Hacker News
 - Category: security
@@ -279,6 +285,12 @@
 - URL: https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/
 - Summary: The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how...
 
+### Exponential families from a single KL identity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.28036
+- Summary: Exponential families encompass the distributions central to modern machine learning -- softmax, Gaussians, and Boltzmann distributions -- and underlie the theory of variational inference, entropy-regularized reinforcement learning, and RLHF. We isolate a simple identity for exponential families...
+
 ### Ease of dependency distance minimization in star-like structures
 - Source: HF Daily Papers
 - Category: open-source
@@ -290,6 +302,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.28031
 - Summary: When researchers iteratively refine ideas with large language models, do the models preserve fidelity to the original objective? We introduce DriftBench, a benchmark for evaluating constraint adherence in multi-turn LLM-assisted scientific ideation. Across 2,146 scored benchmark runs spanning seven...
+
+### LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27960
+- Summary: Recent large language models (LLMs) have achieved impressive reasoning milestones but continue to struggle with high computational costs, logical inconsistencies, and sharp performance degradation on high-complexity problems. While neuro-symbolic methods attempt to mitigate these issues by coupling...
 
 ### SonicWall Urges Immediate Patching of Firewall Vulnerabilities
 - Source: Security Week
@@ -344,6 +362,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/when-big-female-lead-dramas-run-out-of-steam-the-trap-and-the-future-of-female-characters-in-chinese-tv
 - Summary: Despite the flood of "female-centered" Chinese dramas, the women on screen have rarely felt more flat—trapped between hollow empowerment slogans and industrial formulas that recycle the same tired tropes. This essay cuts through the noise to argue that real progress won't come from louder...
+
+### Probabilistic Circuits for Irregular Multivariate Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27814
+- Summary: Joint probabilistic modeling is essential for forecasting irregular multivariate time series (IMTS) to accurately quantify uncertainty. Existing approaches often struggle to balance model expressivity with consistent marginalization, frequently leading to unreliable or contradictory forecasts. To...
 
 ### Focus Session: Autonomous Systems Dependability in the era of AI: Design Challenges in Safety, Security, Reliability and Certification
 - Source: HF Daily Papers
@@ -698,6 +722,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/galbot-launches-lda-1-b-world-action-model-open-sources-framework
 - Summary: Galbot, China’s highest-valued unlisted embodied AI firm at over RMB 20 billion ($2.8 billion), has released LDA-1B, a 1.6B-parameter world-action model that unifies world and action learning, demonstrates scaling behavior with heterogeneous data, and has been open-sourced alongside acceptance at...
+
+### CasLayout: Cascaded 3D Layout Diffusion for Indoor Scene Synthesis with Implicit Relation Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27361
+- Summary: Synthesizing realistic 3D indoor scenes remains challenging due to data scarcity and the difficulty of simultaneously enforcing global architectural constraints and local semantic consistency. Existing approaches often overlook structural boundaries or rely on fully connected relation graphs that...
 
 ### claude.ai and API unavailable
 - Source: Anthropic Status
@@ -2987,34 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.19792
 - Summary: arXiv:2604.19792v1 Announce Type: new Abstract: This paper presents OpenCLAW-P2P v6.0, a comprehensive evolution of the decentralized collective-intelligence platform in which autonomous AI agents publish, peer-review, score, and iteratively improve scientific research papers without any human...
-
-### The Path Not Taken: Duality in Reasoning about Program Execution
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.20917
-- Summary: arXiv:2604.20917v1 Announce Type: new Abstract: Large language models (LLMs) have shown remarkable capabilities across diverse coding tasks. However, their adoption requires a true understanding of program execution rather than relying on surface-level patterns. Existing benchmarks primarily focus...
-
-### Forget, Then Recall: Learnable Compression and Selective Unfolding via Gist Sparse Attention
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.20920
-- Summary: arXiv:2604.20920v1 Announce Type: new Abstract: Scaling large language models to long contexts is challenging due to the quadratic computational cost of full attention. Mitigation approaches include KV-cache selection or compression techniques. We instead provide an effective and end-to-end...
-
-### Validating a Deep Learning Algorithm to Identify Patients with Glaucoma using Systemic Electronic Health Records
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.20921
-- Summary: arXiv:2604.20921v1 Announce Type: new Abstract: We evaluated whether a glaucoma risk assessment (GRA) model trained on All of Us national data can identify patients at high probability of glaucoma using only systemic electronic health records (EHR) at an independent institution. In this...
-
-### ILDR: Geometric Early Detection of Grokking
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.20923
-- Summary: arXiv:2604.20923v1 Announce Type: new Abstract: Grokking describes a delayed generalization phenomenon in which a neural network achieves perfect training accuracy long before validation accuracy improves, followed by an abrupt transition to strong generalization. Existing detection signals are...
-
-### Clinically Interpretable Sepsis Early Warning via LLM-Guided Simulation of Temporal Physiological Dynamics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.20924
-- Summary: arXiv:2604.20924v1 Announce Type: new Abstract: Timely and interpretable early warning of sepsis remains a major clinical challenge due to the complex temporal dynamics of physiological deterioration. Traditional data-driven models often provide accurate yet opaque predictions, limiting physicians'...
 
