@@ -5,9 +5,54 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 01 May 2026 13:23:58 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 01 May 2026 16:59:37 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Incorrect rejection of 400 errors for AI Gateway</title>
+            <link>https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq</link>
+            <guid>https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq</guid>
+            <pubDate>Fri, 01 May 2026 16:15:10 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 1, 16:15 UTCResolved - Between 05:00 and 15:04 UTC on May 1st, AI Gateway requests using the AI binding may have been incorrectly rejected with 400 errors due to a schema validation change. This is now resolved.</description>
+        </item>
+        <item>
+            <title>Elevated error rate for Responses API</title>
+            <link>https://status.openai.com//incidents/01KQHYX4D53W6GT8FDTT9PHBQ3</link>
+            <guid>https://status.openai.com//incidents/01KQHYX4D53W6GT8FDTT9PHBQ3</guid>
+            <pubDate>Fri, 01 May 2026 15:38:32 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KQHYX4D53W6GT8FDTT9PHBQ3">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)</description>
+        </item>
+        <item>
+            <title>Elevated error rates for image generation</title>
+            <link>https://status.openai.com//incidents/01KQHWZ9710V886SZKWE20HFAX</link>
+            <guid>https://status.openai.com//incidents/01KQHWZ9710V886SZKWE20HFAX</guid>
+            <pubDate>Fri, 01 May 2026 14:53:55 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KQHWZ9710V886SZKWE20HFAX">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Images (Operational) Image Generation (Operational)</description>
+        </item>
+        <item>
+            <title>Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks</title>
+            <link>https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html</link>
+            <guid>https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html</guid>
+            <pubDate>Fri, 01 May 2026 14:26:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html">The Hacker News</source>
+            <category>security</category>
+            <description>Cybersecurity researchers are warning of two cybercrime groups that are carrying out &quot;rapid, high-impact attacks&quot; operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and...</description>
+        </item>
+        <item>
+            <title>China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists</title>
+            <link>https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html</link>
+            <guid>https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html</guid>
+            <pubDate>Fri, 01 May 2026 14:02:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html">The Hacker News</source>
+            <category>security</category>
+            <description>Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it...</description>
+        </item>
         <item>
             <title>The Download: a new Christian phone network, and debugging LLMs</title>
             <link>https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/</link>
@@ -315,6 +360,15 @@
             <description>The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for &amp;#8220;brainless clones&amp;#8221; to serve the role of backup human bodies. by Antonio Regalado March 20, 2026 Related...</description>
         </item>
         <item>
+            <title>Strait: Perceiving Priority and Interference in ML Inference Serving</title>
+            <link>https://tldr.takara.ai/p/2604.28175</link>
+            <guid>https://tldr.takara.ai/p/2604.28175</guid>
+            <pubDate>Thu, 30 Apr 2026 17:55:28 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2604.28175">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization and insufficient latency estimation under concurrent execution may restrict their applicability in...</description>
+        </item>
+        <item>
             <title>Mapping the Phase Diagram of the Vicsek Model with Machine Learning</title>
             <link>https://tldr.takara.ai/p/2604.28167</link>
             <guid>https://tldr.takara.ai/p/2604.28167</guid>
@@ -322,15 +376,6 @@
             <source url="https://tldr.takara.ai/p/2604.28167">HF Daily Papers</source>
             <category>open-source</category>
             <description>In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of simulated parameter points and characterize each point using long-time dynamical observables. These...</description>
-        </item>
-        <item>
-            <title>PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials</title>
-            <link>https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html</link>
-            <guid>https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html</guid>
-            <pubDate>Thu, 30 Apr 2026 16:31:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html">The Hacker News</source>
-            <category>security</category>
-            <description>In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3,...</description>
         </item>
         <item>
             <title>This startup’s new mechanistic interpretability tool lets you debug LLMs</title>
@@ -378,15 +423,6 @@
             <description>A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm&#x27;s chief executive...</description>
         </item>
         <item>
-            <title>ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories</title>
-            <link>https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html</link>
-            <guid>https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html</guid>
-            <pubDate>Thu, 30 Apr 2026 13:55:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html">The Hacker News</source>
-            <category>security</category>
-            <description>The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online. Security is...</description>
-        </item>
-        <item>
             <title>Dreame Launches 20+ Smart Home Products in San Francisco, Putting Its Robotic Arm Tech at the Center</title>
             <link>https://pandaily.com/dreame-launches-20-smart-home-products-in-san-francisco-putting-its-robotic-arm-tech-at-the-center</link>
             <guid>https://pandaily.com/dreame-launches-20-smart-home-products-in-san-francisco-putting-its-robotic-arm-tech-at-the-center</guid>
@@ -394,15 +430,6 @@
             <source url="https://pandaily.com/dreame-launches-20-smart-home-products-in-san-francisco-putting-its-robotic-arm-tech-at-the-center">Pandaily</source>
             <category>chinese-ai</category>
             <description>At its DREAME NEXT event in San Francisco, Dreame Technology demonstrated how its bionic robotic arm technology has evolved from a robot vacuum feature into a cross-category platform powering everything from range hoods to dishwashers. The company also debuted the modular AURORA NEX smartphone and...</description>
-        </item>
-        <item>
-            <title>Possible Network Congestion in United States Eastern and Central regions</title>
-            <link>https://www.cloudflarestatus.com/incidents/h6xlssjlzpg8</link>
-            <guid>https://www.cloudflarestatus.com/incidents/h6xlssjlzpg8</guid>
-            <pubDate>Thu, 30 Apr 2026 13:30:53 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/h6xlssjlzpg8">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Apr 30, 13:30 UTCResolved - Cloudflare customers maybe be observing possible network congestion in the United States Eastern and Central regions, from 13:30 to 14:55 UTC.</description>
         </item>
         <item>
             <title>Elevated errors on Claude Haiku 4.5</title>
@@ -423,15 +450,6 @@
             <description>Despite the flood of &quot;female-centered&quot; Chinese dramas, the women on screen have rarely felt more flat—trapped between hollow empowerment slogans and industrial formulas that recycle the same tired tropes. This essay cuts through the noise to argue that real progress won&#x27;t come from louder...</description>
         </item>
         <item>
-            <title>Focus Session: Autonomous Systems Dependability in the era of AI: Design Challenges in Safety, Security, Reliability and Certification</title>
-            <link>https://tldr.takara.ai/p/2604.27807</link>
-            <guid>https://tldr.takara.ai/p/2604.27807</guid>
-            <pubDate>Thu, 30 Apr 2026 12:50:29 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.27807">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>The design of embedded safety-critical systems such as those used in next-generation automotive and autonomous platforms, is increasingly challenged by escalating system complexity, hardware-software heterogeneity, and the integration of intelligent, data-driven components. Ensuring dependability...</description>
-        </item>
-        <item>
             <title>Enabling a new model for healthcare with AI co-clinician</title>
             <link>https://deepmind.google/blog/ai-co-clinician/</link>
             <guid>https://deepmind.google/blog/ai-co-clinician/</guid>
@@ -439,24 +457,6 @@
             <source url="https://deepmind.google/blog/ai-co-clinician/">DeepMind Blog</source>
             <category>research</category>
             <description>Researching the path to AI-augmented care and development of an AI co-clinician.</description>
-        </item>
-        <item>
-            <title>XtalPi Reports First Full-Year Profit, Holds USD 1 Billion Cash</title>
-            <link>https://pandaily.com/xtal-pi-reports-first-full-year-profit-holds-usd-1-billion-cash</link>
-            <guid>https://pandaily.com/xtal-pi-reports-first-full-year-profit-holds-usd-1-billion-cash</guid>
-            <pubDate>Thu, 30 Apr 2026 06:57:54 +0000</pubDate>
-            <source url="https://pandaily.com/xtal-pi-reports-first-full-year-profit-holds-usd-1-billion-cash">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>XtalPi posted its first full-year net profit of RMB 258 million ($36 million) on revenue of RMB 800 million, powered by a major pharma deal and rapid growth in its automated lab business, with over RMB 7 billion in cash for future expansion.</description>
-        </item>
-        <item>
-            <title>Shuowei Optoelectronics Nears USD 14 Million Funding for Space Solar</title>
-            <link>https://pandaily.com/shuowei-optoelectronics-nears-usd-14-million-funding-for-space-solar</link>
-            <guid>https://pandaily.com/shuowei-optoelectronics-nears-usd-14-million-funding-for-space-solar</guid>
-            <pubDate>Thu, 30 Apr 2026 06:56:58 +0000</pubDate>
-            <source url="https://pandaily.com/shuowei-optoelectronics-nears-usd-14-million-funding-for-space-solar">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Beijing-based Shuowei Optoelectronics is closing a nearly RMB 100 million ($14 million) funding round led by Qifu Capital to advance its perovskite-based solar wing technology for commercial space applications.</description>
         </item>
     </channel>
 </rss>

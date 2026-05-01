@@ -6,6 +6,36 @@
 
 ## 2026-05-01
 
+### Incorrect rejection of 400 errors for AI Gateway
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq
+- Summary: May 1, 16:15 UTCResolved - Between 05:00 and 15:04 UTC on May 1st, AI Gateway requests using the AI binding may have been incorrectly rejected with 400 errors due to a schema validation change. This is now resolved.
+
+### Elevated error rate for Responses API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KQHYX4D53W6GT8FDTT9PHBQ3
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational)
+
+### Elevated error rates for image generation
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KQHWZ9710V886SZKWE20HFAX
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Images (Operational) Image Generation (Operational)
+
+### Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html
+- Summary: Cybersecurity researchers are warning of two cybercrime groups that are carrying out "rapid, high-impact attacks" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. The clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and...
+
+### China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html
+- Summary: Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro has attributed the activity to a threat activity cluster it...
+
 ### The Download: a new Christian phone network, and debugging LLMs
 - Source: MIT Tech Review AI
 - Category: research
@@ -225,6 +255,12 @@
 - URL: https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/
 - Summary: The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for &#8220;brainless clones&#8221; to serve the role of backup human bodies. by Antonio Regalado March 20, 2026 Related...
 
+### Strait: Perceiving Priority and Interference in ML Inference Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.28175
+- Summary: Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization and insufficient latency estimation under concurrent execution may restrict their applicability in...
+
 ### Mapping the Phase Diagram of the Vicsek Model with Machine Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -351,6 +387,12 @@
 - URL: https://www.securityweek.com/enocean-smartserver-flaws-expose-buildings-to-remote-hacking/
 - Summary: Claroty researchers discovered two vulnerabilities that can be exploited for security bypass and remote code execution. The post EnOcean SmartServer Flaws Expose Buildings to Remote Hacking appeared first on SecurityWeek.
 
+### Consumer Attitudes Towards AI in Digital Health: A Mixed-Methods Survey in Australia
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27744
+- Summary: AI applications are increasingly being introduced into digital health. While technical performance has advanced rapidly, successful deployment mainly depends on consumer attitudes, especially to patient-facing applications. However, most existing research examines consumer attitudes towards...
+
 ### EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades
 - Source: The Hacker News
 - Category: security
@@ -369,11 +411,23 @@
 - URL: https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/
 - Summary: Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions. The post &#8216;Copy Fail&#8217; Logic Flaw in Linux Kernel Enables System Takeover appeared first on SecurityWeek.
 
+### Can Tabular Foundation Models Guide Exploration in Robot Policy Learning?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27667
+- Summary: Policy optimization in high-dimensional continuous control for robotics remains a challenging problem. Predominant methods are inherently local and often require extensive tuning and carefully chosen initial guesses for good performance, whereas more global and less initialization-sensitive search...
+
 ### New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
 - Summary: Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. "An...
+
+### ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27606
+- Summary: Learning informative representations from tabular data in remote sensing and environmental science is challenging due to heterogeneity, scarce labels, and redundancy among features. We present ZAYAN (Zero-Anchor dYnamic feAture eNcoding), a self-supervised, feature-centric contrastive framework for...
 
 ### Sandhills Medical Says Ransomware Breach Affects 170,000
 - Source: Security Week
@@ -422,6 +476,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/infrawaves-files-for-hong-kong-ipo-at-usd-1-3-billion-valuation
 - Summary: Infrawaves, China's largest independent AI computing cluster provider by 2025 revenue, has filed for a Hong Kong IPO, reporting a three-year revenue CAGR of 304.5% and its first annual profit in 2024.
+
+### Sampler-Robust Optimization under Generative Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27447
+- Summary: Modern stochastic optimization pipelines increasingly rely on learned generative models to represent uncertainty, while downstream decisions are evaluated almost entirely through Monte Carlo scenarios. This shifts the operational object of uncertainty from an explicit probability law to the sampler...
 
 ### Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital
 - Source: arXiv AI
@@ -2957,64 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.20924
 - Summary: arXiv:2604.20924v1 Announce Type: new Abstract: Timely and interpretable early warning of sepsis remains a major clinical challenge due to the complex temporal dynamics of physiological deterioration. Traditional data-driven models often provide accurate yet opaque predictions, limiting physicians'...
-
-### Serialisation Strategy Matters: How FHIR Data Format Affects LLM Medication Reconciliation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.21076
-- Summary: arXiv:2604.21076v1 Announce Type: new Abstract: Medication reconciliation at clinical handoffs is a high-stakes, error-prone process. Large language models are increasingly proposed to assist with this task using FHIR-structured patient records, but a fundamental and largely unstudied variable is...
-
-### Weighting What Matters: Boosting Sample Efficiency in Medical Report Generation via Token Reweighting
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.21082
-- Summary: arXiv:2604.21082v1 Announce Type: new Abstract: Training vision-language models (VLMs) for medical report generation is often hindered by the scarcity of high-quality annotated data. This work evaluates the use of a weighted loss function to improve data efficiency. Compared to standard...
-
-### Machine learning and digital pragmatics: Which word category influences emoji use most?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.21108
-- Summary: arXiv:2604.21108v1 Announce Type: new Abstract: This study investigates Machine Learning (ML) in the prediction of emojis in Arabic tweets employing the (state-of-the-art) MARBERT model. A corpus of 11379 CA tweets representing multiple Arabic colloquial dialects was collected from X.com via...
-
-### GRISP: Guided Recurrent IRI Selection over SPARQL Skeletons
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.21133
-- Summary: arXiv:2604.21133v1 Announce Type: new Abstract: We present GRISP (Guided Recurrent IRI Selection over SPARQL Skeletons), a novel SPARQL-based question-answering method over knowledge graphs based on fine-tuning a small language model (SLM). Given a natural-language question, the method first uses...
-
-### Beyond Pixels: Introspective and Interactive Grounding for Visualization Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.21134
-- Summary: arXiv:2604.21134v1 Announce Type: new Abstract: Vision-Language Models (VLMs) frequently misread values, hallucinate details, and confuse overlapping elements in charts. Current approaches rely solely on pixel interpretation, creating a Pixel-Only Bottleneck: agents treat interactive charts as...
-
-### Network Performance Issues in Miami
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/npmy39sb6n4s
-- Summary: Apr 24, 03:48 UTCResolved - This incident has been resolved.Apr 24, 03:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 24, 03:46 UTCInvestigating - Cloudflare is observing network performance issues in Miami. We are actively working to reduce or eliminate any...
-
-### Elevated errors on Sonnet 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/wlysnq540b32
-- Summary: Apr 24, 03:34 UTCResolved - This incident has been resolved.Apr 24, 03:15 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 24, 03:09 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 24, 02:55 UTCUpdate - We are continuing to...
-
-### Cloudflare Health check issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/0n62ktcf8sb7
-- Summary: Apr 24, 02:40 UTCInvestigating - Cloudflare is investigating issues with Healthchecks monitoring, alert notifications and analytics. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
-
-### Load Balancing Dashboard Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/38lzgw3xj4pj
-- Summary: Apr 24, 02:11 UTCResolved - This incident has been resolved.Apr 24, 01:00 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 24, 00:35 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs where the dashboard is displaying an...
-
-### Huawei unveils “HAMOMO” AI companion robot for HarmonyOS cockpit
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-unveils-hamomo-ai-companion-robot-for-harmony-os-cockpit
-- Summary: Huawei introduced HAMOMO, an AI companion robot for its HarmonyOS cockpit, designed to enhance in-car interaction through voice AI and expressive features.
 
