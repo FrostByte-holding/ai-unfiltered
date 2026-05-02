@@ -6,6 +6,12 @@
 
 ## 2026-05-02
 
+### New Bluekit Phishing Kit Features AI Assistant
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/new-bluekit-phishing-kit-features-ai-assistant/
+- Summary: Still under development, Bluekit provides users with automated domain registration and an AI Assistant. The post New Bluekit Phishing Kit Features AI Assistant appeared first on SecurityWeek.
+
 ### [AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers
 - Source: Latent Space
 - Category: open-source
@@ -528,6 +534,12 @@
 - URL: https://tldr.takara.ai/p/2604.27911
 - Summary: Foundation models are deep neural networks (such as GPT-5, Gemini~3, and Opus~4) trained on large datasets that can perform diverse downstream tasks -- text and code generation, question answering, summarization, image classification, and so on. The philosophy of foundation models is to put effort...
 
+### Graph World Models: Concepts, Taxonomy, and Future Directions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27895
+- Summary: As one of the mainstream models of artificial intelligence, world models allow agents to learn the representation of the environment for efficient prediction and planning. However, classical world models based on flat tensors face several key problems, including noise sensitivity, error...
+
 ### Prediction-powered Inference by Mixture of Experts
 - Source: HF Daily Papers
 - Category: open-source
@@ -551,6 +563,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27875
 - Summary: AI-generated images are becoming increasingly realistic and diverse, posing significant challenges for generalizable detection. While Vision Foundation Models (VFMs) provide rich semantic representations and frequency-based methods capture complementary artifact cues, existing approaches that...
+
+### Rethinking Agentic Reinforcement Learning In Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27859
+- Summary: Reinforcement Learning (RL) has traditionally focused on training specialized agents to optimize predefined reward functions within narrowly defined environments. However, the advent of powerful Large Language Models (LLMs) and increasingly complex, open-ended tasks has catalyzed a paradigm shift...
 
 ### Dreame Launches 20+ Smart Home Products in San Francisco, Putting Its Robotic Arm Tech at the Center
 - Source: Pandaily
@@ -2350,6 +2368,12 @@
 - URL: https://tldr.takara.ai/p/2604.24590
 - Summary: Technological advancements in cryptocurrency markets have increased accessibility for investors, but concurrently exposed them to the risks of market manipulations. Existing fraud detection mechanisms typically rely on machine learning methods that treat each financial asset (i.e., token) and its...
 
+### STELLAR-E: a Synthetic, Tailored, End-to-end LLM Application Rigorous Evaluator
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24544
+- Summary: The increasing reliance on Large Language Models (LLMs) across diverse sectors highlights the need for robust domain-specific and language-specific evaluation datasets; however, the collection of such datasets is challenging due to privacy concerns, regulatory restrictions, and the time cost for...
+
 ### RACANet: Reliability-Aware Crowd Anchor Network for RGB-T Crowd Counting
 - Source: HF Daily Papers
 - Category: open-source
@@ -2409,6 +2433,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.24401
 - Summary: Large Audio-Language Models show consistent performance gains across speech and audio benchmarks, yet high scores may not reflect true auditory perception. If a model can answer questions without processing the acoustic signal, the benchmark fails as a measure of auditory understanding. We present...
+
+### Few-Shot Cross-Device Transfer for Quantum Noise Modeling on Real Hardware
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24397
+- Summary: In the noisy intermediate-scale quantum (NISQ) regime, quantum devices contain hardware-specific noise sources which restrict device-invariant error mitigation strategies. We explore transfer learning approaches to apply noise models learned on one quantum device to a different device with the help...
 
 ### Complexity of Linear Regions in Self-supervised Deep ReLU Networks
 - Source: HF Daily Papers
@@ -2862,6 +2892,12 @@
 
 ## 2026-04-26
 
+### Graph Memory Transformer (GMT)
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.23862
+- Summary: We investigate whether the Feed-Forward Network (FFN) sublayer in a decoder-only transformer can be replaced by an explicit learned memory graph while preserving the surrounding autoregressive architecture. The proposed Graph Memory Transformer (GMT) keeps causal self-attention intact, but replaces...
+
 ### Multi-Plane HyperX: A Low-Latency and Cost-Effective Network for Large-Scale AI and HPC Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2984,43 +3020,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/zqsk02ryfmrd
 - Summary: Apr 25, 02:35 UTCResolved - This incident has been resolved.Apr 25, 01:45 UTCMonitoring - We have identified an issue in Claude Code version 2.1.120 that causes a crash when resuming a prior session via the --resume or --continue flags. Auto-update will move affected clients back to 2.1.119 on next...
-
-### Elevated error rates on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/q93x64nrhwnn
-- Summary: Apr 25, 02:34 UTCResolved - The issue affecting requests to Claude Opus 4.7 has been resolved. Impact occurred from 01:24–01:59 UTC.Apr 25, 02:15 UTCMonitoring - A fix has been deployed for Claude Opus 4.7 and we are seeing success rates at normal levels. We are continuing to monitor, and ensure no...
-
-
-## 2026-04-24
-
-### Elevated errors on model gpt-5.5 in codex
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KQ0P3DXVK7YQYB4NJBKSQCZC
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex API (Operational)
-
-### Three reasons why DeepSeek’s new model matters
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/
-- Summary: On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is...
-
-### Delays with Actions Jobs for Larger Runners using VNet Injection in the East US region
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/3dqg0nhwnxs2
-- Summary: Apr 24, 19:14 UTCUpdate - This is related to the public impact, "Multiservice impact for Azure Workloads in East US" shared at https://azure.status.microsoft/Apr 24, 19:09 UTCUpdate - We are investigating reports of degraded performance for Larger Runners with vnet injection in East US and we are...
-
-### Issues with sign-ups on platform.claude.com
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/s0lttkq5mmt2
-- Summary: Apr 24, 17:32 UTCResolved - This incident has been resolved.Apr 24, 17:03 UTCInvestigating - We are currently investigating an issue resulting in errors when attempting to sign up at platform.claude.com
-
-### FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with malware called FIRESTARTER. FIRESTARTER, per CISA and the U.K.'s...
 
