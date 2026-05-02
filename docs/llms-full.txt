@@ -756,6 +756,12 @@
 - URL: https://pandaily.com/infrawaves-files-for-hong-kong-ipo-at-usd-1-3-billion-valuation
 - Summary: Infrawaves, China's largest independent AI computing cluster provider by 2025 revenue, has filed for a Hong Kong IPO, reporting a three-year revenue CAGR of 304.5% and its first annual profit in 2024.
 
+### ScaleBox: Enabling High-Fidelity and Scalable Code Verification for Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27467
+- Summary: Code sandboxes have emerged as a critical infrastructure for advancing the coding capabilities of large language models, providing verifiable feedback for both RL training and evaluation. However, existing systems fail to provide accurate verification and efficiency under high-concurrency...
+
 ### Sampler-Robust Optimization under Generative Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -767,6 +773,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27434
 - Summary: Federated learning (FL) is a popular distributed learning paradigm in machine learning, which enables multiple clients to collaboratively train models under the guidance of a server without exposing private client data. However, FL's decentralized nature makes it vulnerable to poisoning attacks,...
+
+### Beyond the Mean: Within-Model Reliable Change Detection for LLM Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27405
+- Summary: We adapted the Reliable Change Index (RCI; Jacobson and Truax, 1991) from clinical psychology to item-level LLM version comparison on 2,000 MMLU-Pro items (K=10 samples at T=0.7). Two within-family pairs were tested: Llama 3 to 3.1 (+1.6 points) and Qwen 2.5 to 3 (+2.8 points). On the full...
 
 ### Perturbation Probing: A Two-Pass-per-Prompt Diagnostic for FFN Behavioral Circuits in Aligned LLMs
 - Source: HF Daily Papers
@@ -1170,6 +1182,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.26634
 - Summary: Norway's electricity market is heavily dominated by hydropower, but the 2021--2022 energy crisis and stronger integration with Continental Europe have fundamentally altered price formation, reducing the reliability of forecasting models calibrated on historical data. Despite the critical need for...
+
+### SnapPose3D: Diffusion-Based Single-Frame 2D-to-3D Lifting of Human Poses
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26620
+- Summary: Depth ambiguity and joint uncertainty are the two main obstacles in obtaining accurate human pose predictions by 2D-to-3D lifting methods proposed in the literature. In particular, these issues are caused by 2D joint locations that can be mapped to multiple 3D positions, inducing multiple possible...
 
 ### The Download: storing nuclear waste and orchestrating agents
 - Source: MIT Tech Review AI
@@ -1688,6 +1706,12 @@
 - Category: security
 - URL: https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/
 - Summary: The ShinyHunters group is threatening to leak stolen files unless Vimeo agrees to pay a ransom. The post Vimeo Confirms User and Customer Data Breach appeared first on SecurityWeek.
+
+### Learning Neural Operator Surrogates for the Black Hole Accretion Code
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25985
+- Summary: General-relativistic magnetohydrodynamic (GR-MHD) simulations are essential for studying black hole accretion, relativistic jets, and magnetic reconnection, yet their computational cost severely limits systematic parameter exploration. We investigate neural operator surrogates for two...
 
 ### Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation
 - Source: HF Daily Papers
@@ -2301,6 +2325,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/
 - Summary: After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit...
+
+### A Finite Time Analysis of Thompson Sampling for Bayesian Optimization with Preferential Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25025
+- Summary: Preference feedback, in the form of pairwise comparisons rather than scalar scores, has seen increasing use in applications such as human-, laboratory-, and expert-in-the-loop design, as well as scientific discovery. We propose a Thompson Sampling (TS) approach to Bayesian optimization with...
 
 ### Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation
 - Source: HF Daily Papers
@@ -2990,34 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.20862
 - Summary: arXiv:2604.20862v1 Announce Type: new Abstract: The automation system for Course of Action (CoA) planning is an essential element in future warfare. As maneuver speeds increase, surveillance ranges extend, and weapon ranges grow, the operational area expands, making traditional manned-based CoA...
-
-### Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.20972
-- Summary: arXiv:2604.20972v1 Announce Type: new Abstract: Content moderation systems are typically evaluated by measuring agreement with human labels. In rule-governed environments this assumption fails: multiple decisions may be logically consistent with the governing policy, and agreement metrics penalize...
-
-### Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.20987
-- Summary: arXiv:2604.20987v1 Announce Type: new Abstract: Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and...
-
-### Value-Conflict Diagnostics Reveal Widespread Alignment Faking in Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.20995
-- Summary: arXiv:2604.20995v1 Announce Type: new Abstract: Alignment faking, where a model behaves aligned with developer policy when monitored but reverts to its own preferences when unobserved, is a concerning yet poorly understood phenomenon, in part because current diagnostic tools remain limited. Prior...
-
-### The Last Harness You'll Ever Build
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.21003
-- Summary: arXiv:2604.21003v1 Announce Type: new Abstract: AI agents are increasingly deployed on complex, domain-specific workflows -- navigating enterprise web applications that require dozens of clicks and form fills, orchestrating multi-step research pipelines that span search, extraction, and synthesis,...
-
-### Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.21006
-- Summary: arXiv:2604.21006v1 Announce Type: new Abstract: We introduce Deep FinResearch Bench, a practical and comprehensive evaluation framework for deep research (DR) agents in financial investment research. The benchmark assesses three dimensions of report quality: qualitative rigor, quantitative...
 
