@@ -1128,6 +1128,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/yhp2dw512p4b
 - Summary: Apr 29, 20:15 UTCUpdate - We are continuing to monitor for any further issues.Apr 29, 20:15 UTCUpdate - All logging data was preserved; no data was lost. We continue to populate the delayed logs.Apr 29, 20:10 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 29, 19:56...
 
+### AutoSP: Unlocking Long-Context LLM Training Via Compiler-Based Sequence Parallelism
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27089
+- Summary: Large-language-models (LLMs) demonstrate enormous utility in long-context tasks which require processing prompts that consist of tens to hundreds of thousands of tokens. However, existing LLM training libraries do not provide easy to use abstractions to optimize for long-context training, instead...
+
 ### World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2327,6 +2333,18 @@
 - URL: https://tldr.takara.ai/p/2604.25145
 - Summary: Fractionally supervised classification (FSC) offers a flexible framework for combining labeled and unlabeled data in model-based classification, but existing formulations assume simple random sampling. In many applications, however, the retained observation is an extreme order statistic from a set...
 
+### Gradient-Direction Sensitivity Reveals Linear-Centroid Coupling Hidden by Optimizer Trajectories
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25143
+- Summary: We show that replacing the rolling SVD of AdamW updates with a rolling SVD of loss gradients changes the diagnostic by 1-2 orders of magnitude. Performing SVD on the loss gradient instead of the AdamW update increases the measured perturbative coupling between SED directions and Linear Centroid...
+
+### UnIte: Uncertainty-based Iterative Document Sampling for Domain Adaptation in Information Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25142
+- Summary: Unsupervised domain adaptation generalizes neural retrievers to an unseen domain by generating pseudo queries on target domain documents. The quality and efficiency of this adaptation critically depend on which documents are selected for pseudo query generation. The existing document sampling...
+
 ### UniX AI Advances Household Robotics Strategy with Growing Global Attention
 - Source: Pandaily
 - Category: chinese-ai
@@ -3000,22 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/honda-shifts-china-r-and-d-strategy-to-local-leadership-amid-intensifying-competition
 - Summary: Honda shifts to China-led EV development as it restructures operations to stay competitive in the world’s largest auto market.
-
-### Pony.ai Unveils Next-Gen Autonomous Driving Domain Controller Built on NVIDIA DRIVE Hyperion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pony-ai-unveils-next-gen-autonomous-driving-domain-controller-built-on-nvidia-drive-hyperion
-- Summary: Pony.ai launches a next-gen NVIDIA-powered domain controller to accelerate scalable L4 autonomous driving and Robotaxi commercialization.
-
-### Momenta Surpasses 800,000 Mass-Produced Vehicles as “Flywheel Effect” Accelerates
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/momenta-surpasses-800-000-mass-produced-vehicles-as-flywheel-effect-accelerates
-- Summary: Momenta surpasses 800,000 deployed vehicles as its AI-driven flywheel accelerates global adoption of intelligent driving.
-
-### Robotera Raises Nearly $350M in Two Months, Claims First PMF in Embodied AI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/robotera-raises-nearly-350-m-in-two-months-claims-first-pmf-in-embodied-ai
-- Summary: Robotera raises nearly $350M in two months as it scales embodied AI robots and achieves early commercialization in logistics.
 
