@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-03
+
+### CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerability, tracked as...
+
+
 ## 2026-05-02
 
 ### New Bluekit Phishing Kit Features AI Assistant
@@ -593,6 +602,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27875
 - Summary: AI-generated images are becoming increasingly realistic and diverse, posing significant challenges for generalizable detection. While Vision Foundation Models (VFMs) provide rich semantic representations and frequency-based methods capture complementary artifact cues, existing approaches that...
+
+### TwinGate: Stateful Defense against Decompositional Jailbreaks in Untraceable Traffic via Asymmetric Contrastive Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27861
+- Summary: Decompositional jailbreaks pose a critical threat to large language models (LLMs) by allowing adversaries to fragment a malicious objective into a sequence of individually benign queries that collectively reconstruct prohibited content. In real-world deployments, LLMs face a continuous, untraceable...
 
 ### Rethinking Agentic Reinforcement Learning In Large Language Models
 - Source: HF Daily Papers
@@ -2458,6 +2473,12 @@
 - URL: https://tldr.takara.ai/p/2604.24622
 - Summary: Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under...
 
+### Majorization-Guided Test-Time Adaptation for Vision-Language Models under Modality-Specific Shift
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24602
+- Summary: Vision-language models transfer well in zero-shot settings, but at deployment the visual and textual branches often shift asymmetrically. Under this condition, entropy-based test-time adaptation can sharpen the fused posterior while increasing error, because an unreliable modality may still...
+
 ### Elevated billing related errors on Claude.ai
 - Source: Anthropic Status
 - Category: incidents
@@ -2547,6 +2568,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.24393
 - Summary: There has been growing interest in studying the complexity of Rectified Linear Unit (ReLU) based activation networks. Recent work investigates the evolution of the number of piecewise-linear partitions (linear regions) that are formed during training. However, current research is limited to...
+
+### Certified geometric robustness -- Super-DeepG
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24379
+- Summary: Safety-critical applications are required to perform as expected in normal operations. Image processing functions are often required to be insensitive to small geometric perturbations such as rotation, scaling, shearing or translation. This paper addresses the formal verification of neural networks...
 
 ### The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
 - Source: MIT Tech Review AI
@@ -2991,30 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/robotera-raises-nearly-350-m-in-two-months-claims-first-pmf-in-embodied-ai
 - Summary: Robotera raises nearly $350M in two months as it scales embodied AI robots and achieves early commercialization in logistics.
-
-### LAVA: Layered Audio-Visual Anti-tampering Watermarking for Robust Deepfake Detection and Localization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23957
-- Summary: Proactive watermarking offers a promising approach for deepfake tamper detection and localization in short-form videos. However, existing methods often decouple audio and visual evidence and assume that watermark signals remain reliable under real-world degradations, making tamper localization...
-
-### KOMBO: Korean Character Representations Based on the Combination Rules of Subcharacters
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23948
-- Summary: The Korean writing system, \textit{Hangeul}, has a unique character representation rigidly following the invention principles recorded in \textit{Hunminjeongeum}.\footnote{\textit{Hunminjeongeum} is a book published in 1446 that describes the principles of invention and usage of \textit{Hangeul},...
-
-### How to build scalable web apps with OpenAI's Privacy Filter
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/openai-privacy-filter-web-apps
-
-
-## 2026-04-26
-
-### Graph Memory Transformer (GMT)
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23862
-- Summary: We investigate whether the Feed-Forward Network (FFN) sublayer in a decoder-only transformer can be replaced by an explicit learned memory graph while preserving the surrounding autoregressive architecture. The proposed Graph Memory Transformer (GMT) keeps causal self-attention intact, but replaces...
 
