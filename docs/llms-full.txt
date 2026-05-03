@@ -6,6 +6,12 @@
 
 ## 2026-05-03
 
+### US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/
+- Summary: Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide resources to help augment warfighter decision-making in complex operational environments,” the Defense Department said. The post US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified...
+
 ### CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
 - Source: The Hacker News
 - Category: security
@@ -741,6 +747,12 @@
 - URL: https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html
 - Summary: Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. "An...
 
+### Mapping how LLMs debate societal issues when shadowing human personality traits, sociodemographics and social media behavior
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27624
+- Summary: Large Language Models (LLMs) can strongly shape social discourse, yet datasets investigating how LLM outputs vary across controlled social and contextual prompting remain sparse. Cognitive Digital Shadows (CDS) is a 190,000-record synthetic corpus supporting analyses of LLM-generated discourse....
+
 ### AMGenC: Generating Charge Balanced Amorphous Materials
 - Source: HF Daily Papers
 - Category: open-source
@@ -752,6 +764,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27606
 - Summary: Learning informative representations from tabular data in remote sensing and environmental science is challenging due to heterogeneity, scarce labels, and redundancy among features. We present ZAYAN (Zero-Anchor dYnamic feAture eNcoding), a self-supervised, feature-centric contrastive framework for...
+
+### One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27599
+- Summary: Large language models (LLMs) are increasingly used for recommendation reranking, but their listwise predictions can depend on the order in which candidates are presented. This creates a mismatch between the set-based nature of recommendation and the sequence-based computation of decoder-only LLMs,...
+
+### Fake3DGS: A Benchmark for 3D Manipulation Detection in Neural Rendering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27590
+- Summary: Recent advances in 3D reconstruction and neural rendering,particularly 3D Gaussian Splatting, make it feasible and simple to edit 3D scenes and re-render them as highly realistic images. Therefore, security concerns arise regarding the authenticity of 3D content. Despite this threat, 3D fake...
 
 ### Sandhills Medical Says Ransomware Breach Affects 170,000
 - Source: Security Week
@@ -1251,6 +1275,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.26620
 - Summary: Depth ambiguity and joint uncertainty are the two main obstacles in obtaining accurate human pose predictions by 2D-to-3D lifting methods proposed in the literature. In particular, these issues are caused by 2D joint locations that can be mapped to multiple 3D positions, inducing multiple possible...
+
+### FunFace: Feature Utility and Norm Estimation for Face Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26598
+- Summary: Face Recognition (FR) is used in a variety of application domains, from entertainment and banking to security and surveillance. Such applications rely on the FR model to be robust and perform well in a variety of settings. To achieve this, state-of-the-art FR models typically use expressive...
 
 ### The Download: storing nuclear waste and orchestrating agents
 - Source: MIT Tech Review AI
@@ -2044,6 +2074,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.25325
 - Summary: Modern Text-to-SQL systems generate multiple candidate SQL queries and rank them to judge a final prediction. However, existing methods face two limitations. First, they often score functionally equivalent SQL queries inconsistently despite identical execution results. Second, ranking cannot...
+
+### Assessment of the quantitative impact of occlusal positioning splints on temporomandibular joint conditions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25322
+- Summary: A computational method for quantitative analysis of temporomandibular joint (TMJ) configuration using occlusal positioning splints is proposed and demonstrated. The method models a positioning splint as a physical realization of a predefined rigid transformation of the mandible, derived from...
 
 ### Towards Robust Deep Learning-based Rumex Obtusifolius Detection from Drone Images
 - Source: HF Daily Papers
@@ -2982,40 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.22095
 - Summary: arXiv:2604.22095v1 Announce Type: new Abstract: This paper presents a highly efficient Retrieval-Augmented Generation (RAG) system built specifically for Ukrainian document question answering, which achieved 2nd place in the UNLP 2026 Shared Task. Our solution features a custom two-stage search...
-
-### Knowledge-driven Augmentation and Retrieval for Integrative Temporal Adaptation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22098
-- Summary: arXiv:2604.22098v1 Announce Type: new Abstract: Time introduces fundamental challenges in model development and deployment: models are usually trained on historical data while deployed on future data where semantic distributions and domain knowledge may evolve. Unfortunately, existing studies...
-
-### Where Should LoRA Go? Component-Type Placement in Hybrid Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22127
-- Summary: arXiv:2604.22127v1 Announce Type: new Abstract: Hybrid language models that interleave attention with recurrent components are increasingly competitive with pure Transformers, yet standard LoRA practice applies adapters uniformly without considering the distinct functional roles of each component...
-
-### Geometry-Aware Offline-to-Online Learning in Linear Contextual Bandits
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24016
-- Summary: We study offline-to-online learning in linear contextual bandits with biased offline regression data: the offline parameter need not match the online one, so history should not be treated as a single warm start. We model directional transfer with a shift certificate $(M_{\mathrm{shift}},ρ)$ and...
-
-### IntentVLM: Open-Vocabulary Intention Recognition through Forward-Inverse Modeling with Video-Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24002
-- Summary: Improving the effectiveness of human-robot interaction requires social robots to accurately infer human goals through robust intention understanding. This challenge is particularly critical in multimodal settings, where agents must integrate heterogeneous signals including text, visual cues to form...
-
-### Meituan Quietly Tests Trillion-Parameter AI Model Built on Domestic Compute
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/meituan-quietly-tests-trillion-parameter-ai-model-built-on-domestic-compute
-- Summary: Meituan enters the trillion-parameter AI race with a domestically trained model rivaling GPT-4.
-
-### Honda Shifts China R&D Strategy to Local Leadership Amid Intensifying Competition
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honda-shifts-china-r-and-d-strategy-to-local-leadership-amid-intensifying-competition
-- Summary: Honda shifts to China-led EV development as it restructures operations to stay competitive in the world’s largest auto market.
 
