@@ -690,6 +690,12 @@
 - URL: https://tldr.takara.ai/p/2604.27724
 - Summary: Medical retrieval-augmented generation (RAG) systems typically operate on text chunks extracted from biomedical literature, discarding the rich visual content (tables, figures, structured layouts) of original document pages. We propose MED-VRAG, an iterative multimodal RAG framework that retrieves...
 
+### Auditing Frontier Vision-Language Models for Trustworthy Medical VQA: Grounding Failures, Format Collapse, and Domain Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27720
+- Summary: Deploying vision-language models (VLMs) in clinical settings demands auditable behavior under realistic failure conditions, yet the failure landscape of frontier VLMs on specialized medical inputs is poorly characterized. We audit five recent frontier and grounding-aware VLMs (Gemini~2.5~Pro,...
+
 ### Critical cPanel & WHM Vulnerability Exploited as Zero-Day for Months
 - Source: Security Week
 - Category: security
@@ -1755,6 +1761,12 @@
 - URL: https://tldr.takara.ai/p/2604.25985
 - Summary: General-relativistic magnetohydrodynamic (GR-MHD) simulations are essential for studying black hole accretion, relativistic jets, and magnetic reconnection, yet their computational cost severely limits systematic parameter exploration. We investigate neural operator surrogates for two...
 
+### RESTestBench: A Benchmark for Evaluating the Effectiveness of LLM-Generated REST API Test Cases from NL Requirements
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25862
+- Summary: Existing REST API testing tools are typically evaluated using code coverage and crash-based fault metrics. However, recent LLM-based approaches increasingly generate tests from NL requirements to validate functional behaviour, making traditional metrics weak proxies for whether generated tests...
+
 ### Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2584,6 +2596,12 @@
 - URL: https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
 - Summary: A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging...
 
+### Culture-Aware Machine Translation in Large Language Models: Benchmarking and Investigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24361
+- Summary: Large language models (LLMs) have achieved strong performance in general machine translation, yet their ability in culture-aware scenarios remains poorly understood. To bridge this gap, we introduce CanMT, a Culture-Aware Novel-Driven Parallel Dataset for Machine Translation, together with a...
+
 ### ARETE: Attention-based Rasterized Encoding for Topology Estimation using HSV-transformed Crowdsourced Vehicle Fleet Data
 - Source: HF Daily Papers
 - Category: open-source
@@ -2999,22 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.23862
 - Summary: We investigate whether the Feed-Forward Network (FFN) sublayer in a decoder-only transformer can be replaced by an explicit learned memory graph while preserving the surrounding autoregressive architecture. The proposed Graph Memory Transformer (GMT) keeps causal self-attention intact, but replaces...
-
-### Talking Slide Avatars: Open-Source Multimodal Communication Approach for Teaching
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23703
-- Summary: Slide-based teaching is widely used in higher education, yet in online, hybrid, and asynchronous contexts, slides often lose the instructor presence, narrative continuity, and expressive framing that help learners connect with content. Full lecture video can partly restore these qualities, but it...
-
-### Structural Enforcement of Goal Integrity in AI Agents via Separation-of-Powers Architecture
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23646
-- Summary: Recent evidence suggests that frontier AI systems can exhibit agentic misalignment, generating and executing harmful actions derived from internally constructed goals, even without explicit user requests. Existing mitigation methods, such as Reinforcement Learning from Human Feedback (RLHF) and...
-
-### Multi-Plane HyperX: A Low-Latency and Cost-Effective Network for Large-Scale AI and HPC Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.23519
-- Summary: Multi-plane architectures have become increasingly prevalent in the Fat-Tree networks of AI data centers. By leveraging multiple ports on a single network interface card (NIC) or multiple NICs within a scale-up domain, each port or NIC is allocated to an independent network plane, thereby...
 
