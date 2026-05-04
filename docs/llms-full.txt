@@ -6,6 +6,12 @@
 
 ## 2026-05-04
 
+### Increased build dequeue duration in Workers Builds
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/ntv2y417gntc
+- Summary: May 4, 20:20 UTCInvestigating - Some Workers Builds users may experience increased build dequeue times, or builds that are stuck in a queued state indefinitely.
+
 ### Issue affecting some pages on the ChatGPT website
 - Source: OpenAI Status
 - Category: incidents
@@ -681,6 +687,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/tn894r5df81p
 - Summary: May 1, 02:48 UTCResolved - This incident has been resolved.Apr 30, 22:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 30, 22:31 UTCInvestigating - Cloudflare is currently investigating issues with its Load Balancing Health Monitoring services. During this time...
 
+### Beyond Visual Fidelity: Benchmarking Super-Resolution Models for Large-Scale Remote Sensing Imagery via Downstream Task Integration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.00310
+- Summary: Super-resolution (SR) techniques have made major advances in reconstructing high-resolution images from low-resolution inputs. The increased resolution provides visual enhancement and utility for monitoring tasks. In particular, SR has been increasingly developed for satellite-based Earth...
+
 
 ## 2026-04-30
 
@@ -797,6 +809,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27911
 - Summary: Foundation models are deep neural networks (such as GPT-5, Gemini~3, and Opus~4) trained on large datasets that can perform diverse downstream tasks -- text and code generation, question answering, summarization, image classification, and so on. The philosophy of foundation models is to put effort...
+
+### Simulating clinical interventions with a generative multimodal model of human physiology
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27899
+- Summary: Understanding how human health changes over time, and why responses to interventions vary between individuals, remains a central challenge in medicine. Here we present HealthFormer, a decoder-only transformer that models the human physiological trajectory generatively, by training on data from the...
 
 ### Graph World Models: Concepts, Taxonomy, and Future Directions
 - Source: HF Daily Papers
@@ -1471,6 +1489,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.26833
 - Summary: This paper presents a hierarchical decision-making framework for unmanned aerial vehicle (UAV) missions motivated by search-and-rescue (SAR) scenarios under limited simulation training. The framework combines a fixed rule-based high-level advisor with an online goal-conditioned low-level...
+
+### Cross-Subject Generalization for EEG Decoding: A Survey of Deep Learning Methods
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27033
+- Summary: Deep learning for cross-subject EEG decoding is hindered by high inter-subject variability, which introduces a severe domain shift between training and unseen test subjects. This survey presents a comprehensive review of deep learning methodologies specifically engineered to address this...
 
 ### Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations
 - Source: HF Daily Papers
@@ -2708,6 +2732,12 @@
 - URL: https://pandaily.com/cap-cut-launches-ai-assistant-for-natural-language-video-editing
 - Summary: CapCut has introduced an AI Assistant that enables users to edit videos through natural language commands, automating tasks such as clipping, transitions, and audio processing. The feature reflects a shift toward task-driven workflows in consumer video editing.
 
+### Cooperate to Compete: Strategic Coordination in Multi-Agent Conquest
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25088
+- Summary: Language Model (LM)-based agents remain largely untested in mixed-motive settings where agents must leverage short-term cooperation for long-term competitive goals (e.g., multi-party politics). We introduce Cooperate to Compete (C2C), a multi-agent environment where players can engage in private...
+
 ### Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization
 - Source: HF Daily Papers
 - Category: open-source
@@ -2991,34 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.24312
 - Summary: Recovering 3D human pose from multi-view imagery typically relies on precise camera calibration, which is often unavailable in real-world scenarios, thereby severely limiting the applicability of existing methods. To overcome this challenge, we propose an unconstrained framework that synergizes...
-
-### SolarTformer: A Transformer Based Deep Learning Approach for Short Term Solar Power Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24306
-- Summary: Accurate forecasting of solar power output is essential for efficient integration of renewable energy into the grid. In this study, an attention-based deep learning model, inspired by transformer architecture, is used for short-term solar power forecasting. Our proposed model, "SolarTformer", is...
-
-### UNC6692 Uses Email Bombing, Social Engineering to Deploy ‘Snow’ Malware
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/unc6692-uses-email-bombing-social-engineering-to-deploy-snow-malware/
-- Summary: The threat actor infected victims with the Snow malware family – Snowbelt, Snowglaze, and Snowbasin – for persistent access. The post UNC6692 Uses Email Bombing, Social Engineering to Deploy &#8216;Snow&#8217; Malware appeared first on SecurityWeek.
-
-### Model-Free Inference of Investor Preferences: A Relative Entropy IRL Approach
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24280
-- Summary: We present a framework using Relative Entropy Inverse Reinforcement Learning (RE-IRL) to recover investor reward functions from observed investment actions and market conditions. Unlike traditional IRL algorithms, RE-IRL is employed to account for environments where transition probabilities are...
-
-### Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/easily-exploitable-pack2theroot-linux-vulnerability-leads-to-root-access/
-- Summary: A race condition in PackageKit allows unprivileged users to escalate privileges when installing packages. The post Easily Exploitable &#8216;Pack2TheRoot&#8217; Linux Vulnerability Leads to Root Access appeared first on SecurityWeek.
-
-### Touchless Intraoperative Image Access System Based on Vision-Based Hand Tracking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24235
-- Summary: Touchless interaction with medical images is becoming increasingly important in the surgical field, where sterility and continuity of the operational workflow are essential requirements. This work presents a vision-based system for intraoperative navigation of medical images through hand gestures...
 

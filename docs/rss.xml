@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 04 May 2026 17:42:59 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 21:10:39 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Increased build dequeue duration in Workers Builds</title>
+            <link>https://www.cloudflarestatus.com/incidents/ntv2y417gntc</link>
+            <guid>https://www.cloudflarestatus.com/incidents/ntv2y417gntc</guid>
+            <pubDate>Mon, 04 May 2026 20:20:20 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/ntv2y417gntc">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 4, 20:20 UTCInvestigating - Some Workers Builds users may experience increased build dequeue times, or builds that are stuck in a queued state indefinitely.</description>
+        </item>
         <item>
             <title>Issue affecting some pages on the ChatGPT website</title>
             <link>https://status.openai.com//incidents/01KQSSQK74KJVJVGCS97TV156G</link>
@@ -360,15 +369,6 @@
             <description>In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned&amp;#160;that AI could destroy us all and sat...</description>
         </item>
         <item>
-            <title>Incorrect rejection of 400 errors for AI Gateway</title>
-            <link>https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq</link>
-            <guid>https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq</guid>
-            <pubDate>Fri, 01 May 2026 16:15:10 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/fnsj0jqpsnsq">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 1, 16:15 UTCResolved - Between 05:00 and 15:04 UTC on May 1st, AI Gateway requests using the AI binding may have been incorrectly rejected with 400 errors due to a schema validation change. This is now resolved.</description>
-        </item>
-        <item>
             <title>Cyber-Insecurity in the AI Era</title>
             <link>https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/</link>
             <guid>https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/</guid>
@@ -432,6 +432,15 @@
             <description>Status: ResolvedAll impacted services have now fully recovered.</description>
         </item>
         <item>
+            <title>Beyond Visual Fidelity: Benchmarking Super-Resolution Models for Large-Scale Remote Sensing Imagery via Downstream Task Integration</title>
+            <link>https://tldr.takara.ai/p/2605.00310</link>
+            <guid>https://tldr.takara.ai/p/2605.00310</guid>
+            <pubDate>Fri, 01 May 2026 00:44:46 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.00310">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Super-resolution (SR) techniques have made major advances in reconstructing high-resolution images from low-resolution inputs. The increased resolution provides visual enhancement and utility for monitoring tasks. In particular, SR has been increasingly developed for satellite-based Earth...</description>
+        </item>
+        <item>
             <title>Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models</title>
             <link>https://tldr.takara.ai/p/2605.00123</link>
             <guid>https://tldr.takara.ai/p/2605.00123</guid>
@@ -448,15 +457,6 @@
             <source url="https://tldr.takara.ai/p/2604.28175">HF Daily Papers</source>
             <category>open-source</category>
             <description>Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization and insufficient latency estimation under concurrent execution may restrict their applicability in...</description>
-        </item>
-        <item>
-            <title>Mapping the Phase Diagram of the Vicsek Model with Machine Learning</title>
-            <link>https://tldr.takara.ai/p/2604.28167</link>
-            <guid>https://tldr.takara.ai/p/2604.28167</guid>
-            <pubDate>Thu, 30 Apr 2026 17:52:23 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2604.28167">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of simulated parameter points and characterize each point using long-time dynamical observables. These...</description>
         </item>
     </channel>
 </rss>
