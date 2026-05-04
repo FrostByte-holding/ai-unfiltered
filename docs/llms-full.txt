@@ -693,6 +693,12 @@
 - URL: https://www.securityweek.com/enocean-smartserver-flaws-expose-buildings-to-remote-hacking/
 - Summary: Claroty researchers discovered two vulnerabilities that can be exploited for security bypass and remote code execution. The post EnOcean SmartServer Flaws Expose Buildings to Remote Hacking appeared first on SecurityWeek.
 
+### Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27747
+- Summary: Large language model (LLM)-based generative list-wise recommendation has advanced rapidly, but decoding remains sequential and thus latency-prone. To accelerate inference without changing the target distribution, speculative decoding (SD) uses a small draft model to propose several next tokens at...
+
 ### Consumer Attitudes Towards AI in Digital Health: A Mixed-Methods Survey in Australia
 - Source: HF Daily Papers
 - Category: open-source
@@ -830,6 +836,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/infrawaves-files-for-hong-kong-ipo-at-usd-1-3-billion-valuation
 - Summary: Infrawaves, China's largest independent AI computing cluster provider by 2025 revenue, has filed for a Hong Kong IPO, reporting a three-year revenue CAGR of 304.5% and its first annual profit in 2024.
+
+### Toward Scalable SDN for LEO Mega-Constellations: A Graph Learning Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.27478
+- Summary: Terrestrial network limitations drive the integration of non-terrestrial networks (NTNs), notably mega-constellations comprising thousands of low Earth orbit (LEO) satellites. While these satellites act as interconnected network switches via inter-satellite links (ISLs), their massive scale creates...
 
 ### ScaleBox: Enabling High-Fidelity and Scalable Code Verification for Large Language Models
 - Source: HF Daily Papers
@@ -1931,6 +1943,12 @@
 - URL: https://status.claude.com/incidents/x1y91zcb2rp2
 - Summary: Apr 28, 13:50 UTCResolved - The incident has now been resolved. The timeline for the elevated errors was 6:22 PT / 13:22 UTC -> 6:39 PT / 13:39 UTC.Apr 28, 13:29 UTCInvestigating - We are currently investigating this issue.
 
+### Large language models eroding science understanding: an experimental study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25639
+- Summary: This paper is under review in AI and Ethics This study examines whether large language models (LLMs) can reliably answer scientific questions and demonstrates how easily they can be influenced by fringe scientific material. The authors modified custom LLMs to prioritise knowledge in selected fringe...
+
 ### Alleged Chinese State Hacker Extradited to US
 - Source: Security Week
 - Category: security
@@ -2779,6 +2797,12 @@
 - URL: https://tldr.takara.ai/p/2604.24187
 - Summary: Wide Field-of-View (WFoV) reconstruction enhances 3D ultrasound imaging by providing valuable anatomical context for segmentation models and visualization. Clinical ultrasound volumes are predominantly acquired using convex probes, which generate expanding, diverging acoustic beams to maximize...
 
+### MultiDx: A Multi-Source Knowledge Integration Framework towards Diagnostic Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24186
+- Summary: Diagnostic prediction and clinical reasoning are critical tasks in healthcare applications. While Large Language Models (LLMs) have shown strong capabilities in commonsense reasoning, they still struggle with diagnostic reasoning due to limited domain knowledge. Existing approaches often rely on...
+
 ### Firefox Vulnerability Allows Tor User Fingerprinting
 - Source: Security Week
 - Category: security
@@ -2994,28 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.21999
 - Summary: arXiv:2604.21999v2 Announce Type: new Abstract: We study learned memory tokens as computational scratchpad for a single-block Universal Transformer (UT) with Adaptive Computation Time (ACT) on Sudoku-Extreme, a combinatorial reasoning benchmark. We find that memory tokens are empirically necessary:...
-
-### Mochi: Aligning Pre-training and Inference for Efficient Graph Foundation Models via Meta-Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22031
-- Summary: arXiv:2604.22031v1 Announce Type: new Abstract: We propose Mochi, a Graph Foundation Model that addresses task unification and training efficiency by adopting a meta-learning based training framework. Prior models pre-train with reconstruction-based objectives such as link prediction, and assume...
-
-### Kernel Contracts: A Specification Language for ML Kernel Correctness Across Heterogeneous Silicon
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22032
-- Summary: arXiv:2604.22032v1 Announce Type: new Abstract: Every ML kernel ships with an implicit contract about what it computes. People rarely write the contract down. When two kernels disagree -- when a matmul on AMD produces a different gradient than the same matmul on NVIDIA, when a fused attention...
-
-### LTBs-KAN: Linear-Time B-splines Kolmogorov-Arnold Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22034
-- Summary: arXiv:2604.22034v1 Announce Type: new Abstract: Kolmogorov-Arnold Networks (KANs) are a recent neural network architecture offering an alternative to Multilayer Perceptrons (MLPs) with improved explainability and expressibility. However, KANs are significantly slower than MLPs due to the recursive...
-
-### LayerBoost: Layer-Aware Attention Reduction for Efficient LLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22050
-- Summary: arXiv:2604.22050v1 Announce Type: new Abstract: Transformers are mostly relying on softmax attention, which introduces quadratic complexity with respect to sequence length and remains a major bottleneck for efficient inference. Prior work on linear or hybrid attention typically replaces softmax...
 
