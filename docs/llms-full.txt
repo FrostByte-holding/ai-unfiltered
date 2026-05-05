@@ -4,13 +4,46 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-05
+
+### Network hardware failure in Hong Kong
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2kmx3dk5885z
+- Summary: May 5, 00:57 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 5, 00:44 UTCIdentified - The issue has been identified and a fix is being implemented.May 4, 22:00 UTCInvestigating - Reduced redundancy due to network hardware failure in Hong Kong
+
+
 ## 2026-05-04
+
+### [AINews] The Other vs The Utility
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-the-other-vs-the-utility
+- Summary: a quiet day lets us reflect on the nature of AI "character" in the Clippy vs Anton debate
 
 ### Increased build dequeue duration in Workers Builds
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ntv2y417gntc
 - Summary: May 4, 20:20 UTCInvestigating - Some Workers Builds users may experience increased build dequeue times, or builds that are stuck in a queued state indefinitely.
+
+### Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cisco-moves-to-acquire-astrix-security-to-tackle-non-human-identity-risks/
+- Summary: The acquisition strengthens Cisco’s push into identity-centric security for AI and machine access. The post Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks appeared first on SecurityWeek.
+
+### Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html
+- Summary: An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80...
+
+### Trellix Source Code Repository Breached
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/trellix-source-code-repository-breached/
+- Summary: The cybersecurity firm’s investigation has not found any impact on its source code release or distribution process. The post Trellix Source Code Repository Breached appeared first on SecurityWeek.
 
 ### Issue affecting some pages on the ChatGPT website
 - Source: OpenAI Status
@@ -54,6 +87,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/wynkzw6vy9tv
 - Summary: May 4, 14:29 UTCResolved - This incident has been resolved.May 4, 14:19 UTCIdentified - Cloudflare has identified an issue impacting a subset of Workers Analytics queries returning a 403 error. This does not impact writing Analytics Engine events.We are working to mitigate this problem. More...
 
+### ⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html
+- Summary: This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to...
+
 ### Elevated errors on Claude Opus 4.5 and Sonnet 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -89,6 +128,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html
 - Summary: The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025,...
+
+### Exploitation of ‘Copy Fail’ Linux Vulnerability Begins
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/exploitation-of-copy-fail-linux-vulnerability-begins/
+- Summary: CISA has added the bug to its KEV list, and Microsoft has observed limited exploitation, mainly associated with PoC testing. The post Exploitation of &#8216;Copy Fail&#8217; Linux Vulnerability Begins appeared first on SecurityWeek.
 
 ### Turnstile Challenge Issues
 - Source: Cloudflare Status
@@ -221,6 +266,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.00119
 - Summary: arXiv:2605.00119v1 Announce Type: new Abstract: There is a significant gap in evaluating cultural reasoning in LLMs using conversational datasets that capture culturally rich and dialectal contexts. Most Arabic benchmarks focus on short text snippets in Modern Standard Arabic (MSA), overlooking the...
+
+### ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00245
+- Summary: arXiv:2605.00245v1 Announce Type: new Abstract: Large language models (LLMs) are now being explored for defense applications that require reliable and legally compliant decision support. They also hold significant potential to enhance decision making, coordination, and operational efficiency in...
+
+### Causal Foundations of Collective Agency
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00248
+- Summary: arXiv:2605.00248v1 Announce Type: new Abstract: A key challenge for the safety of advanced AI systems is the possibility that multiple simpler agents might inadvertently form a collective agent with capabilities and goals distinct from those of any individual. More generally, determining when a...
+
+### Agentic AI for Trip Planning Optimization Application
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00276
+- Summary: arXiv:2605.00276v1 Announce Type: new Abstract: Trip planning for intelligent vehicles increasingly requires selecting optimal routes rather than merely producing feasible itineraries, as interacting factors such as travel time, energy consumption, and traffic conditions directly affect plan...
+
+### Token Arena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00300
+- Summary: arXiv:2605.00300v1 Announce Type: new Abstract: Public inference benchmarks compare AI systems at the model and provider level, but the unit at which deployment decisions are actually made is the endpoint: the (provider, model, stock-keeping-unit) tuple at which a specific quantization, decoding...
+
+### AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00334
+- Summary: arXiv:2605.00334v1 Announce Type: new Abstract: Production agentic systems make many model calls per user request, and most of those calls are short, structured, and routine. This raises a practical routing question that existing evaluations do not directly answer: which parts of an agent workflow...
+
+### Smart Ensemble Learning Framework for Predicting Groundwater Heavy Metal Pollution
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00056
+- Summary: arXiv:2605.00056v1 Announce Type: new Abstract: Groundwater in the Densu Basin is increasingly threatened by heavy metal contamination, but conventional methods fail to capture the statistical complexity and spatial heterogeneity of pollution indicators. A key challenge is modelling the Heavy Metal...
+
+### Information-Theoretic Generalization Bounds for Stochastic Gradient Descent with Predictable Virtual Noise
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00064
+- Summary: arXiv:2605.00064v1 Announce Type: new Abstract: Information-theoretic generalization bounds analyze stochastic optimization by relating expected generalization error to the mutual information between learned parameters and training data. Virtual perturbation analyses of SGD add auxiliary Gaussian...
+
+### Human-in-the-Loop Meta Bayesian Optimization for Fusion Energy and Scientific Applications
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00068
+- Summary: arXiv:2605.00068v1 Announce Type: new Abstract: Inertial Confinement Fusion (ICF) holds transformative promise for sustainable, near-limitless clean energy, yet remains constrained by prohibitively high costs and limited experimental opportunities. This paper presents Human-in-the-Loop Meta...
+
+### Soft-MSM: Differentiable Context-Aware Elastic Alignment for Time Series
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00069
+- Summary: arXiv:2605.00069v1 Announce Type: new Abstract: Elastic distances like dynamic time warping (DTW) are central to time series machine learning because they compare sequences under local temporal misalignment. Soft-DTW is an adaptation of DTW that can be used as a gradient-based loss by replacing the...
+
+### CRADIPOR: Crash Dispersion Predictor
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00070
+- Summary: arXiv:2605.00070v1 Announce Type: new Abstract: We present CRADIPOR, a numerical dispersion prediction tool for automotive crash simulations. Finite Element (FE) crash models are widely used throughout vehicle development, but their predictions are not strictly repeatable because of parallel...
+
+### Timing is Everything: Temporal Scaffolding of Semantic Surprise in Humor
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.00143
+- Summary: arXiv:2605.00143v1 Announce Type: new Abstract: Humor is a fundamental cognitive phenomenon in which humans derive pleasure from the expectation violations and their resolution, exemplifying the brain's dynamic capacity for predictive processing. Classical humor theories emphasize semantic...
+
+### RSAT: Structured Attribution Makes Small Language Models Faithful Table Reasoners
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.00199
+- Summary: arXiv:2605.00199v1 Announce Type: new Abstract: When a language model answers a table question, users have no way to verify which cells informed which reasoning steps. We introduce RSAT, a method that trains small language models (SLMs, 1-8B) to produce step-by-step reasoning with cell-level...
+
+### Confidence Estimation in Automatic Short Answer Grading with LLMs
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.00200
+- Summary: arXiv:2605.00200v1 Announce Type: new Abstract: Automatic Short Answer Grading (ASAG) with generative large language models (LLMs) has recently demonstrated strong performance without task-specific fine-tuning, while also enabling the generation of synthetic feedback for educational assessment....
+
+### Why Do LLMs Struggle in Strategic Play? Broken Links Between Observations, Beliefs, and Actions
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.00226
+- Summary: arXiv:2605.00226v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly tasked with strategic decision-making under incomplete information, such as in negotiation and policymaking. While LLMs can excel at many such tasks, they also fail in ways that are poorly understood. We...
+
+### Persona-Grounded Safety Evaluation of AI Companions in Multi-Turn Conversations
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.00227
+- Summary: arXiv:2605.00227v1 Announce Type: new Abstract: There are growing concerns about the risks posed by AI companion applications designed for emotional engagement. Existing safety evaluations often rely on self-reported user data or interviews, offering limited insights into real-time dynamics. We...
 
 
 ## 2026-05-03
@@ -1449,6 +1584,12 @@
 - URL: https://tldr.takara.ai/p/2604.26932
 - Summary: The Alternating Direction Method of Multipliers (ADMM) is a widely used method for structured convex optimization, and its practical performance depends strongly on the choice of penalty and relaxation parameters. Motivated by settings such as Model Predictive Control (MPC), where one repeatedly...
 
+### ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.26923
+- Summary: LLMs have achieved strong results on both function-level code synthesis and repository-level code modification, yet a capability that falls between these two extremes -- compositional code creation, i.e., building a complete, internally structured class from a specification -- remains underserved....
+
 ### Causal Learning with Neural Assemblies
 - Source: HF Daily Papers
 - Category: open-source
@@ -2103,6 +2244,12 @@
 - URL: https://tldr.takara.ai/p/2604.25862
 - Summary: Existing REST API testing tools are typically evaluated using code coverage and crash-based fault metrics. However, recent LLM-based approaches increasingly generate tests from NL requirements to validate functional behaviour, making traditional metrics weak proxies for whether generated tests...
 
+### SIEVES: Selective Prediction Generalizes through Visual Evidence Scoring
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25855
+- Summary: Multimodal large language models (MLLMs) achieve ever-stronger performance on visual-language tasks. Even as traditional visual question answering benchmarks approach saturation, reliable deployment requires satisfying low error tolerances in real-world out-of-distribution (OOD) scenarios....
+
 ### ADEMA: A Knowledge-State Orchestration Architecture for Long-Horizon Knowledge Synthesis with LLMAgents
 - Source: HF Daily Papers
 - Category: open-source
@@ -2281,6 +2428,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html
 - Summary: Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution. The vulnerability in question is CVE-2026-25874 (CVSS score: 9.3),...
+
+### Emergent Self-Attention from Astrocyte-Gated Associative Memory Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.25481
+- Summary: We introduce a Hopfield-type associative memory in which effective connectivity is multiplicatively modulated by astrocytic gains evolving under an entropy-regularized replicator equation. The coupled neuron-astrocyte dynamics admit a Lyapunov function, ensuring global convergence. At fixed points,...
 
 ### After Mythos: New Playbooks For a Zero-Window Era
 - Source: The Hacker News
@@ -2794,6 +2947,12 @@
 - URL: https://tldr.takara.ai/p/2604.24718
 - Summary: Monocular RGB cameras mounted on drones are widely used for wildlife monitoring, yet most analytical pipelines remain confined to two-dimensional image space, leaving geometric information in video underexploited. We present WildLIFT, a computational framework that integrates three-dimensional...
 
+### FGDM: Reasoning Aware Multi-Agentic Framework for Software Bug Detection using Chain of Thought and Tree of Thought Prompting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2604.24831
+- Summary: Deep Learning methods are becoming prominent in automated software bug detection; however, they lack the global understanding of the given code. Consequently, their performance tends to degrade, especially when they are applied to large interconnected code bases or complex modular programs....
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -2865,160 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.24544
 - Summary: The increasing reliance on Large Language Models (LLMs) across diverse sectors highlights the need for robust domain-specific and language-specific evaluation datasets; however, the collection of such datasets is challenging due to privacy concerns, regulatory restrictions, and the time cost for...
-
-### RACANet: Reliability-Aware Crowd Anchor Network for RGB-T Crowd Counting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24543
-- Summary: RGB-Thermal (T) crowd counting aims to integrate visible-spectrum and thermal infrared information to improve the robustness of crowd density estimation in complex scenes. Although existing studies generally improve counting accuracy through cross-modal feature fusion, most current methods rely on...
-
-### Layerwise Convergence Fingerprints for Runtime Misbehavior Detection in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24542
-- Summary: Large language models deployed at runtime can misbehave in ways that clean-data validation cannot anticipate: training-time backdoors lie dormant until triggered, jailbreaks subvert safety alignment, and prompt injections override the deployer's instructions. Existing runtime defenses address these...
-
-### Understanding the Limits of Automated Evaluation for Code Review Bots in Practice
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24525
-- Summary: Automated code review (ACR) bots are increasingly used in industrial software development to assist developers during pull request (PR) review. As adoption grows, a key challenge is how to evaluate the usefulness of bot-generated comments reliably and at scale. In practice, such evaluation often...
-
-### Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html
-- Summary: Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. "Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that...
-
-### CA-IDD: Cross-Attention Guided Identity-Conditional Diffusion for Identity-Consistent Face Swapping
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24493
-- Summary: Face swapping aims to optimize realistic facial image generation by leveraging the identity of a source face onto a target face while preserving pose, expression, and context. However, existing methods, especially GAN-based methods, often struggle to balance identity preservation and visual realism...
-
-### ⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html
-- Summary: Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it feels like stuff we should have fixed years ago. Bad...
-
-### Incomplete Windows Patch Opens Door to Zero-Click Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/
-- Summary: The initial vulnerability was exploited by Russia-linked APT28 in attacks against Ukraine and EU countries. The post Incomplete Windows Patch Opens Door to Zero-Click Attacks appeared first on SecurityWeek.
-
-### Rebuilding the data stack for AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/
-- Summary: Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI...
-
-### OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/
-- Summary: A code reuse issue enabled comma characters in certificate principals to be interpreted as list separators. The post OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years appeared first on SecurityWeek.
-
-### All That Glitters Is Not Audio: Rethinking Text Priors and Audio Reliance in Audio-Language Evaluation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24401
-- Summary: Large Audio-Language Models show consistent performance gains across speech and audio benchmarks, yet high scores may not reflect true auditory perception. If a model can answer questions without processing the acoustic signal, the benchmark fails as a measure of auditory understanding. We present...
-
-### Few-Shot Cross-Device Transfer for Quantum Noise Modeling on Real Hardware
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24397
-- Summary: In the noisy intermediate-scale quantum (NISQ) regime, quantum devices contain hardware-specific noise sources which restrict device-invariant error mitigation strategies. We explore transfer learning approaches to apply noise models learned on one quantum device to a different device with the help...
-
-### Complexity of Linear Regions in Self-supervised Deep ReLU Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24393
-- Summary: There has been growing interest in studying the complexity of Rectified Linear Unit (ReLU) based activation networks. Recent work investigates the evolution of the number of piecewise-linear partitions (linear regions) that are formed during training. However, current research is limited to...
-
-### Certified geometric robustness -- Super-DeepG
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24379
-- Summary: Safety-critical applications are required to perform as expected in normal operations. Image processing functions are often required to be insensitive to small geometric perturbations such as rotation, scaling, shearing or translation. This paper addresses the formal verification of neural networks...
-
-### The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three reasons why DeepSeek’s new model matters On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model....
-
-### Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/malicious-ai-prompt-injection-attacks-increasing-but-sophistication-still-low-google/
-- Summary: The tech giant found that many indirect prompt injection attempts are harmless, but some malicious exploits have also been identified. The post Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google appeared first on SecurityWeek.
-
-### Learning Evidence of Depression Symptoms via Prompt Induction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24376
-- Summary: Depression places substantial pressure on mental health services, and many people describe their experiences outside clinical settings in high-volume user-generated text (e.g., online forums and social media). Automatically identifying clinical symptom evidence in such text can therefore complement...
-
-### PathMoG: A Pathway-Centric Modular Graph Neural Network for Multi-Omics Survival Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24371
-- Summary: Cancer survival prediction from multi-omics data remains challenging because prognostic signals are high-dimensional, heterogeneous, and distributed across interacting genes and pathways. We propose PathMoG, a pathway-centric modular graph neural network for multi-omics survival prediction. PathMoG...
-
-### Multispectral airborne laser scanning dataset for tree species classification: MS-ALS-SPECIES
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24370
-- Summary: The shift from stand-level to individual-tree-level forest assessments supports improved biodiversity mapping, particularly in boreal ecosystems where tree species like aspen (Populus tremula L.) play a keystone role. While airborne laser scanning (ALS) is the standard for such inventories, a major...
-
-### Could your choice of metrics be harming your SOC?
-- Source: NCSC UK
-- Category: security
-- URL: https://www.ncsc.gov.uk/blogs/could-your-choice-of-metrics-be-harming-your-soc
-- Summary: Poor metrics can render a well-intentioned security operation centre entirely ineffective.
-
-### Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html
-- Summary: Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate,...
-
-### PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
-- Summary: A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive Technologies, which found the threat actors to be leveraging...
-
-### Culture-Aware Machine Translation in Large Language Models: Benchmarking and Investigation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24361
-- Summary: Large language models (LLMs) have achieved strong performance in general machine translation, yet their ability in culture-aware scenarios remains poorly understood. To bridge this gap, we introduce CanMT, a Culture-Aware Novel-Driven Parallel Dataset for Machine Translation, together with a...
-
-### ARETE: Attention-based Rasterized Encoding for Topology Estimation using HSV-transformed Crowdsourced Vehicle Fleet Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24353
-- Summary: The continuous advancement of autonomous driving (AD) introduces challenges across multiple disciplines to ensure safe and efficient driving. One such challenge is the generation of High-Definition (HD) maps, which must remain up to date and highly accurate for downstream automotive tasks. One...
-
-### Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html
-- Summary: Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm. The cluster of 73 extensions has been identified as cloned versions of their legitimate...
-
-### Energy and Water Management Firm Itron Hacked
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/energy-and-water-management-firm-itron-hacked/
-- Summary: Itron, which serves utilities and cities around the world, discovered unauthorized access to its systems on April 13. The post Energy and Water Management Firm Itron Hacked appeared first on SecurityWeek.
-
-### Unconstrained Multi-view Human Pose Estimation with Algebraic Priors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.24312
-- Summary: Recovering 3D human pose from multi-view imagery typically relies on precise camera calibration, which is often unavailable in real-world scenarios, thereby severely limiting the applicability of existing methods. To overcome this challenge, we propose an unconstrained framework that synergizes...
 
