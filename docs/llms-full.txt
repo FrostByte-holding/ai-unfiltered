@@ -6,6 +6,78 @@
 
 ## 2026-05-05
 
+### Increased Latency and Failures for SSH Git Operations
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/8kn8t67gdy36
+- Summary: May 5, 17:26 UTCUpdate - We're continuing to work on preventing further impact from the earlier issue. No SSH-based impact is expected at this time. We'll post new updates if impact recurs or once our mitigation is in place.May 5, 17:23 UTCInvestigating - Git Operations is experiencing degraded...
+
+### Issues with Cloudflare Tunnel connections and Browser Isolation sessions
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h3q019bkfw6b
+- Summary: May 5, 17:24 UTCIdentified - The connectivity issues affecting Cloudflare Tunnel and Browser Isolation have stabilized, and we have identified the root cause.Our investigation confirms that internal service restarts across our edge infrastructure led to significant connection churn. This caused...
+
+### Delayed Network Analytics and Alerting
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/g1xx1d9t8prr
+- Summary: May 5, 17:19 UTCInvestigating - We are currently experiencing a delay in processing network analytics across our L4 DDoS protection products. There is no impact to DDoS mitigation functionality; however, customers may notice a lag in the population of Network Analytics dashboards. This delay also...
+
+### Incident with Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1j40g94rn22j
+- Summary: May 5, 17:11 UTCUpdate - Actions is experiencing degraded performance. We are continuing to investigate.May 5, 17:11 UTCUpdate - Standard hosted runners have now reached full recovery. Hosted Runners with Private Networking in the East US region remain degraded as we continue working with our...
+
+### Slower build start time in Workers Builds
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hpp89fn4g199
+- Summary: May 5, 16:34 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 5, 16:15 UTCIdentified - The issue has been identified and a fix is being implemented.May 5, 15:24 UTCInvestigating - Some Workers Builds users may experience increased build dequeue times
+
+### Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html
+- Summary: The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE). The vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been...
+
+### DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html
+- Summary: A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. "These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging...
+
+### Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/
+- Summary: The malicious emails claim to contain a conduct report and lure victims to a Microsoft phishing website that leverages AitM. The post Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations appeared first on SecurityWeek.
+
+### Hacker Conversations: Joey Melo on Hacking AI
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/hacker-conversations-joey-melo-on-hacking-ai/
+- Summary: AI red team specialist details his methods for manipulating AI guardrails through jailbreaking and data poisoning, helping developers harden machine learning models. The post Hacker Conversations: Joey Melo on Hacking AI appeared first on SecurityWeek.
+
+### Errors adding R2 custom domains
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hswtxrx0fkd1
+- Summary: May 5, 13:26 UTCResolved - This incident has been resolved.May 5, 13:17 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 5, 12:32 UTCIdentified - The issue has been identified and a fix is being implemented.May 5, 11:33 UTCInvestigating - Cloudflare is aware of and...
+
+### Critical Bug Could Expose 300,000 Ollama Deployments to Information Theft
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-bug-could-expose-300000-ollama-deployments-to-information-theft/
+- Summary: Dubbed Bleeding Llama, the heap out-of-bounds read issue can be exploited remotely, without authentication. The post Critical Bug Could Expose 300,000 Ollama Deployments to Information Theft appeared first on SecurityWeek.
+
+### The Download: inside the Musk v. Altman trial, and AI for democracy
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle...
+
 ### MetInfo, Weaver E-cology Vulnerabilities in Attackers’ Crosshairs
 - Source: Security Week
 - Category: security
@@ -249,6 +321,18 @@
 - URL: https://status.claude.com/incidents/77j6yv8kc0vn
 - Summary: May 4, 13:59 UTCInvestigating - We are currently investigating this issue.
 
+### Rethinking the Need for Source Models: Source-Free Domain Adaptation from Scratch Guided by a Vision-Language Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02604
+- Summary: Source-Free Domain Adaptation (SFDA) adapts source models to target domains without accessing source data, addressing privacy and transmission issues. However, existing methods still initialize from a source pre-trained model and thus are not truly source-free. Recent works have introduced...
+
+### Counterfactual Reasoning in Automated Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02603
+- Summary: Automated planning traditionally assumes that all aspects of a planning task (initial state, goals, and available actions) are fully specified in advance, an approach well-suited to domains with fixed rules and deterministic execution. However, real-world planning often requires flexibility,...
+
 ### Cybersecurity M&A Roundup: 33 Deals Announced in April 2026
 - Source: Security Week
 - Category: security
@@ -284,6 +368,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html
 - Summary: The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025,...
+
+### From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02491
+- Summary: Modern searches for physics beyond the Standard Model produce rapidly expanding literature containing heterogeneous information, including textual analyses, numerical datasets, and graphical exclusion limits. Integrating these distributed sources remains a time-consuming and manual process for...
 
 ### Exploitation of ‘Copy Fail’ Linux Vulnerability Begins
 - Source: Security Week
@@ -530,6 +620,18 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.00227
 - Summary: arXiv:2605.00227v1 Announce Type: new Abstract: There are growing concerns about the risks posed by AI companion applications designed for emotional engagement. Existing safety evaluations often rely on self-reported user data or interviews, offering limited insights into real-time dynamics. We...
+
+### Cross-Polarization Fusion of VV AND VH SAR Observations for Improved Flood Mapping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02153
+- Summary: Synthetic Aperture Radar (SAR) imagery is widely used for flood monitoring due to its all-weather and day-night imaging capability. However, flood mapping using single-polarization SAR data remains challenging in complex environments where surface and volume scattering coexist. In this paper, we...
+
+### STABLEVAL: Disagreement-Aware and Stable Evaluation of AI Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02122
+- Summary: Human evaluation remains the primary standard for assessing modern AI systems, yet annotator disagreement, bias, and variability make system rankings fragile under standard majority vote aggregation. Majority vote discards annotator reliability and item-level ambiguity, often yielding unstable...
 
 
 ## 2026-05-03
@@ -2920,106 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.22958
 - Summary: arXiv:2604.22958v1 Announce Type: new Abstract: Preference-based argumentation frameworks (PAFs) extend Dung's approach to abstract argumentation (AAFs) by encoding preferences over arguments. Such preferences control the transformation of attacks into defeats, and different approaches to doing so...
-
-### Towards Causally Interpretable Wi-Fi CSI-Based Human Activity Recognition with Discrete Latent Compression and LTL Rule Extraction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22979
-- Summary: arXiv:2604.22979v1 Announce Type: new Abstract: We address Human Activity Recognition (HAR) utilizing Wi-Fi Channel State Information (CSI) under the joint requirements of causal interpretability, symbolic controllability, and direct operation on high-dimensional raw signals. Deep neural models...
-
-### Learning Without Adversarial Training: A Physics-Informed Neural Network for Secure Power System State Estimation under False Data Injection Attacks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22784
-- Summary: arXiv:2604.22784v1 Announce Type: new Abstract: State estimation is a cornerstone of power system control-center operations, and its robust operation is increasingly a cyber-physical security concern as modern grids become more digitalized and communication-intensive. Neural network-based...
-
-### CoFi-PGMA: Counterfactual Policy Gradients under Filtered Feedback for Multi-Agent LLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22785
-- Summary: arXiv:2604.22785v1 Announce Type: new Abstract: Large language model (LLM) deployments increasingly rely on multi-agent architectures in which multiple models either compete through routing mechanisms or collaborate to produce a final answer. In both settings, the learning signal received by each...
-
-### AutoCompress: Critical Layer Isolation for Efficient Transformer Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22786
-- Summary: arXiv:2604.22786v1 Announce Type: new Abstract: We present AutoCompress, a transformer compression method motivated by an empirical finding: in small transformers, Layer 0 carries disproportionately high task-critical information, with an NTK-based importance score of 3.6 compared to a maximum of...
-
-### Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite-Reanalysis Fusion for Africa's Green Industrial Transition
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22787
-- Summary: arXiv:2604.22787v1 Announce Type: new Abstract: Africa's green industrialization imperative demands reliable infrastructure for monitoring air quality. We present a satellite-reanalysis PM2.5 fusion system trained on 2,068,901 records from 404 monitoring locations in 29 African countries (OpenAQ,...
-
-### Avionic Main Fuel Pump Simulation and Fault-Diagnosis Benchmark
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22869
-- Summary: arXiv:2604.22869v1 Announce Type: new Abstract: In many cyber-physical systems, especially in critical applications such as aeroplanes, data to train anomaly detection and diagnosis algorithms is lacking due to data protection issues and partial observability. To combat this inherent lack of data,...
-
-### The Randomness Floor: Measuring Intrinsic Non-Randomness in Language Model Token Distributions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22771
-- Summary: arXiv:2604.22771v1 Announce Type: new Abstract: Language models cannot be random. This paper introduces Entropic Deviation (ED), the normalised KL divergence between a model's token distribution and the uniform distribution, and measures it systematically across 31,200 generations spanning seven...
-
-### TexOCR: Advancing Document OCR Models for Compilable Page-to-LaTeX Reconstruction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22880
-- Summary: arXiv:2604.22880v1 Announce Type: new Abstract: Existing document OCR largely targets plain text or Markdown, discarding the structural and executable properties that make LaTeX essential for scientific publishing. We study page-level reconstruction of scientific PDFs into compilable LaTeX and...
-
-### AutoPyVerifier: Learning Compact Executable Verifiers for Large Language Model Outputs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22937
-- Summary: arXiv:2604.22937v1 Announce Type: new Abstract: Verification is becoming central to both reinforcement-learning-based training and inference-time control of large language models (LLMs). Yet current verifiers face a fundamental trade-off: LLM-based verifiers are expressive but hard to control and...
-
-### Self Knowledge Re-expression: A Fully Local Method for Adapting LLMs to Tasks Using Intrinsic Knowledge
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22939
-- Summary: arXiv:2604.22939v1 Announce Type: new Abstract: While the next-token prediction (NTP) paradigm enables large language models (LLMs) to express their intrinsic knowledge, its sequential nature constrains performance on specialized, non-generative tasks. We attribute this performance bottleneck to...
-
-### Uncertainty Quantification for LLM Function-Calling
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22985
-- Summary: arXiv:2604.22985v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed to autonomously solve real-world tasks. A key ingredient for this is the LLM Function-Calling paradigm, a widely used approach for equipping LLMs with tool-use capabilities. However, an LLM...
-
-### How Can Reinforcement Learning Achieve Expert-level Placement?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25191
-- Summary: Chip placement is a critical step in physical design. While reinforcement learning (RL)-based methods have recently emerged, their training primarily focuses on wirelength optimization, and therefore often fail to achieve expert-quality layouts. We identify the reward design as the primary cause...
-
-### Lightweight Real-Time Rendering Parameter Optimization via XGBoost-Driven Lookup Tables
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25178
-- Summary: Achieving a desirable balance between rendering quality and real-time performance is a long-standing challenge in modern game and rendering engines, particularly on resource-constrained mobile devices such as laptops, tablets, and smartphones. Existing approaches to automatic rendering parameter...
-
-### Fractionally Supervised Classification with Maxima Nominated Samples
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25145
-- Summary: Fractionally supervised classification (FSC) offers a flexible framework for combining labeled and unlabeled data in model-based classification, but existing formulations assume simple random sampling. In many applications, however, the retained observation is an extreme order statistic from a set...
-
-### Gradient-Direction Sensitivity Reveals Linear-Centroid Coupling Hidden by Optimizer Trajectories
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25143
-- Summary: We show that replacing the rolling SVD of AdamW updates with a rolling SVD of loss gradients changes the diagnostic by 1-2 orders of magnitude. Performing SVD on the loss gradient instead of the AdamW update increases the measured perturbative coupling between SED directions and Linear Centroid...
-
-### UnIte: Uncertainty-based Iterative Document Sampling for Domain Adaptation in Information Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25142
-- Summary: Unsupervised domain adaptation generalizes neural retrievers to an unseen domain by generating pseudo queries on target domain documents. The quality and efficiency of this adaptation critically depend on which documents are selected for pseudo query generation. The existing document sampling...
-
-### UniX AI Advances Household Robotics Strategy with Growing Global Attention
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/uni-x-ai-advances-household-robotics-strategy-with-growing-global-attention
-- Summary: Chinese robotics startup UniX AI is gaining global attention with its Wanda 2.0 humanoid robot, priced from around $12,000 and designed for household and service applications.
 
