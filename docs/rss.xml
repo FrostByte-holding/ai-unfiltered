@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 06 May 2026 17:42:59 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 06 May 2026 21:12:56 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>vLLM V0 to V1: Correctness Before Corrections in RL</title>
+            <link>https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections</link>
+            <guid>https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections</guid>
+            <pubDate>Wed, 06 May 2026 19:06:55 +0000</pubDate>
+            <source url="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>Cloudflare Dashboard Workers Editor Unavailable</title>
             <link>https://www.cloudflarestatus.com/incidents/bgmwp5b59zyt</link>
@@ -34,6 +43,15 @@
             <source url="https://www.githubstatus.com/incidents/f5pb5d5mr9yh">GitHub Status</source>
             <category>incidents</category>
             <description>May 6, 16:20 UTCUpdate - Creation of new Pull Request threads (including line and file comments) continues to be affected. Top-level comments on pull requests still function and should remain usable during recovery. Opening and merging pull requests, actions, and other pull request operations...</description>
+        </item>
+        <item>
+            <title>Network Performance Issues in Eastern North American region</title>
+            <link>https://www.cloudflarestatus.com/incidents/j80wh3mvwqcm</link>
+            <guid>https://www.cloudflarestatus.com/incidents/j80wh3mvwqcm</guid>
+            <pubDate>Wed, 06 May 2026 14:30:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/j80wh3mvwqcm">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 6, 14:30 UTCResolved - We have resolved the network performance issues in Eastern North America region that occurred between 14:35 and 16:28 UTC. Traffic flow has returned to normal levels. We appreciate your patience and apologize for the inconvenience.</description>
         </item>
         <item>
             <title>The Download: seafloor science and military chatbots</title>
@@ -360,15 +378,6 @@
             <description>May 5, 17:26 UTCUpdate - We&#x27;re continuing to work on preventing further impact from the earlier issue. No SSH-based impact is expected at this time. We&#x27;ll post new updates if impact recurs or once our mitigation is in place.May 5, 17:23 UTCInvestigating - Git Operations is experiencing degraded...</description>
         </item>
         <item>
-            <title>Issues with Cloudflare Tunnel connections and Browser Isolation sessions</title>
-            <link>https://www.cloudflarestatus.com/incidents/h3q019bkfw6b</link>
-            <guid>https://www.cloudflarestatus.com/incidents/h3q019bkfw6b</guid>
-            <pubDate>Tue, 05 May 2026 17:24:32 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/h3q019bkfw6b">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 5, 17:24 UTCIdentified - The connectivity issues affecting Cloudflare Tunnel and Browser Isolation have stabilized, and we have identified the root cause.Our investigation confirms that internal service restarts across our edge infrastructure led to significant connection churn. This caused...</description>
-        </item>
-        <item>
             <title>Incident with Actions</title>
             <link>https://www.githubstatus.com/incidents/1j40g94rn22j</link>
             <guid>https://www.githubstatus.com/incidents/1j40g94rn22j</guid>
@@ -448,15 +457,6 @@
             <source url="https://tldr.takara.ai/p/2605.02777">HF Daily Papers</source>
             <category>open-source</category>
             <description>Offline safe reinforcement learning often requires policies to adapt at deployment time to safety budgets that vary across episodes or change within a single episode. While diffusion-based planners enable flexible trajectory generation, existing guidance schemes often treat reward improvement and...</description>
-        </item>
-        <item>
-            <title>U-Define: Designing User Workflows for Hard and Soft Constraints in LLM-Based Planning</title>
-            <link>https://tldr.takara.ai/p/2605.02765</link>
-            <guid>https://tldr.takara.ai/p/2605.02765</guid>
-            <pubDate>Mon, 04 May 2026 16:05:40 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2605.02765">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>LLMs are increasingly used for end-user task planning, yet their black-box nature limits users&#x27; ability to ensure reliability and control. While recent systems incorporate verification techniques, it remains unclear how users can effectively apply such rigid constraints to represent intent or adapt...</description>
         </item>
     </channel>
 </rss>
