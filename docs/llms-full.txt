@@ -4,6 +4,21 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-06
+
+### Workers API Issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4wcmtbqq21rh
+- Summary: May 6, 01:37 UTCResolved - This incident has been resolved.May 6, 01:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 6, 01:08 UTCInvestigating - Cloudflare is investigating Worker API failures. Customers might experience an error using the Worker API. Workers...
+
+### Resolution Issues for .de Domains
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/vjrk8c8w37lz
+- Summary: May 5, 22:37 UTCMonitoring - The issue has been identified as a DNSSEC signing problem at DENIC, the organization responsible for the .DE top-level domain. Cloudflare has temporarily disabled DNSSEC validation for .de domains on 1.1.1.1 resolver (as per RFC 7646) in order to allow .DE names to...
+
+
 ## 2026-05-05
 
 ### 🔬Doing Vibe Physics — Alex Lupsasca, OpenAI
@@ -60,6 +75,12 @@
 - URL: https://www.securityweek.com/microsoft-warns-of-sophisticated-phishing-campaign-targeting-us-organizations/
 - Summary: The malicious emails claim to contain a conduct report and lure victims to a Microsoft phishing website that leverages AitM. The post Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations appeared first on SecurityWeek.
 
+### China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html
+- Summary: A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025. The activity is being tracked by Cisco Talos under the moniker UAT-8302,...
+
 ### Hacker Conversations: Joey Melo on Hacking AI
 - Source: Security Week
 - Category: security
@@ -83,6 +104,42 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/05/05/1136848/the-download-musk-openai-altman-trial-ai-democracy/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Week one of the Musk v. Altman trial: what it was like in the room Two of the most powerful figures in AI—Sam Altman and Elon Musk—are in the middle...
+
+### Critical Remote Code Execution Vulnerability Patched in Android
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-remote-code-execution-vulnerability-patched-in-android-2/
+- Summary: CVE-2026-0073 affects Android’s System component and it can be exploited without any user interaction. The post Critical Remote Code Execution Vulnerability Patched in Android appeared first on SecurityWeek.
+
+### The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html
+- Summary: Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your...
+
+### MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html
+- Summary: Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary...
+
+### Critical, High-Severity Vulnerabilities Patched in Apache MINA, HTTP Server
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-high-severity-vulnerabilities-patched-in-apache-mina-http-server/
+- Summary: The most severe of these security defects could allow remote attackers to execute arbitrary code. The post Critical, High-Severity Vulnerabilities Patched in Apache MINA, HTTP Server appeared first on SecurityWeek.
+
+### Karakurt Ransomware Negotiator Sentenced to Prison
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/karakurt-ransomware-negotiator-sentenced-to-prison/
+- Summary: Deniss Zolotarjovs was directly involved in extortion strategies and in negotiations with victim companies. The post Karakurt Ransomware Negotiator Sentenced to Prison appeared first on SecurityWeek.
+
+### We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html
+- Summary: While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the...
 
 ### MetInfo, Weaver E-cology Vulnerabilities in Attackers’ Crosshairs
 - Source: Security Week
@@ -228,6 +285,96 @@
 - URL: https://arxiv.org/abs/2605.01011
 - Summary: arXiv:2605.01011v1 Announce Type: new Abstract: Medical large language model (LLM) evaluations rely on simplified, exam-style benchmarks that rarely reflect the ambiguity of real-world medical inquiries. We introduce the CLinical Evaluation of Ambiguity and Reliability (CLEAR) framework, which...
 
+### 2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00839
+- Summary: arXiv:2605.00839v1 Announce Type: new Abstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industrial value chains. However, the deployment of AI and ML in...
+
+### AI Agents for Sustainable SMEs: A Green ESG Assessment Framework
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00841
+- Summary: arXiv:2605.00841v1 Announce Type: new Abstract: This study presents a novel, AI-driven framework for assessing Environmental, Social, and Governance (ESG) performance in European small and medium-sized enterprises (SMEs). An initial phase established expert-validated ESG baseline scores from a...
+
+### Understanding Emergent Misalignment via Feature Superposition Geometry
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00842
+- Summary: arXiv:2605.00842v1 Announce Type: new Abstract: Emergent misalignment, where fine-tuning on narrow, non-harmful tasks induces harmful behaviors, poses a key challenge for AI safety in LLMs. Despite growing empirical evidence, its underlying mechanism remains unclear. To uncover the reason behind...
+
+### ClinicBot: A Guideline-Grounded Clinical Chatbot with Prioritized Evidence RAG and Verifiable Citations
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00846
+- Summary: arXiv:2605.00846v1 Announce Type: new Abstract: Clinical diagnosis requires answers that are accurate, verifiable, and explicitly grounded in official guidelines. While large language models excel at natural language processing, their tendency to hallucinate undermines their utility in high-stakes...
+
+### Accelerating battery research with an AI interface between FINALES and Kadi4Mat
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.00909
+- Summary: arXiv:2605.00909v1 Announce Type: new Abstract: The time-consuming formation process critically impacts the longevity of sodium-ion coin cells and End Of Life (EOL) performance. This study aims to optimize formation protocols for duration efficiency, targeting high-performance outcomes while...
+
+### GAZE: Grounded Agentic Zero-shot Evaluation with Viewer-Level Tools and Literature Retrieval on Rare Brain MRI
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00876
+- Summary: arXiv:2605.00876v1 Announce Type: new Abstract: Vision-language models (VLMs) read an image and produce text in a single forward pass, whereas radiologists typically inspect an image several times and consult the literature before writing a report. We introduce GAZE (Grounded Agentic Zero-shot...
+
+### StyleShield: Exposing the Fragility of AIGC Detectors through Continuous Controllable Style Transfer
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00924
+- Summary: arXiv:2605.00924v1 Announce Type: new Abstract: AI-generated content (AIGC) detectors are increasingly deployed in high-stakes settings such as academic integrity screening, yet their reliability rests on a fundamental paradox: as language models are trained on human-written corpora, the...
+
+### Linking spatial biology and clinical histology via Haiku
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00925
+- Summary: arXiv:2605.00925v1 Announce Type: new Abstract: Integrating molecular, morphological, and clinical data is essential for basic and translational biomedical research, yet systematic frameworks for jointly modeling these modalities remain limited. Here we present Haiku, a tri-modal contrastive...
+
+### A Review of the Receiver Operating Characteristic Curve and a Proof About the Area Beneath It
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00926
+- Summary: arXiv:2605.00926v1 Announce Type: new Abstract: The Receiver Operating Characteristic (ROC) curve of a binary classifier has often been utilized to measure the performance of the classifier. The area beneath this curve is used in particular because of its quoted probabilistic interpretation as...
+
+### PhaseNet++: Phase-Aware Frequency-Domain Anomaly Detection for Industrial Control Systems via Phase Coherence Graphs
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.00929
+- Summary: arXiv:2605.00929v1 Announce Type: new Abstract: Multivariate time series anomaly detection in ICS has attracted growing attention due to the increasing threat of cyber-physical attacks on critical infrastructure. State-of-the-art methods model inter-sensor relationships from raw time-domain...
+
+### Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison Triggers They Fail to Detect
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.01017
+- Summary: arXiv:2605.01017v1 Announce Type: new Abstract: We introduce Xiaohongshu Social Comparison Reader Elicitation (XHS-SCoRE), a reader-grounded benchmark for detecting if a text-only Xiaohongshu (RedNote) post elicits UPWARD, DOWNWARD, or NEUTRAL/no clear social comparison from a first-person reader...
+
+### A Theoretical Game of Attacks via Compositional Skills
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.01034
+- Summary: arXiv:2605.01034v1 Announce Type: new Abstract: As large language models grow increasingly capable, concerns about their safe deployment have intensified. While numerous alignment strategies aim to restrict harmful behavior, these defenses can still be circumvented through carefully designed...
+
+### Compared to What? Baselines and Metrics for Counterfactual Prompting
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.01048
+- Summary: arXiv:2605.01048v1 Announce Type: new Abstract: Counterfactual prompting (i.e., perturbing a single factor and measuring output change) is widely used to evaluate things like LLM bias and CoT faithfulness. But in this work we argue that observed effects cannot be attributed to the targeted factor...
+
+### A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.01065
+- Summary: arXiv:2605.01065v1 Announce Type: new Abstract: The goal of differentially private text obfuscation is to obfuscate, or "perturb", input texts with Differential Privacy (DP) guarantees, such that the private output texts are quantifiably indistinguishable from the originals. While perturbation at...
+
+### Controlled Paraphrase Geometry in Sentence Embedding Space: Local Manifold Modeling and Latent Probing
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.01073
+- Summary: arXiv:2605.01073v1 Announce Type: new Abstract: The paper studies the local geometry of embedding clouds induced by \emph{controlled local classes of semantically close sentences}. The central question is how controlled paraphrase-like semantic variation is organized in sentence embedding space and...
+
 ### Durable Objects startup errors in Eastern North America (ENAM) region
 - Source: Cloudflare Status
 - Category: incidents
@@ -315,6 +462,12 @@
 - URL: https://tldr.takara.ai/p/2605.02738
 - Summary: Solar photovoltaic (PV) deployment is expanding rapidly, yet detailed, up-to-date information on the spatial distribution and capacity of rooftop PV remains limited. This paper presents an open, scalable framework for detecting solar panels from open data and generating city-level solar power...
 
+### Federated Reinforcement Learning for Efficient Mobile Crowdsensing under Incomplete Information
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02705
+- Summary: Mobile crowdsensing (MCS) is a distributed sensing architecture that utilizes existing sensors on mobile units (MUs) to perform sensing tasks. A mobile crowdsensing platform (MCSP) publishes the sensing tasks and the MUs decide whether to participate in exchange for money. The MCS system is...
+
 ### Robust and Fast Training via Per-Sample Clipping
 - Source: HF Daily Papers
 - Category: open-source
@@ -375,6 +528,12 @@
 - URL: https://www.securityweek.com/digicert-revokes-certificates-after-support-portal-hack/
 - Summary: Hackers delivered malware via a customer chat channel, infected an analyst’s system, and accessed the internal support portal. The post DigiCert Revokes Certificates After Support Portal Hack appeared first on SecurityWeek.
 
+### A Semantic Autonomy Framework for VLM-Integrated Indoor Mobile Robots: Hybrid Deterministic Reasoning and Cross-Robot Adaptive Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02525
+- Summary: Autonomous indoor mobile robots can navigate reliably to metric coordinates using established frameworks such as ROS 2 Navigation 2, yet they lack the ability to interpret natural language instructions that express intent rather than positions. Vision-Language Models offer the semantic reasoning...
+
 ### MooD: An Efficient VA-Driven Affective Image Editing Framework via Fine-Grained Semantic Control
 - Source: HF Daily Papers
 - Category: open-source
@@ -404,6 +563,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.02461
 - Summary: Middle-mile logistics describes the problem of routing parcels through a network of hubs linked by trucks with finite capacity. We rephrase this as a multi-object goal-conditioned MDP. Our method combines graph neural networks with model-free RL, extracting small feature graphs from the environment...
+
+### Causal Software Engineering: A Vision and Roadmap
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02454
+- Summary: Software engineering increasingly involves making high-stakes decisions under uncertainty, using signals from code, field data, and socio-technical processes. Recent AI-driven support (e.g., anomaly detection, predictive analytics, AIOps, as well as LLM-based agents) has amplified engineers'...
 
 ### Exploitation of ‘Copy Fail’ Linux Vulnerability Begins
 - Source: Security Week
@@ -452,6 +617,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html
 - Summary: A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed...
+
+### UnGAP: Uncertainty-Guided Affine Prompting for Real-Time Crack Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02380
+- Summary: Real-time crack segmentation is vital for structural health monitoring but is plagued by aleatoric uncertainties arising from varying lighting, blur, and texture ambiguity. Current uncertainty-aware approaches typically treat uncertainty estimation as a passive endpoint for post-hoc analysis,...
 
 ### Over 40,000 Servers Compromised in Ongoing cPanel Exploitation
 - Source: Security Week
@@ -662,6 +833,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.00227
 - Summary: arXiv:2605.00227v1 Announce Type: new Abstract: There are growing concerns about the risks posed by AI companion applications designed for emotional engagement. Existing safety evaluations often rely on self-reported user data or interviews, offering limited insights into real-time dynamics. We...
+
+### T$^2$PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02178
+- Summary: Recent progress in multi-turn reinforcement learning (RL) has significantly improved reasoning LLMs' performances on complex interactive tasks. Despite advances in stabilization techniques such as fine-grained credit assignment and trajectory filtering, instability remains pervasive and often leads...
 
 ### Cross-Polarization Fusion of VV AND VH SAR Observations for Improved Flood Mapping
 - Source: HF Daily Papers
@@ -2848,178 +3025,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html
 - Summary: A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy.&nbsp; Xu Zewei, 34, was arrested in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored threat group and for orchestrating cyber attacks...
-
-### R$^3$-SQL: Ranking Reward and Resampling for Text-to-SQL
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25325
-- Summary: Modern Text-to-SQL systems generate multiple candidate SQL queries and rank them to judge a final prediction. However, existing methods face two limitations. First, they often score functionally equivalent SQL queries inconsistently despite identical execution results. Second, ranking cannot...
-
-### Assessment of the quantitative impact of occlusal positioning splints on temporomandibular joint conditions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25322
-- Summary: A computational method for quantitative analysis of temporomandibular joint (TMJ) configuration using occlusal positioning splints is proposed and demonstrated. The method models a positioning splint as a physical realization of a predefined rigid transformation of the mandible, derived from...
-
-### Towards Robust Deep Learning-based Rumex Obtusifolius Detection from Drone Images
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25316
-- Summary: Domain adaptation (DA) addresses the challenge of transferring a machine learning model trained on a source domain to a target domain with a different data distribution. In this work, we study DA for the task of Rumex obtusifolius (Rumex) image classification. We train models on a published, ground...
-
-### LegalMidm: Use-Case-Driven Legal Domain Specialization for Korean Large Language Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25297
-- Summary: In recent years, the rapid proliferation of open-source large language models (LLMs) has spurred efforts to turn general-purpose models into domain specialists. However, many domain-specialized LLMs are developed using datasets and training protocols that are not aligned with the nuanced...
-
-### Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25289
-- Summary: Practically, training diffusion models typically requires explicit time conditioning to guide the network through the denoising sampling process. Especially in deterministic methods like DDIM, the absence of time conditioning leads to significant performance degradation. However, other...
-
-### Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html
-- Summary: An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a privileged built-in role introduced by Microsoft as part of its...
-
-### Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/medtronic-hack-confirmed-after-shinyhunters-threatens-data-leak/
-- Summary: The ShinyHunters cybercrime group claimed to have stolen 9 million records containing personal information from Medtronic. The post Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak appeared first on SecurityWeek.
-
-### Claude Code Code Review was intermittently failing
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/7bk0ftl0mpny
-- Summary: Apr 28, 06:00 UTCResolved - Claude Code Code Review intermittently wasn't starting sessions.
-
-### Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html
-- Summary: Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to...
-
-### HONOR Integrates DeepSeek-V4 Model into YOYO Assistant
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honor-integrates-deep-seek-v4-model-into-yoyo-assistant
-- Summary: HONOR has integrated the DeepSeek-V4 AI model into its YOYO assistant, enhancing on-device capabilities such as reasoning, multi-turn dialogue, and multimodal interaction.
-
-### SF Aviation Completes First Rotor Flight Test of Hybrid eVTOL SF20V
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sf-aviation-completes-first-rotor-flight-test-of-hybrid-e-vtol-sf-20-v
-- Summary: SF Aviation completed the first rotor flight test of its hybrid eVTOL aircraft SF20V, designed for urban mobility with a range of up to 1,200 km.
-
-### Alibaba DAMO Academy Unveils AI Model for Non-Invasive Colorectal Cancer Screening
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-damo-academy-unveils-ai-model-for-non-invasive-colorectal-cancer-screening
-- Summary: Alibaba DAMO Academy introduced an AI model capable of detecting colorectal cancer from routine CT scans without invasive preparation, achieving high accuracy in clinical validation.
-
-### [AINews] ImageGen is on the Path to AGI
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-imagegen-is-on-the-path-to
-- Summary: reflecting on the continued GPT-Image-2 explosion
-
-### Lightelligence Lists in Hong Kong, Targeting Optical Computing for AI Infrastructure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/lightelligence-lists-in-hong-kong-targeting-optical-computing-for-ai-infrastructure
-- Summary: Lightelligence debuted on the Hong Kong Stock Exchange with a market value exceeding $10 billion, focusing on silicon photonics solutions for AI computing infrastructure.
-
-### CP Group Backs AI Entertainment Startup Star Trail  Interactive in Angel Round
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cp-group-backs-ai-entertainment-startup-star-trail-interactive-in-angel-round
-- Summary: StarTrail Interactive secured an angel round worth several million USD, backed by CP Group, marking the conglomerate’s first move into AI-driven entertainment and digital IP development.
-
-### DRAGON: A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25231
-- Summary: Diagram question answering (DQA) requires models to interpret structured visual representations such as charts, maps, infographics, circuit schematics, and scientific diagrams. Recent vision-language models (VLMs) often achieve high answer accuracy on these tasks, yet correct answers do not...
-
-### Increased HTTP Errors in YUL
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/q3dfc2fh97v5
-- Summary: Apr 28, 05:00 UTCResolved - Cloudflare saw an increased level of HTTP errors in YUL between 04:55 UTC - 05:25 UTC.
-
-### CognitiveTwin: Robust Multi-Modal Digital Twins for Predicting Cognitive Decline in Alzheimer's Disease
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22428
-- Summary: arXiv:2604.22428v1 Announce Type: new Abstract: Predicting individual cognitive decline in Alzheimer's disease (AD) is difficult due to the heterogeneity of disease progression. Reliable clinical tools require not only high accuracy but also fairness across demographics and robustness to missing...
-
-### AgentSearchBench: A Benchmark for AI Agent Search in the Wild
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22436
-- Summary: arXiv:2604.22436v1 Announce Type: new Abstract: The rapid growth of AI agent ecosystems is transforming how complex tasks are delegated and executed, creating a new challenge of identifying suitable agents for a given task. Unlike traditional tools, agent capabilities are often compositional and...
-
-### From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22446
-- Summary: arXiv:2604.22446v1 Announce Type: new Abstract: Individual agent capabilities have advanced rapidly through modular skills and tool integrations, yet multi-agent systems remain constrained by fixed team structures, tightly coupled coordination logic, and session-bound learning. We argue that this...
-
-### Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22452
-- Summary: arXiv:2604.22452v1 Announce Type: new Abstract: Collective intelligence refers to the ability of a group to achieve outcomes beyond what any individual member can accomplish alone. As large language model agents scale to populations of millions, a key question arises: Does collective intelligence...
-
-### On the Hybrid Nature of ABPMS Process Frames and its Implications on Automated Process Discovery
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.22455
-- Summary: arXiv:2604.22455v1 Announce Type: new Abstract: A core component of any AI-Augmented Business Process Management System (ABPMS) is the process frame, which gives the system process-awareness and defines the boundaries in which the system must operate. Compared to traditional process models, the...
-
-### The Spectral Lifecycle of Transformer Training: Transient Compression Waves, Persistent Spectral Gradients, and the Q/K--V Asymmetry
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22778
-- Summary: arXiv:2604.22778v1 Announce Type: new Abstract: We present the first systematic study of weight matrix singular value spectra \emph{during} transformer pretraining, tracking full SVD decompositions of every weight matrix at 25-step intervals across three model scales (30M--285M parameters). We...
-
-### KARL: Mitigating Hallucinations in LLMs via Knowledge-Boundary-Aware Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22779
-- Summary: arXiv:2604.22779v1 Announce Type: new Abstract: Enabling large language models (LLMs) to appropriately abstain from answering questions beyond their knowledge is crucial for mitigating hallucinations. While existing reinforcement learning methods foster autonomous abstention, they often compromise...
-
-### BiTA: Bidirectional Gated Recurrent Unit-Transformer Aggregator in a Temporal Graph Network Framework for Alert Prediction in Computer Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22781
-- Summary: arXiv:2604.22781v1 Announce Type: new Abstract: Proactive alert prediction in computer networks is critical for mitigating evolving cyber threats and enabling timely defensive actions. Temporal Graph Neural Networks (TGNs) provide a principled framework for modeling time-evolving interactions;...
-
-### Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22782
-- Summary: arXiv:2604.22782v1 Announce Type: new Abstract: Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work...
-
-### Parameter Efficiency Is Not Memory Efficiency: Rethinking Fine-Tuning for On-Device LLM Adaptation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.22783
-- Summary: arXiv:2604.22783v1 Announce Type: new Abstract: Parameter-Efficient Fine-Tuning (PEFT) has become the standard for adapting large language models (LLMs). In this work we challenge the wide-spread assumption that parameter efficiency equates memory efficiency and on-device adaptability. We show that...
-
-### Dissociating Decodability and Causal Use in Bracket-Sequence Transformers
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22128
-- Summary: arXiv:2604.22128v1 Announce Type: new Abstract: When trained on tasks requiring an understanding of hierarchical structure, transformers have been found to represent this hierarchy in distinct ways: in the geometry of the residual stream, and in stack-like attention patterns maintaining a last-in,...
-
-### SHAPE: Unifying Safety, Helpfulness and Pedagogy for Educational LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.22134
-- Summary: arXiv:2604.22134v1 Announce Type: new Abstract: Large Language Models (LLMs) have been widely explored in educational scenarios. We identify a critical vulnerability in current educational LLMs, pedagogical jailbreaks, where students use answer-inducing prompts to elicit solutions rather than...
 
