@@ -4,7 +4,34 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-07
+
+### Cloudflare One Client Connectivity Issue in Chicago (ORD) area
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/n2xd3ck5czsm
+- Summary: May 7, 01:09 UTCResolved - This incident has been resolved.May 7, 00:30 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 6, 22:28 UTCIdentified - Cloudflare is investigating issues with Cloudflare One Connectivity. Users connecting to Chicago datacenter may...
+
+
 ## 2026-05-06
+
+### Cloudflare One Dashboard Analytics Intermittently Not Loading
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/vnfcmj7vk2rf
+- Summary: May 6, 22:54 UTCResolved - This incident has been resolved.May 6, 21:13 UTCInvestigating - We are investigating intermittent loading issues affecting Cloudflare Access and Gateway Analytics within the Cloudflare One dashboard. This is a display-only issue specifically impacting the rendering of...
+
+### Connection failures for organizations restricting GitHub access by IP address
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/snxm62gpxfc9
+- Summary: May 6, 22:32 UTCIdentified - We have identified an issue affecting organizations that restrict GitHub access by source IP address. A recent infrastructure change altered the IP addresses Anthropic uses for outbound connections to GitHub, which may cause Claude Code remote sessions, GitHub...
+
+### Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
+- Summary: Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the...
 
 ### vLLM V0 to V1: Correctness Before Corrections in RL
 - Source: Hugging Face Blog
@@ -29,11 +56,35 @@
 - URL: https://www.githubstatus.com/incidents/f5pb5d5mr9yh
 - Summary: May 6, 16:20 UTCUpdate - Creation of new Pull Request threads (including line and file comments) continues to be affected. Top-level comments on pull requests still function and should remain usable during recovery. Opening and merging pull requests, actions, and other pull request operations...
 
+### Autonomous Offensive Security Firm XBOW Raises $35 Million
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/autonomous-offensive-security-firm-xbow-raises-35-million/
+- Summary: The company raised another $35 million as an extension to its previously announced Series C funding round. The post Autonomous Offensive Security Firm XBOW Raises $35 Million appeared first on SecurityWeek.
+
 ### Network Performance Issues in Eastern North American region
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/j80wh3mvwqcm
 - Summary: May 6, 14:30 UTCResolved - We have resolved the network performance issues in Eastern North America region that occurred between 14:35 and 16:28 UTC. Traffic flow has returned to normal levels. We appreciate your patience and apologize for the inconvenience.
+
+### Herd Security Raises $3 Million for AI-Powered Training Platform
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/herd-security-raises-3-million-for-ai-powered-training-platform/
+- Summary: The startup will invest in expanding its training categories, optimizing video generation, and growing its partnership ecosystem. The post Herd Security Raises $3 Million for AI-Powered Training Platform appeared first on SecurityWeek.
+
+### MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html
+- Summary: The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a "false flag" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social...
+
+### Iranian APT Intrusion Masquerades as Chaos Ransomware Attack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/iranian-apt-intrusion-masquerades-as-chaos-ransomware-attack/
+- Summary: Likely perpetrated by MuddyWater, the attack combined social engineering, persistence, credential harvesting, and data theft. The post Iranian APT Intrusion Masquerades as Chaos Ransomware Attack appeared first on SecurityWeek.
 
 ### The Download: seafloor science and military chatbots
 - Source: MIT Tech Review AI
@@ -52,6 +103,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/n8htfgj6wv3t
 - Summary: May 6, 11:59 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.May 6, 11:59 UTCUpdate - We have applied a mitigation and Copilot services have...
+
+### Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/romanian-extradited-to-us-for-role-in-hacking-scheme-17-years-ago/
+- Summary: Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026. The post Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago appeared first on SecurityWeek.
 
 ### DeepSeek Claude Code Clone Hits 8,700 GitHub Stars as Developer Goes Viral
 - Source: Pandaily
@@ -220,6 +277,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.01188
 - Summary: arXiv:2605.01188v1 Announce Type: new Abstract: Scaling laws enable the optimal selection of data amount and language model size, yet the impact of the data unit, the token, on this relationship remains underexplored. In this work, we systematically investigate how the information granularity of...
+
+### CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.02910
+- Summary: arXiv:2605.02910v2 Announce Type: new Abstract: Recent advances in large language models have led to strong performance on reasoning and environment-interaction tasks, yet their ability for creative problem-solving remains underexplored. We study this capability through the lens of creative tool...
+
+### Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.03034
+- Summary: arXiv:2605.03034v1 Announce Type: new Abstract: Agentic systems involved in high-stake decision-making under adversarial pressure need formal guarantees not offered by existing approaches. Motivated by the operational needs of security operations centers (SOCs) that must configure endpoint...
+
+### Computing Thiele Rules on Interval Elections and their Generalizations
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.03067
+- Summary: arXiv:2605.03067v1 Announce Type: new Abstract: Approval-based committee voting has received significant attention in the social choice community. Among the studied rules, Thiele rules, and especially Proportional Approval Voting (PAV), stand out for desirable properties such as proportional...
+
+### Making the Invisible Visible: Understanding the Mismatch Between Organizational Goals and Worker Experiences in AI Adoption
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.03078
+- Summary: arXiv:2605.03078v1 Announce Type: new Abstract: While AI is often introduced into organizations to drive innovation and efficiency, many adoption efforts fail as workers resist and struggle to integrate these systems. These failures point to a deeper issue: workers, the very people expected to...
+
+### Programmatic Context Augmentation for LLM-based Symbolic Regression
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.03101
+- Summary: arXiv:2605.03101v1 Announce Type: new Abstract: Symbolic regression (SR), the task of discovering mathematical expressions that best describe a given dataset, remains a fundamental challenge in scientific discovery. Traditional approaches, primarily based on genetic algorithms and related...
+
+### Agentic AI-Based Joint Computing and Networking via Mixture of Experts and Large Language Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.02911
+- Summary: arXiv:2605.02911v1 Announce Type: new Abstract: Future sixth-generation (6G) mobile networks are envisioned to be equipped with a diverse set of powerful, yet highly specialized, optimization experts. Such a promising vision is concurrently expected to give rise to the need for scalable mechanisms...
+
+### Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.02913
+- Summary: arXiv:2605.02913v1 Announce Type: new Abstract: Reinforcement learning (RL) has become a central post-training tool for improving the reasoning abilities of large language models (LLMs). In these systems, the rollout, the trajectory sampled from a prompt to termination, including intermediate...
+
+### When Safety Geometry Collapses: Fine-Tuning Vulnerabilities in Agentic Guard Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.02914
+- Summary: arXiv:2605.02914v1 Announce Type: new Abstract: A guard model fine-tuned on entirely benign data can lose all safety alignment -- not through adversarial manipulation, but through standard domain specialization. We demonstrate this failure across three purpose-built safety classifiers --...
+
+### From Synthesis to Clinical Assistance: A Strategy-Aware Agent Framework for Autism Intervention based on Real Clinical Dataset
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.02916
+- Summary: arXiv:2605.02916v1 Announce Type: new Abstract: The development of AI-assisted Early Intensive Behavioral Intervention (EIBI) for Autism Spectrum Disorder (ASD) is severely constrained by data scarcity. Furthermore, while Applied Behavior Analysis (ABA) serves as the gold standard for clinical...
+
+### PRISM-CTG: A Foundation Model for Cardiotocography Analysis with Multi-View SSL
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.02917
+- Summary: arXiv:2605.02917v1 Announce Type: new Abstract: Supervised deep learning models for automated CTG analysis are typically constrained by narrowly curated labelled datasets and limited patient cohorts, leaving substantial volumes of physiologically informative clinical recordings untapped. To address...
+
+### When Should a Language Model Trust Itself? Same-Model Self-Verification as a Conditional Confidence Signal
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.02915
+- Summary: arXiv:2605.02915v1 Announce Type: new Abstract: Same-model self-verification, prompting a model to audit its own predicted answer, is a plausible confidence signal for selective prediction, but its practical value remains unclear once strong likelihood-based baselines are taken seriously. We...
+
+### Evaluating Reasoning Models for Queries with Presuppositions
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.03050
+- Summary: arXiv:2605.03050v1 Announce Type: new Abstract: Millions of users turn to AI models for their information needs. It is conceivable that a large number of user queries contain assumptions that may be factually inaccurate. Prior work notes that large language models (LLMs) often fail to challenge...
+
+### How Language Models Process Negation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.03052
+- Summary: arXiv:2605.03052v1 Announce Type: new Abstract: We study how Large Language Models (LLMs) process negation mechanistically. First, we establish that even though open-weight models often provide wrong answers to questions involving negation, they do possess internal components that process negation...
+
+### The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.03073
+- Summary: arXiv:2605.03073v1 Announce Type: new Abstract: Niche-domain Indic ASR -- digit strings, currency amounts, addresses, brand names, English/Indic codemix -- is under-served by both open-source SOTA and commercial systems. On a synthesised entity-dense Telugu test set (held-out by synthesis system),...
+
+### Semantically Enriching Investor Micro-blogs for Opinion-Aware Emotion Analysis: A Practical Approach
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.03092
+- Summary: arXiv:2605.03092v1 Announce Type: new Abstract: While sentiment analysis is the staple of financial NLP, capturing the nuances of 'why' behind that sentiment remains a challenge. There have been attempts to address this by analysing investor emotions alongside sentiment; however, this does not...
 
 ### Workers API Issue
 - Source: Cloudflare Status
@@ -2878,150 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.24972
 - Summary: arXiv:2604.24972v1 Announce Type: new Abstract: Clinical abnormality grounding for rare diseases is often hindered by data scarcity, making supervised fine-tuning impractical and single-pass inference highly unstable. We propose Dynamic Decision Learning (DDL), a framework that enables frozen large...
-
-### A Survey on LLM-based Conversational User Simulation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.24977
-- Summary: arXiv:2604.24977v1 Announce Type: new Abstract: User simulation has long played a vital role in computer science due to its potential to support a wide range of applications. Language, as the primary medium of human communication, forms the foundation of social interaction and behavior....
-
-### Don\'t Stop Early: Scalable Enterprise Deep Research with Controlled Information Flow and Evidence-Aware Termination
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.24978
-- Summary: arXiv:2604.24978v1 Announce Type: new Abstract: Enterprise deep research often fails to produce decision-ready reports due to uneven information coverage, context explosion, and premature stopping. We propose a scalable Enterprise Deep Research (EDR) architecture to address these failures. Our...
-
-### Why Does Reinforcement Learning Generalize? A Feature-Level Mechanistic Study of Post-Training in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.25011
-- Summary: arXiv:2604.25011v1 Announce Type: new Abstract: Reinforcement learning (RL)-based post-training often improves the reasoning performance of large language models (LLMs) beyond the training domain, while supervised fine-tuning (SFT) frequently leads to general capabilities forgetting. However, the...
-
-### Calibrated Surprise: An Information-Theoretic Account of Creative Quality
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26269
-- Summary: The essence of good creative writing is calibrated surprise: when constraints from all relevant dimensions act together, the feasible solution space collapses into a narrow region, and the surviving choices look least predictable from an unconstrained view. "Calibrated" has a precise meaning: the...
-
-### Semantic Foam: Unifying Spatial and Semantic Scene Decomposition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26262
-- Summary: Modern scene reconstruction methods, such as 3D Gaussian Splatting, enable photo-realistic novel view synthesis at real-time speeds. However, their adoption in interactive graphics applications remains limited due to the difficulty of interacting with these representations compared to traditional,...
-
-### Azure - UK South (London): INC0156355
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/3g6k24d9ws1k
-- Summary: Apr 29, 03:23 UTCInvestigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 30 minutes.Customer experience: Customers hosted in the specified regions may experience errors or connectivity issues when using Snowflake Openflow.Incident start...
-
-### Anyverse Dynamics Secures $200M+ Funding, Lands Major Overseas Robotics Order
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/anyverse-dynamics-secures-200-m-funding-lands-major-overseas-robotics-order
-- Summary: Anyverse Dynamics has raised over $200 million and secured a $69 million overseas order, marking a major breakthrough for embodied AI commercialization.
-
-### Beyond Shortcuts: Mitigating Visual Illusions in Frozen VLMs via Qualitative Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26250
-- Summary: While Vision-Language Models (VLMs) have achieved state-of-the-art performance in general visual tasks, their perceptual robustness remains remarkably brittle when confronted with optical illusions. These failures are often attributed to shortcut heuristics, where models prioritize linguistic...
-
-### Tencent Music to Launch “Tiantian Changting” App to Rival ByteDance in Audio Market
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-music-to-launch-tiantian-changting-app-to-rival-byte-dance-in-audio-market
-- Summary: Tencent Music is launching a new audio app to compete with ByteDance while expanding its long-form audio ecosystem.
-
-### LABUBU Fridge Sparks Frenzy as Resale Prices Soar 15x Before Launch
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/labubu-fridge-sparks-frenzy-as-resale-prices-soar-15x-before-launch
-- Summary: Pop Mart’s limited-edition LABUBU fridge is being resold for up to 15 times its retail price even before its official launch.
-
-### Recurrence-Based Nonlinear Vocal Dynamics as Digital Biomarkers for Depression Detection from Conversational Speech
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26242
-- Summary: Digital biomarkers for depression have largely relied on static acoustic descriptors, pooled summary statistics, or conventional machine learning representations. Such approaches may miss nonlinear temporal organization embedded in conversational vocal dynamics. We hypothesized that depression is...
-
-### EnerGS: Energy-Based Gaussian Splatting with Partial Geometric Priors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26238
-- Summary: 3D Gaussian Splatting (3DGS) has been widely adopted for scene reconstruction, where training inherently constitutes a highly coupled and non-convex optimization problem. Recent works commonly incorporate geometric priors, such as LiDAR measurements, either for initialization or as training...
-
-### LATTICE: Evaluating Decision Support Utility of Crypto Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.26235
-- Summary: We introduce LATTICE, a benchmark for evaluating the decision support utility of crypto agents in realistic user-facing scenarios. Prior crypto agent benchmarks mainly focus on reasoning-based or outcome-based evaluation, but do not assess agents' ability to assist user decision-making. LATTICE...
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today
-- Summary: a quiet day.
-
-### Elevated errors on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/lryjwwy0q9pl
-- Summary: Apr 29, 00:00 UTCResolved - The incident is now resolved. The impact was between 16:25 PT / 23:25 UTC and 16:33 PT / 23:33 UTC.Apr 28, 23:33 UTCInvestigating - We are currently investigating this issue.
-
-### DeepInfra on Hugging Face Inference Providers 🔥
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/inference-providers-deepinfra
-
-
-## 2026-04-28
-
-### Codex stream is disconnecting intermittently
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KQB4AMHC9CKFYT863PMXN1YR
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components CLI (Operational) App (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)
-
-### Duplicated values in X-Forwarded-For header
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/yg4t0swj39fg
-- Summary: Apr 28, 20:39 UTCUpdate - We are continuing to work on a fix for this issue.Apr 28, 19:00 UTCUpdate - We are continuing to work on a fix for this issue. A fix is expected to roll out over the next ~11 hours - ETA ~07:00 UTC 29 Apr. 2026.Apr 28, 19:00 UTCIdentified - The issue has been identified...
-
-### Cyber Insurance Data Gives CISOs New Ammo for Budget Talks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyber-insurance-data-gives-cisos-new-ammo-for-budget-talks/
-- Summary: Boards may ignore alerts, but they listen to losses: new data from Resilience links security gaps directly to financial impact. The post Cyber Insurance Data Gives CISOs New Ammo for Budget Talks appeared first on SecurityWeek.
-
-### Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/researchers-discover-critical-github.html
-- Summary: Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single "git push" command. The flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a...
-
-### Claude.ai unavailable
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/9l93x2ht4s5w
-- Summary: Apr 28, 17:41 UTCInvestigating - We are investigating an issue preventing users from reaching Claude.ai, and will provide an update as soon as possible.
-
-### Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html
-- Summary: A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). "The malware disguises itself as a Minecraft hack called 'Slinky,'" Brazil-based cybersecurity company...
-
-### Vimeo Confirms User and Customer Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/
-- Summary: The ShinyHunters group is threatening to leak stolen files unless Vimeo agrees to pay a ransom. The post Vimeo Confirms User and Customer Data Breach appeared first on SecurityWeek.
-
-### Learning Neural Operator Surrogates for the Black Hole Accretion Code
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.25985
-- Summary: General-relativistic magnetohydrodynamic (GR-MHD) simulations are essential for studying black hole accretion, relativistic jets, and magnetic reconnection, yet their computational cost severely limits systematic parameter exploration. We investigate neural operator surrogates for two...
 
