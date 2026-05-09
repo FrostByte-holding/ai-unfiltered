@@ -6,6 +6,11 @@
 
 ## 2026-05-09
 
+### "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper
+
 ### SynapX Launches SYNData: Multimodal Data Collection System for Embodied AI Era
 - Source: Pandaily
 - Category: chinese-ai
@@ -849,6 +854,12 @@
 - URL: https://pandaily.com/doubao-three-tier-subscription-token-factory-2026
 - Summary: Doubao, China's largest AI chatbot with 345 million monthly active users, has quietly introduced three paid subscription tiers on the Apple App Store: 68 yuan/month, 200 yuan/month, and 500 yuan/month. The move signals a broader industry shift toward token-based AI monetization.
 
+### BioTool: A Comprehensive Tool-Calling Dataset for Enhancing Biomedical Capabilities of Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05758
+- Summary: Despite the success of large language models (LLMs) on general-purpose tasks, their performance in highly specialized domains such as biomedicine remains unsatisfactory. A key limitation is the inability of LLMs to effectively leverage biomedical tools, which clinical experts and biomedical...
+
 ### Beijing-Based Health-Tech Unicorn Yuanxin Tech Files for HKIPO at $2.7B Valuation
 - Source: Pandaily
 - Category: chinese-ai
@@ -1144,6 +1155,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/j80wh3mvwqcm
 - Summary: May 6, 14:30 UTCResolved - We have resolved the network performance issues in Eastern North America region that occurred between 14:35 and 16:28 UTC. Traffic flow has returned to normal levels. We appreciate your patience and apologize for the inconvenience.
+
+### Koopman Identification of Nonlinear Systems via Reservoir Liftings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04917
+- Summary: Learning tractable linear representations of nonlinear dynamical systems via Koopman operator theory is often hindered by dictionary selection, temporal memory encoding, and numerical ill-conditioning. Inspired by Reservoir Computing (RC) paradigm, this paper introduces the RC-Koopman framework,...
 
 ### Herd Security Raises $3 Million for AI-Powered Training Platform
 - Source: Security Week
@@ -2056,6 +2073,12 @@
 - URL: https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html
 - Summary: The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025,...
 
+### Tibetan-TTS:Low-Resource Tibetan Speech Synthesis with Large Model Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02496
+- Summary: Tibetan text-to-speech (TTS) has long been challenged by scarce speech resources, significant dialectal variation, and the complex mapping between written text and spoken pronunciation. To address these issues, this work presents, to the best of our knowledge, the first large-model-based Tibetan...
+
 ### From Experimental Limits to Physical Insight: A Retrieval-Augmented Multi-Agent Framework for Interpreting Searches Beyond the Standard Model
 - Source: HF Daily Papers
 - Category: open-source
@@ -2419,6 +2442,12 @@
 - URL: https://tldr.takara.ai/p/2605.02014
 - Summary: We introduce Mira, a sample-based score for assessing the accuracy of a candidate conditional distribution using only joint samples from the true data-generating process. Relying on the principle that distributions coincide if they assign equal probability mass to all regions, we derive an analytic...
 
+### TumorXAI: Self-Supervised Deep Learning Framework for Explainable Brain MRI Tumor Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01999
+- Summary: Classifying brain tumors using magnetic resonance imaging (MRI) is crucial for early diagnosis and treatment; however, tumor heterogeneity and a dearth of annotated datasets restrict the use of supervised deep learning approaches. In this work, we use self-supervised learning (SSL) to study...
+
 ### Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks
 - Source: HF Daily Papers
 - Category: open-source
@@ -2436,6 +2465,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.01928
 - Summary: Neural networks increasingly embed non-differentiable components (spiking neurons, quantized layers, discrete routing, blackbox simulators, etc.) where backpropagation is inapplicable and surrogate gradients introduce bias. We present PolyStep, a gradient-free optimizer that updates parameters...
+
+### Beyond ECE: Calibrated Size Ratio, Risk Assessment, and Confidence-Weighted Metrics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01796
+- Summary: Confidence calibration has been dominated by the Expected Calibration Error (ECE), a linear metric that counts calibration offset equally regardless of the confidence level at which it occurs. We show that ECE can remain small even under arbitrarily large overconfidence risk, so we propose...
 
 ### CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
 - Source: The Hacker News
@@ -2991,40 +3026,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.28036
 - Summary: Exponential families encompass the distributions central to modern machine learning -- softmax, Gaussians, and Boltzmann distributions -- and underlie the theory of variational inference, entropy-regularized reinforcement learning, and RLHF. We isolate a simple identity for exponential families...
-
-### Ease of dependency distance minimization in star-like structures
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28034
-- Summary: The syntactic structure of a sentence can be represented as a tree where edges indicate syntactic dependencies between words. When that structure is a star, it has been demonstrated that the head should be placed in the middle of the linear arrangement according to the principle of syntactic...
-
-### Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28031
-- Summary: When researchers iteratively refine ideas with large language models, do the models preserve fidelity to the original objective? We introduce DriftBench, a benchmark for evaluating constraint adherence in multi-turn LLM-assisted scientific ideation. Across 2,146 scored benchmark runs spanning seven...
-
-### LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27960
-- Summary: Recent large language models (LLMs) have achieved impressive reasoning milestones but continue to struggle with high computational costs, logical inconsistencies, and sharp performance degradation on high-complexity problems. While neuro-symbolic methods attempt to mitigate these issues by coupling...
-
-### SonicWall Urges Immediate Patching of Firewall Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sonicwall-urges-immediate-patching-of-firewall-vulnerabilities/
-- Summary: The bugs could be exploited to bypass security controls, access restricted services, and crash firewalls. The post SonicWall Urges Immediate Patching of Firewall Vulnerabilities appeared first on SecurityWeek.
-
-### SAP NPM Packages Targeted in Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sap-npm-packages-targeted-in-supply-chain-attack/
-- Summary: The Mini Shai-Hulud attack introduced a preinstall hook to fetch and execute a Bun binary and bypass security monitoring. The post SAP NPM Packages Targeted in Supply Chain Attack appeared first on SecurityWeek.
-
-### Physical Foundation Models: Fixed hardware implementations of large-scale neural networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27911
-- Summary: Foundation models are deep neural networks (such as GPT-5, Gemini~3, and Opus~4) trained on large datasets that can perform diverse downstream tasks -- text and code generation, question answering, summarization, image classification, and so on. The philosophy of foundation models is to put effort...
 
