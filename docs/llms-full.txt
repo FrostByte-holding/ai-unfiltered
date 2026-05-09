@@ -6,6 +6,12 @@
 
 ## 2026-05-09
 
+### Neolix, TELD Launch 'Power Island' to Build AV Charging Infrastructure
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/neolix-teld-power-island-autonomous-delivery
+- Summary: Neolix and TELD unveil the world's first autonomous vehicle charging hub, marking Neolix's strategic shift from vehicle manufacturer to mobility service provider. The partnership targets 100 cities globally within three years.
+
 ### Elevated errors on Claude Opus 4.1
 - Source: Anthropic Status
 - Category: incidents
@@ -644,6 +650,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KR1Q0SWZESWXQVWQRKRDJCHK
 - Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance)...
+
+### Agentic AIs Are the Missing Paradigm for Out-of-Distribution Generalization in Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.06522
+- Summary: Foundation models (FMs) are increasingly deployed in open-world settings where distribution shift is the rule rather than the exception. The out-of-distribution (OOD) phenomena they face -- knowledge boundaries, capability ceilings, compositional shifts, and open-ended task variation -- differ in...
 
 ### Notes from inside China's AI labs
 - Source: Interconnects
@@ -2344,6 +2356,12 @@
 - URL: https://tldr.takara.ai/p/2605.02153
 - Summary: Synthetic Aperture Radar (SAR) imagery is widely used for flood monitoring due to its all-weather and day-night imaging capability. However, flood mapping using single-polarization SAR data remains challenging in complex environments where surface and volume scattering coexist. In this paper, we...
 
+### Projection-Free Transformers via Gaussian Kernel Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02144
+- Summary: Self-attention in Transformers is typically implemented as $\mathrm{softmax}(QK^\top/\sqrt{d})V$, where $Q=XW_Q$, $K=XW_K$, and $V=XW_V$ are learned linear projections of the input $X$. We ask whether these learned projections are necessary, or whether they can be replaced by a simpler...
+
 ### STABLEVAL: Disagreement-Aware and Stable Evaluation of AI Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2359,6 +2377,18 @@
 - URL: https://tldr.takara.ai/p/2605.02080
 - Summary: Drawing on crip theory, this paper proposes cripping AI as a guiding framework to center lived disability experiences in AI research and development. Moving beyond calls to make AI "accessible" to people with disabilities, cripping AI seeks to: (1) reveal and dismantle ableist assumptions embedded...
 
+### MIRA: A Score for Conditional Distribution Accuracy and Model Comparison
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02014
+- Summary: We introduce Mira, a sample-based score for assessing the accuracy of a candidate conditional distribution using only joint samples from the true data-generating process. Relying on the principle that distributions coincide if they assign equal probability mass to all regions, we derive an analytic...
+
+### Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01959
+- Summary: Parameter-efficient fine-tuning methods like Low-Rank Adaptation (LoRA) have become essential for deploying large language models, yet their static parameter allocation remains suboptimal for inputs of varying complexity. We present Flexi-LoRA, a novel framework that dynamically adjusts LoRA ranks...
+
 ### US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems
 - Source: Security Week
 - Category: security
@@ -2373,6 +2403,12 @@
 
 
 ## 2026-05-02
+
+### Quantifying Multimodal Capabilities: Formal Generalization Guarantees in Pairwise Metric Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01424
+- Summary: Multimodal learning leverages the integration of diverse data modalities to enhance performance in complex tasks. Yet, it frequently encounters incomplete or redundant modality data in real-world scenarios. This paper presents a fine-grained theoretical analysis of the generalization properties of...
 
 ### New Bluekit Phishing Kit Features AI Assistant
 - Source: Security Week
@@ -2991,40 +3027,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2604.27861
 - Summary: Decompositional jailbreaks pose a critical threat to large language models (LLMs) by allowing adversaries to fragment a malicious objective into a sequence of individually benign queries that collectively reconstruct prohibited content. In real-world deployments, LLMs face a continuous, untraceable...
-
-### Rethinking Agentic Reinforcement Learning In Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27859
-- Summary: Reinforcement Learning (RL) has traditionally focused on training specialized agents to optimize predefined reward functions within narrowly defined environments. However, the advent of powerful Large Language Models (LLMs) and increasingly complex, open-ended tasks has catalyzed a paradigm shift...
-
-### Dreame Launches 20+ Smart Home Products in San Francisco, Putting Its Robotic Arm Tech at the Center
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dreame-launches-20-smart-home-products-in-san-francisco-putting-its-robotic-arm-tech-at-the-center
-- Summary: At its DREAME NEXT event in San Francisco, Dreame Technology demonstrated how its bionic robotic arm technology has evolved from a robot vacuum feature into a cross-category platform powering everything from range hoods to dishwashers. The company also debuted the modular AURORA NEX smartphone and...
-
-### NeocorRAG: Less Irrelevant Information, More Explicit Evidence, and More Effective Recall via Evidence Chains
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27852
-- Summary: Although precise recall is a core objective in Retrieval-Augmented Generation (RAG), a critical oversight persists in the field: improvements in retrieval performance do not consistently translate to commensurate gains in downstream reasoning. To diagnose this gap, we propose the Recall Conversion...
-
-### Possible Network Congestion in United States Eastern and Central regions
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/h6xlssjlzpg8
-- Summary: Apr 30, 13:30 UTCResolved - Cloudflare customers maybe be observing possible network congestion in the United States Eastern and Central regions, from 13:30 to 14:55 UTC.
-
-### Elevated errors on Claude Haiku 4.5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/dv9r688vqt8s
-- Summary: Apr 30, 13:10 UTCInvestigating - We are currently investigating this issue.
-
-### When "Big Female Lead" Dramas Run Out of Steam: The Trap and the Future of Female Characters in Chinese TV
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/when-big-female-lead-dramas-run-out-of-steam-the-trap-and-the-future-of-female-characters-in-chinese-tv
-- Summary: Despite the flood of "female-centered" Chinese dramas, the women on screen have rarely felt more flat—trapped between hollow empowerment slogans and industrial formulas that recycle the same tired tropes. This essay cuts through the noise to argue that real progress won't come from louder...
 
