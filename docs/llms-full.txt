@@ -6,6 +6,48 @@
 
 ## 2026-05-09
 
+### Elevated errors on Claude Opus 4.1
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/1m6xs1xcw9kk
+- Summary: May 9, 08:22 UTCResolved - This incident has been resolved.May 9, 07:57 UTCIdentified - The issue has been identified and a fix is being implemented.
+
+### Volvo to Adopt Geely's Qianli HaoHan G-ASD Autonomous Driving Solution, Launching 2027
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/volvo-geely-qianlihaohan-g-asd-autonomous-driving-2027
+- Summary: Volvo Cars plans to integrate Geely's self-developed Qianli HaoHan G-ASD autonomous driving system, co-developed with Stepfun. The L2-L4 capable solution is expected to debut on Volvo vehicles in early 2027.
+
+### Alibaba Qwen Unveils AI Glasses S1 with Spatial 3D Display and Proactive AI Services
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-qwen-ai-glasses-s1-spatial-3d-display
+- Summary: Alibaba's Qwen division has launched the Qwen AI Glasses S1, featuring industry-first spatial 3D display, proactive notifications, and integrated ride-hailing. The glasses represent Alibaba's push into AI-native wearable hardware.
+
+### Rongxin Zhiyuan Raises Tens of Millions: GPU-Centric AGC Architecture Redefines AI Infrastructure
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/rongxin-zhiyuan-ai-computing-gpu-centric-agc-architecture
+- Summary: Beijing Rongxin Zhiyuan has raised a tens-of-millions-yuan angel round to build its GPU-centric AGC computing architecture. The architecture boosts GPU density from 2:1 to 32:1 versus CPU, and enables hot-swappable GPU fault tolerance with 1-minute recovery.
+
+### SynapX Launches SYNData: Multimodal Data Collection System for Embodied AI Era
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/synapx-syndata-multimodal-data-collection-embodied-ai
+- Summary: SynapX has released SYNData, a multimodal data collection system for dexterous manipulation. The system covers ego vision, EMG signals, and exoskeleton data gloves, enabling scalable collection of human manipulation data for robot learning.
+
+### Xiaoyu Robotics Raises New Round, Backed by Xiaomi, Didi, BAIC
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaoyu-robotics-b-series-funding
+- Summary: Xiaoyu Robotics, China's leading industrial embodied AI company, has secured a new multi-hundred-million yuan funding round. Five major industrial capitals — Xiaomi, Didi, BAIC, Fosun, and CCDC — participated, with Lei Wanqiang investing for the fourth consecutive round.
+
+### cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
+- Summary: cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input...
+
 ### Understanding Annotator Safety Policy with Interpretability
 - Source: arXiv AI
 - Category: research
@@ -578,6 +620,12 @@
 - Category: security
 - URL: https://www.securityweek.com/worries-about-ais-risks-to-humanity-loom-over-the-trial-pitting-musk-against-openais-leaders/
 - Summary: Musk said that he could have founded OpenAI as a for-profit company, just like the other companies he started or took over. “I deliberately chose this,” he said, “for the public good.” The post Worries About AI’s Risks to Humanity Loom Over the Trial Pitting Musk Against OpenAI’s Leaders appeared...
+
+### UniPool: A Globally Shared Expert Pool for Mixture-of-Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.06665
+- Summary: Modern Mixture-of-Experts (MoE) architectures allocate expert capacity through a rigid per-layer rule: each transformer layer owns a separate expert set. This convention couples depth scaling with linear expert-parameter growth and assumes that every layer needs isolated expert capacity. However,...
 
 ### Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access
 - Source: The Hacker News
@@ -1169,6 +1217,12 @@
 - URL: https://www.securityweek.com/government-scientific-entities-hit-via-daemon-tools-supply-chain-attack/
 - Summary: While trojanized Daemon Tools versions were installed worldwide, a sophisticated backdoor was dropped only on a dozen systems. The post Government, Scientific Entities Hit via Daemon Tools Supply Chain Attack appeared first on SecurityWeek.
 
+### From Parameter Dynamics to Risk Scoring : Quantifying Sample-Level Safety Degradation in LLM Fine-tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04572
+- Summary: Safety alignment of Large Language Models (LLMs) is extremely fragile, as fine-tuning on a small number of benign samples can erase safety behaviors learned from millions of preference examples. Existing studies attempt to explain this phenomenon by comparing parameters and hidden states before and...
+
 ### Oracle Debuts Monthly Critical Security Patch Updates
 - Source: Security Week
 - Category: security
@@ -1180,6 +1234,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html
 - Summary: Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3...
+
+### Velox: Learning Representations of 4D Geometry and Appearance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04527
+- Summary: We introduce a framework for learning latent representations of 4D objects which are descriptive, faithfully capturing object geometry and appearance; compressive, aiding in downstream efficiency; and accessible, requiring minimal input, i.e., an unstructured dynamic point cloud, to construct....
 
 ### [AINews] Silicon Valley gets Serious about Services
 - Source: Latent Space
@@ -1398,6 +1458,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/lupsasca
 - Summary: The full story of how GPT&#8209;5.x derived new results in theoretical physics and quantum gravity.
+
+### Enabling Real-Time Training of a Wildfire-to-Smoke Map with Multilinear Operators
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04164
+- Summary: Wildfires are a major producer of fine particulate matter, impacting human health and the electrical grid. Accurately forecasting smoke impacts over long time scales incorporates fuel treatment strategies, natural fuel succession, and stochastic events like lightning strikes. However, predicting...
 
 ### Increased Latency and Failures for SSH Git Operations
 - Source: GitHub Status
@@ -2287,6 +2353,12 @@
 
 ## 2026-05-03
 
+### Cripping AI: Reimagining AI Through Lived Disability Experiences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02080
+- Summary: Drawing on crip theory, this paper proposes cripping AI as a guiding framework to center lived disability experiences in AI research and development. Moving beyond calls to make AI "accessible" to people with disabilities, cripping AI seeks to: (1) reveal and dismantle ableist assumptions embedded...
+
 ### US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems
 - Source: Security Week
 - Category: security
@@ -2955,76 +3027,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/when-big-female-lead-dramas-run-out-of-steam-the-trap-and-the-future-of-female-characters-in-chinese-tv
 - Summary: Despite the flood of "female-centered" Chinese dramas, the women on screen have rarely felt more flat—trapped between hollow empowerment slogans and industrial formulas that recycle the same tired tropes. This essay cuts through the noise to argue that real progress won't come from louder...
-
-### Probabilistic Circuits for Irregular Multivariate Time Series Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27814
-- Summary: Joint probabilistic modeling is essential for forecasting irregular multivariate time series (IMTS) to accurately quantify uncertainty. Existing approaches often struggle to balance model expressivity with consistent marginalization, frequently leading to unreliable or contradictory forecasts. To...
-
-### Focus Session: Autonomous Systems Dependability in the era of AI: Design Challenges in Safety, Security, Reliability and Certification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27807
-- Summary: The design of embedded safety-critical systems such as those used in next-generation automotive and autonomous platforms, is increasingly challenged by escalating system complexity, hardware-software heterogeneity, and the integration of intelligent, data-driven components. Ensuring dependability...
-
-### Increased HTTP 5xx Errors in South Korea region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/sf999wvjjsfb
-- Summary: Apr 30, 12:40 UTCResolved - Some Cloudflare customers in South Korea region may have observed an increased rate of 5xx errors from 12:40 to 13:00 UTC.
-
-### New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html
-- Summary: Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts. "The intrusion chain begins with execution of a batch...
-
-### Critical Gemini CLI Flaw Enabled Host Code Execution, Supply Chain Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-gemini-cli-flaw-enabled-host-code-execution-supply-chain-attacks/
-- Summary: An attacker could have planted a malicious configuration to execute commands outside the sandbox. The post Critical Gemini CLI Flaw Enabled Host Code Execution, Supply Chain Attacks appeared first on SecurityWeek.
-
-### Enabling a new model for healthcare with AI co-clinician
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/ai-co-clinician/
-- Summary: Researching the path to AI-augmented care and development of an AI co-clinician.
-
-### Data-Efficient Indentation Size Effect Correction in Steels Using Machine Learning and Physics-Guided Augmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27775
-- Summary: Shallow nanoindentation enables mechanical characterization of thin films, individual phases and other volume-constrained materials, but measured hardness is often inflated by the indentation size effect (ISE), contact-area errors and tip-geometry artifacts. Classical ISE corrections such as the...
-
-### The Download: the North Pole’s future and humanoid data
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Digging for clues about the North Pole’s past In the past, getting to the North Pole involved a treacherous trip through ice many meters thick. But...
-
-### EnOcean SmartServer Flaws Expose Buildings to Remote Hacking
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/enocean-smartserver-flaws-expose-buildings-to-remote-hacking/
-- Summary: Claroty researchers discovered two vulnerabilities that can be exploited for security bypass and remote code execution. The post EnOcean SmartServer Flaws Expose Buildings to Remote Hacking appeared first on SecurityWeek.
-
-### Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27747
-- Summary: Large language model (LLM)-based generative list-wise recommendation has advanced rapidly, but decoding remains sequential and thus latency-prone. To accelerate inference without changing the target distribution, speculative decoding (SD) uses a small draft model to propose several next tokens at...
-
-### Consumer Attitudes Towards AI in Digital Health: A Mixed-Methods Survey in Australia
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.27744
-- Summary: AI applications are increasingly being introduced into digital health. While technical performance has advanced rapidly, successful deployment mainly depends on consumer attitudes, especially to patient-facing applications. However, most existing research examines consumer attitudes towards...
-
-### EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html
-- Summary: Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating...
 
