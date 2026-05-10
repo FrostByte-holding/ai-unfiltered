@@ -6,6 +6,17 @@
 
 ## 2026-05-10
 
+### MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
+
+### Network Performance Issues in Auckland
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/qbj7t1t3pdxn
+- Summary: May 10, 17:54 UTCResolved - Cloudflare identified issues with network performance that occurred for our Auckland, NZ facility between 12:30 and 16:00 UTC today, 2026-05-10. Customers may have noticed increased latency for traffic handled by this facility during this period.
+
 ### Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
 - Source: The Hacker News
 - Category: security
@@ -802,6 +813,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/9h32bh60z06w
 - Summary: May 7, 12:45 UTCResolved - This incident has been resolved.May 7, 12:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 7, 12:19 UTCIdentified - The issue has been identified and a fix is being implemented.May 7, 12:10 UTCInvestigating - We are currently...
+
+### Uncovering Entity Identity Confusion in Multimodal Knowledge Editing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.06096
+- Summary: Multimodal knowledge editing (MKE) aims to correct the internal knowledge of large vision-language models after deployment, yet the behavioral patterns of post-edit models remain underexplored. In this paper, we identify a systemic failure mode in edited models, termed Entity Identity Confusion...
 
 ### The Download: the tech reshaping IVF and the rise of balcony solar
 - Source: MIT Tech Review AI
@@ -1653,6 +1670,12 @@
 - URL: https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html
 - Summary: A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky. "These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging...
 
+### TRACE: A Metrologically-Grounded Engineering Framework for Trustworthy Agentic AI Systems in Operationally Critical Domains
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03838
+- Summary: We introduce TRACE, a cross-domain engineering framework for trustworthy agentic AI in operationally critical domains. TRACE combines a four-layer reference architecture with an explicit classical-ML vs. LLM-validator split (L2a/L2b), a stateful orchestration-and-escalation policy (L3), and bounded...
+
 ### Microsoft Warns of Sophisticated Phishing Campaign Targeting US Organizations
 - Source: Security Week
 - Category: security
@@ -1712,6 +1735,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html
 - Summary: Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary...
+
+### AniMatrix: An Anime Video Generation Model that Thinks in Art, Not Physics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03652
+- Summary: Video generation models internalize physical realism as their prior. Anime deliberately violates physics: smears, impact frames, chibi shifts; and its thousands of coexisting artistic conventions yield no single "physics of anime" a model can absorb. Physics-biased models therefore flatten the...
 
 ### Critical, High-Severity Vulnerabilities Patched in Apache MINA, HTTP Server
 - Source: Security Week
@@ -2268,6 +2297,12 @@
 - URL: https://tldr.takara.ai/p/2605.02402
 - Summary: Reflective thinking is a key competency in education, but assessing reflective writing remains a time-consuming and subjective task for education experts. While automated reflective analysis has been explored in several languages, Hungarian language was not researched extensively. In this paper, we...
 
+### Controllable and Verifiable Process Data Synthesis for Process Reward Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02395
+- Summary: Process reward models (PRMs) rely on high-quality process supervision data, yet existing construction methods often provide limited control over error location, error type, and trajectory consistency. We propose a controllable and verifiable framework for synthesizing process supervision data for...
+
 ### Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval
 - Source: HF Daily Papers
 - Category: open-source
@@ -2631,6 +2666,12 @@
 - URL: https://tldr.takara.ai/p/2605.01989
 - Summary: Distributed machine learning (ML) training has become a necessity with the prevalence of billion to trillion-parameter-scale models. While prior work has improved training efficiency from the ML perspective at the application layer, it often fails to address transient congestion events at the...
 
+### DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05241
+- Summary: Sim-to-real transfer remains a critical bottleneck for deploying dexterous manipulation policies learned in simulation to real-world robots. Existing approaches rely on manually designed domain randomization or task-specific adaptation, limiting their generalizability across diverse manipulation...
+
 ### Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks
 - Source: HF Daily Papers
 - Category: open-source
@@ -2984,46 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.26984
 - Summary: arXiv:2604.26984v1 Announce Type: new Abstract: Representational collapse, where embeddings become anisotropic and lose multi-scale structure, can erode downstream performance long before performance metrics react. We propose an online, topology-aware monitor for evolving neural representations...
-
-### Simple Self-Conditioning Adaptation for Masked Diffusion Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.26985
-- Summary: arXiv:2604.26985v1 Announce Type: new Abstract: Masked diffusion models (MDMs) generate discrete sequences by iterative denoising under an absorbing masking process. In standard masked diffusion, if a token remains masked after a reverse update, the model discards its clean-state prediction for...
-
-### People-Centred Medical Image Analysis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.26991
-- Summary: arXiv:2604.26991v1 Announce Type: new Abstract: Recent advances in data-centric medical AI have produced highly accurate diagnostic systems, but the emphasis on data curation and performance metrics has not translated into widespread clinical adoption. We conjecture that this limited uptake stems...
-
-### When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27003
-- Summary: arXiv:2604.27003v1 Announce Type: new Abstract: Memory-augmented LLM agents offer an appealing shortcut to continual learning: rather than updating model parameters, they accumulate experience in external memory, seemingly sidestepping the stability-plasticity dilemma of parametric learning. We...
-
-### Automatic Causal Fairness Analysis with LLM-Generated Reporting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27011
-- Summary: arXiv:2604.27011v1 Announce Type: new Abstract: AutoML, intended as the process of automating the application of machine learning to real-world problems, is a key step for AI popularisation. Most AutoML frameworks are not accounting for the potential lack of fairness in the training data and in the...
-
-### BatteryPass-12K: The First Dataset for the Novel Digital Battery Passport Conformance Task
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.26986
-- Summary: arXiv:2604.26986v1 Announce Type: new Abstract: We introduce a novel task of digital battery passport (DBP) conformance classification and introduce the first public benchmark for the task: BatteryPass-12K, created synthetically from real pilot samples. This is as the EU's battery regulation on...
-
-### Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.27039
-- Summary: arXiv:2604.27039v1 Announce Type: new Abstract: Token serves as the fundamental unit of computation in modern autoregressive models, and generation length directly influences both inference cost and reasoning performance. Despite its importance, existing approaches lack fine-grained length...
-
-### CL-bench Life: Can Language Models Learn from Real-Life Context?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.27043
-- Summary: arXiv:2604.27043v1 Announce Type: new Abstract: Today's AI assistants such as OpenClaw are designed to handle context effectively, making context learning an increasingly important capability for models. As these systems move beyond professional settings into everyday life, the nature of the...
 
