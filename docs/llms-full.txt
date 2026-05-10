@@ -707,6 +707,12 @@
 - URL: https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html
 - Summary: Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. "The toolset harvests credentials from cloud, container, developer, productivity, and...
 
+### DARTS: Targeting Prognostic Covariates in Budget-Constrained Sequential Experiments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.06608
+- Summary: Randomized controlled trials typically assume that prognostic covariates are known and available at no cost. In practice, obtaining high-dimensional pretreatment data is costly, forcing a trade-off between covariate-adaptive precision and a measurement budget. We introduce Dynamic Adaptive...
+
 ### Elevated transcription failures affecting ChatGPT & Codex
 - Source: OpenAI Status
 - Category: incidents
@@ -2058,6 +2064,12 @@
 - URL: https://tldr.takara.ai/p/2605.05245
 - Summary: Retrieval-augmented generation (RAG) remains brittle on multi-hop questions in realistic deployment settings, where retrieved evidence may be noisy or redundant and only limited context can be passed to the generator. Existing controllers address parts of this problem, but typically either expand...
 
+### ARA: Agentic Reproducibility Assessment For Scalable Support Of Scientific Peer-Review
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02651
+- Summary: Scientific peer review increasingly struggles to assess reproducibility at the scale and complexity of modern research output. Evaluating reproducibility requires reconstructing experimental dependencies, methodological choices, data flows, and result-generating procedures, which often exceeds what...
+
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
 - Category: incidents
@@ -2207,6 +2219,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.02402
 - Summary: Reflective thinking is a key competency in education, but assessing reflective writing remains a time-consuming and subjective task for education experts. While automated reflective analysis has been explored in several languages, Hungarian language was not researched extensively. In this paper, we...
+
+### Is It Novel and Why? Fine-Grained Patent Novelty Prediction Based on Passage Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02392
+- Summary: Novelty assessment is a critical yet complex task in the examination process for patent acceptance, requiring examiners to determine whether an invention is disclosed in a prior art document. The process involves intricate matching between specific features of a patent claim and passages in the...
 
 ### OpenAI Rolls Out Advanced Security for ChatGPT Accounts
 - Source: Security Week
@@ -2484,6 +2502,12 @@
 - URL: https://tldr.takara.ai/p/2605.02144
 - Summary: Self-attention in Transformers is typically implemented as $\mathrm{softmax}(QK^\top/\sqrt{d})V$, where $Q=XW_Q$, $K=XW_K$, and $V=XW_V$ are learned linear projections of the input $X$. We ask whether these learned projections are necessary, or whether they can be replaced by a simpler...
 
+### FedQueue: Queue-Aware Federated Learning for Cross-Facility HPC Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02125
+- Summary: Federated learning (FL) across multiple HPC facilities faces stochastic admission delays from batch schedulers that dominate wall-clock time. Synchronous FL suffers from severe stragglers, while asynchronous FL accumulates stale updates when queues spike. We propose FedQueue, a queue-aware FL...
+
 ### STABLEVAL: Disagreement-Aware and Stable Evaluation of AI Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2540,6 +2564,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.01796
 - Summary: Confidence calibration has been dominated by the Expected Calibration Error (ECE), a linear metric that counts calibration offset equally regardless of the confidence level at which it occurs. We show that ECE can remain small even under arbitrarily large overconfidence risk, so we propose...
+
+### Adversarial Imitation Learning with General Function Approximation: Theoretical Analysis and Practical Algorithms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01778
+- Summary: Adversarial imitation learning (AIL), a prominent approach in imitation learning, has achieved significant practical success powered by neural network approximation. However, existing theoretical analyses of AIL are primarily confined to simplified settings, such as tabular and linear function...
 
 ### Mitigating Multimodal LLMs Hallucinations via Relevance Propagation at Inference Time
 - Source: HF Daily Papers
@@ -2996,37 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.27204
 - Summary: arXiv:2604.27204v1 Announce Type: new Abstract: In the field of universal automatic phonetic transcription (APT), clean and diverse training transcriptions are required. However, such high-quality data is limited. We propose the bootstrapping approach Selective Augmentation to improve the available...
-
-### Targeted Linguistic Analysis of Sign Language Models with Minimal Translation Pairs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.27232
-- Summary: arXiv:2604.27232v1 Announce Type: new Abstract: Models of sign language have historically lagged behind those for spoken language (text and speech). Recent work has greatly improved their performance on tasks like sign language translation and isolated sign recognition. However, it remains unclear...
-
-### Load Balancing health monitoring impacted
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/tn894r5df81p
-- Summary: May 1, 02:48 UTCResolved - This incident has been resolved.Apr 30, 22:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Apr 30, 22:31 UTCInvestigating - Cloudflare is currently investigating issues with its Load Balancing Health Monitoring services. During this time...
-
-### Beyond Visual Fidelity: Benchmarking Super-Resolution Models for Large-Scale Remote Sensing Imagery via Downstream Task Integration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.00310
-- Summary: Super-resolution (SR) techniques have made major advances in reconstructing high-resolution images from low-resolution inputs. The increased resolution provides visual enhancement and utility for monitoring tasks. In particular, SR has been increasingly developed for satellite-based Earth...
-
-
-## 2026-04-30
-
-### Analytics - Web Analytics Delays
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/l8wh12zjc360
-- Summary: Apr 30, 23:26 UTCResolved - This incident has been resolved.Apr 30, 23:23 UTCIdentified - The issue has been identified and a fix is being implemented.Apr 30, 23:23 UTCInvestigating - Cloudflare Web Analytics processing is running behind. This affects timely delivery of customer data. These delays...
-
-### Durable Object and D1 Analytics Delayed
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/c6qrnybhtrlq
-- Summary: Apr 30, 23:04 UTCIdentified - The storage totals shown in the dashboard for Durable Objects and D1 are currently delayed.
 
