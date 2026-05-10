@@ -6,6 +6,12 @@
 
 ## 2026-05-10
 
+### Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
+- Summary: Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as...
+
 ### Network Performance Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -1213,6 +1219,12 @@
 - URL: https://status.claude.com/incidents/437swp24nrf4
 - Summary: May 6, 16:51 UTCResolved - This incident has been resolved.May 6, 16:32 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 6, 15:54 UTCIdentified - The issue has been identified and a fix is being implemented.May 6, 15:29 UTCInvestigating - We are currently...
 
+### A Bayesian Approach for Task-Specific Next-Best-View Selection with Uncertain Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05095
+- Summary: We develop a framework for task-specific active next-best-view selection in 3D reconstruction from point clouds, by casting the problem in the language of Bayesian decision theory. Our framework works by (a) placing a prior distribution over the space of implicit surfaces, (b) using...
+
 ### Incident with Pull Requests
 - Source: GitHub Status
 - Category: incidents
@@ -2292,6 +2304,12 @@
 - URL: https://tldr.takara.ai/p/2605.02316
 - Summary: Managing municipal solid waste in rapidly urbanizing Sub-Saharan Africa remains challenging due to dispersed informal dumping and limited high-resolution datasets for spatial monitoring. We present an open-access deep learning model for automated detection of openly dumped dispersed solid waste via...
 
+### EngiAgent: Fully Connected Coordination of LLM Agents for Solving Open-ended Engineering Problems with Feasible Solutions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02289
+- Summary: Engineering problem solving is central to real-world decision-making, requiring mathematical formulations that not only represent complex problems but also produce feasible solutions under data and physical constraints. Unlike mathematical problem solving, which operates on predefined formulations,...
+
 ### Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats
 - Source: Security Week
 - Category: security
@@ -2553,6 +2571,12 @@
 - URL: https://tldr.takara.ai/p/2605.02080
 - Summary: Drawing on crip theory, this paper proposes cripping AI as a guiding framework to center lived disability experiences in AI research and development. Moving beyond calls to make AI "accessible" to people with disabilities, cripping AI seeks to: (1) reveal and dismantle ableist assumptions embedded...
 
+### Enhanced LLM Reasoning by Optimizing Reward Functions with Search-Driven Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02073
+- Summary: Mathematical reasoning is a key benchmark for large language models. Reinforcement learning is a standard post-training mechanism for improving the reasoning capabilities of large language models, yet performance remains sensitive to the design of the reward function that drives policy...
+
 ### Towards Systematic Generalization for Power Grid Optimization Problems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2565,11 +2589,23 @@
 - URL: https://tldr.takara.ai/p/2605.02014
 - Summary: We introduce Mira, a sample-based score for assessing the accuracy of a candidate conditional distribution using only joint samples from the true data-generating process. Relying on the principle that distributions coincide if they assign equal probability mass to all regions, we derive an analytic...
 
+### Enhancing Judgment Document Generation via Agentic Legal Information Collection and Rubric-Guided Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02011
+- Summary: Automating the drafting of judgment documents is pivotal to judicial efficiency, yet it remains challenging due to the dual requirements of comprehensive retrieval of legal information and rigorous logical reasoning. Existing approaches, typically relying on standard Retrieval-Augmented Generation...
+
 ### TumorXAI: Self-Supervised Deep Learning Framework for Explainable Brain MRI Tumor Classification
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.01999
 - Summary: Classifying brain tumors using magnetic resonance imaging (MRI) is crucial for early diagnosis and treatment; however, tumor heterogeneity and a dearth of annotated datasets restrict the use of supervised deep learning approaches. In this work, we use self-supervised learning (SSL) to study...
+
+### DBLP: Phase-Aware Bounded-Loss Transport for Burst-Resilient Distributed ML Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01989
+- Summary: Distributed machine learning (ML) training has become a necessity with the prevalence of billion to trillion-parameter-scale models. While prior work has improved training efficiency from the ML perspective at the application layer, it often fails to address transient congestion events at the...
 
 ### Flexi-LoRA with Input-Adaptive Ranks: Efficient Finetuning for Speech and Reasoning Tasks
 - Source: HF Daily Papers
@@ -2990,40 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.27134
 - Summary: arXiv:2604.27134v1 Announce Type: new Abstract: Generative AI is reshaping higher education programming through vibe coding, where students collaborate with AI via natural language rather than writing code line-by-line. We conceptualize this practice as help-seeking, analyzing 19,418 interaction...
-
-### Optimal Stop-Loss and Take-Profit Parameterization for Autonomous Trading Agent Swarm
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.27150
-- Summary: arXiv:2604.27150v1 Announce Type: new Abstract: Autonomous crypto trading systems often spend most of their design effort on finding entries, while exits are left to fixed rules that are rarely tested in a systematic way. This paper examines whether better stop-loss and take-profit settings can...
-
-### Step-level Optimization for Efficient Computer-use Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.27151
-- Summary: arXiv:2604.27151v1 Announce Type: new Abstract: Computer-use agents provide a promising path toward general software automation because they can interact directly with arbitrary graphical user interfaces instead of relying on brittle, application-specific integrations. Despite recent advances in...
-
-### Fidelity, Diversity, and Privacy: A Multi-Dimensional LLM Evaluation for Clinical Data Augmentation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27014
-- Summary: arXiv:2604.27014v1 Announce Type: new Abstract: The scarcity of high-quality annotated medical data, particularly in mental health, poses a significant bottleneck for training robust machine learning models. Privacy regulations restrict data sharing, making synthetic data generation a promising...
-
-### Dynamic Adversarial Fine-Tuning Reorganizes Refusal Geometry
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27019
-- Summary: arXiv:2604.27019v1 Announce Type: new Abstract: Safety-aligned language models must refuse harmful requests without collapsing into broad over-refusal, but the training-time mechanisms behind this tradeoff remain unclear. Prior work characterizes refusal directions and jailbreak robustness, yet...
-
-### NORACL: Neurogenesis for Oracle-free Resource-Adaptive Continual Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27031
-- Summary: arXiv:2604.27031v1 Announce Type: new Abstract: In a continual learning setting, we require a model to be plastic enough to learn a new task and stable enough to not disturb previously learned capabilities. We argue that this dilemma has an architectural root. A finite network has limited...
-
-### Cross-Subject Generalization for EEG Decoding: A Survey of Deep Learning Methods
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2604.27033
-- Summary: arXiv:2604.27033v1 Announce Type: new Abstract: Deep learning for cross-subject EEG decoding is hindered by high inter-subject variability, which introduces a severe domain shift between training and unseen test subjects. This survey presents a comprehensive review of deep learning methodologies...
 
