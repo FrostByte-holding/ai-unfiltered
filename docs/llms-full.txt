@@ -4,7 +4,22 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-10
+
+### Network Performance Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/t41t0knxxk8w
+- Summary: May 10, 03:28 UTCInvestigating - Cloudflare is investigating issues with network performance in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
+
+
 ## 2026-05-09
+
+### Claude Code on the Web Partial Outage
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4b7cjct792q2
+- Summary: May 9, 23:51 UTCResolved - This incident has been resolvedMay 9, 23:33 UTCInvestigating - We are currently investigating this issue.
 
 ### "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"
 - Source: Hugging Face Blog
@@ -100,6 +115,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.05402
 - Summary: arXiv:2605.05402v1 Announce Type: new Abstract: Artificial intelligence (AI) and computer vision are transforming transportation data collection. This study introduces an AI-enabled analytics framework leveraging existing CCTV infrastructure to evaluate the impact of soft interventions, such as...
+
+### When Helpfulness Becomes Sycophancy: Sycophancy is a Boundary Failure Between Social Alignment and Epistemic Integrity in Large Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.05403
+- Summary: arXiv:2605.05403v1 Announce Type: new Abstract: This position paper argues that sycophancy in LLMs is a boundary failure between social alignment and epistemic integrity. Existing work often operationalizes sycophancy through external behavior such as agreement with incorrect user beliefs, position...
+
+### PRISM: Perception Reasoning Interleaved for Sequential Decision Making
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.05407
+- Summary: arXiv:2605.05407v1 Announce Type: new Abstract: Scaling LLM-based embodied agents from text-only environments to complex multimodal settings remains a major challenge. Recent work identifies a perception-reasoning-decision gap in standalone Vision-Language Models (VLMs), which often overlook...
+
+### Agentic Retrieval-Augmented Generation for Financial Document Question Answering
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.05409
+- Summary: arXiv:2605.05409v1 Announce Type: new Abstract: Financial document question answering (QA) demands complex multi-step numerical reasoning over heterogeneous evidence--structured tables, textual narratives, and footnotes--scattered across corporate filings. Existing retrieval-augmented generation...
+
+### LaTA: A Drop-in, FERPA-Compliant Local-LLM Autograder for Upper-Division STEM Coursework
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.05410
+- Summary: arXiv:2605.05410v1 Announce Type: new Abstract: Large-language-model (LLM) graders promise to relieve the grading burden of upper-division STEM courses, but most deployments to date send student work to third-party APIs, violating FERPA and exposing institutions to data risk while requiring...
+
+### From History to State: Constant-Context Skill Learning for LLM Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.05413
+- Summary: arXiv:2605.05413v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used to operate browsers, files, code and tools, making personal assistants a natural deployment target. Yet personal agents face a privacy-cost-capability tension: cloud models execute multi-step...
 
 ### This 22-Year-Old SJTU PhD Is Building Flapping Wing Robots — and Sequoia Just Backed Him
 - Source: Pandaily
@@ -1120,11 +1165,23 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections
 
+### Balancing Stability and Plasticity in Sequentially Trained Early-Exiting Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05358
+- Summary: Early-exiting neural networks enable adaptive inference by allowing inputs to exit at intermediate classifiers, reducing computation for easy samples while maintaining high accuracy. In practice, exits can be trained sequentially by incrementally adding them to a shared backbone; however, this...
+
 ### Aes3D: Aesthetic Assessment in 3D Gaussian Splatting
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.05155
 - Summary: As 3D Gaussian Splatting (3DGS) gains attention in immersive media and digital content creation, assessing the aesthetics of 3D scenes becomes important in helping creators build more visually compelling 3D content. However, existing evaluation methods for 3D scenes primarily emphasize...
+
+### Executable World Models for ARC-AGI-3 in the Era of Coding Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05138
+- Summary: We evaluate an initial coding-agent system for ARC-AGI-3 in which the agent maintains an executable Python world model, verifies it against previous observations, refactors it toward simpler abstractions as a practical proxy for an MDL-like simplicity bias, and plans through the model before...
 
 ### Cloudflare Dashboard Workers Editor Unavailable
 - Source: Cloudflare Status
@@ -1626,6 +1683,12 @@
 - URL: https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html
 - Summary: While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the...
 
+### Expanding functional protein sequence space using high entropy generative models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03578
+- Summary: Boltzmann Machines trained on evolutionary sequence data have emerged as a powerful paradigm for the data-driven design of artificial proteins. However, the relationship between model architecture, specifically parameter density, and experimental performance remains poorly understood. Here, we...
+
 ### MetInfo, Weaver E-cology Vulnerabilities in Attackers’ Crosshairs
 - Source: Security Week
 - Category: security
@@ -1988,6 +2051,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.02701
 - Summary: We propose a robust gradient estimator based on per-sample gradient clipping and analyze its properties both theoretically and empirically. We show that the resulting method, per-sample clipped SGD (PS-Clip-SGD), achieves optimal in-expectation convergence rates for non-convex optimization problems...
+
+### AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05245
+- Summary: Retrieval-augmented generation (RAG) remains brittle on multi-hop questions in realistic deployment settings, where retrieved evidence may be noisy or redundant and only limited context can be passed to the generator. Existing controllers address parts of this problem, but typically either expand...
 
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
@@ -2472,6 +2541,12 @@
 - URL: https://tldr.takara.ai/p/2605.01796
 - Summary: Confidence calibration has been dominated by the Expected Calibration Error (ECE), a linear metric that counts calibration offset equally regardless of the confidence level at which it occurs. We show that ECE can remain small even under arbitrarily large overconfidence risk, so we propose...
 
+### Mitigating Multimodal LLMs Hallucinations via Relevance Propagation at Inference Time
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.01766
+- Summary: Multimodal large language models (MLLMs) have revolutionized the landscape of AI, demonstrating impressive capabilities in tackling complex vision and audio-language tasks. However, a critical challenge remains: these models often suffer from hallucinations, generating outputs that diverge from the...
+
 ### CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
 - Source: The Hacker News
 - Category: security
@@ -2954,76 +3029,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/c6qrnybhtrlq
 - Summary: Apr 30, 23:04 UTCIdentified - The storage totals shown in the dashboard for Durable Objects and D1 are currently delayed.
-
-### Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-unveils-claude-security-to-counter-ai-powered-exploit-surge/
-- Summary: With Mythos signaling a new era of near-instant exploitation, Anthropic positions Claude Security to help defenders keep pace. The post Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge appeared first on SecurityWeek.
-
-### AI Fuels ‘Industrial’ Cybercrime as Time-to-Exploit Shrinks to Hours
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-fuels-industrial-cybercrime-as-time-to-exploit-shrinks-to-hours/
-- Summary: Industrialized cybercrime delivers attacks with greater scale, speed and success. Defenders must match this with use of AI and automation. The post AI Fuels ‘Industrial’ Cybercrime as Time-to-Exploit Shrinks to Hours appeared first on SecurityWeek.
-
-### Exclusive eBook: Inside the stealthy startup that pitched brainless human clones
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/
-- Summary: The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for &#8220;brainless clones&#8221; to serve the role of backup human bodies. by Antonio Regalado March 20, 2026 Related...
-
-### Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.00123
-- Summary: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more autonomously in higher-stakes settings may similarly be...
-
-### Strait: Perceiving Priority and Interference in ML Inference Serving
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28175
-- Summary: Machine learning (ML) inference serving systems host deep neural network (DNN) models and schedule incoming inference requests across deployed GPUs. However, limited support for task prioritization and insufficient latency estimation under concurrent execution may restrict their applicability in...
-
-### PhyCo: Learning Controllable Physical Priors for Generative Motion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28169
-- Summary: Modern video diffusion models excel at appearance synthesis but still struggle with physical consistency: objects drift, collisions lack realistic rebound, and material responses seldom match their underlying properties. We present PhyCo, a framework that introduces continuous, interpretable, and...
-
-### Mapping the Phase Diagram of the Vicsek Model with Machine Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28167
-- Summary: In this study, we use machine learning to classify and interpolate the phase structure of the Vicsek flocking model across the three-dimensional parameter space $(η,ρ,v_0)$. We construct a dataset of simulated parameter points and characterize each point using long-time dynamical observables. These...
-
-### On the Proper Treatment of Units in Surprisal Theory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28147
-- Summary: Surprisal theory links human processing effort to the predictability of an upcoming linguistic unit, but empirical work often leaves the notion of a unit underspecified. In practice, experimental stimuli are segmented into linguistically motivated units (e.g., words), while pretrained language...
-
-### PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html
-- Summary: In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3,...
-
-### Assessing the Role of Intersection Proximity in Pedestrian Crashes: Insights from Data Mining Approach
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28065
-- Summary: Although intersections are the most complex parts of the roadway network, pedestrian crashes at non-intersection locations are disproportionately frequent, highlighting a serious traffic safety concern. This study investigates non-intersection crashes involving pedestrians using a crash database...
-
-### This startup’s new mechanistic interpretability tool lets you debug LLMs
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/
-- Summary: The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how...
-
-### Exponential families from a single KL identity
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2604.28036
-- Summary: Exponential families encompass the distributions central to modern machine learning -- softmax, Gaussians, and Boltzmann distributions -- and underlie the theory of variational inference, entropy-regularized reinforcement learning, and RLHF. We isolate a simple identity for exponential families...
 
