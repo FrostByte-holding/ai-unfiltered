@@ -953,6 +953,12 @@
 - URL: https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr
 - Summary: And the kingmaker picks a side.
 
+### Irminsul: MLA-Native Position-Independent Caching for Agentic LLM Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05696
+- Summary: Agentic LLM workloads put bit-identical tokens at shifted positions every turn, voiding prefix caches at the first byte of divergence. Operators report cache-hit regressions ranging from moderate slowdowns to severe TTFT spikes of 10-16s on unchanged content. Prior position-independent caching...
+
 ### Network connectivity issues in CGY (Cagayan de Oro)
 - Source: Cloudflare Status
 - Category: incidents
@@ -1730,6 +1736,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.03578
 - Summary: Boltzmann Machines trained on evolutionary sequence data have emerged as a powerful paradigm for the data-driven design of artificial proteins. However, the relationship between model architecture, specifically parameter density, and experimental performance remains poorly understood. Here, we...
+
+### Stochastic Schrödinger Diffusion Models for Pure-State Ensemble Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03573
+- Summary: In quantum machine learning (QML), classical data are often encoded as quantum pure states and processed directly as quantum representations, motivating representation-level generative modeling that samples new quantum states from an underlying pure-state ensemble rather than re-preparing them from...
 
 ### MetInfo, Weaver E-cology Vulnerabilities in Attackers’ Crosshairs
 - Source: Security Week
@@ -2544,6 +2556,12 @@
 - URL: https://tldr.takara.ai/p/2605.02144
 - Summary: Self-attention in Transformers is typically implemented as $\mathrm{softmax}(QK^\top/\sqrt{d})V$, where $Q=XW_Q$, $K=XW_K$, and $V=XW_V$ are learned linear projections of the input $X$. We ask whether these learned projections are necessary, or whether they can be replaced by a simpler...
 
+### Video Generation with Predictive Latents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02134
+- Summary: Video Variational Autoencoder (VAE) enables latent video generative modeling by mapping the visual world into compact spatiotemporal latent spaces, improving training efficiency and stability. While existing video VAEs achieve commendable reconstruction quality, continued optimization of...
+
 ### A Parameter-Free First-Order Algorithm for Non-Convex Optimization with $\tilde{\mkern1mu O}(ε^{-5/3})$ Global Rate
 - Source: HF Daily Papers
 - Category: open-source
@@ -2564,6 +2582,12 @@
 
 
 ## 2026-05-03
+
+### Model Spec Midtraining: Improving How Alignment Training Generalizes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02087
+- Summary: Some frontier AI developers aim to align language models to a Model Spec or Constitution that describes the intended model behavior. However, standard alignment fine-tuning -- training on demonstrations of spec-aligned behavior -- can produce shallow alignment that generalizes poorly, in part...
 
 ### Cripping AI: Reimagining AI Through Lived Disability Experiences
 - Source: HF Daily Papers
@@ -2642,6 +2666,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.01766
 - Summary: Multimodal large language models (MLLMs) have revolutionized the landscape of AI, demonstrating impressive capabilities in tackling complex vision and audio-language tasks. However, a critical challenge remains: these models often suffer from hallucinations, generating outputs that diverge from the...
+
+### Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.02964
+- Summary: Reinforcement learning (RL) trained language model agents with tool access are increasingly deployed in coding assistants, research tools, and autonomous systems. We introduce the Reward Hacking Benchmark (RHB), a suite of multi-step tasks requiring sequential tool operations with naturalistic...
 
 ### CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
 - Source: The Hacker News
@@ -2996,34 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2604.27043
 - Summary: arXiv:2604.27043v1 Announce Type: new Abstract: Today's AI assistants such as OpenClaw are designed to handle context effectively, making context learning an increasingly important capability for models. As these systems move beyond professional settings into everyday life, the nature of the...
-
-### Useless but Safe? Benchmarking Utility Recovery with User Intent Clarification in Multi-Turn Conversations
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.27093
-- Summary: arXiv:2604.27093v1 Announce Type: new Abstract: Current LLM safety alignment techniques improve model robustness against adversarial attacks, but overlook whether and how LLMs can recover helpfulness when benign users clarify their intent. We introduce CarryOnBench, the first interactive benchmark...
-
-### Exploring the Limits of Pruning: Task-Specific Neurons, Model Collapse, and Recovery in Task-Specific Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2604.27115
-- Summary: arXiv:2604.27115v1 Announce Type: new Abstract: Neuron pruning is widely used to reduce the computational cost and parameter footprint of large language models, yet it remains unclear whether neurons in task-specific models contribute uniformly to task performance. In this work, we provide...
-
-### Unsupervised Electrofacies Classification and Porosity Characterization in the Offshore Keta Basin Using Wireline Logs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.27126
-- Summary: arXiv:2604.27126v1 Announce Type: new Abstract: This study presents an unsupervised machine learning workflow for electrofacies analysis in the offshore Keta Basin, Ghana, where core data are scarce. Six standard wireline logs from Well~C were analysed over a depth interval comprising approximately...
-
-### TRUST: A Framework for Decentralized AI Service v.0.1
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.27132
-- Summary: arXiv:2604.27132v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) and Multi-Agent Systems (MAS) in high-stakes domains demand reliable verification, yet centralized approaches suffer four limitations: (1) Robustness, with single points of failure vulnerable to attacks and bias; (2)...
-
-### Unpacking Vibe Coding: Help-Seeking Processes in Student-AI Interactions While Programming
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2604.27134
-- Summary: arXiv:2604.27134v1 Announce Type: new Abstract: Generative AI is reshaping higher education programming through vibe coding, where students collaborate with AI via natural language rather than writing code line-by-line. We conceptualize this practice as help-seeking, analyzing 19,418 interaction...
 
