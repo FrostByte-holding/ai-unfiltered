@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 11 May 2026 15:14:51 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 17:56:05 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor</title>
+            <link>https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html</link>
+            <guid>https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html</guid>
+            <pubDate>Mon, 11 May 2026 17:54:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html">The Hacker News</source>
+            <category>security</category>
+            <description>A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result...</description>
+        </item>
+        <item>
+            <title>Elevated error rates with GPT 5.5</title>
+            <link>https://status.openai.com//incidents/01KRBZTV511HR7SWVFZJ0438D6</link>
+            <guid>https://status.openai.com//incidents/01KRBZTV511HR7SWVFZJ0438D6</guid>
+            <pubDate>Mon, 11 May 2026 16:54:00 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KRBZTV511HR7SWVFZJ0438D6">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Chat Completions (Operational) Responses (Operational)</description>
+        </item>
+        <item>
+            <title>Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation</title>
+            <link>https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html</link>
+            <guid>https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html</guid>
+            <pubDate>Mon, 11 May 2026 15:45:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html">The Hacker News</source>
+            <category>security</category>
+            <description>Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and...</description>
+        </item>
         <item>
             <title>Incident with high errors on Git Operations</title>
             <link>https://www.githubstatus.com/incidents/81b05nqkhylj</link>
@@ -342,15 +369,6 @@
             <description>May 10, 17:54 UTCResolved - Cloudflare identified issues with network performance that occurred for our Auckland, NZ facility between 12:30 and 16:00 UTC today, 2026-05-10. Customers may have noticed increased latency for traffic handled by this facility during this period.</description>
         </item>
         <item>
-            <title>Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</title>
-            <link>https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html</link>
-            <guid>https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html</guid>
-            <pubDate>Sun, 10 May 2026 12:41:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html">The Hacker News</source>
-            <category>security</category>
-            <description>Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as...</description>
-        </item>
-        <item>
             <title>Network Performance Issues</title>
             <link>https://www.cloudflarestatus.com/incidents/t41t0knxxk8w</link>
             <guid>https://www.cloudflarestatus.com/incidents/t41t0knxxk8w</guid>
@@ -385,15 +403,6 @@
             <source url="https://status.claude.com/incidents/1m6xs1xcw9kk">Anthropic Status</source>
             <category>incidents</category>
             <description>May 9, 08:22 UTCResolved - This incident has been resolved.May 9, 07:57 UTCIdentified - The issue has been identified and a fix is being implemented.</description>
-        </item>
-        <item>
-            <title>cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</title>
-            <link>https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html</link>
-            <guid>https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html</guid>
-            <pubDate>Sat, 09 May 2026 07:16:00 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html">The Hacker News</source>
-            <category>security</category>
-            <description>cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input...</description>
         </item>
         <item>
             <title>[AINews] Anthropic growing 10x/year while everyone else is laying off &gt;10% of their workforce</title>
@@ -448,15 +457,6 @@
             <source url="https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Opus 4.7</title>
-            <link>https://status.claude.com/incidents/5p98r08qfvwl</link>
-            <guid>https://status.claude.com/incidents/5p98r08qfvwl</guid>
-            <pubDate>Fri, 08 May 2026 17:13:50 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/5p98r08qfvwl">Anthropic Status</source>
-            <category>incidents</category>
-            <description>May 8, 17:13 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 8, 17:01 UTCInvestigating - We are currently investigating this issue.</description>
         </item>
     </channel>
 </rss>
