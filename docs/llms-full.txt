@@ -1498,6 +1498,12 @@
 - URL: https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
 - Summary: Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks. Hunt.io, which detailed the...
 
+### Two-Stage Learned Decomposition for Scalable Routing on Multigraphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.05389
+- Summary: Most neural methods for Vehicle Routing Problems (VRPs) are limited to Euclidean settings or simple graphs. In this work, we instead consider multigraphs, where parallel edges represent distinct travel options with varying trade-offs (e.g., distance vs time). Few methods are designed for such...
+
 ### vLLM V0 to V1: Correctness Before Corrections in RL
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1689,6 +1695,12 @@
 - URL: https://tldr.takara.ai/p/2605.04569
 - Summary: Video editing has evolved toward In-Context Learning (ICL) paradigms, yet the resulting quadratic attention costs create a critical computational bottleneck. In this work, we propose In-context Sparse Attention (ISA), the first near-lossless empirical sparse framework tailored for ICL video...
 
+### Neural-Guided Domain Restriction to Accelerate Pseudospectra Computation for Structured Non-normal Banded Matrices
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04550
+- Summary: Computing pseudospectra of non-normal matrices is essential for understanding the stability and transient behavior of dynamical systems. Such analysis is critical in applications including fluid dynamics, control systems, and differential operators, where non-normality can lead to significant...
+
 ### Oracle Debuts Monthly Critical Security Patch Updates
 - Source: Security Week
 - Category: security
@@ -1700,6 +1712,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html
 - Summary: Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3...
+
+### YOTOnet: Zero-Shot Cross-Domain Fault Diagnosis via Domain-Conditioned Mixture of Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.04528
+- Summary: Mechanical equipment forms the critical backbone of modern industrial production, yet domain shift severely limits the generalization of deep learning based fault diagnosis models across different equipment and operating conditions.Inspired by the success of foundation models in achieving...
 
 ### Velox: Learning Representations of 4D Geometry and Appearance
 - Source: HF Daily Papers
@@ -2003,6 +2021,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/hswtxrx0fkd1
 - Summary: May 5, 13:26 UTCResolved - This incident has been resolved.May 5, 13:17 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 5, 12:32 UTCIdentified - The issue has been identified and a fix is being implemented.May 5, 11:33 UTCInvestigating - Cloudflare is aware of and...
 
+### Distribution-Free Pretraining of Classification Losses via Evolutionary Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03722
+- Summary: We propose Evolutionary Dynamic Loss (EDL), a framework that learns a transferable classification loss in the probability space using unlimited synthetic prediction-label pairs, without accessing real samples during the main loss pretraining stage. EDL parameterizes the loss as a lightweight...
+
 ### Unified Multimodal Visual Tracking with Dual Mixture-of-Experts
 - Source: HF Daily Papers
 - Category: open-source
@@ -2140,6 +2164,12 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/z2h7mnkrxdxh
 - Summary: May 5, 05:10 UTCUpdate - Current status: We've identified an issue affecting a subset of data files, which is resulting in a delay for account usage updates. We're working on identifying a mitigation to restore normal processing. We'll provide another update within two hours.Customer experience:...
+
+### GRAFT: Auditing Graph Neural Networks via Global Feature Attribution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.03377
+- Summary: Graph Neural Networks (GNNs) achieve strong performance on node classification tasks but remain difficult to interpret, particularly with respect to which input features drive their predictions. Existing global GNN explainers operate at the structural level identifying recurring subgraph motifs,...
 
 ### Physically Native World Models: A Hamiltonian Perspective on Generative World Modeling
 - Source: arXiv AI
@@ -2992,34 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.01959
 - Summary: Parameter-efficient fine-tuning methods like Low-Rank Adaptation (LoRA) have become essential for deploying large language models, yet their static parameter allocation remains suboptimal for inputs of varying complexity. We present Flexi-LoRA, a novel framework that dynamically adjusts LoRA ranks...
-
-### US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified Systems
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-military-reaches-deals-with-7-tech-companies-to-use-their-ai-on-classified-systems/
-- Summary: Google, Microsoft, Amazon Web Services, Nvidia, OpenAI, Reflection and SpaceX will provide resources to help augment warfighter decision-making in complex operational environments,” the Defense Department said. The post US Military Reaches Deals With 7 Tech Companies to Use Their AI on Classified...
-
-### Training Non-Differentiable Networks via Optimal Transport
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.01928
-- Summary: Neural networks increasingly embed non-differentiable components (spiking neurons, quantized layers, discrete routing, blackbox simulators, etc.) where backpropagation is inapplicable and surrogate gradients introduce bias. We present PolyStep, a gradient-free optimizer that updates parameters...
-
-### Beyond ECE: Calibrated Size Ratio, Risk Assessment, and Confidence-Weighted Metrics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.01796
-- Summary: Confidence calibration has been dominated by the Expected Calibration Error (ECE), a linear metric that counts calibration offset equally regardless of the confidence level at which it occurs. We show that ECE can remain small even under arbitrarily large overconfidence risk, so we propose...
-
-### Zero-Shot, Safe and Time-Efficient UAV Navigation via Potential-Based Reward Shaping, Control Lyapunov and Barrier Functions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.01787
-- Summary: Autonomous navigation and obstacle avoidance remain a core challenge of modern Unmanned Aerial Vehicles (UAVs). While traditional control methods struggle with the complexity and variability of the environment, reinforcement learning (RL) enables UAVs to learn adaptive behaviors through interaction...
-
-### Adversarial Imitation Learning with General Function Approximation: Theoretical Analysis and Practical Algorithms
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.01778
-- Summary: Adversarial imitation learning (AIL), a prominent approach in imitation learning, has achieved significant practical success powered by neural network approximation. However, existing theoretical analyses of AIL are primarily confined to simplified settings, such as tabular and linear function...
 
