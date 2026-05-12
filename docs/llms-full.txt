@@ -6,6 +6,36 @@
 
 ## 2026-05-12
 
+### Cloudflare Zero Trust: Gateway Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/pr9wt4ntvb6j
+- Summary: May 12, 21:20 UTCResolved - This incident has been resolved.May 12, 21:00 UTCInvestigating - Cloudflare is investigating issues with the DNS resolver component within Gateway in our Chennai (MAA) and Mumbai (BOM) data centers. Performance and connectivity through Gateway may be impacted, and...
+
+### Issue accessing the Cloudflare IP ranges page
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mb0vd0xd29lw
+- Summary: May 12, 21:17 UTCResolved - This incident has been resolved.May 12, 20:23 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 19:57 UTCInvestigating - Cloudflare is investigating an issue with https://www.cloudflare.com/ips-v4. Customers attempting to view the...
+
+### Elevated errors for Claude Sonnet 4.6 and Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/c2hjyfpgsprx
+- Summary: May 12, 20:13 UTCResolved - This incident has been resolved.May 12, 19:36 UTCInvestigating - We are investigating elevated errors on requests to Claude Sonnet 4.6 and Haiku 4.5. We will provide an update as soon as possible.
+
+### Network Performance Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/0hg1vqx1f1l2
+- Summary: May 12, 19:48 UTCResolved - This incident has been resolved.May 12, 19:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 19:07 UTCIdentified - The issue has been identified and a fix is being implemented.May 12, 19:04 UTCInvestigating - Cloudflare is...
+
+### Elevated Error Rate for Vaults and Credentials
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/n0c72xml12l4
+- Summary: May 12, 18:57 UTCResolved - This incident has been resolved.May 12, 18:51 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 18:47 UTCInvestigating - We are currently investigating this issue.
+
 ### Incident with CodeQL, Webhooks, Notifications, and Slack Integration
 - Source: GitHub Status
 - Category: incidents
@@ -320,6 +350,12 @@
 - URL: https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/
 - Summary: Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security. The post Frame Security Emerges From Stealth With $50M for Awareness and Training Platform appeared first on SecurityWeek.
 
+### Is Your Driving World Model an All-Around Player?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10858
+- Summary: Today's driving world models can generate remarkably realistic dash-cam videos, yet no single model excels universally. Some generate photorealistic textures but violate basic physics; others maintain geometric consistency but fail when subjected to closed-loop planning. This disconnect exposes a...
+
 ### BabelDOC: Better Layout-Preserving PDF Translation via Intermediate Representation
 - Source: HF Daily Papers
 - Category: open-source
@@ -331,6 +367,18 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KRBZTV511HR7SWVFZJ0438D6
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Chat Completions (Operational) Responses (Operational)
+
+### Policy Gradient Methods for Non-Markovian Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10816
+- Summary: We study policy gradient methods for reinforcement learning in non-Markovian decision processes (NMDPs), where observations and rewards depend on the entire interaction history. To handle this dependence, the agent maintains an internal state that is recursively updated to provide a compact summary...
+
+### Break the Brake, Not the Wheel: Untargeted Jailbreak via Entropy Maximization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10764
+- Summary: Recent studies show that gradient-based universal image jailbreaks on vision-language models (VLMs) exhibit little or no cross-model transferability, casting doubt on the feasibility of transferable multimodal jailbreaks. We revisit this conclusion under a strictly untargeted threat model without...
 
 ### Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation
 - Source: The Hacker News
@@ -722,6 +770,12 @@
 - URL: https://arxiv.org/abs/2605.06978
 - Summary: arXiv:2605.06978v1 Announce Type: new Abstract: Skill-augmented agents increasingly rely on large reusable skill libraries, but retrieving relevant skills is not the same as presenting usable context. Existing methods typically return atomic skills or dependency-aware bundles whose internal roles...
 
+### Selection of the Best Policy under Fairness Constraints for Subpopulations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.09945
+- Summary: Many high-stakes decisions in health care, public policy, and clinical development require committing to a single policy that will be applied uniformly across a heterogeneous population. Regulatory and fairness standards sometime requires that the chosen policy performs adequately in every...
+
 ### Over 500 Organizations Hit in Years-Long Phishing Campaign
 - Source: Security Week
 - Category: security
@@ -775,6 +829,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kimi-step-intelligence-new-funding-rounds
 - Summary: Chinese AI startups Kimi (Moonshot AI) and Step Intelligence have both announced new financing rounds, highlighting continued strong investor interest in China's AI sector.
+
+### ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.09846
+- Summary: In new media art creation, the mapping between vision and hearing is often subjective. As a classic carrier of sound visualization, Chladni patterns have great potential in building audio-visual mapping mechanisms. However, existing tools face pain points: high technical barriers for simulation,...
 
 
 ## 2026-05-10
@@ -2961,64 +3021,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ntv2y417gntc
 - Summary: May 4, 20:20 UTCInvestigating - Some Workers Builds users may experience increased build dequeue times, or builds that are stuck in a queued state indefinitely.
-
-### Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-moves-to-acquire-astrix-security-to-tackle-non-human-identity-risks/
-- Summary: The acquisition strengthens Cisco’s push into identity-centric security for AI and machine access. The post Cisco Moves to Acquire Astrix Security to Tackle Non-Human Identity Risks appeared first on SecurityWeek.
-
-### Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html
-- Summary: An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80...
-
-### Trellix Source Code Repository Breached
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/trellix-source-code-repository-breached/
-- Summary: The cybersecurity firm’s investigation has not found any impact on its source code release or distribution process. The post Trellix Source Code Repository Breached appeared first on SecurityWeek.
-
-### Issue affecting some pages on the ChatGPT website
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KQSSQK74KJVJVGCS97TV156G
-- Summary: Status: ResolvedAll impacted services have now fully recovered.
-
-### SCPRM: A Schema-aware Cumulative Process Reward Model for Knowledge Graph Question Answering
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.02819
-- Summary: Large language models excel at complex reasoning, yet evaluating their intermediate steps remains challenging. Although process reward models provide step-wise supervision, they often suffer from a risk compensation effect, where incorrect steps are offset by later correct ones, assigning high...
-
-### Incident with Issues and Webhooks
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/72q3n8yxthcy
-- Summary: May 4, 16:40 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.May 4, 16:36 UTCMonitoring - The degradation has been mitigated. We are monitoring to ensure...
-
-### Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/progress-patches-critical-moveit.html
-- Summary: Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file...
-
-### When Audio-Language Models Fail to Leverage Multimodal Context for Dysarthric Speech Recognition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.02782
-- Summary: Automatic speech recognition (ASR) systems remain brittle on dysarthric and other atypical speech. Recent audio-language models raise the possibility of improving performance by conditioning on additional clinical context at inference time, but it is unclear whether these models can make use of...
-
-### A decoupled diffusion planner that adapts to changing cost limits by using cost-conditioned generation for safety and reward gradients for performance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.02777
-- Summary: Offline safe reinforcement learning often requires policies to adapt at deployment time to safety budgets that vary across episodes or change within a single episode. While diffusion-based planners enable flexible trajectory generation, existing guidance schemes often treat reward improvement and...
-
-### U-Define: Designing User Workflows for Hard and Soft Constraints in LLM-Based Planning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.02765
-- Summary: LLMs are increasingly used for end-user task planning, yet their black-box nature limits users' ability to ensure reliability and control. While recent systems incorporate verification techniques, it remains unclear how users can effectively apply such rigid constraints to represent intent or adapt...
 
