@@ -6,6 +6,23 @@
 
 ## 2026-05-14
 
+### Elevated errors on Claude Opus 4.7
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/6f1wzlw5cjqx
+- Summary: May 14, 21:07 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 14, 20:33 UTCInvestigating - We are currently investigating this issue.
+
+### Codex Cloud and Code Review experiencing high failure rate
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KRM4H2T37TNSS7BCSGXVS8RQ
+- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for Codex Cloud and Code Review. We are working on implementing a mitigation.
+
+### Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2
+
 ### Elevated error rate on Cloudflare Stream API operations
 - Source: Cloudflare Status
 - Category: incidents
@@ -392,6 +409,12 @@
 - URL: https://tldr.takara.ai/p/2605.13540
 - Summary: Dynamic graphs are ubiquitous in real-world systems, and building generalizable dynamic Graph Foundation Models has become a frontier in graph learning. However, dynamic graphs from different domains pose fundamental challenges to unified modeling, as their semantic and temporal patterns are...
 
+### Locale-Conditioned Few-Shot Prompting Mitigates Demonstration Regurgitation in On-Device PII Substitution with Small Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13538
+- Summary: Personally Identifiable Information (PII) redaction usually replaces detected entities with placeholder tokens such as [PERSON], destroying the downstream utility of the redacted text for retrieval and Named Entity Recognition (NER) training. We propose a fully on-device pipeline that substitutes...
+
 ### Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday
 - Source: The Hacker News
 - Category: security
@@ -463,6 +486,12 @@
 - Category: security
 - URL: https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/
 - Summary: The telehealth platform was hacked in January, and users’ personal information was exfiltrated from its systems. The post 716,000 Impacted by OpenLoop Health Data Breach appeared first on SecurityWeek.
+
+### Context-Aware Web Attack Detection in Open-Source SIEM Systems via MITRE ATT&CK-Enriched Behavioral Profiling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13337
+- Summary: Security Information and Event Management (SIEM) systems aggregate log data from heterogeneous sources to detect coordinated attacks. Traditional rule-based correlation engines struggle to classify multi-step web application attacks because they examine each event without reference to the...
 
 ### Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws
 - Source: The Hacker News
@@ -601,6 +630,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/seekoo-video-ai-raises-funding
 - Summary: SEEKOO, a Hangzhou video AI startup founded by former ByteDance and Tencent executives, raises tens of millions of dollars and launches Anijam.ai, a Multi-Agent video platform gaining traction with over 1,000 paying users.
+
+### Retrieval-Augmented Tutoring for Algorithm Tracing and Problem-Solving in AI Education
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12988
+- Summary: Students learning algorithms often need support as they interpret traces, debug reasoning errors, and apply procedures across unfamiliar problem instances. In this paper, we present KITE (Knowledge-Informed Tutoring Engine), a Retrieval-Augmented Generation (RAG)-based intelligent tutoring system...
+
+### Leveraging Multimodal Self-Consistency Reasoning in Coding Motivational Interviewing for Alcohol Use Reduction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12987
+- Summary: BACKGROUND: Coding Motivational Interviewing (MI) sessions is essential for understanding client behaviors and predicting outcomes, but it requires substantial time and labor from trained MI professionals. Recent advances in audio-language models (ALMs) offer new opportunities to automate MI coding...
 
 ### Network Congestion in BKK
 - Source: Cloudflare Status
@@ -829,6 +870,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/pro-universe-robotics-industrial-embodied-intelligence-matrix-2
 - Summary: Pro Universe Robotics releases industrial embodied intelligence Product Matrix 2.0, including the world's first sub-millimeter precision data acquisition solution, targeting trillion-yuan industrial market.
+
+### When Do LLMs Generate Realistic Social Networks? A Multi-Dimensional Study of Culture, Language, Scale, and Method
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12898
+- Summary: Large language models (LLMs) are increasingly used as substitutes for human subjects in behavioral simulations, including synthetic social network generation. Yet it remains unclear how their relational outputs depend on prompt design, cultural framing, prompt language, and model scale. Building on...
 
 ### ChipMATE: Multi-Agent Training via Reinforcement Learning for Enhanced RTL Generation
 - Source: HF Daily Papers
@@ -2971,52 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.04100
 - Summary: arXiv:2605.04100v1 Announce Type: new Abstract: Off-policy temporal-difference (TD) learning with function approximation faces a structural tradeoff among stability, projection geometry, and variance control. Emphatic TD (ETD) improves the off-policy projection geometry through follow-on emphasis,...
-
-### Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.04169
-- Summary: arXiv:2605.04169v1 Announce Type: new Abstract: Surgical team performance arises from complex interactions between technical execution and non-technical skills, including communication and coordination dynamics. However, current surgical AI systems predominantly model visual workflow signals,...
-
-### ANDRE: An Attention-based Neuro-symbolic Differentiable Rule Extractor
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.04193
-- Summary: arXiv:2605.04193v1 Announce Type: new Abstract: Inductive Logic Programming (ILP) aims to learn interpretable first-order rules from data, but existing symbolic and neuro-symbolic approaches struggle to scale to noisy and probabilistic settings. Classical ILP relies on discrete combinatorial rule...
-
-### Pro$^2$Assist: Continuous Step-Aware Proactive Assistance with Multimodal Egocentric Perception for Long-Horizon Procedural Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.04227
-- Summary: arXiv:2605.04227v1 Announce Type: new Abstract: Procedural tasks with multiple ordered steps are ubiquitous in daily life. Recent advances in multimodal large language models (MLLMs) have enabled personal assistants that support daily activities. However, existing systems primarily provide reactive...
-
-### Endogenous Regime Switching Driven by Scalar-Irreducible Learning Dynamics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.04054
-- Summary: arXiv:2605.04054v1 Announce Type: new Abstract: Achieving endogenous regime switching is crucial for the emergence of autonomous intelligence, yet remains a central challenge for existing machine learning frameworks, where such transitions are typically externally imposed. In this work, we...
-
-### A Self-Attentive Meta-Optimizer with Group-Adaptive Learning Rates and Weight Decay
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.04055
-- Summary: arXiv:2605.04055v1 Announce Type: new Abstract: Adaptive optimizers like AdamW apply uniform hyperparameters across all parameter groups, ignoring heterogeneous optimization dynamics across layers and modules. We address this limitation by proposing MetaAdamW - a new optimizer that integrates a...
-
-### Transformation Categorization Based on Group Decomposition Theory Using Parameter Division
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.04056
-- Summary: arXiv:2605.04056v1 Announce Type: new Abstract: Representation learning seeks meaningful sensory representations without supervision and can model aspects of human development. Although many neural networks empirically learn useful features, a principled account of what makes a representation...
-
-### Structured Progressive Knowledge Activation for LLM-Driven Neural Architecture Search
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.04057
-- Summary: arXiv:2605.04057v1 Announce Type: new Abstract: This paper focuses on a key challenge in Neural Architecture Search (NAS): integrating established architectural knowledge while exploring new designs under expensive evaluations. Large language models (LLMs) are a promising assistant for NAS because...
-
-### MP-ISMoE: Mixed-Precision Interactive Side Mixture-of-Experts for Efficient Transfer Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.04058
-- Summary: arXiv:2605.04058v1 Announce Type: new Abstract: Parameter-efficient transfer learning (PETL) has emerged as a pivotal paradigm for adapting pre-trained foundation models to downstream tasks, significantly reducing trainable parameters yet suffering from substantial memory overhead caused by...
 
