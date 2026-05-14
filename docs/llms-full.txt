@@ -6,6 +6,12 @@
 
 ## 2026-05-14
 
+### Elevated error rate on Cloudflare Stream API operations
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xvs55xkphw7g
+- Summary: May 14, 16:14 UTCResolved - This incident has been resolved.May 14, 15:30 UTCInvestigating - We are investigating increased errors on certain API operations. Customers may experience HTTP 503 errors when creating or updating videos, or starting/stopping live broadcasts. Playback is unaffected.
+
 ### Enhancing Data Center Security Without Sacrificing Performance
 - Source: Security Week
 - Category: security
@@ -344,6 +350,12 @@
 - URL: https://tldr.takara.ai/p/2605.13711
 - Summary: Multimodal irregular time series (MITS) consist of asynchronous and irregularly sampled observations from heterogeneous numerical and textual channels. In healthcare, for example, patients' electronic health records (EHR) include irregular lab measurements and clinical notes. The irregular timing...
 
+### Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13709
+- Summary: Large Language Models (LLMs) are widely applied in educational practices, such as for generating children's stories. However, the generated stories are often too difficult for children to read, and the operational cost of LLMs hinders their widespread adoption in educational settings. We used an...
+
 ### Cache Purging and Cache Rule Update Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -391,6 +403,12 @@
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-roi-for-cyber-physical-security-programs/
 - Summary: This webinar will help OT security teams and asset owners stop being cost centers and start being resilience drivers. The post Webinar Today: ROI for Cyber-Physical Security Programs appeared first on SecurityWeek.
+
+### PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13481
+- Summary: We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). The proposed approach addresses key limitations of existing Graph Retrieval-Augmented Generation (GraphRAG) methods by...
 
 ### Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation
 - Source: The Hacker News
@@ -482,6 +500,18 @@
 - URL: https://www.securityweek.com/fortinet-ivanti-patch-critical-vulnerabilities/
 - Summary: Successful exploitation of these flaws could lead to arbitrary code execution and information disclosure. The post Fortinet, Ivanti Patch Critical Vulnerabilities appeared first on SecurityWeek.
 
+### EMO: Frustratingly Easy Progressive Training of Extendable MoE
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13247
+- Summary: Sparse Mixture-of-Experts (MoE) models offer a powerful way to scale model size without increasing compute, as per-token FLOPs depend only on k active experts rather than the total pool of E experts. Yet, this asymmetry creates an MoE efficiency paradox in practice: adding more experts balloons...
+
+### A Hybrid Framework for Natural Language Querying of IFC Models with Relational and Graph Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13236
+- Summary: Building Information Modeling (BIM) is widely used in the Architecture, Engineering, and Construction (AEC) industry, but the complexity of Industry Foundation Classes (IFC) limits accessibility for non-expert users. To address this, we introduce IfcLLM, a hybrid framework for natural language...
+
 ### Chipmaker Patch Tuesday: Intel and AMD Patch 70 Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -505,6 +535,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html
 - Summary: Cybersecurity researchers are calling attention to a new campaign dubbed GemStuffer that has targeted the RubyGems repository with more than 150 gems that use the registry as a data exfiltration channel rather than for malware distribution. "The packages do not appear designed for mass developer...
+
+### KAST-BAR: Knowledge-Anchored Semantically-Dynamic Topology Brain Autoregressive Modeling for Universal Neural Interpretation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13133
+- Summary: While EEG foundation models have shown significant potential in universal neural decoding across tasks, their advancement remains constrained by the inadequacy modeling of complex spatiotemporal topology, as well as the inherent modality gap between low-level physiological signals and high-level...
 
 ### Hundreds of Malicious Packages Force RubyGems to Suspend Registrations
 - Source: Security Week
@@ -2983,40 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.04058
 - Summary: arXiv:2605.04058v1 Announce Type: new Abstract: Parameter-efficient transfer learning (PETL) has emerged as a pivotal paradigm for adapting pre-trained foundation models to downstream tasks, significantly reducing trainable parameters yet suffering from substantial memory overhead caused by...
-
-### Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.04065
-- Summary: arXiv:2605.04065v1 Announce Type: new Abstract: Unsupervised reinforcement learning (RL) has emerged as a promising paradigm for enabling self-improvement in large language models (LLMs). However, existing unsupervised RL-based methods often lack the capacity to adapt to the model's evolving...
-
-### Adapt to Thrive! Adaptive Power-Mean Policy Optimization for Improved LLM Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.04066
-- Summary: arXiv:2605.04066v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) is an essential paradigm that enhances the reasoning capabilities of Large Language Models (LLMs). However, existing methods typically rely on static policy optimization schemes that misalign with...
-
-### Connecting online criminal behavior with machine learning: Using authorship attribution to analyze and link potential online traffickers
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.04080
-- Summary: arXiv:2605.04080v1 Announce Type: new Abstract: This research investigated how online criminal activities can be better understood and connected using data-driven machine learning methods. Many illegal activities, such as human trafficking and illicit trade, have moved to online platforms where...
-
-### FMI_SU_Yotkova_Kastreva at SemEval-2026 Task 13: Lightweight Detection of LLM-Generated Code via Stylometric Signals
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.04157
-- Summary: arXiv:2605.04157v1 Announce Type: new Abstract: SemEval-2026 Task 13 investigates machine-generated code detection across multiple programming languages and application scenarios, asking participating systems to generalize to unseen languages and domains. This paper describes our participation in...
-
-### Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.04171
-- Summary: arXiv:2605.04171v1 Announce Type: new Abstract: Large Language models (LLMs) show extraordinary abilities, but they are still prone to hallucinations, especially when we use them for generating Academic content. We have investigated four popular LLMs, ChatGPT, Grok, Gemini, and Copilot for...
-
-### Temporal Reasoning Is Not the Bottleneck: A Probabilistic Inconsistency Framework for Neuro-Symbolic QA
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.04243
-- Summary: arXiv:2605.04243v1 Announce Type: new Abstract: Despite significant advances, large language models (LLMs) continue to exhibit brittle performance on complex temporal reasoning tasks. This failure mode is widely attributed to inherent deficits in autoregressive logical deduction. In this paper, we...
 
