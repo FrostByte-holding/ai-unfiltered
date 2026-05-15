@@ -362,6 +362,12 @@
 - URL: https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html
 - Summary: Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago....
 
+### Towards In-Depth Root Cause Localization for Microservices with Multi-Agent Recursion-of-Thought
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14866
+- Summary: As modern microservice systems grow increasingly complex due to dynamic interactions and evolving runtime environments, they experience failures with rising frequency. Ensuring system reliability therefore critically depends on accurate root cause localization (RCL). While numerous traditional...
+
 ### Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike
 - Source: The Hacker News
 - Category: security
@@ -416,6 +422,12 @@
 - URL: https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The shock of seeing your body used in deepfake porn When Jennifer got a research job in 2023, she ran her new professional headshot through a facial...
 
+### TAPIOCA: Why Task- Aware Pruning Improves OOD model Capability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14738
+- Summary: Recent work has promoted task-aware layer pruning as a way to improve model performance on particular tasks, as shown by TALE. In this paper, we investigate when such improvements occur and why. We show first that, across controlled polynomial regression tasks and large language models, such...
+
 ### PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure
 - Source: The Hacker News
 - Category: security
@@ -446,11 +458,23 @@
 - URL: https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking/
 - Summary: The Tesla Semi has officially arrived. The company recently released a photo of the first vehicle rolling off its new full-scale production line. This moment has been nearly a decade in the making: The company first announced the truck in late 2017. And now we’ve got final battery specs, official...
 
+### Unbiased and Second-Order-Free Training for High-Dimensional PDEs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14643
+- Summary: Deep learning methods based on backward stochastic differential equations (BSDEs) have emerged as competitive alternatives to physics-informed neural networks (PINNs) for solving high-dimensional partial differential equations (PDEs). By leveraging probabilistic representations, BSDE approaches can...
+
 ### Hackers Targeted PraisonAI Vulnerability Hours After Disclosure
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/hackers-targeted-praisonai-vulnerability-hours-after-disclosure/
 - Summary: The first exploitation attempts were observed less than four hours after the authentication bypass was publicly disclosed. The post Hackers Targeted PraisonAI Vulnerability Hours After Disclosure appeared first on SecurityWeek.
+
+### CalibAnyView: Beyond Single-View Camera Calibration in the Wild
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14615
+- Summary: Camera calibration is a fundamental prerequisite for reliable geometric perception, yet classical approaches rely on controlled acquisition setups that are impractical for in-the-wild imagery. Recent learning-based methods have shown promising results for single-view calibration, but inherently...
 
 ### Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation
 - Source: The Hacker News
@@ -787,6 +811,12 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/mz5w4kshds0w
 - Summary: May 14, 00:19 UTCResolved - Current status: After investigating, we've determined this to be a false positive. There were no customer replication refresh operations impacted. We've confirmed replication services are functioning normally. If you experience issues or have questions, please open a...
+
+### PreFT: Prefill-only finetuning for efficient inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14217
+- Summary: Large language models can now be personalised efficiently at scale using parameter efficient finetuning methods (PEFTs), but serving user-specific PEFTs harms throughput, even with specialised kernels and memory management techniques. This is because, theoretically and empirically, a mismatch...
 
 ### Unlocking asynchronicity in continuous batching
 - Source: Hugging Face Blog
@@ -2988,34 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xiaomi-kunlun-suv-no-badge
 - Summary: Xiaomi's extended-range SUV spy shots surface ahead of launch, but the automaker has reportedly ruled out using its own logo or the "YU9" name — leaving the model's branding a mystery.
-
-### Ivanti Patches EPMM Zero-Day Exploited in Targeted Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ivanti-patches-epmm-zero-day-exploited-in-targeted-attacks/
-- Summary: CVE-2026-6973 is a high-severity vulnerability that allows an attacker who has admin privileges to execute arbitrary code. The post Ivanti Patches EPMM Zero-Day Exploited in Targeted Attacks appeared first on SecurityWeek.
-
-### Structured Role-Aware Policy Optimization for Multimodal Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.07274
-- Summary: Reinforcement learning from verifiable rewards (RLVR), especially with Group Relative Policy Optimization (GRPO), has shown strong potential for improving the reasoning capabilities of large vision-language models (LVLMs). However, in multimodal reasoning, final-answer rewards are typically...
-
-### Xiaomi Smartphone Shipments Plunge 35% in Q1 2026 as Company Shifts to Profit Protection Mode
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-smartphone-shipments-plunge-q1-2026
-- Summary: Xiaomi's Chinese smartphone shipments fell 35% year-over-year in Q1 2026 to 8.7 million units, the steepest decline among the top five global vendors, as the company begins to prioritize margins over market share after delaying price increases until April.
-
-### Is Hygon Information's 800 Billion RMB Valuation Justified? China's Server CPU Champion in the AI Spotlight
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hygon-information-800-billion-valuation-ai-inference
-- Summary: As AI inference demand surges, China's dominant server CPU maker Hygon Information is being re-rated by the market, with AMD and Intel CPU price hikes accelerating domestic substitution. Is the 800 billion RMB valuation reasonable?
-
-### Unitree Robotics Enters South Korea with "Ordination" at Seoul's Largest Buddhist Temple
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/unitree-robotics-south-korea-buddhist-temple
-- Summary: Unitree Robotics, China's leading humanoid robot company, has officially expanded into South Korea, with its G1 robot becoming the first humanoid robot to participate in a Buddhist ordination ceremony at Jogye Temple in Seoul, receiving the dharma name "Gabi."
 
