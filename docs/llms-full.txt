@@ -6,6 +6,24 @@
 
 ## 2026-05-16
 
+### PayPal Billing Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/cq57w8rm55z6
+- Summary: May 16, 19:13 UTCIdentified - The cause of this issue has been identified and a fix is being implemented.May 16, 17:54 UTCInvestigating - Cloudflare is aware of and investigating issues paying for products with PayPal. Customers may experience an error when attempting to purchase or renew a product...
+
+### Elevated error rates on requests to multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/v9s6d0jt84hj
+- Summary: May 16, 18:24 UTCResolved - This incident has been resolved.May 16, 18:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 16, 18:08 UTCInvestigating - We are currently investigating this issue.
+
+### Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/latest-open-artifacts-21-open-model
+- Summary: An eventful month with one flagship release after another
+
 ### Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
 - Source: The Hacker News
 - Category: security
@@ -707,6 +725,12 @@
 - URL: https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html
 - Summary: An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed...
 
+### MambaRain: Multi-Scale Mamba-Attention Framework for 0-3 Hour Precipitation Nowcasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14606
+- Summary: Accurate precipitation nowcasting over extended horizons (0-3 hours) is essential for disaster mitigation and operational decision-making, yet remains a critical challenge in the field. Existing deterministic approaches are predominantly constrained to shorter prediction windows (0-2 hours),...
+
 ### The shock of seeing your body used in deepfake porn
 - Source: MIT Tech Review AI
 - Category: research
@@ -796,6 +820,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.14467
 - Summary: We propose a new method of learning from positive and unlabeled (PU) examples in highly imbalanced datasets. Many real-world problems, such as disease gene identification, targeted marketing, fraud detection, and recommender systems, are hard to address with machine learning methods, due to limited...
+
+### Collaborative Yet Personalized Policy Training: Single-Timescale Federated Actor-Critic
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14423
+- Summary: Despite the popularity of the actor-critic method and the practical needs of collaborative policy training, existing works typically either overlook environmental heterogeneity or give up personalization altogether by training a single shared policy across all agents. We consider a federated...
 
 ### A Unified Knowledge Embedded Reinforcement Learning-based Framework for Generalized Capacitated Vehicle Routing Problems
 - Source: HF Daily Papers
@@ -1128,6 +1158,12 @@
 - Category: security
 - URL: https://www.securityweek.com/foxconn-confirms-north-american-factories-hit-by-cyberattack/
 - Summary: The Nitrogen ransomware group claims to have hacked the company’s systems, stealing 8TB of data, including confidential documents. The post Foxconn Confirms North American Factories Hit by Cyberattack appeared first on SecurityWeek.
+
+### Interpretable Machine Learning for Antepartum Prediction of Pregnancy-Associated Thrombotic Microangiopathy Using Routine Longitudinal Laboratory Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13786
+- Summary: Background: Pregnancy-associated thrombotic microangiopathy (P-TMA) is rare but life-threatening. Early risk prediction before overt clinical presentation remains challenging, as the associated laboratory abnormalities are subtle, multidimensional, and frequently masked by common physiological...
 
 ### (How) Do Large Language Models Understand High-Level Message Sequence Charts?
 - Source: HF Daily Papers
@@ -1810,6 +1846,12 @@
 - URL: https://status.claude.com/incidents/n0c72xml12l4
 - Summary: May 12, 18:57 UTCResolved - This incident has been resolved.May 12, 18:51 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 18:47 UTCInvestigating - We are currently investigating this issue.
 
+### CRAFT: Clinical Reward-Aligned Finetuning for Medical Image Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12650
+- Summary: Foundation diffusion models can generate photorealistic natural images, but adapting them to medical imaging remains challenging. In medical adaptation, limited labeled data can exacerbate hallucination-like and clinically implausible synthesis, while existing metrics such as FID or Inception Score...
+
 ### Microsoft Patches 137 Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -1821,6 +1863,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/z3jhyg3l0dvx
 - Summary: May 12, 17:43 UTCResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.May 12, 17:43 UTCUpdate - All services have fully recovered.May 12, 16:59 UTCUpdate -...
+
+### Environment-Adaptive Preference Optimization for Wildfire Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12435
+- Summary: Predicting rare extreme events such as wildfires from meteorological data requires models that remain reliable under evolving environmental conditions. This problem is inherently long-tailed: wildfire events are rare but high-impact, while most observations correspond to non-fire conditions,...
 
 ### Exaforce Raises $125 Million for Agentic SOC Platform
 - Source: Security Week
@@ -2973,52 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.05329
 - Summary: arXiv:2605.05329v1 Announce Type: new Abstract: Safety policies define what constitutes safe and unsafe AI outputs, guiding data annotation and model development. However, annotation disagreement is pervasive and can stem from multiple sources such as operational failures (annotators misunderstand...
-
-### ZAYA1-8B Technical Report
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05365
-- Summary: arXiv:2605.05365v1 Announce Type: new Abstract: We present ZAYA1-8B, a reasoning-focused mixture-of-experts (MoE) model with 700M active and 8B total parameters, built on Zyphra's MoE++ architecture. ZAYA1-8B's core pretraining, midtraining, and supervised fine-tuning (SFT) were performed on a...
-
-### Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05379
-- Summary: arXiv:2605.05379v1 Announce Type: new Abstract: Enterprise agents increasingly operate inside scoped retrieval systems, delegated workflows, and policy-constrained evidence environments. In these settings, access control can be enforced correctly while the system still produces an answer that...
-
-### BALAR : A Bayesian Agentic Loop for Active Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05386
-- Summary: arXiv:2605.05386v1 Announce Type: new Abstract: Large language models increasingly operate in interactive settings where solving a task requires multiple rounds of information exchange with a user. However, most current systems treat dialogue reactively and lack a principled mechanism to reason...
-
-### Intelligent CCTV for Urban Design: AI-Based Analysis of Soft Infrastructure at Intersections
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05402
-- Summary: arXiv:2605.05402v1 Announce Type: new Abstract: Artificial intelligence (AI) and computer vision are transforming transportation data collection. This study introduces an AI-enabled analytics framework leveraging existing CCTV infrastructure to evaluate the impact of soft interventions, such as...
-
-### When Helpfulness Becomes Sycophancy: Sycophancy is a Boundary Failure Between Social Alignment and Epistemic Integrity in Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05403
-- Summary: arXiv:2605.05403v1 Announce Type: new Abstract: This position paper argues that sycophancy in LLMs is a boundary failure between social alignment and epistemic integrity. Existing work often operationalizes sycophancy through external behavior such as agreement with incorrect user beliefs, position...
-
-### PRISM: Perception Reasoning Interleaved for Sequential Decision Making
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05407
-- Summary: arXiv:2605.05407v1 Announce Type: new Abstract: Scaling LLM-based embodied agents from text-only environments to complex multimodal settings remains a major challenge. Recent work identifies a perception-reasoning-decision gap in standalone Vision-Language Models (VLMs), which often overlook...
-
-### Agentic Retrieval-Augmented Generation for Financial Document Question Answering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05409
-- Summary: arXiv:2605.05409v1 Announce Type: new Abstract: Financial document question answering (QA) demands complex multi-step numerical reasoning over heterogeneous evidence--structured tables, textual narratives, and footnotes--scattered across corporate filings. Existing retrieval-augmented generation...
-
-### LaTA: A Drop-in, FERPA-Compliant Local-LLM Autograder for Upper-Division STEM Coursework
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05410
-- Summary: arXiv:2605.05410v1 Announce Type: new Abstract: Large-language-model (LLM) graders promise to relieve the grading burden of upper-division STEM courses, but most deployments to date send student work to third-party APIs, violating FERPA and exposing institutions to data risk while requiring...
 
