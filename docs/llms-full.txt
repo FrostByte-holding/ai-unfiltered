@@ -485,6 +485,18 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2
 
+### ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.15198
+- Summary: Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent...
+
+### Quantitative Video World Model Evaluation for Geometric-Consistency
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.15185
+- Summary: Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines rely heavily on human judgment or learned graders, which can be subjective and...
+
 ### Evidential Reasoning Advances Interpretable Real-World Disease Screening
 - Source: HF Daily Papers
 - Category: open-source
@@ -761,6 +773,12 @@
 - URL: https://tldr.takara.ai/p/2605.14467
 - Summary: We propose a new method of learning from positive and unlabeled (PU) examples in highly imbalanced datasets. Many real-world problems, such as disease gene identification, targeted marketing, fraud detection, and recommender systems, are hard to address with machine learning methods, due to limited...
 
+### A Unified Knowledge Embedded Reinforcement Learning-based Framework for Generalized Capacitated Vehicle Routing Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14416
+- Summary: The Capacitated Vehicle Routing Problem (CVRP) is a fundamental NP-hard problem with broad applications in logistics and transportation. Real-world CVRPs often involve diverse objectives and complex constraints, such as time windows or backhaul requirements, motivating the development of a unified...
+
 ### 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE
 - Source: The Hacker News
 - Category: security
@@ -778,6 +796,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/sensetime-embodied-ai-convenience-store-humanoid-robot-shanghai
 - Summary: SenseTime has deployed a chain of embodied AI convenience stores in Shanghai, where humanoid robots handle up to 400 orders per day — making coffee, dispensing ice cream, and greeting customers autonomously, marking a significant step toward full retail task automation.
+
+### AnyBand-Diff: A Unified Remote Sensing Image Generation and Band Repair Framework with Spectral Priors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14341
+- Summary: Existing diffusion models have made significant progress in generating realistic images. However, their direct adaptation to remote sensing imagery often disregards intrinsic physical laws. This oversight frequently leads to spectral distortion and radiometric inconsistency, severely limiting the...
 
 ### Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents
 - Source: arXiv AI
@@ -982,6 +1006,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.14323
 - Summary: We investigate the temporal concatenation of sub-policies in Markov Decision Processes (MDP) with time-varying reward functions. We introduce General Dijkstra Search (GDS), and prove that globally optimal goal-reaching policies can be recovered through temporal composition of intermediate optimal...
+
+### ICED: Concept-level Machine Unlearning via Interpretable Concept Decomposition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14309
+- Summary: Machine unlearning in Vision-Language Models (VLMs) is typically performed at the image or instance level, making it difficult to precisely remove target knowledge without affecting unrelated semantics. This issue is especially pronounced since a single image often contains multiple entangled...
 
 ### Baidu Cloud Upgrades to Full-Stack AI Cloud for Agent Era at Create 2026 Conference
 - Source: Pandaily
@@ -2994,32 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
 - Summary: Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a...
-
-### CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b
-
-### Elevated errors on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/5p98r08qfvwl
-- Summary: May 8, 17:13 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 8, 17:01 UTCInvestigating - We are currently investigating this issue.
-
-### Here’s what you need to know about the cruise ship hantavirus outbreak
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/
-- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers aboard a Dutch-flagged cruise ship have contracted a type of hantavirus, a rare virus transmitted by...
-
-### Degraded Performance with Codex Cloud Tasks
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KR421V8PCTFKA8EJJC2VCGA3
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex Web (Operational) CLI (Operational) App (Operational) VS Code extension (Operational) Codex API (Operational)
-
-### EMO: Pretraining mixture of experts for emergent modularity
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/emo
 
