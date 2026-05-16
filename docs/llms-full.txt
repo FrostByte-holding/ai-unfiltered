@@ -4,7 +4,22 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-16
+
+### R2 and Durable Objects increased errors in Eastern North America
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/n2bvslm3854y
+- Summary: May 16, 02:27 UTCMonitoring - The increase in errors are resolved and the services are stable again.Customers using Queues, Cache Reserve and Cache Purge API may have also been impacted.May 16, 02:07 UTCUpdate - Customers may also see impact with Worker uploads with R2 bindings and when creating...
+
+
 ## 2026-05-15
+
+### Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side.
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/
+- Summary: In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who...
 
 ### Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access
 - Source: The Hacker News
@@ -24,11 +39,23 @@
 - URL: https://status.openai.com//incidents/01KRP6FM6HSKWB3MS1EJTY6AT4
 - Summary: Status: InvestigatingWe are investigating the issue for reports of GPT 5.5 performing worse for some users.
 
+### In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/
+- Summary: Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco&#8217;s Free AI Security Spec, Audi App Flaws appeared...
+
 ### Cloudflare Account Level WAF Rule Editing Restricted
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/47l1wt0wnddq
 - Summary: May 15, 14:10 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 15, 14:06 UTCInvestigating - Cloudflare is investigating issues with editing existing Account level WAF rules. Zone level and new rules are not impacted. Rule operation is not impacted.
+
+### Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html
+- Summary: Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data,...
 
 ### The Download: China’s AI drama factory and the WHO’s missing health targets
 - Source: MIT Tech Review AI
@@ -71,6 +98,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deep-cybo-beijing-startup-betting-on-first-person-human-data-for-embodied-agi
 - Summary: Beijing AI startup DeepCybo, founded by Chen Kai, has raised hundreds of millions of RMB pursuing embodied AGI through first-person human video data—now validated by Tesla, NVIDIA, and Figure AI pivoting to the same approach.
+
+### OpenAI Hit by TanStack Supply Chain Attack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/
+- Summary: Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek.
 
 ### MediaTek Dimensity: The Chip Platform Powering Smartphone AI Agents
 - Source: Pandaily
@@ -246,6 +279,96 @@
 - URL: https://arxiv.org/abs/2605.14053
 - Summary: arXiv:2605.14053v1 Announce Type: new Abstract: The application of Large Language Models to Question Answering has shown great promise, but important challenges such as hallucinations and erroneous reasoning arise when using these models, particularly in knowledge-intensive, domain-specific tasks....
 
+### Sustaining AI safety: Control-theoretic external impossibility, intrinsic necessity, and structural requirements
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.12963
+- Summary: arXiv:2605.12963v1 Announce Type: new Abstract: As AI systems become increasingly capable, safety strategies must be evaluated not only by how much they reduce present risk, but by whether they could sustain safety once external control can no longer reliably constrain system behavior. This paper...
+
+### Position: Agentic AI System Is a Foreseeable Pathway to AGI
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.12966
+- Summary: arXiv:2605.12966v1 Announce Type: new Abstract: Is monolithic scaling the only path to AGI? This paper challenges the dogma that purely scaling a single model is sufficient to achieve Artificial General Intelligence. Instead, we identify Agentic AI as a necessary paradigm for mastering the complex,...
+
+### Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.12975
+- Summary: arXiv:2605.12975v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) has become a standard approach for knowledge-intensive question answering, but existing systems remain brittle on multi-hop questions, where solving the task requires chaining multiple retrieval and reasoning...
+
+### Useful Memories Become Faulty When Continuously Updated by LLMs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.12978
+- Summary: arXiv:2605.12978v1 Announce Type: new Abstract: Learning from past experience benefits from two complementary forms of memory: episodic traces -- raw trajectories of what happened -- and consolidated abstractions distilled across many episodes into reusable, schema-like lessons. Recent...
+
+### Retrieval-Augmented Tutoring for Algorithm Tracing and Problem-Solving in AI Education
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.12988
+- Summary: arXiv:2605.12988v1 Announce Type: new Abstract: Students learning algorithms often need support as they interpret traces, debug reasoning errors, and apply procedures across unfamiliar problem instances. In this paper, we present KITE (Knowledge-Informed Tutoring Engine), a Retrieval-Augmented...
+
+### Towards the Next Frontier of LLMs, Training on Private Data: A Cross-Domain Benchmark for Federated Fine-Tuning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.13936
+- Summary: arXiv:2605.13936v1 Announce Type: new Abstract: The recent success of large language models (LLMs) has been largely driven by vast public datasets. However, the next frontier for LLM development lies beyond public data. Much of the world's most valuable information is private, especially in highly...
+
+### EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.13941
+- Summary: arXiv:2605.13941v1 Announce Type: new Abstract: Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-generation policies...
+
+### EMA: Efficient Model Adaptation for Learning-based Systems
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.13942
+- Summary: arXiv:2605.13942v1 Announce Type: new Abstract: Machine learning (ML) is increasingly applied to optimize system performance in tasks such as resource management and network simulation. Unlike traditional ML tasks (e.g., image classification), networked systems often operate in heterogeneous,...
+
+### A Unified Geometric Framework for Weighted Contrastive Learning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.13943
+- Summary: arXiv:2605.13943v1 Announce Type: new Abstract: Contrastive learning (CL) aims to preserve relational structure between samples by learning representations that reflect a similarity graph. Yet, the geometry of the resulting embeddings remains poorly understood. Here we show that weighted InfoNCE...
+
+### Collider-Bench: Benchmarking AI Agents with Particle Physics Analysis Reproduction
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.13950
+- Summary: arXiv:2605.13950v1 Announce Type: new Abstract: Autonomous language-model agents are increasingly evaluated on long-horizon tool-use tasks, but existing benchmarks rarely capture the complexity and nuance of real scientific work. To address this gap, we introduce Collider-Bench, a benchmark for...
+
+### PEML: Parameter-efficient Multi-Task Learning with Optimized Continuous Prompts
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.14055
+- Summary: arXiv:2605.14055v1 Announce Type: new Abstract: Parameter-Efficient Fine-Tuning (PEFT) is widely used for adapting Large Language Models (LLMs) for various tasks. Recently, there has been an increasing demand for fine-tuning a single LLM for multiple tasks because it requires overall less data for...
+
+### Dual Hierarchical Dialogue Policy Learning for Legal Inquisitive Conversational Agents
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.14057
+- Summary: arXiv:2605.14057v1 Announce Type: new Abstract: Most existing dialogue systems are user-driven, primarily designed to fulfill user requests. However, in many critical real-world scenarios, a conversational agent must proactively extract information to achieve its own objectives rather than merely...
+
+### Distribution Corrected Offline Data Distillation for Large Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.14071
+- Summary: arXiv:2605.14071v1 Announce Type: new Abstract: Distilling reasoning traces from strong large language models into smaller ones is a promising route to improve intelligence in resource-constrained settings. Existing approaches face a fundamental trade-off: offline distillation from...
+
+### Measuring and Mitigating Toxicity in Large Language Models: A Comprehensive Replication Study
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.14087
+- Summary: arXiv:2605.14087v1 Announce Type: new Abstract: Large Language Models (LLMs), when trained on web-scale corpora, inherently absorb toxic patterns from their training data. This leads to ``toxic degeneration'' where even innocuous prompts can trigger harmful outputs. This phenomenon poses...
+
+### When Evidence Conflicts: Uncertainty and Order Effects in Retrieval-Augmented Biomedical Question Answering
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2605.14115
+- Summary: arXiv:2605.14115v1 Announce Type: new Abstract: Biomedical retrieval-augmented large language models (LLMs) often face evidence that is incomplete, misleading, or internally contradictory, yet evaluation usually emphasizes answer accuracy under helpful context rather than reliability under...
+
 ### Behind Honor's Robot Marathon: 7 Chinese Suppliers Powering the 'Lightning' Robot
 - Source: Pandaily
 - Category: chinese-ai
@@ -386,6 +509,12 @@
 - URL: https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/
 - Summary: The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek.
 
+### Learning Direct Control Policies with Flow Matching for Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14832
+- Summary: We present a flow-matching planner for autonomous driving that directly outputs actionable control trajectories defined by acceleration and curvature profiles. The model is conditioned on a bird's-eye-view (BEV) raster of the surrounding scene and generates control sequences in a small number of...
+
 ### Data readiness for agentic AI in financial services
 - Source: MIT Tech Review AI
 - Category: research
@@ -452,6 +581,12 @@
 - URL: https://www.securityweek.com/f5-patches-over-50-vulnerabilities/
 - Summary: The company’s latest quarterly advisory describes high and medium-severity issues in BIG-IP, BIG-IQ, and NGINX. The post F5 Patches Over 50 Vulnerabilities appeared first on SecurityWeek.
 
+### Scalable Solution of the Stochastic Multi-path Traveling Salesman Problem via Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14662
+- Summary: The multi-path Traveling Salesman Problem with stochastic travel costs arises in hybrid vehicle routing applications designed for Smart City and City Logistics, where multiple paths exist between each pair of locations. Travel times along these paths are typically affected by real-time traffic...
+
 ### The Tesla Semi could be a big deal for electric trucking
 - Source: MIT Tech Review AI
 - Category: research
@@ -500,11 +635,23 @@
 - URL: https://tldr.takara.ai/p/2605.14550
 - Summary: Artificial intelligence in high-stakes tabular domains cannot be evaluated by predictive performance alone, yet current practice still assesses explainability, fairness, robustness, privacy, and sustainability mostly in isolation. We propose the Model Integrity and Responsibility Assessment Index...
 
+### Local Spatiotemporal Convolutional Network for Robust Gait Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14548
+- Summary: Gait recognition, as a promising biometric technology, identifies individuals through their unique walking patterns and offers distinctive advantages including non-invasiveness, long-range applicability, and resistance to deliberate disguise. Despite these merits, capturing the intrinsic motion...
+
 ### DJI Unveils ROMO 2 Robot Vacuum: Incremental Upgrades, but Early Adopters May Have the Last Laugh
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/dji-unveils-romo-2-robot-vacuum
 - Summary: DJI launches second-generation robot vacuum with incremental upgrades over its predecessor, maintaining mid-to-high market positioning.
+
+### Cattle Trade: A Multi-Agent Benchmark for LLM Bluffing, Bidding, and Bargaining
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14537
+- Summary: We introduce \textsc{Cattle Trade, a multi-agent benchmark for evaluating large language models (LLMs) as agents in strategic reasoning under imperfect information, adversarial interaction, and resource constraints. The benchmark combines auctions, hidden-offer trade challenges (TCs), bargaining,...
 
 ### Embodied AI Startup Zenbot Raises Near-100 Million Yuan in Angel Round
 - Source: Pandaily
@@ -799,6 +946,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/shanghai-xingji-power-nuclear-fusion-metro-2026
 - Summary: While commercial fusion power remains decades away, technologies spawned from 'artificial sun' research are already appearing in everyday life — from Hefei Metro's touchless security scanners to plasma thrusters for ultra-low orbit satellites.
+
+### What Makes Words Hard? Sakura at BEA 2026 Shared Task on Vocabulary Difficulty Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14257
+- Summary: We describe two types of models for vocabulary difficulty prediction: a high-accuracy black-box model, which achieved the top shared task result in the open track, and an explainable model, which outperforms a fine-tuned encoder baseline. As the black-box model, we fine-tuned an LLM using a...
 
 ### Cloudflare Dashboard and API service issues
 - Source: Cloudflare Status
@@ -2869,153 +3022,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/378dqscjgghp
 - Summary: May 8, 11:40 UTCResolved - This incident has been resolved.May 8, 11:32 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 8, 10:26 UTCIdentified - We have identified the cause and a fix is being rolled out. As of 10:22 UTC, the remaining impact is limited to Claude...
-
-### AI Firm Braintrust Prompts API Key Rotation After Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/
-- Summary: Hackers accessed one of the company’s AWS accounts and compromised AI provider secrets stored in Braintrust. The post AI Firm Braintrust Prompts API Key Rotation After Data Breach appeared first on SecurityWeek.
-
-### Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html
-- Summary: A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and...
-
-### Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/
-- Summary: A system that thousands of schools and universities use went offline due to a cyberattack, creating chaos as students tried to study for finals. The post Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom appeared first on SecurityWeek.
-
-### One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html
-- Summary: The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live...
-
-### Here’s how technology transformed babymaking
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/
-- Summary: Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then. This week, I’ve been working on a piece about the cutting edge of IVF technologies and what’s...
-
-### New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html
-- Summary: Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called "darkworm." The backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit...
-
-### Happy Horse: From Anonymous AI Video Dark Horse to E-commerce Workhorse — The Reality Behind the SOTA Hype
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/happy-horse-ai-video-ecommerce-tool
-- Summary: Alibaba's Happy Horse AI video model topped anonymous leaderboards in April, but gray testing revealed a gap between benchmark performance and real usability. Built for high-volume, low-cost commercial content rather than AI film direction, Happy Horse is reframing itself as the "donkey that eats...
-
-### ‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/
-- Summary: The malware framework targets web applications and cloud environments, including AWS, Docker, Kubernetes, and more. The post &#8216;PCPJack&#8217; Worm Removes TeamPCP Infections, Steals Credentials appeared first on SecurityWeek.
-
-### Huawei's First Pro Max Tablet Heads Overseas First — HarmonyOS 4.3 Pre-installed, 13.2-inch OLED
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-matepad-pro-max-overseas-harmonyos-43
-- Summary: Huawei's first MatePad Pro Max tablet has appeared on overseas official sites, revealing key specs: 13.2-inch flexible OLED PaperMatte display at 3mm thickness, 4.7mm body, pre-installed HarmonyOS 4.3, and a 10,300 mAh battery supporting 66W wired and 40W reverse wireless charging.
-
-### Genesis AI Releases GENE-26.5: Humanoid Robot Finally Takes On Tomato and Egg Stir-Fry
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/genesis-ai-gene-26-5-robot-tomato-egg
-- Summary: Genesis AI, a French robotics startup, has released its first foundation model GENE-26.5 — featuring a robot that autonomously cracks eggs, cuts tomatoes, makes smoothies, solves Rubik's cubes, and organizes cables. The company's approach: large-scale human operation data pretraining combined with...
-
-### Meituan Launches Public Beta of AI Community "MiYou" — Building a Cyber Life Where Humans and AI Co-exist
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/meituan-miyou-ai-community-public-beta
-- Summary: Meituan has launched a public beta of "MiYou" (觅游), an AI-native community built around AI Agents with identities, relationships and growth trajectories. Users raise "shrimp" (AI agents) that find earning opportunities, meet partners, and grow alongside them. Over 3,000 Agents and 40,000+ skills...
-
-### Kunluncore Officially Files for STAR Market IPO: Dual-Listing Path in Motion, First to Light 32K GPU Cluster
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kunluncore-star-market-ipo
-- Summary: Kunluncore (昆仑芯), Baidu's AI chip spinoff with 15 years in AI computing, has formally engaged CICC for STAR Market listing. The company filed concurrently for Hong Kong listing on January 1, marking a dual-listing strategy. Its self-developed P800 32K GPU cluster is China's first officially lit...
-
-### Ransomware Group Takes Credit for Trellix Hack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/
-- Summary: RansomHouse has published several screenshots to demonstrate access to internal Trellix services. The post Ransomware Group Takes Credit for Trellix Hack appeared first on SecurityWeek.
-
-### MedQA: Fine-Tuning a Clinical AI on AMD ROCm — No CUDA Required
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/medqa
-
-### XPeng Launches GX Kunlun Super Extended-Range AWD System, Targeting Family Adventure Market
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xpeng-gx-kunlun-extended-range-awd
-- Summary: XPeng has officially launched its GX Kunlun Super All-Wheel Drive extended-range powertrain, designed for families who demand both electric performance and unlimited range for long-distance travel. The system brings intelligent AWD capabilities to XPeng's expanding portfolio beyond pure EVs.
-
-### Vidu Claw Launches "100 RMB for Million-Dollar Commercials" Era: Prompt a Video in WeChat, Get a Theater-Grade Ad
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/vidu-claw-ai-video-commercial-wechat
-- Summary: Vidu Claw, developed by Shengshu Technology, has introduced a Creator Plan that enables anyone to produce cinema-quality 30-second ads for roughly 100 RMB — a potential seismic disruption to the traditional advertising production industry that has historically required weeks and millions of dollars.
-
-### Unitree Launches UniStore — the World's First Humanoid Robot App Store, 24 Motion Apps Available at Launch
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/unitree-unistore-worlds-first-robot-app-store
-- Summary: Unitree Robotics has officially opened UniStore, a robot task-motion app store allowing users to download and install complex motion packages — including Jackson dance moves, Leeter Kune Do, and Charleston — onto their Unitree G1/H1/B2/Go2 robots with one tap from a phone app.
-
-### ByteDance's Doubao Quietly Launches Paid Tiers at 68–500 RMB/month — China's Largest Free AI App Begins Monetization
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-paid-tiers-china-largest-free-ai-app
-- Summary: Doubao, China's highest-MAU AI app with 300M+ users, has introduced three paid subscription tiers (68–500 RMB/month), marking the first major monetization move from a domestic AI app that defined the free-tier era. Industry observers see it as an inflection point for China's AI consumer market.
-
-### Duan Yongping Exits China Coal, Full Exit Into Pop Mart: "I Haven't Felt This Excited in a Long Time"
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/duan-yongping-pop-mart-full-exit
-- Summary: Legendary investor Duan Yongping has fully liquidated his China Coal stake and deployed the proceeds into Pop Mart, posting on social media that he "switched all my China Coal for Pop Mart" — a rare public endorsement from one of China's most private investors.
-
-### [AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-gpt-realtime-2-translate-and
-- Summary: OpenAI continues deploying GPT-5 everywhere
-
-### Vulnerability in Claude Extension for Chrome Exposes AI Agent to Takeover
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/
-- Summary: Lax extension permissions and improper trust implementation allow attackers to inject prompts in the Claude Chrome extension. The post Vulnerability in Claude Extension for Chrome Exposes AI Agent to Takeover appeared first on SecurityWeek.
-
-### ByteDance's Doubao App Introduces Paid Subscription Tiers: 68–500 RMB per Month
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-doubao-paid-subscription
-- Summary: ByteDance's Doubao app launches its first paid subscription tiers ranging from 68 to 500 RMB/month, targeting power users with PPT, data analysis, and video production capabilities.
-
-### Tianhong Shengjie Raises Tens of Millions RMB in Equity Round for Peripheral Vascular Devices
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tianhong-shengjie-peripheral-vascular-funding
-- Summary: Suzhou Tianhong Shengjie, China's peripheral vascular intervention leader, has raised a tens-of-millions RMB equity round to expand its full-product-line presence and push into arterial and oncological embolization devices.
-
-### Huawei and FirstKing Launch World's First Car-Grade Digital Key for Two-Wheelers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-firstking-digital-key-two-wheeler
-- Summary: Huawei and FirstKing have launched the world's first car-grade digital key solution for e-bikes and scooters, bringing automotive-level security and dual-mode NFC/Bluetooth unlocking to two-wheelers.
-
-### Xiaomi's Extended-Range SUV Spotted Again — But It Won't Wear a Xiaomi Badge
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-kunlun-suv-no-badge
-- Summary: Xiaomi's extended-range SUV spy shots surface ahead of launch, but the automaker has reportedly ruled out using its own logo or the "YU9" name — leaving the model's branding a mystery.
 
