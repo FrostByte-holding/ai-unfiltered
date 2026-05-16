@@ -6,6 +6,12 @@
 
 ## 2026-05-16
 
+### PoC Code Published for Critical NGINX Vulnerability
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/
+- Summary: Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source. The post PoC Code Published for Critical NGINX Vulnerability appeared first on SecurityWeek.
+
 ### [AINews] Cerebras' $60B IPO: Slowly, then All at Once
 - Source: Latent Space
 - Category: open-source
@@ -755,6 +761,12 @@
 - URL: https://pandaily.com/zephyr-intelligence-files-hong-kong-ipo-battery-thermal-safety
 - Summary: Zephyr Intelligence, a new energy battery thermal safety specialist with 35.3% market share in heavy truck thermal management, files for Hong Kong IPO.
 
+### Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14495
+- Summary: Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. We propose a contestable multi-agent framework that integrates multimodal large language models, external verification tools, and arena-based quantitative bipolar argumentation (A-QBAF) as...
+
 ### Researcher Drops YellowKey, GreenPlasma Windows Zero-Days
 - Source: Security Week
 - Category: security
@@ -1104,6 +1116,12 @@
 - Category: security
 - URL: https://www.securityweek.com/foxconn-confirms-north-american-factories-hit-by-cyberattack/
 - Summary: The Nitrogen ransomware group claims to have hacked the company’s systems, stealing 8TB of data, including confidential documents. The post Foxconn Confirms North American Factories Hit by Cyberattack appeared first on SecurityWeek.
+
+### (How) Do Large Language Models Understand High-Level Message Sequence Charts?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13773
+- Summary: Large Language Models (LLMs) are being employed widely to automate tasks across the software development life-cycle. It is, however, unclear whether these tasks are performed consistently with respect to the semantics of the artefacts being handled. This question is particularly under-researched...
 
 ### VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defense
 - Source: HF Daily Papers
@@ -1458,6 +1476,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/seekoo-video-ai-raises-funding
 - Summary: SEEKOO, a Hangzhou video AI startup founded by former ByteDance and Tencent executives, raises tens of millions of dollars and launches Anijam.ai, a Multi-Agent video platform gaining traction with over 1,000 paying users.
+
+### An Agentic LLM-Based Framework for Population-Scale Mental Health Screening
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13046
+- Summary: Mental health disorders affect millions worldwide, and healthcare systems are increasingly overwhelmed by the volume of clinical data generated from electronic records, telemedicine platforms, and population-level screening programs. At the same time, the emergence of novel AI-based approaches in...
 
 ### Retrieval-Augmented Tutoring for Algorithm Tracing and Problem-Solving in AI Education
 - Source: HF Daily Papers
@@ -2196,6 +2220,12 @@
 - URL: https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
 - Summary: Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace. "If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously," the...
 
+### Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10931
+- Summary: Transformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens in deep encoder-only transformers at inference time which is described in the large-token limit by a...
+
 ### cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor
 - Source: The Hacker News
 - Category: security
@@ -2291,6 +2321,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.10616
 - Summary: Tabular Foundation Models have recently established the state of the art in supervised tabular learning, by leveraging pretraining to learn generalizable representations of numerical and categorical structured data. However, they lack native support for unstructured modalities such as text and...
+
+### PRISM: Generation-Time Detection and Mitigation of Secret Leakage in Multi-Agent LLM Pipelines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10614
+- Summary: Multi-agent LLM systems introduce a security risk in which sensitive information accessed by one agent can propagate through shared context and reappear in downstream outputs, even without explicit adversarial intent. We formalise this phenomenon as propagation amplification, where leakage risk...
 
 ### Build Application Firewalls Aim to Stop the Next Supply Chain Attack
 - Source: Security Week
@@ -2985,43 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-raises-7b-valuation-51b-v41-june
 - Summary: DeepSeek is in talks to raise its first-ever external round of up to 50 billion RMB, with founder Liang Wenfeng contributing 20 billion RMB personally. The deal would mark the largest single financing in China AI startup history.
-
-### [AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-anthropic-growing-10xyear
-- Summary: A quiet day lets us reflect on an interesting dichotomy in the economy.
-
-### Claude Code IDE extension unable to load on Windows
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/w5cw47ytckzx
-- Summary: May 9, 00:24 UTCResolved - This incident has been resolved in v2.1.137. Please update to get the fix.May 9, 00:17 UTCMonitoring - A fix has been implemented and published in v2.1.137. We are monitoring results.May 8, 22:32 UTCIdentified - The issue has been identified and a fix is being...
-
-### Elevated errors for Responses API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KR50YN2DBMTXGPC6BQSJN48J
-- Summary: Status: ResolvedAll impacted services have now fully recovered. Between 4:05pm and 4:40pm PT on May 8, some customers using the Responses API may have experienced elevated 404 errors. We identified the issue as related to a recent deploy and rolled it back. Responses API traffic has recovered, and...
-
-
-## 2026-05-08
-
-### Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/
-- Summary: In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed...
-
-### Certificate Issuance through Let's Encrypt unavailable
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/z3vgxxfvt3yb
-- Summary: May 8, 20:58 UTCResolved - This incident has been resolved.May 8, 20:53 UTCMonitoring - We have confirmed recovery and will continue monitoring for improvement.May 8, 19:46 UTCInvestigating - We are aware of an issue affecting certificate issuance through Let's Encrypt. Customers using Universal...
-
-### TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html
-- Summary: Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Security Labs under the moniker REF3076. The malware family is assessed to be a...
 
