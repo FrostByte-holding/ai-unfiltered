@@ -6,6 +6,12 @@
 
 ## 2026-05-16
 
+### Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html
+- Summary: A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week....
+
 ### PoC Code Published for Critical NGINX Vulnerability
 - Source: Security Week
 - Category: security
@@ -532,6 +538,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.15062
 - Summary: Background. RGB-trained capsule-endoscopy classifiers underperform on small-vessel vascular findings by conflating hemoglobin contrast with bile and illumination falloff. Thus, here we test whether a Monte Carlo-inspired analytic model can compute hemoglobin from RGB signal built upon extracted...
+
+### EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.15042
+- Summary: We propose EverAnimate, an efficient post-training method for long-horizon animated video generation that preserves visual quality and character identity. Long-form animation remains challenging because highly dynamic human motion must be synthesized against relatively static environments, making...
 
 ### Elevated error rate on Cloudflare Stream API operations
 - Source: Cloudflare Status
@@ -1261,6 +1273,12 @@
 - URL: https://tldr.takara.ai/p/2605.13438
 - Summary: Existing agent memory remains predominantly reactive and retrieval-based, lacking the capacity to autonomously organize experience into persistent cognitive structure. Toward genuinely autonomous agents, we introduce Cognifold, a brain-inspired "always-on" agent memory designed for the next...
 
+### TokAlign++: Advancing Vocabulary Adaptation via Better Token Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13429
+- Summary: Tokenization is a foundational step in the text process of Large Language Models (LLMs). Texts must be first tokenized into token IDs, which are then input to LLMs. Inefficient tokenization results in long token-ID sequences and will slow down the training and inference of LLMs. The fine-grained...
+
 ### Government to Scrutinize Instructure Over Canvas Disruption, Data Breach
 - Source: Security Week
 - Category: security
@@ -1744,6 +1762,12 @@
 - URL: https://status.claude.com/incidents/3kkmgccb9z85
 - Summary: May 12, 23:58 UTCResolved - This incident has been resolved.May 12, 23:51 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 23:38 UTCIdentified - The issue has been identified and a fix is being implemented.
 
+### FRAME: Forensic Routing and Adaptive Multi-path Evidence Fusion for Image Manipulation Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12826
+- Summary: The proliferation of sophisticated image editing tools and generative artificial intelligence models has made verifying the authenticity of digital images increasingly challenging, with important implications for journalism, forensic analysis, and public trust. Although numerous forensic...
+
 ### Patch Tuesday, May 2026 Edition
 - Source: Krebs on Security
 - Category: security
@@ -1767,6 +1791,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/c2hjyfpgsprx
 - Summary: May 12, 20:13 UTCResolved - This incident has been resolved.May 12, 19:36 UTCInvestigating - We are investigating elevated errors on requests to Claude Sonnet 4.6 and Haiku 4.5. We will provide an update as soon as possible.
+
+### Early Data Exposure Improves Robustness to Subsequent Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12705
+- Summary: How can we train models whose post-trained capabilities survive subsequent fine-tuning? Rather than focusing on downstream interventions to mitigate forgetting of upstream capabilities, we study how upstream training choices - that is, the manner in which a capability is acquired - shape how...
 
 ### Network Performance Issues
 - Source: Cloudflare Status
@@ -2213,6 +2243,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/amazon/foundation-model-building-blocks
+
+### Variational Linear Attention: Stable Associative Memory for Long-Context Transformers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.11196
+- Summary: Linear attention reduces the quadratic cost of softmax attention to $\mathcal{O}(T)$, but its memory state grows as $\mathcal{O}(T)$ in Frobenius norm, causing progressive interference between stored associations. We introduce \textbf{Variational Linear Attention} (VLA), which reframes the memory...
 
 ### TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack
 - Source: The Hacker News
@@ -2985,40 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.05410
 - Summary: arXiv:2605.05410v1 Announce Type: new Abstract: Large-language-model (LLM) graders promise to relieve the grading burden of upper-division STEM courses, but most deployments to date send student work to third-party APIs, violating FERPA and exposing institutions to data risk while requiring...
-
-### From History to State: Constant-Context Skill Learning for LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.05413
-- Summary: arXiv:2605.05413v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used to operate browsers, files, code and tools, making personal assistants a natural deployment target. Yet personal agents face a privacy-cost-capability tension: cloud models execute multi-step...
-
-### This 22-Year-Old SJTU PhD Is Building Flapping Wing Robots — and Sequoia Just Backed Him
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sjtu-phd-bionic-flapping-wing-robot-yingkan
-- Summary: Yingkong Zhivi, founded by four Shanghai Jiao Tong University PhD students, has raised tens of millions of RMB in a Pre-A round led by Yuanhe Origin, becoming the world's first company focused on embodied intelligence flapping wing robots.
-
-### Xiaomi SVOR Wins CVPR 2026 Challenge, Open-Sources Video Object Removal Framework
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-svor-cvpr-2026-video-object-removal
-- Summary: Xiaomi's model application team has released SVOR, a video object removal framework that solves three practical problems — shadow residue, motion jitter, and mask defects — winning the CVPR 2026 Physical Perception Video Instance Removal challenge ahead of 17 other teams.
-
-### Kling Native 4K Generation Breaks the AI Video Commercial Quality Ceiling
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kling-native-4k-ai-video-commercial-quality
-- Summary: Kuaishou's Kling AI has launched the world's first native 4K video generation — outputting true 3840x2160 resolution at generation time rather than upscaling from 1080P — solving the detail and artifact problems that blocked AI video from real commercial delivery.
-
-### Transsion Invests in Future Smart as AI Earbuds Race Heats Up
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/transsion-invests-future-smart-ai-earbuds
-- Summary: Transsion has taken a strategic stake in Future Smart, the maker of iFlytek-powered AI meeting earbuds with 1.5M global users, as both companies collaborate to build next-generation AI Agent hardware for international markets.
-
-### DeepSeek Reportedly Raising $7.3B at $51.5B Valuation; V4.1 Debuts in June
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-raises-7b-valuation-51b-v41-june
-- Summary: DeepSeek is in talks to raise its first-ever external round of up to 50 billion RMB, with founder Liang Wenfeng contributing 20 billion RMB personally. The deal would mark the largest single financing in China AI startup history.
 
