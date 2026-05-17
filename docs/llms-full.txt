@@ -581,6 +581,12 @@
 - URL: https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html
 - Summary: Cybersecurity researchers are sounding the alarm about what has been described as "malicious activity" in newly published versions of node-ipc. According to Socket and StepSecurity, three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3...
 
+### Novel Dynamic Batch-Sensitive Adam Optimiser for Vehicular Accident Injury Severity Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.15083
+- Summary: The choice of optimiser is important in deep learning, as it strongly influences model efficiency and speed of convergence. However, many commonly used optimisers encounter difficulties when applied to imbalanced and sequential datasets, limiting their ability to capture patterns of minority...
+
 ### Computational Imaging Priors for Wireless Capsule Endoscopy: Monte Carlo-Guided Hemoglobin Mapping for Rare-Anomaly Detection
 - Source: HF Daily Papers
 - Category: open-source
@@ -1297,6 +1303,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/bht3z2p2mccb
 - Summary: May 13, 14:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 13, 14:27 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 502 errors impacting customers in San Jose, CA, , United States regionWe are working to analyse and mitigate this...
 
+### Causal Learning with the Invariance Principle
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13589
+- Summary: Causal discovery, the problem of inferring the direction of causality, is generally ill-posed. We use the language of structural causal models (SCM) to show that assuming that the causal relations are acyclic and invariant across multiple environments (e.g., the way minimum wage affects employment...
+
 ### Uncertainty-Aware Prediction of Lung Tumor Growth from Sparse Longitudinal CT Data via Bayesian Physics-Informed Neural Networks
 - Source: HF Daily Papers
 - Category: open-source
@@ -1876,6 +1888,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/mb0vd0xd29lw
 - Summary: May 12, 21:17 UTCResolved - This incident has been resolved.May 12, 20:23 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 19:57 UTCInvestigating - Cloudflare is investigating an issue with https://www.cloudflare.com/ips-v4. Customers attempting to view the...
 
+### State-Centric Decision Process
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12755
+- Summary: Language environments such as web browsers, code terminals, and interactive simulations emit raw text rather than states, and provide none of the runtime structure that MDP analysis requires. No explicit state space, no observation-to-state mapping, no certified transitions, and no termination...
+
 ### Elevated errors for Claude Sonnet 4.6 and Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -2338,6 +2356,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/qs4k7rpkhspd
 - Summary: May 12, 03:24 UTCIdentified - Cloudflare is investigating issues with Network connectivity in Perth. We have identified the problem and are currently working towards mitigating it. More updates to follow shortly.
 
+### Conditional Memory Enhanced Item Representation for Generative Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.11447
+- Summary: Generative recommendation (GR) has emerged as a promising paradigm that predicts target items by autoregressively generating their semantic identifiers (SID). Most GR methods follow a quantization-representation-generation pipeline, first assigning each item a SID, then constructing input...
+
 
 ## 2026-05-11
 
@@ -2447,6 +2471,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html
 - Summary: Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and...
+
+### Qwen-Image-2.0 Technical Report
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10730
+- Summary: We present Qwen-Image-2.0, an omni-capable image generation foundation model that unifies high-fidelity generation and precise image editing within a single framework. Despite recent progress, existing models still struggle with ultra-long text rendering, multilingual typography, high-resolution...
 
 ### Kernel-Gradient Drifting Models
 - Source: HF Daily Papers
@@ -2989,36 +3019,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/qbj7t1t3pdxn
 - Summary: May 10, 17:54 UTCResolved - Cloudflare identified issues with network performance that occurred for our Auckland, NZ facility between 12:30 and 16:00 UTC today, 2026-05-10. Customers may have noticed increased latency for traffic handled by this facility during this period.
-
-### Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
-- Summary: Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as...
-
-### Network Performance Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/t41t0knxxk8w
-- Summary: May 10, 03:28 UTCInvestigating - Cloudflare is investigating issues with network performance in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
-
-
-## 2026-05-09
-
-### Claude Code on the Web Partial Outage
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/4b7cjct792q2
-- Summary: May 9, 23:51 UTCResolved - This incident has been resolvedMay 9, 23:33 UTCInvestigating - We are currently investigating this issue.
-
-### "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper
-
-### SynapX Launches SYNData: Multimodal Data Collection System for Embodied AI Era
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/synap-x-launches-syn-data-multimodal-data-collection-system-for-embodied-ai-era
-- Summary: SynapX has released SYNData, a multimodal data collection system for dexterous manipulation. The system covers ego vision, EMG signals, and exoskeleton data gloves, enabling scalable collection of human manipulation data for robot learning.
 
