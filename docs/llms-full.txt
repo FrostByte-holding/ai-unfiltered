@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-17
+
+### Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html
+- Summary: Grafana has disclosed that an "unauthorized party" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. "Our investigation has determined that no customer data or personal information was accessed during this incident, and we have...
+
+
 ## 2026-05-16
 
 ### PayPal Billing Issues
@@ -1405,6 +1414,12 @@
 - URL: https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html
 - Summary: TL;DR: Stop chasing thousands of "toast" alerts. Join experts from Wiz and Okta/GitLab to learn how hackers connect tiny flaws to build a "Lethal Chain" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time...
 
+### Backbone is All You Need: Assessing Vulnerabilities of Frozen Foundation Models in Synthetic Image Forensics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13381
+- Summary: As AI-generated synthetic images become increasingly realistic, Vision Transformers (ViTs) have emerged as a cornerstone of modern deepfake detection. However, the prevailing reliance on frozen, pre-trained backbones introduces a subtle yet critical vulnerability. In this work, we present the...
+
 ### Most Remediation Programs Never Confirm the Fix Actually Worked
 - Source: The Hacker News
 - Category: security
@@ -1972,6 +1987,12 @@
 - URL: https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/
 - Summary: World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, &#8220;Can AI Learn to...
 
+### Overview of the MedHopQA track at BioCreative IX: track description, participation and evaluation of systems for multi-hop medical question answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12313
+- Summary: Multi-hop question answering (QA) remains a significant challenge in the biomedical domain, requiring systems to integrate information across multiple sources to answer complex questions. To address this problem, the BioCreative IX MedHopQA shared task was designed to benchmark in multi-hop...
+
 ### How open model ecosystems compound
 - Source: Interconnects
 - Category: open-source
@@ -2061,6 +2082,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu...
+
+### LLMs and the ZPD
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12016
+- Summary: One hundred years ago Vygotsky and his circle were exploring the nature of consciousness and defining what would become psychology in the Soviet Union. They concluded that children develop "scientific thinking" through interacting with enculturated adults in Zones of Proximal Development or ZPDs....
 
 ### Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help
 - Source: The Hacker News
@@ -2459,6 +2486,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.10787
 - Summary: Current LLM agents are proficient at calling isolated APIs but struggle with the "last mile" of commercial software automation. In real-world scenarios, tools are not independent; they are atomic, interdependent, and prone to environmental noise. We introduce $\textbf{ComplexMCP}$, a benchmark...
+
+### LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.10779
+- Summary: The rapid proliferation of LLM-based autonomous agents in real operating system environments introduces a new category of safety risk beyond content safety: behavior jailbreak, where an adversary induces an agent to execute dangerous OS-level operations with irreversible consequences. Existing...
 
 ### Break the Brake, Not the Wheel: Untargeted Jailbreak via Entropy Maximization
 - Source: HF Daily Papers
@@ -2987,36 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-50-billion-rmb-funding-expansion
 - Summary: Chinese AI startup DeepSeek is reportedly raising 50 billion RMB in new funding, with R&amp;D centers already established in Silicon Valley, London, and Singapore.
-
-### Kimi and Step Intelligence Both Announce New Funding Rounds
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kimi-step-intelligence-new-funding-rounds
-- Summary: Chinese AI startups Kimi (Moonshot AI) and Step Intelligence have both announced new financing rounds, highlighting continued strong investor interest in China's AI sector.
-
-### Efficient Neural Architectures for Real-Time ECG Interpretation on Limited Hardware
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.09848
-- Summary: Electrocardiogram (ECG) interpretation is essential for diagnosing a wide range of cardiac abnormalities. While deep learning has shown strong potential for automating ECG classification, many existing models rely on large, computationally intensive architectures that hinder practical deployment....
-
-### ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.09846
-- Summary: In new media art creation, the mapping between vision and hearing is often subjective. As a classic carrier of sound visualization, Chladni patterns have great potential in building audio-visual mapping mechanisms. However, existing tools face pain points: high technical barriers for simulation,...
-
-
-## 2026-05-10
-
-### MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
-
-### Network Performance Issues in Auckland
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/qbj7t1t3pdxn
-- Summary: May 10, 17:54 UTCResolved - Cloudflare identified issues with network performance that occurred for our Auckland, NZ facility between 12:30 and 16:00 UTC today, 2026-05-10. Customers may have noticed increased latency for traffic handled by this facility during this period.
 
