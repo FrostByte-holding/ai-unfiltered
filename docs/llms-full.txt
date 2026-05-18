@@ -6,6 +6,12 @@
 
 ## 2026-05-18
 
+### CISA Admin Leaked AWS GovCloud Keys on Github
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
+- Summary: Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public...
+
 ### What to expect from Google this week
 - Source: MIT Tech Review AI
 - Category: research
@@ -31,6 +37,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/open-agent-leaderboard
+
+### Remote preview failing on Workers with attached Durable Object
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4xh47d3c3w4s
+- Summary: May 18, 14:00 UTCResolved - Cloudflare identified an issue affecting the remote preview feature between 15:00 and 19:46 UTC. Workers configured with both a remote binding and a Durable Object failed to launch, throwing error code 10375.
 
 ### ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More
 - Source: The Hacker News
@@ -829,6 +841,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2
 
+### Time-Varying Deep State Space Models for Sequences with Switching Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.15311
+- Summary: The identification and modeling of time-varying systems is a fundamental challenge in signal processing and system identification. To address this challenge, we propose a class of time-varying state-space model (SSM) based neural networks in which the neurons' states are governed by time-varying...
+
 ### ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both
 - Source: HF Daily Papers
 - Category: open-source
@@ -1485,6 +1503,12 @@
 - URL: https://status.openai.com//incidents/01KRHSDQP7DZPAVANG3R1RCNVW
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational)
 
+### Why Retrieval-Augmented Generation Fails: A Graph Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.14192
+- Summary: Retrieval-Augmented Generation (RAG) has become a powerful and widely used approach for improving large language models by grounding generation in retrieved evidence. However, RAG systems still produce incorrect answers in many cases. Why RAG fails despite having access to external information...
+
 ### Browser Run API availability issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -1929,6 +1953,12 @@
 - URL: https://tldr.takara.ai/p/2605.13046
 - Summary: Mental health disorders affect millions worldwide, and healthcare systems are increasingly overwhelmed by the volume of clinical data generated from electronic records, telemedicine platforms, and population-level screening programs. At the same time, the emergence of novel AI-based approaches in...
 
+### Offline Two-Player Zero-Sum Markov Games with KL Regularization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.13025
+- Summary: We study the problem of learning Nash equilibria in offline two-player zero-sum Markov games. While existing approaches often rely on explicit pessimism to address distribution shift, we show that KL regularization alone suffices to stabilize learning and guarantee convergence. We first introduce...
+
 ### JEDI: Joint Embedding Diffusion World Model for Online Model-Based Reinforcement Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2256,6 +2286,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/0hg1vqx1f1l2
 - Summary: May 12, 19:48 UTCResolved - This incident has been resolved.May 12, 19:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 19:07 UTCIdentified - The issue has been identified and a fix is being implemented.May 12, 19:04 UTCInvestigating - Cloudflare is...
 
+### All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12671
+- Summary: In this paper, we present empirical and theoretical evidence against a central but largely implicit assumption in circuit and sheaf discovery (CSD), which we term the Functional Anisotropy Hypothesis: the idea that functions in large language models (LLMs) are localised to a unique or near-unique...
+
 ### Elevated Error Rate for Vaults and Credentials
 - Source: Anthropic Status
 - Category: incidents
@@ -2297,6 +2333,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/wzrfx35dm5xr
 - Summary: May 12, 17:12 UTCResolved - This incident has been resolved.May 12, 15:42 UTCInvestigating - Cloudflare is investigating an availability issue affecting Durable Objects in some regions. Customers may experience elevated error rates or timeouts when their Workers invoke Durable Objects. We are...
+
+### Beyond Localization: A Comprehensive Diagnosis of Perspective-Conditioned Spatial Reasoning in MLLMs from Omnidirectional Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.12413
+- Summary: Multimodal Large Language Models (MLLMs) show strong visual perception, yet remain limited in reasoning about space under changing viewpoints. We study this challenge as Perspective-Conditioned Spatial Reasoning (PCSR) in 360-degree omnidirectional images, where broad scene coverage reduces...
 
 ### Adobe Patches 52 Vulnerabilities in 10 Products
 - Source: Security Week
@@ -2977,46 +3019,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html
 - Summary: Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval window that's longer than the exploitation window itself. Nobody in that...
-
-### GuardAD: Safeguarding Autonomous Driving MLLMs via Markovian Safety Logic
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.10386
-- Summary: Multimodal large language models (MLLMs) are increasingly integrated into autonomous driving (AD) systems; however, they remain vulnerable to diverse safety threats, particularly in accident-prone scenarios. Recent safeguard mechanisms have shown promise by incorporating logical constraints, yet...
-
-### Cloudflare Lays Off 1,100 Employees in AI-Driven Restructuring
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cloudflare-lays-off-1100-employees-in-ai-driven-restructuring/
-- Summary: The company topped revenue and earnings forecasts for the first quarter of 2026, but its shares plunged more than 20%. The post Cloudflare Lays Off 1,100 Employees in AI-Driven Restructuring appeared first on SecurityWeek.
-
-### SailPoint Discloses GitHub Repository Hack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sailpoint-discloses-github-repository-hack/
-- Summary: The incident occurred on April 20 and did not affect customer data in the company’s production and staging environments. The post SailPoint Discloses GitHub Repository Hack appeared first on SecurityWeek.
-
-### The Alpha Blending Hypothesis: Compositing Shortcut in Deepfake Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.10334
-- Summary: Recent deepfake detection methods demonstrate improved cross-dataset generalization, yet the underlying mechanisms remain underexplored. We introduce the Alpha Blending Hypothesis, positing that state-of-the-art frame-based detectors primarily function as alpha blending searchers; rather than...
-
-### Generalization Error Bounds for Picard-Type Operator Learning in Nonlinear Parabolic PDEs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.10277
-- Summary: Operator learning for partial differential equations (PDEs) aims to learn solution operators on infinite-dimensional function spaces from finite-resolution data. In this setting, it is important for the learned model to be discretization-invariant, or resolution-robust, and to reflect PDE-specific...
-
-### Checkmarx Jenkins AST Plugin Compromised in Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/checkmarx-jenkins-ast-plugin-compromised-in-supply-chain-attack/
-- Summary: A malicious version of the plugin was published to the Jenkins Marketplace late last week. The post Checkmarx Jenkins AST Plugin Compromised in Supply Chain Attack appeared first on SecurityWeek.
-
-### Leadbot Robotics Jumps 103% on HK IPO Debut, Market Cap Hits $2.4B
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/leadbot-robotics-hk-ipo-leadbot-robot-103-percent-debut
-- Summary: Leadbot Robotics (乐动机器人) surges 103% on its Hong Kong IPO debut, becoming China's second listed robot company after UBTECH. The DTOF LiDAR maker counts Ecovacs and Dreame as clients.
 
