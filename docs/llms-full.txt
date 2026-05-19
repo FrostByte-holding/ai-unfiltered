@@ -6,6 +6,48 @@
 
 ## 2026-05-19
 
+### Digital Experience in Cloudflare Zero Trust Latency
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/p0kmprcgvwg2
+- Summary: May 19, 15:25 UTCInvestigating - Actions related to Digital Experience are delayed, Cloudflare is aware and investigating.
+
+### Elevated errors on Claude Opus 4.7
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/f9yk8lqw384x
+- Summary: May 19, 15:21 UTCUpdate - We are continuing to monitor for any further issues.May 19, 15:19 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 14:03 UTCInvestigating - We are currently investigating this issue.
+
+### DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
+- Summary: Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9,...
+
+### Understanding the modern cybercrime landscape
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/
+- Summary: Throughout 2025, HPE observed significant changes in how cybercriminals operate. Analyzing real-world threats, our HPE Threat Labs highlighted an industrialization of the cyber criminals’ methods in its new In the Wild Report, enabling greater scale, speed and structure in their campaigns. They...
+
+### Legacy Windows Tool MSHTA Fuels Surge in Silent Malware Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/legacy-windows-tool-mshta-fuels-surge-in-silent-malware-attacks/
+- Summary: Attackers are increasingly abusing Microsoft’s decades-old MSHTA utility to stealthily deliver stealers, loaders, and persistent malware through phishing, fake software downloads, and LOLBIN-based attack chains. The post Legacy Windows Tool MSHTA Fuels Surge in Silent Malware Attacks appeared first...
+
+### Unpatched ChromaDB Vulnerability Can Lead to Server Takeover
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/unpatched-chromadb-vulnerability-can-lead-to-server-takeover/
+- Summary: The security defect can be exploited remotely, without authentication, to execute arbitrary code and leak sensitive information. The post Unpatched ChromaDB Vulnerability Can Lead to Server Takeover appeared first on SecurityWeek.
+
+### The Download: Musk v. Altman, smart glasses for warfare, and Google I/O
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why Elon Musk lost his suit against OpenAI Elon Musk has lost his lawsuit against OpenAI, which centered on whether the company breached its...
+
 ### Workers AI availability issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -270,6 +312,11 @@
 - URL: https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/
 - Summary: On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk...
 
+### Introducing the Ettin Reranker Family
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ettin-reranker
+
 
 ## 2026-05-18
 
@@ -284,6 +331,18 @@
 - Category: security
 - URL: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
 - Summary: Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public...
+
+### ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18746
+- Summary: Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they actively uncover what is unseen - occluded structure, dynamics, containment, and...
+
+### PIXLRelight: Controllable Relighting via Intrinsic Conditioning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18735
+- Summary: We present PIXLRelight, a feed-forward approach for physically controllable single-image relighting. Existing methods either provide limited lighting control (e.g. through text or environment maps), accumulate errors when chaining inverse and forward rendering, or require costly per-image...
 
 ### What to expect from Google this week
 - Source: MIT Tech Review AI
@@ -382,6 +441,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
 - Summary: Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer...
+
+### Context Memorization for Efficient Long Context Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18226
+- Summary: Modern large language model (LLM) applications increasingly rely on long conditioning prefixes to control model behavior at inference time. While prefix-augmented inference is effective, it incurs two structural limitations: i) the prefix's influence fades as generation proceeds, and ii) attention...
 
 ### Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
 - Source: The Hacker News
@@ -520,6 +585,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/one-robotics-brings-home-robots-to-global-real-world-scenarios-china-s-counterpart-to-figure-ai
 - Summary: OneRobotics (06600.HK) advances overseas commercialization of home robots via its 'one brain, multiple forms' approach, showcasing real household task execution that drew NHK's attention as the company positions itself as China's answer to Figure.
+
+### Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17830
+- Summary: Safety evaluations of memory-equipped LLM agents typically measure within-task safety: whether an agent completes a single scenario safely, often under adversarial conditions such as prompt injection or memory poisoning. In deployment, however, a single agent serves many independent tasks over a...
 
 ### Hackers Earn $1.3 Million at Pwn2Own Berlin 2026
 - Source: Security Week
@@ -706,6 +777,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.15440
 - Summary: arXiv:2605.15440v1 Announce Type: new Abstract: Surprisal theory posits that the processing difficulty of a word is determined by its predictability in context, offering a potential link between human sentence processing and next-word predictions from language models. While language model (LM)...
+
+### Uncertainty-Calibrated Recommendations for Low-Active Users
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17788
+- Summary: A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model's...
 
 ### EXG: Self-Evolving Agents with Experience Graphs
 - Source: HF Daily Papers
@@ -2942,82 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.12016
 - Summary: One hundred years ago Vygotsky and his circle were exploring the nature of consciousness and defining what would become psychology in the Soviet Union. They concluded that children develop "scientific thinking" through interacting with enculturated adults in Zones of Proximal Development or ZPDs....
-
-### Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html
-- Summary: Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one is investigating. A recent report from The Hacker News examined why certain high-risk...
-
-### Improving Diffusion Posterior Samplers with Lagged Temporal Corrections for Image Restoration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.12573
-- Summary: Diffusion-based posterior sampling (PS) is a leading framework for imaging inverse problems, combining learned priors with measurement constraints. Yet, its standard formulations rely on instantaneous data-consistent estimates, which induce temporal variability in the reverse dynamics. We...
-
-### Why Agentic AI Is Security's Next Blind Spot
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html
-- Summary: Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from the security team. The industry conversation has largely framed this as a question of policy: allow...
-
-### TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/tanstack-mistral-ai-uipath-hit-in-fresh-supply-chain-attack/
-- Summary: Over 400 malicious versions of 170 packages were published as part of the new Mini Shai-Hulud campaign. The post TanStack, Mistral AI, UiPath Hit in Fresh Supply Chain Attack appeared first on SecurityWeek.
-
-### Beyond Parameter Aggregation: Semantic Consensus for Federated Fine-Tuning of LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.11857
-- Summary: Federated fine-tuning of large language models is commonly formulated as a parameter aggregation problem. However, even parameter-efficient methods require transmitting large collections of trainable weights, assume aligned architectures, and rely on white-box access to model parameters. As model...
-
-### Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html
-- Summary: TeamPCP, the threat actor behind the recent&nbsp;supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign. The affected npm packages have been modified to...
-
-### Tencent T15 and Adobe Scientists Launch AI Animation Startup: 'Big Companies Make Printers, We Make the Soul of AI Video'
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-t15-adobe-scientists-ai-animation-startup
-- Summary: Former Adobe Research scientists—including a former Principal Scientist who developed image deblurring used by the FBI—have co-founded an AI animation startup with Tencent T15. Their first product targets professional animation studios, having raised tens of millions of dollars from investors...
-
-### Moore Threads and Guangyun Intelligence Partner to Build Domestic Physical AI Foundation with Sovereign Compute and Simulation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moore-threads-guangyun-intelligence-physical-ai-foundation
-- Summary: Moore Threads and Guangyun Intelligence have formed a strategic partnership to build a high-confidence synthetic data solution for embodied AI, combining Moore Threads' domestic GPU compute power with Guangyun's self-developed simulation platform.
-
-### Shangyue Technology's Flyer O1: The World's First Home Flying Robot, Raising Millions in Seed Round
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shangyue-technology-flyer-o1-home-flying-robot
-- Summary: Shenzhen-based Shangyue Technology (熵约科技) announces a millions-of-dollars seed round, led by Chuxin Capital. The company has launched the Flyer O1—the world's first home flying robot designed for family spaces—expected to officially launch by end of this year.
-
-### Alibaba's Qianwen Fully Integrated with Taobao: AI Shopping Covers Full Loop from Discovery to After-Sales
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/qianwen-taobao-ai-shopping-full-loop
-- Summary: Alibaba announced the full integration of its Qianwen AI assistant with Taobao, enabling users to complete the entire shopping journey—from product discovery and comparison to ordering, fulfillment, and after-sales service—entirely through AI conversation.
-
-### Yushi Technology IPO Starts Today: To Become China's 'First Full-Scenario L4 Autonomous Driving Stock'
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/yushi-technology-ipo-full-scenario-l4-autonomous-driving
-- Summary: Yushi Technology (驭势科技) begins its Hong Kong IPO today through May 15, planning to list on May 20 with stock code 1511. The company claims the No. 1 market share in airport and factory zone autonomous driving scenarios, now expanding to city, port, mining, and farming scenarios.
-
-### Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html
-- Summary: American educational technology company Instructure, the parent company of Canvas, said it reached an "agreement" with a decentralized cybercrime extortion group after it breached its network and threatened to leak stolen information from thousands of schools and universities. In an update shared...
-
-### OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html
-- Summary: OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patch vulnerabilities before attackers find a way in using the same issues. "Daybreak combines the...
 
