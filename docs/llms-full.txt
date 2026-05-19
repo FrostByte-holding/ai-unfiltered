@@ -6,6 +6,17 @@
 
 ## 2026-05-19
 
+### Intermittent Cloudflare Dashboard SSO login failures with Okta
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/0myxk19xsyby
+- Summary: May 19, 20:10 UTCResolved - Cloudflare engineering has ruled out any service degrading within Cloudflare systems. Customers are advised to review their Okta authentication logs for potential errors. A status update will be provided if Cloudflare Engineering determines the specific Okta issue...
+
+### OlmoEarth v1.1: A more efficient family of models
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/olmoearth-v1-1
+
 ### Cofoe and Tencent Tianlai Lab Launch AI Bone Conduction Hearing Aid X5
 - Source: Pandaily
 - Category: chinese-ai
@@ -437,6 +448,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers
 
+### Vector RAG vs LLM-Compiled Wiki: A Preregistered Comparison on a Small Multi-Domain Research
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18490
+- Summary: We preregistered a comparison of two ways to help an LLM answer questions over a small research corpus: a single-round Vector RAG system and an LLM-compiled markdown wiki. Both systems answered the same 13 questions over 24 papers using the same answer-generating model, and their answers were...
+
 ### The Open Agent Leaderboard
 - Source: Hugging Face Blog
 - Category: open-source
@@ -574,6 +591,12 @@
 - URL: https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html
 - Summary: Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified packages is below - chalk-tempalte (825 Downloads) @deadcode09284814/axios-util (284 Downloads)...
 
+### DocOS: Towards Proactive Document-Guided Actions in GUI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18048
+- Summary: While Graphical User Interface (GUI) agents have shown promising performance in automated device interaction, they primarily depend on static parametric knowledge from pre-training or instruction tuning. This reliance fundamentally limits their ability to handle long-tailed tasks that require...
+
 ### Grafana Confirms Breach After Hackers Claim They Stole Data
 - Source: Security Week
 - Category: security
@@ -585,6 +608,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.18035
 - Summary: Hard-thresholding is an important type of algorithm in machine learning that is used to solve $\ell_0$ constrained optimization problems. However, the true gradient of the objective function can be difficult to access in certain scenarios, which normally can be approximated by zeroth-order (ZO)...
+
+### LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injectio
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17986
+- Summary: AI agents such as OpenClaw are increasingly deployed in local workflows with access to external tools. This creates indirect prompt-injection (IPI) risk: an agent may execute harmful instructions embedded in untrusted inputs such as email, downloaded files, webpages, repositories, or group-chat...
 
 ### Unleashing LLMs in Bayesian Optimization: Preference-Guided Framework for Scientific Discovery
 - Source: HF Daily Papers
@@ -622,6 +651,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/cgg495dy10vz
 - Summary: May 18, 06:33 UTCResolved - This incident has been resolved.May 18, 05:57 UTCIdentified - The issue has been identified and a fix is being implemented.May 18, 05:37 UTCInvestigating - Cloudflare is aware of and investigating an issue with Cloudflare Log Explorer. Affected customers may see delays...
 
+### LAST-RAG: Literature-Anchored Stochastic Trajectory Retrieval-Augmented Generation for Knowledge-Conditioned Degradation Model Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17902
+- Summary: Stochastic-process-based degradation modeling is a core approach for estimating the distribution of remaining useful life (RUL); however, the selection of an appropriate stochastic process has not been sufficiently addressed. Existing model selection methods mainly rely on the statistical fit of...
+
 ### Chinese Startup Weilan Tech Unveils BabyAlpha A3: A Quadruped Robot That Outpaces Nvidia's Computing Throne
 - Source: Pandaily
 - Category: chinese-ai
@@ -651,6 +686,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/one-robotics-brings-home-robots-to-global-real-world-scenarios-china-s-counterpart-to-figure-ai
 - Summary: OneRobotics (06600.HK) advances overseas commercialization of home robots via its 'one brain, multiple forms' approach, showcasing real household task execution that drew NHK's attention as the company positions itself as China's answer to Figure.
+
+### Stabilizing, Scaling & Enhancing MeanFlow for Large-scale Diffusion Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17834
+- Summary: Diffusion models exhibit remarkable generative capability, but their high latency limits practical deployment. Many studies have attempted to reduce sampling steps to accelerate inference. Among them, MeanFlow has attracted considerable attention due to its concise formulation and remarkable...
 
 ### Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents
 - Source: HF Daily Papers
@@ -2975,46 +3016,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/c2hjyfpgsprx
 - Summary: May 12, 20:13 UTCResolved - This incident has been resolved.May 12, 19:36 UTCInvestigating - We are investigating elevated errors on requests to Claude Sonnet 4.6 and Haiku 4.5. We will provide an update as soon as possible.
-
-### Early Data Exposure Improves Robustness to Subsequent Fine-Tuning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.12705
-- Summary: How can we train models whose post-trained capabilities survive subsequent fine-tuning? Rather than focusing on downstream interventions to mitigate forgetting of upstream capabilities, we study how upstream training choices - that is, the manner in which a capability is acquired - shape how...
-
-### Network Performance Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/0hg1vqx1f1l2
-- Summary: May 12, 19:48 UTCResolved - This incident has been resolved.May 12, 19:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 19:07 UTCIdentified - The issue has been identified and a fix is being implemented.May 12, 19:04 UTCInvestigating - Cloudflare is...
-
-### All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.12671
-- Summary: In this paper, we present empirical and theoretical evidence against a central but largely implicit assumption in circuit and sheaf discovery (CSD), which we term the Functional Anisotropy Hypothesis: the idea that functions in large language models (LLMs) are localised to a unique or near-unique...
-
-### Elevated Error Rate for Vaults and Credentials
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/n0c72xml12l4
-- Summary: May 12, 18:57 UTCResolved - This incident has been resolved.May 12, 18:51 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 12, 18:47 UTCInvestigating - We are currently investigating this issue.
-
-### CRAFT: Clinical Reward-Aligned Finetuning for Medical Image Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.12650
-- Summary: Foundation diffusion models can generate photorealistic natural images, but adapting them to medical imaging remains challenging. In medical adaptation, limited labeled data can exacerbate hallucination-like and clinically implausible synthesis, while existing metrics such as FID or Inception Score...
-
-### Microsoft Patches 137 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-patches-137-vulnerabilities/
-- Summary: Fresh security updates resolve critical flaws in Azure, Windows, Dynamics 365, and the SSO Plugin for Jira &#038; Confluence. The post Microsoft Patches 137 Vulnerabilities appeared first on SecurityWeek.
-
-### Search Your Block Floating Point Scales!
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.12464
-- Summary: Quantization has emerged as a standard technique for accelerating inference for generative models by enabling faster low-precision computations and reduced memory transfers. Recently, GPU accelerators have added first-class support for microscaling Block Floating Point (BFP) formats. Standard BFP...
 
