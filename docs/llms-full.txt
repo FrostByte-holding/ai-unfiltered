@@ -6,6 +6,18 @@
 
 ## 2026-05-20
 
+### Incident with Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/g6ffrm0rfvz9
+- Summary: May 20, 18:17 UTCUpdate - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.May 20, 17:52 UTCMonitoring - The degradation affecting Actions has been mitigated. We are monitoring to ensure...
+
+### Workers subrequests returning 1006
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/37szr7sz1t5r
+- Summary: May 20, 17:21 UTCIdentified - We have identified the problem and working to resolve.May 20, 17:19 UTCInvestigating - Cloudflare is aware of and investigating customer reports of some Workers subrequests returning 1006 errors.We are working to analyse and mitigate this problem. More updates to...
+
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
 - Category: incidents
@@ -320,6 +332,12 @@
 - URL: https://pandaily.com/matrix-super-intelligence-matrx-3-humanoid-robot-2027-hd9s
 - Summary: Matrix Super Intelligence, a Pudong Zhangjiang company, has unveiled the MATRIX-3 full-size humanoid robot standing 170cm tall and weighing 65kg, targeting mass production of 100,000 units by 2027.
 
+### Beyond Prediction Accuracy: Target-Space Recovery Profiles for Evaluating Model-Brain Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20127
+- Summary: Artificial vision models are often evaluated against the human visual cortex by measuring how accurately their internal representations predict brain responses. However, prediction accuracy alone does not indicate which dimensions of the target brain's response space are recovered. Here, we...
+
 ### Cloudflare Dashboard and Cloudflare API service issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -361,6 +379,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
 - Summary: Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9,...
+
+### JAXenstein: Accelerated Benchmarking for First-Person Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19926
+- Summary: The progression of reinforcement learning algorithms have been driven by challenging benchmarks. The rate in which a researcher can iterate on a problem setting directly impacts the speed of algorithm development. Modern machine learning has produced tools that allow for fast and scalable algorithm...
+
+### CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19837
+- Summary: Adverse weather (rain, fog, sand, and snow) degrades camera-based object detection in autonomous vehicles. Existing enhancement-then-detect approaches stall the safety-critical perception loop, violating hard real-time requirements. Progress on this problem is also constrained by an...
 
 ### Understanding the modern cybercrime landscape
 - Source: MIT Tech Review AI
@@ -415,6 +445,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/63gg68hd2kk3
 - Summary: May 19, 11:09 UTCIdentified - The issue has been identified and a fix is being implemented.May 19, 10:56 UTCInvestigating - Cloudflare is investigating availability issues with several workers AI models.
+
+### Transforming Constraint Programs to Input for Local Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19671
+- Summary: Applying local search algorithms to combinatorial optimization problems is not an easy feat. Typically, human intervention is required to compile the constraints to input data for some metaheuristic algorithm. In this paper, we establish a link between symmetry properties of constraint optimization...
 
 ### Cofoe and Tencent's Sprague Lab Launch AI Bone Conduction Hearing Aid X5
 - Source: Pandaily
@@ -523,6 +559,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier
 - Summary: a quiet day before google i/o lets us amplify a notable blogpost
+
+### Targeted Downstream-Agnostic Attack
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19446
+- Summary: Recently, pre-trained encoders have gained widespread use due to their strong capability in representation extraction. However, they are vulnerable to downstream-agnostic attacks (DAAs). Existing DAA methods operate under a permissive threat model, where an attack is successful if the generated...
 
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
@@ -2974,46 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.13337
 - Summary: Security Information and Event Management (SIEM) systems aggregate log data from heterogeneous sources to detect coordinated attacks. Traditional rule-based correlation engines struggle to classify multi-step web application attacks because they examine each event without reference to the...
-
-### Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13335
-- Summary: Embodied agents in household environments must plan under partial observation: they need to remember objects, track state changes, and recover when actions fail. Existing benchmarks only partially test this ability. Egocentric video datasets capture realistic human activities but remain passive,...
-
-### Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html
-- Summary: Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Critical, 104 are rated Important, three are rated Moderate, and one is rated Low in...
-
-### Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-patches-critical-zero-click-outlook-vulnerability-threatening-enterprises/
-- Summary: CVE-2026-40361 is similar to a vulnerability found a decade ago, BadWinmail, which at the time was dubbed an “enterprise killer”. The post Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises appeared first on SecurityWeek.
-
-### Codex 5.5 engines are experiencing high error rate
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KRG6MF021JQ997JCR7R8Y9A0
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex Web (Operational) CLI (Operational) App (Operational) VS Code extension (Operational) Codex API (Operational)
-
-### A plan to make drugs in orbit is going commercial
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/
-- Summary: Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use...
-
-### The Readability Spectrum: Patterns, Issues, and Prompt Effects in LLM-Generated Code
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13280
-- Summary: As Large Language Models (LLMs) are transforming software development, the functional quality of generated code has become a central focus, leaving readability, one of critical non-functional attributes, understudied. Given that LLM-generated code still needs human review before adoption, it is...
-
-### Unified generalization analysis for physics informed neural networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13260
-- Summary: Physics-Informed Neural Networks (PINNs) and their variational counterparts (VPINNs) are neural networks that incorporate physical laws, making them useful for scientific problems. Existing generalization analyses for PINNs and VPINNs remain limited, often requiring restrictive assumptions such as...
 

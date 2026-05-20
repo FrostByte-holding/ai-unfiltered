@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 20 May 2026 15:26:50 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 18:20:38 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Incident with Actions</title>
+            <link>https://www.githubstatus.com/incidents/g6ffrm0rfvz9</link>
+            <guid>https://www.githubstatus.com/incidents/g6ffrm0rfvz9</guid>
+            <pubDate>Wed, 20 May 2026 18:17:16 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/g6ffrm0rfvz9">GitHub Status</source>
+            <category>incidents</category>
+            <description>May 20, 18:17 UTCUpdate - We&#x27;ve applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.May 20, 17:52 UTCMonitoring - The degradation affecting Actions has been mitigated. We are monitoring to ensure...</description>
+        </item>
+        <item>
+            <title>Workers subrequests returning 1006</title>
+            <link>https://www.cloudflarestatus.com/incidents/37szr7sz1t5r</link>
+            <guid>https://www.cloudflarestatus.com/incidents/37szr7sz1t5r</guid>
+            <pubDate>Wed, 20 May 2026 17:21:06 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/37szr7sz1t5r">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 20, 17:21 UTCIdentified - We have identified the problem and working to resolve.May 20, 17:19 UTCInvestigating - Cloudflare is aware of and investigating customer reports of some Workers subrequests returning 1006 errors.We are working to analyse and mitigate this problem. More updates to...</description>
+        </item>
         <item>
             <title>Elevated errors on Claude Opus 4.7</title>
             <link>https://status.claude.com/incidents/4znk51f63g93</link>
@@ -378,6 +396,15 @@
             <description></description>
         </item>
         <item>
+            <title>Beyond Prediction Accuracy: Target-Space Recovery Profiles for Evaluating Model-Brain Alignment</title>
+            <link>https://tldr.takara.ai/p/2605.20127</link>
+            <guid>https://tldr.takara.ai/p/2605.20127</guid>
+            <pubDate>Tue, 19 May 2026 17:14:27 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.20127">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Artificial vision models are often evaluated against the human visual cortex by measuring how accurately their internal representations predict brain responses. However, prediction accuracy alone does not indicate which dimensions of the target brain&#x27;s response space are recovered. Here, we...</description>
+        </item>
+        <item>
             <title>Cloudflare Dashboard and Cloudflare API service issues</title>
             <link>https://www.cloudflarestatus.com/incidents/5lpb2jx8f6wy</link>
             <guid>https://www.cloudflarestatus.com/incidents/5lpb2jx8f6wy</guid>
@@ -387,15 +414,6 @@
             <description>May 19, 16:48 UTCResolved - This incident has been resolved.May 19, 15:54 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 15:36 UTCIdentified - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving...</description>
         </item>
         <item>
-            <title>Digital Experience in Cloudflare Zero Trust Latency</title>
-            <link>https://www.cloudflarestatus.com/incidents/p0kmprcgvwg2</link>
-            <guid>https://www.cloudflarestatus.com/incidents/p0kmprcgvwg2</guid>
-            <pubDate>Tue, 19 May 2026 15:25:56 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/p0kmprcgvwg2">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 19, 15:25 UTCInvestigating - Actions related to Digital Experience are delayed, Cloudflare is aware and investigating.</description>
-        </item>
-        <item>
             <title>Elevated errors on Claude Opus 4.7</title>
             <link>https://status.claude.com/incidents/f9yk8lqw384x</link>
             <guid>https://status.claude.com/incidents/f9yk8lqw384x</guid>
@@ -403,6 +421,24 @@
             <source url="https://status.claude.com/incidents/f9yk8lqw384x">Anthropic Status</source>
             <category>incidents</category>
             <description>May 19, 15:21 UTCUpdate - We are continuing to monitor for any further issues.May 19, 15:19 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 14:03 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>JAXenstein: Accelerated Benchmarking for First-Person Environments</title>
+            <link>https://tldr.takara.ai/p/2605.19926</link>
+            <guid>https://tldr.takara.ai/p/2605.19926</guid>
+            <pubDate>Tue, 19 May 2026 14:47:55 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.19926">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>The progression of reinforcement learning algorithms have been driven by challenging benchmarks. The rate in which a researcher can iterate on a problem setting directly impacts the speed of algorithm development. Modern machine learning has produced tools that allow for fast and scalable algorithm...</description>
+        </item>
+        <item>
+            <title>CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving</title>
+            <link>https://tldr.takara.ai/p/2605.19837</link>
+            <guid>https://tldr.takara.ai/p/2605.19837</guid>
+            <pubDate>Tue, 19 May 2026 13:30:28 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.19837">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Adverse weather (rain, fog, sand, and snow) degrades camera-based object detection in autonomous vehicles. Existing enhancement-then-detect approaches stall the safety-critical perception loop, violating hard real-time requirements. Progress on this problem is also constrained by an...</description>
         </item>
         <item>
             <title>Understanding the modern cybercrime landscape</title>
@@ -421,42 +457,6 @@
             <source url="https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/">MIT Tech Review AI</source>
             <category>research</category>
             <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why Elon Musk lost his suit against OpenAI Elon Musk has lost his lawsuit against OpenAI, which centered on whether the company breached its...</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Opus 4.7</title>
-            <link>https://status.claude.com/incidents/qkwdrjxvkb9s</link>
-            <guid>https://status.claude.com/incidents/qkwdrjxvkb9s</guid>
-            <pubDate>Tue, 19 May 2026 10:08:03 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/qkwdrjxvkb9s">Anthropic Status</source>
-            <category>incidents</category>
-            <description>May 19, 10:08 UTCResolved - This incident has been resolved.May 19, 08:41 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>[AINews] How to land a job at a frontier lab (on Pretraining)</title>
-            <link>https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier</link>
-            <guid>https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier</guid>
-            <pubDate>Tue, 19 May 2026 07:31:40 +0000</pubDate>
-            <source url="https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier">Latent Space</source>
-            <category>open-source</category>
-            <description>a quiet day before google i/o lets us amplify a notable blogpost</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Haiku 4.5</title>
-            <link>https://status.claude.com/incidents/0y2vzr60dktt</link>
-            <guid>https://status.claude.com/incidents/0y2vzr60dktt</guid>
-            <pubDate>Tue, 19 May 2026 07:00:04 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/0y2vzr60dktt">Anthropic Status</source>
-            <category>incidents</category>
-            <description>May 19, 07:00 UTCInvestigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Introducing the Ettin Reranker Family</title>
-            <link>https://huggingface.co/blog/ettin-reranker</link>
-            <guid>https://huggingface.co/blog/ettin-reranker</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-            <source url="https://huggingface.co/blog/ettin-reranker">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
         </item>
     </channel>
 </rss>
