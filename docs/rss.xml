@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 20 May 2026 18:20:38 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 21:57:36 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Cloudflare Access delayed audit logs</title>
+            <link>https://www.cloudflarestatus.com/incidents/w1b16hl734dp</link>
+            <guid>https://www.cloudflarestatus.com/incidents/w1b16hl734dp</guid>
+            <pubDate>Wed, 20 May 2026 21:52:15 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/w1b16hl734dp">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 20, 21:52 UTCResolved - new audit logs are processing as expectedMay 20, 19:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 20, 19:40 UTCIdentified - An issue with delay audit logs for Access has been identified. A fix is being prepared to resolve the delayed...</description>
+        </item>
         <item>
             <title>Incident with Actions</title>
             <link>https://www.githubstatus.com/incidents/g6ffrm0rfvz9</link>
@@ -25,6 +34,15 @@
             <source url="https://www.cloudflarestatus.com/incidents/37szr7sz1t5r">Cloudflare Status</source>
             <category>incidents</category>
             <description>May 20, 17:21 UTCIdentified - We have identified the problem and working to resolve.May 20, 17:19 UTCInvestigating - Cloudflare is aware of and investigating customer reports of some Workers subrequests returning 1006 errors.We are working to analyse and mitigate this problem. More updates to...</description>
+        </item>
+        <item>
+            <title>Elevated number of 520 errors in Europe region</title>
+            <link>https://www.cloudflarestatus.com/incidents/zb01gngwrghg</link>
+            <guid>https://www.cloudflarestatus.com/incidents/zb01gngwrghg</guid>
+            <pubDate>Wed, 20 May 2026 15:00:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/zb01gngwrghg">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 20, 15:00 UTCResolved - Between 15:00-15:20 UTC Customer traffic in Europe region may have experienced an increased rate of 520 errors</description>
         </item>
         <item>
             <title>Elevated errors on Claude Opus 4.7</title>
@@ -378,15 +396,6 @@
             <description>Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins...</description>
         </item>
         <item>
-            <title>Intermittent Cloudflare Dashboard SSO login failures with Okta</title>
-            <link>https://www.cloudflarestatus.com/incidents/0myxk19xsyby</link>
-            <guid>https://www.cloudflarestatus.com/incidents/0myxk19xsyby</guid>
-            <pubDate>Tue, 19 May 2026 20:10:37 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/0myxk19xsyby">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 19, 20:10 UTCResolved - Cloudflare engineering has ruled out any service degrading within Cloudflare systems. Customers are advised to review their Okta authentication logs for potential errors. A status update will be provided if Cloudflare Engineering determines the specific Okta issue...</description>
-        </item>
-        <item>
             <title>OlmoEarth v1.1: A more efficient family of models</title>
             <link>https://huggingface.co/blog/allenai/olmoearth-v1-1</link>
             <guid>https://huggingface.co/blog/allenai/olmoearth-v1-1</guid>
@@ -394,6 +403,15 @@
             <source url="https://huggingface.co/blog/allenai/olmoearth-v1-1">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
+        </item>
+        <item>
+            <title>HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands</title>
+            <link>https://tldr.takara.ai/p/2605.20167</link>
+            <guid>https://tldr.takara.ai/p/2605.20167</guid>
+            <pubDate>Tue, 19 May 2026 17:51:46 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.20167">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Flash floods in Bangladesh&#x27;s haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These basins are flat. Water does not behave like it does on the Brahmaputra. We built HaorFloodAlert, a...</description>
         </item>
         <item>
             <title>Beyond Prediction Accuracy: Target-Space Recovery Profiles for Evaluating Model-Brain Alignment</title>
@@ -405,15 +423,6 @@
             <description>Artificial vision models are often evaluated against the human visual cortex by measuring how accurately their internal representations predict brain responses. However, prediction accuracy alone does not indicate which dimensions of the target brain&#x27;s response space are recovered. Here, we...</description>
         </item>
         <item>
-            <title>Cloudflare Dashboard and Cloudflare API service issues</title>
-            <link>https://www.cloudflarestatus.com/incidents/5lpb2jx8f6wy</link>
-            <guid>https://www.cloudflarestatus.com/incidents/5lpb2jx8f6wy</guid>
-            <pubDate>Tue, 19 May 2026 16:48:47 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/5lpb2jx8f6wy">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 19, 16:48 UTCResolved - This incident has been resolved.May 19, 15:54 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 15:36 UTCIdentified - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the serving...</description>
-        </item>
-        <item>
             <title>Elevated errors on Claude Opus 4.7</title>
             <link>https://status.claude.com/incidents/f9yk8lqw384x</link>
             <guid>https://status.claude.com/incidents/f9yk8lqw384x</guid>
@@ -421,6 +430,15 @@
             <source url="https://status.claude.com/incidents/f9yk8lqw384x">Anthropic Status</source>
             <category>incidents</category>
             <description>May 19, 15:21 UTCUpdate - We are continuing to monitor for any further issues.May 19, 15:19 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 14:03 UTCInvestigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>StruMPL: Multi-task Dense Regression under Disjoint Partial Supervision and MNAR Labels</title>
+            <link>https://tldr.takara.ai/p/2605.19931</link>
+            <guid>https://tldr.takara.ai/p/2605.19931</guid>
+            <pubDate>Tue, 19 May 2026 14:51:12 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.19931">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Estimating forest aboveground biomass (AGB) from Earth observation combines two structurally incompatible label sources: spaceborne lidar provides canopy structure at millions of locations but no biomass estimate, and ground-based plots provide biomass at thousands of biased locations but no...</description>
         </item>
         <item>
             <title>JAXenstein: Accelerated Benchmarking for First-Person Environments</title>
@@ -432,31 +450,13 @@
             <description>The progression of reinforcement learning algorithms have been driven by challenging benchmarks. The rate in which a researcher can iterate on a problem setting directly impacts the speed of algorithm development. Modern machine learning has produced tools that allow for fast and scalable algorithm...</description>
         </item>
         <item>
-            <title>CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving</title>
-            <link>https://tldr.takara.ai/p/2605.19837</link>
-            <guid>https://tldr.takara.ai/p/2605.19837</guid>
-            <pubDate>Tue, 19 May 2026 13:30:28 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2605.19837">HF Daily Papers</source>
+            <title>Structured Layout Priors for Robust Out-of-Distribution Visual Document Understanding</title>
+            <link>https://tldr.takara.ai/p/2605.19866</link>
+            <guid>https://tldr.takara.ai/p/2605.19866</guid>
+            <pubDate>Tue, 19 May 2026 13:58:24 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.19866">HF Daily Papers</source>
             <category>open-source</category>
-            <description>Adverse weather (rain, fog, sand, and snow) degrades camera-based object detection in autonomous vehicles. Existing enhancement-then-detect approaches stall the safety-critical perception loop, violating hard real-time requirements. Progress on this problem is also constrained by an...</description>
-        </item>
-        <item>
-            <title>Understanding the modern cybercrime landscape</title>
-            <link>https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/</link>
-            <guid>https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/</guid>
-            <pubDate>Tue, 19 May 2026 13:00:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>Throughout 2025, HPE observed significant changes in how cybercriminals operate. Analyzing real-world threats, our HPE Threat Labs highlighted an industrialization of the cyber criminals’ methods in its new In the Wild Report, enabling greater scale, speed and structure in their campaigns. They...</description>
-        </item>
-        <item>
-            <title>The Download: Musk v. Altman, smart glasses for warfare, and Google I/O</title>
-            <link>https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/</link>
-            <guid>https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/</guid>
-            <pubDate>Tue, 19 May 2026 12:10:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Here’s why Elon Musk lost his suit against OpenAI Elon Musk has lost his lawsuit against OpenAI, which centered on whether the company breached its...</description>
+            <description>Vision-Language Models (VLMs) parse documents end-to-end but frequently break down on layouts unlike those seen in training. We attribute this to a two-hop bottleneck: before the decoder can extract content (Hop 2), it must first classify and localize the enclosing layout entity (Hop 1), and when...</description>
         </item>
     </channel>
 </rss>

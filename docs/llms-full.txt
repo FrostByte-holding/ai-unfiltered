@@ -6,6 +6,12 @@
 
 ## 2026-05-20
 
+### Cloudflare Access delayed audit logs
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/w1b16hl734dp
+- Summary: May 20, 21:52 UTCResolved - new audit logs are processing as expectedMay 20, 19:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 20, 19:40 UTCIdentified - An issue with delay audit logs for Access has been identified. A fix is being prepared to resolve the delayed...
+
 ### Incident with Actions
 - Source: GitHub Status
 - Category: incidents
@@ -17,6 +23,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/37szr7sz1t5r
 - Summary: May 20, 17:21 UTCIdentified - We have identified the problem and working to resolve.May 20, 17:19 UTCInvestigating - Cloudflare is aware of and investigating customer reports of some Workers subrequests returning 1006 errors.We are working to analyse and mitigate this problem. More updates to...
+
+### Elevated number of 520 errors in Europe region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/zb01gngwrghg
+- Summary: May 20, 15:00 UTCResolved - Between 15:00-15:20 UTC Customer traffic in Europe region may have experienced an increased rate of 520 errors
 
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
@@ -302,6 +314,12 @@
 - URL: https://pandaily.com/cofoe-and-tencent-tianlai-lab-launch-ai-bone-conduction-hearing-aid-x5
 - Summary: Cofoe Medical, in collaboration with Tencent Tianlai Lab (Tencent's in-house audio and AI research laboratory), has launched the X5 Bone Conduction Hearing Ai...
 
+### HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20167
+- Summary: Flash floods in Bangladesh's haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These basins are flat. Water does not behave like it does on the Brahmaputra. We built HaorFloodAlert, a...
+
 ### Horizon Robotics Open-Sources HoloMotion-1: 4B Robot Cerebellum Model Running 300FPS on Device
 - Source: Pandaily
 - Category: chinese-ai
@@ -380,11 +398,23 @@
 - URL: https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
 - Summary: Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9,...
 
+### StruMPL: Multi-task Dense Regression under Disjoint Partial Supervision and MNAR Labels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19931
+- Summary: Estimating forest aboveground biomass (AGB) from Earth observation combines two structurally incompatible label sources: spaceborne lidar provides canopy structure at millions of locations but no biomass estimate, and ground-based plots provide biomass at thousands of biased locations but no...
+
 ### JAXenstein: Accelerated Benchmarking for First-Person Environments
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.19926
 - Summary: The progression of reinforcement learning algorithms have been driven by challenging benchmarks. The rate in which a researcher can iterate on a problem setting directly impacts the speed of algorithm development. Modern machine learning has produced tools that allow for fast and scalable algorithm...
+
+### Structured Layout Priors for Robust Out-of-Distribution Visual Document Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19866
+- Summary: Vision-Language Models (VLMs) parse documents end-to-end but frequently break down on layouts unlike those seen in training. We attribute this to a two-hop bottleneck: before the decoder can extract content (Hop 2), it must first classify and localize the enclosing layout entity (Hop 1), and when...
 
 ### CADENet: Condition-Adaptive Asynchronous Dual-Stream Enhancement Network for Adverse Weather Perception in Autonomous Driving
 - Source: HF Daily Papers
@@ -548,6 +578,12 @@
 - URL: https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html
 - Summary: Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. "These vulnerabilities could have...
 
+### ARC-RL: A Reinforcement Learning Playground Inspired by ARC Raiders
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19503
+- Summary: Reinforcement learning for legged locomotion has matured into a stack of multi-component reward functions and physics-engine benchmarks whose morphologies are uniformly derived from real commercial hardware. Game NPCs, however, are bound by stylistic constraints absent from sim-to-real robotics and...
+
 ### Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
 - Source: The Hacker News
 - Category: security
@@ -625,6 +661,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/cgwwyh79gpm3
 - Summary: May 19, 04:51 UTCResolved - This issue has been resolved.May 19, 04:46 UTCMonitoring - From 04:34–04:42 UTC, we saw elevated errors and latency on requests within the Claude.ai applications. Additionally, users may have experienced errors when attempting to login, including authenticating Claude...
+
+### Next-Acceleration-Scale Prediction for Autoregressive MRI Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19354
+- Summary: MRI reconstruction is an inherently ill-posed inverse problem, since incomplete measurements admit many plausible solutions. This ambiguity becomes more severe under high acceleration, where pixel-domain continuous predictors tend to average over feasible reconstructions and suppress high-frequency...
 
 ### Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution
 - Source: arXiv AI
@@ -2974,46 +3016,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/sb7byp4h7yp8
 - Summary: May 13, 11:57 UTCResolved - This incident has been resolved.May 13, 11:48 UTCMonitoring - We are seeing recovery and currently monitoring at this time.May 13, 11:25 UTCInvestigating - We are currently investigating this issue.
-
-### [Webinar] Why Your AppSec Tools Miss the "Lethal Path" (and How to Fix It)
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html
-- Summary: TL;DR: Stop chasing thousands of "toast" alerts. Join experts from Wiz and Okta/GitLab to learn how hackers connect tiny flaws to build a "Lethal Chain" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time...
-
-### Backbone is All You Need: Assessing Vulnerabilities of Frozen Foundation Models in Synthetic Image Forensics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13381
-- Summary: As AI-generated synthetic images become increasingly realistic, Vision Transformers (ViTs) have emerged as a cornerstone of modern deepfake detection. However, the prevailing reliance on frozen, pre-trained backbones introduces a subtle yet critical vulnerability. In this work, we present the...
-
-### Most Remediation Programs Never Confirm the Fix Actually Worked
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html
-- Summary: Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative seven days. The Verizon 2025 DBIR puts median time to remediate edge device...
-
-### Exploiting Pre-trained Encoder-Decoder Transformers for Sequence-to-Sequence Constituent Parsing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13373
-- Summary: To achieve deep natural language understanding, syntactic constituent parsing plays a crucial role and is widely required by many artificial intelligence systems for processing both text and speech. A recent approach involves using standard sequence-to-sequence models to handle constituent parsing...
-
-### 716,000 Impacted by OpenLoop Health Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/
-- Summary: The telehealth platform was hacked in January, and users’ personal information was exfiltrated from its systems. The post 716,000 Impacted by OpenLoop Health Data Breach appeared first on SecurityWeek.
-
-### Hierarchical Transformer Preconditioning for Interactive Physics Simulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13343
-- Summary: Neural preconditioners for real-time physics simulation offer promising data-driven priors, but they often fail to capture long-range couplings efficiently because they inherit local message passing or sparse-operator access patterns. We introduce the Hierarchical Transformer Preconditioner, a...
-
-### Context-Aware Web Attack Detection in Open-Source SIEM Systems via MITRE ATT&CK-Enriched Behavioral Profiling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.13337
-- Summary: Security Information and Event Management (SIEM) systems aggregate log data from heterogeneous sources to detect coordinated attacks. Traditional rule-based correlation engines struggle to classify multi-step web application attacks because they examine each event without reference to the...
 
