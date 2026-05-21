@@ -279,6 +279,24 @@
 - URL: https://www.githubstatus.com/incidents/g6ffrm0rfvz9
 - Summary: May 20, 18:17 UTCUpdate - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.May 20, 17:52 UTCMonitoring - The degradation affecting Actions has been mitigated. We are monitoring to ensure...
 
+### EvoStruct: Bridging Evolutionary and Structural Priors for Antibody CDR Design via Protein Language Model Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21485
+- Summary: Equivariant graph neural network (GNN) methods for antibody complementarity-determining region (CDR) design achieve the highest sequence recovery but suffer from severe vocabulary collapse. The current best GNN methods over-predict very few amino acids, such as tyrosine and glycine, while ignoring...
+
+### WikiVQABench: A Knowledge-Grounded Visual Question Answering Benchmark from Wikipedia and Wikidata
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21479
+- Summary: Visual Question Answering (VQA) benchmarks have largely emphasized perception-based tasks that can be solved from visual content alone. In contrast, many real-world scenarios require external knowledge that is not directly observable in the image to answer correctly. We introduce WikiVQABench, a...
+
+### Mem-$π$: Adaptive Memory through Learning When and What to Generate
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21463
+- Summary: We present Mem-$π$, a framework for adaptive memory in large language model (LLM) agents, where useful guidance is generated on demand rather than retrieved from external memory stores. Existing memory-augmented agents typically rely on similarity-based retrieval from episodic memory banks or skill...
+
 ### Workers subrequests returning 1006
 - Source: Cloudflare Status
 - Category: incidents
@@ -381,6 +399,12 @@
 - URL: https://tldr.takara.ai/p/2605.21108
 - Summary: Latent state space systems are ubiquitous in statistical modelling, arising naturally when a time series is observed through a noisy measurement function, however training deep state space models (DSSM) at scale remains difficult. Two largely distinct strategies and literatures have developed...
 
+### Improved Guarantees for Constrained Online Convex Optimization via Self-Contraction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21107
+- Summary: We consider Constrained Online Convex Optimization (COCO) with adversarially chosen constraints. At each round, the learner chooses an action before observing the loss and constraint function for that round. The goal is to achieve small static regret against the best point satisfying all...
+
 ### The Download: fully artificial chicken eggs and why Musk lost
 - Source: MIT Tech Review AI
 - Category: research
@@ -470,6 +494,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/vpwz6hxsvgs3
 - Summary: May 20, 08:49 UTCResolved - This incident has been resolved.May 20, 08:31 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 20, 08:14 UTCInvestigating - We are currently investigating this issue.
+
+### FruitEnsemble: MLLM-Guided Arbitration for Heterogeneous ensemble in Fine-Grained Fruit Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20892
+- Summary: Fine-grained fruit classification is a critical yet challenging task in agricultural computer vision, primarily hindered by a severe shortage of high-quality datasets and the high visual similarity between classes. To address these challenges, we first constructed a comprehensive dataset comprising...
 
 ### Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit
 - Source: The Hacker News
@@ -2987,34 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html
 - Summary: Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module...
-
-### Mitigating Data Scarcity in Psychological Defense Classification with Context-Aware Synthetic Augmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14380
-- Summary: Psychological defense mechanisms (PDMs) are unconscious cognitive processes that modulate how individuals perceive and respond to emotional distress. Automatically classifying PDMs from text is clinically valuable but severely hindered by data scarcity and class imbalance, challenges which...
-
-### Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14366
-- Summary: Extending large language models (LLMs) to low-resource languages often incurs an "alignment tax": improvements in the target language come at the cost of catastrophic forgetting in general capabilities. We argue that this trade-off arises from the rigidity of supervised fine-tuning (SFT), which...
-
-### MoRe: Modular Representations for Principled Continual Representation Learning on Squantial Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14364
-- Summary: Continual learning requires models to adapt to new data while preserving previously acquired knowledge. At its core, this challenge can be viewed as principled one-step adaptation: incorporating new information with minimal interference to existing representations. Most existing approaches address...
-
-### Shanghai JetLab Power Technology: Plasma Thrusters Bring Nuclear Fusion Tech to Space
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shanghai-jet-lab-power-technology-plasma-thrusters-bring-nuclear-fusion-tech-to-space
-- Summary: Shanghai JetLab Power Technology is adapting plasma thruster technology originally developed for nuclear fusion research to enable 'space refueling' for satellites in ultra-low Earth orbit — turning decades of fusion R&amp;D into a commercial space propulsion breakthrough.
-
-### SenseTime Launches Embodied AI Convenience Store with Humanoid Robot Clerks in Shanghai
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sensetime-embodied-ai-convenience-store-humanoid-robot-shanghai
-- Summary: SenseTime has deployed a chain of embodied AI convenience stores in Shanghai, where humanoid robots handle up to 400 orders per day — making coffee, dispensing ice cream, and greeting customers autonomously, marking a significant step toward full retail task automation.
 
