@@ -6,6 +6,23 @@
 
 ## 2026-05-21
 
+### Elevated errors on Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/zvlgr3k8lny0
+- Summary: May 21, 21:08 UTCResolved - This incident has been resolved.May 21, 20:42 UTCMonitoring - We have applied a fix and success rates for requests on Claude.ai have returned to normal. We are monitoring closely to ensure no further issues.May 21, 20:24 UTCInvestigating - We are investigating elevated...
+
+### Giving Agents Computers — Ivan Burazin, Daytona
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/daytona
+- Summary: We chat with Daytona's CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud
+
+### We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/
+
 ### Elevated error rates on ChatGPT paid plans
 - Source: OpenAI Status
 - Category: incidents
@@ -315,6 +332,18 @@
 - URL: https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html
 - Summary: Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and...
 
+### On the Regularity and Generalization of One-Step Wasserstein-guided Generative Models for PDE-Induced Measures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21388
+- Summary: Despite the remarkable empirical success of generative models, the available theory on their statistical accuracy in scientific computing remains largely pessimistic. This paper develops a theoretical framework for understanding the regularity of transport maps and the generalization properties of...
+
+### CRAFT: Conflict-Resolved Aggregation for Federated Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21317
+- Summary: The aggregation of conflicting client updates remains a fundamental bottleneck in federated learning (FL) under heterogeneous data distributions. Naive averaging can produce a global update that improves the global objective while conflicting with specific clients, causing degradation for those...
+
 ### Quantum Bridge Raises $8 Million for Quantum-Safe Key Distribution Solution
 - Source: Security Week
 - Category: security
@@ -332,6 +361,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-rolls-out-mitigations-for-yellowkey-bitlocker-bypass/
 - Summary: The exploitation is mitigated by preventing the FsTx Auto Recovery Utility from starting when the WinRE image launches. The post Microsoft Rolls Out Mitigations for &#8216;YellowKey&#8217; BitLocker Bypass appeared first on SecurityWeek.
+
+### \textit{Stochastic} MeanFlow Policies: One-Step Generative Control with Entropic Mirror Descent
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21282
+- Summary: Online off-policy reinforcement learning (RL) is shaped by two coupled choices: the policy class and the update rule. Gaussian policies are fast and have tractable entropy, but struggle with multimodal action distributions. Generative policies are more expressive, but often require iterative...
 
 ### Elevated number of 520 errors in Europe region
 - Source: Cloudflare Status
@@ -368,6 +403,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/cd2wntsc21lq
 - Summary: May 20, 13:57 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 20, 13:06 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 502 errors in Buenos Aires. We are working to analyse and mitigate this problem. More updates to follow shortly.
+
+### Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21182
+- Summary: Manga is a culturally distinctive multimodal medium and one of the most influential forms of Japanese popular culture. As AI systems increasingly target manga understanding, OCR, and translation, Manga109 has become a foundational dataset for manga-related AI research. However, the current Manga109...
 
 ### 1Password Teams With OpenAI to Stop AI Coding Agents From Leaking Credentials
 - Source: Security Week
@@ -470,6 +511,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/lenovo-tianxi-ai-4-ecosystem-68bh
 - Summary: Lenovo Group has released the Tianxi AI 4.0 intelligent agent system, along with a full ecosystem of devices including a palm-sized AI host, PCs, smartphones, and tablets. Tianxi Claw features bionic memory, personal knowledge base, and AI simultaneous interpretation.
+
+### JobArabi: An Arabic Corpus and Analysis of Job Announcements from Social Media
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20960
+- Summary: This paper introduces JobArabi, a large-scale corpus of Arabic job announcements collected from social media between January 2024 and October 2025. The dataset contains 20,528 public posts from X and captures more than two years of employment-related discourse across Arabic-speaking online...
 
 ### A Deployment Audit of Release-Side Risk in Conformal Triage under Prevalence Shift
 - Source: HF Daily Papers
@@ -2969,52 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/kokoni-unveils-vggt-series-breakthroughs-in-3-d-perception-for-dynamic-high-fidelity-reconstruction
 - Summary: KOKONI and Tongji University researchers unveil VGGT series breakthroughs enabling dynamic high-fidelity 3D reconstruction for world models.
-
-### Zephyr Intelligence Files for Hong Kong IPO, Backed by New Energy Battery Thermal Safety Solutions
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zephyr-intelligence-files-hong-kong-ipo-battery-thermal-safety
-- Summary: Zephyr Intelligence, a new energy battery thermal safety specialist with 35.3% market share in heavy truck thermal management, files for Hong Kong IPO.
-
-### Contestable Multi-Agent Debate with Arena-based Argumentative Computation for Multimedia Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14495
-- Summary: Multimedia verification requires not only accurate conclusions but also transparent and contestable reasoning. We propose a contestable multi-agent framework that integrates multimodal large language models, external verification tools, and arena-based quantitative bipolar argumentation (A-QBAF) as...
-
-### Researcher Drops YellowKey, GreenPlasma Windows Zero-Days
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/researcher-drops-yellowkey-greenplasma-windows-zero-days/
-- Summary: YellowKey is a BitLocker bypass that requires physical access. GreenPlasma enables elevation of privileges to System. The post Researcher Drops YellowKey, GreenPlasma Windows Zero-Days appeared first on SecurityWeek.
-
-### New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html
-- Summary: Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security...
-
-### Focused PU learning from imbalanced data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14467
-- Summary: We propose a new method of learning from positive and unlabeled (PU) examples in highly imbalanced datasets. Many real-world problems, such as disease gene identification, targeted marketing, fraud detection, and recommender systems, are hard to address with machine learning methods, due to limited...
-
-### Collaborative Yet Personalized Policy Training: Single-Timescale Federated Actor-Critic
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14423
-- Summary: Despite the popularity of the actor-critic method and the practical needs of collaborative policy training, existing works typically either overlook environmental heterogeneity or give up personalization altogether by training a single shared policy across all agents. We consider a federated...
-
-### A Unified Knowledge Embedded Reinforcement Learning-based Framework for Generalized Capacitated Vehicle Routing Problems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.14416
-- Summary: The Capacitated Vehicle Routing Problem (CVRP) is a fundamental NP-hard problem with broad applications in logistics and transportation. Real-world CVRPs often involve diverse objectives and complex constraints, such as time windows or backhaul requirements, motivating the development of a unified...
-
-### 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html
-- Summary: Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module...
 
