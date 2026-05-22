@@ -5,9 +5,54 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 May 2026 14:43:45 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 17:54:01 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Audit Log Delays</title>
+            <link>https://www.cloudflarestatus.com/incidents/mms05jc4jw5g</link>
+            <guid>https://www.cloudflarestatus.com/incidents/mms05jc4jw5g</guid>
+            <pubDate>Fri, 22 May 2026 17:33:24 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/mms05jc4jw5g">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 22, 17:33 UTC Identified - The cause of this issue has been identified and a fix is being implemented. May 22, 16:55 UTC Investigating - Cloudflare Audit Log processing is running behind, causing a delay in timely delivery of audit data. This impacts v2 audit logs. v1 is unaffected.</description>
+        </item>
+        <item>
+            <title>Increase in users hitting Codex rate limits</title>
+            <link>https://status.openai.com//incidents/01KS88SRADTWQW27NYRAXMBAQN</link>
+            <guid>https://status.openai.com//incidents/01KS88SRADTWQW27NYRAXMBAQN</guid>
+            <pubDate>Fri, 22 May 2026 16:37:50 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KS88SRADTWQW27NYRAXMBAQN">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: InvestigatingWe are investigating the issue for the listed services.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance)</description>
+        </item>
+        <item>
+            <title>Lawmakers Demand Answers as CISA Tries to Contain Data Leak</title>
+            <link>https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</link>
+            <guid>https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</guid>
+            <pubDate>Fri, 22 May 2026 16:34:24 +0000</pubDate>
+            <source url="https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/">Krebs on Security</source>
+            <category>security</category>
+            <description>Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &amp;#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub...</description>
+        </item>
+        <item>
+            <title>Cloudflare Dashboard and Cloudflare API service issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/znll7lfnd35h</link>
+            <guid>https://www.cloudflarestatus.com/incidents/znll7lfnd35h</guid>
+            <pubDate>Fri, 22 May 2026 16:33:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/znll7lfnd35h">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 22, 16:33 UTC Resolved - Impacted APIs and the Cloudflare dashboard have fully recovered. May 22, 16:22 UTC Update - We have rolled back the affected service and are seeing impacted APIs and our dashboard begin to recover.We expect recovery to be gradual as in-memory caches (not our CDN caches)...</description>
+        </item>
+        <item>
+            <title>Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook</title>
+            <link>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</link>
+            <guid>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</guid>
+            <pubDate>Fri, 22 May 2026 15:25:59 +0000</pubDate>
+            <source url="https://huggingface.co/blog/Dharma-AI/specialization-beats-scale">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking</title>
             <link>https://www.securityweek.com/in-other-news-industrial-router-exploitation-cisa-kev-nomination-form-gas-station-hacking/</link>
@@ -412,51 +457,6 @@
             <source url="https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Storytelling is core to humanity&amp;#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&amp;#8217; innovation of natural pigments and charcoals for cave paintings to literal...</description>
-        </item>
-        <item>
-            <title>Elevated error rates on ChatGPT paid plans</title>
-            <link>https://status.openai.com//incidents/01KS5CYS472SA003BQSXSBM8EW</link>
-            <guid>https://status.openai.com//incidents/01KS5CYS472SA003BQSXSBM8EW</guid>
-            <pubDate>Thu, 21 May 2026 15:23:34 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KS5CYS472SA003BQSXSBM8EW">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)</description>
-        </item>
-        <item>
-            <title>Cloudflare Containers Issues</title>
-            <link>https://www.cloudflarestatus.com/incidents/hwtrvkrbzs70</link>
-            <guid>https://www.cloudflarestatus.com/incidents/hwtrvkrbzs70</guid>
-            <pubDate>Thu, 21 May 2026 14:38:00 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/hwtrvkrbzs70">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 21, 14:38 UTCInvestigating - Cloudflare is investigating issues with starting new containers. We are working to understand the full impact and mitigate this problem. More updates to follow shortly.</description>
-        </item>
-        <item>
-            <title>[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000</title>
-            <link>https://www.latent.space/p/ainews-openai-gpt-next-disproves</link>
-            <guid>https://www.latent.space/p/ainews-openai-gpt-next-disproves</guid>
-            <pubDate>Thu, 21 May 2026 07:28:36 +0000</pubDate>
-            <source url="https://www.latent.space/p/ainews-openai-gpt-next-disproves">Latent Space</source>
-            <category>open-source</category>
-            <description>a quiet day but a nice result in AI x mathematics</description>
-        </item>
-        <item>
-            <title>Increased 5XX errors in Porto Alegre and Curitiba, Brazil</title>
-            <link>https://www.cloudflarestatus.com/incidents/c7qvdbz1z2dn</link>
-            <guid>https://www.cloudflarestatus.com/incidents/c7qvdbz1z2dn</guid>
-            <pubDate>Thu, 21 May 2026 07:27:02 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/c7qvdbz1z2dn">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>May 21, 07:27 UTCResolved - Cloudflare saw an Increased 5XX errors in Porto Alegre and Curitiba, Brazil from 06:28 AM - 07:02 AM UTC. Issue has now been resolved</description>
-        </item>
-        <item>
-            <title>Railway: The Agent-Native Cloud — Jake Cooper</title>
-            <link>https://www.latent.space/p/railway</link>
-            <guid>https://www.latent.space/p/railway</guid>
-            <pubDate>Wed, 20 May 2026 22:42:06 +0000</pubDate>
-            <source url="https://www.latent.space/p/railway">Latent Space</source>
-            <category>open-source</category>
-            <description>3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs</description>
         </item>
     </channel>
 </rss>

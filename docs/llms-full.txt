@@ -6,6 +6,35 @@
 
 ## 2026-05-22
 
+### Audit Log Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mms05jc4jw5g
+- Summary: May 22, 17:33 UTC Identified - The cause of this issue has been identified and a fix is being implemented. May 22, 16:55 UTC Investigating - Cloudflare Audit Log processing is running behind, causing a delay in timely delivery of audit data. This impacts v2 audit logs. v1 is unaffected.
+
+### Increase in users hitting Codex rate limits
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KS88SRADTWQW27NYRAXMBAQN
+- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance)
+
+### Lawmakers Demand Answers as CISA Tries to Contain Data Leak
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
+- Summary: Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub...
+
+### Cloudflare Dashboard and Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/znll7lfnd35h
+- Summary: May 22, 16:33 UTC Resolved - Impacted APIs and the Cloudflare dashboard have fully recovered. May 22, 16:22 UTC Update - We have rolled back the affected service and are seeing impacted APIs and our dashboard begin to recover.We expect recovery to be gradual as in-memory caches (not our CDN caches)...
+
+### Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Dharma-AI/specialization-beats-scale
+
 ### In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking
 - Source: Security Week
 - Category: security
@@ -2987,34 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.13932
 - Summary: arXiv:2605.13932v1 Announce Type: new Abstract: Robust prediction of molecular properties under extreme out-of-distribution (OOD) scenarios is a pivotal bottleneck in AI-driven drug discovery. Current scaffold-splitting protocols fail to obstruct microscopic semantic overlap, predisposing models to...
-
-### Unsupervised learning of acquisition variability in structural connectomes via hybrid latent space modeling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.13933
-- Summary: arXiv:2605.13933v1 Announce Type: new Abstract: Acquisition differences across sites, scanners, and protocols in dMRI introduce variability that complicates structural connectome analysis. This motivates deep learning models that can represent high-dimensional connectomes in a low-dimensional space...
-
-### Beyond Mode-Seeking RL: Trajectory-Balance Post-Training for Diffusion Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.13935
-- Summary: arXiv:2605.13935v1 Announce Type: new Abstract: Diffusion language models are a promising alternative to autoregressive models, yet post-training methods for them largely adapt reward-maximizing objectives. We identify a central failure mode in this setting we call trajectory locking: sampled...
-
-### Merging Methods for Multilingual Knowledge Editing for Large Language Models: An Empirical Odyssey
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.13919
-- Summary: arXiv:2605.13919v1 Announce Type: new Abstract: Multilingual knowledge editing (MKE) remains challenging because language-specific edits interfere with one another, even when locate-then-edit methods work well in monolingual settings. This paper focuses on three issues: the effectiveness of vector...
-
-### VectraYX-Nano: A 42M-Parameter Spanish Cybersecurity Language Model with Curriculum Learning and Native Tool Use
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.13989
-- Summary: arXiv:2605.13989v1 Announce Type: new Abstract: We present VectraYX-Nano, a 41.95M-parameter decoder-only language model trained from scratch in Spanish for cybersecurity, with a Latin-American focus and native tool invocation via the Model Context Protocol (MCP). Four contributions: (i) Corpus:...
-
-### Mistletoe: Stealthy Acceleration-Collapse Attacks on Speculative Decoding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.14005
-- Summary: arXiv:2605.14005v1 Announce Type: new Abstract: Speculative decoding has become a widely adopted technique for accelerating large language model (LLM) inference by drafting multiple candidate tokens and verifying them with a target model in parallel. Its efficiency, however, critically depends on...
 
