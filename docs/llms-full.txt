@@ -6,6 +6,18 @@
 
 ## 2026-05-23
 
+### LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
+- Summary: A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts...
+
+### Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerability in question is CVE-2026-9082 (CVSS score:...
+
 ### [AINews] All Model Labs are now Agent Labs
 - Source: Latent Space
 - Category: open-source
@@ -687,6 +699,18 @@
 - URL: https://thehackernews.com/2026/05/github-internal-repositories-breached.html
 - Summary: GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension.&nbsp; The development comes as the Nx team revealed that the...
 
+### Format-Constraint Coupling in Knowledge Graph Construction from Statistical Tables
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21974
+- Summary: An extraction schema should not reduce knowledge graph fidelity. On statistical CSV, however, it can. We study country-by-year time-series matrices, a common layout on open-data portals. In this setting, serialization format and schema constraints interact super-additively. Their joint effect...
+
+### Entropy-Guided Self-Supervised Learning for Medical Image Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21970
+- Summary: Accurate and robust medical image classification is paramount for early disease diagnosis and treatment planning. However, challenges such as limited annotated data, high intra-class variability, and subtle inter-class differences often hinder the performance of deep learning models. This paper...
+
 ### POLAR-Bench: A Diagnostic Benchmark for Privacy-Utility Trade-offs in LLM Agents
 - Source: arXiv AI
 - Category: research
@@ -1260,6 +1284,12 @@
 - URL: https://tldr.takara.ai/p/2605.20865
 - Summary: Reinforcement learning with verifiable rewards (RLVR) plays a pivotal role in improving the reasoning ability of large language models. However, widely used PPO surrogate objectives are fundamentally local, as they rely on a local approximation of the exact policy gradient objective. While this...
 
+### Findings of the Counter Turing Test: AI-Generated Image Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20787
+- Summary: The rapid advancements in generative AI technologies, such as Stable Diffusion, DALL-E, and Midjourney, have significantly transformed the creation of synthetic visual content. While these models enable innovation across industries, they also pose serious challenges, including misinformation,...
+
 ### Grafana GitHub Breach Exposes Source Code via TanStack npm Attack
 - Source: The Hacker News
 - Category: security
@@ -1663,6 +1693,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/f9yk8lqw384x
 - Summary: May 19, 15:21 UTCUpdate - We are continuing to monitor for any further issues.May 19, 15:19 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 19, 14:03 UTCInvestigating - We are currently investigating this issue.
+
+### Your Neighbors Know: Leveraging Local Neighborhoods for Backdoor Detection in Decentralized Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19969
+- Summary: Decentralized learning (DL) is an emerging machine learning paradigm where nodes collaboratively train models without a central server. However, the collaborative nature of DL makes it vulnerable to backdoor attacks, where a model is taught to behave normally on standard inputs while executing...
 
 ### DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
 - Source: The Hacker News
@@ -2772,6 +2808,12 @@
 - URL: https://tldr.takara.ai/p/2605.17758
 - Summary: Synthetic data is widely used in healthcare to create datasets that are similar to original data but without the privacy concerns. Generating and evaluating synthetic data across privacy, utility and fairness is crucial for facilitating high quality data availability for downstream prediction tasks...
 
+### Divergence-Suppressing Couplings for Rectified Flow
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.17733
+- Summary: The promise of Rectified Flow rests on producing self-generated couplings whose trajectories are straight, or nearly so. In practice, trajectories generated by the base flow model can bend and intertwine, and the resulting coupling inherits this distortion. In this paper, we identify that such...
+
 ### EXG: Self-Evolving Agents with Experience Graphs
 - Source: HF Daily Papers
 - Category: open-source
@@ -2976,46 +3018,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/
 - Summary: In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who...
-
-### Gemini 3.5: frontier intelligence with action
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/
-- Summary: Gemini 3.5 is built to help you execute complex, agentic workflows.
-
-### Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html
-- Summary: The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is...
-
-### Bot Management Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pb698fm8kkzd
-- Summary: May 15, 16:55 UTCIdentified - The issue has been identified and a fix is being implemented.May 15, 14:57 UTCInvestigating - Cloudflare is investigating issues with our Bot Management feature. Customers may experience an increase in the percentage of traffic detected as automated. We are working to...
-
-### GPT5.5 Performance Degradation
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KRP6FM6HSKWB3MS1EJTY6AT4
-- Summary: Status: InvestigatingWe are investigating the issue for reports of GPT 5.5 performing worse for some users.
-
-### In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/
-- Summary: Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco&#8217;s Free AI Security Spec, Audi App Flaws appeared...
-
-### Cloudflare Account Level WAF Rule Editing Restricted
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/47l1wt0wnddq
-- Summary: May 15, 14:10 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 15, 14:06 UTCInvestigating - Cloudflare is investigating issues with editing existing Account level WAF rules. Zone level and new rules are not impacted. Rule operation is not impacted.
-
-### Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html
-- Summary: Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data,...
 
