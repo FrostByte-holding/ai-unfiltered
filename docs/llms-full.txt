@@ -1236,6 +1236,12 @@
 - URL: https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html
 - Summary: Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant...
 
+### OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under optimal Squared error quantization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21226
+- Summary: The key-value (KV) cache dominates memory bandwidth and footprint in long-context autoregressive inference. Recent rotation-preconditioned codecs (TurboQuant, PolarQuant) show that a structured random rotation followed by a per-coordinate scalar quantizer matched to an analytically tractable...
+
 ### Artificial Intelligence Reshapes Microwave Photonics
 - Source: HF Daily Papers
 - Category: open-source
@@ -1743,6 +1749,12 @@
 - URL: https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/
 - Summary: Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins...
 
+### Pixel Wised Lesion Prediction on COVID-19 CT Imagery: A Comparative Analysis of Automated Image Segmentation Architectures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20459
+- Summary: In recent years, there has been a notable increase in the level of attention that is given to algorithms based on deep learning in the context of medical image segmentation. Nevertheless, the reliability of the field has been hindered due to the absence of a standardized methodology for performance...
+
 ### Intermittent Cloudflare Dashboard SSO login failures with Okta
 - Source: Cloudflare Status
 - Category: incidents
@@ -1903,6 +1915,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.19969
 - Summary: Decentralized learning (DL) is an emerging machine learning paradigm where nodes collaboratively train models without a central server. However, the collaborative nature of DL makes it vulnerable to backdoor attacks, where a model is taught to behave normally on standard inputs while executing...
+
+### Robotics-Inspired Guardrails for Foundation Models in Socially Sensitive Domains
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19940
+- Summary: Foundation models are increasingly deployed in socially sensitive domains such as education, mental health, and caregiving, where failures are often cumulative and context-dependent. Existing guardrail approaches -- ranging from training-time alignment to prompting, decoding constraints, and...
 
 ### DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
 - Source: The Hacker News
@@ -2107,6 +2125,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html
 - Summary: Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. "These vulnerabilities could have...
+
+### EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19559
+- Summary: The rapid development of Multimodal Large Language Models (MLLMs) has led to growing interest in egocentric video understanding, specifically the ability for MLLMs to recognize fine-grained hand-object interactions, track object state changes over time, and reason about manipulative processes in...
 
 ### Provable Fairness Repair for Deep Neural Networks
 - Source: HF Daily Papers
@@ -2413,6 +2437,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.19285
 - Summary: The rapid spread of misinformation on social media platforms has become a formidable challenge. To mitigate its proliferation, Misinformation Detection (MD) has emerged as a critical research topic. Traditional MD approaches based on small models typically perform binary classification through a...
+
+### PhyWorld: Physics-Faithful World Model for Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19242
+- Summary: World simulators can provide safe and scalable environments for training Physical AI systems before real-world deployment. Large video generation models are emerging as a promising basis for such simulators because they can generate diverse and realistic visual futures. However, using them as world...
 
 ### Quantum Machine Learning for Cyber-Physical Anomaly Detection in Unmanned Aerial Vehicles: A Leakage-Free Evaluation with Proxy-Audited Feature Sets
 - Source: HF Daily Papers
@@ -2981,34 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.15224
 - Summary: arXiv:2605.15224v1 Announce Type: new Abstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's...
-
-### NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.15227
-- Summary: arXiv:2605.15227v1 Announce Type: new Abstract: Self-driving laboratories (SDLs) have attracted increasing attention as a means of accelerating scientific discovery; however, developing SDL software remains technically demanding. To improve accessibility, orchestration software frameworks have been...
-
-### Verifiable Agentic Infrastructure: Proof-Derived Authorization for Sovereign AI Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.15228
-- Summary: arXiv:2605.15228v1 Announce Type: new Abstract: Modern cloud and enterprise systems rely on identity-centric authorization, assuming that callers possessing valid credentials are safe to execute commands. The emergence of autonomous AI agents invalidates this assumption: agents can generate...
-
-### Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.15239
-- Summary: arXiv:2605.15239v1 Announce Type: new Abstract: Safety alignment often improves robustness to harmful queries at the cost of reasoning ability, a tradeoff known as the safety tax. A common cause is distributional mismatch: supervised fine-tuning trains the target model on safety demonstrations...
-
-### Logical Grammar Induction via Graph Kolmogorov Complexity: A Neuro-Symbolic Framework for Self-Healing Clinical Data Integrity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.15242
-- Summary: arXiv:2605.15242v1 Announce Type: new Abstract: The reliability of Healthcare Information Systems (HIS) is frequently compromised by human-induced data entry errors, which existing statistical anomaly detection methods fail to distinguish from legitimate clinical extremes. This paper proposes...
-
-### Reading the Cell, Designing the Cure: Perturbation-Conditioned Molecular Diffusion for Function-Oriented Drug Design
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.15243
-- Summary: arXiv:2605.15243v1 Announce Type: new Abstract: When reliable target structures are unavailable at scale or phenotypes arise from dysregulated pathways, transcriptomic perturbations provide a system-level functional readout for drug action. In this work, we formalize \emph{Transcriptome-based Drug...
 
