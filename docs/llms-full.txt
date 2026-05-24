@@ -30,6 +30,12 @@
 - URL: https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
 - Summary: GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on...
 
+### Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html
+- Summary: A new "coordinated" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. "Although the affected packages were all Composer packages, the malicious code was not added to composer.json,"...
+
 ### Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
 - Source: The Hacker News
 - Category: security
@@ -125,6 +131,66 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.21494
 - Summary: arXiv:2605.21494v1 Announce Type: new Abstract: Overparametrized models can exhibit an excellent generalization performance, although they should be prone to overfitting according to classical statistical theory. The discovery of the "double descent", indicating that the generalization error...
+
+### Investigating Concept Alignment Using Implausible Category Members
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.21683
+- Summary: arXiv:2605.21683v1 Announce Type: new Abstract: Developing AI systems with a human-like understanding of everyday concepts is a key step towards developing safe, reliable systems whose behavior makes sense to humans. When probing concept understanding, asking questions about plausible category...
+
+### The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.21695
+- Summary: arXiv:2605.21695v1 Announce Type: new Abstract: Artificial intelligence (AI) is being increasingly integrated into human problem-solving, yet its effects on individual skill development remain unclear. We examine how both AI usage and informativeness can shape learning in the context of a...
+
+### Latent-space Attacks for Refusal Evasion in Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.21706
+- Summary: arXiv:2605.21706v1 Announce Type: new Abstract: Safety-aligned language models are trained to refuse harmful requests, yet refusal behavior can be suppressed by steering their internal representations. Existing methods do so by ablating a refusal direction from model activations, aiming to remove...
+
+### AttuneBench: A Conversation-Based Benchmark for LLM Emotional Intelligence
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.21739
+- Summary: arXiv:2605.21739v1 Announce Type: new Abstract: Emotional intelligence (EI), the ability to perceive, understand, and respond appropriately to others' emotional states, is central to human communication, and increasingly important to assess as LLMs assume conversational roles in everyday life....
+
+### SMDD-Bench: Can LLMs Solve Real-World Small Molecule Drug Design Tasks?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2605.21740
+- Summary: arXiv:2605.21740v1 Announce Type: new Abstract: LLM agents have incredible potential for scientific discovery applications. However, the performance of LLM agents on real-world, small molecule drug design (SMDD) tasks across diverse chemistries and targets is unclear. Current evaluation methods are...
+
+### HealthCraft: A Reinforcement Learning Safety Environment for Emergency Medicine
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.21496
+- Summary: arXiv:2605.21496v1 Announce Type: new Abstract: Frontier language models are being deployed into clinical workflows faster than the infrastructure to evaluate them safely. Static medical-QA benchmarks miss the failure modes that matter in emergency medicine: trajectory-level safety collapse, tool...
+
+### Predicting Performance of Symbolic and Prompt Programs with Examples
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.21515
+- Summary: arXiv:2605.21515v1 Announce Type: new Abstract: LLM prompting is widely used for naturally stated tasks, yet it is unreliable it may succeed on a few test cases but fail at deployment time. We study performance prediction: given a program, either symbolic (e.g. Python) or a prompt executed on an...
+
+### Harnesses for Inference-Time Alignment over Execution Trajectories
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.21516
+- Summary: arXiv:2605.21516v1 Announce Type: new Abstract: Harness engineering has emerged as an important inference-time technique for large language model (LLM) agents, aiming to improve long-term performance through task decomposition and guided execution. However, more elaborate harnesses are not...
+
+### A Reproducible Log-Driven AutoML Framework for Interpretable Pipeline Optimization in Healthcare Risk Prediction
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.21528
+- Summary: arXiv:2605.21528v1 Announce Type: new Abstract: Accurate and reproducible disease risk prediction remains challenging due to heterogeneous features, limited samples, and severe class imbalance. This study introduces yvsoucom-iterkit, a deterministic and log-driven automated machine learning...
+
+### DualOptim+: Bridging Shared and Decoupled Optimizer States for Better Machine Unlearning in Large Language Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2605.21539
+- Summary: arXiv:2605.21539v1 Announce Type: new Abstract: We propose DualOptim+, a novel optimization framework for improving machine unlearning in large language models. It introduces a base state to capture common representations shared by forgetting and retaining objectives and delta states to preserve...
 
 ### Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models
 - Source: Hugging Face Blog
@@ -1104,6 +1170,12 @@
 - URL: https://tldr.takara.ai/p/2605.21282
 - Summary: Online off-policy reinforcement learning (RL) is shaped by two coupled choices: the policy class and the update rule. Gaussian policies are fast and have tractable entropy, but struggle with multimodal action distributions. Generative policies are more expressive, but often require iterative...
 
+### Objective-Induced Bias and Search Dynamics in Multiobjective Unsupervised Feature Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21561
+- Summary: Unsupervised feature selection is commonly formulated as a multiobjective optimisation problem that jointly optimises subset quality and subset size. Yet the behaviour of this formulation depends critically on the choice of evaluation objective, the direction of subset-size regularisation, and the...
+
 ### Elevated number of 520 errors in Europe region
 - Source: Cloudflare Status
 - Category: incidents
@@ -1115,6 +1187,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.21261
 - Summary: Training-free zero-shot composed image retrieval models are recently gaining increasing research interest due to their generalizability and flexibility in unseen multimodal retrieval. Recent LLM-based advances focus on generating the expected target caption by exploring the compositional ability...
+
+### On the Cost and Benefit of Chain of Thought: A Learning-Theoretic Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21260
+- Summary: We develop a learning-theoretic framework for understanding Chain of Thought (CoT). We model CoT as the interaction between an answer map and a chain rule that generates intermediate questions autoregressively, and define the reasoning risk of a hypothesis under this interaction. Our first result...
 
 ### Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation
 - Source: HF Daily Papers
@@ -1343,6 +1421,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.20865
 - Summary: Reinforcement learning with verifiable rewards (RLVR) plays a pivotal role in improving the reasoning ability of large language models. However, widely used PPO surrogate objectives are fundamentally local, as they rely on a local approximation of the exact policy gradient objective. While this...
+
+### ELSA: An ELastic SNN Inference Architecture for Efficient Neuromorphic Computing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20802
+- Summary: Spiking neural networks (SNNs) exploit event-driven and addition-only computation to substantially improve efficiency for intelligent computation. A key temporal property of SNNs, elastic inference, allows outputs to emerge progressively, enabling responses to salient inputs much earlier than full...
 
 ### Findings of the Counter Turing Test: AI-Generated Image Detection
 - Source: HF Daily Papers
@@ -1627,6 +1711,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/olmoearth-v1-1
+
+### Capability $\neq$ Interpretability: Human Interpretability of Vision Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20337
+- Summary: How interpretable are the features of leading vision models? The question is increasingly pressing as these models move from research benchmarks into high-stakes deployments, yet existing methods cannot answer it reliably. We close this gap with a framework for measuring and comparing the human...
 
 ### PiG-Avatar: Hierarchical Neural-Field-Guided Gaussian Avatars
 - Source: HF Daily Papers
@@ -2302,6 +2392,12 @@
 - URL: https://status.claude.com/incidents/6qbg6ft2r9j4
 - Summary: May 18, 22:19 UTCResolved - The issue affecting Claude services has been resolved. Impact occurred from 21:47 to 22:18 UTC.May 18, 22:10 UTCInvestigating - We are investigating elevated errors on requests to Claude Opus 4.7. We will provide an update as soon as possible.
 
+### GRASP: Deterministic argument ranking in interaction graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19141
+- Summary: Large language models are increasingly deployed as automated judges to evaluate the strength of arguments. As this role expands, their legitimacy depends on consistency, transparency, and the ability to separate argumentative structure from rhetorical appeal. However, we show that holistic judging...
+
 ### Atomistic Modeling of Chemical Disorder in Materials: Bridging Classical Methods and AI-Assisted Approaches
 - Source: HF Daily Papers
 - Category: open-source
@@ -2915,104 +3011,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.17733
 - Summary: The promise of Rectified Flow rests on producing self-generated couplings whose trajectories are straight, or nearly so. In practice, trajectories generated by the base flow model can bend and intertwine, and the resulting coupling inherits this distortion. In this paper, we identify that such...
-
-### EXG: Self-Evolving Agents with Experience Graphs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17721
-- Summary: Large language model (LLM)-based agents have demonstrated strong capabilities in complex reasoning and problem solving through multi-step interactions, yet most deployed agents remain behaviorally static, with knowledge acquired during execution rarely translating into systematic improvement over...
-
-
-## 2026-05-17
-
-### Simulate real-world places with Project Genie and Street View
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/
-- Summary: We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.
-
-### Introducing Gemini Omni
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-gemini-omni/
-
-### Introducing Google Antigravity 2.0
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-google-antigravity-2-0/
-
-### Gemini for Science: AI experiments and tools for a new era of discovery
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/
-- Summary: A collection of science tools and experiments to expand the scale and precision of scientific exploration.
-
-### Making it easier to understand how content was created and edited
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/
-- Summary: We're expanding our tools to help you understand how content was created and edited across the web.
-
-### NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html
-- Summary: A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module...
-
-### Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html
-- Summary: Grafana has disclosed that an "unauthorized party" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. "Our investigation has determined that no customer data or personal information was accessed during this incident, and we have...
-
-
-## 2026-05-16
-
-### PayPal Billing Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/cq57w8rm55z6
-- Summary: May 16, 19:13 UTCIdentified - The cause of this issue has been identified and a fix is being implemented.May 16, 17:54 UTCInvestigating - Cloudflare is aware of and investigating issues paying for products with PayPal. Customers may experience an error when attempting to purchase or renew a product...
-
-### Elevated error rates on requests to multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/v9s6d0jt84hj
-- Summary: May 16, 18:24 UTCResolved - This incident has been resolved.May 16, 18:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.May 16, 18:08 UTCInvestigating - We are currently investigating this issue.
-
-### Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/latest-open-artifacts-21-open-model
-- Summary: An eventful month with one flagship release after another
-
-### Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html
-- Summary: A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week....
-
-### PoC Code Published for Critical NGINX Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/
-- Summary: Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source. The post PoC Code Published for Critical NGINX Vulnerability appeared first on SecurityWeek.
-
-### Strengthening Singapore’s AI Future: A New National Partnership
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/
-- Summary: Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.
-
-### Finding the molecular switches behind new infectious diseases
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/
-- Summary: Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.
-
-### Opening new paths in aging research
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/opening-new-paths-in-aging-research/
-- Summary: Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.
 
