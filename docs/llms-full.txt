@@ -1017,6 +1017,12 @@
 - URL: https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html
 - Summary: Drupal has released security updates for a "highly critical" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out...
 
+### Bounding-Box Trajectories Matter for Video Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21957
+- Summary: Video anomaly detection is critical for public safety and security, yet remains highly challenging despite extensive research due to large variations in appearance, viewpoint, and scene dynamics. Among existing approaches, human pose-based methods have emerged as a major line of research, showing...
+
 ### Differential Robotics, a Hangzhou-based flying robot startup, has raised hundreds of millions of RMB in a Series A1 round — bringing its total funding to over 500 million RMB across six rounds in less than two years of operation.
 - Source: Pandaily
 - Category: chinese-ai
@@ -1229,6 +1235,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.21213
 - Summary: In this work, we present quantum reinforcement learning (RL) as a solution strategy for process synthesis problems. Building on our prior work, we develop a generalized framework that formally poses process synthesis as a Markov decision process and introduces quantum-enhanced RL algorithms to...
+
+### Reinforcement Learning-based Control via Y-wise Affine Neural Networks: Comparative Case Studies for Chemical Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21211
+- Summary: In this work we present an efficient and practically implementable approach for the application of reinforcement learning (RL)-based control in chemical process systems. This is an area that has yet to widely adopt RL-based control largely due to inherent challenges in trusting RL algorithms and...
 
 ### Increased HTTP 502 Errors in Buenos Aires
 - Source: Cloudflare Status
@@ -1789,6 +1801,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html
 - Summary: Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encompassed 455 malicious Android apps and 183 threat actor-owned command-and-control...
+
+### Probability-Conserving Flow Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20079
+- Summary: Diffusion and flow-based generative models dominate visual synthesis, with guidance aligning samples to user input and improving perceptual quality. However, Classifier-Free Guidance (CFG) and extrapolation-based methods are heuristic linear combinations of velocities/scores that ignore the...
 
 ### Drupal to Patch Highly Critical Vulnerability at Risk of Quick Exploitation
 - Source: Security Week
@@ -2658,6 +2676,12 @@
 - URL: https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html
 - Summary: Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified packages is below - chalk-tempalte (825 Downloads) @deadcode09284814/axios-util (284 Downloads)...
 
+### Equilibrium Selection in Multi-Agent Policy Gradients via Opponent-Aware Basin Entry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18078
+- Summary: Multi-agent policy-gradient methods have been shown to converge locally near stable Nash equilibria. Local convergence, however, does not determine which equilibrium is reached. We study this question through basin-entry probability with respect to a target set of equilibria selected by an external...
+
 ### DocOS: Towards Proactive Document-Guided Actions in GUI Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -2705,6 +2729,12 @@
 - Category: security
 - URL: https://www.securityweek.com/exploitation-of-critical-nginx-vulnerability-begins/
 - Summary: The flaw leads to denial-of-service on default configurations and to remote code execution if ASLR is disabled. The post Exploitation of Critical NGINX Vulnerability Begins appeared first on SecurityWeek.
+
+### MoCo-EA: Exploiting Adversarial Mode Connectivity for Efficient Evolutionary Attacks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18919
+- Summary: Evolutionary algorithms for adversarial attacks leverage population-based search to discover perturbations without gradient information, but suffer from inefficient crossover operations that destroy adversarial properties through discrete interpolation. We introduce Mode Connectivity Evolutionary...
 
 ### BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting
 - Source: HF Daily Papers
@@ -2981,34 +3011,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.17788
 - Summary: A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model's...
-
-### Systematic Evaluation of the Quality of Synthetic Clinical Notes Rephrased by LLMs at Million-Note Scale
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17775
-- Summary: Large language models (LLMs) can generate or synthesize clinical text for a wide range of applications, from improving clinical documentation to augmenting clinical text analytics. Yet evaluations typically focus on a narrow aspect -- such as similarity or utility comparisons -- even though these...
-
-### LatentUMM: Dual Latent Alignment for Unified Multimodal Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17766
-- Summary: Unified multimodal models (UMMs) achieve strong performance in both understanding and generation by learning a shared latent space, yet they often exhibit functional inconsistency between these two capabilities. We observe that this issue does not stem from a lack of shared representations, but...
-
-### AURORA: Contextual Orthogonalization for Geometric Representation Learning in Healthcare Foundation Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17765
-- Summary: Recent healthcare foundation models have achieved strong predictive performance through large scale self supervised learning, yet their latent representations frequently entangle physiologic severity, intervention intensity, observational structure, and institutional workflow into shared embedding...
-
-### Memisis: Orchestrating and Evaluating Synthetic Data for Tabular Health Datasets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17758
-- Summary: Synthetic data is widely used in healthcare to create datasets that are similar to original data but without the privacy concerns. Generating and evaluating synthetic data across privacy, utility and fairness is crucial for facilitating high quality data availability for downstream prediction tasks...
-
-### Divergence-Suppressing Couplings for Rectified Flow
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17733
-- Summary: The promise of Rectified Flow rests on producing self-generated couplings whose trajectories are straight, or nearly so. In practice, trajectories generated by the base flow model can bend and intertwine, and the resulting coupling inherits this distortion. In this paper, we identify that such...
 
