@@ -1710,6 +1710,12 @@
 - URL: https://pandaily.com/xynova-hybrid-driven-gen-2-dexterous-hand-eg8w
 - Summary: Xynova releases its second-generation hybrid-driven dexterous hand, designed to give humanoid robots human-like manipulation intelligence for real-world task execution.
 
+### COAgents: Multi-Agent Framework to Learn and Navigate Routing Problems Search Space
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20618
+- Summary: Although Vehicle Routing Problems (VRP) are essential to many real-world systems, they remain computationally intractable at scale due to their combinatorial complexity. Traditional heuristics rely on handcrafted rules for local improvements and occasional \textit{jumps} to escape local minima, but...
+
 ### From Automated to Autonomous: Hierarchical Agent-native Network Architecture (HANA)
 - Source: HF Daily Papers
 - Category: open-source
@@ -1988,6 +1994,12 @@
 - URL: https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why Elon Musk lost his suit against OpenAI Elon Musk has lost his lawsuit against OpenAI, which centered on whether the company breached its...
 
+### LIFT and PLACE: A Simple, Stable, and Effective Knowledge Distillation Framework for Lightweight Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19729
+- Summary: We demonstrate that in knowledge distillation for diffusion models, the teacher network's highly complex denoising process - stemming from its substantially larger capacity - poses a significant challenge for the student model to faithfully mimic. To address this problem, we propose a...
+
 ### Efficient Long-Context Modeling in Diffusion Language Models via Block Approximate Sparse Attention
 - Source: HF Daily Papers
 - Category: open-source
@@ -2245,6 +2257,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/cgwwyh79gpm3
 - Summary: May 19, 04:51 UTCResolved - This issue has been resolved.May 19, 04:46 UTCMonitoring - From 04:34–04:42 UTC, we saw elevated errors and latency on requests within the Claude.ai applications. Additionally, users may have experienced errors when attempting to login, including authenticating Claude...
+
+### SciCustom: A Framework for Custom Evaluation of Scientific Capabilities in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19357
+- Summary: Large language models (LLMs) are increasingly applied to scientific research, yet existing evaluations often fail to reflect the fine-grained capabilities required in practice. Most benchmarks are manually curated or domain-generic, limiting scalability and alignment with real scientific use cases....
 
 ### Next-Acceleration-Scale Prediction for Autoregressive MRI Reconstruction
 - Source: HF Daily Papers
@@ -2542,6 +2560,12 @@
 - URL: https://tldr.takara.ai/p/2605.18663
 - Summary: As LLM benchmarks saturate, the evaluation community has pursued two strategies to increase difficulty: escalating knowledge demands (GPQA, HLE) or removing knowledge entirely in favor of abstract reasoning (ARC-AGI). The first conflates memorization with capability; the second divorces reasoning...
 
+### Pocket Foundation Models: Distilling TFMs into CPU-Ready Gradient-Boosted Trees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18654
+- Summary: A fraud scorer needs to answer in under 2 ms. The best tabular foundation models (TFMs) take 151-1,275 ms on GPU. We close this gap by distilling the TFM offline into an XGBoost or CatBoost student that runs natively on CPU. The central obstacle is specific to in-context learning (ICL) teachers:...
+
 ### The Signals That Matter – MIT Insider’s Panel
 - Source: MIT Tech Review AI
 - Category: research
@@ -2772,6 +2796,12 @@
 - URL: https://www.securityweek.com/grafana-confirms-breach-after-hackers-claim-they-stole-data/
 - Summary: Grafana appears to have been targeted by Coinbase Cartel, a cybercrime group linked to ShinyHunters, Scattered Spider, and Lapsus$. The post Grafana Confirms Breach After Hackers Claim They Stole Data appeared first on SecurityWeek.
 
+### Exploring Trust Calibration in XAI - The Impact of Exposing Model Limitations to Lay Users
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.18036
+- Summary: Trust calibration -- aligning user trust judgment with model capability -- is crucial for safe deployment of explainable AI (XAI), yet is often evaluated via global trust ratings detached from objective performance evidence. We present a preregistered, incentivized between-subject online study...
+
 ### New Insight of Variance reduce in Zero-Order Hard-Thresholding: Mitigating Gradient Error and Expansivity Contradictions
 - Source: HF Daily Papers
 - Category: open-source
@@ -2981,34 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.15304
 - Summary: arXiv:2605.15304v1 Announce Type: new Abstract: The relations connecting propositions in discourse such as cause (A because B) or concession (A although B) are a subject of intense interest in Computational Linguistics and Pragmatics, but challenging to study and compare across languages. Recent...
-
-### Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.15362
-- Summary: arXiv:2605.15362v1 Announce Type: new Abstract: Half a billion citation edges extracted from 100.7 million Ukrainian court decisions reveal that judicial citation structure encodes legal domain boundaries without supervision and predicts future legislative importance with near-perfect accuracy. We...
-
-### Greedy or not, here I come: Language production under vocabulary constraints in humans and resource-rational models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.15365
-- Summary: arXiv:2605.15365v1 Announce Type: new Abstract: Communicating using only a limited vocabulary is a common but challenging cognitive phenomenon, requiring an ideal communicator to plan carefully to optimize for intelligibility while circumventing a constrained lexicon. In this work, we investigate...
-
-### CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.15218
-- Summary: arXiv:2605.15218v1 Announce Type: new Abstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent...
-
-### NOVA: Fundamental Limits of Knowledge Discovery Through AI
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.15219
-- Summary: arXiv:2605.15219v1 Announce Type: new Abstract: Can AI systems discover genuinely new knowledge through iterative self improvement, and if so, at what cost? We introduce the NOVA framework, which models the common ``generate, verify, accumulate, retrain'' loop as an adaptive sampling process over a...
-
-### ICRL: Learning to Internalize Self-Critique with Reinforcement Learning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.15224
-- Summary: arXiv:2605.15224v1 Announce Type: new Abstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's...
 
