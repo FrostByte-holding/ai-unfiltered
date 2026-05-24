@@ -807,6 +807,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/c7qvdbz1z2dn
 - Summary: May 21, 07:27 UTCResolved - Cloudflare saw an Increased 5XX errors in Porto Alegre and Curitiba, Brazil from 06:28 AM - 07:02 AM UTC. Issue has now been resolved
 
+### ForeSplat: Optimization-Aware Foresight for Feed-Forward 3D Gaussian Splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.22020
+- Summary: Feed-forward 3D Gaussian Splatting (3DGS) models offer fast single-pass reconstruction,but scaling them to match per-scene optimization quality is fundamentally hindered by the scarcity of large-scale 3D annotations.A practical compromise is predict-then-refine,where post-prediction optimization...
+
 ### ECPO: Evidence-Coupled Policy Optimization for Evidence-Certified Candidate Ranking
 - Source: HF Daily Papers
 - Category: open-source
@@ -1067,6 +1073,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/railway
 - Summary: 3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs
+
+### Reflective Prompt Tuning through Language Model Function-Calling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21781
+- Summary: Large language models (LLMs) have become increasingly capable of following instructions and complex reasoning, making prompting a flexible interface for adapting models without parameter updates. Yet prompt design remains labor-intensive and highly sensitive to formatting, phrasing, and instruction...
 
 ### Cloudflare Access delayed audit logs
 - Source: Cloudflare Status
@@ -1403,6 +1415,12 @@
 - Category: security
 - URL: https://www.securityweek.com/github-confirms-hack-impacting-3800-internal-repositories/
 - Summary: The TeamPCP hacking group accessed the repositories after a GitHub employee installed a poisoned VS Code extension. The post GitHub Confirms Hack Impacting 3,800 Internal Repositories appeared first on SecurityWeek.
+
+### FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20910
+- Summary: Extending the generation horizon of video diffusion models to long sequences remains a long-standing and important challenge. Existing training-free approaches fall into two categories: extensions of bidirectional models, which are tightly coupled to specific architectures and suffer from quality...
 
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
@@ -2384,6 +2402,12 @@
 - URL: https://tldr.takara.ai/p/2605.19285
 - Summary: The rapid spread of misinformation on social media platforms has become a formidable challenge. To mitigate its proliferation, Misinformation Detection (MD) has emerged as a critical research topic. Traditional MD approaches based on small models typically perform binary classification through a...
 
+### Quantum Machine Learning for Cyber-Physical Anomaly Detection in Unmanned Aerial Vehicles: A Leakage-Free Evaluation with Proxy-Audited Feature Sets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19233
+- Summary: Unmanned aerial vehicles (UAVs) are cyber-physical systems whose attack surface spans networked avionics and on-board sensor fusion: a compromised GPS or battery module can mimic a benign mission segment and evade naive anomaly detectors. We present a leakage-free evaluation of quantum machine...
+
 ### Here’s why Elon Musk lost his suit against OpenAI
 - Source: MIT Tech Review AI
 - Category: research
@@ -2987,28 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.15380
 - Summary: arXiv:2605.15380v1 Announce Type: new Abstract: Recent advances in generative AI have shown their potential to be leveraged for legal education. Yet, work on the development and deployment of such systems for legal education in the Global South is limited. In this work, we developed Eskwai for...
-
-### Capability Conditioned Scaffolding for Professional Human LLM Collaboration
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.15404
-- Summary: arXiv:2605.15404v1 Announce Type: new Abstract: Large language model personalization typically adapts outputs to user preferences and style but does not account for differences in user evaluation capacity across domains of expertise. This limitation can encourage Professional Domain Drift, where...
-
-### Neural Activation Patterns Across Language Model Architectures: A Comprehensive Analysis of Cognitive Task Performance
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.15436
-- Summary: arXiv:2605.15436v1 Announce Type: new Abstract: This paper presents a comprehensive analysis of neural activation patterns across six distinct large language model (LLM) architectures, examining their performance on twelve cognitive task categories. Through systematic measurement of final...
-
-### Why are language models less surprised than humans? Testing the Parse Multiplicity Mismatch Hypothesis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.15440
-- Summary: arXiv:2605.15440v1 Announce Type: new Abstract: Surprisal theory posits that the processing difficulty of a word is determined by its predictability in context, offering a potential link between human sentence processing and next-word predictions from language models. While language model (LM)...
-
-### Uncertainty-Calibrated Recommendations for Low-Active Users
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.17788
-- Summary: A fundamental challenge in recommender systems is balancing reliability for Low-Active Users (LAUs) with diversity for High-Active Users (HAUs). The key to this balance lies in quantifying model uncertainty, which approximates the risk of prediction errors and reveals the limits of the model's...
 
