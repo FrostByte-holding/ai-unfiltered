@@ -579,6 +579,12 @@
 - URL: https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html
 - Summary: The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the...
 
+### Score-Based One-step MeanFlow Policy Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.23365
+- Summary: Diffusion and flow matching have emerged as expressive policy classes in reinforcement learning, but their reliance on multi-step denoising imposes substantial computational overhead at inference time, which is particularly problematic in online RL. MeanFlow offers a promising alternative by...
+
 ### TrendAI Patches Apex One Zero-Day Exploited in the Wild
 - Source: Security Week
 - Category: security
@@ -910,6 +916,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KS5CYS472SA003BQSXSBM8EW
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### Enhancing Gaze Reasoning in Vision Foundation Models for Gaze Following
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.22607
+- Summary: Gaze following requires both scene understanding and gaze reasoning to localize the gaze target of an in-scene person. Recently, vision foundation models (VFMs) have demonstrated strong performance on this task, enabling simpler architectures while outperforming prior methods. However, we observe a...
 
 ### Cloudflare Containers Issues
 - Source: Cloudflare Status
@@ -1736,6 +1748,12 @@
 - URL: https://tldr.takara.ai/p/2605.20904
 - Summary: We propose JFAA, a JEPA-based Future Action Anticipation method for the EPIC-KITCHENS-100 (EK-100) Action Anticipation task. Inspired by the representation learning and future prediction ability of V-JEPA 2.1, JFAA uses a frozen encoder and predictor to extract observed context features and...
 
+### GenAI-Driven Threat Detection with Microsoft Security Copilot
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20896
+- Summary: Defending against today's increasingly sophisticated cyberattacks requires security analysts to continuously translate evolving attacker tradecraft into detection logic. This places defenders in a reactive posture, requiring constantly updated expertise across an increasingly fragmented security...
+
 ### FruitEnsemble: MLLM-Guided Arbitration for Heterogeneous ensemble in Fine-Grained Fruit Recognition
 - Source: HF Daily Papers
 - Category: open-source
@@ -1771,6 +1789,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.20787
 - Summary: The rapid advancements in generative AI technologies, such as Stable Diffusion, DALL-E, and Midjourney, have significantly transformed the creation of synthetic visual content. While these models enable innovation across industries, they also pose serious challenges, including misinformation,...
+
+### Learning to Think in Physics: Breaking Shortcut Learning in Scientific Diffusion via Representation Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20780
+- Summary: Physics-informed diffusion models typically enforce PDE constraints only on final outputs, leaving intermediate representations unconstrained and prone to shortcut learning under shifted boundary conditions. We introduce **REPA-P**, a teacher-free, architecture-agnostic framework that aligns...
 
 ### VIHD: Visual Intervention-based Hallucination Detection for Medical Visual Question Answering
 - Source: HF Daily Papers
@@ -2452,6 +2476,12 @@
 - URL: https://www.securityweek.com/201-arrested-in-crackdown-on-cybercrime-in-middle-east-north-africa/
 - Summary: The 13-country effort, named Operation Ramz, targeted cyber threats in the Middle East and North Africa region. The post 201 Arrested in Crackdown on Cybercrime in Middle East, North Africa appeared first on SecurityWeek.
 
+### optimize_anything: A Universal API for Optimizing any Text Parameter
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19633
+- Summary: Can a single LLM-based optimization system match specialized tools across fundamentally different domains? We show that when optimization problems are formulated as improving a text artifact evaluated by a scoring function, a single AI-based optimization system-supporting single-task search,...
+
 ### Closed-form predictive coding via hierarchical Gaussian filters
 - Source: HF Daily Papers
 - Category: open-source
@@ -2984,33 +3014,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.18475
 - Summary: Mixed-precision quantization improves the budget--accuracy trade-off for large language models (LLMs) by allocating more bits to sensitive modules. However, automating this allocation at LLM scale faces a unique combination of constraints: learnable approaches require quantization-aware training,...
-
-### The Open Agent Leaderboard
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-research/open-agent-leaderboard
-
-### A Dataset for the Recognition of Historical and Handwritten Music Scores in Western Notation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.18436
-- Summary: A large amount of musical heritage has been digitised by memory institutions: libraries, museums, and archives. Nevertheless, the field of Optical Music Recognition (OMR) has struggled with making this music machine-readable, despite advances in deep learning, mostly because no datasets for...
-
-### Seeing Together:Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.18431
-- Summary: Multimodal Large Language Models (MLLMs) have made substantial progress in egocentric video understanding, but their ability to reason cooperatively from multiple embodied viewpoints remains largely unexplored. We study this problem through multi-robot cooperative dynamic spatial reasoning, where a...
-
-### Remote preview failing on Workers with attached Durable Object
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/4xh47d3c3w4s
-- Summary: May 18, 14:00 UTCResolved - Cloudflare identified an issue affecting the remote preview feature between 15:00 and 19:46 UTC. Workers configured with both a remote binding and a Durable Object failed to launch, throwing error code 10375.
-
-### ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
-- Summary: Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: the data was returned and deleted. The pattern is clear. One weak dependency can...
 
