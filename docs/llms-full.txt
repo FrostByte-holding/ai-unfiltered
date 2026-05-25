@@ -6,6 +6,18 @@
 
 ## 2026-05-25
 
+### Slow build start time in Workers Builds
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/3rhcw5gdgg95
+- Summary: May 25, 17:14 UTC Resolved - This incident has been resolved. Customers with builds that timed out can retry their build in the Dashboard May 25, 16:44 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 25, 16:36 UTC Identified - The issue has been identified and a...
+
+### ⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html
+- Summary: Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent the week checking old boxes and forgotten servers they should've patched years ago. Good times....
+
 ### Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
 - Source: Krebs on Security
 - Category: security
@@ -221,6 +233,11 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-v4-huawei-ascend-adaptation-may2026
 - Summary: DeepSeek V4's complete adaptation to Huawei Ascend marks a milestone for China's domestic AI stack, reducing reliance on overseas chip suppliers for inference workloads.
+
+### Harness, Scaffold, and the AI Agent Terms Worth Getting Right
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/agent-glossary
 
 
 ## 2026-05-23
@@ -586,6 +603,12 @@
 - URL: https://status.claude.com/incidents/p0mgnjv3bj97
 - Summary: May 22, 06:32 UTCUpdate - We are monitoring recovery on Claude Opus 4.7, and working to fully resolve remaining errors impacting Haiku 4.5. We will provide additional updates shortly.May 22, 06:17 UTCUpdate - We are currently working to resolve some additional errors impacting Claude Opus 4.7 and...
 
+### Turning Adaptation into Assets: Cross-Domain Bridging for Online Vision-Language Navigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.23257
+- Summary: Navigating under non-stationary environment shifts poses a critical challenge for a Vision-and-Language Navigation (VLN) agent deployed in the wild. Yet, existing Test-Time Adaptation (TTA) methods for VLN largely treat online adaptation as transient, isolated updates, leading to catastrophic...
+
 ### [AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer
 - Source: Latent Space
 - Category: open-source
@@ -869,6 +892,18 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/
 - Summary: Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal...
+
+### Proxy-Based Approximation of Shapley and Banzhaf Interactions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.22738
+- Summary: Shapley and Banzhaf interactions capture the complex dynamics inherent in modern machine learning applications. However, current estimators for these higher-order interactions trade off between speed and accuracy. To overcome this limitation, we introduce ProxySHAP. ProxySHAP reconciles the high...
+
+### Boiling the Frog: A Multi-Turn Benchmark for Agentic Safety
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.22643
+- Summary: Background. Traditional safety benchmarks for language models evaluate generated text: whether a model outputs toxic language, reproduces bias, or follows harmful instructions. When models are deployed as agents, the safety-relevant object shifts from what the system says to what it does within an...
 
 ### Elevated error rates on ChatGPT paid plans
 - Source: OpenAI Status
@@ -2019,6 +2054,12 @@
 - URL: https://status.openai.com//incidents/01KS19AHSEE3DAX1HHKNQB166F
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Chat Completions (Operational)
 
+### The Readout Shortcut: Positional Number Copying Dominates Arithmetic CoT Readout in Small Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.22870
+- Summary: Chain-of-thought (CoT) prompting is necessary for arithmetic in small language models, yet shuffling its steps preserves most performance. What does CoT contribute if not logical sequencing? In three 1-3B instruction-tuned LMs on GSM8K, we isolate the answer-readout stage via prefix completion and...
+
 ### Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector
 - Source: Security Week
 - Category: security
@@ -2753,6 +2794,12 @@
 - URL: https://arxiv.org/abs/2605.16770
 - Summary: arXiv:2605.16770v1 Announce Type: new Abstract: Criminal Court View Generation (CVG) is a critical task in Legal Artificial Intelligence (Legal AI), involving the generation of court view based on case facts. In this work, we systematically explore the capabilities of lightweight (smaller than 2B)...
 
+### You Don't Need Attention: Gated Convolutional Modeling for Watch-Based Fall Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20275
+- Summary: Existing deep learning approaches for wearable fall detection systems rely on self-attention mechanisms that impose quadratic computational overhead, distributing weights across all time steps. This global weight distribution impairs the precise localization of the brief impact signatures that...
+
 ### Cross-Paradigm Knowledge Distillation: A Comprehensive Study of Bidirectional Transfer Between Random Forests and Deep Neural Networks for Big Data Applications
 - Source: HF Daily Papers
 - Category: open-source
@@ -2966,52 +3013,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html
 - Summary: Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: the data was returned and deleted. The pattern is clear. One weak dependency can...
-
-### The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/the-fourth-law
-- Summary: Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.
-
-### How to Reduce Phishing Exposure Before It Turns into Business Disruption
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html
-- Summary: What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread....
-
-### Millions Impacted Across Several US Healthcare Data Breaches
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/millions-impacted-across-several-us-healthcare-data-breaches/
-- Summary: Several healthcare data breaches impacting hundreds of thousands and even millions were added to the HHS tracker. The post Millions Impacted Across Several US Healthcare Data Breaches appeared first on SecurityWeek.
-
-### ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/claw-chain-openclaw-flaws-allow-sandbox-escape-backdoor-delivery/
-- Summary: Four vulnerabilities in OpenClaw can be chained together to steal credentials, escape the sandbox, and plant persistent backdoors. The post &#8216;Claw Chain&#8217; OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery appeared first on SecurityWeek.
-
-### The Download: Musk v. Altman week 3, and Trump’s tech trading
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side. In the final week of the Musk v....
-
-### From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.18271
-- Summary: With the rapid emergence of personal AI agents based on Large Language Models (LLMs), implementing them on-device has become essential for privacy and responsiveness. To handle the inherently personal and context-dependent nature of real-world requests, such agents must ground their generation in...
-
-### 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/
-- Summary: The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand appeared first on SecurityWeek.
-
-### Developer Workstations Are Now Part of the Software Supply Chain
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
-- Summary: Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer...
 
