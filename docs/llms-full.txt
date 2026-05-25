@@ -6,6 +6,24 @@
 
 ## 2026-05-25
 
+### Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
+- Summary: Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025...
+
+### Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html
+- Summary: Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin XLab, the activity involves the exploitation of CVE-2026-26980 (CVSS score: 9.4), an SQL injection vulnerability in...
+
+### The Alert Firehose Finally Meets Its Match
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html
+- Summary: Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear "Noisy," "Too much data." But ask the teams running NDR that includes agentic AI capabilities and you'll hear they're actually using it to catch threats earlier, triage faster, and chase fewer false...
+
 ### 266,000 Affected by Data Breach at Radiology Associates of Richmond
 - Source: Security Week
 - Category: security
@@ -1365,6 +1383,12 @@
 - URL: https://tldr.takara.ai/p/2605.21363
 - Summary: As large language models (LLMs) increasingly shape how users form, refine, and extend their goals, attributing contributions in human-AI collaboration becomes critical for users calibrating their own reliance and for evaluators assessing AI-assisted work. Yet existing methods focus on final...
 
+### Insights Generator: Systematic Corpus-Level Trace Diagnostics for LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21347
+- Summary: Diagnosing failures in LLM agents remains largely manual. Practitioners inspect a small subset of execution traces, form ad-hoc hypotheses, and iterate. This process misses patterns that only emerge across trace populations and does not scale to production corpora where individual traces span tens...
+
 ### OcclusionFormer: Arranging Z-Order for Layout-Grounded Image Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1496,6 +1520,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.21178
 - Summary: This paper investigates how post-editors of literary texts react and respond to the way metaphors have been translated by Neu ral Machine Translation (NMT) and Large Language Models (LLMs). The results show that one in three metaphors in the output were changed by the post-editors, demonstrating...
+
+### ChunkFT: Byte-Streamed Optimization for Memory-Efficient Full Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.21177
+- Summary: This work presents \textsc{ChunkFT}, a memory-efficient fine-tuning framework that reformulates full-parameter fine-tuning around a dynamically activated working set. \textsc{ChunkFT} enables gradient computation for arbitrary sub-tensors without modifying the network architecture, providing an...
 
 ### 1Password Teams With OpenAI to Stop AI Coding Agents From Leaking Credentials
 - Source: Security Week
@@ -1712,6 +1742,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.20772
 - Summary: While medical Multimodal Large Language Models (MLLMs) have shown promise in assisting diagnosis, they still frequently generate hallucinated responses that appear linguistically plausible but lack visual evidence. Such hallucinations pose risks to clinical decision-making and necessitate effective...
+
+### Diffuse to Detect: Bi-Level Sample Rebalancing with Pseudo-Label Diffusion for Point-Supervised Infrared Small-Target Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20766
+- Summary: Point supervision has become a scalable solution to address dense annotation for infrared small target detection, but its performance is limited by two coupled bottlenecks: unstable pseudo-label evolution in cluttered, low-contrast infrared imagery and severe sample-distribution imbalance. In this...
 
 ### Findings of the Counter Turing Test: AI-Generated Text Detection
 - Source: HF Daily Papers
@@ -2375,6 +2411,12 @@
 - URL: https://www.securityweek.com/201-arrested-in-crackdown-on-cybercrime-in-middle-east-north-africa/
 - Summary: The 13-country effort, named Operation Ramz, targeted cyber threats in the Middle East and North Africa region. The post 201 Arrested in Crackdown on Cybercrime in Middle East, North Africa appeared first on SecurityWeek.
 
+### Closed-form predictive coding via hierarchical Gaussian filters
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.20293
+- Summary: Predictive coding (PC) offers a local and biologically grounded alternative to backpropagation in the training of artificial neural networks, yet to date, it remains slower, and performance degrades sharply as network depth increases. We trace both problems to a single simplification: current PC...
+
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
 - Category: incidents
@@ -2711,6 +2753,12 @@
 - URL: https://arxiv.org/abs/2605.16770
 - Summary: arXiv:2605.16770v1 Announce Type: new Abstract: Criminal Court View Generation (CVG) is a critical task in Legal Artificial Intelligence (Legal AI), involving the generation of court view based on case facts. In this work, we systematically explore the capabilities of lightweight (smaller than 2B)...
 
+### Cross-Paradigm Knowledge Distillation: A Comprehensive Study of Bidirectional Transfer Between Random Forests and Deep Neural Networks for Big Data Applications
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.19299
+- Summary: The exponential growth of big data has intensified the need for efficient and interpretable machine learning models that can handle diverse data characteristics while maintaining computational efficiency. Knowledge distillation has primarily focused on neural network-to-neural network transfer,...
+
 ### Are Rationales Necessary and Sufficient? Tuning LLMs for Explainable Misinformation Detection
 - Source: HF Daily Papers
 - Category: open-source
@@ -2966,52 +3014,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html
 - Summary: Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer...
-
-### Context Memorization for Efficient Long Context Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.18226
-- Summary: Modern large language model (LLM) applications increasingly rely on long conditioning prefixes to control model behavior at inference time. While prefix-augmented inference is effective, it incurs two structural limitations: i) the prefix's influence fades as generation proceeds, and ii) attention...
-
-### Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html
-- Summary: Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be...
-
-### Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/researcher-drops-miniplasma-windows-exploit-for-unpatched-2020-cve/
-- Summary: The researcher dropped the MiniPlasma exploit that uses the original proof-of-concept (PoC) code targeting the bug. The post Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE appeared first on SecurityWeek.
-
-### China Telecom Launches Token Subscription Plans from $1.4/Month, Entering the Token Economy
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-telecom-token-subscription-plans-may2026
-- Summary: China Telecom rolls out its first batch of trial commercial Token plans on World Telecom Day, May 17, with personal plans starting at 9.9 CNY per month for 10 million tokens.
-
-### Pairwise Preference Reward and Group-Based Diversity Enhancement for Superior Open-Ended Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.18191
-- Summary: Current reinforcement learning(RL) methods are broadly applicable and powerful in verifiable settings where scalar rewards can be provided. However, in open-ended generation tasks, verifying the correctness of responses remains challenging, and training reward models incurs substantial...
-
-### Shanghai Mobile Launches 5G-A Super Uplink at Scale: 1Gbps Peak Upload in City Core
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shanghai-mobile-5g-a-super-uplink-commercial
-- Summary: Shanghai Mobile announced the large-scale commercial deployment of 5G-A Super Uplink capability on May 17, delivering peak uplink speeds of 1Gbps in core urban areas.
-
-### Hypershell Raises $50M in Series B+ Round, Becomes World's Top-Selling Consumer Exoskeleton
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hypershell-raises-50-m-in-series-b-round-becomes-world-s-top-selling-consumer-exoskeleton
-- Summary: Hypershell, a Shanghai-based consumer exoskeleton startup founded in 2021, has closed a $50 million Series B+ funding round, cementing its position as the world's top-selling consumer exoskeleton brand by volume.
-
-### Chinese Server CPUs Approach 5GHz Milestone as Intel Supply Crunch Opens Market Window
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/chinese-server-cpu-5ghz-hygon-c86-4g-2026
-- Summary: Chinese domestic server CPUs are on the cusp of reaching 5GHz clock speeds as Intel's supply constraints and price hikes create a widening opportunity for Hygon and other domestic chipmakers.
 
