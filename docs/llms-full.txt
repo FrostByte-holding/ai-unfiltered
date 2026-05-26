@@ -6,6 +6,18 @@
 
 ## 2026-05-26
 
+### Users unable to access chat support on help center
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KSJZHDY7E780KF9J2ZZ8M0GE
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational)
+
+### AI Gateway Prompts not scanned for DLP
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rcr92ddx8z8k
+- Summary: May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -267,6 +279,12 @@
 
 ## 2026-05-25
 
+### Global Convergence of Wasserstein Policy Gradient for Entropy-Regularized Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26078
+- Summary: Wasserstein policy gradient (WPG) is a policy optimization method for reinforcement learning (RL) that exploits the optimal-transport geometry of action distributions. For the entropy-regularized RL objective, WPG evolves each state-conditional policy by transporting it along the action gradient of...
+
 ### Slow build start time in Workers Builds
 - Source: Cloudflare Status
 - Category: incidents
@@ -321,11 +339,23 @@
 - URL: https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/
 - Summary: Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025...
 
+### Addressing Exacerbated Attention Sink for Source-Free Cross-Domain Few-Shot Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25799
+- Summary: Vision-language models (VLMs) like CLIP have shown impressive generalization capabilities, yet their potential for Cross-Domain Few-Shot Learning (CDFSL) remains underexplored, where the model needs to transfer source-domain information to target domains with scarce training data. While the...
+
 ### Oncology Institute Discloses Data Breach
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/oncology-institute-discloses-third-party-data-breach/
 - Summary: The affected third-party vendor has not been named, but one possible candidate is TriZetto. The post Oncology Institute Discloses Data Breach appeared first on SecurityWeek.
+
+### StreamProfileBench: A Benchmark for Fine-Grained User Profile Inference in Real-World Streaming Scenarios
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25758
+- Summary: Large Language Models (LLMs) have reshaped user profiling, yet current evaluations mainly focus on static data snapshots. This paradigm overlooks the reality of personalized systems, where User-Generated Content (UGC) arrives continuously and fine-grained profile evolve rapidly. To bridge this gap,...
 
 ### Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
 - Source: The Hacker News
@@ -404,6 +434,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.25571
 - Summary: Post-training via Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) is crucial for enhancing reasoning in Multimodal Large Language Models (MLLMs), yet existing paradigms often reach a performance bottleneck due to the limitations of static data. While current methods leverage...
+
+### TopoAlign: Topology-Aware Visual Representation Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25541
+- Summary: Neural networks encode inputs as high-dimensional vectors, known as representations, that capture how models process data by encoding task-relevant structure and semantics. Representation alignment refers to the degree to which different models, layers, or training conditions produce similar...
+
+### StructBreak: Structural Cognitive Overload-Induced Safety Failures in MLLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25534
+- Summary: Multimodal Large Language Models (MLLMs) excel at structural reasoning yet suffer from a sharp logical brittleness in structural consistency. We term this phenomenon Structural Cognitive Overload (SCO), a byproduct of the contention between deep reasoning and safety alignment. However, prior work...
 
 ### Over 5,500 GitHub Repositories Infected in ‘Megalodon’ Supply Chain Attack
 - Source: Security Week
@@ -2976,46 +3018,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html
 - Summary: Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. "These vulnerabilities could have...
-
-### EgoCoT-Bench: Benchmarking Grounded and Verifiable Operation-Centric Chain of Thought Reasoning for MLLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.19559
-- Summary: The rapid development of Multimodal Large Language Models (MLLMs) has led to growing interest in egocentric video understanding, specifically the ability for MLLMs to recognize fine-grained hand-object interactions, track object state changes over time, and reason about manipulative processes in...
-
-### Provable Fairness Repair for Deep Neural Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.19549
-- Summary: Deep neural networks (DNNs) are suffering from ethical issues such as individual discrimination. In response, extensive NN repair techniques have been developed to adjust models and mitigate such undesired behaviors. However, existing fairness repair methods are typically data-centric, which often...
-
-### Are Watermarked Images Editable? SafeMark for Watermark-Preserving Text-Guided Image Editing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.19511
-- Summary: This paper investigates a fundamental yet underexplored question: can watermarked images remain editable without compromising watermark integrity? We propose SafeMark, a framework for watermark-preserving text-guided image manipulation that explicitly integrates watermark integrity into the editing...
-
-### ARC-RL: A Reinforcement Learning Playground Inspired by ARC Raiders
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.19503
-- Summary: Reinforcement learning for legged locomotion has matured into a stack of multi-component reward functions and physics-engine benchmarks whose morphologies are uniformly derived from real commercial hardware. Game NPCs, however, are bound by stylistic constraints absent from sim-to-real robotics and...
-
-### Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html
-- Summary: Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS...
-
-### Attention-Guided Reward for Reinforcement Learning-based Jailbreak against Large Reasoning Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.19485
-- Summary: Large Reasoning Models (LRMs) have demonstrated remarkable capabilities in solving complex problems by generating structured, step-by-step reasoning content. However, exposing a model's internal reasoning process introduces additional safety risks; for example, recent studies show that LRMs are...
-
-### [AINews] How to land a job at a frontier lab (on Pretraining)
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier
-- Summary: a quiet day before google i/o lets us amplify a notable blogpost
 
