@@ -6,6 +6,29 @@
 
 ## 2026-05-27
 
+### Codex Context Compaction Latency
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7
+- Summary: Status: IdentifiedWe're investigating an issue causing Codex context compaction to be slower than expected.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance)
+
+### 🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/esmfold2
+- Summary: Datasets vs. inductive bias, world models, and programmable biology
+
+### ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/itbench-aa
+
+### Android ChatGPT Business users having trouble switching workspaces
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KSN40TAYQYGAKFA50HNH22YG
+- Summary: Status: InvestigatingAndroid ChatGPT users may have trouble switching workspaces. We are investigating and will provide updates as more information becomes available.Affected components Login (Degraded performance)
+
 ### Elevated Latency and Errors on API
 - Source: OpenAI Status
 - Category: incidents
@@ -295,6 +318,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/rcr92ddx8z8k
 - Summary: May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
 
+### LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27365
+- Summary: Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded largely independently. This token-by-token decoding mismatches the coupled structure of box geometry...
+
 ### When Eyes Betray AI: Social Gaze Consistency as a Semantic Cue for AI-Generated Image Detection
 - Source: HF Daily Papers
 - Category: open-source
@@ -355,6 +384,12 @@
 - URL: https://www.securityweek.com/appomnis-marlin-ai-brings-autonomous-investigation-to-saas-security/
 - Summary: Marlin AI automatically analyzes SaaS misconfigurations, investigates related activity across enterprise environments, and recommends remediation steps — while stopping short of fully autonomous corrective action. The post AppOmni’s Marlin AI Brings Autonomous Investigation to SaaS Security...
 
+### ORCA: An End-to-End Interactive Copilot for Optimized Root Cause Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27022
+- Summary: Causal analysis is a crucial task in many domains, including manufacturing, social science, and medicine. However, despite recent progress, the conceptual and methodological complexity of causal methods makes them largely inaccessible to domain experts. This gap prevents experts from leveraging...
+
 ### Iranian APT Targets Aviation, Software Companies With Updated Tools
 - Source: Security Week
 - Category: security
@@ -396,6 +431,12 @@
 - Category: security
 - URL: https://www.securityweek.com/anthropic-expands-claudes-enterprise-security-reach-with-28-new-integrations/
 - Summary: Notable integrations include CrowdStrike, Palo Alto Networks, Microsoft, Okta, Zscaler, Netskope, Cloudflare, Fortinet, and Wiz. The post Anthropic Expands Claude&#8217;s Enterprise Security Governance With 28 New Integrations appeared first on SecurityWeek.
+
+### Receipt Replay OOD: A Small Benchmark for Screen Replay Detection Under Domain Shift
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26855
+- Summary: Public datasets such as DLC-2021, SynID, and KID34K have significantly contributed to research on presentation attack detection for identity documents, including screen replay attacks. However, evaluation of out-of-domain (OOD) robustness remains insufficiently explored, especially under realistic...
 
 ### Hackers Exploited KnowledgeDeliver Zero-Day for Web Shell Deployment
 - Source: Security Week
@@ -487,6 +528,12 @@
 - URL: https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/
 - Summary: Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the...
 
+### OmniRetriever: Any-to-Any Audio-Video-Text Retrieval via Fusion-as-Teacher Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26641
+- Summary: Unified multimodal embedding spaces have become the standard interface for cross-modal retrieval and multimodal RAG, and recent audio-video-text (AVT) encoders extend this setting to three modalities. Such encoders can produce a joint (T,V,A) embedding whenever all three modalities are available,...
+
 ### Sample Complexity of Policy Gradient for Log-Growth Control
 - Source: HF Daily Papers
 - Category: open-source
@@ -522,6 +569,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/model-best-open-sources-bit-cpm-cann-1-58-bit-training-achievable-on-domestic-compute
 - Summary: Model Best has open-sourced BitCPM-CANN, a complete training framework enabling 1.58-bit model training on domestic AI accelerators, reportedly reducing inference memory requirements by up to six times compared to full-precision training.
+
+### ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26525
+- Summary: Minute-scale cinematic video generation is a central challenge for generative video models. Existing paradigms address only fragments of this challenge: single-shot extrapolation preserves an anchor but lacks cinematic structure, while multi-shot storytelling imposes structure yet remains free to...
 
 ### In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models
 - Source: arXiv AI
@@ -2963,61 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.20608
 - Summary: Realizing Level 4/5 Autonomous Networks (AN) demands a shift from static automation to agent-native intelligence. Current operations, reliant on rigid scripts, lack the cognitive agency to handle off-nominal conditions. To address this, this letter proposes a hierarchical multi-agent reference...
-
-### Self-Training Doesn't Flatten Language -- It Restructures It: Surface Markers Amplify While Deep Syntax Dies
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20602
-- Summary: Successive self-training on a language model's own outputs is widely characterized as a process of flattening: diversity drops, distributions narrow, and the text becomes "more like itself." We provide evidence that this characterization is incomplete. Across eleven generations of self-training on...
-
-### Deep Learning Surrogates for Emulating Stochastic Climate Tipping Dynamics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20580
-- Summary: This work explores a dynamics-informed Temporal Fusion Transformer (TFT) as a data-driven surrogate for computationally intensive Earth system simulations. Focusing on multivariate time series describing global ocean transport, we demonstrate the surrogate's ability to forecast tip events across...
-
-### API users may see increased error rates for GPT-5.4 and GPT-5.5
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KS19AHSEE3DAX1HHKNQB166F
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Chat Completions (Operational)
-
-### The Readout Shortcut: Positional Number Copying Dominates Arithmetic CoT Readout in Small Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.22870
-- Summary: Chain-of-thought (CoT) prompting is necessary for arithmetic in small language models, yet shuffling its steps preserves most performance. What does CoT contribute if not logical sequencing? In three 1-3B instruction-tuned LMs on GSM8K, we isolate the answer-readout stage via prefix completion and...
-
-### Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/verizon-dbir-2026-vulnerability-exploitation-overtakes-credential-theft-as-top-breach-vector/
-- Summary: Verizon’s 2026 DBIR finds vulnerability exploitation has overtaken credential abuse as the leading breach vector, as AI accelerates attacks, patching delays worsen, and ransomware and third-party compromises continue to surge. The post Verizon DBIR 2026: Vulnerability Exploitation Overtakes...
-
-
-## 2026-05-19
-
-### Cloudflare Access AI control -  MCP server creation impacted
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/qss5qzrvx05l
-- Summary: May 19, 23:37 UTCResolved - This incident has been resolved.May 19, 22:09 UTCUpdate - We are continuing to investigate this issue.May 19, 21:59 UTCInvestigating - Customers may experience issue adding new MCP Servers or authenticating existing ones through the Zero Trust Dash
-
-### CASCADE Conformal Prediction: Uncertainty-Adaptive Prediction Intervals for Two-Stage Clinical Decision Support
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20468
-- Summary: Effective medication management in Parkinson's Disease (PD) is challenging due to heterogeneous disease progression, variable patient response, and medication side effects. While AI models can forecast levodopa equivalent daily dose (LEDD) as a measure of medication needs, standard uncertainty...
-
-### Roundtables: Inside the Musk v. Altman Trial
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/
-- Summary: Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins...
-
-### Pixel Wised Lesion Prediction on COVID-19 CT Imagery: A Comparative Analysis of Automated Image Segmentation Architectures
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20459
-- Summary: In recent years, there has been a notable increase in the level of attention that is given to algorithms based on deep learning in the context of medical image segmentation. Nevertheless, the reliability of the field has been hindered due to the absence of a standardized methodology for performance...
 

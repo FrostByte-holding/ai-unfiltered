@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 27 May 2026 15:50:33 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 18:31:17 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Codex Context Compaction Latency</title>
+            <link>https://status.openai.com//incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7</link>
+            <guid>https://status.openai.com//incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7</guid>
+            <pubDate>Wed, 27 May 2026 17:57:17 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: IdentifiedWe&#x27;re investigating an issue causing Codex context compaction to be slower than expected.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance)</description>
+        </item>
+        <item>
+            <title>🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub</title>
+            <link>https://www.latent.space/p/esmfold2</link>
+            <guid>https://www.latent.space/p/esmfold2</guid>
+            <pubDate>Wed, 27 May 2026 17:46:16 +0000</pubDate>
+            <source url="https://www.latent.space/p/esmfold2">Latent Space</source>
+            <category>open-source</category>
+            <description>Datasets vs. inductive bias, world models, and programmable biology</description>
+        </item>
+        <item>
+            <title>ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM</title>
+            <link>https://huggingface.co/blog/ibm-research/itbench-aa</link>
+            <guid>https://huggingface.co/blog/ibm-research/itbench-aa</guid>
+            <pubDate>Wed, 27 May 2026 17:20:29 +0000</pubDate>
+            <source url="https://huggingface.co/blog/ibm-research/itbench-aa">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Android ChatGPT Business users having trouble switching workspaces</title>
+            <link>https://status.openai.com//incidents/01KSN40TAYQYGAKFA50HNH22YG</link>
+            <guid>https://status.openai.com//incidents/01KSN40TAYQYGAKFA50HNH22YG</guid>
+            <pubDate>Wed, 27 May 2026 16:24:26 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KSN40TAYQYGAKFA50HNH22YG">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: InvestigatingAndroid ChatGPT users may have trouble switching workspaces. We are investigating and will provide updates as more information becomes available.Affected components Login (Degraded performance)</description>
+        </item>
         <item>
             <title>Elevated Latency and Errors on API</title>
             <link>https://status.openai.com//incidents/01KSMYEEWP0BZYANSMAXWJ3K59</link>
@@ -387,6 +423,15 @@
             <description>May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP</description>
         </item>
         <item>
+            <title>LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding</title>
+            <link>https://tldr.takara.ai/p/2605.27365</link>
+            <guid>https://tldr.takara.ai/p/2605.27365</guid>
+            <pubDate>Tue, 26 May 2026 17:59:12 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2605.27365">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Vision-language models (VLMs) commonly formulate visual grounding and detection as a coordinate-token generation problem, serializing each 2D box into multiple 1D tokens that are learned and decoded largely independently. This token-by-token decoding mismatches the coupled structure of box geometry...</description>
+        </item>
+        <item>
             <title>When Eyes Betray AI: Social Gaze Consistency as a Semantic Cue for AI-Generated Image Detection</title>
             <link>https://tldr.takara.ai/p/2605.27348</link>
             <guid>https://tldr.takara.ai/p/2605.27348</guid>
@@ -412,51 +457,6 @@
             <source url="https://www.githubstatus.com/incidents/xflkh26pm7vv">GitHub Status</source>
             <category>incidents</category>
             <description>May 26, 16:35 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 26, 16:24 UTC Monitoring - The degradation affecting Copilot has been mitigated. We...</description>
-        </item>
-        <item>
-            <title>Symbolic Regression via Latent Iterative Refinement</title>
-            <link>https://tldr.takara.ai/p/2605.27245</link>
-            <guid>https://tldr.takara.ai/p/2605.27245</guid>
-            <pubDate>Tue, 26 May 2026 16:25:05 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2605.27245">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Symbolic regression (SR) seeks closed-form mathematical expressions that fit observed data. Neural SR methods amortize the search by training an encoder to map observations directly to expressions in a single pass, but this amortized inference leaves a residual amortization gap between its one-shot...</description>
-        </item>
-        <item>
-            <title>Some ideas for what comes next, May 2026</title>
-            <link>https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may</link>
-            <guid>https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may</guid>
-            <pubDate>Tue, 26 May 2026 15:39:02 +0000</pubDate>
-            <source url="https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may">Interconnects</source>
-            <category>open-source</category>
-            <description>Gemini Flash 3.5, Mythos, open-closed balance, America&#x27;s open-source surge, emerging power struggles and more.</description>
-        </item>
-        <item>
-            <title>Query Symbolically or Retrieve Semantically? A Dataset and Method for Semi-Structured Question Answering</title>
-            <link>https://tldr.takara.ai/p/2605.27164</link>
-            <guid>https://tldr.takara.ai/p/2605.27164</guid>
-            <pubDate>Tue, 26 May 2026 15:22:42 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2605.27164">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Retrieval-Augmented Generation (RAG) systems for question answering typically retrieve evidence by semantic similarity between the query and document chunks. While effective for unstructured text, this approach is less reliable on semi-structured corpora where answering may require exact filtering,...</description>
-        </item>
-        <item>
-            <title>Rethinking organizational design in the age of agentic AI</title>
-            <link>https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/</link>
-            <guid>https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/</guid>
-            <pubDate>Tue, 26 May 2026 14:54:10 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&amp;#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They...</description>
-        </item>
-        <item>
-            <title>Login issues for FedRAMP users who recently logged out</title>
-            <link>https://status.openai.com//incidents/01KSJKR3EXTMKY0C287HS1BR8P</link>
-            <guid>https://status.openai.com//incidents/01KSJKR3EXTMKY0C287HS1BR8P</guid>
-            <pubDate>Tue, 26 May 2026 14:20:00 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KSJKR3EXTMKY0C287HS1BR8P">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: IdentifiedWe have identified that users are experiencing login issues for the impacted services. We are working on implementing a mitigation.Affected components Login (Degraded performance) FedRAMP (Degraded performance)</description>
         </item>
     </channel>
 </rss>
