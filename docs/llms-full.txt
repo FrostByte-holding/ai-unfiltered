@@ -6,11 +6,47 @@
 
 ## 2026-05-27
 
+### Elevated Latency and Errors on API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KSMYEEWP0BZYANSMAXWJ3K59
+- Summary: Status: IdentifiedWe are still implementing the mitigation.Affected components Chat Completions (Degraded performance) Audio (Degraded performance) Embeddings (Degraded performance)
+
+### 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html
+- Summary: When an employee installs an AI writing assistant, connects a coding copilot to their IDE, or starts summarizing meetings with a new browser tool, they are doing exactly what a productive employee should do: finding faster ways to work. Across most organizations today, employees are running three...
+
+### Incident with Pull Requests, Issues, Git Operations and API Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/xy1tt3hs572m
+- Summary: May 27, 13:16 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 27, 12:54 UTC Update - We're continuing to investigate degraded performance of Git...
+
+### The Download: keeping up with AI, and the future of IVF
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from the world...
+
 ### Designing secure access with ZTNA
 - Source: NCSC UK
 - Category: security
 - URL: https://www.ncsc.gov.uk/blogs/designing-secure-access-with-ztna
 - Summary: New guidance explains how to design Zero Trust Network Access architectures aligned with zero trust principles and not built on old trust assumptions.
+
+### GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html
+- Summary: CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWorm, a persistent software chain campaign targeting software developers through malicious packages and extensions. "Since...
+
+### 3 SOC Steps that Shut Down Incident Risks Early
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html
+- Summary: Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through the front gate. They drift in disguised as routine activity, hide inside legitimate processes, and quietly accumulate...
 
 ### Romanian Hacker Sentenced to Prison in US for Selling Access to State Network
 - Source: Security Week
@@ -234,6 +270,16 @@
 - URL: https://pandaily.com/qualcomm-bytedance-ai-chip-deal-may2026
 - Summary: Qualcomm to supply millions of ASIC chips to ByteDance data centers for AI agent workloads, as the chipmaker diversifies beyond mobile into cloud infrastructure.
 
+### Reachy Mini goes fully local
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/local-reachy-mini-conversation
+
+### Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/delta-weight-sync
+
 
 ## 2026-05-26
 
@@ -255,11 +301,23 @@
 - URL: https://tldr.takara.ai/p/2605.27348
 - Summary: Recent generative models have largely closed the gap on low-level artifacts - pixel fingerprints, frequency anomalies, upsampling traces - particularly in person-centric and partial-edit settings where the manipulated region is small and surrounded by photometrically authentic content. We introduce...
 
+### Greening AI Inference with Accuracy and Latency-aware User Incentives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27309
+- Summary: The widespread use of AI services has raised concerns for its environmental sustainability, towards which recent studies have identified carbon emissions of AI inference as the major contributor. This paper introduces a framework for designing AI inference incentives based on the users' valuation...
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/xflkh26pm7vv
 - Summary: May 26, 16:35 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 26, 16:24 UTC Monitoring - The degradation affecting Copilot has been mitigated. We...
+
+### Symbolic Regression via Latent Iterative Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27245
+- Summary: Symbolic regression (SR) seeks closed-form mathematical expressions that fit observed data. Neural SR methods amortize the search by training an encoder to map observations directly to expressions in a single pass, but this amortized inference leaves a residual amortization gap between its one-shot...
 
 ### MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries
 - Source: The Hacker News
@@ -272,6 +330,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may
 - Summary: Gemini Flash 3.5, Mythos, open-closed balance, America's open-source surge, emerging power struggles and more.
+
+### Query Symbolically or Retrieve Semantically? A Dataset and Method for Semi-Structured Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27164
+- Summary: Retrieval-Augmented Generation (RAG) systems for question answering typically retrieve evidence by semantic similarity between the query and document chunks. While effective for unstructured text, this approach is less reliable on semi-structured corpora where answering may require exact filtering,...
 
 ### Rethinking organizational design in the age of agentic AI
 - Source: MIT Tech Review AI
@@ -362,6 +426,12 @@
 - Category: security
 - URL: https://www.securityweek.com/lithuania-suspects-foreign-involvement-in-data-leak-of-over-600000-national-register-entries/
 - Summary: Lithuanian authorities are on high alert after a massive data leak involving more than 600,000 entries from national data registers. The post Lithuania Suspects Foreign Involvement in Data Leak of Over 600,000 National Register Entries appeared first on SecurityWeek.
+
+### SeDT: Sentence-Transformer Decision-Transformer Conditioning for Multi-Turn Conversation Reliability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26788
+- Summary: Large language models (LLMs) achieve impressive performance when a task is fully specified in a single turn, yet the same models lose up to 39% of that performance when the identical task is revealed incrementally across multiple turns, a phenomenon documented at scale as Lost in Conversation....
 
 ### ASUS Launches World's First Snapdragon X All-in-One PC, Available Now in India
 - Source: Pandaily
@@ -548,6 +618,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.26509
 - Summary: Gaussian processes (GPs) provide a principled Bayesian framework for uncertainty estimation, but their computational complexity severely limits scalability to large datasets. We propose SIKA-GP, which accelerates GP inference using sparse inducing kernel approximations based on a dyadic ordered...
+
+### AnchorDiff: Training-Free Concept Grounding for MM-DiTs via Anchor-Based Graph Propagation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26460
+- Summary: Multi-Modal Diffusion Transformers (MM-DiTs) encode rich representations for training-free concept grounding, but existing attention-based methods often produce overlapping activations on visually confusable concepts, a failure mode we call concept leakage, where target responses spill over to...
 
 ### Beihang-MIT Wearable Robot Helps Children with Muscular Dystrophy Stand Independently
 - Source: Pandaily
@@ -2944,81 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.20459
 - Summary: In recent years, there has been a notable increase in the level of attention that is given to algorithms based on deep learning in the context of medical image segmentation. Nevertheless, the reliability of the field has been hindered due to the absence of a standardized methodology for performance...
-
-### Intermittent Cloudflare Dashboard SSO login failures with Okta
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/0myxk19xsyby
-- Summary: May 19, 20:10 UTCResolved - Cloudflare engineering has ruled out any service degrading within Cloudflare systems. Customers are advised to review their Okta authentication logs for potential errors. A status update will be provided if Cloudflare Engineering determines the specific Okta issue...
-
-### Decomposing MXFP4 quantization error for LLM reinforcement learning: reducible bias, recoverable deadzone, and an irreducible floor
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20402
-- Summary: MXFP4 arithmetic can dramatically accelerate reinforcement learning (RL) post-training of large language models (LLMs), yet the quantization error introduces severe accuracy degradation. Existing work treats the quantization error as a monolithic noise term, missing the distinct mechanisms upon...
-
-### OlmoEarth v1.1: A more efficient family of models
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/olmoearth-v1-1
-
-### Capability $\neq$ Interpretability: Human Interpretability of Vision Foundation Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20337
-- Summary: How interpretable are the features of leading vision models? The question is increasingly pressing as these models move from research benchmarks into high-stakes deployments, yet existing methods cannot answer it reliably. We close this gap with a framework for measuring and comparing the human...
-
-### PiG-Avatar: Hierarchical Neural-Field-Guided Gaussian Avatars
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20185
-- Summary: Existing Gaussian avatar methods typically parameterize geometry on a body-template surface, which entangles the avatar's representation space with the template's deformation space and limits the capture of layered, off-body, and non-rigid clothing geometry. We present PiG-Avatar, which addresses...
-
-### Cofoe and Tencent Tianlai Lab Launch AI Bone Conduction Hearing Aid X5
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cofoe-and-tencent-tianlai-lab-launch-ai-bone-conduction-hearing-aid-x5
-- Summary: Cofoe Medical, in collaboration with Tencent Tianlai Lab (Tencent's in-house audio and AI research laboratory), has launched the X5 Bone Conduction Hearing Ai...
-
-### HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20167
-- Summary: Flash floods in Bangladesh's haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These basins are flat. Water does not behave like it does on the Brahmaputra. We built HaorFloodAlert, a...
-
-### Rethinking Visual Attribution for Chest X-ray Reasoning in Large Vision Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.20158
-- Summary: Large Vision Language Models (LVLMs) show promise in medical applications, but their inability to faithfully ground responses in visual evidence raises serious concerns about clinical trustworthiness. While visual attribution methods are widely used to explain LVLM predictions, whether these...
-
-### Horizon Robotics Open-Sources HoloMotion-1: 4B Robot Cerebellum Model Running 300FPS on Device
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/horizon-robotics-holomotion-1-robot-cerebellum-22cz
-- Summary: Horizon Robotics has released HoloMotion-1, a 4-billion-parameter robot cerebellum model capable of real-time inference at 300FPS on edge devices, marking a major leap in whole-body humanoid robot control.
-
-### DEEP Robotics Files for STAR Market IPO, Seeks ~$3.5B Valuation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deep-robotics-files-for-star-market-ipo-seeks-3-5-b-valuation
-- Summary: Following Unitree Robotics and Qiangkin Technology,DEEP Robotics has become the third of China's 'Hangzhou Seven Dragons' to file for a STAR Market listing, seeking to raise approximately 2.5 billion yuan (~$3.5B valuation).
-
-### UniStrong Instruments: 15 Years Supplying ABB, Now Racing to Global Robot Sensor Dominance
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/unistrong-instruments-15-years-abb-robot-sensor-lnbl
-- Summary: UniStrong Instruments has supplied ABB for 15 consecutive years and recently earned UL certification, positioning itself to compete globally in the robot force-torque sensor market against international rivals in the relentless race of industrial manufacturing.
-
-### Alibaba's Qwen 3.7 Max Preview Surfaces in LM Arena, Dual 72B Models in Concurrent Iteration
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qwen-3-7-max-preview-lm-arena-vlco
-- Summary: Alibaba's Qwen 3.7 Max preview has appeared in LM Arena rankings alongside an active Qwen 3 Ultra preview, suggesting the company is simultaneously iterating two flagship 72-billion-parameter models ahead of a full public release.
-
-### Matrix Super Intelligence Unveils MATRIX-3 Humanoid Robot, Targets 100,000 Units by 2027
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/matrix-super-intelligence-matrx-3-humanoid-robot-2027-hd9s
-- Summary: Matrix Super Intelligence, a Pudong Zhangjiang company, has unveiled the MATRIX-3 full-size humanoid robot standing 170cm tall and weighing 65kg, targeting mass production of 100,000 units by 2027.
 
