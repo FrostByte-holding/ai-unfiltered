@@ -6,6 +6,36 @@
 
 ## 2026-05-28
 
+### Business plan subscription checkout issues on web and mobile web
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KSR5D08APXRBVK8S120N4PDX
+- Summary: Status: InvestigatingSome users may be unable to complete Business plan subscription checkouts on web and mobile web. We are investigating the issue for the listed services.
+
+### Disruption with Copilot Cloud Agent and Copilot Code Review
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/rhqcgg8lg6mm
+- Summary: May 28, 20:41 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 28, 20:06 UTC Update - Open AI models are currently unavailable. We are shifting...
+
+### Billing and subscription management issues
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/8q00jfj4yfv6
+- Summary: May 28, 19:23 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 18:27 UTC to 19:05 UTC. May 28, 19:17 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. May 28, 19:04 UTC Identified - We are...
+
+### The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/cognition
+- Summary: 80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code
+
+### Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html
+- Summary: A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE...
+
 ### Carnival Data Breach Exposed 6 Million People
 - Source: Security Week
 - Category: security
@@ -291,6 +321,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/fcf53c63z05x
 - Summary: May 27, 21:30 UTC Resolved - Customers might have seen intermittent unavailability with the container managed registry
 
+### PEFT-Arena: Understanding Parameter-Efficient Finetuning from a Stability-Plasticity Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28819
+- Summary: Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pretrained capabilities. We argue that PEFT should be assessed through the stability-plasticity...
+
 ### Codex Context Compaction Latency
 - Source: OpenAI Status
 - Category: incidents
@@ -338,6 +374,12 @@
 - URL: https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html
 - Summary: Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively. That's according to new findings from WatchGuard and ESET, which have observed the two malware families being used to...
 
+### GraphLit: Learning Text-Enriched Dynamic Character Network Representations for Literary Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28643
+- Summary: Methods to represent literary texts as graphs or sequences of graphs mainly focus on representing character interactions, and often overlook another crucial aspect: the textual context in which characters interact. We introduce Dynamic Heterogeneous Character Networks (DHCNs), which organize long...
+
 ### Elevated Latency and Errors on API
 - Source: OpenAI Status
 - Category: incidents
@@ -355,6 +397,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.28626
 - Summary: Hybrid interpretable models combine a transparent component with a black-box model by assigning some examples to the former and deferring the rest to the latter. While this design enables flexible tradeoffs between accuracy and interpretability, it also raises a distinct procedural fairness...
+
+### PLS in the Mirror of Self-Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28592
+- Summary: This note provides an interesting observation on casting partial least square (PLS) as a linearized self-attention so that PLS may be studied within the neural network paradigm. On the other hand, the dimensionality reduction and selection of predictors in PLS may indicate that self-attention...
 
 ### Semantic Optimal Transport for Sparse Autoencoder Feature Matching and Circuit Compression
 - Source: HF Daily Papers
@@ -547,6 +595,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.27986
 - Summary: Messenger RNA (mRNA) sequences as therapeutics require optimized design to ensure efficient translation, structural stability, and minimal immunogenicity. This study presents a two-stage in-silico framework that integrates deep learning and evolutionary computation for rational mRNA optimization...
+
+### KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27984
+- Summary: Speech language models (SpeechLMs) have achieved substantial progress by extending large language models (LLMs) to the speech modality. However, SpeechLM evaluation remains heavily centered on English, limiting reliable assessment of multilingual speech capabilities. Straightforward benchmark...
+
+### Continual Learning in Modern Hopfield Networks with an Application to Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27975
+- Summary: Generative models, including diffusion models, are increasingly used as foundation models and adapted through sequential fine-tuning, making continual learning an essential problem setting. However, continual learning in such generative models remains poorly understood: after a task change, what...
 
 ### BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization
 - Source: arXiv AI
@@ -2959,64 +3019,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/zb01gngwrghg
 - Summary: May 20, 15:00 UTCResolved - Between 15:00-15:20 UTC Customer traffic in Europe region may have experienced an increased rate of 520 errors
-
-### STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21261
-- Summary: Training-free zero-shot composed image retrieval models are recently gaining increasing research interest due to their generalizability and flexibility in unseen multimodal retrieval. Recent LLM-based advances focus on generating the expected target caption by exploring the compositional ability...
-
-### On the Cost and Benefit of Chain of Thought: A Learning-Theoretic Perspective
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21260
-- Summary: We develop a learning-theoretic framework for understanding Chain of Thought (CoT). We model CoT as the interaction between an answer map and a chain rule that generates intermediate questions autoregressively, and define the reasoning risk of a hypothesis under this interaction. Our first result...
-
-### Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21258
-- Summary: Current 3D-aware pretraining methods for embodied perception and manipulation are largely built on differentiable rendering frameworks, producing either fully implicit neural fields or fully explicit geometric primitives. Implicit representations, while expressive, lack explicit structural cues,...
-
-### Elevated errors on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/4znk51f63g93
-- Summary: May 20, 14:43 UTCInvestigating - We are currently investigating this issue.
-
-### AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-powered-app-attacks-are-faster-more-frequent-and-harder-to-stop/
-- Summary: Digital.ai’s latest threat report warns that agentic AI has erased the distinction between emerging and primary targets, enabling attackers to strike mobile apps within hours of release across every industry. The post AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop appeared...
-
-### Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html
-- Summary: Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant...
-
-### OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under optimal Squared error quantization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21226
-- Summary: The key-value (KV) cache dominates memory bandwidth and footprint in long-context autoregressive inference. Recent rotation-preconditioned codecs (TurboQuant, PolarQuant) show that a structured random rotation followed by a per-coordinate scalar quantizer matched to an analytically tractable...
-
-### Artificial Intelligence Reshapes Microwave Photonics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21224
-- Summary: As a rapidly emerging interdisciplinary field that intrinsically integrates microwave and photonics, microwave photonics (MWP) provides disruptive solutions to overcome the fundamental bandwidth of conventional electronic systems. By exploiting the inherently ultra-wide bandwidth and low-loss...
-
-### Enhanced Reinforcement Learning-based Process Synthesis via Quantum Computing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21213
-- Summary: In this work, we present quantum reinforcement learning (RL) as a solution strategy for process synthesis problems. Building on our prior work, we develop a generalized framework that formally poses process synthesis as a Markov decision process and introduces quantum-enhanced RL algorithms to...
-
-### Reinforcement Learning-based Control via Y-wise Affine Neural Networks: Comparative Case Studies for Chemical Processes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.21211
-- Summary: In this work we present an efficient and practically implementable approach for the application of reinforcement learning (RL)-based control in chemical process systems. This is an area that has yet to widely adopt RL-based control largely due to inherent challenges in trusting RL algorithms and...
 
