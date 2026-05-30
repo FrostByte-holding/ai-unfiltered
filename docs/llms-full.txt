@@ -6,6 +6,12 @@
 
 ## 2026-05-30
 
+### PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html
+- Summary: Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited...
+
 ### [AINews] Founders and Forward Deployed Engineers
 - Source: Latent Space
 - Category: open-source
@@ -851,6 +857,12 @@
 - URL: https://pandaily.com/vggt-edit-3d-scene-editing-beijing-hk-ai-lab-may2026
 - Summary: VGGT-Edit, a joint research framework from Peking University, CUHK, Shanghai AI Lab, and NTU, enables 3D scene editing in 5 seconds with up to 120x speed improvement over existing methods.
 
+### Compute Allocation in Evolutionary Search: From Depth-Breadth to Multi-Armed Bandits
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29268
+- Summary: LLM-guided evolutionary search (Evolve systems) has reached state-of-the-art results on mathematical and combinatorial tasks, yet most existing systems report only the best of many runs and leave the run-to-run distribution undocumented. We ask how a fixed budget of LLM calls should be allocated,...
+
 ### Webhook APIs and UI Degraded
 - Source: GitHub Status
 - Category: incidents
@@ -1465,6 +1477,12 @@
 - URL: https://pandaily.com/qualcomm-bytedance-ai-chip-deal-may2026
 - Summary: Qualcomm to supply millions of ASIC chips to ByteDance data centers for AI agent workloads, as the chipmaker diversifies beyond mobile into cloud infrastructure.
 
+### TCP-MCP: Landscape-Guided Co-Evolution of Prompts and Communication Topologies for Multi-Agent Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27850
+- Summary: Effective multi-agent systems cannot be designed by selecting prompts or communication graphs in isolation. Agent behavior depends on the information an agent receives, while the usefulness of a communication edge depends on how the receiving agent interprets and uses that information. We propose...
+
 ### Disentangling Adversarial Prompts: A Semantic-Graph Defense for Robust LLM Security
 - Source: HF Daily Papers
 - Category: open-source
@@ -1501,6 +1519,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/rcr92ddx8z8k
 - Summary: May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
+
+### On the Subgaussianity of Quantized Linear Maps: An AI-Assisted Note
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27563
+- Summary: This short note presents a dimension-independent subgaussian concentration bound for Gaussian vectors under coordinate-wise nonlinear mappings. Discovered by Gemini 3.5 Flash, this result applies to any bounded function under a well-conditioned covariance. We apply this tool to answer a question of...
 
 ### LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding
 - Source: HF Daily Papers
@@ -1964,8 +1988,20 @@
 - URL: https://status.claude.com/incidents/fl8sx824x72r
 - Summary: May 26, 01:56 UTC Investigating - We are currently investigating this issue.
 
+### Annotator Positionality as Signal: Psychometric Weighting for Anti-Autistic Ableism Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26397
+- Summary: Large language models (LLMs) are increasingly used in decision-making tasks where they can amplify or suppress perspectives, raising concerns in high-stakes settings affecting autistic communities. While previous research has identified disability-related biases in LLMs, it remains unclear how they...
+
 
 ## 2026-05-25
+
+### Frequency-Guided Fusion For RGB-Thermal Semantic Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26273
+- Summary: Semantic segmentation in complex environments such as urban driving scenes remains challenging under adverse lighting conditions, where RGB images alone provide insufficient information. RGB-Thermal fusion leverages the complementary strengths of visible and infrared imagery to improve scene...
 
 ### Global Convergence of Wasserstein Policy Gradient for Entropy-Regularized Reinforcement Learning
 - Source: HF Daily Papers
@@ -2983,40 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.21776
 - Summary: arXiv:2605.21776v1 Announce Type: new Abstract: Estimating mutual information from text usually requires training a task-specific critic, which limits its use in low-data settings. We ask whether large language models can instead estimate pointwise mutual information zero-shot, using only prompts...
-
-### Reflective Prompt Tuning through Language Model Function-Calling
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21781
-- Summary: arXiv:2605.21781v1 Announce Type: new Abstract: Large language models (LLMs) have become increasingly capable of following instructions and complex reasoning, making prompting a flexible interface for adapting models without parameter updates. Yet prompt design remains labor-intensive and highly...
-
-### Residual Skill Optimization for Text-to-SQL Ensembles
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21792
-- Summary: arXiv:2605.21792v1 Announce Type: new Abstract: Text-to-SQL ensembles improve over single-candidate generation by drawing multiple SQL candidates and selecting one, but their effectiveness is bounded by Pass@K, the probability that at least one of K candidates is correct. Existing methods source...
-
-### When Cases Get Rare: A Retrieval Benchmark for Off-Guideline Clinical Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21807
-- Summary: arXiv:2605.21807v1 Announce Type: new Abstract: Across medical specialties, clinical practice is anchored in evidence-based guidelines that codify best studied diagnostic and treatment pathways. These pathways routinely fall short for the long tail of real-world care not covered by guidelines. Most...
-
-### Does Slightly Mean Somewhat? Measuring Vague Intensity Words in LLM Numeric Actions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21827
-- Summary: arXiv:2605.21827v1 Announce Type: new Abstract: Do language models preserve the ordinal meaning of intensity words when those words must produce numeric actions? I study a researcher-constructed scale of 10 English degree modifiers, from slightly to drastically, informed by the Quirk et al....
-
-### oiioii Offers 150+ Video Animation Styles in the Era of Video Agents
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/oiioii-video-animation-150-styles-may2026
-- Summary: oiioii provides over 150 video animation styles for creators seeking specific artistic control.
-
-### Huawei Produces 122TB SSD Using Proprietary Chip Packaging Technology
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-122tb-ssd-proprietary-packaging-may2026
-- Summary: Huawei develops 122TB SSD using proprietary chip packaging technology amid semiconductor restrictions.
 
