@@ -641,6 +641,12 @@
 - URL: https://www.latent.space/p/ainews-cognition-raises-1b-in-26b
 - Summary: coding is an uncapped TAM market
 
+### When Does Persona Prompting Actually Help? A Retrieval and Metric Analysis of Expert Role Injection in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29420
+- Summary: Persona prompting is widely used to steer large language models, yet its practical value remains unclear. Prior work often evaluates persona prompting using aggregate scores, making it difficult to determine whether expert-role prompting consistently improves response quality or instead changes...
+
 ### Subscription checkout failing
 - Source: OpenAI Status
 - Category: incidents
@@ -1141,6 +1147,12 @@
 - URL: https://pandaily.com/gigadevice-ethercat-robot-joint-control-may2026
 - Summary: GigaDevice recently hosted a webseminar titled "Secure Robotics in Motion," presenting the evolving direction of robot control systems. The company explained wh...
 
+### Proprio: Latent Self-Scoring and Inference-Time Refinement for Physically Plausible Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28230
+- Summary: Modern video generative models produce visually impressive results, yet frequently violate basic physical principles. We propose Proprio, a training-free framework that enables a frozen video generator to assess and improve the physical plausibility of its own outputs. Inspired by proprioception,...
+
 ### BYD Confirms Humanoid Robot Push with Seventh-Generation 'Yao-Shun-Yu' Project Targeting 4S Stores and Homes
 - Source: Pandaily
 - Category: chinese-ai
@@ -1164,6 +1176,12 @@
 - Category: security
 - URL: https://www.securityweek.com/la-metro-cyberattack-linked-to-iranian-state-sponsored-hackers/
 - Summary: The attack was claimed by a hacktivist group, but evidence showed it used infrastructure linked to Iranian government threat actors. The post LA Metro Cyberattack Linked to Iranian State-Sponsored Hackers appeared first on SecurityWeek.
+
+### Pruning and Distilling Mixture-of-Experts into Dense Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28207
+- Summary: Mixture-of-Experts (MoE) is now the dominant architecture for frontier language models, yet it requires all expert parameters to be loaded in memory, making it less preferable for memory-constrained deployment. Existing compression methods reduce the number of experts but the output remains an MoE...
 
 ### XREAL Launches Affordable xbx Sub-Brand AR Glasses at 1,699 Yuan, Aims for IPO
 - Source: Pandaily
@@ -1242,6 +1260,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.27975
 - Summary: Generative models, including diffusion models, are increasingly used as foundation models and adapted through sequential fine-tuning, making continual learning an essential problem setting. However, continual learning in such generative models remains poorly understood: after a task change, what...
+
+### ROVER: Routing Object-Centric Visual Evidence for Grounded Multi-Image Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27959
+- Summary: Multimodal Large Language Models (MLLMs) have increasingly localized and interleaved visual evidence for deliberative reasoning. Grounding-based approaches typically focus on regions of interest (RoIs) by injecting cropped image patches or RoI-specific features into the reasoning context. However,...
 
 ### BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization
 - Source: arXiv AI
@@ -1476,6 +1500,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/qualcomm-bytedance-ai-chip-deal-may2026
 - Summary: Qualcomm to supply millions of ASIC chips to ByteDance data centers for AI agent workloads, as the chipmaker diversifies beyond mobile into cloud infrastructure.
+
+### ClothTransformer: Unified Latent-Space Transformers for Scalable Cloth Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27852
+- Summary: Unified and scalable Transformers have recently achieved remarkable success in modeling diverse phenomena traditionally associated with computer graphics, such as 3D visual effects, rendering processes, and motion in videos. In this work, we take a step further by investigating whether modern...
 
 ### TCP-MCP: Landscape-Guided Co-Evolution of Prompts and Communication Topologies for Multi-Agent Systems
 - Source: HF Daily Papers
@@ -2989,34 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.20258
 - Summary: arXiv:2605.20258v1 Announce Type: new Abstract: Contextual Integrity (CI) defines privacy not merely as keeping information hidden, but as governing information flows according to the norms of a given context. As large language models are increasingly deployed as personal agents handling sensitive...
-
-### Residual Paving: Diagnosing the Routing Bottleneck in Selective Refusal Editing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20262
-- Summary: arXiv:2605.20262v1 Announce Type: new Abstract: We study selective refusal editing as a three-way control problem: induce non-refusal on designated edit prompts while preserving benign behavior and harmful refusals outside the edit set. We introduce Residual Paving, a routed residual editing method...
-
-### Chronicle: A Multimodal Foundation Model for Joint Language and Time Series Understanding
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20268
-- Summary: arXiv:2605.20268v1 Announce Type: new Abstract: Real-world time series come with text: metadata, descriptions, news, reports. Yet time series foundation models process numerical sequences in isolation, and the multimodal text-and-time-series models that attempt to bridge the two all adapt a...
-
-### Catching a Moving Subspace: Low-Rank Bandits Beyond Stationarity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20269
-- Summary: arXiv:2605.20269v1 Announce Type: new Abstract: Many bandit deployments (recommendation, clinical dosing, ad targeting) share two facts prior work handles only in isolation: rewards live on a low-dimensional latent subspace, and that subspace drifts. Stationary low-rank bandits exploit rank but...
-
-### Conformal Selective Acting: Anytime-Valid Risk Control for RLVR-Trained LLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20270
-- Summary: arXiv:2605.20270v1 Announce Type: new Abstract: A local specialist LLM, fine-tuned with reinforcement learning from verifiable rewards (RLVR) on operator-local data, is installed in a regulated organization with per-deployment error budget $\alpha$. The operator needs a safety certificate for this...
-
-### PromptNCE: Pointwise Mutual Information Predictions Using Only LLMs and Contrastive Estimation Prompts
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21776
-- Summary: arXiv:2605.21776v1 Announce Type: new Abstract: Estimating mutual information from text usually requires training a task-specific critic, which limits its use in low-data settings. We ask whether large language models can instead estimate pointwise mutual information zero-shot, using only prompts...
 
