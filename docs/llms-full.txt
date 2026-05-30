@@ -914,6 +914,12 @@
 
 ## 2026-05-27
 
+### Slogans or Stance? A Label-Light Diagnostic for Entrepreneurial-Discourse Measurement on Chinese SOE Speeches
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29188
+- Summary: Dictionary methods, topic models, and embedding-similarity scorers are widely used in CSS and management research to measure constructs such as "entrepreneurial spirit" in corporate speeches. We contribute a label-light measurement diagnostic for such instruments rather than a new extraction model....
+
 ### Container Registry Unavailability
 - Source: Cloudflare Status
 - Category: incidents
@@ -1255,6 +1261,12 @@
 - URL: https://tldr.takara.ai/p/2605.28078
 - Summary: We design a class of additive noise mechanisms that satisfy \((\varepsilon, δ)\)-differential privacy (DP) for scalar, real-valued query functions with known sensitivities, with a particular focus on moderate and low-privacy regimes. These mechanisms, which we call \textit{mixture mechanisms}, are...
 
+### SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28074
+- Summary: Retrieval-Augmented Generation (RAG) mitigates LLM hallucinations but introduces a critical vulnerability: corpus integrity. We present SilentRetrieval, a two-stage data poisoning attack that hijacks RAG systems through adversarially crafted yet fluent documents. Stage 1 uses Coordinated Beam...
+
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
 - Category: incidents
@@ -1549,6 +1561,12 @@
 - URL: https://tldr.takara.ai/p/2605.27850
 - Summary: Effective multi-agent systems cannot be designed by selecting prompts or communication graphs in isolation. Agent behavior depends on the information an agent receives, while the usefulness of a communication edge depends on how the receiving agent interprets and uses that information. We propose...
 
+### MRMMIA: Membership Inference Attacks on Memory in Chat Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27825
+- Summary: Membership inference attacks (MIAs) test whether a target data record belongs to a system's private data, and have become a standard tool to measure privacy leakage in machine learning systems. Prior work has primarily focused on training corpora or retrieval databases. However, MIAs against agent...
+
 ### Disentangling Adversarial Prompts: A Semantic-Graph Defense for Robust LLM Security
 - Source: HF Daily Papers
 - Category: open-source
@@ -1573,6 +1591,12 @@
 
 
 ## 2026-05-26
+
+### Smoothed Score Queries and the Complexity of Sampling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27769
+- Summary: We study the query complexity of sampling from high-dimensional Gaussian distributions using gradient information. In the standard oracle model, exact gradients expose only matrix-vector products with the precision matrix, leading to polynomial approximation barriers and a characteristic \(\sqrtκ\)...
 
 ### Users unable to access chat support on help center
 - Source: OpenAI Status
@@ -2074,6 +2098,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.26273
 - Summary: Semantic segmentation in complex environments such as urban driving scenes remains challenging under adverse lighting conditions, where RGB images alone provide insufficient information. RGB-Thermal fusion leverages the complementary strengths of visible and infrared imagery to improve scene...
+
+### Provably Communication-Efficient and Privacy-Preserving Federated Graph Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26243
+- Summary: Graph neural networks (GNNs) achieve strong performance on relational data, but real-world graphs are often distributed across organizations that cannot share raw data due to privacy and policy constraints. Existing federated GNN methods either ignore cross-client links, leading to degraded...
 
 ### Can LLMs Introspect? A Reality Check
 - Source: HF Daily Papers
@@ -2989,34 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.20255
 - Summary: arXiv:2605.20255v1 Announce Type: new Abstract: Simulation-based testing of self-driving cars (SDCs) typically relies on scripted or simplified pedestrian models that do not capture the heterogeneity and uncertainty of real human crossing behavior. This limits the realism of safety assessments,...
-
-### FBOS-RL: Feedback-Driven Bi-Objective Synergistic Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20256
-- Summary: arXiv:2605.20256v1 Announce Type: new Abstract: Reinforcement learning has become a cornerstone for aligning and unlocking the reasoning capabilities of large-scale models. At its core, the training loop of GRPO and its variants alternates between rollout sampling and policy update. Unlike...
-
-### Instance Discrimination for Link Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20257
-- Summary: arXiv:2605.20257v1 Announce Type: new Abstract: Recently, instance discrimination models have emerged as a major solution for self-supervised learning. Having already demonstrated its effectiveness in the image domain, instance discrimination learning is now proving equally convincing in the graph...
-
-### CR4T: Rewrite-Based Guardrails for Adolescent LLM Safety
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21609
-- Summary: arXiv:2605.21609v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly embedded in adolescent digital environments, mediating information seeking, advice, and emotionally sensitive interactions. Yet existing safety mechanisms remain largely grounded in adult-centric norms and...
-
-### Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21712
-- Summary: arXiv:2605.21712v1 Announce Type: new Abstract: Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between...
-
-### Sem-Detect: Semantic Level Detection of AI Generated Peer-Reviews
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.21713
-- Summary: arXiv:2605.21713v1 Announce Type: new Abstract: How can we distinguish whether a peer review was written by a human or generated by an AI model? We argue that, in this setting, authorship should not be attributed solely from the textual features of a review, but also from the ideas, judgments, and...
 
