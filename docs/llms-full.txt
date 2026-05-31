@@ -686,6 +686,12 @@
 - URL: https://pandaily.com/moffett-ai-raises-nearly-1-billion-yuan-in-series-c-for-sparse-computing-ai-chips
 - Summary: Moffett AI, a Chinese AI chip company pioneering sparse computing technology, raised nearly 1 billion yuan in Series C funding to commercialize its SparsePrime computing card.
 
+### From General Vision to Reliable Traversability Estimation: Adapting Vision Foundation Models for Unstructured Outdoor Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29565
+- Summary: Vision-based approaches have become the dominant paradigm for traversability estimation in unstructured outdoor environments, typically adapting vision foundation models (VFMs) via semantic segmentation supervision. However, this paradigm faces three fundamental challenges that undermine its...
+
 ### JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware
 - Source: The Hacker News
 - Category: security
@@ -1342,6 +1348,12 @@
 - URL: https://tldr.takara.ai/p/2605.28145
 - Summary: We present an adaptive reservoir computing framework for the CTF-4-Science Lorenz benchmark, which evaluates machine learning models across twelve distinct tasks spanning five qualitatively different scenarios: baseline forecasting, noisy signal reconstruction, forecasting under noise, few-shot...
 
+### Better heads do not guarantee better binarized constituency parsing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28131
+- Summary: We revisit punctuation-aware tree binarization for constituency parsing and ask whether dependency-induced headedness improves binary parser supervision. Although learned heads substantially outperform rule-based heads in intrinsic head prediction, they do not yield consistent parsing gains after...
+
 ### AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites
 - Source: The Hacker News
 - Category: security
@@ -1383,6 +1395,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.28035
 - Summary: In recent years, Multi-Talker Audio-Video Generation (MTAVG) models have shown promising performance on fundamental metrics such as lip-sync and audio-visual alignment. However, these metrics remain insufficient for assessing cinematic expressiveness in scene-level generation. In multi-character...
+
+### ROSD: Reflective On-Policy Self-Distillation for Language Model Reasoning across Domains
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28014
+- Summary: On-policy self-distillation (OPSD) improves the reasoning performance of large language models (LLMs) by providing dense token-level supervision for on-policy rollouts. However, existing OPSD methods often yield limited gains on in-domain reasoning and generalize poorly to out-of-domain problems....
 
 ### Zipping the Thought: When and How Compressed Reasoning Data Works in LLM Post-Training
 - Source: HF Daily Papers
@@ -2264,11 +2282,23 @@
 - URL: https://www.cloudflarestatus.com/incidents/3rhcw5gdgg95
 - Summary: May 25, 17:14 UTC Resolved - This incident has been resolved. Customers with builds that timed out can retry their build in the Dashboard May 25, 16:44 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 25, 16:36 UTC Identified - The issue has been identified and a...
 
+### Everything at Every Scale: Scale-Invariant Diffusion with Continuous Super-Resolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26032
+- Summary: Creating images from noise is image generation; reconstructing fine details from coarse inputs is super-resolution. Despite their practical differences, both can be understood as reversing information loss across scales. We introduce $\textbf{SKILD}$, a $\textbf{S}$cale-invariant $\textbf{K}$-Space...
+
 ### AdvantageFlow: Advantage-Weighted Least Squares for RL in Flow Models
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.26013
 - Summary: We introduce AdvantageFlow, a forward-process reinforcement learning algorithm for rectified flow models. Unlike Flow-GRPO, which optimizes the reverse process, we optimize an advantage-weighted forward-process prediction loss. This optimization problem is unstable when advantages are negative and...
+
+### Neural Scalable Symbolic Search Framework for Complex Logical Queries with Multiple Free Variables
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25985
+- Summary: Complex Query Answering (CQA) is a fundamental knowledge representation and reasoning task over incomplete knowledge graphs (KGs). Answering existential first-order queries with $k$ free variables (i.e., $\text{EFO}_k$ queries) is a crucial yet challenging problem, as it requires ranking answer...
 
 ### LRDDv3: High-Resolution Long-Range Drone Detection Dataset with Range Information and Thermal Data
 - Source: HF Daily Papers
@@ -2992,34 +3022,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html
 - Summary: 1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of...
-
-### Elevated errors on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/r1prbh7v5gcn
-- Summary: May 22, 10:31 UTC Resolved - This incident has been resolved. May 22, 10:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 22, 10:17 UTC Investigating - We are currently investigating this issue.
-
-### Zhipu AI Launches GLM-5.1 High-Speed API: 400 Tokens/s Sets New Global Benchmark
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhipu-ai-glm-5.1-high-speed-api-400-tokens-s-may2026
-- Summary: Zhipu AI has launched GLM-5.1-highspeed, an API variant of its GLM-5.1 model delivering 400 tokens per second — reportedly the fastest inference speed among major global LLM providers.
-
-### Google I/O showed how the path for AI-driven science is shifting
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/
-- Summary: During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically...
-
-### HiDream AI Unveils Unified Multimodal Model with 200B+ Parameters, Raises New Funding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hidream-ai-unified-multimodal-model-200b-parameters-may2026
-- Summary: HiDream AI has unveiled HiDream-O1-Image-Pro, a native unified multimodal model with over 200 billion parameters, alongside announcing a new billion-level funding round.
-
-### ByteDance Releases Lance, a Lightweight Native Unified Multimodal AI Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-lance-lightweight-native-unified-multimodal-model-may2026
-- Summary: ByteDance has released Lance, an open-source native unified multimodal AI model with only 3 billion activated parameters, designed to handle image understanding, generation, and video tasks in a single system.
 
