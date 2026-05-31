@@ -4,6 +4,27 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-05-31
+
+### Issues with TLS certificates using Lets Encrypt CA
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/j18k7l6jh306
+- Summary: May 31, 03:16 UTC Investigating - Cloudflare is investigating issues with Let's Encrypt certificates. Some visitors may experience TLS connectivity issues due to potentially unsupported CA bundling for a subset of Cloudflare customers.Customers are advised to change to a different Certificate...
+
+### Custom Hostname API issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/59gsh0xrh6gg
+- Summary: May 31, 01:06 UTC Investigating - Cloudflare is investigating increased latency for customers using the Cloudflare for SaaS Custom Hostname API. Customers may experience slow responses while adding a new R2 subscription.Existing Custom Hostnames remain unaffected and are operating normally.
+
+### opus 4.7 elevated errors
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/694jznhm6tsl
+- Summary: May 31, 00:16 UTC Resolved - This incident has been resolved. May 30, 22:58 UTC Investigating - We are currently investigating this issue.
+
+
 ## 2026-05-30
 
 ### Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say
@@ -610,6 +631,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/0w1bqsc12lt8
 - Summary: May 28, 09:17 UTC Resolved - This incident has been resolved. May 28, 08:38 UTC Investigating - We are currently investigating this issue.
+
+### Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29630
+- Summary: End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a system-agnostic protocol that pins the BM25 floor...
 
 ### Moffett AI Raises Nearly 1 Billion Yuan in Series C for Sparse Computing AI Chips
 - Source: Pandaily
@@ -1266,6 +1293,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.28074
 - Summary: Retrieval-Augmented Generation (RAG) mitigates LLM hallucinations but introduces a critical vulnerability: corpus integrity. We present SilentRetrieval, a two-stage data poisoning attack that hijacks RAG systems through adversarially crafted yet fluent documents. Stage 1 uses Coordinated Beam...
+
+### RW-TTT: Batched Serving for Request-Owned Test-Time Training State
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28053
+- Summary: Test-time training (TTT) adapts an LLM during generation by reading and updating request-owned state, such as fast weights, low-rank deltas, or streaming learner state. This breaks batched LLM serving, which assumes shared static weights: serial execution is correct but slow, while naive batching...
 
 ### Elevated errors on Claude Opus 4.7
 - Source: Anthropic Status
@@ -2093,6 +2126,12 @@
 
 ## 2026-05-25
 
+### Evi-Steer: Learning to Steer Biomedical Vision-Language Models through Efficient and Generalizable Evidential Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26292
+- Summary: Parameter-efficient adaptation of vision-language foundation models is crucial for precise multimodal understanding of biomedical images, yet existing methods remain deterministic and often struggle under domain shift or ambiguous image-text alignment. This limitation is particularly critical in...
+
 ### Frequency-Guided Fusion For RGB-Thermal Semantic Segmentation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2116,6 +2155,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.26078
 - Summary: Wasserstein policy gradient (WPG) is a policy optimization method for reinforcement learning (RL) that exploits the optimal-transport geometry of action distributions. For the entropy-regularized RL objective, WPG evolves each state-conditional policy by transporting it along the action gradient of...
+
+### Conditional KRR: Injecting Unpenalized Features into Kernel Methods with Applications to Kernel Thresholding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26067
+- Summary: Conditionally positive definite (CPD) kernels are defined with respect to a function class $\mathcal{F}$. It is well known that such a kernel $K$ is associated with its native space (defined analogously to an RKHS), which in turn gives rise to a learning method -- called conditional kernel ridge...
 
 ### Slow build start time in Workers Builds
 - Source: Cloudflare Status
@@ -2977,46 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.20490
 - Summary: arXiv:2605.20490v2 Announce Type: new Abstract: In high-stakes automated decision-making, access to predictive uncertainty is essential for enabling users -- human or downstream systems -- to accept or reject predictions based on application-specific cost trade-offs. Such uncertainty-augmented (UA)...
-
-### Open-World Evaluations for Measuring Frontier AI Capabilities
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.20520
-- Summary: arXiv:2605.20520v1 Announce Type: new Abstract: Benchmark-based evaluation remains important for tracking frontier AI progress. But it can both overstate and understate deployed capability because it privileges tasks that can be precisely specified, automatically graded, easy to optimize for, and...
-
-### AgentAtlas: Beyond Outcome Leaderboards for LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.20530
-- Summary: arXiv:2605.20530v1 Announce Type: new Abstract: Large language model agents now act on codebases, browsers, operating systems, calendars, files, and tool ecosystems, but the benchmarks used to evaluate them are fragmented: each emphasizes a different unit of measurement (final task success,...
-
-### Personality Engineering with AI Agents: A New Methodology for Negotiation Research
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.20554
-- Summary: arXiv:2605.20554v1 Announce Type: new Abstract: According to canonical negotiation theory, people's success in a negotiation depends on how well they balance competing demands--empathizing and asserting, demonstrating concern for other and concern for self, being soft on the people and hard on the...
-
-### Mahjax: A GPU-Accelerated Mahjong Simulator for Reinforcement Learning in JAX
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.20577
-- Summary: arXiv:2605.20577v1 Announce Type: new Abstract: Riichi Mahjong is a multi-player, imperfect-information game characterized by stochasticity and high-dimensional state spaces. These attributes present a unique combination of challenges that mirror complex real-world decision-making problems in...
-
-### Automated Kernel Discovery Towards Understanding High-dimensional Bayesian Optimization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20249
-- Summary: arXiv:2605.20249v1 Announce Type: new Abstract: Gaussian Process (GP) kernels are central to Bayesian optimization (BO), yet designing effective kernels for high-dimensional problems still relies on extensive manual engineering. Existing automated approaches struggle in high dimensions for two...
-
-### Physics-informed convolutional neural networks for fluid flow through porous media
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20250
-- Summary: arXiv:2605.20250v1 Announce Type: new Abstract: Accurate simulation of fluid flow in porous media is challenging due to complex pore-space geometries and the computational cost of solving the Navier-Stokes equations. This difficulty is particularly important when repeated simulations are required,...
-
-### Multi-Agent Reinforcement Learning for Safe Autonomous Driving Under Pedestrian Behavioral Uncertainty
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.20255
-- Summary: arXiv:2605.20255v1 Announce Type: new Abstract: Simulation-based testing of self-driving cars (SDCs) typically relies on scripted or simplified pedestrian models that do not capture the heterogeneity and uncertainty of real human crossing behavior. This limits the realism of safety assessments,...
 

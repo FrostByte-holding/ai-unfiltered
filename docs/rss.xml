@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 30 May 2026 21:00:57 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 31 May 2026 04:05:05 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Issues with TLS certificates using Lets Encrypt CA</title>
+            <link>https://www.cloudflarestatus.com/incidents/j18k7l6jh306</link>
+            <guid>https://www.cloudflarestatus.com/incidents/j18k7l6jh306</guid>
+            <pubDate>Sun, 31 May 2026 03:18:31 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/j18k7l6jh306">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 31, 03:16 UTC Investigating - Cloudflare is investigating issues with Let&#x27;s Encrypt certificates. Some visitors may experience TLS connectivity issues due to potentially unsupported CA bundling for a subset of Cloudflare customers.Customers are advised to change to a different Certificate...</description>
+        </item>
+        <item>
+            <title>Custom Hostname API issue</title>
+            <link>https://www.cloudflarestatus.com/incidents/59gsh0xrh6gg</link>
+            <guid>https://www.cloudflarestatus.com/incidents/59gsh0xrh6gg</guid>
+            <pubDate>Sun, 31 May 2026 01:10:41 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/59gsh0xrh6gg">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>May 31, 01:06 UTC Investigating - Cloudflare is investigating increased latency for customers using the Cloudflare for SaaS Custom Hostname API. Customers may experience slow responses while adding a new R2 subscription.Existing Custom Hostnames remain unaffected and are operating normally.</description>
+        </item>
+        <item>
+            <title>opus 4.7 elevated errors</title>
+            <link>https://status.claude.com/incidents/694jznhm6tsl</link>
+            <guid>https://status.claude.com/incidents/694jznhm6tsl</guid>
+            <pubDate>Sun, 31 May 2026 00:16:20 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/694jznhm6tsl">Anthropic Status</source>
+            <category>incidents</category>
+            <description>May 31, 00:16 UTC Resolved - This incident has been resolved. May 30, 22:58 UTC Investigating - We are currently investigating this issue.</description>
+        </item>
         <item>
             <title>Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</title>
             <link>https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/</link>
@@ -430,33 +457,6 @@
             <source url="https://www.githubstatus.com/incidents/rhqcgg8lg6mm">GitHub Status</source>
             <category>incidents</category>
             <description>May 28, 20:41 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. May 28, 20:06 UTC Update - Open AI models are currently unavailable. We are shifting...</description>
-        </item>
-        <item>
-            <title>Billing and subscription management issues</title>
-            <link>https://status.claude.com/incidents/8q00jfj4yfv6</link>
-            <guid>https://status.claude.com/incidents/8q00jfj4yfv6</guid>
-            <pubDate>Thu, 28 May 2026 19:23:57 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/8q00jfj4yfv6">Anthropic Status</source>
-            <category>incidents</category>
-            <description>May 28, 19:23 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 18:27 UTC to 19:05 UTC. May 28, 19:17 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. May 28, 19:04 UTC Identified - We are...</description>
-        </item>
-        <item>
-            <title>Elevated error rates across multiple services</title>
-            <link>https://www.githubstatus.com/incidents/11n51rf8tf27</link>
-            <guid>https://www.githubstatus.com/incidents/11n51rf8tf27</guid>
-            <pubDate>Thu, 28 May 2026 19:07:00 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/11n51rf8tf27">GitHub Status</source>
-            <category>incidents</category>
-            <description>May 28, 19:07 UTC Resolved - On May 28, 2026, between 19:07 UTC and 19:16 UTC, multiple GitHub services experienced elevated error rates. This was due to a change that was partially deployed to an authentication service, causing errors for dependent services including the web experience, REST API,...</description>
-        </item>
-        <item>
-            <title>The Age of Async Agents — Cognition&#x27;s Walden Yan &amp; OpenInspect&#x27;s Cole Murray</title>
-            <link>https://www.latent.space/p/cognition</link>
-            <guid>https://www.latent.space/p/cognition</guid>
-            <pubDate>Thu, 28 May 2026 18:41:24 +0000</pubDate>
-            <source url="https://www.latent.space/p/cognition">Latent Space</source>
-            <category>open-source</category>
-            <description>80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code</description>
         </item>
     </channel>
 </rss>
