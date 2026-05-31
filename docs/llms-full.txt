@@ -6,6 +6,12 @@
 
 ## 2026-05-31
 
+### Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html
+- Summary: Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bot network, per the Dutch Politie and the National Cyber Security Center (NCSC), consisted of at...
+
 ### Durable Objects and Log Explorer issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -518,6 +524,12 @@
 - URL: https://tldr.takara.ai/p/2605.30230
 - Summary: With the rapid advancement of diffusion models, talking face generation has made remarkable progress. However, existing diffusion-based methods still require task-specific fine-tuning and large-scale audiovisual datasets, resulting in high computational costs that hinder scalability and...
 
+### DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.30090
+- Summary: Long-form video generation is rapidly moving from short, single-scene synthesis toward minute-long, multi-shot creation with narrative structure, cinematic control, audio, and cross-modal synchronization. However, evaluating such videos remains challenging, since existing benchmarks largely focus...
+
 ### Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer
 - Source: The Hacker News
 - Category: security
@@ -643,6 +655,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/0w1bqsc12lt8
 - Summary: May 28, 09:17 UTC Resolved - This incident has been resolved. May 28, 08:38 UTC Investigating - We are currently investigating this issue.
+
+### Verifiable Rewards Beyond Math and Code: Lightweight Corpus-Grounded Process Supervision for Factual Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29648
+- Summary: Applying reinforcement learning to improve factual accuracy in knowledge-intensive question answering faces a reward design dilemma. Response-level rewards provide only coarse supervision and cannot distinguish correct from incorrect statements within a reasoning trace. Sentence-level alternatives...
 
 ### Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory
 - Source: HF Daily Papers
@@ -1673,6 +1691,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/rcr92ddx8z8k
 - Summary: May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
 
+### Cyberbullying Governance on Social Media: A Unified Framework from Content Identification to Intervention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27584
+- Summary: The proliferation of social media platforms and online communities has inadvertently catalyzed the spread of cyberbullying, hate speech, and other forms of online toxicity, making the effective governance of such harm a critical societal and computational challenge. While significant strides have...
+
 ### On the Subgaussianity of Quantized Linear Maps: An AI-Assisted Note
 - Source: HF Daily Papers
 - Category: open-source
@@ -1750,6 +1774,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.27164
 - Summary: Retrieval-Augmented Generation (RAG) systems for question answering typically retrieve evidence by semantic similarity between the query and document chunks. While effective for unstructured text, this approach is less reliable on semi-structured corpora where answering may require exact filtering,...
+
+### Federated Learning for Multivariate Time Series Anomaly Detection in Industrial Automation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27486
+- Summary: Federated learning (FL) has broadened the horizon for multivariate time series anomaly detection (MTSAD). However, benchmarking such anomaly detection methods within FL paradigm poses data-centric challenges. The existing datasets do not counteract these challenges since they do not simultaneously...
 
 ### Rethinking organizational design in the age of agentic AI
 - Source: MIT Tech Review AI
@@ -1960,6 +1990,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.26670
 - Summary: Sequential editing of structured knowledge in large language models allows targeted factual updates without retraining, yet existing methods often rely on complex regularization or constraint mechanisms whose necessity remains unclear. In this work, we systematically investigate the mechanisms...
+
+### Completion vs Optimality: Policy Gradient in Long-Horizon Cumulative-Damage Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.26657
+- Summary: Long-horizon decision problems with cumulative damage couple locally attractive actions to globally adverse outcomes. We identify two orthogonal failure modes for policy-gradient methods on this class and propose a decomposition that separates them: \emph{completion} (reaching the terminal horizon...
 
 ### OmniRetriever: Any-to-Any Audio-Video-Text Retrieval via Fusion-as-Teacher Distillation
 - Source: HF Daily Papers
@@ -2986,40 +3022,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html
 - Summary: The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the...
-
-### Score-Based One-step MeanFlow Policy Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.23365
-- Summary: Diffusion and flow matching have emerged as expressive policy classes in reinforcement learning, but their reliance on multi-step denoising imposes substantial computational overhead at inference time, which is particularly problematic in online RL. MeanFlow offers a promising alternative by...
-
-### TrendAI Patches Apex One Zero-Day Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/trendai-patches-apex-one-zero-day-exploited-in-the-wild/
-- Summary: CVE-2026-34926 is a directory traversal flaw that can be exploited against the on-premise version of Apex One. The post TrendAI Patches Apex One Zero-Day Exploited in the Wild appeared first on SecurityWeek.
-
-### Cloudflare One DNS issues with .internal zones
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/3svzqyzdj63g
-- Summary: May 22, 08:06 UTC Resolved - This incident has been resolved. May 22, 08:02 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 22, 07:52 UTC Identified - The issue has been identified and a fix is being implemented. May 22, 07:52 UTC Investigating - We are...
-
-### Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/grafana-says-codebase-and-other-data-stolen-via-tanstack-supply-chain-attack/
-- Summary: Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated. The post Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack appeared first on SecurityWeek.
-
-### Elevated error rate on multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/p0mgnjv3bj97
-- Summary: May 22, 06:32 UTCUpdate - We are monitoring recovery on Claude Opus 4.7, and working to fully resolve remaining errors impacting Haiku 4.5. We will provide additional updates shortly.May 22, 06:17 UTCUpdate - We are currently working to resolve some additional errors impacting Claude Opus 4.7 and...
-
-### Turning Adaptation into Assets: Cross-Domain Bridging for Online Vision-Language Navigation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.23257
-- Summary: Navigating under non-stationary environment shifts poses a critical challenge for a Vision-and-Language Navigation (VLN) agent deployed in the wild. Yet, existing Test-Time Adaptation (TTA) methods for VLN largely treat online adaptation as transient, isolated updates, leading to catastrophic...
 
