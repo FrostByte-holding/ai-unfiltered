@@ -524,6 +524,12 @@
 - URL: https://tldr.takara.ai/p/2605.30230
 - Summary: With the rapid advancement of diffusion models, talking face generation has made remarkable progress. However, existing diffusion-based methods still require task-specific fine-tuning and large-scale audiovisual datasets, resulting in high computational costs that hinder scalability and...
 
+### Geometry Matters: 3D Foundation Priors for Learning Semantic Correspondence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.30093
+- Summary: Foundation features from self-supervised vision models and text-to-image diffusion models have proven effective for semantic correspondence estimation. However, because these features are learned primarily from 2D image objectives, they lack explicit 3D awareness and often confuse symmetric object...
+
 ### DirectorBench: Diagnosing Long-Form Video Generation with Personalized Multi-Agent Evaluation
 - Source: HF Daily Papers
 - Category: open-source
@@ -559,6 +565,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html
 - Summary: Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a...
+
+### TraceCodec: A Compiler-Backed Neural Codec for Stateful Multi-Flow Network Traffic Traces
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29941
+- Summary: Critical networking workflows require high-fidelity packet captures (PCAPs) for testing, security analysis, and protocol validation, not just statistical flow-level summaries. Recent packet generators have demonstrated protocol-constrained PCAP synthesis, but they universally decode directly to raw...
 
 ### ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More
 - Source: The Hacker News
@@ -733,6 +745,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.29420
 - Summary: Persona prompting is widely used to steer large language models, yet its practical value remains unclear. Prior work often evaluates persona prompting using aggregate scores, making it difficult to determine whether expert-role prompting consistently improves response quality or instead changes...
+
+### TRACER: Persistent Regularization for Robust Multimodal Finetuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29380
+- Summary: Mainstream strategies for finetuning pretrained multimodal models often degrade out-of-distribution (OOD) robustness, a phenomenon known as catastrophic forgetting. In this paper, we develop a theoretical framework for multimodal contrastive finetuning, yielding closed-form solutions and a...
 
 ### Subscription checkout failing
 - Source: OpenAI Status
@@ -1234,6 +1252,12 @@
 - URL: https://www.securityweek.com/symjack-attack-turns-ai-coding-agents-into-supply-chain-attack-delivery-systems/
 - Summary: Malicious repositories and disguised symlinks can trick AI coding agents into silently installing attacker-controlled MCP servers capable of stealing secrets, compromising CI pipelines, and deploying malicious code. The post ‘SymJack’ Attack Turns AI Coding Agents Into Supply Chain Attack Delivery...
 
+### MORI-Seg: Learning Morphological Geometry for Instance Segmentation without Instance Annotations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28261
+- Summary: Instance-level quantification of kidney functional units is essential for morphometric analysis, yet most publicly available pathology datasets provide only semantic segmentation annotations, where adjacent structures of the same class are merged into single regions. This prevents reliable...
+
 ### GlassWorm Botnet Disrupted
 - Source: Security Week
 - Category: security
@@ -1702,6 +1726,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.27563
 - Summary: This short note presents a dimension-independent subgaussian concentration bound for Gaussian vectors under coordinate-wise nonlinear mappings. Discovered by Gemini 3.5 Flash, this result applies to any bounded function under a well-conditioned covariance. We apply this tool to answer a question of...
+
+### Probabilistic Data-Driven Modelling of Astrophysical Transients: The Neural Process Family for Ultrafast and Class-Agnostic Light Curve Reconstruction with NightLANP
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.27527
+- Summary: Astrophysical observations taken from Earth are subject to weather, environmental, and scientific constraints that lead to sparse, irregular light curves. On the eve of the Vera C. Rubin Observatory Legacy Survey of Space and Time, its massive dataset offers unprecedented opportunities for...
 
 ### LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding
 - Source: HF Daily Papers
@@ -2992,34 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/bytedance-lance-lightweight-native-unified-multimodal-model-may2026
 - Summary: ByteDance has released Lance, an open-source native unified multimodal AI model with only 3 billion activated parameters, designed to handle image understanding, generation, and video tasks in a single system.
-
-### CapCut Partners with Google Gemini to Bring AI Video Editing Directly to the Gemini App
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/capcut-google-gemini-partnership-ai-video-editing-may2026
-- Summary: ByteDance's CapCut has announced a partnership with Google Gemini, enabling users to access CapCut's video editing tools directly within the Gemini app for AI-assisted content creation.
-
-### Anker Soundcore Liberty 5 Pro Launches with Self-Developed AI Audio Chip, Sets Guinness Record
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/anker-soundcore-liberty-5-pro-ai-audio-chip-guinness-may2026
-- Summary: Anker has unveiled the Soundcore Liberty 5 Pro and Pro Max wireless earbuds at its first-ever product launch event, featuring a proprietary AI audio chip that has earned a Guinness World Record.
-
-### ‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/first-vpn-cybercrime-service-disrupted-administrator-arrested/
-- Summary: The FBI says First VPN has been used by dozens of ransomware groups for network reconnaissance and intrusions. The post &#8216;First VPN&#8217; Cybercrime Service Disrupted, Administrator Arrested appeared first on SecurityWeek.
-
-### The Enhanced Games fit right in with the rest of 2026’s longevity vibes
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/
-- Summary: This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers...
-
-### Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html
-- Summary: The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the...
 
