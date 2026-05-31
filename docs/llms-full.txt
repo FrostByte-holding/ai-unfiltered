@@ -6,6 +6,12 @@
 
 ## 2026-05-31
 
+### Durable Objects and Log Explorer issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/tcv973dt87hc
+- Summary: May 31, 07:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 31, 07:28 UTC Update - Log Explorer is experiencing intermittent delays with recent logs showing up in queries. May 31, 06:42 UTC Investigating - Cloudflare is aware of, and investigating an issue with...
+
 ### Issues with TLS certificates using Lets Encrypt CA
 - Source: Cloudflare Status
 - Category: incidents
@@ -506,6 +512,12 @@
 - URL: https://www.securityweek.com/geordie-raises-30-million-for-ai-security-and-governance-platform/
 - Summary: The funding round was led by Balderton Capital, with additional support from Crosspoint Capital and previous investors General Catalyst and Ten Eleven Ventures. The post Geordie Raises $30 Million for AI Security and Governance Platform appeared first on SecurityWeek.
 
+### IP-Adapter Is All You Need: Towards Fine-Tuning-Free Diffusion-Based Talking Face Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.30230
+- Summary: With the rapid advancement of diffusion models, talking face generation has made remarkable progress. However, existing diffusion-based methods still require task-specific fine-tuning and large-scale audiovisual datasets, resulting in high computational costs that hinder scalability and...
+
 ### Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer
 - Source: The Hacker News
 - Category: security
@@ -965,6 +977,12 @@
 - URL: https://tldr.takara.ai/p/2605.28819
 - Summary: Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pretrained capabilities. We argue that PEFT should be assessed through the stability-plasticity...
 
+### Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28816
+- Summary: World models for interactive video generation have largely focused on single-agent settings, where future observations are generated from a single control signal. However, many generated environments require multi-agent interaction: multiple players, robots, or embodied agents act simultaneously...
+
 ### Self-Improving Language Models with Bidirectional Evolutionary Search
 - Source: HF Daily Papers
 - Category: open-source
@@ -1030,6 +1048,12 @@
 - URL: https://tldr.takara.ai/p/2605.28684
 - Summary: Reduced-order models (ROMs) can accelerate high-dimensional dynamical simulations, but their accuracy often deteriorates when online dynamics leave the regime represented by offline training data. We develop a projection-based adaptive ROM framework based on incremental singular value decomposition...
 
+### Optimal ridge regularization revisited
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28679
+- Summary: We consider $L^2$-regularized linear (ridge) regression over a finite data sample $X$ with bounded covariance and linear prediction targets $y$ with additive isotropic noise of finite variance. We present an iterative procedure to compute the optimal regularization strength numerically from the...
+
 ### Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users
 - Source: The Hacker News
 - Category: security
@@ -1083,6 +1107,12 @@
 - Category: security
 - URL: https://www.securityweek.com/vulnerability-in-popular-conference-software-granted-attackers-a-100-talk-acceptance-rate/
 - Summary: Novee researchers discovered an account takeover vulnerability in the open source CFP management tool Pretalx. The post Vulnerability in Popular Conference Software Granted Attackers a 100% Talk Acceptance Rate appeared first on SecurityWeek.
+
+### The Cases LJP Never Sees: Prosecution Decision Prediction for More Complete Criminal Liability Assessment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28464
+- Summary: Legal Judgment Prediction (LJP) has become a core benchmark for evaluating AI in the criminal legal domain, but it only sees criminal cases that have already passed prosecutorial review and been formally indicted. As a result, LJP leaves a substantial blind spot in assessing criminal liability,...
 
 ### 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
 - Source: The Hacker News
@@ -2204,6 +2234,12 @@
 - URL: https://tldr.takara.ai/p/2605.25856
 - Summary: Large Language Model interfaces are increasingly verbose, exposing intermediate reasoning traces alongside final answers. Traces are framed as transparency mechanisms, yet it is unclear how people use them to solve problems. We report a preregistered between-subjects study (N = 559) in which...
 
+### TIAR: Trajectory-Informed Advantage Reweighting for LLM Abstention Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.25850
+- Summary: This paper investigates large language model (LLM) abstention learning, specifically using ternary reward, which incentivize truthfulness in large language models. This paper extends that idea by moving from a ternary reward to a Trajectory-Informed advantage reweighting, dynamically re-weights the...
+
 ### On the Limits of Model Merging for Multilinguality in Pre-Training
 - Source: HF Daily Papers
 - Category: open-source
@@ -2986,40 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.23257
 - Summary: Navigating under non-stationary environment shifts poses a critical challenge for a Vision-and-Language Navigation (VLN) agent deployed in the wild. Yet, existing Test-Time Adaptation (TTA) methods for VLN largely treat online adaptation as transient, isolated updates, leading to catastrophic...
-
-### [AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa
-- Summary: a quiet day lets us feature fundraises!
-
-### CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below -...
-
-### Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html
-- Summary: Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when...
-
-### FastKernels: Benchmarking GPU Kernel Generation in Production
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.23215
-- Summary: LLM-based agents for GPU kernel generation are advancing rapidly, yet their progress is fundamentally constrained by the benchmarks they optimize against. Existing benchmarks are poorly aligned with production inference frameworks: they evaluate kernels on a single GPU with synthetic inputs, ignore...
-
-### Increased HTTP 5xx Errors to us-east-1 from Western North America and Asia Pacific co-locations.
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/v5vkpy391tlh
-- Summary: May 22, 04:08 UTCResolved - Cloudflare saw an increase in 5xx errors to us-east-1 from Western North America and Asia Pacific co-locations from 04:08 AM UTC to 04:35 AM UTC. Issue has now been resolved
-
-### $ECUAS_n$: A family of metrics for principled evaluation of uncertainty-augmented systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.20490
-- Summary: arXiv:2605.20490v2 Announce Type: new Abstract: In high-stakes automated decision-making, access to predictive uncertainty is essential for enabling users -- human or downstream systems -- to accept or reject predictions based on application-specific cost trade-offs. Such uncertainty-augmented (UA)...
 
