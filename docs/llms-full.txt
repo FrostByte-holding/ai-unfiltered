@@ -6,6 +6,76 @@
 
 ## 2026-06-01
 
+### Delays with Code Scanning and Billing
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/5wdgxw2rvbt3
+- Summary: Jun 1, 19:27 UTC Update - We are continuing to investigate delayed billing updates, on GitHub.com. We have applied additional mitigations are continuing to see signs of improvement, and are continuing to work to improve the processing rate. We will continue to keep users updated on progress towards...
+
+### Degraded performance for Claude Sonnet 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vxp8fdrckj7q
+- Summary: Jun 1, 19:06 UTC Resolved - This issue has been resolved. Jun 1, 18:28 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.
+
+### WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/wp-maps-pro-vulnerability-exploited-to-take-over-wordpress-sites/
+- Summary: The security defect (CVE-2026-8732) allows unauthenticated attackers to create administrative accounts on the affected installations. The post WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites appeared first on SecurityWeek.
+
+### Cloudflare Dashboard and Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/wrdzjsxff5yj
+- Summary: Jun 1, 17:48 UTC Investigating - Cloudflare is investigating issues with Cloudflare APIs that are specifically impacting OAuth/Wrangler API calls. These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge. Customers using the...
+
+### Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html
+- Summary: A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. "This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of...
+
+### Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/
+- Summary: The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's "AI support assistant" bot into resetting...
+
+### Decreased ChatGPT availability for Free users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KT204M76EYZYJX7WYG1B2QPH
+- Summary: Status: ResolvedThe issue is resolved.Affected components Conversations (Operational)
+
+### Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/JetBrains/mellum2-launch
+
+### Why Video Agent models are next — Ethan He, xAI Grok Imagine
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/video-agents
+- Summary: Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!
+
+### Elevated errors on Claude Sonnet 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/8p6f4r16xxmp
+- Summary: Jun 1, 15:41 UTC Resolved - This incident has been resolved. Jun 1, 15:21 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 1, 14:40 UTC Identified - The issue has been identified and a fix is being implemented.
+
+### ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html
+- Summary: Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits pretending to be productivity, and AI lowering...
+
+### Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption
+
 ### Elevated errors for Claude Opus 4.7
 - Source: Anthropic Status
 - Category: incidents
@@ -698,6 +768,12 @@
 - URL: https://www.latent.space/p/ainews-anthropic-raises-965b-series
 - Summary: Total Anthropic victory!
 
+### OrcaRouter: A Production-Oriented LLM Router with Hybrid Offline-Online Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.30736
+- Summary: The rapid development of large language models, each with distinct capabilities and inference costs, raises a practical deployment question: given an incoming request, which model should handle it? We present OrcaRouter, a production-oriented LLM router that combines a LinUCB-based contextual...
+
 ### Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler
 - Source: Hugging Face Blog
 - Category: open-source
@@ -898,6 +974,12 @@
 - URL: https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/
 - Summary: This year, there’s been a wave of notable energy companies going public via IPO in the US. The solar and battery company Solv Energy went public in February, to the tune of $6 billion. X-energy, which is building small modular nuclear reactors, did the same in April, and its stocks surged on its...
 
+### A Systematic Evaluation of Molecular Mixture Behavior Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29698
+- Summary: Machine learning for molecular property prediction has focused largely on pure compounds, even though many practical applications depend on mixtures with intermolecular interactions. Recent work has expanded the availability of mixture datasets, but evaluation still focuses mainly on absolute...
+
 ### Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks
 - Source: Security Week
 - Category: security
@@ -927,6 +1009,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.29648
 - Summary: Applying reinforcement learning to improve factual accuracy in knowledge-intensive question answering faces a reward design dilemma. Response-level rewards provide only coarse supervision and cannot distinguish correct from incorrect statements within a reasoning trace. Sentence-level alternatives...
+
+### Predicting Causal Effects from Natural Language Queries using Structured Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29631
+- Summary: Randomized controlled trials are a cornerstone of medicine and the social sciences as they enable reliable estimates of causal effects. However, they are costly and time-consuming to conduct, motivating interest in predicting causal effects from existing experimental evidence. Recent advances in...
 
 ### Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory
 - Source: HF Daily Papers
@@ -1005,6 +1093,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.29420
 - Summary: Persona prompting is widely used to steer large language models, yet its practical value remains unclear. Prior work often evaluates persona prompting using aggregate scores, making it difficult to determine whether expert-role prompting consistently improves response quality or instead changes...
+
+### Architecture-Sensitive Supervised Fine-Tuning for Screen-Conditioned Action Prediction: A PiSAR Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.29400
+- Summary: We benchmark three supervised fine-tuned models against frontier zero-shot baselines on a 661-row held-out slice of PiSAR (Persona, intent, Screen, Action, Rationale), a 12,929-tuple corpus of screen-anchored behavioural rationales curated from public app-store reviews, Pew American Trends Panel...
 
 ### TRACER: Persistent Regularization for Robust Multimodal Finetuning
 - Source: HF Daily Papers
@@ -1385,6 +1479,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.28626
 - Summary: Hybrid interpretable models combine a transparent component with a black-box model by assigning some examples to the former and deferring the rest to the latter. While this design enables flexible tradeoffs between accuracy and interpretability, it also raises a distinct procedural fairness...
+
+### Position: Retire the "Positive Backdoor" Label -- Secret Alignment Requires Strict and Systematic Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2605.28597
+- Summary: This position paper argues that the AI/ML community should stop overclaiming and retire the label "positive backdoor," and instead treat trigger-activated hidden behaviors as Secret Alignment. Crucially, protective claims based on Secret Alignment should be presumed not secure by default unless...
 
 ### PLS in the Mirror of Self-Attention
 - Source: HF Daily Papers
@@ -2919,106 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.22900
 - Summary: arXiv:2605.22900v1 Announce Type: new Abstract: Mediative Fuzzy Logic was conceived as a practical scheme for reconciling hesitant or conflicting assessments in fuzzy control and decision-making. However, its logical and semantic foundations remain underdeveloped, especially beyond operational...
-
-### EVE-Agent: Evidence-Verifiable Self-Evolving Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.22905
-- Summary: arXiv:2605.22905v1 Announce Type: new Abstract: Self-evolving agents should not train on examples they cannot justify. Data-free self-evolving search agents offer a scalable route to systems that generate their own questions, answer them, and improve from their own feedback without human...
-
-### The Deterministic Horizon: Impossibility Results as Design Specifications for Trustworthy AI Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.23024
-- Summary: arXiv:2605.23024v1 Announce Type: new Abstract: Large language models now write software, draft legal documents, and produce clinical notes, yet fundamental limits, from Turing and Arrow to the No Free Lunch theorems, shape what computation can do. This thesis turns such impossibility results from...
-
-### PathCal: State-Aware Reflection-Marker Calibration for Efficient Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.23074
-- Summary: arXiv:2605.23074v1 Announce Type: new Abstract: The emergence of Large Reasoning Language Models (LRMs) has paved the way for tackling complex reasoning tasks through test-time scaling by generating long-form Chain-of-Thought (CoT) trajectories during inference. Meanwhile, these trajectories often...
-
-### Approximate Machine Unlearning through Manifold Representation Forgetting Guided by Self Mode Connectivity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.22871
-- Summary: arXiv:2605.22871v1 Announce Type: new Abstract: Machine unlearning is a fundamental mechanism that enforces the right to be forgotten. Existing unlearning studies that rely on label manipulation or task-gradient reversal often deliver limited unlearning effectiveness. Moreover, they can undermine...
-
-### MedExpMem: Adapting Experience Memory for Differential Diagnosis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.22872
-- Summary: arXiv:2605.22872v1 Announce Type: new Abstract: Experienced physicians develop diagnostic expertise through clinical practice, acquiring not only disease knowledge but also the ability to differentiate confusable conditions. Current medical vision-language models (VLMs) lack this capability --...
-
-### When Do LLMs Reason? A Dynamical Systems View via Entropy Phase Transitions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.22873
-- Summary: arXiv:2605.22873v1 Announce Type: new Abstract: Chain-of-thought (CoT) reasoning has become the default strategy for enhancing LLM capabilities, yet its application raises a fundamental question: when is explicit reasoning actually beneficial? Empirical evidence reveals a striking paradox: CoT...
-
-### WeCon: An Efficient Weight-Conditioned Neural Solver for Multi-Objective Combinatorial Optimization Problems
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.22876
-- Summary: arXiv:2605.22876v1 Announce Type: new Abstract: Existing neural solvers for Multi-Objective Combinatorial Optimization Problems (MOCOPs) commonly adopt decomposition-based strategies that scalarize an MOCOP into multiple subproblems associated with distinct weight vectors. However, they either...
-
-### Tensor Cache: Eviction-conditioned Associative Memory for Transformers
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.22884
-- Summary: arXiv:2605.22884v1 Announce Type: new Abstract: Autoregressive Transformer KV caches grow linearly with context length; sliding-window caching bounds memory but discards evicted tokens entirely, so relevant evidence outside the window becomes inaccessible. We introduce \emph{Tensor Cache}, a...
-
-### RAS: Reflection-Augmented Scaling with In-Context Learning for Executable Cypher Query Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.22937
-- Summary: arXiv:2605.22937v1 Announce Type: new Abstract: Inference-time scaling can reduce errors in structured query generation, but methods to allocate the compute for query code generation remains underexplored. We study Text2Cypher, where language models generate Cypher queries that execute against...
-
-### Learnability-Informed Fine-Tuning of Diffusion Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.22939
-- Summary: arXiv:2605.22939v1 Announce Type: new Abstract: We aim to improve the reasoning capabilities of diffusion language models (DLMs). While SFT is a popular post-training recipe for autoregressive models, its use in DLMs faces challenges and can even hurt performance, though the underlying causes...
-
-### Graph Alignment Topology as an Inductive Bias for Grounding Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.22963
-- Summary: arXiv:2605.22963v1 Announce Type: new Abstract: Large Language Models (LLMs) are optimized to produce distributionally plausible continuations rather than to explicitly verify whether generated propositions are entailed by source documents. This inductive bias enables generalization, but it does...
-
-### Can AI Guess What You Know? Performance Comparison of Large Language Models for Human Domain Knowledge Estimation From Communication Logs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.22971
-- Summary: arXiv:2605.22971v1 Announce Type: new Abstract: Employees often struggle to identify ``who knows what,'' leading to organizational productivity losses. We investigate whether Large Language Models (LLMs) can infer individual domain knowledge directly from long-term Slack logs. Analyzing 27,188...
-
-### When AI Takes Sides on Questions of Faith: Persistent Asymmetries in AI-Mediated Faith Guidance
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.22975
-- Summary: arXiv:2605.22975v1 Announce Type: new Abstract: We ask whether large language models (LLMs) treat queries about religious conversion symmetrically. The answer is no. When asked for advice on hypothetical faith transitions from one religion to another, then asked the reversed question, models...
-
-### EMA-Nesterov: Stabilizing Nesterov's Lookahead for Accelerated Deep Learning Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.25395
-- Summary: Lookahead-based acceleration methods, such as Nesterov's momentum, are widely used in optimization, but they often become unreliable in deep learning training mainly due to stochastic gradient noise and non-convex loss landscapes. In particular, standard lookahead relies on short-horizon update...
-
-### ByteDance Open-Sources Lance: A Native Multimodal Model That Runs Locally on 40GB VRAM
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-lance-native-multimodal-local-may2026
-- Summary: ByteDance's new open-source multimodal model Lance runs on 40GB VRAM, reaching Hugging Face's trending chart within a day of release.
-
-### Alibaba's Qwen 3.7 Max Surprises Overseas Developers with 35-Hour Autonomous Task Run
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qwen-37-max-autonomous-task-may2026
-- Summary: Alibaba's Qwen 3.7 Max completes a 35-hour autonomous run with 1,158 tool calls, impressing overseas developers with sustained long-task performance.
-
-### Trina Solar's THBC Technology: A BC Battery Architecture That Defies Expectations
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/trina-solar-s-thbc-technology-a-bc-battery-architecture-that-defies-expectations
-- Summary: Trina Solar's THBC battery repositions all grid lines to the rear in an architecture distinct from conventional BC cells, challenging prevailing assumptions about back-contact technology.
 
