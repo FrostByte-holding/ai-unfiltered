@@ -6,6 +6,12 @@
 
 ## 2026-06-03
 
+### Audit Log Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rjkqfw5l190t
+- Summary: Jun 3, 21:25 UTC Resolved - An effective fix has been implemented and this incident is now resolved. Jun 3, 21:15 UTC Identified - The cause of this issue has been identified and a fix is being implemented. Jun 3, 19:59 UTC Update - We are continuing to investigate this issue. Jun 3, 19:58 UTC...
+
 ### 🔬Scaling Past Informal AI - Carina Hong, Axiom Math
 - Source: Latent Space
 - Category: open-source
@@ -349,6 +355,12 @@
 - URL: https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. The vulnerability, CVE-2024-21182 (CVSS score: 7.5), allows...
 
+### Correcting Neural Operator Spectral Bias via Diffusion Posterior Sampling with Sparse Observations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.03936
+- Summary: Neural operator surrogates (NO) approximate PDE solutions orders of magnitude faster than numerical solvers, but suffer from spectral bias: high-frequency content is systematically attenuated, limiting reliability where fine-scale structure matters. Sparse sensor measurements of the field are often...
+
 ### GitHub's plan for Agents — Kyle Daigle, GitHub
 - Source: Latent Space
 - Category: open-source
@@ -420,6 +432,12 @@
 - URL: https://tldr.takara.ai/p/2606.03603
 - Summary: World models and multimodal large language models (MLLMs) provide complementary capabilities for predicting future outcomes from static visual observations. World models can generate concrete visual rollouts of possible futures, while MLLMs can reason abstractly over questions, goals, and rules....
 
+### When Attention Collapses: Stage-Aware Visual Token Pruning from Structure to Semantics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.03569
+- Summary: Vision-Language Models (VLMs) have demonstrated remarkable capabilities but suffer from significant computational overhead during inference. While visual token pruning offers a promising solution, existing methods predominantly rely on initial attention scores. This single-metric paradigm presents...
+
 ### The Zero-Knowledge Threat Actor and the End of Responsible Disclosure
 - Source: Security Week
 - Category: security
@@ -456,6 +474,12 @@
 - URL: https://status.claude.com/incidents/zkr25thltwc9
 - Summary: Jun 2, 11:49 UTC Resolved - This incident has been resolved. Jun 2, 10:42 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 2, 09:33 UTC Update - We are continuing to work on a fix for this issue. Jun 2, 06:39 UTC Identified - The issue has been identified and a fix...
 
+### Post-Hoc Robustness for Model-Based Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.03521
+- Summary: To improve the real-world applicability of reinforcement learning (RL), the field of adversarially robust RL studies how to train agents under adversarial environment perturbations. In this setting, a protagonist agent optimizes a policy under environmental perturbations from an adversary,...
+
 ### Oracle WebLogic Vulnerability Exploited in the Wild
 - Source: Security Week
 - Category: security
@@ -467,6 +491,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.03509
 - Summary: Building memory is essential for long-horizon planning in zero-shot embodied navigation. Detector-centric scene graphs often compress observations into sparse nodes, discarding fine-grained visual evidence and accumulating noise, while 3D reconstruction-based methods remain computationally...
+
+### BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.03504
+- Summary: We present BaltiVoice, a 16.8-hour read-speech corpus for Balti (ISO 639-3: bft), a Tibetic language spoken in Gilgit-Baltistan, Pakistan, with no prior publicly available ASR resources. The corpus contains 10,060 validated utterances in native Nastaliq script, derived from Mozilla Common Voice...
 
 ### Rehumanizing global health care with agentic AI
 - Source: MIT Tech Review AI
@@ -665,6 +695,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.00021
 - Summary: arXiv:2606.00021v1 Announce Type: new Abstract: Speculative Decoding (SD) accelerates Large Language Model (LLM) inference by employing a lightweight draft model to propose candidate tokens, which are verified in parallel by the target model, without compromising generation quality. While...
+
+### FAF-CD: Frequency-Aware Fusion for Change Detection under Imperfect Multimodal Remote Sensing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.03114
+- Summary: Remote sensing change detection for real-world monitoring often relies on imperfect heterogeneous observations, where pre- and post-event images may be asynchronous, cross-sensor, or affected by illumination, seasonal, and modality shifts. This setting is especially challenging for EO-SAR disaster...
 
 ### Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded
 - Source: The Hacker News
@@ -2980,43 +3016,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/delta-weight-sync
-
-
-## 2026-05-26
-
-### Smoothed Score Queries and the Complexity of Sampling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27769
-- Summary: We study the query complexity of sampling from high-dimensional Gaussian distributions using gradient information. In the standard oracle model, exact gradients expose only matrix-vector products with the precision matrix, leading to polynomial approximation barriers and a characteristic \(\sqrtκ\)...
-
-### Users unable to access chat support on help center
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KSJZHDY7E780KF9J2ZZ8M0GE
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational)
-
-### AI Gateway Prompts not scanned for DLP
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/rcr92ddx8z8k
-- Summary: May 26, 19:52 UTC Resolved - This incident has been resolved. May 26, 19:31 UTC Investigating - Cloudflare is investigating issues about not correctly scanning certain AI gateway prompts for DLP
-
-### Cyberbullying Governance on Social Media: A Unified Framework from Content Identification to Intervention
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27584
-- Summary: The proliferation of social media platforms and online communities has inadvertently catalyzed the spread of cyberbullying, hate speech, and other forms of online toxicity, making the effective governance of such harm a critical societal and computational challenge. While significant strides have...
-
-### Agyn: An Open-Source Platform for AI Agents with Scalable On-Demand Execution, Agent Definition as a Code, and Zero-Trust Access
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27575
-- Summary: As organizations move toward production deployments of AI agents, which execute non-deterministic workflows, maintain stateful sessions, and often operate with privileged access to internal services, the engineering challenge shifts from building individual agents to operating them at scale with...
-
-### On the Subgaussianity of Quantized Linear Maps: An AI-Assisted Note
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27563
-- Summary: This short note presents a dimension-independent subgaussian concentration bound for Gaussian vectors under coordinate-wise nonlinear mappings. Discovered by Gemini 3.5 Flash, this result applies to any bounded function under a well-conditioned covariance. We apply this tool to answer a question of...
 
