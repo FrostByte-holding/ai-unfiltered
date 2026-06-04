@@ -6,6 +6,72 @@
 
 ## 2026-06-04
 
+### Software supply chain attacks: check your dependencies
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
+- Summary: Attackers are compromising open-source packages to spread malware. Cyber defenders are asked to review dependencies to reduce risks
+
+### How courts are coping with a flood of AI-generated lawsuits
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/
+- Summary: Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully,...
+
+### Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/
+- Summary: Law enforcement and tech companies disrupted infrastructure linked to scammers operating across Southeast Asia. The post Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown appeared first on SecurityWeek.
+
+### Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html
+- Summary: Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. "The sites are...
+
+### Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html
+- Summary: Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity. Symantec and Carbon Black's...
+
+### Cloudflare Analytics API latency out of AMS
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/g7svmvstl8tz
+- Summary: Jun 4, 09:27 UTC Resolved - This incident has been resolved. Jun 4, 09:08 UTC Investigating - Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files...
+
+### Cisco Warns of Available PoC for Critical Unified CM Vulnerability
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/
+- Summary: The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks. The post Cisco Warns of Available PoC for Critical Unified CM Vulnerability appeared first on SecurityWeek.
+
+### VS Code Vulnerability Allows One-Click GitHub Token Theft
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/vs-code-vulnerability-allows-one-click-github-token-theft/
+- Summary: A researcher has disclosed the full details of the vulnerability and released a PoC without notifying Microsoft in advance. The post VS Code Vulnerability Allows One-Click GitHub Token Theft appeared first on SecurityWeek.
+
+### CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The...
+
+### Network Congestion in Frankfurt
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/bmp8gngd1d2q
+- Summary: Jun 4, 06:59 UTC Resolved - Cloudflare observed network congestion in Frankfurt from 05:53 UTC to 06:08 UTC. The issue is now resolved.
+
+### DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html
+- Summary: The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans. The "Disruption Week" operation began May 18, 2026, leading to the...
+
 ### Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification
 - Source: arXiv AI
 - Category: research
@@ -398,6 +464,12 @@
 - URL: https://www.latent.space/p/ainews-microsoft-build-mai-thinking
 - Summary: Microsoft Build recap, and new MAI model technical details
 
+### Learning What to Learn: Stage-Specific Data Sets for SFT-then-RL in Small Language Model Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04466
+- Summary: Post-training Small Language Models (SLMs) for reasoning typically follows an SFT-then-RL pipeline, yet existing work rarely considers what data should be learned at each stage. We argue that data strategy should be aligned with the distinct roles of SFT and RL: SFT is better suited for acquiring...
+
 ### Visual Graph Scaffolds for Structural Reasoning in Large Language Models
 - Source: arXiv AI
 - Category: research
@@ -487,6 +559,30 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.02780
 - Summary: arXiv:2606.02780v1 Announce Type: new Abstract: The success of the transformer architecture as the backbone of modern LLMs is in large part due to its use of attention layers. An attention layer follows the standard neural network paradigm: it takes the residual stream as input and thereby produces...
+
+### Read the Trace, Steer the Path: Trajectory-Aware Reinforcement Learning for Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04396
+- Summary: Diffusion large language models (dLLMs) generate responses by iteratively unmasking and revising many positions in parallel. This process leaves a rich denoising trace depicting which tokens become confident, which remain unstable, and when commitments form. Existing dLLM reinforcement learning...
+
+### When Clients Stop Following: A Cognitive Conceptualization Diagram-driven Framework for Strategic Counseling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04389
+- Summary: Large Language Models (LLMs) show promise in psychological counseling, yet existing benchmarks rely heavily on highly cooperative simulated clients. We observe a critical counselor-following phenomenon: these clients often rapidly shift from resistance to compliance after only a few turns, creating...
+
+### From Symbolic to Geometric: Enabling Spatial Reasoning in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04381
+- Summary: Recent large language models (LLMs) often appear to exhibit spatial reasoning ability; however, this capability is largely \emph{symbolic}, arising from pattern matching over spatial language rather than true \emph{geometric} reasoning over space. Because LLMs operate on discrete tokens, they lack...
+
+### DLLG: Dynamic Logit-Level Gating of LLM Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04378
+- Summary: Leveraging multiple specialized LLMs can combine complementary strengths, but existing approaches trade adaptability for stability: routing commits prematurely, heuristic ensembling depends on fragile proxies, and parameter merging introduces interference. We propose DLLG (Dynamic Logit-Level...
 
 ### Elevated errors for ChatGPT Pro
 - Source: OpenAI Status
@@ -2925,100 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2605.28008
 - Summary: Large language models (LLMs) can now solve complex problems through long chain-of-thought (CoT) reasoning, but the trade-off between performance and token cost remains a central challenge. To address this issue, supervised fine-tuning (SFT) often uses compressed reasoning data, where CoT traces are...
-
-### AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27995
-- Summary: Large language model (LLM)-based agents have shown strong capabilities in using external tools to solve complex tasks. However, existing evaluations often overlook the temporal dimension of tool use, especially the impact of tool response latency, and are usually limited to single-task settings. In...
-
-### An Evolutionary Approach for Designing Stable and Highly Expressible Low-Immunogenicity Therapeutic mRNA Sequences
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27986
-- Summary: Messenger RNA (mRNA) sequences as therapeutics require optimized design to ensure efficient translation, structural stability, and minimal immunogenicity. This study presents a two-stage in-silico framework that integrates deep learning and evolutionary computation for rational mRNA optimization...
-
-### KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27984
-- Summary: Speech language models (SpeechLMs) have achieved substantial progress by extending large language models (LLMs) to the speech modality. However, SpeechLM evaluation remains heavily centered on English, limiting reliable assessment of multilingual speech capabilities. Straightforward benchmark...
-
-### Continual Learning in Modern Hopfield Networks with an Application to Diffusion Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27975
-- Summary: Generative models, including diffusion models, are increasingly used as foundation models and adapted through sequential fine-tuning, making continual learning an essential problem setting. However, continual learning in such generative models remains poorly understood: after a task change, what...
-
-### ROVER: Routing Object-Centric Visual Evidence for Grounded Multi-Image Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.27959
-- Summary: Multimodal Large Language Models (MLLMs) have increasingly localized and interleaved visual evidence for deliberative reasoning. Grounding-based approaches typically focus on regions of interest (RoIs) by injecting cropped image patches or RoI-specific features into the reasoning context. However,...
-
-### BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.26182
-- Summary: arXiv:2605.26182v1 Announce Type: new Abstract: Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability. Existing brick generation methods either rely on heuristic...
-
-### Can LLMs Introspect? A Reality Check
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.26242
-- Summary: arXiv:2605.26242v1 Announce Type: new Abstract: Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition research, that this conclusion may be premature: to be...
-
-### Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.26252
-- Summary: arXiv:2605.26252v1 Announce Type: new Abstract: Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and database paradigms treat memory as storage. They...
-
-### Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.26256
-- Summary: arXiv:2605.26256v1 Announce Type: new Abstract: Multimodal large language model (MLLM)-based embodied agents have shown strong potential for solving complex tasks in physical environments. However, personalized assistance requires more than following generic instruction or recognizing object...
-
-### Constraint acquisition needs better benchmarks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.26279
-- Summary: arXiv:2605.26279v1 Announce Type: new Abstract: Constraint Acquisition (CA) and related research on the validation and enhancement of Mathematical Programming (MP) models from domain knowledge artifacts are currently limited by inadequate benchmarks. This deficiency impedes reproducibility and...
-
-### GEM: Geometric Entropy Mixing for Optimal LLM Data Curation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.26121
-- Summary: arXiv:2605.26121v1 Announce Type: new Abstract: LLM pre-training efficacy increasingly depends on data composition rather than sheer volume. Yet, optimal mixing is hindered by categorization flaws: human taxonomies suffer from ontological misalignment, and Euclidean clustering fails to address...
-
-### The Constraint Tax: Measuring Validity-Correctness Tradeoffs in Structured Outputs for Small Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.26128
-- Summary: arXiv:2605.26128v1 Announce Type: new Abstract: Production LLM systems increasingly require machine-readable outputs: JSON objects, typed traces, regex-constrained fields, and tool-call schemas. This paper targets on-device and low-cost small language model (SLM) deployments, where sub-3B models...
-
-### AirCast-SR: A Foundation Model for Kilometer-Scale Atmospheric Super-Resolution via Latent Consistency Diffusion
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.26130
-- Summary: arXiv:2605.26130v1 Announce Type: new Abstract: Operational weather prediction at kilometer scales remains computationally prohibitive for traditional numerical weather prediction (NWP) models, limiting forecast access for applications in energy, agriculture, and disaster management that require...
-
-### SilIF: Silhouette-Augmented Isolation Forest for Unsupervised Transaction Fraud Detection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.26135
-- Summary: arXiv:2605.26135v1 Announce Type: new Abstract: Unsupervised anomaly detection is widely used in transaction fraud detection where labels are scarce. Isolation Forest (IF) is among the most popular classical methods due to its scalability and ease of deployment. We propose SilIF, an augmentation of...
-
-### Neural Bayesian Sequential Routing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.26147
-- Summary: arXiv:2605.26147v1 Announce Type: new Abstract: Human decision-making is sequential and uncertainty-aware, yet standard neural networks often rely on static, dense forward computation with limited visibility into evidence acquisition, uncertainty evolution, or when computation should stop. We...
-
-### Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.26132
-- Summary: arXiv:2605.26132v1 Announce Type: new Abstract: Can post-trained large language models (LLMs) further improve themselves using only unlabeled prompts, without external teachers or feedback from tools? We study this setting starting only from unlabeled seed questions with no ground-truth solutions,...
 
