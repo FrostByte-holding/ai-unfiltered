@@ -6,6 +6,18 @@
 
 ## 2026-06-04
 
+### Copilot Code Review Failing
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/5h5lmbffp07c
+- Summary: Jun 4, 18:03 UTC Update - We have identified that Copilot Code Review. Users may see "Copilot ran into an error" on Pull Requests that requested Copilot Code Review.A mitigation is in progress. Jun 4, 18:02 UTC Investigating - We are investigating reports of impacted performance for some GitHub...
+
+### Cloudflare Analytics API latency out of AMS
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kwnypgwqyths
+- Summary: Jun 4, 16:36 UTC Resolved - This incident has been resolved. Jun 4, 15:21 UTC Investigating - Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files...
+
 ### Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk
 - Source: Security Week
 - Category: security
@@ -330,6 +342,12 @@
 - URL: https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html
 - Summary: Cybersecurity researchers have flagged a new malspam campaign that makes use of Google's DoubleClick domain as a way to evade detection and ultimately deliver a remote access trojan (RAT) named DesckVB RAT. "Before the victim ever reaches attacker-controlled infrastructure, the lure routes through...
 
+### MetaPoint: Unlocking Precise Spatial Control in Agentic Visual Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.05031
+- Summary: Generative visual models fundamentally struggle with precise spatial control. This arises from a core disconnect: models can process textual descriptions of space but cannot directly map numerical coordinates onto the 2D image canvas. We introduce MetaPoint, a method that bridges this gap by...
+
 ### New Benchmarking Shows Limited Generalization Power of TCR Antigenic Epitope Prediction Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -461,6 +479,12 @@
 - URL: https://www.securityweek.com/http-2-bomb-exploit-knocks-web-servers-offline-in-seconds/
 - Summary: The default HTTP/2 configuration of major web servers is vulnerable to an attack chain combining a compression bomb and a Slowloris-style hold. The post &#8216;HTTP/2 Bomb&#8217; Exploit Knocks Web Servers Offline in Seconds appeared first on SecurityWeek.
 
+### A New Angle on Bones: Robust Pose Estimation in X-Ray and Ultrasound
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04700
+- Summary: Measuring the angle between bone structures is a routine task in medical image analysis and provides a key quantitative parameter for diagnosis and treatment planning. Automated methods can reduce time and cost while improving reproducibility. In this work, we address automatic bone pose estimation...
+
 ### Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes
 - Source: The Hacker News
 - Category: security
@@ -478,6 +502,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
 - Summary: Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. The vulnerability has been codenamed HTTP/2 Bomb by Calif. "The vulnerable behavior exists in each server's...
+
+### Neetyabhas: A Framework for Uncertainty-Aware Public Policy Optimization in Rational Agent-Based Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04562
+- Summary: Purpose The WHO's COVID-19 non-pharmaceutical interventions (e.g., lockdowns, vaccinations) effectively curb transmission but impose heavy economic strains. Existing research often neglects individual behaviors and falsely assumes perfect infection tracking and flawless policy execution, failing to...
 
 ### China’s Galactic Energy Pushes Toward World’s First Electromagnetic Launch Rocket
 - Source: Pandaily
@@ -538,6 +568,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html
 - Summary: Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active...
+
+### AgentJet: A Flexible Swarm Training Framework for Agentic Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04484
+- Summary: We present AgentJet, a distributed swarm training framework for large language model (LLM) agent reinforcement learning. Unlike centralized frameworks that tightly couple agent rollouts with model optimization, AgentJet adopts a decoupled multi-node architecture in which swarm server nodes host...
 
 ### Bot Management - Increased False Positives
 - Source: Cloudflare Status
@@ -664,6 +700,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.04389
 - Summary: Large Language Models (LLMs) show promise in psychological counseling, yet existing benchmarks rely heavily on highly cooperative simulated clients. We observe a critical counselor-following phenomenon: these clients often rapidly shift from resistance to compliance after only a few turns, creating...
+
+### Revisiting Privacy Amplification by Subsampling in Selective Release DPSGD
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04384
+- Summary: Machine learning's reliance on sensitive data necessitates privacy-preserving techniques like Differentially Private Stochastic Gradient Descent (DPSGD). However, DPSGD suffers from substantial utility degradation and slow convergence due to gradient clipping and noise injection. Prior works have...
 
 ### From Symbolic to Geometric: Enabling Spatial Reasoning in Large Language Models
 - Source: HF Daily Papers
@@ -2976,46 +3018,4 @@
 - Category: security
 - URL: https://www.securityweek.com/glassworm-botnet-disrupted/
 - Summary: Security firms took down all four command-and-control (C&#038;C) channels used by the GlassWorm malware. The post GlassWorm Botnet Disrupted appeared first on SecurityWeek.
-
-### Gitea Vulnerability Exposes Private Container Images without Authentication
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html
-- Summary: Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container images from Gitea deployments without requiring an account, password, or other credentials. The...
-
-### Learning to Label: A Reinforced Self-Evolving Framework for Semi-supervised Referring Expression Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28239
-- Summary: Semi-supervised referring expression segmentation (SS-RES) aims to achieve precise pixel-level language grounding under limited annotation, yet suffers from limited supervision and unreliable pseudo-labels when exploiting unlabeled image-text pairs. In this work, we propose Learning to Label, a...
-
-### GigaDevice Explains Why EtherCAT is Essential for Robot Joint Control
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/gigadevice-ethercat-robot-joint-control-may2026
-- Summary: GigaDevice recently hosted a webseminar titled "Secure Robotics in Motion," presenting the evolving direction of robot control systems. The company explained wh...
-
-### Proprio: Latent Self-Scoring and Inference-Time Refinement for Physically Plausible Video Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28230
-- Summary: Modern video generative models produce visually impressive results, yet frequently violate basic physical principles. We propose Proprio, a training-free framework that enables a frozen video generator to assess and improve the physical plausibility of its own outputs. Inspired by proprioception,...
-
-### BYD Confirms Humanoid Robot Push with Seventh-Generation 'Yao-Shun-Yu' Project Targeting 4S Stores and Homes
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byd-humanoid-robot-yao-shun-yu-4s-stores-may2026
-- Summary: BYD confirms its seventh-generation humanoid robot project targets global 4S dealership deployments, leveraging automotive manufacturing expertise to bridge the gap between China's hardware strength and AI intelligence.
-
-### Elevated errors on Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/rtr7z82cqmp9
-- Summary: May 27, 09:41 UTC Resolved - This incident has been resolved. May 27, 09:11 UTC Monitoring - A fix has been implemented and we are monitoring the results. May 27, 08:04 UTC Investigating - We are currently investigating this issue.
-
-### When Does Memory Help Multi-Trajectory Inference for Tool-Use LLM Agents?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28224
-- Summary: Multi-trajectory inference for tool-use LLM agents - generating multiple reasoning attempts and selecting among them - benefits from transferring knowledge across attempts so that later ones avoid the pitfalls of earlier ones. Existing cross-trajectory memory methods (trajectory-level reflection,...
 
