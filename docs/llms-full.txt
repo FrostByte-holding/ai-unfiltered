@@ -6,6 +6,29 @@
 
 ## 2026-06-04
 
+### Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/andon
+- Summary: We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.
+
+### Live updates degraded
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/tkqxdgjlm6b5
+- Summary: Jun 4, 20:32 UTC Resolved - Everything is operating normally. Jun 4, 20:20 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
+
+### Image API requests failing with 401s
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KTA0V0N4KT7VV50DTJZ85XTA
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Images (Operational)
+
+### Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety
+
 ### Copilot Code Review Failing
 - Source: GitHub Status
 - Category: incidents
@@ -372,6 +395,12 @@
 - URL: https://tldr.takara.ai/p/2606.04925
 - Summary: Video panoptic segmentation (VPS) aims to jointly detect, segment, and track all objects while partitioning the video into semantically consistent regions. We introduce the task setting of unsupervised VPS, omitting any human supervision. Existing unsupervised scene understanding works mainly...
 
+### BreastGPT: A Multimodal Large Language Model for the Full Spectrum of Breast Cancer Clinical Routine
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04911
+- Summary: Breast cancer remains a leading cause of cancer-related mortality among women. Its clinical management requires multimodal reasoning across a clinical workflow that spans \textit{screening}, \textit{diagnosis} and \textit{treatment planning}, where each stage involves distinct imaging modalities,...
+
 ### Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)
 - Source: The Hacker News
 - Category: security
@@ -467,6 +496,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/pm9s1hdwjldl
 - Summary: Jun 3, 11:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 3, 11:06 UTC Identified - The issue has been identified and a fix is being implemented. Jun 3, 09:31 UTC Investigating - We are currently investigating this issue.
 
+### Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04735
+- Summary: Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB). At intermediate...
+
 ### Elevated error rates on Codex, ChatGPT and Responses API
 - Source: OpenAI Status
 - Category: incidents
@@ -478,6 +513,12 @@
 - Category: security
 - URL: https://www.securityweek.com/http-2-bomb-exploit-knocks-web-servers-offline-in-seconds/
 - Summary: The default HTTP/2 configuration of major web servers is vulnerable to an attack chain combining a compression bomb and a Slowloris-style hold. The post &#8216;HTTP/2 Bomb&#8217; Exploit Knocks Web Servers Offline in Seconds appeared first on SecurityWeek.
+
+### VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04708
+- Summary: Universal Manipulation Interface (UMI) enables scalable real-world robot data collection without hardware-specific teleoperation, yet leveraging UMI data to train large-scale Vision-Language-Action (VLA) models remains fundamentally challenging. We identify two critical mismatches: wrist-mounted...
 
 ### A New Angle on Bones: Robust Pose Estimation in X-Ray and Ultrasound
 - Source: HF Daily Papers
@@ -496,6 +537,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-tries-to-calm-legal-threat-fears-after-zero-day-disclosure-backlash/
 - Summary: Microsoft responds to backlash over its threats of legal action against researchers who publicly disclose zero-day vulnerabilities. The post Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash appeared first on SecurityWeek.
+
+### Parthenon Law: A Self-Evolving Legal-Agent Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04602
+- Summary: As agents grow more capable, legal-domain LLM agents promise to turn document-heavy matters into reviewable work products -- yet reliable deployment faces three obstacles: no large-scale evidence on how today's strongest model-and-harness combinations behave on end-to-end legal matters; no agent...
 
 ### New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
 - Source: The Hacker News
@@ -724,6 +771,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.04338
 - Summary: Privacy-sensitive and distributed characteristics of multi-center medical data bring severe obstacles to centralized modeling for accurate early prediction of sepsis. Federated learning (FL) has attracted growing attention as a promising framework for collaborative model development, as it allows...
+
+### Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.04326
+- Summary: Concept bottleneck models predict outcomes from high-level concepts detected in inputs. Although concepts provide a simple way to reap benefits from interpretability, very few datasets include concept labels. This limits researchers' ability to determine which problems are suitable for these...
 
 ### Elevated errors for ChatGPT Pro
 - Source: OpenAI Status
@@ -2964,58 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html
 - Summary: Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through the front gate. They drift in disguised as routine activity, hide inside legitimate processes, and quietly accumulate...
-
-### Romanian Hacker Sentenced to Prison in US for Selling Access to State Network
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/romanian-hacker-sentenced-to-prison-in-us-for-selling-access-to-state-network/
-- Summary: Catalin Dragomir previously pleaded guilty to selling access to an Oregon state government office’s network. The post Romanian Hacker Sentenced to Prison in US for Selling Access to State Network appeared first on SecurityWeek.
-
-### Cloudflare Analytics availability degraded
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/m53vhwszn7hb
-- Summary: May 27, 11:36 UTC Identified - The issue has been identified and a fix is being implemented. May 27, 11:14 UTC Investigating - Cloudflare Analytics is degraded and customers might experience elevated rate of errors, and or increased latency while reading data via Cloudflare API.
-
-### Routing-Aligned Fine-Tuning for Multilingual Downstream Tasks in Mixture-of-Experts Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28306
-- Summary: Mixture-of-Experts (MoE) models have emerged as a dominant paradigm for efficient LLM scaling, yet adapting them to non-English downstream tasks remains challenging. Existing fine-tuning approaches treat MoE models as monolithic learners, ignoring the heterogeneous routing structure that develops...
-
-### Lastwall Raises $11.5 Million for Quantum-Resilient Identity Platform
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/lastwall-raises-11-5-million-for-quantum-resilient-identity-platform/
-- Summary: The new funding, led by BDC Capital’s StrongNorth Fund, will accelerate Lastwall’s North American expansion. The post Lastwall Raises $11.5 Million for Quantum-Resilient Identity Platform appeared first on SecurityWeek.
-
-### The Credential Crisis: How Stolen Credentials Defeat Modern Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/the-credential-crisis-how-stolen-credentials-defeat-modern-security/
-- Summary: As AI accelerates phishing, session hijacking, and credential abuse, security teams are racing to close the gap between attacker speed and defensive response. The post The Credential Crisis: How Stolen Credentials Defeat Modern Security appeared first on SecurityWeek.
-
-### Every9D-21M: Large-Scale Real-World 9D Canonicalization of Everyday Objects
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28270
-- Summary: Estimating the 9D pose of everyday objects from a single real-world image remains challenging. This is largely due to the lack of large-scale supervision. Most existing datasets either rely heavily on synthetic renderings or provide limited coverage of real-world objects: the largest real-world 9D...
-
-### ‘SymJack’ Attack Turns AI Coding Agents Into Supply Chain Attack Delivery Systems
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/symjack-attack-turns-ai-coding-agents-into-supply-chain-attack-delivery-systems/
-- Summary: Malicious repositories and disguised symlinks can trick AI coding agents into silently installing attacker-controlled MCP servers capable of stealing secrets, compromising CI pipelines, and deploying malicious code. The post ‘SymJack’ Attack Turns AI Coding Agents Into Supply Chain Attack Delivery...
-
-### MORI-Seg: Learning Morphological Geometry for Instance Segmentation without Instance Annotations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2605.28261
-- Summary: Instance-level quantification of kidney functional units is essential for morphometric analysis, yet most publicly available pathology datasets provide only semantic segmentation annotations, where adjacent structures of the same class are merged into single regions. This prevents reliable...
-
-### GlassWorm Botnet Disrupted
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/glassworm-botnet-disrupted/
-- Summary: Security firms took down all four command-and-control (C&#038;C) channels used by the GlassWorm malware. The post GlassWorm Botnet Disrupted appeared first on SecurityWeek.
 
