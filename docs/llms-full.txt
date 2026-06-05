@@ -6,6 +6,18 @@
 
 ## 2026-06-05
 
+### Voice mode availability impacted
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KTCF0M9HQ04JB48EXMMJVX5J
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Voice mode (Operational)
+
+### How to Stop Shipping Low-Quality RL Environments (with Examples)
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/bad-envs
+- Summary: Your broken harness is actively making the model worse. Here's what I keep seeing after years of eyeballing trajectories, and what you need to fix.
+
 ### TLS Connectivity Issues Affecting Subset of Let's Encrypt Certificates
 - Source: Cloudflare Status
 - Category: incidents
@@ -332,6 +344,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/kwnypgwqyths
 - Summary: Jun 4, 16:36 UTC Resolved - This incident has been resolved. Jun 4, 15:21 UTC Investigating - Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files...
 
+### Geodesic Flow Matching on a Riemannian Degradation Manifold for Blind Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06278
+- Summary: Blind image restoration requires recovering clean images from observations corrupted by unknown and potentially mixed degradations. While recent deterministic flow-based methods model restoration as transport processes that map degraded images to clean ones, they typically rely on Euclidean...
+
 ### Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories
 - Source: The Hacker News
 - Category: security
@@ -350,6 +368,12 @@
 - URL: https://www.securityweek.com/offroad-emerges-from-stealth-with-7-million-to-tackle-enterprise-identity-risk/
 - Summary: As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity landscape. The post Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity...
 
+### Design a Reliable LLM-Integrated Interface for Mortality Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06235
+- Summary: Mortality forecasting plays an important role in actuarial and policy decision-making, but its implementation remains technically complex and inaccessible to non-expert users. This project proposes a reliable large language model (LLM)-integrated interface that improves usability while maintaining...
+
 ### Webinar Today: Third-Party Risk in Practice – Where Programs Break Down and How to Respond
 - Source: Security Week
 - Category: security
@@ -367,6 +391,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html
 - Summary: It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems....
+
+### Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06113
+- Summary: Despite generating increasingly photorealistic images, text-to-image (T2I) models still exhibit localized, subtle, and structurally complex failures. Diagnosing these failures requires instance-level feedback that answers where a defect occurs, what type it is, why it is defective, and its...
 
 ### How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent
 - Source: Hugging Face Blog
@@ -510,6 +540,12 @@
 - URL: https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html
 - Summary: The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans. The "Disruption Week" operation began May 18, 2026, leading to the...
 
+### PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.05697
+- Summary: User interface (UI) and user experience (UX) evaluation is central to product development, yet reliable feedback still relies on recruiting human participants or running online A/B tests, making early-stage iteration slow and costly. In light of this, recent work has explored Multimodal Large...
+
 ### Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification
 - Source: arXiv AI
 - Category: research
@@ -641,6 +677,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/shanghai-ucloud-ai-cloud-export-jun2026
 - Summary: On June 2, Shanghai-headquartered UCloud cut the ribbon on a new cloud computing node in Uzbekistan, pushing its global network to 36 nodes across 28 regions. The move might once have been a routine infrastructure announcement. In 2025, it is some...
+
+### Multilingual Detection of Alzheimer's Disease from Speech: A Cross-Linguistic Transfer Learning Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.05545
+- Summary: The development of multilingual Alzheimer's Disease Dementia (AD) detection models presents significant challenges due to the resource-intensive and time-consuming nature of language-specific model training. We propose a novel solution using cross-language training to detect AD in languages beyond...
 
 ### Issue with Bot Management Traffic Categorization For Verified Bots
 - Source: Cloudflare Status
@@ -2976,46 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.27406
 - Summary: arXiv:2605.27406v1 Announce Type: new Abstract: Structured state space models (SSMs) have recently emerged as a promising foundation for sequence modeling, with Mamba-based architectures demonstrating strong performance through input-dependent state transitions, albeit at considerable complexity....
-
-### $E^3$-Agent: An Executable and Evolving Agent for Resource Management of Edge Generative Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.27428
-- Summary: arXiv:2605.27428v1 Announce Type: new Abstract: Edge deployments of generative inference increasingly face two practical realities: per-device per-model performance is often unknown at deployment time, and it is non-stationary due to user-driven semantic events, background load, and device churn....
-
-### Tackling Multimodal Learning Challenges with Mixture-of-Expert: A Survey
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2605.27431
-- Summary: arXiv:2605.27431v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) presents a naturally compatible and scalable framework for multimodal learning, demonstrating strong adaptability across diverse modalities and tasks. Despite its growing success, a comprehensive and systematic review on the...
-
-### ICG: Improving Cover Image Generation via MLLM-based Prompting and Personalized Preference Alignment
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.27374
-- Summary: arXiv:2605.27374v1 Announce Type: new Abstract: Recent advances in multimodal large language models (MLLMs) and diffusion models (DMs) have opened new possibilities for AI-generated content. Yet, personalized cover image generation remains underexplored, despite its critical role in boosting user...
-
-### LCO: LLM-based Constraint Optimization for Safer Agentic LLMs in Real-world Tasks
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.27375
-- Summary: arXiv:2605.27375v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly acting as autonomous agents, but their continuous interaction with the environment can lead to in-context reward hacking (ICRH), a phenomenon where LLMs iteratively optimize their behavior to maximize...
-
-### Unlocking Fine-Grained and Within-Utterance Speaking Style Control in Prompt-Based Text-to-Speech Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.27376
-- Summary: arXiv:2605.27376v1 Announce Type: new Abstract: While prompt-based text-to-speech (TTS) models enable natural language-driven speaking style control, they often provide limited fine-grained control and apply a single global style across an utterance. This restricts practical use cases that require...
-
-### RAG-Coding: Enhancing LLM Medical Coding with Structured External Knowledge
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.27377
-- Summary: arXiv:2605.27377v1 Announce Type: new Abstract: We present RAG-Coding, an agentic method for automated ICD-10-CM coding. RAG-Coding orchestrates four large language model (LLM) agents and grounds their coding decisions in external knowledge sources (e.g. the official coding tabular list and...
-
-### OralAgent: Integrating Reasoning, Tools, and Knowledge for Interactive Dental Image Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2605.27378
-- Summary: arXiv:2605.27378v1 Announce Type: new Abstract: Dental image analysis plays a pivotal role in supporting accurate diagnosis and treatment planning in oral healthcare. Although recent advances have produced dental AI models for specific tasks and individual imaging modalities, their isolated designs...
 
