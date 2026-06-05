@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 05 Jun 2026 14:56:04 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jun 2026 17:57:31 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>TLS Connectivity Issues Affecting Subset of Let&#x27;s Encrypt Certificates</title>
+            <link>https://www.cloudflarestatus.com/incidents/rsb9bsncwr64</link>
+            <guid>https://www.cloudflarestatus.com/incidents/rsb9bsncwr64</guid>
+            <pubDate>Fri, 05 Jun 2026 17:28:57 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/rsb9bsncwr64">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jun 5, 17:28 UTC Identified - Cloudflare has identified an issue affecting a subset of Let&#x27;s Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors. Customers requiring immediate resolution may order a replacement certificate; re-issuance from...</description>
+        </item>
+        <item>
+            <title>Disruption with some GitHub services</title>
+            <link>https://www.githubstatus.com/incidents/2nmfnbknhlnv</link>
+            <guid>https://www.githubstatus.com/incidents/2nmfnbknhlnv</guid>
+            <pubDate>Fri, 05 Jun 2026 17:25:44 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/2nmfnbknhlnv">GitHub Status</source>
+            <category>incidents</category>
+            <description>Jun 5, 17:25 UTC Update - Customers may see unexpected repo unsubscription events in their Slack or Teams channels. Jun 5, 17:20 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.</description>
+        </item>
+        <item>
+            <title>Elevated errors on many Claude models</title>
+            <link>https://status.claude.com/incidents/fprlnsvdnr2k</link>
+            <guid>https://status.claude.com/incidents/fprlnsvdnr2k</guid>
+            <pubDate>Fri, 05 Jun 2026 17:13:32 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/fprlnsvdnr2k">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jun 5, 17:13 UTC Monitoring - Success rates across all models have returned to expected levels. We are continuing to monitor closely to ensure no further issues will recur. Jun 5, 16:46 UTC Update - We are continuing to work to resolve issues affecting success rates on Opus 4.7 and 4.8, and will...</description>
+        </item>
+        <item>
+            <title>Cloudflare API service issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/cjbxlmzrk6tr</link>
+            <guid>https://www.cloudflarestatus.com/incidents/cjbxlmzrk6tr</guid>
+            <pubDate>Fri, 05 Jun 2026 14:58:59 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/cjbxlmzrk6tr">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jun 5, 14:58 UTC Investigating - Cloudflare is investigating issues with Cloudflare related APIs.These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.Some customers using the Cloudflare APIs might have requests fail and/or...</description>
+        </item>
         <item>
             <title>Some users may experience issues accessing OpenAI accounts</title>
             <link>https://status.openai.com//incidents/01KTBZDS20E3PZ53DH2SCKXN49</link>
@@ -421,42 +457,6 @@
             <source url="https://huggingface.co/blog/ServiceNow-AI/eva-bench-data">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>The Download: AI-generated lawsuits and virtual power plants for data centers</title>
-            <link>https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/</link>
-            <guid>https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/</guid>
-            <pubDate>Thu, 04 Jun 2026 12:10:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in...</description>
-        </item>
-        <item>
-            <title>Software supply chain attacks: check your dependencies</title>
-            <link>https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies</link>
-            <guid>https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies</guid>
-            <pubDate>Thu, 04 Jun 2026 12:00:00 +0000</pubDate>
-            <source url="https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies">NCSC UK</source>
-            <category>security</category>
-            <description>Attackers are compromising open-source packages to spread malware. Cyber defenders are asked to review dependencies to reduce risks</description>
-        </item>
-        <item>
-            <title>How courts are coping with a flood of AI-generated lawsuits</title>
-            <link>https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/</link>
-            <guid>https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/</guid>
-            <pubDate>Thu, 04 Jun 2026 10:50:18 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully,...</description>
-        </item>
-        <item>
-            <title>Cloudflare Analytics API latency out of AMS</title>
-            <link>https://www.cloudflarestatus.com/incidents/g7svmvstl8tz</link>
-            <guid>https://www.cloudflarestatus.com/incidents/g7svmvstl8tz</guid>
-            <pubDate>Thu, 04 Jun 2026 09:27:15 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/g7svmvstl8tz">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jun 4, 09:27 UTC Resolved - This incident has been resolved. Jun 4, 09:08 UTC Investigating - Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files...</description>
         </item>
     </channel>
 </rss>

@@ -6,6 +6,30 @@
 
 ## 2026-06-05
 
+### TLS Connectivity Issues Affecting Subset of Let's Encrypt Certificates
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rsb9bsncwr64
+- Summary: Jun 5, 17:28 UTC Identified - Cloudflare has identified an issue affecting a subset of Let's Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors. Customers requiring immediate resolution may order a replacement certificate; re-issuance from...
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/2nmfnbknhlnv
+- Summary: Jun 5, 17:25 UTC Update - Customers may see unexpected repo unsubscription events in their Slack or Teams channels. Jun 5, 17:20 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
+
+### Elevated errors on many Claude models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/fprlnsvdnr2k
+- Summary: Jun 5, 17:13 UTC Monitoring - Success rates across all models have returned to expected levels. We are continuing to monitor closely to ensure no further issues will recur. Jun 5, 16:46 UTC Update - We are continuing to work to resolve issues affecting success rates on Opus 4.7 and 4.8, and will...
+
+### Cloudflare API service issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/cjbxlmzrk6tr
+- Summary: Jun 5, 14:58 UTC Investigating - Cloudflare is investigating issues with Cloudflare related APIs.These issues do not affect the serving of cached files via the Cloudflare CDN or other security features at the Cloudflare Edge.Some customers using the Cloudflare APIs might have requests fail and/or...
+
 ### Some users may experience issues accessing OpenAI accounts
 - Source: OpenAI Status
 - Category: incidents
@@ -2994,28 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.27378
 - Summary: arXiv:2605.27378v1 Announce Type: new Abstract: Dental image analysis plays a pivotal role in supporting accurate diagnosis and treatment planning in oral healthcare. Although recent advances have produced dental AI models for specific tasks and individual imaging modalities, their isolated designs...
-
-### RULER: Representation-Level Verification of Machine Unlearning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.27569
-- Summary: arXiv:2605.27569v1 Announce Type: new Abstract: Machine unlearning aims to remove the influence of specific training records from a deployed model without retraining from scratch. Current protocols verify this at the output level through membership inference, retain accuracy, and forget-set...
-
-### LaneRoPE: Positional Encoding for Collaborative Parallel Reasoning and Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.27570
-- Summary: arXiv:2605.27570v1 Announce Type: new Abstract: Parallel LLM test-time scaling techniques (e.g., best-of-$N$) require drawing $N>1$ sequences conditioned on the same input prompt. These methods boost accuracy while exploiting the computational efficiency of batching $N$ generations. However, each...
-
-### Discovery Agents for Real-Time Analytics: Toward Proactive Insight Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.27571
-- Summary: arXiv:2605.27571v1 Announce Type: new Abstract: Modern analytics systems are fundamentally reactive, requiring users to define queries over increasingly complex and continuously evolving data. In real-time streaming environments, this paradigm breaks down, as the space of potential insights becomes...
-
-### Agyn: An Open-Source Platform for AI Agents with Scalable On-Demand Execution, Agent Definition as a Code, and Zero-Trust Access
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2605.27575
-- Summary: arXiv:2605.27575v1 Announce Type: new Abstract: As organizations move toward production deployments of AI agents, which execute non-deterministic workflows, maintain stateful sessions, and often operate with privileged access to internal services, the engineering challenge shifts from building...
 
