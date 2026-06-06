@@ -6,6 +6,23 @@
 
 ## 2026-06-06
 
+### Disruption with some GitHub services in the EU region
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/b0plzff6yl6f
+- Summary: Jun 6, 17:07 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 6, 16:56 UTC Update - Packages is experiencing degraded performance. We are continuing...
+
+### EU Network Maintenance
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/4843jm0lsls6
+- Summary: Jun 6, 15:36 UTC Monitoring - The degradation has been mitigated. We are monitoring to ensure stability. Jun 6, 15:31 UTC Update - We are conducting routine maintenance on our network infrastructure in the EU. This will not impact production traffic, but may result in slightly increased latency for...
+
+### Job Searcher
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/build-small-hackathon/job-search-blog
+
 ### Persona Atlas: Mapping How Famous Minds Think
 - Source: Hugging Face Blog
 - Category: open-source
@@ -633,6 +650,12 @@
 - URL: https://tldr.takara.ai/p/2606.06302
 - Summary: Multi-turn Large Language Model (LLM) serving is critical for consistent user experiences, yet the linear growth of the Key-Value (KV) cache imposes significant pressure on GPU memory and bandwidth. Non-uniform KV compression effectively preserves more information by considering the individual...
 
+### Reactive Flux Matching: Mechanism Discovery and Adaptive Sampling of Rare Events
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06295
+- Summary: Path sampling methods generate ensembles of reactive trajectories connecting metastable states, but extracting mechanistic insight from these data remains nontrivial. We introduce Flux Matching, a framework that learns two complementary objects directly from reactive trajectory data: a current...
+
 ### Geodesic Flow Matching on a Riemannian Degradation Manifold for Blind Image Restoration
 - Source: HF Daily Papers
 - Category: open-source
@@ -728,6 +751,12 @@
 - URL: https://tldr.takara.ai/p/2606.06103
 - Summary: Medical image segmentation is often framed as a search for stronger architectures, but this can obscure a more fundamental question: what does the dataset require from the model? In medical imaging, this requirement is shaped by foreground occupancy, morphology, boundary ambiguity, topology...
 
+### CogManip: Benchmarking Manipulative Behavior in Multi-Turn Interactions with Large Language Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06099
+- Summary: Whether Large Language Models (LLMs) exhibit covert psychological manipulation in complex human-AI interactions has garnered increasing safety concerns. However, existing AI safety benchmarks remain largely restricted to explicit rule compliance and static prompts, failing to capture the dynamic...
+
 ### EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios
 - Source: Hugging Face Blog
 - Category: open-source
@@ -768,6 +797,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
 - Summary: Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed...
+
+### Diffusion Models for Adaptive Sequential Data Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.06007
+- Summary: Generating realistic synthetic sequential data is critical in real-world applications across operations research, finance, healthcare, energy systems, and scientific computing, where time-indexed observations are used for prediction, simulation, risk assessment, and data-driven decision-making....
 
 ### How courts are coping with a flood of AI-generated lawsuits
 - Source: MIT Tech Review AI
@@ -822,6 +857,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.05889
 - Summary: We propose GLASS, a framework for composable acoustic style control in zero-shot autoregressive text-to-speech (TTS) that learns controls from post-generation rewards rather than style labels. In zero-shot TTS, a speaker prompt often entangles speaker identity with prosodic attributes such as...
+
+### QCFuse: Query-Aware Cache Fusion via Compressed View for Efficient RAG Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.05875
+- Summary: Retrieval-augmented generation (RAG) improves large language model (LLM) answer quality by grounding generation in external evidence, but processing retrieved contexts makes the prefill stage a dominant serving cost. RAG cache fusion reduces this cost by reusing precomputed key-value (KV) caches...
 
 ### Cisco Warns of Available PoC for Critical Unified CM Vulnerability
 - Source: Security Week
@@ -900,6 +941,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/bmp8gngd1d2q
 - Summary: Jun 4, 06:59 UTC Resolved - Cloudflare observed network congestion in Frankfurt from 05:53 UTC to 06:08 UTC. The issue is now resolved.
+
+### MARDoc: A Memory-Aware Refinement Agent Framework for Multimodal Long Document QA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.05749
+- Summary: Iterative retrieval-reasoning agents have recently shown promise for multimodal long-document question answering. However, most existing systems maintain a single growing context that mixes retrieval traces, observations, and intermediate reasoning. As interactions accumulate, key evidence becomes...
 
 ### AdaPLD: Adaptive Retrieval and Reuse for Efficient Model-Free Speculative Decoding
 - Source: HF Daily Papers
@@ -2969,52 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2605.27654
 - Summary: arXiv:2605.27654v1 Announce Type: new Abstract: Generative translation systems are cultural technologies because they decide how socially meaningful cues are rendered within culturally specific grammatical systems. We study one concrete notion of successful cultural translation: when an English...
-
-### Users may encounter issues with conversations
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KSRVTZVW4J7NZ3WXM74DG4KX
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
-
-### Users may encounter issues logging in or creating an account
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KSRVH1TAV8Q47M91F6V4V6X0
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Login (Degraded performance) Login (Degraded performance)
-
-### XPeng Brings Full Physical AI Product Lineup to 2026 GBA Auto Show
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xpeng-physical-ai-gba-auto-show-2026-may2026
-- Summary: XPeng showcases its full physical AI product lineup at the 2026 GBA Auto Show, highlighting autonomous driving and embodied AI technologies beyond traditional EVs.
-
-### Haier's Thunderobot Launches 10 AI Workstations Powered by AMD Across Tower, Mini, and Mobile Lines
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/thunderobot-haier-ai-workstations-amd-launch-may2026
-- Summary: Haier's Thunderobot unveils 10 AMD-powered AI workstations across tower, mini PC, and mobile form factors, targeting the agent-era demand for local AI computing.
-
-### Stepfun Open-Sources Step 3.7 Flash LLM Optimized for Agent Era
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/stepfun-open-source-step-3-7-flash-llm-agent-may2026
-- Summary: Stepfun open-sources Step 3.7 Flash, a 196B-parameter sparse MoE LLM optimized for agent workflows with 400 tokens/s speed and native tool-calling capabilities.
-
-### AI Models Need Sleep: CMU Research Shows Performance Boost from 'Napping' LLMs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ai-models-need-sleep-cmu-research-performance-may2026
-- Summary: CMU and University of Maryland researchers show that LLMs benefit from a 'sleep' mechanism that consolidates long-context information, improving complex reasoning performance.
-
-### China Memory Chip Giants CXMT and YMTC Advance Dual IPO Strategy Amid AI Boom
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cxmt-ymtc-dual-ipo-china-memory-chip-may2026
-- Summary: China's CXMT and YMTC advance dual IPO plans amid the AI-driven memory chip boom, aiming to raise capital for capacity expansion in semiconductor self-sufficiency.
-
-### [AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-anthropic-raises-965b-series
-- Summary: Total Anthropic victory!
 
