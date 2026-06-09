@@ -6,6 +6,46 @@
 
 ## 2026-06-09
 
+### Hyperdrive and KV API errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/5xqvx0hyhdrf
+- Summary: Jun 9, 14:37 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 9, 14:20 UTC Investigating - Cloudflare has identified an issue where some customers may experience latency or errors using Hyperdrive over Tunnels or the Workers KV API. We are working to analyze and...
+
+### Introducing Gemma 4 12B: a unified, encoder-free multimodal model
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/
+
+### Powering the future of robotics in Europe
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/
+
+### New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/new-platform-uses-cryptographic-invisibility-to-protect-ai-built-applications/
+- Summary: Atsign’s AI Architect applies cryptographic protections to agentic software development, aiming to prevent attackers from exploiting vulnerabilities by making application identities effectively invisible. The post New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications...
+
+### WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html
+- Summary: Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka...
+
+### SAP Patches Critical NetWeaver, Commerce Vulnerabilities
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/sap-patches-critical-netweaver-commerce-vulnerabilities/
+- Summary: The flaws could lead to the disclosure of sensitive information, memory corruption, and disruption of normal system usage. The post SAP Patches Critical NetWeaver, Commerce Vulnerabilities appeared first on SecurityWeek.
+
+### Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html
+- Summary: University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate tailored attack strategies for each target it encounters, and replicate itself, all without...
+
 ### Will AI Kill the Bug Bounty Industry?
 - Source: Security Week
 - Category: security
@@ -332,11 +372,29 @@
 - URL: https://www.cloudflarestatus.com/incidents/35mfzhgtsmzw
 - Summary: Jun 8, 16:00 UTC Resolved - Cloudflare R2 users may have seen increased errors when reading data from buckets stored in WEUR.
 
+### When Built-in Thinking Helps and Hurts: Constraint-Level Error Shifts in Instruction Following
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09662
+- Summary: Large reasoning models (LRMs) often improve math and coding performance, but their effect on instruction following is unclear. We study IFEval with Qwen3 models (1.7B-32B), using same-weights Thinking ON/OFF controls; four Hunyuan models provide directional cross-family support. Aggregate pass-rate...
+
 ### Everybody Is Vibe Coding But Nobody Told the Security Team
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/everybody-is-vibe-coding-but-nobody-told-the-security-team/
 - Summary: AI-driven development is not something organizations can or should block. But it must be governed. The post Everybody Is Vibe Coding But Nobody Told the Security Team appeared first on SecurityWeek.
+
+### AGENTSERVESIM: A Hardware-aware Simulator for Multi-Turn LLM Agent Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09613
+- Summary: Multi-turn LLM agents interleave model calls with external tool invocations, shifting serving from stateless request processing to stateful program execution. Serving these workloads requires scheduling, KV-cache management, and routing policies that use program-level context, including turn...
+
+### TUDSR: Twice Upsampling-Diffusion for Higher Super-Resolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09608
+- Summary: Diffusion-based generative models have achieved remarkable success in real-world image super-resolution (SR). With tiled diffusion techniques, these models can produce high-resolution images that exceed their native-supported resolution. However, the quality of such high-resolution (e.g $2048^2$)...
 
 ### Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups
 - Source: The Hacker News
@@ -373,6 +431,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
 - Summary: Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And...
+
+### Measuring the impact of learning with AI in Sierra Leone and beyond
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/
+- Summary: Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.
 
 ### Cybersecurity M&A Roundup: 26 Deals Announced in May 2026
 - Source: Security Week
@@ -426,6 +490,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.09338
 - Summary: Large Language Models fail at implicit multi-hop reasoning: a model answers "When was $X$ born?" and "Who is $Y$'s closest friend?" correctly but fails on "When was $Y$'s closest friend born?" in a single forward pass, even when both facts are perfectly memorized and individually retrievable. We...
+
+### Conan-embedding-v3: Fusing Modality-Specific Models for Omni-Modal Embedding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09331
+- Summary: Omni-modal retrieval promises a single embedding space for text, image, video, document, and audio inputs, but building such a unified retriever is difficult since these modalities differ in data distribution, architecture, and optimization dynamics. In this work, we present Conan-embedding-v3, a...
 
 ### Silent Ransom Group Uses DNS Fast Flux in Attacks
 - Source: Security Week
@@ -552,6 +622,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.09049
 - Summary: We propose the data augmented bootstrap (DAB), a framework for constructing confidence intervals from approximately invariant transformations of the data. As special cases, DAB recovers popular methods that rely on exact group symmetries, such as conformal prediction, wild bootstrap for Maximum...
+
+### DynaCF: Mitigating Shortcut Learning in Reward Models via Dynamic Counterfactual Sensitivity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09043
+- Summary: Reward models trained from pairwise preferences often exploit superficial shortcut cues rather than learning true response quality. We propose DynaCF, a dynamic reweighting framework for mitigating shortcut learning in reward model training. Unlike static shortcut heuristics, DynaCF measures...
 
 ### Structural Grid Descriptors Predict Within-Task Solver Success on ARC-AGI
 - Source: HF Daily Papers
@@ -2931,82 +3007,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.00009
 - Summary: arXiv:2606.00009v1 Announce Type: new Abstract: Bayesian Optimization (BO) is widely and successfully adopted for solving optimization problems having an expensive-to-evaluate, black-box, and non-convex objective function. However, the vanilla BO algorithm is not able to exploit possible symmetries...
-
-### BitsMoE: Efficient Spectral Energy-Guided Bit Allocation for MoE LLM Quantization
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.00079
-- Summary: arXiv:2606.00079v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) large language models reduce per-token computation through sparse expert activation, but their deployment remains memory-intensive because all expert weights must be kept resident in memory. Existing MoE compression methods...
-
-### DAStatFormer: A Hybrid Multibranch Transformer with Statistical Feature Integration for DAS-Based Pattern Recognitions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.00081
-- Summary: arXiv:2606.00081v1 Announce Type: new Abstract: Distributed Acoustic Sensing (DAS) enables large-scale monitoring through optical fibers, but its high dimensionality and complex spatio-temporal patterns make event classification demanding. Existing deep learning approaches-CNNs, recurrent models,...
-
-### Hoeffding Concept Bottleneck Models with Applications to Overhead Images
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.00082
-- Summary: arXiv:2606.00082v1 Announce Type: new Abstract: Explainability of deep learning algorithms is critical for computer-vision applications with high-stake decisions. Concept bottleneck models (CBM) have recently shown promising performance to provide explainable and accurate predictions for...
-
-### From Demonstrations to Rewards: Test-Time Prompt Optimization for VLM Reward Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.00083
-- Summary: arXiv:2606.00083v1 Announce Type: new Abstract: Reinforcement learning relies on accurate reward functions, which are often hand-crafted or even unavailable in real-world applications, such as robotics. Recent work has explored the zero-shot reasoning capabilities of pre-trained Vision-Language...
-
-### A Shared Valence Axis Across Modern LLMs and Human EEG: The Saturation Regularity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.00129
-- Summary: arXiv:2606.00129v1 Announce Type: new Abstract: Large language models (LLMs) have emerged as powerful representation learners whose internal features increasingly align with human cognition. We study whether modern LLMs can serve as a lens for understanding neural representations in the human...
-
-### DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.00012
-- Summary: arXiv:2606.00012v1 Announce Type: new Abstract: Multi-party dialogue discourse parsing aims to identify dependency structures and relation types between utterances in conversations. Previous studies are mostly limited to textual modality or two-party dialogue, failing to meet the multimodal and...
-
-### Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.00014
-- Summary: arXiv:2606.00014v1 Announce Type: new Abstract: Although studies have demonstrated that Large Language Models (LLMs) can perform well on Out-of-Distribution (OOD) tasks, their advantage tends to diminish as the distribution shift becomes more severe. Consequently, researchers aim to retrieve...
-
-### AEyeDE: An Attention-Based Attribution Framework for AI-Generated Text Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.00016
-- Summary: arXiv:2606.00016v1 Announce Type: new Abstract: Detecting AI-generated text is becoming increasingly challenging as modern language models approach human-level fluency and can evade detectors that rely on surface statistics or likelihood-based signals. We propose \textsc{AEyeDE}, an...
-
-### CSRP: Chain-of-Thought Reasoning for Chinese Text Correction via Reinforcement Learning with Efficiency-Aware Rewards
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.00020
-- Summary: arXiv:2606.00020v1 Announce Type: new Abstract: Large Language Model (LLM) based Chinese Grammatical Error Correction (CGEC) systems face two critical challenges: general-purpose models lack specialized linguistic priors for subtle grammatical distinctions, and Supervised Fine-Tuning (SFT) with...
-
-### SENSE: Semantic Embedding Navigation with Soft-gated Evaluation for Retrieval-based Speculative Decoding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.00021
-- Summary: arXiv:2606.00021v1 Announce Type: new Abstract: Speculative Decoding (SD) accelerates Large Language Model (LLM) inference by employing a lightweight draft model to propose candidate tokens, which are verified in parallel by the target model, without compromising generation quality. While...
-
-### FAF-CD: Frequency-Aware Fusion for Change Detection under Imperfect Multimodal Remote Sensing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.03114
-- Summary: Remote sensing change detection for real-world monitoring often relies on imperfect heterogeneous observations, where pre- and post-event images may be asynchronous, cross-sensor, or affected by illumination, seasonal, and modality shifts. This setting is especially challenging for EO-SAR disaster...
-
-### Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html
-- Summary: Password manager Dashlane has disclosed that "fewer than" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an "external" threat actor launched a brute-force attack against...
-
-### [AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3
-- Summary: Jensen scores a huge win.
 
