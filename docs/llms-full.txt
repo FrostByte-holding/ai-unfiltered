@@ -6,6 +6,28 @@
 
 ## 2026-06-09
 
+### Fable not available in the model picker in Claude Code Desktop
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/wtcn4knnnfzc
+- Summary: Jun 9, 21:03 UTC Resolved - This issue has been resolved. If you are experiencing issues with selecting Claude Fable within the Claude Code Desktop application, please ensure you have updated to the latest version. Jun 9, 20:16 UTC Monitoring - A fix has been implemented and we are monitoring the...
+
+### Elevated errors on Claude Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/xwrtmlm3tnxf
+- Summary: Jun 9, 20:32 UTC Investigating - We are currently investigating this issue.
+
+### Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ServiceNow-AI/code-switching
+
+### Introducing North Mini Code: Cohere’s First Model For Developers
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/CohereLabs/introducing-north-mini-code
+
 ### Floatboat Launches "Proactive Agent OS" That Works From Your Calendar
 - Source: Pandaily
 - Category: chinese-ai
@@ -309,6 +331,11 @@
 - URL: https://www.cloudflarestatus.com/incidents/qy9zl7wvss1r
 - Summary: Jun 9, 00:50 UTC Resolved - This incident has been resolved. Jun 9, 00:09 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 8, 23:43 UTC Investigating - Some Cloudflare R2 users may have seen increased errors when using R2
 
+### Migrating Your GitHub CI to Hugging Face Jobs
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/github-ci-hf-jobs
+
 
 ## 2026-06-08
 
@@ -354,11 +381,23 @@
 - URL: https://status.claude.com/incidents/3n1flr3mnpgl
 - Summary: Jun 8, 17:55 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 8, 17:15 UTC Investigating - We are currently investigating this issue.
 
+### Bandits for Efficient Experimentation: Adapting to Control Group, Preferences, and Context Drifts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09802
+- Summary: We consider a variant of the linear contextual stochastic multi-armed bandits, where the learner must provide recommendations to a group of users, each having its personalized preference vector, and in the presence of context distributions that are drifting over time. Under practitioner-friendly...
+
 ### Elevated 500 errors on CF1 SaaS Integrations API
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/5q28t2lttcm7
 - Summary: Jun 8, 17:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 8, 17:36 UTC Investigating - Cloudflare One's SaaS integrations page has reported elevated HTTP 500 errors on API requests impacting ability to create, view, and manage integrations.
+
+### Preserving Plasticity in Continual Learning via Dynamical Isometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09762
+- Summary: Continual training of deep neural networks under non-stationarity often leads to a progressive loss of plasticity, eventually limiting further learning. We relate plasticity to the empirical Neural Tangent Kernel, and identify dynamical isometry (the condition that layer-wise Jacobian singular...
 
 ### A Security Raises $37 Million for Autonomous Offensive Security Platform
 - Source: Security Week
@@ -389,6 +428,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/35mfzhgtsmzw
 - Summary: Jun 8, 16:00 UTC Resolved - Cloudflare R2 users may have seen increased errors when reading data from buckets stored in WEUR.
+
+### Transition-Based Digital Twin Modelling for Alzheimer's Disease under Sparse Longitudinal Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09671
+- Summary: Alzheimer's disease (AD) progression is highly heterogeneous and is typically observed through sparse and irregular longitudinal data, posing challenges for prediction and personalised monitoring. Existing machine learning approaches have improved AD prediction using multimodal data, yet often...
 
 ### When Built-in Thinking Helps and Hurts: Constraint-Level Error Shifts in Instruction Following
 - Source: HF Daily Papers
@@ -473,6 +518,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cybersecurity-ma-roundup-26-deals-announced-in-may-2026/
 - Summary: Significant cybersecurity M&#038;A deals announced by Akamai, Check Point, Cisco, Cyera, Dragos, WatchGuard and Zscaler. The post Cybersecurity M&#038;A Roundup: 26 Deals Announced in May 2026 appeared first on SecurityWeek.
+
+### Introducing multiplex semantic networks as multifaceted representations of creative associative knowledge across multilingual samples
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09403
+- Summary: Creativity is a complex cognitive ability that relies on knowledge organisation and retrieval from semantic memory. Yet most research uses a single task to measure it, capturing only a fraction of this complexity. This study investigates multiplex networks - layered semantic networks obtained from...
 
 ### Everest Forms Vulnerability Exploited to Hack WordPress Sites
 - Source: Security Week
@@ -658,6 +709,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.09114
 - Summary: Chinese discriminatory-language detection is challenging because harmful intent is often implicit and context-dependent. We propose MAAM (Myopia--Astigmatism Anchor Mechanism), a lightweight, model-agnostic framework inspired by functional visual blur: rather than preserving every token equally,...
+
+### Edge-Constrained UAV Small-Object Detection with P2 Enhancement and Quantum-Inspired Lightweight Structure Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.09081
+- Summary: Unmanned aerial vehicle (UAV) object detection requires compact detectors that retain small-object details under onboard computation and memory constraints. Repeated downsampling inlightweight networks weakens shallow spatial information, while manually adding attention orfusion modules may...
 
 ### VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks
 - Source: The Hacker News
@@ -2947,64 +3004,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html
 - Summary: Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-source remote access trojan called Xeno RAT. "The campaign opens with a spear phishing delivery - a ZIP...
-
-### How small businesses can leverage AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/
-- Summary: This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a...
-
-### Evaluating LLMs' Effectiveness on Real-World Consumer Device Repair Questions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.03331
-- Summary: Consumer device repair is an important but underexplored testbed for large language models (LLMs). Repair tasks require reasoning over incomplete problem descriptions, hardware-specific diagnostics, actionable troubleshooting, and safety-critical decisions, where incorrect advice can cause device...
-
-### Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/dashlane-brute-force-attack-leads-to-limited-encrypted-vault-downloads/
-- Summary: Dashlane’s security systems automatically locked accounts to protect them against the hacking attempts. The post Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads appeared first on SecurityWeek.
-
-### JAKA Robotics Unveils Compact 1.22m Humanoid Robot JAKA Pi for Education and Service
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/jaka-robotics-jaka-pi-jun2026
-- Summary: JAKA Robotics, a Shanghai-based company headquartered in the Minhang District's Dalian Bay innovation hub, has launched the JAKA Pi, a compact humanoid robot st...
-
-### Are Common Substructures Transferable? Riemannian Graph Foundation Model with Neural Vector Bundles
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.03270
-- Summary: Foundation models have sparked a revolution via a pretraining-adaptation paradigm, with recent efforts extending this success to graphs. Unlike other modalities, graphs contain rich structural patterns, yet their structural transferability remains poorly understood. Prior studies consider common...
-
-### Oracle’s First Monthly Patches Resolve 77 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracles-first-monthly-patches-resolve-77-vulnerabilities/
-- Summary: Oracle’s monthly Critical Security Patch Update (CSPU) rollouts are meant to deliver critical fixes faster. The post Oracle&#8217;s First Monthly Patches Resolve 77 Vulnerabilities appeared first on SecurityWeek.
-
-### Insta360 Enters Wireless Microphone Market with Mic Pro Featuring Color E-Ink Display
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/insta360-mic-pro-jun2026
-- Summary: Insta360, best known for its action cameras and 360-degree imaging products, has unveiled the Insta360 Mic Pro, a wireless lavalier microphone system that marks...
-
-### Seres Restructures Budget EV Brand into Saidou Technology with ByteDance AI Cockpit
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/seres-saidou-technology-jun2026
-- Summary: Seres, the Chinese EV maker best known for its AITO brand co-developed with Huawei, is pivoting its struggling budget strategy by restructuring its loss-making ...
-
-### Customers with traffic using China Network may see an increased in Challenge failures
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/p4zq3cvcc9rh
-- Summary: Jun 2, 07:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 2, 06:08 UTC Identified - The issue has been identified and a fix is being implemented. Jun 2, 04:48 UTC Investigating - Cloudflare is aware that some customers may see an increased in Challenge failures...
-
-### Brain-Computer Interface Startup SiClink Raises Millions for Visual Reconstruction Technology
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/siclink-bci-visual-reconstruction-jun2026
-- Summary: SiClink, an invasive brain-computer interface startup, has closed consecutive seed and angel funding rounds worth millions of yuan, backed by BlueRun Ventures, ...
 
