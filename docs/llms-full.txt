@@ -6,6 +6,23 @@
 
 ## 2026-06-10
 
+### Network Connectivity issues in Western North America impacting R2 and Containers
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h4nt62v4sh6d
+- Summary: Jun 10, 18:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 10, 17:01 UTC Update - We are continuing to investigate this issue. Jun 10, 16:35 UTC Investigating - Customers may see increased latency while using R2 buckets and scheduling containers in the Western...
+
+### Cloudflare Images upload failures
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/fpxb33vnw9bw
+- Summary: Jun 10, 17:21 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 10, 15:53 UTC Investigating - Cloudflare is aware of, and investigating an issue which potentially impacts customers trying to upload new files to Cloudflare Images.We are working to understand the full...
+
+### DiffusionGemma: 4x faster text generation
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/
+
 ### Authentication issues related to API requests
 - Source: GitHub Status
 - Category: incidents
@@ -413,6 +430,12 @@
 - URL: https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html
 - Summary: Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka...
 
+### ZODS-RS -- Zero-training Oriented Detection & Segmentation for Remote Sensing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10769
+- Summary: Remote-sensing and UAV applications need models that generalize across platforms and viewpoints without task-specific training. Yet training-free pipelines often falter on oriented geometry, scale/rotation variation, and crowded ports or airfields, and rarely unify detection and segmentation. We...
+
 ### SAP Patches Critical NetWeaver, Commerce Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -466,6 +489,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.10698
 - Summary: In this paper, we use machine learning to discover a new seeding strategy for integration-by-parts reduction of Feynman integrals, which is a frequent bottleneck in state-of-the-art calculations in theoretical particle and gravitational-wave physics. Our strategy allows us to reduce multi-loop...
+
+### Don't waste SAM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10696
+- Summary: Meta AI has recently released the Segment Anything Model (SAM), which demonstrates exceptional zero-shot image segmentation performance across various tasks with remarkable accuracy. Despite its inability to provide accurate segmentation across multiple research fields, SAM still serves as a...
 
 ### Multimedia Building Blocks
 - Source: Hugging Face Blog
@@ -568,6 +597,12 @@
 - URL: https://pandaily.com/miit-sasac-humanoid-robot-real-scene-training-2026-jun2026
 - Summary: China's MIIT and SASAC jointly launch a 2026 nationwide action plan to deploy humanoid robots in real-world industrial, service, and specialized scenarios, targeting thousand-unit deployments and over 100 high-value application scenarios.
 
+### GRAR: Glass-induced Reflection Artifact Removal in LiDAR Point Clouds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10541
+- Summary: Terrestrial Laser Scanning (TLS) point clouds captured in urban environments frequently suffer from glass-induced reflection artifacts, severely degrading downstream applications. Existing reflection artifact removal methods generally rely on ideal reflection symmetry assumptions, yet their...
+
 ### Network Performance Issues in Dubai
 - Source: Cloudflare Status
 - Category: incidents
@@ -579,6 +614,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/c6rm3xxqvhcf
 - Summary: Jun 9, 07:15 UTC Resolved - Cloudflare identified an issue where some customers may have experienced latency querying the GraphQL API between 07:15 and 09:30 UTC.This has been resolved.
+
+### 3D-CoS: A New 3D Reconstruction Paradigm Based on VLM Code Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10478
+- Summary: Most recent 3D reconstruction and editing systems operate on implicit and explicit representations such as NeRF, point clouds, or meshes. While these representations enable high-fidelity rendering, they are fundamentally low-level and hard to control programmatically. In contrast, we propose and...
 
 ### LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE
 - Source: The Hacker News
@@ -831,6 +872,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/bqt1x033350x
 - Summary: Jun 9, 01:30 UTC Resolved - Connectivity errors (HTTP 500s) and elevated latency observed due to a hardware failure between 01:32 - 01:36 UTC 2026-06-09. Cloudflare has mitigated the issue.
+
+### Supervised Fine-tuning with Synthetic Rationale Data Hurts Real-World Disease Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10279
+- Summary: Supervised fine-tuning with synthetic rationale data is widely assumed to improve language model performance on clinical prediction tasks by teaching models not just what to predict but why. We test this assumption on five-year Alzheimer's disease and related dementias (ADRD) prediction from...
 
 ### Increased HTTP 500 errors for R2
 - Source: Cloudflare Status
@@ -2958,52 +3005,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html
 - Summary: Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and "patch everything in time" stopped working years ago. Stop betting the org on winning that race. You don't control which bug lands. You control what it can reach once it does. That is a question about...
-
-### Increased 5XX error rate on Browser rendering
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pm9s1hdwjldl
-- Summary: Jun 3, 11:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 3, 11:06 UTC Identified - The issue has been identified and a fix is being implemented. Jun 3, 09:31 UTC Investigating - We are currently investigating this issue.
-
-### Trace-Mediated Peak Bias: Bridging Temporal Credit Assignment and Cognitive Heuristics in Deep Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.04735
-- Summary: Temporal credit assignment is central to both biological and artificial intelligence, yet its interaction with non-linear function approximation is poorly understood. We identify a systematic failure mode in deep reinforcement learning (RL) termed Trace-Mediated Peak Bias (TMPB). At intermediate...
-
-### Elevated error rates on Codex, ChatGPT and Responses API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KT5XJ5ATD6RMYP908WS69FVD
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational) Responses (Operational) Codex Web (Operational) App (Operational) Login (Operational)
-
-### ‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/http-2-bomb-exploit-knocks-web-servers-offline-in-seconds/
-- Summary: The default HTTP/2 configuration of major web servers is vulnerable to an attack chain combining a compression bomb and a Slowloris-style hold. The post &#8216;HTTP/2 Bomb&#8217; Exploit Knocks Web Servers Offline in Seconds appeared first on SecurityWeek.
-
-### VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.04708
-- Summary: Universal Manipulation Interface (UMI) enables scalable real-world robot data collection without hardware-specific teleoperation, yet leveraging UMI data to train large-scale Vision-Language-Action (VLA) models remains fundamentally challenging. We identify two critical mismatches: wrist-mounted...
-
-### A New Angle on Bones: Robust Pose Estimation in X-Ray and Ultrasound
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.04700
-- Summary: Measuring the angle between bone structures is a routine task in medical image analysis and provides a key quantitative parameter for diagnosis and treatment planning. Automated methods can reduce time and cost while improving reproducibility. In this work, we address automatic bone pose estimation...
-
-### Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
-- Summary: Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the...
-
-### Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-tries-to-calm-legal-threat-fears-after-zero-day-disclosure-backlash/
-- Summary: Microsoft responds to backlash over its threats of legal action against researchers who publicly disclose zero-day vulnerabilities. The post Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash appeared first on SecurityWeek.
 
