@@ -337,6 +337,18 @@
 - URL: https://www.securityweek.com/adobe-patches-123-vulnerabilities/
 - Summary: Nearly half of the security holes, most allowing arbitrary code execution, have been fixed in Adobe’s Experience Manager product. The post Adobe Patches 123 Vulnerabilities appeared first on SecurityWeek.
 
+### Next Forcing: Causal World Modeling with Multi-Chunk Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11187
+- Summary: Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk...
+
+### ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11164
+- Summary: Long chain-of-thought (CoT) trajectories in large language model (LLM) reasoning cause severe inference bottlenecks due to rapid key-value (KV) cache growth. Current decoding-time compression methods mitigate this issue via token eviction, but typically assume a uniform budget distribution across...
+
 ### Meta to Use Off-Site Business Data for Feed and AI Personalization
 - Source: The Hacker News
 - Category: security
@@ -405,6 +417,12 @@
 - Source: DeepMind Blog
 - Category: research
 - URL: https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/
+
+### Large-scale semantic mapping of learner agency and autonomy reveals what measurement and generative AI research overlook
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10881
+- Summary: Learner agency and autonomy are foundational to personal development, yet a pervasive "jingle-jangle" fallacy (i.e. identical terms denoting different constructs, distinct terms denoting identical ones) has substantially hindered cumulative knowledge. Treating meaning as a phenomenon constituted...
 
 ### Schmidt Decomposition-Based Methods for Efficient Quantum Image Encoding
 - Source: HF Daily Papers
@@ -566,6 +584,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.10602
 - Summary: Precise rover localization is a prerequisite for autonomous lunar exploration, yet the absence of Global Navigation Satellite System (GNSS) signals and the cumulative drift of local localization methods severely constrain long-range missions. Cross-view localization provides a promising drift-free...
+
+### Dmsh: A Multi-Agent Reinforcement Learning Framework for All-Quad Mesh Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10601
+- Summary: Generating high-quality meshes for arbitrary geometries remains a fundamental bottleneck in computational engineering, often demanding heuristic tuning and semi-manual workflows. In this paper, we introduce Dmsh, a first fully automated reinforcement learning pipeline that unifies geometric...
+
+### One Token per Multimodal Evidence: Latent Memory for Resource-Constrained QA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.10572
+- Summary: External memory effectively grounds large language models (LLMs) and vision-language models (VLMs)-based question answering (QA) in relevant multimodal evidence. However, existing memory paradigms represent each memory item in raw text and image forms, so retrieval-based systems must pass the...
 
 ### UniSound Joins Top Tier of Chinese LLMs with Token-Efficient U2 Foundation Model
 - Source: Pandaily
@@ -2975,34 +3005,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/programmable-3d-photonic-neural-network-glass-jun2026
 - Summary: A team of researchers from Huazhong University of Science and Technology (HUST) and Shanghai Jiao Tong University has demonstrated a remarkable new paradigm for photonic computing: programmable three-dimensional neural networks written directly in...
-
-### Chipsea Technology Rides the AI PC Wave with Next-Gen EC Chips
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/chipsea-technology-ai-pc-ec-chips-jun2026
-- Summary: The trillion-dollar AI PC market is reshaping the global semiconductor landscape, and one Chinese chipmaker is quietly positioning itself at the center of the transformation. Chipsea Technology, long known for its high-precision ADC (analog-to-dig...
-
-### Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html
-- Summary: The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems. The result is Identity Dark Matter:...
-
-### Organizations Warned of Exploited Linux Kernel Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/organizations-warned-of-exploited-linux-kernel-vulnerability/
-- Summary: An improper authentication bug allows attackers to escalate their privileges and escape containers. The post Organizations Warned of Exploited Linux Kernel Vulnerability appeared first on SecurityWeek.
-
-### Coarse-to-fine Hierarchical Architecture with Sequential Mamba for Brain Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.04772
-- Summary: Understanding the relationship between deep visual representations and the human visual system is a fundamental challenge in computational neuroscience. While modern vision models achieve strong performance in image recognition, their correspondence with the hierarchical organization of the human...
-
-### Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html
-- Summary: Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and "patch everything in time" stopped working years ago. Stop betting the org on winning that race. You don't control which bug lands. You control what it can reach once it does. That is a question about...
 
