@@ -6,6 +6,18 @@
 
 ## 2026-06-11
 
+### Elevated error rates for GPT 5.5 in Codex
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KTW7QY5W9DDYT0ETXX6MPVSY
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance)
+
+### Incident with Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/4yz3c18qmdxn
+- Summary: Jun 11, 20:00 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability. Jun 11, 19:58 UTC Update - We have applied a mitigation and are monitoring for recovery. Jun 11, 19:42 UTC Update - We are currently experiencing delays in Web Hook delivery...
+
 ### Billing Invoice UI issue
 - Source: Cloudflare Status
 - Category: incidents
@@ -367,6 +379,12 @@
 - URL: https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The list of vulnerabilities is as follows - CVE-2026-20245 (CVSS score: 7.8) - An improper...
 
+### Detecting Sensitive Personal Information in Japanese Pre-Training Corpora for Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12114
+- Summary: Sensitive personal information can appear in large-scale pre-training corpora for large language models (LLMs). Detecting and filtering such information is therefore essential to ensure compliance with privacy regulations and prevent unintended information leakage. However, in contrast to English...
+
 ### Who Runs the Ransomware Group ‘The Gentlemen?’
 - Source: Krebs on Security
 - Category: security
@@ -390,6 +408,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cyera-raises-600-million-at-12-billion-valuation/
 - Summary: Cyera is positioned as one of the most valuable privately held cybersecurity firms in the world with total funding topping $2 billion. The post Cyera Raises $600 Million at $12 Billion Valuation appeared first on SecurityWeek.
+
+### Automating Geometry-Intensive Compliance Checking in BIM: Graph-Based Semantic Reasoning Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12065
+- Summary: Automating compliance check for geometry-intensive regulations remains a significant technical bottleneck in Building Information Modeling (BIM), primarily due to the semantic disparity between high-level regulatory logic and structured IFC data. Existing methods, often reliant on static rule...
 
 ### Aryon Security Raises $29 Million in Series A Funding
 - Source: Security Week
@@ -439,11 +463,23 @@
 - URL: https://www.securityweek.com/after-ai-reaches-production-12-ways-security-teams-can-take-control/
 - Summary: Security teams need more than visibility into AI applications, they need a repeatable framework for monitoring, investigating, and defending them in production. The post After AI Reaches Production: 12 Ways Security Teams Can Take Control appeared first on SecurityWeek.
 
+### Toward Generalist Autonomous Research via Hypothesis-Tree Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11926
+- Summary: Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into later attempts. We study how an AI agent can run this loop autonomously over long horizons. We...
+
 ### Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html
 - Summary: Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads "stable" as "secure." It usually isn't. The work slows down. The risk...
+
+### Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11897
+- Summary: Scientific discovery workflows usually contain and rely heavily on lab notes, where researchers record observations, interpret uncertain results, and plan follow-up experiments. Such informative lab notes preserve evolving scientific reasoning and author uncertainty, rather than polished final...
 
 ### Investing in multi-agent AI safety research
 - Source: DeepMind Blog
@@ -558,6 +594,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.11663
 - Summary: Accurate salary prediction is critical for bridging the information gap between employers and job seekers in modern labor markets. Existing approaches predominantly yield a single point estimate and treat job attributes such as location, occupation, and industry as independent categorical features,...
+
+### TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11662
+- Summary: Deep search requires agents to answer complex questions through multi-step web search, browsing, evidence comparison, and synthesis. A central challenge is deciding how to search when several directions look plausible but only some will later lead to reliable evidence. If an agent greedily follows...
 
 ### Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS
 - Source: The Hacker News
@@ -2964,46 +3006,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/
 - Summary: Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully,...
-
-### ATT-CR: Adaptive Triangular Transformer for Cloud Removal
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05999
-- Summary: Cloud removal aims to accurately reconstruct the ground objects obscured by clouds in remote sensing images. Existing Transformer-based methods utilizing self-attention have shown impressive results by effectively modeling long-range dependencies in cloudy images. However, they suffer from the...
-
-### Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/
-- Summary: Law enforcement and tech companies disrupted infrastructure linked to scammers operating across Southeast Asia. The post Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown appeared first on SecurityWeek.
-
-### Learning of Robot Safety Policies via Adversarial Synthetic Scenarios
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05952
-- Summary: In this work, we propose an agentic gamification framework for hazard-informed learning of robot safety policies through synthetic scenarios. We model scenario generation as an adversarial game between two agents: a Red Team that explores the space of potential failures by constructing hazardous...
-
-### Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html
-- Summary: Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution System (TDS) and deliver malware families like Remus Stealer, AnimateClipper, and the SessionGate framework. "The sites are...
-
-### Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html
-- Summary: Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and routing it through Dropbox and OneDrive so the traffic blended into normal cloud activity. Symantec and Carbon Black's...
-
-### Cloudflare Analytics API latency out of AMS
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/g7svmvstl8tz
-- Summary: Jun 4, 09:27 UTC Resolved - This incident has been resolved. Jun 4, 09:08 UTC Investigating - Cloudflare is investigating latency issues with Cloudflare Analytics API, specifically affecting the Amsterdam (AMS) region. These issues do not affect other API services nor the serving of cached files...
-
-### Retrospective Harness Optimization: Improving LLM Agents via Self-Preference over Trajectory Rollouts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05922
-- Summary: AI agents rely on a harness of skills, tools, and workflows to solve complex problems. Continually improving this harness is essential for adapting to new tasks. However, existing optimization methods typically require ground-truth validation sets, yet such labeled data is difficult to acquire in...
 
