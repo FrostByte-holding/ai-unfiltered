@@ -6,6 +6,48 @@
 
 ## 2026-06-11
 
+### Billing Invoice UI issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/chrc0442m0mp
+- Summary: Jun 11, 18:12 UTC Investigating - Cloudflare is investigating a Billing Dashboard UI issue. Some customers are not able to see their invoices for the last 3 months. The invoices exist in our system and automatic billing is not impacted.
+
+### Elevated errors across models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/j8ghp7dk6lym
+- Summary: Jun 11, 17:56 UTC Resolved - The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC. Jun 11, 17:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 16:54 UTC Investigating - We are currently...
+
+### New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
+- Summary: Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and...
+
+### New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
+- Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. "This was an accidental discovery, it took a total of 4 hours to find this," the researcher said in...
+
+### Workers Observability query failures
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/qr3q2sz45wh9
+- Summary: Jun 11, 16:09 UTC Resolved - This incident has been resolved. Jun 11, 15:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 15:39 UTC Identified - Cloudflare has identified an issue impacting some customers where Workers Observability queries may be returning...
+
+### Elevated errors on Claude Opus 4.6
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/sp7cf0cghqsk
+- Summary: Jun 11, 15:01 UTC Resolved - This incident has been resolved. Jun 11, 14:58 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 14:37 UTC Identified - The issue has been identified and a fix is being implemented. Jun 11, 14:37 UTC Investigating - We are currently...
+
+### Disruption in service availabilty for Free and Go users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
 ### Hackers Exploit Langflow Vulnerability for Remote Code Execution
 - Source: Security Week
 - Category: security
@@ -331,6 +373,12 @@
 - URL: https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
 - Summary: A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues...
 
+### MSUE: Multi-Modal Soccer Understanding Expert
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12106
+- Summary: This paper presents our solution to the 2026 SoccerNet VQA Challenge. We first develop a cost-effective data synthesis pipeline driven by a Vision-Language Model (VLM), which systematically restructures raw domain data into diverse VQA samples, including concise answers and long-form responses....
+
 ### Infostealers Turn Millions of Devices Into Credential Theft Machines
 - Source: Security Week
 - Category: security
@@ -408,6 +456,12 @@
 - Category: security
 - URL: https://www.securityweek.com/servicenow-patches-vulnerability-exploited-against-some-customers/
 - Summary: The company updated hosted customer instances to patch a security issue it reportedly had known about since April 7. The post ServiceNow Patches Vulnerability Exploited Against Some Customers appeared first on SecurityWeek.
+
+### Conformal Bayes under Label Shift: Post-Hoc Calibration vs. In-Training Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11865
+- Summary: Conformal Bayes combines Bayesian posterior predictives with conformal calibration to produce prediction sets that are both statistically valid and geometrically efficient. We study conformal Bayes under label shift from a unified perspective, identifying two complementary approaches that restore...
 
 ### Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs
 - Source: The Hacker News
@@ -487,11 +541,23 @@
 - URL: https://www.securityweek.com/no-patch-planned-for-exploited-arista-eos-vulnerability/
 - Summary: Organizations are advised to apply vendor-supplied mitigations or discontinue the vulnerable devices. The post No Patch Planned for Exploited Arista EOS Vulnerability appeared first on SecurityWeek.
 
+### RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11709
+- Summary: On-policy self-distillation (OPSD) provides dense, token-level supervision for reasoning models by aligning a model's own distribution with the distribution it produces under privileged context, typically a verified solution. However, we show that the learning signal drawn from this distributional...
+
 ### Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html
 - Summary: The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet. "The exploit is a race condition, so it's a hit or miss," the researcher, who published the...
+
+### Probabilistic Salary Prediction with Graph Attention Networks and a Mixture Density Network
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11663
+- Summary: Accurate salary prediction is critical for bridging the information gap between employers and job seekers in modern labor markets. Existing approaches predominantly yield a single point estimate and treat job attributes such as location, occupation, and industry as independent categorical features,...
 
 ### Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS
 - Source: The Hacker News
@@ -642,6 +708,12 @@
 - Category: incidents
 - URL: https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr
 - Summary: Incident began at 2026-06-09 11:22 (all times are US/Pacific).Summary Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai and surrounding areas is experiencing intermittent periods of elevated latency and possible packet loss. Description A fire at a third-party data center...
+
+### AI Researchers Must Help Lead Arms Control to Mitigate Military AI Risks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.11533
+- Summary: The advancement of AI capabilities compels researchers and the public to be more aware of its potential worldwide impact. A pressing near-term concern is the regulation of military AI applications. Armament manufacturers and defense contractors are increasingly investing in AI capabilities and...
 
 
 ## 2026-06-09
@@ -2934,76 +3006,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.05922
 - Summary: AI agents rely on a harness of skills, tools, and workflows to solve complex problems. Continually improving this harness is essential for adapting to new tasks. However, existing optimization methods typically require ground-truth validation sets, yet such labeled data is difficult to acquire in...
-
-### GLASS: GRPO-Trained LoRA for Acoustic Style Steering in Zero-Shot Text-to-Speech
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05889
-- Summary: We propose GLASS, a framework for composable acoustic style control in zero-shot autoregressive text-to-speech (TTS) that learns controls from post-generation rewards rather than style labels. In zero-shot TTS, a speaker prompt often entangles speaker identity with prosodic attributes such as...
-
-### QCFuse: Query-Aware Cache Fusion via Compressed View for Efficient RAG Serving
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05875
-- Summary: Retrieval-augmented generation (RAG) improves large language model (LLM) answer quality by grounding generation in external evidence, but processing retrieved contexts makes the prefill stage a dominant serving cost. RAG cache fusion reduces this cost by reusing precomputed key-value (KV) caches...
-
-### Cisco Warns of Available PoC for Critical Unified CM Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/
-- Summary: The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks. The post Cisco Warns of Available PoC for Critical Unified CM Vulnerability appeared first on SecurityWeek.
-
-### Analysis of the Neglect-Zero Effect in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05864
-- Summary: We investigate the extent to which the language processing of LLMs resembles human cognitive processes, focusing on a human cognitive bias called the $\textit{neglect-zero effect}$. This effect refers to the human tendency to ignore $\textit{zero-models}$, which are configurations that render a...
-
-### Huawei Unveils Mate 90 Series with Revolutionary Kirin 9050 'Logic Folding' Chip
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-unveils-mate-90-series-with-revolutionary-kirin-9050--jun2026
-- Summary: Huawei Unveils Mate 90 Series with Revolutionary Kirin 9050 'Logic Folding' Chip Huawei has announced its highly anticipated Mate 90 series, slated for a September 2026 launch, positioning the flagship lineup to go head-to-head with Apple's iPhone 18 Pro. The centerpiece of the new devices is the...
-
-### China Achieves Mass Production Breakthrough with 360TB Glass Hard Drives
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-achieves-mass-production-breakthrough-with-360tb-glass-jun2026
-- Summary: China Achieves Mass Production Breakthrough with 360TB Glass Hard Drives Researchers at Huazhong University of Science and Technology (HUST) have achieved small-scale mass production of glass-based hard drives, a breakthrough that could transform enterprise cold data storage. Each glass disc can...
-
-### ByteDance's Doubao Introduces Paid Pro Tier as User Base Dips by 6 Million
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-s-doubao-introduces-paid-pro-tier-as-user-base-dip-jun2026
-- Summary: ByteDance's Doubao Introduces Paid Pro Tier as User Base Dips by 6 Million ByteDance's AI assistant Doubao has officially launched a paid subscription tier, the Doubao Pro version, with monthly pricing ranging from 68 to 500 RMB ($9 to $70). The move marks a significant shift for China's most...
-
-### VS Code Vulnerability Allows One-Click GitHub Token Theft
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/vs-code-vulnerability-allows-one-click-github-token-theft/
-- Summary: A researcher has disclosed the full details of the vulnerability and released a PoC without notifying Microsoft in advance. The post VS Code Vulnerability Allows One-Click GitHub Token Theft appeared first on SecurityWeek.
-
-### Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05833
-- Summary: Multimodal Large Language Models (MLLMs) excel at 2D semantic understanding but lack intrinsic 3D awareness, resulting in representations that fail to maintain geometric and spatial consistency across video frames. Given the scarcity of large-scale 3D data, we present GeoVR, a novel framework that...
-
-### Benchmarks in Leipzig
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.05818
-- Summary: Between April 1 and May 15, 2026, a group of 49 mathematicians compiled a dataset of research-level mathematics questions with known answers. Most of the work was done during the 3-day workshop *Benchmarks in Leipzig* with 35 participants at the Max Planck Institute for Mathematics in the Sciences...
-
-### Awinic Positions Itself as the 'Audio King' of AI Glasses with New Chip Solution
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/awinic-positions-itself-as-the-audio-king-of-ai-glasses-with-jun2026
-- Summary: Awinic Positions Itself as the 'Audio King' of AI Glasses with New Chip Solution Shanghai-listed Awinic Technology (688798.SH) has unveiled its latest audio solution purpose-built for AI glasses, the AW88188, at the Songshan Lake IC Forum. The move positions the 18-year-old semiconductor company —...
-
-### DeepSeek's Coming of Age: Landmark Funding Round and the Case for Consumer Monetization
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-s-coming-of-age-landmark-funding-round-and-the-case-jun2026
-- Summary: DeepSeek's Coming of Age: Landmark Funding Round and the Case for Consumer Monetization DeepSeek, the Chinese AI lab that has captured global attention with its cost-efficient large language models, is finally embracing outside capital in what could be one of the largest private fundraising rounds...
 
