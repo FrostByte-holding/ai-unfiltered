@@ -6,6 +6,12 @@
 
 ## 2026-06-12
 
+### INC20000033
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/g4d0vxhf0tns
+- Summary: Jun 12, 20:57 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
 ### olmo-eval: An evaluation workbench for the model development loop
 - Source: Hugging Face Blog
 - Category: open-source
@@ -314,6 +320,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/chrc0442m0mp
 - Summary: Jun 11, 18:12 UTC Investigating - Cloudflare is investigating a Billing Dashboard UI issue. Some customers are not able to see their invoices for the last 3 months. The invoices exist in our system and automatic billing is not impacted.
 
+### Understanding Truncated Positional Encodings for Graph Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13671
+- Summary: Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically...
+
 ### Elevated errors across models
 - Source: Anthropic Status
 - Category: incidents
@@ -434,6 +446,12 @@
 - URL: https://www.securityweek.com/onyxc2-stealer-offers-cybercriminals-enterprise-grade-theft-for-250-a-month/
 - Summary: Researchers say the OnyxC2 malware targets more than 200 applications and extensions while evading detection through encrypted payloads, DLL sideloading, and in-memory execution techniques. The post OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month appeared first on...
 
+### DuET: Dual Expert Trajectories for Diffusion Image Editing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13303
+- Summary: Recent diffusion editors perform diverse instruction-based edits while conditioning on the source image at every denoising step. Yet persistent source-image conditioning can limit how fully an edit is executed and how natural the result appears, especially when the target scene diverges...
+
 ### Once-for-All: Scalable Simultaneous Forecasting via Equilibrium State Estimation
 - Source: HF Daily Papers
 - Category: open-source
@@ -512,6 +530,12 @@
 - URL: https://www.securityweek.com/greatxml-zero-day-exploit-bypasses-bitlocker/
 - Summary: The PoC exploits Microsoft Defender’s offline scan to spawn a SYSTEM shell when rebooting in Recovery Mode. The post &#8216;GreatXML&#8217; Zero-Day Exploit Bypasses BitLocker appeared first on SecurityWeek.
 
+### Learning-Augmented Approximation for Unrelated-Machines Makespan Scheduling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13133
+- Summary: Recently, Antoniadis et al. (ICLR 2025) proposed a framework for incorporating predictions to approximate NP-hard selection problems. Despite its simplicity, this approach tightly matches theoretical lower bounds, making its generalization highly compelling. We address an open question raised in...
+
 ### OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack
 - Source: The Hacker News
 - Category: security
@@ -571,6 +595,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html
 - Summary: GitHub has announced what it said are "breaking changes" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to combat attack techniques that abuse the "npm install" command to trigger the execution of malicious code...
+
+### Multi-Label Test-Time Adaptation with Bayesian Conditional Priors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12925
+- Summary: Multi-label recognition with frozen Vision-Language Models (VLMs) is brittle under distribution shift: standard zero-shot inference scores labels independently, ignoring co-occurrence structure and producing incoherent label sets where dominant concepts suppress weaker but compatible labels. We...
 
 ### Title: Network issues in Saskatoon and Calgary
 - Source: Cloudflare Status
@@ -733,6 +763,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/9mqypymjn3xp
 - Summary: Jun 11, 01:43 UTC Resolved - This incident has been resolved. Jun 11, 01:31 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 10, 23:46 UTC Identified - The issue has been identified and a fix is being implemented. Jun 10, 23:44 UTC Investigating - Cloudflare has...
+
+### Agentic MPC for Semantic Control System Resynthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12774
+- Summary: While MPC effectively handles structured, diverse, and low-level specifications, it lacks the capability to dynamically incorporate high-level contextual information such as social norms, user intent, or natural language instructions. To address this limitation, this manuscript introduces an...
 
 ### INC20000032
 - Source: Snowflake Status
@@ -2972,40 +3008,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/
 - Summary: On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama...
-
-### Peking University Launches World's First Self-Evolving 5D World Model EvoPhys-World
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/peking-university-evophys-world-5d-world-model-jun2026
-- Summary: A research team from Peking University has unveiled EvoPhys-World, described as the world's first human-centric, scene-level, fully controllable 5D world model. Built on Moore Threads' domestically-produced computing infrastructure, the model push...
-
-### Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/five-eyes-chinese-spies-target-government-military-staff-with-fake-job-opportunities/
-- Summary: Posing as recruiters on online platforms, Chinese intelligence officers target personnel with access to classified or privileged information. The post Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities appeared first on SecurityWeek.
-
-### Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
-- Summary: Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution...
-
-### DJI Unveils Handheld Imaging Tech Roadmap Ahead of Pocket 4P Launch
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dji-pocket-4p-handheld-imaging-tech-roadmap-jun2026
-- Summary: DJI has for the first time publicly detailed its handheld imaging technology roadmap ahead of the upcoming launch of the Pocket 4P, the Pro version of its wildly popular pocket gimbal camera series....
-
-### Huawei Cloud Unveils Dozens of AI Products at INSPIRE Conference
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-cloud-inspire-ai-products-jun2026
-- Summary: Huawei Cloud made a sweeping product announcement at its INSPIRE conference today, unveiling over a dozen new AI offerings spanning infrastructure, model services, enterprise agent platforms, and industry solutions....
-
-### UBTECH's First Full-Size Biomimetic Humanoid Robot Surpasses 1,000 Pre-Orders in 3 Days
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ubtech-biomimetic-humanoid-robot-presale-jun2026
-- Summary: UBTECH Robotics, the Hong Kong-listed humanoid robot company known as "the first humanoid robot stock," has launched the global first full-size biomimetic humanoid robot for pre-sale on the JD.com platform, with over 1,200 units ordered within thr...
 

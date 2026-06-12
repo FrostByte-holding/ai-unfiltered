@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Jun 2026 18:08:56 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 21:47:59 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>INC20000033</title>
+            <link>https://status.snowflake.com/incidents/g4d0vxhf0tns</link>
+            <guid>https://status.snowflake.com/incidents/g4d0vxhf0tns</guid>
+            <pubDate>Fri, 12 Jun 2026 20:57:13 +0000</pubDate>
+            <source url="https://status.snowflake.com/incidents/g4d0vxhf0tns">Snowflake Status</source>
+            <category>incidents</category>
+            <description>Jun 12, 20:57 UTC Resolved - Current status: We&#x27;ve implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...</description>
+        </item>
         <item>
             <title>olmo-eval: An evaluation workbench for the model development loop</title>
             <link>https://huggingface.co/blog/allenai/olmo-eval</link>
@@ -396,6 +405,15 @@
             <description>Jun 11, 20:00 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability. Jun 11, 19:58 UTC Update - We have applied a mitigation and are monitoring for recovery. Jun 11, 19:42 UTC Update - We are currently experiencing delays in Web Hook delivery...</description>
         </item>
         <item>
+            <title>Understanding Truncated Positional Encodings for Graph Neural Networks</title>
+            <link>https://tldr.takara.ai/p/2606.13671</link>
+            <guid>https://tldr.takara.ai/p/2606.13671</guid>
+            <pubDate>Thu, 11 Jun 2026 17:58:56 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2606.13671">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically...</description>
+        </item>
+        <item>
             <title>Elevated errors across models</title>
             <link>https://status.claude.com/incidents/j8ghp7dk6lym</link>
             <guid>https://status.claude.com/incidents/j8ghp7dk6lym</guid>
@@ -439,24 +457,6 @@
             <source url="https://tldr.takara.ai/p/2606.13451">HF Daily Papers</source>
             <category>open-source</category>
             <description>Diffusion models have seen wide adoption for 3D molecular generation, yet they offer no principled signal of when a generated molecule is likely to be of low quality. We propose a post-hoc method for estimating per-sample uncertainty in pretrained molecular diffusion models. Building on a Laplace...</description>
-        </item>
-        <item>
-            <title>Elevated errors on Claude Opus 4.6</title>
-            <link>https://status.claude.com/incidents/sp7cf0cghqsk</link>
-            <guid>https://status.claude.com/incidents/sp7cf0cghqsk</guid>
-            <pubDate>Thu, 11 Jun 2026 15:01:51 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/sp7cf0cghqsk">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Jun 11, 15:01 UTC Resolved - This incident has been resolved. Jun 11, 14:58 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 14:37 UTC Identified - The issue has been identified and a fix is being implemented. Jun 11, 14:37 UTC Investigating - We are currently...</description>
-        </item>
-        <item>
-            <title>Accelerating Speculative Diffusions via Block Verification</title>
-            <link>https://tldr.takara.ai/p/2606.13426</link>
-            <guid>https://tldr.takara.ai/p/2606.13426</guid>
-            <pubDate>Thu, 11 Jun 2026 14:54:13 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2606.13426">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Speculative decoding speeds up LLM inference by using a draft model to generate tokens, with an acceptance-rejection scheme that ensures that the output matches the target distribution. Adapting this to continuous diffusions is difficult because speculative sampling requires drawing from a residual...</description>
         </item>
     </channel>
 </rss>
