@@ -6,6 +6,11 @@
 
 ## 2026-06-12
 
+### olmo-eval: An evaluation workbench for the model development loop
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/olmo-eval
+
 ### Cloudflare Dashboard and Cloudflare API service issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -53,6 +58,12 @@
 - Category: security
 - URL: https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/
 - Summary: The critical-severity OS command injection vulnerability allows attackers to execute arbitrary code with root privileges. The post Ivanti Sentry Exploitation Attempts Hitting Honeypots appeared first on SecurityWeek.
+
+### Turnstile loading issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/9rjxrnltdbtx
+- Summary: Jun 12, 09:30 UTC Resolved - During the timeframe between 09:46 to 16:27UTC today on June 12th users may have observed Turnstile not loading or solving the challenges. This is now resolved.
 
 ### Chrome 149 Update Patches 28 Vulnerabilities
 - Source: Security Week
@@ -321,6 +332,12 @@
 - URL: https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
 - Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. "This was an accidental discovery, it took a total of 4 hours to find this," the researcher said in...
 
+### Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13621
+- Summary: Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions. We argue this is the wrong product. The same automata-theoretic machinery -- specification compilation, product game...
+
 ### ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages
 - Source: HF Daily Papers
 - Category: open-source
@@ -345,6 +362,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/qr3q2sz45wh9
 - Summary: Jun 11, 16:09 UTC Resolved - This incident has been resolved. Jun 11, 15:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 15:39 UTC Identified - Cloudflare has identified an issue impacting some customers where Workers Observability queries may be returning...
 
+### Uncertainty Estimation for Molecular Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13451
+- Summary: Diffusion models have seen wide adoption for 3D molecular generation, yet they offer no principled signal of when a generated molecule is likely to be of low quality. We propose a post-hoc method for estimating per-sample uncertainty in pretrained molecular diffusion models. Building on a Laplace...
+
 ### Elevated errors on Claude Opus 4.6
 - Source: Anthropic Status
 - Category: incidents
@@ -368,6 +391,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13376
+- Summary: We present MoVerse, a real-time video world model that creates an interactively navigable scene from a single narrow-field-of-view image. This setting is challenging because the input observes only a small fraction of the environment, while interactive roaming requires a complete surrounding world,...
 
 ### Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks
 - Source: Security Week
@@ -501,6 +530,12 @@
 - URL: https://www.securityweek.com/university-of-nottingham-confirms-breach-after-hackers-leak-data/
 - Summary: The ShinyHunters hacker group has taken credit for the attack, leaking more than 450,000 email addresses and other information. The post University of Nottingham Confirms Breach After Hackers Leak Data appeared first on SecurityWeek.
 
+### TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13035
+- Summary: Autoregressive video diffusion models provide a natural formulation for streaming and variable-length video generation by conditioning newly generated frames on previously generated content. However, extending these models to minute-level generation remains challenging: the limited KV-cache budget...
+
 ### Xiaomi's Next-Gen Xuanjie O3 Chip Expected to Go Head-to-Head with Qualcomm Snapdragon 8E5
 - Source: Pandaily
 - Category: chinese-ai
@@ -542,6 +577,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/3hw9f94pwqbh
 - Summary: Jun 11, 04:30 UTC Resolved - Cloudflare may have experienced issues with network performance in Saskatoon and Calgary between 04:20 - 04:45 UTC. The incident is now resolved
+
+### Bridging Modal Isolation in Interleaved Thinking: Supervising Modality Transitions via Stepwise Reinforcement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.12886
+- Summary: Interleaved thinking, where a unified multimodal model alternates between textual reasoning and visual generation, has shown promise on spatial and physical tasks. However, in complex long-chain scenarios, we identify a fundamental failure mode: generated images diverge from the textual context...
 
 ### The Hidden Power of Scaling Factor in LoRA Optimization
 - Source: HF Daily Papers
@@ -2967,46 +3008,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ubtech-biomimetic-humanoid-robot-presale-jun2026
 - Summary: UBTECH Robotics, the Hong Kong-listed humanoid robot company known as "the first humanoid robot stock," has launched the global first full-size biomimetic humanoid robot for pre-sale on the JD.com platform, with over 1,200 units ordered within thr...
-
-### ByteDance, Alibaba, and Tencent Race for the AI Platform Window
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-alibaba-tencent-ai-platform-war-jun2026
-- Summary: The battle for AI platform dominance among China's three largest internet companies has entered a critical phase, as ByteDance, Alibaba, and Tencent each pursue distinct strategies to capture the emerging AI agent ecosystem....
-
-### Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/nightclub-giant-rci-says-data-breach-affects-40000-individuals/
-- Summary: The company detected a network intrusion in March and an investigation showed that some files were stolen during the attack. The post Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals appeared first on SecurityWeek.
-
-### FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html
-- Summary: Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that...
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today-7a8
-- Summary: a quiet day
-
-### Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-warns-of-7th-sd-wan-zero-day-exploited-in-2026/
-- Summary: The vulnerability is tracked as CVE-2026-20245 and it can allow arbitrary command execution as root, but no patch yet. The post Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 appeared first on SecurityWeek.
-
-### PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
-- Summary: The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. "Compromised business servers across the U.S., Europe, and Asia were quietly converted into SMTP proxies, verified...
-
-### How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.05256
-- Summary: arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated...
 

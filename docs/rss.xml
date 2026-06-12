@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Jun 2026 15:19:44 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 18:08:56 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>olmo-eval: An evaluation workbench for the model development loop</title>
+            <link>https://huggingface.co/blog/allenai/olmo-eval</link>
+            <guid>https://huggingface.co/blog/allenai/olmo-eval</guid>
+            <pubDate>Fri, 12 Jun 2026 15:56:10 +0000</pubDate>
+            <source url="https://huggingface.co/blog/allenai/olmo-eval">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>Cloudflare Dashboard and Cloudflare API service issues</title>
             <link>https://www.cloudflarestatus.com/incidents/443x5fm5hzch</link>
@@ -79,6 +88,15 @@
             <source url="https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/">Security Week</source>
             <category>security</category>
             <description>The critical-severity OS command injection vulnerability allows attackers to execute arbitrary code with root privileges. The post Ivanti Sentry Exploitation Attempts Hitting Honeypots appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>Turnstile loading issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/9rjxrnltdbtx</link>
+            <guid>https://www.cloudflarestatus.com/incidents/9rjxrnltdbtx</guid>
+            <pubDate>Fri, 12 Jun 2026 09:30:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/9rjxrnltdbtx">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jun 12, 09:30 UTC Resolved - During the timeframe between 09:46 to 16:27UTC today on June 12th users may have observed Turnstile not loading or solving the challenges. This is now resolved.</description>
         </item>
         <item>
             <title>Chrome 149 Update Patches 28 Vulnerabilities</title>
@@ -378,15 +396,6 @@
             <description>Jun 11, 20:00 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We are monitoring to ensure stability. Jun 11, 19:58 UTC Update - We have applied a mitigation and are monitoring for recovery. Jun 11, 19:42 UTC Update - We are currently experiencing delays in Web Hook delivery...</description>
         </item>
         <item>
-            <title>Billing Invoice UI issue</title>
-            <link>https://www.cloudflarestatus.com/incidents/chrc0442m0mp</link>
-            <guid>https://www.cloudflarestatus.com/incidents/chrc0442m0mp</guid>
-            <pubDate>Thu, 11 Jun 2026 18:12:00 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/chrc0442m0mp">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jun 11, 18:12 UTC Investigating - Cloudflare is investigating a Billing Dashboard UI issue. Some customers are not able to see their invoices for the last 3 months. The invoices exist in our system and automatic billing is not impacted.</description>
-        </item>
-        <item>
             <title>Elevated errors across models</title>
             <link>https://status.claude.com/incidents/j8ghp7dk6lym</link>
             <guid>https://status.claude.com/incidents/j8ghp7dk6lym</guid>
@@ -394,6 +403,15 @@
             <source url="https://status.claude.com/incidents/j8ghp7dk6lym">Anthropic Status</source>
             <category>incidents</category>
             <description>Jun 11, 17:56 UTC Resolved - The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC. Jun 11, 17:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 16:54 UTC Investigating - We are currently...</description>
+        </item>
+        <item>
+            <title>Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks</title>
+            <link>https://tldr.takara.ai/p/2606.13621</link>
+            <guid>https://tldr.takara.ai/p/2606.13621</guid>
+            <pubDate>Thu, 11 Jun 2026 17:35:40 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2606.13621">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent&#x27;s actions. We argue this is the wrong product. The same automata-theoretic machinery -- specification compilation, product game...</description>
         </item>
         <item>
             <title>ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages</title>
@@ -414,6 +432,15 @@
             <description>Turn-taking in multi-party spoken conversations remains a fundamental challenge for voice-based agents, particularly under dynamic floor competition and varying user expectations. We propose ModeratorLM, a role-playing voice agent that conditions turn-taking behavior on an explicitly assigned role...</description>
         </item>
         <item>
+            <title>Uncertainty Estimation for Molecular Diffusion Models</title>
+            <link>https://tldr.takara.ai/p/2606.13451</link>
+            <guid>https://tldr.takara.ai/p/2606.13451</guid>
+            <pubDate>Thu, 11 Jun 2026 15:11:12 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2606.13451">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Diffusion models have seen wide adoption for 3D molecular generation, yet they offer no principled signal of when a generated molecule is likely to be of low quality. We propose a post-hoc method for estimating per-sample uncertainty in pretrained molecular diffusion models. Building on a Laplace...</description>
+        </item>
+        <item>
             <title>Elevated errors on Claude Opus 4.6</title>
             <link>https://status.claude.com/incidents/sp7cf0cghqsk</link>
             <guid>https://status.claude.com/incidents/sp7cf0cghqsk</guid>
@@ -430,33 +457,6 @@
             <source url="https://tldr.takara.ai/p/2606.13426">HF Daily Papers</source>
             <category>open-source</category>
             <description>Speculative decoding speeds up LLM inference by using a draft model to generate tokens, with an acceptance-rejection scheme that ensures that the output matches the target distribution. Adapting this to continuous diffusions is difficult because speculative sampling requires drawing from a residual...</description>
-        </item>
-        <item>
-            <title>Person Identification from Contextual Motion</title>
-            <link>https://tldr.takara.ai/p/2606.13410</link>
-            <guid>https://tldr.takara.ai/p/2606.13410</guid>
-            <pubDate>Thu, 11 Jun 2026 14:39:25 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2606.13410">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>We consider the problem of identifying people based on their motion styles. We present a generative model describing the action instance creation process and derive a probabilistic identity inference scheme for two common person identification scenarios motivated by the surveillance and...</description>
-        </item>
-        <item>
-            <title>Disruption in service availabilty for Free and Go users</title>
-            <link>https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9</link>
-            <guid>https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9</guid>
-            <pubDate>Thu, 11 Jun 2026 14:04:45 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)</description>
-        </item>
-        <item>
-            <title>Once-for-All: Scalable Simultaneous Forecasting via Equilibrium State Estimation</title>
-            <link>https://tldr.takara.ai/p/2606.13285</link>
-            <guid>https://tldr.takara.ai/p/2606.13285</guid>
-            <pubDate>Thu, 11 Jun 2026 12:42:39 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2606.13285">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>We introduce Equilibrium State Estimation (ESE), a novel paradigm for simultaneous prediction, where multiple interacting systems require separate yet coordinated forecasts. Such scenarios often arise in real-world settings such as economics and healthcare modeling. Unlike existing approaches that...</description>
         </item>
     </channel>
 </rss>
