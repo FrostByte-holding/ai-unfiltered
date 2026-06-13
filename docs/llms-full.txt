@@ -6,6 +6,24 @@
 
 ## 2026-06-13
 
+### Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/
+- Summary: Anthropic takes Fable 5 and Mythos 5 offline to comply with a directive from the Trump administration to prevent use by foreign nationals. The post Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls appeared first on SecurityWeek.
+
+### U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html
+- Summary: Anthropic said on Friday it will "abruptly disable" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national...
+
+### [AINews] Fable and Mythos officially too dangerous to release
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-fable-and-mythos-officially
+- Summary: We are in the strangest timeline.
+
 ### Elevated errors on Claude Opus 4.8
 - Source: Anthropic Status
 - Category: incidents
@@ -413,6 +431,12 @@
 - URL: https://status.claude.com/incidents/j8ghp7dk6lym
 - Summary: Jun 11, 17:56 UTC Resolved - The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC. Jun 11, 17:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 16:54 UTC Investigating - We are currently...
 
+### Surflo: Consistent 3D Surface Flow Model with Global State
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13644
+- Summary: Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent...
+
 ### New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets
 - Source: The Hacker News
 - Category: security
@@ -515,6 +539,12 @@
 - URL: https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/
 - Summary: As alert volumes outpace human capacity, organizations are turning to AI, automation, and deeper context to separate real threats from the noise. The post Alert Fatigue Is Becoming a Security Threat of Its Own appeared first on SecurityWeek.
 
+### From Passive Generation to Investigation: A Proactive Scientific Peer Review Agent
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13349
+- Summary: Large language models (LLMs) have shown promise in automating scientific peer review. However, existing approaches often struggle to generate in-depth reviews supported by concrete evidence. We argue that a key limitation is the lack of flexibility to proactively investigate suspicious parts of a...
+
 ### Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories
 - Source: The Hacker News
 - Category: security
@@ -568,6 +598,12 @@
 - Category: security
 - URL: https://www.securityweek.com/siemens-says-desigo-cc-files-flagged-as-malware-by-security-engines/
 - Summary: A PowerShell script included in patch files appears to be triggering false positives by multiple security engines. The post Siemens Says Desigo CC Files Flagged as Malware by Security Engines appeared first on SecurityWeek.
+
+### Distributional Loss for Robust Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13223
+- Summary: This paper proposes a novel loss concept for supervised classification tasks. Rather than enforcing a direct mapping from each input sample to a single assigned label, we define an optimization objective over all classifier outputs as a bimodal Gaussian distribution. This softer target formulation...
 
 ### AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.
 - Source: The Hacker News
@@ -629,6 +665,12 @@
 - URL: https://tldr.takara.ai/p/2606.13133
 - Summary: Recently, Antoniadis et al. (ICLR 2025) proposed a framework for incorporating predictions to approximate NP-hard selection problems. Despite its simplicity, this approach tightly matches theoretical lower bounds, making its generalization highly compelling. We address an open question raised in...
 
+### MiniPIC: Flexible Position-Independent Caching in <100LOC
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13126
+- Summary: Retrieval-augmented and agentic workloads repeatedly prefill recurring predictable structured inputs (which we call "spans") such as documents and code files. Yet, prefix caching in engines such as vLLM cannot reuse their KV entries unless they share identical prefixes with another request, while...
+
 ### OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack
 - Source: The Hacker News
 - Category: security
@@ -640,6 +682,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.13105
 - Summary: We revisit the fairness notion of disparate impact for synthetic data generation (SDG), that assesses whether the utility of generated records is the same across sensitive groups. Our approach departs from existing work on fair SDG, that address the problem of correcting for undue biases in the...
+
+### Limits of spectral learning under noise
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.13067
+- Summary: Learning functional relationships from noisy data is a central problem in scientific inference. Spectral methods approximate unknown functions by expanding them in a basis and estimating the corresponding coefficients from data, but the stability of these coefficients under noise remains poorly...
 
 ### TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization
 - Source: HF Daily Papers
@@ -2961,54 +3009,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/step-37-flash-aa-rankings-jun2026
 - Summary: StepFun's latest model, Step 3.7 Flash, has achieved top rankings on the Artificial Analysis (AA) benchmark, securing first place in speed, cost-efficiency, and end-to-end performance while also gaining significant traction on OpenRouter and Huggi...
-
-### China Achieves Major Breakthroughs in Aerospace, Clean Energy, and Infrastructure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-aerospace-clean-energy-breakthroughs-jun2026
-- Summary: China has achieved a series of significant breakthroughs this week spanning aerospace, clean energy, infrastructure, and advanced manufacturing, demonstrating the breadth of the country's technological advancement....
-
-### MoleculeMind Achieves Breakthrough in AI-Powered Nanobody Design with MMDesign Platform
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moleculemind-mmdesign-nanobody-ai-jun2026
-- Summary: MoleculeMind, an AI protein design company founded by Professor Xu Jinbo — a pioneer in AI protein folding — has announced a major breakthrough with its self-developed MMDesign platform for AI-powered de novo biologics design, achieving over 90% t...
-
-### Tencent Docs Upgrade Reveals Tencent's Strategy in the AI Agent Race
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-docs-agent-upgrade-workbuddy-jun2026
-- Summary: Tencent's latest upgrade to its Tencent Docs platform, integrating the WorkBuddy AI agent engine, offers a revealing glimpse into the company's broader strategy in the increasingly competitive AI agent space....
-
-
-## 2026-06-05
-
-### Thousand Token Wood: shipping a multi-agent economy on a 3B model
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim
-
-### Voice mode availability impacted
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KTCF0M9HQ04JB48EXMMJVX5J
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Voice mode (Operational)
-
-### How to Stop Shipping Low-Quality RL Environments (with Examples)
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/bad-envs
-- Summary: Your broken harness is actively making the model worse. Here's what I keep seeing after years of eyeballing trajectories, and what you need to fix.
-
-### IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
-- Summary: Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog, the information stealer...
-
-### TLS Connectivity Issues Affecting Subset of Let's Encrypt Certificates
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/rsb9bsncwr64
-- Summary: Jun 5, 17:28 UTC Identified - Cloudflare has identified an issue affecting a subset of Let's Encrypt certificates, in which unsupported CA bundling may result in TLS connectivity issues for some visitors. Customers requiring immediate resolution may order a replacement certificate; re-issuance from...
 
