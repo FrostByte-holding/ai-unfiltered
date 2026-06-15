@@ -6,6 +6,36 @@
 
 ## 2026-06-15
 
+### INC20000034
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/x9085gh79r3x
+- Summary: Jun 15, 19:22 UTC Monitoring - Current status: Services remain stable following our previously implemented mitigation actions; however, customers could experience performance issues until the underlying issue is resolved. We are closely monitoring the environment while we continue to collaborate...
+
+### Multiple services have elevated errors and endpoint failures when checking feature flags
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/d9b4dsg8d0r6
+- Summary: Jun 15, 19:10 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 15, 19:10 UTC Update - We identified an issue with feature flag checks that caused...
+
+### Why do South Koreans love AI so much?
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my face...
+
+### OAuth Account Creation / Login Error
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KV67B3HB2B6JKHAMHCCYS0KZ
+- Summary: Status: IdentifiedWe have identified that users are experiencing an error when attempting to create an account or logging in using Google OAuth for the impacted services. We are working on implementing a mitigation.Affected components Login (Degraded performance) Login (Degraded performance)
+
+### Increased latency with webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/67w72l5v25x3
+- Summary: Jun 15, 17:37 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 15, 16:39 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We...
+
 ### NewCore Emerges From Stealth Mode With $66 Million in Funding
 - Source: Security Week
 - Category: security
@@ -2986,34 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.06674
 - Summary: arXiv:2606.06674v1 Announce Type: new Abstract: Large Language Models (LLMs) are often fine-tuned through Reinforcement Learning from Human Feedback (RLHF) to align with people's preferences and values. However, this method has known limitations: it aggregates conflicting preferences, often relies...
-
-### HKJudge: A Legal Discourse-Annotated Corpus for Interpreting What Courts Find, How They Reason, and What They Rule
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.06679
-- Summary: arXiv:2606.06679v1 Announce Type: new Abstract: Court judgments are central to legal practice and jurisprudence, yet discourse analysis of Hong Kong judgments has received limited attention, owing largely to the absence of expert-annotated corpora. We introduce the Hong Kong Judgment Discourse...
-
-### Signal-Driven Observation for Long-Horizon Web Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.06708
-- Summary: arXiv:2606.06708v1 Announce Type: new Abstract: Web agents operating over long horizons ingest raw DOM and accessibility trees -- routinely tens of thousands of tokens -- at every action step, causing progressive context degradation that erodes reasoning well before tasks complete. We argue that...
-
-### Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.06712
-- Summary: arXiv:2606.06712v1 Announce Type: new Abstract: We study the transformation of autoregressive models (ARLMs) into diffusion language models (DLMs). Rather than pretraining from scratch, prior work replaces the causal attention in ARLMs with bidirectional attention and then trains the resulting...
-
-### ChinaHeritaQA: A Culturally-Grounded Visual Question Answering Dataset for World Heritage Sites in China
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.08959
-- Summary: We introduce ChinaHeritaQA, a multimodal benchmark dataset for evaluating the cultural reasoning abilities of vision-language models (VLMs) on UNESCO World Heritage sites in China. The dataset comprises 2,279 in-the-wild images paired with 14,133 bilingual (Chinese/English) multiple-choice QA pairs...
-
-### From Hazard Functions to Language Space: Cox-Supervised Distillation of Survival Risk into a Large Language Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.08945
-- Summary: We investigate whether information about time-to-event risk estimated by a Cox proportional hazards model can be transferred into a generative large language model. We propose a text-based survival modelling pipeline in which structured clinical covariates are converted into text prompts and a...
 
