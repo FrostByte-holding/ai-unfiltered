@@ -6,6 +6,36 @@
 
 ## 2026-06-16
 
+### Elevated errors across many models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/xmhsglsz3h3w
+- Summary: Jun 16, 19:32 UTC Resolved - The incident has now been resolved. We had two phases:* between 10:23 PT / 17:23 UTC to 11:00 PT / 18:00 UTC -- all Sonnet and Opus models were affected, reaching an error rate of around 10%* after 11:00 PT / 18:00 UTC and until 12:20 PT / 19:20 UTC -- Opus 4.8 had an...
+
+### We are investigating an issue where customers see paid invoices as unpaid.
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/pg2kpy6vkd71
+- Summary: Jun 16, 19:24 UTC Resolved - This incident has been resolved. Jun 16, 16:32 UTC Identified - The issue has been identified and a fix is being implemented. Jun 16, 15:53 UTC Investigating - Customers may not see invoice payment status accurately reflected in the Cloudflare UI for payments made since...
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1s444p9sf9wg
+- Summary: Jun 16, 18:15 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 16, 18:14 UTC Update - The issues with our upstream model provider have been...
+
+### Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/ps1snnzz54pq
+- Summary: Jun 16, 14:04 UTC Update - Cloudflare is aware of and investigating Workers AI experiencing degraded availability in some models.Impacted models:- @cf/moonshotai/kimi-k2.6- @cf/moonshotai/kimi-k2.7-code Jun 16, 14:02 UTC Investigating - We are currently investigating this issue.
+
+### Frontier post-training recipe review with Finbarr Timbers
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/frontier-post-training-recipe-review
+- Summary: "Interview" #18
+
 ### Endpoint Security Startup Ent Emerges From Stealth With $100 Million Seed Round
 - Source: Security Week
 - Category: security
@@ -2989,34 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.09350
 - Summary: Reliable motion classification is critical for autonomous driving, as false dynamic predictions of static objects can cascade into unnecessary planner interventions. Unstable bounding box predictions can lead to spurious velocity estimates in tracking and falsely predicted trajectories. We present...
-
-### Cloudflare Dashboard and Cloudflare API service issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/lg8y8hgdv34g
-- Summary: Jun 8, 11:10 UTC Resolved - This incident has been resolved. Jun 8, 10:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 8, 10:46 UTC Investigating - Cloudflare is investigating issues with Cloudflare Dashboard and related APIs. These issues do not affect the...
-
-### Multi-Hop Knowledge Composition is Bound by Pretraining Exposure
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.09338
-- Summary: Large Language Models fail at implicit multi-hop reasoning: a model answers "When was $X$ born?" and "Who is $Y$'s closest friend?" correctly but fails on "When was $Y$'s closest friend born?" in a single forward pass, even when both facts are perfectly memorized and individually retrievable. We...
-
-### Conan-embedding-v3: Fusing Modality-Specific Models for Omni-Modal Embedding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.09331
-- Summary: Omni-modal retrieval promises a single embedding space for text, image, video, document, and audio inputs, but building such a unified retriever is difficult since these modalities differ in data distribution, architecture, and optimization dynamics. In this work, we present Conan-embedding-v3, a...
-
-### Silent Ransom Group Uses DNS Fast Flux in Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/silent-ransom-group-uses-dns-fast-flux-in-attacks/
-- Summary: Focusing on hacking law firms in the US, the ransomware group relies on fast flux to hide its C&#038;C infrastructure. The post Silent Ransom Group Uses DNS Fast Flux in Attacks appeared first on SecurityWeek.
-
-### VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html
-- Summary: A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD to target Linux systems. The activity has been attributed by Volexity to a threat cluster it tracks...
 
