@@ -6,6 +6,12 @@
 
 ## 2026-06-18
 
+### Cloudflare pages build failures
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/5xskt6m7mf08
+- Summary: Jun 18, 21:44 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 18, 20:52 UTC Investigating - Some Cloudflare Pages customers may be experiencing failures. Affected customers can retry their builds through the Dashboard.
+
 ### MosaicLeaks: Can your research agent keep a secret?
 - Source: Hugging Face Blog
 - Category: open-source
@@ -372,6 +378,12 @@
 - URL: https://status.claude.com/incidents/s107yx224p9r
 - Summary: Jun 17, 16:28 UTC Resolved - This incident has been resolved. Jun 17, 16:01 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 17, 15:34 UTC Investigating - We are currently investigating this issue.
 
+### A Human-in-the-Loop Bayesian Optimization Framework for Constraint-Aware Bioprocess Development
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19230
+- Summary: This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto...
+
 ### Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline
 - Source: The Hacker News
 - Category: security
@@ -395,6 +407,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/molmomotion
 
+### Giskard : Byzantine Robust and Confidential Aggregation for Large-Scale Decentralized Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19129
+- Summary: Dealing simultaneously with confidentiality and Byzantine behaviors in decentralized learning is a challenging problem. Indeed, in decentralized learning, clients train a machine learning model while keeping their data locally and share their model parameters or gradients with a set of neighbors....
+
 ### State of the blog, mid-2026
 - Source: Interconnects
 - Category: open-source
@@ -412,6 +430,12 @@
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-how-modern-breaches-bypass-mfa-and-evade-detection/
 - Summary: Attendees will learn how attackers evade conventional detection methods, why legacy MFA alone is no longer sufficient, and how organizations can strengthen their defenses. The post Webinar Today: How Modern Breaches Bypass MFA and Evade Detection appeared first on SecurityWeek.
+
+### Lifecycle-Aware Dynamic Analysis for Secure ML Model Execution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19023
+- Summary: The growing reliance on pre-trained Machine Learning (ML) models has introduced new attack surfaces. Recent vulnerabilities demonstrate that malicious behavior can be embedded within model artifacts, often bypassing existing defenses. Current model-scanning solutions primarily rely on static,...
 
 ### 1Password Acquires Apono in Reported $250M-$300M Deal
 - Source: Security Week
@@ -508,6 +532,12 @@
 - URL: https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html
 - Summary: Cybersecurity researchers have flagged a "coordinated malware campaign" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys. "Every plugin poses as an AI coding assistant built on DeepSeek and other...
 
+### Learning from Your Own Mistakes: Constructing Learnable Micro-Reflective Trajectories for Self-Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18844
+- Summary: Self-distillation improves reasoning in large language models by using the model's own rollouts as training signal, typically through implicit logit-level alignment that minimizes KL divergence toward a privileged target distribution. However, because this supervision is generated via uncontrolled...
+
 ### Oracle’s Second Monthly Security Updates Deliver 245 Patches
 - Source: Security Week
 - Category: security
@@ -590,6 +620,12 @@
 - Category: security
 - URL: https://www.securityweek.com/joomla-litespeed-vulnerabilities-exploited-in-attacks/
 - Summary: The flaws allow attackers to execute arbitrary PHP code and gain root privileges on shared hosting servers. The post Joomla, LiteSpeed Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.
+
+### SMART: A Flexible, Interpretable, and Scalable Spatio-temporal Brain Atlas from High-Resolution Imaging Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18753
+- Summary: We introduce SMART, a framework for learning a flexible, interpretable, and scalable spatio-temporal brain atlas from longitudinal high-resolution 3D medical images. Existing approaches to spatio-temporal atlas construction rely on black-box generative models that lack flexibility, limit...
 
 ### 3 Recently Patched Fortinet FortiSandbox Vulnerabilities in Hacker Crosshairs
 - Source: Security Week
@@ -2983,42 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.11533
 - Summary: The advancement of AI capabilities compels researchers and the public to be more aware of its potential worldwide impact. A pressing near-term concern is the regulation of military AI applications. Armament manufacturers and defense contractors are increasingly investing in AI capabilities and...
-
-
-## 2026-06-09
-
-### Claude Fable 5 and new AI safety fables
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety
-- Summary: One step further into the power politics of frontier AI systems.
-
-### A Record-Breaking Patch Tuesday for June 2026
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/
-- Summary: Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire "critical" rating, and...
-
-### Fable not available in the model picker in Claude Code Desktop
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/wtcn4knnnfzc
-- Summary: Jun 9, 21:03 UTC Resolved - This issue has been resolved. If you are experiencing issues with selecting Claude Fable within the Claude Code Desktop application, please ensure you have updated to the latest version. Jun 9, 20:16 UTC Monitoring - A fix has been implemented and we are monitoring the...
-
-### Elevated errors on Claude Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/xwrtmlm3tnxf
-- Summary: Jun 9, 20:32 UTC Investigating - We are currently investigating this issue.
-
-### Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ServiceNow-AI/code-switching
-
-### Microsoft Patches 200 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-patches-200-vulnerabilities/
-- Summary: Three of the vulnerabilities fixed with the latest Patch Tuesday updates were publicly disclosed before Microsoft addressed them. The post Microsoft Patches 200 Vulnerabilities appeared first on SecurityWeek.
 
