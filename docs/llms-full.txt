@@ -6,6 +6,23 @@
 
 ## 2026-06-18
 
+### MosaicLeaks: Can your research agent keep a secret?
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ServiceNow/mosaicleaks
+
+### ‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/
+- Summary: For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet...
+
+### The Professor of Outputmaxxing — Anjney Midha, AMP
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/anj
+- Summary: We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!
+
 ### Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2
 - Source: The Hacker News
 - Category: security
@@ -41,6 +58,12 @@
 - Category: security
 - URL: https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways
 - Summary: Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.
+
+### Degraded Domain Registration experience
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mgk3hczdd1vp
+- Summary: Jun 18, 12:00 UTC Resolved - Between 2026-06-18T12:05UTC and 2026-06-18T16:25UTC new registrar customers faced issues adding a payment method or existing registrar customers faced issues with updating their default payment method.
 
 ### Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network
 - Source: The Hacker News
@@ -355,6 +378,18 @@
 - URL: https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html
 - Summary: A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a...
 
+### Machine Unlearning for the XGBoost Model with Network Intrusion Datasets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19220
+- Summary: Machine Unlearning (MU) has emerged as an important technique for removing specific data points from trained models without requiring full retraining. However, most existing MU research focuses on deep learning and image data, leaving a gap in the domain of network intrusion detection, which relies...
+
+### Generalised Eigenvalue Geometry of Semantic Adversarial Attacks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19212
+- Summary: Recent empirical work shows that semantically equivalent paraphrases can fool financial sentiment classifiers: although a paraphrase remains close to the original under a strong reference embedding, it may shift the target model's representation enough to change the predicted class. Existing...
+
 ### MolmoMotion: Language-guided 3D motion forecasting
 - Source: Hugging Face Blog
 - Category: open-source
@@ -414,11 +449,23 @@
 - URL: https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html
 - Summary: For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Security teams must decide which findings warrant action while operating under constant pressure and incomplete information....
 
+### A Controlled Benchmark of Quantum-Latent GAN Augmentation for Brain MRI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18970
+- Summary: Medical image classification is often constrained by limited labeled data, motivating generative augmentation; recently, quantum generative models have been proposed for this purpose, frequently reporting accuracy gains. However, such claims are typically based on single training runs, do not match...
+
 ### Workers Observability query failures
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/0lyhr3bkgk7h
 - Summary: Jun 17, 11:44 UTC Resolved - This incident has been resolved. Jun 17, 10:32 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 17, 09:42 UTC Update - We are continuing to work on mitigating this issue. Jun 17, 08:07 UTC Identified - The issue has been identified and...
+
+### Be Your Own Teacher: Steering Protein Language Models via Unsupervised Reward Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18961
+- Summary: Protein language models (PLMs) have emerged as powerful tools for controllable biomolecular design, yet their post-training adaptation typically relies on costly wet-lab validation or curated preference datasets. To overcome this supervision bottleneck, we introduce unsupervised reward optimization...
 
 ### Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software
 - Source: Security Week
@@ -555,6 +602,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/zw75lhl39skc
 - Summary: Jun 17, 06:37 UTC Resolved - This incident has been resolved. Requests to Claude Opus 4.8 received elevated errors between 9:59pm PT / 04:59 UTC and 10:41pm PT / 05:41 UTC. Jun 17, 05:44 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 17, 05:08 UTC Investigating -...
+
+### LegalWorld: A Life-Cycle Interactive Environment for Legal Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18728
+- Summary: Civil litigation is inherently a life-cycle process: what a lawyer drafts on day one constrains what unfolds at trial months later. Yet existing legal benchmarks evaluate isolated subtasks, and prior legal-agent simulators reinitialize each scenario from shared ground truth, leaving cross-stage...
 
 ### Trainable Photonic Measurement for Physics-Informed PDE Learning
 - Source: HF Daily Papers
@@ -2968,58 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-patches-200-vulnerabilities/
 - Summary: Three of the vulnerabilities fixed with the latest Patch Tuesday updates were publicly disclosed before Microsoft addressed them. The post Microsoft Patches 200 Vulnerabilities appeared first on SecurityWeek.
-
-### Adobe Patches 123 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/adobe-patches-123-vulnerabilities/
-- Summary: Nearly half of the security holes, most allowing arbitrary code execution, have been fixed in Adobe’s Experience Manager product. The post Adobe Patches 123 Vulnerabilities appeared first on SecurityWeek.
-
-### When to Align, When to Predict: A Phase Diagram for Multimodal Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.11190
-- Summary: Cross-modal alignment (CA) and cross-modal prediction (CP) are the dominant paradigms for multimodal representation learning, yet there is no systematic understanding of when each succeeds, when each fails, and when cross-modal training helps at all -- a gap that leaves practitioners, especially in...
-
-### Next Forcing: Causal World Modeling with Multi-Chunk Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.11187
-- Summary: Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk...
-
-### ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.11164
-- Summary: Long chain-of-thought (CoT) trajectories in large language model (LLM) reasoning cause severe inference bottlenecks due to rapid key-value (KV) cache growth. Current decoding-time compression methods mitigate this issue via token eviction, but typically assume a uniform budget distribution across...
-
-### Meta to Use Off-Site Business Data for Feed and AI Personalization
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html
-- Summary: Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond targeted ads. "Businesses often share information about people's activity on their sites with us to...
-
-### Anthropic Launches Claude Fable 5: Mythos-Class AI With Cybersecurity Guardrails
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-launches-claude-fable-5-mythos-class-ai-with-cybersecurity-guardrails/
-- Summary: The AI giant also announced that Project Glasswing partners are being given access to the upgraded Mythos 5. The post Anthropic Launches Claude Fable 5: Mythos-Class AI With Cybersecurity Guardrails appeared first on SecurityWeek.
-
-### IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.11096
-- Summary: Built on pretrained vision foundation models (VFMs), representation autoencoders (RAEs) have recently emerged as a promising approach for constructing semantically rich latent spaces for image generation. However, their reconstruction quality often remains suboptimal, largely because deep VFM...
-
-### OpenSSL Patches High-Severity Vulnerability Found With AI
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/
-- Summary: A total of 18 vulnerabilities have been patched in the latest OpenSSL releases, including many that were potentially discovered by AI. The post OpenSSL Patches High-Severity Vulnerability Found With AI appeared first on SecurityWeek.
-
-### Unifying Local Communications and Local Updates for LLM Pretraining
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.11081
-- Summary: Communication-efficient pre-training of LLMs is increasingly important as training draws on compute distributed across clusters, data centers, and lower-bandwidth links. Many practical methods reduce communication frequency but still rely on synchronous All-Reduce operations that maintain identical...
 
