@@ -6,6 +6,36 @@
 
 ## 2026-06-19
 
+### Browser Isolation experiencing intermittent issues with keyboard input
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/8761p8rndm4z
+- Summary: Jun 19, 17:53 UTC Investigating - Cloudflare is investigating an issue with the Browser Isolation service that is preventing some users from keyboard input. Other Cloudflare services are not affected. We are working to mitigate this problem and will provide further updates shortly.
+
+### AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html
+- Summary: Microsoft researchers have detailed an exploit chain, named&nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web page, and that page's JavaScript can reach a privileged local service on the same machine and spawn...
+
+### Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
+- Summary: Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. "With these actions we deprive cybercriminals of access to infected computer...
+
+### Banning Open Source AI Would Be A Mistake
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/banning-open-source-ai-would-be-a
+- Summary: This post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.
+
+### GraphQL queries failing
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/j4z09zpbjqzw
+- Summary: Jun 19, 12:19 UTC Resolved - Today (2026-06-19) from 11:19 to 11:31 UTC, Customers in North America using GraphQL to query Datasets may have observed their queries failing.This issue was fixed and queries on GraphQL are working well since.
+
 ### Delayed entitlements after zone upgrade
 - Source: Cloudflare Status
 - Category: incidents
@@ -608,6 +638,12 @@
 
 
 ## 2026-06-17
+
+### Incident With Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/kn7gv3tlfc54
+- Summary: Jun 17, 19:00 UTC Resolved - On June 17, 2026, between 11:35 UTC and 19:20 UTC, the Webhooks service was degraded and delivered webhook payloads with missing installation information. On average, 11.3% of webhook deliveries were impacted. Customers relying on the installation field for...
 
 ### Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments
 - Source: The Hacker News
@@ -2986,40 +3022,4 @@
 - Category: security
 - URL: https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/
 - Summary: A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues...
-
-### MSUE: Multi-Modal Soccer Understanding Expert
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.12106
-- Summary: This paper presents our solution to the 2026 SoccerNet VQA Challenge. We first develop a cost-effective data synthesis pipeline driven by a Vision-Language Model (VLM), which systematically restructures raw domain data into diverse VQA samples, including concise answers and long-form responses....
-
-### Infostealers Turn Millions of Devices Into Credential Theft Machines
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/infostealers-turn-millions-of-devices-into-credential-theft-machines/
-- Summary: As attackers increasingly favor stolen credentials over exploits, infostealers have become a primary source of access for ransomware and other cybercrime operations. The post Infostealers Turn Millions of Devices Into Credential Theft Machines appeared first on SecurityWeek.
-
-### Cyera Raises $600 Million at $12 Billion Valuation
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyera-raises-600-million-at-12-billion-valuation/
-- Summary: Cyera is positioned as one of the most valuable privately held cybersecurity firms in the world with total funding topping $2 billion. The post Cyera Raises $600 Million at $12 Billion Valuation appeared first on SecurityWeek.
-
-### Automating Geometry-Intensive Compliance Checking in BIM: Graph-Based Semantic Reasoning Framework
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.12065
-- Summary: Automating compliance check for geometry-intensive regulations remains a significant technical bottleneck in Building Information Modeling (BIM), primarily due to the semantic disparity between high-level regulatory logic and structured IFC data. Existing methods, often reliant on static rule...
-
-### MODF-SIR: A Multi-agent Omni-modal Distilled Framework for Social Intelligence Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.12018
-- Summary: We propose a multi-agent collaborative framework built upon a lightweight Multimodal Large Language Model (MLLM), specifically designed for social intelligence reasoning. A key feature of our approach is that both the training and inference phases are augmented via knowledge distillation. Within...
-
-### Aryon Security Raises $29 Million in Series A Funding
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/aryon-security-raises-29-million-in-series-a-funding/
-- Summary: In the post-Mythos era, the company’s platform helps organizations enforce security controls across environments. The post Aryon Security Raises $29 Million in Series A Funding appeared first on SecurityWeek.
 
