@@ -6,6 +6,66 @@
 
 ## 2026-06-20
 
+### Analyzing the Narration Gap in LLM-Solver Loops
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2606.19588
+- Summary: arXiv:2606.19588v1 Announce Type: new Abstract: Formal tools such as SAT and SMT solvers are increasingly embedded in language model reasoning pipelines when a safety or security critical question can be formulated in logic. Unlike chain of thought whose steps are sampled from the model...
+
+### Configurable Clinical Information Extraction with Agentic RAG: What Works, What Breaks, and Why
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2606.19602
+- Summary: arXiv:2606.19602v1 Announce Type: new Abstract: Patient contexts span hundreds of heterogeneous documents and thousands of structured data points, yet the document-level metadata that AI systems need for retrieval and triage is absent or incomplete. Standard retrieval-augmented generation fails on...
+
+### Which Pairs to Compare for LLM Post-Training?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2606.19607
+- Summary: arXiv:2606.19607v1 Announce Type: new Abstract: Preference-based post-training has become a central paradigm for aligning language models. A common data-collection strategy is to generate a small set of completions for each prompt and label the resulting comparison pairs. However, human preference...
+
+### Toten: Knowledge-Based Ontological Tokenization Of Physical Quantities And Technical Notation In Brazilian Portuguese
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2606.19626
+- Summary: arXiv:2606.19626v1 Announce Type: new Abstract: Byte-Pair Encoding tokenization is statistically efficient for vocabulary compression, but semantically blind to structured technical entities, fragmenting physical quantities, numbers, units, and symbolic expressions into lexically arbitrary...
+
+### AI4SE and SE4AI Exploration: A Decade Looking Back and Forward
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2606.19630
+- Summary: arXiv:2606.19630v1 Announce Type: new Abstract: The March 2020 INCOSE INSIGHT special issue on AI and Systems Engineering (SE) became the most downloaded issue in the publication's history and launched a research community that now draws over 250 registrants to its annual workshop. In this article,...
+
+### Granularity-Regulated Adaptive Computational Efficiency for Optimal Verification in Test-Time Scaling
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2606.19354
+- Summary: arXiv:2606.19354v1 Announce Type: new Abstract: Test-time scaling (TTS) has emerged as a powerful paradigm for improving the reasoning performance of large language models (LLMs) by investing additional compute at inference time. A central component of TTS is the \emph{verifier}, which selects or...
+
+### Trustworthy Multi-Agent Systems: Mitigating Semantic Drift with the Argent Signaling Protocol
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2606.19356
+- Summary: arXiv:2606.19356v1 Announce Type: new Abstract: When multi-agent LLM systems produce bad answers, not all failures are equal: some answers are grounded in the right material but incomplete, while others are simply ungrounded and should be stopped. Current retry strategies treat both cases...
+
+### Characterizing Narrative Content in Web-scale LLM Pretraining Data
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2606.19468
+- Summary: arXiv:2606.19468v1 Announce Type: new Abstract: The narrative composition of web-scale LLM pretraining corpora remains largely unexplored even though narrative is a fundamental mode of human communication. We present the first fine-grained study of narrative features in Dolma, a 3-trillion-token...
+
+### Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge Models Across Agreement, Consistency, and Bias
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2606.19544
+- Summary: arXiv:2606.19544v1 Announce Type: new Abstract: LLM-as-a-Judge has become the dominant evaluation paradigm for language models, but judge validation in practice relies on exact-match agreement, a metric that does not correct for chance and systematically overstates discriminative ability. We...
+
+### LaViSA: A Language and Vision Structural Ambiguity Benchmark
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2606.19552
+- Summary: arXiv:2606.19552v1 Announce Type: new Abstract: Structural ambiguity arises when a single sentence admits multiple valid interpretations due to its syntactic structure, posing a fundamental challenge for language understanding. Visual scenes serve as useful cues for resolving such ambiguity, and...
+
 ### 20x Token Growth in Six Months: Inside a Chinese 'Token Factory's' Business Flywheel
 - Source: Pandaily
 - Category: chinese-ai
@@ -2964,64 +3024,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.11379
 - Summary: arXiv:2606.11379v1 Announce Type: new Abstract: Pre-mediation, the preparatory phase preceding direct human negotiation, plays a critical role in achieving mutually beneficial agreements, yet is often omitted due to cost, time, and limited access to trained mediators. We introduce an automated...
-
-### Restless bandits with imperfect binary feedback: PCL-indexability analysis and computation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.11192
-- Summary: arXiv:2606.11192v1 Announce Type: new Abstract: We study restless bandits with binary latent states and imperfect binary feedback, motivated by opportunistic spectrum access with sensing errors. For the associated belief-state model, we develop a partial conservation laws (PCL)-based analytical and...
-
-### To Intervene or Not: Guiding Inference-time Alignment with Probabilistic Model Blending
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.11201
-- Summary: arXiv:2606.11201v1 Announce Type: new Abstract: The wide deployment of LLMs has made model alignment necessary to make newly trained models safely and effectively respond to user instructions. Among different methods, inference-time alignment is often cheaper as it intervenes (i.e., offers...
-
-### Dual-Stance Evaluation of Sycophancy: The Structure of Agreement and the Limits of Intervention
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.11205
-- Summary: arXiv:2606.11205v1 Announce Type: new Abstract: Activation steering can shift LLM behaviour, but standard evaluations do not typically test whether a sycophancy-reduction direction also suppresses agreement with factually correct statements. We introduce dual-stance evaluation, which tests both...
-
-### Few-Shot Resampling for Scalable Statistically-Sound Data Mining
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.11235
-- Summary: arXiv:2606.11235v1 Announce Type: new Abstract: A key step in knowledge discovery is the evaluation of data mining results. In several applications, including pattern mining, graph analysis, and others, this step includes the evaluation of the statistical significance of the results, to avoid...
-
-### ProHiFlo: Hierarchical Flow Matching with Functional Guidance for De Novo Protein Generation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.11243
-- Summary: arXiv:2606.11243v1 Announce Type: new Abstract: De novo protein generation has transformative potential in therapeutic design, enzyme engineering, and synthetic biology. While diffusion-based and flow matching approaches have achieved progress, they typically operate at single resolution and lack...
-
-### PoQ-Judge: A Multi-Architecture Evaluation Framework for Cost-Aware Proof-of-Quality in Decentralized LLM Inference
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.11196
-- Summary: arXiv:2606.11196v1 Announce Type: new Abstract: Decentralized LLM inference networks need lightweight, reference-free quality evaluation for Proof of Quality (PoQ). We present PoQ-Judge, a framework that trains dedicated judge models to score query-output pairs without ground-truth references. We...
-
-### The Structural Attention Tax: How Retrieval Format Hijacks In-Context Learning Independent of Content
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.11198
-- Summary: arXiv:2606.11198v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) systems inject external knowledge to improve LLM outputs, yet the format of injected content -- distinct from its semantic relevance -- can independently distort the model's attention distribution. We identify and...
-
-### NightFeats @ MMU-RAGent NeurIPS 2025: A Context-Optimized Multi-Agent RAG System for the Text-to-Text Track
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.11199
-- Summary: arXiv:2606.11199v1 Announce Type: new Abstract: We present NightFeats, a structured multi-agent retrieval-augmented generation (RAG) system submitted to the MMU-RAGent competition at NeurIPS 2025, where it was awarded Best Dynamic Evaluation in the text-to-text track. Rather than targeting...
-
-### Detecting AI-Generated Content on Social Media with Multi-modal Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.11200
-- Summary: arXiv:2606.11200v1 Announce Type: new Abstract: Generative AI has enabled the creation of photorealistic images and videos that are increasingly disseminated on social media, often used for spam, misinformation, manipulation, and fraud. Existing AI-generated content (AIGC) detection methods face...
-
-### One Jailbreak, Many Tongues: Learning Language-Insensitive Intention Representations for Multilingual Jailbreak Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.11202
-- Summary: arXiv:2606.11202v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in applications for global multilingual users, yet safety training remains concentrated in dominant languages and has not progressed in parallel with multilingual capability, creating exploitable...
 
