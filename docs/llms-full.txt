@@ -6,6 +6,42 @@
 
 ## 2026-06-22
 
+### Elevated errors across many models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/bbcpk0t2cj4p
+- Summary: Jun 22, 19:20 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 19:14 UTC Investigating - We are currently investigating this issue.
+
+### Three things to watch amid Anthropic’s latest feud with the government
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI...
+
+### Increased Error Rates
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/v3yl7jqmqj51
+- Summary: Jun 22, 16:50 UTC Monitoring - Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops. Jun 22, 16:30 UTC Update - Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops. Services are largely stable, with only...
+
+### Cloudflare is investigating an issue where customers are being blocked deploying Managed Rules
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/v07jy3n7nbnt
+- Summary: Jun 22, 15:15 UTC Resolved - This incident has been resolved. Jun 22, 15:01 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 14:25 UTC Identified - The issue has been identified and a fix is being implemented. Jun 22, 14:24 UTC Investigating - We are currently...
+
+### Replicate elevated error rate
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/ypbqbwr8h2jq
+- Summary: Jun 22, 15:00 UTC Resolved - This incident has been resolved. Jun 22, 14:49 UTC Monitoring - Cloudflare has identified an issue where customers using Replicate.com may experience an elevated error rate
+
+### GLM-5.2 is the step change for open agents
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open
+- Summary: A capability threshold I've been carefully monitoring.
+
 ### Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data
 - Source: Security Week
 - Category: security
@@ -927,6 +963,12 @@
 - URL: https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
 - Summary: Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek.
 
+### See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.20045
+- Summary: UAV Vision-Language Navigation (UAV-VLN) is typically formulated as a holistic search-and-reach problem, where long-range target discovery and final target approach are optimized and evaluated jointly. This formulation makes it difficult to assess a critical capability of aerial embodied agents,...
+
 ### Geoengineering still faces major practical challenges
 - Source: MIT Tech Review AI
 - Category: research
@@ -1209,6 +1251,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
 - Summary: Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. "Microsoft is...
+
+### Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.19297
+- Summary: Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation. Failures on knowledge-sensitive tasks are ambiguous, conflating missing knowledge...
 
 ### Elevated errors for Claude Opus 4.8
 - Source: Anthropic Status
@@ -1561,6 +1609,12 @@
 - URL: https://tldr.takara.ai/p/2606.18663
 - Summary: Data mixture selection is critical for Large Language Model pretraining. Existing methods such as RegMix select a single static mixture by fitting a regression model on small-scale proxy runs. We propose RegMix-D, a simple extension of RegMix to dynamic mixing. Our key observation is that proxy...
 
+### LandslideAgent with Multimodal LandslideBench: A Domain-Rule-Augmented Agent for Autonomous Landslide Identification and Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18661
+- Summary: Intelligent landslide hazard interpretation is critical for disaster prevention, yet current paradigms struggle to simultaneously extract visual features and high-level geoscientific semantics, while general-purpose vision-language models (VLMs) suffer from perceptual limitations and domain...
+
 ### Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search
 - Source: arXiv AI
 - Category: research
@@ -1650,6 +1704,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.15044
 - Summary: arXiv:2606.15044v1 Announce Type: new Abstract: Multilingual large language models (LLMs) depend on subword tokenization to bridge discrete text and continuous neural representation. State-of-the-art multilingual LLMs often use Byte-level Byte-Pair Encoding (BPE) tokenizers that structurally favor...
+
+### The Wrong Kind of Right: Quantifying and Localizing Misfired Alignment in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18656
+- Summary: Warning: This paper studies stereotypes and biases, and contains potentially disturbing examples, used for illustration purposes only. Our findings should not be interpreted as an argument against alignment. Instead, this paper highlights the need for principled approaches to more advanced...
 
 ### Incident with Copilot Availability
 - Source: GitHub Status
@@ -2421,6 +2481,12 @@
 - URL: https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026
 - Summary: Zhipu AI announces GLM-5.2 will be released under MIT license with 1M token context as a direct response to US export restrictions targeting Anthropic models.
 
+### Mutual Distillation of Dual-Foundation Models for Semi-Supervised PET/CT Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.15611
+- Summary: Organ segmentation from PET/CT is critical for quantitative analysis and radiotherapy planning in oncology. To ease the high annotation cost of PET/CT segmentation, semi-supervised learning (SSL) provides a practical and effective solution for developing deep models with limited labeled data....
+
 ### Intermittent Slow Cache Responses
 - Source: Cloudflare Status
 - Category: incidents
@@ -2962,70 +3028,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.13544
 - Summary: Turn-taking in multi-party spoken conversations remains a fundamental challenge for voice-based agents, particularly under dynamic floor competition and varying user expectations. We propose ModeratorLM, a role-playing voice agent that conditions turn-taking behavior on an explicitly assigned role...
-
-### Workers Observability query failures
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/qr3q2sz45wh9
-- Summary: Jun 11, 16:09 UTC Resolved - This incident has been resolved. Jun 11, 15:52 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 15:39 UTC Identified - Cloudflare has identified an issue impacting some customers where Workers Observability queries may be returning...
-
-### Uncertainty Estimation for Molecular Diffusion Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13451
-- Summary: Diffusion models have seen wide adoption for 3D molecular generation, yet they offer no principled signal of when a generated molecule is likely to be of low quality. We propose a post-hoc method for estimating per-sample uncertainty in pretrained molecular diffusion models. Building on a Laplace...
-
-### Elevated errors on Claude Opus 4.6
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/sp7cf0cghqsk
-- Summary: Jun 11, 15:01 UTC Resolved - This incident has been resolved. Jun 11, 14:58 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 14:37 UTC Identified - The issue has been identified and a fix is being implemented. Jun 11, 14:37 UTC Investigating - We are currently...
-
-### Accelerating Speculative Diffusions via Block Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13426
-- Summary: Speculative decoding speeds up LLM inference by using a draft model to generate tokens, with an acceptance-rejection scheme that ensures that the output matches the target distribution. Adapting this to continuous diffusions is difficult because speculative sampling requires drawing from a residual...
-
-### Person Identification from Contextual Motion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13410
-- Summary: We consider the problem of identifying people based on their motion styles. We present a generative model describing the action instance creation process and derive a probabilistic identity inference scheme for two common person identification scenarios motivated by the surveillance and...
-
-### SmartFont: Dynamic Condition Allocation for Few-Shot Font Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13382
-- Summary: Few-shot font generation simultaneously requires global structural completeness and fine-grained local style fidelity. Existing methods usually either rely on global content-style modeling, which is robust but imperfectly disentangled, or emphasize component/local modeling, which captures fine...
-
-### Disruption in service availabilty for Free and Go users
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KTVCFSN91M935M3MD3Z9W7C9
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13376
-- Summary: We present MoVerse, a real-time video world model that creates an interactively navigable scene from a single narrow-field-of-view image. This setting is challenging because the input observes only a small fraction of the environment, while interactive roaming requires a complete surrounding world,...
-
-### Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/
-- Summary: Oracle has released mitigations for CVE-2026-35273, but it has not said whether it’s a zero-day exploited in ShinyHunters attacks. The post Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks appeared first on SecurityWeek.
-
-### IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13368
-- Summary: Computer-Aided Design is pivotal in modern manufacturing, yet existing automated methods predominantly rely on open-loop, one-shot generation, creating a mismatch with iterative real-world practices. In this paper, we present IterCAD, a unified multimodal agent framework for closed-loop,...
-
-### Alert Fatigue Is Becoming a Security Threat of Its Own
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/
-- Summary: As alert volumes outpace human capacity, organizations are turning to AI, automation, and deeper context to separate real threats from the noise. The post Alert Fatigue Is Becoming a Security Threat of Its Own appeared first on SecurityWeek.
 
