@@ -6,6 +6,24 @@
 
 ## 2026-06-22
 
+### AWS - US West (Oregon): INC0159680
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/zn8xxp2qzpr1
+- Summary: Jun 22, 21:48 UTC Update - Current status: We are continuing to investigate the underlying source of the issue. In parallel, we are working to improve processing efficiency in a portion of our service infrastructure as a potential mitigation for the increased downstream load affecting related...
+
+### Email Delivery Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/qg38wlcnz4ys
+- Summary: Jun 22, 21:44 UTC Resolved - This incident has been resolved. Jun 22, 20:53 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 20:27 UTC Identified - The issue has been identified and a fix is being implemented. Jun 22, 20:27 UTC Investigating - Cloudflare is...
+
+### Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/gray-swan
+- Summary: OpenAI boardmember Zico Kolter and Gray Swan CEO Matt Fredrikson join swyx to explain why AI security is not just &#8220;cybersecurity with AI&#8221;
+
 ### Elevated errors across many models
 - Source: Anthropic Status
 - Category: incidents
@@ -1460,6 +1478,12 @@
 - URL: https://tldr.takara.ai/p/2606.18844
 - Summary: Self-distillation improves reasoning in large language models by using the model's own rollouts as training signal, typically through implicit logit-level alignment that minimizes KL divergence toward a privileged target distribution. However, because this supervision is generated via uncontrolled...
 
+### Target-confidence Recourse Using tSeTlin machines: TRUST
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18832
+- Summary: Counterfactual explanations are widely used to provide algorithmic recourse in high-stakes decision-making systems. Most existing methods seek the smallest change to an input that flips a model's decision. However, decision-makers often rely not only on predicted labels but also on confidence...
+
 ### Oracle’s Second Monthly Security Updates Deliver 245 Patches
 - Source: Security Week
 - Category: security
@@ -1827,6 +1851,12 @@
 - URL: https://deepmind.google/blog/securing-the-future-of-ai-agents/
 - Summary: Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.
 
+### Uncertainty Quantification for Flow-Based Vision-Language-Action Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.18043
+- Summary: Vision-language-action models (VLAs) combine vision-language backbones with expressive generative action heads trained via flow matching on large-scale robotic datasets. Despite their strong empirical performance in robotic manipulation, VLAs lack mechanisms to quantify confidence in their...
+
 ### iRhythm Confirms Data Stolen in Hack
 - Source: Security Week
 - Category: security
@@ -1994,6 +2024,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 18, 2026. The vulnerability in...
+
+### Reconfigurable Computing Challenge: Transformer for Jet Tagging on Versal AI Engines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.17500
+- Summary: Transformer-based models achieve strong performance for jet tagging at the CERN LHC, but deploying them in low-latency, resource-constrained trigger systems is challenging. We present an initial implementation of a quantized, integer-only transformer for jet tagging on the AMD Versal AI Engine...
 
 ### A Definition of Good Explanations and the Challenges Explaining LLM Outputs
 - Source: arXiv AI
@@ -2171,6 +2207,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KV67B3HB2B6JKHAMHCCYS0KZ
 - Summary: Status: IdentifiedWe have identified that users are experiencing an error when attempting to create an account or logging in using Google OAuth for the impacted services. We are working on implementing a mitigation.Affected components Login (Degraded performance) Login (Degraded performance)
+
+### FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.17020
+- Summary: Remote sensing vision-language models have advanced Earth observation understanding, but most existing work remains centered on RGB imagery, leaving the complementary information in infrared data underexplored. Infrared images provide distinctive cues, including thermal intensity structures, object...
 
 ### Increased latency with webhooks
 - Source: GitHub Status
@@ -2492,6 +2534,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/7w6fhh5xmsm5
 - Summary: Jun 14, 03:40 UTC Resolved - This incident has been resolved. Jun 14, 03:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 13, 23:43 UTC Identified - The cause of this issue has been identified and a fix is being implemented. Jun 13, 23:22 UTC Investigating - We...
+
+### Localizing Credit at the Divergence: Path-Conditioned Self-Distillation for LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.15576
+- Summary: Reinforcement learning from verifiable rewards assigns a single scalar to each rollout, leaving token-level credit assignment underspecified in long reasoning traces. On-policy self-distillation addresses this by letting the same model act as a teacher conditioned on privileged information,...
 
 ### WeChat Is Building an AI Agent Too — But Whose Interests Will It Really Serve?
 - Source: Pandaily
@@ -2980,52 +3028,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.13671
 - Summary: Positional encodings (PEs) enhance the power of graph neural networks (GNNs), both theoretically and empirically. Two of the most popular families of PEs - spectral (e.g., Laplacian eigenspaces, effective resistance) and walk-based (polynomials of the adjacency matrix) - are theoretically...
-
-### Elevated errors across models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/j8ghp7dk6lym
-- Summary: Jun 11, 17:56 UTC Resolved - The issue affecting various models has been resolved. Impact occurred from 09:42am PT / 16:42 UTC to 10:03am PT / 17:03 UTC. Jun 11, 17:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 11, 16:54 UTC Investigating - We are currently...
-
-### Surflo: Consistent 3D Surface Flow Model with Global State
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13644
-- Summary: Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent...
-
-### New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
-- Summary: Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and...
-
-### New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
-- Summary: Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. "This was an accidental discovery, it took a total of 4 hours to find this," the researcher said in...
-
-### Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13621
-- Summary: Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions. We argue this is the wrong product. The same automata-theoretic machinery -- specification compilation, product game...
-
-### ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13572
-- Summary: Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially in multilingual and low-resource scenarios. This gap is critical in regions like rural India, where...
-
-### The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html
-- Summary: A new analysis of The Gentlemen operation has revealed that the financially motivated threat group initially operated as an affiliate responsible for conducting double extortion attacks, while leveraging resources from various ransomware-as-a-service (RaaS) schemes like LockBit (aka Tenacious...
-
-### Adaptive Turn-Taking for Real-time Multi-Party Voice Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.13544
-- Summary: Turn-taking in multi-party spoken conversations remains a fundamental challenge for voice-based agents, particularly under dynamic floor competition and varying user expectations. We propose ModeratorLM, a role-playing voice agent that conditions turn-taking behavior on an explicitly assigned role...
 
