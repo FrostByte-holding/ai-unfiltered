@@ -6,6 +6,18 @@
 
 ## 2026-06-23
 
+### INC20000047
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/j3xz9wrt22vp
+- Summary: Jun 23, 17:50 UTC Update - Current status: We're continuing to investigate the issue affecting Snowpark Container Services to determine its source. We'll provide another update within 1 hour.Customer experience: Customers hosted in the specified region may be intermittently unable to access or...
+
+### Scattered Spider Hackers Plead Guilty on Day 1 of Trial
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
+- Summary: Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known...
+
 ### Elevated error rate across multiple models
 - Source: Anthropic Status
 - Category: incidents
@@ -286,6 +298,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/huggingface-hub-release-ci
 
+### Experimenting with the proposed Cross-Origin Storage API in Transformers.js
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/cross-origin-storage
+
 
 ## 2026-06-22
 
@@ -336,6 +353,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.23680
 - Summary: Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a...
+
+### Discovering Latent Groups for Robust Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.23609
+- Summary: Machine learning models exploit spurious correlations, achieving high average accuracy but failing disproportionately on underrepresented subgroups. Existing methods address this by adjusting network parameters, guided either by subgroup annotations or inferred pseudo-group labels. Yet at...
+
+### Real-Time Multimodal Activity-Aware Error Detection in Robot-Assisted Surgery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.23593
+- Summary: Robot-assisted minimally invasive surgery improves surgical precision but introduces complexity, making technical error detection essential for ensuring patient safety. Current executional error detection methods using video data often overlook fine-grained contextual descriptions of activities and...
 
 ### A Generative Model for Closed-Loop Microsimulation of Signalized Intersections
 - Source: HF Daily Papers
@@ -557,6 +586,12 @@
 - URL: https://tldr.takara.ai/p/2606.22959
 - Summary: Latent diffusion approaches to sign language production (SLP) rely on an initial stage that learns an encoding of sign pose sequences, enabling generative modeling in the resulting latent space. The autoencoder used in this stage is typically evaluated in terms of reconstruction quality using...
 
+### Provable Benefits of RLVR over SFT for Reasoning Models: Learning to Backtrack Efficiently
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.22938
+- Summary: Recent advances in large language models (LLMs) have demonstrated that reinforcement fine-tuning of pretrained base models can lead to significant gains in reasoning performance at inference time. In this work, we theoretically analyze why reinforcement fine-tuning induces better reasoning ability...
+
 ### Hybrid Compression: Integrating Pruning and Quantization for Optimized Neural Networks
 - Source: HF Daily Papers
 - Category: open-source
@@ -629,11 +664,23 @@
 - URL: https://tldr.takara.ai/p/2606.22792
 - Summary: Recent advancements in Large Language Models (LLMs) have enabled sophisticated reasoning and content generation, yet their inherent stochasticity poses significant challenges for ensuring predictive credibility. While traditional uncertainty taxonomy paradigms, such as the dichotomy of aleatoric...
 
+### Learning Moral Diversity: Modelling Individual Perspectives in Moral Classification of Texts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.22771
+- Summary: Understanding moral values in social media text offers insight into moral judgement formation, and supervised NLP models trained on crowdsourced data have achieved strong classification performance. However, most approaches simplify the problem by aggregating multiple annotators' labels into a...
+
 ### Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, and Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/lv35v0q9nsj2
 - Summary: Jun 22, 02:06 UTC Resolved - This incident has been resolved. Jun 22, 02:01 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 01:56 UTC Update - Opus 4.7 has recovered Jun 22, 01:33 UTC Update - Haiku 4.5 has recovered Jun 22, 01:16 UTC Update - Opus 4.8 has...
+
+### Error Highways: Scaling Predictive Coding to Very Deep Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.22744
+- Summary: Predictive coding networks (PCNs) offer a biologically-plausible, local-learning alternative to back-propagation of errors (backprop). Nevertheless, they have remained largely confined to shallow architectures and evaluated on simple machine intelligence benchmarks. A central obstacle to scaling...
 
 ### We got local models to triage the OpenClaw repo for FREE!*
 - Source: Hugging Face Blog
@@ -2972,52 +3019,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/didi-drops-chuxing-rebrand-app-8-dot-0-jun2026
 - Summary: China's largest ride-hailing platform DiDi removes 'Chuxing' from its brand, launches App 8.0 with four-pillar structure, and integrates with WeChat's AI ecosystem.
-
-### UBTECH's U1 Humanoid Companion Robot Nears 4,000 Pre-Orders in 10 Days
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ubtech-u1-humanoid-companion-robot-preorder-jun2026
-- Summary: UBTECH's full-size U1 companion humanoid robot garners nearly 4,000 pre-orders with over 10 million yuan in deposits within 10 days of launch.
-
-### Zhipu AI Open-Sources GLM-5.2 With 1 Million Token Context
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026
-- Summary: Zhipu AI announces GLM-5.2 will be released under MIT license with 1M token context as a direct response to US export restrictions targeting Anthropic models.
-
-### Mutual Distillation of Dual-Foundation Models for Semi-Supervised PET/CT Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.15611
-- Summary: Organ segmentation from PET/CT is critical for quantitative analysis and radiotherapy planning in oncology. To ease the high annotation cost of PET/CT segmentation, semi-supervised learning (SSL) provides a practical and effective solution for developing deep models with limited labeled data....
-
-### Intermittent Slow Cache Responses
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/7w6fhh5xmsm5
-- Summary: Jun 14, 03:40 UTC Resolved - This incident has been resolved. Jun 14, 03:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 13, 23:43 UTC Identified - The cause of this issue has been identified and a fix is being implemented. Jun 13, 23:22 UTC Investigating - We...
-
-### Localizing Credit at the Divergence: Path-Conditioned Self-Distillation for LLM Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.15576
-- Summary: Reinforcement learning from verifiable rewards assigns a single scalar to each rollout, leaving token-level credit assignment underspecified in long reasoning traces. On-policy self-distillation addresses this by letting the same model act as a teacher conditioned on privileged information,...
-
-### WeChat Is Building an AI Agent Too — But Whose Interests Will It Really Serve?
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/wechat-ai-agent-platform-vs-user-side-agent-jun2026
-- Summary: As Tencent tests WeChat's built-in AI Agent, industry analysts debate whether it represents genuine innovation or platform defense — and whether true user-side AI Agents offer a more transformative vision.
-
-### AI Grew Four Wheels in 2026: How AIVA Is Redefining the Automobile as an Embodied Intelligence Entity
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/aiva-ai-defined-vehicle-embodied-intelligence-jun2026
-- Summary: Chinese startup Saidou Technology launched AIVA, a new AI-defined vehicle brand that puts artificial intelligence before hardware, marking a paradigm shift from traditional automotive development.
-
-### Glass Core Substrates Are Booming: How Far Are They From True Commercialization in Chip Packaging?
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/glass-core-substrate-chip-packaging-commercialization-jun2026
-- Summary: Glass core substrates have emerged as a hot topic in advanced semiconductor packaging, but industry experts debate how close the technology really is to大规模 commercialization.
 
