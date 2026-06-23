@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 23 Jun 2026 17:58:39 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2026 21:43:52 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Claude.ai is experiencing elevated error rates</title>
+            <link>https://status.claude.com/incidents/18bq2kw867g5</link>
+            <guid>https://status.claude.com/incidents/18bq2kw867g5</guid>
+            <pubDate>Tue, 23 Jun 2026 18:32:57 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/18bq2kw867g5">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jun 23, 18:32 UTC Resolved - This incident has been resolved. Jun 23, 18:32 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 23, 18:24 UTC Investigating - We are currently investigating this issue.</description>
+        </item>
         <item>
             <title>INC20000047</title>
             <link>https://status.snowflake.com/incidents/j3xz9wrt22vp</link>
@@ -25,6 +34,15 @@
             <source url="https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/">Krebs on Security</source>
             <category>security</category>
             <description>Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known...</description>
+        </item>
+        <item>
+            <title>Network Performance Issues - Increased HTTP 5XX Errors in Ashburn, US</title>
+            <link>https://www.cloudflarestatus.com/incidents/2n71653fn8pq</link>
+            <guid>https://www.cloudflarestatus.com/incidents/2n71653fn8pq</guid>
+            <pubDate>Tue, 23 Jun 2026 16:00:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/2n71653fn8pq">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jun 23, 16:00 UTC Resolved - Between 17:07 and 17:45 UTC, Cloudflare experienced network performance issues in the Ashburn, US region, resulting in an elevated rate of 5xx errors for a subset of traffic. During this time, impacted users may have encountered intermittent connectivity issues or...</description>
         </item>
         <item>
             <title>Elevated error rate across multiple models</title>
@@ -439,24 +457,6 @@
             <source url="https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/">MIT Tech Review AI</source>
             <category>research</category>
             <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI...</description>
-        </item>
-        <item>
-            <title>Keep The Essentials: Efficient Reference Conditioned Generation via Token Dropping</title>
-            <link>https://tldr.takara.ai/p/2606.23682</link>
-            <guid>https://tldr.takara.ai/p/2606.23682</guid>
-            <pubDate>Mon, 22 Jun 2026 17:59:28 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2606.23682">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Reference-based diffusion models enable highly controllable image generation by leveraging elements from input images to guide prompt-driven synthesis. However, these models are computationally expensive in runtime, and their cost scales severely with the number of input references. While the...</description>
-        </item>
-        <item>
-            <title>CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation</title>
-            <link>https://tldr.takara.ai/p/2606.23680</link>
-            <guid>https://tldr.takara.ai/p/2606.23680</guid>
-            <pubDate>Mon, 22 Jun 2026 17:59:20 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2606.23680">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a...</description>
         </item>
     </channel>
 </rss>
