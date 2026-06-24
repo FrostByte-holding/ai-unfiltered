@@ -6,6 +6,18 @@
 
 ## 2026-06-24
 
+### Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/databricks
+- Summary: In a rare double-interview, the Databricks technical leaders riff on what it will take for every company to build Agent Clouds
+
+### Elevated errors on Opus 4.8 Fast
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/wkzf38t1yh8z
+- Summary: Jun 24, 18:33 UTC Resolved - This incident has been resolved. Jun 24, 18:22 UTC Investigating - We are currently investigating this issue.
+
 ### Issues with granular roles for Cloudflare Tunnel and Mesh
 - Source: Cloudflare Status
 - Category: incidents
@@ -491,6 +503,12 @@
 - URL: https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html
 - Summary: Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's death a quarter mile beyond his sight, and the aircraft carried that death across oceans. At each turn, the distance...
 
+### S1-Omni-Image: A Unified Model for Scientific Image Understanding, Generation, and Editing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24441
+- Summary: We present S1-Omni-Image, an open-weight unified multimodal model for scientific image understanding, generation, and editing. Unlike general-purpose image generation models, scientific image tasks require not only high-fidelity synthesis, but also robust understanding of scientific semantics,...
+
 ### MedPCFM: Improving Medical Point Cloud Completion by Integrating Point Transformers and Flow Matching
 - Source: HF Daily Papers
 - Category: open-source
@@ -515,6 +533,12 @@
 - URL: https://www.securityweek.com/russian-initial-access-broker-behind-fortibleed-campaign/
 - Summary: Using a custom sniffer, the threat actor has captured over 110 million credentials since at least February 2026. The post Russian Initial Access Broker Behind FortiBleed Campaign appeared first on SecurityWeek.
 
+### ComputeFHE: A Privacy-Preserving General-Purpose Computation Library
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24379
+- Summary: Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data while preserving data confidentiality. However, its practical applications remain limited by high computational costs and development complexity. This paper presents ComputeFHE, an open-source C++...
+
 ### Canadian Electricity Provider London Hydro Discloses Data Breach
 - Source: Security Week
 - Category: security
@@ -538,6 +562,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/
 - Summary: Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the...
+
+### ZONOS2 Technical Report
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24320
+- Summary: We present ZONOS2 8B, our latest TTS model, which achieves state-of-the-art naturalness, prosody, and voice cloning fidelity. We improve upon Zonos-v0.1 across scale, data, and training recipe. We scale the model from 1.6B to 8B total parameters (900M active) with a novel mixture-of-experts (MoE)...
 
 ### Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT
 - Source: The Hacker News
@@ -635,6 +665,12 @@
 - URL: https://tldr.takara.ai/p/2606.24184
 - Summary: Retrosynthetic planning seeks to connect a target molecule to commercially available starting materials through a multistep route. Classical planners construct such routes by iteratively applying single-step reaction models within a search procedure; constrained variants often require specialized...
 
+### Deep Learning Approaches for 3D Medical Scene Completion: From Geometric Modeling to Generative Paradigms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24180
+- Summary: Three-dimensional scene completion has evolved as a major problem in computer vision and robotics, and its applications are diverse, including autonomous navigation and augmented reality. In this study, a systematic review has been conducted to compile the research contributions made in the last...
+
 ### WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool
 - Source: The Hacker News
 - Category: security
@@ -652,6 +688,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.24160
 - Summary: Causal inference provides a set of principles and tools that allow one to combine data and knowledge about an environment to reason with questions of counterfactual nature, i.e., what would have happened had reality been different, even when no data of this unrealized reality is currently...
+
+### MedBench v5: A Dynamic, Process-Oriented, and Hallucination-Aware Benchmark for Clinical Multimodal Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24155
+- Summary: Existing medical AI benchmarks lack process visibility, atomic skill evaluation, and integrated hallucination detection. We introduce MedBench v5, a redesigned benchmark for clinical multimodal models (language, vision-language, and agent systems) that moves from static QA to dynamic,...
 
 ### A Time-Reparameterized Cumulative Intensity Extrapolation Sampler for Discrete Flow Matching
 - Source: HF Daily Papers
@@ -2971,46 +3013,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/8q88rrz9rjd0
 - Summary: Jun 16, 20:16 UTC Resolved - This incident has been resolved. Jun 16, 19:59 UTC Monitoring - Opus 4.8 error rates were elevated from 12:41 PDT to approximately 12:53 PDT. The team is monitoring.
-
-### RegimeVGGT: Layer-Wise Spatially Preserving Redundancy Removal for Visual Geometry Grounded Transformer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.18439
-- Summary: Visual Geometry Grounded Transformer (VGGT) recovers dense 3D scene structure from multi-view images in one forward pass, but quadratic cross-frame attention limits its scalability. Existing training-free accelerators reduce computation uniformly along one axis, missing layer heterogeneity. Our...
-
-### Elevated errors across many models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/xmhsglsz3h3w
-- Summary: Jun 16, 19:32 UTC Resolved - The incident has now been resolved. We had two phases:* between 10:23 PT / 17:23 UTC to 11:00 PT / 18:00 UTC -- all Sonnet and Opus models were affected, reaching an error rate of around 10%* after 11:00 PT / 18:00 UTC and until 12:20 PT / 19:20 UTC -- Opus 4.8 had an...
-
-### We are investigating an issue where customers see paid invoices as unpaid.
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pg2kpy6vkd71
-- Summary: Jun 16, 19:24 UTC Resolved - This incident has been resolved. Jun 16, 16:32 UTC Identified - The issue has been identified and a fix is being implemented. Jun 16, 15:53 UTC Investigating - Customers may not see invoice payment status accurately reflected in the Cloudflare UI for payments made since...
-
-### Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
-- Summary: A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty...
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/1s444p9sf9wg
-- Summary: Jun 16, 18:15 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 16, 18:14 UTC Update - The issues with our upstream model provider have been...
-
-### ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html
-- Summary: Cybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphisec, BlueVoyant, and Huntress, respectively. Attacks involving BabaDeda Loader, observed in April 2026,...
-
-### Securing the future of AI agents
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/securing-the-future-of-ai-agents/
-- Summary: Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.
 
