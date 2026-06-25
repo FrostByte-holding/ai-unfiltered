@@ -4,6 +4,14 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-06-26
+
+### Run a vLLM Server on HF Jobs in One Command
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/vllm-jobs
+
+
 ## 2026-06-25
 
 ### Degradation with Webhooks, Pull Requests and Actions
@@ -354,6 +362,12 @@
 - URL: https://tldr.takara.ai/p/2606.25975
 - Summary: Common first-order optimizers, such as Adam, implicitly treat each parameter block as an unstructured vector, which disregards the multilinear weight structure present in many modern machine learning models. Recent work has shown that exploiting matrix structure can improve optimization dynamics. A...
 
+### Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25973
+- Summary: Software vulnerability remediation is a cognitively demanding task that requires specialized security expertise often lacking in general developers. In the meantime, Large Language Models (LLMs) assisted tools show potential in vulnerability detection, location, and repair tasks. [Hypothesis:]...
+
 ### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild
 - Source: HF Daily Papers
 - Category: open-source
@@ -365,6 +379,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/
 - Summary: Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the load. On June 23, France saw its hottest day since record-keeping began in...
+
+### Explainable Control Framework (XCF) based on Fuzzy Model-Agnostic Explanation and LLM Agent-Supported Interface
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25941
+- Summary: Increasing demand for precise and reliable control in complex scenarios has led to the development of increasingly sophisticated controllers, including data-driven approaches employing closed box models and mathematically rigorous yet complex designs. This complexity highlights the needs for...
 
 ### Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware
 - Source: Security Week
@@ -389,6 +409,12 @@
 - Category: security
 - URL: https://www.securityweek.com/macos-weaknesses-chained-to-silently-disable-endpoint-security-agents/
 - Summary: A standard non-admin account is sufficient to conduct an attack that exploits legitimate OS behavior rather than software vulnerabilities. The post macOS Weaknesses Chained to Silently Disable Endpoint Security Agents appeared first on SecurityWeek.
+
+### MiniOpt: Reasoning to Model and Solve General Optimization Problems with Limited Resources
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25832
+- Summary: Achieving strong optimization generalization across diverse optimization problems while requiring limited training resources remains a challenging problem for optimization-oriented large language models (LLMs). Existing approaches typically rely on large-scale supervised datasets, costly reasoning...
 
 ### Elevated error rate on Claude Opus 4.8
 - Source: Anthropic Status
@@ -587,6 +613,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25396
 - Summary: AI companions powered by large language models increasingly interact with cognition-developing users, including children and adolescents, creating risks that may accumulate over time. Existing safety evaluations largely rely on single-turn or short-session tests, which cannot capture risks that...
+
+### Three Buddhist Vocabularies: Computational Stylometry of the English Pali Canon across Sutta, Vinaya, and Abhidhamma
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25372
+- Summary: We present a computational stylometric analysis of the Tipitaka across all three Pitakas in English translation, extending earlier work on the Sutta Pitaka alone. The corpus spans 134,831 segments from Bhikkhu Sujato's Sutta Pitaka (114,591 segments, CC0), Bhikkhu Brahmali's Vinaya Pitaka (7,923...
 
 ### RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems
 - Source: arXiv AI
@@ -833,6 +865,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25253
 - Summary: Highlights provide a concise summary of the main contributions of an academic paper and help readers quickly understand its focus. However, many journals do not provide highlights, which limits their use in literature retrieval, text mining, and bibliometric analysis. Existing studies have explored...
+
+### FUTO Swipe: Layout-Agnostic Neural Swipe Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25247
+- Summary: Neural swipe decoders are typically tied to the keyboard they were trained on, requiring a new corpus and training run for each layout. In this report, we document our approach toward training models that can function on any contiguous mobile keyboard layout. At each point along the swipe, our...
 
 ### Multilingual Hematology Visual Question Answering Dataset
 - Source: HF Daily Papers
@@ -2980,40 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.19562
 - Summary: This chapter reviews recent advances in Scientific Machine Learning (SciML) for modeling coupled fluid flow and transport phenomena governed by the incompressible Navier-Stokes and scalar transport equations. Such systems, found in applications like turbidity currents and thermal convection,...
-
-### Incident With Webhooks
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/kn7gv3tlfc54
-- Summary: Jun 17, 19:00 UTC Resolved - On June 17, 2026, between 11:35 UTC and 19:20 UTC, the Webhooks service was degraded and delivered webhook payloads with missing installation information. On average, 11.3% of webhook deliveries were impacted. Customers relying on the installation field for...
-
-### Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
-- Summary: An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub,...
-
-### Browser Isolation Availability Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/5v2txrvcyzk1
-- Summary: Jun 17, 18:12 UTC Identified - The issue has been identified and a fix is being implemented. Jun 17, 17:08 UTC Investigating - Cloudflare is investigating an issue with the Browser Isolation service. Impact is limited to customers accessing websites secured with Cloudflare Turnstile, who may...
-
-### 🔬 The Self-Driving Lab — Joseph Krause, Radical AI
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/radical-ai
-- Summary: Radical AI's Joseph Krause on why the moat in materials is the lab, not the model
-
-### Disruption with Copilot next edit suggestions
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/5t81zk0vrk3z
-- Summary: Jun 17, 17:57 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
-
-### The Chandra-Gaia Catalog of Counterparts: Resolving ambiguous Gaia matches to X-ray sources in the Chandra Source Catalog using Machine Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19329
-- Summary: We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such as magnitudes, colors, and distances to identify true counterparts, detect chance coincidences, and...
 
