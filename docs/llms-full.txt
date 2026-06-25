@@ -6,6 +6,42 @@
 
 ## 2026-06-25
 
+### Workers KV errors via REST API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/nmy6ps27xf0f
+- Summary: Jun 25, 14:31 UTC Resolved - This incident has been resolved. Jun 25, 14:21 UTC Update - We are continuing to monitor for any further issues. Jun 25, 14:04 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 25, 13:13 UTC Investigating - Cloudflare is investigating...
+
+### Increased 5xx errors in the India Region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2h6156v6cfpw
+- Summary: Jun 25, 14:12 UTC Update - We are continuing to investigate this issue. Jun 25, 14:10 UTC Investigating - Cloudflare is aware of and investigating an increase of 5xx errors on requests in the India region
+
+### Runlayer Raises $30 Million in Series A Funding
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/runlayer-raises-30-million-in-series-a-funding/
+- Summary: The startup’s platform functions as a secure control layer, aiming to secure AI tools across enterprises. The post Runlayer Raises $30 Million in Series A Funding appeared first on SecurityWeek.
+
+### ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html
+- Summary: It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy crap, browser tricks jumping the fence, and “normal” workflows turning into phishing pipes because apparently email was...
+
+### The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its...
+
+### Surviving the Mythos Era: Richard Bejtlich on the Case for NDR
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html
+- Summary: Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What evidence do we have? How do we know we’re seeing it all, in context? Answering these questions requires teams to go...
+
 ### What Europe’s heat wave means for the power grid
 - Source: MIT Tech Review AI
 - Category: research
@@ -319,6 +355,12 @@
 - URL: https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-reduce-supply-chain-threat-and-risk/
 - Summary: The new framework seeks to help security teams identify which software supply chain vulnerabilities pose the greatest operational, safety, and business risks in AI-driven environments. The post Exclusive: Meet AIVEX, a New Triage Model Built to Reduce Supply Chain Threat and Risk appeared first on...
 
+### Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25852
+- Summary: Group-based reinforcement learning effectively post-trains LLM agents for long-horizon, sparse-reward tasks by deriving step-level credit from trajectory outcomes. However, this ties a step's credit to its rollout's final outcome: semantically near-identical intermediate steps receive opposite...
+
 ### macOS Weaknesses Chained to Silently Disable Endpoint Security Agents
 - Source: Security Week
 - Category: security
@@ -480,6 +522,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KVW3CQQ51SWCV4A1SWA6ATVM
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Images (Operational) Chat Completions (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Batch (Operational) Audio (Operational)...
+
+### Brevity is the Soul of Inference Efficiency: Inducing Concision in VLMs via Data Curation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25432
+- Summary: Inference efficiency is typically pursued by shrinking the model: distillation, pruning, quantization, and sparse routing each lower per-token cost while treating token count as fixed. But output length has been inflating, and it is precisely the component the standard toolkit leaves untouched....
 
 ### PRISM: Feed-Forward Single-Image 3D Reconstruction via Geometric Warp-Residual Modeling
 - Source: HF Daily Papers
@@ -685,11 +733,23 @@
 - URL: https://www.securityweek.com/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says/
 - Summary: Come vulnerabilities were found within hours, but that does not mean the model was able to exploit them within that time, the official said. The post Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says appeared first on SecurityWeek.
 
+### Lifelong In-Context Learning with Transformers Requires Parametric Forms of Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25342
+- Summary: Lifelong continual learning remains an obstacle on the path to human-like intelligence. Modern transformers show sparks of intelligence with in-context learning. The quadratic nature of attention, however, prohibits transformers from performing this process on arbitrarily long sequences. In this...
+
 ### Stagnant Neuron: Towards Understanding the Plasticity Loss in Multi-Agent Reinforcement Learning Value Factorization Methods
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25335
 - Summary: Multi-Agent Reinforcement Learning (MARL) value factorization methods can suffer from a loss of plasticity, gradually failing to adapt when transferring to new task instances. We trace this issue to stagnant neurons, units whose gradient updates become negligibly small relative to their weights,...
+
+### Efficient Remote Sensing Instance Segmentation with Linear-Time State Space Distilled Visual Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25324
+- Summary: The computational complexity of Transformers scales quadratically with the number of tokens, which significantly constrains the efficiency of vision models, particularly recent ViT-based foundation models in dense prediction tasks. Instance segmentation, a typical dense visual prediction task in...
 
 ### Qingyang's Computing-Power Synergy: How Green Electricity Powers China's New AI Data Center Hub
 - Source: Pandaily
@@ -720,6 +780,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/tencent-agently-mail-ai-agent-jun2026
 - Summary: Tencent QQ Mail Launches Agently Mail: Dedicated AI Agent Email with Autonomous Communication
+
+### Automatic Generation of Highlights for Academic Paper Via Prompt-based Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25253
+- Summary: Highlights provide a concise summary of the main contributions of an academic paper and help readers quickly understand its focus. However, many journals do not provide highlights, which limits their use in literature retrieval, text mining, and bibliometric analysis. Existing studies have explored...
 
 ### Multilingual Hematology Visual Question Answering Dataset
 - Source: HF Daily Papers
@@ -2951,69 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.19230
 - Summary: This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto...
-
-### Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html
-- Summary: A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a...
-
-### Machine Unlearning for the XGBoost Model with Network Intrusion Datasets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19220
-- Summary: Machine Unlearning (MU) has emerged as an important technique for removing specific data points from trained models without requiring full retraining. However, most existing MU research focuses on deep learning and image data, leaving a gap in the domain of network intrusion detection, which relies...
-
-### Generalised Eigenvalue Geometry of Semantic Adversarial Attacks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19212
-- Summary: Recent empirical work shows that semantically equivalent paraphrases can fool financial sentiment classifiers: although a paraphrase remains close to the original under a strong reference embedding, it may shift the target model's representation enough to change the predicted class. Existing...
-
-### MolmoMotion: Language-guided 3D motion forecasting
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/molmomotion
-
-### IndicContextEval: A Benchmark for Evaluating Context Utilisation in Audio Large Language Models Across 8 Indic Languages
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19157
-- Summary: AudioLLMs enable speech recognition conditioned on textual prompts such as domain descriptions or entity lists. However, it remains unclear whether these models genuinely utilise such context or rely on parametric knowledge learned during pretraining. Existing benchmarks cannot answer this question...
-
-### AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19152
-- Summary: Identifying the lowest-energy surface-adsorbate configuration is critical for modeling heterogeneous catalysis, yet exhaustive exploration with ab initio calculations is computationally prohibitive. Machine-learning force fields (MLFFs) accelerate structural relaxation but leave the search over the...
-
-### Giskard : Byzantine Robust and Confidential Aggregation for Large-Scale Decentralized Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19129
-- Summary: Dealing simultaneously with confidentiality and Byzantine behaviors in decentralized learning is a challenging problem. Indeed, in decentralized learning, clients train a machine learning model while keeping their data locally and share their model parameters or gradients with a set of neighbors....
-
-### State of the blog, mid-2026
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/state-of-the-blog-mid-2026
-- Summary: About 3 years since I started writing weekly.
-
-### JourneyFormer: Encoding Airbnb Guest Journey with Sequence Modeling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19108
-- Summary: Sequence modeling has become increasingly popular in recommendation and ranking algorithms, owing to its capacity to model users' historical behaviors and infer user intentions. Despite its theoretical simplicity, the practical deployment of a sequence model in production is non-trivial due to...
-
-### Structure Over Nonlinearity: Explicit Interaction Architectures for Dynamical Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19101
-- Summary: Most learning architectures for dynamical systems rely on generic nonlinear function approximation, often requiring high model complexity to capture structured behaviors. In this work, we propose an alternative paradigm in which modeling capability arises primarily from structure rather than from...
-
-### Webinar Today: How Modern Breaches Bypass MFA and Evade Detection
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/webinar-today-how-modern-breaches-bypass-mfa-and-evade-detection/
-- Summary: Attendees will learn how attackers evade conventional detection methods, why legacy MFA alone is no longer sufficient, and how organizations can strengthen their defenses. The post Webinar Today: How Modern Breaches Bypass MFA and Evade Detection appeared first on SecurityWeek.
 
