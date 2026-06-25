@@ -6,6 +6,23 @@
 
 ## 2026-06-25
 
+### Degradation with Webhooks, Pull Requests and Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/9ndxtnrwjf37
+- Summary: Jun 25, 18:07 UTC Monitoring - The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability. Jun 25, 17:58 UTC Update - Issues is experiencing degraded performance. We are continuing to investigate. Jun 25, 17:53 UTC Update -...
+
+### Which tokens does a hybrid model predict better?
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/hybrid-token-prediction
+
+### Small Number of Users Have Incorrectly Cancelled Subscription
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KVZRA3Z551H993JHJ9P2TW9E
+- Summary: Status: IdentifiedA small number of Users have incorrectly cancelled subscription.Affected components Image Generation (Degraded performance) GPTs (Degraded performance) Agent (Degraded performance) Login (Degraded performance) Conversations (Degraded performance) Deep Research (Degraded...
+
 ### Workers KV errors via REST API
 - Source: Cloudflare Status
 - Category: incidents
@@ -331,6 +348,12 @@
 - URL: https://tldr.takara.ai/p/2606.25978
 - Summary: Multi-agent goal recognition asks an observer to jointly infer which agents act together and what each team is trying to achieve, so the hypothesis space grows combinatorially with the number of team partitions and goals per team. Real applications such as drone surveillance and collaborative...
 
+### Tensorion: A Tensor-Aware Generalization of the Muon Optimizer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25975
+- Summary: Common first-order optimizers, such as Adam, implicitly treat each parameter block as an unstructured vector, which disregards the multilinear weight structure present in many modern machine learning models. Recent work has shown that exploiting matrix structure can improve optimization dynamics. A...
+
 ### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild
 - Source: HF Daily Papers
 - Category: open-source
@@ -445,6 +468,12 @@
 - URL: https://tldr.takara.ai/p/2606.25605
 - Summary: Tool Calling and Structured Output are two core capabilities of modern Agent systems, yet their interaction under joint deployment conditions remains insufficiently understood. This paper reports a reproducible phenomenon observed in a production Agent system: when Tool Calling and JSON Schema...
 
+### Low-Complexity Policy Tessellations in Structured Markov Decision Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25593
+- Summary: We study optimal-policy geometry in structured Markov decision processes. While approximate dynamic programming and reinforcement learning typically approximate high-dimensional value functions, we show that optimal policies induce simpler decision tessellations. We propose boundary-based policy...
+
 ### This flying solar-powered platform could deliver better internet from the air
 - Source: MIT Tech Review AI
 - Category: research
@@ -462,6 +491,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html
 - Summary: The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group, as the Treasury unveiled fresh sanctions against nine individuals and 26 entities linked to Prince Group. "These...
+
+### Energy-Efficient CNN Acceleration with MSDF Digit-Serial Arithmetic on FPGA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25562
+- Summary: This paper presents an energy-efficient hardware acceleration of the convolutional layers in the U-Net architecture for image segmentation, implemented on FPGA. While digit-serial arithmetic, particularly most-significant-digit-first (MSDF) techniques, offers a compact hardware footprint, it...
 
 ### Tencent QQ Mail Launches Agently Mail, Enabling Autonomous Email and Business Coordination for AI Agents
 - Source: Pandaily
@@ -540,6 +575,12 @@
 - Category: security
 - URL: https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/
 - Summary: Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June. The post Hackers Exploiting Cisco Unified CM Vulnerability appeared first on SecurityWeek.
+
+### Beyond Next-Observation Prediction: Agent-Authored World Modeling for Sequential Decision Making
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25421
+- Summary: Recent studies on world modeling for Large Language Model (LLM) agents typically formulate the learning objective as next-observation prediction. However, this objective ties supervision to what a transition happens to reveal, which may omit the dynamics most relevant to the agent's current...
 
 ### Long-Term Simulation Exposes Cognitive-Developmental Risks in AI Companions
 - Source: HF Daily Papers
@@ -726,6 +767,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.23943
 - Summary: arXiv:2606.23943v1 Announce Type: new Abstract: Tokenization is a foundational step in NLP pipelines, yet standard evaluation metrics such as fertility rate fail to capture morphological correctness for agglutinative languages. We present QuechuaTok, a systematic benchmark comparing four...
+
+### Efficient and Trainable Language Model Test-Time Scaling via Local Branch Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25354
+- Summary: Test-time scaling improves language-model reasoning, but existing approaches often face a difficult trade-off: long chain-of-thought sampling remains single-threaded, while sentence- or solution-level search can be computationally expensive and hard to train end-to-end. We introduce Local Branch...
 
 ### Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says
 - Source: Security Week
@@ -2969,52 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.19329
 - Summary: We present a framework to cross-match sources from the Chandra Source Catalog (CSC v2.1) with optical sources from Gaia Data Release 3. Unlike purely spatial approaches, we use source properties such as magnitudes, colors, and distances to identify true counterparts, detect chance coincidences, and...
-
-### Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19325
-- Summary: Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate within speech-only pipelines that produce clean vocal sequences without the ambient texture of real...
-
-### Data Intelligence Agents: Interpreting, Modeling, and Querying Enterprise Data via Autonomous Coding Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19319
-- Summary: Production data integration is bottlenecked by repeated, lossy handoffs between data owners, engineers, and analysts who must collaboratively discover, structure, and query enterprise data. We present Data Intelligence Agents (DIA), a system of three agents (Data Interpreter, Schema Creator, and...
-
-### Errors with conversations on Android and iOS devices
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KVB9JAB1PP9GS4A6AZ52TT5Y
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Partial outage)
-
-### Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19315
-- Summary: Enhancing the formal math reasoning capabilities of Large Language Models (LLMs) has become a key focus in both mathematical and computer science communities in recent years. While significant progress has been made in using state-of-the-art Auto-Regressive (AR) LLMs for formal theorem proving,...
-
-### Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
-- Summary: Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. "Microsoft is...
-
-### Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19297
-- Summary: Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation. Failures on knowledge-sensitive tasks are ambiguous, conflating missing knowledge...
-
-### Elevated errors for Claude Opus 4.8
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/s107yx224p9r
-- Summary: Jun 17, 16:28 UTC Resolved - This incident has been resolved. Jun 17, 16:01 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 17, 15:34 UTC Investigating - We are currently investigating this issue.
-
-### A Human-in-the-Loop Bayesian Optimization Framework for Constraint-Aware Bioprocess Development
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.19230
-- Summary: This work presents an extension to Pareto Front Guided Sampling (PFGS), a Human-in-the-Loop (HitL) Bayesian Optimization (BO) framework in which Gaussian process (GP) surrogate-derived quantities are reformulated as objectives of a multi-objective optimization problem, and the resulting Pareto...
 
