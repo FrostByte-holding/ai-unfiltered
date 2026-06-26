@@ -6,6 +6,24 @@
 
 ## 2026-06-26
 
+### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
+- Summary: A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed "pedit COW," is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A&nbsp;public, working...
+
+### Errors when uploading Custom Certificates
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/7twjb50gmsyt
+- Summary: Jun 26, 12:33 UTC Investigating - Cloudflare is investigating 500/2000 errors when customers attempt to upload a new custom certificate. Custom certificates already in production remain unaffected and are operating normally.
+
+### The Download: brain-melting heatwaves and unprecedented OpenAI restrictions
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A...
+
 ### Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
 - Source: The Hacker News
 - Category: security
@@ -278,11 +296,23 @@
 - URL: https://www.githubstatus.com/incidents/9ndxtnrwjf37
 - Summary: Jun 25, 18:07 UTC Monitoring - The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability. Jun 25, 17:58 UTC Update - Issues is experiencing degraded performance. We are continuing to investigate. Jun 25, 17:53 UTC Update -...
 
+### Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27291
+- Summary: Job-search platforms rely on low-bandwidth query interfaces that often fail to capture the high-dimensional complexity of candidate profiles. We present an end-to-end RLAIF (Reinforcement Learning from AI Feedback) framework to generate \emph{portable} job search queries, terms that abstract away...
+
 ### Recovering Governing Equations from Solution Data: Identifiability Bounds for Linear and Nonlinear ODEs
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.27285
 - Summary: Learning governing equations from observed solution data is a fundamental challenge in scientific machine learning \cite{bruntonDiscoveringGoverningEquations2016,kovachkiNeuralOperatorLearning2023,longPDENetLearningPDEs2018,rudyDatadrivenDiscoveryPartial2017,raonicConvolutionalNeuralOperators2023},...
+
+### How Good Can Linear Models Be for Time-Series Forecasting?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27282
+- Summary: Time-series forecasting research has been moving steadily toward larger architectures, from specialized transformers to general-purpose foundation models, on the assumption that capacity is what unlocks accuracy. We take the opposite position: most of the gap can be closed at far lower cost by...
 
 ### E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation
 - Source: HF Daily Papers
@@ -300,6 +330,18 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KVZRA3Z551H993JHJ9P2TW9E
 - Summary: Status: IdentifiedA small number of Users have incorrectly cancelled subscription.Affected components Image Generation (Degraded performance) GPTs (Degraded performance) Agent (Degraded performance) Login (Degraded performance) Conversations (Degraded performance) Deep Research (Degraded...
+
+### A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27188
+- Summary: We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting...
+
+### Kolmogorov Arnold networks (KAN) for aerodynamic prediction: a comparison with MLPs and GNNs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27126
+- Summary: Kolmogorov Arnold networks (KAN) have recently been introduced as a (deep) neural network architecture whose trainable parameters adapt the activation functions, instead of the coefficients of the affine transformations at the core of traditional architectures such as deep multilayer perceptrons...
 
 ### Proposal-Conditioned Latent Diffusion for Closed-Loop Traffic Scenario Generation
 - Source: HF Daily Papers
@@ -432,6 +474,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html
 - Summary: A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the...
+
+### Structure Before Collapse: Transient semantic geometry in next-token prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26749
+- Summary: Neural Collapse predicts that balanced one-hot classification pushes model representations to be equally far from each other; a symmetric configuration that depends only on the output label and ignores any semantic similarity in the inputs. This creates a puzzle: next-token prediction language...
 
 ### NIST Opens Updated IoT Security Guidance to Public Review
 - Source: Security Week
@@ -2967,52 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.19366
 - Summary: arXiv:2606.19366v1 Announce Type: new Abstract: Information lattice learning (ILL) learns interpretable rules of a signal by alternately projecting the signal onto a partition lattice that encodes a hierarchy of abstractions and lifting selected rules back to the signal domain. When the signal is a...
-
-### Exposing the Unsaid: Visualizing Hidden LLM Bias through Stochastic Path Aggregation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.19344
-- Summary: arXiv:2606.19344v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit representational and syntactic biases that are difficult to evaluate due to the stochastic nature of text generation. Standard auditing methods rely on a single output inspection or static automated metrics. These...
-
-### Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.19345
-- Summary: arXiv:2606.19345v1 Announce Type: new Abstract: The rapid increase in scientific publications leads to the fact that manual study screening in systematic literature reviews (SLRs) is increasingly resource consuming, inefficient, and inconsistent. Classifying studies that clearly report...
-
-### Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.19346
-- Summary: arXiv:2606.19346v1 Announce Type: new Abstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic languages and non-Semitic controls. Across dense and Mixture-of-Experts architectures,...
-
-### How LLMs Fail and Generalize in RTL Coding for Hardware Design?
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.19347
-- Summary: arXiv:2606.19347v1 Announce Type: new Abstract: Translating sequential programming priors into the parallel temporal logic of hardware design remains a crucial bottleneck for large language models(LLM). To investigate this, we introduce a new error taxonomy grounded in problem solvability, inspired...
-
-### DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.19348
-- Summary: arXiv:2606.19348v1 Announce Type: new Abstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with 284B parameters (13B activated) -- both supporting a...
-
-### LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.19509
-- Summary: arXiv:2606.19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored. We study this question through the lens of cross-model attribution...
-
-### REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.19522
-- Summary: arXiv:2606.19522v1 Announce Type: new Abstract: The retina offers a noninvasive window into neurodegenerative disease, capturing subtle structural patterns associated with a risk of future cognitive decline. Vision-language alignment frameworks such as REVEAL have shown that pairing retinal fundus...
-
-### Emergent Alignment
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.19527
-- Summary: arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an...
 
