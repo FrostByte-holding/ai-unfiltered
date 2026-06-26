@@ -6,11 +6,23 @@
 
 ## 2026-06-26
 
+### Codex Usage Limits Depleting Faster Than Expected
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KW2E6W0503W4NXJNCVAG8V6T
+- Summary: Status: InvestigatingWe are investigating reports that Codex usage limits are being consumed faster than expected.Affected components Codex API (Degraded performance) Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance)
+
 ### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html
 - Summary: A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed "pedit COW," is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A&nbsp;public, working...
+
+### Increased 499 errors in Ashburn, US between 13:48 - 14:06 UTC
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h4srr1zqfdxj
+- Summary: Jun 26, 13:48 UTC Resolved - Visitors, specifically in the Ashburn, US region between 13:48 - 14:06 UTC today, may have encountered 499 errors. This issue did not affect any other Cloudflare services. The issue has since been rectified.
 
 ### Errors when uploading Custom Certificates
 - Source: Cloudflare Status
@@ -296,6 +308,12 @@
 - URL: https://www.githubstatus.com/incidents/9ndxtnrwjf37
 - Summary: Jun 25, 18:07 UTC Monitoring - The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability. Jun 25, 17:58 UTC Update - Issues is experiencing degraded performance. We are continuing to investigate. Jun 25, 17:53 UTC Update -...
 
+### A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27304
+- Summary: Guided wave-based structural health monitoring (GWSHM) with onboard transducers offers significant potential for the early diagnosis of damage in engineering structures. However, the practical deployment of deep learning models is often hindered by the limited availability of labelled experimental...
+
 ### Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search
 - Source: HF Daily Papers
 - Category: open-source
@@ -336,6 +354,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.27188
 - Summary: We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting...
+
+### Safe Autoregressive Image Generation with Iterative Self-Improving Codebooks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.27147
+- Summary: Unlike diffusion-based models that operate in continuous latent spaces, autoregressive unified multimodal models produce images by sequentially predicting discretized visual tokens. These tokens are derived from a codebook that maps embeddings to quantized visual patterns. The language-like...
 
 ### Kolmogorov Arnold networks (KAN) for aerodynamic prediction: a comparison with MLPs and GNNs
 - Source: HF Daily Papers
@@ -414,6 +438,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cal-water-finds-no-evidence-of-ot-activity-after-hackers-claimed-they-could-disrupt-water-supply/
 - Summary: Mandiant has helped the California water utility investigate the cyberattack launched by Iranian hacker group Handala. The post Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack appeared first on SecurityWeek.
+
+### Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26907
+- Summary: While text-to-image (T2I) models have achieved remarkable progress, they struggle with real-world requests that are often underspecified, implicit, or dependent on up-to-date knowledge. We identify this challenge as the Context Gap: the mismatch between the user context and the sufficient...
 
 ### Learning to Recover Task Experts from a Multi-Task Merged Model
 - Source: HF Daily Papers
@@ -522,6 +552,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/yslvlb2m83hd
 - Summary: Jun 25, 07:24 UTC Resolved - This incident has been resolved. Jun 25, 06:55 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 25, 06:27 UTC Investigating - Cloudflare is investigating issues with Network Performance in Ashburn, VA (IAD)We are working to analyze and...
+
+### LAMP: Lane-Aligned Motion Primitives for Feasible Trajectory Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26661
+- Summary: Motion forecasting is essential for autonomous driving systems to enable safe decision-making and planning in complex driving scenarios. While existing predictors excel at minimizing standard displacement errors, they often overlook the adherence to lane topology of multimodal predictions,...
 
 ### Cisco SD-WAN Zero-Day Exploited Months Before Patching
 - Source: Security Week
@@ -726,6 +762,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.25143
 - Summary: arXiv:2606.25143v1 Announce Type: new Abstract: Objectives: To develop a codebook for self-stigma across cognitive, affective, and behavioral domains, and to estimate the prevalence, co-occurrence, and temporal patterns of these indicators in Reddit posts by people who use drugs. Methods: We...
+
+### Explainable Ensemble-Based Machine Learning Models for Detecting the Presence of Cirrhosis in Hepatitis C Patients
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26561
+- Summary: Hepatitis C is a liver infection caused by a virus, which results in mild to severe inflammation of the liver. Over many years, hepatitis C gradually damages the liver, often leading to permanent scarring, known as cirrhosis. Patients sometimes have moderate or no symptoms of liver illness for...
 
 ### Coarse-to-Fine: A Hybrid Self-Supervised Method for Non-rigid 3D Shape Matching
 - Source: HF Daily Papers
@@ -2973,46 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.19475
 - Summary: arXiv:2606.19475v1 Announce Type: new Abstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks. Recently, Diffusion Language Models (DLMs) have emerged as an alternative paradigm that...
-
-### Hidden Anchors in Multi-Agent LLM Deliberation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.19494
-- Summary: arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As...
-
-### DeXposure-Claw: An Agentic System for DeFi Risk Supervision
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.19501
-- Summary: arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no...
-
-### Computational Identifiability
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.19361
-- Summary: arXiv:2606.19361v1 Announce Type: new Abstract: Identification conditions describe the computability of a target query or parameter of interest as a function of the type and amount of information available. In causal identification, this information is often expressed in the form of a causal graph,...
-
-### When to Trust, How to Distill: Multi-Foundation Model Guidance for Lightweight, Robust Scientific Time Series Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.19363
-- Summary: arXiv:2606.19363v1 Announce Type: new Abstract: The deployment of Time-Series Foundation Models (TSFMs) in physical sciences is hindered by a critical trade-off: while these models encode rich, universal temporal dynamics, they suffer from severe distributional misalignment when applied zero-shot...
-
-### Closing the Social-Semantic Gap: SPSD for Edge-Based Prompt Compression in Cloud LLM Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.19364
-- Summary: arXiv:2606.19364v1 Announce Type: new Abstract: The prefill stage of Large Language Model (LLM) inference is a growing contributor to cloud-scale energy cost. Many consumer-support and conversational prompts contain social scaffolding: politeness markers, apologetic preamble, repetition, and...
-
-### Performance Analysis and Optimization of 3D Generative Diffusion Models across GPU Architectures
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.19365
-- Summary: arXiv:2606.19365v1 Announce Type: new Abstract: Diffusion models have become essential for high-fidelity 3D MRI synthesis, yet their deployment remains constrained by substantial GPU resource demands arising from hundreds of U-Net evaluations per sample and a highly heterogeneous kernel behavior....
-
-### Information Lattice Learning as Probabilistic Graphical Model Structure Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.19366
-- Summary: arXiv:2606.19366v1 Announce Type: new Abstract: Information lattice learning (ILL) learns interpretable rules of a signal by alternately projecting the signal onto a partition lattice that encodes a hierarchy of abstractions and lifting selected rules back to the signal domain. When the signal is a...
 
