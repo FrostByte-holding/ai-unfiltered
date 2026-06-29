@@ -6,6 +6,35 @@
 
 ## 2026-06-29
 
+### DiScoFormer: One transformer for density and score, across distributions
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/discoformer
+
+### WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/whatsapp-rolling-out-username-feature-to-bolster-phone-number-privacy/
+- Summary: An optional ‘username key’ adds another layer by requiring a secondary credential before someone can message users. The post WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy appeared first on SecurityWeek.
+
+### Agent confidence on the technical frontier
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/
+- Summary: Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and technology leaders are looking to agentic AI to drive the measurable financial...
+
+### Elevated errors on Opus 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/lxpx271gkx7p
+- Summary: Jun 29, 14:27 UTC Resolved - This incident has been resolved. Jun 29, 14:13 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 29, 13:52 UTC Identified - The issue has been identified and a fix is being implemented. Jun 29, 13:35 UTC Investigating - We are currently...
+
+### X Square Robot Closes Four Consecutive Rounds, Hits $2.8B Valuation as It Powers Physical-AI Foundation Models
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/x-square-robot-2-8b-valuation-series-c-jun2026
+- Summary: X Square Robot completes four successive funding rounds culminating in a Series C, reaching $2.8 billion valuation, becoming the only embodied AI company backed by all four of China's internet giants.
+
 ### The Download: metric weaknesses and AI elephant warnings
 - Source: MIT Tech Review AI
 - Category: research
@@ -410,6 +439,12 @@
 - Category: security
 - URL: https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/
 - Summary: Other noteworthy stories that might have slipped under the radar: Russia used Cellebrite to hack activist’s phone, Five Eyes issue urgent AI threat warning, macOS Gaslight backdoor, Scattered Spider guilty pleas. The post In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs...
+
+### From Tokens to States: LLMs as a Special Case of World Models and the Continuous Path Beyond
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.28127
+- Summary: The AI community has framed the relationship between large language models (LLMs) and world models as a dichotomy: LLMs predict tokens; world models simulate reality. Yann LeCun argues in 2022 that reaching general intelligence requires abandoning autoregressive token prediction in favour of...
 
 ### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
 - Source: The Hacker News
@@ -1775,6 +1810,12 @@
 - URL: https://tldr.takara.ai/p/2606.25462
 - Summary: Abstractive text summarization is the technique of generating a short and concise summary comprising the salient ideas of a source text without making a subset of the salient sentences from the source text. The introduction of transformer models such as BART, T5, and PEGASUS has made this sort of...
 
+### \chisao{}: A GPU-Native Parallel Optimizer for Multimodal Black-Box Functions via Convergence-Anticonvergence Oscillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26164
+- Summary: Finding all modes of a multimodal black-box function is a fundamental challenge in optimization, Bayesian inference, and scientific computing. Existing approaches -- basin-hopping, CMA-ES, multistart gradient descent -- operate sequentially and cannot exploit the massive parallelism of modern GPU...
+
 ### C3-Bench: A Context-Aware Change Captioning Benchmark
 - Source: HF Daily Papers
 - Category: open-source
@@ -1858,6 +1899,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25379
 - Summary: I treat a book as a point in a sentence-embedding space and a literary transformation as an operation on points. Given an original novel and its sequel, I ask what it takes, geometrically, to turn the first into the second. Using all-mpnet-base-v2 paragraph embeddings drawn from a precomputed index...
+
+### Beyond Visual Forensics: Auditing Multimodal Robustness for Synthetic Medical Image Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25375
+- Summary: With the rapid adoption of generative AI, synthetic medical images pose growing risks, including diagnostic deception and insurance fraud. Although prior work has explored vision-language model (VLM)-based synthetic image detection, these evaluations typically consider images in isolation. In...
 
 ### Three Buddhist Vocabularies: Computational Stylometry of the English Pali Canon across Sutta, Vinaya, and Abhidhamma
 - Source: HF Daily Papers
@@ -2472,6 +2519,12 @@
 - URL: https://tldr.takara.ai/p/2606.24379
 - Summary: Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data while preserving data confidentiality. However, its practical applications remain limited by high computational costs and development complexity. This paper presents ComputeFHE, an open-source C++...
 
+### Automatic Part-of-Speech Tagging of Arabic-English Dictionary Senses through WordNet
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24359
+- Summary: This paper proposed an algorithm for part-of-speech (POS) tagging senses of a bilingual dictionary. The algorithm is applied on the Al-Mawrid Arabic-English dictionary. The tagging task is accomplished by transferring the POS tags of the English translation equivalences (TEs) to the dictionary...
+
 ### Canadian Electricity Provider London Hydro Discloses Data Breach
 - Source: Security Week
 - Category: security
@@ -2964,58 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.23682
 - Summary: Reference-based diffusion models enable highly controllable image generation by leveraging elements from input images to guide prompt-driven synthesis. However, these models are computationally expensive in runtime, and their cost scales severely with the number of input references. While the...
-
-### CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23680
-- Summary: Humanoid loco-manipulation is often simplified into a stop-and-go process: walking to an object, stopping to manipulate it, and then resuming locomotion. It also commonly relies on low degree-of-freedom (DoF) end effectors that behave like an open-close grasp primitive. We introduce CoorDex, a...
-
-### Semantic Browsing: Controllable Diversity for Image Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23679
-- Summary: Modern text-to-image models excel in visual fidelity and prompt adherence. However, this strict adherence comes at the cost of diversity: generated samples tend to collapse into a single visual interpretation. Existing methods to improve diversity produce outputs driven by incidental variations...
-
-### On the Limits of Prompt-Conditioned Language Models as General-Purpose Learners
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23668
-- Summary: Large Language Models (LLMs) are frequently portrayed as general-purpose solvers capable of solving arbitrary tasks. We argue that this view overlooks a fundamental constraint: language is a compressed and capacity-limited interface for conveying task information. Modelling User--System interaction...
-
-### AI Exposure Scores: what they measure, what they miss, and what comes next
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23633
-- Summary: A set of exposure scores calculated in 2023 has become a central empirical input to the future of work debate. Produced by Eloundou et al. (2023) and referred to here as the GPTs are GPTs scores, they define exposure as the share of occupational tasks a large language model can assist with. This...
-
-### Discovering Latent Groups for Robust Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23609
-- Summary: Machine learning models exploit spurious correlations, achieving high average accuracy but failing disproportionately on underrepresented subgroups. Existing methods address this by adjusting network parameters, guided either by subgroup annotations or inferred pseudo-group labels. Yet at...
-
-### SPIRAL: Learning to Search and Aggregate
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23595
-- Summary: Language model reasoning can be substantially improved at test time via scaffolds that scale inference compute across different primitives -- sequential reasoning within a trace, independently sampled parallel traces, and aggregation of multiple reasoning traces into a final response. During...
-
-### Real-Time Multimodal Activity-Aware Error Detection in Robot-Assisted Surgery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23593
-- Summary: Robot-assisted minimally invasive surgery improves surgical precision but introduces complexity, making technical error detection essential for ensuring patient safety. Current executional error detection methods using video data often overlook fine-grained contextual descriptions of activities and...
-
-### A Generative Model for Closed-Loop Microsimulation of Signalized Intersections
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23588
-- Summary: Traffic microsimulators rely on hand-crafted behavior models that reproduce aggregate flow but miss the heterogeneous interactions between vehicles at signalized intersections. Learned trajectory predictors capture richer interactions but are short-horizon and tend to be unstable when run in closed...
-
-### Increased Error Rates
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/v3yl7jqmqj51
-- Summary: Jun 22, 16:50 UTC Monitoring - Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops. Jun 22, 16:30 UTC Update - Traffic engineering efforts have successfully mitigated the majority of congestion and packet drops. Services are largely stable, with only...
 
