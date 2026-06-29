@@ -6,10 +6,22 @@
 
 ## 2026-06-29
 
+### Cloudflare for SaaS API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/bgjy93d5f5ht
+- Summary: Jun 29, 20:20 UTC Investigating - Cloudflare for SaaS API experiencing some errors
+
 ### DiScoFormer: One transformer for density and score, across distributions
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/discoformer
+
+### AI agents are not your “coworkers”
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls...
 
 ### WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy
 - Source: Security Week
@@ -1443,6 +1455,12 @@
 - URL: https://tldr.takara.ai/p/2606.26502
 - Summary: Large reasoning models (LRMs) take longer on harder problems, just as humans do. This surface similarity hides an opposite pattern within items. When an LRM gets a problem wrong, it spends more tokens than when it gets the same problem right; humans do the reverse, spending less time on the trials...
 
+### Mean-Field PhiBE: Continuous-Time Mean-Field Reinforcement Learning from Discrete-Time Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.26498
+- Summary: This paper addresses model-free continuous-time mean-field control in a setting where the population dynamics evolve continuously according to an unknown McKean-Vlasov stochastic differential equation, while only discrete-time transition data are available. In the model-based formulation, policy...
+
 ### Nemotron-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context
 - Source: HF Daily Papers
 - Category: open-source
@@ -1881,6 +1899,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25410
 - Summary: Machine unlearning is an emerging domain that ensures the safe removal of elements (includes concepts, attributes, entity and class) from the trained model along with least drop in model performance. The domain of machine unlearning brings its own indigenous challenges since the removal of...
+
+### BrainAgent: A Large Language Model-Driven Multi-Agent Framework for Autonomous Brain Signal Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.25400
+- Summary: Brain-Computer Interfaces (BCIs) and brain signal understanding are pivotal for clinical health and next-generation interactions. Despite this significance, its widespread adoption in real-world scenarios remains restricted, primarily because current analytical paradigms lack sufficient agentic...
 
 ### Long-Term Simulation Exposes Cognitive-Developmental Risks in AI Companions
 - Source: HF Daily Papers
@@ -2363,6 +2387,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.24672
 - Summary: In many decision-making scenarios, acquiring information incurs different costs. We consider the problem of constructing a deterministic evaluation strategy that minimizes the expected cost of evaluating a propositional formula under variable costs and a probability distribution over truth...
+
+### Solving Markov Decision Processes with Future Information via MPC
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.24991
+- Summary: Model Predictive Control (MPC) is widely used in industrial and robotic systems for enforcing constraints and embedding domain knowledge through finite-horizon optimization-based planning. However, despite these strengths, an MPC scheme typically does not yield optimal policies for sequential...
 
 ### Extended pseudo-spectral physics-informed neural networks for phase-field models
 - Source: HF Daily Papers
@@ -2987,34 +3017,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/qg38wlcnz4ys
 - Summary: Jun 22, 21:44 UTC Resolved - This incident has been resolved. Jun 22, 20:53 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 20:27 UTC Identified - The issue has been identified and a fix is being implemented. Jun 22, 20:27 UTC Investigating - Cloudflare is...
-
-### Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/gray-swan
-- Summary: OpenAI boardmember Zico Kolter and Gray Swan CEO Matt Fredrikson join swyx to explain why AI security is not just &#8220;cybersecurity with AI&#8221;
-
-### Elevated errors across many models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/bbcpk0t2cj4p
-- Summary: Jun 22, 19:20 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 22, 19:14 UTC Investigating - We are currently investigating this issue.
-
-### ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
-- Summary: Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. "Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro...
-
-### Three things to watch amid Anthropic’s latest feud with the government
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/
-- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI...
-
-### Keep The Essentials: Efficient Reference Conditioned Generation via Token Dropping
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.23682
-- Summary: Reference-based diffusion models enable highly controllable image generation by leveraging elements from input images to guide prompt-driven synthesis. However, these models are computationally expensive in runtime, and their cost scales severely with the number of input references. While the...
 
