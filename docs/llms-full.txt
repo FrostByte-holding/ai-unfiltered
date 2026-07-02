@@ -6,6 +6,24 @@
 
 ## 2026-07-02
 
+### Incident with Pages
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/5bnwwg9tzd4q
+- Summary: Jul 2, 16:56 UTC Update - We are investigating reports of slow and failing Pages deployments. Access to Pages is unaffected. Jul 2, 16:54 UTC Investigating - We are investigating reports of degraded performance for Pages
+
+### Realtimekit Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4sfv79jntx9d
+- Summary: Jul 2, 16:28 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 2, 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Jul 2, 15:05 UTC Investigating - Some customers may experience issues joining realtimekit meetings from India.
+
+### Skill engineering and the case against one-shot AI design
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/skill-engineering-design
+- Summary: Paul Bakaus talks to us about Impeccable, human judgment in a 'loopmaxxing' era, and why agents still need people to steer them.
+
 ### Cloudflare Workers build delays
 - Source: Cloudflare Status
 - Category: incidents
@@ -1173,6 +1191,12 @@
 - URL: https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
 - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy cracks, and defenders have more cleanup waiting....
 
+### Scalar Representations of Neural Network Training Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30384
+- Summary: Training in artificial neural networks can be viewed as a trajectory evolving through a high-dimensional loss landscape. However, the large number of trainable parameters makes the direct analysis of these dynamics challenging. In this work, we treat such training trajectories as temporal networks...
+
 ### Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines
 - Source: Security Week
 - Category: security
@@ -1197,6 +1221,12 @@
 - URL: https://www.securityweek.com/straiker-raises-64-million-for-ai-security-platform/
 - Summary: The startup’s platform can identify AI agents and provide visibility into their access, behavior, and risks. The post Straiker Raises $64 Million for AI Security Platform appeared first on SecurityWeek.
 
+### Optimizing Image Preparation and Compression for Face Recognition within 1024 Bytes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30321
+- Summary: ICAO-compliant machine readable travel documents enable automated biometric face verification. The biometric reference is stored on an RFID chip included in form of a JPEG or JPEG 2000 compressed facial image. In contrast, temporary travel documents lack of machine readability, which excludes the...
+
 ### Always-OnAgents:A Survey of Persistent Memory, State, and Governance in LLMAgents
 - Source: HF Daily Papers
 - Category: open-source
@@ -1209,11 +1239,23 @@
 - URL: https://www.securityweek.com/insurance-regulators-group-naic-hit-in-oracle-peoplesoft-hack/
 - Summary: The ShinyHunters extortion group claims to have stolen 3.1 TB of data from the organization. The post Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack appeared first on SecurityWeek.
 
+### Defending Against Harmful Supervision Hidden in Benign Samples
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30263
+- Summary: Existing defenses are effective when harmful content is explicitly mixed into downstream fine-tuning data, but crafted samples can instead hide harmful supervision inside benign tasks. We propose Embedded Attack, where harmful QA pairs are embedded within benign training samples, and show that...
+
 ### X Square Robot Closes Four Consecutive Rounds, Hits $2.8B Valuation as It Powers Physical-AI Foundation Models
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/x-square-robot-2-8b-valuation-series-c-jun2026
 - Summary: X Square Robot completes four successive funding rounds culminating in a Series C, reaching $2.8 billion valuation, becoming the only embodied AI company backed by all four of China's internet giants.
+
+### Curvature-Guided Sheaf Diffusion for Unsupervised Community Detection on Heterophilic Graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30249
+- Summary: Detecting communities in heterophilic graphs -- where connected nodes often belong to different classes -- is hard for unsupervised methods: classical modularity and spectral methods are feature agnostic, while deep graph-clustering methods rely on contrastive or generative machinery that is...
 
 ### The Many-Body Problem of the Data Centre
 - Source: HF Daily Papers
@@ -1280,6 +1322,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.30019
 - Summary: Music-driven dance video generation aims to synthesize expressive human motion that is temporally aligned with music while maintaining high visual fidelity. Despite recent progress, existing methods still face two key limitations: the lack of large-scale, high-quality dance video datasets, and the...
+
+### Parametric Skills
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30015
+- Summary: Since intelligence fundamentally relies on efficient skill acquisition (Chollet, 2019), the ability to leverage skills is critical. For LLMs, skills, manually authored or extracted from task trajectories, are textual recipes encoding mature problem-solving experience and are critical to agentic...
 
 ### Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation
 - Source: HF Daily Papers
@@ -2971,52 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25941
 - Summary: Increasing demand for precise and reliable control in complex scenarios has led to the development of increasingly sophisticated controllers, including data-driven approaches employing closed box models and mathematically rigorous yet complex designs. This complexity highlights the needs for...
-
-### Overview of HIPE-2026: Person-Place Relation Extraction from Multilingual Historical Texts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25935
-- Summary: Was this person ever at that place, and if so, when? Answering such questions from noisy, multilingual historical documents is the central challenge of HIPE-2026, the third edition of the HIPE evaluation series. Moving from named entity recognition and linking (HIPE-2020, HIPE-2022) to reasoning...
-
-### Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-and-allies-smash-shared-infrastructure-of-amadey-and-stealc-malware/
-- Summary: Hundreds of C&#038;C servers were disrupted in an operation involving law enforcement and several cybersecurity companies. The post Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware appeared first on SecurityWeek.
-
-### SurgAtlas: A Large-Scale Surgical Video-Language Dataset with 2,391 Hours of Open and Minimally Invasive Surgery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25905
-- Summary: We introduce SurgAtlas, the largest surgical video-language dataset to date, comprising 15,291 videos (2,391 hours) spanning 18 surgical specialties and over 5,000 procedure types, sourced entirely from publicly available YouTube content. SurgAtlas is also the first surgical video-language dataset...
-
-### Enhancing Brain MRI Anomaly Detection and Reasoning with ROI Rethink and Synthetic Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25894
-- Summary: Medical vision-language models typically generate diagnoses through single-pass inference without indicating which image regions support their conclusions. This lack of spatial grounding limits clinical utility: outputs cannot be audited, and models may hallucinate findings on normal scans. We...
-
-### Exclusive: Meet AIVEX, a New Triage Model Built to Reduce Supply Chain Threat and Risk
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/exclusive-meet-aivex-a-new-triage-model-built-to-reduce-supply-chain-threat-and-risk/
-- Summary: The new framework seeks to help security teams identify which software supply chain vulnerabilities pose the greatest operational, safety, and business risks in AI-driven environments. The post Exclusive: Meet AIVEX, a New Triage Model Built to Reduce Supply Chain Threat and Risk appeared first on...
-
-### Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25852
-- Summary: Group-based reinforcement learning effectively post-trains LLM agents for long-horizon, sparse-reward tasks by deriving step-level credit from trajectory outcomes. However, this ties a step's credit to its rollout's final outcome: semantically near-identical intermediate steps receive opposite...
-
-### macOS Weaknesses Chained to Silently Disable Endpoint Security Agents
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/macos-weaknesses-chained-to-silently-disable-endpoint-security-agents/
-- Summary: A standard non-admin account is sufficient to conduct an attack that exploits legitimate OS behavior rather than software vulnerabilities. The post macOS Weaknesses Chained to Silently Disable Endpoint Security Agents appeared first on SecurityWeek.
-
-### AI Snitches Get Glitches: Towards Evading Agentic Surveillance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25836
-- Summary: To better assist users with completing challenging tasks, AI agents mediate communications, access data, and interact with different APIs. Many employers (and even nation-states) already provide their users with this technology. However, widespread adoption of AI agents creates a new risk to abuse...
 
