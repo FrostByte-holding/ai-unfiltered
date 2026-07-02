@@ -6,6 +6,12 @@
 
 ## 2026-07-02
 
+### FBI Seizes NetNut Proxy Platform, Popa Botnet
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
+- Summary: The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks...
+
 ### Incident with Pages
 - Source: GitHub Status
 - Category: incidents
@@ -1155,6 +1161,12 @@
 - URL: https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls...
 
+### A Hybrid Framework For Crypto-Ransomware Detection In Enterprise Shared Storage
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30586
+- Summary: Most corporate workplace environments enforce policies and technical controls that limit the storage of sensitive data on client endpoints. Consequently, ransomware operators have evolved variants that expand their attack surface from local systems to network drives and shared storage resources. As...
+
 ### StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors
 - Source: HF Daily Papers
 - Category: open-source
@@ -1172,6 +1184,12 @@
 - Category: security
 - URL: https://www.securityweek.com/whatsapp-rolling-out-username-feature-to-bolster-phone-number-privacy/
 - Summary: An optional ‘username key’ adds another layer by requiring a secondary credential before someone can message users. The post WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy appeared first on SecurityWeek.
+
+### Curvature-Weighted Gradient Diversity: A Noise Measure for Geometry-Adaptive SGD Schedules
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30455
+- Summary: The standard convergence analysis of mini-batch stochastic gradient descent (SGD) models gradient noise using a single variance term that treats all parameter directions equally, ignoring the fact that noise in high-curvature directions has less impact because learning rates are already constrained...
 
 ### Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks
 - Source: The Hacker News
@@ -1256,6 +1274,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.30249
 - Summary: Detecting communities in heterophilic graphs -- where connected nodes often belong to different classes -- is hard for unsupervised methods: classical modularity and spectral methods are feature agnostic, while deep graph-clustering methods rely on contrastive or generative machinery that is...
+
+### Grounding LLM Reasoning under Incomplete Graph Evidence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30247
+- Summary: Knowledge graphs can guide large language models (LLMs) reasoning, but the graph seen by a system is usually a retrieved, linked, temporally scoped, and incomplete evidence state rather than a complete account of truth. We develop a theoretical perspective on grounding observable LLM trajectories...
 
 ### The Many-Body Problem of the Data Centre
 - Source: HF Daily Papers
@@ -1424,6 +1448,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.29841
 - Summary: Continual learning (CL), where a model is trained on a sequence of data tasks, is increasingly being adopted across key fields such as large language models and image recognition, yet it remains highly vulnerable to data poisoning that triggers learning divergence or severe excess risk. Despite...
+
+### Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29824
+- Summary: While Large Language Models (LLMs) excel as static solvers, transforming them into autonomous agents remains challenging. This transition requires continuous environmental interaction, yet current agents lack the necessary persistent procedural memory. Existing approaches predominantly employ...
 
 ### Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer
 - Source: The Hacker News
@@ -1670,6 +1700,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-aerospace-carbon-fiber-production-expansion-jun2026
 - Summary: Zhongfu Shenying opens three high-performance carbon fiber production lines in Lianyungang, reducing China's dependence on Japanese Toray and US suppliers for critical aerospace materials.
+
+### Benchmarking Geospatial Foundation Models for Agriculture Applications
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29664
+- Summary: Geospatial foundation models pretrained on satellite imagery promise broad generalization across remote sensing tasks and regions, but their geographic transferability has not been systematically tested, especially in agriculture applications. This paper presents a controlled benchmark that...
 
 
 ## 2026-06-28
@@ -2983,40 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.25978
 - Summary: Multi-agent goal recognition asks an observer to jointly infer which agents act together and what each team is trying to achieve, so the hypothesis space grows combinatorially with the number of team partitions and goals per team. Real applications such as drone surveillance and collaborative...
-
-### Tensorion: A Tensor-Aware Generalization of the Muon Optimizer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25975
-- Summary: Common first-order optimizers, such as Adam, implicitly treat each parameter block as an unstructured vector, which disregards the multilinear weight structure present in many modern machine learning models. Recent work has shown that exploiting matrix structure can improve optimization dynamics. A...
-
-### Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25973
-- Summary: Software vulnerability remediation is a cognitively demanding task that requires specialized security expertise often lacking in general developers. In the meantime, Large Language Models (LLMs) assisted tools show potential in vulnerability detection, location, and repair tasks. [Hypothesis:]...
-
-### Pulmonary Embolism Risk Stratification from CTPA and Medical Records: Vascular Graphs Are Not All You Need
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25956
-- Summary: Risk stratification for pulmonary embolism (PE) is critical for clinical decision-making. Stratification guidelines are based on patient medical records, parameters measured from computed tomography pulmonary angiography (CTPA), and blood tests. However, blood tests are often missing in routine...
-
-### DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25953
-- Summary: Existing object-aware SLAM systems force a trade-off between real-time performance, multi-class support, and the generation of high-fidelity, semantically coherent object models. To address this trade-off, we present DSP-SLAM++, which extends the DSP-SLAM framework with an asynchronous mapping...
-
-### Europe’s extreme heat is shutting down power plants
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/
-- Summary: Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the load. On June 23, France saw its hottest day since record-keeping began in...
-
-### Explainable Control Framework (XCF) based on Fuzzy Model-Agnostic Explanation and LLM Agent-Supported Interface
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.25941
-- Summary: Increasing demand for precise and reliable control in complex scenarios has led to the development of increasingly sophisticated controllers, including data-driven approaches employing closed box models and mathematically rigorous yet complex designs. This complexity highlights the needs for...
 
