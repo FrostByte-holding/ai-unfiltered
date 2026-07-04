@@ -785,6 +785,12 @@
 - URL: https://tldr.takara.ai/p/2607.01768
 - Summary: Text driven hand object interaction (HOI) generation is gaining attention for immersive applications and robotics, yet producing physically plausible interactions remains challenging. Even when individual motions appear natural, small contact errors can cause conspicuous artifacts such as floating...
 
+### Denser $\neq$ Better: Limits of On-Policy Self-Distillation for Continual Post-Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01763
+- Summary: Continual post-training enables foundation models to acquire new knowledge while preserving existing capabilities. Recent work suggests that on-policy learning can mitigate forgetting, with on-policy self-distillation emerging as a particularly attractive approach. In this work, we revisit this...
+
 ### Role-Aware Neural Convex Divergence Heads for Asymmetric Representation Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2120,6 +2126,12 @@
 - URL: https://tldr.takara.ai/p/2606.30111
 - Summary: Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are...
 
+### LETT-NeXt: A Lightweight RECIST-Guided Model for 3D CT Lesion Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30108
+- Summary: RECIST diameter measurements are widely used for tumor response assessment, but they provide only a limited 2D description of lesion extent. We present LETT-NeXt, a lightweight RECIST-guided model that predicts 3D lesion masks from CT volumes and RECIST markers for the CVPR 2026 Foundation Models...
+
 ### SIR: Structured Image Representations for Explainable Robot Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2468,6 +2480,12 @@
 - URL: https://arxiv.org/abs/2606.27598
 - Summary: arXiv:2606.27598v1 Announce Type: new Abstract: Ultra-fine entity typing (UFET) assigns highly specific types to entity mentions, but current approaches struggle with types in the long tail. We hypothesize that a key limitation is the reliance on sentence-level context, since disambiguating...
 
+### LEIQ-Assessor: Multi-dimensional Quality Assessment of Low-light Enhanced Images via Multi-task Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29752
+- Summary: Low-light image enhancement algorithms (LIEAs) aim to improve the visibility of images captured under poor illumination. However, the enhancement process often introduces artifacts such as noise amplification, color shift, structural damage, and over-exposure, which degrade the perceptual quality...
+
 ### HTC-SGA Former: A Hybrid Transformer-CNN Network with Self-Guided Attention and a New Boundary-Weighted Adaptive Loss for Coronary DSA Vessel Segmentation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2515,6 +2533,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-aerospace-carbon-fiber-production-expansion-jun2026
 - Summary: Zhongfu Shenying opens three high-performance carbon fiber production lines in Lianyungang, reducing China's dependence on Japanese Toray and US suppliers for critical aerospace materials.
+
+### ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29706
+- Summary: Telecom question answering (QA) is a challenging setting for retrieval-augmented generation (RAG): evidence is fragmented across standards, papers, encyclopedic resources, and web documents, and answers often hinge on technical tables, equations, and specialized protocol language. In low-resource...
+
+### Sample-Efficient Learning of Probabilistic Causes for Reachability in Markov Decision Processes with Probabilistic Guarantees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29681
+- Summary: Probabilistic model checking for Markov decision processes (MDPs) provides quantitative guarantees, but often offers limited insight into why undesired outcomes occur. Probability-raising (PR) causality addresses this by identifying states whose visitation increases the probability of reaching...
 
 ### Benchmarking Geospatial Foundation Models for Agriculture Applications
 - Source: HF Daily Papers
@@ -2992,34 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.26103
 - Summary: arXiv:2606.26103v1 Announce Type: new Abstract: Large Language Models (LLMs) have rapidly influenced many aspects of society, particularly education, due to their demonstrated ability to complete assignments and examinations across a wide range of subjects. Although prior studies have examined the...
-
-### Assert, don't describe: Linguistic features that shift LLM reasoning about animal welfare
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.26104
-- Summary: arXiv:2606.26104v1 Announce Type: new Abstract: Animal-welfare advocates produce a lot of writing, and increasingly that writing trains the language models that millions of people then ask about animal welfare. Using vocabulary-matched stance-contrast probes on a held-out animal-welfare benchmark,...
-
-### Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26205
-- Summary: arXiv:2606.26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but...
-
-### Accelerating Skill Assessment in Chess: A Drift-Diffusion-Enhanced Elo Rating System
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26267
-- Summary: arXiv:2606.26267v1 Announce Type: new Abstract: Rating systems such as Elo serve as the gold standard for matchmaking in competitive chess. However, they inherently suffer from response lag due to their exclusive reliance on match outcomes, neglecting the granular quality of gameplay. Nevertheless,...
-
-### Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26298
-- Summary: arXiv:2606.26298v1 Announce Type: new Abstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their...
-
-### COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26299
-- Summary: arXiv:2606.26299v1 Announce Type: new Abstract: While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics remains a challenge. This paper presents an...
 
