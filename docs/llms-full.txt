@@ -479,6 +479,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/4sfv79jntx9d
 - Summary: Jul 2, 16:28 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 2, 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Jul 2, 15:05 UTC Investigating - Some customers may experience issues joining realtimekit meetings from India.
 
+### WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.02391
+- Summary: Large Language Model (LLM) inference workloads are a rapidly growing contributor to data center energy consumption. Optimizing these deployments requires matching specific LLMs to the most efficient GPUs, but operators currently lack the tools to do so without exhaustively profiling each...
+
 ### SelectTSL: Prompt-Guided Selective Target Sound Localization in Complex Scenarios
 - Source: HF Daily Papers
 - Category: open-source
@@ -490,6 +496,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/
 - Summary: Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how...
+
+### NEvo: Neural-Guided Evolutionary Video Synthesis for Dynamic Visual Selectivity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.02317
+- Summary: The human brain processes dynamic visual input through hierarchically organized, functionally specialized regions. While recent in silico brain encoding models can synthesize optimal stimuli to probe selectivity in different brain regions, prior work has been largely limited to static images,...
 
 ### ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories
 - Source: The Hacker News
@@ -665,6 +677,12 @@
 - URL: https://tldr.takara.ai/p/2607.01903
 - Summary: LLM-integrated applications blend natural language prompts with program code, and much of their runtime behavior originates in the prompt layer rather than in the code itself. Existing complexity metrics, however, operate solely at the code level and therefore overlook this behavioral logic...
 
+### Rethinking Post-Hoc Calibration in Semantic Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01902
+- Summary: Reliable confidence estimates are essential in semantic segmentation, especially in safety-critical settings where overconfident errors can mislead downstream decisions. Yet modern segmentation models often remain miscalibrated. Post-hoc calibration offers a practical way to correct confidence...
+
 ### Why California’s carbon manure math doesn’t add up
 - Source: MIT Tech Review AI
 - Category: research
@@ -724,6 +742,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score:...
+
+### Beyond Gradient-Based Attacks: Adversarial Robustness and Explainability Stability in Cybersecurity Classifiers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01679
+- Summary: Adversarial attacks on cybersecurity classifiers pose a dual threat: degrading predictions and destabilising the SHAP-based explanations that security analysts rely on to understand and triage alerts. We extend our prior MLP conference study to Random Forest and XGBoost across four tabular security...
 
 ### Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction
 - Source: arXiv AI
@@ -904,6 +928,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.00143
 - Summary: arXiv:2607.00143v1 Announce Type: new Abstract: Online hate speech has been linked to a global rise in violence against minorities, including incidents such as mass shootings, lynchings, and ethnic cleansing. Societies grappling with this issue, particularly when hate speech targets specific groups...
+
+### DRDN: Decoupled Representation Dynamic Network for From-Scratch ViT Class-Incremental Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01630
+- Summary: Dynamic expansion methods for class-incremental learning (CIL) protect task-specific knowledge by growing dedicated tokens or subnetworks, yet our analyses suggest that classification supervision alone does not sufficiently preserve task-agnostic shared backbone representations over long...
 
 ### Cloudflare is investigating issues with network performance in ENAM and WNAM, US
 - Source: Cloudflare Status
@@ -2992,36 +3022,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-openai-reports-median-internal
 - Summary: It's happening.
-
-### Run a vLLM Server on HF Jobs in One Command
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/vllm-jobs
-
-
-## 2026-06-25
-
-### Degradation with Webhooks, Pull Requests and Actions
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/9ndxtnrwjf37
-- Summary: Jun 25, 18:07 UTC Monitoring - The degradation affecting Actions, Issues, Pull Requests and Webhooks has been mitigated. We are monitoring to ensure stability. Jun 25, 17:58 UTC Update - Issues is experiencing degraded performance. We are continuing to investigate. Jun 25, 17:53 UTC Update -...
-
-### LLM-Based Examination of Eligibility Criteria from Securities Prospectuses at the German Central Bank
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.27316
-- Summary: Verifying the eligibility of securities as collateral is a key responsibility of the German Central Bank. However, manually verifying these assets against legal and financial criteria within lengthy, semi-structured, and often bilingual prospectuses is a resource-intensive task. While previous...
-
-### A Multi-Fidelity Convolutional Autoencoder-Transfer Learning Framework for Guided-Wave-Based Damage Diagnosis Using Large Simulated and Limited Experimental Datasets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.27304
-- Summary: Guided wave-based structural health monitoring (GWSHM) with onboard transducers offers significant potential for the early diagnosis of damage in engineering structures. However, the practical deployment of deep learning models is often hindered by the limited availability of labelled experimental...
-
-### Designing Reward Signals for Portable Query Generation: A Case Study in Industrial Semantic Job Search
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.27291
-- Summary: Job-search platforms rely on low-bandwidth query interfaces that often fail to capture the high-dimensional complexity of candidate profiles. We present an end-to-end RLAIF (Reinforcement Learning from AI Feedback) framework to generate \emph{portable} job search queries, terms that abstract away...
 
