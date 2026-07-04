@@ -6,6 +6,12 @@
 
 ## 2026-07-04
 
+### New users unable to deploy Workers
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h1l9jsj2q6jc
+- Summary: Jul 4, 15:32 UTC Resolved - This incident has been resolved. Jul 4, 15:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 4, 14:38 UTC Identified - Cloudflare has identified an issue where new users cannot deploy Workers in the dashboard. We are working to...
+
 ### U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
 - Source: The Hacker News
 - Category: security
@@ -1940,6 +1946,12 @@
 - URL: https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The worker is not a person but an AI tool—one that your company nonetheless calls...
 
+### Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30599
+- Summary: Existing instruction-based video editing datasets commonly focus on single-task appearance editing, failing to meet the complex creative demands of real-world scenarios. To bridge this gap, we present Goku, a large-scale dataset featuring 2 million high-quality, instruction-aligned video editing...
+
 ### A Hybrid Framework For Crypto-Ransomware Detection In Enterprise Shared Storage
 - Source: HF Daily Papers
 - Category: open-source
@@ -2090,6 +2102,12 @@
 - URL: https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html
 - Summary: A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slovakian cybersecurity company ESET said it observed 35 distinct spear-phishing campaigns mounted by Gamaredon against new...
 
+### Physically-Constrained Harmonic Separation for Robust Heart and Respiratory Rate Estimation from Wrist Photoplethysmography
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30156
+- Summary: Wrist-worn photoplethysmography (PPG) enables continuous monitoring of cardiopulmonary physiology, but reliable heart rate (HR) and respiratory rate (RR) estimation in free-living conditions remains challenging due to non-stationary motion artifacts that spectrally overlap with physiological...
+
 ### ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access
 - Source: Security Week
 - Category: security
@@ -2120,11 +2138,23 @@
 - URL: https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/
 - Summary: ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration. The post OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review appeared first on SecurityWeek.
 
+### Little Brains, Big Feats: Exploring Compact Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30062
+- Summary: While large language models have been dominating the research landscape recently, small language models remain highly relevant across various domains; yet, they receive far less attention. In this study, we investigate how smaller language models perform during the generation stage within a...
+
 ### US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/
 - Summary: UNC5792 and UNC4221 have been targeting US government officials, military leaders, and allied personnel. The post US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve appeared first on SecurityWeek.
+
+### Cross-Modal Iteration Distillation for Robust IHD Screening: The IDNet Framework and A New Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.30027
+- Summary: Color Fundus Photography (CFP) offers a low-cost and non-invasive route for ischemic heart disease (IHD) screening, but current studies are limited by scarce public benchmarks and ineffective fusion of retinal images with sparse clinical variables. We propose IDNet, a multimodal framework with a...
 
 ### OmniDance: Multimodal Driven Dance Video Generation with Large-scale Internet Data
 - Source: HF Daily Papers
@@ -2500,6 +2530,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/0rkjjs2ssp7z
 - Summary: Jun 28, 20:55 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 28, 20:02 UTC Update - Copilot cloud agent had been experiencing intermittent...
+
+### Learned Coordination Conventions in Cooperative MARL: Measuring the Translation Gap Between Theory-Informed Roles and Learned Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29541
+- Summary: Role-semantic assignments provide priors over how heterogeneous agents may coordinate, but cooperative MARL systems instead settle on conventions through decentralized, non-stationary learning, with no guarantee that the resulting structure matches those priors. We study this translation gap...
 
 ### Artifacts 22: Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem
 - Source: Interconnects
@@ -2986,40 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.26299
 - Summary: arXiv:2606.26299v1 Announce Type: new Abstract: While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics remains a challenge. This paper presents an...
-
-### The Verification Horizon: No Silver Bullet for Coding Agent Rewards
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26300
-- Summary: arXiv:2606.26300v1 Announce Type: new Abstract: A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning capabilities and engineering harnesses grow more...
-
-### Necessary but Not Sufficient: Temperature Control and Reproducibility in LLM-as-Judge Safety Evaluations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26185
-- Summary: arXiv:2606.26185v1 Announce Type: new Abstract: LLM-as-judge ("grader") components are now standard in evaluation harnesses, including safety evaluations where a pass/fail verdict may gate downstream deployment decisions. A widespread assumption is that setting the grader's sampling temperature to...
-
-### Clue-Guided Money Laundering Group Discovery
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26189
-- Summary: arXiv:2606.26189v1 Announce Type: new Abstract: Money Laundering Group Discovery (MLGD) aims to identify hidden criminal groups and recover their complete structures in large-scale financial networks. Existing graph anomaly detection methods mainly produce node-level risk alerts, while global group...
-
-### Federated Hash Projected Latent Factor Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26192
-- Summary: arXiv:2606.26192v1 Announce Type: new Abstract: Hash Learning (HL) is an efficient representation learning approach that maps real-valued data into compact binary representations. Traditional HL methods typically require users to upload personal data to a central server, which is incompatible with...
-
-### Statistical and Structural Approaches to Algorithmic Fairness
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26200
-- Summary: arXiv:2606.26200v1 Announce Type: new Abstract: Modern machine learning systems have outgrown their origins as isolated predictive constructs, evolving into complex socio-technical architectures that actively mediate human opportunity. As algorithms increasingly determine access to economic and...
-
-### Topology-Informed Neural Networks for Flood Detection in Optical and Synthetic Aperture Radar Imagery
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26204
-- Summary: arXiv:2606.26204v1 Announce Type: new Abstract: Floods frequently impact regions around the world. Rapid and accurate flood detection is crucial for emergency response and timely mitigation of human and economic loss. The expanding availability of satellite data and advances in artificial...
 
