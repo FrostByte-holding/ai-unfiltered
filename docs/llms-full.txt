@@ -4,7 +4,40 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-07-05
+
+### Peking University and CAS Develop World's First Neurodynamic Chip Based on Phase-Change Memristors
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/peking-university-cas-neurodynamic-chip-phase-change-memristor-jul2026
+- Summary: A Peking University and CAS team creates the world's first millisecond-level neurodynamic system chip using phase-change memristors, 50-478x faster than NVIDIA A100 for brain modeling.
+
+### China Updates Artificial Sun Timeline: First Nuclear Fusion Power Generation Targeted for 2030
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/china-artificial-sun-nuclear-fusion-2030-first-power-generation-jul2026
+- Summary: China's nuclear fusion project CFETR achieves 100% domestically produced superconducting magnets, setting a new timeline for first fusion power generation by 2030.
+
+### AI Glasses Face the Impossible Triangle: Cost, Performance, Battery Life in Chip Design
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ai-glasses-impossible-triangle-chip-cost-performance-battery-jul2026
+- Summary: AI glasses are entering mass production but face critical chip-level challenges: overheating, latency, and battery life form an impossible triangle that dedicated SoCs must solve.
+
+### Huawei's Tao's Law V2 Paper: Logic Folding to Dramatically Boost Kirin CPU Clock Speeds
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-tao-law-v2-logic-folding-kirin-cpu-clock-speed-jul2026
+- Summary: Huawei's He Tingbo publishes Tao's Law V2 paper detailing LogicFolding, boosting Kirin transistor density 53.5% and paving the way for 4GHz+ CPU frequencies.
+
+
 ## 2026-07-04
+
+### Cloudflare Vectorize Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xg47100zs4zw
+- Summary: Jul 4, 22:47 UTC Resolved - This incident has been resolved. Jul 4, 21:25 UTC Investigating - Cloudflare is investigating issues with the Vectorize service. Customers may receive an "Internal Server Error" (HTTP 500) response when sending requests to a Vectorize index that has been deleted, instead...
 
 ### New users unable to deploy Workers
 - Source: Cloudflare Status
@@ -1007,6 +1040,12 @@
 - URL: https://tldr.takara.ai/p/2607.01630
 - Summary: Dynamic expansion methods for class-incremental learning (CIL) protect task-specific knowledge by growing dedicated tokens or subnetworks, yet our analyses suggest that classification supervision alone does not sufficiently preserve task-agnostic shared backbone representations over long...
 
+### Online Segment 3D Gaussians via Launching Virtual Drones
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01628
+- Summary: Interactive segmentation of 3D Gaussians offers a compelling opportunity for real-time manipulation of 3D scenes, thanks to the real-time rendering capability of 3D Gaussian Splatting (3DGS). However, existing methods require a time-consuming per-scene setup - typically tens of seconds or even...
+
 ### Cloudflare is investigating issues with network performance in ENAM and WNAM, US
 - Source: Cloudflare Status
 - Category: incidents
@@ -1621,6 +1660,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/7ykkywg6yln4
 - Summary: Jun 30, 15:28 UTC Resolved - This incident has been resolved. Jun 30, 14:45 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 30, 14:31 UTC Investigating - We are currently investigating elevated error rates on Opus 4.8. Our team is actively working to identify the...
+
+### Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.31785
+- Summary: Graph-based cardiac segmentation with implicit anatomical correspondences provides topological guarantees and population-level analysis capabilities, but models trained on independent frames of image sequences exhibit temporal discontinuities that affect reliable clinical measurements, particularly...
 
 ### Why Specialization Is Inevitable
 - Source: Hugging Face Blog
@@ -2504,6 +2549,12 @@
 - URL: https://tldr.takara.ai/p/2606.29727
 - Summary: Professional translation is often a team-based process: translators, reviewers, and project managers must coordinate terminology, legal force, and accountability across documents. Yet many LLM-based translation tools treat human corrections as isolated edits. Expert decisions made in one segment or...
 
+### Simplifying Flow Matching Transformations with Low-Rank Mixture Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29724
+- Summary: Normalizing flows are powerful generative models that learn an invertible mapping between complex data distributions and simple latent distributions, typically a standard normal density. However, this choice of latent density can impose unnecessary complexity on the learned flow transformation due...
+
 ### China's Photonic Computing Answer to Space: Lighter, Cooler, Radiation-Immune Alternative to Traditional Chips
 - Source: Pandaily
 - Category: chinese-ai
@@ -2554,6 +2605,18 @@
 
 
 ## 2026-06-28
+
+### Lie Group Diffusion Models for Hardware-Aware Quantum Circuit Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29636
+- Summary: An important task in quantum computing is unitary circuit synthesis compatible with physical hardware constraints. This problem has a natural hybrid structure as local single-qubit gates are continuous variables on the Lie group $SU(2)$ while the entangling circuit structure is discrete and...
+
+### Kriging and neural network models for pressure losses across perforated plates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29628
+- Summary: In this paper, two novel data-driven models based on kriging and neural networks (NN) are proposed to predict pressure losses across perforated plates with circular perforations in turbulent flows. The models are developed using two sets of experimental data available in the literature. The...
 
 ### Disruption with some GitHub services
 - Source: GitHub Status
@@ -2962,64 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2606.26173
 - Summary: arXiv:2606.26173v1 Announce Type: new Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic...
-
-### Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26203
-- Summary: arXiv:2606.26203v1 Announce Type: new Abstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating...
-
-### Physics-guided Convolutional Neural Network for Domain Growth Prediction in Systems with Conserved Kinetics
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26128
-- Summary: arXiv:2606.26128v1 Announce Type: new Abstract: The spatiotemporal evolution of many physical, chemical, and biological systems is described by nonlinear partial differential equations (PDEs). Recently, deep neural network-based surrogate models have gained increasing interest as efficient...
-
-### \chisao{}: A GPU-Native Parallel Optimizer for Multimodal Black-Box Functions via Convergence-Anticonvergence Oscillation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26164
-- Summary: arXiv:2606.26164v1 Announce Type: new Abstract: Finding all modes of a multimodal black-box function is a fundamental challenge in optimization, Bayesian inference, and scientific computing. Existing approaches -- basin-hopping, CMA-ES, multistart gradient descent -- operate sequentially and cannot...
-
-### Implementation of reinforcement learning in chemical reaction networks: application to phototaxis as curiosity-driven exploration
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26168
-- Summary: arXiv:2606.26168v1 Announce Type: new Abstract: Living systems navigate environments using noisy and incomplete sensory signals. In unicellular algae, phototaxis is often modeled as a mechanistic run--tumble process driven by stimulus--response rules. However, such descriptions overlook how...
-
-### Neural Architecture Search for Generative Adversarial Networks: A Comprehensive Review and Critical Analysis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26169
-- Summary: arXiv:2606.26169v1 Announce Type: new Abstract: Neural Architecture Search (NAS) has emerged as a pivotal technique in optimizing the design of Generative Adversarial Networks (GANs), automating the search for effective architectures while addressing the challenges inherent in manual design. This...
-
-### KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2606.26179
-- Summary: arXiv:2606.26179v1 Announce Type: new Abstract: While WGS-based AMR prediction has reached high accuracy, existing models lack a mechanism to ground neural attributions in established biological pathways. We present KG-TRACE, a novel neuro-symbolic framework that integrates the WHO mutation...
-
-### HierBias: Context-Conditioned Hierarchical Media Bias Detection with Multi-Task Type Classification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.26100
-- Summary: arXiv:2606.26100v1 Announce Type: new Abstract: Media bias detection is a critical task for ensuring fair and balanced information dissemination, yet existing sentence-level approaches classify each sentence independently, ignoring inter-sentence contextual signals that human annotators naturally...
-
-### Know2Guess: A Contamination-Aware Multi-Zone Benchmark for Knowledge-Boundary Evaluation in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.26101
-- Summary: arXiv:2606.26101v1 Announce Type: new Abstract: Reliable evaluation of large language models should separate supported answering from unsupported guessing without conflating either with data contamination, prompt idiosyncrasy, or generic refusal behavior. We present a contamination-aware,...
-
-### Helpfulness Hurts: Domain-Dependent Degradation of Mid-Trained Compassion Values Under Post-Training
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.26102
-- Summary: arXiv:2606.26102v1 Announce Type: new Abstract: Standard post-training pipelines apply supervised fine-tuning (SFT) and reinforcement learning (RL) to make language models helpful, but these processes may inadvertently degrade values instilled during pre-training. We investigate whether the domain...
-
-### Investigating LLM's Problem Solving Capability -- a Study on Statics Questions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2606.26103
-- Summary: arXiv:2606.26103v1 Announce Type: new Abstract: Large Language Models (LLMs) have rapidly influenced many aspects of society, particularly education, due to their demonstrated ability to complete assignments and examinations across a wide range of subjects. Although prior studies have examined the...
 
