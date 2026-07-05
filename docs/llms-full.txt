@@ -812,6 +812,12 @@
 - URL: https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/
 - Summary: Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s...
 
+### SAB-LVLM: Significance-Aware Binarization for Large Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01876
+- Summary: Large Vision-Language Models (LVLMs) have achieved remarkable progress in multimodal understanding, yet their enormous parameter scale and cross-modal computation incur substantial memory and latency overhead, severely limiting real-world deployment on resource-constrained devices. Binarization...
+
 ### An Exploratory Study on LLM-Generated Code and Comments in Code Repositories
 - Source: HF Daily Papers
 - Category: open-source
@@ -1222,6 +1228,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
 - Summary: Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and...
+
+### DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01043
+- Summary: Memory-based discrete vision-language navigation (VLN) agents must act under partial observability, yet even strong frozen backbones remain vulnerable at test time. Two common failure modes are stale historical evidence at memory readout and inefficient local backtracking during action selection....
 
 ### EchoRisk: A Multicentre Echocardiography Dataset and Benchmark for Cardio-Oncology
 - Source: HF Daily Papers
@@ -2381,6 +2393,12 @@
 - URL: https://www.securityweek.com/openai-unveils-gpt-5-6-sol-as-its-most-advanced-cybersecurity-ai/
 - Summary: The company says Sol matches competing systems like Mythos Preview while using only a third of the output tokens. The post OpenAI Unveils GPT-5.6 Sol as Its Most Advanced Cybersecurity AI appeared first on SecurityWeek.
 
+### LLM-based Multimodal Personality Recognition via Facial Action Unit-Text Semantic Fusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29900
+- Summary: Personality recognition in asynchronous video interviews (AVIs) has become increasingly important due to their widespread adoption in modern recruitment. Existing approaches often rely on large language models (LLMs) to analyze textual responses of interviewees in AVI. However, unimodel methods...
+
 ### Decision-Value Attribution in Predict-then-Optimize Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2708,6 +2726,12 @@
 
 ## 2026-06-28
 
+### Safety from Honesty in a Disinterested AI Predictor
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29657
+- Summary: As AI systems become more capable, training procedures that optimize for downstream outcomes risk introducing implicit agency: goal-directed behavior that designers never specified. We present a formal safety argument for the Scientist AI (SAI) Predictor, trained to approximate the Bayesian...
+
 ### Lie Group Diffusion Models for Hardware-Aware Quantum Circuit Synthesis
 - Source: HF Daily Papers
 - Category: open-source
@@ -2725,6 +2749,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/0rkjjs2ssp7z
 - Summary: Jun 28, 20:55 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 28, 20:02 UTC Update - Copilot cloud agent had been experiencing intermittent...
+
+### TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29575
+- Summary: Recent advances in speech separation (SS) have led to compact front-end models with small parameter sizes, yet their high computational cost remains a major barrier for deployment on edge devices. To address this, we propose TF-MoE, a sparse Mixture-of-Experts (MoE) framework that enhances model...
 
 ### Learned Coordination Conventions in Cooperative MARL: Measuring the Translation Gap Between Theory-Informed Roles and Learned Routing
 - Source: HF Daily Papers
@@ -2995,34 +3025,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/7twjb50gmsyt
 - Summary: Jun 26, 12:33 UTC Investigating - Cloudflare is investigating 500/2000 errors when customers attempt to upload a new custom certificate. Custom certificates already in production remain unaffected and are operating normally.
-
-### CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited...
-
-### The Download: brain-melting heatwaves and unprecedented OpenAI restrictions
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica Hamzelou It’s been hot in London this week. Really hot. A...
-
-### New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html
-- Summary: DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demonstration for this variant. Tracked as&nbsp;CVE-2026-43503&nbsp;(CVSS 8.8), it lets a local user...
-
-### Guardian Agents: The Next Layer of Identity Governance
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html
-- Summary: AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to govern human access wasn't designed for autonomous actors, and the gap between what enterprises are...
-
-### Linux Foundation Unveils New Open Source Security Project Akrites
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/linux-foundation-unveils-new-open-source-security-project-akrites/
-- Summary: It will provide the tools and channels to report, patch, and disclose open source software vulnerabilities. The post Linux Foundation Unveils New Open Source Security Project Akrites appeared first on SecurityWeek.
 
