@@ -6,6 +6,12 @@
 
 ## 2026-07-05
 
+### Elevated number of errors in Munich, Germany
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/l00dw0ljst7t
+- Summary: Jul 5, 05:35 UTC Resolved - Between 05:07-05:19 UTC customers reaching Munich may have experienced an elevated number of 4XX or 5XX errors. The issue is now resolved
+
 ### Peking University and CAS Develop World's First Neurodynamic Chip Based on Phase-Change Memristors
 - Source: Pandaily
 - Category: chinese-ai
@@ -668,6 +674,12 @@
 - URL: https://tldr.takara.ai/p/2607.02045
 - Summary: The key challenge in articulated 3D object generation from a single image is accurately predicting the underlying kinematic structure. Existing methods either infer kinematic parameters directly from a static image that lacks dynamic part-level kinematic relationships, or estimate parameters from...
 
+### Cross-Platform Control for Autonomous Surface Vehicles via Adaptive Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.02037
+- Summary: Autonomous surface vehicles vary widely in hydrodynamic and actuation characteristics, yet most controllers are designed for single-platform deployment. We present an adaptive reinforcement learning approach for trajectory tracking that enables zero-shot cross-platform deployment using a single...
+
 ### Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm
 - Source: Security Week
 - Category: security
@@ -1114,6 +1126,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/2ymq7qqs6ldk
 - Summary: Jul 1, 23:25 UTC Resolved - This incident has been resolved. Jul 1, 23:18 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 1, 23:00 UTC Identified - Cloudflare has identified an issue impacting users ability to query Workers Observability, users may see empty...
+
+### Hamm-Grams: An Algorithm for Mining Regular Expressions of Bytes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01445
+- Summary: Malware poses a critical and ever-evolving threat, and robust and effective systems for detecting and classifying malware are of essential importance. $n$-grams features are among the common static features used in effective machine learning systems for malware, but these features are inherently...
 
 ### Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
 - Source: The Hacker News
@@ -1602,6 +1620,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/
 - Summary: At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously...
+
+### MG-SpaIR: Multi-grade Sparse-guided Implicit Representation for Training-Data-Free Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.00138
+- Summary: MG-SpaIR is a training-data-free framework for restoring a clean image from a single observation corrupted by a mixture of blur, downsampling, noise, and missing pixels. Building on implicit neural representations (INRs), we introduce a multi-grade coarse-to-fine residual hierarchy that...
 
 ### Network Performance Issues in Phoenix, AZ
 - Source: Cloudflare Status
@@ -2555,6 +2579,12 @@
 - URL: https://tldr.takara.ai/p/2606.29724
 - Summary: Normalizing flows are powerful generative models that learn an invertible mapping between complex data distributions and simple latent distributions, typically a standard normal density. However, this choice of latent density can impose unnecessary complexity on the learned flow transformation due...
 
+### Diagnosing and Mitigating Context Rot in Long-horizon Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29718
+- Summary: Extensive context has become the norm as Large Language Models (LLMs) are increasingly deployed in long-horizon tasks. The concern that increasing context length degrades model capabilities, known as context rot, has become a central issue for these applications. In this paper, we focus on deep...
+
 ### China's Photonic Computing Answer to Space: Lighter, Cooler, Radiation-Immune Alternative to Traditional Chips
 - Source: Pandaily
 - Category: chinese-ai
@@ -2602,6 +2632,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.29664
 - Summary: Geospatial foundation models pretrained on satellite imagery promise broad generalization across remote sensing tasks and regions, but their geographic transferability has not been systematically tested, especially in agriculture applications. This paper presents a controlled benchmark that...
+
+### Diversity is the Strength of the AI Crowd
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29661
+- Summary: Top AI forecasting systems are approaching superforecaster-level accuracy on future world events, but still rely primarily on off-the-shelf LLMs combined with forecasting-specific context gathering and scaffolding. We study how to improve this recipe through ensembling: given a fixed number of...
 
 
 ## 2026-06-28
@@ -2989,40 +3025,4 @@
 - Category: security
 - URL: https://www.securityweek.com/new-enterprise-ready-mcp-specification-brings-new-security-challenges/
 - Summary: A major overhaul of the Model Context Protocol shifts critical security responsibilities from the protocol itself to developers and platform operators. The post New Enterprise-Ready MCP Specification Brings New Security Challenges appeared first on SecurityWeek.
-
-### Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html
-- Summary: The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organizations in Ukraine, and entities that have an interest in Italian foreign policy. Describing the...
-
-### Philip Martin Joins Uber as Chief Information Security Officer
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/philip-martin-joins-uber-as-chief-information-security-officer/
-- Summary: Martin brings experience from Coinbase, Palantir, Amazon, and the U.S. Army to lead Uber's cybersecurity and enterprise security organization. The post Philip Martin Joins Uber as Chief Information Security Officer appeared first on SecurityWeek.
-
-### Detecting and Controlling Sycophancy with Cascading Linear Features
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26155
-- Summary: arXiv:2606.26155v1 Announce Type: new Abstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs determine the degree to which interpretability frameworks...
-
-### Life After Benchmark Saturation: A Case Study of CORE-Bench
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26158
-- Summary: arXiv:2606.26158v1 Announce Type: new Abstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other key dimensions of agent performance: construct...
-
-### Refusal Lives Downstream of Persona in Chat Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26161
-- Summary: arXiv:2606.26161v1 Announce Type: new Abstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they interact: a compliant persona gates refusal. In...
-
-### AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2606.26173
-- Summary: arXiv:2606.26173v1 Announce Type: new Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic...
 
