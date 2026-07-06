@@ -1235,6 +1235,18 @@
 - URL: https://tldr.takara.ai/p/2607.01661
 - Summary: Multi-agent systems are increasingly used for forecasting future events, as deliberation among multiple LLMs is believed to improve reasoning and calibration. Yet existing approaches overlook a critical design choice: what information each agent receives. When all agents are given identical...
 
+### Boosting Ultrasound Image Classification via Attribute-Guided Dual-Branch Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01648
+- Summary: Ultrasound image classification is essential for computer-aided diagnosis. However, current methods often neglect clinical priors, leading to poor generalization in challenging scenarios and a lack of interpretability that limits clinical adoption. To address these issues, we aim to develop a...
+
+### DeadPool: Resilient LLM Training with Hot-Swapping via Zero-Overhead Checkpoint
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01646
+- Summary: State-of-the-art large language model (LLM) training takes tens of thousands of graphics processing units (GPUs) for months and encounters failures across the software and hardware stack. Existing fault-tolerance mechanisms either impose non-trivial overhead during failure-free execution or suffer...
+
 ### DRDN: Decoupled Representation Dynamic Network for From-Scratch ViT Class-Incremental Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -1555,6 +1567,12 @@
 - Category: security
 - URL: https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/
 - Summary: Hackers were seen making over 81 million login attempts originating from systems associated with hosting provider LSHIY. The post Massive Password Spray Campaign Targeting Azure CLI appeared first on SecurityWeek.
+
+### Group-Equivariant Poincaré Convolutional Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.00556
+- Summary: While recent advancements like the Poincaré ResNet have demonstrated the potential of learning visual representations directly in hyperbolic space, their optimisation remains hampered by the computationally intensive nature of Riemannian gradients and the strict boundaries of the manifold....
 
 ### Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
 - Source: The Hacker News
@@ -2618,6 +2636,12 @@
 - URL: https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
 - Summary: Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts. "This attack avoids the most common npm execution paths through lifecycle scripts, perhaps...
 
+### Multi-Level Distributional Entropy for Explainable Network Intrusion Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29797
+- Summary: Machine learning network intrusion detection systems (IDS) rely on aggregate flow statistics that discard distributional structure, while established entropy measures require raw packet sequences unavailable in pre-aggregated flow datasets. We propose Multi-Level Distributional Entropy (MDE), an...
+
 ### Fund2Persona: A Framework for Building and Refining Financial Advisor Personas from Fund Disclosure Data
 - Source: HF Daily Papers
 - Category: open-source
@@ -2993,33 +3017,9 @@
 - URL: https://tldr.takara.ai/p/2606.29403
 - Summary: Conformal prediction guarantees marginal coverage, but pooled calibration averages over heterogeneous regions and can mask regional undercoverage in safety-critical subgroups. We introduce Self-Organized Conformal Prediction (SOCP), a calibration scheme that discovers input-space groups with a...
 
-### Solver-Verified Formulation Generation and Selection for Multi-Warehouse Inventory Allocation Using Large Language Models
+### Cross-Temporal Sinhala OCR: Page-Level Adaptation and Diachronic Analysis
 - Source: HF Daily Papers
 - Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29366
-- Summary: Balance-oriented multi-warehouse inventory allocation is a recurring decision problem in large-scale e-commerce supply chains, in which a fixed replenishment quantity is distributed across warehouses to balance post-allocation inventory coverage while accounting for demand forecasts and...
-
-### Two kinds of robustness are not the same: disentangling fault tolerance and low-SNR robustness in multi-domain event detection on real data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29339
-- Summary: Reliable event detection underpins induced-seismicity monitoring for Carbon dioxide Capture and Storage (CCS) and geothermal operations, distributed acoustic sensing (DAS), and industrial condition monitoring. In each setting a detector must stay reliable both when sensors fail and when the signal...
-
-### Optical Module MCUs Become Critical as AI Data Centers Drive Surge in 800G and 1.6T Demand
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/optical-module-mcu-critical-ai-data-center-800g-1-6t-jun2026
-- Summary: MCU chips for optical modules emerge as a critical semiconductor segment as AI data center buildout drives 800G/1.6T demand, with domestic players GigaDevice and Nations Technologies racing to capture market share.
-
-### China Achieves 100% Domestically Produced Nuclear Fusion Superconducting Magnets in 'Artificial Sun' Breakthrough
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-100-percent-domestic-nuclear-fusion-magnets-artificial-sun-jun2026
-- Summary: China achieves 100% domestic production of two critical superconducting magnets for nuclear fusion reactors, with the world's largest toroidal field magnet and a 60 kA central solenoid coil passing technical validation.
-
-### Peking University and DeepSeek Open-Source DSpark, Delivering Major Leap in LLM Inference Efficiency
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/peking-university-deepseek-dspark-inference-efficiency-jun2026
-- Summary: Peking University and DeepSeek jointly open-source DSpark, a speculative decoding framework that boosts LLM inference speed by 60-85% with up to 661% throughput gain under strict latency constraints.
+- URL: https://tldr.takara.ai/p/2606.29378
+- Summary: Sinhala is a morphologically rich abugida spoken by roughly 16 million people in Sri Lanka, and to date, there are no publicly available real-world datasets for page-level Sinhala OCR. All previous studies for assessing Sinhala OCR models have used artificially generated data. To bridge the gap, we...
 
