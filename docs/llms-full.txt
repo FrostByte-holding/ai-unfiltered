@@ -6,6 +6,30 @@
 
 ## 2026-07-06
 
+### Zero Trust Dashboard onboarding issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/3lbw199nkltj
+- Summary: Jul 6, 08:12 UTC Investigating - Cloudflare is aware of and investigating an issue where some users are currently unable to complete onboarding into Cloudflare Zero Trust or manage Access applications. We are actively working on a resolution.
+
+### Elevated errors on Claude Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/tl8x3p1msff2
+- Summary: Jul 6, 07:36 UTC Investigating - We are currently investigating this issue.
+
+### Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
+- Summary: Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address...
+
+### SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
+- Summary: Scanners meant to catch malicious add-on "skills" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the Hong Kong University of Science and Technology. Their strongest trick slipped past every scanner...
+
 ### Vibrant China Survey: Chinese Companies Going Global Are No Longer Just Shipping Products
 - Source: Pandaily
 - Category: chinese-ai
@@ -35,6 +59,11 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2
 - Summary: SiliconFlow, an AI token supply platform backed by Huawei, Alibaba and Meituan, files for Hong Kong IPO despite negative gross margins and mounting losses.
+
+### 🤗 Kernels: Major Updates
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/revamped-kernels
 
 
 ## 2026-07-05
@@ -1484,6 +1513,12 @@
 - URL: https://www.latent.space/p/aiewf-daily-dispatch-loops
 - Summary: On Tuesday at the AI Engineer World's Fair, there was a lot of talk about loops, agent engineering, and the emergence of software factories. Also a hot topic: open models.
 
+### MedCAGD: Context-Aware Gated Decoder for Efficient Medical Image Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.00409
+- Summary: Medical image segmentation relies on the ability of encoder-decoder architectures to translate rich feature representations into accurate pixel-level predictions under challenging conditions such as low contrast, structural ambiguity, and scale variability. While recent advances in large-scale...
+
 ### What Drives Interactive Improvement from Feedback?
 - Source: arXiv AI
 - Category: research
@@ -2756,6 +2791,12 @@
 - URL: https://tldr.takara.ai/p/2606.29706
 - Summary: Telecom question answering (QA) is a challenging setting for retrieval-augmented generation (RAG): evidence is fragmented across standards, papers, encyclopedic resources, and web documents, and answers often hinge on technical tables, equations, and specialized protocol language. In low-resource...
 
+### Progressive Self-Supervised Learning with Individualized Community Assignment for Brain Network Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29695
+- Summary: Brain networks exhibit a modular community structure that varies across individuals and neurological conditions. However, existing self-supervised learning (SSL) methods often overlook this heterogeneity, relying on generic masking strategies that fail to capture subject-specific functional...
+
 ### Sample-Efficient Learning of Probabilistic Causes for Reachability in Markov Decision Processes with Probabilistic Guarantees
 - Source: HF Daily Papers
 - Category: open-source
@@ -2855,6 +2896,18 @@
 - URL: https://tldr.takara.ai/p/2606.29403
 - Summary: Conformal prediction guarantees marginal coverage, but pooled calibration averages over heterogeneous regions and can mask regional undercoverage in safety-critical subgroups. We introduce Self-Organized Conformal Prediction (SOCP), a calibration scheme that discovers input-space groups with a...
 
+### Solver-Verified Formulation Generation and Selection for Multi-Warehouse Inventory Allocation Using Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29366
+- Summary: Balance-oriented multi-warehouse inventory allocation is a recurring decision problem in large-scale e-commerce supply chains, in which a fixed replenishment quantity is distributed across warehouses to balance post-allocation inventory coverage while accounting for demand forecasts and...
+
+### Two kinds of robustness are not the same: disentangling fault tolerance and low-SNR robustness in multi-domain event detection on real data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29339
+- Summary: Reliable event detection underpins induced-seismicity monitoring for Carbon dioxide Capture and Storage (CCS) and geothermal operations, distributed acoustic sensing (DAS), and industrial condition monitoring. In each setting a detector must stay reliable both when sensors fail and when the signal...
+
 ### Optical Module MCUs Become Critical as AI Data Centers Drive Surge in 800G and 1.6T Demand
 - Source: Pandaily
 - Category: chinese-ai
@@ -2908,6 +2961,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-dspark-generation-speed-post-funding-jun2026
 - Summary: DeepSeek releases DSpark speculative decoding framework, boosting generation speed by 85% in Liang Wenfeng's first paper after the company's $7B funding round.
+
+### Dead-Direction Conditioners: Gauge-Equivariant Preconditioning for Deep Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.29176
+- Summary: A deep network's loss is invariant to continuous symmetries of its parameters: the logit shift, the ReLU rescaling, the LayerNorm scale, the per-head attention rotation. Adam's per-coordinate preconditioner drifts along each symmetry orbit, which pulls the trajectory off the symmetry quotient where...
 
 ### Issues with ChatGPT Windows desktop app
 - Source: OpenAI Status
@@ -2965,67 +3024,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-funding-expansion-hiring-harness
 - Summary: DeepSeek pivots from its 'no funding, no commercialization' stance with a record $7B funding round, plans to double all departments, and launches its Harness AI coding agent team to compete with Anthropic's Claude Code.
-
-### MediaTek Emerges as Major Challenger in Optical Interconnect Chip Market
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/mediatek-optical-interconnect-chip-cpo
-- Summary: MediaTek enters the optical interconnect chip market with CPO technology and Micro LED optical solutions, challenging Broadcom and Marvell's duopoly in the AI data center optical chip sector.
-
-### [AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna
-- Summary: Oddly tiered releases to both OAI and ANT on the same day.
-
-### China's AI Giants Shift From Traffic Bubbles to Real Capabilities as Subsidy Era Ends
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-ai-industry-shift-traffic-to-substance-jun2026
-- Summary: After burning over RMB 4.5 billion on Spring Festival subsidies, China's AI leaders pivot from user acquisition to monetization and technical depth.
-
-### Baidu Consolidates ERNIE Bot Web Portals, But Analysis Says It May Be Too Little, Too Late
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/baidu-ernie-bot-web-portal-consolidation-jun2026
-- Summary: Baidu merges multiple ERNIE web interfaces into one site as ERNIE App DAU falls to ~5 million, raising questions about whether the AI pioneer has lost the native AI entry race.
-
-### Smart Glasses Finally Escape the 'Next Year Is the Year' Trap as Rokid Sees 800% Sales Surge
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/rokid-smart-glasses-ai-wearable-boom-jun2026
-- Summary: Rokid reports 800% smart glasses sales growth as AI-powered wearables reach a tipping point, with the company launching YodaOS as the first dedicated AIOS for glasses.
-
-### BOE Samples Glass-Based Substrates for Advanced Chip Packaging to Domestic Customers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/boe-glass-substrate-advanced-chip-packaging-sampling-jun2026
-- Summary: BOE's glass-based carrier substrates for advanced semiconductor packaging have passed concept verification with multiple domestic clients and entered technical testing.
-
-### vivo Launches X Fold6 With Custom AI Chip and OS, Turning Foldable Into an AI Workstation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/vivo-x-fold6-ai-custom-chip-os-foldable-jun2026
-- Summary: vivo's X Fold6 features a custom Dimensity 9500 chip and OriginOS 6 Fold with 'Parallel Mode' for 5 simultaneous AI tasks, priced from RMB 7,999.
-
-
-## 2026-06-26
-
-### FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html
-- Summary: The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key. Hand it over once, and the attacker can restore the account's backup, read...
-
-### New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
-- Summary: A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking the activity under the moniker StrikeShark, said the campaign...
-
-### Codex Usage Limits Depleting Faster Than Expected
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KW2E6W0503W4NXJNCVAG8V6T
-- Summary: Status: InvestigatingWe are investigating reports that Codex usage limits are being consumed faster than expected.Affected components Codex API (Degraded performance) Codex Web (Degraded performance) CLI (Degraded performance) App (Degraded performance) VS Code extension (Degraded performance)
 
