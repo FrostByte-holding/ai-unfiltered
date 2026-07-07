@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 06 Jul 2026 21:38:17 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 03:37:29 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Claude Tag seeing elevated GitHub operation failures</title>
+            <link>https://status.claude.com/incidents/d23j8s7t8rx2</link>
+            <guid>https://status.claude.com/incidents/d23j8s7t8rx2</guid>
+            <pubDate>Tue, 07 Jul 2026 01:07:51 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/d23j8s7t8rx2">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 6, 21:49 UTC Investigating - We are currently investigating elevated error rates on calls made Claude Tag. Our team is actively working to identify the root cause. You may experience errors such as GitHub operations denied.</description>
+        </item>
+        <item>
+            <title>Durable Objects Increased Error Rate in ENAM</title>
+            <link>https://www.cloudflarestatus.com/incidents/h7jkh4x3rm7n</link>
+            <guid>https://www.cloudflarestatus.com/incidents/h7jkh4x3rm7n</guid>
+            <pubDate>Tue, 07 Jul 2026 00:42:23 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/h7jkh4x3rm7n">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 7, 00:42 UTC Resolved - This incident has been resolved. Jul 6, 23:41 UTC Monitoring - A fix has been implemented and we are currently monitoring the results. Jul 6, 22:56 UTC Identified - Cloudflare has identified issue causing an increase of errors for Durable Objects and downstream services...</description>
+        </item>
         <item>
             <title>LeRobot v0.6.0: Imagine, Evaluate, Improve</title>
             <link>https://huggingface.co/blog/lerobot-release-v060</link>
@@ -27,6 +45,24 @@
             <description>Jul 6, 20:05 UTC Resolved - This issue has been resolved. Jul 6, 19:46 UTC Monitoring - We have applied a fix, and at this time are seeing recovery of Claude.ai and related services such as OAuth log-in for Claude Code. Jul 6, 19:28 UTC Update - We have identified and are working to resolve an...</description>
         </item>
         <item>
+            <title>Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks</title>
+            <link>https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/</link>
+            <guid>https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/</guid>
+            <pubDate>Mon, 06 Jul 2026 19:14:08 +0000</pubDate>
+            <source url="https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/">Security Week</source>
+            <category>security</category>
+            <description>Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in &amp;#8216;Veil#Drop&amp;#8217; Attacks appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations</title>
+            <link>https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html</link>
+            <guid>https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html</guid>
+            <pubDate>Mon, 06 Jul 2026 18:34:26 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html">The Hacker News</source>
+            <category>security</category>
+            <description>An Iranian hacking group affiliated with Iran&#x27;s Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers...</description>
+        </item>
+        <item>
             <title>Your family’s $300 stake in OpenAI</title>
             <link>https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/</link>
             <guid>https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/</guid>
@@ -34,6 +70,24 @@
             <source url="https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/">MIT Tech Review AI</source>
             <category>research</category>
             <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial...</description>
+        </item>
+        <item>
+            <title>16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems</title>
+            <link>https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html</link>
+            <guid>https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html</guid>
+            <pubDate>Mon, 06 Jul 2026 17:37:01 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html">The Hacker News</source>
+            <category>security</category>
+            <description>A use-after-free bug in Linux&#x27;s KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed &#x27;Januscape&#x27; and tracked as&amp;nbsp;CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The...</description>
+        </item>
+        <item>
+            <title>Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure</title>
+            <link>https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html</link>
+            <guid>https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html</guid>
+            <pubDate>Mon, 06 Jul 2026 16:28:59 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html">The Hacker News</source>
+            <category>security</category>
+            <description>Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the &quot;X-WEBAUTH-USER&quot; header...</description>
         </item>
         <item>
             <title>PRX Part 4: Our Data Strategy</title>
@@ -108,22 +162,13 @@
             <description>Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation,...</description>
         </item>
         <item>
-            <title>Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments</title>
-            <link>https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/</link>
-            <guid>https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/</guid>
-            <pubDate>Mon, 06 Jul 2026 11:19:47 +0000</pubDate>
-            <source url="https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/">Security Week</source>
-            <category>security</category>
-            <description>Researchers uncovered two campaigns embedding indirect prompt injections in malicious websites to exploit autonomous AI agents browsing the web. The post Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments appeared first on SecurityWeek.</description>
-        </item>
-        <item>
-            <title>Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT</title>
-            <link>https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html</link>
-            <guid>https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html</guid>
-            <pubDate>Mon, 06 Jul 2026 10:58:16 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html">The Hacker News</source>
-            <category>security</category>
-            <description>A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by...</description>
+            <title>China&#x27;s Tianwen-2 Probe Reaches Target Asteroid After 1 Billion Kilometer Journey</title>
+            <link>https://pandaily.com/tianwen-2-probe-reaches-asteroid-2016-ho3-china-jul2026-v2</link>
+            <guid>https://pandaily.com/tianwen-2-probe-reaches-asteroid-2016-ho3-china-jul2026-v2</guid>
+            <pubDate>Mon, 06 Jul 2026 09:19:15 +0000</pubDate>
+            <source url="https://pandaily.com/tianwen-2-probe-reaches-asteroid-2016-ho3-china-jul2026-v2">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>China&#x27;s Tianwen-2 spacecraft successfully arrives at asteroid 2016 HO3 after a 400-day, 1-billion-kilometer voyage, beginning scientific exploration and sample collection.</description>
         </item>
         <item>
             <title>South Korea’s hottest new bachelors are chip workers</title>
@@ -133,6 +178,42 @@
             <source url="https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to...</description>
+        </item>
+        <item>
+            <title>Hands-On With Alibaba&#x27;s Qwen CosyVoice Input Method: Is Voice Input the Future?</title>
+            <link>https://pandaily.com/qwen-cosyvoice-input-method-voice-input-future-jul2026-v2</link>
+            <guid>https://pandaily.com/qwen-cosyvoice-input-method-voice-input-future-jul2026-v2</guid>
+            <pubDate>Mon, 06 Jul 2026 08:30:39 +0000</pubDate>
+            <source url="https://pandaily.com/qwen-cosyvoice-input-method-voice-input-future-jul2026-v2">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Alibaba&#x27;s Qwen launches CosyVoice input method app with AI-powered voice input, achieving near-100% English recognition accuracy and intelligent text polishing via large model integration.</description>
+        </item>
+        <item>
+            <title>Doubao and Qwen Shut Down the Agent Hype They Spent Two Years Building</title>
+            <link>https://pandaily.com/doubao-qwen-sunset-ai-agents-hype-follows-jul2026-v2</link>
+            <guid>https://pandaily.com/doubao-qwen-sunset-ai-agents-hype-follows-jul2026-v2</guid>
+            <pubDate>Mon, 06 Jul 2026 08:30:36 +0000</pubDate>
+            <source url="https://pandaily.com/doubao-qwen-sunset-ai-agents-hype-follows-jul2026-v2">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>ByteDance&#x27;s Doubao and Alibaba&#x27;s Qwen sunset AI agent features as regulatory compliance and poor monetization economics force a strategic retreat from consumer AI agents.</description>
+        </item>
+        <item>
+            <title>ICML 2026: Can You Trust the Orchestrator? Entropy Dynamics Reveal Multi-Agent System Vulnerabilities</title>
+            <link>https://pandaily.com/icml-2026-orchestrator-entropy-dynamics-multi-agent-systems-jul2026-v2</link>
+            <guid>https://pandaily.com/icml-2026-orchestrator-entropy-dynamics-multi-agent-systems-jul2026-v2</guid>
+            <pubDate>Mon, 06 Jul 2026 08:30:31 +0000</pubDate>
+            <source url="https://pandaily.com/icml-2026-orchestrator-entropy-dynamics-multi-agent-systems-jul2026-v2">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Nanjing University&#x27;s ICML 2026 paper shows multi-agent system failures originate from the orchestrator, not individual agents, using entropy dynamics to diagnose degradation.</description>
+        </item>
+        <item>
+            <title>Tencent Hunyuan Hy3 Officially Launches: Pragmatic AI with 90% Agent Task Resolution Rate</title>
+            <link>https://pandaily.com/tencent-hunyuan-hy3-launch-agent-90-percent-task-resolution-jul2026-v2</link>
+            <guid>https://pandaily.com/tencent-hunyuan-hy3-launch-agent-90-percent-task-resolution-jul2026-v2</guid>
+            <pubDate>Mon, 06 Jul 2026 08:30:21 +0000</pubDate>
+            <source url="https://pandaily.com/tencent-hunyuan-hy3-launch-agent-90-percent-task-resolution-jul2026-v2">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Tencent releases Hunyuan Hy3, a 295B MoE model with 21B active parameters, achieving 90% agent task resolution and surpassing DeepSeek V4 Pro and Qwen 3.7 Max on key benchmarks.</description>
         </item>
         <item>
             <title>Zero Trust Dashboard onboarding issues</title>
@@ -151,69 +232,6 @@
             <source url="https://status.claude.com/incidents/tl8x3p1msff2">Anthropic Status</source>
             <category>incidents</category>
             <description>Jul 6, 07:36 UTC Investigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages</title>
-            <link>https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html</link>
-            <guid>https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html</guid>
-            <pubDate>Mon, 06 Jul 2026 07:27:50 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html">The Hacker News</source>
-            <category>security</category>
-            <description>Researchers found a flaw in&amp;nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user&#x27;s full Gmail address...</description>
-        </item>
-        <item>
-            <title>SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing</title>
-            <link>https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html</link>
-            <guid>https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html</guid>
-            <pubDate>Mon, 06 Jul 2026 06:33:56 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html">The Hacker News</source>
-            <category>security</category>
-            <description>Scanners meant to catch malicious add-on &quot;skills&quot; for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&amp;nbsp;new study&amp;nbsp;from researchers at the Hong Kong University of Science and Technology. Their strongest trick slipped past every scanner...</description>
-        </item>
-        <item>
-            <title>Vibrant China Survey: Chinese Companies Going Global Are No Longer Just Shipping Products</title>
-            <link>https://pandaily.com/chinese-companies-going-global-beyond-products-xag-tcl-ado-jul2026-v2</link>
-            <guid>https://pandaily.com/chinese-companies-going-global-beyond-products-xag-tcl-ado-jul2026-v2</guid>
-            <pubDate>Mon, 06 Jul 2026 02:11:49 +0000</pubDate>
-            <source url="https://pandaily.com/chinese-companies-going-global-beyond-products-xag-tcl-ado-jul2026-v2">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>From XAG agricultural drones reshaping US farms to TCL&#x27;s Mini LED TVs and ADO e-bikes building European communities, Chinese companies now export entire operating systems.</description>
-        </item>
-        <item>
-            <title>HeyGears Steps Beyond Dental 3D Printing, Takes Aim at Bambu Lab&#x27;s Consumer Market Turf</title>
-            <link>https://pandaily.com/heygears-dental-3d-printing-consumer-market-bambu-lab-jul2026-v2</link>
-            <guid>https://pandaily.com/heygears-dental-3d-printing-consumer-market-bambu-lab-jul2026-v2</guid>
-            <pubDate>Mon, 06 Jul 2026 02:11:42 +0000</pubDate>
-            <source url="https://pandaily.com/heygears-dental-3d-printing-consumer-market-bambu-lab-jul2026-v2">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>HeyGears, dominating 60% of China&#x27;s dental 3D printing market, launches consumer-grade products with full-color resin printing, challenging Bambu Lab&#x27;s FDM dominance.</description>
-        </item>
-        <item>
-            <title>Huawei Updates Tao&#x27;s Law Paper, Discloses Detailed LogicFolding Process Parameters for First Time</title>
-            <link>https://pandaily.com/huawei-tao-law-v2-logic-folding-process-parameters-jul2026-v2</link>
-            <guid>https://pandaily.com/huawei-tao-law-v2-logic-folding-process-parameters-jul2026-v2</guid>
-            <pubDate>Mon, 06 Jul 2026 02:11:36 +0000</pubDate>
-            <source url="https://pandaily.com/huawei-tao-law-v2-logic-folding-process-parameters-jul2026-v2">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Huawei&#x27;s V2 Tao&#x27;s Law paper reveals Kirin 2026 achieves 41% power reduction at equal performance, sets 5GHz target by 2031, and details gear ratio and bonding parameters.</description>
-        </item>
-        <item>
-            <title>Li Auto&#x27;s Chip Gambit: A Bold Bet on Dataflow Architecture for Self-Driving AI</title>
-            <link>https://pandaily.com/li-auto-mach-m100-chip-dataflow-architecture-jul2026-v2</link>
-            <guid>https://pandaily.com/li-auto-mach-m100-chip-dataflow-architecture-jul2026-v2</guid>
-            <pubDate>Mon, 06 Jul 2026 02:11:29 +0000</pubDate>
-            <source url="https://pandaily.com/li-auto-mach-m100-chip-dataflow-architecture-jul2026-v2">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Li Auto&#x27;s self-developed Mach M100 chip delivers 1280 TOPS with a unique dynamic dataflow architecture, a contrarian bet against NVIDIA&#x27;s GPU dominance.</description>
-        </item>
-        <item>
-            <title>Chased by Huawei, Alibaba, and Meituan, AI Infrastructure Firm SiliconFlow Races Toward IPO</title>
-            <link>https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2</link>
-            <guid>https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2</guid>
-            <pubDate>Mon, 06 Jul 2026 02:11:23 +0000</pubDate>
-            <source url="https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>SiliconFlow, an AI token supply platform backed by Huawei, Alibaba and Meituan, files for Hong Kong IPO despite negative gross margins and mounting losses.</description>
         </item>
         <item>
             <title>🤗 Kernels: Major Updates</title>
@@ -259,15 +277,6 @@
             <source url="https://status.claude.com/incidents/c0052w6jxl47">Anthropic Status</source>
             <category>incidents</category>
             <description>Jul 4, 00:20 UTC Resolved - This incident has been resolved. Jul 4, 00:19 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 3, 23:42 UTC Investigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Free WARP and WARP+ new registrations</title>
-            <link>https://www.cloudflarestatus.com/incidents/b05w8s2wh109</link>
-            <guid>https://www.cloudflarestatus.com/incidents/b05w8s2wh109</guid>
-            <pubDate>Fri, 03 Jul 2026 22:57:09 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/b05w8s2wh109">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 3, 22:57 UTC Resolved - This incident has been resolved. Jul 3, 21:57 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 3, 21:46 UTC Identified - The issue has been identified and a fix is being implemented. Jul 3, 21:18 UTC Investigating - Cloudflare is...</description>
         </item>
         <item>
             <title>Elevated errors on Claude Fable 5 and Claude Mythos 5</title>
@@ -448,15 +457,6 @@
             <source url="https://arxiv.org/abs/2607.01239">arXiv NLP</source>
             <category>research</category>
             <description>arXiv:2607.01239v1 Announce Type: new Abstract: Character-level perturbations bypass safety alignment in modern LLMs despite leaving prompts human-readable. We identify and test a central structural mechanism: BPE tokenization fragments safety-critical words into sub-word pieces, and the three...</description>
-        </item>
-        <item>
-            <title>Vercel&#x27;s Andrew Qu on why agents are a new kind of software</title>
-            <link>https://www.latent.space/p/vercel-agents-new-software</link>
-            <guid>https://www.latent.space/p/vercel-agents-new-software</guid>
-            <pubDate>Fri, 03 Jul 2026 00:08:18 +0000</pubDate>
-            <source url="https://www.latent.space/p/vercel-agents-new-software">Latent Space</source>
-            <category>open-source</category>
-            <description>The Vercel Chief of Software explains how its agent framework, eve, was created &amp;#8212; and why skills, sandboxes and agent-readable websites now matter.</description>
         </item>
     </channel>
 </rss>

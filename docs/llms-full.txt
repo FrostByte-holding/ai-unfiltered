@@ -6,6 +6,18 @@
 
 ## 2026-07-07
 
+### Claude Tag seeing elevated GitHub operation failures
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/d23j8s7t8rx2
+- Summary: Jul 6, 21:49 UTC Investigating - We are currently investigating elevated error rates on calls made Claude Tag. Our team is actively working to identify the root cause. You may experience errors such as GitHub operations denied.
+
+### Durable Objects Increased Error Rate in ENAM
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h7jkh4x3rm7n
+- Summary: Jul 7, 00:42 UTC Resolved - This incident has been resolved. Jul 6, 23:41 UTC Monitoring - A fix has been implemented and we are currently monitoring the results. Jul 6, 22:56 UTC Identified - Cloudflare has identified issue causing an increase of errors for Durable Objects and downstream services...
+
 ### LeRobot v0.6.0: Imagine, Evaluate, Improve
 - Source: Hugging Face Blog
 - Category: open-source
@@ -20,11 +32,35 @@
 - URL: https://status.claude.com/incidents/k5yvlfppnp4f
 - Summary: Jul 6, 20:05 UTC Resolved - This issue has been resolved. Jul 6, 19:46 UTC Monitoring - We have applied a fix, and at this time are seeing recovery of Claude.ai and related services such as OAuth log-in for Claude Code. Jul 6, 19:28 UTC Update - We have identified and are working to resolve an...
 
+### Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/
+- Summary: Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in &#8216;Veil#Drop&#8217; Attacks appeared first on SecurityWeek.
+
+### Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
+- Summary: An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers...
+
 ### Your family’s $300 stake in OpenAI
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial...
+
+### 16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html
+- Summary: A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as&nbsp;CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The...
+
+### Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
+- Summary: Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the "X-WEBAUTH-USER" header...
 
 ### PRX Part 4: Our Data Strategy
 - Source: Hugging Face Blog
@@ -85,11 +121,53 @@
 - URL: https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html
 - Summary: A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by...
 
+### China's Tianwen-2 Probe Reaches Target Asteroid After 1 Billion Kilometer Journey
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/tianwen-2-probe-reaches-asteroid-2016-ho3-china-jul2026-v2
+- Summary: China's Tianwen-2 spacecraft successfully arrives at asteroid 2016 HO3 after a 400-day, 1-billion-kilometer voyage, beginning scientific exploration and sample collection.
+
 ### South Korea’s hottest new bachelors are chip workers
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/
 - Summary: Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to...
+
+### New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+- Summary: Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby...
+
+### Hands-On With Alibaba's Qwen CosyVoice Input Method: Is Voice Input the Future?
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/qwen-cosyvoice-input-method-voice-input-future-jul2026-v2
+- Summary: Alibaba's Qwen launches CosyVoice input method app with AI-powered voice input, achieving near-100% English recognition accuracy and intelligent text polishing via large model integration.
+
+### Doubao and Qwen Shut Down the Agent Hype They Spent Two Years Building
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/doubao-qwen-sunset-ai-agents-hype-follows-jul2026-v2
+- Summary: ByteDance's Doubao and Alibaba's Qwen sunset AI agent features as regulatory compliance and poor monetization economics force a strategic retreat from consumer AI agents.
+
+### ICML 2026: Can You Trust the Orchestrator? Entropy Dynamics Reveal Multi-Agent System Vulnerabilities
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/icml-2026-orchestrator-entropy-dynamics-multi-agent-systems-jul2026-v2
+- Summary: Nanjing University's ICML 2026 paper shows multi-agent system failures originate from the orchestrator, not individual agents, using entropy dynamics to diagnose degradation.
+
+### Tencent Hunyuan Hy3 Officially Launches: Pragmatic AI with 90% Agent Task Resolution Rate
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/tencent-hunyuan-hy3-launch-agent-90-percent-task-resolution-jul2026-v2
+- Summary: Tencent releases Hunyuan Hy3, a 295B MoE model with 21B active parameters, achieving 90% agent task resolution and surpassing DeepSeek V4 Pro and Qwen 3.7 Max on key benchmarks.
+
+### New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
+- Summary: Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere...
 
 ### Zero Trust Dashboard onboarding issues
 - Source: Cloudflare Status
@@ -971,6 +1049,18 @@
 - URL: https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/
 - Summary: Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s...
 
+### FoundDP: Revisiting Weak Disparity Observability in Dual-Pixel Depth Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01900
+- Summary: Dual-pixel (DP) imaging enables metric depth estimation from a single camera using sub-aperture disparity. However, the extremely small effective baseline limits disparity observability, leading to structural degradation and depth failure in textureless, low-contrast, or downsampled regions....
+
+### Learning the Supports for Categorical Critic in Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.01880
+- Summary: Value functions are an essential component in actor-critic based deep reinforcement learning (RL). Conventionally, these functions are trained as a regression task by minimising the mean squared error (MSE) relative to bootstrapped target values. Meanwhile, in distributional RL, a distribution of...
+
 ### SAB-LVLM: Significance-Aware Binarization for Large Vision-Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1616,6 +1706,12 @@
 - URL: https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
 - Summary: Anthropic is putting Claude Fable 5 back online worldwide. On&nbsp;June 30, the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling Mythos 5 about two and a half weeks earlier. Fable 5 returns to users on Wednesday, July 1, across...
 
+### Prior-Anchored Debiasing for Long-Tailed Multi-Organ Pathology Report Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.00499
+- Summary: Automated pathology report generation from Whole Slide Images (WSIs) has attracted increasing attention in digital pathology. However, existing methods are predominantly developed under single-organ settings, overlooking the multi-organ scenarios encountered in clinical practice, where organ types...
+
 ### Google Patches 382 Chrome Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -1947,6 +2043,12 @@
 - URL: https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/
 - Summary: Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will they really work? Watch a conversation exploring longevity&#8217;s new focus....
 
+### Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.31916
+- Summary: Theory of Mind (ToM) benchmarks for Large Language Models (LLMs) typically rely on passive question-answering formats, but the deployment of LLMs in increasingly agentic and autonomous forms demands new evaluations. In this paper we evaluate an agent's ability to induce specific belief states in...
+
 ### Start building with Nano Banana 2 Lite and Gemini Omni Flash
 - Source: DeepMind Blog
 - Category: research
@@ -2064,6 +2166,12 @@
 - Category: security
 - URL: https://www.securityweek.com/supreme-court-rules-constitutional-privacy-protections-apply-to-cellphone-users-location-history/
 - Summary: The ruling was made in the case of a bank robber whose identity was discovered through a geofence warrant. The post Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users&#8217; Location History appeared first on SecurityWeek.
+
+### Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2606.31473
+- Summary: This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration. A circular-statistics-based von Mises (VM) ensemble (ENS) is compared with an evidential deep learning...
 
 ### Building tech in the world’s secret R&D hub
 - Source: MIT Tech Review AI
@@ -2911,115 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.29718
 - Summary: Extensive context has become the norm as Large Language Models (LLMs) are increasingly deployed in long-horizon tasks. The concern that increasing context length degrades model capabilities, known as context rot, has become a central issue for these applications. In this paper, we focus on deep...
-
-### China's Photonic Computing Answer to Space: Lighter, Cooler, Radiation-Immune Alternative to Traditional Chips
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-photonic-computing-space-satellite-alternative-jun2026
-- Summary: Guangbenwei Technology and Dongfang Tianxuan launch the world's first space-based photonic computing satellite, using light instead of electrons to overcome radiation, heat, and power constraints.
-
-### Space Solar Power Station Written into China's 15th Five-Year Plan, Three Technical Paths Mapped Out
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/space-solar-power-station-15th-five-year-plan-jun2026
-- Summary: China's space solar power station initiative enters national planning for the first time, with three technology roadmaps converging around energy materials, wireless transmission, and orbital infrastructure.
-
-### vivo X Fold6 Ushers in Second Evolution of Foldables with AI-Powered Workstation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/vivo-x-fold6-ai-workstation-foldable-evolution-jun2026
-- Summary: vivo launches the X Fold6 featuring the industry's first foldable-optimized AI operating system, transforming the large-screen experience from single-app use to multi-window AI task workflows.
-
-### China Mobile's 03 Satellite Set for Launch as LEO Direct-Connect Satellite Race Intensifies
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-mobile-03-satellite-leo-direct-connect-jun2026
-- Summary: China Mobile's next-generation 03 test satellite with on-board base station capabilities is poised for launch, as China's three major telecom operators accelerate their low-earth orbit direct-connect satellite race.
-
-### China's Aerospace-Grade Carbon Fiber Breaks Free from Foreign Dependency with Major Production Expansion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-aerospace-carbon-fiber-production-expansion-jun2026
-- Summary: Zhongfu Shenying opens three high-performance carbon fiber production lines in Lianyungang, reducing China's dependence on Japanese Toray and US suppliers for critical aerospace materials.
-
-### ARMOR: Adaptive Retriever Optimization for Low-Resource Telecom Question Answering
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29706
-- Summary: Telecom question answering (QA) is a challenging setting for retrieval-augmented generation (RAG): evidence is fragmented across standards, papers, encyclopedic resources, and web documents, and answers often hinge on technical tables, equations, and specialized protocol language. In low-resource...
-
-### Progressive Self-Supervised Learning with Individualized Community Assignment for Brain Network Analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29695
-- Summary: Brain networks exhibit a modular community structure that varies across individuals and neurological conditions. However, existing self-supervised learning (SSL) methods often overlook this heterogeneity, relying on generic masking strategies that fail to capture subject-specific functional...
-
-### Sample-Efficient Learning of Probabilistic Causes for Reachability in Markov Decision Processes with Probabilistic Guarantees
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29681
-- Summary: Probabilistic model checking for Markov decision processes (MDPs) provides quantitative guarantees, but often offers limited insight into why undesired outcomes occur. Probability-raising (PR) causality addresses this by identifying states whose visitation increases the probability of reaching...
-
-### Benchmarking Geospatial Foundation Models for Agriculture Applications
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29664
-- Summary: Geospatial foundation models pretrained on satellite imagery promise broad generalization across remote sensing tasks and regions, but their geographic transferability has not been systematically tested, especially in agriculture applications. This paper presents a controlled benchmark that...
-
-### Diversity is the Strength of the AI Crowd
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29661
-- Summary: Top AI forecasting systems are approaching superforecaster-level accuracy on future world events, but still rely primarily on off-the-shelf LLMs combined with forecasting-specific context gathering and scaffolding. We study how to improve this recipe through ensembling: given a fixed number of...
-
-
-## 2026-06-28
-
-### Safety from Honesty in a Disinterested AI Predictor
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29657
-- Summary: As AI systems become more capable, training procedures that optimize for downstream outcomes risk introducing implicit agency: goal-directed behavior that designers never specified. We present a formal safety argument for the Scientist AI (SAI) Predictor, trained to approximate the Bayesian...
-
-### Lie Group Diffusion Models for Hardware-Aware Quantum Circuit Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29636
-- Summary: An important task in quantum computing is unitary circuit synthesis compatible with physical hardware constraints. This problem has a natural hybrid structure as local single-qubit gates are continuous variables on the Lie group $SU(2)$ while the entangling circuit structure is discrete and...
-
-### Kriging and neural network models for pressure losses across perforated plates
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29628
-- Summary: In this paper, two novel data-driven models based on kriging and neural networks (NN) are proposed to predict pressure losses across perforated plates with circular perforations in turbulent flows. The models are developed using two sets of experimental data available in the literature. The...
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/0rkjjs2ssp7z
-- Summary: Jun 28, 20:55 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 28, 20:02 UTC Update - Copilot cloud agent had been experiencing intermittent...
-
-### TF-MoE: Time-Frequency Mixture-of-Experts for Efficient Speech Separation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29575
-- Summary: Recent advances in speech separation (SS) have led to compact front-end models with small parameter sizes, yet their high computational cost remains a major barrier for deployment on edge devices. To address this, we propose TF-MoE, a sparse Mixture-of-Experts (MoE) framework that enhances model...
-
-### Anisotropy Decides Cosine vs. Rank Metrics for Text Embeddings
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29571
-- Summary: The standard way to compare two text embeddings is cosine similarity. Scattered studies report that a different metric does better, but never pin down the geometric condition that decides when, or why. We settle both with a comprehensive empirical study: nineteen parameter-free similarity metrics...
-
-### Learned Coordination Conventions in Cooperative MARL: Measuring the Translation Gap Between Theory-Informed Roles and Learned Routing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29541
-- Summary: Role-semantic assignments provide priors over how heterogeneous agents may coordinate, but cooperative MARL systems instead settle on conventions through decentralized, non-stationary learning, with no guarantee that the resulting structure matches those priors. We study this translation gap...
-
-### Harvesting AI Computation at the Edge via Generic Approximation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29518
-- Summary: With the widespread adoption of AI in various IoT scenarios such as smart sensing and processing, AI chips have become a common component at the edge. These chips are typically specialized for structured neural network (NN) processing and are designed to meet peak workload demands. However, they...
 
