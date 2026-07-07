@@ -6,6 +6,17 @@
 
 ## 2026-07-07
 
+### From Hugging Face to Amazon SageMaker Studio in one click
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio
+
+### Elevated errors for some models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/l9zyw879cyd6
+- Summary: Jul 7, 20:28 UTC Identified - We have seen success rates return to normal, but we are continuing to work to fully resolve this issue and ensure no further recurrences. Jul 7, 20:02 UTC Investigating - We are investigating elevated errors on requests to some models. We will provide an update as soon...
+
 ### Cloudflare Registrar operations issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -304,6 +315,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/lerobot-release-v060
 
+### Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/skypilot-hf-storage
+
 
 ## 2026-07-06
 
@@ -343,6 +359,12 @@
 - URL: https://tldr.takara.ai/p/2607.05316
 - Summary: Large language models generate one token at a time, yet their responses show remarkably consistent length structure: step-by-step solutions converge in predictable token counts, retrievals stop after a few sentences, retractions extend responses by measurable amounts. We ask whether the model...
 
+### Deep Learning for Semen Analysis in Male Infertility: Computer Vision, Multimodal Fusion, and Clinical Translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05311
+- Summary: Male infertility contributes substantially to the global infertility burden, and sperm analysis remains central to diagnosis, treatment planning, and assisted reproductive technology. Conventional semen evaluation, however, is labor-intensive, operator-dependent, and limited by inter- and...
+
 ### Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
 - Source: The Hacker News
 - Category: security
@@ -355,6 +377,12 @@
 - URL: https://tldr.takara.ai/p/2607.05274
 - Summary: Training-free concept erasure is an attractive mechanism for controlling text-to-image diffusion models, but precise erasure often comes at the cost of damaging semantically related non-target concepts. Existing value-space methods remove the component of each cross-attention value along the target...
 
+### Video-based detection of cessation of breathing in pre-term infants using machine learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05230
+- Summary: Pre-term infants are susceptible to potentially harmful apnoea-related cessations of breathing due to immature respiratory control. However, reliable respiratory monitoring in the neonatal intensive care unit (NICU) remains challenging because motion artefacts, sensor displacement, and skin...
+
 ### PRX Part 4: Our Data Strategy
 - Source: Hugging Face Blog
 - Category: open-source
@@ -365,6 +393,12 @@
 - Category: security
 - URL: https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/
 - Summary: Moving from isolated, technical data to a continuous risk lifecycle can help organizations align security controls with actual business consequences. The post The Shift Toward Business-Aligned Risk Management appeared first on SecurityWeek.
+
+### EvoAgentBench: Benchmarking Agent Self-Evolution via Ability Transfer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05202
+- Summary: Agent self-evolution in long-horizon LLM systems is largely procedural: useful experience is not merely stored information, but reusable procedures for searching, debugging, and verification. Yet current evaluations do not isolate this form of transfer. Agent benchmarks test single-episode task...
 
 ### Armored Likho APT Targeting Government, Electric Power Entities
 - Source: Security Week
@@ -516,6 +550,12 @@
 - URL: https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
 - Summary: Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address...
 
+### Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04728
+- Summary: Reinforcement learning (RL) post-training for large language models (LLMs) follows a efficient paradigm of "rollout then update", which inevitably results in off-policy training data. To resolve this, Importance sampling (IS) is proposed, while the token-level ratios compound over long sequences,...
+
 ### Dashboard2Code: Evaluating Multimodal Models on Reconstructing Interactive Dashboards
 - Source: HF Daily Papers
 - Category: open-source
@@ -545,6 +585,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.04636
 - Summary: Key Information Extraction (KIE) converts visually rich documents into structured data, but practical deployment remains challenging: strong performance often relies on costly on-server Large Multimodal Models (LMMs), while compact locally deployable models lack sufficient KIE supervision. We...
+
+### Hierarchical Evidence-Driven Reasoning for Long Document Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04625
+- Summary: Retrieval-Augmented Generation (RAG) streamlines long-document understanding by leveraging retrieval mechanisms to restrict input images to a highly curated subset. However, existing multimodal RAG pipelines primarily face two critical challenges: first, standard semantic similarity retrievers...
 
 ### Do All Visual Tokens Matter Equally? Object-Evidence Preserving Token Merging for Vision-Language Retrieval
 - Source: HF Daily Papers
@@ -2970,52 +3016,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html
 - Summary: New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Uni-App. The templates power bogus cryptocurrency exchanges, multi-language...
-
-### Why Post-Quantum Cryptography Starts With Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html
-- Summary: Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryptography or RSA, quantum hardware is advancing rapidly and...
-
-### Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html
-- Summary: A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slovakian cybersecurity company ESET said it observed 35 distinct spear-phishing campaigns mounted by Gamaredon against new...
-
-### Physically-Constrained Harmonic Separation for Robust Heart and Respiratory Rate Estimation from Wrist Photoplethysmography
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30156
-- Summary: Wrist-worn photoplethysmography (PPG) enables continuous monitoring of cardiopulmonary physiology, but reliable heart rate (HR) and respiratory rate (RR) estimation in free-living conditions remains challenging due to non-stationary motion artifacts that spectrally overlap with physiological...
-
-### ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/
-- Summary: A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post &#8216;DirtyClone&#8217; Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek.
-
-### Automating the Design of Embodied AgentArchitectures
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30111
-- Summary: Embodied agents are typically built as hand-designed compositions of perception, memory, planning, and action modules. This modularity exposes a large architectural design space, but current systems still rely on researcher intuition to choose where information is stored, how observations are...
-
-### LETT-NeXt: A Lightweight RECIST-Guided Model for 3D CT Lesion Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30108
-- Summary: RECIST diameter measurements are widely used for tumor response assessment, but they provide only a limited 2D description of lesion extent. We present LETT-NeXt, a lightweight RECIST-guided model that predicts 3D lesion masks from CT volumes and RECIST markers for the CVPR 2026 Foundation Models...
-
-### SIR: Structured Image Representations for Explainable Robot Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30101
-- Summary: Existing robot policies based on learned visual embeddings lack explicit structure and are sensitive to visual distractions. Thus, the representations that drive their behaviour are often opaque, making their decision-making process difficult to interpret. To address this, we introduce Structured...
-
-### Information Dynamics of Language Communication
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30096
-- Summary: Quantifying how meaning propagates through communicative exchanges remains underdeveloped in computational linguistics. Here we introduce an information-theoretic framework that quantifies the directed flow of semantic content between interlocutors and decomposes multi-source contributions into...
 

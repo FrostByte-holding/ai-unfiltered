@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 07 Jul 2026 18:01:38 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 21:26:26 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>From Hugging Face to Amazon SageMaker Studio in one click</title>
+            <link>https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio</link>
+            <guid>https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio</guid>
+            <pubDate>Tue, 07 Jul 2026 21:15:33 +0000</pubDate>
+            <source url="https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Elevated errors for some models</title>
+            <link>https://status.claude.com/incidents/l9zyw879cyd6</link>
+            <guid>https://status.claude.com/incidents/l9zyw879cyd6</guid>
+            <pubDate>Tue, 07 Jul 2026 20:28:40 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/l9zyw879cyd6">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 7, 20:28 UTC Identified - We have seen success rates return to normal, but we are continuing to work to fully resolve this issue and ensure no further recurrences. Jul 7, 20:02 UTC Investigating - We are investigating elevated errors on requests to some models. We will provide an update as soon...</description>
+        </item>
         <item>
             <title>Cloudflare Registrar operations issues</title>
             <link>https://www.cloudflarestatus.com/incidents/df7h7wy1ss1n</link>
@@ -414,6 +432,15 @@
             <description></description>
         </item>
         <item>
+            <title>Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot</title>
+            <link>https://huggingface.co/blog/skypilot-hf-storage</link>
+            <guid>https://huggingface.co/blog/skypilot-hf-storage</guid>
+            <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+            <source url="https://huggingface.co/blog/skypilot-hf-storage">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
             <title>Elevated errors on Claude.ai</title>
             <link>https://status.claude.com/incidents/k5yvlfppnp4f</link>
             <guid>https://status.claude.com/incidents/k5yvlfppnp4f</guid>
@@ -430,33 +457,6 @@
             <source url="https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/">MIT Tech Review AI</source>
             <category>research</category>
             <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial...</description>
-        </item>
-        <item>
-            <title>How Much is Left? LLMs Linearly Encode Their Remaining Output Length</title>
-            <link>https://tldr.takara.ai/p/2607.05316</link>
-            <guid>https://tldr.takara.ai/p/2607.05316</guid>
-            <pubDate>Mon, 06 Jul 2026 16:56:04 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.05316">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large language models generate one token at a time, yet their responses show remarkably consistent length structure: step-by-step solutions converge in predictable token counts, retrievals stop after a few sentences, retractions extend responses by measurable amounts. We ask whether the model...</description>
-        </item>
-        <item>
-            <title>Erasing Without Collateral Damage: Precise Concept Removal in Diffusion Models</title>
-            <link>https://tldr.takara.ai/p/2607.05274</link>
-            <guid>https://tldr.takara.ai/p/2607.05274</guid>
-            <pubDate>Mon, 06 Jul 2026 16:21:09 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.05274">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Training-free concept erasure is an attractive mechanism for controlling text-to-image diffusion models, but precise erasure often comes at the cost of damaging semantically related non-target concepts. Existing value-space methods remove the component of each cross-attention value along the target...</description>
-        </item>
-        <item>
-            <title>PRX Part 4: Our Data Strategy</title>
-            <link>https://huggingface.co/blog/Photoroom/prx-part4-data</link>
-            <guid>https://huggingface.co/blog/Photoroom/prx-part4-data</guid>
-            <pubDate>Mon, 06 Jul 2026 15:30:55 +0000</pubDate>
-            <source url="https://huggingface.co/blog/Photoroom/prx-part4-data">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
         </item>
     </channel>
 </rss>
