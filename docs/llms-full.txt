@@ -6,11 +6,28 @@
 
 ## 2026-07-07
 
+### Cloudflare Registrar operations issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/df7h7wy1ss1n
+- Summary: Jul 7, 17:49 UTC Resolved - This incident has been resolved. Jul 7, 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue with Cloudflare Registrar that may prevent customers from registering, renewing, updating and transferring domains.Further detail will be provided as more...
+
+### Hugging Face Models on Foundry Managed Compute
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/microsoft/foundry-managed-compute
+
 ### Actions and Codespaces APIs experiencing partial failures
 - Source: GitHub Status
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/fz9sdc2q008p
 - Summary: Jul 7, 14:32 UTC Update - Codespaces is experiencing degraded availability. We are continuing to investigate. Jul 7, 14:14 UTC Update - Customers accessing the Actions and Codespaces REST APIs may see 500 class errors a small percentage of the time.Actions runs in progress are continuing...
+
+### DNS Zone Transfer Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/dthgj6gr726s
+- Summary: Jul 7, 14:00 UTC Resolved - Secondary DNS zone transfers (AXFR/IXFR) using legacy IP addresses may have experienced intermittent failures between 14:50 and 16:10 UTC. The underlying issue has been corrected and all zone transfers are now operating normally.
 
 ### Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
 - Source: The Hacker News
@@ -421,6 +438,12 @@
 - URL: https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html
 - Summary: A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by...
 
+### HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04884
+- Summary: We present HunyuanOCR-1.5, a lightweight end-to-end OCR-specialized vision-language model. HunyuanOCR unifies document parsing, text spotting, information extraction, text-image translation, and multi-image document understanding within a single end-to-end VLM. Building upon the lightweight...
+
 ### China's Tianwen-2 Probe Reaches Target Asteroid After 1 Billion Kilometer Journey
 - Source: Pandaily
 - Category: chinese-ai
@@ -493,11 +516,23 @@
 - URL: https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
 - Summary: Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address...
 
+### Dashboard2Code: Evaluating Multimodal Models on Reconstructing Interactive Dashboards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04727
+- Summary: Automatic data visualization generation has advanced rapidly with multi-modal large language models, yet existing efforts largely focus on static charts and overlook the interactive dashboards commonly used for real-world data exploration. We introduce Dashboard2Code, a novel task that requires a...
+
 ### SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
 - Summary: Scanners meant to catch malicious add-on "skills" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the Hong Kong University of Science and Technology. Their strongest trick slipped past every scanner...
+
+### PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04690
+- Summary: We introduce PAST-TIDE, our stance detection system addressing both subtasks of the StanceNakba Shared Task at NakbaNLP@LREC-COLING 2026. The main idea is statement tuning. We redefine stance as cloze-style masked language modeling (MLM), letting a verbalizer map label words to stance categories...
 
 ### ICME 2026 Grand Challenge on Cross-Scenario Defect Detection and Fine-Grained Severity Grading for High-Precision Manufacturing
 - Source: HF Daily Papers
@@ -546,6 +581,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2
 - Summary: SiliconFlow, an AI token supply platform backed by Huawei, Alibaba and Meituan, files for Hong Kong IPO despite negative gross margins and mounting losses.
+
+### Simple-to-Complex Structured Demonstrations for Vision-Language-Action Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04591
+- Summary: Vision-Language-Action (VLA) models have demonstrated strong capabilities in robotic manipulation by integrating visual perception, language understanding, and robot action generation. Existing research has primarily focused on improving model architectures, training strategies, and dataset scale,...
+
+### EEG-SpikeAgent: Agentic Closed-Loop Program Synthesis for Automated EEG Spike Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.04558
+- Summary: Automated detection of interictal epileptiform discharges in scalp electroencephalography (EEG) is clinically important, but recent high-performing deep-learning models often trade interpretability for accuracy. We introduce EEG-SpikeAgent, a closed-loop program-synthesis framework that uses a...
 
 ### 🤗 Kernels: Major Updates
 - Source: Hugging Face Blog
@@ -2971,52 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2606.30096
 - Summary: Quantifying how meaning propagates through communicative exchanges remains underdeveloped in computational linguistics. Here we introduce an information-theoretic framework that quantifies the directed flow of semantic content between interlocutors and decomposes multi-source contributions into...
-
-### OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/
-- Summary: ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration. The post OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review appeared first on SecurityWeek.
-
-### Little Brains, Big Feats: Exploring Compact Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30062
-- Summary: While large language models have been dominating the research landscape recently, small language models remain highly relevant across various domains; yet, they receive far less attention. In this study, we investigate how smaller language models perform during the generation stage within a...
-
-### Argus: Metric Panoramic 3D Reconstruction for Indoor Scenes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30047
-- Summary: Metric feed-forward 3D reconstruction for panoramic data remains under-explored due to the lack of large-scale panoramic RGB-D training data. We present Realsee3D, a hybrid dataset of 10K indoor scenes (1K real, 9K synthetic) with 299K panoramic viewpoints and precise metric annotations, and Argus,...
-
-### US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/
-- Summary: UNC5792 and UNC4221 have been targeting US government officials, military leaders, and allied personnel. The post US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve appeared first on SecurityWeek.
-
-### Cross-Modal Iteration Distillation for Robust IHD Screening: The IDNet Framework and A New Benchmark
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30027
-- Summary: Color Fundus Photography (CFP) offers a low-cost and non-invasive route for ischemic heart disease (IHD) screening, but current studies are limited by scarce public benchmarks and ineffective fusion of retinal images with sparse clinical variables. We propose IDNet, a multimodal framework with a...
-
-### OmniDance: Multimodal Driven Dance Video Generation with Large-scale Internet Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30019
-- Summary: Music-driven dance video generation aims to synthesize expressive human motion that is temporally aligned with music while maintaining high visual fidelity. Despite recent progress, existing methods still face two key limitations: the lack of large-scale, high-quality dance video datasets, and the...
-
-### Parametric Skills
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.30015
-- Summary: Since intelligence fundamentally relies on efficient skill acquisition (Chollet, 2019), the ability to leverage skills is critical. For LLMs, skills, manually authored or extracted from task trajectories, are textual recipes encoding mature problem-solving experience and are critical to agentic...
-
-### Rigel: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.29997
-- Summary: Automatic evaluation of image and video captioning is essential for benchmarking multimodal systems, although standard evaluation metrics show limited alignment with human judgments. Recent approaches using large language models (LLMs), commonly referred to as LLM-as-a-Judge, have improved...
 

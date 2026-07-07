@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 07 Jul 2026 14:39:59 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 18:01:38 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Cloudflare Registrar operations issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/df7h7wy1ss1n</link>
+            <guid>https://www.cloudflarestatus.com/incidents/df7h7wy1ss1n</guid>
+            <pubDate>Tue, 07 Jul 2026 17:49:51 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/df7h7wy1ss1n">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 7, 17:49 UTC Resolved - This incident has been resolved. Jul 7, 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue with Cloudflare Registrar that may prevent customers from registering, renewing, updating and transferring domains.Further detail will be provided as more...</description>
+        </item>
+        <item>
+            <title>Hugging Face Models on Foundry Managed Compute</title>
+            <link>https://huggingface.co/blog/microsoft/foundry-managed-compute</link>
+            <guid>https://huggingface.co/blog/microsoft/foundry-managed-compute</guid>
+            <pubDate>Tue, 07 Jul 2026 15:20:06 +0000</pubDate>
+            <source url="https://huggingface.co/blog/microsoft/foundry-managed-compute">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
         <item>
             <title>Actions and Codespaces APIs experiencing partial failures</title>
             <link>https://www.githubstatus.com/incidents/fz9sdc2q008p</link>
@@ -16,6 +34,15 @@
             <source url="https://www.githubstatus.com/incidents/fz9sdc2q008p">GitHub Status</source>
             <category>incidents</category>
             <description>Jul 7, 14:32 UTC Update - Codespaces is experiencing degraded availability. We are continuing to investigate. Jul 7, 14:14 UTC Update - Customers accessing the Actions and Codespaces REST APIs may see 500 class errors a small percentage of the time.Actions runs in progress are continuing...</description>
+        </item>
+        <item>
+            <title>DNS Zone Transfer Issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/dthgj6gr726s</link>
+            <guid>https://www.cloudflarestatus.com/incidents/dthgj6gr726s</guid>
+            <pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/dthgj6gr726s">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 7, 14:00 UTC Resolved - Secondary DNS zone transfers (AXFR/IXFR) using legacy IP addresses may have experienced intermittent failures between 14:50 and 16:10 UTC. The underlying issue has been corrected and all zone transfers are now operating normally.</description>
         </item>
         <item>
             <title>Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker</title>
@@ -430,33 +457,6 @@
             <source url="https://huggingface.co/blog/Photoroom/prx-part4-data">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language</title>
-            <link>https://tldr.takara.ai/p/2607.05123</link>
-            <guid>https://tldr.takara.ai/p/2607.05123</guid>
-            <pubDate>Mon, 06 Jul 2026 14:12:11 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.05123">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Recent advances in large language models and programmatic CAD have significantly improved Text-to-CAD generation for individual parts. However, production-ready mechanical assembly generation remains largely unsolved. Unlike single-part modeling, assemblies require coordinated reasoning over...</description>
-        </item>
-        <item>
-            <title>Multi-Large Language Model Orchestrated Severity Assessment of Clinical Records (MOSAIC)</title>
-            <link>https://tldr.takara.ai/p/2607.05032</link>
-            <guid>https://tldr.takara.ai/p/2607.05032</guid>
-            <pubDate>Mon, 06 Jul 2026 13:15:21 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.05032">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Background: Disease severity is a multidimensional construct difficult to capture with rule-based approaches in Electronic Healthcare Records (EHR). Agentic large language model (LLM) systems could synthesise clinical evidence and reason over EHRs, but remain unevaluated for this task. Methods:...</description>
-        </item>
-        <item>
-            <title>The Download: South Korea’s hottest bachelors, and advancing eye transplants</title>
-            <link>https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/</link>
-            <guid>https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/</guid>
-            <pubDate>Mon, 06 Jul 2026 13:00:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a...</description>
         </item>
     </channel>
 </rss>
