@@ -6,6 +6,28 @@
 
 ## 2026-07-08
 
+### Data for Agents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/open-data-for-agents
+
+### EmTech AI 2026: The Rise of the AI Platform
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/
+
+### Accenture Confirms Data Breach After Hacker Claims Source Code Theft
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/
+- Summary: The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek.
+
+### Cloudflare Dashboard and Cloudflare API service issues - Turnstile Widgets
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/t0czr8hcdkk7
+- Summary: Jul 8, 15:00 UTC Resolved - Between the times of 14:40 and 15:00 (UTC) on 2026-07-08 Cloudflare experienced issues with the listing of Turnstile widgets via the Dashboard and API. These requests may have failed and/or 500 errors may have been displayed.
+
 ### Webinar Today: Why Email Security Keeps Failing
 - Source: Security Week
 - Category: security
@@ -240,6 +262,11 @@
 - URL: https://pandaily.com/huawei-tao-law-kirin-2026-logic-folding-5nm-chip-breakthrough-jul2026
 - Summary: Huawei's Tao's Law V2 paper reveals Kirin 2026 with Logic Folding, boosting transistor density to 175MTr/mm² without advanced EUV lithography.
 
+### Native-speed vLLM transformers modeling backend
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/native-speed-vllm-transformers-backend
+
 
 ## 2026-07-07
 
@@ -313,6 +340,18 @@
 - URL: https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
 - Summary: A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. "The campaign did not depend on a fake Microsoft password page. It used a...
 
+### Responsible Personalisation: The Double-Edged Sword of Personalisation in Human-Robot Interaction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06344
+- Summary: While personalisation is becoming a defining capability in human-robot interaction (HRI), the existing literature on responsible personalisation remains fragmented, offering isolated accounts of ethical risks without a structured understanding of how they emerge across interaction contexts. This...
+
+### Harnessing Code Agents for Automatic Software Verification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06341
+- Summary: Formal verification offers the strongest guarantee of software correctness, but it does not scale: the proofs demanded by interactive theorem provers such as Coq require enormous expert effort. Large language models (LLMs) promise to generate these proofs automatically, yet existing approaches wire...
+
 ### Actions and Codespaces APIs experiencing partial failures
 - Source: GitHub Status
 - Category: incidents
@@ -336,6 +375,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/dthgj6gr726s
 - Summary: Jul 7, 14:00 UTC Resolved - Secondary DNS zone transfers (AXFR/IXFR) using legacy IP addresses may have experienced intermittent failures between 14:50 and 16:10 UTC. The underlying issue has been corrected and all zone transfers are now operating normally.
+
+### Kernel-based Operator Learning: Error Analysis, Budget Allocation, and a Physics-Informed Extension
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06287
+- Summary: We study kernel-based operator learning in a two-stage sampling framework, where an offline kernel regression operator learns a discretized representation of the target operator from input-output pairs and an online kernel reconstruction operator recovers the output function from predicted...
 
 ### Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
 - Source: The Hacker News
@@ -505,6 +550,12 @@
 - URL: https://pandaily.com/simplexity-robotics-embodied-ai-100-robots-production-lines-jul2026
 - Summary: Simplexity Robotics, an embodied AI robotics startup founded less than a year ago, announced the first batch delivery of 100 units of its all-scenario robot i7 Pro, ...
 
+### AVA-VLM: Adaptive Visual Attention-Vision Language Model for In-the-Wild Construction Site Monitoring
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05859
+- Summary: Vision-Language Models (VLMs) are promising for construction-site monitoring, and recent construction-tailored VLMs have primarily adapted pretrained VLMs through direct QA-style fine-tuning from a single global image. We argue that this direct paradigm remains limited for in-the-wild deployment in...
+
 ### BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
 - Source: The Hacker News
 - Category: security
@@ -516,6 +567,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/wiener-intelligence-chinese-data-generation-startup-nature-journal-jul2026
 - Summary: On May 28, 2026, Nature Communications published a paper titled "Multimodal deep learning model for AI-based functional prognostic risk stratification in patien...
+
+### On the Condition Number Upper Bound of the L-BFGS Inverse Hessian Approximation Matrix with a Two-Sided Geometric Envelope Safeguarding Mechanism
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05836
+- Summary: The limited-memory BFGS (L-BFGS) algorithm is a cornerstone of large-scale optimization due to its linear memory and computational costs. However, in ill-conditioned or non-convex landscapes, the implicit inverse Hessian approximation can suffer from an exploding condition number, leading to...
 
 ### [AINews] The Field Guide to Fable
 - Source: Latent Space
@@ -2960,62 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
 - Summary: New Microsoft&nbsp;research&nbsp;shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so...
-
-### RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html
-- Summary: A new two-stage malware family called RustDuck is hijacking home routers, IP cameras, Android boxes, and poorly secured servers, then stitching them into a network built to knock websites and online services offline. Researchers at QiAnXin's&nbsp;XLab&nbsp;have tracked it since February 2026, and...
-
-### Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/
-- Summary: Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will they really work? Watch a conversation exploring longevity&#8217;s new focus....
-
-### Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.31916
-- Summary: Theory of Mind (ToM) benchmarks for Large Language Models (LLMs) typically rely on passive question-answering formats, but the deployment of LLMs in increasingly agentic and autonomous forms demands new evaluations. In this paper we evaluate an agent's ability to induce specific belief states in...
-
-### Start building with Nano Banana 2 Lite and Gemini Omni Flash
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/
-
-### Disruption with some GitHub services - Signup Flow
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/mc4yx9f8x1hk
-- Summary: Jun 30, 15:49 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jun 30, 15:38 UTC Investigating - We are investigating reports of impacted performance...
-
-### Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
-- Summary: Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow,...
-
-### Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html
-- Summary: Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a transaction. The cryptocurrency clipper activity has been codenamed Silent Swap by McAfee Labs. "The...
-
-### Elevated error rates on Opus 4.8
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/7ykkywg6yln4
-- Summary: Jun 30, 15:28 UTC Resolved - This incident has been resolved. Jun 30, 14:45 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jun 30, 14:31 UTC Investigating - We are currently investigating elevated error rates on Opus 4.8. Our team is actively working to identify the...
-
-### Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2606.31785
-- Summary: Graph-based cardiac segmentation with implicit anatomical correspondences provides topological guarantees and population-level analysis capabilities, but models trained on independent frames of image sequences exhibit temporal discontinuities that affect reliable clinical measurements, particularly...
-
-### Why Specialization Is Inevitable
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable
 
