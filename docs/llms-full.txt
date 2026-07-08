@@ -6,6 +6,36 @@
 
 ## 2026-07-08
 
+### Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rvb96c56gn6k
+- Summary: Jul 8, 21:04 UTC Resolved - This issue has been resolved. Jul 8, 19:41 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 8, 19:07 UTC Investigating - We are currently investigating a performance issue affecting features such as Claude Code on the Web...
+
+### Elevated errors on multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/dcxc66flmxbd
+- Summary: Jul 8, 21:04 UTC Resolved - This issue has been resolved. Users saw elevated errors on requests to some models between 10:45am PT / 17:45 UTC and 12:40pm PT / 19:40 UTC. Jul 8, 19:29 UTC Identified - We are continuing to work to fully resolve errors impacting some requests, and will provide an...
+
+### Issues authorizing to MCP Servers
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4y9nybhbljfc
+- Summary: Jul 8, 19:00 UTC Resolved - Users are unable to send authorized requests to MCP servers.
+
+### Workers Builds Increased Failure Rate
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/bw0n1ryjghj3
+- Summary: Jul 8, 18:37 UTC Resolved - Cloudflare has identified and mitigated an issue which impacted a small subset of projects running Workers Builds between 2026-07-07 20:10 UTC to 2026-07-08 18:30 UTC.Customers experiencing the issue will have seen their builds fail with the error "A Worker named already...
+
+### Workers Cron Triggers Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/j4bvp2mfh4fl
+- Summary: Jul 8, 18:30 UTC Resolved - Cloudflare has identified and mitigated an issue which impacted Workers cron triggers for some Workers between 2026-07-08 18:23 UTC to 2026-07-08 19:30 UTC.
+
 ### Data for Agents
 - Source: Hugging Face Blog
 - Category: open-source
@@ -317,6 +347,12 @@
 - URL: https://tldr.takara.ai/p/2607.06504
 - Summary: Recent years have witnessed the emergence of multivariate modeling using time series foundation models (TSFMs), which achieve advanced zero-shot generalization. Modern multivariate TSFMs are predominantly pretrained on multivariate synthetic data, which is easier to scale but may fail to capture...
 
+### Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06503
+- Summary: Large language model (LLM) agents solving multi-step tasks frequently commit to trajectories that are doomed to fail, yet continue to consume substantial inference compute before the failure becomes observable. We show that failure is predictable early from the agent's internal representations:...
+
 ### Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots
 - Source: The Hacker News
 - Category: security
@@ -339,6 +375,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
 - Summary: A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. "The campaign did not depend on a fake Microsoft password page. It used a...
+
+### Physics-Informed Neural Embeddings of PDE Solution Families
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06348
+- Summary: We introduce a physics-informed framework for learning finite-dimensional embeddings of solution families of partial differential equations. The method uses a multihead Physics-Informed Neural Network in which a shared body learns a latent manifold representing the solution space, while linear...
 
 ### Responsible Personalisation: The Double-Edged Sword of Personalisation in Human-Robot Interaction
 - Source: HF Daily Papers
@@ -442,6 +484,12 @@
 - URL: https://www.securityweek.com/ciso-conversations-tarah-wheeler-cybersecurity-leader-thought-leader-and-original-thinker/
 - Summary: Tarah Wheeler is CISO at TPO Group, a firm that provides cybersecurity consultancy for high-stakes organizations. But despite this elevated position, her journey was far from typical. The post CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker appeared...
 
+### Revisiting Scene Graph Generation from the Perspective of Detector-Conditioned Reachability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06176
+- Summary: Scene graph generation (SGG) approaches can be broadly classified into detector-based and query-based methods according to their underlying reasoning mechanisms. However, the discrepancy in their predictive behaviors, induced by these distinct mechanisms, has not been systematically analyzed. In...
+
 ### What Changes When Your Software Supply Chain Includes AI Writing Your Code?
 - Source: The Hacker News
 - Category: security
@@ -453,6 +501,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/
 - Summary: With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the...
+
+### AEGIS: A Mechanism-Guided Defense against Visual Synonym Jailbreaks in Text-to-Image Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06120
+- Summary: Text-to-image diffusion models have achieved high visual fidelity and broad adoption, but remain vulnerable to safety violations when adversaries exploit them to synthesize illicit content. Existing alignment paradigms, from input sanitization to structural feature pruning, are largely organized...
 
 ### New members invitations to accounts not being sent
 - Source: Cloudflare Status
@@ -531,6 +585,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/hh9hj15mxkrx
 - Summary: Jul 7, 07:37 UTC Resolved - This incident has been resolved. Jul 7, 06:58 UTC Investigating - We are currently investigating this issue.
+
+### Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05901
+- Summary: Automatic depression detection using audio-visual data faces significant challenges, particularly in disentangling overlapping feature distributions and establishing robust decision boundaries. To address this, we propose a fine-grained multimodal framework featuring a temporal encoder and a mutual...
 
 ### On the convergence of graph Laplacians with a symmetric divergence
 - Source: HF Daily Papers
@@ -2956,65 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ubtech-u1-companion-robot-orders-jun2026
 - Summary: UBTECH launches U1 ultra-bionic humanoid companion robot series with prices from $16,980 to $99,000, orders exceed 10,000 units on launch day.
-
-### Forward Deployed Engineers and the future of software engineering
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/forward-deployed-engineers-aiewf
-- Summary: Sierra's Natalie Meurer on why product engineers and forward deployed engineers are starting to converge.
-
-### Hugging Face and Cerebras bring Gemma 4 to real-time voice AI
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/cerebras-gemma4-voice-ai
-
-
-## 2026-06-30
-
-### Ahmad Osman on why local AI is catching up
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ahmad-osman-local-ai
-- Summary: After two packed AIEWF workshops, Ahmad Osman makes the case that local AI is catching up fast &#8212; from laptops and phones to enterprise-grade infrastructure.
-
-### INC20000063
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/rqkrpr2hf7f7
-- Summary: Jun 30, 23:34 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
-
-### Device Passport: Enabling Spatio-Temporal Pretrained Models to Generalize Across Input Layouts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.00249
-- Summary: New device layouts pose a challenging modeling problem due to the lack of large datasets for each specific layout. Biosignal foundation models offer a plausible solution if they are able to generalize to new layouts effectively. To improve cross-layout transfer, we study how different channel...
-
-### Claude Science is Anthropic’s newest flagship product
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/
-- Summary: At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously...
-
-### MG-SpaIR: Multi-grade Sparse-guided Implicit Representation for Training-Data-Free Image Restoration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.00138
-- Summary: MG-SpaIR is a training-data-free framework for restoring a clean image from a single observation corrupted by a mixture of blur, downsampling, noise, and missing pixels. Building on implicit neural representations (INRs), we introduce a multi-grade coarse-to-fine residual hierarchy that...
-
-### Network Performance Issues in Phoenix, AZ
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/s9tpsd5xw0v7
-- Summary: Jun 30, 19:15 UTC Investigating - Cloudflare is investigating network performance issues in the Phoenix, AZ region. Users may experience slow requests or increased latency. We are actively analyzing the issue and working on mitigation. Updates will be provided as more information becomes available.
-
-### ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-research/scarfbench
-
-### Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Summary: New Microsoft&nbsp;research&nbsp;shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so...
 

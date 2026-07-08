@@ -5,9 +5,54 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 08 Jul 2026 17:39:04 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 21:09:04 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Degraded performance for Claude Code on the web, Cowork Remote, Claude Tag, and Claude Code Review sessions</title>
+            <link>https://status.claude.com/incidents/rvb96c56gn6k</link>
+            <guid>https://status.claude.com/incidents/rvb96c56gn6k</guid>
+            <pubDate>Wed, 08 Jul 2026 21:04:34 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/rvb96c56gn6k">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 8, 21:04 UTC Resolved - This issue has been resolved. Jul 8, 19:41 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 8, 19:07 UTC Investigating - We are currently investigating a performance issue affecting features such as Claude Code on the Web...</description>
+        </item>
+        <item>
+            <title>Elevated errors on multiple models</title>
+            <link>https://status.claude.com/incidents/dcxc66flmxbd</link>
+            <guid>https://status.claude.com/incidents/dcxc66flmxbd</guid>
+            <pubDate>Wed, 08 Jul 2026 21:04:18 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/dcxc66flmxbd">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 8, 21:04 UTC Resolved - This issue has been resolved. Users saw elevated errors on requests to some models between 10:45am PT / 17:45 UTC and 12:40pm PT / 19:40 UTC. Jul 8, 19:29 UTC Identified - We are continuing to work to fully resolve errors impacting some requests, and will provide an...</description>
+        </item>
+        <item>
+            <title>Issues authorizing to MCP Servers</title>
+            <link>https://status.claude.com/incidents/4y9nybhbljfc</link>
+            <guid>https://status.claude.com/incidents/4y9nybhbljfc</guid>
+            <pubDate>Wed, 08 Jul 2026 19:00:00 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/4y9nybhbljfc">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 8, 19:00 UTC Resolved - Users are unable to send authorized requests to MCP servers.</description>
+        </item>
+        <item>
+            <title>Workers Builds Increased Failure Rate</title>
+            <link>https://www.cloudflarestatus.com/incidents/bw0n1ryjghj3</link>
+            <guid>https://www.cloudflarestatus.com/incidents/bw0n1ryjghj3</guid>
+            <pubDate>Wed, 08 Jul 2026 18:37:44 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/bw0n1ryjghj3">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 8, 18:37 UTC Resolved - Cloudflare has identified and mitigated an issue which impacted a small subset of projects running Workers Builds between 2026-07-07 20:10 UTC to 2026-07-08 18:30 UTC.Customers experiencing the issue will have seen their builds fail with the error &quot;A Worker named already...</description>
+        </item>
+        <item>
+            <title>Workers Cron Triggers Issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/j4bvp2mfh4fl</link>
+            <guid>https://www.cloudflarestatus.com/incidents/j4bvp2mfh4fl</guid>
+            <pubDate>Wed, 08 Jul 2026 18:30:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/j4bvp2mfh4fl">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 8, 18:30 UTC Resolved - Cloudflare has identified and mitigated an issue which impacted Workers cron triggers for some Workers between 2026-07-08 18:23 UTC to 2026-07-08 19:30 UTC.</description>
+        </item>
         <item>
             <title>Data for Agents</title>
             <link>https://huggingface.co/blog/nvidia/open-data-for-agents</link>
@@ -405,58 +450,13 @@
             <description>Recent years have witnessed the emergence of multivariate modeling using time series foundation models (TSFMs), which achieve advanced zero-shot generalization. Modern multivariate TSFMs are predominantly pretrained on multivariate synthetic data, which is easier to scale but may fail to capture...</description>
         </item>
         <item>
-            <title>PIPBench: A Profile-Inclusive Framework for Personalized Image Generation Evaluation</title>
-            <link>https://tldr.takara.ai/p/2607.06440</link>
-            <guid>https://tldr.takara.ai/p/2607.06440</guid>
-            <pubDate>Tue, 07 Jul 2026 16:09:30 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.06440">HF Daily Papers</source>
+            <title>Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade</title>
+            <link>https://tldr.takara.ai/p/2607.06503</link>
+            <guid>https://tldr.takara.ai/p/2607.06503</guid>
+            <pubDate>Tue, 07 Jul 2026 17:03:55 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2607.06503">HF Daily Papers</source>
             <category>open-source</category>
-            <description>Recent text-to-image models such as DALLE-3 excel at following diverse prompts yet remain blind to individual aesthetic preferences. We study personalized image generation, where models must align outputs with a user&#x27;s implicit visual preferences based on a few historically preferred images and a...</description>
-        </item>
-        <item>
-            <title>Hugging Face Models on Foundry Managed Compute</title>
-            <link>https://huggingface.co/blog/microsoft/foundry-managed-compute</link>
-            <guid>https://huggingface.co/blog/microsoft/foundry-managed-compute</guid>
-            <pubDate>Tue, 07 Jul 2026 15:20:06 +0000</pubDate>
-            <source url="https://huggingface.co/blog/microsoft/foundry-managed-compute">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>Responsible Personalisation: The Double-Edged Sword of Personalisation in Human-Robot Interaction</title>
-            <link>https://tldr.takara.ai/p/2607.06344</link>
-            <guid>https://tldr.takara.ai/p/2607.06344</guid>
-            <pubDate>Tue, 07 Jul 2026 14:40:20 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.06344">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>While personalisation is becoming a defining capability in human-robot interaction (HRI), the existing literature on responsible personalisation remains fragmented, offering isolated accounts of ethical risks without a structured understanding of how they emerge across interaction contexts. This...</description>
-        </item>
-        <item>
-            <title>Harnessing Code Agents for Automatic Software Verification</title>
-            <link>https://tldr.takara.ai/p/2607.06341</link>
-            <guid>https://tldr.takara.ai/p/2607.06341</guid>
-            <pubDate>Tue, 07 Jul 2026 14:39:59 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.06341">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Formal verification offers the strongest guarantee of software correctness, but it does not scale: the proofs demanded by interactive theorem provers such as Coq require enormous expert effort. Large language models (LLMs) promise to generate these proofs automatically, yet existing approaches wire...</description>
-        </item>
-        <item>
-            <title>Actions and Codespaces APIs experiencing partial failures</title>
-            <link>https://www.githubstatus.com/incidents/fz9sdc2q008p</link>
-            <guid>https://www.githubstatus.com/incidents/fz9sdc2q008p</guid>
-            <pubDate>Tue, 07 Jul 2026 14:32:57 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/fz9sdc2q008p">GitHub Status</source>
-            <category>incidents</category>
-            <description>Jul 7, 14:32 UTC Update - Codespaces is experiencing degraded availability. We are continuing to investigate. Jul 7, 14:14 UTC Update - Customers accessing the Actions and Codespaces REST APIs may see 500 class errors a small percentage of the time.Actions runs in progress are continuing...</description>
-        </item>
-        <item>
-            <title>DNS Zone Transfer Issues</title>
-            <link>https://www.cloudflarestatus.com/incidents/dthgj6gr726s</link>
-            <guid>https://www.cloudflarestatus.com/incidents/dthgj6gr726s</guid>
-            <pubDate>Tue, 07 Jul 2026 14:00:00 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/dthgj6gr726s">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 7, 14:00 UTC Resolved - Secondary DNS zone transfers (AXFR/IXFR) using legacy IP addresses may have experienced intermittent failures between 14:50 and 16:10 UTC. The underlying issue has been corrected and all zone transfers are now operating normally.</description>
+            <description>Large language model (LLM) agents solving multi-step tasks frequently commit to trajectories that are doomed to fail, yet continue to consume substantial inference compute before the failure becomes observable. We show that failure is predictable early from the agent&#x27;s internal representations:...</description>
         </item>
     </channel>
 </rss>
