@@ -6,6 +6,18 @@
 
 ## 2026-07-09
 
+### Users are experiencing elevated errors when selecting models
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KX46HHYJ0YB8VPBZTB0KZ03V
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
+
+### Anthropic found a hidden space where Claude puzzles over concepts
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/
+- Summary: The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the...
+
 ### The Download: a nuclear landmark, and China eyes Nvidia chips
 - Source: MIT Tech Review AI
 - Category: research
@@ -403,6 +415,12 @@
 - URL: https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/
 - Summary: The "Rogue Agent" vulnerability could have enabled attackers to silently manipulate AI conversations, exfiltrate data, and compromise every Dialogflow CX agent within the same Google Cloud project. The post Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations appeared first on...
 
+### HAJJv2-CrowdCount: Zero-Shot Benchmark for Dense Crowd Counting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07322
+- Summary: Automated crowd counting in Hajj video is difficult not because current models lack capacity, but because the footage violates the assumptions those models were built on: cameras observe the crowd from steep, near-vertical angles, individuals occlude one another extensively, and a single frame can...
+
 ### The Download: worms fight pollution, and geoengineering faces reality
 - Source: MIT Tech Review AI
 - Category: research
@@ -414,6 +432,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/github-verified-commits-can-be.html
 - Summary: New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps...
+
+### Multimodal Voice Activity Projection for Turn-Taking in Social Robots with Voice-Activity-Related Pretrained Encoders
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07294
+- Summary: Turn-taking prediction is a key requirement for social robots involved in human-human interaction, particularly in mediator settings, where the robot must anticipate conversational dynamics rather than merely react to pauses. This work presents a Multimodal Voice Activity Projection (MM-VAP)...
 
 ### The Verification Step Is the New ATO Battleground in 2026
 - Source: The Hacker News
@@ -432,6 +456,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.07275
 - Summary: Bubbly flows exhibit complex multiscale dynamics, with deformable bubbles interacting through the surrounding liquid and giving rise to strongly coupled kinematic and morphological behavior. We present BubbleSH, a bubbly flows dataset consisting of transient, three-dimensional bubble-swarm dynamics...
+
+### Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07267
+- Summary: Claims about the universality of human concepts have been predominantly assessed through linguistic similarity across languages and cultures. However, words are effective as communication devices because they compress rich experiential variation into shared conventions, potentially obscuring hidden...
 
 ### CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws
 - Source: Security Week
@@ -517,11 +547,23 @@
 - URL: https://pandaily.com/deepseek-zhipu-ai-self-developed-chips-jul2026
 - Summary: DeepSeek and Zhipu AI join OpenAI and Anthropic in developing custom inference chips, signaling a structural shift where leading AI labs pursue in-house silicon to cut costs and reduce GPU dependency.
 
+### A knowledge-augmented dataset of high-risk driving scenarios with LLM annotations for autonomous driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07103
+- Summary: Safe autonomous driving requires both rapid responses to common high-risk events and deeper reasoning over rare, extreme long-tail scenarios in traffic safety. These scenarios are severely under-represented in naturalistic driving data, and existing trajectory and language-augmented datasets seldom...
+
 ### GeoProp: Grounding Robot State in Vision for Generalist Manipulation
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.07101
 - Summary: Proprioception is fundamental to robotic manipulation, yet standard fusion methods often treat it as an isolated vector lacking explicit alignment with visual tokens. Without a direct correspondence between 3D kinematics and 2D feature maps, manipulation policies struggle to ground the robot's...
+
+### Complexity-Budgeted, Interaction-Aware Interpretable Model for Tabular Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07060
+- Summary: Inherently interpretable classifiers for tabular data typically rely on sparse features, rules, or patterns that users can inspect directly. The marginal feature-screening step common to these methods can discard variables whose predictive value emerges only through joint configurations with other...
 
 ### Elevated errors on Claude Sonnet 5
 - Source: Anthropic Status
@@ -2974,49 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/jaguar-micro-dpu-chip-ipo-tencent-jul2026
 - Summary: Jaguar Micro, China's top independent DPU chip maker and Tencent portfolio company, files for ChiNext IPO to fund next-gen 800G/1.6T products.
-
-### SmartCore Secures Millions in Funding for Silicon Photonics AI Chip Interconnect Breakthrough
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/smartcore-silicon-photonics-funding-chip-interconnect-jul2026
-- Summary: Tsinghua-founded silicon photonics startup SmartCore raises angel++ round to advance optical I/O chiplet technology for AI computing clusters.
-
-### SINA: A Fully Automated Circuit Schematic Image to Netlist Generator Using Artificial Intelligence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.01609
-- Summary: Recent advances in Artificial Intelligence (AI) have revolutionized Electronic Design Automation (EDA), particularly through Large Language Models (LLMs) for circuit design tasks. However, their application to analog and mixed-signal domains remains limited by the lack of machine-readable...
-
-### Cloudflare is aware of and investigating an issue with Cloudflare Workers Builds
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/58q0fn0b641n
-- Summary: Jul 2, 01:40 UTC Resolved - This incident has been resolved. Jul 2, 01:19 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 2, 01:04 UTC Update - We are continuing to investigate this issue. Jul 2, 00:35 UTC Investigating - Cloudflare is aware of and investigating...
-
-### Elevated errors on Claude Opus 4.8
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/lcccgkzvj2yx
-- Summary: Jul 2, 01:19 UTC Resolved - This incident has been resolved. Jul 2, 00:58 UTC Identified - The issue has been identified and a fix is being implemented. Jul 2, 00:38 UTC Investigating - We are currently investigating this issue.
-
-
-## 2026-07-01
-
-### Autoresearch: The feedback loop behind self-improving agents
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/autoresearch-introspection
-- Summary: Introspection co-founder Roland Gavrilescu explains autoresearch, agent &#8220;recipes,&#8221; self-improving loops, and why humans remain central to the software factory.
-
-### Workers Observability issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/2ymq7qqs6ldk
-- Summary: Jul 1, 23:25 UTC Resolved - This incident has been resolved. Jul 1, 23:18 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 1, 23:00 UTC Identified - Cloudflare has identified an issue impacting users ability to query Workers Observability, users may see empty...
-
-### OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.01531
-- Summary: Learning how an environment behaves from interaction is central to building agents that adapt to unfamiliar tasks. World models learned with deep networks are flexible but data-hungry and transfer poorly beyond their training distribution. Program-synthesized world models, written as source code by...
 
