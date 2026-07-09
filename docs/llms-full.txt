@@ -291,6 +291,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/j4bvp2mfh4fl
 - Summary: Jul 8, 18:30 UTC Resolved - Cloudflare has identified and mitigated an issue which impacted Workers cron triggers for some Workers between 2026-07-08 18:23 UTC to 2026-07-08 19:30 UTC.
 
+### Neural Operator-enabled Topology-informed Evolutionary Strategy for PDE-Constrained Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07682
+- Summary: The inverse design of physical systems governed by partial differential equations is computationally demanding due to the high dimensionality and non-convexity of design spaces. Generative models for inverse design often lack robustness and transferability, whereas evolutionary strategies are...
+
 ### Data for Agents
 - Source: Hugging Face Blog
 - Category: open-source
@@ -324,6 +330,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.07534
 - Summary: We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining...
+
+### Creativity from Friction: Human-AI Interaction for Exploratory Structural Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07521
+- Summary: AI agents that generate final answers based on user input often do not meet the needs of creative fields. Fields such as structural design and architecture need interactive systems that help users externalise and develop ideas, explore alternatives, and refine partial solutions. The final product...
 
 ### New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware
 - Source: The Hacker News
@@ -439,6 +451,18 @@
 - URL: https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/
 - Summary: Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek.
 
+### DiPhon: Diffusion on Graphons for Scalable Graph Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07232
+- Summary: Diffusion models represent a leading paradigm for graph generation, with notable impact in domains such as molecular design. Yet, scaling these models to large graphs remains an open problem. We approach this question in the dense-graph setting through the lens of graphons, the size-agnostic limit...
+
+### Entropy Pacing Policy Optimization for Multi-Task Agentic Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07178
+- Summary: Recent breakthroughs of Reinforcement Learning (RL) have highlighted its potential for complex agentic Large Language Model (LLM) tasks. However, existing efforts largely focus on single-task settings, whereas real-world deployment necessitates a generalist agent capable of solving multiple tasks...
+
 ### Stage-Aware Adaptation and Distribution Calibration for Subject-Driven Personalized Text-to-Image Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -456,6 +480,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html
 - Summary: A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to findings from Cisco Talos, UAT-7810 is an advanced persistent threat (APT) actor that's responsible...
+
+### ASFR-Net: Adversarial Alignment and Spatio-Frequency Refinement Network for Heterogeneous Remote Sensing Image Change Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07161
+- Summary: The core challenge of heterogeneous change detection in remote sensing imagery lies in effectively decoupling genuine land-cover changes from significant modal disparities caused by distinct imaging mechanisms. These intrinsic inconsistencies are prone to introducing pseudo-changes, thereby...
 
 ### XAG Unveils Aerial and Ground Agricultural Robots for Fully Autonomous Crop Protection
 - Source: Pandaily
@@ -2989,34 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.01531
 - Summary: Learning how an environment behaves from interaction is central to building agents that adapt to unfamiliar tasks. World models learned with deep networks are flexible but data-hungry and transfer poorly beyond their training distribution. Program-synthesized world models, written as source code by...
-
-### Hamm-Grams: An Algorithm for Mining Regular Expressions of Bytes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.01445
-- Summary: Malware poses a critical and ever-evolving threat, and robust and effective systems for detecting and classifying malware are of essential importance. $n$-grams features are among the common static features used in effective machine learning systems for malware, but these features are inherently...
-
-### Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-- Summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster...
-
-### 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
-- Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a...
-
-### How Cursor deploys AI inside the enterprise
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/cursor-forward-deployed-engineers
-- Summary: Cursor's Pauline Brunet explains how her team of Forward Deployed Engineers help organizations implement agents &#8212; essentially setting up software factories.
-
-### Multi-Objective Exploration and Preference Optimization via Mutual Information
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.01392
-- Summary: Aligning large language models with diverse and heterogeneous human values requires multi-objective alignment methods to effectively trade off conflicting preference dimensions. Current methods achieve this trade-off by training policies conditioned on preference vectors and leveraging online...
 
