@@ -6,6 +6,48 @@
 
 ## 2026-07-10
 
+### INC20000082
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/kw59fjhlv3jq
+- Summary: Jul 10, 14:30 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 1 hour.Customer experience: Customers hosted in the specified regions may be unable to connect to Snowflake via private connectivity solutions, such as...
+
+### New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
+- Summary: The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware...
+
+### Third US Security Expert Sentenced to Prison for Helping Ransomware Gang
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/
+- Summary: Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.
+
+### The Download: Claude’s inner workings and OpenAI’s “super app”
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anthropic has got the clearest glimpse yet at what’s really going on...
+
+### China, India-Linked Hackers Both Targeted Same Pakistani Police Force
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/
+- Summary: Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne. The post China, India-Linked Hackers Both Targeted Same Pakistani Police Force appeared first on SecurityWeek.
+
+### Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html
+- Summary: A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry&nbsp;disclosed the flaw on July 8&nbsp;and nicknamed it XRING. He says it needs...
+
+### From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html
+- Summary: Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every...
+
 ### GigaWiper Combines Multiple Malware for System-Level Sabotage
 - Source: Security Week
 - Category: security
@@ -206,6 +248,12 @@
 - URL: https://tldr.takara.ai/p/2607.08756
 - Summary: We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of popular music totaling 3.5 hours of audio, and contains songs from diverse genres and decades from the...
 
+### The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08734
+- Summary: Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and perplexity. We show that these metrics fail to capture behavioral changes induced by quantization. We introduce correctness...
+
 ### Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -350,11 +398,23 @@
 - URL: https://pandaily.com/bytedance-seedream-5-pro-image-model-jul2026
 - Summary: ByteDance Seed team releases Seedream 5.0 Pro with complex information visualization, precise editing, real photography质感, and native multilingual generation across 17 test scenarios.
 
+### LUMI: Tokenizer-Agnostic LLM-Based Lossless Image Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08221
+- Summary: Large language model (LLM)-based lossless image compression methods typically represent pixel data through the native text interface of a pretrained model, converting pixel values into token sequences that the LLM processes through its vocabulary head. This design shows that pretrained language...
+
 ### Four nuclear reactors hit a big milestone in the US
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/
 - Summary: I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nuclear power. Last year the Trump administration set a goal to see three new microreactors achieve criticality, a technical milestone...
+
+### LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08182
+- Summary: Vision-language-action (VLA) models aim to map multimodal inputs to robot actions. However, most existing approaches struggle to cover complex dynamic scenarios due to treating all visual tokens uniformly and reasoning with human-selected factors, which lack mechanisms to emphasize task-critical...
 
 ### Chrome 150 Update Patches 27 Vulnerabilities
 - Source: Security Week
@@ -650,6 +710,42 @@
 - URL: https://arxiv.org/abs/2607.07422
 - Summary: arXiv:2607.07422v1 Announce Type: new Abstract: Logical Multi-Hop Query Answering over Knowledge Graphs (KGs) can be formulated as querying, with an implicit completeness assumption. Current works mainly focus on Existential First Order Logic (EFO) queries. These EFO queries contain conjunction,...
 
+### The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07436
+- Summary: arXiv:2607.07436v1 Announce Type: new Abstract: A self-evolving agent retires its bad skills by watching them fail, so what happens when the judge cannot see the failures? Skill retirement is the structural constraint that keeps a growing library from drifting below the no-skill baseline, but its...
+
+### SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07467
+- Summary: arXiv:2607.07467v1 Announce Type: new Abstract: Spatial and Single-cell transcriptomics are transformative in deciphering cellular dynamics. As the fundamental paradigm for reconstructing cell developmental paths, trajectory inference (TI) is critical. However, existing methods require extensive...
+
+### Search, Fail, Recover: A Training Framework for Correction-Aware Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07492
+- Summary: arXiv:2607.07492v1 Announce Type: new Abstract: Many reasoning tasks are not well described by a single left-to-right chain: a solver may need to pursue a plausible branch, observe delayed failure, and return to the latest prefix that can still be completed. We introduce Pyligent, a training and...
+
+### Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07504
+- Summary: arXiv:2607.07504v1 Announce Type: new Abstract: Product data scientists often ask LLM-based agents to help with recurring execution tasks such as cleaning data, writing SQL, choosing statistical tests, and formatting results. Reusable skill files are meant to avoid prompting from scratch by...
+
+### RL Post-Training Builds Compositional Reasoning Strategies
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07646
+- Summary: arXiv:2607.07646v1 Announce Type: new Abstract: Does RL post-training merely amplify primitive skills already latent in a base model, or can it compose primitive skills into new higher-level strategies? We study this question in a fully observable rewrite-grammar environment where the pretraining...
+
+### Mixture of Enhanced-View Experts for Multi-Query Vehicle ReID and A Large-Scale Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08085
+- Summary: Multi-query vehicle ReID aims to leverage complementary information from diverse views for robust feature learning. However, current methods suffer from simplistic feature fusion and thus easily ignores some important view information and cross-view relationships. To handle these problems, this...
+
 ### Elevated errors for Claude Opus 4.8
 - Source: Anthropic Status
 - Category: incidents
@@ -691,6 +787,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.08041
 - Summary: How diffusion models circumvent the curse of dimensionality to learn complex distributions over high dimensional spaces from a finite training set, instead of memorizing it, remains a fundamental mystery. To address this, we introduce analytically tractable Bayesian information restricted diffusion...
+
+### Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08010
+- Summary: Production LLM agents often waste latency and reliability by regenerating code for the same procedural steps on every request. We replace this inference-time coding loop with an agentic tool-making pipeline that compiles repeated SOP steps into validated, versioned tools before deployment. The...
 
 
 ## 2026-07-08
@@ -2916,106 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.02391
 - Summary: Large Language Model (LLM) inference workloads are a rapidly growing contributor to data center energy consumption. Optimizing these deployments requires matching specific LLMs to the most efficient GPUs, but operators currently lack the tools to do so without exhaustively profiling each...
-
-### GAP-GDRNet: Geometry-Aware Monocular Visual Pose Sensing on a Single-Target Synthetic Spacecraft Dataset
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02360
-- Summary: Monocular relative pose sensing is a central perception problem in non-cooperative rendezvous and on-orbit servicing. In spacecraft images, however, weak surface texture, thin appendages, illumination changes, and partial occlusion often leave only sparse and unstable geometric evidence. This...
-
-### SelectTSL: Prompt-Guided Selective Target Sound Localization in Complex Scenarios
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02343
-- Summary: Humans can selectively attend to a target sound and estimate its direction in complex scenarios, whereas such selective localization remains challenging for current deep learning-based systems. Sound source localization (SSL) has achieved remarkable success with deep learning, yet most methods...
-
-### Achieving operational excellence with AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/
-- Summary: Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how...
-
-### NEvo: Neural-Guided Evolutionary Video Synthesis for Dynamic Visual Selectivity
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02317
-- Summary: The human brain processes dynamic visual input through hierarchically organized, functionally specialized regions. While recent in silico brain encoding models can synthesize optimal stimuli to probe selectivity in different brain regions, prior work has been largely limited to static images,...
-
-### ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html
-- Summary: This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through. This is not one big break. It is small permissions, weak checks,...
-
-### Dual-Selective Network for Domain-Incremental Change Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02299
-- Summary: Domain-incremental change detection (DICD) continuously adapts models to new geographic domains while preserving prior knowledge. However, a structural mismatch exists: the label space remains fixed while domain characteristics vary drastically. Consequently, incremental models struggle to maintain...
-
-### New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
-- Summary: Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek.
-
-### Skill engineering and the case against one-shot AI design
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/skill-engineering-design
-- Summary: Paul Bakaus talks to us about Impeccable, human judgment in a 'loopmaxxing' era, and why agents still need people to steer them.
-
-### Cloudflare Workers build delays
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/2z7ff0166l22
-- Summary: Jul 2, 13:46 UTC Update - We are continuing to investigate this issue. Jul 2, 13:40 UTC Investigating - Cloudflare is aware of and investigating an issue with Cloudflare Workers build delays which potentially impacts multiple customers. Further detail will be provided as more information becomes...
-
-### How to Conduct a Successful Audit of AI-Driven Software Development
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/
-- Summary: As AI-generated code becomes commonplace, CISOs need new audit strategies to measure developer practices, govern AI tool usage, and identify software risks before they reach production. The post How to Conduct a Successful Audit of AI-Driven Software Development appeared first on SecurityWeek.
-
-### ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
-- Summary: The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. "In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail,...
-
-### Predictive Conformal Slip Monitoring: An Empirical Evaluation of Rolling Split Conformal Prediction for Pre-Incident Traction Loss Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02124
-- Summary: Conventional traction control architectures intervene only after the adhesion limit of a tire has already been breached. This paper investigates whether Rolling Split Conformal Prediction , monitoring the volatility of non-conformity residuals from a per-driver Random Forest model of expected slip...
-
-### Teaching AI to run with the turbines
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/
-- Summary: Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is...
-
-### X-Splat: Gaussian Splatting for 3D CBCT Generation from Single Panoramic Radiograph
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02099
-- Summary: Generating a 3D dental volume from a single panoramic radiograph (PXR) could provide a low-radiation alternative to Cone-Beam Computed Tomography (CBCT), but the problem is highly underdetermined: panoramic acquisition integrates 3D attenuation along curved X-ray paths into a 2D image, leaving...
-
-### FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
-- Summary: Researchers say credentials harvested from hundreds of thousands of FortiGate firewalls are being used to facilitate ransomware attacks by the INC and Lynx operations. The post FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks appeared first on SecurityWeek.
-
-### The Download: a startup has a solution for AI’s groupthink problem
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give...
-
-### Identity Lifecycle Management Wasn't Built for AI Agents
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/identity-lifecycle-management.html
-- Summary: Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model built for humans develops structural blind spots that...
 
