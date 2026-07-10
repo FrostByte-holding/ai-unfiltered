@@ -6,6 +6,12 @@
 
 ## 2026-07-10
 
+### Elevated errors for Claude Opus 4.8
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/mpn4d4xt44dm
+- Summary: Jul 10, 15:02 UTC Resolved - This incident has been resolved. Jul 10, 14:36 UTC Investigating - We are currently investigating this issue.
+
 ### INC20000082
 - Source: Snowflake Status
 - Category: incidents
@@ -17,6 +23,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html
 - Summary: The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware...
+
+### Elevated errors for Claude Opus 4.5 and Claude Sonnet 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/6djcn2k6v8kp
+- Summary: Jul 10, 13:00 UTC Resolved - Elevated errors for Claude Opus 4.5 and Claude Sonnet 4.5 between 6:00am PT / 1:00pm UTC and 8:15am PT / 3:15pm UTC.
 
 ### Third US Security Expert Sentenced to Prison for Helping Ransomware Gang
 - Source: Security Week
@@ -242,6 +254,12 @@
 - URL: https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html
 - Summary: Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk,...
 
+### OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08766
+- Summary: We propose OPSD-V, an on-policy self-distillation paradigm for post-training few-step autoregressive (AR) video diffusion models. Existing few-step AR video generators can produce long videos with low latency, but still suffer from error accumulation and weakened motion dynamics during long...
+
 ### MulTTiPop: A Multitrack Transcription Dataset for Pop Music
 - Source: HF Daily Papers
 - Category: open-source
@@ -265,6 +283,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html
 - Summary: GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to...
+
+### ImputeViz: A Visual Analytics Dashboard for Diagnosing Missing Data and Comparing Imputation Methods
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08579
+- Summary: Missing data is a persistent obstacle in scientific, social science, and public health research, often biasing analyses and placing accountability on analysts for how they handle missing values. We introduce ImputeViz, an integrated visual analytics dashboard that supports diagnosing missingness,...
 
 ### ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories
 - Source: The Hacker News
@@ -301,6 +325,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.08475
 - Summary: Multi-modality transportation refers to urban systems composed of multiple transportation modes, such as traffic flow and public transit, whose dynamics are coupled by shared temporal patterns. Accurate multi-modality transportation forecasting remains challenging because (1) different modalities...
+
+### Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08408
+- Summary: Gaussian splatting is the current state-of-the-art for dense, deformable 3D anatomy reconstruction in robot-assisted minimally invasive surgery (RAMIS); however, most pipelines are offline and depend on accurate camera trajectory priors (often from robotic kinematics), limiting applicability when...
 
 ### AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up
 - Source: The Hacker News
@@ -349,6 +379,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/
 - Summary: The privilege escalation vulnerability tracked as CVE-2026-50656 has been patched with a Microsoft Malware Protection Engine update. The post Microsoft Patches Defender &#8216;RoguePlanet&#8217; Vulnerability appeared first on SecurityWeek.
+
+### ArtMine: Discovering and Formalizing Artistic Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08331
+- Summary: Understanding how artworks are created requires reasoning about the iterative decisions, material operations, and contextual influences that shape artistic production. While recent generative AI systems can synthesize artworks with high fidelity, they primarily model distributions over finished...
 
 ### Mount Royal University Confirms Data Stolen in Ransomware Attack
 - Source: Security Week
@@ -427,6 +463,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
 - Summary: Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default. "You can also @-mention Instagram accounts in the Meta AI app to bring specific Instagram profiles right into your...
+
+### Continual Test-Time Adaptation in Computer Vision: Methods, Benchmarks, and Future Directions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08164
+- Summary: Deep neural nets achieve remarkable performance when training and test data share the same distribution, but this assumption frequently breaks in real-world deployment, where data undergoes continual distributional shifts. Continual Test-Time Adaptation (CTTA) addresses this challenge by adapting...
 
 ### 8Layers Raises $2.9 Million for Identity Security Platform
 - Source: Security Week
@@ -739,6 +781,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.07646
 - Summary: arXiv:2607.07646v1 Announce Type: new Abstract: Does RL post-training merely amplify primitive skills already latent in a base model, or can it compose primitive skills into new higher-level strategies? We study this question in a fully observable rewrite-grammar environment where the pretraining...
+
+### Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07663
+- Summary: arXiv:2607.07663v1 Announce Type: new Abstract: AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI research itself. This literature is described under...
+
+### SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07676
+- Summary: arXiv:2607.07676v1 Announce Type: new Abstract: Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our...
+
+### Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.07695
+- Summary: arXiv:2607.07695v1 Announce Type: new Abstract: We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that...
+
+### Can Reinforcement Learning Efficiently Discover Price Manipulation?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.06121
+- Summary: arXiv:2607.06121v1 Announce Type: cross Abstract: In this paper, we investigate whether a model-free RL agent can identify and exploit price manipulation opportunities more effectively than a traditional model-based approach that assumes correct specification of the data-generating process but...
+
+### LipSSD: Lipschitz-Constrained Single-Shot Detection for Adversarially Robust Object Detection
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.06592
+- Summary: arXiv:2607.06592v1 Announce Type: cross Abstract: Object detectors have many applications in safety-critical systems, but they are known to be sensitive to worst-case perturbations such as adversarial attacks, which limits their applicability in real-world scenarios. Compared with classification,...
 
 ### Mixture of Enhanced-View Experts for Multi-Query Vehicle ReID and A Large-Scale Benchmark
 - Source: HF Daily Papers
@@ -2943,79 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/cas-reasoning-lens-ai-model-thinking-visible-jul2026
 - Summary: Chinese Academy of Sciences researchers develop Reasoning Lens, a system that visualizes and diagnoses AI reasoning chains to address the transparency burden of large models
-
-### Xiaomi 18 Series Set for September Launch with 2nm Snapdragon 8 Elite Gen6 Chip
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-18-series-september-launch-snapdragon-8-elite-gen6-jul2026
-- Summary: Xiaomi’s upcoming flagship phone series will debut Qualcomm’s first 2nm chip with a split standard and Pro variant strategy to manage rising costs
-
-### Kelidian Technology Develops Elderly Care Transfer Robots with Tsinghua, CAS, and West China Hospital
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kelidian-elderly-care-transfer-robot-tsinghua-cas-jul2026
-- Summary: Shenzhen-based startup Kelidian Technology completes strategic financing for AI-powered elderly companion and rehabilitation transfer robots targeting home care
-
-### Issues with network performance in ENAM and WNAM, US
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/j83lpd337qwj
-- Summary: Jul 3, 01:36 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 3, 01:10 UTC Identified - Cloudflare has identified issues with network performance in ENAM and WNAM, US. Customers using Argo Smart Routing in the affected areas may be impacted.
-
-### Vercel's Andrew Qu on why agents are a new kind of software
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/vercel-agents-new-software
-- Summary: The Vercel Chief of Software explains how its agent framework, eve, was created &#8212; and why skills, sandboxes and agent-readable websites now matter.
-
-
-## 2026-07-02
-
-### Network Congestion in Newark, NJ (EWR)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/q7nbm42dpxdp
-- Summary: Jul 2, 22:12 UTC Resolved - Between 20:18-21:30 UTC customers reaching Newark, NJ (EWR) would have experienced an elevated number of network errors due to congestion. The impacted services would have included Cloudflare Zero Trust and R2.
-
-### The website of the future may assemble itself for every visitor
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/the-website-of-the-future
-- Summary: Adobe is experimenting with &#8220;agentic sites&#8221; that generate pages around an individual user&#8217;s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.
-
-### FBI Seizes NetNut Proxy Platform, Popa Botnet
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/
-- Summary: The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks...
-
-### Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html
-- Summary: Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG)&nbsp;said this week&nbsp;it had reduced the network's pool of usable...
-
-### Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html
-- Summary: Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. "Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and...
-
-### Incident with Pages
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/5bnwwg9tzd4q
-- Summary: Jul 2, 16:56 UTC Update - We are investigating reports of slow and failing Pages deployments. Access to Pages is unaffected. Jul 2, 16:54 UTC Investigating - We are investigating reports of degraded performance for Pages
-
-### Realtimekit Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/4sfv79jntx9d
-- Summary: Jul 2, 16:28 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 2, 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Jul 2, 15:05 UTC Investigating - Some customers may experience issues joining realtimekit meetings from India.
-
-### WattGPU: Predicting Inference Power and Latency on Unseen GPUs and LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.02391
-- Summary: Large Language Model (LLM) inference workloads are a rapidly growing contributor to data center energy consumption. Optimizing these deployments requires matching specific LLMs to the most efficient GPUs, but operators currently lack the tools to do so without exhaustively profiling each...
 
