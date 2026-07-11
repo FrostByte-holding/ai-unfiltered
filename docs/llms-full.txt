@@ -6,6 +6,30 @@
 
 ## 2026-07-11
 
+### INC20000085
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/46l87jjm2m5f
+- Summary: Jul 11, 19:36 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
+### Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+- Summary: The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;preinstall&nbsp;hook that drops and executes a native binary, one build each for Windows, macOS, and...
+
+### Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
+- Summary: Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026. "At Balochistan Police, the compromised assets included...
+
+### Ghost Accounts Abuse GitHub API in Mass Recon Campaign
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/
+- Summary: Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members. The post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek.
+
 ### Pages Dashboard issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -2034,6 +2058,18 @@
 - URL: https://tldr.takara.ai/p/2607.06238
 - Summary: Magnetic resonance imaging (MRI) super-resolution is vital for improving diagnostic accessibility, yet most methods treat it as a deterministic mapping from a fixed low-resolution input to a high-resolution target. This overlooks a key property of MRI acquisition physics: spatial resolution and...
 
+### Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06233
+- Summary: LLM-powered data agents are playing an increasingly important role in data-driven decision making. However, existing data agents struggle to generalize to unseen data environments and analytical workflows, especially in heterogeneous enterprise settings. This creates a growing need for synthesizing...
+
+### A toy framework for single and multi-agent human-AI curiosity ecosystems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06214
+- Summary: This paper offers a toy framework for considering curiosity as an ecosystem. First, it suggests that a single agent's inquiry policy (how, when, and why an agent asks a question) depends on how the agent values immediate uncertainty reduction, costs, delayed return, and the value of keeping the...
+
 ### Critical Adobe ColdFusion Vulnerability Exploited in Attacks
 - Source: Security Week
 - Category: security
@@ -2652,6 +2688,12 @@
 - URL: https://tldr.takara.ai/p/2607.05013
 - Summary: Although LLMs have made significant progress in mathematical reasoning, determining whether a mathematical problem is solvable remains a fundamental yet challenging capability. While recent studies have probed internal representations of model solvability beliefs, verbalization has primarily been...
 
+### Quantum-Inspired Harmonic Decision Models: A Computational Framework for Music Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05007
+- Summary: This paper introduces a quantum-inspired computational framework for harmonic decision-making in music. The proposed approach formulates harmonization as an optimization problem within a structured combinatorial space, where multiple candidate chord sequences are evaluated under interacting musical...
+
 ### Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability
 - Source: Security Week
 - Category: security
@@ -2971,49 +3013,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ai-glasses-impossible-triangle-chip-cost-performance-battery-jul2026
 - Summary: AI glasses are entering mass production but face critical chip-level challenges: overheating, latency, and battery life form an impossible triangle that dedicated SoCs must solve.
-
-### Huawei's Tao's Law V2 Paper: Logic Folding to Dramatically Boost Kirin CPU Clock Speeds
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-tao-law-v2-logic-folding-kirin-cpu-clock-speed-jul2026
-- Summary: Huawei's He Tingbo publishes Tao's Law V2 paper detailing LogicFolding, boosting Kirin transistor density 53.5% and paving the way for 4GHz+ CPU frequencies.
-
-
-## 2026-07-04
-
-### Cloudflare Vectorize Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/xg47100zs4zw
-- Summary: Jul 4, 22:47 UTC Resolved - This incident has been resolved. Jul 4, 21:25 UTC Investigating - Cloudflare is investigating issues with the Vectorize service. Customers may receive an "Internal Server Error" (HTTP 500) response when sending requests to a Vectorize index that has been deleted, instead...
-
-### New users unable to deploy Workers
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/h1l9jsj2q6jc
-- Summary: Jul 4, 15:32 UTC Resolved - This incident has been resolved. Jul 4, 15:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 4, 14:38 UTC Identified - Cloudflare has identified an issue where new users cannot deploy Workers in the dashboard. We are working to...
-
-### U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html
-- Summary: A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself...
-
-### North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html
-- Summary: The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider. "The campaign remains active, and new...
-
-### Fu Cong Team and Xiamen University Propose ManCAR: Manifold-Constrained Adaptive Reasoning Boosts Recommendation by 46%
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/fu-cong-xiamen-university-mancar-manifold-adaptive-reasoning-jul2026
-- Summary: Fu Cong's team and Xiamen University develop ManCAR, a manifold-constrained adaptive reasoning framework for generative recommendation, achieving up to 46.88% NDCG@10 improvement.
-
-### Chongqing Inaugurates Three Gorges Laboratory, Completing Four-Lab Technology Innovation Framework
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/chongqing-three-gorges-laboratory-four-lab-tech-innovation-jul2026
-- Summary: Chongqing officially inaugurates the Three Gorges Laboratory, completing its four-laboratory framework targeting digital intelligence, life health, new materials, and green low-carbon technologies.
 
