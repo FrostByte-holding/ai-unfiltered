@@ -860,6 +860,12 @@
 - URL: https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
 - Summary: Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine...
 
+### SkelGen4D: Weakly-Supervised Skeleton-Based 4D Generation for Text-Driven Mesh Animation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08246
+- Summary: We study 4D generation to synthesize temporally coherent sequences of 3D geometry for animation and content creation. In contrast to existing SDS-based optimization methods and video-driven animation approaches, we adopt a skeleton-driven animation framework aligned with standard industrial...
+
 ### Unitree and UBTECH: Two Divergent Commercial Experiments for China Humanoid Robots in 2026
 - Source: Pandaily
 - Category: chinese-ai
@@ -1731,6 +1737,12 @@
 - URL: https://tldr.takara.ai/p/2607.07077
 - Summary: Functional brain networks exhibit a hierarchical organization across ROI, community, and whole-brain levels, supporting local processing, inter-community coordination, and global integration. Recent studies have demonstrated that brain community-aware modeling is beneficial for both diagnosis and...
 
+### An Hybrid Quantum-Classical Diffusion Model for Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07072
+- Summary: Quantum diffusion models provide a physics-consistent route to generative learning by formulating noising and denoising directly on quantum states. However, applying such models to classical high-dimensional data is constrained by the qubit cost of state encoding and the computational burden of...
+
 ### Complexity-Budgeted, Interaction-Aware Interpretable Model for Tabular Data
 - Source: HF Daily Papers
 - Category: open-source
@@ -2319,6 +2331,12 @@
 - URL: https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html
 - Summary: A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in...
 
+### Structured Data Extraction from Real Estate Documents using Clustering, Classification, and Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06012
+- Summary: Real estate property listings expose structured metadata through the API. Still, the richest property-level information (i.e., legal status, structural condition, utility supplies, heating systems) sits in attached questionnaire documents that no automated system currently processes at scale. These...
+
 ### From R&D to Data Analysis, AI Is Rewriting How Game Companies Operate
 - Source: Pandaily
 - Category: chinese-ai
@@ -2740,6 +2758,12 @@
 - URL: https://tldr.takara.ai/p/2607.05274
 - Summary: Training-free concept erasure is an attractive mechanism for controlling text-to-image diffusion models, but precise erasure often comes at the cost of damaging semantically related non-target concepts. Existing value-space methods remove the component of each cross-attention value along the target...
 
+### Adaptive Inference Batching using Policy Gradients
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05272
+- Summary: Inference serving systems must balance throughput and latency under bursty, heterogeneous workloads, yet the industry standard remains static batching policies that require manual tuning and cannot adapt to shifting traffic. We investigate whether reinforcement learning (RL) can learn adaptive...
+
 ### SteelBench: Evaluating Vision-Language Models in Real-World Industrial Environments
 - Source: HF Daily Papers
 - Category: open-source
@@ -2768,6 +2792,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/Photoroom/prx-part4-data
+
+### Probing Geospatial SSL Representations with Environmental Signals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.05207
+- Summary: Self-supervised learning (SSL) is designed to learn generic, transferable representations rather than representations optimized for a single task. Most geospatial benchmarks evaluate representations solely through downstream tasks, providing limited insight into the information encoded within the...
 
 ### The Shift Toward Business-Aligned Risk Management
 - Source: Security Week
@@ -2984,34 +3014,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.04747
 - Summary: Survival analysis on Whole Slide Images (WSIs) is important in computational pathology for prognosis estimation and treatment planning. However, existing survival models are typically trained independently for each cancer cohort, making continual adaptation computationally expensive for...
-
-### Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
-- Summary: Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pages a victim visits. In a proof of concept, they reconstructed a signed-in user's full Gmail address...
-
-### LP-SFT: Local-Preserving Supervised Fine-Tuning via Multimodal Entropy Structure
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.04733
-- Summary: Supervised fine-tuning (SFT) is the standard approach for adapting pretrained language models to downstream domains, yet it often improves target-domain behavior at the cost of degrading pre-existing capabilities. Standard cross-entropy fine-tuning promotes only the observed label token and leaves...
-
-### Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.04728
-- Summary: Reinforcement learning (RL) post-training for large language models (LLMs) follows a efficient paradigm of "rollout then update", which inevitably results in off-policy training data. To resolve this, Importance sampling (IS) is proposed, while the token-level ratios compound over long sequences,...
-
-### Dashboard2Code: Evaluating Multimodal Models on Reconstructing Interactive Dashboards
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.04727
-- Summary: Automatic data visualization generation has advanced rapidly with multi-modal large language models, yet existing efforts largely focus on static charts and overlook the interactive dashboards commonly used for real-world data exploration. We introduce Dashboard2Code, a novel task that requires a...
-
-### SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
-- Summary: Scanners meant to catch malicious add-on "skills" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the Hong Kong University of Science and Technology. Their strongest trick slipped past every scanner...
 
