@@ -626,6 +626,12 @@
 - URL: https://tldr.takara.ai/p/2607.08703
 - Summary: We address liquidity placement in the Bitcoin Lightning Network (LN): given a fixed budget, which channels should a node open to maximize its routing capacity? We cast this as a budget-constrained combinatorial optimization problem on graphs, selecting $k$ edge additions that maximize $s$--$t$...
 
+### A Practical Investigation of Training-free Relaxed Speculative Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08690
+- Summary: Speculative decoding accelerates sampling from an autoregressive LLM by using a faster auxiliary model to draft tokens which are then verified in parallel by the LLM. Standard speculative decoding is lossless: its rejection and resampling steps exactly preserve the LLM's sampling distribution....
+
 ### npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk
 - Source: The Hacker News
 - Category: security
@@ -685,6 +691,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.08475
 - Summary: Multi-modality transportation refers to urban systems composed of multiple transportation modes, such as traffic flow and public transit, whose dynamics are coupled by shared temporal patterns. Accurate multi-modality transportation forecasting remains challenging because (1) different modalities...
+
+### FPGN: Redefining Ultra-Fast Programmable Gate-based Neural Acceleration with Differentiable LUTs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08427
+- Summary: Achieving nanosecond-scale inference latency for deep neural networks (DNNs) has become a primary architectural concern for latency-critical applications. While Field-Programmable Gate Arrays (FPGAs) offer a promising substrate for low-latency inference, conventional FPGA accelerators remain...
 
 ### Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery
 - Source: HF Daily Papers
@@ -919,6 +931,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
 - Summary: Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to...
+
+### Equivariant Quantum Clustering with Differential Privacy: Parameter-Efficient Privacy-Preserving Analysis Across Heterogeneous Sensitive Datasets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.08092
+- Summary: Privacy-preserving clustering is critical for analyzing sensitive data in healthcare, cybersecurity, and enterprise applications, where maintaining data confidentiality must be balanced with analytical performance. This paper presents Equivariant Quantum Clustering (EQC), a parameter-efficient...
 
 ### AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation
 - Source: arXiv AI
@@ -1336,6 +1354,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.07682
 - Summary: The inverse design of physical systems governed by partial differential equations is computationally demanding due to the high dimensionality and non-convexity of design spaces. Generative models for inverse design often lack robustness and transferability, whereas evolutionary strategies are...
+
+### SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07676
+- Summary: Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our knowledge the largest open skill library for agents by...
 
 ### Max Out GRPO Signal: Adaptive Trace Prefix Control for Hard Reasoning Problems
 - Source: HF Daily Papers
@@ -2990,28 +3014,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/huawei-tao-law-v2-logic-folding-process-parameters-jul2026-v2
 - Summary: Huawei's V2 Tao's Law paper reveals Kirin 2026 achieves 41% power reduction at equal performance, sets 5GHz target by 2031, and details gear ratio and bonding parameters.
-
-### Li Auto's Chip Gambit: A Bold Bet on Dataflow Architecture for Self-Driving AI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/li-auto-mach-m100-chip-dataflow-architecture-jul2026-v2
-- Summary: Li Auto's self-developed Mach M100 chip delivers 1280 TOPS with a unique dynamic dataflow architecture, a contrarian bet against NVIDIA's GPU dominance.
-
-### Chased by Huawei, Alibaba, and Meituan, AI Infrastructure Firm SiliconFlow Races Toward IPO
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/siliconflow-ai-infrastructure-ipo-huawei-alibaba-meituan-jul2026-v2
-- Summary: SiliconFlow, an AI token supply platform backed by Huawei, Alibaba and Meituan, files for Hong Kong IPO despite negative gross margins and mounting losses.
-
-### Simple-to-Complex Structured Demonstrations for Vision-Language-Action Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.04591
-- Summary: Vision-Language-Action (VLA) models have demonstrated strong capabilities in robotic manipulation by integrating visual perception, language understanding, and robot action generation. Existing research has primarily focused on improving model architectures, training strategies, and dataset scale,...
-
-### Beyond the Need for Speed: Energy-Aware Code Generation via Simulation-Guided Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.04577
-- Summary: Code models strictly prioritize functional correctness, leaving software energy efficiency as an unoptimized byproduct. Training models to generate energy-efficient code requires reproducible feedback at scale, which physical hardware measurement cannot reliably provide due to variance. In this...
 
