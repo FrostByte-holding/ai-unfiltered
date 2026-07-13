@@ -6,6 +6,24 @@
 
 ## 2026-07-13
 
+### Incorrect zone limits impacting some customers
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/d69bslyqmk6k
+- Summary: Jul 13, 16:52 UTC Resolved - This incident has been resolved. Jul 13, 16:36 UTC Investigating - Some customers may see "You have exceeded the limit for adding zones" messages when there are within the limits. A fix has been identified and is in progress
+
+### Elevated errors on Claude Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/pb6hndrzfhxn
+- Summary: Jul 13, 15:24 UTC Resolved - This incident has been resolved. Jul 13, 15:04 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 13, 14:44 UTC Investigating - We are currently investigating this issue.
+
+### Lessons Learned from CISA’s Recent GitHub Leak
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
+- Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity....
+
 ### Actions runs are experiencing failures to start
 - Source: GitHub Status
 - Category: incidents
@@ -1634,6 +1652,12 @@
 
 ## 2026-07-08
 
+### A Quantum Reservoir Architecture for Chaotic Forecasting and a Test of Whether Its High Dimension Helps
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.07978
+- Summary: Quantum reservoir computing uses a fixed quantum circuit as a feature generator and trains only a simple linear readout on top of it. This makes it cheap to train and free of the optimisation problems that affect many quantum machine-learning models. A natural worry is that the very large feature...
+
 ### Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO
 - Source: Latent Space
 - Category: open-source
@@ -2341,6 +2365,12 @@
 - URL: https://tldr.takara.ai/p/2607.06560
 - Summary: We formulate computer vision as unified multimodal generation, where heterogeneous visual tasks are expressed in the native text and image generation spaces of a unified multimodal model, without task-specific architectures. Under this formulation, SenseNova-Vision uses natural-language...
 
+### Unsupervised Domain Adaptation for Calcification Classification in Mammography Across Multi-Site Datasets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06549
+- Summary: Deep learning-based computer-aided diagnosis (CAD) systems have shown strong performance in breast cancer diagnosis, particularly for classification tasks in mammography. However, domain shifts across multi-site datasets remain a challenge, especially when models are applied to unseen domains. In...
+
 ### Cloudflare Registrar operations issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -2531,6 +2561,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.06238
 - Summary: Magnetic resonance imaging (MRI) super-resolution is vital for improving diagnostic accessibility, yet most methods treat it as a deterministic mapping from a fixed low-resolution input to a high-resolution target. This overlooks a key property of MRI acquisition physics: spatial resolution and...
+
+### WING: A Window-Prior-Based Generative Network with Gated Inception for Cross-Modality CT Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.06234
+- Summary: Generating CT volumes from MRI and CBCT can improve treatment planning in adaptive radiotherapy while avoiding additional radiation exposure. However, direct regression of CT intensities is challenged by the inherently high dynamic range and long-tailed distributions, thereby averaging out sparse...
 
 ### Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale
 - Source: HF Daily Papers
@@ -2981,38 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.05750
 - Summary: Computer-aided design (CAD) for industrial components requires long-horizon procedural modeling, robust feature dependencies, editable parametric geometry, and production-grade B-Rep execution. Existing text-to-CAD methods have made promising progress in generating CAD programs from...
-
-### Association Restoration Test: Revealing Restorable Shortcuts after Unlearning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.05726
-- Summary: Association unlearning aims to disable learned label-attribute shortcuts while preserving task performance. Existing evaluations mainly measure output-level robustness or probe whether shortcut attributes remain readable in frozen features, but neither test determines whether a retained association...
-
-### Claude Tag seeing elevated GitHub operation failures
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/d23j8s7t8rx2
-- Summary: Jul 6, 21:49 UTC Investigating - We are currently investigating elevated error rates on calls made Claude Tag. Our team is actively working to identify the root cause. You may experience errors such as GitHub operations denied.
-
-### Plainbook: Data Science, in Plain Language
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.05717
-- Summary: Jupyter Notebooks have become widely adopted in data science, as they allow the sharing of reproducible computational analysis. They are, however, accessible only to people who understand computer code. To reach the broader audience of scientists interested in data analysis and computation, but...
-
-### Durable Objects Increased Error Rate in ENAM
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/h7jkh4x3rm7n
-- Summary: Jul 7, 00:42 UTC Resolved - This incident has been resolved. Jul 6, 23:41 UTC Monitoring - A fix has been implemented and we are currently monitoring the results. Jul 6, 22:56 UTC Identified - Cloudflare has identified issue causing an increase of errors for Durable Objects and downstream services...
-
-### LeRobot v0.6.0: Imagine, Evaluate, Improve
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/lerobot-release-v060
-
-### Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/skypilot-hf-storage
 
