@@ -6,6 +6,36 @@
 
 ## 2026-07-14
 
+### Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/
+- Summary: A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek.
+
+### Gateway List updates using CSV not applied
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kl1x6shzrh2d
+- Summary: Jul 14, 12:52 UTC Resolved - This incident has been resolved. Jul 14, 12:41 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 14, 11:55 UTC Identified - Cloudflare is aware of and investigating an issue where changes applied via CSV to Gateway Lists are not being...
+
+### 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html
+- Summary: Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. "An attacker exploiting one of these vulnerable applications can execute...
+
+### The Download: Claude’s inner workings, and the future of world models
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window...
+
+### SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/
+- Summary: The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization. The post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on SecurityWeek.
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -279,6 +309,12 @@
 - URL: https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/
 - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity....
 
+### Reproducing human biases in route choice using large language models: Toward scalable behavioral modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11632
+- Summary: Human choice behavior, including route choice, exhibits systematic behavioral biases that deviate from the assumptions of full rationality. Cumulative prospect theory (CPT) has been widely recognized as an effective framework for characterizing such behavioral patterns. However, its large-scale...
+
 ### Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption
 - Source: Security Week
 - Category: security
@@ -309,11 +345,23 @@
 - URL: https://status.openai.com//incidents/01KXDMD4T8TM58CSKBN7YFD2CK
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Sites (Operational)
 
+### Comparative Analysis of GAT and BERT for Human-Like Playtesting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11501
+- Summary: Accurately modeling and understanding player experience is crucial for designing engaging puzzle games. To achieve this, a common approach involves collecting diverse user data to train predictive playtesting models that mimic player behavior. However, existing data-driven methods often lack the...
+
 ### Empowering India’s next generation of innovators with ATL Saathi
 - Source: DeepMind Blog
 - Category: research
 - URL: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
 - Summary: Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.
+
+### HyperSafe: Inference-Time Safety Recovery for Fine-Tuned Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11475
+- Summary: Safety alignment in large language models can be fragile under fine-tuning, as even benign task adaptation may increase harmful compliance. Existing defenses mainly follow two directions: they either intervene during or after fine-tuning through retraining or weight modification, which can be...
 
 ### Cybersecurity M&A Roundup: 37 Deals Announced in June 2026
 - Source: Security Week
@@ -362,6 +410,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html
 - Summary: Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. "The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting...
+
+### Surprisingly Simple and Effective Multi-Domain Graph Foundation Model through Graph-to-Table Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11374
+- Summary: Graph Foundation Models (GFMs) have emerged as a promising paradigm for learning transferable representations across diverse graph domains. Recent advancements in GFMs have been largely dominated by two paradigms: Graph Neural Network and Large Language Model (LLM) based methods. However, these...
 
 ### Zimbra Patches Critical Code Execution Vulnerability
 - Source: Security Week
@@ -452,6 +506,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both...
+
+### MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11070
+- Summary: Modern large language models (LLMs) operate in interactive multi-turn settings, making multi-turn jailbreaking a realistic threat model and an important setting for automated red teaming. A core challenge in learning multi-turn jailbreak attackers is credit assignment: different turns contribute...
 
 ### Interval Certifications for Multilayered Perceptrons via Lattice Traversal
 - Source: arXiv AI
@@ -2960,64 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.06295
 - Summary: Deep learning models have emerged in machine learning and related fields, demonstrating astonishing performance in various visual tasks. Despite their great success, however, these models are unable to fully encode intrinsic visual structures, and often ignore the spatial, topological, and semantic...
-
-### DNS Zone Transfer Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/dthgj6gr726s
-- Summary: Jul 7, 14:00 UTC Resolved - Secondary DNS zone transfers (AXFR/IXFR) using legacy IP addresses may have experienced intermittent failures between 14:50 and 16:10 UTC. The underlying issue has been corrected and all zone transfers are now operating normally.
-
-### Kernel-based Operator Learning: Error Analysis, Budget Allocation, and a Physics-Informed Extension
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06287
-- Summary: We study kernel-based operator learning in a two-stage sampling framework, where an offline kernel regression operator learns a discretized representation of the target operator from input-output pairs and an online kernel reconstruction operator recovers the output function from predicted...
-
-### Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html
-- Summary: U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint. Microsoft records tied that ID first to the account the attackers used to keep access during the May 2025...
-
-### Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
-- Summary: Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise. The one-click vulnerability has been codenamed WriteOut by the Sand...
-
-### CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/
-- Summary: The audits are reportedly being spearheaded by CISA’s Attack Surface Evaluation team, a specialized unit tasked with conducting digital defense assessments and simulated hacking exercises. The post CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws appeared first on...
-
-### PhyMRI-SR: Toward Physics-Aware MRI Image Super-Resolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06238
-- Summary: Magnetic resonance imaging (MRI) super-resolution is vital for improving diagnostic accessibility, yet most methods treat it as a deterministic mapping from a fixed low-resolution input to a high-resolution target. This overlooks a key property of MRI acquisition physics: spatial resolution and...
-
-### WING: A Window-Prior-Based Generative Network with Gated Inception for Cross-Modality CT Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06234
-- Summary: Generating CT volumes from MRI and CBCT can improve treatment planning in adaptive radiotherapy while avoiding additional radiation exposure. However, direct regression of CT intensities is challenged by the inherently high dynamic range and long-tailed distributions, thereby averaging out sparse...
-
-### Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06233
-- Summary: LLM-powered data agents are playing an increasingly important role in data-driven decision making. However, existing data agents struggle to generalize to unseen data environments and analytical workflows, especially in heterogeneous enterprise settings. This creates a growing need for synthesizing...
-
-### A toy framework for single and multi-agent human-AI curiosity ecosystems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06214
-- Summary: This paper offers a toy framework for considering curiosity as an ecosystem. First, it suggests that a single agent's inquiry policy (how, when, and why an agent asks a question) depends on how the agent values immediate uncertainty reduction, costs, delayed return, and the value of keeping the...
-
-### Critical Adobe ColdFusion Vulnerability Exploited in Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/
-- Summary: Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10. The post Critical Adobe ColdFusion Vulnerability Exploited in Attacks appeared first on SecurityWeek.
 
