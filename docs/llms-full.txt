@@ -6,11 +6,35 @@
 
 ## 2026-07-14
 
+### UPDATE: Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions.
+- Source: GCP Status
+- Category: incidents
+- URL: https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF
+- Summary: Incident began at 2026-07-14 10:00 (all times are US/Pacific).Summary Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions. Description We are experiencing an issue with Google Cloud VMware Engine (GCVE)...
+
+### Microsoft Patches a Record 570 Security Flaws
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/
+- Summary: Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning...
+
+### Incident with Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/ydpk76bj34z8
+- Summary: Jul 14, 18:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 14, 17:55 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We...
+
 ### Some ChatGPT Go users may experience conversation failures when using GPT-5.5.
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXGJPKV743DPQZDZQ57VR0JQ
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### Elevated number of 502 errors for CDN/Cache in SIN
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/bm56rtyhk7tr
+- Summary: Jul 14, 16:00 UTC Resolved - Between 16:52-17:10 UTC today, customers would have experienced an elevated number of 502 errors from our CDN/Cache and Durable Objects in SIN.
 
 ### Elevated R2 errors in WEUR region
 - Source: Cloudflare Status
@@ -285,6 +309,12 @@
 - URL: https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s...
 
+### Latent-Identity Tuning in Text-to-Image Personalization Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11885
+- Summary: Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained...
+
 ### Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data
 - Source: HF Daily Papers
 - Category: open-source
@@ -314,6 +344,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.11752
 - Summary: For decades, static solution concepts (Nash, Correlated, and Coarse Correlated Equilibria) and the Price of Anarchy (PoA) have formed the bedrock of algorithmic game theory, with no-regret learning proving fast convergence to such game-theoretic equilibria. We show that reducing multi-agent...
+
+### Production and Perception in LLMs: A Token Probability Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11703
+- Summary: The asymmetry between language production and perception has been well-documented in psycholinguistics. Whether large language models (LLMs) exhibit a functionally analogous distinction remains an open question, particularly given that LLMs rely on the same underlying mechanism (next-token...
 
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
@@ -374,6 +410,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXDMD4T8TM58CSKBN7YFD2CK
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Sites (Operational)
+
+### CFR-Net:Collaborative Feature Refnement Network for Medical Image Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11509
+- Summary: Medical image anomaly detection remains challenging because networks pretrained on natural images often exhibit limited adaptability to medical images, where abnormal patterns appear as fine-grained local shifts, multi-scale contextual mismatches, and orientation-sensitive structural deviations. To...
 
 ### Comparative Analysis of GAT and BERT for Human-Like Playtesting
 - Source: HF Daily Papers
@@ -464,6 +506,18 @@
 - Category: security
 - URL: https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/
 - Summary: Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek.
+
+### Backpropagation as a Nilpotent Linear System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11289
+- Summary: Backpropagation is the computational engine of deep learning, yet its mathematical structure is typically treated as a procedural traversal of computational graphs. We present a global operator theory of the \emph{F-adjoint} framework, which reformulates the layerwise backward recursion of an...
+
+### Enhancing LLMs through human feedback: a journey towards self-improvement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11267
+- Summary: In the rapidly evolving landscape of information retrieval systems, the ability to adapt and improve through user feedback is paramount. This study introduces a novel methodology for refining the performance of a primary Retrieval Augmented Generation (RAG) system by strategically integrating an...
 
 ### Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns
 - Source: Security Week
@@ -2967,57 +3021,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
 - Summary: A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project. From there, they could read live conversations, steal the data users shared, and make the bots send...
-
-### A Physics-Informed Neural Network Framework for Elastodynamic Wave Propagation in Bimaterial Systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06479
-- Summary: Physics-informed neural networks (PINNs) provide a promising framework for solving partial differential equations while embedding the underlying physical laws directly into the learning process. This study presents a PINN-based framework for modeling transient elastodynamic wave propagation in...
-
-### Provable learning separation for predicting time-evolution of quantum many-body systems
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06472
-- Summary: Given that quantum computers are naturally suited to simulate the behavior of quantum many-body systems, an immediate question arises: can one formulate physically motivated quantum machine learning (QML) tasks that exhibit learning separations? We address this problem by studying the learnability...
-
-### POPS: Recovering Unlearned Multi-Modality Knowledge in MLLMs with Prompt-Optimized Parameter Shaking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06649
-- Summary: Multimodal Large Language Models (MLLMs) have demonstrated impressive performance on cross-modal tasks by jointly training on large-scale textual and visual data, where privacy-sensitive examples could be unintentionally encoded, raising concerns about privacy or copyright violation. To this end,...
-
-### PIPBench: A Profile-Inclusive Framework for Personalized Image Generation Evaluation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06440
-- Summary: Recent text-to-image models such as DALLE-3 excel at following diverse prompts yet remain blind to individual aesthetic preferences. We study personalized image generation, where models must align outputs with a user's implicit visual preferences based on a few historically preferred images and a...
-
-### RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06411
-- Summary: Developers increasingly delegate real maintenance work to product-grade coding agents, and many state tasks in their native language, in the style of a customer request rather than a curated English issue. Existing repository-level agentic benchmarks do not measure this setting: their task...
-
-### A Function-Space Dichotomy for Compositional Learning: Exponential Sub-Optimality of the Neural Tangent Kernel
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06382
-- Summary: A persistent empirical observation is that trained neural networks outperform their neural tangent kernel (NTK) limit on tasks with compositional structure, yet a quantitative account of $\textbf{when}$ and $\textbf{by how much}$ has been lacking. Working on the unit circle, we give such an account...
-
-### Hugging Face Models on Foundry Managed Compute
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/microsoft/foundry-managed-compute
-
-### DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
-- Summary: A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC. "The campaign did not depend on a fake Microsoft password page. It used a...
-
-### VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06374
-- Summary: Vision-language models (VLMs) have made interactive digital museums increasingly feasible by connecting 3D digitization with natural-language artifact exploration. However, in cultural heritage domains such as ancient Greek pottery, reliable VLM assistance is limited by two challenges. First,...
 
