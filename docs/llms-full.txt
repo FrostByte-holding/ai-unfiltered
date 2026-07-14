@@ -6,6 +6,18 @@
 
 ## 2026-07-14
 
+### Some ChatGPT Go users may experience conversation failures when using GPT-5.5.
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KXGJPKV743DPQZDZQ57VR0JQ
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### Elevated R2 errors in WEUR region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4bz1qc7w0rc5
+- Summary: Jul 14, 15:38 UTC Identified - The issue has been identified and a fix is being implemented. Jul 14, 15:23 UTC Investigating - Customers may experience elevated error rates in WEUR region
+
 ### Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar
 - Source: Security Week
 - Category: security
@@ -273,6 +285,12 @@
 - URL: https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s...
 
+### Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11883
+- Summary: Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that...
+
 ### CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
 - Source: The Hacker News
 - Category: security
@@ -290,6 +308,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/d69bslyqmk6k
 - Summary: Jul 13, 16:52 UTC Resolved - This incident has been resolved. Jul 13, 16:36 UTC Investigating - Some customers may see "You have exceeded the limit for adding zones" messages when there are within the limits. A fix has been identified and is in progress
+
+### Paradoxes of Game Theoretic Equilibria and Price of Anarchy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11752
+- Summary: For decades, static solution concepts (Nash, Correlated, and Coarse Correlated Equilibria) and the Price of Anarchy (PoA) have formed the bedrock of algorithmic game theory, with no-regret learning proving fast convergence to such game-theoretic equilibria. We show that reducing multi-agent...
 
 ### Elevated errors on Claude Haiku 4.5
 - Source: Anthropic Status
@@ -332,6 +356,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html
 - Summary: Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false "fact" about the user, hide the change, and quietly steer its answers in later sessions. When it works, the...
+
+### Learning Residual Kinematic Corrections for Continuous Neural Decoding via Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11530
+- Summary: Decoding continuous three-dimensional (3D) motor imagery (MI) using non-invasive electroencephalography (EEG)-based brain--computer interfaces (BCIs) remains challenging due to signal variability and residual decoding errors. Deep learning architectures such as convolutional neural network--long...
 
 ### Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft
 - Source: The Hacker News
@@ -446,6 +476,12 @@
 - Category: security
 - URL: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
 - Summary: The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek.
+
+### When the Target Domain Changes: AI-Mediated Construct Drift in High-Stakes English Language AssessmenW
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11213
+- Summary: High-stakes English proficiency tests treat standardized, unaided performance as evidence for score interpretations about academic English proficiency. This interpretation remains meaningful, but as target language use domains increasingly involve generative AI, the extrapolation from unaided test...
 
 ### OpenHarmony Six-Year Transformation: An Operating System Revolution Spanning Thousands of Industries
 - Source: Pandaily
@@ -722,6 +758,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/sugon-dawn-8000-100k-cluster-era-jul2026
 - Summary: Sugon Dawn 8000 Dengfeng becomes China first fully domestic 100K-card super-AI fusion cluster, built on Hygon processors and connecting to the National Supercomputing Internet.
+
+### Temporal Feature Distillation for Label-Efficient Precise Event Spotting in Sports Videos
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.10998
+- Summary: Precise Event Spotting (PES) requires distinguishing visually similar yet semantically distinct adjacent frames, making it fundamentally different from image classification and coarse action recognition. Although self-distillation methods such as DINO have shown strong representation learning...
 
 ### MED-DSLC: Multi-Expert-Domain Classification via Domain Supervision and Logit Calibration
 - Source: HF Daily Papers
@@ -2978,46 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.06374
 - Summary: Vision-language models (VLMs) have made interactive digital museums increasingly feasible by connecting 3D digitization with natural-language artifact exploration. However, in cultural heritage domains such as ancient Greek pottery, reliable VLM assistance is limited by two challenges. First,...
-
-### Physics-Informed Neural Embeddings of PDE Solution Families
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06348
-- Summary: We introduce a physics-informed framework for learning finite-dimensional embeddings of solution families of partial differential equations. The method uses a multihead Physics-Informed Neural Network in which a shared body learns a latent manifold representing the solution space, while linear...
-
-### Responsible Personalisation: The Double-Edged Sword of Personalisation in Human-Robot Interaction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06344
-- Summary: While personalisation is becoming a defining capability in human-robot interaction (HRI), the existing literature on responsible personalisation remains fragmented, offering isolated accounts of ethical risks without a structured understanding of how they emerge across interaction contexts. This...
-
-### Harnessing Code Agents for Automatic Software Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06341
-- Summary: Formal verification offers the strongest guarantee of software correctness, but it does not scale: the proofs demanded by interactive theorem provers such as Coq require enormous expert effort. Large language models (LLMs) promise to generate these proofs automatically, yet existing approaches wire...
-
-### Actions and Codespaces APIs experiencing partial failures
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/fz9sdc2q008p
-- Summary: Jul 7, 14:32 UTC Update - Codespaces is experiencing degraded availability. We are continuing to investigate. Jul 7, 14:14 UTC Update - Customers accessing the Actions and Codespaces REST APIs may see 500 class errors a small percentage of the time.Actions runs in progress are continuing...
-
-### UI2App: Benchmarking Visual Interaction Inference in Executable Web Application Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06306
-- Summary: Large language models (LLMs) have demonstrated growing competence in web page generation. However, existing text-driven approaches rely on complex prompts that impose substantial demands on users and offer limited expressivity for page layout and cross-page visual coherence. Image-driven paradigms,...
-
-### Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
-- Summary: A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown. The attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the...
-
-### Visual graphs for image classification: does the structure affect performance?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.06295
-- Summary: Deep learning models have emerged in machine learning and related fields, demonstrating astonishing performance in various visual tasks. Despite their great success, however, these models are unable to fully encode intrinsic visual structures, and often ignore the spatial, topological, and semantic...
 
