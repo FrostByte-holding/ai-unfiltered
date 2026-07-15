@@ -6,6 +6,24 @@
 
 ## 2026-07-15
 
+### Network Performance Issues in AMS
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/4q8v8b2yfrcf
+- Summary: Jul 15, 15:49 UTC Resolved - This incident has been resolved. Jul 15, 14:53 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 15, 14:19 UTC Identified - The issue has been identified and a fix is being implemented. Jul 15, 13:39 UTC Investigating - Cloudflare is...
+
+### Elevated errors in ENAM region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/54w80w31z28y
+- Summary: Jul 15, 15:45 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 15, 15:28 UTC Identified - The issue has been identified and a fix is being implemented. Jul 15, 15:22 UTC Investigating - Customers may experience elevated error rates in ENAM region
+
+### Elevated errors on multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/09g0fh2l7qbb
+- Summary: Jul 15, 15:11 UTC Resolved - This incident has been resolved. Jul 15, 15:02 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 15, 14:49 UTC Identified - The issue has been identified and a fix is being implemented. Jul 15, 14:04 UTC Investigating - We are currently...
+
 ### Network Performance issues - Increased HTTP 502 Errors in HKG
 - Source: Cloudflare Status
 - Category: incidents
@@ -278,6 +296,12 @@
 - URL: https://www.githubstatus.com/incidents/ydpk76bj34z8
 - Summary: Jul 14, 18:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 14, 17:55 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We...
 
+### Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12985
+- Summary: Aligned language models routinely misreport under non-evidential incentive pressure: they agree with a confident user or overstate certainty even when their internal belief is unchanged. We cast this as a failure of internal incentive-compatibility (IC) and present a method for learning and...
+
 ### Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads
 - Source: The Hacker News
 - Category: security
@@ -314,6 +338,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/4bz1qc7w0rc5
 - Summary: Jul 14, 15:38 UTC Identified - The issue has been identified and a fix is being implemented. Jul 14, 15:23 UTC Investigating - Customers may experience elevated error rates in WEUR region
 
+### Hy-Embodied-VLM-1.0: Efficient Physical-World Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12894
+- Summary: Building capable embodied agents requires not only multimodal perception and understanding, but also agentic capabilities for reasoning about actions, adapting to evolving situations, and interacting with the physical world. In this report, we introduce Hy-Embodied-VLM-1.0, an efficient and...
+
 ### Energy-Based Physics-Informed Form Finding for Clustered Tensegrity Structures
 - Source: HF Daily Papers
 - Category: open-source
@@ -325,6 +355,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.12835
 - Summary: Rubric-based evaluation is a promising approach for assessing open-ended outputs from LLM-based research agents, particularly in paper reproduction, where direct paper-to-repository comparison is prone to hallucination. However, constructing paper-specific rubrics requires substantial expert...
+
+### The One-Word Census: Answer-Choice Conformity Across 44 Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12796
+- Summary: When a language model must pick one answer from a large space of equally valid options, which does it pick -- and how often is it the same answer every other model picks? Asked to "pick a word -- any word," 44 models chose "serendipity" 41% of the time. We characterize this convergence with a...
+
+### Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12790
+- Summary: Self-evolving agent systems improve by creating, revising, and retiring their own skills, but every such loop rests on a hidden assumption: a reliable evaluation metric already exists. In many real applications it does not. We make three claims. First, metrics can be \emph{evolved}: our metric loop...
 
 ### 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer
 - Source: Security Week
@@ -373,6 +415,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html
 - Summary: AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and...
+
+### AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12645
+- Summary: Generative modeling of longitudinal Electronic Health Records is increasingly important for privacy-preserving research, yet standard autoregressive models tend to underrepresent the co-occurrence structure of tail events (i.e., diseases, symptoms), reducing the fidelity and faithfulness of...
 
 ### OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
 - Source: The Hacker News
@@ -781,6 +829,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.09781
 - Summary: arXiv:2607.09781v1 Announce Type: new Abstract: We present a pipeline for constructing maze structures from input patterns such as text or shapes. The central path-synthesis problem is encoded in Satisfiability Modulo Theories as global constraints on adjacency, continuity, and pattern-constrained...
+
+### Length Penalties Make Chain-of-Thought Less Monitorable
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.09786
+- Summary: arXiv:2607.09786v1 Announce Type: new Abstract: Length-penalized reinforcement learning can shorten chain-of-thought reasoning while hiding an influence that drives the model's answer. In our experiments, training with length penalties does not stop misleading hints from steering models, even...
+
+### PHITSBench: an execution-scored benchmark for AI-assisted PHITS radiation-transport input generation using natural language
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.09789
+- Summary: arXiv:2607.09789v1 Announce Type: new Abstract: We introduce PHITSBench, an execution-scored benchmark for the Monte Carlo Particle and Heavy Ion Transport code System (PHITS). PHITSBench comprises 282 transport-scorable tasks spanning three common workflow categories: parameter editing (Edit),...
+
+### Semantic Drift and the Stability of Operator Control in Reasoning-Class Decision Support Systems
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.09790
+- Summary: arXiv:2607.09790v1 Announce Type: new Abstract: The article investigates the fundamental problem of ensuring the stability of operator control and preserving goal-targeting in hybrid human-machine decision support systems (DSS) of a new generation. Based on a two-month continuous longitudinal...
+
+### Agentic Context Learning with Self-Discovered Specification
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.09794
+- Summary: arXiv:2607.09794v1 Announce Type: new Abstract: Context learning is an emerging inference-time task where LLMs must learn and apply novel, task-specific knowledge from intricate contexts absent from pre-training; even frontier models score under 24% task success. In this work, we conduct a...
+
+### Exploring Agentic Workflows for Generating High Quality Math Visual Aids
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.09839
+- Summary: arXiv:2607.09839v1 Announce Type: new Abstract: Mathematical diagrams play a crucial role in K 12 education, both as problem components and as scaffolding for student comprehension. However, current AI tools, including Large Language Models (LLMs), struggle to reliably generate accurate and...
 
 ### Unitree Robotics Partners With Hunan Steel: A Physical AI Infrastructure Company Emerges
 - Source: Pandaily
@@ -2944,82 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.07519
 - Summary: We address the problem of efficiently sampling multimodal probability distributions, where standard Markov Chain Monte Carlo methods often suffer from poor mixing and mode trapping. To mitigate these issues, we propose Gradient-free Riemannian Langevin Sampler (GRiLS), a novel proposal that...
-
-### New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html
-- Summary: AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call&nbsp;HalluSquatting, turns that habit into an attack: work out the fake names an AI...
-
-### Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07508
-- Summary: Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged as a more efficient...
-
-### Cloudflare Dashboard and Cloudflare API service issues - Turnstile Widgets
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/t0czr8hcdkk7
-- Summary: Jul 8, 15:00 UTC Resolved - Between the times of 14:40 and 15:00 (UTC) on 2026-07-08 Cloudflare experienced issues with the listing of Turnstile widgets via the Dashboard and API. These requests may have failed and/or 500 errors may have been displayed.
-
-### Discovering Geometric Biases in 3D Face Reconstruction: A Curvature-Aware Spectral Framework for Fairness Evaluation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07486
-- Summary: 3D Morphable Models (3DMMs) remain the standard parametric shape priors for many state-of-the-art 3D face reconstruction algorithms. However, as these models are derived from a finite number of 3D face samples, they inherit the morphological biases of their training data, potentially limiting their...
-
-### Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
-- Summary: Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score:...
-
-### SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07467
-- Summary: Spatial and Single-cell transcriptomics are transformative in deciphering cellular dynamics. As the fundamental paradigm for reconstructing cell developmental paths, trajectory inference (TI) is critical. However, existing methods require extensive manual intervention and proficiency in...
-
-### The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07436
-- Summary: A self-evolving agent retires its bad skills by watching them fail, so what happens when the judge cannot see the failures? Skill retirement is the structural constraint that keeps a growing library from drifting below the no-skill baseline, but its guarantee assumes an unbiased reward, which is...
-
-### Webinar Today: Why Email Security Keeps Failing
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/
-- Summary: Join the webinar as we break down why email-layer defenses alone can’t keep pace with the modern phishing ecosystem. The post Webinar Today: Why Email Security Keeps Failing appeared first on SecurityWeek.
-
-### New Ghost Phishing Wave Is Breaking Traditional Email Security
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html
-- Summary: A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear:...
-
-### SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html
-- Summary: A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045, involves infecting victims through fake CAPTCHA verification...
-
-### Felons, Fraudsters Flog Offensive Cybersecurity Startup
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/
-- Summary: A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform...
-
-### Quantum simulation of real-world nonlinear dynamics via Koopman method
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07338
-- Summary: Nonlinear dynamics is ubiquitous in nature, ranging from chemical pattern formation to ocean circulation, yet its simulation on quantum computers is fundamentally limited by the unitary nature of quantum evolution. We propose the quantum Koopman method, a data-driven framework that embeds nonlinear...
-
-### Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/
-- Summary: The "Rogue Agent" vulnerability could have enabled attackers to silently manipulate AI conversations, exfiltrate data, and compromise every Dialogflow CX agent within the same Google Cloud project. The post Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations appeared first on...
 
