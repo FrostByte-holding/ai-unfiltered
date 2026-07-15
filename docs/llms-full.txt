@@ -6,6 +6,22 @@
 
 ## 2026-07-15
 
+### What building Shippy taught us about building agents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/shippy-tech-blog
+
+### Model Routing Is Simple. Until It Isn’t.
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt
+
+### Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/
+- Summary: OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its...
+
 ### Network Performance Issues in AMS
 - Source: Cloudflare Status
 - Category: incidents
@@ -233,6 +249,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/real-world-voiceeq
 
+### Welcome Inkling by Thinking Machines
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/thinkingmachines-inkling
+
 
 ## 2026-07-14
 
@@ -320,6 +341,12 @@
 - URL: https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html
 - Summary: Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. "LabubaRAT creates a reusable foothold for hands-on activity," Blackpoint Cyber researchers Sam Decker...
 
+### Exact and Calibrated Diffusion Reconstruction for Digital Breast Tomosynthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12937
+- Summary: Limited-angle digital breast tomosynthesis (DBT) reconstructs a volume from a few low-dose projections over a narrow arc. At a representative nine-view, $25^{\circ}$ protocol more than 98% of image space is unmeasured, so a learned prior must supply structure in the missing wedge. Conditional...
+
 ### Some ChatGPT Go users may experience conversation failures when using GPT-5.5.
 - Source: OpenAI Status
 - Category: incidents
@@ -349,6 +376,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.12888
 - Summary: Tensegrity form-finding and physical property prediction are fundamental inverse problems in structural mechanics, which aim to determine equilibrium configurations and internal force distributions. These problems are challenging due to strong nonlinearity arising from the coupling between geometry...
+
+### ChartGenEval: Corruption-Tested Multi-Dimensional Feedback for Rhythm-Game Chart Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12857
+- Summary: A generated rhythm-game chart need not reproduce one official note sequence: many note choices can fit the same song and difficulty. Reference-note agreement therefore measures reconstruction, not the full design problem. We introduce ChartGenEval, a six-question evaluation framework with an...
 
 ### Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction
 - Source: HF Daily Papers
@@ -458,6 +491,12 @@
 - URL: https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/
 - Summary: UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.
 
+### DiTailed: Ensuring Visual Object Consistency in Text-Image-to-Image Flow Matching Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12539
+- Summary: Despite remarkable progress in text-guided image editing, generative models frequently fail to preserve visual object consistency, defined as the preservation of a subject's key attributes throughout the editing process. We address this limitation through three contributions. First, we introduce...
+
 ### Multiple Jscrambler Packages Impacted by Supply Chain Attack
 - Source: Security Week
 - Category: security
@@ -469,6 +508,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html
 - Summary: xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out...
+
+### OOD-RL-Bench: A Benchmark Framework for Out-of-Distribution Detection in Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12523
+- Summary: Reliable reinforcement learning (RL) agents must maintain operational integrity amidst sensor malfunctions, dynamic disturbances, and slow environmental shifts. The detection of out-of-distribution conditions is pivotal to determining when an agent's observations, transitions, or trajectory...
 
 ### U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support
 - Source: The Hacker News
@@ -547,6 +592,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
 - Summary: Attackers whose methods line up with the data-extortion group&nbsp;ShinyHunters&nbsp;have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the...
+
+### Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12397
+- Summary: LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires...
 
 ### Elevated R2 errors in EU region
 - Source: Cloudflare Status
@@ -2969,57 +3020,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/open-data-for-agents
-
-### AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html
-- Summary: Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like...
-
-### Higher-Order Geometric Updates for Levenberg-Marquardt Method via Riemann Normal Coordinates
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07623
-- Summary: Nonlinear least-squares optimization is central to regression, physics-informed neural networks, and other machine-learning tasks. Such problems have a natural geometric interpretation, model predictions form a manifold in data space, while the chosen parameterization can introduce...
-
-### EmTech AI 2026: The Rise of the AI Platform
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/
-
-### Accenture Confirms Data Breach After Hacker Claims Source Code Theft
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/
-- Summary: The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek.
-
-### China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/china-linked-apt-expands-arsenal-with-new-leash-backdoors/
-- Summary: Cisco says the threat actor behind the LapDogs campaign has expanded its SOHO router malware toolkit with LongLeash, DogLeash, and JarLeash backdoors. The post China-Linked APT Expands Arsenal With New &#8216;Leash&#8217; Backdoors appeared first on SecurityWeek.
-
-### SonoRank: Towards Calibration-Free Real-Time Finger Flexion Detection from Forearm Ultrasound Sequences
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07542
-- Summary: Powered prosthetic hands are frequently abandoned, largely due to the limited functionality of current devices that rely on surface electromyography (sEMG). Sonomyography (ultrasound) has emerged as a promising alternative, owing to its ability to observe muscle activity in real time and control a...
-
-### Infinite Worlds with Versatile Interactions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07534
-- Summary: We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining...
-
-### Creativity from Friction: Human-AI Interaction for Exploratory Structural Design
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07521
-- Summary: AI agents that generate final answers based on user input often do not meet the needs of creative fields. Fields such as structural design and architecture need interactive systems that help users externalise and develop ideas, explore alternatives, and refine partial solutions. The final product...
-
-### Gradient-free Riemannian Langevin Sampler
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.07519
-- Summary: We address the problem of efficiently sampling multimodal probability distributions, where standard Markov Chain Monte Carlo methods often suffer from poor mixing and mode trapping. To mitigate these issues, we propose Gradient-free Riemannian Langevin Sampler (GRiLS), a novel proposal that...
 
