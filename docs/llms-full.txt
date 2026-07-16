@@ -6,6 +6,17 @@
 
 ## 2026-07-16
 
+### Durable Objects Increased Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kdnfshk5vs51
+- Summary: Jul 16, 17:14 UTC Update - We are continuing to work on a fix for this issue. Jul 16, 16:53 UTC Update - We are continuing to work on a fix for this issue. Jul 16, 16:49 UTC Identified - The cause of this issue has been identified and a fix is being implemented. Jul 16, 16:44 UTC Update -...
+
+### NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb
+
 ### 🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences
 - Source: Latent Space
 - Category: open-source
@@ -467,6 +478,12 @@
 - URL: https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/
 - Summary: The new program stems from an AI-focused Executive Order signed by President Trump on June 2. The post White House Launches AI-Driven &#8216;Gold Eagle&#8217; Vulnerability Coordination Initiative appeared first on SecurityWeek.
 
+### Fine-grained CLIP fine-tuning with self-annotated region alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13661
+- Summary: Contrastive Language-Image Pre-training (CLIP) has been shown to have limitations in its fine-grained dense feature representation, due to its pre-training focusing on matching the whole image to a text description. Considering the large data and computational burden in pre-training a...
+
 ### Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption
 - Source: Security Week
 - Category: security
@@ -496,6 +513,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13618
 - Summary: LLM agents are increasingly evaluated on multi-week decision tasks in which the state that drives cost is never directly observed. On such tasks the final cost cannot say why an agent failed: it may have misread the world, or read it correctly and still failed to act (the knowing-doing gap)....
+
+### Automatic Ordinary Differential Equations Discovery For Biological Systems Using Large Language Model Powered Agentic System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13608
+- Summary: Automatic scientific discovery has long been a goal of computational scholars - a machine that can discover nature's secrets on its own, moving computational systems beyond data-fitting tools toward the generation and refinement of mechanistic models of the universe. Recent advances in symbolic...
+
+### Approximation of solutions of parameter-dependent problems by residual neural networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13574
+- Summary: We develop a convergent scheme to train neural networks involving analytic activation functions based on gradient flows. Convergence properties are guaranteed by Lojasiewicz theory. The main advantage of this approach is its simplicity of implementation. The coefficients of the network are...
 
 ### Nexus: Native Mesh Generation with Diffusion
 - Source: HF Daily Papers
@@ -538,6 +567,12 @@
 - Category: security
 - URL: https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
 - Summary: Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.
+
+### DP-BOA: Dirichlet-Process Birth-or-Assign for On-the-Fly Category Discovery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13504
+- Summary: On-the-fly category discovery requires deciding for each incoming test sample whether to assign it to an existing category or spawn a new one. Existing methods typically implement this decision through matching-based heuristics, such as radius- or hash-based rules. While effective in practice,...
 
 ### LAPO: Leave-One-Turn Attribution for Self-Generated Process Rewards in Multi-Turn Search Reasoning
 - Source: HF Daily Papers
@@ -718,6 +753,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13413
 - Summary: This study presents an empirical benchmarking comparison between Kolmogorov-Arnold Networks (KANs) and Multi-Layer Perceptrons (MLPs) on structured tabular classification tasks. Motivated by the growing interest in KANs as an alternative function-approximating architecture, we evaluate their...
+
+### Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13399
+- Summary: On-policy distillation (OPD) has become a key paradigm in LLM post-training, yet its training dynamics remain poorly understood. We present a systematic study examining the role, pathologies, and regulations of OPD. We first clarify the role of OPD as an exploration catalyst: it steers the student...
 
 ### Shenzhen Professor Robot Startup LimX Dynamics Hits $2.3B Valuation With $200M Pre-IPO Round
 - Source: Pandaily
@@ -2977,46 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.08284
 - Summary: Large language models (LLMs) have demonstrated rapidly improving long-context capabilities, prompting a wave of benchmarks designed to evaluate them. However, existing long-context evaluations - from Needle-in-a-Haystack (NIAH) tests to more recent multi-hop reasoning and summarization tasks -...
-
-### Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.08282
-- Summary: While Large Language Models (LLMs) have become essential productivity tools, their integration into workflows without adequate safeguards creates significant risks. This paper proposes an open-source, privacy-focused, user-facing firewall designed to secure both web-based and programmatic LLM...
-
-### AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/
-- Summary: Wiz has disclosed the details of a new AI coding assistant attack method it has dubbed GhostApproval. The post AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique appeared first on SecurityWeek.
-
-### Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html
-- Summary: Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine...
-
-### SkelGen4D: Weakly-Supervised Skeleton-Based 4D Generation for Text-Driven Mesh Animation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.08246
-- Summary: We study 4D generation to synthesize temporally coherent sequences of 3D geometry for animation and content creation. In contrast to existing SDS-based optimization methods and video-driven animation approaches, we adopt a skeleton-driven animation framework aligned with standard industrial...
-
-### Unitree and UBTECH: Two Divergent Commercial Experiments for China Humanoid Robots in 2026
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/unitree-ubtech-humanoid-robot-commercialization-jul2026
-- Summary: Unitree pursues affordable industrial-scale humanoids while UBTECH targets ultra-realistic luxury consumer robots, representing two competing visions for embodied AI commercialization.
-
-### Chasing the 2030 Power Generation Target: China's Artificial Sun Race Heats Up
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-fusion-energy-artificial-sun-2030-jul2026
-- Summary: China private nuclear fusion sector surges as multiple startups adopt differentiated technical routes, driven by AI energy demand and policy support, targeting demonstration reactors by 2030.
-
-### DJI Unreleased EV50 VTOL Cargo Drone Flies Above Everest, Unlocking 100km Low-Altitude Logistics
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dji-ev50-everest-vtol-cargo-drone-jul2026
-- Summary: DJI pre-release EV50 composite-wing drone reaches 8,861 meters above Everest during polar mission, demonstrating 100km-range VTOL cargo capability for extreme environment logistics.
 
