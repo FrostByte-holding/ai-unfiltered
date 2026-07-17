@@ -6,6 +6,41 @@
 
 ## 2026-07-17
 
+### POST requests not succeeding
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/652w59bvnbsj
+- Summary: Jul 17, 16:45 UTC Resolved - This incident has been resolved. Jul 17, 16:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 15:50 UTC Identified - The issue has been identified and a fix is being implemented. Jul 17, 15:06 UTC Update - We are continuing to...
+
+### Containers Logs Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/266jj43lsnm3
+- Summary: Jul 17, 16:40 UTC Investigating - A subset of Containers logs for Containers applications that are configured with 'observability.enabled: true' are getting dropped.
+
+### Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel
+
+### Elevated errors for Claude Opus 4.8
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/bwz7ld34gcxt
+- Summary: Jul 17, 15:33 UTC Resolved - This incident has been resolved. Jul 17, 15:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:57 UTC Identified - The issue has been identified and a fix is being implemented.
+
+### New ChatGPT App Not Available For Enterprise Users Without Codex Permissions
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1
+- Summary: Status: IdentifiedUsers who do not have Codex RBAC enabled, are getting the "codex_cli_workspace_disabled" error when trying to log into the new ChatGPT app post-install. We are working on implementing a fix. Please use our ChatGPT Classic as we are working on a fix.
+
+### Cloudflare Workers API Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/km4651q3bfdf
+- Summary: Jul 17, 14:55 UTC Resolved - This incident has been resolved. Jul 17, 14:49 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:34 UTC Investigating - Cloudflare is investigating issues when interacting with Workers API and Workers configuration in the...
+
 ### Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive
 - Source: Security Week
 - Category: security
@@ -2980,43 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-net-recovery-reusable-rocket-mechanism-jul2026
 - Summary: China Long March 10B world-first sea-based net recovery system eliminates landing legs for higher payload and reliability, using a 144m recovery ship with 0.5m positioning accuracy.
-
-### AI Data Center Power Consumption Surges: Solid-State Transformers Become Inevitable as Sungrow Enters 800V DC Architecture
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sungrow-solid-state-transformer-ai-data-center-power-jul2026
-- Summary: Sungrow launches commercial solid-state transformers for AI data centers, using 800V DC architecture to cut power distribution footprint by 50% and achieve 98.5% peak efficiency.
-
-
-## 2026-07-10
-
-### OpenAI website and Help Center content may be unavailable
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KX6Y1QMFX4NASV5DD591AD50
-- Summary: Status: ResolvedAll impacted services have now fully recovered.
-
-### URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
-- Summary: Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a "credible external security threat." The company has temporarily disabled access to the affected accounts, a step it says...
-
-### Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html
-- Summary: Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases. The compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with...
-
-### Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html
-- Summary: Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the management chips inside data-center servers. Four of the bugs can crash a device. The other two could let an...
-
-### Elevated errors for Claude Opus 4.8
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/mpn4d4xt44dm
-- Summary: Jul 10, 15:02 UTC Resolved - This incident has been resolved. Jul 10, 14:36 UTC Investigating - We are currently investigating this issue.
 
