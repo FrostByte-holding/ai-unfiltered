@@ -711,6 +711,12 @@
 - URL: https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/
 - Summary: The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges. The post Splunk, Zoom Patch Critical Vulnerabilities appeared first on SecurityWeek.
 
+### Large Language Models for Code Generation from Multilingual Prompts: A Curated Benchmark and a Study on Code Quality
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.14816
+- Summary: Large Language Models (LLMs) perform differently on identical programming tasks when prompted in different natural languages, a phenomenon known as language bias. While this behavior has been widely studied for general text generation, its impact on code generation quality and programming...
+
 ### AI Can Find Bugs, But Human Knowledge Still Proves Them
 - Source: The Hacker News
 - Category: security
@@ -782,6 +788,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
 - Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt...
+
+### Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.14721
+- Summary: Cross-modal learning, i.e., learning to predict one modality from another, is a fundamental mechanism for self-supervision via leveraging multimodality. Many practical applications, e.g., deploying a household robot, involve devices that are equipped with a rich set of sensors that enable...
 
 ### Recreating 10 km/s Flight Conditions: How China JF-22 Hypersonic Wind Tunnel Works
 - Source: Pandaily
@@ -1448,6 +1460,12 @@
 - Category: security
 - URL: https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
 - Summary: SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.
+
+### Discrete Diffusion Models: A Unified Framework from Tokenization to Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13431
+- Summary: Discrete denoising diffusion models (DDMs) have recently emerged as a compelling alternative to autoregressive (AR) modeling for discrete data, offering parallel generation and iterative global refinement capabilities. Unlike continuous diffusion, where the state space is fixed, DDMs are...
 
 ### OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes
 - Source: arXiv Machine Learning
@@ -2773,6 +2791,12 @@
 - URL: https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
 - Summary: An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history. From that one lapse, French security...
 
+### The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11149
+- Summary: LLM agent benchmarks measure task completion, reliability, and inference cost, but not the persistent data an agent run leaves on disk, including logs, context snapshots, checkpoints, and debug traces. We introduce AgentFootprint, a cross-framework benchmark of post-run agent storage footprint. Its...
+
 ### MusicMark: A Robust Generative Watermarking Framework for Music Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2988,28 +3012,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/cz10b-private-rockets-net-recovery-jul2026
 - Summary: As CASC Long March 10B proves state-owned reusable rocket capability, private rocket companies face existential questions about their role versus delivering incremental innovation.
-
-### Paper-Thin Smart Material Adhesion Increased 400x: NPU Discovers Electric-Activated Grip Holding 10-Pound Dumbbells
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/npu-smart-adhesive-electric-material-jul2026
-- Summary: Northwestern Polytechnical University develops smart adhesive material that activates 400x stronger grip when electrified, opening applications in chip manufacturing, soft robotics, and precision assembly.
-
-### After CZ-10B, the Next Exam for China Private Commercial Rocket Companies
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-private-rockets-post-cz10b-jul2026
-- Summary: With CASC Long March 10B now demonstrating reusable rocket capability, China private rocket startups face a higher competitive bar requiring larger payloads and operational reusability.
-
-### Tencent WorkBuddy Beginner Guide: A Local AI Agent Tailored for Chinese Users That Actually Does Your Work
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-workbuddy-local-ai-agent-guide-jul2026
-- Summary: Tencent launches WorkBuddy, a local AI coding agent built on CodeBuddy with Hunyuan Hy3 model, integrating WeChat for file management, automation, and task execution.
-
-### A New Era Begins: Sugon Dawn 8000 Marks China Entry Into 100,000-Card AI Computing Infrastructure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sugon-dawn-8000-100k-cluster-era-jul2026
-- Summary: Sugon Dawn 8000 Dengfeng becomes China first fully domestic 100K-card super-AI fusion cluster, built on Hygon processors and connecting to the National Supercomputing Internet.
 
