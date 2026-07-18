@@ -4,13 +4,52 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-07-18
+
+### CXMT Targets Trillion-Yuan Market Cap: China DRAM Leader Carries the Flag for Memory Chip Localization Against Samsung and SK Hynix
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/cxmt-dram-localization-trillion-valuation-jul2026
+- Summary: CXMT ChangXin Memory Technologies launches 66.6B RMB IPO as world fourth-largest DRAM maker with 7.67% share, charting a path to challenge Korean memory dominance by 2030.
+
+### China Most Expensive Large Model Arrives: Kimi K3 Priced at 3-15x That of DeepSeek, But Real Value May Not Be the Model Alone
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/kimi-k3-china-most-expensive-model-jul2026
+- Summary: Moonshot AI prices Kimi K3 at $3-15 per million tokens, 3-4x K2.6 pricing, signaling a strategic shift from cost leadership to high-value complex task capability as domestic computing ecosystem matures.
+
+### World Lightest AI Glasses at 14.9g Go on Sale: Moonix Focuses on Memory Recording With 16-Hour Battery and 39 Interchangeable Frames
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/moonix-world-lightest-ai-glasses-jul2026
+- Summary: Moonix AI glasses standard edition goes global at 2299 yuan, weighing only 14.9g with 16-hour battery life, pioneering AI recording in a form factor indistinguishable from regular eyewear.
+
+### 2026: China Chips Underpin Domestic AI Models at WAIC as Domestic Computing Infrastructure Reaches Tipping Point
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/china-chips-supporting-domestic-models-waic-jul2026
+- Summary: WAIC 2026 showcases full lineup of Chinese AI chips from Huawei Ascend to Dongfang Suanxin, as domestic computing ecosystem reaches critical mass with 108 chips and 261 models.
+
+
 ## 2026-07-17
+
+### New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html
+- Summary: An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam...
 
 ### Codex 5.6-sol Experiencing Increased Server-Overload Errors
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXRHE25717D2WQ1WFMT2B7WZ
 - Summary: Status: ResolvedAll impacted services have now fully recovered.
+
+### OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html
+- Summary: Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry...
 
 ### Cache Reserve users may see increased write errors in the APAC region
 - Source: Cloudflare Status
@@ -24,11 +63,23 @@
 - URL: https://status.claude.com/incidents/g613ntyj2pwf
 - Summary: Jul 17, 19:43 UTC Resolved - This issue has been resolved, and Claude Fable 5 is available once again without usage credits, as expected. Jul 17, 18:48 UTC Monitoring - We have applied a fix to resolve the erroneous requirement for usage credits on Fable 5, and are monitoring to ensure no further...
 
+### Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html
+- Summary: Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an...
+
 ### Elevated error rates for Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/lj0khk5vd7v7
 - Summary: Jul 17, 18:27 UTC Resolved - This incident has been resolved. Jul 17, 18:22 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 18:13 UTC Update - We are continuing to investigate this issue. Jul 17, 18:12 UTC Investigating - We are currently investigating this...
+
+### New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html
+- Summary: A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and...
 
 ### POST requests not succeeding
 - Source: Cloudflare Status
@@ -41,6 +92,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/266jj43lsnm3
 - Summary: Jul 17, 16:40 UTC Investigating - A subset of Containers logs for Containers applications that are configured with 'observability.enabled: true' are getting dropped.
+
+### GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
+- Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a...
 
 ### Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers
 - Source: Hugging Face Blog
@@ -64,6 +121,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/km4651q3bfdf
 - Summary: Jul 17, 14:55 UTC Resolved - This incident has been resolved. Jul 17, 14:49 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:34 UTC Investigating - Cloudflare is investigating issues when interacting with Workers API and Workers configuration in the...
+
+### In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
+- Summary: Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on...
 
 ### Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive
 - Source: Security Week
@@ -89,11 +152,23 @@
 - URL: https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html
 - Summary: The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps...
 
+### Beacon Security Raises $13 Million for Security Data Platform
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/
+- Summary: The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.
+
 ### The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html
 - Summary: Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move...
+
+### Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/
+- Summary: Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI. The post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first on SecurityWeek.
 
 ### Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man
 - Source: The Hacker News
@@ -298,6 +373,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.14103
 - Summary: arXiv:2607.14103v1 Announce Type: new Abstract: Multi-agent systems (MAS) are utilized in many contexts and many professions. Those MAS rely on inter-agent communication, usually implemented by clear-text message passing. We hypothesize that Large Language Models may have a world model at their...
+
+### Set-shifting Behavioral Test for Harnessed Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.13396
+- Summary: arXiv:2607.13396v1 Announce Type: new Abstract: What happens to an LLM agent's tool choice when the reliable tool silently changes within an ongoing session? We borrow set-shifting from cognitive psychology to study how well agents adapt to hidden reliability shifts. Our benchmark mounts tool-skill...
+
+### LOTAPO: Leave-One-Turn Attribution for Self-Generated Process Rewards in Multi-Turn Search Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.13501
+- Summary: arXiv:2607.13501v2 Announce Type: new Abstract: Reinforcement learning for multi-turn search reasoning typically relies on terminal outcome rewards, which cannot distinguish useful, redundant, and harmful intermediate interactions. We propose LOTAPO , a self-generated process-supervision method...
+
+### How Far Can Root Cause Analysis Go on Real-World Telemetry Data?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.13548
+- Summary: arXiv:2607.13548v1 Announce Type: new Abstract: Identifying root causes in production microservice failures requires reasoning over large-scale, multimodal telemetry spanning metrics, logs, and traces, a problem that has proved resistant to both classical and LLM-based approaches. The OpenRCA...
+
+### Multi-Agent Collaborative Reasoning with Tool-Augmented Evidence for Urban Region Profiling
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.13558
+- Summary: arXiv:2607.13558v1 Announce Type: new Abstract: Urban region profiling constitutes a core problem in urban computing, supporting applications such as population estimation, economic assessment, and environmental monitoring. Existing methods typically formulate this task as multimodal representation...
+
+### AI advice suppresses people's willingness to say "I don't know", even when the advice is wrong and accuracy is incentivized
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.13562
+- Summary: arXiv:2607.13562v1 Announce Type: new Abstract: Knowing when to say "I don't know" is fundamental to human judgment, yet AI assistants offer a fluent answer to almost any question. In five experiments (N = 3,132; four preregistered, one direct replication), participants answered difficult questions...
+
+### Branching Policy Optimization: Sandbox-Native Language Agent Reinforcement Learning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.14171
+- Summary: arXiv:2607.14171v1 Announce Type: new Abstract: Reinforcement learning has emerged as the dominant paradigm for training large language model (LLM) agents that interact with executable sandboxes. State-of-the-art algorithms such as PPO, RLOO, and GRPO inherit their rollout topology from RLHF: for...
+
+### How Much of a 10-K Matters? Aggregation-Dependent Value of Full-Text versus Risk-Factor Sentiment
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.14174
+- Summary: arXiv:2607.14174v1 Announce Type: new Abstract: Financial sentiment extraction has largely relied on news text and supervised extraction against return labels alone, leaving 10-K filings -- and volatility, the target risk disclosure is arguably best suited to informing -- comparatively unexplored....
+
+### Low-Latency Relay Selection in NR-V2X Vehicular Communications via Graph Isomorphism Networks with Edge Features
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.14176
+- Summary: arXiv:2607.14176v1 Announce Type: new Abstract: Reliable, low-latency uplink connectivity is a key requirement for C-V2X networks in dense urban environments, where fast channel variations and blockages often degrade direct vehicle-to-infrastructure links. Multi-hop relaying can restore coverage,...
+
+### RENEW: Towards Learning World Models and Repairing Model Exploitation from Preferences
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.14180
+- Summary: arXiv:2607.14180v1 Announce Type: new Abstract: World models are widely used in offline reinforcement learning (RL) to improve sample efficiency and generate experience beyond a fixed dataset. However, they are vulnerable to model exploitation where data coverage is thin. Prior work addresses this...
+
+### Closed-Loop Knowledge Dynamics: An Operational Framework for Saturation and Escape
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.14185
+- Summary: arXiv:2607.14185v1 Announce Type: new Abstract: Feedback-driven loops support iterative improvement in large language models, reinforcement learning, and autonomous discovery, yet their gains often diminish under repeated internal feedback. We study why closed-loop knowledge systems saturate and...
+
+### UzWordnet and Generative AI for Learning Uzbek by Game Playing
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.14104
+- Summary: arXiv:2607.14104v1 Announce Type: new Abstract: This paper presents an educational system architecture that enables learners to practice the Uzbek language through game-playing. The architecture integrates UzWordnet and the largest currently available orthographic dictionary for Uzbek as core...
+
+### Automatically Evolving Prompt Guidelines for Task-Specific Optimization
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.14105
+- Summary: arXiv:2607.14105v1 Announce Type: new Abstract: For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however, user queries are often underspecified, forcing models to infer unstated assumptions that may misalign...
+
+### Token Time Continuous Diffusion for Language Modeling
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.14106
+- Summary: arXiv:2607.14106v1 Announce Type: new Abstract: In this paper we introduce token time continuous diffusion (TTCD), a new diffusion language model which (a) operates in continuous space, deterministically mapping Gaussian noise to a final token canvas with no further sampling, and crucially (b)...
+
+### Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.14107
+- Summary: arXiv:2607.14107v1 Announce Type: new Abstract: The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient KV-cache reuse, while increasing decoding parallelism with static confidence thresholds can compromise...
+
+### Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.14108
+- Summary: arXiv:2607.14108v1 Announce Type: new Abstract: This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure that tool efficiency is well-defined, we also introduce marginal tool utility, a new quantitative metric...
 
 ### China Visual AI Leader SenseTime Declares End of Stitch-Monster Era With Open-Source Unified Vision Model
 - Source: Pandaily
@@ -2850,169 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-semiconductor-equipment-super-cycle-jul2026
 - Summary: AI-driven storage expansion and 12-24 month overseas equipment delivery delays create a once-in-a-decade window for Chinese semiconductor equipment makers to capture domestic and export markets.
-
-### Cyborg Cockroach Gets 3D-Printed Diving Suit: Flood Rescue Breakthrough Using Biomimetic Insects
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cyborg-cockroach-diving-suit-flood-rescue-jul2026
-- Summary: NTU Singapore and Waseda University researchers develop a 3D-printed diving suit for cyborg cockroaches, enabling underwater survival for up to 3 hours for post-disaster search and rescue.
-
-### Dexmal Aims to Ignite Embodied AI Productivity With DM0.5 Model, DexOS, and MaaS Three-Stage Strategy
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dexmal-embodied-ai-dm05-dexos-maas-jul2026
-- Summary: Dexmal releases DM0.5 foundation model, Apex universal robot, DexOS operating system, and MaaS platform, targeting the final engineering gap between embodied AI models and real-world productivity.
-
-### Not Copying the Chopstick: China Original Net Recovery Path for Reusable Rockets
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-net-recovery-vs-spacex-chopstick-jul2026
-- Summary: While SpaceX uses chopstick arms to catch Starship, China Long March 10B net recovery system uses flexible capture for higher error tolerance and gentler booster handling.
-
-### Hands-On With Haier AI Exoskeleton W3: Is This Home-Ready Wearable Robot Finally Here?
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/haier-ai-exoskeleton-w3-gz-store-jul2026
-- Summary: Haier third-generation AI exoskeleton W3 weighs just 1.75 kg at $2200, featuring AI gait learning that adapts to user walking patterns in real time, now available at physical stores in Guangzhou.
-
-
-## 2026-07-11
-
-### INC20000085
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/46l87jjm2m5f
-- Summary: Jul 11, 19:36 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
-
-### Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
-- Summary: The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;preinstall&nbsp;hook that drops and executes a native binary, one build each for Windows, macOS, and...
-
-### Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
-- Summary: Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026. "At Balochistan Police, the compromised assets included...
-
-### Ghost Accounts Abuse GitHub API in Mass Recon Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/
-- Summary: Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members. The post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek.
-
-### Pages Dashboard issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/mtyg2jq83sgw
-- Summary: Jul 11, 10:50 UTC Resolved - This incident has been resolved. Jul 11, 10:43 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 11, 10:34 UTC Identified - The issue has been identified and a fix is being implemented. Jul 11, 10:22 UTC Investigating - Cloudflare is...
-
-### Drones Break the Rules to Lift People: The Trillion-Yuan Low-Altitude Economy Behind China Flood Rescues
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-drone-rescue-low-altitude-economy-jul2026
-- Summary: Chinese heavy-lift drones rescue flood victims in Guangxi by airlifting people, breaking normal safety protocols and revealing the trillion-yuan low-altitude economy industrial capacity.
-
-### Kimi Launches AI-Native Credit Card: Moonshot AI Partners With Agricultural Bank of China and American Express
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kimi-ai-native-credit-card-moonshot-jul2026
-- Summary: Moonshot AI Kimi issues the world first AI-native credit card with Agricultural Bank of China and American Express, linking membership tiers to card levels and offering token-based rewards.
-
-### Global First Rocket Net Recovery: China Achieves Multiple Major Breakthroughs in One Week
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-weekly-breakthroughs-rocket-sugon-tianwen-jul2026
-- Summary: China completes world-first rocket net recovery, activates 100K-card AI supercluster, and reaches asteroid with Tianwen-2 probe in a landmark week for space and computing infrastructure.
-
-### Second-Generation Doubao Phone Coming: Nubia and ByteDance AI Agent Smartphone Nears Launch at WAIC
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-phone-gen2-nubia-bytedance-waic-jul2026
-- Summary: Nubia and ByteDance second-generation Doubao AI Agent phone spotted with orange AI button and blue chassis, debuting at WAIC 2026 with refined Obric UI after 216 days of iteration.
-
-### ByteDance Seedream 5.0 Pro Hands-On: Three Directions, 10 Scenarios Tested
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-seedream-5-pro-review-test-jul2026
-- Summary: A comprehensive test of ByteDance Seedream 5.0 Pro across realism, complex visualization, and design reveals impressive gains in infographic generation and UI mockups.
-
-### Elevated Errors for Sora API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KX7Y6ETMKP3ATQ85Z33J0EHN
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Sora (Operational)
-
-### Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html
-- Summary: Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to...
-
-### Context Graphs for Proactive Enterprise Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07721
-- Summary: arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains...
-
-### AI-integrated models for assessing agricultural resilience
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07759
-- Summary: arXiv:2607.07759v1 Announce Type: new Abstract: Agricultural supply chains are vulnerable to disruptions through linked biophysical and economic systems. We develop an AI-powered tool that integrates economic models (GTAP) with biophysical models (APSIM) to analyze supply chain shocks, enabling...
-
-### Adversarial Social Epistemology for Assemblies of Humans and Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07760
-- Summary: arXiv:2607.07760v1 Announce Type: new Abstract: We outline an adversarial social epistemology (ASE) for densely interactive communicative landscapes in which public assertions are scaffolded by chains of testimony, inference, institutional certification, and tacit trust. In such landscapes, agents...
-
-### Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07761
-- Summary: arXiv:2607.07761v1 Announce Type: new Abstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This survey examines recent progress in medical LLMs, focusing on reasoning applications and requirements....
-
-### Alignment Plausibility: A New Standard for Assuring AI in Healthcare
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07766
-- Summary: arXiv:2607.07766v1 Announce Type: new Abstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operational and commercial targets favour sustained engagement over the friction that effective...
-
-### Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07775
-- Summary: arXiv:2607.07775v1 Announce Type: new Abstract: The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems. Robotic prostheses are a representative example of this tight coupling. Also referred to as bionic limbs,...
-
-### Infinity-Parser2 Technical Report
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07836
-- Summary: arXiv:2607.07836v1 Announce Type: new Abstract: We present Infinity-Parser2, a large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for end-to-end document parsing, addressing the persistent scarcity of faithfully annotated parsing...
-
-### VectorizationLLM: Smart Vectorization Based AI Assistant
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07846
-- Summary: arXiv:2607.07846v1 Announce Type: new Abstract: VectorizationLLM is a specialized Large Language Model based on Google open-weight LLMs. The model is designed to assist students to learn smart vectorization, time/wave vector analysis, piecewise functions, Fourier analysis, and differential...
-
-### A Graph Neural Network Model for Real-Time Gesture Recognition Based on sEMG Signals
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07850
-- Summary: arXiv:2607.07850v1 Announce Type: new Abstract: For seemless control of advanced hand prostheses and augmented reality, accurate and immediate hand gestures recognition is essential. Surface electromyography (sEMG) signals obtained from the forearm are commonly employed for this purpose. In this...
-
-### Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.07858
-- Summary: arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that...
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today-f5c
-- Summary: a quiet day after a week of nonstop model releases
 
