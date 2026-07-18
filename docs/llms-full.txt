@@ -6,6 +6,36 @@
 
 ## 2026-07-18
 
+### Xiaomi 18 Pro Series Certified: Dual 200MP Cameras, 2nm Snapdragon 8 Elite Gen6, and a Likely Price Increase
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaomi-18-pro-2nm-chip-dual200mp-jul2026
+- Summary: Xiaomi 18 Pro and 18 Pro Max pass network certification with dual 200MP LOFIC cameras, 2nm TSMC N2P chip, up to 8000mAh battery — expected to launch September 24.
+
+### Tencent WorkBuddy APP Launches on HarmonyOS, iOS, and Android Simultaneously: Cross-Platform AI Work Agent Goes Mobile
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/tencent-workbuddy-app-harmonyos-jul2026
+- Summary: Tencent WorkBuddy agent desktop app launches on all three major mobile platforms with HarmonyOS as first native agent application, bridging phone and PC for workplace AI tasks.
+
+### Moonshot AI Delivers the Third Shockwave: How Kimi K3 Changed the Narrative From Cheap Chinese Models to Premium AI Capability
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/moonshot-ai-third-shockwave-waic-2026-jul2026
+- Summary: Kimi K3 marks third major China AI shockwave after DeepSeek and Manus: priced at $3-15/M tokens, it forces global markets to reassess whether US AI premium pricing and valuation are sustainable.
+
+### WAIC 2026: Six Trends We Observed at the World AI Conference as Industry Shifts From Models to Systems
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/waic-2026-six-trends-jul2026
+- Summary: From supernode computing to working robots, WAIC 2026 reveals six defining AI trends: model competition shifts to system efficiency, robots enter real factories, and domestic chips reach tipping point.
+
+### Some users are unable to access Codex
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KXT44TAQQ2R0AZDDVSJGAC4H
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components CLI (Degraded performance) Codex in ChatGPT Desktop (Degraded performance)
+
 ### [AINews] not much happened today
 - Source: Latent Space
 - Category: open-source
@@ -1055,6 +1085,12 @@
 
 ## 2026-07-15
 
+### Beyond scalar losses: calibrating segmentation models via gradient vector field surgery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.14338
+- Summary: Region-based loss functions, such as the Dice loss, have established themselves as the de facto standard for highly class- and region-imbalanced segmentation tasks. However, models trained using region-based loss functions are notoriously miscalibrated and typically yield over-confident...
+
 ### TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
 - Source: The Hacker News
 - Category: security
@@ -1683,6 +1719,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/
 - Summary: Two flaws in Active Directory and SharePoint Server have been exploited as zero-days, and a BitLocker bug was publicly disclosed. The post Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days appeared first on SecurityWeek.
+
+### Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13188
+- Summary: Human cognition does not separate understanding and generation. A teacher at a whiteboard speaks and draws $\textit{together}$, each modality reshapes the other. In this paper, we bring this coupled loop to artificial systems. Masked Diffusion Models (MDMs) are ideally suited to this task, yet...
 
 ### Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims
 - Source: Security Week
@@ -2605,6 +2647,12 @@
 - URL: https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html
 - Summary: Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read. Each read gets pinned to the moment it happened: the time, your location, what you were doing, even...
 
+### Direct Image-to-Modern Vietnamese Translation of Han-Nom Manuscripts via Multimodal RLHF Preference Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11434
+- Summary: Translating Han-Nom manuscripts into modern Vietnamese is challenging because historical pages are often degraded, the script contains rare logographic characters, and parallel supervision is limited. We propose a multimodal RLHF preference-alignment framework that conditions Vietnamese generation...
+
 ### Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots
 - Source: The Hacker News
 - Category: security
@@ -2964,55 +3012,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/sugon-dawn-8000-100k-cluster-era-jul2026
 - Summary: Sugon Dawn 8000 Dengfeng becomes China first fully domestic 100K-card super-AI fusion cluster, built on Hygon processors and connecting to the National Supercomputing Internet.
-
-### Temporal Feature Distillation for Label-Efficient Precise Event Spotting in Sports Videos
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.10998
-- Summary: Precise Event Spotting (PES) requires distinguishing visually similar yet semantically distinct adjacent frames, making it fundamentally different from image classification and coarse action recognition. Although self-distillation methods such as DINO have shown strong representation learning...
-
-### MED-DSLC: Multi-Expert-Domain Classification via Domain Supervision and Logit Calibration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.10985
-- Summary: Vision-language models (VLMs) such as CLIP enable zero-shot classification by comparing image features with text prompts in a shared embedding space. A fundamental property underlying this capability is the global comparability of logits across arbitrary candidate classes. However, VLMs are often...
-
-### From Checker to Forecaster: Code-Owned Evaluation of Model-Generated Strategic Routes Under Delayed Ground Truth
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.10972
-- Summary: Many evaluations of model outputs rely either on contracts checkable at evaluation time or on feedback that arrives within the operating loop. We study the complementary setting in which ground truth is delayed, censored, or private, so deterministic code cannot check correctness at scoring time...
-
-
-## 2026-07-12
-
-### Cloudflare dash is unavailable
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/cbtmdg3gyx4z
-- Summary: Jul 12, 22:30 UTC Resolved - This incident has been resolved. Jul 12, 22:23 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 12, 22:05 UTC Identified - The issue has been identified and a fix is being implemented. Jul 12, 21:40 UTC Investigating - Cloudflare is...
-
-### 6 months to live for open models
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/6-months-to-live-for-open-models
-- Summary: The most serious test to date of open source AI&#8217;s viability is happening right now.
-
-### 3D-DefectBench: A Controlled Factorial Study of Vision-Language Model Evaluation Pipelines for Fine-Grained 3D Generation Defects
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.10826
-- Summary: Automated evaluation is essential for scaling generative 3D systems, where exhaustive human review is costly and slow. However, the reliability of an automated judge depends on the entire evaluation pipeline, not only the underlying vision-language model (VLM), but also how assets are rendered,...
-
-### Filtering Harmful Actions Isn't Enough: Phantom Transfer in Agentic SDF
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.10750
-- Summary: Synthetic data is widely used to train large language models because it is inexpensive to generate and easy to control. As models are increasingly deployed as agents, synthetic trajectories are likely to become an important source of training data for agentic behavior. We investigate the effects of...
-
-### Elevated conversation error rates on ChatGPT for iOS
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KXAVPTZ85KG478DP1YC0SV2V
-- Summary: Status: InvestigatingWe are investigating an issue where some users may encounter 403 errors when loading or using ChatGPT conversations on iOS. We will provide updates as we learn more.Affected components Conversations (Degraded performance)
 
