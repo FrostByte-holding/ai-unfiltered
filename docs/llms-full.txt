@@ -6,6 +6,24 @@
 
 ## 2026-07-19
 
+### Elevated errors affecting ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KXXDNEAKEPRGFM661SBJJAM6
+- Summary: Status: MonitoringService has been restored and we are continuing to monitor.Affected components Voice mode (Operational) Conversations (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational)
+
+### UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+- Summary: Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to...
+
+### SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
+- Summary: A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the...
+
 ### AI Phones Are Not Competing on Models: The Real Battle Is Over the User Entry Point, and Super Apps Hold the Key
 - Source: Pandaily
 - Category: chinese-ai
@@ -1807,6 +1825,12 @@
 - URL: https://status.cloud.google.com/incidents/T8gmtofFSTGT5tbhyciF
 - Summary: Incident began at 2026-07-14 10:00 (all times are US/Pacific).Summary Google Cloud VMware Engine (GCVE) Stretched Cluster customers are experiencing zonal outages impacting network connectivity across multiple regions. Description We are experiencing an issue with Google Cloud VMware Engine (GCVE)...
 
+### Reassessing Muon for Matrix Factorization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13246
+- Summary: Muon has recently emerged as a strong optimizer for large-scale deep learning, where it reshapes gradient updates through approximate orthogonalization and has been reported to outperform Adam and AdamW in large language model training. Its empirical success has motivated a growing body of...
+
 ### CayleyR: Solving the TopSpin puzzle via cycle intersection
 - Source: HF Daily Papers
 - Category: open-source
@@ -1848,6 +1872,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/ydpk76bj34z8
 - Summary: Jul 14, 18:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 14, 17:55 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We...
+
+### The Seriality Gap in Video Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13031
+- Summary: When one ball strikes another, then another, video models should predict the consequences of each bounce. In controlled experiments on multi-ball hard-sphere dynamics, we find that the performance of standard bidirectional video diffusion degrades as the causal chain lengthens, even when provided...
 
 ### A Shortcut to Statistically Steady-State Turbulence with Flow Matching
 - Source: HF Daily Papers
@@ -1914,6 +1944,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.12888
 - Summary: Tensegrity form-finding and physical property prediction are fundamental inverse problems in structural mechanics, which aim to determine equilibrium configurations and internal force distributions. These problems are challenging due to strong nonlinearity arising from the coupling between geometry...
+
+### Toward Localizing and Repairing Bias in Transformer Attention Heads
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12863
+- Summary: Transformer language models are increasingly used as software components, yet biased outputs remain difficult to localize and repair inside the model. Existing fairness testing and repair methods largely operate at the input-output or retraining level, while recent work suggests that bias-related...
 
 ### ChartGenEval: Corruption-Tested Multi-Dimensional Feedback for Rhythm-Game Chart Generation
 - Source: HF Daily Papers
@@ -2932,6 +2968,12 @@
 - URL: https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
 - Summary: An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history. From that one lapse, French security...
 
+### Amplitude-Only FFN Intervention for Tool-Structured LLM Inference Method: Gated Evaluation Protocol, and Cross-Model Empirical Results
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11183
+- Summary: Large language models increasingly operate as tool-using agents, where small format, argument, or function-call errors can invalidate otherwise plausible responses. We study inference-time feed-forward network (FFN) intervention for improving structured outputs without retraining model weights. Our...
+
 ### LP Mining with LP2Graph: A Use Case for Railway Rescheduling
 - Source: HF Daily Papers
 - Category: open-source
@@ -2973,46 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.11090
 - Summary: Raw images inherently suffer from noise due to the stochastic nature of light and sensor hardware imperfections. As real photon counts fall, the ratio of this noise to the signal degrades; consequently, for low-light conditions, robust denoising is especially vital for high-quality results. While...
-
-### MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11070
-- Summary: Modern large language models (LLMs) operate in interactive multi-turn settings, making multi-turn jailbreaking a realistic threat model and an important setting for automated red teaming. A core challenge in learning multi-turn jailbreak attackers is credit assignment: different turns contribute...
-
-### Interval Certifications for Multilayered Perceptrons via Lattice Traversal
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.08773
-- Summary: arXiv:2607.08773v1 Announce Type: new Abstract: In this work we present a rigorous theoretical framework to a foundational problem of AI safety, namely adversarial robustness. In particular, we show that the adversarial robustness problem can be reduced to a lattice traversal problem. Each element...
-
-### CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.08774
-- Summary: arXiv:2607.08774v1 Announce Type: new Abstract: Reliability in large language model (LLM) systems is typically framed as a function of model capability. We challenge this by demonstrating that reliability is significantly influenced by \emph{inference-time control} -- the computational layer...
-
-### GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.08894
-- Summary: arXiv:2607.08894v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise in multi-step planning tasks, but existing approaches like LATS (Language Agent Tree Search) and ReAct rely heavily on LLM inference during planning, leading to high computational costs and...
-
-### Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.08964
-- Summary: arXiv:2607.08964v1 Announce Type: new Abstract: AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluated only by their final outcome. This setup overlooks...
-
-### A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.08986
-- Summary: arXiv:2607.08986v1 Announce Type: new Abstract: We formalize a research result in the Lean 4 proof assistant by having a mathematician direct an AI system, and frame the activity as a formalization game. The objective is to turn a LaTeX document into Lean. The game is won when the development...
-
-### A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.08776
-- Summary: arXiv:2607.08776v1 Announce Type: new Abstract: Despite the success of knowledge distillation (KD) in Large Language Models (LLMs), the underlying mechanism behind its efficacy remains unclear. In this paper, we propose a unified approach to explore the common mechanism of various KD methods using...
 
