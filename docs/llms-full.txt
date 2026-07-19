@@ -1166,6 +1166,12 @@
 
 ## 2026-07-15
 
+### Dysco: Dynamic Subspace Boosting to Mitigate LoRA Interference in Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.14367
+- Summary: Federated fine-tuning of large pre-trained models increasingly relies on Low-Rank Adaptation (LoRA) to reduce communication and computation, but heterogeneous clients can make adapter aggregation unstable. We identify the data-parameter interference as a geometric source of this instability. This...
+
 ### Beyond scalar losses: calibrating segmentation models via gradient vector field surgery
 - Source: HF Daily Papers
 - Category: open-source
@@ -2047,6 +2053,12 @@
 - URL: https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/
 - Summary: Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.
 
+### Lightweight Multi-Scale Anomaly Detection for Resource-Constrained Edge Devices
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12599
+- Summary: Time-series anomaly detection is increasingly important in IoT systems, sensor networks, and edge monitoring applications, where models must operate under strict constraints on memory, latency, and power consumption. While recent deep-learning approaches have improved detection accuracy, many...
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -2920,6 +2932,12 @@
 - URL: https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
 - Summary: An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history. From that one lapse, French security...
 
+### LP Mining with LP2Graph: A Use Case for Railway Rescheduling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11980
+- Summary: Like many optimization-driven domains, railway rescheduling relies on Mixed-Integer Linear Programming (MILP), yet the field's modeling knowledge is scattered across hundreds of papers in incompatible notations, and narrative surveys organize it subjectively: they classify models by vocabulary...
+
 ### The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2949,6 +2967,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both...
+
+### Why Low-Light Cameras Go Color Blind: Removing Color Bias in Raw Denoising
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11090
+- Summary: Raw images inherently suffer from noise due to the stochastic nature of light and sensor hardware imperfections. As real photon counts fall, the ratio of this noise to the signal degrades; consequently, for low-light conditions, robust denoising is especially vital for high-quality results. While...
 
 ### MJ: Multi-turn LLM Jailbreaking via Decomposed Credit Assignment
 - Source: HF Daily Papers
@@ -2991,28 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.08776
 - Summary: arXiv:2607.08776v1 Announce Type: new Abstract: Despite the success of knowledge distillation (KD) in Large Language Models (LLMs), the underlying mechanism behind its efficacy remains unclear. In this paper, we propose a unified approach to explore the common mechanism of various KD methods using...
-
-### iLENS: Interpretable LLM-Guided Mixture-of-Experts for Neuroimaging Survival Analysis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.08778
-- Summary: arXiv:2607.08778v1 Announce Type: new Abstract: Alzheimer's Disease (AD) is a complex neurodegenerative disorder that continues to impact millions of people worldwide. Predicting AD conversion during the prodromal stage remains critical for disease understanding and patient care. As such, survival...
-
-### Signed Symmetric Quantization for Few-Bit Integers
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.08779
-- Summary: arXiv:2607.08779v1 Announce Type: new Abstract: The signed integer alphabet contains one more negative representable value than positive. Yet, by convention, the standard symmetric integer quantizer fixes its scale to be strictly positive, which assigns this extra representable value to the...
-
-### Sticky Routing: Training MoE Models for Memory-Efficient Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.08780
-- Summary: arXiv:2607.08780v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models activate only a sparse subset of experts per token, yet consecutive tokens frequently activate different experts -- causing constant weight swapping between slow storage and fast memory on edge devices. Existing...
-
-### Reward Transport: Property Control in Flow Matching via Noise-Space Alignment
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.08781
-- Summary: arXiv:2607.08781v1 Announce Type: new Abstract: The coupling in flow matching -- the rule pairing noise vectors with data points -- is typically treated as a computational choice. We show that this coupling can instead serve as an alignment interface: by matching noise and data according to a...
 
