@@ -2233,6 +2233,12 @@
 - URL: https://tldr.takara.ai/p/2607.12397
 - Summary: LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires...
 
+### Differentiable Clone-Structured Causal Graphs for End-to-End Cognitive Map Learning from Image Sequences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12382
+- Summary: How can an agent build a structured map of its world from nothing but an ongoing sequence of raw sensory input and its own movements, especially when natural variation means exact sensory patterns rarely repeat? The Clone-Structured Causal Graph algorithm (CSCG), a normative hippocampus model,...
+
 ### Demonstration of the common dual-channel feature decoupling characteristic of front-door mediation causal inference methods in whole-slice image classification
 - Source: HF Daily Papers
 - Category: open-source
@@ -2563,6 +2569,12 @@
 - URL: https://arxiv.org/abs/2607.09839
 - Summary: arXiv:2607.09839v1 Announce Type: new Abstract: Mathematical diagrams play a crucial role in K 12 education, both as problem components and as scaffolding for student comprehension. However, current AI tools, including Large Language Models (LLMs), struggle to reliably generate accurate and...
 
+### What Does a Temporal Benchmark Score Measure? Decomposing Channel Use in Video VLM Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12304
+- Summary: A score on a temporal video question answering benchmark is meant to measure that a model has temporal understanding, but it conflates two questions. 1. The task question: is the question even temporal, does it need several frames and their order? and 2. The channel question, when it does, does the...
+
 ### MobileSAM2: Lightweight Segment Anything for Spatial Intelligence
 - Source: HF Daily Papers
 - Category: open-source
@@ -2613,6 +2625,12 @@
 
 
 ## 2026-07-13
+
+### Toward Trustworthy Autonomous Science: A Two-Year Community Roadmap
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12113
+- Summary: One year ago, the AISLE roadmap argued that autonomous laboratories operated as isolated islands and proposed a grassroots network organized around five critical dimensions. The field has since moved faster than anticipated. Multi-agent systems have produced experimentally validated hypotheses,...
 
 ### What Anthropic’s latest AI discovery does—and doesn’t—show
 - Source: MIT Tech Review AI
@@ -2914,6 +2932,12 @@
 - URL: https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/
 - Summary: The company notified customers to manually shut down their servers while it is investigating a credible threat. The post Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns appeared first on SecurityWeek.
 
+### DeepBias: Adaptive In-depth Probing of Social Biases in LVLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11228
+- Summary: While Large Vision-Language Models (LVLMs) demonstrate remarkable capabilities, they remain highly susceptible to embedded social biases. Existing bias evaluation protocols predominantly rely on static datasets, which provide only a superficial assessment, as their fixed test cases cannot...
+
 ### Centers Laboratory Data Breach Affects 540,000 Individuals
 - Source: Security Week
 - Category: security
@@ -2991,28 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.11117
 - Summary: AI music generation has rapidly advanced alongside commercial platforms, raising the need for reliable watermarking for provenance and attribution. However, existing audio watermarking research has largely focused on speech, and applying speech-oriented methods to music is challenging due to...
-
-### The Equilibrium Is the Initialization: Lazy Identity Collapse in Physics-Structured Deep Equilibrium Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11116
-- Summary: Deep equilibrium models promise input-adaptive implicit computation: harder problems should demand more solver iterations, and the solved equilibrium should encode the result of genuine iterative inference. We report a cautionary study of a port-Hamiltonian DEQ with a learned initialization on two...
-
-### Generative Chinese Statute Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11109
-- Summary: Statute retrieval is a fundamental task in legal information retrieval, yet existing approaches struggle to bridge the gap between colloquial legal queries and formal statutory language. In this paper, we propose GCSR, a generative statute retrieval framework that reformulates statute retrieval as...
-
-### iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both...
-
-### Why Low-Light Cameras Go Color Blind: Removing Color Bias in Raw Denoising
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11090
-- Summary: Raw images inherently suffer from noise due to the stochastic nature of light and sensor hardware imperfections. As real photon counts fall, the ratio of this noise to the signal degrades; consequently, for low-light conditions, robust denoising is especially vital for high-quality results. While...
 
