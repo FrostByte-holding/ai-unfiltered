@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 20 Jul 2026 14:09:43 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 18:05:55 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Disruption with GPT 5.3 Codex</title>
+            <link>https://www.githubstatus.com/incidents/fd7j2mw8xw94</link>
+            <guid>https://www.githubstatus.com/incidents/fd7j2mw8xw94</guid>
+            <pubDate>Mon, 20 Jul 2026 17:21:18 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/fd7j2mw8xw94">GitHub Status</source>
+            <category>incidents</category>
+            <description>Jul 20, 17:21 UTC Update - The upstream provider continues to return intermittent errors for GPT 5.3 Codex requests. Some users may experience failed or interrupted responses when using this model. Traffic continues to be automatically rerouted to reduce impact, and we are actively working with the...</description>
+        </item>
+        <item>
+            <title>Elevated errors for Claude Opus 4.8</title>
+            <link>https://status.claude.com/incidents/4n0mmv2v41rf</link>
+            <guid>https://status.claude.com/incidents/4n0mmv2v41rf</guid>
+            <pubDate>Mon, 20 Jul 2026 16:16:00 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/4n0mmv2v41rf">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 20, 16:16 UTC Resolved - This incident has been resolved. Jul 20, 16:07 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 20, 15:09 UTC Identified - The issue has been identified and a fix is being implemented. Jul 20, 14:41 UTC Investigating - We are currently...</description>
+        </item>
+        <item>
+            <title>Introducing Cosmos 3 Edge</title>
+            <link>https://huggingface.co/blog/nvidia/cosmos3edge</link>
+            <guid>https://huggingface.co/blog/nvidia/cosmos3edge</guid>
+            <pubDate>Mon, 20 Jul 2026 15:58:51 +0000</pubDate>
+            <source url="https://huggingface.co/blog/nvidia/cosmos3edge">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Kimi K3: The open-weights escalation</title>
+            <link>https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation</link>
+            <guid>https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation</guid>
+            <pubDate>Mon, 20 Jul 2026 15:48:28 +0000</pubDate>
+            <source url="https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation">Interconnects</source>
+            <category>open-source</category>
+            <description>The global implications on the AI ecosystem.</description>
+        </item>
         <item>
             <title>⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More</title>
             <link>https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html</link>
@@ -421,42 +457,6 @@
             <source url="https://status.claude.com/incidents/g613ntyj2pwf">Anthropic Status</source>
             <category>incidents</category>
             <description>Jul 17, 19:43 UTC Resolved - This issue has been resolved, and Claude Fable 5 is available once again without usage credits, as expected. Jul 17, 18:48 UTC Monitoring - We have applied a fix to resolve the erroneous requirement for usage credits on Fable 5, and are monitoring to ensure no further...</description>
-        </item>
-        <item>
-            <title>Elevated error rates for Sonnet 5</title>
-            <link>https://status.claude.com/incidents/lj0khk5vd7v7</link>
-            <guid>https://status.claude.com/incidents/lj0khk5vd7v7</guid>
-            <pubDate>Fri, 17 Jul 2026 18:27:33 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/lj0khk5vd7v7">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Jul 17, 18:27 UTC Resolved - This incident has been resolved. Jul 17, 18:22 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 18:13 UTC Update - We are continuing to investigate this issue. Jul 17, 18:12 UTC Investigating - We are currently investigating this...</description>
-        </item>
-        <item>
-            <title>POST requests not succeeding</title>
-            <link>https://www.cloudflarestatus.com/incidents/652w59bvnbsj</link>
-            <guid>https://www.cloudflarestatus.com/incidents/652w59bvnbsj</guid>
-            <pubDate>Fri, 17 Jul 2026 16:45:25 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/652w59bvnbsj">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 17, 16:45 UTC Resolved - This incident has been resolved. Jul 17, 16:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 15:50 UTC Identified - The issue has been identified and a fix is being implemented. Jul 17, 15:06 UTC Update - We are continuing to...</description>
-        </item>
-        <item>
-            <title>Containers Logs Issues</title>
-            <link>https://www.cloudflarestatus.com/incidents/266jj43lsnm3</link>
-            <guid>https://www.cloudflarestatus.com/incidents/266jj43lsnm3</guid>
-            <pubDate>Fri, 17 Jul 2026 16:40:07 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/266jj43lsnm3">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 17, 16:40 UTC Investigating - A subset of Containers logs for Containers applications that are configured with &#x27;observability.enabled: true&#x27; are getting dropped.</description>
-        </item>
-        <item>
-            <title>Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers</title>
-            <link>https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel</link>
-            <guid>https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel</guid>
-            <pubDate>Fri, 17 Jul 2026 15:57:54 +0000</pubDate>
-            <source url="https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
         </item>
     </channel>
 </rss>

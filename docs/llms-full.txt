@@ -6,6 +6,29 @@
 
 ## 2026-07-20
 
+### Disruption with GPT 5.3 Codex
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/fd7j2mw8xw94
+- Summary: Jul 20, 17:21 UTC Update - The upstream provider continues to return intermittent errors for GPT 5.3 Codex requests. Some users may experience failed or interrupted responses when using this model. Traffic continues to be automatically rerouted to reduce impact, and we are actively working with the...
+
+### Elevated errors for Claude Opus 4.8
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4n0mmv2v41rf
+- Summary: Jul 20, 16:16 UTC Resolved - This incident has been resolved. Jul 20, 16:07 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 20, 15:09 UTC Identified - The issue has been identified and a fix is being implemented. Jul 20, 14:41 UTC Investigating - We are currently...
+
+### Introducing Cosmos 3 Edge
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/cosmos3edge
+
+### Kimi K3: The open-weights escalation
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation
+- Summary: The global implications on the AI ecosystem.
+
 ### ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
 - Source: The Hacker News
 - Category: security
@@ -505,6 +528,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1
 - Summary: Status: IdentifiedUsers who do not have Codex RBAC enabled, are getting the "codex_cli_workspace_disabled" error when trying to log into the new ChatGPT app post-install. We are working on implementing a fix. Please use our ChatGPT Classic as we are working on a fix.
+
+### Candidate Attended Dialogue State Tracking Using BERT
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.16021
+- Summary: Dialogue state tracking (DST) is one of the core components in task-oriented dialogue systems. At each turn in a conversation, DST estimates the user belief or dialogue state, which is used as input for downstream modules to predict system actions and generate responses. The increasingly popular...
 
 ### Cloudflare Workers API Issues
 - Source: Cloudflare Status
@@ -2212,6 +2241,12 @@
 - URL: https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/
 - Summary: The ColdFusion security defects could allow attackers to execute arbitrary code or elevate their privileges. The post Adobe Patches Critical ColdFusion Vulnerabilities appeared first on SecurityWeek.
 
+### The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12963
+- Summary: As large language models (LLMs) grow more capable, they are increasingly deployed in context-rich settings where task inputs are often accompanied by long, partially irrelevant context. In a controlled setting, we find that state-of-the-art models often appear robust to task-irrelevant context at...
+
 ### LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts
 - Source: The Hacker News
 - Category: security
@@ -2959,6 +2994,12 @@
 - URL: https://tldr.takara.ai/p/2607.12113
 - Summary: One year ago, the AISLE roadmap argued that autonomous laboratories operated as isolated islands and proposed a grassroots network organized around five critical dimensions. The field has since moved faster than anticipated. Multi-agent systems have produced experimentally validated hypotheses,...
 
+### Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12054
+- Summary: Breast ultrasound is widely used for screening, yet automated analysis remains challenging due to speckle noise, acquisition variability, and weak separation of benign and malignant cases in standard ultrasound imaging. Graph convolutional networks (GCNs) have recently emerged as a promising...
+
 ### What Anthropic’s latest AI discovery does—and doesn’t—show
 - Source: MIT Tech Review AI
 - Category: research
@@ -2976,46 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.11883
 - Summary: Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that...
-
-### A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11874
-- Summary: Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as...
-
-### CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html
-- Summary: Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in...
-
-### MicroCharNet: Less is More for License Plate Character Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11830
-- Summary: License plate character detection is a crucial component of intelligent transportation systems, where high accuracy and computational efficiency are required for real-time deployment. Although recent deep learning-based methods have substantially improved detection performance, many high-accuracy...
-
-### Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html
-- Summary: Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version. The collector was dormant. An empty allow-list kept it switched...
-
-### Incorrect zone limits impacting some customers
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/d69bslyqmk6k
-- Summary: Jul 13, 16:52 UTC Resolved - This incident has been resolved. Jul 13, 16:36 UTC Investigating - Some customers may see "You have exceeded the limit for adding zones" messages when there are within the limits. A fix has been identified and is in progress
-
-### Higher-Order Cell Tracking Transformer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11754
-- Summary: Reconstructing lineages from live-imaging microscopy requires linking cell detections across time, including through cell divisions. A common approach is to construct a candidate graph and associate cell segmentations (nodes) across frames. However, these and other existing methods overlook two...
-
-### Paradoxes of Game Theoretic Equilibria and Price of Anarchy
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11752
-- Summary: For decades, static solution concepts (Nash, Correlated, and Coarse Correlated Equilibria) and the Price of Anarchy (PoA) have formed the bedrock of algorithmic game theory, with no-regret learning proving fast convergence to such game-theoretic equilibria. We show that reducing multi-agent...
 
