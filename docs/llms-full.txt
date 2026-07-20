@@ -6,6 +6,18 @@
 
 ## 2026-07-20
 
+### Datachannel Unavailable
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kkp1ldlv03y6
+- Summary: Jul 20, 19:13 UTC Resolved - This incident is now resolved. Jul 20, 19:07 UTC Monitoring - We have identified an issue with Realtime datachannel creation failure and have applied a fix. We are currently monitoring the results.
+
+### China’s AI models have Trump’s AI world at war with itself
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David...
+
 ### Disruption with GPT 5.3 Codex
 - Source: GitHub Status
 - Category: incidents
@@ -1522,6 +1534,12 @@
 - URL: https://tldr.takara.ai/p/2607.14338
 - Summary: Region-based loss functions, such as the Dice loss, have established themselves as the de facto standard for highly class- and region-imbalanced segmentation tasks. However, models trained using region-based loss functions are notoriously miscalibrated and typically yield over-confident...
 
+### SD-MAR: Multi-image Analytical Reasoning via Synthetic Data and Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.14333
+- Summary: Vision Language Models (VLMs) demonstrate strong perceptual abilities but remain limited in tasks requiring analytical reasoning across multiple visual states, such as multi-image comparison, change detection, and multi-step visual inference. These capabilities are critical for real-world...
+
 ### TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
 - Source: The Hacker News
 - Category: security
@@ -2223,6 +2241,12 @@
 - URL: https://tldr.takara.ai/p/2607.13022
 - Summary: Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While this saturated regime is of primary interest, direct numerical simulations must resolve the full transient dynamics before...
 
+### Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13013
+- Summary: Automatic speech recognition is dominated by autoregressive decoders that emit one token at a time. We ask whether a discrete diffusion language model can transcribe speech instead, refining a whole transcript in parallel over a small number of denoising steps. We train an audio-native interface...
+
 ### Resist and Update: Counterfactual Report Coordinates for Incentive-Compatible LLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -2252,6 +2276,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html
 - Summary: Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments. "LabubaRAT creates a reusable foothold for hands-on activity," Blackpoint Cyber researchers Sam Decker...
+
+### Robustness of Deep Learning Models for PV Power Forecasting under NWP Forecast Errors: A Spatiotemporal and Physically Interpretable Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.12954
+- Summary: Engineering use of AI forecasting models requires not only high nominal accuracy but also predictable behavior under uncertain inputs. In photovoltaic (PV) forecasting, this requirement is especially challenging because numerical weather prediction (NWP) errors are temporally correlated, state...
 
 ### Exact and Calibrated Diffusion Reconstruction for Digital Breast Tomosynthesis
 - Source: HF Daily Papers
@@ -2984,37 +3014,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.12243
 - Summary: Extended Dynamic Mode Decomposition (EDMD) approximates Koopman operators from data, but a single global operator is inefficient when different state-space regions exhibit distinct local dynamics. We introduce Cluster-Weighted EDMD (CW-EDMD), which jointly learns a soft phase-space partition and a...
-
-
-## 2026-07-13
-
-### Toward Trustworthy Autonomous Science: A Two-Year Community Roadmap
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12113
-- Summary: One year ago, the AISLE roadmap argued that autonomous laboratories operated as isolated islands and proposed a grassroots network organized around five critical dimensions. The field has since moved faster than anticipated. Multi-agent systems have produced experimentally validated hypotheses,...
-
-### Analyzing Image Encoder Choices and Graph Homophily in GCN Frameworks for Breast Ultrasound Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12054
-- Summary: Breast ultrasound is widely used for screening, yet automated analysis remains challenging due to speckle noise, acquisition variability, and weak separation of benign and malignant cases in standard ultrasound imaging. Graph convolutional networks (GCNs) have recently emerged as a promising...
-
-### What Anthropic’s latest AI discovery does—and doesn’t—show
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/
-- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s...
-
-### Latent-Identity Tuning in Text-to-Image Personalization Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11885
-- Summary: Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained...
-
-### Requential Coding: Pushing the Limits of Model Compression with Self-Generated Training Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11883
-- Summary: Compression is fundamental to intelligence. A model that can represent its training data as a short code has discovered regularities that enable generalization. Large neural networks may learn functions far simpler than their parameter counts suggest, but it is challenging to construct codes that...
 
