@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 20 Jul 2026 10:54:05 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 14:09:43 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More</title>
+            <link>https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html</link>
+            <guid>https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html</guid>
+            <pubDate>Mon, 20 Jul 2026 13:32:26 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html">The Hacker News</source>
+            <category>security</category>
+            <description>A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs...</description>
+        </item>
+        <item>
+            <title>Elevated errors on Haiku 4.5</title>
+            <link>https://status.claude.com/incidents/s39rkbp2xhpd</link>
+            <guid>https://status.claude.com/incidents/s39rkbp2xhpd</guid>
+            <pubDate>Mon, 20 Jul 2026 13:20:48 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/s39rkbp2xhpd">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 20, 13:20 UTC Investigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability</title>
+            <link>https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/</link>
+            <guid>https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/</guid>
+            <pubDate>Mon, 20 Jul 2026 12:32:40 +0000</pubDate>
+            <source url="https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/">Security Week</source>
+            <category>security</category>
+            <description>Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes &amp;#8216;HollowByte&amp;#8217; DoS Vulnerability appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>The Download: AI hiring biases, and weather data sabotage</title>
+            <link>https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/</link>
+            <guid>https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/</guid>
+            <pubDate>Mon, 20 Jul 2026 12:10:00 +0000</pubDate>
+            <source url="https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/">MIT Tech Review AI</source>
+            <category>research</category>
+            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But...</description>
+        </item>
         <item>
             <title>Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool</title>
             <link>https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/</link>
@@ -315,15 +351,6 @@
             <description>Jul 20, 01:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 20, 01:45 UTC Update - Git LFS API success rates have returned to normal. We will...</description>
         </item>
         <item>
-            <title>Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution</title>
-            <link>https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html</link>
-            <guid>https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html</guid>
-            <pubDate>Sun, 19 Jul 2026 20:42:49 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html">The Hacker News</source>
-            <category>security</category>
-            <description>F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an...</description>
-        </item>
-        <item>
             <title>Elevated errors affecting ChatGPT</title>
             <link>https://status.openai.com//incidents/01KXXDNEAKEPRGFM661SBJJAM6</link>
             <guid>https://status.openai.com//incidents/01KXXDNEAKEPRGFM661SBJJAM6</guid>
@@ -430,33 +457,6 @@
             <source url="https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>Elevated errors for Claude Opus 4.8</title>
-            <link>https://status.claude.com/incidents/bwz7ld34gcxt</link>
-            <guid>https://status.claude.com/incidents/bwz7ld34gcxt</guid>
-            <pubDate>Fri, 17 Jul 2026 15:33:15 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/bwz7ld34gcxt">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Jul 17, 15:33 UTC Resolved - This incident has been resolved. Jul 17, 15:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:57 UTC Identified - The issue has been identified and a fix is being implemented.</description>
-        </item>
-        <item>
-            <title>New ChatGPT App Not Available For Enterprise Users Without Codex Permissions</title>
-            <link>https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1</link>
-            <guid>https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1</guid>
-            <pubDate>Fri, 17 Jul 2026 15:32:26 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: IdentifiedUsers who do not have Codex RBAC enabled, are getting the &quot;codex_cli_workspace_disabled&quot; error when trying to log into the new ChatGPT app post-install. We are working on implementing a fix. Please use our ChatGPT Classic as we are working on a fix.</description>
-        </item>
-        <item>
-            <title>In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint</title>
-            <link>https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/</link>
-            <guid>https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/</guid>
-            <pubDate>Fri, 17 Jul 2026 14:27:54 +0000</pubDate>
-            <source url="https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/">Security Week</source>
-            <category>security</category>
-            <description>Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on...</description>
         </item>
     </channel>
 </rss>
