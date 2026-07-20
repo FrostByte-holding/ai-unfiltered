@@ -4,7 +4,70 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-07-20
+
+### Incident with GitHub Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/8vfyvq16hzh9
+- Summary: Jul 20, 03:03 UTC Update - API Requests is operating normally. Jul 20, 02:43 UTC Update - Issues, API Requests, and Pages have recovered. We are continuing to work on restoring GitHub Actions jobs using self-hosted or larger-hosted runners. Jul 20, 02:23 UTC Update - API Requests is experiencing...
+
+### Moonshot AI Kimi Suspends New Consumer Subscriptions: Computing Power Shortage Hits Just Days After K3 Release as Demand Overwhelms Capacity
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/moonshot-ai-kimi-compute-shortage-suspension-jul2026
+- Summary: Just three days after K3 release with global acclaim from Elon Musk to Silicon Valley, Moonshot AI is forced to pause new consumer subscriptions as K3 demand crushes available computing capacity.
+
+### Elevated errors for GitHub-dependent ChatGPT and Codex workflows
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KXYF4BTCV9DTZ5NDSFN716FH
+- Summary: Status: InvestigatingUsers may experience failures or delays in ChatGPT and Codex workflows that depend on GitHub. This mostly should impact Codex web and code review for PRs on Github. This is related to an active GitHub API partial outage and degraded GitHub Actions....
+
+### Huya Debuts Real-Time Multimodal Digital Human VAM 1.0 at WAIC 2026
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huya-vam-digital-human-waic-2026-jul2026
+- Summary: Huya launches VAM 1.0 real-time multimodal digital human at WAIC 2026 — generates live interactive virtual humans from a single photo at 36.4fps.
+
+### CSC Financial: AI-Driven PCB Demand Upgrade Accelerates High-End Dry Film Photoresist Localization as Market Approaches 13.6B RMB by 2030
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/csc-financial-pcb-dry-film-ai-demand-jul2026
+- Summary: CSC Financial research forecasts global AI-server-driven PCB upgrade cycle pushing dry film photoresist market to 13.6B RMB by 2030 at 9.4% CAGR as Chinese suppliers lead localization.
+
+### ZTE Wins WAIC SAIL Star Again: OEX Orthogonal Supernode and Full-Stack AI Ecosystem From Data Center to Smartphone
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/zte-oex-supernode-waic-sail-award-jul2026
+- Summary: ZTE OEX orthogonal supernode wins WAIC SAIL Star with zero-cable cabinet design, 128-GPU single-cabinet interconnection, and end-to-end AI infrastructure spanning cloud supercomputing to Nubia agent phones.
+
+### Alibaba Qwen3.8 Open Sources 2.4 Trillion Parameters: Claiming Strongest Model After Fable 5 as Chinese Open-Source Models Surge
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-qwen3-8-open-source-2trillion-jul2026
+- Summary: Alibaba releases Qwen3.8-Max with 2.4T parameters under open-source license, claiming second only to Fable 5, as four Chinese model labs launch trillion-parameter open models within one month.
+
+### Moore Threads Domestic GPU Trains 5D World Model Topping Global Benchmark, Proposes Three-AI-Factory Framework
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/moore-threads-three-ai-factories-5d-world-model-jul2026
+- Summary: Moore Threads showcases three AI factories at WAIC 2026: model training, token generation, and agent production factories; Peking University 5D world model trained on MTT S5000 ranks world first on Stanford WorldScore.
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/ph5nns5y4gxj
+- Summary: Jul 20, 01:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 20, 01:45 UTC Update - Git LFS API success rates have returned to normal. We will...
+
+
 ## 2026-07-19
+
+### Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+- Summary: F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an...
 
 ### Elevated errors affecting ChatGPT
 - Source: OpenAI Status
@@ -1452,6 +1515,12 @@
 - URL: https://tldr.takara.ai/p/2607.13608
 - Summary: Automatic scientific discovery has long been a goal of computational scholars - a machine that can discover nature's secrets on its own, moving computational systems beyond data-fitting tools toward the generation and refinement of mechanistic models of the universe. Recent advances in symbolic...
 
+### Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13591
+- Summary: Large Language Model (LLM) agents increasingly rely on external memory systems to accumulate experience across tasks. Yet nearly all existing approaches, from graph-structured memories to reflective insight stores, access memory through fixed, hand-designed heuristics. We argue that this static...
+
 ### Approximation of solutions of parameter-dependent problems by residual neural networks
 - Source: HF Daily Papers
 - Category: open-source
@@ -1517,6 +1586,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13522
 - Summary: A robot must understand the state of its own body, but a camera sees only part of it. Force and contact leave almost no trace in a single frame, and raw vision features read force at $R^2$ at or below $0.10$ on every robot we test. We present Kepler-Encoder-v0.1, a robot-first multimodal encoder...
+
+### ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ with Accuracy Approaching Any Quantization Level
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.13511
+- Summary: We introduce ExTernD (Expanded-rank Ternary Decomposition), a post-training factorization of each LLM weight matrix $A \in \mathbb{R}^{m \times n}$ into $A \approx B \mathrm{diag}(D) C$ with ternary factors $B \in \{-1,0,+1\}^{m \times k}$, $C \in \{-1,0,+1\}^{k \times n}$ and a real scale vector...
 
 ### DP-BOA: Dirichlet-Process Birth-or-Assign for On-the-Fly Category Discovery
 - Source: HF Daily Papers
@@ -2680,6 +2755,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/d69bslyqmk6k
 - Summary: Jul 13, 16:52 UTC Resolved - This incident has been resolved. Jul 13, 16:36 UTC Investigating - Some customers may see "You have exceeded the limit for adding zones" messages when there are within the limits. A fix has been identified and is in progress
 
+### Higher-Order Cell Tracking Transformer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.11754
+- Summary: Reconstructing lineages from live-imaging microscopy requires linking cell detections across time, including through cell divisions. A common approach is to construct a candidate graph and associate cell segmentations (nodes) across frames. However, these and other existing methods overlook two...
+
 ### Paradoxes of Game Theoretic Equilibria and Price of Anarchy
 - Source: HF Daily Papers
 - Category: open-source
@@ -2937,82 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.11228
 - Summary: While Large Vision-Language Models (LVLMs) demonstrate remarkable capabilities, they remain highly susceptible to embedded social biases. Existing bias evaluation protocols predominantly rely on static datasets, which provide only a superficial assessment, as their fixed test cases cannot...
-
-### Centers Laboratory Data Breach Affects 540,000 Individuals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/
-- Summary: The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek.
-
-### When the Target Domain Changes: AI-Mediated Construct Drift in High-Stakes English Language AssessmenW
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11213
-- Summary: High-stakes English proficiency tests treat standardized, unaided performance as evidence for score interpretations about academic English proficiency. This interpretation remains meaningful, but as target language use domains increasingly involve generative AI, the extrapolation from unaided test...
-
-### OpenHarmony Six-Year Transformation: An Operating System Revolution Spanning Thousands of Industries
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openharmony-six-year-transformation-jul2026
-- Summary: OpenHarmony surpasses 13,000 contributors, 140 million lines of code, and 1.3 billion ecosystem devices, driving digital transformation across mining, power, healthcare, and government services.
-
-### Native AI Agents Arrive: The AI Phone Market Enters Its Second Half With Nubia and ByteDance Leading the Charge
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ai-agent-phones-nubia-bytedance-waic-jul2026
-- Summary: Nubia debuts the world first native AI agent smartphone at WAIC 2026, moving beyond AI feature add-ons to autonomous agent systems that understand, execute, and remember user tasks across apps.
-
-### Alipay Launches AI Open Platform: The Agent Commerce Infrastructure Behind Ant Group AI Strategy
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alipay-ai-open-platform-agent-commerce-jul2026
-- Summary: Alipay AI open platform lets merchants package services as plug-ins for AI agents across phones, cars, and terminals, completing Ant Group three-month AI commerce infrastructure buildout.
-
-### Has Tencent AI Finally Turned the Corner? Inside Hunyuan Hy3, the Model That Got Tencent Back in the Race
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-ai-hunyuan-hy3-revival-jul2026
-- Summary: Tencent Hunyuan Hy3, with 295B MoE parameters and strong Agent performance, climbs to top-8 on OpenRouter and demonstrates a rebooted approach to building AI models by rethinking the training pipeline.
-
-### Has China AI Really Surpassed the US? Behind Two Viral Charts, Five Questions Worth Asking
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-ai-vs-us-analysis-questions-jul2026
-- Summary: Analysis of China vs US AI competition from a talent development perspective, examining what NeurIPS authorship data and MacroPolo talent tracking actually reveal about the competitive landscape.
-
-### What We Talk About When We Talk About LLM Planning: Evidence for Two Distinct Planning Abilities
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11197
-- Summary: When LLMs exhibit uneven performance across planning tasks, these gaps are often attributed to task difficulty. We argue that this explanation is incomplete, as task-level variation may reflect distinct latent planning competencies rather than differences along a single ability spectrum. We study...
-
-### Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html
-- Summary: An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history. From that one lapse, French security...
-
-### Amplitude-Only FFN Intervention for Tool-Structured LLM Inference Method: Gated Evaluation Protocol, and Cross-Model Empirical Results
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11183
-- Summary: Large language models increasingly operate as tool-using agents, where small format, argument, or function-call errors can invalidate otherwise plausible responses. We study inference-time feed-forward network (FFN) intervention for improving structured outputs without retraining model weights. Our...
-
-### LP Mining with LP2Graph: A Use Case for Railway Rescheduling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11980
-- Summary: Like many optimization-driven domains, railway rescheduling relies on Mixed-Integer Linear Programming (MILP), yet the field's modeling knowledge is scattered across hundreds of papers in incompatible notations, and narrative surveys organize it subjectively: they classify models by vocabulary...
-
-### The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11149
-- Summary: LLM agent benchmarks measure task completion, reliability, and inference cost, but not the persistent data an agent run leaves on disk, including logs, context snapshots, checkpoints, and debug traces. We introduce AgentFootprint, a cross-framework benchmark of post-run agent storage footprint. Its...
-
-### MusicMark: A Robust Generative Watermarking Framework for Music Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.11117
-- Summary: AI music generation has rapidly advanced alongside commercial platforms, raising the need for reliable watermarking for provenance and attribution. However, existing audio watermarking research has largely focused on speech, and applying speech-oriented methods to music is challenging due to...
 
