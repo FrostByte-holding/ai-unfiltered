@@ -6,6 +6,41 @@
 
 ## 2026-07-21
 
+### Elevated errors for API image generation
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KY32PEQHPV5F2W4HCNFJ60RD
+- Summary: Status: MonitoringWe have applied mitigations and are seeing error rates return to normal levels. We are monitoring the recovery.Affected components Images (Operational) Image Generation (Operational)
+
+### Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/py46dmbg0t0t
+- Summary: Jul 21, 20:20 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:31 UTC Identified - We have identified an issue with issuance of advanced certificates for new R2 users, customers may see a delay while we process a backlog.
+
+### The State of Simulation for Physical AI: An Overview
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai
+
+### 🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/xaira
+- Summary: Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.
+
+### Issues with logins and signups
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KY2ZF047ZNVDX0Z6F3QFXB1K
+- Summary: Status: ResolvedAll affected API Platform functionality has now fully recovered.Affected components Login (Operational) Login (Operational)
+
+### Service disruption on Claude services
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/4qsb0fp16tpb
+- Summary: Jul 21, 18:03 UTC Resolved - This incident has been resolved. Jul 21, 17:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:47 UTC Update - We are continuing to work on a fix for this issue. Jul 21, 17:46 UTC Update - We are continuing to work on a fix for...
+
 ### Elevated errors on several models
 - Source: Anthropic Status
 - Category: incidents
@@ -367,6 +402,12 @@
 - URL: https://tldr.takara.ai/p/2607.18056
 - Summary: Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safeguards. To assess the biological risks of frontier models, we develop Intern-BioBreaker, a specialized bio-red-teaming model, together with...
 
+### When 2D Cues Fail: Improving Image Manipulation Localization with Reliable 3D Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18040
+- Summary: Existing image manipulation localization (IML) methods rely heavily on 2D forensic cues, such as low-level artifacts, noise traces, and semantic inconsistencies in the manipulated image. While effective in many cases, these cues become much less discriminative when manipulated regions are well...
+
 ### L1 Augmented Attention as an Improved Vector Similarity Metric
 - Source: HF Daily Papers
 - Category: open-source
@@ -421,6 +462,12 @@
 - URL: https://tldr.takara.ai/p/2607.17922
 - Summary: Most reinforcement learning controllers for these networks assume stationary conditions, and the few that handle change react to the external environment while leaving the network's internal state unexamined. We show that sustained non-stationarity damages this internal state directly: as...
 
+### Chemical filters for ultra-high-throughput materials screening and generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17910
+- Summary: Generative artificial intelligence is rapidly transforming materials design by enabling de novo exploration of immense chemical spaces. Yet a large proportion of AI-generated compositions remain implausible, violating established chemical principles, which limits the reliability and...
+
 ### OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability
 - Source: Security Week
 - Category: security
@@ -462,6 +509,12 @@
 - Category: security
 - URL: https://www.securityweek.com/ernst-young-data-breach-affects-personal-financial-information/
 - Summary: Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst &#038; Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek.
+
+### PRiSM: Prototype Regularization for Few-Shot VLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17820
+- Summary: Training-free few-shot adaptation methods have gained significant attention recently in the context of Vision-language Models (VLMs). Yet, current benchmarks rely on strong assumptions about the statistics of the adaptation data, e.g., class balance. We question these simplifying assumptions and...
 
 ### Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool
 - Source: Security Week
@@ -517,6 +570,12 @@
 - URL: https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/
 - Summary: The fresh security update resolves six critical and high-severity use-after-free vulnerabilities. The post Chrome 150 Update Patches Severe Memory Safety Bugs appeared first on SecurityWeek.
 
+### An efficient adaptive dimension selection algorithm for multidimensional probit graded response models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17654
+- Summary: Multidimensional graded response models (MGRMs) are widely used for analyzing ordinal questionnaire data in psychological and educational assessments. A central challenge in applying these models is determining the number of latent dimensions. Conventional approaches usually fit multiple...
+
 ### Kimi K3 Investment Research Capability Benchmarked: Moonshot AI Top Model Now Powers AlphaEngine With First-Tier IRB Scores
 - Source: Pandaily
 - Category: chinese-ai
@@ -558,6 +617,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/tnypgb2jbqnq
 - Summary: Jul 20, 07:35 UTC Monitoring - Some Claude Code Max plan users were incorrectly prompted to use usage credits to access Fable 5, which is included in their plan. If you were affected, please restart Claude Code.
+
+### ANNLib: A Development Framework for Efficient Approximate Nearest Neighbor Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17582
+- Summary: Approximate Nearest Neighbor Search (ANNS) plays a pivotal role in modern deep learning pipelines. Recently, many ANNS systems have been proposed to either provide broad functionality or reach high performance. However, it is yet difficult to achieve both with minimal programming efforts. We...
 
 ### World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
 - Source: The Hacker News
@@ -2950,70 +3015,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window...
-
-### Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html
-- Summary: Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses...
-
-### How Pentera Turns AI Security Workflows into Validation Engines
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html
-- Summary: AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and...
-
-### AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12645
-- Summary: Generative modeling of longitudinal Electronic Health Records is increasingly important for privacy-preserving research, yet standard autoregressive models tend to underrepresent the co-occurrence structure of tail events (i.e., diseases, symptoms), reducing the fidelity and faithfulness of...
-
-### OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html
-- Summary: At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever...
-
-### SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/
-- Summary: The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization. The post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on SecurityWeek.
-
-### Atomic Units of X: The Compression Layer of Intelligence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12634
-- Summary: This paper proposes a theoretical framework for understanding intelligence as a process of atomic compression and compositional reuse. We argue that cognitive, biological, computational, and organizational systems achieve scalable intelligence by decomposing complex phenomena into reusable atomic...
-
-### US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/
-- Summary: Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.
-
-### Lightweight Multi-Scale Anomaly Detection for Resource-Constrained Edge Devices
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12599
-- Summary: Time-series anomaly detection is increasingly important in IoT systems, sensor networks, and edge monitoring applications, where models must operate under strict constraints on memory, latency, and power consumption. While recent deep-learning approaches have improved detection accuracy, many...
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/dfpfsngcwywf
-- Summary: Jul 14, 09:56 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 14, 09:51 UTC Monitoring - The degradation affecting Codespaces has been mitigated....
-
-### Explainable-by-Design Audio Deepfake Detection via Wiener-Hopf Linear Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12584
-- Summary: The rapid advancement of synthetic speech generation methods has made audio deepfake detection a critical challenge in multimedia forensics. While recent approaches achieve high detection accuracy, they typically rely on black-box architectures that offer limited interpretability and high...
-
-### Valarian Raises $50 Million for Sovereign Infrastructure Control Layer
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/
-- Summary: UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.
 
