@@ -6,6 +6,24 @@
 
 ## 2026-07-21
 
+### Elevated errors on several models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vcynh9cf33xp
+- Summary: Jul 21, 17:07 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 15:51 UTC Identified - The issue has been identified and a fix is being implemented. Jul 21, 15:35 UTC Investigating - We are currently investigating this issue.
+
+### Durable Object startup errors in Eastern Europe
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mwwg0r876dyb
+- Summary: Jul 21, 16:57 UTC Resolved - This incident has been resolved. Jul 21, 16:29 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 16:21 UTC Investigating - Cloudflare has identified an issue causing an increase of errors for Durable Objects and downstream services...
+
+### Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/
+- Summary: We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.
+
 ### Image generation unavailable in ChatGPT
 - Source: OpenAI Status
 - Category: incidents
@@ -284,6 +302,12 @@
 
 ## 2026-07-20
 
+### Increase in R2 500 errors in ENAM
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/fpj51jcbb89l
+- Summary: Jul 20, 21:30 UTC Resolved - Cloudflare has identified and resolved an issue impacting some customers where R2 requests would return 500 errors in ENAM between 20th July 2026 21:24 UTC to 21st July 2026 14:39 UTC.
+
 ### Datachannel Unavailable
 - Source: Cloudflare Status
 - Category: incidents
@@ -301,6 +325,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David...
+
+### Causal Discovery on Irregular Time Series
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18226
+- Summary: Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as...
 
 ### Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign
 - Source: The Hacker News
@@ -330,6 +360,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation
 - Summary: The global implications on the AI ecosystem.
+
+### An Early Warning of Emerging Biosecurity Risks in Frontier LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18056
+- Summary: Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safeguards. To assess the biological risks of frontier models, we develop Intern-BioBreaker, a specialized bio-red-teaming model, together with...
 
 ### L1 Augmented Attention as an Improved Vector Similarity Metric
 - Source: HF Daily Papers
@@ -379,6 +415,12 @@
 - URL: https://status.claude.com/incidents/s39rkbp2xhpd
 - Summary: Jul 20, 13:20 UTC Investigating - We are currently investigating this issue.
 
+### PRIME: Plasticity Recovery in Multi-Agent Environments for UAV-Assisted Emergency Communication Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17922
+- Summary: Most reinforcement learning controllers for these networks assume stationary conditions, and the few that handle change react to the external environment while leaving the network's internal state unexamined. We show that sustained non-stationarity damages this internal state directly: as...
+
 ### OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability
 - Source: Security Week
 - Category: security
@@ -396,6 +438,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But...
+
+### A Hardware-oriented Approach for Efficient Bayesian Inference Computation and Deployment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17855
+- Summary: Bayesian inference provides a principled foundation for reasoning under uncertainty, but its computational cost hinders deployment on resource-constrained edge devices. In this paper, we present a hardware-oriented methodology for accelerating discrete Bayesian inference on commercial off-the-shelf...
 
 ### New Index Tracks Material Breaches — And Refuses to Add Up the Losses
 - Source: Security Week
@@ -498,6 +546,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/waic-2026-supernode-consensus-future-jul2026
 - Summary: Every major Chinese GPU maker agrees at WAIC 2026: the era of single-chip competition is over. Supernode architecture, optical interconnection, and system-level TCO define the next computing frontier.
+
+### Direct Clinical Joint Angle Extraction from Parametric Body Model Rotation Matrices
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.17639
+- Summary: Quantitative joint angles are rarely available in routine care because the tools are slow, costly, or confined to a laboratory. We show that clinical joint angles can be read directly from the per-segment rotation matrices a parametric body model already produces, with no inverse-kinematics or...
 
 ### Fable 5 requiring usage credits on Max plans
 - Source: Anthropic Status
@@ -992,6 +1046,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1
 - Summary: Status: IdentifiedUsers who do not have Codex RBAC enabled, are getting the "codex_cli_workspace_disabled" error when trying to log into the new ChatGPT app post-install. We are working on implementing a fix. Please use our ChatGPT Classic as we are working on a fix.
+
+### Introducing Gemini 3.5 Flash Cyber
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
+- Summary: Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.
 
 ### Candidate Attended Dialogue State Tracking Using BERT
 - Source: HF Daily Papers
@@ -2956,64 +3016,4 @@
 - Category: security
 - URL: https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/
 - Summary: UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.
-
-### DiTailed: Ensuring Visual Object Consistency in Text-Image-to-Image Flow Matching Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12539
-- Summary: Despite remarkable progress in text-guided image editing, generative models frequently fail to preserve visual object consistency, defined as the preservation of a subject's key attributes throughout the editing process. We address this limitation through three contributions. First, we introduce...
-
-### Multiple Jscrambler Packages Impacted by Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/
-- Summary: A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek.
-
-### Grok Build Uploads Entire Git Repositories to xAI Storage, Not Just Files It Reads
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html
-- Summary: xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out...
-
-### OOD-RL-Bench: A Benchmark Framework for Out-of-Distribution Detection in Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12523
-- Summary: Reliable reinforcement learning (RL) agents must maintain operational integrity amidst sensor malfunctions, dynamic disturbances, and slow environmental shifts. The detection of out-of-distribution conditions is pivotal to determining when an agent's observations, transitions, or trajectory...
-
-### TerraLogic: A Benchmark for Hierarchical Geospatial Reasoning in Earth Observation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.12497
-- Summary: Beyond perception, reasoning is essential in remote sensing for advanced interpretation, inference, and decision-making. Recent advances in large language models (LLMs) have enabled tool-augmented agents that leverage external tools to perform complex analytical tasks. However, existing studies in...
-
-### U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html
-- Summary: The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Americans. The VPN, named First VPN Service (1VPNS),...
-
-### PsiQuantum has a plan to make a massive quantum computer out of light
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/
-- Summary: The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute...
-
-### Why APEC 2026 Spotlight Turns to Chengdu: A Western Chinese City Digital Economy Transformation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/apec-2026-chengdu-digital-economy-jul2026
-- Summary: Chengdu hosts APEC Digital and AI Ministerial Meeting from July 16-29, showcasing a systematic digital economy infrastructure from 29,000P computing capacity to 53.96 billion data records open.
-
-### Tao Law V2 Delivers Measured Results: Huawei Kirin 2026 Chip Shows 53.5% Transistor Density Leap as Semiconductor Rally Broadens
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tao-law-v2-huawei-kirin-chip-semiconductor-jul2026
-- Summary: Huawei Tao Law V2 publishes Kirin 2026 measured data showing 238MTr/mm² density via LogicFolding while Goldman Sachs reweights toward semiconductors, signaling a full-industry-cycle rally.
-
-### Quantum Heavyweight Arrives: Zhongqi Wuliang to Debut Data-Center-Grade Quantum Computer at WAIC
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhongqi-wuliang-quantum-computer-waic-jul2026
-- Summary: Shanghai-based neutral atom quantum computing startup Zhongqi Wuliang, spun out from CAS SIOM, to unveil the world first data-center-deployable quantum computer concept at WAIC 2026.
 
