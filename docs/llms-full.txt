@@ -6,6 +6,36 @@
 
 ## 2026-07-22
 
+### When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/
+- Summary: Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge. The post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared first on SecurityWeek.
+
+### Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
+- Summary: Google commits $40M in AI tokens and credits for the Genesis Mission
+
+### Elevated errors on Opus 4.8 and Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/f7w8qkd8z57f
+- Summary: Jul 22, 13:37 UTC Investigating - We are currently investigating this issue.
+
+### Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html
+- Summary: A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's "get_log_file" endpoint...
+
+### The Download: NASA’s new space telescope and OpenAI’s autonomous hacker
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own When NASA’s Nancy Grace Roman Space Telescope launches, as...
+
 ### Post-quantum cryptography (PQC) migration workshop report
 - Source: NCSC UK
 - Category: security
@@ -464,11 +494,23 @@
 - URL: https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/
 - Summary: A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek.
 
+### Functional Equivalence and Geometric Diversity in Neural Network Approximations: An Empirical Characterization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18930
+- Summary: The Universal Approximation Theorem states that a neural network with a single hidden layer is sufficient to approximate any continuous univariate function on a compact domain to arbitrary error. However, the uniqueness of such neural network representations is not guaranteed, raising questions...
+
 ### Elevated errors across models
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/y65gwqbztbsp
 - Summary: Jul 21, 10:11 UTC Investigating - We are currently investigating issues with Claude Haiku 4.5 and Opus 4.8.
+
+### Learning Explicit Physical Parameter Control and Benchmarking for Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18924
+- Summary: Recent advances in image-to-video generation have improved visual realism, making physically grounded and controllable dynamics an important step toward future world simulation. Current models often generate plausible motion, but it is not reliably governed by explicit physical causes, and...
 
 ### Audit Logs delayed
 - Source: Cloudflare Status
@@ -554,11 +596,29 @@
 - URL: https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html
 - Summary: Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector...
 
+### ZeroSplat: Generalized Referring Segmentation in 3D Gaussian Splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18801
+- Summary: Recent advancements in 3D Gaussian Splatting (3DGS) have enabled language-guided scene understanding. However, existing Referring 3D Gaussian Splatting (R3DGS) methods are fundamentally restricted to single-target queries. To reflect the ambiguity of real-world instructions, we introduce the...
+
 ### Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
 - Summary: Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape...
+
+### Decafs: Disentangled Conditional adversarial Flows
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18755
+- Summary: Flow-based models have established state-of-the-art performance in generative modeling across domains, but are hard to interpret due to their complex latent embeddings. In particular, the entanglement of generative factors in the latent space hinders controlled generation. We circumvent this issue...
+
+### Exposure-Based Reinforcement Learning to Rank
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18689
+- Summary: Reinforcement learning (RL) methods for learning-to-rank (LTR) can optimize (almost) any ranking goal, e.g., from precision or discounted cumulative gain to fairness-of-exposure or ranking distillation. However, standard RL is ineffective and computationally costly due to the enormous action space...
 
 ### Rater State Bias in RLHF Preference Data: An Audit Framework
 - Source: arXiv AI
@@ -2957,64 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13539
 - Summary: While traditional graphics methods often synthesize 3D indoor scenes autoregressively or hierarchically, recent vision-language model (VLM)-based generators predominantly adopt a one-shot paradigm where the full layout is planned at once. This one-shot approach often requires global re-optimization...
-
-### Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/
-- Summary: Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek.
-
-### Kepler-Encoder-v0.1: Towards a Multimodal Embedding Model for Robots
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13522
-- Summary: A robot must understand the state of its own body, but a camera sees only part of it. Force and contact leave almost no trace in a single frame, and raw vision features read force at $R^2$ at or below $0.10$ on every robot we test. We present Kepler-Encoder-v0.1, a robot-first multimodal encoder...
-
-### ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ with Accuracy Approaching Any Quantization Level
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13511
-- Summary: We introduce ExTernD (Expanded-rank Ternary Decomposition), a post-training factorization of each LLM weight matrix $A \in \mathbb{R}^{m \times n}$ into $A \approx B \mathrm{diag}(D) C$ with ternary factors $B \in \{-1,0,+1\}^{m \times k}$, $C \in \{-1,0,+1\}^{k \times n}$ and a real scale vector...
-
-### DP-BOA: Dirichlet-Process Birth-or-Assign for On-the-Fly Category Discovery
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13504
-- Summary: On-the-fly category discovery requires deciding for each incoming test sample whether to assign it to an existing category or spawn a new one. Existing methods typically implement this decision through matching-based heuristics, such as radius- or hash-based rules. While effective in practice,...
-
-### LAPO: Leave-One-Turn Attribution for Self-Generated Process Rewards in Multi-Turn Search Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13501
-- Summary: Reinforcement learning for multi-turn search reasoning typically relies on terminal outcome rewards, which cannot distinguish useful, redundant, and harmful intermediate interactions. We propose LAPO, a self-generated process-supervision method based on backward leave-one-turn attribution. For each...
-
-### PQFA: Parallel Quantum Feature Augmentation of Fused Representations for Multimodal Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13466
-- Summary: Most multimodal learning methods improve how heterogeneous representations are aligned and fused, while post-fusion enhancement remains less explored. We propose Parallel Quantum Feature Augmentation (PQFA), a hybrid quantum-classical framework that applies multiple shallow variational quantum...
-
-### LPM: Industrial-Scale Generative Video Restoration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13460
-- Summary: We present the Large Processing Model (LPM), a diffusion-based generative framework for photorealistic video restoration under complex, in-the-wild degradations. To our knowledge, LPM is the first generative video restoration model deployed at industrial scale. LPM addresses the diverse...
-
-### Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
-- Summary: SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side...
-
-### GeoAnchor: Collaborative Reasoning via Latent Decomposition for 3D Spatial Understanding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13454
-- Summary: Although multimodal large language models (MLLMs) have achieved remarkable progress, understanding 3D spatial relationships from 2D images remains a critical challenge. Existing methods primarily rely on symbolic text tokens, which inherently lack the fidelity to represent continuous geometric...
-
-### SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/
-- Summary: SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.
 
