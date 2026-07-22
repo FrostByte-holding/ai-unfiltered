@@ -6,6 +6,30 @@
 
 ## 2026-07-22
 
+### Disruption with actions hosted runners
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/20frdtvv3yg6
+- Summary: Jul 22, 20:47 UTC Update - Approximately 3% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation. Jul 22, 20:43 UTC...
+
+### Customers unable to create Access and Device Enrollment policies via the Dashboard and API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2zm98rdd8fl3
+- Summary: Jul 22, 19:38 UTC Resolved - This incident has been resolved. Jul 22, 19:02 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 22, 18:35 UTC Identified - Cloudflare engineering is investigating an issue preventing customers from creating new Access and Device...
+
+### Microsoft Office add-in availability
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/yc7mr2gvl914
+- Summary: Jul 22, 17:56 UTC Identified - Users who installed the following add-ins may experience issues accessing the add-in functionality: Claude by Anthropic for PowerPoint, Claude by Anthropic for Word, and Claude by Anthropic for Excel. To regain immediate access to Claude for Microsoft 365, install the...
+
+### Service disruption on Claude Services
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/ng5shnqxj1r7
+- Summary: Jul 22, 17:45 UTC Resolved - This incident has been resolved. Jul 22, 17:28 UTC Identified - The issue has been identified and a fix is being implemented. Jul 22, 17:27 UTC Investigating - We are investigating an outage affecting features such as document creation in claude.ai, Cowork Remote,...
+
 ### Elevated error rates for Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
@@ -356,6 +380,12 @@
 - URL: https://status.claude.com/incidents/4qsb0fp16tpb
 - Summary: Jul 21, 18:03 UTC Resolved - This incident has been resolved. Jul 21, 17:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:47 UTC Update - We are continuing to work on a fix for this issue. Jul 21, 17:46 UTC Update - We are continuing to work on a fix for...
 
+### OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19339
+- Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs...
+
 ### Cisco Launches Low-Cost AI Models for Source Code Security
 - Source: Security Week
 - Category: security
@@ -379,6 +409,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/mwwg0r876dyb
 - Summary: Jul 21, 16:57 UTC Resolved - This incident has been resolved. Jul 21, 16:29 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 16:21 UTC Investigating - Cloudflare has identified an issue causing an increase of errors for Durable Objects and downstream services...
+
+### GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19270
+- Summary: The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is severely constrained by a spatial generalization gap. Standard models rely on...
 
 ### AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code
 - Source: The Hacker News
@@ -506,6 +542,12 @@
 - URL: https://tldr.takara.ai/p/2607.18988
 - Summary: Medical imaging is a cornerstone of diagnostics, yet automated chest X-ray report generation struggles with structural adherence, anatomical completeness, and semantic faithfulness. We introduce DobicVLM, a vision-language model combining supervised fine-tuning on MedGemma-4B with Group Relative...
 
+### AutoJourn: Multi-Perspective Summarisation, Bias Detection and Bias Neutralisation for LLM-Generated News in Automated Journalism
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18983
+- Summary: We present AutoJourn, a demonstration system for multi-perspective news generation and bias-aware evaluation using large language models (LLMs). The system tackles three core challenges in responsible automated journalism: extracting diverse perspectives from unstructured social media discussions,...
+
 ### Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack
 - Source: Security Week
 - Category: security
@@ -590,6 +632,12 @@
 - URL: https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/
 - Summary: The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.
 
+### AILQA: Evaluating AI-Driven Legal Question Answering Systems for the Indian Legal System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18825
+- Summary: This comprehensive study introduces an advanced Artificial Intelligence for Indian Legal Question Answering (AILQA) system tailored to the Indian legal context. AILQA leverages a variety of embedding and generative models, including recent Large Language Models (LLMs), to address the unique...
+
 ### Zhipu AI Computing Ambitions Surface: 1GW Data Center, Hundreds of Millions in Infrastructure Acquisition, and Self-Developed Chip Plans Signal Nvidia Independence Push
 - Source: Pandaily
 - Category: chinese-ai
@@ -643,6 +691,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html
 - Summary: Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape...
+
+### RAGAL: A Frugal, Fully Local Retrieval-Augmented Assistant for Technical Support at a Government Agency
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18756
+- Summary: Public institutions hold large volumes of sensitive documents and support tickets that cannot leave the premises, ruling out cloud-hosted language models entirely. We report on RAGAL, a retrieval-augmented assistant for the technical-support team of AFIR, the Romanian Agency for Financing Rural...
 
 ### Decafs: Disentangled Conditional adversarial Flows
 - Source: HF Daily Papers
@@ -2963,58 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13661
 - Summary: Contrastive Language-Image Pre-training (CLIP) has been shown to have limitations in its fine-grained dense feature representation, due to its pre-training focusing on matching the whole image to a text description. Considering the large data and computational burden in pre-training a...
-
-### Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/
-- Summary: The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it. The post Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption appeared first on SecurityWeek.
-
-### Consensus as Privileged Context for Label-Free Self-Distillation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13643
-- Summary: Sampling multiple solutions and returning the majority answer is among the most reliable ways to improve the reasoning accuracy of large language models without labels, and a growing family of methods converts this consensus signal into training supervision. However, existing approaches use...
-
-### ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/
-- Summary: The industrial giants fixed dozens of vulnerabilities across their ICS products, with advisories also released by CISA and VDE CERT. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell appeared first on SecurityWeek.
-
-### Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html
-- Summary: Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1...
-
-### From Language to Navigation Goals: A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13624
-- Summary: Natural language interaction provides an intuitive way for non-expert users to communicate with robotic platforms. However, transforming user requests into executable navigation actions remains a challenging task, requiring the integration of language understanding, environment perception, and...
-
-### STOCKTAKE: Measuring the Gap Between Perception and Action in LLM Agents with a Fair Oracle
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13618
-- Summary: LLM agents are increasingly evaluated on multi-week decision tasks in which the state that drives cost is never directly observed. On such tasks the final cost cannot say why an agent failed: it may have misread the world, or read it correctly and still failed to act (the knowing-doing gap)....
-
-### Automatic Ordinary Differential Equations Discovery For Biological Systems Using Large Language Model Powered Agentic System
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13608
-- Summary: Automatic scientific discovery has long been a goal of computational scholars - a machine that can discover nature's secrets on its own, moving computational systems beyond data-fitting tools toward the generation and refinement of mechanistic models of the universe. Recent advances in symbolic...
-
-### Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13591
-- Summary: Large Language Model (LLM) agents increasingly rely on external memory systems to accumulate experience across tasks. Yet nearly all existing approaches, from graph-structured memories to reflective insight stores, access memory through fixed, hand-designed heuristics. We argue that this static...
-
-### Approximation of solutions of parameter-dependent problems by residual neural networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13574
-- Summary: We develop a convergent scheme to train neural networks involving analytic activation functions based on gradient flows. Convergence properties are guaranteed by Lojasiewicz theory. The main advantage of this approach is its simplicity of implementation. The coefficients of the network are...
 

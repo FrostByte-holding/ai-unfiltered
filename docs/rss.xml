@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Jul 2026 17:22:06 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 21:10:24 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Disruption with actions hosted runners</title>
+            <link>https://www.githubstatus.com/incidents/20frdtvv3yg6</link>
+            <guid>https://www.githubstatus.com/incidents/20frdtvv3yg6</guid>
+            <pubDate>Wed, 22 Jul 2026 20:47:02 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/20frdtvv3yg6">GitHub Status</source>
+            <category>incidents</category>
+            <description>Jul 22, 20:47 UTC Update - Approximately 3% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation. Jul 22, 20:43 UTC...</description>
+        </item>
+        <item>
+            <title>Customers unable to create Access and Device Enrollment policies via the Dashboard and API</title>
+            <link>https://www.cloudflarestatus.com/incidents/2zm98rdd8fl3</link>
+            <guid>https://www.cloudflarestatus.com/incidents/2zm98rdd8fl3</guid>
+            <pubDate>Wed, 22 Jul 2026 19:38:11 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/2zm98rdd8fl3">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Jul 22, 19:38 UTC Resolved - This incident has been resolved. Jul 22, 19:02 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 22, 18:35 UTC Identified - Cloudflare engineering is investigating an issue preventing customers from creating new Access and Device...</description>
+        </item>
+        <item>
+            <title>Microsoft Office add-in availability</title>
+            <link>https://status.claude.com/incidents/yc7mr2gvl914</link>
+            <guid>https://status.claude.com/incidents/yc7mr2gvl914</guid>
+            <pubDate>Wed, 22 Jul 2026 17:56:10 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/yc7mr2gvl914">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 22, 17:56 UTC Identified - Users who installed the following add-ins may experience issues accessing the add-in functionality: Claude by Anthropic for PowerPoint, Claude by Anthropic for Word, and Claude by Anthropic for Excel. To regain immediate access to Claude for Microsoft 365, install the...</description>
+        </item>
+        <item>
+            <title>Service disruption on Claude Services</title>
+            <link>https://status.claude.com/incidents/ng5shnqxj1r7</link>
+            <guid>https://status.claude.com/incidents/ng5shnqxj1r7</guid>
+            <pubDate>Wed, 22 Jul 2026 17:45:37 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/ng5shnqxj1r7">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Jul 22, 17:45 UTC Resolved - This incident has been resolved. Jul 22, 17:28 UTC Identified - The issue has been identified and a fix is being implemented. Jul 22, 17:27 UTC Investigating - We are investigating an outage affecting features such as document creation in claude.ai, Cowork Remote,...</description>
+        </item>
         <item>
             <title>Elevated error rates for Sonnet 5</title>
             <link>https://status.claude.com/incidents/6h7589wl6l45</link>
@@ -421,42 +457,6 @@
             <source url="https://status.openai.com//incidents/01KY32PEQHPV5F2W4HCNFJ60RD">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: MonitoringWe have applied mitigations and are seeing error rates return to normal levels. We are monitoring the recovery.Affected components Images (Operational) Image Generation (Operational)</description>
-        </item>
-        <item>
-            <title>Newly entitled R2 accounts are seeing delays when trying to access the S3-compatible API</title>
-            <link>https://www.cloudflarestatus.com/incidents/py46dmbg0t0t</link>
-            <guid>https://www.cloudflarestatus.com/incidents/py46dmbg0t0t</guid>
-            <pubDate>Tue, 21 Jul 2026 20:20:15 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/py46dmbg0t0t">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 21, 20:20 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:31 UTC Identified - We have identified an issue with issuance of advanced certificates for new R2 users, customers may see a delay while we process a backlog.</description>
-        </item>
-        <item>
-            <title>The State of Simulation for Physical AI: An Overview</title>
-            <link>https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai</link>
-            <guid>https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai</guid>
-            <pubDate>Tue, 21 Jul 2026 20:00:27 +0000</pubDate>
-            <source url="https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang &amp; Ci Chu, Chief Discovery Officer &amp; Chief AI Scientist)</title>
-            <link>https://www.latent.space/p/xaira</link>
-            <guid>https://www.latent.space/p/xaira</guid>
-            <pubDate>Tue, 21 Jul 2026 19:34:06 +0000</pubDate>
-            <source url="https://www.latent.space/p/xaira">Latent Space</source>
-            <category>open-source</category>
-            <description>Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.</description>
-        </item>
-        <item>
-            <title>Issues with logins and signups</title>
-            <link>https://status.openai.com//incidents/01KY2ZF047ZNVDX0Z6F3QFXB1K</link>
-            <guid>https://status.openai.com//incidents/01KY2ZF047ZNVDX0Z6F3QFXB1K</guid>
-            <pubDate>Tue, 21 Jul 2026 19:00:27 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KY2ZF047ZNVDX0Z6F3QFXB1K">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll affected API Platform functionality has now fully recovered.Affected components Login (Operational) Login (Operational)</description>
         </item>
     </channel>
 </rss>
