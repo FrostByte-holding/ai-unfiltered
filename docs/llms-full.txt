@@ -6,6 +6,24 @@
 
 ## 2026-07-22
 
+### Elevated error rates for Sonnet 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/6h7589wl6l45
+- Summary: Jul 22, 16:12 UTC Resolved - This incident has been resolved. Jul 22, 15:36 UTC Identified - The issue has been identified and a fix is being implemented. Jul 22, 15:24 UTC Investigating - We are currently investigating this issue.
+
+### Elevated errors for Workspace Agent
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KY54SWGRK806N6TJ495MYPDD
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Agent (Operational)
+
+### Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3
+- Summary: A podcast with Florian Brand.
+
 ### When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover
 - Source: Security Week
 - Category: security
@@ -398,6 +416,12 @@
 - URL: https://status.openai.com//incidents/01KY23YCPJ9M5BFFT6ZHKQE9MP
 - Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components Image Generation (Partial outage) Images (Operational)
 
+### Advancing Multimodal Fusion on Heterogeneous Medical Data with Hybrid Geometry Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19086
+- Summary: Multimodal fusion learning (MFL) has shown great potential in the medical domain, where we are faced with disparate data modalities such as imaging, clinical records, and omics. However, existing MFL strategies face several major challenges. First, they struggle to capture complex cross-modal...
+
 ### Elevated errors on Haiku 4.5
 - Source: Anthropic Status
 - Category: incidents
@@ -415,6 +439,12 @@
 - Category: security
 - URL: https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/
 - Summary: The startup will use the investment to accelerate the development of its threat prediction and discovery products. The post Empirical Security Raises $25 Million in Series A Funding appeared first on SecurityWeek.
+
+### Probabilistic Physics-Aware Machine Learning Predictions of Electric Truck Energy Consumption with Field Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19054
+- Summary: In this work, we incorporate first principle physics into the construction of data-driven methods by considering a model that accounts for the different sources of energy losses during vehicle operations. Our results show that Bayesian linear regression based on this physics-aware model can improve...
 
 ### SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity
 - Source: Security Week
@@ -602,6 +632,12 @@
 - URL: https://tldr.takara.ai/p/2607.18801
 - Summary: Recent advancements in 3D Gaussian Splatting (3DGS) have enabled language-guided scene understanding. However, existing Referring 3D Gaussian Splatting (R3DGS) methods are fundamentally restricted to single-target queries. To reflect the ambiguity of real-world instructions, we introduce the...
 
+### GLID: Gated Local Intrinsic Dimension Repairs the Blind Spots of Face-Forgery Detectors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18770
+- Summary: Fine-tuned foundation-model detectors dominate face-forgery benchmarks, yet they stay blind to generator families absent from training. We present GLID, a detector that repairs this blind spot with geometry instead of data. GLID treats the patch tokens of a single image as a sample from a manifold...
+
 ### Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution
 - Source: The Hacker News
 - Category: security
@@ -613,6 +649,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.18755
 - Summary: Flow-based models have established state-of-the-art performance in generative modeling across domains, but are hard to interpret due to their complex latent embeddings. In particular, the entanglement of generative factors in the latent space hinders controlled generation. We circumvent this issue...
+
+### Stale but Stable: Staleness-Adaptive Trust Regions for Stabilizing Asynchronous Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18722
+- Summary: Asynchronous reinforcement learning improves throughput by decoupling rollout generation from optimization, but staleness is an inevitable byproduct compounded by policy lag, engine delays, and mixture-of-experts routing. From a trust-region perspective, this mismatch is critical:...
+
+### Confidence-Gated Vision-Only Heading Alignment for UAV-UGV Cooperative Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18713
+- Summary: Vision-based heading prediction is useful for UAV--UGV cooperation, but accurate prediction alone does not guarantee that every predicted heading should be issued directly as a control command. This paper investigates the decision problem of when and how a fixed vision-based heading predictor...
 
 ### Exposure-Based Reinforcement Learning to Rank
 - Source: HF Daily Papers
@@ -2969,52 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.13574
 - Summary: We develop a convergent scheme to train neural networks involving analytic activation functions based on gradient flows. Convergence properties are guaranteed by Lojasiewicz theory. The main advantage of this approach is its simplicity of implementation. The coefficients of the network are...
-
-### Nexus: Native Mesh Generation with Diffusion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13563
-- Summary: Generating high-quality triangle meshes is essential for film, gaming, and interactive 3D applications. Mainstream methods rely on mesh serialization and autoregressive processes, which stuggles in effective inference and is sensitive to error accumulation. In this paper, we present Nexus, a...
-
-### AI advice suppresses people's willingness to say "I don't know", even when the advice is wrong and accuracy is incentivized
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13562
-- Summary: Knowing when to say "I don't know" is fundamental to human judgment, yet AI assistants offer a fluent answer to almost any question. In five experiments (N = 3,132; four preregistered, one direct replication), participants answered difficult questions and could always decline to respond. We...
-
-### High-Purity PFA Becomes Critical Semiconductor Material as Chinese Suppliers Advance Batch Verification for Process Node Localization
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/high-purity-pfa-semiconductor-material-china-jul2026
-- Summary: High-purity PFA, a fluoropolymer essential for advanced semiconductor wet processing equipment, sees batch verification by Chinese suppliers as the semiconductor supply chain localization push deepens.
-
-### Hangzhou Xunsun Intelligence CEO: AI Software Factory Redefines Software Production From Requirements to Running Systems
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xunsun-intelligence-ai-software-factory-jul2026
-- Summary: Xunsun Intelligence CEO Xiong Jibin at AgenticAICon 2026 unveils AI-Ready requirements modeler and software factory, enabling natural language to full system generation with multi-agent collaboration.
-
-### From Computing Power to Intelligence: How Data Is Reshaping the AI Era in 2026
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/data-reshaping-ai-era-computing-intelligence-jul2026
-- Summary: As compute race matures, industry focus shifts to data as the fuel of AI intelligence — covering data asset monetization, security governance, and AI-driven scientific research paradigm changes.
-
-### Xiaomi Open-Sources Robotics-U0: A 38B-Parameter Embodied Generative Model That Unifies Four Robot Tasks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-open-source-robotics-u0-model-jul2026
-- Summary: Xiaomi releases Robotics-U0 with 38 billion parameters, the first embodied generative model handling scene generation, embodied transfer, video generation, and text-to-image in a single unified architecture.
-
-### From Novice to Expert: Cost-Aware Bandits for Evolving Worker Performance in Crowdsensing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13546
-- Summary: Mobile crowdsensing (MC) recruits mobile users to perform sensing tasks using their smartphones, enabling large-scale applications such as traffic monitoring and environmental sensing. A fundamental challenge is online worker recruitment under uncertainty, where the platform must learn workers'...
-
-### ThinkBLOX: 3D Indoor Scene Generation with Progressive Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.13539
-- Summary: While traditional graphics methods often synthesize 3D indoor scenes autoregressively or hierarchically, recent vision-language model (VLM)-based generators predominantly adopt a one-shot paradigm where the full layout is planned at once. This one-shot approach often requires global re-optimization...
 
