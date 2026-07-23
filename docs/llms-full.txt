@@ -6,6 +6,18 @@
 
 ## 2026-07-23
 
+### Elevated error rates
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KY7SX5MYJ2BP51X5MXAPYX71
+- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation with the downstream infrastructure provider.Affected components Batch (Operational) Fine-tuning (Operational) Realtime (Operational) CLI...
+
+### Issues connecting to resources in West US
+- Source: Azure Status
+- Category: incidents
+- URL: https://azure.status.microsoft/en-us/status/
+- Summary: Starting at 14:44 UTC on 23 July, 2026, customers may have experienced intermittent connectivity failures, increased latency, or difficulty accessing Azure services in West US region. Customers with traffic traversing the West US region may also experience downstream impact. Impacted services...
+
 ### Abstract Raises $25 Million to Expand Composable Security Operations Platform
 - Source: Security Week
 - Category: security
@@ -35,6 +47,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
 - Summary: Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered...
+
+### UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign
+- Summary: GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign
 
 ### How Synthetic Identity Fraud is Coming for Machine Identities
 - Source: The Hacker News
@@ -320,6 +338,12 @@
 - URL: https://tldr.takara.ai/p/2607.20389
 - Summary: Video captioning requires fine-grained spatio-temporal understanding of videos, including spatial perception of where objects are located and temporal perception of when events occur. Existing MLLMs usually generate captions directly from video inputs without exposing the perceptual evidence behind...
 
+### FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20382
+- Summary: Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are...
+
 ### Elevated error rates for Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
@@ -385,6 +409,12 @@
 - Category: security
 - URL: https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/
 - Summary: Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge. The post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared first on SecurityWeek.
+
+### Gotta Catch them all: the modes of Sycophancy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20146
+- Summary: Large language models often align with users' beliefs at the expense of factual accuracy, a behavior known as sycophancy. Prior mechanistic studies largely treat sycophancy as a single behavioral dimension that can be uniformly amplified or suppressed. We challenge this assumption by analyzing...
 
 ### Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission
 - Source: DeepMind Blog
@@ -548,6 +578,12 @@
 - URL: https://tldr.takara.ai/p/2607.19834
 - Summary: With the wide application of large language models (LLMs) in real-world scenarios, the value implication of their outputs is crucial. However, existing evaluation benchmarks suffer from insufficient coverage of value dilemmas in daily scenarios involving multiple value conflicts and simplistic...
 
+### MoAKE: Toward Unified All-in-One Action Quality Assessment via Mixture of Action Knowledge Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19826
+- Summary: Action Quality Assessment (AQA) aims to objectively evaluate performance quality from action videos. Most existing methods follow a ``one-by-one'' paradigm, training a separate model for each action type. This setting limits real-world deployment, as it requires prior action-type knowledge to...
+
 ### Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA
 - Source: The Hacker News
 - Category: security
@@ -565,6 +601,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ymvzmlwj3ppk
 - Summary: Jul 22, 06:27 UTC Investigating - Cloudflare Malicious Upload Detection IssuesCloudflare is investigating issues with elevated errors in Malicious Upload Detection service.We are working to understand the full impact and mitigate this problem. More updates to follow shortly.
+
+### Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19787
+- Summary: Polarimetric synthetic aperture radar (PolSAR) image classification is a representative task for physics-aware GeoAI, where land-cover semantics are closely coupled with electromagnetic scattering mechanisms. Many existing complex-valued networks can preserve amplitude-phase information, but they...
 
 ### Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
 - Source: The Hacker News
@@ -781,6 +823,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top
 - Summary: Several new Cyber headlines make us observe a trend
+
+### NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19695
+- Summary: Robots deployed in delivery, campus, and emergency-response settings often need to navigate from buildings to streets within a single continuous episode. Existing benchmarks usually evaluate indoor and outdoor navigation separately, and many abstract away robot execution, leaving exit finding,...
 
 ### Chengdu Targets Trillion-Yuan Space Computing as Full Industrial Chain From Satellite Manufacturing to Orbital AI Clusters Reaches Commercialization Inflection
 - Source: Pandaily
@@ -2971,52 +3019,4 @@
 - Category: security
 - URL: https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/
 - Summary: Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code. The post F5 Patches Multiple NGINX, BIG-IP Vulnerabilities appeared first on SecurityWeek.
-
-### Elevated errors for Claude Opus 4.7
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/vjfp60ngq2zj
-- Summary: Jul 16, 08:58 UTC Investigating - We are currently investigating this issue.
-
-### Elevated errors on Claude Sonnet 5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/30x7lsq713tl
-- Summary: Jul 16, 08:53 UTC Resolved - This incident has been resolved. Jul 16, 08:39 UTC Investigating - We are currently investigating this issue.
-
-### China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/
-- Summary: Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures. The post China&#8217;s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans appeared first on SecurityWeek.
-
-### OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
-- Summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. "GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt...
-
-### Multimodality as Supervision: Self-Supervised Specialization to the Test Environment via Multimodality
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.14721
-- Summary: Cross-modal learning, i.e., learning to predict one modality from another, is a fundamental mechanism for self-supervision via leveraging multimodality. Many practical applications, e.g., deploying a household robot, involve devices that are equipped with a rich set of sensors that enable...
-
-### Recreating 10 km/s Flight Conditions: How China JF-22 Hypersonic Wind Tunnel Works
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/jf22-hypersonic-wind-tunnel-10km-jul2026
-- Summary: China JF-22 hypersonic wind tunnel can simulate flight at 10 km/s and 20,000K gas temperature, supporting development of hypersonic aircraft and spaceplanes for 2-hour global travel.
-
-### Scrapped Before Launch: ByteDance Doubao AI Glasses Gen 2 Speeds Ahead With Dual Models as Meta Ray-Ban Rivalry Heats Up
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-ai-glasses-gen2-bytedance-jul2026
-- Summary: ByteDance cancels first-gen Doubao AI glasses for being too generic, accelerates dual-model second generation while planning third-gen, as AI glasses market surges 130% year-on-year.
-
-### LimX Dynamics Drops New Demo That Challenges Figure: China Humanoid Now Rivals Silicon Valley Best
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/limx-dynamics-demo-figure-humanoid-jul2026
-- Summary: LimX Dynamics Oli robot completes 3-minute uninterrupted household chores video after $200M funding round, placing China humanoid robotics on par with Figure capabilities.
 

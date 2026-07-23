@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 23 Jul 2026 14:05:23 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2026 17:24:34 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Elevated error rates</title>
+            <link>https://status.openai.com//incidents/01KY7SX5MYJ2BP51X5MXAPYX71</link>
+            <guid>https://status.openai.com//incidents/01KY7SX5MYJ2BP51X5MXAPYX71</guid>
+            <pubDate>Thu, 23 Jul 2026 16:48:54 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01KY7SX5MYJ2BP51X5MXAPYX71">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation with the downstream infrastructure provider.Affected components Batch (Operational) Fine-tuning (Operational) Realtime (Operational) CLI...</description>
+        </item>
+        <item>
+            <title>Issues connecting to resources in West US</title>
+            <link>https://azure.status.microsoft/en-us/status/</link>
+            <guid>https://azure.status.microsoft/en-us/status/</guid>
+            <pubDate>Thu, 23 Jul 2026 16:29:09 +0000</pubDate>
+            <source url="https://azure.status.microsoft/en-us/status/">Azure Status</source>
+            <category>incidents</category>
+            <description>Starting at 14:44 UTC on 23 July, 2026, customers may have experienced intermittent connectivity failures, increased latency, or difficulty accessing Azure services in West US region. Customers with traffic traversing the West US region may also experience downstream impact. Impacted services...</description>
+        </item>
         <item>
             <title>Abstract Raises $25 Million to Expand Composable Security Operations Platform</title>
             <link>https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/</link>
@@ -52,6 +70,15 @@
             <source url="https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered...</description>
+        </item>
+        <item>
+            <title>UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations</title>
+            <link>https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign</link>
+            <guid>https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign</guid>
+            <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+            <source url="https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign">NCSC UK</source>
+            <category>security</category>
+            <description>GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign</description>
         </item>
         <item>
             <title>How Synthetic Identity Fraud is Coming for Machine Identities</title>
@@ -414,6 +441,15 @@
             <description>Video captioning requires fine-grained spatio-temporal understanding of videos, including spatial perception of where objects are located and temporal perception of when events occur. Existing MLLMs usually generate captions directly from video inputs without exposing the perceptual evidence behind...</description>
         </item>
         <item>
+            <title>FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization</title>
+            <link>https://tldr.takara.ai/p/2607.20382</link>
+            <guid>https://tldr.takara.ai/p/2607.20382</guid>
+            <pubDate>Wed, 22 Jul 2026 17:11:52 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2607.20382">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are...</description>
+        </item>
+        <item>
             <title>Elevated error rates for Sonnet 5</title>
             <link>https://status.claude.com/incidents/6h7589wl6l45</link>
             <guid>https://status.claude.com/incidents/6h7589wl6l45</guid>
@@ -421,42 +457,6 @@
             <source url="https://status.claude.com/incidents/6h7589wl6l45">Anthropic Status</source>
             <category>incidents</category>
             <description>Jul 22, 16:12 UTC Resolved - This incident has been resolved. Jul 22, 15:36 UTC Identified - The issue has been identified and a fix is being implemented. Jul 22, 15:24 UTC Investigating - We are currently investigating this issue.</description>
-        </item>
-        <item>
-            <title>Elevated errors for Workspace Agent</title>
-            <link>https://status.openai.com//incidents/01KY54SWGRK806N6TJ495MYPDD</link>
-            <guid>https://status.openai.com//incidents/01KY54SWGRK806N6TJ495MYPDD</guid>
-            <pubDate>Wed, 22 Jul 2026 16:09:35 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01KY54SWGRK806N6TJ495MYPDD">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Agent (Operational)</description>
-        </item>
-        <item>
-            <title>Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study</title>
-            <link>https://tldr.takara.ai/p/2607.20270</link>
-            <guid>https://tldr.takara.ai/p/2607.20270</guid>
-            <pubDate>Wed, 22 Jul 2026 15:22:14 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.20270">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large language models are increasingly evaluated through the values they endorse, but such evaluations presuppose that models can identify the value expressed in a concrete situation. We study this prerequisite as controlled top-1 recognition over Schwartz&#x27;s ten basic values. Our evaluation set...</description>
-        </item>
-        <item>
-            <title>Statistical Inference for Rank Allocation in Low-Rank Adaptation</title>
-            <link>https://tldr.takara.ai/p/2607.20205</link>
-            <guid>https://tldr.takara.ai/p/2607.20205</guid>
-            <pubDate>Wed, 22 Jul 2026 14:25:59 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.20205">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Low-rank adaptation (LoRA) has become a widely used parameter-efficient fine-tuning method for large language models. Since different modules and layers may contribute unequally to downstream adaptation, allocating rank resources under a fixed parameter budget is an important problem for balancing...</description>
-        </item>
-        <item>
-            <title>Open models recap: more on Kimi K3, Qwen 3.8, Xi&#x27;s WAIC speech, distillation, the open-closed gap, and what&#x27;s next</title>
-            <link>https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3</link>
-            <guid>https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3</guid>
-            <pubDate>Wed, 22 Jul 2026 14:09:04 +0000</pubDate>
-            <source url="https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3">Interconnects</source>
-            <category>open-source</category>
-            <description>A podcast with Florian Brand.</description>
         </item>
     </channel>
 </rss>
