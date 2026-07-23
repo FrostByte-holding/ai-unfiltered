@@ -6,6 +6,12 @@
 
 ## 2026-07-23
 
+### Some users may experience elevated error rates in ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KY81XMFAV8KXNJGVNEMKAK15
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational) Compliance API (Operational) Image Generation (Operational) File uploads (Operational) Deep Research (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Login...
+
 ### Elevated error rates
 - Source: OpenAI Status
 - Category: incidents
@@ -326,6 +332,12 @@
 - URL: https://status.claude.com/incidents/yc7mr2gvl914
 - Summary: Jul 22, 17:56 UTC Identified - Users who installed the following add-ins may experience issues accessing the add-in functionality: Claude by Anthropic for PowerPoint, Claude by Anthropic for Word, and Claude by Anthropic for Excel. To regain immediate access to Claude for Microsoft 365, install the...
 
+### Lipschitzian SLLNs for random functions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20411
+- Summary: We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this...
+
 ### Service disruption on Claude Services
 - Source: Anthropic Status
 - Category: incidents
@@ -355,6 +367,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KY54SWGRK806N6TJ495MYPDD
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Agent (Operational)
+
+### Sound Probabilistic Safety Bounds for Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20286
+- Summary: We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem....
 
 ### Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study
 - Source: HF Daily Papers
@@ -481,6 +499,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.20010
 - Summary: In this paper, we present a generalized temporal-difference (TD) reinforcement learning framework based on the theory of conditional expectations. The value and action-value (Q-value) functions are treated as uncertain quantities, and their estimation is formulated as a stochastic inference...
+
+### Post-Training in Time Series Foundation Models: A Unifying Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20002
+- Summary: Time series foundation models (TSFMs) have emerged as general-purpose models for time series analysis, but pretraining alone is often insufficient for reliable downstream deployment. Bridging this gap requires further intervention to handle domain shift, task heterogeneity, limited supervision, and...
 
 ### Endpoint Security Firm Glow Launches With $180M in Funding at $1.2B Valuation
 - Source: Security Week
@@ -818,11 +842,23 @@
 - URL: https://arxiv.org/abs/2607.18481
 - Summary: arXiv:2607.18481v1 Announce Type: new Abstract: Knowledge graph question answering (KGQA) requires navigating from topic entities to an answer several relations away. Recent methods prompt a frontier LLM to explore the graph through a retrieval tool, but their reliance on frontier-scale inference...
 
+### An Exploratory Analysis of Pain Localization via Explainable Computational Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19726
+- Summary: Automatic pain localization, which involves identifying the anatomical origin of pain from peripheral physiological signals without patient self-report, is a clinically critical but largely unaddressed problem, particularly for non-verbal patients. This paper presents a systematic comparison of...
+
 ### [AINews] AI Cybersecurity becomes top of mind
 - Source: Latent Space
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top
 - Summary: Several new Cyber headlines make us observe a trend
+
+### PhenSPINE: A Standardized Benchmark for Spine Pathology Diagnosis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19696
+- Summary: The accurate diagnosis of spinal pathologies depends heavily on radiological interpretation, yet automated systems are hindered by the lack of diverse, high-quality benchmarks. In this study, we present PhenSPINE, a Magnetic Resonance Imaging dataset comprising 16,813 images from 250 patients,...
 
 ### NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation
 - Source: HF Daily Papers
@@ -2983,40 +3019,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXN14DD3EYYJ6PJ9M736WDSV
 - Summary: Status: InvestigatingWe are investigating the issue for the listed services and seeing gradual recovery.Affected components Login (Degraded performance) Login (Degraded performance)
-
-### Clean-Reference Streaming Detection of Lens Occlusion and Photometric Transitions for Camera Tamper Monitoring
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.14760
-- Summary: A surveillance camera is an image sensor whose silent physical degradation invalidates every downstream consumer of its data. In-situ integrity alarms for such vision sensors require low false-alarm rates, bounded computation, and diagnosable behavior under nuisance illumination changes. This paper...
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/d35pngcy6sb9
-- Summary: Jul 16, 09:30 UTC Monitoring - The degradation has been mitigated. We are monitoring to ensure stability. Jul 16, 09:13 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
-
-### Our approach to bioresilience
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/our-approach-to-bioresilience/
-- Summary: Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.
-
-### Enterprise SSO sign-in failures
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/0hzwq1ylg80g
-- Summary: Jul 16, 09:23 UTC Identified - The issue has been identified and a fix is being implemented.
-
-### Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html
-- Summary: Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext. A researcher publishing under the...
-
-### F5 Patches Multiple NGINX, BIG-IP Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/
-- Summary: Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code. The post F5 Patches Multiple NGINX, BIG-IP Vulnerabilities appeared first on SecurityWeek.
 
