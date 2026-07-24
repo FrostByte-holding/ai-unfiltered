@@ -6,6 +6,24 @@
 
 ## 2026-07-24
 
+### Incident with Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/jxd617hfwfq8
+- Summary: Jul 24, 20:23 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 24, 20:02 UTC Monitoring - The degradation affecting Pull Requests has been...
+
+### Email Delivery Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/zjpyfpf388qt
+- Summary: Jul 24, 19:28 UTC Resolved - This incident has been resolved. Jul 24, 18:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 24, 18:33 UTC Identified - Cloudflare is investigating a delay in our ability to send emails. This includes password reset, mFA token...
+
+### Increase errors for R2 buckets hosted in APAC region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/swffg8gtfbjl
+- Summary: Jul 24, 19:19 UTC Resolved - This incident has been resolved. Jul 24, 19:09 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 24, 19:02 UTC Identified - The issue has been identified and a fix is being implemented. Jul 24, 18:49 UTC Investigating - Customers with R2...
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -519,6 +537,12 @@
 - URL: https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/
 - Summary: On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on a 339-mile power line stretching from Quebec to Queens called the Champlain...
 
+### Do Pathology Vision-Language Models Truly See Pathology?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21065
+- Summary: Pathology vision-language models (VLMs) have recently progressed rapidly and are commonly evaluated by answer accuracy on pathology VQA benchmarks. However, we dig into current evaluations and identify three overlooked issues: 1) Visual evidence is not always necessary. For instance, Gemini-3-Pro...
+
 ### Achieving Text-based Person Retrieval with Any Granularity
 - Source: HF Daily Papers
 - Category: open-source
@@ -560,6 +584,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/binhua-group-6n-high-purity-hydrogen-fluoride-jul2026
 - Summary: Binhua Group subsidiary Dasheng Core Materials achieves mass production of 6N grade high-purity hydrogen fluoride for sub-28nm chip manufacturing, breaking foreign monopoly on the semiconductor etchant market.
+
+### Naju: A Native Discrete State-Space Model with Independent Retention and Writing for Long-Sequence Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21000
+- Summary: Long-sequence memory tracking places two opposing demands on a recurrent state: near-lossless retention of stored bindings over long horizons, and active overwriting of stale ones. In our diagnostic suite, the strongest efficient baselines tend to solve only one side well....
+
+### Latent Variable-Mediated Cross-Learning for Few-Shot Acoustic Impedance Imaging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20989
+- Summary: Acoustic impedance imaging is a fundamental yet severely ill-posed problem in subsurface analysis: the seismic wavelet is unknown, observations are band-limited, and labeled well-log samples are extremely scarce (typically <1% of all traces). Existing semi-supervised deep learning methods mitigate...
 
 ### Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access
 - Source: The Hacker News
@@ -770,6 +806,18 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.19718
 - Summary: arXiv:2607.19718v1 Announce Type: new Abstract: The HIPE-2026 shared task introduces person-place relation extraction from multilingual historical newspapers as a new evaluation track, classifying the at and isAt relations between pre-annotated person and location mentions in English, French, and...
+
+### ViSTR-Bench: Can MLLMs Reason from Continuous Visual Cues in Dynamic Scenes?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20868
+- Summary: Multimodal Large Language Models (MLLMs) have achieved remarkable success across diverse expert-level tasks, but they still struggle with fundamental abilities that humans naturally develop through continuous observation of the real world, such as spatial perception and dynamic reasoning. Recent...
+
+### Probabilistic Residual Learning for Online Recommendations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20863
+- Summary: Modern recommender systems are typically based on deep learning (DL) models, where a dense encoder learns representations of users and items. As a result, these systems often suffer from the black-box nature and computational complexity of the underlying models, making it difficult to...
 
 ### REFACT: Adaptive Fact Restatement for Compact and Faithful Chain-of-Thought Reasoning
 - Source: HF Daily Papers
@@ -2974,51 +3022,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/266jj43lsnm3
 - Summary: Jul 17, 16:40 UTC Investigating - A subset of Containers logs for Containers applications that are configured with 'observability.enabled: true' are getting dropped.
-
-### GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html
-- Summary: Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a...
-
-### Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel
-
-### Elevated errors for Claude Opus 4.8
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/bwz7ld34gcxt
-- Summary: Jul 17, 15:33 UTC Resolved - This incident has been resolved. Jul 17, 15:27 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:57 UTC Identified - The issue has been identified and a fix is being implemented.
-
-### New ChatGPT App Not Available For Enterprise Users Without Codex Permissions
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KXRBA8B98QHMMVP3M86NHFZ1
-- Summary: Status: IdentifiedUsers who do not have Codex RBAC enabled, are getting the "codex_cli_workspace_disabled" error when trying to log into the new ChatGPT app post-install. We are working on implementing a fix. Please use our ChatGPT Classic as we are working on a fix.
-
-### Introducing Gemini 3.5 Flash Cyber
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
-- Summary: Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.
-
-### Candidate Attended Dialogue State Tracking Using BERT
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.16021
-- Summary: Dialogue state tracking (DST) is one of the core components in task-oriented dialogue systems. At each turn in a conversation, DST estimates the user belief or dialogue state, which is used as input for downstream modules to predict system actions and generate responses. The increasingly popular...
-
-### Cloudflare Workers API Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/km4651q3bfdf
-- Summary: Jul 17, 14:55 UTC Resolved - This incident has been resolved. Jul 17, 14:49 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 17, 14:34 UTC Investigating - Cloudflare is investigating issues when interacting with Workers API and Workers configuration in the...
-
-### In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/
-- Summary: Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on...
 
