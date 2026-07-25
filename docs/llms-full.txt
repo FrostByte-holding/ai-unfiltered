@@ -6,6 +6,36 @@
 
 ## 2026-07-25
 
+### Making Open-Source Text LLM Watermarks Durable Against Merging
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.20435
+- Summary: arXiv:2607.20435v1 Announce Type: new Abstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights. Yet, OSMs are subject to post-training modifications,...
+
+### Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.20436
+- Summary: arXiv:2607.20436v1 Announce Type: new Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under...
+
+### TopoGuard: Graph Theory Based Defenses Against Split-Knowledge Attacks on RAG
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.20437
+- Summary: arXiv:2607.20437v1 Announce Type: new Abstract: Production Retrieval Augmented Generation (RAG) systems rely on aggregating multiple external documents to answer complex queries. However, the retrieved documents introduce a new threat surface that can be exploited to launch split-knowledge attacks....
+
+### Preference Tuning as Spectral Update Reorganization
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.20438
+- Summary: arXiv:2607.20438v1 Announce Type: new Abstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference optimization through the spectral structure of their...
+
+### AsymVerify at SemEval-2026 Task 6: Asymmetric Confidence-Gated Verification for Political Evasion Detection
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.20439
+- Summary: arXiv:2607.20439v1 Announce Type: new Abstract: Political evasion is difficult to detect because evasive answers often appear cooperative while avoiding concrete commitment. We present AsymVerify, a confidence-gated verification system for SemEval-2026 Task 6, a three-way classification of Clear...
+
 ### Air Ambulance eVTOL Flies Into Shanghai: TCab Tech M1 Medical Evacuation Variant Debuts as Airworthiness Window Approaches and Low-Alt Economy Faces Commercial Reality Check
 - Source: Pandaily
 - Category: chinese-ai
@@ -516,6 +546,12 @@
 - URL: https://tldr.takara.ai/p/2607.21485
 - Summary: We study sinusoidal recurrence as an iterative mechanism for harmonic spectral enrichment in implicit neural representations (INRs). Our analysis reveals that sinusoidal activations induce a harmonic line spectrum, providing a spectral account of how recurrent unrolling enriches the effective...
 
+### Error Certificates for KV-Cache Eviction via Randomized Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21475
+- Summary: Deterministic KV-cache eviction keeps the top-$k$ tokens under an importance score and deletes the rest. We prove that this design cannot know what it destroyed: evicted values can be altered so that everything the serving system retains is unchanged while the true attention-output error grows...
+
 ### Future Rendering $\neq$ Future Surface: A Benchmark and Dataset for Dynamic Surface Reconstruction Beyond the Observed Window
 - Source: HF Daily Papers
 - Category: open-source
@@ -533,6 +569,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.21445
 - Summary: Quiz rooms, trivia nights, and quiz shows challenge human knowledge across a wide range of topics, from canonical facts to everyday culture. In this paper, we examine whether large language models (LLMs) can perform competitively in such settings, using quiz-style questions to test them on both...
+
+### GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21416
+- Summary: Existing Gaussian-splatting-based monocular Simultaneous Localization and Mapping (SLAM) systems are either tailored to short sequences, are not real-time, or suffer from prohibitive GPU memory requirements, limiting their applicability in realistic, long-horizon scenarios. To address this, we...
 
 ### OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider
 - Source: Security Week
@@ -557,6 +599,12 @@
 - Category: security
 - URL: https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/
 - Summary: Threat actors used credentials obtained from other companies to hack into Chick-fil-A One accounts. The post Chick-fil-A Accounts Get Fried in Credential Stuffing Attack appeared first on SecurityWeek.
+
+### SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21354
+- Summary: For years, supply chain planning at e-commerce firms has operated as a collection of isolated projects. Each planning task from static network planning to dynamic warehouse assortment planning requires analysts to spend weeks building models from scratch, calibrating and persuading executives to...
 
 ### How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning
 - Source: HF Daily Papers
@@ -990,6 +1038,12 @@
 - URL: https://arxiv.org/abs/2607.19718
 - Summary: arXiv:2607.19718v1 Announce Type: new Abstract: The HIPE-2026 shared task introduces person-place relation extraction from multilingual historical newspapers as a new evaluation track, classifying the at and isAt relations between pre-annotated person and location mentions in English, French, and...
 
+### Engine-Native Editable 3D World Reconstruction with Objects and Lighting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20889
+- Summary: Editable 3D scene creation requires object instances and lights that can be inspected, moved, and imported into standard engines, yet existing single-image methods largely stop at room-scale geometry, baked/global illumination, or text-driven generation. We introduce Lumera (Light-aware Unified...
+
 ### ViSTR-Bench: Can MLLMs Reason from Continuous Visual Cues in Dynamic Scenes?
 - Source: HF Daily Papers
 - Category: open-source
@@ -1037,6 +1091,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/low-altitude-economy-explosion-jul2026
 - Summary: Low-altitude economy enters explosive growth phase as logistics drones, eVTOL aircraft, and airspace management infrastructure converge, with delivery drones and inspection robots leading commercialization.
+
+### New Complexity-Theoretic Frontiers of Tractability for Neural Network Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20811
+- Summary: In spite of the fundamental role of neural networks in contemporary machine learning research, our understanding of the computational complexity of optimally training neural networks remains incomplete even when dealing with the simplest kinds of activation functions. Indeed, while there has been a...
 
 ### Elevated errors on Haiku 4.5
 - Source: Anthropic Status
@@ -2956,67 +3016,4 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KXYF4BTCV9DTZ5NDSFN716FH
 - Summary: Status: InvestigatingUsers may experience failures or delays in ChatGPT and Codex workflows that depend on GitHub. This mostly should impact Codex web and code review for PRs on Github. This is related to an active GitHub API partial outage and degraded GitHub Actions....
-
-### Huya Debuts Real-Time Multimodal Digital Human VAM 1.0 at WAIC 2026
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huya-vam-digital-human-waic-2026-jul2026
-- Summary: Huya launches VAM 1.0 real-time multimodal digital human at WAIC 2026 — generates live interactive virtual humans from a single photo at 36.4fps.
-
-### CSC Financial: AI-Driven PCB Demand Upgrade Accelerates High-End Dry Film Photoresist Localization as Market Approaches 13.6B RMB by 2030
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/csc-financial-pcb-dry-film-ai-demand-jul2026
-- Summary: CSC Financial research forecasts global AI-server-driven PCB upgrade cycle pushing dry film photoresist market to 13.6B RMB by 2030 at 9.4% CAGR as Chinese suppliers lead localization.
-
-### ZTE Wins WAIC SAIL Star Again: OEX Orthogonal Supernode and Full-Stack AI Ecosystem From Data Center to Smartphone
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zte-oex-supernode-waic-sail-award-jul2026
-- Summary: ZTE OEX orthogonal supernode wins WAIC SAIL Star with zero-cable cabinet design, 128-GPU single-cabinet interconnection, and end-to-end AI infrastructure spanning cloud supercomputing to Nubia agent phones.
-
-### Alibaba Qwen3.8 Open Sources 2.4 Trillion Parameters: Claiming Strongest Model After Fable 5 as Chinese Open-Source Models Surge
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qwen3-8-open-source-2trillion-jul2026
-- Summary: Alibaba releases Qwen3.8-Max with 2.4T parameters under open-source license, claiming second only to Fable 5, as four Chinese model labs launch trillion-parameter open models within one month.
-
-### Moore Threads Domestic GPU Trains 5D World Model Topping Global Benchmark, Proposes Three-AI-Factory Framework
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moore-threads-three-ai-factories-5d-world-model-jul2026
-- Summary: Moore Threads showcases three AI factories at WAIC 2026: model training, token generation, and agent production factories; Peking University 5D world model trained on MTT S5000 ranks world first on Stanford WorldScore.
-
-### Disruption with some GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/ph5nns5y4gxj
-- Summary: Jul 20, 01:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 20, 01:45 UTC Update - Git LFS API success rates have returned to normal. We will...
-
-
-## 2026-07-19
-
-### Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
-- Summary: F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an...
-
-### Elevated errors affecting ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KXXDNEAKEPRGFM661SBJJAM6
-- Summary: Status: MonitoringService has been restored and we are continuing to monitor.Affected components Voice mode (Operational) Conversations (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational)
-
-### UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
-- Summary: Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to...
-
-### SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
-- Summary: A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the...
 
