@@ -6,6 +6,18 @@
 
 ## 2026-07-25
 
+### Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/f1q2wvw4qj4j
+- Summary: Jul 25, 19:44 UTC Resolved - This incident has been resolved. Jul 25, 18:44 UTC Identified - The issue has been identified and a fix is being implemented. Jul 25, 18:40 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Haiku 4.5. We...
+
+### Sonnet 4.6 and Sonnet 5 errors elevated
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/1019wwb67615
+- Summary: Jul 25, 18:13 UTC Resolved - For approximately 10 minutes, error rates on Sonnet 4.6 and 5 were elevated. Service returned to normal at approximately 11:07a PDT.
+
 ### Actions run failures and delays
 - Source: GitHub Status
 - Category: incidents
@@ -1188,6 +1200,12 @@
 - URL: https://tldr.takara.ai/p/2607.20863
 - Summary: Modern recommender systems are typically based on deep learning (DL) models, where a dense encoder learns representations of users and items. As a result, these systems often suffer from the black-box nature and computational complexity of the underlying models, making it difficult to...
 
+### Code Monitor Red Teaming for Public-Test-Passing Code
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20852
+- Summary: Visible tests are a common gate for LLM-generated code, but passing them does not certify specification correctness. We study a deployment-like monitoring problem: after code has passed public tests, can a weaker LLM verifier identify the residual hidden bugs? We introduce Code Monitor Red Teaming,...
+
 ### REFACT: Adaptive Fact Restatement for Compact and Faithful Chain-of-Thought Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -1321,6 +1339,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.20270
 - Summary: Large language models are increasingly evaluated through the values they endorse, but such evaluations presuppose that models can identify the value expressed in a concrete situation. We study this prerequisite as controlled top-1 recognition over Schwartz's ten basic values. Our evaluation set...
+
+### How Does Urban Context Relate to Residential Building Health? A Vision-POI Fusion Framework for Building-Level Housing Inspection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20263
+- Summary: Housing-level urban physical examination is essential for identifying residential building problems and supporting targeted urban renewal. Existing automated inspection studies primarily rely on individual images and rarely examine whether surrounding urban functional context can provide...
+
+### STeMP: Spatio-Temporal Modelling Protocol
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20592
+- Summary: Spatio-temporal machine-learning modelling is an important tool in environmental research. However, machine-learning models are highly sensitive to both the characteristics of the training data, such as its distribution, and methodological choices, including the cross-validation strategy. Each...
 
 ### Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts
 - Source: Security Week
@@ -1965,6 +1995,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.19476
 - Summary: Detectors for AI-generated video are evaluated offline. A clip is decoded to pixels and scored once, increasingly by a large vision-language model. Detection, however, is deployed online. We recast the task as streaming perception and score the motion field the codec already wrote into the...
+
+### ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19341
+- Summary: Recent advances in multimodal generative models have enabled instruction-based image generation to move beyond semantic manipulation to knowledge-driven visual reasoning. However, these methods focus on explicit commonsense reasoning, shallow causal understanding, and direct knowledge recall,...
 
 ### OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
 - Source: HF Daily Papers
@@ -2622,6 +2658,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/fpj51jcbb89l
 - Summary: Jul 20, 21:30 UTC Resolved - Cloudflare has identified and resolved an issue impacting some customers where R2 requests would return 500 errors in ENAM between 20th July 2026 21:24 UTC to 21st July 2026 14:39 UTC.
 
+### AHEAD: Advancing Multi-Class Label Aggregation with Interpretable Cross-Annotator Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18465
+- Summary: Crowdsourced labeling provides valuable labeled data for domains across natural language processing, computer vision, and video. Label aggregation aims to infer latent true labels from noisy and biased annotations, with the key lying in annotator reliability estimation. Despite promising progress,...
+
 ### Datachannel Unavailable
 - Source: Cloudflare Status
 - Category: incidents
@@ -2974,46 +3016,4 @@
 - Category: security
 - URL: https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/
 - Summary: Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure. The post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.
-
-### FlexiGrad: Adaptive Gradient Modulation for Hierarchical Fine-Grained Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17563
-- Summary: Many fine-grained recognition tasks contain hierarchical labels such as order, family and species. Although this supervision should be beneficial, jointly optimising all levels often leads to unstable training because coarse and fine classifiers impose inconsistent gradients on the shared backbone....
-
-### SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
-- Summary: Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions...
-
-### Volatility-Aware Extreme Event Detection in High-Frequency Financial Markets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17555
-- Summary: Predicting extreme price movements in high-frequency financial markets is a challenging task due to non-stationarity, heavy-tailed return distributions, and severe class imbalance. In particular, rare but impactful events are often difficult to detect using conventional modeling approaches, which...
-
-### FlowSonic: Stable Zero-Shot Music Editing via High-Order Trajectory Integration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17526
-- Summary: Zero-shot text-guided editing of real-world music recordings requires balancing semantic modification with faithful preservation of the original musical structure. Although recent diffusion transformers trained with rectified flow have achieved remarkable success in text-to-music generation,...
-
-### GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15280
-- Summary: arXiv:2607.15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding extensive medical...
-
-### Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15281
-- Summary: arXiv:2607.15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based methods often rely...
-
-### Cura 1T: Specialized Model for Agentic Healthcare
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15314
-- Summary: arXiv:2607.15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and...
 
