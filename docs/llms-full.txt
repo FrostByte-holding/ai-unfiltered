@@ -6,6 +6,42 @@
 
 ## 2026-07-25
 
+### Actions run failures and delays
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/pz7g535gbs6p
+- Summary: Jul 25, 13:13 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 25, 13:12 UTC Update - We have seen recovery in GitHub Actions performance following...
+
+### Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+- Summary: Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723,...
+
+### Elevated error rates
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KYCGY017EG43XZS6GFVXA8VH
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Batch (Operational) Compliance API (Operational) Deep Research (Operational) Chat Completions (Operational) Realtime (Operational) Responses (Operational) Codex Web (Operational) ChatGPT Atlas (Operational) VS Code...
+
+### CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
+- Summary: For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations...
+
+### Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+- Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers chain a pre-authentication information disclosure...
+
+### DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
+- Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally...
+
 ### Several GPT models degraded
 - Source: GitHub Status
 - Category: incidents
@@ -594,6 +630,12 @@
 - URL: https://tldr.takara.ai/p/2607.21504
 - Summary: Numerous 3D assets are discarded due to low texture resolution, while current super-resolution models ignore texture maps and focus on natural images. An efficient and generalizable texture super-resolution model can revitalize a large corpus of aging yet valuable assets across industries such as...
 
+### Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21503
+- Summary: Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions, and ballooning tool outputs. Agents drown in their own accumulating history...
+
 ### Elevated error rates
 - Source: OpenAI Status
 - Category: incidents
@@ -1109,6 +1151,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.19718
 - Summary: arXiv:2607.19718v1 Announce Type: new Abstract: The HIPE-2026 shared task introduces person-place relation extraction from multilingual historical newspapers as a new evaluation track, classifying the at and isAt relations between pre-annotated person and location mentions in English, French, and...
+
+### Anti-Goal Reasoning: Rethinking the Theory of Goal Reasoning in Non-Axiomatic Logic
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20902
+- Summary: Goal reasoning in Non-Axiomatic Logic (NAL) explains how an adaptive system derives means for realizing desired events under insufficient knowledge and resources. However, the representation of avoidance is less clear. A common convention is to express ``avoid $G$'' as the goal sentence ``$\neg...
 
 ### Engine-Native Editable 3D World Reconstruction with Objects and Lighting
 - Source: HF Daily Papers
@@ -1900,6 +1948,12 @@
 - URL: https://status.claude.com/incidents/4qsb0fp16tpb
 - Summary: Jul 21, 18:03 UTC Resolved - This incident has been resolved. Jul 21, 17:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:47 UTC Update - We are continuing to work on a fix for this issue. Jul 21, 17:46 UTC Update - We are continuing to work on a fix for...
 
+### Detect Early, Escalate Rarely: Anytime Detection of AI-Generated Video from the Compressed Bitstream
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19476
+- Summary: Detectors for AI-generated video are evaluated offline. A clip is decoded to pixels and scored once, increasingly by a large vision-language model. Detection, however, is deployed online. We recast the task as streaming perception and score the motion field the codec already wrote into the...
+
 ### OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
 - Source: HF Daily Papers
 - Category: open-source
@@ -1954,6 +2008,12 @@
 - URL: https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
 - Summary: Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to...
 
+### MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19235
+- Summary: Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially in multi-party meetings where cues are distributed across speech and behavior....
+
 ### Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -1995,6 +2055,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KY23YCPJ9M5BFFT6ZHKQE9MP
 - Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components Image Generation (Partial outage) Images (Operational)
+
+### DAIS: Dependency-Aware Intermediate QA Supervision for Complex Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19088
+- Summary: Chain-of-thought (CoT) supervision exposes intermediate rationales, but flat rationale targets usually optimize a single reasoning sequence and provide limited supervision on how local conclusions should support later decisions. We introduce Dependency-Aware Intermediate QA Supervision (DAIS), a...
 
 ### Advancing Multimodal Fusion on Heterogeneous Medical Data with Hybrid Geometry Attention
 - Source: HF Daily Papers
@@ -2950,70 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.15313
 - Summary: arXiv:2607.15313v1 Announce Type: new Abstract: The scaling hypothesis assumes that increasing model parameters yields emergent reasoning capabilities. This position paper argues that applying this probabilistic paradigm to generic quantum circuit synthesis is a directional error. Unlike natural...
-
-### A Transportable Threshold-Based Framework for Interpretable Classification of Medical Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.15394
-- Summary: arXiv:2607.15394v1 Announce Type: new Abstract: Black-box models limit the adoption of artificial intelligence in medicine due to their lack of interpretability and reproducibility. We introduce a statistically grounded framework that provides fully interpretable, rule-based clinical classification...
-
-### Regularity-Aware Stochastic MGDA with Adaptive Conflict-Avoidant Update Direction Control
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.15412
-- Summary: arXiv:2607.15412v1 Announce Type: new Abstract: Multi-objective learning (MOL) aims to optimize multiple objectives simultaneously. The multi-gradient descent algorithm (MGDA) is a workhorse that iteratively updates along a common descent or conflict-avoidant (CA) direction across objectives. In...
-
-### AI Trading: Evaluating Large Language Models for Technical Market Analysis
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.15414
-- Summary: arXiv:2607.15414v1 Announce Type: new Abstract: Large Language Models (LLMs) have emerged as powerful tools for processing the heterogeneous information environments of modern financial markets. This paper presents a systematic, comparative evaluation of five prominent LLMs: GPT-4 Turbo, Claude 3...
-
-### Large Language Models as Unified Multimodal Learners for Clinical Prediction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.15380
-- Summary: arXiv:2607.15380v1 Announce Type: new Abstract: Electronic health records combine free-text clinical narratives with structured measurements such as vital signs, laboratory values, and comorbidities. Yet most clinical prediction systems still rely on task-specific fusion architectures, pairing...
-
-### Verbalizable Representations Form a Global Workspace in Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.15495
-- Summary: arXiv:2607.15495v1 Announce Type: new Abstract: Out of everything the human brain processes, only a small fraction is consciously accessible, in the sense of being available for verbal report, deliberate control, and flexible reasoning. In this paper, we present evidence that an analogous...
-
-### VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.15498
-- Summary: arXiv:2607.15498v1 Announce Type: new Abstract: The key-value (KV) cache is the main memory bottleneck in long-context large language model (LLM) inference. Two leading training-free families are both structurally limited: token-selection methods (SnapKV, Ada-KV) score importance from an...
-
-### EpiNarrate: Agentic Generation of Grounded Narratives from Epidemiological Scenario Projections
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.15544
-- Summary: arXiv:2607.15544v1 Announce Type: new Abstract: Generation of clear and accessible public health narratives is critical for communicating complex epidemiological projections to policymakers and the general public at large. Such narratives require more than simply reporting numbers: projections must...
-
-### SkillCorpus: Consolidating and Evaluating the Open Skill Ecosystem for Real-World LLM Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.15557
-- Summary: arXiv:2607.15557v1 Announce Type: new Abstract: Agent skills, SKILL.md files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet these artifacts are fragmented,...
-
-### DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15418
-- Summary: arXiv:2607.15418v1 Announce Type: new Abstract: We introduce DrawingVQA, the first benchmark designed to evaluate multimodal large language models (MLLMs) on real-world construction drawings -- a core media in architecture, civil, and many other engineering practices. Unlike natural images or...
-
-### Beyond a Joke: Multi-Angle Reasoning for Detecting and Explaining Harmful Humor in Memes
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15442
-- Summary: arXiv:2607.15442v1 Announce Type: new Abstract: Internet memes intertwine visual cues, textual content, and cultural context, making them particularly challenging to interpret in scenarios where humor, sarcasm, and harmful intent coexist. These complexities highlight the need for explainable meme...
-
-### From Black Box to Executable Logic: Explainable Reinforcement Learning through Prolog Expert Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.15459
-- Summary: arXiv:2607.15459v2 Announce Type: new Abstract: A trained deep reinforcement learning policy is a black box, and we ask whether it can be made explainable by rewriting it as an executable logic program that reproduces its behaviour and that a person can read, a logic engine can run, and an...
 
