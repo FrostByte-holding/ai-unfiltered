@@ -861,6 +861,12 @@
 - URL: https://tldr.takara.ai/p/2607.21343
 - Summary: Integrating heterogeneous biomedical data, including clinical metadata, histopathology images, and molecular profiles, is crucial for comprehensive disease understanding. However, gene expression data acquisition remains constrained by high costs and privacy concerns, limiting its use in multimodal...
 
+### Phonetic forced alignment for low-resource language varieties: Model training and evaluation on Chengdu Mandarin
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21332
+- Summary: Phonetic forced alignment is a key technique in phonetic research, yet existing alignment systems lack specialized models for low-resource language varieties. We address this by training text-dependent and text-independent aligners for Chengdu Mandarin using a 17-hour corpus and a custom G2P...
+
 ### Abstract Raises $25 Million to Expand Composable Security Operations Platform
 - Source: Security Week
 - Category: security
@@ -1010,6 +1016,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.21057
 - Summary: Text-based person retrieval faces a critical but under-explored challenge: the inherent uncertainty of query granularity in real-world scenarios. This paper introduces a new paradigm, Text-based Person Retrieval with Any Granularity, and provides a systematic solution. First, we formalize a...
+
+### WAT3R: Feedforward Underwater 3D Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21023
+- Summary: Reliable feedforward underwater 3D reconstruction remains challenging due to severe light attenuation and backscattering, which degrade visual quality and disrupt feature consistency across views, leading to inaccurate multi-view geometry. To address this issue, we propose WAT3R, a feed-forward...
 
 ### Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs
 - Source: The Hacker News
@@ -2113,6 +2125,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai
 
+### RELTA-SGLD: Relative-Growth Localized Taming for Nonconvex Stochastic-Gradient Langevin Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19544
+- Summary: We introduce RELTA-SGLD, a taming scheme that stabilizes superlinear stochastic-gradient updates while reducing unnecessary suppression of the original learning drift. A threshold determines where the taming turns on, while a relative-growth principle derived from the one-step Lyapunov stability...
+
 ### 🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)
 - Source: Latent Space
 - Category: open-source
@@ -2871,6 +2889,12 @@
 - URL: https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David...
 
+### Patch Policy: Efficient Embodied Control via Dense Visual Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18236
+- Summary: Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial...
+
 ### Causal Discovery on Irregular Time Series
 - Source: HF Daily Papers
 - Category: open-source
@@ -2995,28 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.17938
 - Summary: Classical image correspondence is solved at the level of sparse keypoints or dense pixels, but the systems that consume these matches - object-level mapping, topological navigation, scene-graph maintenance - reason about whole objects. Recent work narrows this gap by matchng directly at the level...
-
-### ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
-- Summary: A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs...
-
-### Elevated errors on Haiku 4.5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/s39rkbp2xhpd
-- Summary: Jul 20, 13:20 UTC Investigating - We are currently investigating this issue.
-
-### PRIME: Plasticity Recovery in Multi-Agent Environments for UAV-Assisted Emergency Communication Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17922
-- Summary: Most reinforcement learning controllers for these networks assume stationary conditions, and the few that handle change react to the external environment while leaving the network's internal state unexamined. We show that sustained non-stationarity damages this internal state directly: as...
-
-### Chemical filters for ultra-high-throughput materials screening and generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17910
-- Summary: Generative artificial intelligence is rapidly transforming materials design by enabling de novo exploration of immense chemical spaces. Yet a large proportion of AI-generated compositions remain implausible, violating established chemical principles, which limits the reliability and...
 
