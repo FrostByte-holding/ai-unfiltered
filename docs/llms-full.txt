@@ -1311,6 +1311,12 @@
 - URL: https://tldr.takara.ai/p/2607.20889
 - Summary: Editable 3D scene creation requires object instances and lights that can be inspected, moved, and imported into standard engines, yet existing single-image methods largely stop at room-scale geometry, baked/global illumination, or text-driven generation. We introduce Lumera (Light-aware Unified...
 
+### Webly Supervised Multi-Label Recognition: Evaluation Benchmark and Dual-Branch Multi-Label Contrastive Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20874
+- Summary: Training deep learning models with freely available web images can reduce their dependence on costly manual annotations. Although webly supervised learning has been widely studied for single-label recognition, its multi-label counterpart remains underexplored, partly due to the lack of unified...
+
 ### ViSTR-Bench: Can MLLMs Reason from Continuous Visual Cues in Dynamic Scenes?
 - Source: HF Daily Papers
 - Category: open-source
@@ -1529,6 +1535,12 @@
 - URL: https://tldr.takara.ai/p/2607.20192
 - Summary: We study machine unlearning: the removal of memorized training data from a trained model. Specifically, we investigate the algorithmic complexity of certified unlearning from an optimization perspective. We formalize the goal of an unlearning algorithm as simultaneously achieving certified...
 
+### PerceptDrive: Perception Prior World-Action Modeling with Adaptive Expert Routing for End-to-End Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20175
+- Summary: Frozen perception foundation models encode rich geometric, semantic, and dynamic knowledge. Yet narrow conditioning interfaces may attenuate task-relevant cues, while static fusion cannot adjust expert contributions to each scene. We cast this challenge as the prior-to-plan transfer problem and...
+
 ### Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next
 - Source: Interconnects
 - Category: open-source
@@ -1570,6 +1582,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/f7w8qkd8z57f
 - Summary: Jul 22, 13:37 UTC Investigating - We are currently investigating this issue.
+
+### RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.20116
+- Summary: Global visual localization of unmanned aerial vehicles (UAVs) using remote-sensing reference maps has attracted increasing attention. However, acquisition-time and imaging-platform differences between UAV and reference imagery induce substantial cross-domain appearance and viewpoint shifts,...
 
 ### StrongestLayer Raises $4.1 Million in Seed Funding Extension
 - Source: Security Week
@@ -2233,6 +2251,12 @@
 - URL: https://tldr.takara.ai/p/2607.19115
 - Summary: Edit-conditioned 3D scene retrieval pairs a reference 3D room with a natural-language modification and retrieves rooms from a corpus that satisfy the edit. Three lines of prior work each fall short on this task. 2D composed image retrieval reasons over pixel-level edits and has no primitive for 3D...
 
+### OpenRTAG: A Comprehensive Benchmark for Robust Text-Attributed Graph Learning under Data Quality Degradation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19108
+- Summary: Text-attributed graphs (TAGs) are an important graph data form that combine relational structure with rich node text. However, real-world TAGs are often imperfect, with quality issues arising from text, structure, and labels, and typically manifesting as sparsity, noise, and imbalance. These...
+
 ### Image generation unavailable in ChatGPT
 - Source: OpenAI Status
 - Category: incidents
@@ -2894,6 +2918,12 @@
 - URL: https://tldr.takara.ai/p/2607.18084
 - Summary: Predicting a football match before kickoff requires more than knowing past results: a model must use changing information and make a clear prediction before the answer is available. We present WorldCupArena, a dynamic benchmark for language models and deep-research agents. The 2026 FIFA World Cup...
 
+### Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18080
+- Summary: Multimodal video misinformation detection is commonly formulated as a holistic video-understanding task, where the entire video and its associated content are processed and judged in a single pass. However, real-world misinformation often exhibits a sparse and compositional evidence structure: a...
+
 ### Kimi K3: The open-weights escalation
 - Source: Interconnects
 - Category: open-source
@@ -2989,34 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.17910
 - Summary: Generative artificial intelligence is rapidly transforming materials design by enabling de novo exploration of immense chemical spaces. Yet a large proportion of AI-generated compositions remain implausible, violating established chemical principles, which limits the reliability and...
-
-### OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openssl-silently-fixes-hollowbyte-dos-vulnerability/
-- Summary: Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes &#8216;HollowByte&#8217; DoS Vulnerability appeared first on SecurityWeek.
-
-### Entanglement geometry separates circuit cutting, classical hardness, and trainability
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17872
-- Summary: Circuit cutting promises to scale quantum computations beyond current hardware, but variational quantum advantage also requires low cutting overhead, classical hardness, and trainability. We show that these properties are strongly constrained by entanglement geometry. Matrix product state (MPS) and...
-
-### Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html
-- Summary: At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity...
-
-### The Download: AI hiring biases, and weather data sabotage
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply for a job, AI may screen your résumé before any human sees it. But...
-
-### ConceptTree: Bringing Semantic Transparency to Black-Box Decision Making for Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.17861
-- Summary: Establishing interpretable decision-making processes in long-horizon robotic manipulation is critical for enabling reliable human oversight and intervention. However, existing approaches to robotic manipulation largely treat skill selection as opaque mappings from observations to actions, offering...
 
