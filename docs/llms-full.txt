@@ -6,6 +6,60 @@
 
 ## 2026-07-27
 
+### Elevated errors on Claude Opus 5 and Haiku 4.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rkk5x44tndw9
+- Summary: Jul 27, 14:36 UTC Resolved - As of 7:34 PST / 14:34 UTC the errors have returned to baseline. Jul 27, 14:04 UTC Update - Haiku 4.5 is also returning errors. Jul 27, 13:42 UTC Update - We are currently investigating this issue. Jul 27, 13:41 UTC Update - We are continuing to investigate this issue....
+
+### ⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
+- Summary: Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped....
+
+### Issues with Snippets API
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/81xjzcngq3z4
+- Summary: Jul 27, 13:32 UTC Resolved - This incident has been resolved. Jul 27, 13:23 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 27, 12:05 UTC Identified - The issue has been identified and a fix is being implemented. Jul 27, 11:42 UTC Investigating - We are currently...
+
+### n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
+- Summary: n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The...
+
+### Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html
+- Summary: Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs "secure document" lures to deliver legitimate remote monitoring and management (RMM) tools. "The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming...
+
+### Elevated errors on Claude Opus 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/mfdtrknpxghq
+- Summary: Jul 27, 12:30 UTC Resolved - As of 4:47 PST / 11:47 UTC the errors have returned to baseline. Jul 27, 11:27 UTC Investigating - We are currently investigating this issue.
+
+### The Download: lasers for nuclear fuel, and organ preservation advances
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&#160; Nuclear power provides about 9% of global electricity today, and that fraction could...
+
+### The path to artificial superintelligence
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/
+- Summary: Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are...
+
+### Closing the data loop in AI-driven drug discovery
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/
+- Summary: Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new...
+
 ### Beelzebub Raises $3.4 Million for Hacker-Trapping Platform
 - Source: Security Week
 - Category: security
@@ -2966,58 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.16232
 - Summary: arXiv:2607.16232v1 Announce Type: new Abstract: The growing use of statistical learning algorithms to infer human preferences from high-dimensional choice data runs up against a fundamental challenge: choice alternatives typically differ in many ways simultaneously, so it is generally unclear which...
-
-### Token-Level Cross-Modal Transformer with Contrastive Multi-Task Learning for Breast Cancer Subtype Classification and Survival Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.16233
-- Summary: arXiv:2607.16233v1 Announce Type: new Abstract: Integrating heterogeneous genomic and clinical modalities for joint cancer subtype classification and survival prediction remains a key challenge in precision oncology. Existing approaches suffer from three limitations: (1) they treat each modality as...
-
-### HantaWatch: Federated Learning for Hantavirus Genomic Surveillance
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.16234
-- Summary: arXiv:2607.16234v1 Announce Type: new Abstract: Hantavirus genomic surveillance is limited by the distribution of sequence data, non-IID source heterogeneity, and constrained expert-review capacity. We propose HantaWatch, a federated learning framework that enables laboratories and surveillance...
-
-### From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.16621
-- Summary: arXiv:2607.16621v1 Announce Type: new Abstract: Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that...
-
-### OpenLanguageModel: Readable and Composable Small-Language-Model Pretraining for Education and Research
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.16669
-- Summary: arXiv:2607.16669v1 Announce Type: new Abstract: OpenLanguageModel (OLM) is an open-source PyTorch library for building and pretraining small language models while keeping their machinery visible. In OLM, model code reads like the architecture: components are ordinary modules, while Block, Residual,...
-
-### SpecLA: Efficient Speculative Decoding for Linear-Attention Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.16673
-- Summary: arXiv:2607.16673v1 Announce Type: new Abstract: Linear-attention models replace the growing KV cache with recurrent states, but autoregressive decoding still reads, updates, and writes these states one token at a time. Speculative decoding can reduce this cost by verifying several draft tokens in...
-
-### Are Arithmetic Heuristic Neurons Form-Invariant? A Mechanistic Analysis of Symbols, Text, and Code in LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.16693
-- Summary: arXiv:2607.16693v1 Announce Type: new Abstract: Large language models often succeed on one formulation of a problem while failing on an equivalent formulation. Whether these failures arise from distinct internal circuits or different activation states of a shared circuit remains unknown. Recent...
-
-### Though Language Models Err While They Strive: Conformal Prediction for Self-Correcting Scientific Generation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.16704
-- Summary: arXiv:2607.16704v1 Announce Type: new Abstract: Large language models frequently violate fundamental scientific principles when generating technical content, undermining their reliability in scientific applications. We introduce Scientific Feasibility Control SFC, a graph-structured conformal...
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today-173
-- Summary: a quiet day.
-
-### The Price of Hidden Curvature: An $\widetildeΩ (d^{5/4} \sqrt{T})$ Lower Bound for Bandit Convex Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.18652
-- Summary: We establish a $\widetildeΩ(d^{5/4}\sqrt T)$ lower bound on the minimax expected regret of stochastic bandit convex optimization of $1$-Lipschitz functions on the Euclidean ball. This presents the first nontrivial regret lower bound that grows faster than $d\sqrt{T}$ for this problem, establishing...
 
