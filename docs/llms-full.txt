@@ -4,6 +4,27 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-07-27
+
+### APEC Officials Queue to Experience China Digital Dentistry at West China Hospital: International Delegates Surprised by Advanced Chinese Oral Medical Technology
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/west-china-hospital-digital-dentistry-apec-jul2026
+- Summary: West China Hospital of Stomatology showcases AI-powered dental diagnostics, MR simulation surgery, and multimodal data governance to APEC delegates during Chengdu Digital Week, demonstrating smart healthcare leadership.
+
+### China RF Test Instruments Domestic Moment: Chengdu CAS 4.0 Technology Enters Apple and Tesla Supply Chains, Signaling a Paradigm Shift in Precision Measurement Equipment
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/cas-40-rf-test-instrument-apple-tesla-jul2026
+- Summary: Chengdu CAS 4.0 Technology ships 1,000+ RF test systems, enters Apple and Tesla supply chains, and becomes first Chinese RF tester with full IP for chip-scale production line deployment.
+
+### From DeepSeek to Kimi K3: 18 Months That Changed AI Investment Logic as Jevons Paradox Reaffirms Compute Is King
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-to-kimi-ai-investment-logic-jul2026
+- Summary: AI investment thesis shifts from efficiency celebration to compute arms race: K3 2.8T parameters, Google CapEx raised to $200B, cloud CapEx on track for $800B in 2026 as Jevons Paradox dominates.
+
+
 ## 2026-07-26
 
 ### Elevated errors for Opus 5
@@ -1011,6 +1032,12 @@
 - URL: https://tldr.takara.ai/p/2607.21065
 - Summary: Pathology vision-language models (VLMs) have recently progressed rapidly and are commonly evaluated by answer accuracy on pathology VQA benchmarks. However, we dig into current evaluations and identify three overlooked issues: 1) Visual evidence is not always necessary. For instance, Gemini-3-Pro...
 
+### QuantiBias: Benchmarking Quantization-Induced Bias in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.21063
+- Summary: Almost every large language model that reaches a broad audience is quantized: trained in full precision, then compressed for efficiency. This step is assumed harmless and its safety is rarely re-checked. We find its principal side effect is increased bias that standard safety evaluation misses....
+
 ### Achieving Text-based Person Retrieval with Any Granularity
 - Source: HF Daily Papers
 - Category: open-source
@@ -1678,6 +1705,12 @@
 - Category: security
 - URL: https://www.securityweek.com/endpoint-security-firm-glow-launches-with-180m-in-funding-at-1-2b-valuation/
 - Summary: Using AI, the startup provides adaptive prevention through environment mapping, risk analysis, and automated policy enforcement. The post Endpoint Security Firm Glow Launches With $180M in Funding at $1.2B Valuation appeared first on SecurityWeek.
+
+### Forecasting the Number of Harvest-ready Fruits of Sweet Peppers Using Multimodal Time-Series Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.19975
+- Summary: Accurate yield forecasting at the individual-plant level is critical for precision agriculture and supply-chain planning, yet public datasets capturing both visual growth dynamics and per-plant measurement labels are scarce. In this paper, we introduce a novel, annotated image time-series dataset...
 
 ### Increase in errors from R2 in ENAM
 - Source: Cloudflare Status
@@ -2919,6 +2952,12 @@
 - URL: https://tldr.takara.ai/p/2607.18226
 - Summary: Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as...
 
+### Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.18209
+- Summary: This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary across environments, whereas the latent...
+
 ### Three-Body Scattering for Generative Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -2983,40 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.18045
 - Summary: Organizations often pool dispersed information into one ranking and then allow many agents to act on that shared view. In a discovery problem, this can improve beliefs while reducing coverage. We develop an exactly solvable benchmark with sixteen boxes, one target, eight searchers, and noisy...
-
-### Adaptive Mamba Neural Operators
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.18043
-- Summary: Accurately solving partial differential equations (PDEs) on arbitrary geometries and a variety of meshes is an important task in science and engineering applications. In this paper, we propose Adaptive Mamba Neural Operators (AMO), which integrates reproducing kernels for state-space models (SSMs)...
-
-### When 2D Cues Fail: Improving Image Manipulation Localization with Reliable 3D Geometry
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.18040
-- Summary: Existing image manipulation localization (IML) methods rely heavily on 2D forensic cues, such as low-level artifacts, noise traces, and semantic inconsistencies in the manipulated image. While effective in many cases, these cues become much less discriminative when manipulated regions are well...
-
-### L1 Augmented Attention as an Improved Vector Similarity Metric
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.18027
-- Summary: Scaled dot product attention conflates directional alignment and vector magnitude, limiting its effectiveness as a similarity metric in Transformer models. We introduce L1 augmented attention, a simple and computationally parallelizable modification that subtracts a learned, head specific L1...
-
-### Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/
-- Summary: Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWeek.
-
-### MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.18006
-- Summary: Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\leq 4 \, \mathrm{B}$ parameters) trained under limited budgets. We introduce MADA-RL, a post-training framework that specializes compact...
-
-### HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html
-- Summary: A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach...
 
