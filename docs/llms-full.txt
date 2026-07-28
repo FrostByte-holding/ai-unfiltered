@@ -6,6 +6,12 @@
 
 ## 2026-07-28
 
+### Cloudflare Tunnel Availability Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/wfpxl6xhnzmx
+- Summary: Jul 28, 20:44 UTC Resolved - This incident has been resolved. Jul 28, 18:53 UTC Update - We are continuing to monitor for any further issues. Jul 28, 18:52 UTC Monitoring - A subset of customers using Cloudflare Tunnel may have experienced tunnel connectivity issues, including being unable to...
+
 ### The OlmoEarth Platform: Geospatial inference at planetary scale
 - Source: Hugging Face Blog
 - Category: open-source
@@ -403,6 +409,12 @@
 - URL: https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/
 - Summary: The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication. The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek.
 
+### Stochastic Counterdiabatic Driving via Biorthogonal Liouvillian Eigenmodes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24393
+- Summary: Finite-time driving of stochastic systems generates excess dissipation, causing the evolving probability distribution to lag behind the instantaneous equilibrium, and consequently degrading the convergence of nonequilibrium free energy estimators based on the Jarzynski equality. Escorted free...
+
 ### n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
 - Source: The Hacker News
 - Category: security
@@ -546,6 +558,12 @@
 - URL: https://tldr.takara.ai/p/2607.24159
 - Summary: Generalizable robot manipulation requires policies that can anticipate how visual scenes evolve while executing language instructions. While recent Vision-Language-Action models benefit from large-scale pretraining, their predominantly static pretraining objectives provide limited supervision for...
 
+### UniGen-AR: Unifying Visual Generation with Auto-Regressive Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24157
+- Summary: Modern computer vision pipelines remain fragmented, with tasks such as text-to-image generation, editing, restoration, and classical perception handled by separate models. We study Unified Visual Generation (UVG), where a single model produces diverse image-valued outputs through a unified...
+
 ### Optical Computing Reaches Commercialization Inflection Point: Lightelligence PACE 3 Photonic Chip With 256x256 Matrix, First Real-World Deployed Photonic Computing at WAIC 2026
 - Source: Pandaily
 - Category: chinese-ai
@@ -588,11 +606,23 @@
 - URL: https://tldr.takara.ai/p/2607.24082
 - Summary: Recent advances in AI have substantially expanded its cognitive and reasoning capabilities. From the perspective of semantic complexity, the development of AI reveals a clear trajectory from simple to complex semantic processing. While early AI systems mainly addressed tasks involving direct and...
 
+### Structural Loss Metrics for Tensor Approximation via Matrix Low-Rank Approximation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24009
+- Summary: Matricized low-rank approximation via SVD is a standard surrogate for tensor decompositions, but entry-wise reconstruction error fails to capture multiway geometric degradation. Under an orthogonal Tucker model, we characterize this degradation using two metrics: cross-mode Direction Loss,...
+
 ### MCBS Data Breach Affects 1.2 Million Individuals
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/
 - Summary: The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company. The post MCBS Data Breach Affects 1.2 Million Individuals appeared first on SecurityWeek.
+
+### Adaptive Data Admission and Retention for Streaming Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.23987
+- Summary: We study streaming federated learning with limited client memory, where newly generated training data incur time-varying sampling costs and must be selectively admitted and retained over time. We consider a joint server-side admission and client-side memory-management framework with the objective...
 
 ### Incident with GraphQL API Requests
 - Source: GitHub Status
@@ -803,6 +833,17 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-to-kimi-ai-investment-logic-jul2026
 - Summary: AI investment thesis shifts from efficiency celebration to compute arms race: K3 2.8T parameters, Google CapEx raised to $200B, cloud CapEx on track for $800B in 2026 as Jevons Paradox dominates.
+
+### Understanding Tone-Dependent Inference Cost in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.23915
+- Summary: We examine how prompt tone affects both accuracy of the LLM answers and inference cost as reflected in output-token consumption. Experiments were performed to understand the trade-offs between accuracy and inference cost on a 570 Question MMLU dataset for LLM models prompted in seven different...
+
+### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/agent-intrusion-technical-timeline
 
 
 ## 2026-07-26
@@ -2979,46 +3020,4 @@
 - Category: security
 - URL: https://www.securityweek.com/trump-orders-defense-contractors-to-map-software-suppliers-across-critical-supply-chains/
 - Summary: New executive order calls for end-to-end visibility into defense supply chains, including software dependencies, foreign ownership and cyber-related supplier risks. The post Trump Orders Defense Contractors to Map Software, Suppliers Across Critical Supply Chains appeared first on SecurityWeek.
-
-### Service disruption on Claude services
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/4qsb0fp16tpb
-- Summary: Jul 21, 18:03 UTC Resolved - This incident has been resolved. Jul 21, 17:51 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 17:47 UTC Update - We are continuing to work on a fix for this issue. Jul 21, 17:46 UTC Update - We are continuing to work on a fix for...
-
-### Detect Early, Escalate Rarely: Anytime Detection of AI-Generated Video from the Compressed Bitstream
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19476
-- Summary: Detectors for AI-generated video are evaluated offline. A clip is decoded to pixels and scored once, increasingly by a large vision-language model. Detection, however, is deployed online. We recast the task as streaming perception and score the motion field the codec already wrote into the...
-
-### ExpertVerse: A General-Purpose Benchmark for Expert-Level Reasoning in Knowledge-Intensive Visual Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19341
-- Summary: Recent advances in multimodal generative models have enabled instruction-based image generation to move beyond semantic manipulation to knowledge-driven visual reasoning. However, these methods focus on explicit commonsense reasoning, shallow causal understanding, and direct knowledge recall,...
-
-### OmniReasoner: Thinking with Long Audio-Video via Native Tool Use
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19339
-- Summary: Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs...
-
-### CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19338
-- Summary: Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger...
-
-### 1-Lipschitz Neural Networks on Hadamard Manifolds
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19335
-- Summary: Controlling the Lipschitz constant of a neural network is a standard way to promote robustness and stability. Most existing constraining strategies are designed for Euclidean spaces. In this work, we construct and analyze a class of 1-Lipschitz neural networks on Hadamard manifolds. Our layers are...
-
-### Cisco Launches Low-Cost AI Models for Source Code Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/
-- Summary: The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models. The post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on SecurityWeek.
 
