@@ -6,6 +6,34 @@
 
 ## 2026-07-28
 
+### The OlmoEarth Platform: Geospatial inference at planetary scale
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/olmoearth-infrastructure
+
+### Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/chatgpt-work
+- Summary: OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.
+
+### Elevated Image Generation Error Rate in ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KYMJND2XYYBDVCF8DKA5DY3N
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Image Generation (Operational)
+
+### LFM2.5-Encoders for Fast Long-Context Inference on CPU
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/lfm2-5-encoders
+
+### Elevated errors for Durable Objects in WNAM region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/53gvrmlyg747
+- Summary: Jul 28, 14:29 UTC Resolved - Between 14:29 UTC and 14:55 UTC on July 28, 2026, Cloudflare experienced issues with Durable Objects in the WNAM region. The issue has been resolved now.
+
 ### JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach
 - Source: The Hacker News
 - Category: security
@@ -303,6 +331,12 @@
 - URL: https://tldr.takara.ai/p/2607.24662
 - Summary: Generative models of temporal graphs are trained on one stretch of an evolving network and deployed on the next, and they degrade badly in the gap. We show this degradation is derivable, general, and not fixable from observations. The masked flow-matching loss decomposes exactly, with no...
 
+### A Model for Imbalanced Label Aggregation: A Focus on Minority-Class Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24622
+- Summary: We study imbalanced crowdsourcing with a focus on class-dependent annotator accuracy, a setting that, to the best of our knowledge, remains relatively underexplored despite its importance in real-world inspection systems where the labels of greatest operational importance are also the rarest ones....
+
 ### EgoPlay: Event-Triggered Video Editing for Egocentric Streams
 - Source: HF Daily Papers
 - Category: open-source
@@ -350,6 +384,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html
 - Summary: Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped....
+
+### Evaluating RAG for French immigration law: a benchmark and baseline study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24449
+- Summary: International recruitment in France requires navigating a layered legal framework absent from existing legal AI benchmarks. We present a publicly available benchmark and first comparative evaluation for this domain, covering permit-type recommendation, required-document retrieval, and legal...
 
 ### Issues with Snippets API
 - Source: Cloudflare Status
@@ -410,6 +450,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/
 - Summary: Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are...
+
+### Rethinking the Generation Order of Block Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24306
+- Summary: Diffusion language models enable flexible arbitrary-order generation, but existing sampling methods are mostly designed for early masked diffusion models (MDMs). In this work, we study sampling for recent block diffusion language models (BDLMs). We show empirically and analytically that these...
 
 ### Closing the data loop in AI-driven drug discovery
 - Source: MIT Tech Review AI
@@ -482,6 +528,12 @@
 - URL: https://status.claude.com/incidents/lhqp09kxq7pb
 - Summary: Jul 27, 09:05 UTC Resolved - As of 2:03 PST / 9:03 UTC the errors have returned to baseline. Jul 27, 08:16 UTC Investigating - We are currently investigating this issue.
 
+### Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24176
+- Summary: Compressed short-text generators can fail in two different places: the codec may discard information before generation starts, or the latent generator may produce weak codes. Without separating these failure modes, researchers can spend compute improving the wrong component. We study this problem...
+
 ### TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments
 - Source: The Hacker News
 - Category: security
@@ -529,6 +581,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html
 - Summary: GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. "The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown...
+
+### Towards High-Level Semantic Intelligence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24082
+- Summary: Recent advances in AI have substantially expanded its cognitive and reasoning capabilities. From the perspective of semantic complexity, the development of AI reveals a clear trajectory from simple to complex semantic processing. While early AI systems mainly addressed tasks involving direct and...
 
 ### MCBS Data Breach Affects 1.2 Million Individuals
 - Source: Security Week
@@ -2963,64 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/
 - Summary: The open-weight Antares models are designed to pinpoint known vulnerabilities in codebases faster and at a fraction of the cost of larger AI models. The post Cisco Launches Low-Cost AI Models for Source Code Security appeared first on SecurityWeek.
-
-### Elevated errors on several models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/vcynh9cf33xp
-- Summary: Jul 21, 17:07 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 15:51 UTC Identified - The issue has been identified and a fix is being implemented. Jul 21, 15:35 UTC Investigating - We are currently investigating this issue.
-
-### No Training, Better Flights: Test-Time Scaled VLMs for UAV Navigation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19288
-- Summary: Test-time scaling offers a promising method to improve the inference performance of Vision-Language Models (VLMs) without additional training. Existing approaches to vision-language navigation (VLN) for Unmanned Aerial Vehicle (UAV) typically relies on a single inference pass, which can falter in...
-
-### Durable Object startup errors in Eastern Europe
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/mwwg0r876dyb
-- Summary: Jul 21, 16:57 UTC Resolved - This incident has been resolved. Jul 21, 16:29 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 21, 16:21 UTC Investigating - Cloudflare has identified an issue causing an increase of errors for Durable Objects and downstream services...
-
-### GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19270
-- Summary: The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is severely constrained by a spatial generalization gap. Standard models rely on...
-
-### AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html
-- Summary: Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it. Intezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to...
-
-### MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19235
-- Summary: Theory of Mind (ToM), the ability to infer other's beliefs, intentions, and states of knowledge, is central to social interaction, yet remains challenging for current Multimodal Large Language Models (MLLMs), especially in multi-party meetings where cues are distributed across speech and behavior....
-
-### Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19190
-- Summary: Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and...
-
-### Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/
-- Summary: We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.
-
-### Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
-- Summary: We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.
-
-### Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
-- Summary: Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively...
 
