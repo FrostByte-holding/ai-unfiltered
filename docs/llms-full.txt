@@ -6,6 +6,18 @@
 
 ## 2026-07-28
 
+### JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
+- Summary: JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they...
+
+### The Download: OpenAI’s predictable hack, and an AI stock sell-off
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.&#160; —Will Douglas Heaven, senior AI editor Reading OpenAI’s...
+
 ### When cyber attacks happen: helping organisations recover
 - Source: NCSC UK
 - Category: security
@@ -285,11 +297,29 @@
 - URL: https://www.cloudflarestatus.com/incidents/5z7smpdggp3m
 - Summary: Jul 27, 17:09 UTC Identified - The issue has been identified and a fix is being implemented. Jul 27, 16:34 UTC Investigating - Cloudflare is aware of, and investigating, reports of an error when viewing, editing or creating security rules in the dashboard. Customers may see an error 410 from the...
 
+### When Can You Correct Distribution Drift in Temporal Graph Generation? A Sharpening--Drift Tension and an Impossibility for Observation-Based Correction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24662
+- Summary: Generative models of temporal graphs are trained on one stretch of an evolving network and deployed on the next, and they degrade badly in the gap. We show this degradation is derivable, general, and not fixable from observations. The masked flow-matching loss decomposes exactly, with no...
+
 ### EgoPlay: Event-Triggered Video Editing for Egocentric Streams
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.24560
 - Summary: We introduce EgoPlay, an event-triggered video-to-video editor for egocentric streams, obtained by fine-tuning a pretrained V2V diffusion transformer on event-conditioned data built primarily from Ego4D. Given a monocular video and an event-triggered prompt of the form "when X happens, do Y,"...
+
+### A Modern ConvNet for Solar Filament Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24525
+- Summary: Automated solar filament detection using deep learning faces several challenges. Semantic segmentation of solar filaments is a complicated multiscale feature extraction task with long-tail distribution. Furthermore, a large-scale, highly complete, and finely detailed dataset has become mandatory...
+
+### Stress-Testing EEG Foundation Models for Clinical Decoding: Dataset Identity and Targeted Negative Controls
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24519
+- Summary: Pretrained EEG foundation models are increasingly proposed for clinical decoding, but their transfer across populations and robustness to negative controls remain unclear. We benchmark six models (LaBraM, EEGMamba, CBraMod, REVE, BENDR, and BIOT) on five clinical tasks across four datasets using...
 
 ### Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw
 - Source: The Hacker News
@@ -457,6 +487,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html
 - Summary: Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK,...
+
+### DeVA: Decoupled Video-Action Model with physical guidance for robot policy learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24159
+- Summary: Generalizable robot manipulation requires policies that can anticipate how visual scenes evolve while executing language instructions. While recent Vision-Language-Action models benefit from large-scale pretraining, their predominantly static pretraining objectives provide limited supervision for...
 
 ### Optical Computing Reaches Commercialization Inflection Point: Lightelligence PACE 3 Photonic Chip With 256x256 Matrix, First Real-World Deployed Photonic Computing at WAIC 2026
 - Source: Pandaily
@@ -685,6 +721,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.21961
 - Summary: arXiv:2607.21961v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to generate long-form conversational content such as podcasts from textual sources. While these systems produce fluent and engaging narratives, they often introduce ungrounded information. In this...
+
+### Color Fundus Photography Analysis: Co-evolution of Data, Preprocessing, and Modeling toward Multimodal AI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.23972
+- Summary: Color Fundus Photography (CFP) is a primary non-invasive imaging modality for large-scale screening of ophthalmic and systemic diseases. Existing surveys mainly summarize task-specific algorithms, datasets, or preprocessing techniques independently, lacking a unified perspective on their...
 
 ### APEC Officials Queue to Experience China Digital Dentistry at West China Hospital: International Delegates Surprised by Advanced Chinese Oral Medical Technology
 - Source: Pandaily
@@ -2981,46 +3023,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
 - Summary: Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. According to the tech giant, the model will be exclusively...
-
-### Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
-- Summary: A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint...
-
-### Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
-- Summary: Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation...
-
-### CR-Refiner: An Object-Centric Optimal Transport Reranker for Edit-Conditioned 3D Scene Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19115
-- Summary: Edit-conditioned 3D scene retrieval pairs a reference 3D room with a natural-language modification and retrieves rooms from a corpus that satisfy the edit. Three lines of prior work each fall short on this task. 2D composed image retrieval reasons over pixel-level edits and has no primitive for 3D...
-
-### OpenRTAG: A Comprehensive Benchmark for Robust Text-Attributed Graph Learning under Data Quality Degradation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19108
-- Summary: Text-attributed graphs (TAGs) are an important graph data form that combine relational structure with rich node text. However, real-world TAGs are often imperfect, with quality issues arising from text, structure, and labels, and typically manifesting as sparsity, noise, and imbalance. These...
-
-### Image generation unavailable in ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KY23YCPJ9M5BFFT6ZHKQE9MP
-- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components Image Generation (Partial outage) Images (Operational)
-
-### DAIS: Dependency-Aware Intermediate QA Supervision for Complex Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19088
-- Summary: Chain-of-thought (CoT) supervision exposes intermediate rationales, but flat rationale targets usually optimize a single reasoning sequence and provide limited supervision on how local conclusions should support later decisions. We introduce Dependency-Aware Intermediate QA Supervision (DAIS), a...
-
-### Advancing Multimodal Fusion on Heterogeneous Medical Data with Hybrid Geometry Attention
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.19086
-- Summary: Multimodal fusion learning (MFL) has shown great potential in the medical domain, where we are faced with disparate data modalities such as imaging, clinical records, and omics. However, existing MFL strategies face several major challenges. First, they struggle to capture complex cross-modal...
 
