@@ -6,6 +6,29 @@
 
 ## 2026-07-30
 
+### Read This Before You Buy That TV Streaming Stick
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
+- Summary: Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also...
+
+### Elevated errors affecting ChatGPT conversations
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KYSQ7PC81PV3PZE3ZEVFK6K5
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### GPU Management: Why Idle GPUs Are the New Grounded Aircraft
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Dharma-AI/gpu-management
+
+### Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
+- Summary: Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.
+
 ### Degraded performance on Claude Opus 4.8
 - Source: Anthropic Status
 - Category: incidents
@@ -440,6 +463,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/wcln78w0lx1h
 - Summary: Jul 29, 11:33 UTC Resolved - Cloudflare had identified a network performance issue in Singapore from 11:33 UTC to 11:57 UTC.
 
+### Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26773
+- Summary: Latent communication in large language model (LLM)-based multi-agent systems (MAS) transmits continuous internal representations instead of text, but greater representational capacity does not establish that the receiver uses task-relevant information. End-task performance alone also cannot reveal...
+
 ### 73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack
 - Source: The Hacker News
 - Category: security
@@ -512,6 +541,12 @@
 - URL: https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html
 - Summary: Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as...
 
+### Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26627
+- Summary: Speculative Decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose tokens that are subsequently verified in parallel by a larger target model. Recent approaches introduce lossy verification schemes to further improve efficiency by relaxing strict...
+
 ### Enhancing Automated Machine Learning via Homogeneous Train-Test Splitting Methods
 - Source: HF Daily Papers
 - Category: open-source
@@ -554,6 +589,12 @@
 - URL: https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html
 - Summary: Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake "公安一网通办" Public...
 
+### A Graph-Native Bitemporal Memory Store for Conversational AI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26520
+- Summary: Conversational AI agents commonly lack persistent memory across sessions. The obvious fixes like injecting full chat histories into the context window, or delegating to a third-party memory service, either exhaust the model's context budget or send personal data through infrastructure the user does...
+
 ### ShinyHunters Claims Ernst & Young Hack
 - Source: Security Week
 - Category: security
@@ -566,11 +607,23 @@
 - URL: https://tldr.takara.ai/p/2607.26504
 - Summary: Many discrete reasoning tasks, such as code generation, are inherently non-causal: programmers move between high-level structure and local details, a process we call any-order inference. For autoregressive language models, which lack a native any-order interface, non-causal abilities such as...
 
+### MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26465
+- Summary: Multimodal Large Language Models have sparked significant interest due to their potential for social intelligence; however, their ability to perform sequential motivation reasoning remains insufficiently studied. Existing evaluations predominantly examine static text or isolated visual snapshots,...
+
 ### Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
 - Summary: Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0...
+
+### CG-World: A Large-Scale World-State Dataset and Protocol for World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26452
+- Summary: World models must learn the joint dynamics of states, actions, events, and observations, yet existing video, robotics, and simulation datasets usually capture only part of this structure. We introduce CG-World, a large-scale world-state dataset and protocol derived from industrial computer graphics...
 
 ### Do Models Fake Alignment Without Clear Consequences?
 - Source: arXiv AI
@@ -878,6 +931,11 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
 - Summary: JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they...
+
+### Gemini Robotics 2 brings whole body intelligence to robots
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
 
 ### OT Security Startup Frenos Raises $1.52 Million
 - Source: Security Week
@@ -2961,64 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.20950
 - Summary: BoN improves model outputs by sampling several candidates and selecting one with a proxy score, but it assumes that complete candidates can be evaluated reliably. Many vision-language tasks instead provide only partial verification: a finding, span, value, region, or relation may be checkable even...
-
-### US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-warns-of-iranian-hackers-targeting-siemens-schneider-and-rockwell-ics-devices/
-- Summary: An updated advisory from federal agencies provides information on the techniques used to hack programmable logic controllers. The post US Warns of Iranian Hackers Targeting Siemens, Schneider, and Rockwell ICS Devices appeared first on SecurityWeek.
-
-### [AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro"
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
-- Summary: a quiet day lets us highlight a new neolab win.
-
-### Inside the Model Factory — Eiso Kant, Poolside AI
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/poolside
-- Summary: Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning.
-
-### MagicMakeup: A Region-Controllable Diffusion Transformer for High-Fidelity Makeup-Transfer
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.20924
-- Summary: Makeup-transfer applies the reference makeup to the source face while preserving the source identity. Despite advances in full-face editing by diffusion-based methods, strong regional controllability, makeup fidelity, and identity preservation remain challenging. The reasons are (i)...
-
-### Three-Pronged Spectral Control for Federated Parameter Efficient Fine Tuning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.20914
-- Summary: Federated parameter-efficient fine-tuning (PEFT) enables communication-efficient adaptation of large pretrained models on decentralized edge data, but it remains fragile under non-IID client heterogeneity. In low-rank adaptation (LoRA), different clients may learn locally useful but spectrally...
-
-### Multi-turn RL with Structural and Performance Aware Rewards for CUDA Kernel Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.20908
-- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful technique to enhance the reasoning capacity of LLMs for optimized code generation. However, existing RLVR approaches primarily rely on outcome-based signals such as correctness and speedup, overlooking...
-
-### Cross-Dialect Generalization Without Retraining: Benchmarks and Evaluation of Schema-Derived Constrained Decoding for MLIR
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.18254
-- Summary: arXiv:2607.18254v1 Announce Type: new Abstract: Multi-Level Intermediate Representation (MLIR) underlies modern ML compiler infrastructure (TensorFlow, JAX/StableHLO, PyTorch Inductor, IREE), yet appears only in trace amounts in code-LM pretraining corpora. MLIR is also extensible by design: new...
-
-### Semantic Cooperative Games for Contribution Attribution in LLM-Based Multi-Agent Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.18255
-- Summary: arXiv:2607.18255v1 Announce Type: new Abstract: Contribution attribution has become a central problem in LLM-based multi-agent systems, where final outputs are produced through multiple agents, message exchanges, and ordered workflow dependencies. Existing attribution methods often rely on...
-
-### PEARL: Solver-in-the-Loop Interactive Optimization Modeling from Natural Language
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.18256
-- Summary: arXiv:2607.18256v1 Announce Type: new Abstract: Optimization modeling is the process of translating real-world decision problems, often described in natural language, into formal mathematical formulations and executable solver code. While recent advances in large language models have shown promise...
-
-### S2T-RLHF: Hierarchical Credit Assignment for Stable Preference-Based RLHF
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.18258
-- Summary: arXiv:2607.18258v1 Announce Type: new Abstract: Reinforcement learning from human feedback (RLHF) with preference-based reward models often exhibits unstable training dynamics. A key contributing factor is that standard RLHF relies on a single sequence-level scalar reward, which is propagated to...
 
