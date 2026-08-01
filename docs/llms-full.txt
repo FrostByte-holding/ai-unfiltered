@@ -6,6 +6,12 @@
 
 ## 2026-08-01
 
+### RealtimeKit socket connection slowness and failed meeting joins
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/7czwy7vt3phg
+- Summary: Aug 1, 13:10 UTC Resolved - We have identified and mitigated an issue affecting RealtimeKit socket connections, which caused slowness and meeting join failures for some users. Customers were impacted from 13:10 UTC to 14:15 UTCAll services have been restored, and we are continuing to monitor system...
+
 ### Degraded availability GPT 5.6 Luna
 - Source: GitHub Status
 - Category: incidents
@@ -587,6 +593,12 @@
 - URL: https://tldr.takara.ai/p/2607.28226
 - Summary: World models give embodied AI a predictive core: they compress observations into states, simulate action-conditioned futures, and enable planning beyond reactive control. This predictive layer, however, opens a new security boundary-compromise can propagate from data, sensors, prompts, or feedback...
 
+### Scaling Vision-Language Models Is Not Enough to Mitigate Bias
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28211
+- Summary: Vision-Language Models (VLMs) such as CLIP are now foundational to multimodal systems, yet their robustness to spurious correlations remains poorly understood at scale. We present the first large-scale empirical study of 194 publicly available VLMs, including 16 model families, covering a wide...
+
 ### Degraded performance on Claude Opus 4.8
 - Source: Anthropic Status
 - Category: incidents
@@ -760,6 +772,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.27913
 - Summary: Foundation models offer a promising paradigm for Electroencephalography (EEG) analysis, leveraging generalizable representations from vast unlabeled datasets. Yet, Transformer-based architectures face a critical bottleneck: global attention mechanisms couple the attention memory state to the signal...
+
+### Integrating Contextual Embeddings into Evaluation of Expressive MIDI Piano Performances
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27909
+- Summary: Objective evaluation of expressive MIDI piano performances typically relies on attribute statistics such as timing, velocity, and duration of individual notes. However, these methods often disregard dependencies between notes, which poses a potential limitation in assessing the similarity between...
 
 ### One Patch Is Enough: Reinforcement-Optimized Visual Token Grounding for MLLM-Based Scene Text Spotting
 - Source: HF Daily Papers
@@ -1278,6 +1296,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.26981
 - Summary: Large language models are increasingly used as decision aids whose probability judgments shape downstream choices. Whether those judgments carry a systematic directional tilt has been hard to detect: calibration metrics aggregate unsigned errors, and naturalistic uncertainty offers no ground-truth...
+
+### Surrogate assisted diversity estimation in neural ensemble search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26940
+- Summary: Ensembles are a standard way to improve the performance and robustness of deep neural networks, but their effectiveness crucially depends on both the quality and the diversity of individual models. Most neural architecture search (NAS) methods are computationally expensive. Extending them to neural...
 
 ### Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline
 - Source: The Hacker News
@@ -2903,6 +2927,18 @@
 
 ## 2026-07-26
 
+### Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24868
+- Summary: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=Δv_k$ with a uniformly bounded state. Discrete summation by parts then yields variation estimates for complex...
+
+### From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.23802
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language models (LLMs) by enabling large-scale optimization. However, its applicability remains largely limited to domains such as mathematics and coding, where correctness can be...
+
 ### Elevated errors for Opus 5
 - Source: Anthropic Status
 - Category: incidents
@@ -2983,40 +3019,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/f1q2wvw4qj4j
 - Summary: Jul 25, 19:44 UTC Resolved - This incident has been resolved. Jul 25, 18:44 UTC Identified - The issue has been identified and a fix is being implemented. Jul 25, 18:40 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Haiku 4.5. We...
-
-### Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html
-- Summary: A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has...
-
-### Sonnet 4.6 and Sonnet 5 errors elevated
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/1019wwb67615
-- Summary: Jul 25, 18:13 UTC Resolved - For approximately 10 minutes, error rates on Sonnet 4.6 and 5 were elevated. Service returned to normal at approximately 11:07a PDT.
-
-### Actions run failures and delays
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/pz7g535gbs6p
-- Summary: Jul 25, 13:13 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 25, 13:12 UTC Update - We have seen recovery in GitHub Actions performance following...
-
-### Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
-- Summary: Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723,...
-
-### Elevated error rates
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KYCGY017EG43XZS6GFVXA8VH
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Batch (Operational) Compliance API (Operational) Deep Research (Operational) Chat Completions (Operational) Realtime (Operational) Responses (Operational) Codex Web (Operational) ChatGPT Atlas (Operational) VS Code...
-
-### CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
-- Summary: For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations...
 
