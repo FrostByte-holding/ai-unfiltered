@@ -6,6 +6,18 @@
 
 ## 2026-08-01
 
+### Incident with Copilot AI Model Providers
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/sj1tzyrx599x
+- Summary: Aug 1, 18:44 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 1, 18:23 UTC Update - The issues with our upstream model provider have been resolved,...
+
+### Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+- Summary: An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite. A March 2021 firmware...
+
 ### RealtimeKit socket connection slowness and failed meeting joins
 - Source: Cloudflare Status
 - Category: incidents
@@ -534,6 +546,12 @@
 - URL: https://status.openai.com//incidents/01KYSQ7PC81PV3PZE3ZEVFK6K5
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
 
+### Why Are GUI Agents Correct but Late? Decode on the Decision-Time Critical Path, Tested with Pre-Compiled Policy Trees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28399
+- Summary: Computer-use agents often fail on transient GUI events because they produce the correct action only after the relevant window has already closed. We identify the main cause as expensive autoregressive decoding on the decision-time critical path. We propose Adaptive Anticipatory Policy Trees (AAPT),...
+
 ### Timeless Compliance: Why Better Questions Beat Bigger Frameworks
 - Source: Security Week
 - Category: security
@@ -640,6 +658,12 @@
 - Category: security
 - URL: https://www.securityweek.com/discern-security-raises-13-million-in-series-a-funding/
 - Summary: The company will invest in accelerating the development and adoption of its agentic platform. The post Discern Security Raises $13 Million in Series A Funding appeared first on SecurityWeek.
+
+### ConMem: Contribution-Aware Memory for Long-Horizon Manufacturing Inspection Logs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28126
+- Summary: Long-horizon steel-equipment inspection requires reasoning over heterogeneous records accumulated across repeated inspection cycles. Existing retrieval-augmented generation systems treat historical logs as a static corpus and retain records without estimating their diagnostic value, failing to...
 
 ### Onyx Security Raises $113 Million to Control AI Agents in the Enterprise
 - Source: Security Week
@@ -2011,6 +2035,12 @@
 - URL: https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html
 - Summary: JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises...
 
+### SPARC Segmentation to Prediction via Affine Regression and Counterfactuals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25413
+- Summary: Transaction propensity prediction in B2B e commerce presents unique challenges distinct from B2C contexts, primarily due to the heterogeneous procurement behaviors of organizational entities, which violate SMOTE's implicit assumption of within class feature homogeneity. Specifically, B2B buyers...
+
 ### Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit
 - Source: The Hacker News
 - Category: security
@@ -2308,6 +2338,12 @@
 - URL: https://www.githubstatus.com/incidents/9lsvw3fcpbxm
 - Summary: Jul 27, 19:37 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 27, 19:31 UTC Update - This is just a test of our systems. Please ignore. Jul 27,...
 
+### Localized Anomaly Detection via Differentiable D-vine Copulas
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25020
+- Summary: Vine copulas provide a flexible framework for modeling complex multivariate distributions through a hierarchical decomposition into bivariate pair-copulas. Fitting a D-vine requires selecting a copula family and parameter configuration for each pair-copula from a set of candidates encoding...
+
 ### NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
 - Source: The Hacker News
 - Category: security
@@ -2385,6 +2421,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.24525
 - Summary: Automated solar filament detection using deep learning faces several challenges. Semantic segmentation of solar filaments is a complicated multiscale feature extraction task with long-tail distribution. Furthermore, a large-scale, highly complete, and finely detailed dataset has become mandatory...
+
+### LLM as Forecasting Planner: Training-Free Text Conditioning for Time-Series Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24892
+- Summary: Text-conditioned time-series forecasting predicts a series from both its numerical history and natural-language context, allowing forecasts to account for events and constraints that the past alone cannot reveal. This requires both reliable numerical forecasting and the ability to interpret...
 
 ### Stress-Testing EEG Foundation Models for Clinical Decoding: Dataset Identity and Targeted Negative Controls
 - Source: HF Daily Papers
@@ -2974,49 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/tencent-miora-design-agent-hands-on-jul2026
 - Summary: Hands-on test of Tencent Miora creative agent: input a brand brief for Puff AI companion robot, received logo, brand guidelines, VI assets, app UI, poster, video, and sticker pack from single 1000-integral run.
-
-### Chinese Scientists Develop ContactSeek AI Framework Based on AlphaFold3 Contact Probability: A New Precision Paradigm for Gene Editing Tool Design Published in Nature
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/contactseek-alphafold3-ai-framework-jul2026
-- Summary: Peking University team led by Yi Chengqi and East China Normal University develop ContactSeek using AlphaFold3 contact probability to identify key amino acids for precision base editing tool engineering.
-
-### 149 Pages Mapping the Long-Horizon Agent Frontier: Multi-University Survey Proposes Harness Engineering and Model Optimization as Two Main Evolution Lines for Next-Generation AI Agents
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/long-horizon-agent-survey-149-pages-jul2026
-- Summary: Renmin University GAIR leads multi-institution 149-page survey on long-horizon agents, proposing H1-H3 task difficulty hierarchy and C1-C3 capability tiers, with task span doubling every 4-7 months.
-
-### Breaking the Core Component Bottleneck for Low-Altitude Aircraft: SHI Qiang All-Domestic Flight Control Platform Addresses the Chip and Sensor Gap
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/low-altitude-core-component-bottleneck-jul2026
-- Summary: SHI Qiang showcases all-domestic flight control platform with 100% domestic core components, 80A continuous ESC on 30.5mm board, and chips from Sige at the Shanghai Low-Altitude Economy Expo.
-
-### Four Filters on a Wrist: Newsonic Semiconductor RF Duplexers in Children Smartwatch Signal the Acceleration of Domestic Filter Localization
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/newsonic-semiconductor-rf-filters-children-watch-jul2026
-- Summary: Teardown of Xiaoxun D9 children smartwatch reveals four Newsonic Semiconductor duplexers covering FDD-LTE bands, marking RF filter domestic substitution reaching cost-sensitive wearable terminals.
-
-
-## 2026-07-25
-
-### Elevated errors affecting ChatGPT conversations
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KYDN6YPS6ARY1EC9089N089G
-- Summary: Status: MonitoringMitigation has been implemented, and we are monitoring the recovery of ChatGPT conversations.Affected components Conversations (Operational)
-
-### Elevated errors for Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/j6gv862066n7
-- Summary: Jul 25, 22:08 UTC Resolved - This incident has been resolved. Jul 25, 21:34 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5, Claude Sonnet 5, Claude Haiku 4.5, and other Claude models. We will provide an update as soon as possible.
-
-### Elevated errors for Mythos 5, Fable 5, Opus 5 and Claude Haiku 4.5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/f1q2wvw4qj4j
-- Summary: Jul 25, 19:44 UTC Resolved - This incident has been resolved. Jul 25, 18:44 UTC Identified - The issue has been identified and a fix is being implemented. Jul 25, 18:40 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Haiku 4.5. We...
 
