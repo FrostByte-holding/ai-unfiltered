@@ -6,6 +6,24 @@
 
 ## 2026-08-01
 
+### Degraded availability GPT 5.6 Luna
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/kk183dslzdzd
+- Summary: Aug 1, 12:30 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 1, 12:29 UTC Update - The issues with our upstream model provider have been resolved,...
+
+### Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/
+- Summary: The funding round was led by SYN Ventures, with participation from existing investors DataTribe and TEDCO. The post Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments appeared first on SecurityWeek.
+
+### Ruby on Rails Patches Critical Vulnerability
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
+- Summary: The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek.
+
 ### Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites
 - Source: The Hacker News
 - Category: security
@@ -1172,6 +1190,12 @@
 - URL: https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/
 - Summary: In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity...
 
+### Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27188
+- Summary: Accurate option prices do not imply accurate recovery of the latent risk-neutral density. We study this distinction with two complementary benchmarks. A controlled benchmark exposes simulator-truth densities for latent evaluation, while a chronological NIFTY benchmark tests only held-out market...
+
 ### DenseOn with the LateOn: Fully Open Dense and Late-Interaction Models for Multilingual, Long-Context, and Code Search
 - Source: HF Daily Papers
 - Category: open-source
@@ -1525,6 +1549,12 @@
 - URL: https://tldr.takara.ai/p/2607.26504
 - Summary: Many discrete reasoning tasks, such as code generation, are inherently non-causal: programmers move between high-level structure and local details, a process we call any-order inference. For autoregressive language models, which lack a native any-order interface, non-causal abilities such as...
 
+### Learning Dynamic User Personas from Implicit Interaction Streams via Iterative Refinement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26473
+- Summary: Personalizing large language models (LLMs) to individual users is essential for improving user experience, yet existing approaches typically rely on explicit preference supervision such as pairwise comparisons or demographic attributes, limiting their applicability in natural interaction settings....
+
 ### MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -1804,6 +1834,12 @@
 - URL: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
 - Summary: Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released...
 
+### Position: Evaluation Scores Are Perishable Knowledge Claims
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26191
+- Summary: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence can then substantially exceed the reliability...
+
 ### The OlmoEarth Platform: Geospatial inference at planetary scale
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1878,6 +1914,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
 - Summary: OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker...
+
+### Engine-Equal, Human-Unequal: A Reproducible Outcome Skew in Engine-Assessed Equal Chess Positions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25655
+- Summary: Among chess opening positions that a strong engine judges essentially equal (Stockfish 18 evaluation within 10 centipawns of zero, depth-stable) and that humans actually reach on Lichess (October 2025; 1,661 positions, 16.1M occurrences), human results are not balanced. Positions carry outcome...
 
 ### The Download: OpenAI’s predictable hack, and an AI stock sell-off
 - Source: MIT Tech Review AI
@@ -2494,6 +2536,12 @@
 - URL: https://www.securityweek.com/hacked-public-wi-fi-gateways-used-to-harvest-corporate-credentials/
 - Summary: A threat actor has been using the compromised appliances to target the Microsoft 365 accounts of traveling corporate employees. The post Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials appeared first on SecurityWeek.
 
+### SILICA: Repurposing Diffusion Priors for Joint Glass Segmentation and Depth Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.24249
+- Summary: Standard depth sensors systematically fail on transparent surfaces, creating corrupted 3D maps and severe navigation hazards. While specialized hardware sensors can detect glass, they lack modularity and have extensive hardware dependencies. Consequently, learning-based monocular depth estimation...
+
 ### Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits
 - Source: Security Week
 - Category: security
@@ -2971,52 +3019,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html
 - Summary: For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations...
-
-### Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
-- Summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. "Attackers chain a pre-authentication information disclosure...
-
-### DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html
-- Summary: The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersecurity company PRODAFT is tracking the centrally...
-
-### Several GPT models degraded
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/vv9vvksmj4s9
-- Summary: Jul 25, 09:48 UTC Update - We are experiencing degraded availability for the GPT-5.2, GPT-5.3-Codex, GPT-5.4, GPT-5.4 Mini, GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to...
-
-### Incident with Actions
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/s65j9gslmfm8
-- Summary: Jul 25, 09:25 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 25, 09:20 UTC Update - We identified an issue causing delays in GitHub Actions run...
-
-### Elevated error rates
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KYC921K145JTR1JK7DYKGWH1
-- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components Moderations (Degraded performance) Login (Degraded performance) Audio (Degraded performance) Agent (Degraded performance) Codex API (Degraded performance) Conversations (Degraded performance) Fine-tuning...
-
-### INC20000106
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/0yt2v05n42gz
-- Summary: Jul 25, 09:05 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 1 hour.Customer experience: Customers hosted in the specified regions may experience longer than expected warehouse resume and spin-up times for standard...
-
-### Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
-- Summary: Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The...
-
-### Rockwell Patches Code Execution Flaws in Arena Simulation Software
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/
-- Summary: A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.
 
