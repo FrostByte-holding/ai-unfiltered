@@ -5,7 +5,7 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 01 Aug 2026 02:57:43 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 06:30:42 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
         <item>
@@ -405,6 +405,15 @@
             <description>A major issue in Security Operations Centers (SOCs) is alert fatigue, as the number of detections reported is more than staff can triage in a given day. Prior work prompts or fine-tunes large language models (LLMs) to emit a triage label directly, but does not train them to reason about whether a...</description>
         </item>
         <item>
+            <title>Metaphor Tracer: A Theory-Informed Analysis of Hidden States</title>
+            <link>https://tldr.takara.ai/p/2607.28434</link>
+            <guid>https://tldr.takara.ai/p/2607.28434</guid>
+            <pubDate>Thu, 30 Jul 2026 16:12:13 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2607.28434">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>What do a language model&#x27;s hidden states say about the organization of a single text? From one forward pass, without training, we score every token position on two properties. The *aggregator* measures whether the position consolidates the whole text into a stable configuration. The...</description>
+        </item>
+        <item>
             <title>Elevated errors affecting ChatGPT conversations</title>
             <link>https://status.openai.com//incidents/01KYSQ7PC81PV3PZE3ZEVFK6K5</link>
             <guid>https://status.openai.com//incidents/01KYSQ7PC81PV3PZE3ZEVFK6K5</guid>
@@ -448,15 +457,6 @@
             <source url="https://tldr.takara.ai/p/2607.28319">HF Daily Papers</source>
             <category>open-source</category>
             <description>This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs). As a foundational empirical validation of this method, this work focuses on causal bias localization. Using...</description>
-        </item>
-        <item>
-            <title>One Human, $N$ Agents: Audit-Budget Allocation for LLM Agent Fleets under Miscalibrated, Correlated Confidence</title>
-            <link>https://tldr.takara.ai/p/2607.28317</link>
-            <guid>https://tldr.takara.ai/p/2607.28317</guid>
-            <pubDate>Thu, 30 Jul 2026 14:52:36 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2607.28317">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>A single human must audit $N$ LLM agents under a budget of $B \ll N$ audits per round, guided by self-reported confidence that may be adversarially miscalibrated and by correlated errors. We model this as budgeted noisy inspection over a two-level Gaussian copula and locate the miscalibration...</description>
         </item>
     </channel>
 </rss>
