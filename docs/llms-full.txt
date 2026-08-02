@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-02
+
+### Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
+- Summary: Capacity to train strong models is proliferating.
+
+
 ## 2026-08-01
 
 ### Incident with Copilot AI Model Providers
@@ -718,6 +727,12 @@
 - Category: security
 - URL: https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/
 - Summary: Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.
+
+### Contrastive Reinforced Policy Optimization via Privileged Self-Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28026
+- Summary: Recent advances in post-training Large Language Models (LLMs) increasingly rely on Reinforcement Learning with Verifiable Rewards (RLVR) or On-Policy Self-Distillation (OPSD). While OPSD provides dense, logit-level supervision, it inherently suffers from exposure bias due to the privileged...
 
 ### Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts
 - Source: The Hacker News
@@ -1891,6 +1906,12 @@
 - URL: https://pandaily.com/mineng-technology-snn-brainlike-chip-medical-jul2026
 - Summary: Mineng Technology closes Series A for self-developed SNN neuromorphic chip targeting medical device AI inference, providing brain-inspired computing at 1/1000th the power of traditional GPUs for real-time diagnostics.
 
+### Q-Steer: Action-Value Guidance for Molecular Policy Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26391
+- Summary: Oracle-limited molecular optimization gives reward only after a complete molecule is generated, while each rollout requires many local next-token decisions. This delayed-feedback interface makes molecular policy optimization myopic: an optimizer can learn that a molecule was good without knowing...
+
 ### [AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to "Pace" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack
 - Source: Latent Space
 - Category: open-source
@@ -1930,6 +1951,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/wfpxl6xhnzmx
 - Summary: Jul 28, 20:44 UTC Resolved - This incident has been resolved. Jul 28, 18:53 UTC Update - We are continuing to monitor for any further issues. Jul 28, 18:52 UTC Monitoring - A subset of customers using Cloudflare Tunnel may have experienced tunnel connectivity issues, including being unable to...
 
+### Choosing Where and How to Moderate: End-to-End Trade-offs in Filter Placement and Response Rewriting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26200
+- Summary: Content-moderation classifiers are usually evaluated in isolation, but deployment requires choosing where to intervene and what follows a flag. We evaluate these choices using two end-to-end customer-outcome metrics rather than component accuracy: Usefulness, the fraction of turns with a shown,...
+
 ### Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack
 - Source: The Hacker News
 - Category: security
@@ -1941,6 +1968,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.26191
 - Summary: Evaluation methodologies for language models increasingly combine multiple signals, from automated metrics and LLM-as-judge ratings to human assessments and benchmark suite results. When these signals are aggregated via averaging, evaluation confidence can then substantially exceed the reliability...
+
+### GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26181
+- Summary: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, yet existing LLM-based approaches generate each...
 
 ### The OlmoEarth Platform: Geospatial inference at planetary scale
 - Source: Hugging Face Blog
@@ -2016,6 +2049,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
 - Summary: OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker...
+
+### Rashomon Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25680
+- Summary: We propose Rashomon Alignment (RA), a new measure to assess functional similarity between two models. Existing functional similarity measures are distributional, quantifying differences between outputs of models applied to real-world data. However, these measures can be regarded as ecologically...
 
 ### Engine-Equal, Human-Unequal: A Reproducible Outcome Skew in Engine-Assessed Equal Chess Positions
 - Source: HF Daily Papers
@@ -2978,40 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.21861
 - Summary: arXiv:2607.21861v1 Announce Type: new Abstract: We study baking documents directly into the weights of a 4-bit Gemma-4-e4b model via LoRA, so a system can answer questions about a corpus closed-book: no retrieval and no context-window budget. Across roughly 100 training runs from single documents...
-
-### Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21936
-- Summary: arXiv:2607.21936v1 Announce Type: new Abstract: Historical documents act as invaluable knowledge archives but often suffer from illegibility due to physical deterioration and damage. While existing restoration methods based on masked language modeling effectively utilize local context, they...
-
-### On Improving Faithfulness of Podcasts from Documents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21961
-- Summary: arXiv:2607.21961v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to generate long-form conversational content such as podcasts from textual sources. While these systems produce fluent and engaging narratives, they often introduce ungrounded information. In this...
-
-### Color Fundus Photography Analysis: Co-evolution of Data, Preprocessing, and Modeling toward Multimodal AI
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.23972
-- Summary: Color Fundus Photography (CFP) is a primary non-invasive imaging modality for large-scale screening of ophthalmic and systemic diseases. Existing surveys mainly summarize task-specific algorithms, datasets, or preprocessing techniques independently, lacking a unified perspective on their...
-
-### RODR: Riemannian Orthogonally Decoupled Regularization for Disentangled Manifold Representation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.23958
-- Summary: Point cloud denoising is essentially a geometric recovery task that aims to reconstruct the intrinsic structure of a smooth 2D Riemannian manifold embedded in R^3 from noisy, discrete ambient-space samples. Despite the remarkable progress of modern manifold-aware encoders and generative transport...
-
-### APEC Officials Queue to Experience China Digital Dentistry at West China Hospital: International Delegates Surprised by Advanced Chinese Oral Medical Technology
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/west-china-hospital-digital-dentistry-apec-jul2026
-- Summary: West China Hospital of Stomatology showcases AI-powered dental diagnostics, MR simulation surgery, and multimodal data governance to APEC delegates during Chengdu Digital Week, demonstrating smart healthcare leadership.
-
-### China RF Test Instruments Domestic Moment: Chengdu CAS 4.0 Technology Enters Apple and Tesla Supply Chains, Signaling a Paradigm Shift in Precision Measurement Equipment
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cas-40-rf-test-instrument-apple-tesla-jul2026
-- Summary: Chengdu CAS 4.0 Technology ships 1,000+ RF test systems, enters Apple and Tesla supply chains, and becomes first Chinese RF tester with full IP for chip-scale production line deployment.
 
