@@ -704,6 +704,12 @@
 - URL: https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html
 - Summary: Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the finished file. Håkon Måløy disclosed the technique on July 28, 144 days after reporting it to Microsoft. In his proof of concept, the internally generated file...
 
+### Distilling Answer Set Programming Theories from Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28086
+- Summary: Writing Answer Set Programming (ASP) theories from scratch is a difficult and time-consuming task. We take a neurosymbolic approach to study whether a model can distill complete and correct theories, given a fixed agent harness with the solver in the loop. The protocol is dataset-agnostic: with a...
+
 ### The Network Has Become the Control Plane for AI Security
 - Source: The Hacker News
 - Category: security
@@ -1600,6 +1606,12 @@
 - URL: https://tldr.takara.ai/p/2607.26595
 - Summary: 3D Gaussian Splatting (3DGS) has emerged as an effective representation for novel view synthesis and 3D scene reconstruction, creating an increasing demand for reliable quality assessment. Unlike conventional image quality assessment (IQA), the quality of a 3DGS scene depends not only on the...
 
+### ContactFlow: A video action conditioning that transfers across embodiments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26579
+- Summary: World models offer a promising route toward robot planning by enabling agents to imagine and verify the consequences of actions before execution. However, current video-based world models often struggle to capture the physical constraints that govern manipulation, particularly contact. Further,...
+
 ### Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks
 - Source: Security Week
 - Category: security
@@ -2193,6 +2205,12 @@
 - Category: security
 - URL: https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/
 - Summary: The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek.
+
+### PanoLess: Environment Reconstruction from Partial Reflective Views
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25362
+- Summary: Reflections from shiny objects and glass facades naturally extend the field of view of a camera, capturing the surrounding environment without the need to pan the camera or acquire a full panorama. We propose PanoLess, a Gaussian-splat-based framework that reconstructs the surrounding environment...
 
 ### [AINews] Much ado about Open Weights
 - Source: Latent Space
@@ -2999,22 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.21644
 - Summary: arXiv:2607.21644v1 Announce Type: new Abstract: We present a goal-agnostic control framework for partial differential equations (PDEs) built around a joint-embedding predictive architecture (JEPA). The small 2D ViT encoder and action-conditioned latent dynamics are trained offline without a reward...
-
-### Multi-Horizon Consistency as Geometry: When Latent Dynamics Contract, and When They Do Not
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21645
-- Summary: arXiv:2607.21645v1 Announce Type: new Abstract: Multi-horizon latent consistency is a common training knob in video predictors and world models, but practitioners rarely know what it does to transition geometry. We treat lambda, the weight on multi-step latent agreement, as a diagnostic control and...
-
-### Adjustment Speed as a Safety Constraint for Nonstationary Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21646
-- Summary: arXiv:2607.21646v1 Announce Type: new Abstract: Ensuring safety in reinforcement learning under nonstationarity requires determining whether a learning system can safely adapt to forecasted environmental change within the required recovery horizon. Existing safe reinforcement learning methods...
-
-### A Drift Stable Quantum Federated Learning for Intelligent Services
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21647
-- Summary: arXiv:2607.21647v1 Announce Type: new Abstract: Quantum federated learning enables distributed clients to train quantum neural networks without sharing local data, making it promising for privacy-aware intelligent services. Intelligent services in this context refer to privacy-sensitive distributed...
 
