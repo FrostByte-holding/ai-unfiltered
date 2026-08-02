@@ -641,6 +641,12 @@
 - URL: https://tldr.takara.ai/p/2607.28185
 - Summary: Oversmoothing is a fundamental limitation of deep graph neural networks (GNNs), where repeated message passing causes node representations to become increasingly similar, eventually collapsing toward a low-dimensional subspace. This phenomenon limits the effective depth of message-passing...
 
+### Multi-channel Uplift Policy Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28182
+- Summary: E-commerce platforms must allocate fixed marketing budgets across multiple channels to maximize business utility. However, standard predict-then-optimize (PTO) paradigms fail in this compositional space due to observational confounding and severe extrapolation. We formulate this challenge as a...
+
 ### Page Shield Email Notification Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -1626,6 +1632,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
 - Summary: Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0...
+
+### ForgetBench: Benchmarking Forgetting Dynamics of Long-Term Parametric Memory in Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26455
+- Summary: Large language models (LLMs) have demonstrated strong capabilities in knowledge acquisition and reasoning, yet their ability to retain previously acquired knowledge under repeated updates remains insufficiently understood. Existing evaluation paradigms primarily focus on single-step reasoning or...
 
 ### CG-World: A Large-Scale World-State Dataset and Protocol for World Models
 - Source: HF Daily Papers
@@ -3004,16 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.24868
 - Summary: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=Δv_k$ with a uniformly bounded state. Discrete summation by parts then yields variation estimates for complex...
-
-### From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.23802
-- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) has driven recent progress in reasoning-oriented large language models (LLMs) by enabling large-scale optimization. However, its applicability remains largely limited to domains such as mathematics and coding, where correctness can be...
-
-### Elevated errors for Opus 5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/zftg3gqkmv18
-- Summary: Jul 26, 09:45 UTC Identified - The issue has been identified and a fix is being implemented. Jul 26, 09:17 UTC Investigating - We are currently investigating this issue.
 
