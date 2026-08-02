@@ -1226,6 +1226,12 @@
 - URL: https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html
 - Summary: Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and...
 
+### TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27205
+- Summary: Vision-language-action (VLA) models commonly adopt an LLM-centric $V \to L \to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and...
+
 ### Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?
 - Source: HF Daily Papers
 - Category: open-source
@@ -1410,6 +1416,12 @@
 - Category: security
 - URL: https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/
 - Summary: A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.
+
+### FedTopo: Relation-Level Topology Sharing for Model-Heterogeneous Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26801
+- Summary: Federated learning (FL) enables collaborative learning over decentralized data silos without centralizing raw data. However, heterogeneous local architectures often induce non-aligned representation spaces, making it difficult to transfer global knowledge across silos. Existing paradigms share this...
 
 ### PRISM-Net: Patient-specific reference-guided inter-breast symmetry matching for three-class breast DCE-MRI classification
 - Source: HF Daily Papers
@@ -1906,6 +1918,12 @@
 - URL: https://tldr.takara.ai/p/2607.26352
 - Summary: Networking research advances by turning hypotheses into empirical evidence, so accelerating it means reducing the lag between ideation (synthesizing a hypothesis) and generating the data that tests it. Consider a concrete case: does a bulk BBR download fairly share its bottleneck with competing...
 
+### Comparing the Performance of Foundation Model Derived Embeddings with Traditional Approaches for Distant Metastasis Prediction in Head and Neck Cancer
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26276
+- Summary: Background: Early prediction of distant metastasis (DM) risk in head and neck cancer (HNC) can enable timely interventions that may improve treatment outcomes. Many current machine learning methods rely on prior knowledge of the region of interest such as tumor segmentations, which require expert...
+
 ### Cloudflare Tunnel Availability Issues
 - Source: Cloudflare Status
 - Category: incidents
@@ -2367,6 +2385,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01KYJFG4S86K8FMTB4N6BDZS7F
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Image Generation (Operational)
+
+### ScoreShield: Differentially Private Release of Similarity Scores
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25041
+- Summary: A growing number of applications, such as biometrics and retrieval-augmented generation (RAG), rely on cosine similarity scores computed between vector embeddings of text, images, or audio. These systems return similarity scores through their APIs for ranking and verification. However, such...
 
 ### Test Incident Posted in Error – No Customer Impact (Will Be Removed)
 - Source: GitHub Status
@@ -2990,30 +3014,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/cas-40-rf-test-instrument-apple-tesla-jul2026
 - Summary: Chengdu CAS 4.0 Technology ships 1,000+ RF test systems, enters Apple and Tesla supply chains, and becomes first Chinese RF tester with full IP for chip-scale production line deployment.
-
-### From DeepSeek to Kimi K3: 18 Months That Changed AI Investment Logic as Jevons Paradox Reaffirms Compute Is King
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-to-kimi-ai-investment-logic-jul2026
-- Summary: AI investment thesis shifts from efficiency celebration to compute arms race: K3 2.8T parameters, Google CapEx raised to $200B, cloud CapEx on track for $800B in 2026 as Jevons Paradox dominates.
-
-### Understanding Tone-Dependent Inference Cost in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.23915
-- Summary: We examine how prompt tone affects both accuracy of the LLM answers and inference cost as reflected in output-token consumption. Experiments were performed to understand the trade-offs between accuracy and inference cost on a 570 Question MMLU dataset for LLM models prompted in seven different...
-
-### Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/agent-intrusion-technical-timeline
-
-
-## 2026-07-26
-
-### Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24868
-- Summary: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=Δv_k$ with a uniformly bounded state. Discrete summation by parts then yields variation estimates for complex...
 
