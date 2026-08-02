@@ -806,6 +806,12 @@
 - URL: https://tldr.takara.ai/p/2607.27933
 - Summary: Flow matching (FM) has become a popular action head paradigm for modern embodied models. However, as a conditional generative model, it does not explicitly expose its inherent uncertainty, producing faulty action chunks even when it misinterprets the scene or encounters out-of-distribution (OOD)...
 
+### Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27919
+- Summary: Decoder-only language models entangle long-term memory and reasoning in a single parameter set, making it difficult to scale memory capacity independently. Memory Decoder introduces a parametric long-term memory module but only studies it at a relatively small scale. In this work, we present Memory...
+
 ### 1 in 5 Data Center Assets Are Within Easy Reach of Attackers
 - Source: Security Week
 - Category: security
@@ -1371,6 +1377,12 @@
 - Category: security
 - URL: https://www.securityweek.com/us-bans-foreign-made-humanoid-robots-targeting-china-over-national-security/
 - Summary: The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.
+
+### OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27278
+- Summary: Open-vocabulary Earth observation (EO) aims to localize geospatial concepts specified in natural language rather than a fixed label set. Existing benchmarks, however, usually cover narrow category vocabularies or limited query forms. To fill this gap, we introduce OVEarth-Bench, which extends...
 
 ### Mate Security Raises $35 Million for Agentic SOC
 - Source: Security Week
@@ -1950,6 +1962,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/wfpxl6xhnzmx
 - Summary: Jul 28, 20:44 UTC Resolved - This incident has been resolved. Jul 28, 18:53 UTC Update - We are continuing to monitor for any further issues. Jul 28, 18:52 UTC Monitoring - A subset of customers using Cloudflare Tunnel may have experienced tunnel connectivity issues, including being unable to...
+
+### Robostreet Flow: A Lightweight, Ultra-Low-Drag Electric Tractor and Four-Truck Hybrid Convoy Architecture for Minimum-Cost Point-to-Point Freight
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26250
+- Summary: Line-haul trucking costs are dominated by three comparably sized components: energy, driver labor, and equipment. Most efficiency technologies address only one component at a time. This paper presents Robostreet Flow, a freight architecture that jointly optimizes the vehicle, convoy formation, and...
 
 ### Choosing Where and How to Moderate: End-to-End Trade-offs in Filter Placement and Response Rewriting
 - Source: HF Daily Papers
@@ -2999,22 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.21647
 - Summary: arXiv:2607.21647v1 Announce Type: new Abstract: Quantum federated learning enables distributed clients to train quantum neural networks without sharing local data, making it promising for privacy-aware intelligent services. Intelligent services in this context refer to privacy-sensitive distributed...
-
-### Khondo: A Multimodal Benchmark for Document Packet Splitting of Bangla Forms
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21780
-- Summary: arXiv:2607.21780v1 Announce Type: new Abstract: Document packets, multiple documents concatenated into a single file, are common in government and administrative workflows, yet splitting them into their constituent documents is difficult, especially for low-resource languages. We introduce Khondo...
-
-### Agentic Evaluation of Copyright Law Compliance
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21799
-- Summary: arXiv:2607.21799v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly perform commercial tasks that involve retrieving external content such as images and, where appropriate, reproducing that content. LLM agents should comply with the law, including copyright law....
-
-### Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21861
-- Summary: arXiv:2607.21861v1 Announce Type: new Abstract: We study baking documents directly into the weights of a 4-bit Gemma-4-e4b model via LoRA, so a system can answer questions about a corpus closed-book: no retrieval and no context-window budget. Across roughly 100 training runs from single documents...
 
