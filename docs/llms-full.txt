@@ -6,6 +6,48 @@
 
 ## 2026-08-03
 
+### INC20000129
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/xfv4kdj30rcb
+- Summary: Aug 3, 14:39 UTC Update - Current status: We're continuing to investigate the issue with Snowflake Data Cloud, and we're analyzing recent changes and telemetry to determine a mitigation plan. We'll provide another update within 30 minutes.Customer experience: Customers hosted in the specified...
+
+### Cloudflare Workers build failures
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/x4lf6qsl3pb9
+- Summary: Aug 3, 14:20 UTC Investigating - Cloudflare is aware of and investigating an issue with Cloudflare Workers build failures which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
+
+### Error rates across multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/ch7k4vh9fr1y
+- Summary: Aug 3, 14:17 UTC Resolved - This incident has been resolved. Aug 3, 13:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 3, 12:52 UTC Investigating - We are currently investigating this issue.
+
+### Introducing our Artifacts Hub and Adoption Dashboard
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/introducing-our-artifacts-hub-and
+- Summary: Scaling our curation and measurement of the open ecosystem.
+
+### River Bank Says Hackers Deleted Data Stolen in Ransomware Attack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/river-bank-says-hackers-deleted-data-stolen-in-ransomware-attack/
+- Summary: The bank holding company was hacked in June, but the investigation into the incident continues. The post River Bank Says Hackers Deleted Data Stolen in Ransomware Attack appeared first on SecurityWeek.
+
+### Horizon3 Raises $250 Million to Fund Continuing Growth
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/
+- Summary: Venture financing has become an essential factor in growing new business in today’s fast moving economy. Horizon3’s latest funding explains how and why. The post Horizon3 Raises $250 Million to Fund Continuing Growth appeared first on SecurityWeek.
+
+### The Download: reward hacking explained, and suspected Iranian cyberattacks
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money...
+
 ### Incident with Copilot
 - Source: GitHub Status
 - Category: incidents
@@ -1448,6 +1490,12 @@
 - URL: https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc
 - Summary: a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.
 
+### Schreier-Coset Graph Rewiring
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27479
+- Summary: The information flow in the graph neural networks (GNNs) is fundamentally constrained by over-squashing, where structural bottlenecks impede long range information propagation. Graph-rewiring methods, which modify graph topology, have been extensively used to alleviate this. However, existing...
+
 ### Incident with Copilot AI Model Providers
 - Source: GitHub Status
 - Category: incidents
@@ -2248,6 +2296,12 @@
 - URL: https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html
 - Summary: Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released...
 
+### More Data, Worse Decisions? Preference Reversals in Neural Networks under Gram Incompatibility
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27255
+- Summary: Neural networks increasingly combine data across populations, time periods, and operating conditions to improve generalization. This raises a reliability question: whether a model refitted on pooled data preserves an action ordering supported by both sources. Case-Based Decision Theory (CBDT)...
+
 ### Position: Evaluation Scores Are Perishable Knowledge Claims
 - Source: HF Daily Papers
 - Category: open-source
@@ -2259,6 +2313,18 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.26181
 - Summary: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin. Recent large language models (LLMs) offer new opportunities to automate this process, yet existing LLM-based approaches generate each...
+
+### VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26042
+- Summary: We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with optional symptom descriptions, to a server-hosted vision-language model for zero-shot disease...
+
+### Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26034
+- Summary: Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial intelligence (AI), where competitive pressure is often argued to incentivise riskier, less...
 
 ### The OlmoEarth Platform: Geospatial inference at planetary scale
 - Source: Hugging Face Blog
@@ -2955,70 +3021,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/
 - Summary: Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are...
-
-### Rethinking the Generation Order of Block Diffusion Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24306
-- Summary: Diffusion language models enable flexible arbitrary-order generation, but existing sampling methods are mostly designed for early masked diffusion models (MDMs). In this work, we study sampling for recent block diffusion language models (BDLMs). We show empirically and analytically that these...
-
-### Closing the data loop in AI-driven drug discovery
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/
-- Summary: Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new...
-
-### Building the enterprise environment for agentic AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/
-- Summary: For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access,...
-
-### Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/
-- Summary: The Anubis cybercrime group has taken credit for the attack and is threatening to leak data. The post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek.
-
-### Catalyst Diffusion Transformer: Generative Inverse Design of Heterogeneous Catalysts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24272
-- Summary: The vast chemical design space and complex, interdependent design variables make catalyst discovery for targeted properties highly labor- and resource-intensive. Although generative models have emerged as a promising solution, existing approaches are generally limited to single-property...
-
-### Beelzebub Raises $3.4 Million for Hacker-Trapping Platform
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/
-- Summary: The company plans to expand its research team, open new offices in Rome and San Francisco, and acquire new clients. The post Beelzebub Raises $3.4 Million for Hacker-Trapping Platform appeared first on SecurityWeek.
-
-### What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/whats-hiding-in-your-mobile-apps-lookout-msec-aims-to-find-out/
-- Summary: The new Mobile Security Exposure Center creates SBOMs for enterprise mobile apps to uncover vulnerable components, dependencies and hidden risks. The post What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out appeared first on SecurityWeek.
-
-### Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html
-- Summary: The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra. According to a new analysis by Proofpoint, Cruciferra has been...
-
-### Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hacked-public-wi-fi-gateways-used-to-harvest-corporate-credentials/
-- Summary: A threat actor has been using the compromised appliances to target the Microsoft 365 accounts of traveling corporate employees. The post Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials appeared first on SecurityWeek.
-
-### SILICA: Repurposing Diffusion Priors for Joint Glass Segmentation and Depth Estimation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24249
-- Summary: Standard depth sensors systematically fail on transparent surfaces, creating corrupted 3D maps and severe navigation hazards. While specialized hardware sensors can detect glass, they lack modularity and have extensive hardware dependencies. Consequently, learning-based monocular depth estimation...
-
-### Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/
-- Summary: Binary-based vulnerability scanning, penetration testing, and exploit generation are blocked in Opus 5. The post Anthropic&#8217;s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits appeared first on SecurityWeek.
 
