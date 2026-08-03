@@ -6,6 +6,18 @@
 
 ## 2026-08-03
 
+### Degraded performance on Claude Sonnet 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/dnl3q35xkn3s
+- Summary: Aug 3, 15:29 UTC Resolved - As of 15:20 UTC (8:20am PT), error rates on Claude Sonnet 5 have returned to baseline. This incident is resolved. Aug 3, 15:13 UTC Investigating - We are currently investigating this issue.
+
+### Cloudflare Workers Runtime API issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/238b69fw6l55
+- Summary: Aug 3, 15:21 UTC Identified - Workers runtime: Temporal global exposed with an incorrect clockSince 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and...
+
 ### INC20000129
 - Source: Snowflake Status
 - Category: incidents
@@ -759,6 +771,12 @@
 - URL: https://pandaily.com/china-nuclear-fusion-artificial-sun-jul2026
 - Summary: Global fusion industry cumulative funding reaches $14.24B, 7x 2021 levels, as Chinese scientist Wang Teng outlines EAST CRAFT and BEST progress toward igniting Chinas first fusion power plant.
 
+### Design Concept: Scaffolding Geopolitical Reflection Among Tech Workers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28904
+- Summary: This paper presents a speculative Human-Computer Interaction design proposal for encouraging geopolitical reflexivity amongst tech workers at geopolitically relevant technology companies. Recent scholarship in International Relations and Science and Technology Studies increasingly recognizes...
+
 
 ## 2026-07-30
 
@@ -785,6 +803,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
 - Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview...
+
+### Learning to Trace Seiberg Dualities
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.28628
+- Summary: Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the "rules of the game" are well-known. Said...
 
 ### Montana’s plan to become an experimental medical hub just pushed forward
 - Source: MIT Tech Review AI
@@ -1633,6 +1657,12 @@
 - URL: https://tldr.takara.ai/p/2607.26981
 - Summary: Large language models are increasingly used as decision aids whose probability judgments shape downstream choices. Whether those judgments carry a systematic directional tilt has been hard to detect: calibration metrics aggregate unsigned errors, and naturalistic uncertainty offers no ground-truth...
 
+### Feature Bagging Provides Stability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26964
+- Summary: We study feature bagging through the lens of algorithmic stability. Feature bagging is an ensemble strategy that aggregates base learners trained on randomly subsampled feature subsets, possibly in a data-dependent manner. We introduce feature instability (FI), the feature-axis analogue of instance...
+
 ### Surrogate assisted diversity estimation in neural ensemble search
 - Source: HF Daily Papers
 - Category: open-source
@@ -1818,6 +1848,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/h1kxms9wcbwj
 - Summary: Jul 29, 10:29 UTC Identified - The issue has been identified and a fix is being implemented. Jul 29, 08:29 UTC Investigating - Cloudflare is observing possible network congestion between Singapore and Tokyo. We are working to mitigate impact to Internet users in this region.
+
+### Domain adaptation for handwriting trajectory reconstruction from IMU sensors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.26736
+- Summary: Digital pens are commonly used to write on digital devices, providing the handwriting trace and enhancing human-computer interation. This study focuses on a digital pen equipped with kinematic sensors, allowing users to write on any surface while simultaneously preserving a digital trajectory of...
 
 ### CASIAL: Geometric Distortion Robust Image Watermarking
 - Source: HF Daily Papers
@@ -2473,6 +2509,12 @@
 - URL: https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/
 - Summary: The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek.
 
+### From Dyad to Triad: Eliciting XAI Requirements in Stroke Rehabilitation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25423
+- Summary: Eliciting explainable AI (XAI) requirements from stroke survivors presents a methodological challenge with direct implications for the design of trustworthy brain-computer interfaces for rehabilitation. How can patients and caregivers articulate preferences about algorithmic transparency when they...
+
 ### Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In
 - Source: The Hacker News
 - Category: security
@@ -2979,46 +3021,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
 - Summary: n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The...
-
-### MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/
-- Summary: The malware-as-a-service operation launches legitimate browsers on an invisible desktop, giving attackers persistent and covert remote access to compromised Windows systems. The post MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection appeared first on SecurityWeek.
-
-### Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html
-- Summary: Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs "secure document" lures to deliver legitimate remote monitoring and management (RMM) tools. "The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming...
-
-### Elevated errors on Claude Opus 5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/mfdtrknpxghq
-- Summary: Jul 27, 12:30 UTC Resolved - As of 4:47 PST / 11:47 UTC the errors have returned to baseline. Jul 27, 11:27 UTC Investigating - We are currently investigating this issue.
-
-### Nvidia and Tech Giants Launch AI Security Alliance
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/
-- Summary: The Nvidia-led coalition aims to give defenders more open tools for testing, auditing and protecting AI models and agents. The post Nvidia and Tech Giants Launch AI Security Alliance appeared first on SecurityWeek.
-
-### Beyond Aggregate Risk: Role-Stratified Conformal Risk Control for LLM Tool Calls
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24343
-- Summary: Language-model agents act through structured tool calls whose arguments carry different risks. Untrusted content may safely influence an email body but should not determine a recipient, account, command, or credential. Existing statistical methods typically control risk over the entire action,...
-
-### The Download: lasers for nuclear fuel, and organ preservation advances
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How lasers could help provide fuel for nuclear reactors&#160; Nuclear power provides about 9% of global electricity today, and that fraction could...
-
-### The path to artificial superintelligence
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/
-- Summary: Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are...
 

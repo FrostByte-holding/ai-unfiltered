@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 03 Aug 2026 14:42:29 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 17:52:59 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Degraded performance on Claude Sonnet 5</title>
+            <link>https://status.claude.com/incidents/dnl3q35xkn3s</link>
+            <guid>https://status.claude.com/incidents/dnl3q35xkn3s</guid>
+            <pubDate>Mon, 03 Aug 2026 15:29:01 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/dnl3q35xkn3s">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Aug 3, 15:29 UTC Resolved - As of 15:20 UTC (8:20am PT), error rates on Claude Sonnet 5 have returned to baseline. This incident is resolved. Aug 3, 15:13 UTC Investigating - We are currently investigating this issue.</description>
+        </item>
+        <item>
+            <title>Cloudflare Workers Runtime API issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/238b69fw6l55</link>
+            <guid>https://www.cloudflarestatus.com/incidents/238b69fw6l55</guid>
+            <pubDate>Mon, 03 Aug 2026 15:21:54 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/238b69fw6l55">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Aug 3, 15:21 UTC Identified - Workers runtime: Temporal global exposed with an incorrect clockSince 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and...</description>
+        </item>
         <item>
             <title>INC20000129</title>
             <link>https://status.snowflake.com/incidents/xfv4kdj30rcb</link>
@@ -414,15 +432,6 @@
             <description>apart from DeepSeek V4-Flash 0731, a quiet day.</description>
         </item>
         <item>
-            <title>Increased HTTP 5XX Errors in IAD</title>
-            <link>https://www.cloudflarestatus.com/incidents/l63k37vrcd9c</link>
-            <guid>https://www.cloudflarestatus.com/incidents/l63k37vrcd9c</guid>
-            <pubDate>Fri, 31 Jul 2026 23:00:00 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/l63k37vrcd9c">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Jul 31, 23:00 UTC Resolved - Cloudflare identified and resolved an issue causing an increased level of 5XX errors in Ashburn, US (IAD) from 31st July 2026 18:45 UTC to 23:01 UTC.</description>
-        </item>
-        <item>
             <title>The Download: Montana’s new experimental drug rules</title>
             <link>https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/</link>
             <guid>https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/</guid>
@@ -448,15 +457,6 @@
             <source url="https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two and a half years...</description>
-        </item>
-        <item>
-            <title>Degraded performance on Claude Sonnet 5</title>
-            <link>https://status.claude.com/incidents/jq4x54h69z76</link>
-            <guid>https://status.claude.com/incidents/jq4x54h69z76</guid>
-            <pubDate>Fri, 31 Jul 2026 06:18:08 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/jq4x54h69z76">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Jul 31, 06:18 UTC Investigating - We are currently investigating this issue.</description>
         </item>
     </channel>
 </rss>
