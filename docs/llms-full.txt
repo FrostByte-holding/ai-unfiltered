@@ -6,6 +6,12 @@
 
 ## 2026-08-03
 
+### Trump’s AI protectionism has come for robotics
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s...
+
 ### Degraded performance on Claude Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
@@ -1096,6 +1102,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.27933
 - Summary: Flow matching (FM) has become a popular action head paradigm for modern embodied models. However, as a conditional generative model, it does not explicitly expose its inherent uncertainty, producing faulty action chunks even when it misinterprets the scene or encounters out-of-distribution (OOD)...
+
+### ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.27924
+- Summary: In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning paradigms for world modeling are largely confined to discrete-time prediction, thereby exhibiting significant inefficiency in capturing the dynamics of physical world. We introduce...
 
 ### Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory
 - Source: HF Daily Papers
@@ -2467,6 +2479,12 @@
 - URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
 - Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a...
 
+### How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a 60M-Parameter Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2607.25583
+- Summary: Parameter-efficient fine-tuning (PEFT) and low-bit quantization are now standard tools for adapting language models under tight compute budgets, yet their interaction is most often studied on billion-parameter models where the design space is expensive to explore. We ask a complementary question:...
+
 ### Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model
 - Source: Security Week
 - Category: security
@@ -3003,22 +3021,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.24403
 - Summary: Feed-forward 3D Gaussian Splatting (3DGS) enables scalable scene reconstruction without per-scene optimization, yet produces dense Gaussians that are costly to store and transmit. Existing feed-forward Gaussian compression methods formulate decoding as deterministic representation recovery, which...
-
-### PTC Windchill Vulnerability Exploited in Ransomware Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/
-- Summary: The critical unsafe deserialization flaw allows attackers to execute arbitrary code remotely, without authentication. The post PTC Windchill Vulnerability Exploited in Ransomware Campaign appeared first on SecurityWeek.
-
-### Stochastic Counterdiabatic Driving via Biorthogonal Liouvillian Eigenmodes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.24393
-- Summary: Finite-time driving of stochastic systems generates excess dissipation, causing the evolving probability distribution to lag behind the instantaneous equilibrium, and consequently degrading the convergence of nonequilibrium free energy estimators based on the Jarzynski equality. Escorted free...
-
-### n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html
-- Summary: n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass. The...
 
