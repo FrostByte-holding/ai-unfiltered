@@ -6,6 +6,114 @@
 
 ## 2026-08-03
 
+### INC20000128
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/ns7hfk8pbqfy
+- Summary: Aug 3, 06:59 UTC Update - Current status: We've implemented the fix for this issue, and we'll continue to monitor the environment until we're confident all services are functioning properly.Customer experience: Customers hosted in the specified region may have experienced intermittent Snowsight...
+
+### N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
+- Summary: N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on...
+
+### Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+- Summary: Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. "These vulnerabilities are...
+
+### OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.28629
+- Summary: arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers...
+
+### Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.28631
+- Summary: arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a...
+
+### LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.28632
+- Summary: arXiv:2607.28632v1 Announce Type: new Abstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for...
+
+### ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.28642
+- Summary: arXiv:2607.28642v1 Announce Type: new Abstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory...
+
+### TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2607.28657
+- Summary: arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that...
+
+### Topology-Aware Data Movement for Disaggregated GPU Inference
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.28633
+- Summary: arXiv:2607.28633v1 Announce Type: new Abstract: Disaggregated LLM inference creates a datacenter networking problem that no existing system solves correctly. When prefill and decode run on separate GPU pools, the KV cache must be transferred between them. For a 70B model this is 2.6 GB per request,...
+
+### Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.28665
+- Summary: arXiv:2607.28665v1 Announce Type: new Abstract: Automated driving systems (ADSs) are becoming ubiquitous. Future Software Defined Vehicles (SDVs) may be able to run multiple ADSs, both native and aftermarket such as Comma.ai's Openpilot. Monitoring systems to independently verify which automated...
+
+### Guarantees on Dynamical System Distinguishability for LLM Token Generation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.28667
+- Summary: arXiv:2607.28667v1 Announce Type: new Abstract: Recent work has shown that classifying large language models (LLMs)' responses can be distinguished by modeling token embeddings as trajectories of a black-box dynamical system (DS) and comparing prediction residuals of two DSs. Despite the empirical...
+
+### LARA: Lightweight Adapters in the Residual Stream for Composable Adaptation and Alignment
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.28669
+- Summary: arXiv:2607.28669v1 Announce Type: new Abstract: We present LARA (Lightweight Additive Residual Adaptation), a method for efficient adaptation that operates in the residual stream of a frozen model rather than in its weights. Where LoRA adds an update of low rank to weight matrices, LARA reads the...
+
+### Hierarchical Copula-Gumbel-Top-\texorpdfstring{$K$}{K} Routing: Two-Sided Dependence Control for Frozen Mixture-of-Experts at Fixed Per-Token Routing Laws
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2607.28670
+- Summary: arXiv:2607.28670v1 Announce Type: new Abstract: A stochastic Gumbel-Top-$K$ router defines, for every token of a mixture-of-experts (MoE) model, a \emph{routing law}: a distribution over ordered expert lists and mixture weights. We ask which \emph{joint} distributions over the routing choices of...
+
+### Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.28634
+- Summary: arXiv:2607.28634v1 Announce Type: new Abstract: The estimation of item difficulty plays a key role in both formative assessment and large-scale high-stakes summative assessments. This study explores how large language models (LLMs) perform in predicting item difficulty levels using items from a...
+
+### Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.28635
+- Summary: arXiv:2607.28635v1 Announce Type: new Abstract: In Natural Language Processing (NLP), dealing with underrepresented topics is challenging, especially in unsupervised tasks where clustering might not adequately capture minority topics. To tackle this challenge, our paper presents a novel...
+
+### Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.28636
+- Summary: arXiv:2607.28636v1 Announce Type: new Abstract: LLMs increasingly serve as automated judges, but their judgments remain vulnerable to cognitive biases. Existing mitigations mostly rely on prompt-driven debiasing, which is brittle across bias types, or human evaluation, which does not scale. We...
+
+### ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.28637
+- Summary: arXiv:2607.28637v1 Announce Type: new Abstract: This paper presents our system for the CHiPSAL 2026 shared task on multimodal hate speech and sentiment detection in Nepali memes. We address both subtasks: binary hate speech classification and three-class sentiment analysis. Our approach adapts the...
+
+### Learning Stateful Predictive Knowledge From Experience
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2607.28638
+- Summary: arXiv:2607.28638v1 Announce Type: new Abstract: As large language model (LLM) agents increasingly learn from experience, they primarily rely on trajectory-level reflection to extract insights. Viewed through the lens of predictive knowledge, we argue that this approach operates on episodic...
+
 ### Tsinghua Team Open-Sources VeriLoop Coder-E1: Evidence-Governed Spiral Drives Verifiable Recursive Self-Improvement for Repository-Level Code Repair
 - Source: Pandaily
 - Category: chinese-ai
@@ -2912,112 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.24009
 - Summary: Matricized low-rank approximation via SVD is a standard surrogate for tensor decompositions, but entry-wise reconstruction error fails to capture multiway geometric degradation. Under an orthogonal Tucker model, we characterize this degradation using two metrics: cross-mode Direction Loss,...
-
-### MCBS Data Breach Affects 1.2 Million Individuals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/
-- Summary: The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company. The post MCBS Data Breach Affects 1.2 Million Individuals appeared first on SecurityWeek.
-
-### Adaptive Data Admission and Retention for Streaming Federated Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.23987
-- Summary: We study streaming federated learning with limited client memory, where newly generated training data incur time-varying sampling costs and must be selectively admitted and retained over time. We consider a joint server-side admission and client-side memory-management framework with the objective...
-
-### Incident with GraphQL API Requests
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/fmmsrcg5x638
-- Summary: Jul 27, 04:09 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 27, 04:09 UTC Monitoring - The degradation affecting API Requests has been mitigated....
-
-### FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.21596
-- Summary: arXiv:2607.21596v1 Announce Type: new Abstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible problem solving, the useful procedures discovered during...
-
-### Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.21597
-- Summary: arXiv:2607.21597v1 Announce Type: new Abstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the operational coherence of a continuous risk signal. This work proposes a...
-
-### Securing Multimodal AI through Internal Information Decomposition
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.21600
-- Summary: arXiv:2607.21600v1 Announce Type: new Abstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates using cross-modal consistency as a detection signal...
-
-### From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.21601
-- Summary: arXiv:2607.21601v1 Announce Type: new Abstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary. In scenic kiosks, exhibition halls, and service terminals, users experience whether an intended action...
-
-### Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.21602
-- Summary: arXiv:2607.21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime backend, hardware utilization, dynamic voltage and...
-
-### Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21623
-- Summary: arXiv:2607.21623v1 Announce Type: new Abstract: We present EaaS, a cloud-native reference architecture that operationalizes AI evaluation methods as six stateless Kubernetes microservices: conformal prediction with finite-sample-corrected Adaptive Prediction Sets, calibration assessment, drift...
-
-### On the Depth Scalability of Logic Gate Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21633
-- Summary: arXiv:2607.21633v1 Announce Type: new Abstract: Logic Gate Networks (LGNs) implement computation through compositions of Boolean operations, yet unlike classical Boolean circuits, existing LGNs do not reliably benefit from increased depth. We identify two distinct causes: optimization collapse in...
-
-### MotifRole-Diff: Risk-Optimal Role-Aware Corruption for Masked Molecular Graph Diffusion
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21634
-- Summary: arXiv:2607.21634v1 Announce Type: new Abstract: Masked discrete diffusion for molecular graph generation typically applies a uniform corruption schedule to all tokens in a lossless graph-to-sequence representation, implicitly treating structurally heterogeneous molecular components as equally...
-
-### Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21635
-- Summary: arXiv:2607.21635v1 Announce Type: new Abstract: Personal agents maintain memories, learned skills, tool configurations, and policy state that evolve with each user. Existing agent benchmarks often evaluate these capabilities in isolation: tool benchmarks test invocation under fixed APIs, memory...
-
-### Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.21636
-- Summary: arXiv:2607.21636v1 Announce Type: new Abstract: Synthetic tabular data is valued for preserving not only each column's marginal distribution but the dependencies between columns -- structure that carries much of the discriminative signal for minority classes in imbalanced domains such as fraud and...
-
-### Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21619
-- Summary: arXiv:2607.21619v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) have achieved impressive performance, but their safety alignment remains vulnerable to jailbreak attacks. Existing content-based jailbreaks are often inconsistent and show unsatisfying performance against the...
-
-### A Consensus-Based Framework for Relative Preference Evaluation of Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21632
-- Summary: arXiv:2607.21632v1 Announce Type: new Abstract: Traditional benchmarks for LLMs primarily rely on static datasets and objective scoring metrics, which often fail to capture differences in response quality when multiple answers are acceptable. In such settings, correctness alone is insufficient to...
-
-### Evaluation design conditions the expert-vs-auto MeSH gap: a controlled comparison of bag-of-words and BiomedBERT on the Cohen benchmark
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21685
-- Summary: arXiv:2607.21685v1 Announce Type: new Abstract: A systematic review begins with someone reading thousands of abstracts to identify the few that are relevant, and classifiers are used to prioritise that reading. Their inputs are often augmented with Medical Subject Headings (MeSH), assigned either...
-
-### Humanly: A Configurable and Traceable Environment for Human-AI Collaborative Writing
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21758
-- Summary: arXiv:2607.21758v1 Announce Type: new Abstract: Teachers, conference chairs, and public readers all judge writing from limited evidence, seeing only a finished document and not the process that produced it. Final text alone cannot reveal whether a document was produced through human typing, AI...
-
-### Probing Latent Colombian Identity Inferences in Qwen2.5-7B with Natural Language Autoencoders
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.21774
-- Summary: arXiv:2607.21774v1 Announce Type: new Abstract: Large language models may infer demographic attributes from subtle linguistic cues even when those attributes are not explicitly stated. This pilot study examines whether Qwen2.5-7B-Instruct internally represents Colombian identity, socioeconomic...
 
