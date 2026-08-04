@@ -6,6 +6,30 @@
 
 ## 2026-08-04
 
+### Elevated errors across many models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/bdr3fq2rkchr
+- Summary: Aug 4, 21:04 UTC Update - We have identified an issue which resulted in some users experiencing issues when attempting to log into Anthropic services, including Claude.ai and Claude Code via oAuth. Additionally, some users saw errors when making requests to models. At this time, we have seen...
+
+### Elevated R2 error rates and latency
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/fkpqy4zrm28t
+- Summary: Aug 4, 20:51 UTC Investigating - Cloudflare is aware of, and investigating an issue with elevated R2 error rates and latency for R2 buckets located in Oceania
+
+### 502 errors observed around Singapore, Jakarta and Bangkok
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/2fqjvjdq32dy
+- Summary: Aug 4, 19:53 UTC Resolved - This incident has been resolved. Aug 4, 19:46 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 4, 19:23 UTC Identified - The issue has been identified and a fix is being implemented. Aug 4, 18:38 UTC Investigating - Cloudflare is...
+
+### Unpacking ChatGPT Work: the Agent for a Billion Users
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/unpacking-chatgpt-work
+- Summary: An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.
+
 ### Deploy local agents everywhere with LFM2.5-2.6B
 - Source: Hugging Face Blog
 - Category: open-source
@@ -40,6 +64,11 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics —James O’Donnell&#160; Humanoid robots usually elicit more cringe than awe:...
+
+### NCSC statement in response to recent incidents resulting from frontier AI evaluations
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations
 
 ### Elevated errors on Claude Sonnet 5
 - Source: Anthropic Status
@@ -296,6 +325,12 @@
 - URL: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s...
 
+### Analytic Planning under Uncertainty with Moment Closure
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02519
+- Summary: Effective model-based reinforcement learning in stochastic environments requires planning that accounts for predictive uncertainty. Propagating full state distributions analytically offers a principled way to do this, but has traditionally required restrictive policy or reward structures to remain...
+
 ### Optimizing Minimax Regret in Uncertain MDPs with Small Sets of Policies
 - Source: HF Daily Papers
 - Category: open-source
@@ -356,6 +391,12 @@
 - URL: https://status.snowflake.com/incidents/xfv4kdj30rcb
 - Summary: Aug 3, 14:39 UTC Update - Current status: We're continuing to investigate the issue with Snowflake Data Cloud, and we're analyzing recent changes and telemetry to determine a mitigation plan. We'll provide another update within 30 minutes.Customer experience: Customers hosted in the specified...
 
+### SpikeRestormer: Towards Energy-Efficient All-in-One Image Restoration via Unified Event Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02290
+- Summary: ANN-based All-in-One image restoration (AiOIR) unifies diverse degradation handling but incurs high computational costs, limiting its real-time deployment. While Spiking Neural Networks (SNNs) offer a low-power alternative, applying them to static images remains challenging. This difficulty arises...
+
 ### Cloudflare Workers build failures
 - Source: Cloudflare Status
 - Category: incidents
@@ -385,6 +426,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/introducing-our-artifacts-hub-and
 - Summary: Scaling our curation and measurement of the open ecosystem.
+
+### An Accessible Solution for Deformable Image Registration Compared with Learning-Based Approaches
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02248
+- Summary: Deformable image registration (DIR) is a core problem in medical image analysis; but, unlike labeling decision problems such as classification and segmentation, registration is a problem class that involves stringent physical constraints. Although deep learning methods have made faster registration...
 
 ### River Bank Says Hackers Deleted Data Stolen in Ransomware Attack
 - Source: Security Week
@@ -584,6 +631,12 @@
 - URL: https://tldr.takara.ai/p/2608.01704
 - Summary: A benchmark score means nothing without knowing what a trivial method achieves and what the best possible method could achieve. We construct both bounds for a task with a rare kind of ground truth: predicting which sentences a crowd of readers -- highlighting for their own purposes, unpaid,...
 
+### Style Wins, Substance Loses: A Diagnosis of LLM-as-Judge in Idea Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.01666
+- Summary: However, whether these judges truly evaluate the scientific substance of ideas or are influenced by superficial stylistic presentation remains an open question. To address this question, we propose SciStyleBench, a unified three-component benchmark for diagnosing and mitigating stylistic bias in...
+
 ### OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems
 - Source: arXiv AI
 - Category: research
@@ -763,6 +816,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.28661
 - Summary: arXiv:2607.28661v1 Announce Type: new Abstract: Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an ideal testbed. Existing...
+
+### CRAFT: Compression via Recursive Adaptive Fusion of Video Tokens for Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.01644
+- Summary: In video understanding, vision-language models (VLMs) must ingest massive numbers of visual tokens, causing the computational and memory cost of the prefill stage to rise sharply. Such visual sequences are highly redundant along the spatio-temporal dimension, yet a high compression ratio is often...
 
 ### D^2-4DGS: Dual-Depth Guided Sparse-Camera 4D Gaussian Splatting
 - Source: HF Daily Papers
@@ -2961,63 +3020,4 @@
 - Category: security
 - URL: https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/
 - Summary: Apple announced that dozens of vulnerabilities have been patched in each of its operating systems. The post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.
-
-### JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html
-- Summary: JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they...
-
-### Gemini Robotics 2 brings whole body intelligence to robots
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
-
-### OT Security Startup Frenos Raises $1.52 Million
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/
-- Summary: The company will use the fresh investment to grow its customer success and AI R&#038;D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.
-
-### Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
-- Summary: OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker...
-
-### Rashomon Alignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.25680
-- Summary: We propose Rashomon Alignment (RA), a new measure to assess functional similarity between two models. Existing functional similarity measures are distributional, quantifying differences between outputs of models applied to real-world data. However, these measures can be regarded as ecologically...
-
-### Engine-Equal, Human-Unequal: A Reproducible Outcome Skew in Engine-Assessed Equal Chess Positions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.25655
-- Summary: Among chess opening positions that a strong engine judges essentially equal (Stockfish 18 evaluation within 10 centipawns of zero, depth-stable) and that humans actually reach on Lichess (October 2025; 1,661 positions, 16.1M occurrences), human results are not balanced. Positions carry outcome...
-
-### The Download: OpenAI’s predictable hack, and an AI stock sell-off
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.&#160; —Will Douglas Heaven, senior AI editor Reading OpenAI’s...
-
-### When cyber attacks happen: helping organisations recover
-- Source: NCSC UK
-- Category: security
-- URL: https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover
-- Summary: A highly disruptive incident can feel overwhelming. New guidance provides a framework for response and recovery.
-
-### Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html
-- Summary: The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a...
-
-### How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a 60M-Parameter Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.25583
-- Summary: Parameter-efficient fine-tuning (PEFT) and low-bit quantization are now standard tools for adapting language models under tight compute budgets, yet their interaction is most often studied on billion-parameter models where the design space is expensive to explore. We ask a complementary question:...
 
