@@ -296,6 +296,12 @@
 - URL: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s...
 
+### Optimizing Minimax Regret in Uncertain MDPs with Small Sets of Policies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02509
+- Summary: Sequential decision-making in real-world applications often involves uncertainty about the environment's model. Uncertain Markov decision processes (UMDPs) represent the possible environments as a set of MDPs with shared states and actions but potentially different transition probabilities and...
+
 ### Abduction Without a Body? Representational Grounding and the Abduction Loop for Scientific Hypothesis Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -392,6 +398,12 @@
 - URL: https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/
 - Summary: Venture financing has become an essential factor in growing new business in today’s fast moving economy. Horizon3’s latest funding explains how and why. The post Horizon3 Raises $250 Million to Fund Continuing Growth appeared first on SecurityWeek.
 
+### Empowering Credit Risk Detection in Weixin Pay with Billion-Scale Deep Graph Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02168
+- Summary: Credit risk detection, particularly mitigating individual fraud, is crucial for maintaining the stability of digital financial ecosystems. Accurately identifying credit fraud among billions of users is critical for minimizing financial losses and safeguarding the sustainability of inclusive...
+
 ### PhyCheck: Fine-Grained Evidence-Grounded Dataset for Physical Law Understanding in Video-LLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -404,11 +416,23 @@
 - URL: https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/
 - Summary: The N‑central vulnerability CVE-2026-18577 has been exploited in the wild after threat actors found a patch bypass. The post N‑able Patches Vulnerability Exploited to Hack N-central Servers appeared first on SecurityWeek.
 
+### CoRe-GNN: Multilevel Message passing on Coarsened graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02128
+- Summary: Training Graph Neural Networks on large graphs is challenged by the memory cost of storing all node representations across layers. We show that several existing scalable approaches can be written as structured modifications of the GNN propagation matrix, providing a unified perspective that exposes...
+
 ### The Download: reward hacking explained, and suspected Iranian cyberattacks
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money...
+
+### Cross-Domain Hybrid OPD for Generalizable Search Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02101
+- Summary: Recent advances in Reinforcement Learning (RL) have substantially improved the capabilities of autonomous search agents, enabling sophisticated planning, and iterative retrieval over dynamic information sources. However, optimizing language models for specialized search behaviors often incurs an...
 
 ### Brinks Home Discloses Data Breach as Hackers Leak Files
 - Source: Security Week
@@ -769,6 +793,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-v4-flash-official-open-source-jul2026
 - Summary: DeepSeek-V4-Flash-0731 official release outperforms V4-Pro preview with 82.7 performance score at 0.14/0.28 USD pricing, tops VulcanBench, and reaches HuggingFace trending second.
+
+### Measuring in-context algorithmic reasoning in language models against an exact Bayes-optimal standard
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.01575
+- Summary: Whether large language models perform genuine algorithmic reasoning or mere pattern completion is hard to test, because most benchmarks lack a ground truth for correct inductive inference. We introduce F-ICL, an in-context-learning benchmark that supplies one exactly. Using the Turing-complete...
 
 
 ## 2026-08-02
@@ -2990,34 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.25583
 - Summary: Parameter-efficient fine-tuning (PEFT) and low-bit quantization are now standard tools for adapting language models under tight compute budgets, yet their interaction is most often studied on billion-parameter models where the design space is expensive to explore. We ask a complementary question:...
-
-### Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/
-- Summary: The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.
-
-### Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/
-- Summary: Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.
-
-### Act Security Emerges from Stealth to Fight the Patch Problem
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/
-- Summary: Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.
-
-### Network Performance Issues in Istanbul
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/prkzvchf76kx
-- Summary: Jul 28, 10:25 UTC Identified - The issue has been identified and a fix is being implemented. Jul 28, 09:22 UTC Investigating - Cloudflare is aware of Network Performance issues in Istanbul, Türkiye.We are working to analyse and mitigate this problem. More updates to follow shortly.
-
-### Hush Security Raises $30 Million for AI Agent Governance
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/
-- Summary: The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek.
 
