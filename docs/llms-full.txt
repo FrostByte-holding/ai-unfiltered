@@ -410,6 +410,12 @@
 - URL: https://www.securityweek.com/weaponized-email-ai-assistants-could-help-attackers-hijack-accounts/
 - Summary: Researchers demonstrate how attackers could abuse built-in email chatbots to evade detection, impersonate trusted employees, compromise executive accounts, and facilitate financial fraud. The post Weaponized Email AI Assistants Could Help Attackers Hijack Accounts appeared first on SecurityWeek.
 
+### DiagLoop: A Counterfactual Data Flywheel with Stage-Localized Reinforcement for Diagnostic LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03674
+- Summary: Causal diagnostic models must explain how conclusions follow from evidence because diagnoses guide repairs and treatments. Yet serious cases are scarce, records rarely contain reasoning paths, and data transfer poorly across configurations, complicating local deployment. We present DiagLoop, a...
+
 ### CausalOPD: First-Wrong-Step Supervision for Distilling Causal Chain Reasoning
 - Source: HF Daily Papers
 - Category: open-source
@@ -505,6 +511,12 @@
 - URL: https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/
 - Summary: Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.
 
+### FreqAdapt: Frequency-Adaptive Processing for RAW Object Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03385
+- Summary: Existing object detection methods predominantly utilize sRGB inputs, which are compressed from RAW sensor data using Image Signal Processors (ISP) originally designed for visualization purposes. Compared to RGB images, RAW images possess favorable noise characteristics and richer information...
+
 ### Shaping Wind-Tunnel Airflow for Unmanned Aerial Vehicles using Online Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -564,6 +576,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.03244
 - Summary: Image-goal visual navigation is a fundamental capability for embodied agents. Existing navigation policies efficiently predict waypoint trajectories but lack visual foresight, while navigation world models can anticipate future observations but often require costly planning rollouts. We present...
+
+### Relational Priors as Convergence Pressure in LLM-Based Multi-Agent Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03239
+- Summary: Large language model-based multi-agent systems (LLM-MAS) are designed through roles, debate protocols, and aggregation rules. These choices create implicit social expectations: agents may be expected to trust, challenge, defer to, or collaborate with peers. We study the effects of making...
 
 ### CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises
 - Source: The Hacker News
@@ -840,6 +858,18 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/wukong-disappears-alibaba-qianwen-office-ai-work-jul2026
 - Summary: Alibaba Qianwen Office opens public beta integrating QoderWork, Wukong, and MuleRun, as the four-month Wukong cycle shows AI office competition moving beyond single agents.
+
+### LoCA: Forward-Only LLM Tuning after One-Shot Calibration with Local Credit Assignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03020
+- Summary: Parameter-efficient post-training reduces the number of trainable parameters, but still requires repeated end-to-end backpropagation through the frozen backbone. Every adaptation step therefore needs backward-capable hardware and must store or recompute activations. We ask whether this repeated...
+
+### Paired Recipient-based Evaluation of Survival Prediction for Deceased Donor Kidney Transplants
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03017
+- Summary: There has been significant interest in using machine learning algorithms to predict kidney transplant outcomes, such as the number of years until a graft inevitably fails. These prediction algorithms could possibly be used for pre-transplant donor-recipient matching to identify more compatible...
 
 ### New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems
 - Source: Security Week
@@ -2992,34 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.26784
 - Summary: Large language model agents often encounter related yet distinct tasks that share reusable solution patterns. Yet standard agentic reinforcement learning treats tasks as independent episodes, while existing approaches to skill learning either focus on repeated attempts of one task or use pipelines...
-
-### Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26773
-- Summary: Latent communication in large language model (LLM)-based multi-agent systems (MAS) transmits continuous internal representations instead of text, but greater representational capacity does not establish that the receiver uses task-relevant information. End-task performance alone also cannot reveal...
-
-### 73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html
-- Summary: Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack. According to The State of Incident Response Readiness 2026,...
-
-### MediaWiki Code2Code Search: Neural Retrieval for the Semantic Discovery of Open-Source Software Entities
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26766
-- Summary: Code search in large-scale ecosystems is often hindered by the lexical gap between user queries and implementation details, alongside the trade-off between the low latency of traditional Information Retrieval (IR) and the precision of Deep Learning (DL). We present MediaWiki Code2Code Search, a...
-
-### Long-Tailed 3D Point Cloud Dataset Distillation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26763
-- Summary: Dataset distillation compresses large-scale datasets into compact synthetic sets while preserving their training utility, enabling efficient 3D point cloud training. Current point cloud dataset distillation methods only tackle geometric and representation challenges while ignoring the...
-
-### BYD AI Team Revealed for First Time: HyWorldVLA Hybrid World Model Achieves SOTA on NAVSIM v1 With 90.59 PDMS Marking BYD Entry Into Autonomous Driving Foundation Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/byd-hyworld-vla-autonomous-driving-sota-jul2026
-- Summary: BYD AI team publishes HyWorldVLA with hybrid pixel-latent world modeling and VLA architecture, scoring 90.59 PDMS on NAVSIM benchmark, from team including HIT robotics researchers.
 
