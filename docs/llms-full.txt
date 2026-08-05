@@ -6,6 +6,48 @@
 
 ## 2026-08-05
 
+### Web Analytics Configuration issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/3wbkwvf5ypbk
+- Summary: Aug 5, 17:12 UTC Resolved - This incident has been resolved. Aug 5, 16:57 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 5, 15:09 UTC Investigating - Cloudflare is investigating issues with configuration changes for Cloudflare Web Analytics and rum beacon not...
+
+### Elevated errors in ChatGPT conversations with files
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZ9E7QD8WFJD5DMF73QGVYH8
+- Summary: Status: MonitoringError rates affecting ChatGPT conversations that use files and images have improved. We have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
+### Issues with Custom GPT actions
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZ9DMQD2GJ8JJWDN7572RH78
+- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components GPTs (Degraded performance)
+
+### Cloudflare Gateway Email List policy issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kf6qktrf2gc1
+- Summary: Aug 5, 16:20 UTC Resolved - This incident has been resolved. Aug 5, 15:36 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 5, 15:24 UTC Investigating - We are currently investigating this issue. Aug 5, 14:28 UTC Identified - The issue has been identified and a fix...
+
+### INC20000139
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/j7drswl3ssy7
+- Summary: Aug 5, 15:49 UTC Resolved - Current status: We've confirmed that this issue has been resolved, and we have monitored the environment to confirm that the affected functionality is now working as expected. If you experience additional issues or have questions, please open a support case via Snowflake...
+
+### Elevated errors with image generation
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZ96S5HEWX0CX26W2WFYFKE6
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Image Generation (Degraded performance)
+
+### Puzzle Corner
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/
+- Summary: Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’03, MEng ’04, and Abe Kunin ’03. This column includes solutions to the May/June...
+
 ### Degraded performance for Claude Opus 5
 - Source: Anthropic Status
 - Category: incidents
@@ -297,6 +339,12 @@
 - URL: https://www.latent.space/p/unpacking-chatgpt-work
 - Summary: An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.
 
+### ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04010
+- Summary: Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation...
+
 ### Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens
 - Source: The Hacker News
 - Category: security
@@ -457,6 +505,12 @@
 - URL: https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/
 - Summary: Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.
 
+### Shaping Wind-Tunnel Airflow for Unmanned Aerial Vehicles using Online Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03378
+- Summary: The development and testing of advanced aerial robots require experiments in controlled environments with tailored airflow profiles. This paper presents an online learning algorithm for controlling the complex airflow field in a multi-fan vertical wind tunnel. Our method combines a simplified...
+
 ### DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT
 - Source: The Hacker News
 - Category: security
@@ -517,6 +571,12 @@
 - URL: https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS...
 
+### On the Implicit Flatness Bias of Sharpness-Aware Minimization: A Linear Stability Analysis with Quantitative Hyperparameter Bounds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03197
+- Summary: Sharpness-Aware Minimization (SAM) improves generalization by seeking parameters whose loss is robust to local adversarial perturbations, but the quantitative mechanism underlying its implicit bias toward flat minima remains unclear. In particular, the perturbation radius $ρ$ is typically treated...
+
 ### Elevated errors on Claude Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
@@ -535,11 +595,23 @@
 - URL: https://tldr.takara.ai/p/2608.03113
 - Summary: Adulteration of bovine milk using urea remains a major food quality and health concern, motivating the development of rapid and quantitative screening tools. Conventional approaches, including laboratory-based analytical methods and spectroscopic techniques, have been used for urea detection;...
 
+### Double Descent in Gradient Boosting Decision Trees via Split-Candidate Scaling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03111
+- Summary: Double descent is commonly studied by scaling an explicit capacity parameter, such as neural-network width. For gradient boosting decision trees (GBDTs), however, an analogous single-axis capacity parameter has not been established. We propose the number of split candidates as an operational...
+
 ### FakeI2V-Bench: Benchmarking the Applicability of Image-level Deepfake Detectors for Deepfake Video Detection
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.03096
 - Summary: Recent advances in video generation models have significantly intensified the deepfake threat, yet the current deepfake video detection benchmarks remain underdeveloped. In particular, the effectiveness of image-level detectors in the video domain has not been systematically assessed. To fill this...
+
+### SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03087
+- Summary: Fine-grained energy consumption data are essential for applications such as demand forecasting, demand response planning, and grid reliability assessment. However, access to such data is often restricted by privacy concerns and data-sharing constraints, motivating growing interest in synthetic...
 
 ### Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety
 - Source: arXiv AI
@@ -2950,76 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/byd-hyworld-vla-autonomous-driving-sota-jul2026
 - Summary: BYD AI team publishes HyWorldVLA with hybrid pixel-latent world modeling and VLA architecture, scoring 90.59 PDMS on NAVSIM benchmark, from team including HIT robotics researchers.
-
-### AI Teammates Enter the Enterprise: Tencent Cloud CodeBuddy NPC Reimagines Next-Generation R&D Workflow With AI Native Git Paradigm
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-cloud-codebuddy-npc-ai-native-git-jul2026
-- Summary: Tencent Cloud launches CodeBuddy NPC with AI Native Git paradigm, letting developers @ summon NPC teammates that autonomously handle issue investigation, code development, PR submission and CI repair.
-
-### Alibaba Tencent and 360 Simultaneously Enter the AI Office Agent Arena: Your Desktop Becomes the New Battleground as WorkBuddy Qianwen Office and 360 AI Target Productivity Dominance
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ali-tencent-360-office-ai-agent-battle-jul2026
-- Summary: Tencent WorkBuddy leads with 20.97M monthly visits, Alibaba consolidates into Qianwen Office under new DingTalk CEO, 360 launches AI assistant with 100M token grants targeting one-person companies.
-
-### Alibaba Qoder Open-Sources Better Harness: An Open-Source Analysis and Continuous Improvement Tool for Programming Agent Workflows From Alibaba Cloud
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qoder-opensource-better-harness-jul2026
-- Summary: Qoder releases Better Harness on GitHub, a three-layer open-source framework for coding agent workflow analysis covering Harness Engineering practices, evaluation models, and runnable implementations.
-
-### China Advanced Packaging Enters New Wave of Investment as 400 Billion Yuan in Projects Target Chiplet 3D Integration and AI Chip Substrates
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-advanced-packaging-new-wave-jul2026
-- Summary: Nearly 10 advanced packaging projects totaling 400B yuan announced between May and July 2026, spanning 2.5D/3D, Chiplet, Fan-Out, and automotive chip packaging for AI and HPC.
-
-### Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html
-- Summary: The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in violation of Russian law. The principal security agency said the instant...
-
-### US, Australia Release OT Isolation Guidance for Critical Infrastructure
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/
-- Summary: The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for Critical Infrastructure appeared first on SecurityWeek.
-
-### Possible Network Congestion between Singapore and Tokyo
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/h1kxms9wcbwj
-- Summary: Jul 29, 10:29 UTC Identified - The issue has been identified and a fix is being implemented. Jul 29, 08:29 UTC Investigating - Cloudflare is observing possible network congestion between Singapore and Tokyo. We are working to mitigate impact to Internet users in this region.
-
-### Domain adaptation for handwriting trajectory reconstruction from IMU sensors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26736
-- Summary: Digital pens are commonly used to write on digital devices, providing the handwriting trace and enhancing human-computer interation. This study focuses on a digital pen equipped with kinematic sensors, allowing users to write on any surface while simultaneously preserving a digital trajectory of...
-
-### CASIAL: Geometric Distortion Robust Image Watermarking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26729
-- Summary: Deep learning-based watermarking has shown strong robustness against non-geometric distortions, yet its performance under geometric transformations remains limited. Such transformations induce two fundamental failure modes: region removal, such as cropping or masking, which eliminates the...
-
-### OpenAI’s Rogue AI Ventured Beyond Hugging Face
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/
-- Summary: Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation. The post OpenAI&#8217;s Rogue AI Ventured Beyond Hugging Face appeared first on SecurityWeek.
-
-### Spur Raises $200 Million for IP Intelligence Platform
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/
-- Summary: The IP intelligence company will use the fresh investment to accelerate and scale its operations. The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek.
-
-### Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.26643
-- Summary: Enabling large language model (LLM) agents to accumulate and reuse experience from past interactions remains a central challenge in real-world applications. A promising solution is to treat skills as trainable states and optimize them in the same way as model parameters in neural network training....
 
