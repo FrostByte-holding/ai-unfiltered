@@ -6,6 +6,18 @@
 
 ## 2026-08-06
 
+### Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/
+- Summary: Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched. The post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on SecurityWeek.
+
+### The Download: Google’s AI shake-up and Meta’s rogue model
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship...
+
 ### Meta AI Hacked External Systems During Cybersecurity Testing
 - Source: Security Week
 - Category: security
@@ -228,6 +240,11 @@
 - URL: https://pandaily.com/deepseek-v4-flash-global-catfish-china-llm-export-aug2026-plain_ids
 - Summary: DeepSeek V4 Flash tops OpenRouter's weekly global token-usage ranking at 7.1 trillion tokens, with four of the top five slots now held by Chinese models, forcing OpenAI to cut GPT-5.6 Luna pricing by 80%.
 
+### Baseten on Hugging Face Inference Providers 🔥
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/baseten
+
 
 ## 2026-08-05
 
@@ -297,6 +314,12 @@
 - URL: https://status.openai.com//incidents/01KZ96S5HEWX0CX26W2WFYFKE6
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Image Generation (Degraded performance)
 
+### ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04956
+- Summary: Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or...
+
 ### Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports
 - Source: The Hacker News
 - Category: security
@@ -320,6 +343,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
 - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant...
+
+### A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04872
+- Summary: Symbolic regression aims to discover closed-form equations from data, but existing LLM-guided methods often rely on a unified proposal loop that compresses heterogeneous search failures into a scalar score and a single prompt. We propose A-SR, a self-evolving agentic framework that shifts the...
 
 ### Degraded performance for Claude Opus 5
 - Source: Anthropic Status
@@ -506,6 +535,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.04519
 - Summary: Benchmarking machine unlearning methods is critical to understand whether sensitive knowledge is removed from large language models (LLMs) or not. Current unlearning benchmarks include mainly single-hop questions and a narrow set of multi-hop questions. Although effective, they still face two...
+
+### AFD-Ledger: Deployment Provisioning for Attention--FFN Disaggregation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04502
+- Summary: Attention--Feed-Forward Network (FFN) Disaggregation (AFD) is emerging as a promising architecture for serving Mixture-of-Experts (MoE) language models. While existing AFD systems improve the efficiency of disaggregated execution, they leave a deployment question unanswered: under the same model,...
 
 ### Managed Challenge Issues for China Network
 - Source: Cloudflare Status
@@ -735,11 +770,23 @@
 - URL: https://pandaily.com/chinese-dexterous-hand-new-top4-mass-production-jul2026
 - Summary: Yinshi Robotics, Lingxin, LinJieDian and BrainCo form the new top tier as Chinas dexterous hand industry crosses the demo-to-mass-production threshold, with H1 2026 funding surpassing 25 billion yuan and shipment forecasts reaching 70,200 units.
 
+### Looking in the Mirror: Introspecting Side-Effect Misalignments Induced by Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04347
+- Summary: Fine-tuning enables a source model to acquire desired capabilities and behaviors in a target domain while retaining much of its general-purpose competence. However, this adaptation process can also degrade alignment properties that were present in the source model. Recent work has shown that large...
+
 ### [AINews] Megakernels are so dead and so back
 - Source: Latent Space
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-megakernels-are-so-dead-and
 - Summary: A quiet day lets us highlight a Cursor launch and an engineering debate
+
+### An Analysis and Implementation of Seam Carving for Content-Aware Image Resizing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04329
+- Summary: Seam carving is a classical content-aware image resizing operator that modifies the width or height of an image by repeatedly removing (or inserting) seams, i.e., 8-connected monotonic paths of pixels of locally minimal importance. Because seams bend around salient content rather than uniformly...
 
 
 ## 2026-08-04
@@ -2975,52 +3022,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/z33kqrzksxqy
 - Summary: Jul 30, 05:48 UTC Investigating - Cloudflare is observing possible network congestion in the North America region. Customers may see elevated latency and connectivity issues. We are working to mitigate impact to Internet users in this region.
-
-### Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability,...
-
-### INC20000115
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/0js22rxjm66q
-- Summary: Jul 30, 04:56 UTC Resolved - Current status: We've monitored the environment and confirmed that reverting the configuration change restored service. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer...
-
-### Understanding Submodular Information Measure Based Objectives for Representation Learning: A Variance and Separation Perspective
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27660
-- Summary: Submodular Information Measures (SIMs) have recently emerged as a powerful framework for representation learning and multimodal learning. In particular, the SCORE framework~\cite{majee2024score} demonstrated that SIMs can serve as effective objectives for supervised contrastive learning. Despite...
-
-### From Single- to Cross-Document: Benchmarking Multi-Granularity Event Analysis of Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27654
-- Summary: Event analysis is an essential and fundamental direction of information extraction, involving various event-centric tasks at different granularity of documents. While large language models (LLMs) have preliminarily achieved promising performance in part of these tasks individually, their capability...
-
-### Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.26119
-- Summary: arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We...
-
-### Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.26120
-- Summary: arXiv:2607.26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings,...
-
-### ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.26155
-- Summary: arXiv:2607.26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce...
-
-### When benchmark inferences do not compose: Projectibility in AI evaluation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.26159
-- Summary: arXiv:2607.26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with...
 
