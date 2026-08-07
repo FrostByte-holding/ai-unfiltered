@@ -6,6 +6,30 @@
 
 ## 2026-08-07
 
+### Worker's Observarbility Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/mxlpy0nnr2j8
+- Summary: Aug 7, 16:04 UTC Investigating - Cloudflare is aware, and investigating reports where a subset of customers are not seeing logs in the Workers Observability dashboard after deploying a new version of a Worker. Affected Workers continue to run and serve traffic normally. Metrics remain available.
+
+### The Download: a censorship conspiracy theory and the first virus created by AI
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex”...
+
+### Network Performance Issues in Chicago (ORD)
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/x6fmvws5z368
+- Summary: Aug 7, 14:03 UTC Resolved - This incident has been resolved. Aug 7, 13:13 UTC Monitoring - Cloudflare is investigating issues with network performance in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
+
+### How ideas of a vast censorship network moved from the online fringe to Trump policy
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/
+- Summary: This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk’s Department of Government...
+
 ### Growing Up The Hard Way
 - Source: The Hacker News
 - Category: security
@@ -231,6 +255,12 @@
 - URL: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
 - Summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked...
 
+### Scalable estimation of VARMA models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06340
+- Summary: Vector autoregressive moving-average (VARMA) models have long been considered impractical beyond moderate dimensions: the likelihood is non-convex, the parametrization is identified only up to equivalence, and every evaluation costs a pass over the entire series. Yet their moving-average term...
+
 ### Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents
 - Source: HF Daily Papers
 - Category: open-source
@@ -362,6 +392,12 @@
 - URL: https://tldr.takara.ai/p/2608.05878
 - Summary: Text-to-image diffusion transformers learn about objects and scenes by learning to generate them, making them strong candidates for training-free zero-shot open-vocabulary semantic segmentation. State-of-the-art attribution methods score each pixel independently, comparing its features against a...
 
+### Personalized Deep Research Query Refinement with Graph-Scaffolded Evidence Grounding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05876
+- Summary: User requests serve as research specifications for deep research agents, shaping what evidence to seek and how to synthesize it. In personalized deep research, these specifications must additionally reflect user goals, constraints, preferences, and evaluation criteria. User context can be...
+
 ### Overcoming Attention Drift: Homogeneity-Heterogeneity Guided Feature Aggregation for Low-Light Remote Sensing Image Enhancement
 - Source: HF Daily Papers
 - Category: open-source
@@ -469,6 +505,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc
 - Summary: The end of an era.
+
+### The Judgment-Consequence Gap: LLM Moral Reasoning in Healthcare Decisions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05583
+- Summary: As large language models (LLMs) enter high-stakes domains such as healthcare, understanding their moral reasoning becomes essential. Decisions about scarce medical resources often hinge on judgments of responsibility, particularly when patients' own actions contribute to illness. We investigate how...
 
 ### A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)
 - Source: arXiv AI
@@ -650,6 +692,12 @@
 - URL: https://arxiv.org/abs/2608.02971
 - Summary: arXiv:2608.02971v1 Announce Type: new Abstract: Language models often complete an underspecified reference to a city with unstated assumptions about urban size, form, infrastructure, environment, and function. We measure those assumptions without naming places. Ten open-weight checkpoints rate...
 
+### Where Models Converge and Humans Diverge: A Coverage Framework for Distributional Pluralism in Open-Ended Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05576
+- Summary: When a large language model (LLM) writes Harry Potter fanfiction, it reliably produces fundamental elements of the Hogwarts universe, such as recognizable places and characters. Human-written Harry Potter fanfictions, however, typically include these fundamentals and much more, incorporating...
+
 ### At the Embodied-AI Crossroads, WUWENAI Chose to Pave the Road
 - Source: Pandaily
 - Category: chinese-ai
@@ -691,6 +739,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-v4-flash-global-catfish-china-llm-export-aug2026-plain_ids
 - Summary: DeepSeek V4 Flash tops OpenRouter's weekly global token-usage ranking at 7.1 trillion tokens, with four of the top five slots now held by Chinese models, forcing OpenAI to cut GPT-5.6 Luna pricing by 80%.
+
+### APQF: Agentic Profiling-Guided Structured Pruning and Mixed-Precision Quantization with Adaptive Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05499
+- Summary: Modern deep neural networks achieve strong performance, but their scale makes them costly and slow, especially on resource-constrained edge devices. Pruning and quantization address this, but rely on manual, expert choices and on algorithms that are hard to apply across architectures. Uniform...
 
 ### Baseten on Hugging Face Inference Providers 🔥
 - Source: Hugging Face Blog
@@ -2968,58 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.27274
 - Summary: arXiv:2607.27274v1 Announce Type: new Abstract: EEG-based disease diagnosis requires one prediction per subject, yet common pipelines segment recordings into short instances, inherit the subject label for every instance, and train instance-level classifiers. This assumes that all instances provide...
-
-### Flat Score, Amplified Failures: How the Error Budget Masks Damage in Quantized LLM Agents
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.27275
-- Summary: arXiv:2607.27275v1 Announce Type: new Abstract: Post-training quantization to 4-bit weights is widely reported to be nearly lossless. We test this claim for multi-turn, tool-calling agents, where it now matters most. On $\tau^2$-bench, across two open-weight model families in dense and MoE variants...
-
-### The Kinetics of Training: A Driven-Nucleation Rate Law for Emergence, Plasticity Loss, and Circuit Control in Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2607.27281
-- Summary: arXiv:2607.27281v1 Announce Type: new Abstract: A capability appears in a language model when the last parts of its circuit align in one stochastic attempt, and getting all but one right is worth nothing. We show this no-partial-credit joint alignment is the rate-limiting step of capability...
-
-### HSS-Synth: Humanities and Social Sciences Data Synthesis for LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.27379
-- Summary: arXiv:2607.27379v1 Announce Type: new Abstract: High-quality, diverse data are vital for large language models (LLMs) but remain scarce and costly. Data synthesis is a viable alternative and succeeds on closed tasks, yet the humanities and social sciences (HSS) are overlooked, and their open-ended...
-
-### Same Facts, Different Diagnosis: Measuring and Mitigating Narrative Anchoring in Clinical Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.27384
-- Summary: arXiv:2607.27384v1 Announce Type: new Abstract: Large language models used for clinical diagnostic reasoning are sensitive to sociolinguistic register, not just clinical content. We term this failure mode Narrative Anchoring: identical clinical facts expressed in different registers cause...
-
-### AHA-Memes: A Fine-Grained Multimodal Benchmark for Understanding Hate in Arabic Memes
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.27393
-- Summary: arXiv:2607.27393v1 Announce Type: new Abstract: Hateful memes are a growing form of multimodal online harm, where hostile intent is often conveyed through the joint interpretation of images, text, cultural references, and implicit targets. While hateful meme detection has advanced in high-resource...
-
-### Benchmarking LLM Competence on Logical Inference over Probability Operators
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.27405
-- Summary: arXiv:2607.27405v1 Announce Type: new Abstract: Both expressions of uncertainty and inferences are ubiquitous in natural language, and valid inferences over natural-language expressions of uncertainty are necessary for not only everyday conversations but also for high-stakes domains such as...
-
-### Selecting Open-Weight Language Models for Zero-Shot Intent Classification: A Systematic Evaluation of 41 Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.27421
-- Summary: arXiv:2607.27421v1 Announce Type: new Abstract: Intent classification is a core component of task-oriented dialogue systems, yet practitioners have limited systematic guidance for selecting deployable open-weight language models under compute, latency, and robustness constraints. We present a...
-
-### Increased HTTP 5xx Errors for us-east-1-aws
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/s18kw61f2ht5
-- Summary: Jul 31, 02:34 UTC Identified - The issue has been identified and a fix is being implemented. Jul 31, 02:01 UTC Investigating - Cloudflare is investigating an increased level of intermittent HTTP 5xx errors for customers using AWS region us-east-1-aws.We are working to analyse and mitigate this...
-
-### Xiaomi Pengcheng N90 Max Debuts With Xiaomi Kunlun Super Extended-Range System: CLTC Combined Range Reaches 1,705km With 6.26L/100km Discharged Fuel Consumption
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-pengcheng-n90-max-kunlun-erev-jul2026
-- Summary: Xiaomi launches Kunlun platform with 7 core components developed and 57 redesigned parts, achieving 1,705km CLTC combined range and 6.26L/100km WLTC discharged fuel consumption for the N90 Max.
 
