@@ -4,7 +4,63 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-07
+
+### Incident with Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/qcvjkzcs7j74
+- Summary: Aug 7, 00:06 UTC Monitoring - The degradation has been mitigated. We are monitoring to ensure stability. Aug 7, 00:05 UTC Update - The degradation affecting Actions and Pages has been mitigated. We are monitoring to ensure stability. Aug 7, 00:01 UTC Update - System-wide queues have been drained,...
+
+
 ## 2026-08-06
+
+### New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+- Summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked...
+
+### Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
+- Summary: Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE...
+
+### Canadian Man Pleads Guilty in Snowflake Extortions
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+- Summary: A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener,...
+
+### Incident with Pages - Deployment Lag
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1xqvzyv99skw
+- Summary: Aug 6, 16:22 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 6, 15:50 UTC Monitoring - The degradation affecting Pages has been mitigated. We are...
+
+### New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
+- Summary: An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT...
+
+### ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
+- Summary: Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as...
+
+### WeatherNext: AI model achieves breakthrough in forecasting cyclones
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+
+### Snowflake Hacker Pleads Guilty in US Court
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court/
+- Summary: Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.
 
 ### Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts
 - Source: Security Week
@@ -12,11 +68,29 @@
 - URL: https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/
 - Summary: Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched. The post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on SecurityWeek.
 
+### Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
+- Summary: Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the...
+
 ### The Download: Google’s AI shake-up and Meta’s rogue model
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship...
+
+### Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/
+- Summary: (Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. The post Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway appeared first on SecurityWeek.
+
+### Critical Paperclip Flaw Allowed Admin Access, Code Execution
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/
+- Summary: An attacker could self-register, sign in for board-level API access, and import a new company for code execution. The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.
 
 ### Meta AI Hacked External Systems During Cybersecurity Testing
 - Source: Security Week
@@ -198,6 +272,96 @@
 - URL: https://arxiv.org/abs/2608.02919
 - Summary: arXiv:2608.02919v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed in complex, compound AI systems where performance hinges on the quality of prompts. Recent state-of-the-art optimizers like GEPA (Genetic-Pareto) have argued that reflective instruction evolution...
 
+### BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.04156
+- Summary: arXiv:2608.04156v1 Announce Type: new Abstract: Electroencephalography (EEG) analysis extends beyond assigning predefined labels to recordings; it requires workflows connecting natural-language instructions, signal processing, quantitative evidence, and scientific interpretation. We term this...
+
+### Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.04190
+- Summary: arXiv:2608.04190v1 Announce Type: new Abstract: Deploying pre-trained perception models in novel environments degrades their accuracy under distributional shift, and assembling them alone does not recover it: combiners such as majority voting trade recall for precision and are brittle to...
+
+### MatrAIx: Simulating the World with 8.3 Billion Persona Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.04205
+- Summary: arXiv:2608.04205v1 Announce Type: new Abstract: Human evaluation of AI systems and digital products is costly, slow, and difficult to scale. Offline evaluations are more scalable but often abstract away human diversity and interactive behavior. We therefore introduce MatrAIx, a population-scale...
+
+### Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.04232
+- Summary: arXiv:2608.04232v1 Announce Type: new Abstract: Biological systems must regulate competing needs under limited perceptual bandwidth, where sharpening one estimate costs the capacity to sharpen the others. Any fixed-budget system therefore has to decide where to allocate its perceptual precision. We...
+
+### The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.04285
+- Summary: arXiv:2608.04285v1 Announce Type: new Abstract: Neurosymbolic AI systems that integrate machine learning and symbolic reasoning are rapidly gaining attention. They complement the data-intensive statistical approaches of neural networks and language models with symbolic reasoning algorithms to...
+
+### An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.04041
+- Summary: arXiv:2608.04041v1 Announce Type: new Abstract: Open-World Learning (OWL) pipelines for oil well anomaly detection have recently been shown to combine autoencoder-based detection, multiclass classification, and Mahalanobis-based novelty detection on the public 3W dataset. These pipelines answer...
+
+### Tactus: Open-Vocabulary Object Recognition from Low-Cost Pressure Arrays
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.04043
+- Summary: arXiv:2608.04043v1 Announce Type: new Abstract: Resistive pressure arrays are the cheapest and most widely shipped tactile sensors, yet tactile representation learning has concentrated on optical sensors that image a deforming gel. We present Tactus, an open model that answers text queries from...
+
+### Robust and Personalized Federated Learning for Aircraft-Engine Prognostics under Benign and Adversarial Client Heterogeneity
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.04045
+- Summary: arXiv:2608.04045v1 Announce Type: new Abstract: Federated learning (FL) enables aircraft fleet operators to jointly train remaining-useful-life (RUL) models from engine sensor telemetry without sharing raw data. This study examines two complementary challenges: benign heterogeneity, where honest...
+
+### Recurrent Residual Quantization: A Progressive Multi-Precision Representation for LLMs
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.04048
+- Summary: arXiv:2608.04048v1 Announce Type: new Abstract: Serving large language models (LLMs) under diverse deployment constraints requires flexible trade-offs between accuracy, memory footprint, and throughput. However, conventional quantization methods typically require a separate checkpoint for each...
+
+### CAMP: A Cycle-Aware Multi-Scale Patch Mixer for Time Series Forecasting
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.04051
+- Summary: arXiv:2608.04051v1 Announce Type: new Abstract: Real-world time series are often governed by recurring patterns, but their dominant periods may vary across datasets, forecasting settings, and individual input windows. Existing cycle-aware forecasters commonly rely on a single period selected at the...
+
+### Character Iconicity vs. Arbitrariness: An Arabic NLP Perspective
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.02935
+- Summary: arXiv:2608.02935v1 Announce Type: new Abstract: Arabic script uses 28 letters, many of which share a common base shape (rasm) and are distinguished only by dot placement. Because early Arabic manuscripts were written without dots yet remained interpretable, dot removal offers a natural test of...
+
+### Aligned in Form, Not in Meaning: The Comprehension - Containment Decoupling of LLM Safety in Low-Resource Bangla Derogatory Speech
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.02941
+- Summary: arXiv:2608.02941v1 Announce Type: new Abstract: We audit five frontier large language models on native Bangla derogatory speech (gali) across six protocols to test a single hypothesis: Comprehension-Containment Decoupling. We propose that contemporary safety alignment is bound to high-resource...
+
+### OPTD: On-Policy Transition Distillation with Consistency-Guided Adaptive Compression for Few-Step Diffusion Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.02942
+- Summary: arXiv:2608.02942v1 Announce Type: new Abstract: Diffusion language models (dLLMs) can predict many tokens in parallel, but accurate generation still requires many iterative denoising steps. Few-step distillation accelerates decoding by compressing multiple teacher steps into a single student...
+
+### Every Wrong Answer Counts: Option-Level Psychometrics for LLM Multiple-Choice Benchmarks
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.02966
+- Summary: arXiv:2608.02966v1 Announce Type: new Abstract: Most multiple-choice question (MCQ) benchmarks evaluate Large Language Models (LLMs) only by whether they select the correct answers. This binary scoring treats all incorrect responses alike, even though an LLM's preferences among incorrect options...
+
+### Mapping the City Through the Lens of Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.02971
+- Summary: arXiv:2608.02971v1 Announce Type: new Abstract: Language models often complete an underspecified reference to a city with unstated assumptions about urban size, form, infrastructure, environment, and function. We measure those assumptions without naming places. Ten open-weight checkpoints rate...
+
 ### At the Embodied-AI Crossroads, WUWENAI Chose to Pave the Road
 - Source: Pandaily
 - Category: chinese-ai
@@ -362,6 +526,18 @@
 - URL: https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html
 - Summary: Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, observed in two...
 
+### Global Attention-Fused Image Cropping with Attention-Guided and Global-Aligned Crop Evaluator
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04821
+- Summary: Image cropping aims to improve image aesthetics by preserving important content within an appropriately composed region. However, most existing methods focus primarily on salient regions and therefore have limited sensitivity to the global relationships among the main image components. To address...
+
+### Segmentation Pre-training for Label-Efficient Lumbar Spine Degeneration Grading
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04810
+- Summary: Automated assessment of degenerative pathology in the lumbar spine on magnetic resonance imaging (MRI) requires access to large-scale datasets of expert-annotated radiological gradings. In contrast, segmentation pseudo-labels can be generated by automated tools at negligible radiologist cost. We...
+
 ### Some Copilot Cloud Agent jobs not starting
 - Source: GitHub Status
 - Category: incidents
@@ -464,6 +640,12 @@
 - URL: https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/
 - Summary: The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.
 
+### Rethinking Reservoir Pruning: A Dynamical Perspective for Echo State Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04593
+- Summary: Echo State Networks (ESNs) offer an efficient framework for temporal prediction, but their randomly initialized reservoirs are often over-parameterized and dynamically redundant. Existing pruning methods largely rely on static connectivity or activation statistics, which may overlook neurons that...
+
 ### Tencent Expands International Access to Flagship Hy3 Model, Offers Free WorkBuddy Access Until Aug 31
 - Source: Pandaily
 - Category: chinese-ai
@@ -481,6 +663,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/
 - Summary: At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion...
+
+### What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04562
+- Summary: Agent skills are increasingly optimized by automated feedback loops, producing long structured artifacts whose internal value remains unclear. We study skill valuation: assigning credit to the internal units of a fixed skill, such as rules, examples, scripts, and heuristics, under a fixed agent and...
 
 ### Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself
 - Source: The Hacker News
@@ -739,6 +927,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.02689
 - Summary: arXiv:2608.02689v1 Announce Type: new Abstract: We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly does the conversion break? After surgery, hidden-state...
+
+### EdgeLM: Edge Demonstrations for Language Models' Table Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04390
+- Summary: Large language models (LLMs) perform table-centric prediction through in-context learning, making demonstration selection critical to performance. Existing retrieval methods prioritize similarity to the query, but similar demonstrations often reinforce the model's likely prediction rather than...
 
 ### China Humanoid Robots in 2026: Production Boom Meets Deployment Reality Check as AgiBot and Unitree Lead
 - Source: Pandaily
@@ -2830,196 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2607.27966
 - Summary: Graph Foundation Models (GFMs) have recently emerged as a promising paradigm for general-purpose graph learning, aiming to learn reusable knowledge that generalizes across diverse graph domains and downstream tasks, reducing the need for specific model development. Achieving this goal requires...
-
-### Copilot model Claude Fable 5 experiencing elevated errors
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/9tpgqq1h4bs7
-- Summary: Jul 30, 10:12 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Jul 30, 10:11 UTC Update - The issues with our upstream model provider have been...
-
-### FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27959
-- Summary: Due to their strong generalizable multimodal processing and reasoning capabilities, Multimodal Large Language Models (MLLMs) have demonstrated significant potential as universal image retrievers, effectively addressing diverse real-world image retrieval tasks. Nevertheless, pioneering studies,...
-
-### LAST: The Last Query Token Guides Visual Token Pruning for Edge-Cloud Collaborative MLLM Inference
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27952
-- Summary: Multimodal foundation models are reshaping edge-cloud visual intelligence from task-specific feature pipelines into token-based interfaces, where edge devices encode visual inputs into tokens for a general-purpose cloud MLLM. However, dense visual-token sequences increase cloud-side inference...
-
-### Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/
-- Summary: Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container. The post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms appeared first on SecurityWeek.
-
-### TriShield: Zero-Utility-Loss Defense Against Privacy Backdoors in Federated Language Model Fine-Tuning via Orthogonal Gradient Projection and Optimizer State Entanglement
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27940
-- Summary: Federated fine-tuning of large language models (LLMs) enables collaborative training without exposing raw data. However, a recent attack, NeuroImprint [1] (arXiv:2606.20553), demonstrates that a malicious parameter server can corrupt a PEFT adapter into a privacy backdoor: by assigning a dedicated...
-
-### The Geometric Nature and a Free Proxy for Flow-Matching Uncertainty
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27933
-- Summary: Flow matching (FM) has become a popular action head paradigm for modern embodied models. However, as a conditional generative model, it does not explicitly expose its inherent uncertainty, producing faulty action chunks even when it misinterprets the scene or encounters out-of-distribution (OOD)...
-
-### ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27924
-- Summary: In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning paradigms for world modeling are largely confined to discrete-time prediction, thereby exhibiting significant inefficiency in capturing the dynamics of physical world. We introduce...
-
-### Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27919
-- Summary: Decoder-only language models entangle long-term memory and reasoning in a single parameter set, making it difficult to scale memory capacity independently. Memory Decoder introduces a parametric long-term memory module but only studies it at a relatively small scale. In this work, we present Memory...
-
-### 1 in 5 Data Center Assets Are Within Easy Reach of Attackers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/1-in-5-data-center-assets-are-within-easy-reach-of-attackers/
-- Summary: Claroty has analyzed 750,000 cyber-physical systems across some of the world’s largest data center facilities. The post 1 in 5 Data Center Assets Are Within Easy Reach of Attackers appeared first on SecurityWeek.
-
-### S-CEReBrO: Breaking the Memory Barrier in Continuous EEG Monitoring
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27913
-- Summary: Foundation models offer a promising paradigm for Electroencephalography (EEG) analysis, leveraging generalizable representations from vast unlabeled datasets. Yet, Transformer-based architectures face a critical bottleneck: global attention mechanisms couple the attention memory state to the signal...
-
-### Integrating Contextual Embeddings into Evaluation of Expressive MIDI Piano Performances
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27909
-- Summary: Objective evaluation of expressive MIDI piano performances typically relies on attribute statistics such as timing, velocity, and duration of individual notes. However, these methods often disregard dependencies between notes, which poses a potential limitation in assessing the similarity between...
-
-### One Patch Is Enough: Reinforcement-Optimized Visual Token Grounding for MLLM-Based Scene Text Spotting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27902
-- Summary: Scene text spotting requires high-precision alignment between textual recognition and spatial localization. While visual-token grounding has emerged as a promising formulation for Multimodal Large Language Models (MLLMs), the previous multi-patch paradigm often introduces redundant noise and...
-
-### RoboBRIDGE: A Modular Framework for Bridging Policies to Robust Real-World Robotic Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27881
-- Summary: Vision-Language-Action (VLA) models have attracted growing interest as a scalable approach to robotic manipulation. While these models are effective action predictors, deploying them as robotic agents exposes critical gaps: no mechanism for failure recovery, inconsistent execution over long...
-
-### Orca: Neural Operators for Causal Reasoning in Continuous Time
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27867
-- Summary: Structural causal models are the standard language for reasoning about interventions and counterfactuals, but they describe static variables, typically measured once, and usually forbid cyclic dependencies. Many systems we care about, such as patients, climates, and economies, instead evolve...
-
-### ZAPs: A Reward Attribution Framework for DeFi Ecosystems with Adversarial-Robust Scoring via Parallel Anomaly Ensemble Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27859
-- Summary: Incentive programs are central to user acquisition in decentralized finance, but many reward systems rely on raw volume, transaction count, and wallet count, making them vulnerable to bots and sybil operations. We present ZAPs, a reward attribution framework that combines economic contribution...
-
-### US and Allies Update SBOM Guidance
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-and-allies-update-sbom-guidance/
-- Summary: Five years after the initial release, the refresh introduces new elements, removes others, and updates terminology. The post US and Allies Update SBOM Guidance appeared first on SecurityWeek.
-
-### Chrome 151 Patches 370 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/
-- Summary: The major browser update resolves roughly 80 critical- and high-severity security defects. The post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek.
-
-### SPFM-Net: Semantic-Prior-Guided Frequency-Constrained Mamba for Invisible Watermark Attack
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27811
-- Summary: Existing watermark attacks typically rely on predefined signal-processing operations or locally constrained restoration networks, making it difficult to capture the long-range dependencies of globally distributed watermark signals and resulting in an unfavorable trade-off between removal...
-
-### Dark Horse Muka Robotics Charges WorldArena With Only 32 Zhenwu 810E GPUs: LJM World Model Achieves Global Second Place Defining the Breakthrough From Video Quality to Physical Logic
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/muka-robotics-worldarena-ljm-world-model-jul2026
-- Summary: Muka Robotics LJM Latent Joint-conditional Model achieves WorldArena global #2 at 89.17 Motion Quality with only 32 GPUs, establishing a dual-expert architecture that prioritizes physical understanding over video generation quality.
-
-### Tencent WorkBuddy Monthly Active Users Exceed Alibais Entire AI Product Portfolio, Pushing DingTalk CEO to Launch Qianwen Office in Just 46 Days: The Desktop AI Office Battle Heats Up
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-workbuddy-vs-dingtalk-ai-office-jul2026
-- Summary: WorkBuddy 20.97M monthly visits surpass Alibaba QoderWork 7.88M combined portfolio; DingTalk new CEO Chen Yusen launches Qianwen Office from product consolidation in 46 days as competitive response.
-
-### Tencent WorkBuddy Launches Human-Agent Dual Writing: Office Suite Built Into AI Agent With Real-Time Collaborative Editing Across Word Excel PPT and Markdown
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-workbuddy-human-AI-dual-writing-jul2026
-- Summary: WorkBuddy V5.3.5 with Tencent Docs integration enables box-select-and-edit AI collaboration in Office documents, supporting local Office files and cloud documents with contextual multi-modal intelligence.
-
-### Chinese Tech Companies Used to Benchmark Against America, but the World Model Field Has Broken That Pattern: WAIC Panel Says China Now Leads Without a US Counterpart to Follow
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-world-model-no-us-benchmark-jul2026
-- Summary: At WAIC 2026, Muka Robotics, Shengshu Technology, EvoPhys.ai, and Chengwei Capital discuss how Chinas world model startups now operate without US analogs, turning the conventional catch-up narrative.
-
-### From Assembly Line to Global Intelligent Manufacturing Center: Dongguan Redefines Itself as AI Hardware Capital With 24,000 Companies and Half of Worlds AI Glasses Output
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dongguan-global-intelligent-manufacturing-center-jul2026
-- Summary: Dongguan produces half the worlds AI glasses with 400K+ units in 2025, 24,000 industrial enterprises, 10K+ high-tech firms, national AI pilot base, and 1-hour supply chain for smart manufacturing.
-
-### Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html
-- Summary: The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial,...
-
-### FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html
-- Summary: The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 28. The move generally prevents new models from receiving the equipment authorization required for import, marketing, or sale in the US. Previously authorized...
-
-### Can AI Follow In Einstein's Footsteps?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27794
-- Summary: AI is accelerating physics discovery, but perhaps away from Einstein-level theory building. To understand this gap, we must recognize a striking trend: while being very successful, the most visible AI contributions to physics discovery appear to mirror the historical development of physics, but in...
-
-### CXR-Retrieve: Compositional Text-to-Image Retrieval in Chest Radiography
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27779
-- Summary: Large chest radiography archives are difficult to search because most studies are paired only with free-text reports rather than structured clinical annotations. Vision-language models offer a natural interface for text-to-image retrieval, but current biomedical models are primarily optimized for...
-
-### ChronoMem: Version Control and Semantic Rollback for Large Language Model Agent Memory
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.27773
-- Summary: LLM agents increasingly rely on long-term memory to support multi-session interaction and personalization. However, existing agent memory systems are designed around forward-only evolution, continuously accumulating, consolidating, and overwriting knowledge, with no principled mechanism to inspect,...
-
-### Cisco Secure FMC Zero-Day Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/
-- Summary: The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.
-
-### Elevated errors across many models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/fsh2zzzl2c4l
-- Summary: Jul 30, 06:26 UTC Identified - All models except Opus 5 have recovered. We're working to recover Opus 5 as well. Jul 30, 05:57 UTC Investigating - We are currently investigating this issue.
-
-### Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
-- Summary: Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2...
-
-### Possible Network Congestion in North America region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/z33kqrzksxqy
-- Summary: Jul 30, 05:48 UTC Investigating - Cloudflare is observing possible network congestion in the North America region. Customers may see elevated latency and connectivity issues. We are working to mitigate impact to Internet users in this region.
 
