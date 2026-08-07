@@ -6,6 +6,48 @@
 
 ## 2026-08-07
 
+### Growing Up The Hard Way
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/growing-up-hard-way.html
+- Summary: Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back...
+
+### 18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
+- Summary: A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and...
+
+### Vishing Extortion Group UNC6671 Rebrands After Making Millions
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/
+- Summary: Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek.
+
+### New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html
+- Summary: Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the...
+
+### Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html
+- Summary: Cybersecurity researchers have called attention to an active "widespread email-driven phishing campaign" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email....
+
+### Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/
+- Summary: NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller&#8217;s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.
+
+### Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/
+- Summary: Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.
+
 ### China Pushes AI Compute Into Orbit, and the Satellites Start Doing Their Own Thinking
 - Source: Pandaily
 - Category: chinese-ai
@@ -177,11 +219,23 @@
 
 ## 2026-08-06
 
+### Learning When to Trust via Selective Context Preference Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06377
+- Summary: Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is...
+
 ### New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
 - Summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked...
+
+### Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06312
+- Summary: Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative testbed: they are lengthy, highly structured, and...
 
 ### UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression
 - Source: HF Daily Papers
@@ -212,6 +266,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html
 - Summary: An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run. MIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT...
+
+### TS-RAG: Retrieval Augmented Generation for Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06223
+- Summary: While deep learning models, particularly transformer-based architectures, have shown impressive performance in time series forecasting, the application of retrieval-augmented generation (RAG) in this domain remains limited. Since RAG has proven effective in enhancing the capabilities of large...
 
 ### ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
 - Source: The Hacker News
@@ -266,6 +326,12 @@
 - URL: https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/
 - Summary: (Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. The post Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway appeared first on SecurityWeek.
 
+### BioM-JEPA: joint-embedding prediction of graph-connected gene blocks in single cells
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05928
+- Summary: Single-cell transcriptomes are sparse observations of coordinated biological programmes, yet most self-supervised models learn by reconstructing individual genes. Here we present BioM-JEPA, a joint-embedding predictive architecture that instead predicts aggregate representations of graph-connected...
+
 ### CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps
 - Source: The Hacker News
 - Category: security
@@ -295,6 +361,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.05878
 - Summary: Text-to-image diffusion transformers learn about objects and scenes by learning to generate them, making them strong candidates for training-free zero-shot open-vocabulary semantic segmentation. State-of-the-art attribution methods score each pixel independently, comparing its features against a...
+
+### Overcoming Attention Drift: Homogeneity-Heterogeneity Guided Feature Aggregation for Low-Light Remote Sensing Image Enhancement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05843
+- Summary: Restoring high-fidelity remote sensing imagery from extreme low-light degradation is indispensable for reliable Earth observation and downstream machine vision. However, under severe noise and illumination corruption, existing methods suffer from attention drift, erroneously aggregating features...
 
 ### Meta AI Hacked External Systems During Cybersecurity Testing
 - Source: Security Week
@@ -2950,79 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xiaomi-pengcheng-n90-max-kunlun-erev-jul2026
 - Summary: Xiaomi launches Kunlun platform with 7 core components developed and 57 redesigned parts, achieving 1,705km CLTC combined range and 6.26L/100km WLTC discharged fuel consumption for the N90 Max.
-
-### From Moving to Acting: Zhejiang IPLUSMOBOT Technology Builds the Industrial Embodied AI Foundation Platform With NERA Robotics Product Line
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/iplusmobot-nera-embodied-ai-platform-jul2026
-- Summary: IPLUSMOBOT unveils NERA-P omnidirectional chassis and NERA-C controller at WAIC, standardizing AMR-proven navigation and control as reusable embodied intelligence infrastructure for humanoid wheeled and quadruped robots.
-
-### Humanoid Robots That Can Work: Zhejiang Humanoid Robot Innovation Center NAVIAI Goes From Ningbo to the World With 2,000-Unit Jack Sewing Order and Global Deployments
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhejiang-humanoid-naviai-ningbo-jul2026
-- Summary: Zhejiang Humanoid Robot Innovation Center deploys NAVIAI robots at SUPCON JACK GREE and FOTILE, signs 2,000-unit apparel order with Jack Technology, and expands to BEKO Turkey and KION Germany.
-
-### Overwhelmed Within Two Days of Launch: Moonshot AI Kimi K3 Open-Source Model Goes Global With 41% of World Open-Source Downloads and 4x Paid User Growth Overseas
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kimi-k3-open-source-global-craze-jul2026
-- Summary: Kimi K3, the largest open-weight model at 2.8T parameters, crashed services within 2 days of release, overseas paid users grew 4x, and API revenue grew 400% as China open-source dominates global downloads.
-
-### Hundreds of Billions in Capital Chase the Artificial Sun: Post-90s Scientist Wang Teng Says China Aims to Light the First Lamp of Fusion Power Generation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-nuclear-fusion-artificial-sun-jul2026
-- Summary: Global fusion industry cumulative funding reaches $14.24B, 7x 2021 levels, as Chinese scientist Wang Teng outlines EAST CRAFT and BEST progress toward igniting Chinas first fusion power plant.
-
-### Design Concept: Scaffolding Geopolitical Reflection Among Tech Workers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.28904
-- Summary: This paper presents a speculative Human-Computer Interaction design proposal for encouraging geopolitical reflexivity amongst tech workers at geopolitically relevant technology companies. Recent scholarship in International Relations and Science and Technology Studies increasingly recognizes...
-
-
-## 2026-07-30
-
-### CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisa-urges-water-sector-to-protect-ot-after-coordinated-attacks-on-plcs/
-- Summary: CISA is urging water and wastewater utilities to lock down internet-exposed controllers, days after intrusions hit dozens of Minnesota systems. The post CISA Urges Water Sector to Protect OT After Coordinated Attacks on PLCs appeared first on SecurityWeek.
-
-### Bank of America to Acquire Cybersecurity Firm MDSec
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/bank-of-america-to-acquire-cybersecurity-firm-mdsec/
-- Summary: The acquisition will add approximately 65 cybersecurity professionals to Bank of America’s operations in the United Kingdom. The post Bank of America to Acquire Cybersecurity Firm MDSec appeared first on SecurityWeek.
-
-### Okta to Acquire Identity Threat Detection Firm Permiso
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/
-- Summary: The deal extends Okta's reach beyond identity management and into the realm of security operations, positioning the company to compete more directly on identity threat detection and response. The post Okta to Acquire Identity Threat Detection Firm Permiso appeared first on SecurityWeek.
-
-### DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
-- Summary: Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of a new iteration of the long-running Contagious Interview...
-
-### Learning to Trace Seiberg Dualities
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2607.28628
-- Summary: Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the "rules of the game" are well-known. Said...
-
-### Montana’s plan to become an experimental medical hub just pushed forward
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/
-- Summary: As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once...
-
-### Read This Before You Buy That TV Streaming Stick
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
-- Summary: Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also...
 
