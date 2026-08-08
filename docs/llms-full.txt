@@ -6,6 +6,24 @@
 
 ## 2026-08-08
 
+### Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-qwen-app-update-wan3-0-video-model-biz-pricing-aug2026
+- Summary: Alibaba released five new features on the Qwen App on August 7, all powered by the new Qwen3.8-MAX flagship model and all free for now. The next day, Alibaba Cloud opened Wan 3.0 to public testing, with the first document-input video model in the family and a price list aimed straight at SMEs.
+
+### L3 Is Just the Starting Line for China's AI-Agent Phones
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ai-agent-phone-l3-national-standard-huawei-xiaomi-stepfun-aug2026
+- Summary: Eleven mobile devices cleared the first batch of China's national AI-terminal intelligence grading tests in July, including nine smartphones from Huawei, Motorola, Honor, vivo, OPPO, Xiaomi and Stepfun. Vendors are calling L3 the highest level, but the real bottleneck for L4 is not model capability.
+
+### Inside the 800,000-Yuan Robot Trainer Job That Did Not Exist Three Years Ago
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/embodied-ai-robot-trainer-800000-yuan-salary-new-job-aug2026
+- Summary: An embodied-AI robot application technician is one of 12 new occupations the Chinese Ministry of Human Resources and Social Security plans to add to the national catalog. Average salaries in the role already run between 500,000 and 800,000 yuan, and demand growth has been explosive.
+
 ### [AINews] Zawinski's Law of MultiAgents
 - Source: Latent Space
 - Category: open-source
@@ -134,6 +152,12 @@
 - URL: https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/
 - Summary: Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.
 
+### Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html
+- Summary: Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls,...
+
 ### China Pushes AI Compute Into Orbit, and the Satellites Start Doing Their Own Thinking
 - Source: Pandaily
 - Category: chinese-ai
@@ -151,6 +175,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-heavy-tech-roundup-fast-steel-ai-satellites-aug2026
 - Summary: From thinner-than-A4 high-end steel and a hardware refresh for the FAST telescope, to a pair of AI-enabled experimental satellites, China's late-summer 2026 scientific push covers industries from heavy manufacturing to astronomy and from orbital compute to next-generation displays. Several of these...
+
+### Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
+- Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the...
 
 ### 3.8 Million Impacted by Unlimited Technology Systems Data Breach
 - Source: Security Week
@@ -461,11 +491,23 @@
 - URL: https://tldr.takara.ai/p/2608.06195
 - Summary: Probabilistic Regression Trees (PRTrees) are a smooth and consistent alternative to classical regression trees, producing continuous predictions through probabilistic split assignments. This paper extends the PRTree framework to accommodate missing predictor values directly during tree...
 
+### Support Operation Factorization: Compositional Readout of Frozen Vision Encoders under Controlled Interventions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06174
+- Summary: Compositional analysis of frozen vision encoders should determine both what changed and where it changed. Standard factor probes score these axes separately, however, and can reward multiple operations that reuse the same predicted slot. We call this failure operation laundering. We introduce an...
+
 ### ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html
 - Summary: Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as...
+
+### PaDoc: Layout-Grounded Parallel Decoding for Document Parsing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06146
+- Summary: End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one autoregressive sequence. This formulation forces independent regions onto a decoding path whose length grows with the total content, whereas crop-based two-stage parsers expose...
 
 ### WeatherNext: AI model achieves breakthrough in forecasting cyclones
 - Source: DeepMind Blog
@@ -478,11 +520,23 @@
 - URL: https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court/
 - Summary: Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.
 
+### Mind the Gaps: Mixture-of-Minds for Human Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06115
+- Summary: Predicting how a population will answer a new question is a long-standing goal. Statistical methods succeed at the level of the mass but falter at the level of the individual. Large language model simulators inherit this gap. They recover a population's central tendencies while flattening its...
+
 ### Does Latent Context Help? A Controlled Evaluation of Inverse Reinforcement Learning in Arctic Shipping
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.06105
 - Summary: Artificial Intelligence (AI)-assisted navigation can help Arctic shipping adapt to rapidly changing sea-ice conditions, but reliable deployment requires reward models that are interpretable and robust to changing environments. Inverse reinforcement learning (IRL) provides a framework for recovering...
+
+### ProDVI: Programmatic Dynamics Priors for Value Network Initialization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06015
+- Summary: Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through...
 
 ### Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts
 - Source: Security Week
@@ -903,6 +957,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.05576
 - Summary: When a large language model (LLM) writes Harry Potter fanfiction, it reliably produces fundamental elements of the Hogwarts universe, such as recognizable places and characters. Human-written Harry Potter fanfictions, however, typically include these fundamentals and much more, incorporating...
+
+### A Multi-Layer System for Ultra-High-Resolution Static 360-Degree Telepresence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05570
+- Summary: 360-degree video telepresence offers strong immersive potential but remains constrained by the limited resolution of current capture and display hardware. Many telepresence installations feature fixed viewpoints and largely static scenes, yet optimization strategies tailored to such setups have...
 
 ### At the Embodied-AI Crossroads, WUWENAI Chose to Pave the Road
 - Source: Pandaily
@@ -2964,64 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html
 - Summary: Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or Vivo phones, then click ads on websites run by the same operators. Researchers named the operation Fuyao and attributed it to Zhejiang Fengwo IoT Technology...
-
-### Cloudflare API Availability Reduced Availability
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pgcdxsjxkl0q
-- Summary: Jul 31, 13:01 UTC Resolved - This incident has been resolved. Jul 31, 12:46 UTC Update - We are continuing to monitor for any further issues. Jul 31, 12:43 UTC Monitoring - A fix has been implemented and we are monitoring the results. Jul 31, 12:37 UTC Update - Cloudflare is aware that this is also...
-
-### Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html
-- Summary: Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined. Both versions were released last month. In its latest patch for Chrome 151, released Wednesday,...
-
-### The Download: Montana’s new experimental drug rules
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward As of this week in Montana, biotech companies whose drugs have been through...
-
-### Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html
-- Summary: An academic study has disclosed a "widespread class" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control of a user's network session. The...
-
-### 6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html
-- Summary: Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months. Designed for input-constrained devices like smart TVs, printers, and so on, the device authorization...
-
-### Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html
-- Summary: Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found internet-facing systems and selected public exploits. The researchers recovered no...
-
-### Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/
-- Summary: The internet giant has built an agent harness to find vulnerabilities across Chrome’s codebase. The post Google AI Uncovers 13-Year-Old Chrome Flaw Amid Record Patching Pace appeared first on SecurityWeek.
-
-### EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/
-- Summary: When the AI Act comes into force, AI companies will be required to make clear to consumers with labels or digital watermarks that chatbots or imagery are generated with AI. The post EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels appeared first on...
-
-### Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/after-openai-disclosure-anthropic-finds-its-own-models-hacked-3-organizations/
-- Summary: A security company’s systems were hacked after it installed a malicious Python package deployed by Claude. The post Prompted by OpenAI Disclosure, Anthropic Finds Its Own Models Hacked 3 Organizations appeared first on SecurityWeek.
-
-### Enterprise & Education Chat Errors
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KYVPNEY9736Z04D3X1NSFFF9
-- Summary: Status: ResolvedThis is now resolved.
 
