@@ -6,11 +6,29 @@
 
 ## 2026-08-08
 
+### Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/
+- Summary: The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data. The post Critical One-Click Vulnerability in Atlassian&#8217;s Rovo AI Exposed Enterprise Data appeared first on SecurityWeek.
+
+### Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
+- Summary: Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed....
+
 ### Network Performance Issues in Istanbul
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/x44ny80374v7
 - Summary: Aug 8, 08:25 UTC Investigating - We have lost dark fiber in the Istanbul region, we are working to follow up with our vendors to restore connectivity.More updates to follow shortly.
+
+### New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
+- Summary: New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens,...
 
 ### Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
 - Source: The Hacker News
@@ -580,6 +598,12 @@
 - URL: https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html
 - Summary: Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the...
 
+### Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05944
+- Summary: We report operational experience full-fine-tuning a 32.76B-parameter dense model (Qwen3-32B) on 16 x NVIDIA B300 (two nodes, FSDP / ZeRO-3) -- among the first published field accounts on this accelerator. We claim no new algorithm. The individual mechanisms we use are established practice; our...
+
 ### The Download: Google’s AI shake-up and Meta’s rogue model
 - Source: MIT Tech Review AI
 - Category: research
@@ -789,6 +813,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
 - Summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at...
+
+### Dual-Output Multi-Exposure HDR Reconstruction via SDR Fusion and Gain Map Inverse Tone Mapping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05626
+- Summary: We propose DOME-HDR, a dual-output multi-exposure HDR reconstruction framework that jointly produces a perceptually balanced SDR image and a consistent HDR image via gain map inverse tone mapping. Given three bracketed LDR inputs, DOME-HDR first synthesizes a base SDR using a LoRA-adapted latent...
 
 ### [AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???
 - Source: Latent Space
@@ -1614,6 +1644,12 @@
 - URL: https://arxiv.org/abs/2608.02689
 - Summary: arXiv:2608.02689v1 Announce Type: new Abstract: We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly does the conversion break? After surgery, hidden-state...
 
+### NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04397
+- Summary: We introduce NOLLI, a procedurally generated English-Korean puzzle benchmark designed to diagnose where Korean performance gaps arise. It comprises 15 puzzle types (25 tasks; 7,500 items), with every instance seed-regenerable, verified to have a unique solution, and scored deterministically. Rather...
+
 ### EdgeLM: Edge Demonstrations for Language Models' Table Understanding
 - Source: HF Daily Papers
 - Category: open-source
@@ -2238,6 +2274,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.03068
 - Summary: Reinforcement learning (RL) has emerged as an effective method for enhancing the reasoning capabilities of large language models (LLMs). However, existing methods suffer from insufficient precision in feedback on generated answer trajectories and exhibit the phenomenon of problem difficulty drift....
+
+### AIDE: Automated Instruction via Distilled Expertise for Reference-Free Motor Skill Coaching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03047
+- Summary: Generating natural-language coaching feedback on motor skills can accelerate learning, yet expert coaches are scarce and expensive. Existing reference-based methods require expert demonstrations at both training and inference time, limiting practical deployment. We propose AIDE (Automated...
 
 ### Cloudflare Workers deployment Issues
 - Source: Cloudflare Status
@@ -2929,6 +2971,12 @@
 
 ## 2026-08-02
 
+### Scoring Rules! Statistical and Strategic Alignment for Text Evaluation Metrics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.01423
+- Summary: Reference-based text evaluation metrics, which are widely used to assess natural language generation systems, score a candidate response by comparing it with a reference response. The reliability of an evaluation metric is usually judged by its statistical correlation with human ratings. However,...
+
 ### Perspectives on Tsallis Statistics for Artificial Intelligence
 - Source: HF Daily Papers
 - Category: open-source
@@ -2973,52 +3021,4 @@
 - Category: security
 - URL: https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/
 - Summary: The funding round was led by SYN Ventures, with participation from existing investors DataTribe and TEDCO. The post Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments appeared first on SecurityWeek.
-
-### Ruby on Rails Patches Critical Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/
-- Summary: The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE). The post Ruby on Rails Patches Critical Vulnerability appeared first on SecurityWeek.
-
-### Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
-- Summary: Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to...
-
-### Network Performance Issues in Istanbul
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pgbznnvc2vtw
-- Summary: Aug 1, 07:30 UTC Resolved - Cloudflare is aware of Network Performance issues in Istanbul, Türkiye, between 07:05 and 07:20UTC where there was elevated latency and connection errors observed.
-
-### Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
-- Summary: Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS...
-
-### Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html
-- Summary: A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the operation as CaptiveCrunch and attribute it to...
-
-### ByteDance Grows More Adaptable: Feishu Product Team Merges Into Doubao and GTM Shifts to Volcano Engine as ByteDance Reorganizes Around AI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-feishu-doubao-restructure-jul2026
-- Summary: ByteDance restructures its B-end AI business: Feishu product and Doubao teams merge under Zhao Qi, GTM consolidates into Volcano Engine, ending Feishu independent BU status.
-
-### Smartphone Batteries Enter the Silicon-Carbon 10,000mAh Era in 2026: OPPO, Honor, and vivo Lead Capacity Race as AI Power Consumption Drives Energy Density Breakthroughs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/smartphone-batteries-silicon-carbon-10000mah-era-jul2026
-- Summary: OPPO A7 Pro Max joins the 10,000mAh club with spherically structured silicon-carbon, as mainstream Chinese brands race into the 10K era driven by AI inference power and 35% share for 6000mAh-plus phones.
-
-### CXMT LPDDR6 Hits Key Breakthrough: Research Validation Nearing Completion as ChangXin Memory Technologies Closes In on Mass Production of 12,800 Mbps Mobile DRAM
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cxmt-lpddr6-key-breakthrough-jul2026
-- Summary: CXMT LPDDR6 development validation nearing completion, 12,800 Mbps design rate, 16Gb density, positioning for H2 2026 mass production against SK Hynix as Apple evaluates CXMT DRAM.
 
