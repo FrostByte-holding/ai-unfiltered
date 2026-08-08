@@ -658,6 +658,12 @@
 - URL: https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/
 - Summary: An attacker could self-register, sign in for board-level API access, and import a new company for code execution. The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.
 
+### CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05886
+- Summary: Modern LLM coding agents such as Claude Code and OpenHands share a common inefficiency: they spend much of their token budget finding the file to patch, rather than patching it. On SWE-Bench Verified, a 30B OpenHands agent averages 23 rounds and 631K tokens per resolved issue, with many calls spent...
+
 ### MAVISEG: Manifold Propagation and Visual Prototypes for Zero-Shot Open-Vocabulary Segmentation in Diffusion Transformers
 - Source: HF Daily Papers
 - Category: open-source
@@ -1969,6 +1975,12 @@
 - URL: https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html
 - Summary: cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past...
 
+### Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03403
+- Summary: The performance bottleneck of agents is increasingly shifting from model capability to the robustness of their execution processes. Tools play a central role as the primary interface through which agents interact with external environments, yet existing methods rarely focus on ensuring robust tool...
+
 ### Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks
 - Source: Security Week
 - Category: security
@@ -2380,6 +2392,12 @@
 
 ## 2026-08-03
 
+### When Compression Scores Cannot Decide: Information Boundaries for Group-Robust LLM Pruning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02940
+- Summary: A stable compression score can still select the worse model. In our dense study, a split-half reliable path-quadratic score predicted a 16.1\% gain, while the selected endpoints were 6.0--7.7% worse than two controls. We ask what a compression statistic can justify when deployment cares about the...
+
 ### Network Performance Issues in Istanbul
 - Source: Cloudflare Status
 - Category: incidents
@@ -2433,6 +2451,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.02495
 - Summary: Despite the remarkable progress over the past decades, accurately identifying small objects remains challenging because of their insufficient visual cues. Previous works typically attempt to construct discriminative representation of the small objects. However, the wide range frequency domain...
+
+### CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02472
+- Summary: Trust is fundamental in modern regulatory ecosystems, and compliance checking plays a critical role in fostering that trust. Regulatory compliance verification is essential for businesses operating in highly controlled environments, as it ensures alignment with sector-specific guidelines across...
 
 ### Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts
 - Source: The Hacker News
@@ -2991,31 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/six-networks-trillion-commercial-space-jul2026
 - Summary: The April Politburo meeting launched six networks investment exceeding 7 trillion yuan, with remote sensing, satellite communications, and BeiDou timing ground equipment expected to see first commercial space orders.
-
-### DeepSeek-V4-Flash Official Version Released and Open-Sourced: 304B Lightweight Model Surpasses V4-Pro Preview and Matches Claude Opus-4.8, Hailed as Third DeepSeek Moment
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-v4-flash-official-open-source-jul2026
-- Summary: DeepSeek-V4-Flash-0731 official release outperforms V4-Pro preview with 82.7 performance score at 0.14/0.28 USD pricing, tops VulcanBench, and reaches HuggingFace trending second.
-
-### Measuring in-context algorithmic reasoning in language models against an exact Bayes-optimal standard
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.01575
-- Summary: Whether large language models perform genuine algorithmic reasoning or mere pattern completion is hard to test, because most benchmarks lack a ground truth for correct inductive inference. We introduce F-ICL, an in-context-learning benchmark that supplies one exactly. Using the Turing-complete...
-
-
-## 2026-08-02
-
-### Scoring Rules! Statistical and Strategic Alignment for Text Evaluation Metrics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.01423
-- Summary: Reference-based text evaluation metrics, which are widely used to assess natural language generation systems, score a candidate response by comparing it with a reference response. The reliability of an evaluation metric is usually judged by its statistical correlation with human ratings. However,...
-
-### Perspectives on Tsallis Statistics for Artificial Intelligence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.01223
-- Summary: Tsallis statistics generalizes Boltzmann-Gibbs statistical mechanics through a single real parameter $q$ that controls the weight assigned to rare and frequent events. Originally proposed to describe physical systems with long-range correlations, multifractal geometry, and heavy-tailed...
 
