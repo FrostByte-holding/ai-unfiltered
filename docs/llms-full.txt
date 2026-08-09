@@ -592,6 +592,12 @@
 - URL: https://tldr.takara.ai/p/2608.06015
 - Summary: Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through...
 
+### Observation-Grounded Self-Predictive Reinforcement Learning for Visual Continuous Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05989
+- Summary: Sample-efficient policy learning from pixels is a long-standing challenge in reinforcement learning (RL). Recent dynamics-based representation learning methods have significantly improved the sample efficiency of model-free visual RL by learning dynamics-aware representations through auxiliary...
+
 ### Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts
 - Source: Security Week
 - Category: security
@@ -1975,6 +1981,12 @@
 - URL: https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
 - Summary: Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt-injected into...
 
+### ToolLIFT: Lifting Tool-Specific Trajectories into Function-Level Graphs for Generalizable Tool Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03468
+- Summary: Historical tool-use trajectories provide valuable experience for large language model (LLM) agents to plan and coordinate tool usage. Existing approaches directly construct tool-level graphs from these trajectories, but the resulting graphs remain tied to specific tools and are hard to generalize...
+
 ### Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering
 - Source: Security Week
 - Category: security
@@ -2106,6 +2118,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-bug-bounty-program-20-million-paid-to-500-researchers/
 - Summary: The biggest single reward paid out by Microsoft between July 1, 2025, and June 30, 2026, was $200,000. The post Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers appeared first on SecurityWeek.
+
+### Trajectory-Guided Forget-Recover Network for Continual LLM Unlearning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03123
+- Summary: Machine unlearning aims to eliminate the influence of sensitive data on a model. In the real world, unlearning requests arrive continually, which gives rise to two challenges. First, an unlearning intervention may redistribute target-related computation across remaining pathways, allowing...
 
 ### Non-Destructive Quantification of Urea Adulteration in Bovine Milk Using Transmittance Multispectral Imaging
 - Source: HF Daily Papers
@@ -2997,22 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.28641
 - Summary: arXiv:2607.28641v1 Announce Type: new Abstract: We introduce the \textit{Agentic Formalism Trap} and the Evaluative Dissonance Index ($D_E$), quantifying how LLM-as-a-Judge systems conflate structural proceduralism with semantic truth under adversarial load. Analyzing 22,500 trajectories across 3...
-
-### Evaluating Federated Pre-Training: On the Reliability of Downstream Fine-Tuning and Intrinsic Evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28658
-- Summary: arXiv:2607.28658v1 Announce Type: new Abstract: Federated pre-training offers a way to train foundation models on private or distributed data without centralizing the underlying datasets. However, evaluating federated pre-training remains challenging because differences in client participation and...
-
-### Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28661
-- Summary: arXiv:2607.28661v1 Announce Type: new Abstract: Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an ideal testbed. Existing...
-
-### CRAFT: Compression via Recursive Adaptive Fusion of Video Tokens for Vision-Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.01644
-- Summary: In video understanding, vision-language models (VLMs) must ingest massive numbers of visual tokens, causing the computational and memory cost of the prefill stage to rise sharply. Such visual sequences are highly redundant along the spatio-temporal dimension, yet a high compression ratio is often...
 
