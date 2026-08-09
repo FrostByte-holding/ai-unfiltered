@@ -871,6 +871,12 @@
 - URL: https://tldr.takara.ai/p/2608.05626
 - Summary: We propose DOME-HDR, a dual-output multi-exposure HDR reconstruction framework that jointly produces a perceptually balanced SDR image and a consistent HDR image via gain map inverse tone mapping. Given three bracketed LDR inputs, DOME-HDR first synthesizes a base SDR using a LoRA-adapted latent...
 
+### LC-GRPO: Bridging Train-Inference Gap for Flow-Based GRPO with Langevin Correction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05600
+- Summary: Flow-based generative models are typically sampled by solving a deterministic ordinary differential equation (ODE), whereas online reinforcement learning requires stochastic rollouts for policy exploration and optimization. Existing GRPO methods for flow models therefore replace the inference-time...
+
 ### [AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???
 - Source: Latent Space
 - Category: open-source
@@ -1262,6 +1268,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
 - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant...
+
+### Evaluation Pitfalls and Sparsity Limitations in LLM-based Confidence Estimates for Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04899
+- Summary: Confidence estimation is essential when LLMs are used for classification, indicating when predictions can be trusted. However, common approaches such as verbalization produce extremely sparse outputs. For instance, Qwen3-32B verbalizes only eight unique confidence values on SST-2, with over half...
 
 ### A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination
 - Source: HF Daily Papers
@@ -2503,6 +2515,18 @@
 - URL: https://www.latent.space/p/inference-eng
 - Summary: Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.
 
+### Test Time Adaptation Methods for Point Cloud Registration in Laparoscopic Surgery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02883
+- Summary: 3D point cloud registration in laparoscopic surgery estimates the transformation between an intraoperative organ reconstructed from video and its preoperative mesh. Because ground-truth transformations are unavailable for real data, supervised networks are trained on synthetic organ pairs. At test...
+
+### Topological Simplification in Predictive Coding Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02816
+- Summary: We study the topology of learned representations in predictive coding networks (PCNs), a neuro-inspired bidirectional architecture, using a quantitative layer-wise persistent homology analysis. We train well-performing PCNs on a synthetic classification dataset ($\geq 99.9\%$ test accuracy) and on...
+
 ### 18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users
 - Source: The Hacker News
 - Category: security
@@ -2893,6 +2917,12 @@
 - URL: https://tldr.takara.ai/p/2608.01704
 - Summary: A benchmark score means nothing without knowing what a trivial method achieves and what the best possible method could achieve. We construct both bounds for a task with a rare kind of ground truth: predicting which sentences a crowd of readers -- highlighting for their own purposes, unpaid,...
 
+### TCPO: Turn-Level Credit Policy Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.01667
+- Summary: Verifier-guided reinforcement learning has become a powerful paradigm for improving LLM reasoning. In multi-turn settings, models receive a verifier score after each turn and iteratively refine their outputs. Although such scores provide dense feedback, they do not directly provide dense credit: a...
+
 ### Style Wins, Substance Loses: A Diagnosis of LLM-as-Judge in Idea Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.28638
 - Summary: arXiv:2607.28638v1 Announce Type: new Abstract: As large language model (LLM) agents increasingly learn from experience, they primarily rely on trajectory-level reflection to extract insights. Viewed through the lens of predictive knowledge, we argue that this approach operates on episodic...
-
-### Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.28659
-- Summary: arXiv:2607.28659v1 Announce Type: new Abstract: Cross-domain sequential recommendation (CDSR) aims to model users' dynamic interest transitions and sequential patterns across multiple domains. Recently, generative recommendation (GR) has emerged. It first learns semantic identifiers (SIDs) from...
-
-### An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.28662
-- Summary: arXiv:2607.28662v1 Announce Type: new Abstract: Large language models extract entities and relationships from unstructured documents fluently but inconsistently: type vocabularies fracture across documents, the same person surfaces under several name variants, relationships duplicate, and distinct...
-
-### How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.28674
-- Summary: arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single...
-
-### Reasoning in Real World Clinical Care: Why Large Language Models Are Not Yet Safe for Autonomous Clinical Decision Support
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.28677
-- Summary: arXiv:2607.28677v1 Announce Type: new Abstract: LLM now pass medical licensing examinations and, in curated cases, can rival physicians at diagnostic reasoning. These developments have accelerated the use of LLMs for symptom assessment and clinical decision support in diagnostic and treatment...
-
-### ViSAGE: Constructing Self-Correcting Memories for Long-Form Video Understanding
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2607.28678
-- Summary: arXiv:2607.28678v1 Announce Type: new Abstract: Multimodal agents operating in long-horizon environments must build and continually update multimedia memories to support entity-consistent, temporally grounded reasoning. However, existing agentic memory approaches often discard fine-grained dentity...
 
