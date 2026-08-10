@@ -6,6 +6,18 @@
 
 ## 2026-08-10
 
+### Disruption with Copilot for access to some models
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1t7x65n7kvt1
+- Summary: Aug 10, 20:39 UTC Monitoring - We are currently investigating reports of some Copilot users experiencing issues accessing certain models. Affected users may see errors or degraded functionality when attempting to use specific models. We are actively working on a fix and will provide updates as we...
+
+### Disruption with creation of fine grained personal access tokens
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/s19bth7wzkf7
+- Summary: Aug 10, 18:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 10, 18:22 UTC Update - We identified the source of the issue affecting creation of...
+
 ### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
 - Source: Hugging Face Blog
 - Category: open-source
@@ -737,6 +749,12 @@
 - URL: https://arxiv.org/abs/2608.05162
 - Summary: arXiv:2608.05162v1 Announce Type: new Abstract: Pooling is a consequential but under-examined design choice in decoder-only concept representation work: practitioners must collapse token-level hidden states into a passage-level vector, yet no shared protocol exists for comparing this choice across...
 
+### Explore or Converge? Stage-Guided Per-Step Optimization for Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.06768
+- Summary: Diffusion models have strong generative capabilities. However, their maximum likelihood training objective only focuses on reconstructing the data distribution, making it difficult to align with specific preferences. Reinforcement learning (RL) for preference alignment in diffusion models is...
+
 ### China's "New New Three" Exports Are Robots, AI Models and Innovative Drugs
 - Source: Pandaily
 - Category: chinese-ai
@@ -1380,6 +1398,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.05576
 - Summary: When a large language model (LLM) writes Harry Potter fanfiction, it reliably produces fundamental elements of the Hogwarts universe, such as recognizable places and characters. Human-written Harry Potter fanfictions, however, typically include these fundamentals and much more, incorporating...
+
+### SkillTV-Bench: Benchmarking How Well Judges Perform on Skill-Augmented Agentic Execution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05573
+- Summary: LLM agents increasingly execute long-horizon tasks through tool use and environment interaction, shifting evaluation from final-response scoring to verification of complete executions. For skill-augmented agents, verification additionally requires the procedural knowledge encoded in task-time...
 
 ### A Multi-Layer System for Ultra-High-Resolution Static 360-Degree Telepresence
 - Source: HF Daily Papers
@@ -2416,6 +2440,12 @@
 - URL: https://tldr.takara.ai/p/2608.03468
 - Summary: Historical tool-use trajectories provide valuable experience for large language model (LLM) agents to plan and coordinate tool usage. Existing approaches directly construct tool-level graphs from these trajectories, but the resulting graphs remain tied to specific tools and are hard to generalize...
 
+### ChartAnno: Evaluating MLLMs for Chart Annotation Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03464
+- Summary: Multimodal large language models (MLLMs) have made significant progress in chart understanding, generation, and editing, but their ability to annotate existing charts remains underexplored. Annotating charts is a common yet challenging communicative task, requiring models to infer intended...
+
 ### Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering
 - Source: Security Week
 - Category: security
@@ -2572,6 +2602,12 @@
 - URL: https://tldr.takara.ai/p/2608.03123
 - Summary: Machine unlearning aims to eliminate the influence of sensitive data on a model. In the real world, unlearning requests arrive continually, which gives rise to two challenges. First, an unlearning intervention may redistribute target-related computation across remaining pathways, allowing...
 
+### SeCo-SBIR: Semantically Consistent Prompt Learning for Zero-Shot Sketch-Based Image Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03120
+- Summary: Adapting CLIP for zero-shot sketch-based image retrieval (ZS-SBIR) via prompt learning faces a fundamental tension: the model must bridge the sketch-photo domain gap through task-specific adaptation, yet the added flexibility risks overfitting to seen training categories and eroding CLIP's...
+
 ### Non-Destructive Quantification of Urea Adulteration in Bovine Milk Using Transmittance Multispectral Imaging
 - Source: HF Daily Papers
 - Category: open-source
@@ -2595,6 +2631,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.03096
 - Summary: Recent advances in video generation models have significantly intensified the deepfake threat, yet the current deepfake video detection benchmarks remain underdeveloped. In particular, the effectiveness of image-level detectors in the video domain has not been systematically assessed. To fill this...
+
+### Scalable Frequency- and Length-Aware Subdocument Deduplication for Large Language Model Pretraining
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03089
+- Summary: Large-scale pretraining corpora contain substantial duplicate content. Although document-level deduplication is widely used, removing subdocument-level redundancy remains challenging. At corpus scale, suffix-array-based methods are commonly applied independently within shards, leaving cross-shard...
 
 ### SynEnergy: Anomaly Semantic-Guided Diffusion for Synthetic Energy Data Generation
 - Source: HF Daily Papers
@@ -2976,46 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.02495
 - Summary: Despite the remarkable progress over the past decades, accurately identifying small objects remains challenging because of their insufficient visual cues. Previous works typically attempt to construct discriminative representation of the small objects. However, the wide range frequency domain...
-
-### CTRAG: An In-Context Retrieval-based Framework for Automated Compliance Checking using LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.02472
-- Summary: Trust is fundamental in modern regulatory ecosystems, and compliance checking plays a critical role in fostering that trust. Regulatory compliance verification is essential for businesses operating in highly controlled environments, as it ensures alignment with sector-specific guidelines across...
-
-### Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/google-password-manager-attacks-could.html
-- Summary: Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it...
-
-### INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html
-- Summary: The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its...
-
-### Human-Centered Reflections on Care Robots: A Comparative Study of Caregiver Perspectives
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.02411
-- Summary: Care robots are increasingly being introduced into healthcare settings, raising important questions about their acceptance and ethical implementation. To better understand these challenges, this study investigates caregivers' perceptions of four categories of care robots: delivering supplies,...
-
-### Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/
-- Summary: Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) appeared first on SecurityWeek.
-
-### Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/
-- Summary: The payments giant says BioCatch’s behavioral and device intelligence will help financial institutions combat account takeovers, scams and other forms of digital fraud. The post Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion appeared first on SecurityWeek.
-
-### Degraded performance on Claude Sonnet 5
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/dnl3q35xkn3s
-- Summary: Aug 3, 15:29 UTC Resolved - As of 15:20 UTC (8:20am PT), error rates on Claude Sonnet 5 have returned to baseline. This incident is resolved. Aug 3, 15:13 UTC Investigating - We are currently investigating this issue.
 
