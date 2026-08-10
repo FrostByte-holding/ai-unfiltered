@@ -6,6 +6,17 @@
 
 ## 2026-08-10
 
+### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents
+
+### Increased error rates
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
 ### 5 useful things you'll learn in my new post-training textbook (shipping now!)
 - Source: Interconnects
 - Category: open-source
@@ -1654,6 +1665,12 @@
 - URL: https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/
 - Summary: Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation. The post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.
 
+### Quality Diversity for Reliable Data Driven Time-Use Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.05230
+- Summary: The daily allocation of the finite 24-hour time budget is strongly associated with physical, mental, and cognitive health. While predictive models can estimate the relationship between time-use compositions and health outcomes such as body mass index, life satisfaction, and cognition, most...
+
 ### Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking
 - Source: HF Daily Papers
 - Category: open-source
@@ -2074,6 +2091,12 @@
 - URL: https://tldr.takara.ai/p/2608.04390
 - Summary: Large language models (LLMs) perform table-centric prediction through in-context learning, making demonstration selection critical to performance. Existing retrieval methods prioritize similarity to the query, but similar demonstrations often reinforce the model's likely prediction rather than...
 
+### Image Classification Using CNN-QNN Hybrid Model with Optimized Correlated Features
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04379
+- Summary: We propose a method to optimize the correlation among convolutional neural network (CNN) features that are used as inputs to quantum neural network (QNN) to enhance image classification accuracy. Unlike prior approaches that employ orthogonal decomposition as preprocessing, we intentionally...
+
 ### China Humanoid Robots in 2026: Production Boom Meets Deployment Reality Check as AgiBot and Unitree Lead
 - Source: Pandaily
 - Category: chinese-ai
@@ -2121,6 +2144,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.04329
 - Summary: Seam carving is a classical content-aware image resizing operator that modifies the width or height of an image by repeatedly removing (or inserting) seams, i.e., 8-connected monotonic paths of pixels of locally minimal importance. Because seams bend around salient content rather than uniformly...
+
+### Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04314
+- Summary: Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used. Legal and regulatory remedies can address misuse, but many technical interventions must be applied earlier, when content is released or accessed. This survey examines the protective...
 
 
 ## 2026-08-04
@@ -2777,6 +2806,12 @@
 - URL: https://tldr.takara.ai/p/2608.03068
 - Summary: Reinforcement learning (RL) has emerged as an effective method for enhancing the reasoning capabilities of large language models (LLMs). However, existing methods suffer from insufficient precision in feedback on generated answer trajectories and exhibit the phenomenon of problem difficulty drift....
 
+### SeqLLM: Augmenting LLMs with Behavioral-Sequence Modeling for High-Stakes Decisions at WeChat Pay
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03063
+- Summary: Merchant risk control at large payment platforms screens tens of millions of merchants daily, where false positives harm legitimate merchants and false negatives leave harmful activity undetected. The hardest cases require jointly understanding a merchant's textual profile and long behavioral...
+
 ### AIDE: Automated Instruction via Distilled Expertise for Reference-Free Motor Skill Coaching
 - Source: HF Daily Papers
 - Category: open-source
@@ -2983,40 +3018,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/dnl3q35xkn3s
 - Summary: Aug 3, 15:29 UTC Resolved - As of 15:20 UTC (8:20am PT), error rates on Claude Sonnet 5 have returned to baseline. This incident is resolved. Aug 3, 15:13 UTC Investigating - We are currently investigating this issue.
-
-### Cloudflare Workers Runtime API issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/238b69fw6l55
-- Summary: Aug 3, 15:21 UTC Identified - Workers runtime: Temporal global exposed with an incorrect clockSince 2026-07-30, the Workers runtime has exposed a global Temporal object that was not intended to be available. Its clock is wrong: Temporal.Now reports 1970-01-01 rather than the current time. Date and...
-
-### Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/
-- Summary: The list of people behind companies, foundations and trusteeships is part of efforts to combat money laundering and terror financing. The post Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations appeared first on SecurityWeek.
-
-### INC20000129
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/xfv4kdj30rcb
-- Summary: Aug 3, 14:39 UTC Update - Current status: We're continuing to investigate the issue with Snowflake Data Cloud, and we're analyzing recent changes and telemetry to determine a mitigation plan. We'll provide another update within 30 minutes.Customer experience: Customers hosted in the specified...
-
-### SpikeRestormer: Towards Energy-Efficient All-in-One Image Restoration via Unified Event Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.02290
-- Summary: ANN-based All-in-One image restoration (AiOIR) unifies diverse degradation handling but incurs high computational costs, limiting its real-time deployment. While Spiking Neural Networks (SNNs) offer a low-power alternative, applying them to static images remains challenging. This difficulty arises...
-
-### Cloudflare Workers build failures
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/x4lf6qsl3pb9
-- Summary: Aug 3, 14:20 UTC Investigating - Cloudflare is aware of and investigating an issue with Cloudflare Workers build failures which potentially impacts multiple customers. Further detail will be provided as more information becomes available.
-
-### Error rates across multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/ch7k4vh9fr1y
-- Summary: Aug 3, 14:17 UTC Resolved - This incident has been resolved. Aug 3, 13:30 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 3, 12:52 UTC Investigating - We are currently investigating this issue.
 
