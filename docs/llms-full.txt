@@ -1341,6 +1341,12 @@
 - URL: https://tldr.takara.ai/p/2608.04768
 - Summary: Automated cooking robots have traditionally relied on predefined procedures and rule-based control, ensuring stable execution but offering limited personalization, whereas recent large-model approaches support natural language interaction but often suffer from opaque decision making and unreliable...
 
+### Simile Understanding in Text-to-Image Models: An Evaluation Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04750
+- Summary: Similes provide a compact and expressive way to describe visual characteristics in text prompts. Recent text-to-image models (t2i models) can produce visually compelling outputs from simile prompts, yet even frontier models frequently misinterpret the metaphorical vehicle and confuse it with the...
+
 ### The Download: NASA’s new telescope and Chinese tech import curbs
 - Source: MIT Tech Review AI
 - Category: research
@@ -1448,6 +1454,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/3n74c5yh817r
 - Summary: Aug 5, 08:42 UTC Resolved - This incident has been resolved. Aug 5, 08:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 5, 08:15 UTC Identified - The issue has been identified and a fix is being implemented. Aug 5, 08:02 UTC Investigating - Cloudflare is...
+
+### Causal Evidence Extraction and Triangulation in Crisis Reports using Large Language Models: A ReliefWeb-based Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.04576
+- Summary: Humanitarian reports are long, noisy, and multi-topic, making it difficult to consolidate decision-relevant causal evidence. We present a ReliefWeb study (2000-2024) and a two-stage Large Language Model (LLM) pipeline that extracts structured intervention-outcome records with direction and strength...
 
 ### NASA’s new dark energy space telescope can also detect killer asteroids
 - Source: MIT Tech Review AI
@@ -2152,6 +2164,12 @@
 - URL: https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS...
 
+### Fail-Fast, Restart-Smart: Early Failure Prediction and Restart for SWE Agentic Tasks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.03222
+- Summary: Software engineering (SWE) agents resolve repository-level issues through long trajectories that grow increasingly expensive as context accumulates. Failed runs tend to be longer and exhibit redundant exploration or looping, suggesting that some failures may be detectable before completion. Early...
+
 ### Reachability Is Not Realization: Tracing the Sources of LLM Benchmark Gains
 - Source: HF Daily Papers
 - Category: open-source
@@ -2509,6 +2527,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/6x39thxt9ds1
 - Summary: Aug 3, 22:00 UTC Resolved - Cloudflare identified and resolved an issue causing an increased level of network errors in Istanbul, Turkey (IST) from 3rd August 2026 21:13 UTC to 21:32 UTC.
 
+### Forecasting Revenue with its Customer-Base Drivers: When and Why Coordination Helps
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02911
+- Summary: Revenue forecasts guide acquisition budgets, demand planning, and customer-based valuations, yet an aggregate forecast does not show whether change reflects acquisition, repeat purchasing, spending per order, or offsetting movements. Using weekly transaction panels for 966 companies in 25...
+
 ### The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten
 - Source: Latent Space
 - Category: open-source
@@ -2544,6 +2568,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.02588
 - Summary: In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized...
+
+### Optimal Unambiguous DNFs and Alon-Saks-Seymour
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.02533
+- Summary: We construct unambiguous DNFs having width $O(n)$ but $0$-certificate complexity $Ω(n^2)$. By utilizing the special structure of these DNFs, we prove a lifting theorem with a constant-sized gadget that lifts the DNF to a communication problem, while losslessly translating the separation in...
 
 ### Analytic Planning under Uncertainty with Moment Closure
 - Source: HF Daily Papers
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2607.28670
 - Summary: arXiv:2607.28670v1 Announce Type: new Abstract: A stochastic Gumbel-Top-$K$ router defines, for every token of a mixture-of-experts (MoE) model, a \emph{routing law}: a distribution over ordered expert lists and mixture weights. We ask which \emph{joint} distributions over the routing choices of...
-
-### Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28634
-- Summary: arXiv:2607.28634v1 Announce Type: new Abstract: The estimation of item difficulty plays a key role in both formative assessment and large-scale high-stakes summative assessments. This study explores how large language models (LLMs) perform in predicting item difficulty levels using items from a...
-
-### Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28635
-- Summary: arXiv:2607.28635v1 Announce Type: new Abstract: In Natural Language Processing (NLP), dealing with underrepresented topics is challenging, especially in unsupervised tasks where clustering might not adequately capture minority topics. To tackle this challenge, our paper presents a novel...
-
-### Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28636
-- Summary: arXiv:2607.28636v1 Announce Type: new Abstract: LLMs increasingly serve as automated judges, but their judgments remain vulnerable to cognitive biases. Existing mitigations mostly rely on prompt-driven debiasing, which is brittle across bias types, or human evaluation, which does not scale. We...
-
-### ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28637
-- Summary: arXiv:2607.28637v1 Announce Type: new Abstract: This paper presents our system for the CHiPSAL 2026 shared task on multimodal hate speech and sentiment detection in Nepali memes. We address both subtasks: binary hate speech classification and three-class sentiment analysis. Our approach adapts the...
-
-### Learning Stateful Predictive Knowledge From Experience
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2607.28638
-- Summary: arXiv:2607.28638v1 Announce Type: new Abstract: As large language model (LLM) agents increasingly learn from experience, they primarily rely on trajectory-level reflection to extract insights. Viewed through the lens of predictive knowledge, we argue that this approach operates on episodic...
 
