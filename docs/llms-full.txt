@@ -6,6 +6,18 @@
 
 ## 2026-08-11
 
+### How the “censorship-industrial complex” is changing the Internet and US policy
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/
+- Summary: I first heard the term “censorship-industrial complex” on April 15, 2025.&#160; That’s when I got the tip that a small office in the U.S. State Department, which focused on monitoring and countering foreign disinformation from the likes of Russia, Iran, and China, was facing imminent shutdown—the...
+
+### Users unable to login to ads manager
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZRXPE0NGXA12FJNP8WZF8D7
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Ads Manager (Operational)
+
 ### Incident with GraphQL API Requests
 - Source: GitHub Status
 - Category: incidents
@@ -302,6 +314,12 @@
 - URL: https://www.githubstatus.com/incidents/s19bth7wzkf7
 - Summary: Aug 10, 18:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 10, 18:22 UTC Update - We identified the source of the issue affecting creation of...
 
+### Towards Expert-level Medical AI for Real-time Video Consultations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09861
+- Summary: Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. While text-based AI has shown promise, it discards essential perceptual dimensions and limits patients who cannot articulate...
+
 ### China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
 - Source: The Hacker News
 - Category: security
@@ -361,6 +379,12 @@
 - URL: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
 - Summary: North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software...
 
+### You Only Flow Once: Calibrated and Real-Time Radar Pose Estimation with Multi-Hypothesis Normalizing Flows
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09579
+- Summary: Sparse and noisy millimeter-wave radar point cloud observations often correspond to multiple plausible human poses, making deterministic pose estimation fundamentally ill-posed. Yet existing radar methods remain deterministic, collapsing this ambiguity into a single estimate. Diffusion-based...
+
 ### 5 useful things you'll learn in my new post-training textbook (shipping now!)
 - Source: Interconnects
 - Category: open-source
@@ -402,6 +426,12 @@
 - Category: security
 - URL: https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/
 - Summary: Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states. The post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.
+
+### RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09467
+- Summary: Unmanned aerial vehicle vision-language navigation (UAV-VLN) requires agents to translate visual observations and language instructions into reliable flight actions in complex environments. Although recent end-to-end UAV vision-language-action (UAV-VLA) policies reduce reliance on separately...
 
 ### TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
 - Source: The Hacker News
@@ -756,11 +786,23 @@
 - URL: https://arxiv.org/abs/2608.06532
 - Summary: arXiv:2608.06532v1 Announce Type: new Abstract: LVLMs are increasingly used to read financial charts, tables, and documents, where a single misread figure can move a decision and the most authoritative-looking answer is sometimes one the model produced without reading the exhibit. The operational...
 
+### Evo-Bench: Can Language Models Improve Agent Harness?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09096
+- Summary: Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An emerging frontier is harness evolution---the agent's capacity to autonomously optimize its own operating harness. However, systematically benchmarking...
+
 ### Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.09043
 - Summary: Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memory from an unbounded...
+
+### DualCert: A Solver for the Traveling Salesman Problem with Constraint-Coupled Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09042
+- Summary: Large traveling salesman problem (TSP) instances require a solver to allocate limited computation while preserving the validity of its outputs. Existing neural--operations-research (OR) hybrids predict guidance without requiring learned transitions to satisfy constraints discovered during search....
 
 ### Musk Is Right About Power, But the Next Power System May Not Be in Orbit
 - Source: Pandaily
@@ -2975,46 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html
 - Summary: Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent. The researchers said the public agent could be prompt-injected into...
-
-### ToolLIFT: Lifting Tool-Specific Trajectories into Function-Level Graphs for Generalizable Tool Planning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03468
-- Summary: Historical tool-use trajectories provide valuable experience for large language model (LLM) agents to plan and coordinate tool usage. Existing approaches directly construct tool-level graphs from these trajectories, but the resulting graphs remain tied to specific tools and are hard to generalize...
-
-### ChartAnno: Evaluating MLLMs for Chart Annotation Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03464
-- Summary: Multimodal large language models (MLLMs) have made significant progress in chart understanding, generation, and editing, but their ability to annotate existing charts remains underexplored. Annotating charts is a common yet challenging communicative task, requiring models to infer intended...
-
-### Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/
-- Summary: A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent. The post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on SecurityWeek.
-
-### New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html
-- Summary: cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past...
-
-### Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03403
-- Summary: The performance bottleneck of agents is increasingly shifting from model capability to the robustness of their execution processes. Tools play a central role as the primary interface through which agents interact with external environments, yet existing methods rarely focus on ensuring robust tool...
-
-### Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/
-- Summary: Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.
-
-### FreqAdapt: Frequency-Adaptive Processing for RAW Object Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03385
-- Summary: Existing object detection methods predominantly utilize sRGB inputs, which are compressed from RAW sensor data using Image Signal Processors (ISP) originally designed for visualization purposes. Compared to RGB images, RAW images possess favorable noise characteristics and richer information...
 
