@@ -6,6 +6,35 @@
 
 ## 2026-08-11
 
+### Incident with GraphQL API Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/vm1w8zq95wkt
+- Summary: Aug 11, 16:49 UTC Monitoring - The degradation affecting API Requests has been mitigated. We are monitoring to ensure stability. Aug 11, 16:49 UTC Update - We have returned to a healthy baseline on GraphQL API requests. We will continue to work on investigations into the errors seen during this...
+
+### Cloudflare Analytics Delays
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/pb0z7j24ppq1
+- Summary: Aug 11, 16:26 UTCResolved - This incident has been resolved.Aug 11, 15:12 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 11, 14:22 UTCInvestigating - Reporting and analytics for the HttpRequestsAdaptiveGroups node is delayed. This will result in failures on...
+
+### Elevated errors affecting ChatGPT Go conversations
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZRJHTR75WDXCMC0ZERX6YJC
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### Thinking of ACE? We Can Do It with Fewer Tokens
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/altk-evolve-sldd
+
+### Increase in Connectivity errors in London, UK
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rfrm4fr82w2x
+- Summary: Aug 11, 12:55 UTCResolved - Cloudflare is aware of, and has resolved, an issue within our London datacenter where some traffic may have seen reduced connectivity for a short time. This potential impact window for this was 12:58 UTC to 13:25 UTC. There is no ongoing impact.
+
 ### Increased error rates
 - Source: OpenAI Status
 - Category: incidents
@@ -296,6 +325,12 @@
 - URL: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
 - Summary: A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short...
 
+### Confusion-Geometry Rebalancing for Long-Tailed Adversarial Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09688
+- Summary: Adversarial training under long tailed distributions suffers from a dual imbalance: the class imbalance skews the training objective toward head classes, and the adversarial inner maximization may further amplify this bias. Existing methods mitigate this issue by correcting class priors or adapting...
+
 ### OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns
 - Source: Security Week
 - Category: security
@@ -433,11 +468,23 @@
 - URL: https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/
 - Summary: MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they...
 
+### Targeted Label-Flipping and Oversampling Attacks on Federated Conditional GANs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09314
+- Summary: In a federated learning setup for GANs, several adversarial attacks are possible. One such attack is label flipping, in which malicious clients deliberately alter label information during local training in order to manipulate the global generator. The objective of this attack is to skew the learned...
+
 ### Corporate Data Stolen in Levi Strauss Cyberattack
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/
 - Summary: Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them. The post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.
+
+### WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09298
+- Summary: Action-conditioned world models (ACWMs) promise to provide embodied AI with scalable predictive simulators for planning, policy evaluation, and data generation. Realizing this promise requires precise action-conditioned transitions rather than merely plausible outputs. Yet their applicability...
 
 ### Guizhen Chip's On-Chip MBQC Breakthrough Opens a Real Path to Million-Qubit Optical Quantum Computing
 - Source: Pandaily
@@ -492,6 +539,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
 - Summary: Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro...
+
+### Failure-Aware Long-Form Translation: Design and Implementation of a Recoverable LLM Translation System
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09187
+- Summary: A long-form translation request can succeed at the API layer and still produce an unusable result. The output may be empty, truncated, filtered, dominated by source or prompt material, or interrupted after producing text worth keeping. This report describes a recovery protocol developed for a...
+
+### UNSPECIFIC: General Constraint Synthesis for Breaking Copy-and-Paste Shortcut in LLM Instruction Following
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09154
+- Summary: Large language models (LLMs) are increasingly expected to follow long lists of constraints in complex instructions, and synthesizing instructions from a reference document (i.e., back-translation) is a widely used method to measure/enhance LLMs' ability to follow complex instructions. However, this...
 
 ### OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause
 - Source: The Hacker News
@@ -2958,64 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.03385
 - Summary: Existing object detection methods predominantly utilize sRGB inputs, which are compressed from RAW sensor data using Image Signal Processors (ISP) originally designed for visualization purposes. Compared to RGB images, RAW images possess favorable noise characteristics and richer information...
-
-### Shaping Wind-Tunnel Airflow for Unmanned Aerial Vehicles using Online Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03378
-- Summary: The development and testing of advanced aerial robots require experiments in controlled environments with tailored airflow profiles. This paper presents an online learning algorithm for controlling the complex airflow field in a multi-fan vertical wind tunnel. Our method combines a simplified...
-
-### Can Text-to-Image Models Draw from the Right Frame of Reference?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03357
-- Summary: Spatial instruction following has become a crucial requirement for text-to-image (T2I) generation. A common challenge arises when directional expressions are interpreted under different frames of reference. For example, ``the left of'' may refer to the viewer's image coordinates or to the intrinsic...
-
-### DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html
-- Summary: A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. "The first stage drops a...
-
-### WorkBuddy Security Center Goes Live: Tencent Brings OS-API Layer Sandboxing, Recoverable File Deletion, and Version Rollback as Default Agent Safety Defaults
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-workbuddy-security-center-launch-jul2026
-- Summary: Tencent WorkBuddy 5.0 ships default security sandbox, recycle-bin file deletion, and version-restorable edits at the OS API layer, addressing the agent safety crisis without slowing agent efficiency.
-
-### Productivity Agent Becomes the New Office Entry Point as ByteDance Tencent Alibaba and WPS Race to Organize Enterprise AI Workflows
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/productivity-agents-replace-feishu-office-entry-jul2026
-- Summary: Kingsoft Lingxi, Tencent QClaw, Alibaba Qianwen Office, and ByteDance Doubao-Feishu integration redefine enterprise office as the agent becomes the task entry while Feishu DingTalk and WeChat Work become supporting infrastructure.
-
-### DeepSeek V4-Flash Tops Global Token Consumption: Chinese Models Sweep OpenRouter Top 5 as Price-Performance Kill Line Reshapes Developer Defaults
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-v4-flash-tops-global-token-ranking-jul2026
-- Summary: DeepSeek V4-Flash leads OpenRouter weekly rankings with 7.1 trillion tokens, Chinese models claim nine of the global top 10 slots, and global weekly AI token usage crosses 56.8 trillion.
-
-### Between Kimi K3 and DeepSeek V4: Why Native Multimodal Capability Defines the Next Phase of Chinese Frontier Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/kimi-k3-deepseek-v4-native-multimodal-gap-jul2026
-- Summary: Moonshot AI Kimi K3, Alibaba Qwen3.8-Max, and ByteDance Doubao-Seed-2.1 commit to native multimodal training while DeepSeek, Zhipu, and Tencent Hunyuan stay text-only as vision-in-the-loop becomes decisive for long agent tasks.
-
-### 150,000 Impacted by Madera Community Hospital Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/
-- Summary: An extortion group stole personal, financial, and medical information from the hospital’s network. The post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.
-
-### Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03316
-- Summary: On-policy distillation, in which a teacher corrects samples that the student itself generates, presupposes that the two models speak the same language: identical VAE latents, matching architectures, and a common timestep grid. We ask what happens when none of this holds, as when the strongest...
-
-### AgentPanel: Toward a New Paradigm for Human--AI Collaboration in Exploring Scientific Questions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.03283
-- Summary: Identifying promising scientific ideas remains an important challenge in research practice. Researchers commonly rely on small-group discussions or one-to-one interactions with a single large language model, yet these approaches often expose them to only a limited range of perspectives and...
 
