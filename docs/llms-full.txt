@@ -6,6 +6,12 @@
 
 ## 2026-08-12
 
+### Scientists just created female clones of male mice
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/
+- Summary: Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive...
+
 ### Email Security delivery impacted by Spamhaus listing
 - Source: Cloudflare Status
 - Category: incidents
@@ -355,6 +361,12 @@
 - URL: https://status.openai.com//incidents/01KZRXPE0NGXA12FJNP8WZF8D7
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Ads Manager (Operational)
 
+### The Illusion of Cross-Lingual Safety in Low-Resource Languages
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11146
+- Summary: Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a vulnerability in low-resource languages. We investigate cross-lingual safety transfer in...
+
 ### Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws
 - Source: Security Week
 - Category: security
@@ -384,6 +396,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/pb0z7j24ppq1
 - Summary: Aug 11, 16:26 UTCResolved - This incident has been resolved.Aug 11, 15:12 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 11, 14:22 UTCInvestigating - Reporting and analytics for the HttpRequestsAdaptiveGroups node is delayed. This will result in failures on...
+
+### Two-stage Odd Residual Flows for Mean-Preserving Probabilistic Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11114
+- Summary: Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional flexibility and accurate mean prediction. Traditional parametric methods, such as Mean...
 
 ### Zoom Patches Zero-Click Code Execution Vulnerability
 - Source: Security Week
@@ -546,6 +564,12 @@
 - URL: https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
 - Summary: Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and...
 
+### ENTLORE: A Graph-Grounded Benchmark for Latent Organizational Reasoning in Enterprise Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10679
+- Summary: Enterprise question answering is framed as retrieving internal documents and generating grounded answers. Routine enterprise records, however, are work by-products in which required organizational relations remain implicit across heterogeneous sources. Existing benchmarks provide realistic...
+
 ### FITTER: Vocabulary-Agnostic Cross-Domain Inference on Temporal Knowledge Graphs
 - Source: HF Daily Papers
 - Category: open-source
@@ -581,6 +605,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-humanoid-robot-repair-tech-orthopedic-doctor-6000-yuan-aug2026
 - Summary: A three-month surge in humanoid robot shipments has produced a fast-growing third-party repair and training job in China. Trainees like Zhao Xin in Ordos now earn about six thousand yuan a month disassembling knee joints and reading App error codes, with the Unitree Go2 the most common patient.
+
+### Compute-Optimal Is Not Cluster-Optimal: Systems-Aware Scaling for Sparse Mixture-of-Experts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10605
+- Summary: In large-scale pretraining, the algorithm, architecture, and systems decisions are conventionally made in disconnected stages. A scaling law stage selects an architecture and training recipe, optimizing loss under compute constraints, and a separate systems stage then optimizes the implementation...
 
 ### Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine
 - Source: The Hacker News
@@ -869,6 +899,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/bytedance-zhang-yiming-returns-no-distillation-agenda-2026-all-hands-aug2026
 - Summary: ByteDance founder Zhang Yiming quietly returned to the Seed AI research team two weeks ago and laid down a no-distillation mandate. The mid-year All-Hands followed with a major B-side structure change that puts Doubao, Feishu and Volcano Engine under one product roof.
+
+### Fisher8: Stabilizing Neural Heteroscedastic Regression via Output-Layer Fisher Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10374
+- Summary: Training neural networks to jointly predict mean and uncertainty estimates from noisy observations can be unstable, prompting a series of independent stabilization efforts. We argue that these interventions highlight a common underlying issue where gradient steps are poorly aligned with the...
 
 ### CasDeblurGS: Cascaded 2D-to-3D Multi-View Consistency for 3D Gaussian Splatting from Two Blurry Images
 - Source: HF Daily Papers
@@ -2981,40 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html
 - Summary: GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub commits for exposed n8n...
-
-### AI Security Institute Reports Anthropic and OpenAI Models Going Rogue Against Organizations
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/
-- Summary: In one instance, an unsanctioned model attempted to inject malicious code into an open source repository. The post AI Security Institute Reports Anthropic and OpenAI Models Going Rogue Against Organizations appeared first on SecurityWeek.
-
-### CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/
-- Summary: The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.
-
-### Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html
-- Summary: A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed. The "evil twin" extensions were uploaded to the repository between July 26 and...
-
-### HiSC: Hierarchical Spatial Clustering Token Compression for Efficient 3D Scene Understanding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.04610
-- Summary: 3D vision-language models (3D VLMs) enable spatial reasoning over multi-view scenes but suffer from substantial token redundancy due to duplicated observations and large uninformative regions, leading to high computational cost. Although visual token compression has shown promise in accelerating 2D...
-
-### Degraded performance of multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/f6gkkq6txl7z
-- Summary: Aug 5, 09:13 UTC Update - We are continuing to work on a fix for this issue. Aug 5, 07:05 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5, Claude Fable 5, and Claude Opus 5, Claude Sonnet 5 and are working on a fix. We will provide an update as soon...
-
-### Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/
-- Summary: The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.
 
