@@ -6,6 +6,46 @@
 
 ## 2026-08-12
 
+### Email Security delivery impacted by Spamhaus listing
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/fdyjr0t87mrb
+- Summary: Aug 12, 16:48 UTCMonitoring - All IPs previously listed by Spamhaus are now clean. Monitoring the propagation of that change to downstream systems.Aug 12, 16:30 UTCInvestigating - We are continuing to investigate this issue. Customers using O365 will be impacted only if they have not completed the...
+
+### Incident with Pull Requests and Issues
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/76t89hbfb09h
+- Summary: Aug 12, 16:41 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 12, 16:38 UTC Update - We identified the source of errors affecting Pull Requests,...
+
+### DeepSeek V4 Pro Goes Live, Closes In on Frontier Tier
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-v4-pro-goes-live-closes-in-on-frontier-tier
+- Summary: DeepSeek has rolled out DeepSeek-V4-Pro-0813 on its API platform, pairing a one-million-token context window with explicit agent-developer tooling and a 3x price premium over the Flash tier.
+
+### Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/olmoearth-embeddings
+
+### Degraded performance for multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/rk6gkg2gwfny
+- Summary: Aug 12, 16:10 UTC Identified - We have identified an issue which resulted in errors across multiple models. At this time, errors are primarily impacting Claude Fable 5 and we are working to fully resolve these issues. Aug 12, 13:50 UTC Investigating - We are investigating elevated errors on...
+
+### Putting sign language AI into users’ hands
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
+- Summary: Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.
+
+### LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b
+
 ### Huya's Game Publishing Bet Starts to Pay Off as Q2 Revenue Rises 11%
 - Source: Pandaily
 - Category: chinese-ai
@@ -452,6 +492,12 @@
 - URL: https://www.securityweek.com/extension-banned-for-stealing-ai-chats-returns-to-chrome-store-resumes-malicious-activities/
 - Summary: The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data. The post Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities appeared first on SecurityWeek.
 
+### MVTrack: Ultrafast Appearance-Free Moving Object Tracking from Compressed Bitstreams
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10790
+- Summary: Deploying modern video trackers at scale is bottlenecked by the computational cost of RGB-based object detectors. To this end, we present MVTrack, an ultrafast tracker for moving objects that operates directly on H.264 bitstreams. MVTrack combines MVDet, a lightweight detector for motion vector...
+
 ### Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11
 - Source: The Hacker News
 - Category: security
@@ -500,6 +546,12 @@
 - URL: https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html
 - Summary: Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include healthcare and public health, financial services, government services and...
 
+### FITTER: Vocabulary-Agnostic Cross-Domain Inference on Temporal Knowledge Graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10668
+- Summary: Temporal knowledge graphs are central to many uses of the Semantic Web, but existing completion methods assume the entities, relation names, and timestamps to be reasoned about are already known at training time, restricting each model to a single graph and vocabulary. We propose FITTER, the first...
+
 ### Chery-Backed Mojia Robot Crosses 2,000 Units and 60 Countries — and the Real Product Is Chery's Own Globalization Stack
 - Source: Pandaily
 - Category: chinese-ai
@@ -536,6 +588,12 @@
 - URL: https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html
 - Summary: Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about...
 
+### Retrieval-Corrected Conformal Prediction for Time Series
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10553
+- Summary: Conformal prediction (CP) provides distribution-free prediction intervals for fixed forecasters, but its standard calibration procedure is often inefficient for time series data, where forecast errors are temporally dependent and change across time and operating conditions. Recent time series CP...
+
 ### Mozilla Issues New Firefox GPG Key Following Exposure
 - Source: Security Week
 - Category: security
@@ -571,6 +629,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-muse-glimmer-and-spark-open
 - Summary: a small win for american open models - Glimmer runs on a fits on a single RTX 3090!
+
+### Calibrating Post-Training Feature Shifts for LLM Data Contamination Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10462
+- Summary: Large language models (LLMs) are trained on massive and largely undisclosed corpora that may contain copyrighted or privacy-sensitive content. Data contamination detection (DCD) therefore aims to determine whether a given text is a member of the pre-training corpus of a target LLM. Recent...
 
 ### Towards an Argumentative Foundation for Evaluative AI
 - Source: arXiv AI
@@ -769,6 +833,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.10426
 - Summary: Open-vocabulary remote sensing segmentation has recently emerged as a promising paradigm that enables pixel-level recognition of arbitrary categories specified by natural language, including classes unseen during training. However, geospatial domain shifts caused by heterogeneous regions, spatial...
+
+### FormStruct-Bench:A Hierarchical and Diagnostic Benchmark for Table-Form Document Structure Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10396
+- Summary: Transforming table-form documents into machine-processable records requires recovering not only their visible content but also the multilevel structure that organizes it. However, existing benchmarks evaluate either holistic document outputs or conventional table grids, and their aggregate scores...
 
 ### Alibaba Cloud's CUBE 5.0 Cuts AI Data-Center Build Time to 100 Days — and Ulanqab Is the New Chinese AIDC Hub
 - Source: Pandaily
@@ -2947,76 +3017,4 @@
 - Category: security
 - URL: https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/
 - Summary: The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.
-
-### Rethinking Reservoir Pruning: A Dynamical Perspective for Echo State Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.04593
-- Summary: Echo State Networks (ESNs) offer an efficient framework for temporal prediction, but their randomly initialized reservoirs are often over-parameterized and dynamically redundant. Existing pruning methods largely rely on static connectivity or activation statistics, which may overlook neurons that...
-
-### Tencent Expands International Access to Flagship Hy3 Model, Offers Free WorkBuddy Access Until Aug 31
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-hy3-model-international-rollout-workbuddy-aug2026
-- Summary: Tencent rolls out its flagship Hy3 LLM internationally via WorkBuddy, Tencent Design Miora, and TokenHub — free on WorkBuddy until Aug 31, 2026.
-
-### Cloudflare Workers and Pages Assets Uploads issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/3n74c5yh817r
-- Summary: Aug 5, 08:42 UTC Resolved - This incident has been resolved. Aug 5, 08:26 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 5, 08:15 UTC Identified - The issue has been identified and a fix is being implemented. Aug 5, 08:02 UTC Investigating - Cloudflare is...
-
-### Causal Evidence Extraction and Triangulation in Crisis Reports using Large Language Models: A ReliefWeb-based Study
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.04576
-- Summary: Humanitarian reports are long, noisy, and multi-topic, making it difficult to consolidate decision-relevant causal evidence. We present a ReliefWeb study (2000-2024) and a two-stage Large Language Model (LLM) pipeline that extracts structured intervention-outcome records with direction and strength...
-
-### NASA’s new dark energy space telescope can also detect killer asteroids
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/
-- Summary: At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion...
-
-### What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.04562
-- Summary: Agent skills are increasingly optimized by automated feedback loops, producing long structured artifacts whose internal value remains unclear. We study skill valuation: assigning credit to the internal units of a fixed skill, such as rules, examples, scripts, and heuristics, under a fixed agent and...
-
-### Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
-- Summary: An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute. When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten...
-
-### When Quantum Meets AI: Six Academicians Chart a New Blueprint for Smart Computing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/quantum-meets-ai-six-academicians-shenzhen-summit-aug2026
-- Summary: At the 5th CCF Quantum Computing Conference in Shenzhen, six CAS and CAE academicians outlined a national road map for AI-enabled quantum error correction and a unified quantum-supercomputing-AI infrastructure.
-
-### Safety Risks Behind China's Top Open-Source LLMs: 76 percent Vulnerability Reproduction, Zero Refusal
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-top-open-source-llm-security-risks-aug2026
-- Summary: An independent SaferAI audit of Zhipu's GLM-5.2 found cyber-offense capability on par with GPT-5.5 but a complete absence of content-filtering guardrails, exposing structural risks for open-weight releases.
-
-### China's Optical Modules, PCBs, and Domestic AI Chips: A Day in the Market
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-optical-module-pcb-domestic-ai-chip-aug2026
-- Summary: Broker views from Nomura and Citi see limited damage from a hypothetical US optical-module ban, while Macquarie raised Biren Technology's target price 4.5x on new GPU wins and rising domestic chip ASPs.
-
-### The Next Hundred-Billion-Dollar Robot Battlefield May Be the Kitchen
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cooking-robots-next-hundred-billion-battlefield-kitchen-aug2026
-- Summary: Capital, home-appliance giants, and humanoid-robot startups are all converging on the Chinese commercial kitchen, with one industry projection putting the AI cooking-robot market above 109.6 billion yuan by 2030.
-
-### Xiaomi's Longjia Battery: Why It Dropped CATL and BYD for Sunwoda and CALB
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-longjia-battery-supplier-shift-sunwoda-calb-aug2026
-- Summary: On its Pengcheng (Peng Cheng) crossover SUV, Xiaomi has dropped Contemporary Amperex and BYD as battery suppliers, switching to Sunwoda and CALB for its first self-developed Longjia battery pack.
 
