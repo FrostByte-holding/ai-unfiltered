@@ -6,6 +6,54 @@
 
 ## 2026-08-13
 
+### Elevated errors in ChatGPT conversations for Free users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZXVAJQ5XFH7PTM43XVPQWGJ
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
+
+### Cloudflare Workers AI errors with Specific models
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/h79v9rn8h6ml
+- Summary: Aug 13, 16:51 UTCResolved - This incident has been resolved.Aug 13, 16:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 13, 15:15 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 13, 15:00 UTCInvestigating - Cloudflare is aware of,...
+
+### MCP Server Portal experiencing intermittent issues with user authentication
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/br0y58121k86
+- Summary: Aug 13, 16:49 UTCInvestigating - Cloudflare is investigating an intermittent issue with MCP Server Portal authentication. Other Cloudflare Access services are fully functional and are not impacted.
+
+### Disruption with GHEC Team Sync
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/pf25whpq58hh
+- Summary: Aug 13, 16:21 UTC Update - GHEC Team Sync is currently degraded for enterprises with personal accounts, causing delays when syncing teams to IdP groups. We have identified the cause of the delays and are working on a mitigation. We will provide an update on our progress at 20:00 UTC. Aug 13, 16:21...
+
+### Elevated errors for Claude Mythos 5, Claude Fable 5, and Claude Sonnet 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/j160kkjmm2n1
+- Summary: Aug 13, 16:08 UTC Resolved - The issue affecting Claude Mythos 5 and Claude Fable 5 has been resolved. Aug 13, 15:44 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5 and Claude Fable 5. We will provide an update as soon as possible. Aug 13, 14:33 UTC Investigating -...
+
+### Errors with the Fable 5 Model in Copilot
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/24t8gsgqx2qb
+- Summary: Aug 13, 15:47 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 13, 15:47 UTC Update - The issues with our upstream model provider have been...
+
+### Error while creating custom RBAC roles for Enterprise users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01KZXPZD4KHMQQFF09PSNNEZT8
+- Summary: Status: IdentifiedWe are still implementing the mitigation.
+
+### Incident with Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/k8vbzwqjkxzn
+- Summary: Aug 13, 15:36 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 13, 15:33 UTC Update - We have temporarily disabled a background job which caused the...
+
 ### WordPress 7.0.4 Patches Remote Code Execution Vulnerability
 - Source: Security Week
 - Category: security
@@ -231,6 +279,12 @@
 - URL: https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/
 - Summary: Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive...
 
+### Redistribution-based Cost Inference Improves Sparse Safe Offline RL
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12306
+- Summary: Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the...
+
 ### Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
 - Source: The Hacker News
 - Category: security
@@ -271,6 +325,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/olmoearth-embeddings
+
+### SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12220
+- Summary: Existing Vision-Language Models (VLMs) exhibits a critical bottleneck in robust spatial reasoning. Recent reinforcement learning (RL) methods aim to close this gap with verifiable outcomes, yet they suffer from poor credit assignment across intermediate reasoning steps. Concurrently, structured...
 
 ### Degraded performance for multiple models
 - Source: Anthropic Status
@@ -475,6 +535,12 @@
 - URL: https://pandaily.com/china-grid-quantum-substation-hefei-state-grid-aug2026
 - Summary: State Grid Corporation of China completed an 18-month quantum technology pilot at a 220kV substation in Hefei, deploying 85 self-developed quantum devices across quantum measurement, quantum communication, and quantum computing. The site has been operating 24/7 and is now being prepared for...
 
+### Tight Nonasymptotic Local Convergence of Sinkhorn-Knopp
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11760
+- Summary: We revisit the Sinkhorn-Knopp (SK) algorithm for the matrix scaling problem. Despite extensive literature on the global convergence of SK and its variants, its local linear convergence behavior remains less understood. We address this gap by providing the first nonasymptotic local analysis of SK...
+
 ### ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact
 - Source: Security Week
 - Category: security
@@ -492,6 +558,12 @@
 - Category: security
 - URL: https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/
 - Summary: The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.
+
+### JieZi: A Large-Scale Expert-Audited Dataset and Benchmark for Ancient Chinese Character Exegesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11741
+- Summary: The scholarly exegesis of ancient Chinese characters demands integrating visual observation, linguistic analysis, and historical context. However, existing computational approaches focus narrowly on subtasks such as character recognition and retrieval, lacking the structured datasets and benchmarks...
 
 ### [AINews] How to steal a Reasoning Trace
 - Source: Latent Space
@@ -702,6 +774,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.10216
 - Summary: arXiv:2608.10216v1 Announce Type: new Abstract: Agent frameworks ship quality gates that compare text blocks by embedding-cosine similarity and decide at a fixed cutoff. Deduplication filters, semantic caches, drift guards, and answer grader gates deploy to answer the question: "Does this text...
+
+### CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11588
+- Summary: Mobile GUI agents remain brittle when deployed to applications absent from source training. We study novel-app generalization under a limited target interaction budget and without target demonstrations. We introduce CoAdapt-GUI, a test-time adaptation (TTA) framework that jointly adapts structured...
 
 ### Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands
 - Source: HF Daily Papers
@@ -2940,82 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.05600
 - Summary: Flow-based generative models are typically sampled by solving a deterministic ordinary differential equation (ODE), whereas online reinforcement learning requires stochastic rollouts for policy exploration and optimization. Existing GRPO methods for flow models therefore replace the inference-time...
-
-### Uncertainty-Aware World Model for Aerial Image-Goal Navigation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05597
-- Summary: Aerial image-goal navigation requires an unmanned aerial vehicle (UAV) to reach a target location specified by a goal image. Existing world-model-based methods rank candidate trajectories using predicted futures, but typically rely on only one or a few point predictions, which is inadequate for...
-
-### How Much Reconstruction Does Quantum Machine Learning Need? Late Fusion of Independently Trained Quantum Subcircuits
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05595
-- Summary: Circuit cutting lets a large quantum neural network (QNN) run as independent subcircuits on small devices, but rebuilding its outputs by reconstruction carries a classical sampling overhead exponential in the number of cuts - the dominant runtime cost in prior work. We ask whether, for...
-
-### [AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc
-- Summary: The end of an era.
-
-### The Judgment-Consequence Gap: LLM Moral Reasoning in Healthcare Decisions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05583
-- Summary: As large language models (LLMs) enter high-stakes domains such as healthcare, understanding their moral reasoning becomes essential. Decisions about scarce medical resources often hinge on judgments of responsibility, particularly when patients' own actions contribute to illness. We investigate how...
-
-### A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.04012
-- Summary: arXiv:2608.04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs. This raises a fundamental theoretical question: can an AI system persist...
-
-### The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.04066
-- Summary: arXiv:2608.04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust? We present an agent instrument built so that verification is structural rather than post-hoc. A deterministic Executive owns all belief; a...
-
-### Monte Carlo Tree Search for Table-to-Multimodal Report Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.04071
-- Summary: arXiv:2608.04071v1 Announce Type: new Abstract: Automatically generating professional multimodal reports comprising both textual analysis and visual charts from structured tabular data is a critical challenge in data intelligence. Existing methods suffer from fixed linear pipelines and isolated...
-
-### FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.04077
-- Summary: arXiv:2608.04077v1 Announce Type: new Abstract: Evaluating financial AI agents requires criteria aligned with real professional work. Existing rubric methods typically derive criteria from task prompts or model outputs, overlooking tacit standards visible only in practitioner deliverables. We...
-
-### FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.04095
-- Summary: arXiv:2608.04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing...
-
-### C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.04013
-- Summary: arXiv:2608.04013v1 Announce Type: new Abstract: Recent advances in Multimodal Emotion Recognition in Conversations (MERC) highlight its reliance on complete multimodal inputs. However, real-world data often suffer from missing modalities due to transmission errors or user behavior, severely...
-
-### On Hamming-Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric: Theory and Simple Proofs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.04014
-- Summary: arXiv:2608.04014v1 Announce Type: new Abstract: The subdominant (minmax) ultrametric is a canonical tree-structured summary of a dissimilarity matrix, arising equivalently as the ultrametric induced by single-linkage clustering. While its classical stability theory is usually formulated in...
-
-### A Trust-region Framework for Moment Estimation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.04026
-- Summary: arXiv:2608.04026v1 Announce Type: new Abstract: In this paper, we develop a trust-region framework for understanding the behavior of adaptive moment estimation mechanisms, such as \textsc{Adam}, in stochastic gradient optimization. Specifically, in this framework, the magnitude of the update step...
-
-### Learning to Resolve Neutron Resonances with Fully Convolutional Neural Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.04027
-- Summary: arXiv:2608.04027v1 Announce Type: new Abstract: This work investigates the feasibility of augmenting traditional R-Matrix codes with a robust machine learning framework for automatically detecting neutron resonances in transmission spectra. Neutron transmission data are often complex and noisy,...
 
