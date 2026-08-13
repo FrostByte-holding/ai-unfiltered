@@ -6,6 +6,28 @@
 
 ## 2026-08-13
 
+### Increased 503s when making changes to Cloudflare dash and API for Magic Transit and Cloudflare WAN and CF1 Appliance
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/jxdzyqckdmqb
+- Summary: Aug 13, 20:09 UTCInvestigating - Cloudflare One Appliance will be impacted as well, in that any CF1App config changes that do manage to succeed, may not be applied in a timely fashion.Aug 13, 19:51 UTCInvestigating - Increased 503s when making changes to Cloudflare dash and API for Magic Transit,...
+
+### Increased  errors for Workers KV requests
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/f3czlxddtrf1
+- Summary: Aug 13, 17:53 UTCResolved - This incident has been resolved.Aug 13, 17:31 UTCInvestigating - Some users may see increased errors when interacting with Workers KV
+
+### Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop
+
+### Introducing Gemini 3.7 Flash
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-gemini-3-7-flash/
+
 ### Elevated errors in ChatGPT conversations for Free users
 - Source: OpenAI Status
 - Category: incidents
@@ -264,6 +286,11 @@
 - URL: https://www.latent.space/p/ainews-spacexai-grok-46-and-grok
 - Summary: AI teammate category just had its most significant new entrant yet
 
+### What We Learned by Reproducing 2,200 papers from ICML
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/icml-2026-open-reproductions
+
 
 ## 2026-08-12
 
@@ -290,6 +317,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
 - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The...
+
+### Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12290
+- Summary: Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or...
 
 ### Scaling AI agents with trustworthy data
 - Source: MIT Tech Review AI
@@ -402,6 +435,12 @@
 - Category: security
 - URL: https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/
 - Summary: Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset appeared first on SecurityWeek.
+
+### Reducing Symmetry Increase in Equivariant Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12010
+- Summary: Equivariant Neural Networks (ENNs) have empowered numerous applications in scientific fields. Despite their remarkable capacity for representing geometric structures, ENNs suffer from degraded expressivity when processing symmetric inputs: the output representations are invariant to transformations...
 
 ### Dual-Model Sentiment Analysis of Consumer Reviews in the Retail Coffee Sector Using Machine Learning and Deep Learning Approaches
 - Source: HF Daily Papers
@@ -565,6 +604,12 @@
 - URL: https://tldr.takara.ai/p/2608.11741
 - Summary: The scholarly exegesis of ancient Chinese characters demands integrating visual observation, linguistic analysis, and historical context. However, existing computational approaches focus narrowly on subtasks such as character recognition and retrieval, lacking the structured datasets and benchmarks...
 
+### Locating and Controlling Implicit Personalization in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11735
+- Summary: Large language models (LLMs) often shift their outputs in response to implicit demographic cues even when users never state a demographic identity. Previous work has documented this behavior, but the connection between these behavioral changes and the model's internal activations remains unclear....
+
 ### [AINews] How to steal a Reasoning Trace
 - Source: Latent Space
 - Category: open-source
@@ -583,6 +628,12 @@
 - URL: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
 - Summary: Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error...
 
+### Learning from Multimodal Pseudo-Labels for Robust Open-Vocabulary Instance and Panoptic Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11681
+- Summary: This work addresses the challenge of open-vocabulary instance segmentation (OVIS) and open-set panoptic segmentation (OSPS), which aim to recognize both predefined and unseen object categories without exhaustive human annotations. Existing methods often suffer from noisy pseudo-masks, limited...
+
 ### Cisco Patches Firewall Zero-Day Exploited for DoS Attacks
 - Source: Security Week
 - Category: security
@@ -594,6 +645,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.11658
 - Summary: Many reinforcement learning systems, from fleet management to traffic signal control, must serve an objective that changes dynamically after deployment, and retraining a policy for each new objective is prohibitively expensive. For a single agent, this problem is well understood: successor features...
+
+### Confucius4-TTS: Transcript-Free Cross-Lingual Zero-Shot TTS with a Learnable Speaker Encoder
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11650
+- Summary: Recent advances in zero-shot text-to-speech (TTS) have substantially improved speech quality and voice cloning fidelity. However, many zero-shot TTS systems still depend on audio prompt transcripts at inference time. This dependency limits cross-lingual voice cloning, since in-the-wild reference...
 
 ### TREAT: Evaluating Access to Formal Knowledge across Equivalent Mathematical Representations
 - Source: arXiv AI
@@ -2958,64 +3015,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html
 - Summary: A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms...
-
-### Nonvisual Classification of Ground-Condition by Artificial Proprioception in an Amoeba-Inspired Autonomous Walking Robot
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05684
-- Summary: Nonvisual classification of ground condition based on a multimodal sensing approach was investigated for an amoeba-inspired autonomous walking robot. To classify ground condition without image sensing and processing, we implemented artificial proprioception by integrating a three-axis...
-
-### Consistency Has a Computable Blind Spot: A Commutation Theory of Label-Free Reliability for Vision-Language Figure Reading
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05675
-- Summary: Label-free reliability for vision-language models rests on invariance: perturb the input and a faithful reader's answer should not change. This has a known blind spot, a systematic misreading survives the perturbation and gets certified wrong, which we show is computable, not just real: an error is...
-
-### Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05663
-- Summary: Real-time long-form avatar audio--video generation requires causal, continuous synthesis while maintaining audiovisual synchronization and visual consistency. Adapting a pretrained bidirectional model to this setting presents two key dilemmas. First, autoregressively reusing generated blocks as...
-
-### CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html
-- Summary: A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of...
-
-### Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hackers-start-exploiting-recent-jetbrains-teamcity-vulnerability/
-- Summary: Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution. The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.
-
-### Bayesian Expected Uncertainty Reduction (B-EUR) Model: A Computational Account of What Makes Design Options Worth Trying
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05642
-- Summary: This paper proposes the Bayesian Expected Uncertainty Reduction (B-EUR) model, which formalizes the value of trying a candidate design action as its expected reduction of epistemic uncertainty about action--outcome relations. The model addresses one part of the Uncertainty Driven Action (UDA)...
-
-### Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
-- Summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at...
-
-### SkillHEX: Improving Agent Skills via Hypothesis-Driven Autonomous Exploration and Exploitation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05628
-- Summary: Although agent skills equip LLMs with reusable procedural knowledge, manual maintenance suffers from high costs, unscalability, and misalignment. Real-world deployments thus require autonomous, on-demand skill evolution at test time, constrained by limited interaction budgets and a lack of training...
-
-### Dual-Output Multi-Exposure HDR Reconstruction via SDR Fusion and Gain Map Inverse Tone Mapping
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05626
-- Summary: We propose DOME-HDR, a dual-output multi-exposure HDR reconstruction framework that jointly produces a perceptually balanced SDR image and a consistent HDR image via gain map inverse tone mapping. Given three bracketed LDR inputs, DOME-HDR first synthesizes a base SDR using a LoRA-adapted latent...
-
-### LC-GRPO: Bridging Train-Inference Gap for Flow-Based GRPO with Langevin Correction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.05600
-- Summary: Flow-based generative models are typically sampled by solving a deterministic ordinary differential equation (ODE), whereas online reinforcement learning requires stochastic rollouts for policy exploration and optimization. Existing GRPO methods for flow models therefore replace the inference-time...
 
