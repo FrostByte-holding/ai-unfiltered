@@ -6,6 +6,18 @@
 
 ## 2026-08-14
 
+### INC20000157
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/ylfhrtlppdlt
+- Summary: Aug 14, 16:28 UTC Resolved - Current status: We've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer experience: Customers hosted in the...
+
+### Increased network congestion in the Eastern US
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/9qty28mt423v
+- Summary: Aug 14, 16:28 UTCResolved - This incident has been resolved.Aug 14, 15:34 UTCIdentified - We are investigating network issues between Cloudflare colocations located in the eastern United States. This may cause increased errors and latency reaching Cloudflare storage products like R2 and Durable...
+
 ### The Download: Flock’s new rules, cloning’s future, and children’s cells
 - Source: MIT Tech Review AI
 - Category: research
@@ -216,6 +228,11 @@
 - URL: https://status.claude.com/incidents/whnd2z49x3xf
 - Summary: Aug 14, 00:51 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 23:42 to 00:50 UTC. Aug 14, 00:36 UTC Investigating - We are investigating degraded performance in Claude Code on the Web sessions and related products (Cowork Remote, Routines, Claude Code...
 
+### State of Open Models: Summer 2026 Observations
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/state-of-open-models-summer-2026
+
 
 ## 2026-08-13
 
@@ -237,11 +254,23 @@
 - URL: https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/
 - Summary: Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a...
 
+### HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13555
+- Summary: Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect...
+
 ### Increased  errors for Workers KV requests
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/f3czlxddtrf1
 - Summary: Aug 13, 17:53 UTCResolved - This incident has been resolved.Aug 13, 17:31 UTCInvestigating - Some users may see increased errors when interacting with Workers KV
+
+### Bagging Robustly Learns VC Classes with Linear Sample Complexity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13514
+- Summary: We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke,...
 
 ### TabSOM: A tabular-to-image encoding method based on self-organizing maps
 - Source: HF Daily Papers
@@ -295,6 +324,12 @@
 - URL: https://status.claude.com/incidents/j160kkjmm2n1
 - Summary: Aug 13, 16:08 UTC Resolved - The issue affecting Claude Mythos 5 and Claude Fable 5 has been resolved. Aug 13, 15:44 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5 and Claude Fable 5. We will provide an update as soon as possible. Aug 13, 14:33 UTC Investigating -...
 
+### CROP: Task Relevance via Counterfactuals for Selective On-Policy Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13387
+- Summary: On-policy distillation (OPD) supervises a student language model on trajectories sampled from its current policy, but assigns equal credit to response tokens with unequal supervision value. Selective OPD addresses this limitation by allocating supervision non-uniformly across response tokens...
+
 ### Errors with the Fable 5 Model in Copilot
 - Source: GitHub Status
 - Category: incidents
@@ -336,6 +371,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/
 - Summary: The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly...
+
+### Beyond Simulated Benchmarks: Evaluating Motion Representations for Fall Detection Under Real-World Data Scarcity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13197
+- Summary: Falls are a major health concern for older adults, and wearable sensors have been widely explored for detecting falls and enabling timely intervention. However, real-world falls are extremely rare: collecting 100 of them requires an estimated 100,000 days of monitoring, resulting in severely...
 
 ### WordPress 7.0.4 Patches Remote Code Execution Vulnerability
 - Source: Security Week
@@ -402,6 +443,12 @@
 - Category: security
 - URL: https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/
 - Summary: Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements. The post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on SecurityWeek.
+
+### PixSDS: Why Latent SDS Makes Noisy Pixels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12997
+- Summary: Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise. We identify a failure mode of latent SDS caused by VAE-induced pixel drift: the...
 
 ### Critical VMware vCenter Vulnerability in Attackers’ Crosshairs
 - Source: Security Week
@@ -744,6 +791,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11694
 - Summary: arXiv:2608.11694v1 Announce Type: new Abstract: A benchmark score comes from a single phrasing of each problem. That single phrasing is treated as if it stood for the whole space of ways the same problem could be asked, but it does not. We show that rephrasing a problem while keeping its meaning...
+
+### When the API Speaks the Wrong Language: Revisiting Post-Training for Multilingual Tool Use
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.11715
+- Summary: arXiv:2608.11715v1 Announce Type: new Abstract: The reliability of Large Language Models (LLMs) for API calling degrades in multilingual settings. A common failure occurs when a model selects the correct tool but generates argument values in an inconsistent language, which we term Argument Language...
+
+### Locating and Controlling Implicit Personalization in Large Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.11735
+- Summary: arXiv:2608.11735v1 Announce Type: new Abstract: Large language models (LLMs) often shift their outputs in response to implicit demographic cues even when users never state a demographic identity. Previous work has documented this behavior, but the connection between these behavioral changes and the...
+
+### Ripple-Pivot Search: Active Parallel Decoding for Diffusion Large Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.11742
+- Summary: arXiv:2608.11742v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive language models, offering the potential for substantially faster inference through parallel decoding. Existing parallel decoding schedulers typically...
+
+### LabelFusion-TS: Fusing Large Language Models, Transformer Encoders, and Financial Time Series for Monetary-Policy Stance Classification
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.11753
+- Summary: arXiv:2608.11753v1 Announce Type: new Abstract: Financial text is produced and interpreted within a market environment, yet financial text classifiers almost always receive text alone. We study whether financial time series are useful as an additional input on the task of classifying sentences from...
+
+### AWARe: Mitigating Catastrophic Forgetting via Activation-Weighted Adaptive REtention
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.11758
+- Summary: arXiv:2608.11758v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) exhibit strong generalization and reasoning abilities due to large-scale multimodal pre-training. However, fine-tuning these models on downstream tasks often leads to catastrophic forgetting, where newly...
 
 ### China's First Commercial Supercritical CO2 Closed-Loop Geothermal Project Turns the Earth into a Rechargeable Battery
 - Source: Pandaily
@@ -2938,82 +3015,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html
 - Summary: Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls,...
-
-### China Pushes AI Compute Into Orbit, and the Satellites Start Doing Their Own Thinking
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-orbital-compute-chenguang-1-satellite-zhongke-tiansuan-aug2026
-- Summary: In late July, a satellite called Chenguang-1 carried an eight-card server into orbit from the Dongfeng commercial space innovation test zone, marking a new step in China's space-based compute push. Industry experts say the country now sits in the global first tier for orbital compute.
-
-### CASIA's PhiZero Gives World Models a 'Physical Language' and Cuts Tokens 175x
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/casia-phizero-world-model-physical-language-175x-token-reduction-aug2026
-- Summary: Researchers at the Institute of Automation under the Chinese Academy of Sciences (CASIA) published PhiZero, a world model that reasons in a learned discrete 'physical language' before rendering video. The approach collapses the number of tokens needed to represent a four-second clip by a factor of...
-
-### China Rolls Out a Cluster of Heavyweight Technological Breakthroughs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-heavy-tech-roundup-fast-steel-ai-satellites-aug2026
-- Summary: From thinner-than-A4 high-end steel and a hardware refresh for the FAST telescope, to a pair of AI-enabled experimental satellites, China's late-summer 2026 scientific push covers industries from heavy manufacturing to astronomy and from orbital compute to next-generation displays. Several of these...
-
-### Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
-- Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the...
-
-### Recent advances in weakly supervised learning: New supervision paradigms, assumption relaxations, and practical solutions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.06896
-- Summary: Deep learning has achieved great success in recent years thanks to the availability of high-quality, well-annotated training data. However, this requirement is often not met in real-world applications. Weakly supervised learning aims to train an accurate model with incomplete, inexact, or...
-
-### 3.8 Million Impacted by Unlimited Technology Systems Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
-- Summary: Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.
-
-### Critical Vulnerabilities Patched With Chrome 151 Update
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/
-- Summary: The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws. The post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.
-
-### TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
-- Summary: A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. "The connection is...
-
-### [AINews] AMD buys Taalas
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-amd-buys-taalas
-- Summary: The Inference Inflection is HEATING up.
-
-### HLSmith: An Expert-Guided Agentic Framework for C/C++-to-HLS Translation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.06791
-- Summary: Application-specific FPGA accelerators offer substantial performance and energy-efficiency gains across many application domains, but developing them is costly, often requiring months of specialized effort. Even with high-level synthesis (HLS), designers still need extensive hardware expertise to...
-
-### Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.05159
-- Summary: arXiv:2608.05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources...
-
-### The Ignition Index: Measuring Global Workspace Dynamics in Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.05160
-- Summary: arXiv:2608.05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe...
-
-### Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.05168
-- Summary: arXiv:2608.05168v1 Announce Type: new Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these...
 
