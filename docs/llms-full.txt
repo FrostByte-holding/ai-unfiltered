@@ -6,6 +6,24 @@
 
 ## 2026-08-14
 
+### Service disruption on Claude services
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/005ym4vzrq2w
+- Summary: Aug 14, 20:30 UTC Investigating - We are investigating reports of degraded performance affecting the Claude API, Claude Code, and Claude Cowork. We will provide an update as soon as possible.
+
+### Durable Objects and Cloudflare Workflows availability drop
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kc88n14c8kjg
+- Summary: Aug 14, 20:05 UTCResolved - This incident has been resolved.Aug 14, 19:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 14, 19:27 UTCIdentified - The team is mitigating an availability drop to Durable Objects and Cloudflare Workflows served from our Miami based...
+
+### INC20000158
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/v8nyb5fhd95v
+- Summary: Aug 14, 19:35 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
 ### INC20000157
 - Source: Snowflake Status
 - Category: incidents
@@ -266,11 +284,29 @@
 - URL: https://www.cloudflarestatus.com/incidents/f3czlxddtrf1
 - Summary: Aug 13, 17:53 UTCResolved - This incident has been resolved.Aug 13, 17:31 UTCInvestigating - Some users may see increased errors when interacting with Workers KV
 
+### DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13524
+- Summary: Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than...
+
+### Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13518
+- Summary: Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. However, recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological...
+
 ### Bagging Robustly Learns VC Classes with Linear Sample Complexity
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.13514
 - Summary: We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke,...
+
+### Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13515
+- Summary: Measuring training data influence consistently across language model pretraining is challenging. It is difficult to select downstream tasks or validation sets representative of a model's general capabilities, and reliance on task performance at intermediate checkpoints complicates comparisons...
 
 ### TabSOM: A tabular-to-image encoding method based on self-organizing maps
 - Source: HF Daily Papers
@@ -420,6 +456,12 @@
 - URL: https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/
 - Summary: The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance. The post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.
 
+### Behavioral Reprogramming of Open-Weights Models: Cognitive Plasticity and Alignment Bounds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13069
+- Summary: Large language models (LLMs) are predominantly aligned to function as passive, sycophantic assistants. We challenge this default paradigm by empirically evaluating the cognitive plasticity of open-weight architectures when subjected to rigorous behavioral reprogramming. Our objective is to induce a...
+
 ### BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs
 - Source: HF Daily Papers
 - Category: open-source
@@ -497,6 +539,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/x-square-robot-wall-b-parcel-sorting-beats-figure-03-cost-70-percent-lower-aug2026
 - Summary: In a one-hour livestream, X Square Robot's dual-arm system with standard grippers sorted 1,816 parcels, a short-burst throughput 45% above Figure 03's 200-hour benchmark of 1,248 parcels per hour, at roughly 70% lower hardware cost. The WALL-B world unified model carries the complexity, not the...
+
+### Decoupled Contrastive Decoding via Expert-Aligned Drafting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12913
+- Summary: Contrastive Decoding (CD) improves generation quality, but its amateur-model pass makes decoding expensive. Accelerating CD with speculative decoding raises a proposal-alignment question: should the contrastive signal shape the drafter, or should it remain only in verification? We study this...
 
 ### The Embedder's Dilemma: LLMs Are Better, but at What Cost?
 - Source: HF Daily Papers
@@ -2967,52 +3015,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
 - Summary: A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and...
-
-### Vishing Extortion Group UNC6671 Rebrands After Making Millions
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/
-- Summary: Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek.
-
-### New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html
-- Summary: Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the...
-
-### Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html
-- Summary: Cybersecurity researchers have called attention to an active "widespread email-driven phishing campaign" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email....
-
-### AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-- Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a...
-
-### Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/
-- Summary: NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller&#8217;s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.
-
-### Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/
-- Summary: Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.
-
-### Microsoft, Apple Release Fresh Security Updates
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/
-- Summary: Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.
-
-### Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html
-- Summary: Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls,...
 
