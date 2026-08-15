@@ -4,7 +4,28 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-15
+
+### Elevated errors for Claude Fable 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/hdynq1pc0fn8
+- Summary: Aug 15, 00:27 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 20:00 Aug 14, 2026 to 00:11 Aug 15 , 2026 UTC. Aug 15, 00:21 UTC Update - We have identified the cause of the issue affecting Claude services and are working on a fix. We will provide an update...
+
+
 ## 2026-08-14
+
+### Unexpected GPT-5.6 Terra responses
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M015X5NF9D6C4MYR6NGR8HAR
+- Summary: Status: IdentifiedWe are investigating an issue affecting some customers using GPT-5.6 Terra. Affected requests may intermittently return incomplete or malformed responses, or include unexpected content. We are working on implementing a mitigation.Affected components Conversations (Degraded...
+
+### GLM-5.3: How Chinese labs keep stride with the frontier
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride
+- Summary: Hint: It&#8217;s really not a distillation story.
 
 ### Service disruption on Claude services
 - Source: Anthropic Status
@@ -60,17 +81,35 @@
 - URL: https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/
 - Summary: It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of...
 
+### Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/
+- Summary: Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028. The post Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal appeared first on SecurityWeek.
+
 ### Issues reaching status.claude.com
 - Source: Anthropic Status
 - Category: incidents
 - URL: https://status.claude.com/incidents/kmbpgrsszf72
 - Summary: Aug 14, 10:53 UTC Resolved - The issue resulting in users being unable to reach status.claude.com has been resolved. Aug 14, 07:58 UTC Investigating - We are aware of issues with reaching status.claude.com, specifically regarding an invalid certificate issues. We are working to resolve these issues...
 
+### 1.6 Million Likely Impacted by RingCentral Data Breach
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/
+- Summary: The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek.
+
 ### X Square Robot Set Its Benchmark at Figure AI's Number — Then Beat It by 45%
 - Source: Pandaily
 - Category: chinese-ai
 - URL: https://pandaily.com/x-square-robot-sets-benchmark-at-figure-ais-number-beats-it-by-45-aug2026
 - Summary: Shenzhen's X Square Robot sorted 1,816 parcels in one unedited hour with simple grippers. The target it set for itself — 1,248 — happens to be Figure AI's sustained hourly average, to the parcel.
+
+### Over 1,000 Charities Hit by Beacon CRM Data Breach
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/
+- Summary: The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts. The post Over 1,000 Charities Hit by Beacon CRM Data Breach appeared first on SecurityWeek.
 
 ### This scientist is helping build a missing map of childhood
 - Source: MIT Tech Review AI
@@ -83,6 +122,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/
 - Summary: Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman &#38; Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an...
+
+### Cloning could be used to save species—or make human “organ sacks”
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/
+- Summary: This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male mice. That’s right: female animals that are genetically identical to males,...
 
 ### 14,000 Trezor Customers Impacted by Data Breach at ShipMonk
 - Source: Security Week
@@ -203,6 +248,66 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.12438
 - Summary: arXiv:2608.12438v1 Announce Type: new Abstract: We formulate generative modeling as a path integral in which flow-based, diffusion-based, variational, and adversarial models arise as different evaluation principles for a single master action. Its Martin-Siggia-Rose-Janssen-de~Dominicis (MSRJD) form...
+
+### The Edge-based Contiguous p-median Problem with Connections to Logistics Districting
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.11230
+- Summary: arXiv:2608.11230v1 Announce Type: new Abstract: This paper introduces the edge-based contiguous p-median (ECpM) problem to partition the roads in a network into a given number of compact and contiguous territories. Two binary programming models are introduced, both of which incorporate a network...
+
+### LinearKV: One Cached State Suffices for Position-Independent Caching in Hybrid LLMs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.11231
+- Summary: arXiv:2608.11231v1 Announce Type: new Abstract: LLM serving is increasingly accelerated by position-independent caching (PIC). Existing PIC methods, however, are built for full-attention models, where a token-indexed KV cache underlies its core operations: matching reusable token chunks,...
+
+### InfraBench: Evaluating Infrastructure Agents Across Layers, Lifecycle, and Risk
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.11234
+- Summary: arXiv:2608.11234v1 Announce Type: new Abstract: Managing modern computing infrastructure has become a steadily harder problem due to the ever-increasing complexity. Recent advances in AI agents create a timely opportunity to automate infrastructure management tasks, but it remains unclear how well...
+
+### CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.11235
+- Summary: arXiv:2608.11235v1 Announce Type: new Abstract: Diffusion language models (DLMs) update many tokens in parallel, yet practical decoders often use a fixed denoising horizon. Many predictions stabilize early, but blockwise decoding continues until all positions are resolved, causing repeated dense...
+
+### Geometry-aware Incremental Neural Operator for Long-Horizon PDE prediction
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.11237
+- Summary: arXiv:2608.11237v1 Announce Type: new Abstract: Neural operators have shown strong potential for learning solution operators of partial differential equations (PDEs). However, long-horizon autoregressive prediction remains challenging: local errors accumulate as spectral inconsistency, phase...
+
+### Dual Spatial-Temporal Attribution: Architecture-Aligned Post-Hoc Explainability for Recurrent Graph Anomaly Detection
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.12441
+- Summary: arXiv:2608.12441v1 Announce Type: new Abstract: Deep learning detectors for anomalies in dynamic graphs have reached strong accuracy, yet they remain opaque: when an edge is flagged, the analyst receives a score but no reason. This opacity is untenable in the cooperative, regulated information...
+
+### Personalized Scorer Modeling: A Learning-Based Framework for Deriving Robust Sleep Stage Labels from Multiple Experts
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.12446
+- Summary: arXiv:2608.12446v1 Announce Type: new Abstract: Sleep stage classification is important for the diagnosis and management of sleep disorders, yet most automatic staging studies evaluate models against a single reference hypnogram despite known inter-scorer variability. This study investigates...
+
+### Geometric and Behavioral Stratification in Transformer Residual Streams
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.12447
+- Summary: arXiv:2608.12447v1 Announce Type: new Abstract: Trained transformer models develop privileged bases: coordinate axes whose statistics differ from the rest of the residual stream. But what kind of direction does such a basis select? We investigate the prediction direction, the unembedding direction...
+
+### Exemplar-based objective classification of gust-induced loads across multiple flight conditions
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.12448
+- Summary: arXiv:2608.12448v1 Announce Type: new Abstract: Is it possible to find an objective classification criterion that organizes the complexity of gust-induced loads across many flight conditions? And one that remains as interpretable as a labelling based on coarse parameters, such as the flight...
+
+### Learning Under Treatment-Induced Label Indeterminacy with Expert Annotations of Counterfactual Outcomes: A Case Study in Neurological Prognostication
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.12477
+- Summary: arXiv:2608.12477v1 Announce Type: new Abstract: Clinical prediction models are often developed as if the outcome of interest were cleanly observed for every patient. This assumption fails when treatment decisions make the clinically relevant outcome permanently unobservable. As a case study of this...
 
 ### Network Performance Issues in Querétaro, Mexico
 - Source: Cloudflare Status
@@ -408,6 +513,12 @@
 - URL: https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/
 - Summary: The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly...
 
+### CoverPrune: Coverage-Driven Token Pruning for 3D VLMs via Optimal Transport
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13226
+- Summary: While 3D Vision-Language Models (3D VLMs) have demonstrated remarkable spatial reasoning capabilities, they suffer from massive visual token counts that create severe computational bottlenecks during inference. Existing token pruning methods primarily rely on diversity-based selection, discarding...
+
 ### Beyond Simulated Benchmarks: Evaluating Motion Representations for Fall Detection Under Real-World Data Scarcity
 - Source: HF Daily Papers
 - Category: open-source
@@ -437,6 +548,12 @@
 - Category: security
 - URL: https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices
 - Summary: Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...
+
+### Branch and Bound for Relational Verification of Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13118
+- Summary: Verification of neural networks against relational specifications, such as global robustness, is crucial for safety-critical applications of cyber-physical systems (CPS), given their increasing adoption of AI components. Compared to simple trace properties (e.g., local robustness), verifying...
 
 ### Venture Firm Team8 Secures Additional $365 Million
 - Source: Security Week
@@ -569,6 +686,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.12854
 - Summary: Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) models exploit VLM priors for semantic reasoning, while World Action...
+
+### Fine-tuned Normalizing Flows for ALICE Zero Degree Calorimeter Fast Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12795
+- Summary: Simulating the ALICE Zero Degree Calorimeter (ZDC) neutron detector responses at the LHC is computationally expensive, requiring complex Monte Carlo chains. We develop a generative surrogate, focusing on Normalizing Flows (NFs). Through transfer learning, we pre-train on the full imbalanced dataset...
 
 ### Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes
 - Source: arXiv AI
@@ -869,6 +992,18 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11758
 - Summary: arXiv:2608.11758v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) exhibit strong generalization and reasoning abilities due to large-scale multimodal pre-training. However, fine-tuning these models on downstream tasks often leads to catastrophic forgetting, where newly...
+
+### ViTOED: A Dataset for Target-Oriented Emotion Detection on Vietnamese Social Media Texts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12776
+- Summary: This paper introduces ViTOED, a novel dataset for target-oriented emotion detection in Vietnamese social media texts. The ViTOED comprises 10,985 user comments and 21,244 manually annotated opinion quadruples (source, target, expression, polarity) that follow strict guidelines. The dataset reveals...
+
+### Error-Aware Reverse Auction Mechanism for Large Language Model Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12719
+- Summary: Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows. We propose a...
 
 ### China's First Commercial Supercritical CO2 Closed-Loop Geothermal Project Turns the Earth into a Rechargeable Battery
 - Source: Pandaily
@@ -2881,138 +3016,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/x44ny80374v7
 - Summary: Aug 8, 08:25 UTC Investigating - We have lost dark fiber in the Istanbul region, we are working to follow up with our vendors to restore connectivity.More updates to follow shortly.
-
-### New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
-- Summary: New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens,...
-
-### Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
-- Summary: Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker...
-
-### N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
-- Summary: N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. "We are proactively expanding protections in response to ongoing monitoring of threat...
-
-### Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as...
-
-### Alibaba Ships Qwen App Update and Puts Wan 3.0 Into Public Test, With One Eye on Enterprise Buyers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qwen-app-update-wan3-0-video-model-biz-pricing-aug2026
-- Summary: Alibaba released five new features on the Qwen App on August 7, all powered by the new Qwen3.8-MAX flagship model and all free for now. The next day, Alibaba Cloud opened Wan 3.0 to public testing, with the first document-input video model in the family and a price list aimed straight at SMEs.
-
-### L3 Is Just the Starting Line for China's AI-Agent Phones
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ai-agent-phone-l3-national-standard-huawei-xiaomi-stepfun-aug2026
-- Summary: Eleven mobile devices cleared the first batch of China's national AI-terminal intelligence grading tests in July, including nine smartphones from Huawei, Motorola, Honor, vivo, OPPO, Xiaomi and Stepfun. Vendors are calling L3 the highest level, but the real bottleneck for L4 is not model capability.
-
-### Inside the 800,000-Yuan Robot Trainer Job That Did Not Exist Three Years Ago
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/embodied-ai-robot-trainer-800000-yuan-salary-new-job-aug2026
-- Summary: An embodied-AI robot application technician is one of 12 new occupations the Chinese Ministry of Human Resources and Social Security plans to add to the national catalog. Average salaries in the role already run between 500,000 and 800,000 yuan, and demand growth has been explosive.
-
-### [AINews] Zawinski's Law of MultiAgents
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-zawinskis-law-of-multiagents
-- Summary: a quiet day lets us find some connections among recent themes
-
-
-## 2026-08-07
-
-### R2 Availability Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9fzfjzc5ms0h
-- Summary: Aug 7, 18:42 UTC Investigating - Cloudflare is aware, and investigating an issue affecting availability in ENAM for a small number of R2 buckets.
-
-### Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html
-- Summary: A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. "These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but...
-
-### ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
-- Summary: ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and...
-
-### UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
-- Summary: A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671. "UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating...
-
-### TutorMoments: Do AI tutors know when to help and when to hold back?
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/tutormoments
-
-### Worker's Observarbility Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/mxlpy0nnr2j8
-- Summary: Aug 7, 16:04 UTC Investigating - Cloudflare is aware, and investigating reports where a subset of customers are not seeing logs in the Workers Observability dashboard after deploying a new version of a Worker. Affected Workers continue to run and serve traffic normally. Metrics remain available.
-
-### In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/
-- Summary: Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing. The post In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street appeared first...
-
-### The Download: a censorship conspiracy theory and the first virus created by AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex”...
-
-### Network Performance Issues in Chicago (ORD)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/x6fmvws5z368
-- Summary: Aug 7, 14:03 UTC Resolved - This incident has been resolved. Aug 7, 13:13 UTC Monitoring - Cloudflare is investigating issues with network performance in Chicago. We are working to analyse and mitigate this problem. More updates to follow shortly.
-
-### How ideas of a vast censorship network moved from the online fringe to Trump policy
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/
-- Summary: This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk’s Department of Government...
-
-### MAUPITI: On-Device Prototype-Based Learning on a Smart Infrared Sensor
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.07192
-- Summary: Low-resolution infrared (IR) array sensors represent an interesting solution for privacy-preserving human sensing in embedded systems. In this letter, we describe a smart multi-pixel IR sensor integrating a 16$\times$16 thermal MOSFET (TMOS) array and a RISC-V microcontroller extended with...
-
-### New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html
-- Summary: WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an...
-
-### Growing Up The Hard Way
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/growing-up-hard-way.html
-- Summary: Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back...
-
-### 18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html
-- Summary: A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and...
 
