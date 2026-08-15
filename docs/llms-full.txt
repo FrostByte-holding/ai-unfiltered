@@ -1794,6 +1794,12 @@
 - URL: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
 - Summary: Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.
 
+### XGBoost "is all you need": the case of forecasting transmitted heat energy in District Heating Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11446
+- Summary: This paper presents a comparative study of two distinct approaches, XGBoost and Long-Short Term Memory (LSTM), for forecasting transmitted heat energy in District Heating Systems (DHS). The objective is to explore scenarios in which conventional ML algorithms demonstrate better performance over...
+
 ### 🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery
 - Source: Latent Space
 - Category: open-source
@@ -1960,6 +1966,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/altk-evolve-sldd
+
+### Order Matters: LVLMs as Judges for Temporal Reasoning in Image Sequences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10908
+- Summary: As generative multimedia evolves from static image synthesis to complex, interleaved visual narratives, a foundational bottleneck has emerged: the judgment crisis. While human perception naturally synthesizes the temporal and logical flow of a story, automated evaluation systems remain largely...
 
 ### OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development
 - Source: The Hacker News
@@ -2480,6 +2492,12 @@
 
 ## 2026-08-10
 
+### STCAD: Scalable Trajectory Clustering and Anomaly Detection on Terabyte-Scale AIS Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10249
+- Summary: We present a scalable framework for unsupervised clustering of maritime trajectories derived from terabyte-scale Automatic Identification System (AIS) archives. Variable-length trajectories are encoded with a custom BERT-based model trained via masked token modeling and clustered using CURE...
+
 ### Disruption with Copilot for access to some models
 - Source: GitHub Status
 - Category: incidents
@@ -2814,6 +2832,12 @@
 - URL: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
 - Summary: Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro...
 
+### FedA2L: Adaptive layer-wise learning rate adjustment in decentralized federated learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09208
+- Summary: Decentralized intelligence systems with heterogeneous devices and limited coordination increasingly rely on decentralized federated learning (DFL). However, DFL suffers from convergence inefficiency under data heterogeneity due to the use of a uniform learning rate (LR) that ignores layer-specific...
+
 ### Failure-Aware Long-Form Translation: Design and Implementation of a Recoverable LLM Translation System
 - Source: HF Daily Papers
 - Category: open-source
@@ -2987,28 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.06441
 - Summary: arXiv:2608.06441v1 Announce Type: new Abstract: Full-graph GNN training delivers high accuracy but scales poorly on multi-server clusters due to heavy, irregular inter-node embedding exchanges. We present SNI-GNN, a SmartNIC-assisted full-graph training system that reduces communication while...
-
-### ED-CSP: Crystal Structure Prediction from Electron Diffraction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06448
-- Summary: arXiv:2608.06448v1 Announce Type: new Abstract: Recovering a periodic 3D crystal structure from sparse, unindexed electron diffraction (ED) observations is a challenging generative inverse problem. Existing ED-based learning methods mainly predict crystallographic labels, reconstruct structures...
-
-### Beyond Attention: Signed Integrated Gradients Attribution in a BiomeGPT-Style Microbiome Transformer
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06486
-- Summary: arXiv:2608.06486v1 Announce Type: new Abstract: In a feature-tokenized transformer (arXiv:2106.11959) such as BiomeGPT (doi:10.64898/2026.01.05.697599), each input token is built by fusing a fixed identity with a sample-specific measurement: a fixed species and a variable abundance, T = S + A. To...
-
-### Toward Reliable Context Compression for Long-Horizon Agents: An Empirical Study of Execution Instability
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06503
-- Summary: arXiv:2608.06503v1 Announce Type: new Abstract: Recurrent context compression controls context growth in long-horizon agents, but its behavioral effects remain poorly understood. In this preliminary empirical study, we show that compression can weaken the influence of recent interactions,...
-
-### ConstructCIE: A Dataset for Extracting Causal Information from Construction Accident Narratives
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06495
-- Summary: arXiv:2608.06495v1 Announce Type: new Abstract: Construction accident narratives contain rich causal information, but the evidence is often implicit, long-span, and distributed. We introduce ConstructCIE, a manually annotated dataset for Causal Information Extraction from OSHA construction accident...
 
