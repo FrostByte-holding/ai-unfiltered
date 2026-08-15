@@ -1329,6 +1329,12 @@
 - URL: https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/
 - Summary: Intel has informed customers about several high-severity vulnerabilities that can lead to privilege escalation and even code execution. The post Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined appeared first on SecurityWeek.
 
+### Policy-as-logic for robust reasoning over rules
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11905
+- Summary: In many practical applications of generative AI systems, from tax rules to airline baggage allowance, responses to natural language queries must respect written policies or rules. We present a hybrid symbolic approach that expresses policies in formal logic and at inference time exploits the...
+
 ### Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -1781,6 +1787,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/chai-discovery
 - Summary: Pharma is suddenly paying for Bio &#215; AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.
+
+### Three Tokens Force Exponential Feature Rank in Nonnegative Kernel Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11427
+- Summary: Full attention exposes every token pair, whereas kernel attention compresses a sequence into a fixed-dimensional sketch. We show that this distinction becomes exponential at the first context length containing two competing candidates. On Min-IP over Boolean inputs, rank-one normalized kernel...
 
 ### Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
 - Source: The Hacker News
@@ -2515,6 +2527,12 @@
 - URL: https://tldr.takara.ai/p/2608.09688
 - Summary: Adversarial training under long tailed distributions suffers from a dual imbalance: the class imbalance skews the training objective toward head classes, and the adversarial inner maximization may further amplify this bias. Existing methods mitigate this issue by correcting class priors or adapting...
 
+### CIFA: Contextual-Intersectional Fairness Auditing for Hidden Subgroup Discovery in Face Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09669
+- Summary: Fairness evaluation in computer vision commonly relies on aggregate accuracy and demographic subgroup analysis. However, visual models are also sensitive to contextual factors such as illumination, blur, image quality, facial accessories, and appearance attributes. These factors may interact with...
+
 ### OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns
 - Source: Security Week
 - Category: security
@@ -2814,6 +2832,12 @@
 - URL: https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/
 - Summary: The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies. The post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek.
 
+### View-Adaptive Renderer for View-Consistent 2D-to-3D Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09110
+- Summary: Reconstructing 3D shapes from a single image remains a fundamental yet challenging problem in computer vision. Traditional monocular 3D generation pipelines typically synthesize multiple views from a single input image before applying Neural Radiance Field (NeRF)-based reconstruction. However,...
+
 ### Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning
 - Source: arXiv AI
 - Category: research
@@ -2987,28 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.06529
 - Summary: arXiv:2608.06529v1 Announce Type: new Abstract: Soft-masking accelerates the convergence of Masked Diffusion Language Models (MDLMs). Existing formulations build this blend with linear interpolation (LERP) in the raw embedding space, which implicitly treats that space as Euclidean. We analyze the...
-
-### Confidence Estimation for Financial Vision-Language Models in Chart and Document Understanding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06532
-- Summary: arXiv:2608.06532v1 Announce Type: new Abstract: LVLMs are increasingly used to read financial charts, tables, and documents, where a single misread figure can move a decision and the most authoritative-looking answer is sometimes one the model produced without reading the exhibit. The operational...
-
-### Evo-Bench: Can Language Models Improve Agent Harness?
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09096
-- Summary: Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An emerging frontier is harness evolution---the agent's capacity to autonomously optimize its own operating harness. However, systematically benchmarking...
-
-### Security and Privacy Taxonomy Generation from Mobile App Reviews
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09049
-- Summary: Mobile app reviews are a rich, continuously renewing source of how users experience privacy and security, yet existing taxonomies of these concerns are hand-crafted and cannot keep pace with the evolving nature of the data. Automating taxonomy construction is the natural response, but scalability...
-
-### Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09043
-- Summary: Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memory from an unbounded...
 
