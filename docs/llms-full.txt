@@ -669,6 +669,12 @@
 - URL: https://tldr.takara.ai/p/2608.13069
 - Summary: Large language models (LLMs) are predominantly aligned to function as passive, sycophantic assistants. We challenge this default paradigm by empirically evaluating the cognitive plasticity of open-weight architectures when subjected to rigorous behavioral reprogramming. Our objective is to induce a...
 
+### Topology-Unified 2D Pose Estimation across Intact, Residual and Prosthetic Limbs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13047
+- Summary: Driven by the availability of large-scale datasets, Human Pose Estimation (HPE) plays a critical role in numerous downstream tasks. However, mainstream benchmarks exhibit severe representation bias, predominantly featuring able-bodied individuals. While a few pioneering datasets have attempted to...
+
 ### BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs
 - Source: HF Daily Papers
 - Category: open-source
@@ -1575,6 +1581,12 @@
 - URL: https://tldr.takara.ai/p/2608.11650
 - Summary: Recent advances in zero-shot text-to-speech (TTS) have substantially improved speech quality and voice cloning fidelity. However, many zero-shot TTS systems still depend on audio prompt transcripts at inference time. This dependency limits cross-lingual voice cloning, since in-the-wild reference...
 
+### Robustness of AI-Art Detectors under Generator Shift
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11643
+- Summary: Text-to-image generative models have advanced rapidly, with modern Diffusion Transformer architectures producing images that are increasingly difficult to distinguish from human-created artwork. This development has raised significant concerns regarding copyright protection, misinformation, fraud,...
+
 ### Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs
 - Source: HF Daily Papers
 - Category: open-source
@@ -1985,6 +1997,12 @@
 - Category: security
 - URL: https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/
 - Summary: Organizations are rushing to implement AI without fully grasping where its legal protections begin and end. The post The AI Governance Gap Is a Leadership Problem: Waiting Won&#8217;t Close It appeared first on SecurityWeek.
+
+### Gromov-Wasserstein Quantization and Clustering: Structure, Rates, and Algorithms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11016
+- Summary: Clustering is a fundamental class of data analysis techniques with the most important representatives being centroid-based methods like $k$-means. Such methods are strongly connected to quantization problems, which aim to approximate general probability measures with discrete ones. For example,...
 
 ### Policy Convergence and Divergence Across National and Within Regional AI Strategies: A Policy Design Element Analysis
 - Source: HF Daily Papers
@@ -2617,6 +2635,12 @@
 - URL: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
 - Summary: A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short...
 
+### Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09696
+- Summary: Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \emph{mechanistic}, causal model, not a curve fit; and learning such a model requires \emph{experiments}, because passive data leaves its mechanisms unidentified. Experiments are...
+
 ### Confusion-Geometry Rebalancing for Long-Tailed Adversarial Training
 - Source: HF Daily Papers
 - Category: open-source
@@ -2987,28 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.06420
 - Summary: arXiv:2608.06420v1 Announce Type: new Abstract: Perception in biological systems is inherently noisy, requiring organisms to make decisions under uncertainty where misclassification can be costly or fatal. We present an Artificial Life predator-prey model of foraging under noisy perception, and...
-
-### Sharding Prevents LLM Oversight Failures and Adversarial Exploitation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06422
-- Summary: arXiv:2608.06422v1 Announce Type: new Abstract: Giving an LLM judge more compute does not necessarily make it check more requirements. When one call must return many verdicts, some decisions become weakly grounded in the evidence, even when that call receives the same token or tool budget as a...
-
-### Adversarial Causal Intervention Falsification
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06427
-- Summary: arXiv:2608.06427v1 Announce Type: new Abstract: Generative models can reproduce an observational distribution while encoding an incorrect causal structure. We study a sequential game in which a structural causal generator proposes observational and interventional distributions, while an adversarial...
-
-### Fixed and Adaptive Topological DeepONets: Functional Measurements on Hausdorff Locally Convex Spaces
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06428
-- Summary: arXiv:2608.06428v1 Announce Type: new Abstract: Deep Operator Networks (DeepONets; arXiv:1910.03193) typically encode an input function through point values on a fixed discretization. Building on the Topological DeepONet framework of Ismailov (arXiv:2603.11972), we replace point samples by...
-
-### TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06396
-- Summary: arXiv:2608.06396v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models route each token through a small subset of experts, making routing patterns useful for identifying task-relevant experts during downstream adaptation. Yet current approaches have two limitations: task experts...
 
