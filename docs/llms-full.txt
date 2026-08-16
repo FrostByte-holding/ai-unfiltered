@@ -1119,6 +1119,12 @@
 - URL: https://arxiv.org/abs/2608.11758
 - Summary: arXiv:2608.11758v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) exhibit strong generalization and reasoning abilities due to large-scale multimodal pre-training. However, fine-tuning these models on downstream tasks often leads to catastrophic forgetting, where newly...
 
+### PIPES: Securing Agent Perception with Provenance and Priors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12789
+- Summary: Tool-using agents consume external data from sources with different levels of trust, yet tool responses rarely identify who produced each component or what it should convey. We show that this gap enables state-corruption attacks, in which attacker-controlled content makes environmental claims...
+
 ### ViTOED: A Dataset for Target-Oriented Emotion Detection on Vietnamese Social Media Texts
 - Source: HF Daily Papers
 - Category: open-source
@@ -1896,6 +1902,12 @@
 - URL: https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html
 - Summary: Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7,...
 
+### Gaze Target Estimation Anywhere with Concepts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11367
+- Summary: Estimating human gaze targets from images in-the-wild is an important and formidable task. Existing approaches primarily employ brittle, multi-stage pipelines that require explicit inputs, like head bounding boxes and human pose, in order to identify the subject of gaze analysis. As a result,...
+
 ### Market-Information-Aware Gated-LoRA of Foundation Models for Transferable Day-Ahead Electricity Price Forecasting
 - Source: HF Daily Papers
 - Category: open-source
@@ -2045,6 +2057,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.10974
 - Summary: Scientific papers contain fine-grained records of problem solving: authors mention technical obstacles and methods that were used to address them, often along with reasoning on why those methods were chosen. We introduce MUSE (Mining Underlying Scientific Explanations), a full-text, multi-domain...
+
+### ReLTEx: Reliable LLM-based Taxonomy Expansion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10970
+- Summary: Recent advances in Large Language Models (LLMs) have demonstrated strong capabilities in generating semantically relevant concepts and relations, making them promising tools for taxonomy enrichment. However, directly relying on LLM-generated expansions often leads to noisy, redundant, or...
 
 ### Elevated errors affecting ChatGPT Go conversations
 - Source: OpenAI Status
@@ -2618,6 +2636,12 @@
 - URL: https://www.githubstatus.com/incidents/1t7x65n7kvt1
 - Summary: Aug 10, 20:39 UTC Monitoring - We are currently investigating reports of some Copilot users experiencing issues accessing certain models. Affected users may see errors or degraded functionality when attempting to use specific models. We are actively working on a fix and will provide updates as we...
 
+### ELMER: Evolutionary Language Model that Explores and Refines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10196
+- Summary: Program evolution can measure whether a mutation helped, but it rarely controls how far the mutation moves in behavior space. Syntactic edit size is an unreliable proxy: a small code change can alter nearly every action, while a larger rewrite can preserve the same execution trace. We introduce an...
+
 ### AI professors are negotiating the new realities of academic research
 - Source: MIT Tech Review AI
 - Category: research
@@ -2766,6 +2790,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/32jmvvgg7wj9
 - Summary: Aug 10, 12:19 UTC Resolved - This incident has been resolved. Aug 10, 12:03 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 10, 12:03 UTC Identified - The issue has been identified and a fix is being implemented. Aug 10, 10:15 UTC Investigating - Cloudflare is...
+
+### Renormalising Generative Models for Active Inference: Foundations, Derivations, and Verification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09512
+- Summary: Active inference offers a unified framework for perception, learning, and action, but scaling discrete active-inference models to rich spatial and temporal domains remains difficult. Renormalising generative models (RGMs) address this challenge by composing discrete generative models across spatial...
 
 ### The Download: AI agents for science, and the “censorship-industrial complex”
 - Source: MIT Tech Review AI
@@ -2981,34 +3011,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
 - Summary: OpenAI has announced that it's pausing some "internal activities" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's...
-
-### SpeedTuning: Speeding Up Policy Execution with Lightweight Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09138
-- Summary: While learned robotic policies hold promise for advancing generalizable manipulation, their practical deployment is often hindered by suboptimal execution speeds. Imitation learning policies are inherently limited by hardware constraints and the speed of the operator during data collection. In...
-
-### Motif 3: Technical Report
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09119
-- Summary: We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billion activated per token. Each sparse MoE layer contains 384 routed experts, with eight selected per token. This fine-grained sparsity provides substantial expert capacity while...
-
-### Critical Flaws Discovered in Belgian eID Software Used by 2 Million People
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/
-- Summary: The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies. The post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek.
-
-### View-Adaptive Renderer for View-Consistent 2D-to-3D Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09110
-- Summary: Reconstructing 3D shapes from a single image remains a fundamental yet challenging problem in computer vision. Traditional monocular 3D generation pipelines typically synthesize multiple views from a single input image before applying Neural Radiance Field (NeRF)-based reconstruction. However,...
-
-### Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06394
-- Summary: arXiv:2608.06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only...
 
