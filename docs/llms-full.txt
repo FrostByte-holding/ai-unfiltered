@@ -42,6 +42,36 @@
 - URL: https://arxiv.org/abs/2608.12371
 - Summary: arXiv:2608.12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper...
 
+### Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.12372
+- Summary: arXiv:2608.12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that...
+
+### Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.12373
+- Summary: arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's...
+
+### Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.12385
+- Summary: arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically...
+
+### Learning to Adapt Cross-Domain Preferences via Meta-LoRA for LLM Personalization
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.12389
+- Summary: arXiv:2608.12389v1 Announce Type: new Abstract: Cross-domain zero- or few-shot personalization aims to generate user-preferred responses in unseen conversational domains from only a handful of target-domain interactions. Existing adaptation methods struggle to calibrate update magnitude under...
+
+### Research Assistant: AstraZeneca's Agentic System for R&D
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.12395
+- Summary: arXiv:2608.12395v1 Announce Type: new Abstract: We describe Research Assistant, an internal LLM-based system developed at AstraZeneca to help scientists and clinicians explore biomedical questions across a broad range of data sources. The system provides a chat-style interface that brings together...
+
 ### Elevated errors for Claude Fable 5
 - Source: Anthropic Status
 - Category: incidents
@@ -436,6 +466,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.13524
 - Summary: Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than...
+
+### Vero: Can AI Agents Build Formally Verified Software Repositories?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13522
+- Summary: AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy...
 
 ### Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology
 - Source: HF Daily Papers
@@ -1944,6 +1980,12 @@
 - URL: https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/
 - Summary: Organizations are rushing to implement AI without fully grasping where its legal protections begin and end. The post The AI Governance Gap Is a Leadership Problem: Waiting Won&#8217;t Close It appeared first on SecurityWeek.
 
+### Policy Convergence and Divergence Across National and Within Regional AI Strategies: A Policy Design Element Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11006
+- Summary: Governments worldwide have responded to the rapid expansion of AI by publishing national and regional AI strategies. Comparing national and regional AI strategies to identify their convergences and divergences can uncover their common practices, understand regional variations, and provide policy...
+
 ### Elevated errors affecting ChatGPT Go conversations
 - Source: OpenAI Status
 - Category: incidents
@@ -2165,6 +2207,12 @@
 - URL: https://tldr.takara.ai/p/2608.10553
 - Summary: Conformal prediction (CP) provides distribution-free prediction intervals for fixed forecasters, but its standard calibration procedure is often inefficient for time series data, where forecast errors are temporally dependent and change across time and operating conditions. Recent time series CP...
 
+### SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10538
+- Summary: Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution. However, because strong...
+
 ### Mozilla Issues New Firefox GPG Key Following Exposure
 - Source: Security Week
 - Category: security
@@ -2194,6 +2242,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/3f0150102wdw
 - Summary: Aug 11, 05:32 UTC Resolved - This incident has been resolved. Aug 11, 05:22 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 11, 05:22 UTC Identified - The issue has been identified and a fix is being implemented. Aug 11, 05:22 UTC Investigating - Cloudflare is...
+
+### MAP-Graph: Provenance-Aware Shared Memory for Multi-Agent Workflows
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10509
+- Summary: Shared memory helps language-model agents reuse information across long workflows, yet relevant evidence may not be admissible for a particular agent or action. Because restrictions propagate through derivations, summaries can conceal private, poisoned, untrusted, or revoked sources, enabling...
 
 ### CARB: A Characterization-Guided Framework for CNN Inference Cost Prediction and Deployment Screening
 - Source: HF Daily Papers
@@ -2826,6 +2880,12 @@
 - URL: https://status.openai.com//incidents/01KZN8RYNZY8T4QQGB3JWMPYRW
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
 
+### Reading Cognition as Decisions Unfold in Words: A Factorized Inverse Decision Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.09222
+- Summary: Inverse decision modeling infers latent properties of decision processes from observed behavior, but existing formulations rely primarily on action trajectories. In verbalized cognitive tasks, task execution also produces response dynamics that action-only formulations leave unmodeled, such as...
+
 ### Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials
 - Source: The Hacker News
 - Category: security
@@ -2951,64 +3011,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.06409
 - Summary: arXiv:2608.06409v1 Announce Type: new Abstract: Speech language models are increasingly evaluated on paralinguistic tasks by the accuracy of prompted answers, but answer accuracy combines failures at different stages of the audio-to-answer computation. We introduce a generation-aligned diagnostic...
-
-### NTDH: Complex Reasoning for Comprehensive Affective Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06425
-- Summary: arXiv:2608.06425v1 Announce Type: new Abstract: Comprehensive affective analysis is challenging for two reasons: it spans heterogeneous prediction tasks with continuous, ordinal, and multi-label outputs, and affective meaning is context-dependent, requiring conflicting cues to be reconciled rather...
-
-### Recovering Lesion Parameters from Aphasic Picture Naming Error Profiles in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06429
-- Summary: arXiv:2608.06429v1 Announce Type: new Abstract: Interpretability methods for large language models (LLMs) describe internal state but do not directly test whether that state is causally sufficient to produce the observed behavior. In earlier work, we lesioned LLMs to produce error profiles in...
-
-### Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.06485
-- Summary: arXiv:2608.06485v1 Announce Type: new Abstract: Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-playing, motivating the development of lifelong agents that remain coherent over extended interactions. A key component of such...
-
-### Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06411
-- Summary: arXiv:2608.06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual tokens. Visual token pruning can reduce this cost, but requires...
-
-### WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06474
-- Summary: arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward...
-
-### Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06501
-- Summary: arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept...
-
-### KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06530
-- Summary: arXiv:2608.06530v1 Announce Type: new Abstract: Planning a degree from official university sources requires solving two problems in order. The institution's curriculum must first be reconstructed from catalogs, departmental pages, JSON endpoints, and PDFs that share no schema, and only then can a...
-
-### TaskSense: Focusing on What Matters in World Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.06544
-- Summary: arXiv:2608.06544v1 Announce Type: new Abstract: World models for visual control typically learn compact latent states by reconstructing observations, implicitly encouraging representations to preserve information across the entire visual input. However, task-relevant content often occupies only a...
-
-### MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06430
-- Summary: arXiv:2608.06430v1 Announce Type: new Abstract: Learning from Electronic Health Records (EHRs) has gained significant attention due to its potential to improve clinical prediction. However, effective learning remains challenging because EHRs encode heterogeneous, temporally ordered clinical...
-
-### SNI-GNN: SmartNIC-Assisted Full-Graph GNN Training with In-Network Embedding Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.06441
-- Summary: arXiv:2608.06441v1 Announce Type: new Abstract: Full-graph GNN training delivers high accuracy but scales poorly on multi-server clusters due to heavy, irregular inter-node embedding exchanges. We present SNI-GNN, a SmartNIC-assisted full-graph training system that reduces communication while...
 

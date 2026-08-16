@@ -5,7 +5,7 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 15 Aug 2026 20:24:13 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 01:24:39 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
         <item>
@@ -414,6 +414,15 @@
             <description>Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than...</description>
         </item>
         <item>
+            <title>Vero: Can AI Agents Build Formally Verified Software Repositories?</title>
+            <link>https://tldr.takara.ai/p/2608.13522</link>
+            <guid>https://tldr.takara.ai/p/2608.13522</guid>
+            <pubDate>Thu, 13 Aug 2026 17:41:27 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2608.13522">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy...</description>
+        </item>
+        <item>
             <title>Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology</title>
             <link>https://tldr.takara.ai/p/2608.13518</link>
             <guid>https://tldr.takara.ai/p/2608.13518</guid>
@@ -421,15 +430,6 @@
             <source url="https://tldr.takara.ai/p/2608.13518">HF Daily Papers</source>
             <category>open-source</category>
             <description>Many clinical prediction models treat post-intervention outcomes as a one-step mapping from baseline measurements to a future endpoint. However, recovery after a procedure often unfolds as an irregular trajectory: clinical observations, medication changes, repeat interventions, and physiological...</description>
-        </item>
-        <item>
-            <title>Bagging Robustly Learns VC Classes with Linear Sample Complexity</title>
-            <link>https://tldr.takara.ai/p/2608.13514</link>
-            <guid>https://tldr.takara.ai/p/2608.13514</guid>
-            <pubDate>Thu, 13 Aug 2026 17:36:49 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2608.13514">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke,...</description>
         </item>
         <item>
             <title>Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets</title>
