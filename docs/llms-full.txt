@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-16
+
+### Service disruption on Claude services
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/qt14v73myyy5
+- Summary: Aug 16, 22:34 UTC Resolved - The issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude Cowork has been resolved. Aug 16, 22:22 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai, platform.claude.com, the Claude API, Claude Code, and Claude...
+
+
 ## 2026-08-15
 
 ### React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
@@ -454,6 +463,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.13555
 - Summary: Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect...
+
+### SCULPT: Subtractive Composition for 3D Part Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13541
+- Summary: Part-aware 3D generation aims to create digital assets that are coherent as complete objects while exposing structural parts for editing, material assignment, animation, and reuse. Existing methods impose this structure outside the native generation loop: segmentation-based methods partition an...
 
 ### Increased  errors for Workers KV requests
 - Source: Cloudflare Status
@@ -1932,6 +1947,12 @@
 - URL: https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html
 - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the...
 
+### Long-Horizon Forecasting of Complete Financial Statements with Forma
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11327
+- Summary: Specialist training beats generalist scale when forecasting financial statements. To our knowledge, no prior work jointly forecasts complete financial statements beyond one year, yet in a discounted-cash-flow valuation most firm value sits past that window. We release ProForma-20Q, a reproducible...
+
 ### Deployment Decision Reliability: A Generalizability-Theory Framework for Sizing Long-Horizon Agent Evaluations
 - Source: HF Daily Papers
 - Category: open-source
@@ -2314,6 +2335,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
 - Summary: Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. "Unlike traditional software supply chain attacks, zero source code files...
+
+### SparSTAR: Sparse Attention for SpaceTime AutoRegressive Video Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10519
+- Summary: InfinityStar extends visual autoregressive generation to video through a sequence of image and clip pyramids. Its changing scale and cross-clip context, however, leave late-scale attention costly and make sparse patterns reused from diffusion or image VAR models unreliable. We introduce SparSTAR, a...
+
+### SafeCap: Improving LVLM Safety with Image Captioning Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10513
+- Summary: Large vision-language models (LVLMs) remain vulnerable to jailbreak attacks that exploit visual inputs to bypass safety alignment inherited from their language backbones. We propose SafeCap, a reinforcement-learning framework that aligns LVLMs through learned self-captioning. SafeCap trains a...
 
 ### Elevated Errors in Fuzhou and Foshan
 - Source: Cloudflare Status
@@ -2981,34 +3014,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.09222
 - Summary: Inverse decision modeling infers latent properties of decision processes from observed behavior, but existing formulations rely primarily on action trajectories. In verbalized cognitive tasks, task execution also produces response dynamics that action-only formulations leave unmodeled, such as...
-
-### Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
-- Summary: Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro...
-
-### FedA2L: Adaptive layer-wise learning rate adjustment in decentralized federated learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09208
-- Summary: Decentralized intelligence systems with heterogeneous devices and limited coordination increasingly rely on decentralized federated learning (DFL). However, DFL suffers from convergence inefficiency under data heterogeneity due to the use of a uniform learning rate (LR) that ignores layer-specific...
-
-### Failure-Aware Long-Form Translation: Design and Implementation of a Recoverable LLM Translation System
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09187
-- Summary: A long-form translation request can succeed at the API layer and still produce an unusable result. The output may be empty, truncated, filtered, dominated by source or prompt material, or interrupted after producing text worth keeping. This report describes a recovery protocol developed for a...
-
-### UNSPECIFIC: General Constraint Synthesis for Breaking Copy-and-Paste Shortcut in LLM Instruction Following
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09154
-- Summary: Large language models (LLMs) are increasingly expected to follow long lists of constraints in complex instructions, and synthesizing instructions from a reference document (i.e., back-translation) is a widely used method to measure/enhance LLMs' ability to follow complex instructions. However, this...
-
-### OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
-- Summary: OpenAI has announced that it's pausing some "internal activities" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it's...
 
