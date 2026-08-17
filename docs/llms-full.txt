@@ -4,6 +4,99 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-17
+
+### Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.13564
+- Summary: arXiv:2608.13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a...
+
+### Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.13565
+- Summary: arXiv:2608.13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of individual MoE layers remains insufficiently...
+
+### Modular Cognitive Architecture Emerges in Large Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.13567
+- Summary: arXiv:2608.13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental...
+
+### A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.13573
+- Summary: arXiv:2608.13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems. However, existing LLM serving workload studies remain limited in scale and scope. They often...
+
+### Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2608.13574
+- Summary: arXiv:2608.13574v1 Announce Type: new Abstract: LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols. These capabilities make agents useful, but they also introduce risks related to over-privileged...
+
+### L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.13562
+- Summary: arXiv:2608.13562v1 Announce Type: new Abstract: Modern operational systems face uncertainty even in routine conditions, where rare, bursty, and self-exciting events emerge from both exogenous covariates and endogenous event dynamics. Standard neural operators are typically trained as...
+
+### Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.13566
+- Summary: arXiv:2608.13566v1 Announce Type: new Abstract: Post-training papers, model cards, and blog posts often treat scores on a small set of coding benchmarks (e.g., SWE-bench and LiveCodeBench) as evidence of broad coding capability, both for research artifacts and user-facing systems. We argue that...
+
+### Robust XGBoosting for Regression
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.13590
+- Summary: arXiv:2608.13590v1 Announce Type: new Abstract: XGBoost is a very popular and powerful method for prediction. It iteratively fits simple decision trees to the residuals of the previous step. An efficient and scalable implementation is available. The standard loss function for XGBoost is the...
+
+### Training-Free Knowledge Transfer Across Model Scales through Activation-Guided Pruning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.13596
+- Summary: arXiv:2608.13596v1 Announce Type: new Abstract: Heterogeneous model fusion seeks to combine models that differ in tasks, initializations, architectures, or scales. We study an underexplored cross-scale setting: improving a small recipient language model with a stronger donor despite substantial...
+
+### Hard Cases, Bad Labels: Testing Error Exposure and Error Location in Uncertainty Sampling Under Bounded Label Noise
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2608.13601
+- Summary: arXiv:2608.13601v1 Announce Type: new Abstract: Active learning can reduce labeling cost by selecting informative examples, but the most uncertain examples may also be the hardest to label correctly. This study tests whether uncertainty sampling fails because it acquires more corrupted labels or...
+
+### Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.13568
+- Summary: arXiv:2608.13568v1 Announce Type: new Abstract: Coding agents spend most of their context budget on retrieval. Lexical retrieval (grep) is universal, instant, and zero-setup, but noisy: it cannot tell a definition from a call from a comment. Semantic retrieval via the Language Server Protocol (LSP)...
+
+### Think in Latent, Explain in Language: Self-Explainable Latent Reasoning
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.13570
+- Summary: arXiv:2608.13570v1 Announce Type: new Abstract: Latent reasoning has emerged as a powerful alternative to text-based Chain-of-Thought (CoT), offering significant gains in computational efficiency by compressing verbose reasoning into compact embeddings. However, compressing reasoning into the...
+
+### Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.13571
+- Summary: arXiv:2608.13571v1 Announce Type: new Abstract: When a language model fails to answer a query on the first attempt, an agentic system retries, consuming additional tokens each time. This retry overhead creates a gap between what a model's per-token price implies and what a full workflow actually...
+
+### BCMT: Blockwise Causal Memory Transformer
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.13578
+- Summary: arXiv:2608.13578v1 Announce Type: new Abstract: Transformer architectures rely on dense self-attention to model long-range dependencies, but this mechanism exhibits quadratic complexity with respect to sequence length. We introduce BCMT (Blockwise Causal Memory Transformer), an architecture for...
+
+### Jais 2: A Family of Arabic-Centric Open Large Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2608.13580
+- Summary: arXiv:2608.13580v1 Announce Type: new Abstract: Jais 2 is a family of Arabic-centric large language models developed jointly by MBZUAI, Cerebras, and Inception, designed to advance Arabic-centric language modeling, with strong performance across the Arabic and culturally grounded benchmarks...
+
+
 ## 2026-08-16
 
 ### Service disruption on Claude services
@@ -2924,94 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.09321
 - Summary: Cross-view geo-localization is challenging due to drastic viewpoint changes and large appearance discrepancies between street-level and satellite imagery. Although existing methods often use geometric warping to expose co-visible cues, such transformations rely on restrictive spatial assumptions...
-
-### AI for science needs reasoning, not just data
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/
-- Summary: Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century....
-
-### These startups are chasing the next big thing in LLMs
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/
-- Summary: MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they...
-
-### Targeted Label-Flipping and Oversampling Attacks on Federated Conditional GANs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09314
-- Summary: In a federated learning setup for GANs, several adversarial attacks are possible. One such attack is label flipping, in which malicious clients deliberately alter label information during local training in order to manipulate the global generator. The objective of this attack is to skew the learned...
-
-### Corporate Data Stolen in Levi Strauss Cyberattack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/
-- Summary: Using social engineering, a threat actor accessed the computers of three employees and exfiltrated data from them. The post Corporate Data Stolen in Levi Strauss Cyberattack appeared first on SecurityWeek.
-
-### WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09298
-- Summary: Action-conditioned world models (ACWMs) promise to provide embodied AI with scalable predictive simulators for planning, policy evaluation, and data generation. Realizing this promise requires precise action-conditioned transitions rather than merely plausible outputs. Yet their applicability...
-
-### Beyond the Capability Boundary: Zeroth-Order Optimization for Self-Evolving LLM Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09292
-- Summary: Self-evolving methods improve the capabilities of LLM agents by sampling trajectories from the underlying LLMs and learning from these trajectories. However, these methods struggle to learn beyond the inherent capability boundary of the agents, since the agents cannot sample correct trajectories on...
-
-### Guizhen Chip's On-Chip MBQC Breakthrough Opens a Real Path to Million-Qubit Optical Quantum Computing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/guizhen-chip-on-chip-mbqc-million-qubit-pathway-aug2026
-- Summary: Hefei-based Guizhen Chip Technology, working with USTC's Ren Xifeng group, has demonstrated on-chip generation of a 4-photon 16-qubit GHZ state and a 4-qubit cluster state, with Grover search at 0.987 average identification probability. The result is a milestone for measurement-based optical...
-
-### A Robot That Learns from Short Videos in 29 Seconds — X Square Robot's HOST Changes the Embodied-AI Recipe
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/x-square-robot-host-29-second-skill-learning-video-aug2026
-- Summary: X Square Robot has open-sourced HOST, an inference-time learning framework that lets a humanoid robot watch a 29-second human demonstration and reproduce the skill at 62 percent success. The approach flips the embodied-AI recipe from offline fine-tuning to on-the-fly imitation.
-
-### China's LLMs Now Lead Global Token Usage for Fifteen Straight Weeks — and DeepSeek-V4-Flash Just Took the Top Spot
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-llm-token-usage-15-weeks-deepseek-v4-flash-leader-aug2026
-- Summary: OpenRouter data shows Chinese LLMs crossed 34.25 trillion weekly tokens for the first time, with the top four slots all Chinese. DeepSeek-V4-Flash official release vaulted to number one with 570 percent week-on-week growth.
-
-### Tongyi Wan-Animate-2 Goes Open Source, and Alibaba's Character Animation Now Matches Commercial SOTA
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tongyi-wan-animate-2-character-animation-open-source-aug2026
-- Summary: Alibaba's Tongyi Wanxiang team has open-sourced Wan-Animate-2, an end-to-end character animation framework that runs at 24 fps in real-time streaming without skeletal pose extraction. Head-to-head comparisons show parity with closed-source commercial leaders.
-
-### What's It Actually Like to Wear a 13,999-Yuan Mechanical Exoskeleton?
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hypershell-x-ultra-mechanical-exoskeleton-real-world-review-aug2026
-- Summary: Hypershell's new flagship, the X Ultra, weighs 1.8 kilograms with a 1,000W motor and a 30-kilometer range, and pairs titanium and carbon fiber with end-to-end AI motion recognition. Real-world testing shows the consumer category has matured fast.
-
-### MoRSE: Task-Oriented Multi-Agent System with Mixture of Role-Subtask Experts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09251
-- Summary: Large language model-based multi-agent systems have recently shown strong potential for complex, long-horizon tasks. However, existing methods mainly rely on coarse prompt-level differentiation without parameter adaptation for diverse subtasks, resulting in insufficient inter-agent heterogeneity...
-
-### Emotion2Skill: Model-Internal Emotion Signals for Adaptive Skill Selection and Evolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09248
-- Summary: Skill-based LLM agents select reusable procedures from an external library to solve complex tasks, yet their routing decisions rely entirely on text-level signals such as task descriptions, verbal reflections, and experience-derived rules, while the model's own internal representational state...
-
-### Increased errors for some ChatGPT users
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KZN8RYNZY8T4QQGB3JWMPYRW
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### Reading Cognition as Decisions Unfold in Words: A Factorized Inverse Decision Model
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09222
-- Summary: Inverse decision modeling infers latent properties of decision processes from observed behavior, but existing formulations rely primarily on action trajectories. In verbalized cognitive tasks, task execution also produces response dynamics that action-only formulations leave unmodeled, such as...
 
