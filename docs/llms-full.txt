@@ -6,6 +6,30 @@
 
 ## 2026-08-17
 
+### Incident with GitHub.com
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/zkxwbgr0cnmx
+- Summary: Aug 17, 16:16 UTC Update - We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are still...
+
+### Degraded performance for Claude Opus 5, Claude Sonnet 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/zhk4v3yv1lsf
+- Summary: Aug 17, 15:29 UTC Resolved - This incident has been resolved. Aug 17, 14:39 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 17, 14:25 UTC Update - Claude Opus 5 is operational. Claude Sonnet 5 is degraded. We are investigating. Aug 17, 13:56 UTC Investigating - We...
+
+### Teaching Everyone to Fish for Tokens
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens
+- Summary: Nvidia wants you building your own model, not buying from Anthropic/OpenAI.
+
+### ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+- Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was...
+
 ### Cloudflare Lists Bulk Actions failing
 - Source: Cloudflare Status
 - Category: incidents
@@ -494,6 +518,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-cursors-60b-acquisition-by
 - Summary: Congrats to the team!
+
+### Content Depth Matters in Short-Video Recommendation: Rethinking the Attention Economy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.13990
+- Summary: Driven by the attention economy, short-video Recommender Systems (RSs) are primarily optimized to maximize user engagement by promoting videos that capture attention within seconds. These systems inherently favor shallow-content videos that are effective at attracting immediate attention. However,...
 
 ### Increased HTTP 5xx Errors in Kuwait, Bangkok, Jakarta and Dammam
 - Source: Cloudflare Status
@@ -2079,6 +2109,12 @@
 - URL: https://arxiv.org/abs/2608.10216
 - Summary: arXiv:2608.10216v1 Announce Type: new Abstract: Agent frameworks ship quality gates that compare text blocks by embedding-cosine similarity and decide at a fixed cutoff. Deduplication filters, semantic caches, drift guards, and answer grader gates deploy to answer the question: "Does this text...
 
+### Generative Video Compression Based on Hierarchical Referencing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11618
+- Summary: Diffusion-based generative video compression has emerged as a promising paradigm to improve perceptual quality, where latent frames are required to be encoded efficiently while serving as denoising conditions. However, existing methods neither carefully design reference and quality structures...
+
 ### CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications
 - Source: HF Daily Papers
 - Category: open-source
@@ -2177,6 +2213,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.11427
 - Summary: Full attention exposes every token pair, whereas kernel attention compresses a sequence into a fixed-dimensional sketch. We show that this distinction becomes exponential at the first context length containing two competing candidates. On Min-IP over Boolean inputs, rank-one normalized kernel...
+
+### Analysis of Federated Aggregation under Model Poisoning and Backdoor Attacks: A Reconstructed Cross-Dataset and Cross-Architecture Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11423
+- Summary: Robust comparisons of federated aggregation methods require joint consideration of predictive performance, threat definitions, metric semantics, and execution provenance. A 500-cell seed-1 evaluation matrix was reconstructed across five aggregation methods, five datasets, five architectures, and...
 
 ### Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack
 - Source: The Hacker News
@@ -2297,6 +2339,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.11114
 - Summary: Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional flexibility and accurate mean prediction. Traditional parametric methods, such as Mean...
+
+### Every Packet Counts: Dispersing Information for Loss-Resilient Learned Image Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.11096
+- Summary: Learned image compression (LIC) has achieved impressive rate-distortion performance. However, existing methods remain highly vulnerable to packet loss, a common challenge in satellite and emergency communications. This vulnerability stems from non-uniform information distribution at the...
 
 ### Zoom Patches Zero-Click Code Execution Vulnerability
 - Source: Security Week
@@ -2971,51 +3019,4 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/s19bth7wzkf7
 - Summary: Aug 10, 18:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 10, 18:22 UTC Update - We identified the source of the issue affecting creation of...
-
-### DSLE: A Learning Environment for Dark Souls Boss Encounters
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09902
-- Summary: We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters of Dark Souls: Remastered as game-playing agent benchmarks through a Gymnasium-style interface. DSLE combines real-time combat, high-dimensional visual input, and sparse terminal...
-
-### Towards Expert-level Medical AI for Real-time Video Consultations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09861
-- Summary: Audio-visual interaction is the standard for patient-physician consultations, enabling natural communication and effective assessment of illness through non-verbal cues. While text-based AI has shown promise, it discards essential perceptual dimensions and limits patients who cannot articulate...
-
-### Distill Skills into Weights, Not Prompts: Abstract Skills as Privileged Signals for On-Policy Self-Distillation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09826
-- Summary: Reinforcement learning with verifiable rewards yields no group-relative signal when rollout groups are uniformly correct or uniformly wrong, which account for 63.0-68.0% of groups in our experiments. We propose SKALD (Skill-Anchored Latent Distillation), an on-policy self-distillation framework...
-
-### China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
-- Summary: Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat...
-
-### Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents
-
-### Increased error rates
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Conversations (Degraded performance)
-
-### ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
-- Summary: A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short...
-
-### Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.09696
-- Summary: Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \emph{mechanistic}, causal model, not a curve fit; and learning such a model requires \emph{experiments}, because passive data leaves its mechanisms unidentified. Experiments are...
 
