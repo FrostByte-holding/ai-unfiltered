@@ -6,6 +6,29 @@
 
 ## 2026-08-17
 
+### Lists Service Degraded
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/wdp9xb0250qk
+- Summary: Aug 17, 19:56 UTCIdentified - Changes to URL Lists will experience delays before taking effect. Rulesets that contain lists may result in errors when editing them. Existing Lists continue to function normally.
+
+### Same Cluster, 33 Points More Utilization: What Changed Was the Order
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Dharma-AI/gpu-management-pt2
+
+### Network Performance Issues in Phoenix, Los Angeles
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/f8ms50xkfn4t
+- Summary: Aug 17, 19:37 UTCInvestigating - Cloudflare is investigating issues with network performance in our Phoenix and Los Angeles facilities. We are working to analyse and mitigate this problem. More updates to follow shortly.Aug 17, 19:34 UTCInvestigating - Cloudflare is investigating issues with...
+
+### Cloudflare Dashboard Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/p19kmglclwy4
+- Summary: Aug 17, 19:25 UTCResolved - This incident is now resolved.Aug 17, 18:52 UTCMonitoring - We have identified and implemented a fix for this issue and are currently monitoring the results.Aug 17, 17:26 UTCInvestigating - Cloudflare is investigating issues where some users receive errors on the...
+
 ### Incident with GitHub.com
 - Source: GitHub Status
 - Category: incidents
@@ -440,6 +463,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/x-square-robot-sets-benchmark-at-figure-ais-number-beats-it-by-45-aug2026
 - Summary: Shenzhen's X Square Robot sorted 1,816 parcels in one unedited hour with simple grippers. The target it set for itself — 1,248 — happens to be Figure AI's sustained hourly average, to the parcel.
+
+### Towards Efficient Multimodal and Multilingual Opinion Extraction for STI: A QLoRA-Based Fine-Tuning Approach
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.14152
+- Summary: Recent advances in large language models (LLMs) have reshaped semantic analysis. Opinion Extraction (OE) for Science and Technology Intelligence (STI) requires concise core opinions from large information streams. Off-the-shelf models struggle to filter noise from these streams and show limited...
 
 ### Over 1,000 Charities Hit by Beacon CRM Data Breach
 - Source: Security Week
@@ -1424,6 +1453,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.12789
 - Summary: Tool-using agents consume external data from sources with different levels of trust, yet tool responses rarely identify who produced each component or what it should convey. We show that this gap enables state-corruption attacks, in which attacker-controlled content makes environmental claims...
+
+### CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.12779
+- Summary: Understanding the temporal progression of symptoms in clinical narratives is critical for disease monitoring, safety surveillance, and causality assessment. Clinical narratives, however, rarely provide explicit temporal anchors. Current approaches to temporal information reasoning focus...
 
 ### ViTOED: A Dataset for Target-Oriented Emotion Detection on Vietnamese Social Media Texts
 - Source: HF Daily Papers
@@ -2705,6 +2740,12 @@
 - URL: https://www.latent.space/p/ainews-muse-glimmer-and-spark-open
 - Summary: a small win for american open models - Glimmer runs on a fits on a single RTX 3090!
 
+### When Vision Becomes Text: Visual Token Pruning via Cross-Modal Residual Guidance in VLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.10489
+- Summary: Abundant visual information strengthens vision-language model (VLM) perception, yet massive visual tokens raise inference costs. Existing visual token pruning methods rely on similarity-based guidance, which exploits pairwise text-vision and vision-vision token correlations for compression....
+
 ### Multi-Granular Rationale-Guided Molecular LLM for Property Prediction
 - Source: HF Daily Papers
 - Category: open-source
@@ -2974,49 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.10374
 - Summary: Training neural networks to jointly predict mean and uncertainty estimates from noisy observations can be unstable, prompting a series of independent stabilization efforts. We argue that these interventions highlight a common underlying issue where gradient steps are poorly aligned with the...
-
-### CasDeblurGS: Cascaded 2D-to-3D Multi-View Consistency for 3D Gaussian Splatting from Two Blurry Images
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10345
-- Summary: Free-viewpoint 3D scene media is increasingly important for immersive applications, yet practical capture often suffers from severe view sparsity and motion blur. Although neural rendering has advanced sparse-view synthesis, existing blur-aware methods typically require substantial multi-view...
-
-### Hierarchical Compositionality for An Assistive AI Agent
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10330
-- Summary: AI agents are increasingly being developed to assist humans in various applications, and Large Language Models and other deep network architectures are considered to be state of the art for such agents. These methods are impressive stochastic predictors, but they are resource-hungry, opaque, and...
-
-
-## 2026-08-10
-
-### STCAD: Scalable Trajectory Clustering and Anomaly Detection on Terabyte-Scale AIS Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10249
-- Summary: We present a scalable framework for unsupervised clustering of maritime trajectories derived from terabyte-scale Automatic Identification System (AIS) archives. Variable-length trajectories are encoded with a custom BERT-based model trained via masked token modeling and clustered using CURE...
-
-### Disruption with Copilot for access to some models
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/1t7x65n7kvt1
-- Summary: Aug 10, 20:39 UTC Monitoring - We are currently investigating reports of some Copilot users experiencing issues accessing certain models. Affected users may see errors or degraded functionality when attempting to use specific models. We are actively working on a fix and will provide updates as we...
-
-### ELMER: Evolutionary Language Model that Explores and Refines
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10196
-- Summary: Program evolution can measure whether a mutation helped, but it rarely controls how far the mutation moves in behavior space. Syntactic edit size is an unreliable proxy: a small code change can alter nearly every action, while a larger rewrite can preserve the same execution trace. We introduce an...
-
-### AI professors are negotiating the new realities of academic research
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/
-- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most...
-
-### Disruption with creation of fine grained personal access tokens
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/s19bth7wzkf7
-- Summary: Aug 10, 18:46 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 10, 18:22 UTC Update - We identified the source of the issue affecting creation of...
 
