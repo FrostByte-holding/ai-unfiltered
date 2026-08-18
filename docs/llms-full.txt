@@ -6,6 +6,17 @@
 
 ## 2026-08-18
 
+### Elevated errors deploying Sites
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M0B4WSV41BCFZ9VDWKSMQVSP
+- Summary: Status: ResolvedThe issue affecting site deployments has been resolved.Affected components Sites (Operational)
+
+### How Much Memory Does Your Agent Actually Need?
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-research/altk-evolve-hmm
+
 ### Degraded performance for multiple models
 - Source: Anthropic Status
 - Category: incidents
@@ -361,6 +372,12 @@
 - URL: https://www.githubstatus.com/incidents/zkxwbgr0cnmx
 - Summary: Aug 17, 16:16 UTC Update - We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are still...
 
+### VicEdit: Learning to Edit Videos from Visual In-Context Examples
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16745
+- Summary: Despite progress in instruction-based video editing, unimodal textual instructions inherently struggle to convey fine-grained textures and complex dynamics. To bridge this perceptual gap, we propose Visual In-context Editing, a new paradigm elevating video editing from textual instructions to...
+
 ### Degraded performance for Claude Opus 5, Claude Sonnet 5
 - Source: Anthropic Status
 - Category: incidents
@@ -529,6 +546,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/w1d9976ls02m
 - Summary: Aug 17, 07:47 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.
 
+### Quantifying the Gap Between Laboratory Battery Test Patterns and Field Duty Profiles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16212
+- Summary: Laboratory battery tests provide the main empirical basis for battery performance and degradation studies, but their operating patterns do not directly represent field duty profiles. This paper quantifies the gap by comparing six accessible evidence sources covering controlled cycling, drive-cycle...
+
 ### Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware
 - Source: The Hacker News
 - Category: security
@@ -540,6 +563,12 @@
 - Category: security
 - URL: https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/
 - Summary: A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations. The post Fortune 500 Companies Hit in Azure Data Theft Campaign appeared first on SecurityWeek.
+
+### RadioVIL: Anomaly-Aware Diffusion Models for Radio Map Inpainting and Zero-Shot Vehicle Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16167
+- Summary: High-precision radio map construction is essential for emerging 6G Integrated Sensing and Communication (ISAC) applications, including digital twins and intelligent transportation. However, existing deep learning methods predominantly treat this as a pure image completion task, resulting in...
 
 ### JD.com Builds China's AI Industrialization Blueprint: Open Physical AI Stack From EgoLive Data to Robot Bases
 - Source: Pandaily
@@ -762,6 +791,18 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13708
 - Summary: arXiv:2608.13708v1 Announce Type: new Abstract: Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation, lack safeguards against weak...
+
+### Structured Prediction for Scalable Spreadsheet Table Understanding: From Cell Types to Table Ranges (Extended Version)
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16050
+- Summary: Spreadsheets are a primary medium for publishing tabular data, yet automatically extracting structured content from them remains difficult due to heterogeneous layouts, diverse file formats, and inconsistent organizational conventions. We address two core tasks in spreadsheet understanding:...
+
+### ReRef-3D: A Benchmark for Spatial Referring Expression-Guided 3D Scene Rearrangement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16011
+- Summary: We introduce ReRef-3D, a benchmark for language-guided placement in 3D scenes. It contains 33,826 instructions across 998 CLEVR-derived scenes, spanning 16 placement families and direct, one-hop, and two-hop references. Each instruction must be resolved into a valid new placement position. Given...
 
 ### Spatial Temporal Synergy: Balancing Change and Invariance in Text Driven 3D Human Motion Editing
 - Source: HF Daily Papers
@@ -2976,46 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.11037
 - Summary: AI-assisted facial phenotyping supports rare genetic disorder prioritization by retrieving visually similar diagnosed cases from facial image reference databases such as the GestaltMatcher Database (GMDB). Existing GestaltMatcher-based retrieval frameworks compare each test image with individual...
-
-### myMediWhisper: Construction of Burmese Medical Speech Corpus and Whisper Fine-Tuning for Clinical Dialogue ASR
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11036
-- Summary: Although Whisper models benefit from large-scale multilingual pre-training, their performance on Burmese medical speech remains limited. This work presents a Burmese medical speech recognition framework built on a high-quality 28-hour corpus recorded and validated by native speakers. We fine-tune...
-
-### Data Attribution of Emergent Misalignment with Persona Features
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11025
-- Summary: Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains. A leading mechanistic account attributes EM to persona features: latent directions acquired during pre-training that misaligned fine-tuning amplifies. We...
-
-### Derivative Computation in PINNs: Automatic Differentiation, Finite Differences and Beyond
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11020
-- Summary: We systematically investigate finite-difference (FD) derivative computation in Physics-Informed Neural Networks (PINNs) as an alternative to automatic differentiation (AD). On three benchmark PDEs we show that, with a properly calibrated step size, FD matches AD in accuracy on every problem while...
-
-### The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/
-- Summary: Organizations are rushing to implement AI without fully grasping where its legal protections begin and end. The post The AI Governance Gap Is a Leadership Problem: Waiting Won&#8217;t Close It appeared first on SecurityWeek.
-
-### Gromov-Wasserstein Quantization and Clustering: Structure, Rates, and Algorithms
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11016
-- Summary: Clustering is a fundamental class of data analysis techniques with the most important representatives being centroid-based methods like $k$-means. Such methods are strongly connected to quantization problems, which aim to approximate general probability measures with discrete ones. For example,...
-
-### Policy Convergence and Divergence Across National and Within Regional AI Strategies: A Policy Design Element Analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11006
-- Summary: Governments worldwide have responded to the rapid expansion of AI by publishing national and regional AI strategies. Comparing national and regional AI strategies to identify their convergences and divergences can uncover their common practices, understand regional variations, and provide policy...
-
-### TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10983
-- Summary: Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient...
 
