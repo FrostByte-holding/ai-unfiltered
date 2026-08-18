@@ -6,6 +6,30 @@
 
 ## 2026-08-18
 
+### Degraded performance for multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/q7txxvbsftgq
+- Summary: Aug 18, 16:20 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Haiku 4.5, and other Claude models. We will provide an update as soon as possible. Aug 18, 16:20 UTC Investigating - We are investigating reports of...
+
+### CDNJS Elevated Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2
+- Summary: Aug 18, 16:16 UTCInvestigating - We are investigated an increase in errors requesting cdnjs.cloudflare.com.
+
+### INC20000163
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/yk5sqhcjp266
+- Summary: Aug 18, 14:51 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
+
+### AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
+- Summary: Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between sessions. The work,...
+
 ### Xpander Raises $7.5 Million for AI Management and Governance
 - Source: Security Week
 - Category: security
@@ -240,6 +264,11 @@
 - URL: https://pandaily.com/china-mobile-national-unified-token-plan-operator-ai-pricing-aug2026
 - Summary: China Mobile announced plans for nationally unified Token package pricing for consumer and enterprise markets. Daily token calls in China grew from about 100 billion in early 2024 to over 140 trillion by March 2026, a more than 1,000x increase in two years, as telecom operators seek new billing...
 
+### Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/multi-vector-encoder
+
 
 ## 2026-08-17
 
@@ -308,6 +337,12 @@
 - URL: https://tldr.takara.ai/p/2608.16837
 - Summary: Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it...
 
+### Neurosymbolic Embodied Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16794
+- Summary: Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual...
+
 ### PixRestore: Unified Image Restoration via Pixel Diffusion Transformer
 - Source: HF Daily Papers
 - Category: open-source
@@ -337,6 +372,12 @@
 - Category: open-source
 - URL: https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens
 - Summary: Nvidia wants you building your own model, not buying from Anthropic/OpenAI.
+
+### Chronocooked: A Benchmark for Implicit Interval Timing in Reinforcement Learning Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16666
+- Summary: This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. Inspired by Overcooked, the suite comprises cooking scenarios that require temporal decision making. The tasks and reward functions are designed such that temporal...
 
 ### Training-Free Reconstruction-Based AI-Generated Image Detectors Are Inherently Vulnerable to Adversarial Examples
 - Source: HF Daily Papers
@@ -373,6 +414,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h
 - Summary: Aug 17, 12:29 UTCResolved - This incident has been resolved.Aug 17, 12:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 17, 12:04 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 17, 11:52 UTCInvestigating - Cloudflare is aware of,...
+
+### Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16477
+- Summary: AI-RAN brings large language model (LLM) serving close to mobile users, but cellular handover can separate an active request from its inference state: the user attaches to a target base station (gNB) while the large and growing key-value (KV) cache remains at the source. Retaining inference at the...
 
 ### Irregular Details How a Naming Error Let AI Models Attack a Real Company
 - Source: Security Week
@@ -458,6 +505,12 @@
 - URL: https://pandaily.com/zhuzhou-beidou-satellite-industry-cluster-xr-11-satellite-sar-constellation-aug2026
 - Summary: Zhuzhou, Hunan, has built a complete Beidou satellite industry chain from scratch in four years: 187 cluster companies, China's first fully domestic pulsating micro-satellite smart production line, and the country's largest SAR constellation with 8 satellites in orbit. The cluster reached 22.96...
 
+### TransAnyText: Translating Arbitrary Text in E-commerce Images via Structured Visual Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16284
+- Summary: Cross-border e-commerce image translation is essential for global retail, where product images, banners, and detail pages need to be produced in different languages. Existing methods struggle to achieve accurate translation, faithful visual identity preservation, and easy-to-edit outputs,...
+
 ### Recent macOS Screen Sharing Vulnerability Exploited in Attacks
 - Source: Security Week
 - Category: security
@@ -523,6 +576,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.16104
 - Summary: Diffusion and flow matching models have made significant progress in text-to-image generation, yet high computation, quadratic complexity, and large memory footprint hinder high-resolution synthesis and edge deployment. We propose Nexus, which integrates sparse architecture, linear complexity, and...
+
+### Representation Is Not Enough: Body-Localized Thermal Evidence for Contactless Stress and Craving Sensing in Opioid Use Disorder
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16087
+- Summary: Removing wearables from physiological monitoring also removes their supervision: the signal indicating where and when a stress response occurred. Contactless stress sensing therefore becomes a weakly supervised evidence-localization problem, where a clip-level label must be traced to the body...
 
 ### Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation
 - Source: arXiv AI
@@ -2959,63 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.10983
 - Summary: Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient...
-
-### A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10978
-- Summary: Optical music recognition (OMR) transcribes music scores into digital formats. While the field has advanced significantly on monophonic and piano-form scores, multi-part score transcription remains underexplored, largely due to the absence of a suitable dataset. We introduce OpenScore String...
-
-### MUSE: A Full-Text Cross-Domain Knowledge Base of Scientific Problems, Solutions, and Rationales
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10974
-- Summary: Scientific papers contain fine-grained records of problem solving: authors mention technical obstacles and methods that were used to address them, often along with reasoning on why those methods were chosen. We introduce MUSE (Mining Underlying Scientific Explanations), a full-text, multi-domain...
-
-### ReLTEx: Reliable LLM-based Taxonomy Expansion
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10970
-- Summary: Recent advances in Large Language Models (LLMs) have demonstrated strong capabilities in generating semantically relevant concepts and relations, making them promising tools for taxonomy enrichment. However, directly relying on LLM-generated expansions often leads to noisy, redundant, or...
-
-### Elevated errors affecting ChatGPT Go conversations
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01KZRJHTR75WDXCMC0ZERX6YJC
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sap-patches-critical-code-injection-memory-corruption-vulnerabilities/
-- Summary: SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs. The post SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities appeared first on SecurityWeek.
-
-### US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/
-- Summary: The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers. The post US Water Systems Get Cyber Boost From New Senate Bill and &#8216;Water Watch Center&#8217; appeared first on SecurityWeek.
-
-### Thinking of ACE? We Can Do It with Fewer Tokens
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-research/altk-evolve-sldd
-
-### Order Matters: LVLMs as Judges for Temporal Reasoning in Image Sequences
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.10908
-- Summary: As generative multimedia evolves from static image synthesis to complex, interleaved visual narratives, a foundational bottleneck has emerged: the judgment crisis. While human perception naturally synthesizes the temporal and logical flow of a story, automated evaluation systems remain largely...
-
-### OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
-- Summary: OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. "Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding...
-
-### Increase in Connectivity errors in London, UK
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/rfrm4fr82w2x
-- Summary: Aug 11, 12:55 UTCResolved - Cloudflare is aware of, and has resolved, an issue within our London datacenter where some traffic may have seen reduced connectivity for a short time. This potential impact window for this was 12:58 UTC to 13:25 UTC. There is no ongoing impact.
 

@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 18 Aug 2026 12:49:54 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 16:33:14 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Degraded performance for multiple models</title>
+            <link>https://status.claude.com/incidents/q7txxvbsftgq</link>
+            <guid>https://status.claude.com/incidents/q7txxvbsftgq</guid>
+            <pubDate>Tue, 18 Aug 2026 16:20:49 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/q7txxvbsftgq">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Aug 18, 16:20 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5, Claude Fable 5, Claude Opus 5, Claude Sonnet 5, Claude Haiku 4.5, and other Claude models. We will provide an update as soon as possible. Aug 18, 16:20 UTC Investigating - We are investigating reports of...</description>
+        </item>
+        <item>
+            <title>CDNJS Elevated Errors</title>
+            <link>https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2</link>
+            <guid>https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2</guid>
+            <pubDate>Tue, 18 Aug 2026 16:16:42 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Aug 18, 16:16 UTCInvestigating - We are investigated an increase in errors requesting cdnjs.cloudflare.com.</description>
+        </item>
+        <item>
+            <title>INC20000163</title>
+            <link>https://status.snowflake.com/incidents/yk5sqhcjp266</link>
+            <guid>https://status.snowflake.com/incidents/yk5sqhcjp266</guid>
+            <pubDate>Tue, 18 Aug 2026 14:51:45 +0000</pubDate>
+            <source url="https://status.snowflake.com/incidents/yk5sqhcjp266">Snowflake Status</source>
+            <category>incidents</category>
+            <description>Aug 18, 14:51 UTC Resolved - Current status: We&#x27;ve implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...</description>
+        </item>
+        <item>
+            <title>AI &quot;Mind Viruses&quot; Can Spread Between Agents Through Persistent Prompt Files</title>
+            <link>https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html</link>
+            <guid>https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html</guid>
+            <pubDate>Tue, 18 Aug 2026 12:38:36 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html">The Hacker News</source>
+            <category>security</category>
+            <description>Security researchers at Anthropic and Switzerland&#x27;s EPFL have demonstrated that self-propagating payloads can spread from one artificial intelligence (AI) agent to the next through the editable system prompt files that autonomous agent harnesses use to carry state between sessions. The work,...</description>
+        </item>
         <item>
             <title>Xpander Raises $7.5 Million for AI Management and Governance</title>
             <link>https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/</link>
@@ -315,6 +351,15 @@
             <description>arXiv:2608.13835v1 Announce Type: new Abstract: Dynamic topic models capture evolving word distributions, but traditional coherence metrics may fail when vocabulary changes while semantic meaning persists. We evaluate 120 topics from CoNTM and DLDA across NYT, DBLP, and arXiv, using three human...</description>
         </item>
         <item>
+            <title>Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers</title>
+            <link>https://huggingface.co/blog/multi-vector-encoder</link>
+            <guid>https://huggingface.co/blog/multi-vector-encoder</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+            <source url="https://huggingface.co/blog/multi-vector-encoder">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
             <title>[AINews] Stripe buys OpenRouter for $7B</title>
             <link>https://www.latent.space/p/ainews-stripe-buys-openrouter-for</link>
             <guid>https://www.latent.space/p/ainews-stripe-buys-openrouter-for</guid>
@@ -322,15 +367,6 @@
             <source url="https://www.latent.space/p/ainews-stripe-buys-openrouter-for">Latent Space</source>
             <category>open-source</category>
             <description>No GPUs, no Agents, just really, really, really good infra and distribution.</description>
-        </item>
-        <item>
-            <title>Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</title>
-            <link>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</link>
-            <guid>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</guid>
-            <pubDate>Mon, 17 Aug 2026 21:03:04 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html">The Hacker News</source>
-            <category>security</category>
-            <description>GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as...</description>
         </item>
         <item>
             <title>Lists Service Degraded</title>
@@ -387,6 +423,15 @@
             <description>Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it...</description>
         </item>
         <item>
+            <title>Neurosymbolic Embodied Agents</title>
+            <link>https://tldr.takara.ai/p/2608.16794</link>
+            <guid>https://tldr.takara.ai/p/2608.16794</guid>
+            <pubDate>Mon, 17 Aug 2026 16:50:59 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2608.16794">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Language and vision-language models generate plausible embodied plans but do not guarantee executability, as their outputs can violate environment dynamics or act on incorrectly grounded entities. We present a neurosymbolic agent that factors long-horizon household tasks into task-directed visual...</description>
+        </item>
+        <item>
             <title>PixRestore: Unified Image Restoration via Pixel Diffusion Transformer</title>
             <link>https://tldr.takara.ai/p/2608.16793</link>
             <guid>https://tldr.takara.ai/p/2608.16793</guid>
@@ -412,51 +457,6 @@
             <source url="https://www.githubstatus.com/incidents/zkxwbgr0cnmx">GitHub Status</source>
             <category>incidents</category>
             <description>Aug 17, 16:16 UTC Update - We are experiencing high error rates around 20% for web experiences and api traffic. Archive downloads and raw repository content downloads are experiencing an approximate 50% error rate. SAML and OIDC authentication, SCIM, and Team Sync are also impacted. We are still...</description>
-        </item>
-        <item>
-            <title>Degraded performance for Claude Opus 5, Claude Sonnet 5</title>
-            <link>https://status.claude.com/incidents/zhk4v3yv1lsf</link>
-            <guid>https://status.claude.com/incidents/zhk4v3yv1lsf</guid>
-            <pubDate>Mon, 17 Aug 2026 15:29:25 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/zhk4v3yv1lsf">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Aug 17, 15:29 UTC Resolved - This incident has been resolved. Aug 17, 14:39 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 17, 14:25 UTC Update - Claude Opus 5 is operational. Claude Sonnet 5 is degraded. We are investigating. Aug 17, 13:56 UTC Investigating - We...</description>
-        </item>
-        <item>
-            <title>Teaching Everyone to Fish for Tokens</title>
-            <link>https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens</link>
-            <guid>https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens</guid>
-            <pubDate>Mon, 17 Aug 2026 15:07:49 +0000</pubDate>
-            <source url="https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens">Interconnects</source>
-            <category>open-source</category>
-            <description>Nvidia wants you building your own model, not buying from Anthropic/OpenAI.</description>
-        </item>
-        <item>
-            <title>Training-Free Reconstruction-Based AI-Generated Image Detectors Are Inherently Vulnerable to Adversarial Examples</title>
-            <link>https://tldr.takara.ai/p/2608.16646</link>
-            <guid>https://tldr.takara.ai/p/2608.16646</guid>
-            <pubDate>Mon, 17 Aug 2026 14:45:53 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2608.16646">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>The impressive visual quality and ubiquity of AI-generated images call for reliable and robust detection methods. Reconstruction-based detectors have emerged as a promising direction for transparent and training-free identification of synthetic images. However, due to their fundamentally different...</description>
-        </item>
-        <item>
-            <title>Towards Zero-Shot Domain Generalization for ID Cards Presentation Attack Detection</title>
-            <link>https://tldr.takara.ai/p/2608.16591</link>
-            <guid>https://tldr.takara.ai/p/2608.16591</guid>
-            <pubDate>Mon, 17 Aug 2026 13:50:00 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2608.16591">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Presentation-Attack Detection (PAD) for national ID cards is limited by the lack of publicly available genuine samples, making it difficult for systems to generalize across countries. This paper introduces two main innovations: (1) a Prototypical Network head using an EfficientNet-V2-b0 backbone...</description>
-        </item>
-        <item>
-            <title>Cloudflare Lists Bulk Actions failing</title>
-            <link>https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h</link>
-            <guid>https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h</guid>
-            <pubDate>Mon, 17 Aug 2026 12:29:28 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/2hxsrlmxlf5h">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Aug 17, 12:29 UTCResolved - This incident has been resolved.Aug 17, 12:18 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 17, 12:04 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 17, 11:52 UTCInvestigating - Cloudflare is aware of,...</description>
         </item>
     </channel>
 </rss>
