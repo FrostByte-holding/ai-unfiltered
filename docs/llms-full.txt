@@ -6,6 +6,23 @@
 
 ## 2026-08-19
 
+### Workers AI GLM 5.2 is unavailable
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/46j9vvprj159
+- Summary: Aug 19, 16:16 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 19, 16:15 UTCInvestigating - We are investigating an issue with Workers AI GLM 5.2
+
+### LFM2.5 Q4\_0 Checkpoints from Quantization-Aware Distillation
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/qad
+
+### SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
+- Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT,...
+
 ### The Download: AI’s self-improvement problem, and what’s driving the heat
 - Source: MIT Tech Review AI
 - Category: research
@@ -278,6 +295,12 @@
 - URL: https://tldr.takara.ai/p/2608.18041
 - Summary: Language has two parameters. Count how often words occur together and you estimate amplitude, the strength of association. Word embeddings and attention weights refine that count, which sums every writer in the corpus together. This paper claims a second parameter, phase, which signed weights...
 
+### Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18035
+- Summary: Traffic elements such as traffic lights and road signs play a fundamental role in human driving decisions and should naturally influence end-to-end driving performance. However, existing end-to-end driving research predominantly focuses on dynamic road participants (e.g., vehicles and pedestrians),...
+
 ### Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
 - Source: The Hacker News
 - Category: security
@@ -380,6 +403,12 @@
 - URL: https://www.securityweek.com/fortinet-acquires-ai-security-company-virtue-ai/
 - Summary: Fortinet will use Virtue AI technology to enhance its AI security portfolio, including for AI models, applications, and agentic systems. The post Fortinet Acquires AI Security Company Virtue AI appeared first on SecurityWeek.
 
+### Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17687
+- Summary: Despite their widespread use, Large Language Models (LLMs) remain limited by a fundamental problem: the generation of plausible but false content, known as hallucinations. Most existing detection methods operate at the answer or sentence level, yet per-token detection is essential for localizing...
+
 ### 16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets
 - Source: The Hacker News
 - Category: security
@@ -446,6 +475,12 @@
 - URL: https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/
 - Summary: The security defect allows unauthenticated attackers to modify or delete user data and public projects. The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.
 
+### Towards Better Agents for Multi-Turn User Interaction: The Next User Turn Is More Than Context
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17499
+- Summary: User-facing tool agents must coordinate dialogue and tool use as user goals unfold over multiple turns. Yet interactive reinforcement learning typically reduces each rollout to a terminal reward, assigning the same credit to effective elicitation, errors, and later repair. The next user turn is...
+
 ### A Local Opus? Alibaba Qwen Open-Sources Qwen3.8-27B — Frontier Coding and Agent Scores That Runs on 17GB of RAM
 - Source: Pandaily
 - Category: chinese-ai
@@ -499,6 +534,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.17402
 - Summary: Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient...
+
+### Integrating Novelty and Surprise for Experience Prioritization and Exploration in Image-Based Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17373
+- Summary: Sample efficiency is a central challenge in reinforcement learning (RL), particularly in image-based domains where agents must learn from high-dimensional visual inputs. Traditional sampling often relies on random or suboptimal experience selection, leading to redundant updates and slow learning....
 
 ### FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment
 - Source: arXiv AI
@@ -715,6 +756,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-mobile-national-unified-token-plan-operator-ai-pricing-aug2026
 - Summary: China Mobile announced plans for nationally unified Token package pricing for consumer and enterprise markets. Daily token calls in China grew from about 100 billion in early 2024 to over 140 trillion by March 2026, a more than 1,000x increase in two years, as telecom operators seek new billing...
+
+### Information fusion and machine learning for sensitivity analysis using physics knowledge and experimental data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17248
+- Summary: When computational models (either physics-based or data-driven) are used for the sensitivity analysis of engineering systems, the sensitivity estimate is affected by the accuracy and uncertainty of the model. This paper considers global sensitivity analysis (GSA) for situations where both a...
 
 ### Probing Association Instability with Track-State Perturbations for Clip-Level Active Learning in Query-Propagation Multi-Object Tracking
 - Source: HF Daily Papers
@@ -2969,52 +3016,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/modelbest-minicpm-unicorn-ipo-counseling-shanghai-aug2026
 - Summary: ModelBest, China's largest edge-side model unicorn, has filed IPO counseling documents with the Shanghai Securities Regulatory Bureau with CITIC Securities as advisor. The company closed a funding round in mid-July that pushed its valuation above 20 billion yuan, and its MiniCPM series has...
-
-### China Sets a New World Record for Perovskite-Organic Tandem Solar Cells at 28.04 Percent Certified Efficiency
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cas-perovskite-organic-tandem-solar-cell-record-28-04-percent-aug2026
-- Summary: A team led by Academician Li Yongfang and researcher Meng Lei at the Chinese Academy of Sciences Institute of Chemistry has achieved a certified 28.04 percent steady-state power conversion efficiency on a perovskite-organic tandem solar cell, the new world record for the category. The cells retain...
-
-### Former Qwen Tech Chief Lin Junyang Launches Pragmatik Labs with a Two-Billion-Dollar Valuation — and Pivots from Foundation Models to Agents
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/qwen-architect-lin-junyang-pragmatik-labs-2-billion-valuation-agent-shift-aug2026
-- Summary: Lin Junyang, the former Alibaba Qwen technical lead and one of the youngest P10-level engineers at the company, has founded Pragmatik Labs in Shanghai with a 2 billion dollar angel-round valuation. Gaorong and HongShan co-led with 100 million dollars each, Tencent added 20 million, and the company...
-
-### China Activates First 220kV Quantum Substation in Hefei — a 18-Month, 85-Device Quantum Deployment on the State Grid
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-grid-quantum-substation-hefei-state-grid-aug2026
-- Summary: State Grid Corporation of China completed an 18-month quantum technology pilot at a 220kV substation in Hefei, deploying 85 self-developed quantum devices across quantum measurement, quantum communication, and quantum computing. The site has been operating 24/7 and is now being prepared for...
-
-### Tight Nonasymptotic Local Convergence of Sinkhorn-Knopp
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11760
-- Summary: We revisit the Sinkhorn-Knopp (SK) algorithm for the matrix scaling problem. Despite extensive literature on the global convergence of SK and its variants, its local linear convergence behavior remains less understood. We address this gap by providing the first nonasymptotic local analysis of SK...
-
-### ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/
-- Summary: CISA has also published several advisories describing vulnerabilities in ICS and other OT products. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.
-
-### SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
-- Summary: SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of...
-
-### SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/
-- Summary: The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.
-
-### JieZi: A Large-Scale Expert-Audited Dataset and Benchmark for Ancient Chinese Character Exegesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11741
-- Summary: The scholarly exegesis of ancient Chinese characters demands integrating visual observation, linguistic analysis, and historical context. However, existing computational approaches focus narrowly on subtasks such as character recognition and retrieval, lacking the structured datasets and benchmarks...
 
