@@ -301,11 +301,23 @@
 - URL: https://tldr.takara.ai/p/2608.18035
 - Summary: Traffic elements such as traffic lights and road signs play a fundamental role in human driving decisions and should naturally influence end-to-end driving performance. However, existing end-to-end driving research predominantly focuses on dynamic road participants (e.g., vehicles and pedestrians),...
 
+### Where A Small Language Model Helps in Invoice Categorisation, Understood Through Embedding Geometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18033
+- Summary: Categorising invoices into the correct General Ledger (GL) code underpins financial reporting and tax compliance. This is a skilled accounting judgement rather than a routine task: the correct category depends subtly on the nature of the purchasing business, the vendor and the invoice text. Whilst...
+
 ### Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html
 - Summary: A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from $20,000 to $60,000. "In these messages, the third-party offers to help the...
+
+### Traceable Trust for action-ready artificial intelligence in bioscience
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17997
+- Summary: Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to...
 
 ### Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees
 - Source: HF Daily Papers
@@ -330,6 +342,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.17894
 - Summary: This paper investigates the feasibility of using residual learning to improve unsteady aerodynamic load prediction for aeroelastic applications. The machine learning technique selected for the study is the long short-term memory (LSTM) neural network, which is used for its suitability for...
+
+### CFB-GBM v2.0: An Augmented Longitudinal Dataset for Multi-Modal Glioblastoma Segmentation, Radiomics, and RANO Progression Tracking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17884
+- Summary: Glioblastoma (GBM) is the most aggressive primary brain tumor in adults, with a median overall survival of 15 months. Longitudinal, multi-modal imaging datasets with comprehensive clinical and treatment data are essential to support the development of reproducible computational methods for...
 
 ### Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks
 - Source: Security Week
@@ -360,6 +378,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.17809
 - Summary: Humans naturally form and express beliefs in daily communication, e.g., "I think the answer is 3" or "I suppose that's right." Such beliefs inevitably intertwine with fact and knowledge, making the ability to handle them in tandem desirable for large language models (LLMs), as they are increasingly...
+
+### The Curious Case of Exploding DecPOMDPs: Containing the Fire through Policy Counting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17749
+- Summary: Decentralised partially observable Markov decision processes (DecPOMDPs) provide a general framework for modelling multi-agent decision making under uncertainty. However, DecPOMDPs are known to suffer from exponential complexity in the number of agents. One way to combat this intractability in...
 
 ### TINA+: Probing Residual Visual Knowledge in Unlearned Diffusion Models via Diffusion-Consistent Text-Free Inversion
 - Source: HF Daily Papers
@@ -516,6 +540,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/bmpybhnrky3x
 - Summary: Aug 18, 07:40 UTC Monitoring - We are investigating reports of failure to load runner groups and runner-related permissions for customers using larger runners. Aug 18, 07:40 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
+
+### General Semantic Knowledge Infusion for Spatio-Temporal Traffic Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17440
+- Summary: Although Graph Neural Networks (GNNs) have made significant advances in spatio-temporal traffic forecasting, their performance is limited when they rely solely on sensor proximity or road-network topology. This paper presents a spatio-temporal prediction framework, developed to incorporate...
 
 ### Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates
 - Source: Security Week
@@ -2986,34 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.11785
 - Summary: Large language models (LLMs) have shown strong potential for financial analysis and trading, but direct trading remains challenging because the predictive capabilities required can vary across assets, decision fields, and market conditions. Existing LLM-based trading systems either coordinate...
-
-### Ivanti EPM Update Patches Remotely Exploitable Flaws
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/
-- Summary: The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service. The post Ivanti EPM Update Patches Remotely Exploitable Flaws appeared first on SecurityWeek.
-
-### Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.11772
-- Summary: Self-correction is particularly useful when a failure constrains the next repair. Coding agents benefit from this property because compilers, tests, and execution traces turn many failures into typed recovery signals, but broad language-agent tasks often expose only a coarse task failure. This...
-
-### Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html
-- Summary: Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it...
-
-### DeepSeek Posts Civil Engineering Jobs as Chinese Tech Giants Re-Define Their Asset Boundary Around Compute Infrastructure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-hires-civil-engineers-ai-data-center-infrastructure-expansion-aug2026
-- Summary: DeepSeek has posted an open call for electrical, HVAC, environmental, and civil engineering talent to design and operate AI compute infrastructure in Hangzhou, Beijing, and Ulanqab. The hiring follows ByteDance's parallel push into non-residential real estate leasing subsidiaries in Zhongwei,...
-
-### China's Largest Edge-AI Model Unicorn ModelBest Files for A-Share IPO Counseling — MiniCPM Series Clocks 38 Million Downloads
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/modelbest-minicpm-unicorn-ipo-counseling-shanghai-aug2026
-- Summary: ModelBest, China's largest edge-side model unicorn, has filed IPO counseling documents with the Shanghai Securities Regulatory Bureau with CITIC Securities as advisor. The company closed a funding round in mid-July that pushed its valuation above 20 billion yuan, and its MiniCPM series has...
 
