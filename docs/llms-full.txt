@@ -6,6 +6,53 @@
 
 ## 2026-08-20
 
+### Elevated errors on requests to multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/c0ncxxm2wd9r
+- Summary: Aug 20, 19:42 UTC Resolved - This issue has been resolved. Aug 20, 19:16 UTC Investigating - We are investigating elevated errors on requests to some Claude models. We will provide additional updates as soon as possible.
+
+### RESOLVED: We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region.
+- Source: GCP Status
+- Category: incidents
+- URL: https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf
+- Summary: Incident began at 2026-08-20 08:40 and ended at 2026-08-20 12:20 (all times are US/Pacific).Summary The issue causing timeouts, degradations, errors, and latencies across multiple us-west1 products has been mitigated. Description We have mitigated the issue impacting multiple products in our...
+
+### Elevated Errors R2 and Durable Objects
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rq2nwg85qqn4
+- Summary: Aug 20, 19:32 UTCResolved - This incident has been resolved.Aug 20, 19:00 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 18:51 UTCIdentified - We have identified and issue that is causing elevated errors for R2 and Durable Objects.
+
+### Missing R2 Audit Logs
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/jn37dmb9s37p
+- Summary: Aug 20, 19:19 UTCIdentified - We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.
+
+### Elevated errors on Google connectors
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/6xskhw7rn4tf
+- Summary: Aug 20, 19:01 UTC Resolved - This issue has been resolved. Aug 20, 18:32 UTC Investigating - We are investigating elevated errors affecting Google connectors (Sheets, Docs, Slides, and Chat) and custom Google integrations on Claude.ai. Core functionality is not affected. We will provide an update...
+
+### Elevated Codex API authentication errors
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M0G1RZER839AZXWMYKSZF3GR
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex API (Operational)
+
+### Durable Objects and Downstream Service Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h
+- Summary: Aug 20, 17:48 UTCResolved - This incident has been resolved.Aug 20, 16:56 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 16:48 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in...
+
+### Up to 3.2x Faster Inference with LFM2.5-DSpark
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/lfm25-dspark
+
 ### Intermittent failures creating agent tasks
 - Source: GitHub Status
 - Category: incidents
@@ -327,6 +374,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/46j9vvprj159
 - Summary: Aug 19, 16:16 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 19, 16:15 UTCInvestigating - We are investigating an issue with Workers AI GLM 5.2
 
+### LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19059
+- Summary: Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cross-session object identity, resulting in temporal...
+
 ### Introducing the Privacy-HSD Trade-off: Hate Speech Detection, but not at the Cost of Privacy
 - Source: HF Daily Papers
 - Category: open-source
@@ -380,6 +433,12 @@
 - URL: https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html
 - Summary: A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT,...
 
+### RVLoss: Runoff Vote Loss for Self-Supervised LiDAR Scene Flow Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18864
+- Summary: LiDAR scene flow estimates point-wise motion between two consecutive scans, referred to as the source and target. Leading self-supervised methods typically minimize the Chamfer loss, the nearest neighbor distance between the flow-compensated source and the target. However, nearest-neighbor search...
+
 ### The Download: AI’s self-improvement problem, and what’s driving the heat
 - Source: MIT Tech Review AI
 - Category: research
@@ -409,6 +468,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html
 - Summary: Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the danger sat in the payload, a bad link or an attachment. It stopped working when the danger moved into the message's intent, and it is failing now that the...
+
+### Understanding Multilingual Medical ASR Adaptation Through Layer-Wise Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18825
+- Summary: Medical automatic speech recognition (MedASR) requires adaptation to specialised terminology, limited annotated clinical data, and multilingual use cases. Although large-scale pretrained ASR models such as Whisper achieve strong generalisation, their behaviour after medical and multilingual...
 
 ### StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data
 - Source: The Hacker News
@@ -452,6 +517,12 @@
 - URL: https://tldr.takara.ai/p/2608.18710
 - Summary: Recent advances in generative video models have enabled camera-controlled world video generation, allowing models to synthesize videos under user-defined camera trajectories. However, existing video quality assessment (VQA) methods are mainly developed for natural videos and fail to capture the...
 
+### MemFuse: Multi-Source Memory Fusion from Fragmented Observations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18704
+- Summary: Long-term memory is essential for agents that operate across extended interactions, yet existing memory systems and benchmarks predominantly focus on single-source textual histories. In realistic settings, however, relevant information is often fragmented across applications and devices, as well as...
+
 ### Child-monitoring apps might need a reboot
 - Source: MIT Tech Review AI
 - Category: research
@@ -475,6 +546,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.18675
 - Summary: Accurate forecasting of energy consumption is important for the efficient operation of power systems, with direct implications for operational costs, energy management, and system maintenance. Due to the availability of extensive high-resolution consumption data from smart meters, data-driven...
+
+### DynCur-Geo: Dynamic Curiosity Reward Shaping for Multimodal Active Geo-Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18673
+- Summary: Active geo-localization enables low-altitude UAVs to search for specified targets from limited local aerial observations, supporting time-sensitive applications such as search and rescue and emergency inspection. However, multimodal target cues, restricted views, and sparse feedback make it...
 
 ### Robot Games Preview: From Performance to Work — What Humanoid Robots Ran Through This Year
 - Source: Pandaily
@@ -2941,82 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11211
 - Summary: arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproducible attack by an autonomous AI research agent, scored under the track's partial-credit metric. Our...
-
-### Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11212
-- Summary: arXiv:2608.11212v1 Announce Type: new Abstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- pushes tokens across decision boundaries and flips which experts fire....
-
-### Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11215
-- Summary: arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any...
-
-### FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11254
-- Summary: arXiv:2608.11254v1 Announce Type: new Abstract: Accurate solar irradiance forecasting is essential for the reliable integration of photovoltaic power into modern electricity grids. All-sky imagers (ASI) provide high-resolution observations of clouds, making them well suited for intra-hour...
-
-### Why AI Detection Fails for Academic Integrity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11256
-- Summary: arXiv:2608.11256v1 Announce Type: new Abstract: Institutions use commercial AI detectors for academic integrity, yet detectors cannot distinguish AI editing from full LLM drafts and may treat both as misconduct. In a controlled study of published English abstracts (four domains; 2013 to 2015 vs....
-
-### Basin: Efficient and Extensible Numerical Optimization in Rust
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11279
-- Summary: arXiv:2608.11279v1 Announce Type: new Abstract: Basin is a numerical optimization library for the Rust programming language. Numerical optimization is the task of finding the inputs that minimize a function, and it is a fundamental element across the sciences: fitting a model to data, calibrating a...
-
-### Federated Learning for Distributed CNC Tool Wear Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11281
-- Summary: arXiv:2608.11281v1 Announce Type: new Abstract: Tool wear prediction is an important task in CNC machining, where accurate monitoring of tool condition supports product quality and process reliability. Machine learning methods have shown potential for this task, but their use in industrial...
-
-### Terminal Symmetry as a Decision Resource: Statewise Refinement for Anytime Verified Construction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11318
-- Summary: arXiv:2608.11318v1 Announce Type: new Abstract: Many sequential construction tasks exhibit exact symmetry at completion while their execution remains directed and history-dependent. We develop a decision-resource view of terminal symmetry: process evidence supplies directionality, terminal...
-
-### Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11232
-- Summary: arXiv:2608.11232v1 Announce Type: new Abstract: Evaluating LLM coding agents in algorithmic trading is difficult because static benchmarks risk data contamination and numerical backtest outputs require ground truth from actual code execution. We present Backtrader-Bench, a framework with two...
-
-### Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11233
-- Summary: arXiv:2608.11233v1 Announce Type: new Abstract: A dense, pretrained language model can be retrofitted with recurrent depth and learn an iterative latent transition that persists after outcome-only annealing. Qwen2.5-0.5B-Instruct is split into a Prelude, a weight-tied Recurrent Block, and a Coda,...
-
-### TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11236
-- Summary: arXiv:2608.11236v1 Announce Type: new Abstract: Roleplay evaluation should do more than assign a single score: it should reveal which role requirements were tested, which failed, and which dialogue evidence supports the judgment. We propose TRACE Bench, a task-driven agentic checklist evaluation...
-
-### Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11242
-- Summary: arXiv:2608.11242v1 Announce Type: new Abstract: When the context window is under pressure, LLM systems compact prior context to continue ongoing tasks. We identify a class of user-issued instructions, Session Constraints (SCs), such as "do not delete any emails until I confirm," that are meant to...
-
-### Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11249
-- Summary: arXiv:2608.11249v1 Announce Type: new Abstract: We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats such as XML - and by recent advances in neural language...
-
-### AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11216
-- Summary: arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous...
 
