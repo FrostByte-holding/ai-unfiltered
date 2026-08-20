@@ -6,6 +6,36 @@
 
 ## 2026-08-20
 
+### Intermittent failures creating agent tasks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/bhbcjn4n3jzp
+- Summary: Aug 20, 16:14 UTC Update - Users are experiencing delays when starting tasks using Copilot Cloud Agent and are not be able to see the status of these tasks. Copilot Cloud Agent tasks are still being completed. We have identified the cause of the issue and are putting mitigations in place to return...
+
+### INC20000168
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/n54hrszdq7h7
+- Summary: Aug 20, 15:43 UTC Resolved - Current status: The third-party cloud platform confirmed that the mitigation was complete, and its automated recovery system appears to have initiated. We independently monitored the environment and verified that service was restored. If you experience additional issues...
+
+### Elevated Errors for Thinking mode in ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M0FQAR3NNH3ANVTQMBRD47DC
+- Summary: Status: MonitoringWe have implemented a mitigation for the issue for elevated errors for Thinking Mode and Image Generation in ChatGPT/ChatGPT WorkAffected components Image Generation (Degraded performance) ChatGPT Work (Degraded performance) Conversations (Degraded performance)
+
+### New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/new-cryptographic-context-injection.html
+- Summary: Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI...
+
+### Increased Errors for Durable Objects and Downstream Services in Indonesia
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/76jq00tfhd4c
+- Summary: Aug 20, 14:00 UTCResolved - This incident has been resolved.Aug 20, 13:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 13:38 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 20, 13:25 UTCInvestigating - Clients connecting to...
+
 ### Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -279,6 +309,12 @@
 - URL: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
 - Summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. "As models become more...
 
+### Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19128
+- Summary: Decoding visual information from brain signals probes neural representations and enables neuro-rehabilitation and dream decoding. Recent brain-to-image retrieval approaches have achieved promising performance, typically by averaging many (up to 80) neural trials per image, requiring repeated...
+
 ### Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering
 - Source: HF Daily Papers
 - Category: open-source
@@ -296,6 +332,24 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.19006
 - Summary: Hate speech is a real and timely threat that affects a large portion of online users, especially youth and minority groups. While building reliable and robust automatic hate speech detection (HSD) systems is paramount, we argue that this must also be balanced with the individual right to privacy....
+
+### GrabVG: Graph-Attentive Binding for Visual Grounding in UAV Imagery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18996
+- Summary: Visual grounding in Unmanned Aerial Vehicle (UAV) imagery aims to localize a target object in complex bird's-eye-view scenes according to a natural language description. However, the abundance of small, densely distributed, and visually similar objects creates high visual redundancy, while...
+
+### X-LMC: Cross-View Spatiotemporal Collateral Circulation Scoring from DSA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18986
+- Summary: Digital subtraction angiography (DSA) is the reference standard for leptomeningeal collateral (LMC) assessment, providing critical prognostic insights to guide secondary treatment strategies, neurorehabilitation planning, and retrospective stroke research. However, clinical LMC grading via the...
+
+### Breaking the weakest link to evade vision language models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18938
+- Summary: Vision Language Models (VLMs) have recently emerged as a critical component of multimodal AI systems, enabling joint reasoning over visual and textual inputs in real-world and safety-critical applications. Despite their growing deployment, the robustness of VLMs against adversarial threats remains...
 
 ### Score the Algebra, Not the Span: Dimension Reduction for Transfer Operator Models of Dynamical Systems
 - Source: HF Daily Papers
@@ -709,6 +763,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/landspace-zhuque-3-y2-launch-success-first-orbit-first-stage-land-recovery-aug2026
 - Summary: On August 19, the Zhuque-3 Y-2 rocket lifted off from the Dongfeng Commercial Aerospace Innovation Pilot Zone and its first stage landed successfully on the Zhuque-3 recovery pad in Minqin County, Gansu. This is China's first controlled orbital-class first-stage land recovery, a critical...
+
+### CoMVS-GS: Collaborative Multi-View Stereo and 3D Gaussian Splatting for Surface Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18413
+- Summary: 3D Gaussian Splatting enables efficient novel view synthesis, but accurate mesh reconstruction remains difficult in weakly observed and occluded regions, where Gaussian primitives may grow into unstable or geometrically inconsistent structures. We propose CoMVS-GS, a general surface reconstruction...
 
 
 ## 2026-08-18
@@ -2959,64 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11216
 - Summary: arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous...
-
-### MaSRead: Content-Addressed Reading of Replicated Latent Stores
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11218
-- Summary: arXiv:2608.11218v1 Announce Type: new Abstract: Independent agents that reason in latent space can share computed state as key-value cache fragments rather than text. Merged by a conflict-free replicated data type, these fragments form a store that converges under any delivery order or duplication....
-
-### From Monolithic to Modular: Segment-level Automatic Prompt Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11219
-- Summary: arXiv:2608.11219v1 Announce Type: new Abstract: Automatic Prompt Optimization (APO) often rewrites prompts monolithically, which can improve one behavior while degrading others. We present SAPO, a segment-level APO method that decomposes prompts into role, context, tasks, and output format, then...
-
-### LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11220
-- Summary: arXiv:2608.11220v1 Announce Type: new Abstract: Nowadays, the creation of a process flow diagram (PFD) and its subsequent transformation into a piping and instrumentation diagram (P&amp;ID) is predominantly performed manually. Applying artificial intelligence in the task could potentially lead not...
-
-### A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11221
-- Summary: arXiv:2608.11221v1 Announce Type: new Abstract: Cyber-physical systems (CPS) are typically developed by multiple stakeholders who produce artefacts tailored to their specific domains of expertise. The behaviour of these systems emerges from the interaction between those artefacts and their...
-
-### Contextual Quality-Diversity Evolutionary Reinforcement Learning for HVAC Control in Tropical Commercial Buildings
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11324
-- Summary: arXiv:2608.11324v1 Announce Type: new Abstract: This paper proposes a contextual quality-diversity evolutionary reinforcement-learning controller, CQD-ERL, for the supervisory control of a tropical, water-cooled chiller plant and its associated air side. Rather than converging to a single...
-
-### Long-Horizon Forecasting of Complete Financial Statements with Forma
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11327
-- Summary: arXiv:2608.11327v1 Announce Type: new Abstract: Specialist training beats generalist scale when forecasting financial statements. To our knowledge, no prior work jointly forecasts complete financial statements beyond one year, yet in a discounted-cash-flow valuation most firm value sits past that...
-
-### Weightless Fine-Tuning: Personalizing LLMs via Logit-Space Transport
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11342
-- Summary: arXiv:2608.11342v1 Announce Type: new Abstract: Supervised fine-tuning (SFT) is a standard approach for adapting LLMs to a target distribution, but in settings such as personalization, where each author requires separate weight access, optimization, storage, and retraining, its costs become...
-
-### Dynamics Models for Offline Hyperparameter Selection in Real-World RL
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11349
-- Summary: arXiv:2608.11349v1 Announce Type: new Abstract: A key obstacle to deploying reinforcement learning in real-world systems is hyperparameter selection, particularly when simulators are unavailable and online experimentation is costly. Prior work has proposed calibration models trained on offline data...
-
-### Market-Information-Aware Gated-LoRA of Foundation Models for Transferable Day-Ahead Electricity Price Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.11359
-- Summary: arXiv:2608.11359v1 Announce Type: new Abstract: Electricity price forecasting is crucial for market participants but remains difficult because prices are volatile, market-specific, and closely tied to anticipated system conditions. Existing supervised methods depend largely on market-specific...
-
-### Gloss-Free Representation Learning for Cross-Dataset Sign Spotting
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11332
-- Summary: arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, temporal boundaries, and sign order. Broadcast news offers a practical alternative by pairing continuous signing with...
 
