@@ -6,6 +6,36 @@
 
 ## 2026-08-20
 
+### Critical GitLab Flaw Exploited Shortly After Disclosure
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/
+- Summary: CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.
+
+### Hackers Using AI to Target Siemens PLCs in Critical US Sectors
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/
+- Summary: A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.
+
+### Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+- Summary: Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of...
+
+### Network performance issue in Singapore
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/5g1nlg4hc2lh
+- Summary: Aug 20, 05:58 UTCResolved - This incident has been resolved.Aug 20, 05:50 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 05:41 UTCInvestigating - Cloudflare is investigating issues with network performance in Singapore. We are working to analyse and mitigate...
+
+### [AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie
+- Summary: Every lab CEO is on X now
+
 ### Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions
 - Source: arXiv AI
 - Category: research
@@ -170,6 +200,12 @@
 - URL: https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/
 - Summary: CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained. The post Virtual Event Today: CodeSecCon &#8211; Secure Your Code and Applications appeared first on SecurityWeek.
 
+### \textsc{TestifAI}: Tomography-Based Testing for Deep Learning Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18900
+- Summary: As AI systems are increasingly deployed in safety-critical application domains (e.g., autonomous driving), associated risks increase too. Deep learning models underlying modern AI systems, therefore, must undergo thorough testing to ensure their correct behaviour. A single robustness test involves...
+
 ### SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs
 - Source: The Hacker News
 - Category: security
@@ -254,6 +290,18 @@
 - URL: https://www.latent.space/p/ainews-memory-prices-up-500-in-12
 - Summary: the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels
 
+### Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18690
+- Summary: The European Union has committed to reducing greenhouse gas emissions 55% below 1990 levels by 2030, but whether current trends are compatible with this ambition remains uncertain. We apply deep learning to high-resolution socioeconomic and sectoral data across EU27 member states till 2023 to...
+
+### An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18675
+- Summary: Accurate forecasting of energy consumption is important for the efficient operation of power systems, with direct implications for operational costs, energy management, and system maintenance. Due to the availability of extensive high-resolution consumption data from smart meters, data-driven...
+
 ### Robot Games Preview: From Performance to Work — What Humanoid Robots Ran Through This Year
 - Source: Pandaily
 - Category: chinese-ai
@@ -301,6 +349,18 @@
 - Category: security
 - URL: https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
 - Summary: The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek.
+
+### Beyond receptive fields: sequence-pooled normalization can supply most of a sequence labeler's context
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18576
+- Summary: A convolutional sequence labeler's receptive field is routinely treated as the extent of the model's usable context: it sets dilation schedules, bounds streaming horizons, and underwrites locality claims. However, we show that this can be false: when a normalization layer computes statistics from...
+
+### NanoSleep: A Parameter-Efficient Hybrid Temporal Convolutional Network for Single-Channel Sleep Stage Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18571
+- Summary: Sleep stage classification from single-channel electroencephalography (EEG) is essential for wearable and home-based sleep monitoring. However, many deep learning models achieve high accuracy at the cost of large model sizes, which limits their deployment on resource-constrained devices. In this...
 
 ### Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure
 - Source: The Hacker News
@@ -2959,64 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11735
 - Summary: arXiv:2608.11735v1 Announce Type: new Abstract: Large language models (LLMs) often shift their outputs in response to implicit demographic cues even when users never state a demographic identity. Previous work has documented this behavior, but the connection between these behavioral changes and the...
-
-### Ripple-Pivot Search: Active Parallel Decoding for Diffusion Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11742
-- Summary: arXiv:2608.11742v1 Announce Type: new Abstract: Diffusion Large Language Models (dLLMs) have emerged as a competitive alternative to autoregressive language models, offering the potential for substantially faster inference through parallel decoding. Existing parallel decoding schedulers typically...
-
-### LabelFusion-TS: Fusing Large Language Models, Transformer Encoders, and Financial Time Series for Monetary-Policy Stance Classification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11753
-- Summary: arXiv:2608.11753v1 Announce Type: new Abstract: Financial text is produced and interpreted within a market environment, yet financial text classifiers almost always receive text alone. We study whether financial time series are useful as an additional input on the task of classifying sentences from...
-
-### AWARe: Mitigating Catastrophic Forgetting via Activation-Weighted Adaptive REtention
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.11758
-- Summary: arXiv:2608.11758v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) exhibit strong generalization and reasoning abilities due to large-scale multimodal pre-training. However, fine-tuning these models on downstream tasks often leads to catastrophic forgetting, where newly...
-
-### PIPES: Securing Agent Perception with Provenance and Priors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.12789
-- Summary: Tool-using agents consume external data from sources with different levels of trust, yet tool responses rarely identify who produced each component or what it should convey. We show that this gap enables state-corruption attacks, in which attacker-controlled content makes environmental claims...
-
-### CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.12779
-- Summary: Understanding the temporal progression of symptoms in clinical narratives is critical for disease monitoring, safety surveillance, and causality assessment. Clinical narratives, however, rarely provide explicit temporal anchors. Current approaches to temporal information reasoning focus...
-
-### ViTOED: A Dataset for Target-Oriented Emotion Detection on Vietnamese Social Media Texts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.12776
-- Summary: This paper introduces ViTOED, a novel dataset for target-oriented emotion detection in Vietnamese social media texts. The ViTOED comprises 10,985 user comments and 21,244 manually annotated opinion quadruples (source, target, expression, polarity) that follow strict guidelines. The dataset reveals...
-
-### Dual-Stream Cross-Anchor Correction Grounding Long-Form Captions and the Domain Limits of Object-Level Anchors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.12746
-- Summary: Object hallucination in multimodal large language models arises when language priors and corpus co-occurrence bias outweigh the visual evidence, with nothing tying an individual object mention to what the image shows. Most remedies intervene at decoding time without training, yet under a unified...
-
-### Error-Aware Reverse Auction Mechanism for Large Language Model Routing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.12719
-- Summary: Routing each query to a cost-effective large language model (LLM) is critical for balancing quality and cost, yet most routers rely on a centralized task center to predict model performance, creating an information-risk mismatch and a scalability bottleneck as the model pool grows. We propose a...
-
-### China's First Commercial Supercritical CO2 Closed-Loop Geothermal Project Turns the Earth into a Rechargeable Battery
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huaneng-zhengzhou-supercritical-co2-closed-loop-geothermal-china-first-aug2026
-- Summary: Huaneng engineers in Zhengzhou drilled a 2,500-meter well and circulated supercritical CO2 instead of water to extract geothermal heat, China's first commissioned closed-loop demonstration project. CO2 in at 8 degrees Celsius returns at 22 degrees, cutting pumping loss 10% and lifting...
-
-### WPS Quietly Launches Lingxi Pro, an AI-Native Office Agent That Turns Skills into Editable Documents
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/wps-lingxi-pro-ai-native-office-agent-kingsoft-chinajoy-aug2026
-- Summary: Kingsoft's WPS has quietly launched Lingxi Pro, a standalone AI-native office agent that makes AI the first entry point instead of a document feature. Integrated with the WPS cloud document ecosystem's 678 million monthly active devices, it turns skills into native, editable Word and PPT files and...
 
