@@ -6,6 +6,18 @@
 
 ## 2026-08-21
 
+### Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html
+- Summary: Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging from Windows 7 through Windows 11 25H2, with no software flaw exploited and no...
+
+### Increased Errors for Durable Objects in the Hong Kong region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/14kntn62njng
+- Summary: Aug 21, 15:19 UTCResolved - This incident has been resolved.Aug 21, 15:11 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 21, 14:59 UTCInvestigating - Cloudflare is aware of, and investigating an issue with connectivity in the Hong Kong region. Customers trying to...
+
 ### Critical Isolated-vm Vulnerability Leads to RCE on Host
 - Source: Security Week
 - Category: security
@@ -228,6 +240,11 @@
 - URL: https://www.cloudflarestatus.com/incidents/jzv93gkq85bj
 - Summary: Aug 21, 00:13 UTCResolved - This incident has been resolved.Aug 21, 00:05 UTCMonitoring - Cloudflare identified an issue causing mTLS validation failures for some customers. A fix has been implemented and we are monitoring the results.
 
+### Measuring benchmark optimization in speech recognition
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/asr-benchmark-optimization
+
 
 ## 2026-08-20
 
@@ -326,6 +343,12 @@
 - URL: https://tldr.takara.ai/p/2608.20208
 - Summary: Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction. Yet prevalent diffusion- and flow-matching robot policies lack tractable likelihoods, limiting their use in likelihood-based offline RL post-training. AR-NFs offer both...
 
+### MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20202
+- Summary: Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved...
+
 ### INC20000168
 - Source: Snowflake Status
 - Category: incidents
@@ -385,6 +408,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
 - Summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet...
+
+### Auditing Cross-Lingual Fairness in Language Model Watermarking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20047
+- Summary: Watermarking schemes for large language model output are evaluated almost exclusively on English text using each scheme's detection threshold and a narrow set of quality measurements. Multilingual deployment exposes evaluation-design choices that are inconsequential on English but determine...
 
 ### Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers
 - Source: The Hacker News
@@ -463,6 +492,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html
 - Summary: Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin...
+
+### Auditing Recorded Predictive Lead Service-Line Classifications Against Physical Verification: A Statewide Study of New York
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19922
+- Summary: Under the US Lead and Copper Rule Revisions, a utility may determine a service line's material with a predictive model instead of inspecting it. New York State publishes, per address, which method was used. Almost no address carries both a model classification and a physical verification, so the...
 
 ### Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
 - Source: The Hacker News
@@ -584,11 +619,23 @@
 - URL: https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/
 - Summary: A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.
 
+### Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19701
+- Summary: Long-term multi-agent systems continuously accumulate the memories produced by different agents. Existing memory methods typically treat retrieved memories as independent evidence and combine them through voting or weighting. However, this independence assumption often fails in multi-agent...
+
 ### Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
 - Summary: Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of...
+
+### Scaffolding Minds: Optimizing Latent Visual Target Representations for Multimodal Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19669
+- Summary: Latent reasoning has advanced multimodal reasoning through a two-stage training paradigm: (1) a helper image is encoded into latent tokens to teach visual chain-of-thought during a supervised fine-tuning (SFT) stage, and (2) these latent tokens are further refined with reward feedback during a...
 
 ### Network performance issue in Singapore
 - Source: Cloudflare Status
@@ -2973,52 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.11229
 - Summary: arXiv:2608.11229v1 Announce Type: new Abstract: Comparative feedback, asking people which of two behaviors they prefer, has become a standard way to align robot and agent behavior with human intent when the reward itself cannot be specified directly. Preference-based reward learning typically casts...
-
-### LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.12419
-- Summary: arXiv:2608.12419v1 Announce Type: new Abstract: Large language models (LLMs) have achieved remarkable breakthroughs across various applications. However, their architectures remain inefficient in pretraining due to two main limitations: (i) self-attention lacks an explicit inductive bias for...
-
-### Which Site, and When: A Free-Satellite-Data Test of Himalayan Glacial Lake Bursts, Landslides, and Ice Floods
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.12422
-- Summary: arXiv:2608.12422v1 Announce Type: new Abstract: Two free satellite signals carry real information about glacial-lake outburst risk in the Nepal Himalaya: radar interferometry sees a moraine dam slowly sagging, and satellite weather marks the weeks when a primed lake is under stress. A companion...
-
-### MARCH: Scaling Recurrent Memory with Content-Routed State Anchors
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.12435
-- Summary: arXiv:2608.12435v1 Announce Type: new Abstract: Transformers owe much of their strong long-context retrieval capability to a token-level memory that grows with context length. This flexibility, however, incurs a quadratic computation complexity during training and a key--value cache that grows...
-
-### Multi-AUV Ad-hoc network-based Target Tracking: A Value Gradient Guidance Multi-Agent Diffusion Reinforcement Learning Approach
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.12436
-- Summary: arXiv:2608.12436v1 Announce Type: new Abstract: Multi-AUV ad-hoc network-based target tracking requires networked autonomous underwater vehicles (AUVs) to cooperatively track maneuvering targets under constrained acoustic communication, dynamic topology, and uncertain ocean disturbances. Although...
-
-### Unifying Generative Models with Path Integrals
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.12438
-- Summary: arXiv:2608.12438v1 Announce Type: new Abstract: We formulate generative modeling as a path integral in which flow-based, diffusion-based, variational, and adversarial models arise as different evaluation principles for a single master action. Its Martin-Siggia-Rose-Janssen-de~Dominicis (MSRJD) form...
-
-### The Edge-based Contiguous p-median Problem with Connections to Logistics Districting
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11230
-- Summary: arXiv:2608.11230v1 Announce Type: new Abstract: This paper introduces the edge-based contiguous p-median (ECpM) problem to partition the roads in a network into a given number of compact and contiguous territories. Two binary programming models are introduced, both of which incorporate a network...
-
-### LinearKV: One Cached State Suffices for Position-Independent Caching in Hybrid LLMs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11231
-- Summary: arXiv:2608.11231v1 Announce Type: new Abstract: LLM serving is increasingly accelerated by position-independent caching (PIC). Existing PIC methods, however, are built for full-attention models, where a token-indexed KV cache underlies its core operations: matching reusable token chunks,...
-
-### InfraBench: Evaluating Infrastructure Agents Across Layers, Lifecycle, and Risk
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11234
-- Summary: arXiv:2608.11234v1 Announce Type: new Abstract: Managing modern computing infrastructure has become a steadily harder problem due to the ever-increasing complexity. Recent advances in AI agents create a timely opportunity to automate infrastructure management tasks, but it remains unclear how well...
 
