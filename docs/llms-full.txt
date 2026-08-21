@@ -6,6 +6,18 @@
 
 ## 2026-08-21
 
+### Unexpected logouts for some ChatGPT web users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M0JXWD740S0Y50DWJZS7SH75
+- Summary: Status: InvestigatingWe’re investigating an issue causing some ChatGPT web users to be unexpectedly logged out when refreshing the page.
+
+### Network Performance Issues in Asia Pacific Region
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xl112dfsfz6q
+- Summary: Aug 21, 19:39 UTCResolved - This incident has been resolved.Aug 21, 17:47 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 21, 17:39 UTCInvestigating - Cloudflare is investigating issues with Network Performance in Asia Pacific region. We are working to analyze and...
+
 ### Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot
 - Source: The Hacker News
 - Category: security
@@ -302,6 +314,12 @@
 - URL: https://tldr.takara.ai/p/2608.20334
 - Summary: We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image...
 
+### $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20326
+- Summary: Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen...
+
 ### Elevated Codex API authentication errors
 - Source: OpenAI Status
 - Category: incidents
@@ -534,6 +552,24 @@
 - Category: security
 - URL: https://www.securityweek.com/openai-overhauls-model-security-with-sandboxing-30-minute-alerts-and-training-pauses/
 - Summary: The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. The post OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses appeared first on SecurityWeek.
+
+### DIFFCZSL: Compositional Zero-Shot Learning Regularized by Diffusion Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19871
+- Summary: Compositional Zero-Shot Learning (CZSL) aims to recognize unseen attribute-object compositions by leveraging knowledge of primitive concepts learned from seen compositions. Although recent works achieve impressive performance in CZSL by leveraging large vision-language models, they primarily rely...
+
+### Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19858
+- Summary: Generalizable dynamic graph anomaly detection (DGAD) enables pretrained detectors to identify anomalies in unseen target domains without costly retraining. However, existing methods often fail for two reasons. First, they mainly rely on domain-agnostic patterns and miss domain-specific patterns...
+
+### Inadvertent Context Leakage in Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19857
+- Summary: For AI agents to be useful beyond simple chat, they must hold sensitive user context such as calendars, credentials, health records, and financial data. We study whether the mere presence of such secrets in a model's context window introduces hidden correlations into the model's benign outputs,...
 
 ### The next big thing in hydrogen could be underground
 - Source: MIT Tech Review AI
@@ -834,6 +870,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.19583
 - Summary: Recent studies suggest that video generation models can exhibit certain forms of zero-shot visual reasoning through generated frames. Yet reliable evaluation remains challenging: benchmarks should adopt inputs aligned with the visual priors of current video models, require valid evolving processes...
+
+### DraftFM: A FoundationModel for Day-Zero Drafting in Magic: The Gathering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19568
+- Summary: Drafting a new Magic: The Gathering expansion begins before any pick from it has been observed: the complete card list is public, but the draft logs that supervised pick models train on do not yet exist. We study this day-zero regime directly. DraftFM is a discrete-choice policy that scores exactly...
 
 ### AI Now Makes Up Half of Baidu's Revenue: A 'New Baidu' Is Taking Shape
 - Source: Pandaily
@@ -2978,46 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.13990
 - Summary: Driven by the attention economy, short-video Recommender Systems (RSs) are primarily optimized to maximize user engagement by promoting videos that capture attention within seconds. These systems inherently favor shallow-content videos that are effective at attracting immediate attention. However,...
-
-### Increased HTTP 5xx Errors in Kuwait, Bangkok, Jakarta and Dammam
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/jb87g814jw6z
-- Summary: Aug 14, 05:37 UTCResolved - This incident has been resolved.Aug 14, 04:55 UTCIdentified - Cloudflare is investigating an increased level of HTTP 5xx errors in Kuwait, Bangkok, Jakarta and Dammam locations. We are working to analyse and mitigate this problem. More updates to follow shortly.
-
-### [AINews] Gemini 3.7 Flash brings GDM back to the forefront
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm
-- Summary: Down, but not out!
-
-### Harnessing agent memory to build lifelong AI partners for materials scientists
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11224
-- Summary: arXiv:2608.11224v1 Announce Type: new Abstract: Materials research advances through accumulated experience - scripts that work, protocols that are trusted, warnings attached to failed calculations or experiments, and judgement that links a new question to an old result. This experience is essential...
-
-### Identity from the Outside: A Conceptual Framework and Research Program for AI Personality Clones
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11225
-- Summary: arXiv:2608.11225v1 Announce Type: new Abstract: AI "personality clones" force a re-examination of personal identity in operational terms. Setting aside the hard problem of consciousness, we approach identity through the indiscernibility of manifestations, as assessed by an observer over a duration....
-
-### Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11226
-- Summary: arXiv:2608.11226v1 Announce Type: new Abstract: Reinforcement-learning post-training dominates modern language-model development, yet its power behavior on GPU hardware has not been characterized, and datacenters manage GPU power with workload-blind mechanisms, static caps and reactive throttling,...
-
-### Forecasting Side Effects of Activation Steering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11227
-- Summary: arXiv:2608.11227v1 Announce Type: new Abstract: Activation steering modifies a language model by adding a learned direction to its hidden activations, enabling targeted behavioral changes without retraining. While effective, steering often produces unintended side effects on other behaviors, making...
-
-### Synchronizing Beliefs with Second-Order Theory-of-Mind in Human-Autonomy Teams (Extended Version)
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.11229
-- Summary: arXiv:2608.11229v1 Announce Type: new Abstract: Comparative feedback, asking people which of two behaviors they prefer, has become a standard way to align robot and agent behavior with human intent when the reward itself cannot be specified directly. Preference-based reward learning typically casts...
 
