@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 20 Aug 2026 20:30:16 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2026 01:23:45 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>MTLS Validation issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/jzv93gkq85bj</link>
+            <guid>https://www.cloudflarestatus.com/incidents/jzv93gkq85bj</guid>
+            <pubDate>Fri, 21 Aug 2026 00:13:54 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/jzv93gkq85bj">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Aug 21, 00:13 UTCResolved - This incident has been resolved.Aug 21, 00:05 UTCMonitoring - Cloudflare identified an issue causing mTLS validation failures for some customers. A fix has been implemented and we are monitoring the results.</description>
+        </item>
+        <item>
+            <title>The /wayfinder Skill: Navigating the “Fog of War” of Planning</title>
+            <link>https://www.latent.space/p/wayfinder-skill</link>
+            <guid>https://www.latent.space/p/wayfinder-skill</guid>
+            <pubDate>Thu, 20 Aug 2026 20:59:09 +0000</pubDate>
+            <source url="https://www.latent.space/p/wayfinder-skill">Latent Space</source>
+            <category>open-source</category>
+            <description>Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.</description>
+        </item>
+        <item>
+            <title>Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads</title>
+            <link>https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html</link>
+            <guid>https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html</guid>
+            <pubDate>Thu, 20 Aug 2026 20:22:35 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html">The Hacker News</source>
+            <category>security</category>
+            <description>The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are...</description>
+        </item>
+        <item>
+            <title>Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts</title>
+            <link>https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html</link>
+            <guid>https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html</guid>
+            <pubDate>Thu, 20 Aug 2026 19:59:19 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html">The Hacker News</source>
+            <category>security</category>
+            <description>Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These...</description>
+        </item>
         <item>
             <title>Elevated errors on requests to multiple models</title>
             <link>https://status.claude.com/incidents/c0ncxxm2wd9r</link>
@@ -72,6 +108,24 @@
             <description>Aug 20, 17:48 UTCResolved - This incident has been resolved.Aug 20, 16:56 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 16:48 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in...</description>
         </item>
         <item>
+            <title>ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More</title>
+            <link>https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html</link>
+            <guid>https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html</guid>
+            <pubDate>Thu, 20 Aug 2026 17:23:48 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html">The Hacker News</source>
+            <category>security</category>
+            <description>A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and...</description>
+        </item>
+        <item>
+            <title>AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure</title>
+            <link>https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html</link>
+            <guid>https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html</guid>
+            <pubDate>Thu, 20 Aug 2026 16:59:44 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html">The Hacker News</source>
+            <category>security</category>
+            <description>The U.S. government on Wednesday warned of an &quot;active threat&quot; targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and...</description>
+        </item>
+        <item>
             <title>Up to 3.2x Faster Inference with LFM2.5-DSpark</title>
             <link>https://huggingface.co/blog/LiquidAI/lfm25-dspark</link>
             <guid>https://huggingface.co/blog/LiquidAI/lfm25-dspark</guid>
@@ -99,6 +153,15 @@
             <description>Aug 20, 15:43 UTC Resolved - Current status: The third-party cloud platform confirmed that the mitigation was complete, and its automated recovery system appears to have initiated. We independently monitored the environment and verified that service was restored. If you experience additional issues...</description>
         </item>
         <item>
+            <title>Debates over AI consciousness are a trap</title>
+            <link>https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/</link>
+            <guid>https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/</guid>
+            <pubDate>Thu, 20 Aug 2026 15:42:39 +0000</pubDate>
+            <source url="https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/">MIT Tech Review AI</source>
+            <category>research</category>
+            <description>“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman”...</description>
+        </item>
+        <item>
             <title>Elevated Errors for Thinking mode in ChatGPT</title>
             <link>https://status.openai.com//incidents/01M0FQAR3NNH3ANVTQMBRD47DC</link>
             <guid>https://status.openai.com//incidents/01M0FQAR3NNH3ANVTQMBRD47DC</guid>
@@ -106,6 +169,15 @@
             <source url="https://status.openai.com//incidents/01M0FQAR3NNH3ANVTQMBRD47DC">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: MonitoringWe have implemented a mitigation for the issue for elevated errors for Thinking Mode and Image Generation in ChatGPT/ChatGPT WorkAffected components Image Generation (Degraded performance) ChatGPT Work (Degraded performance) Conversations (Degraded performance)</description>
+        </item>
+        <item>
+            <title>Hackers Target Zimbra Servers in Active Exploitation Campaign</title>
+            <link>https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/</link>
+            <guid>https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/</guid>
+            <pubDate>Thu, 20 Aug 2026 14:50:49 +0000</pubDate>
+            <source url="https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/">Security Week</source>
+            <category>security</category>
+            <description>Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.</description>
         </item>
         <item>
             <title>New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data</title>
@@ -117,6 +189,15 @@
             <description>Adversa AI has disclosed an attack technique that it says can cause xAI&#x27;s Grok chatbot to send a user&#x27;s name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI...</description>
         </item>
         <item>
+            <title>Surveillance – Everything You Wanted to Know, But Were Afraid to Ask</title>
+            <link>https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/</link>
+            <guid>https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/</guid>
+            <pubDate>Thu, 20 Aug 2026 14:30:00 +0000</pubDate>
+            <source url="https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/">Security Week</source>
+            <category>security</category>
+            <description>We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it. The post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.</description>
+        </item>
+        <item>
             <title>Increased Errors for Durable Objects and Downstream Services in Indonesia</title>
             <link>https://www.cloudflarestatus.com/incidents/76jq00tfhd4c</link>
             <guid>https://www.cloudflarestatus.com/incidents/76jq00tfhd4c</guid>
@@ -124,6 +205,15 @@
             <source url="https://www.cloudflarestatus.com/incidents/76jq00tfhd4c">Cloudflare Status</source>
             <category>incidents</category>
             <description>Aug 20, 14:00 UTCResolved - This incident has been resolved.Aug 20, 13:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 13:38 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 20, 13:25 UTCInvestigating - Clients connecting to...</description>
+        </item>
+        <item>
+            <title>Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia</title>
+            <link>https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</link>
+            <guid>https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:16:35 +0000</pubDate>
+            <source url="https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/">Security Week</source>
+            <category>security</category>
+            <description>Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek.</description>
         </item>
         <item>
             <title>Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities</title>
@@ -153,15 +243,6 @@
             <description>The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.</description>
         </item>
         <item>
-            <title>Network Performance Issues in India</title>
-            <link>https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x</link>
-            <guid>https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x</guid>
-            <pubDate>Thu, 20 Aug 2026 12:01:11 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Aug 20, 12:01 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 11:38 UTCInvestigating - Cloudflare is investigating issues with network performance in India. We are working to analyse and mitigate this problem. More updates to follow shortly.</description>
-        </item>
-        <item>
             <title>Managing the cyber risk of agentic AI</title>
             <link>https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai</link>
             <guid>https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai</guid>
@@ -169,33 +250,6 @@
             <source url="https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai">NCSC UK</source>
             <category>security</category>
             <description>Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.</description>
-        </item>
-        <item>
-            <title>Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities</title>
-            <link>https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/</link>
-            <guid>https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/</guid>
-            <pubDate>Thu, 20 Aug 2026 11:46:04 +0000</pubDate>
-            <source url="https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/">Security Week</source>
-            <category>security</category>
-            <description>The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.</description>
-        </item>
-        <item>
-            <title>NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands</title>
-            <link>https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html</link>
-            <guid>https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html</guid>
-            <pubDate>Thu, 20 Aug 2026 11:05:11 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html">The Hacker News</source>
-            <category>security</category>
-            <description>Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL&#x27;s open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software&#x27;s spacecraft and instrument command bus. The chain,...</description>
-        </item>
-        <item>
-            <title>ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud</title>
-            <link>https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html</link>
-            <guid>https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html</guid>
-            <pubDate>Thu, 20 Aug 2026 10:38:28 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html">The Hacker News</source>
-            <category>security</category>
-            <description>Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with &quot;significant enhancements,&quot; including a set of 167 remote commands and expands its targeting footprint globally. Zimperium zLabs, in a Wednesday report, said the Android malware also features...</description>
         </item>
         <item>
             <title>The next big thing in hydrogen could be underground</title>
@@ -214,6 +268,15 @@
             <source url="https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand,...</description>
+        </item>
+        <item>
+            <title>Support networks aim to help kids through the polycrisis</title>
+            <link>https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/</link>
+            <guid>https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/</guid>
+            <pubDate>Thu, 20 Aug 2026 09:00:00 +0000</pubDate>
+            <source url="https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/">MIT Tech Review AI</source>
+            <category>research</category>
+            <description>Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just six years old but was about to be hit by an adult-size realization. “They were...</description>
         </item>
         <item>
             <title>Lightelligence&#x27;s Photonic-Computing Long March: Technology Shines, Business Still Uncertain</title>
@@ -259,42 +322,6 @@
             <source url="https://pandaily.com/wrc-2026-embodied-ai-robot-evolution-generalization-galaxy-unitree-aug2026">Pandaily</source>
             <category>chinese-ai</category>
             <description>At the 2026 World Robot Conference, visitors saw familiar scenes: robots grasping cups, folding clothes, entering factories. The real changes hide beyond the spectacle. Global humanoid shipments topped 22,000 in H1 2026, up nearly 300%, but only about a fifth enter smart manufacturing and...</description>
-        </item>
-        <item>
-            <title>40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets</title>
-            <link>https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html</link>
-            <guid>https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html</guid>
-            <pubDate>Thu, 20 Aug 2026 08:42:03 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html">The Hacker News</source>
-            <category>security</category>
-            <description>A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code...</description>
-        </item>
-        <item>
-            <title>Critical GitLab Flaw Exploited Shortly After Disclosure</title>
-            <link>https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/</link>
-            <guid>https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/</guid>
-            <pubDate>Thu, 20 Aug 2026 07:48:24 +0000</pubDate>
-            <source url="https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/">Security Week</source>
-            <category>security</category>
-            <description>CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.</description>
-        </item>
-        <item>
-            <title>Hackers Using AI to Target Siemens PLCs in Critical US Sectors</title>
-            <link>https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/</link>
-            <guid>https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/</guid>
-            <pubDate>Thu, 20 Aug 2026 07:02:02 +0000</pubDate>
-            <source url="https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/">Security Week</source>
-            <category>security</category>
-            <description>A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.</description>
-        </item>
-        <item>
-            <title>Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code</title>
-            <link>https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html</link>
-            <guid>https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html</guid>
-            <pubDate>Thu, 20 Aug 2026 06:04:34 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html">The Hacker News</source>
-            <category>security</category>
-            <description>Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of...</description>
         </item>
         <item>
             <title>[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law</title>
@@ -430,33 +457,6 @@
             <source url="https://arxiv.org/abs/2608.18085">arXiv NLP</source>
             <category>research</category>
             <description>arXiv:2608.18085v1 Announce Type: new Abstract: Prior work has shown that large language models (LLMs) can express diverse personality traits in open-ended text generation. However, it remains unclear whether they can do so in a goal-directed dialogue without compromising task completion, and...</description>
-        </item>
-        <item>
-            <title>SuTRA : Structurally-Unified Tokenization with Root Awareness</title>
-            <link>https://arxiv.org/abs/2608.18087</link>
-            <guid>https://arxiv.org/abs/2608.18087</guid>
-            <pubDate>Thu, 20 Aug 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2608.18087">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2608.18087v1 Announce Type: new Abstract: Existing subword tokenizers optimize statistical compression but ignore morphological structure, particularly the relationship between roots and affixes. This is harmful for morphologically rich Indic languages, where basic units are complex...</description>
-        </item>
-        <item>
-            <title>Chatgpt.com is down - all signups and logins are down as of right now</title>
-            <link>https://status.openai.com//incidents/01M0E7K87VJNMGW0QTMHPEQQ39</link>
-            <guid>https://status.openai.com//incidents/01M0E7K87VJNMGW0QTMHPEQQ39</guid>
-            <pubDate>Thu, 20 Aug 2026 00:54:17 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01M0E7K87VJNMGW0QTMHPEQQ39">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Login (Operational)</description>
-        </item>
-        <item>
-            <title>Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval</title>
-            <link>https://tldr.takara.ai/p/2608.19128</link>
-            <guid>https://tldr.takara.ai/p/2608.19128</guid>
-            <pubDate>Wed, 19 Aug 2026 17:23:30 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2608.19128">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Decoding visual information from brain signals probes neural representations and enables neuro-rehabilitation and dream decoding. Recent brain-to-image retrieval approaches have achieved promising performance, typically by averaging many (up to 80) neural trials per image, requiring repeated...</description>
         </item>
     </channel>
 </rss>
