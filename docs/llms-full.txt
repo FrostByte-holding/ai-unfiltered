@@ -6,6 +6,12 @@
 
 ## 2026-08-22
 
+### TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
+- Summary: The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an...
+
 ### Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight
 - Source: Security Week
 - Category: security
@@ -615,6 +621,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/76jq00tfhd4c
 - Summary: Aug 20, 14:00 UTCResolved - This incident has been resolved.Aug 20, 13:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 13:38 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 20, 13:25 UTCInvestigating - Clients connecting to...
+
+### Orthogonal JEPA: Factorized Predictive States for Latent World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20065
+- Summary: World models construct latent states that support prediction, planning, and reasoning about an underlying system. Joint-embedding predictive architectures (JEPAs) offer a direct way to learn such states by predicting targets in representation space instead of reconstructing every detail of the...
 
 ### DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
 - Source: HF Daily Papers
@@ -2354,6 +2366,12 @@
 - URL: https://pandaily.com/china-mobile-national-unified-token-plan-operator-ai-pricing-aug2026
 - Summary: China Mobile announced plans for nationally unified Token package pricing for consumer and enterprise markets. Daily token calls in China grew from about 100 billion in early 2024 to over 140 trillion by March 2026, a more than 1,000x increase in two years, as telecom operators seek new billing...
 
+### Do LLMs Know a Good Hypothesis When They See One? Logit-Based Energy Scoring Outperforms Prompted LLM-as-Judge for Scientific Hypothesis Ranking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17270
+- Summary: Large language models (LLMs) are increasingly used for scientific hypothesis generation. However, evaluating generated hypotheses remains a challenge for trustworthy AI-enabled scientific workflows. Existing approaches often use LLMs as judges or rely on semantic similarity, which can favor...
+
 ### Information fusion and machine learning for sensitivity analysis using physics knowledge and experimental data
 - Source: HF Daily Papers
 - Category: open-source
@@ -2559,6 +2577,12 @@
 - URL: https://tldr.takara.ai/p/2608.16477
 - Summary: AI-RAN brings large language model (LLM) serving close to mobile users, but cellular handover can separate an active request from its inference state: the user attaches to a target base station (gNB) while the large and growing key-value (KV) cache remains at the source. Retaining inference at the...
 
+### A Two-Stage Learning PINN Approach for Solving the Inverse Problem of the 1D Porous Medium Equation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16475
+- Summary: The Porous Medium Equation (PME), given by $u_t = Δ(u^m)$ for $m > 1$, is a degenerate nonlinear parabolic partial differential equation that arises in various physical applications such as fluid flow in porous media, heat transfer in plasmas, and population dynamics. It is known for its nonlinear...
+
 ### Irregular Details How a Naming Error Let AI Models Attack a Real Company
 - Source: Security Week
 - Category: security
@@ -2744,6 +2768,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-v4-peak-off-peak-pricing-effective-august-17-up-to-1100-percent-aug2026
 - Summary: DeepSeek's new API pricing took effect at midnight on August 17, with peak and off-peak rates for V4-Flash and V4-Pro set at a 1:2 ratio. V4-Pro peak-hour cache-hit input rose 1,100% from the old price, with overall increases ranging from 50% to 1,100% depending on model, token type, and time slot.
+
+### TRCA: Transition-wise Rubric Credit Assignment for Long-horizon LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16156
+- Summary: Long-horizon large language model (LLM) agents are typically optimized with sparse terminal outcomes, making fine-grained credit assignment across multi-step interactions difficult. Existing approaches either rely on process evaluators, which incur annotation and inference costs, or derive...
 
 ### Multi-Feature Riemannian Hypergraph for Online Test-Time Adaptation of Motor Imagery Brain-Computer Interface
 - Source: HF Daily Papers
@@ -2949,6 +2979,12 @@
 - URL: https://tldr.takara.ai/p/2608.16050
 - Summary: Spreadsheets are a primary medium for publishing tabular data, yet automatically extracting structured content from them remains difficult due to heterogeneous layouts, diverse file formats, and inconsistent organizational conventions. We address two core tasks in spreadsheet understanding:...
 
+### $R^3$-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16033
+- Summary: In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value. Most reasoning and agent benchmarks use independent per-task budgets; existing shared-budget studies do not calibrate suite performance against the same model's demonstrated...
+
 ### ReRef-3D: A Benchmark for Spatial Referring Expression-Guided 3D Scene Rearrangement
 - Source: HF Daily Papers
 - Category: open-source
@@ -2981,43 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.15932
 - Summary: As state-of-the-art machine translation models saturate standard benchmarks, the field needs more challenging evaluations to distinguish between models of varying quality. We propose augmenting existing benchmarks to increase translation difficulty by combining adversarial optimization with a...
-
-
-## 2026-08-15
-
-### React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/flue-2
-- Summary: Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.
-
-### SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
-- Summary: A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation. "SAP...
-
-### Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html
-- Summary: A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue...
-
-### Position: Reasoning is a Learnable Rule-Based Process
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12325
-- Summary: arXiv:2608.12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and...
-
-### Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12345
-- Summary: arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action...
-
-### Position: The Alignment Community is Unintentionally Building a Censor's Toolkit
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12346
-- Summary: arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment...
 
