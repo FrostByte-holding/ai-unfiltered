@@ -874,6 +874,12 @@
 - URL: https://tldr.takara.ai/p/2608.19783
 - Summary: Existing optimal transport (OT) models primarily seek an OT map or plan between distributions by minimizing a prescribed transport cost or distortion. However, minimizing transport cost or distortion alone may fail to identify a geometrically meaningful transformation between the two distributions....
 
+### Distilling Aggregate Mobility Statistics into a Language Model Policy for Post-Event Crowd Simulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19778
+- Summary: Pedestrian simulators need a behaviour rule for every agent, but privacy usually limits the data for setting one to aggregate statistics, namely zone-level device counts and origin-to-destination (OD) flows, with no individual trajectories. Such aggregates under-determine individual behaviour,...
+
 ### Critical GitLab Flaw Exploited Shortly After Disclosure
 - Source: Security Week
 - Category: security
@@ -1820,6 +1826,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2
 - Summary: Aug 18, 16:16 UTCInvestigating - We are investigated an increase in errors requesting cdnjs.cloudflare.com.
 
+### Understanding the Surprising Generalization Properties of Tabular Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17957
+- Summary: Tabular Foundation Models (TFMs) increasingly rely on in-context learning, where a model receives labelled examples at inference time and predicts labels for new inputs without updating its weights. Existing TFMs are typically trained on either massive synthetic corpora or very large collections of...
+
 ### An Omitted Mode Is a Rare Rule: The Sampling-Verification Danger Law in Continuous Code World Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1861,6 +1873,18 @@
 - Category: security
 - URL: https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/
 - Summary: Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. The post Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks appeared first on SecurityWeek.
+
+### Bound-Aware Per-Organ Recall Risk Control for Multi-Organ CT Segmentation under Clinical Domain Shift
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18193
+- Summary: Distribution-free risk control adds organ-specific recall guarantees to frozen segmentation. We calibrate per-organ thresholds for an AMOS-trained nnU-Net, audit transfer to RAOS, and estimate local re-certification cost using case-level voxel false-negative rate (FNR). The AMOS control passes, but...
+
+### BayesPrompt: human readable prompts that make sense
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17866
+- Summary: Reconstructing prompts that can elicit a desired answer or behaviour in an LLM is an open and important research topic. Optimisation methods which aim at minimising the perplexity of a given answer, however, consistently yield so-called pseudoprompts, unintelligible strings of tokens which can lack...
 
 ### INC20000163
 - Source: Snowflake Status
@@ -2996,28 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.12346
 - Summary: arXiv:2608.12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment...
-
-### Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12368
-- Summary: arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same...
-
-### Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12371
-- Summary: arXiv:2608.12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper...
-
-### Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12372
-- Summary: arXiv:2608.12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers. This position paper argues that in many settings, particularly high-stakes decision-making, we need accurate cognitively-aligned AI systems that...
-
-### Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.12373
-- Summary: arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's...
 
