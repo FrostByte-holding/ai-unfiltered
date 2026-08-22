@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-22
+
+### Elevated R2 errors in Dubai (DXB)
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/xdzz2t911t1w
+- Summary: Aug 22, 02:57 UTCResolved - This incident has been resolved.Aug 22, 02:31 UTCInvestigating - Customers in Dubai may see increased error rates for R2 requests.
+
+
 ## 2026-08-21
 
 ### Simulation: the new Scaling Law — Joon Sung Park, Simile AI
@@ -505,6 +514,12 @@
 - URL: https://www.githubstatus.com/incidents/bhbcjn4n3jzp
 - Summary: Aug 20, 16:14 UTC Update - Users are experiencing delays when starting tasks using Copilot Cloud Agent and are not be able to see the status of these tasks. Copilot Cloud Agent tasks are still being completed. We have identified the cause of the issue and are putting mitigations in place to return...
 
+### Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20210
+- Summary: Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18...
+
 ### RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation
 - Source: HF Daily Papers
 - Category: open-source
@@ -571,6 +586,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/76jq00tfhd4c
 - Summary: Aug 20, 14:00 UTCResolved - This incident has been resolved.Aug 20, 13:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 13:38 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 20, 13:25 UTCInvestigating - Clients connecting to...
 
+### DecoVAE: a Lightweight Interpretable Trend-Seasonal VAE Framework for Efficient Probabilistic Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20052
+- Summary: Probabilistic time series forecasting remains challenging, largely because modeling distinct trend and seasonal dynamics requires specialized approaches. Existing methods often fail to capture the unique inner properties of these components, lack interpretability, or suffer from heavy memory and...
+
 ### Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
 - Source: The Hacker News
 - Category: security
@@ -588,6 +609,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
 - Summary: Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed...
+
+### Systematic Evaluation of TabPFN-TS for Zero-Shot Probabilistic Heat Load Forecasting in District Heating Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20024
+- Summary: District heating energy hubs require reliable heat load forecasts for efficient operational scheduling. Conventional forecasting workflows train system-specific models on historical data, which can become burdensome when networks change through new consumers, retrofits, or changing operating...
 
 ### Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution
 - Source: The Hacker News
@@ -793,6 +820,12 @@
 - URL: https://pandaily.com/wrc-2026-embodied-ai-robot-evolution-generalization-galaxy-unitree-aug2026
 - Summary: At the 2026 World Robot Conference, visitors saw familiar scenes: robots grasping cups, folding clothes, entering factories. The real changes hide beyond the spectacle. Global humanoid shipments topped 22,000 in H1 2026, up nearly 300%, but only about a fifth enter smart manufacturing and...
 
+### ADAPT: Physics-Aware Diffusion-based World Models for Adaptive Predictive Transferable HVAC Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19804
+- Summary: Buildings account for roughly one-third of global energy consumption and CO$_2$ emissions. Optimizing indoor climate systems plays a critical role for urban climate mitigation aligned with UN Sustainable Development Goals 11 and 13. However, indoor delayed thermodynamic responses and partial...
+
 ### 40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets
 - Source: The Hacker News
 - Category: security
@@ -822,6 +855,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.19729
 - Summary: Vision-language-model-based embodied agents can complete instructed tasks but often violate safety constraints in the process, a problem recently framed as interactive safety. Training such agents to act safely is difficult, since safety and task success are distinct objectives, and safety arises...
+
+### Scale-Separated Conditioning for Style-Encoder-Free Diffusion Stylization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19719
+- Summary: Reference-based diffusion stylization requires separating target geometry from transferable appearance. Existing tuning-based methods often rely on aligned content-style-target triplets or auxiliary visual encoders, which increases data cost and can transfer unintended scene structure from the...
 
 ### Hackers Using AI to Target Siemens PLCs in Critical US Sectors
 - Source: Security Week
@@ -2984,40 +3023,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/kc88n14c8kjg
 - Summary: Aug 14, 20:05 UTCResolved - This incident has been resolved.Aug 14, 19:38 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 14, 19:27 UTCIdentified - The team is mitigating an availability drop to Durable Objects and Cloudflare Workflows served from our Miami based...
-
-### INC20000158
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/v8nyb5fhd95v
-- Summary: Aug 14, 19:35 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
-
-### Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html
-- Summary: Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale. DNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available...
-
-### IAM Compliance Requirements and Best Practices
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html
-- Summary: IAM compliance is the practice of demonstrating that identity and access controls are not only documented but actually enforced across users, applications, infrastructure, and non-human identities. This guide explains what IAM compliance requires, which regulations matter, and how organizations...
-
-### INC20000157
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/ylfhrtlppdlt
-- Summary: Aug 14, 16:28 UTC Resolved - Current status: We've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer experience: Customers hosted in the...
-
-### Increased network congestion in the Eastern US
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9qty28mt423v
-- Summary: Aug 14, 16:28 UTCResolved - This incident has been resolved.Aug 14, 15:34 UTCIdentified - We are investigating network issues between Cloudflare colocations located in the eastern United States. This may cause increased errors and latency reaching Cloudflare storage products like R2 and Durable...
-
-### CRAFT: Constrained Reward via Attention Fine-Tuning for Subject Personalization without Composed Targets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.14403
-- Summary: Subject-driven image personalization---generating new images that preserve the identity of one or several reference subjects in novel scenes---is a foundational capability for modern visual content creation. It is currently dominated by generalized methods that fine-tune a pretrained multimodal...
 
