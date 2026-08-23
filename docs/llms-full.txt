@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-23
+
+### Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/1wwc0f6m1c21
+- Summary: Aug 23, 02:00 UTCResolved - Between 23rd August 2026, 01:06 UTC - 01:54 UTC, some customers may have experienced elevated 5xx errors and timeouts for traffic between North American origins and our Singapore data centre. This issue is now resolved.
+
+
 ## 2026-08-22
 
 ### TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
@@ -1791,6 +1800,12 @@
 - URL: https://status.openai.com//incidents/01M0B4WSV41BCFZ9VDWKSMQVSP
 - Summary: Status: ResolvedThe issue affecting site deployments has been resolved.Affected components Sites (Operational)
 
+### Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18261
+- Summary: Serving a 235B-parameter Mixture-of-Experts (MoE) model on a single 8 GB GPU is bottlenecked not by compute but by memory bandwidth: decode must stream each token's active experts from whichever tier holds them, and on consumer hardware most experts sit on an SSD far slower than RAM. We quantify...
+
 ### How Much Memory Does Your Agent Actually Need?
 - Source: Hugging Face Blog
 - Category: open-source
@@ -3002,16 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13698
 - Summary: arXiv:2608.13698v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain...
-
-### CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13706
-- Summary: arXiv:2608.13706v1 Announce Type: new Abstract: Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claims, and such verification occurs...
-
-### TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13708
-- Summary: arXiv:2608.13708v1 Announce Type: new Abstract: Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation, lack safeguards against weak...
 
