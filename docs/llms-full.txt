@@ -571,6 +571,12 @@
 - URL: https://tldr.takara.ai/p/2608.20208
 - Summary: Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction. Yet prevalent diffusion- and flow-matching robot policies lack tractable likelihoods, limiting their use in likelihood-based offline RL post-training. AR-NFs offer both...
 
+### ContractScrub: A benchmark for final review of legal contracts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20204
+- Summary: Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for errors and inconsistencies, is a particularly suitable task for automation,...
+
 ### MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use
 - Source: HF Daily Papers
 - Category: open-source
@@ -894,6 +900,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.19804
 - Summary: Buildings account for roughly one-third of global energy consumption and CO$_2$ emissions. Optimizing indoor climate systems plays a critical role for urban climate mitigation aligned with UN Sustainable Development Goals 11 and 13. However, indoor delayed thermodynamic responses and partial...
+
+### SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19799
+- Summary: Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task...
 
 ### 40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets
 - Source: The Hacker News
@@ -1455,6 +1467,12 @@
 - URL: https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/
 - Summary: Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-­mile dirt road. She moved in with her older sister and taught herself to type on AOL Instant Messenger....
 
+### Composed Historical Image Retrieval by Modeling Temporal Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18694
+- Summary: While time evolves linearly, the geometry of neural embedding spaces is inherently multi-dimensional, often chaotic, and difficult to interpret. In principle, one could constrain an embedding space to a single temporal dimension; however, such a reduction would sacrifice performance on downstream...
+
 ### [AINews] Memory prices up 500% in 12 months
 - Source: Latent Space
 - Category: open-source
@@ -1796,6 +1814,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.18413
 - Summary: 3D Gaussian Splatting enables efficient novel view synthesis, but accurate mesh reconstruction remains difficult in weakly observed and occluded regions, where Gaussian primitives may grow into unstable or geometrically inconsistent structures. We propose CoMVS-GS, a general surface reconstruction...
+
+### Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18410
+- Summary: Vision-Language-Action (VLA) models process long multimodal token sequences, making inference expensive in both memory and computation. Existing efficiency methods mainly reduce visual tokens, but aggressive token pruning becomes fragile because removing a token discards its entire representation....
 
 
 ## 2026-08-18
@@ -2194,6 +2218,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.17402
 - Summary: Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient...
+
+### Noisy group neurons with synchronous resetting for high-performance spiking neural networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17394
+- Summary: Spiking neural networks (SNNs), characterized by bio-inspired neuronal dynamics and event-driven communication, have attained significant progress in recent years. Nevertheless, training deep SNNs remains challenging due to spatiotemporal information loss and gradient mismatching. To simultaneously...
 
 ### Integrating Novelty and Surprise for Experience Prioritization and Exploration in Image-Based Reinforcement Learning
 - Source: HF Daily Papers
@@ -2987,34 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13604
 - Summary: arXiv:2608.13604v1 Announce Type: new Abstract: Detection of misunderstanding is an urgent problem to solve because communication has moved away from real-time, in-person interaction and is increasingly handled by AI-mediated channels. This shift cuts communicators off from the resources repair...
-
-### Active Perception for Embodied Disambiguation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.13605
-- Summary: arXiv:2608.13605v1 Announce Type: new Abstract: Natural language provides robots with a flexible task interface, but target ambiguity in embodied environments arises not only from user intent; it can also result from missing taskrelevant physical evidence in the current observation. Existing...
-
-### Robust Dual-Model Collaborative Random Vector Functional Link Network
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13628
-- Summary: arXiv:2608.13628v1 Announce Type: new Abstract: Random vector functional link (RVFL) networks are lightweight and fast neural models that offer efficient training and strong generalization through randomized hidden-layer weights and direct input-output connections. However, conventional RVFL models...
-
-### Contrastive Learning for Interpretable Anomaly Detection at Collider Experiments
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13652
-- Summary: arXiv:2608.13652v1 Announce Type: new Abstract: Generic event-level anomaly detection for collider physics has two recurring problems: anomaly scores are hard to interpret, and they correlate strongly with energy scale and object multiplicity. We present Organized Representation via Contrastive...
-
-### The Query Knows What to Forget: A Second Erase Direction for Linear Attention
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13668
-- Summary: arXiv:2608.13668v1 Announce Type: new Abstract: Linear attention keeps a state of fixed size. At long context, many stored items share this state, and interference between them degrades retrieval. Gated DeltaNet-2 (GDN-2), like every delta-rule model before it, derives its erase vector from the key...
-
-### From BERT to Frontier Agents: Eight Years of Language-Model Progress, the Collapse of the Capability-Cost Curve, and the Rise of Task-Targeted Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13675
-- Summary: arXiv:2608.13675v1 Announce Type: new Abstract: Between October 2018 and July 2026 AI models progressed from simple systems like BERT to massive agents that solve complex math and write software. The ability to resolve real coding issues improved by nearly six times per year since late 2024. During...
 
