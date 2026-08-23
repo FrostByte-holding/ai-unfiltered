@@ -937,6 +937,12 @@
 - URL: https://tldr.takara.ai/p/2608.19778
 - Summary: Pedestrian simulators need a behaviour rule for every agent, but privacy usually limits the data for setting one to aggregate statistics, namely zone-level device counts and origin-to-destination (OD) flows, with no individual trajectories. Such aggregates under-determine individual behaviour,...
 
+### skchange: Fast and Flexible Algorithms for Changepoint Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19767
+- Summary: Skchange is an open-source Python library for detecting structural changes in time series. It implements modern change detection algorithms within a unified and extensible framework. The algorithms are modular and composable, and they include changepoint search methods based on both cost...
+
 ### Critical GitLab Flaw Exploited Shortly After Disclosure
 - Source: Security Week
 - Category: security
@@ -2766,6 +2772,12 @@
 - URL: https://tldr.takara.ai/p/2608.16344
 - Summary: Indic quality estimation (QE) and automatic post-editing (APE) data is spread across separate releases, so no single resource supports training and evaluation across tasks and language pairs on one footing. We consolidate the WMT 2020--2024 shared-task lineage with an extended English--Malayalam...
 
+### Step-Level On-Policy Distillation: Interpolating Between On-Policy Distillation and Supervised Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16333
+- Summary: On-policy distillation (OPD) aligns a student model with a teacher's logit distribution on student-generated trajectories. This approach has achieved strong empirical gains and can often surpass conventional off-policy distillation with substantially less data. However, standard token-level OPD can...
+
 ### 40,000 Impacted by SafePal Data Breach
 - Source: Security Week
 - Category: security
@@ -2861,6 +2873,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html
 - Summary: Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in...
+
+### MUSE: An Interactive Meta-Agent for Understanding and Steering LLM-powered Data Science Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16181
+- Summary: Recent advances in large language models have enabled a new class of agentic data science systems that allow users to complete complex data science workflows through natural language. Although these systems can significantly reduce manual effort, it remains difficult to diagnose their behavior and...
 
 ### Demystifying Oversmoothing in Sheaf Neural Networks: An Index-Theoretic Criterion
 - Source: HF Daily Papers
@@ -2999,22 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13568
 - Summary: arXiv:2608.13568v1 Announce Type: new Abstract: Coding agents spend most of their context budget on retrieval. Lexical retrieval (grep) is universal, instant, and zero-setup, but noisy: it cannot tell a definition from a call from a comment. Semantic retrieval via the Language Server Protocol (LSP)...
-
-### Think in Latent, Explain in Language: Self-Explainable Latent Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13570
-- Summary: arXiv:2608.13570v1 Announce Type: new Abstract: Latent reasoning has emerged as a powerful alternative to text-based Chain-of-Thought (CoT), offering significant gains in computational efficiency by compressing verbose reasoning into compact embeddings. However, compressing reasoning into the...
-
-### Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13571
-- Summary: arXiv:2608.13571v1 Announce Type: new Abstract: When a language model fails to answer a query on the first attempt, an agentic system retries, consuming additional tokens each time. This retry overhead creates a gap between what a model's per-token price implies and what a full workflow actually...
-
-### BCMT: Blockwise Causal Memory Transformer
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13578
-- Summary: arXiv:2608.13578v1 Announce Type: new Abstract: Transformer architectures rely on dense self-attention to model long-range dependencies, but this mechanism exhibits quadratic complexity with respect to sequence length. We introduce BCMT (Blockwise Causal Memory Transformer), an architecture for...
 
