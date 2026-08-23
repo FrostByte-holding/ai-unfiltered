@@ -760,6 +760,12 @@
 - URL: https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html
 - Summary: Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus. The chain,...
 
+### Interrupting the Loop: Periodic Subject Changes Raise Judged Surprise and Connection in Base Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19893
+- Summary: Where does the novelty a base language model produces with no task come from, and what can an LLM judge of a long stream actually see? We dismantle a cognitively inspired generation loop over 24 conditions on three base models. Most of its effect lives in one operation: a new subject injected every...
+
 ### TESTNAV: Pareto-Guided Search for Compositional Robustness Testing
 - Source: HF Daily Papers
 - Category: open-source
@@ -1201,6 +1207,12 @@
 - URL: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
 - Summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. "As models become more...
 
+### Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19181
+- Summary: On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task...
+
 ### Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval
 - Source: HF Daily Papers
 - Category: open-source
@@ -1385,6 +1397,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.18746
 - Summary: JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the latter property...
+
+### Budget-First Tariff Recommendation (BFTR): A Complete Algorithmic Framework for Telecom Plan Recommendation without Overcharging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18723
+- Summary: Telecom operators traditionally offer predefined tariff grids, forcing users to choose from a limited set of plans. This paper proposes BFTR (Budget-First Tariff Recommendation), a complete algorithmic framework integrating eight Budget-First strategies, including two original hybrid approaches:...
 
 ### 943 Patches Rolled Out With Oracle’s August 2026 Security Update
 - Source: Security Week
@@ -2150,6 +2168,12 @@
 - URL: https://tldr.takara.ai/p/2608.17373
 - Summary: Sample efficiency is a central challenge in reinforcement learning (RL), particularly in image-based domains where agents must learn from high-dimensional visual inputs. Traditional sampling often relies on random or suboptimal experience selection, leading to redundant updates and slow learning....
 
+### Inductively Scalable, Single-Step Neural Surrogates for Wave-Scattering Inverse Problems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17344
+- Summary: Neural network surrogates are an emerging alternative to traditional electromagnetic wave simulators like finite-difference time-domain (FDTD); their goal is to replace rigorous physical simulations with pre-trained neural networks that solve wave-scattering forward and inverse problems orders of...
+
 ### FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment
 - Source: arXiv AI
 - Category: research
@@ -2516,6 +2540,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.16666
 - Summary: This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. Inspired by Overcooked, the suite comprises cooking scenarios that require temporal decision making. The tasks and reward functions are designed such that temporal...
+
+### Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16975
+- Summary: With the rapid advancement of large language models, brain-language decoding has achieved remarkable progress. However, it remains unclear whether decoded content genuinely reflects neural representations or is largely reconstructed by the language model itself. This ambiguity limits...
 
 ### Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models
 - Source: HF Daily Papers
@@ -2984,34 +3014,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13708
 - Summary: arXiv:2608.13708v1 Announce Type: new Abstract: Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation, lack safeguards against weak...
-
-### Structured Prediction for Scalable Spreadsheet Table Understanding: From Cell Types to Table Ranges (Extended Version)
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16050
-- Summary: Spreadsheets are a primary medium for publishing tabular data, yet automatically extracting structured content from them remains difficult due to heterogeneous layouts, diverse file formats, and inconsistent organizational conventions. We address two core tasks in spreadsheet understanding:...
-
-### $R^3$-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16033
-- Summary: In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value. Most reasoning and agent benchmarks use independent per-task budgets; existing shared-budget studies do not calibrate suite performance against the same model's demonstrated...
-
-### ReRef-3D: A Benchmark for Spatial Referring Expression-Guided 3D Scene Rearrangement
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16011
-- Summary: We introduce ReRef-3D, a benchmark for language-guided placement in 3D scenes. It contains 33,826 instructions across 998 CLEVR-derived scenes, spanning 16 placement families and direct, one-hop, and two-hop references. Each instruction must be resolved into a valid new placement position. Given...
-
-### Spatial Temporal Synergy: Balancing Change and Invariance in Text Driven 3D Human Motion Editing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16008
-- Summary: Text-driven human motion editing aims to modify existing motion sequences according to natural language instructions while maintaining the structural consistency of the original motion. Existing diffusion-based approaches struggle to balance text-responsive "change" and inertial "invariance". They...
-
-### Operator-Theoretic Generalization Bounds for Multitask Deep Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.15982
-- Summary: We develop operator-theoretic generalization bounds for deep multi-output function classes by representing network layers as Koopman composition operators on vector-valued reproducing kernel Hilbert spaces. In vector-valued Sobolev RKHSs, we derive Rademacher complexity bounds for invertible and...
 
