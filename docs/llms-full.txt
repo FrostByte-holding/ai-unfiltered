@@ -6,6 +6,18 @@
 
 ## 2026-08-24
 
+### Issues logging into Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/n0rlp126qf8g
+- Summary: Aug 24, 20:26 UTC Resolved - This issue has been resolved. Aug 24, 20:11 UTC Monitoring - We have identified and resolved an issue which resulted in errors when attempting to access Claude.ai, including logging in via subscriptions for Claude Code. Errors occurred between 1:00pm (20:00 UTC) through...
+
+### Errors logging into Claude.ai
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/w43j3xmngxgj
+- Summary: Aug 24, 17:16 UTC Resolved - This issue has been resolved. Aug 24, 17:12 UTC Investigating - From 9:02–9:08am PT / 16:02–16:08 UTC) users experienced issues when logging into Claude.ai, including for connecting Claude Code with subscription. At this time, this issue has been resolved, but we are...
+
 ### INC20000173
 - Source: Snowflake Status
 - Category: incidents
@@ -1657,6 +1669,12 @@
 - URL: https://tldr.takara.ai/p/2608.18936
 - Summary: Designing, implementing, and comparing interpretable architectures requires a formal language to represent them. The most common representations fall short in one of two ways. Symbolic equations give no global view of an architecture at a glance. Probabilistic graphical models and flowcharts do not...
 
+### Lost in Aggregation: How Benchmarks Overlook Irreplaceable Model Strengths
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18919
+- Summary: Tabular machine learning benchmarks typically summarize performance by averaging scores, ranks, or pairwise wins across datasets. Such aggregates are useful for selecting robust default models, but they can obscure a different question: which models are necessary to attain peak performance on...
+
 ### Score the Algebra, Not the Span: Dimension Reduction for Transfer Operator Models of Dynamical Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -2204,6 +2222,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.18261
 - Summary: Serving a 235B-parameter Mixture-of-Experts (MoE) model on a single 8 GB GPU is bottlenecked not by compute but by memory bandwidth: decode must stream each token's active experts from whichever tier holds them, and on consumer hardware most experts sit on an SSD far slower than RAM. We quantify...
+
+### GenEx: A Graph-Based Representational Paradigm for SARS-CoV-2 Variant Detection via Codon Co-occurrence Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18238
+- Summary: Genomic analysis on viruses such as SARS-CoV-2 variants: Beta, Gamma, Delta, and Omicron is heavily dominated by classical bioinformatics methods, including Sequence Alignment, Phylogenetic Analysis, and Mutation Frequency Statistics. These approaches use pairwise codon or nucleotide distance...
 
 ### How Much Memory Does Your Agent Actually Need?
 - Source: Hugging Face Blog
@@ -2913,6 +2937,12 @@
 - URL: https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
 - Summary: A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS...
 
+### SkillEffect: Checked Lowering for Memory-Bounded Agent Tools
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17007
+- Summary: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs. However, when models turn this guidance into code for existing tool interfaces, even a semantically correct program may load an entire input and exceed the memory...
+
 ### Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
 - Source: HF Daily Papers
 - Category: open-source
@@ -2990,34 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.16669
 - Summary: Recent advances in pathology foundation models have enabled accurate prediction of spatial transcriptomics (ST) from routine H&amp;E images. However, existing explainability methods for vision transformer (ViT)-based models are largely limited to local heatmaps and do not reveal how morphological...
-
-### Chronocooked: A Benchmark for Implicit Interval Timing in Reinforcement Learning Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16666
-- Summary: This paper presents Chronocooked, a reinforcement learning (RL) benchmark suite for studying implicit interval timing in RL agents. Inspired by Overcooked, the suite comprises cooking scenarios that require temporal decision making. The tasks and reward functions are designed such that temporal...
-
-### Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16975
-- Summary: With the rapid advancement of large language models, brain-language decoding has achieved remarkable progress. However, it remains unclear whether decoded content genuinely reflects neural representations or is largely reconstructed by the language model itself. This ambiguity limits...
-
-### Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16647
-- Summary: On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data. We present a...
-
-### Training-Free Reconstruction-Based AI-Generated Image Detectors Are Inherently Vulnerable to Adversarial Examples
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16646
-- Summary: The impressive visual quality and ubiquity of AI-generated images call for reliable and robust detection methods. Reconstruction-based detectors have emerged as a promising direction for transparent and training-free identification of synthetic images. However, due to their fundamentally different...
-
-### Reconstruction: A Blind Benchmark for Recovering Research Ideas from Pre-Publication Bibliographies
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16645
-- Summary: Can a language model recover the true research idea of a published paper when given only that paper's pre-publication bibliography? We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed paper and all contemporaneous or future literature, and asks models to propose...
 
