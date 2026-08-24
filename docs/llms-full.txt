@@ -787,6 +787,12 @@
 - URL: https://www.securityweek.com/ai-assisted-tool-helped-secure-satellite-communication-system-after-2022-russian-hacking/
 - Summary: Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network. The post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking appeared first on SecurityWeek.
 
+### The impact of feature engineering and an optimisation framework for ocean colour machine learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19899
+- Summary: Machine learning (ML) is widely used for the development of ocean colour algorithms, but most studies focus on model parameter training and hyperparameter tuning. The optimisation of the data that feeds the models - i.e., Feature Engineering (FE) - is not fully explored. We assess the impact of FE...
+
 ### NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands
 - Source: The Hacker News
 - Category: security
@@ -1183,6 +1189,12 @@
 - URL: https://tldr.takara.ai/p/2608.19583
 - Summary: Recent studies suggest that video generation models can exhibit certain forms of zero-shot visual reasoning through generated frames. Yet reliable evaluation remains challenging: benchmarks should adopt inputs aligned with the visual priors of current video models, require valid evolving processes...
 
+### Enforcing LLM Safety through DMD-based Classification of Prompt-Response Embedding Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19579
+- Summary: Large Language Models (LLMs) are increasingly deployed in high-stakes applications, yet their tendency to generate toxic, harmful, or policy-violating content poses significant risks. Detecting these unsafe outputs efficiently in a black-box manner remains an open challenge. In this paper, we...
+
 ### DraftFM: A FoundationModel for Day-Zero Drafting in Magic: The Gathering
 - Source: HF Daily Papers
 - Category: open-source
@@ -1442,6 +1454,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/
 - Summary: The flaws can be exploited for remote code execution, authentication bypass, and device takeover. The post CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities appeared first on SecurityWeek.
+
+### Readable, Faithful, Used: Three Dissociable Properties of Demographic Identity in a Language Model
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18768
+- Summary: Large language models are widely used to simulate survey respondents, yet their answers are homogeneous and unfaithful to real inter-group differences. We ask where demographic group identity lives inside an LLM, how faithfully its geometry mirrors real inter-group opinion structure, and whether it...
 
 ### Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning
 - Source: HF Daily Papers
@@ -2562,6 +2580,12 @@
 - URL: https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
 - Summary: A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS...
 
+### Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16889
+- Summary: Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next....
+
 ### Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic
 - Source: The Hacker News
 - Category: security
@@ -2993,28 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.13566
 - Summary: arXiv:2608.13566v1 Announce Type: new Abstract: Post-training papers, model cards, and blog posts often treat scores on a small set of coding benchmarks (e.g., SWE-bench and LiveCodeBench) as evidence of broad coding capability, both for research artifacts and user-facing systems. We argue that...
-
-### Robust XGBoosting for Regression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13590
-- Summary: arXiv:2608.13590v1 Announce Type: new Abstract: XGBoost is a very popular and powerful method for prediction. It iteratively fits simple decision trees to the residuals of the previous step. An efficient and scalable implementation is available. The standard loss function for XGBoost is the...
-
-### Training-Free Knowledge Transfer Across Model Scales through Activation-Guided Pruning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13596
-- Summary: arXiv:2608.13596v1 Announce Type: new Abstract: Heterogeneous model fusion seeks to combine models that differ in tasks, initializations, architectures, or scales. We study an underexplored cross-scale setting: improving a small recipient language model with a stronger donor despite substantial...
-
-### Hard Cases, Bad Labels: Testing Error Exposure and Error Location in Uncertainty Sampling Under Bounded Label Noise
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.13601
-- Summary: arXiv:2608.13601v1 Announce Type: new Abstract: Active learning can reduce labeling cost by selecting informative examples, but the most uncertain examples may also be the hardest to label correctly. This study tests whether uncertainty sampling fails because it acquires more corrupted labels or...
-
-### Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.13568
-- Summary: arXiv:2608.13568v1 Announce Type: new Abstract: Coding agents spend most of their context budget on retrieval. Lexical retrieval (grep) is universal, instant, and zero-setup, but noisy: it cannot tell a definition from a call from a comment. Semantic retrieval via the Language Server Protocol (LSP)...
 
