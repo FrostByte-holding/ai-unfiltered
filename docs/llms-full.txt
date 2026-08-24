@@ -6,6 +6,24 @@
 
 ## 2026-08-24
 
+### INC20000173
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/mhntf8gmn065
+- Summary: Aug 24, 16:22 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 1 hour.Customer experience: Customers hosted in the specified regions may be unable to access or use Snowflake services and features using Snowsight.Workaround:...
+
+### Actions delays in starting runs
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/lyppgxbq1nyk
+- Summary: Aug 24, 14:34 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 24, 14:26 UTC Monitoring - The degradation affecting Actions has been mitigated. We...
+
+### How to encourage smarter AI use in the classroom
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/
+- Summary: This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones...
+
 ### Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts
 - Source: Security Week
 - Category: security
@@ -362,6 +380,12 @@
 - Category: security
 - URL: https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/
 - Summary: Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment. The post Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini appeared first on SecurityWeek.
+
+### Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.21156
+- Summary: LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize external tools...
 
 ### New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets
 - Source: Security Week
@@ -1126,6 +1150,12 @@
 - URL: https://tldr.takara.ai/p/2608.19838
 - Summary: Spec Driven Development SDD has consolidated the idea that the specification rather than the code should be the primary artefact governing AI assisted work. Tools such as GitHub Spec Kit, and proposals such as Constitutional SDD, have formalised this principle in the software domain, while the...
 
+### FAR-DPO: Feasibility-Aware and Robust Direct Preference Optimization for Cyclic Peptide Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19808
+- Summary: Cyclic peptides are emerging as promising molecular scaffolds in drug discovery due to their high binding affinity and structural stability. However, extending generative models from linear to cyclic peptide design remains challenging, as cyclization sharply restricts the feasible design space...
+
 ### Support networks aim to help kids through the polycrisis
 - Source: MIT Tech Review AI
 - Category: research
@@ -1167,6 +1197,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.19804
 - Summary: Buildings account for roughly one-third of global energy consumption and CO$_2$ emissions. Optimizing indoor climate systems plays a critical role for urban climate mitigation aligned with UN Sustainable Development Goals 11 and 13. However, indoor delayed thermodynamic responses and partial...
+
+### Stopping and Routing LLM Judge Panels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.19802
+- Summary: LLM evaluation pipelines often have many candidate judges: general LLM-as-a-judge prompts, reward models, safety classifiers, confidence variants, and task-specific verifiers. The deployment question is not only which judge is best, but which judges should be called, on which examples, and when...
 
 ### SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?
 - Source: HF Daily Papers
@@ -2984,40 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.16645
 - Summary: Can a language model recover the true research idea of a published paper when given only that paper's pre-publication bibliography? We introduce Reconstruction, a blind idea-recovery benchmark that withholds the seed paper and all contemporaneous or future literature, and asks models to propose...
-
-### Cost Scales with Change, Not Corpus Size: Incrementally Maintaining an Evolving Semantic Substrate
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16621
-- Summary: Retrieval-augmented and agentic question-answering systems increasingly re-derive the meaning of a corpus at query time. Put plainly, instead of re-deriving what a corpus means on every question, the work is done once when a document arrives and is thereafter merely consulted -- a compiler, not an...
-
-### 680,000 Impacted by French Tax Authority Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/
-- Summary: Hackers used compromised credentials to access enterprise and personal tax-related data. The post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.
-
-### Towards Zero-Shot Domain Generalization for ID Cards Presentation Attack Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16591
-- Summary: Presentation-Attack Detection (PAD) for national ID cards is limited by the lack of publicly available genuine samples, making it difficult for systems to generalize across countries. This paper introduces two main innovations: (1) a Prototypical Network head using an EfficientNet-V2-b0 backbone...
-
-### Ultra: Unsupervised Cross-Task Optimization for Reliable Restoration Segmentation Collaboration under Adverse Weather
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16589
-- Summary: Unsupervised Domain Adaptation for Adverse Weather Semantic Segmentation (UDA-ASS) aims to transfer semantic knowledge from labeled normal-weather images to unlabeled adverse environments. Existing approaches implicitly assume that restoration and segmentation provide mutually beneficial guidance....
-
-### ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-- Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was...
-
-### Data-Driven Reconstruction of Spatially Resolved Electron and Ion Energy Distributions from Macroscopic Plasma Quantities with Deep Neural Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16519
-- Summary: Spatially resolved EEDFs/IEDFs provide essential kinetic information about low-temperature plasmas (LTPs) and play a central role in determining transport, chemical reaction rates, and plasma surface interactions. While kinetic simulations directly resolve these distributions, experimental...
 
