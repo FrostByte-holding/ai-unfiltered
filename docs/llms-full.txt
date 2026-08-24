@@ -6,6 +6,66 @@
 
 ## 2026-08-24
 
+### Elevated errors for multiple models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vgz5psbjmt1h
+- Summary: Aug 24, 08:30 UTC Resolved - This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5. Aug 24, 07:47 UTC Update - At this time, we have seen errors stabilize on Opus 5 and...
+
+### At WRC 2026, UBTECH Pivots From Shipment Counts to Repeat Orders
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ubtech-wrc-2026-pivots-shipment-counts-repeat-orders-aug2026
+- Summary: At the World Robot Conference in Beijing, UBTECH is reframing its story around revenue and repeat purchases rather than shipment numbers, as China's first humanoid-robot stock pushes across industrial, commercial and consumer scenes.
+
+### Anonymous AI Model 'Ox Alpha' Crushes Coding Benchmarks, Sparking a Cross-Country Guessing Game
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/anonymous-ai-model-ox-alpha-crushes-coding-benchmarks-aug2026
+- Summary: On August 20, OpenRouter quietly listed stealth/ox-alpha, an anonymous, free model whose real-world coding results beat several closed frontier models, triggering an industry guessing game and spotlighting China's stealth-model strategy.
+
+### iKang and Huawei Cloud Launch AI Agent for Enterprise Health Management
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ikang-huawei-cloud-launch-ai-agent-enterprise-health-management-aug2026
+- Summary: On August 21, iKang Group and Huawei Cloud jointly launched an AI health management agent that extends AI to corporate employee health, covering data, personalized plans, ongoing intervention, monitoring and risk alerts.
+
+### Honor's Humanoid Robot 'Lightning' Runs 400m in 40.6 Seconds, Beating the Human World Record
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/honor-robot-lightning-beats-human-400m-world-record-aug2026
+- Summary: At the World Humanoid Robot Games in Beijing, Honor's self-developed robot Lightning ran 400m in 40.6 seconds, beating the 43.03s human men's world record set by Wayde van Niekerk at the 2016 Rio Olympics.
+
+### Xiaomi Unveils Xuanjie O3, First Flagship SoC to Break 5 Million Points
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaomi-unveils-xuanjie-o3-first-flagship-soc-break-5-million-aug2026
+- Summary: Xiaomi's new Xuanjie O3 AI flagship SoC scores 5.22 million on AnTuTu, the first flagship chip to pass 5 million, with a ten-core CPU, 16-core GPU and a rebuilt NPU built for on-device MiMo models.
+
+### UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
+- Summary: Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China,...
+
+### Elevated errors on Fable 5 due to upstream provider
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/wt3hjqcrczfg
+- Summary: Aug 24, 07:58 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 24, 07:12 UTC Update - We are experiencing degraded availability for the Fable model...
+
+### Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/
+- Summary: Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek.
+
+### Increased HTTP 5xx Errors in Chicago
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/9v68b4k90mry
+- Summary: Aug 24, 06:53 UTCResolved - This incident has been resolved.Aug 24, 05:47 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 5xx errors in Chicago. We are working to analyze and mitigate this problem. More updates to follow shortly.
+
 ### SDAD: Spec-Driven Agentic Development for the AI-Native SDLC
 - Source: arXiv AI
 - Category: research
@@ -248,6 +308,12 @@
 - Category: security
 - URL: https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/
 - Summary: Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked. The post New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets appeared first on SecurityWeek.
+
+### Degraded Git Operations over SSH
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/wms44hv62t3p
+- Summary: Aug 21, 14:00 UTC Resolved - On August 21, 2026, between 14:00 and 14:07 UTC, dotcom Git operations over SSH were degraded. Successful Git operations over SSH fell by more than 95% for during the peak impact window, making clone, fetch, or push over SSH effectively unavailable to most users for...
 
 ### Critical Isolated-vm Vulnerability Leads to RCE on Host
 - Source: Security Week
@@ -1324,6 +1390,12 @@
 - URL: https://tldr.takara.ai/p/2608.19579
 - Summary: Large Language Models (LLMs) are increasingly deployed in high-stakes applications, yet their tendency to generate toxic, harmful, or policy-violating content poses significant risks. Detecting these unsafe outputs efficiently in a black-box manner remains an open challenge. In this paper, we...
 
+### ProofJudge: Tool-Grounded LLM Evaluation of Formal Proof Quality in Mathlib
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.20432
+- Summary: Formal proofs in Lean 4 that pass the kernel's type checker can nonetheless vary widely in quality. We introduce ProofJudge, an agentic LLM-as-judge system that scores formal proof quality along five dimensions beyond correctness: library leverage, automation fit, structural clarity, statement...
+
 ### DraftFM: A FoundationModel for Day-Zero Drafting in Magic: The Gathering
 - Source: HF Daily Papers
 - Category: open-source
@@ -1995,6 +2067,12 @@
 - URL: https://tldr.takara.ai/p/2608.18311
 - Summary: Federated multimodal models often assume every site has every modality, although hospitals differ in access to EHRs, chest radiographs, and ECGs. We study this setting on a MIMIC-derived respiratory deterioration task with simulated FL clients and introduce FedCoRe (Federated Cross-Modal...
 
+### A Comprehensive Review of Large Language Models for Nanophotonics: From Surrogate Modeling to Autonomous Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.18279
+- Summary: Metasurfaces have revolutionized the development of photonic devices by enabling unprecedented precision in light manipulation. However, their design processes are often constrained by computationally expensive simulations and complex high-dimensional design spaces. Although deep learning has...
+
 ### Elevated errors deploying Sites
 - Source: OpenAI Status
 - Category: incidents
@@ -2065,6 +2143,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.17987
 - Summary: The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation,...
+
+### When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.17979
+- Summary: Authorship verification (AV) assumes that an author's writing style remains sufficiently stable to distinguish it from that of other writers. In practice, however, this assumption is challenged by distribution shifts caused by changes in genre, time, and AI-assisted writing. Existing AV benchmarks...
 
 ### Degraded performance for multiple models
 - Source: Anthropic Status
@@ -2775,6 +2859,12 @@
 - URL: https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens
 - Summary: Nvidia wants you building your own model, not buying from Anthropic/OpenAI.
 
+### Concept-based explanation of gene expression prediction from H&E images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16669
+- Summary: Recent advances in pathology foundation models have enabled accurate prediction of spatial transcriptomics (ST) from routine H&amp;E images. However, existing explainability methods for vision transformer (ViT)-based models are largely limited to local heatmaps and do not reveal how morphological...
+
 ### Chronocooked: A Benchmark for Implicit Interval Timing in Reinforcement Learning Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -2895,6 +2985,12 @@
 - URL: https://tldr.takara.ai/p/2608.16447
 - Summary: Long-horizon embodied tasks require LLM agents to iteratively decompose high-level goals, revise plans in response to environmental feedback, and ground leaf-level subgoals into valid executable actions. Recursive context-management methods such as ReCAP improve planning stability through...
 
+### Joint Flow Matching Enables Continuous Dose-Conditioned Cell Morphing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.16424
+- Summary: Generative modeling has shown increasing promise for predicting cellular perturbation effects under chemical compound treatments. Existing approaches either model perturbation as a distribution-to-distribution mapping without explicit concentration handling, or treat concentration as a discrete...
+
 ### Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware
 - Source: Security Week
 - Category: security
@@ -2924,100 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.16344
 - Summary: Indic quality estimation (QE) and automatic post-editing (APE) data is spread across separate releases, so no single resource supports training and evaluation across tasks and language pairs on one footing. We consolidate the WMT 2020--2024 shared-task lineage with an extended English--Malayalam...
-
-### Step-Level On-Policy Distillation: Interpolating Between On-Policy Distillation and Supervised Fine-Tuning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16333
-- Summary: On-policy distillation (OPD) aligns a student model with a teacher's logit distribution on student-generated trajectories. This approach has achieved strong empirical gains and can often surpass conventional off-policy distillation with substantially less data. However, standard token-level OPD can...
-
-### 40,000 Impacted by SafePal Data Breach
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/40000-impacted-by-safepal-data-breach/
-- Summary: Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information. The post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek.
-
-### Unlocking Motion in Expressions: Temporal Calibration for Referring Video Object Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16332
-- Summary: Referring Video Object Segmentation (RVOS) aims to segment referred objects at the pixel level in video sequences based on natural language descriptions. Existing methods typically introduce motion information within a unified cross-modal temporal modeling framework, where language cues are used...
-
-### Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html
-- Summary: Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies. "While the malware reuses the DDoS engine from the publicly...
-
-### How much hydrogen awaits us underground?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/
-- Summary: In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of geochemists found water that had been confined underground for more than a billion years. This ancient brine...
-
-### What happens when a kid’s robot best friend dies?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/
-- Summary: When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each...
-
-### Peking University and StepFun Unveil TensorCast: A Programmable Tensor Management Layer That Cuts LLM Time-to-First-Token by Up to 93.2%
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tensorcast-pku-stepfun-bupt-tensor-management-llm-ttft-93-percent-aug2026
-- Summary: Peking University, StepFun, and Beijing University of Posts and Telecommunications propose TensorCast, a unified programmable tensor lifecycle management abstraction for large model infrastructure. In high-concurrency multi-turn agent scenarios, median time-to-first-token drops up to 93.2%, and...
-
-### Huawei Open-Sources AscendNPU IR, the Core of the BiSheng Compiler: Triton and Multi-Language Support for Ascend 950
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-ascendnpu-ir-open-source-bisheng-compiler-triton-ascend-950-aug2026
-- Summary: At the Meet AI Compiler salon hosted by HyperAI, Huawei AscendNPU IR architect Hai Lijuan detailed the open-sourced compiler foundation: an MLIR-based tile-level abstraction for Ascend hardware that connects LLVM IR, supports Triton and other front-end languages, and extends to the new Ascend 950...
-
-### Zhuzhou Builds China's 'Beidou City': From Zero to Batch Satellite Delivery in Four Years
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhuzhou-beidou-satellite-industry-cluster-xr-11-satellite-sar-constellation-aug2026
-- Summary: Zhuzhou, Hunan, has built a complete Beidou satellite industry chain from scratch in four years: 187 cluster companies, China's first fully domestic pulsating micro-satellite smart production line, and the country's largest SAR constellation with 8 satellites in orbit. The cluster reached 22.96...
-
-### TransAnyText: Translating Arbitrary Text in E-commerce Images via Structured Visual Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16284
-- Summary: Cross-border e-commerce image translation is essential for global retail, where product images, banners, and detail pages need to be produced in different languages. Existing methods struggle to achieve accurate translation, faithful visual identity preservation, and easy-to-edit outputs,...
-
-### Recent macOS Screen Sharing Vulnerability Exploited in Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
-- Summary: Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.
-
-### Optimizing Multi-Market Participation of Battery and Electrolyser Systems Based on Field Performance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16238
-- Summary: The increasing share of renewable energy in power systems creates a need for fast-response and flexible resources to maintain system stability. With the expansion of electricity markets and ancillary service products, opportunities arise to stack revenues across multiple services. Long-term...
-
-### Software Engineering for AI-driven Building Operation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16237
-- Summary: Building operations are energy-inefficient. Artificial Intelligence (AI)-driven control systems promise benefits through optimization and predictive control, but deploying them in real buildings reveals a significant software engineering (SE) challenge. SE for AI practices assume digital...
-
-### Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
-- Summary: The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek.
-
-### Increased Errors for Durable Objects
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/w1d9976ls02m
-- Summary: Aug 17, 07:47 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.
-
-### Quantifying the Gap Between Laboratory Battery Test Patterns and Field Duty Profiles
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.16212
-- Summary: Laboratory battery tests provide the main empirical basis for battery performance and degradation studies, but their operating patterns do not directly represent field duty profiles. This paper quantifies the gap by comparing six accessible evidence sources covering controlled cycling, drive-cycle...
 
