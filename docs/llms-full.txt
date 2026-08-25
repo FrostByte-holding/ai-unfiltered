@@ -318,6 +318,12 @@
 - URL: https://tldr.takara.ai/p/2608.23417
 - Summary: Agent skills are reusable procedural artifacts that extend language agents with specialized workflows, tool conventions, and domain behaviors at inference time. However, creating reliable skills still depends largely on human authorship, model priors, or execution traces. These sources are often...
 
+### Cross-Domain, Multi-Task Data-to-Text Generation without In-Domain Training Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23391
+- Summary: Structured data exists in many forms (tables, knowledge graphs, charts, and time series), and converting it into text may involve different generation tasks. However, most prior work on data-to-text (D2T) generation has focused on specific tasks and datasets, relying either on task-specific...
+
 ### FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations
 - Source: HF Daily Papers
 - Category: open-source
@@ -348,6 +354,12 @@
 - URL: https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html
 - Summary: A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper, and researchers keep finding attacks that sound harder...
 
+### Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23311
+- Summary: Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL regularizer. This puts practitioners in a double bind: keeping Policy-KL constrains response behavior and consumes the action-side exploration budget, while...
+
 ### Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction
 - Source: HF Daily Papers
 - Category: open-source
@@ -365,6 +377,18 @@
 - Category: security
 - URL: https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/
 - Summary: The skills that get a CISO hired are rarely the skills they are judged on later. Most security leaders are stuck in that gap. Closing it is the real job. The post Hired for One Job, Judged on Another: The CISO’s Real Problem appeared first on SecurityWeek.
+
+### SGHA: A Single-Loop Fully First-Order Algorithm for Nonconvex-Strongly-Convex Bilevel Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23211
+- Summary: In this work, we study the oracle complexity of finding an $ε$-stationary point for nonconvex-strongly-convex (NC-SC) bilevel optimization using only first-order oracles. Existing methods achieving the best-known complexity guarantees typically rely on double-loop, penalty-based procedures. We...
+
+### LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23200
+- Summary: Large language models are increasingly expected to execute complex workflows whose success depends on maintaining interdependent constraints and producing artifacts that satisfy strict end-to-end verification. Yet successful execution experience is typically lost after a single run, forcing...
 
 ### Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts
 - Source: Security Week
@@ -551,6 +575,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/9v68b4k90mry
 - Summary: Aug 24, 06:53 UTCResolved - This incident has been resolved.Aug 24, 05:47 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 5xx errors in Chicago. We are working to analyze and mitigate this problem. More updates to follow shortly.
+
+### Direct, Parallel, or Sequential? A Comparative Study of Training-Free Multi-Subject Image-to-Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.22819
+- Summary: Text-conditioned image-to-video (I2V) generation has advanced rapidly, yet generating videos with multiple subjects remains challenging. A model must simultaneously preserve the appearance of each subject, assign distinct motions, and maintain coherent spatial and temporal interactions. This paper...
 
 ### SDAD: Spec-Driven Agentic Development for the AI-Native SDLC
 - Source: arXiv AI
@@ -2988,34 +3018,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html
 - Summary: A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco. The activity, which Reco has named the City Forum campaign after a...
-
-### 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/
-- Summary: Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files. The post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek.
-
-### From Student Risk Prediction to SC2R: Semantics-Constrained Counterfactual Recourse for Educational Decision Support
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.17618
-- Summary: Learning analytics models can identify students at risk of poor performance, but they do not directly indicate which interventions are feasible, actionable, and compatible with educational constraints. This paper introduces SC2R, a semantics-constrained counterfactual recourse framework for...
-
-### Incident with Actions
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/gx7js8bd0jpz
-- Summary: Aug 18, 10:23 UTC Resolved - This incident was posted in error. GitHub Actions workflows were not impacted, and we have confirmed that workflow runs continued to operate normally throughout this period. Aug 18, 09:36 UTC Investigating - We are investigating reports of impacted performance for some...
-
-### We still don’t know how people are really using AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/
-- Summary: AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say.&#160; “There is no independent source to corroborate it,” says Anka Reuel, a Computer Science PhD...
-
-### CoinVE-200K: A Large-Scale High-Quality Dataset for Compositional Instruction-Guided Video Editing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.17566
-- Summary: The quality and diversity of instruction-based video editing datasets are steadily improving, yet existing datasets mainly focus on single editing operations and fall short in supporting compositional instruction-guided video editing. In particular, multiple editing intents must be jointly...
 
