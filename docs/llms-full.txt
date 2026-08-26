@@ -6,6 +6,18 @@
 
 ## 2026-08-26
 
+### Durable Objects and Downstream Service Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/rzc0p0rk680b
+- Summary: Aug 26, 20:50 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 26, 20:08 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in ENAM region. We are working to analyze and mitigate this...
+
+### Intelligent transcription with Gemini 3.5 Transcribe
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
+- Summary: Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.
+
 ### The Future of SaaS Is Apps That Agents Can Use
 - Source: Latent Space
 - Category: open-source
@@ -356,6 +368,12 @@
 - URL: https://www.securityweek.com/linux-foundation-to-govern-trace-an-open-standard-for-ai-runtime-attestation/
 - Summary: TRACE was developed by AMD, Intel, Microsoft, OPAQUE, and TII and contributed to the Linux Foundation. The post Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation appeared first on SecurityWeek.
 
+### Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24780
+- Summary: Distinguishing machine-generated text (MGT) from human-written text (HWT) becomes increasingly important due to potential misuse. However, most supervised detectors often degrade out-of-domain (OOD) and require large, diverse training sets. In this work, we analyze the linearity and quality of MGT...
+
 ### RACE: Scalable Statistical Estimation of Functional Consistency in LLM Neurons
 - Source: HF Daily Papers
 - Category: open-source
@@ -433,6 +451,12 @@
 - URL: https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html
 - Summary: Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted notebook, according to VulnCheck's CVE Numbering Authority (CNA) record. The CNA record says the command...
 
+### Beyond Static Interpretability: Anticipating Post-SFT Mechanisms from Pre-SFT Parameters for Better Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24482
+- Summary: Mechanistic Localization bridges mechanistic interpretability and post-training optimization by isolating critical parameters via interpretative approaches and then guiding parameter-efficient Supervised Fine-Tuning (SFT) in a ``locating-then-tuning'' paradigm. However, due to the retrospective...
+
 ### The Download: smarter AI in schools, and a robot “carnival” in Shanghai
 - Source: MIT Tech Review AI
 - Category: research
@@ -450,6 +474,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
 - Summary: Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't...
+
+### DoublesEval: Diagnosing Multi-Agent Tactical Reasoning in Vision-Language Models via Professional Doubles Badminton
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24439
+- Summary: Visual Language Models (VLMs) excel at describing visible scene content but struggle to reason about dynamic multi-agent interactions, where action semantics depend on coordinated roles and spatial-temporal dependencies. We formalize this capability as \textbf{multi-agent tactical reasoning} and...
 
 ### Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original
 - Source: Hugging Face Blog
@@ -569,6 +599,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24103
 - Summary: Commercial design platforms increasingly edit documents through large language model (LLM) agents, but two practical problems block reliable deployment: legacy document formats expose only \emph{flat}, absolutely positioned elements, so agents must recompute coordinates and routinely break layouts;...
+
+### PARTAB: Partition-Aware Reasoning with Structured Evidence for Scalable Table Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24082
+- Summary: Large Language Models (LLMs) have shown strong capabilities in table reasoning, but their effectiveness degrades as tables grow in size and complexity due to irrelevant context and difficulty localizing the evidence required for reasoning. Existing approaches typically reason over either the full...
 
 ### Representation Learning in Diffusion and Flow-based Model: An Application Aspect
 - Source: HF Daily Papers
@@ -767,6 +803,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24041
 - Summary: Although Speech Large Language Models (SpeechLLMs) excel at speech understanding and generation, their capacity for fine-grained, temporally aligned outputs remains underexplored. Our work addresses this gap by enabling SpeechLLMs to jointly model speech content and temporal structure, effectively...
+
+### SAGE: From Direct Answering to Evidence-Grounded Inference for Chinese Ancient Document Understanding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24011
+- Summary: Chinese ancient document understanding demands complex visual, linguistic, and historical reasoning. Current Large Vision-Language Models (LVLMs) typically rely on an opaque, single-pass generation paradigm, often producing overconfident and weakly grounded responses. To address this, we propose...
 
 ### [AINews] Andrew Ng gets into AI Engineering
 - Source: Latent Space
@@ -2976,46 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.18704
 - Summary: Long-term memory is essential for agents that operate across extended interactions, yet existing memory systems and benchmarks predominantly focus on single-source textual histories. In realistic settings, however, relevant information is often fragmented across applications and devices, as well as...
-
-### Child-monitoring apps might need a reboot
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/
-- Summary: Pam Wisniewski’s digital adolescence showed her the best and the worst of the internet. At 14, she left an abusive home, where she’d been isolated in a fifth-wheel trailer at the end of a seven-­mile dirt road. She moved in with her older sister and taught herself to type on AOL Instant Messenger....
-
-### Composed Historical Image Retrieval by Modeling Temporal Representations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18694
-- Summary: While time evolves linearly, the geometry of neural embedding spaces is inherently multi-dimensional, often chaotic, and difficult to interpret. In principle, one could constrain an embedding space to a single temporal dimension; however, such a reduction would sacrifice performance on downstream...
-
-### [AINews] Memory prices up 500% in 12 months
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-memory-prices-up-500-in-12
-- Summary: the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels
-
-### Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18690
-- Summary: The European Union has committed to reducing greenhouse gas emissions 55% below 1990 levels by 2030, but whether current trends are compatible with this ambition remains uncertain. We apply deep learning to high-resolution socioeconomic and sectoral data across EU27 member states till 2023 to...
-
-### An Empirical Benchmark of Deep Time-Series Models for Smart Meter Energy Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18675
-- Summary: Accurate forecasting of energy consumption is important for the efficient operation of power systems, with direct implications for operational costs, energy management, and system maintenance. Due to the availability of extensive high-resolution consumption data from smart meters, data-driven...
-
-### DynCur-Geo: Dynamic Curiosity Reward Shaping for Multimodal Active Geo-Localization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18673
-- Summary: Active geo-localization enables low-altitude UAVs to search for specified targets from limited local aerial observations, supporting time-sensitive applications such as search and rescue and emergency inspection. However, multimodal target cues, restricted views, and sparse feedback make it...
-
-### Robot Games Preview: From Performance to Work — What Humanoid Robots Ran Through This Year
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/world-humanoid-robot-games-2026-preview-scenes-data-convergence-aug2026
-- Summary: The second World Humanoid Robot Games opens August 22 at the Ice Ribbon with 666 teams and 2,056 robots, team count up 138% and robots quadrupling. Industry figures describe machine configurations converging, core parts following, capacity and orders rising, but scenarios still unsettled and...
 

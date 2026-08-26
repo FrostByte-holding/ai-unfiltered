@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 26 Aug 2026 16:48:44 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 22:51:34 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Durable Objects and Downstream Service Errors</title>
+            <link>https://www.cloudflarestatus.com/incidents/rzc0p0rk680b</link>
+            <guid>https://www.cloudflarestatus.com/incidents/rzc0p0rk680b</guid>
+            <pubDate>Wed, 26 Aug 2026 20:50:07 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/rzc0p0rk680b">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Aug 26, 20:50 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 26, 20:08 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in ENAM region. We are working to analyze and mitigate this...</description>
+        </item>
+        <item>
+            <title>Intelligent transcription with Gemini 3.5 Transcribe</title>
+            <link>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/</link>
+            <guid>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/</guid>
+            <pubDate>Wed, 26 Aug 2026 17:01:00 +0000</pubDate>
+            <source url="https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/">DeepMind Blog</source>
+            <category>research</category>
+            <description>Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.</description>
+        </item>
         <item>
             <title>The Future of SaaS Is Apps That Agents Can Use</title>
             <link>https://www.latent.space/p/lovable-future-of-saas</link>
@@ -414,6 +432,15 @@
             <description>Traditional image similarity metrics such as Mean Squared Error (MSE), Peak Signal-to-Noise Ratio (PSNR), and the Structural Similarity Index Measure (SSIM) rely on pixel-level comparisons and often fail to capture perceptually meaningful differences between images. In contrast, latent...</description>
         </item>
         <item>
+            <title>Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text</title>
+            <link>https://tldr.takara.ai/p/2608.24780</link>
+            <guid>https://tldr.takara.ai/p/2608.24780</guid>
+            <pubDate>Tue, 25 Aug 2026 16:21:24 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2608.24780">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Distinguishing machine-generated text (MGT) from human-written text (HWT) becomes increasingly important due to potential misuse. However, most supervised detectors often degrade out-of-domain (OOD) and require large, diverse training sets. In this work, we analyze the linearity and quality of MGT...</description>
+        </item>
+        <item>
             <title>RACE: Scalable Statistical Estimation of Functional Consistency in LLM Neurons</title>
             <link>https://tldr.takara.ai/p/2608.24758</link>
             <guid>https://tldr.takara.ai/p/2608.24758</guid>
@@ -423,15 +450,6 @@
             <description>Discovering stable neuron behavior across entire domains remains a challenge in mechanistic interpretability. Existing methods often rely on instance-level point estimates or computationally expensive procedures, which either obscure population-level variability or limit scalable domain-wide...</description>
         </item>
         <item>
-            <title>SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents</title>
-            <link>https://tldr.takara.ai/p/2608.24747</link>
-            <guid>https://tldr.takara.ai/p/2608.24747</guid>
-            <pubDate>Tue, 25 Aug 2026 15:52:10 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2608.24747">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. Recent skill-based approaches, such as SkillRL, attempt to address this issue...</description>
-        </item>
-        <item>
             <title>Granite 4.2 LLMs: How They&#x27;re Built</title>
             <link>https://huggingface.co/blog/ibm-granite/granite-4-2</link>
             <guid>https://huggingface.co/blog/ibm-granite/granite-4-2</guid>
@@ -439,24 +457,6 @@
             <source url="https://huggingface.co/blog/ibm-granite/granite-4-2">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original</title>
-            <link>https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing</link>
-            <guid>https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing</guid>
-            <pubDate>Tue, 25 Aug 2026 11:39:24 +0000</pubDate>
-            <source url="https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>INC20000175</title>
-            <link>https://status.snowflake.com/incidents/3s0hdzy30jww</link>
-            <guid>https://status.snowflake.com/incidents/3s0hdzy30jww</guid>
-            <pubDate>Tue, 25 Aug 2026 04:35:23 +0000</pubDate>
-            <source url="https://status.snowflake.com/incidents/3s0hdzy30jww">Snowflake Status</source>
-            <category>incidents</category>
-            <description>Aug 25, 04:35 UTC Resolved - Current status: We&#x27;ve implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...</description>
         </item>
     </channel>
 </rss>
