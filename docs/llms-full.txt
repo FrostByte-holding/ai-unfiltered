@@ -6,6 +6,36 @@
 
 ## 2026-08-26
 
+### The Future of SaaS Is Apps That Agents Can Use
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/lovable-future-of-saas
+- Summary: Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin.
+
+### Incident with Actions
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/y1t7p9fzrlj2
+- Summary: Aug 26, 16:14 UTC Update - We believe we've identified and addressed the issue and are ramping traffic back up slowly to ensure it doesn't recur. Some customers will continue to see delays as we ramp up. Aug 26, 15:48 UTC Update - primary failover briefly improved performance but did not fully...
+
+### Disruption with some GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/hcbtzksccj2f
+- Summary: Aug 26, 16:07 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 26, 15:09 UTC Investigating - We are investigating reports of impacted performance...
+
+### Cloudflare MCP Portal tool invocation logging instability
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/gjw0tnhh4f3f
+- Summary: Aug 26, 15:38 UTCResolved - This incident has been resolved.Aug 26, 15:28 UTCMonitoring - After further investigation it was determined that the issue was isolated to internal accounts. There was no customer facing impact.Aug 26, 14:59 UTCInvestigating - Cloudflare engineering is investigating an...
+
+### 🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/anima
+- Summary: Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.
+
 ### Adobe and Nvidia Patch Dozens of Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -234,6 +264,11 @@
 - URL: https://pandaily.com/wrc-2026-embodied-ai-data-factories-data-race-aug2026
 - Summary: As China builds scores of embodied-intelligence data centers, this year's World Robot Conference showed an industry reorienting from building robot bodies to harvesting the data that trains their brains.
 
+### Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/train-multi-vector-encoder
+
 
 ## 2026-08-25
 
@@ -297,11 +332,23 @@
 - URL: https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html
 - Summary: The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an "unprecedented, whole-of-government, economic campaign" against the nation and its enablers. "We are launching an economic onslaught against Iran's financial connections around the...
 
+### BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24848
+- Summary: Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets...
+
 ### LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24845
 - Summary: We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-training across the...
+
+### Image Difference Quantification Using Autoencoder-Based Latent Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24782
+- Summary: Traditional image similarity metrics such as Mean Squared Error (MSE), Peak Signal-to-Noise Ratio (PSNR), and the Structural Similarity Index Measure (SSIM) rely on pixel-level comparisons and often fail to capture perceptually meaningful differences between images. In contrast, latent...
 
 ### Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation
 - Source: Security Week
@@ -314,6 +361,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24758
 - Summary: Discovering stable neuron behavior across entire domains remains a challenge in mechanistic interpretability. Existing methods often rely on instance-level point estimates or computationally expensive procedures, which either obscure population-level variability or limit scalable domain-wide...
+
+### SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24747
+- Summary: Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumulate reusable knowledge across episodes. Recent skill-based approaches, such as SkillRL, attempt to address this issue...
 
 ### $(\text{DNN})^2$: Doubly Non-Negative Relaxations for Deep Neural Networks
 - Source: HF Daily Papers
@@ -433,6 +486,12 @@
 - URL: https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/
 - Summary: Silent patches can become exploit intelligence for attackers while leaving defenders without the context needed to prioritize risk. The post Silent Patches Don’t Stop Attackers &#8211; They Blind Defenders appeared first on SecurityWeek.
 
+### RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24275
+- Summary: Safeguarding language model agents requires assessing complete execution trajectories under context-dependent safety policies. Existing policy-aware safeguards mainly rely on prompting or supervised fine-tuning, limiting their ability to adapt to unseen trajectories and changing policy contexts. We...
+
 ### Welcome to the spiderverse, a world measured through webs
 - Source: MIT Tech Review AI
 - Category: research
@@ -504,6 +563,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as...
+
+### ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24103
+- Summary: Commercial design platforms increasingly edit documents through large language model (LLM) agents, but two practical problems block reliable deployment: legacy document formats expose only \emph{flat}, absolutely positioned elements, so agents must recompute coordinates and routinely break layouts;...
 
 ### Representation Learning in Diffusion and Flow-based Model: An Application Aspect
 - Source: HF Daily Papers
@@ -2953,70 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/world-humanoid-robot-games-2026-preview-scenes-data-convergence-aug2026
 - Summary: The second World Humanoid Robot Games opens August 22 at the Ice Ribbon with 666 teams and 2,056 robots, team count up 138% and robots quadrupling. Industry figures describe machine configurations converging, core parts following, capacity and orders rising, but scenarios still unsettled and...
-
-### Why Chinese Database OceanBase Is Being Measured Against a Hundred-Billion-Dollar Databricks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/oceanbase-china-databricks-ai-data-platform-valuation-comparison-aug2026
-- Summary: After Databricks raised $5 billion at a $190 billion valuation, Bloomberg has called OceanBase 'China's Databricks.' The two come from opposite ends, lake and database, but converge on the same destination: AI data platforms. OceanBase's CTO sums it up as different roads, same destination, as the...
-
-### 5G Private Networks at an Inflection Point: Omdia Says Niche Growth, AI and Sovereignty Are Keys, Challenges Remain
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/omdia-5g-private-network-inflection-point-report-2026-challenges-niche-aug2026
-- Summary: Omdia's 2026 end-to-end 5G private network vendor radar finds the market at a turning point: some operators held unrealistic expectations and failed to deliver, while innovation continues. The market will stay a niche opportunity expanding in ports, airports, mines, utilities, and large factories —...
-
-### Bambu Lab Enters Laser Engraving: 100-Person Team Develops R1, Aimed at High Cost-Performance
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bambu-lab-r1-laser-engraver-consumer-launch-september-100-person-team-aug2026
-- Summary: 3D printing leader Bambu Lab announced its R1 product for September under the slogan 'a spark of light from ten thousand imaginations,' entering consumer laser equipment by replicating its consumer 3D printing playbook. The R1 is positioned for the C-end market targeting high cost-performance,...
-
-### WRC 2026 Opens: 34 Guangdong Companies March In, Showcasing a Complete Robot Supply Chain
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/wrc-2026-opens-guangdong-34-companies-full-chain-robotics-supply-aug2026
-- Summary: The 11th World Robot Conference opened August 19 at Beijing E-Town with over 300 exhibitors, 150-plus new releases, and a first-ever procurement day. Guangdong sent 34 companies spanning the full robot supply chain, from EVE Energy batteries and ORBBEC 3D vision to UBTECH and LimX Dynamics full...
-
-### Chrome, Firefox Updates Patch Dozens of Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/
-- Summary: The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure. The post Chrome, Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.
-
-### TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18655
-- Summary: The rapid progress in Artificial Intelligence has largely bypassed African languages, creating a digital divide that limits AI adoption on the continent. Recent open-source LLMs systematically underperform on African machine translation, while the lack of large-scale, high-quality, open-source...
-
-### Increased Errors for Durable Objects in the Hong Kong region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/mlr8smgngv5h
-- Summary: Aug 19, 07:20 UTCResolved - This incident has been resolved.Aug 19, 07:06 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 19, 06:59 UTCInvestigating - Cloudflare is aware of, and investigating an issue with Durable Objects and related products which potentially...
-
-### CareCloud Data Breach Impact Grows to 3.7 Million Individuals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
-- Summary: The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek.
-
-### SPARC: Subspace Position-Aware Robust Few-Shot Calibration for Distribution-Shifted Industrial Anomaly Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18585
-- Summary: Vision-based industrial anomaly detectors are calibrated on one distribution but may be deployed on another that differs in illumination, fixture placement, or sensor characteristics, sharply degrading an otherwise accurate detector. Adapting to the incoming lot is a natural response, but labeled...
-
-### Beyond receptive fields: sequence-pooled normalization can supply most of a sequence labeler's context
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18576
-- Summary: A convolutional sequence labeler's receptive field is routinely treated as the extent of the model's usable context: it sets dilation schedules, bounds streaming horizons, and underwrites locality claims. However, we show that this can be false: when a normalization layer computes statistics from...
-
-### NanoSleep: A Parameter-Efficient Hybrid Temporal Convolutional Network for Single-Channel Sleep Stage Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.18571
-- Summary: Sleep stage classification from single-channel electroencephalography (EEG) is essential for wearable and home-based sleep monitoring. However, many deep learning models achieve high accuracy at the cost of large model sizes, which limits their deployment on resource-constrained devices. In this...
 
