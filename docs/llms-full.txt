@@ -1014,6 +1014,12 @@
 - URL: https://pandaily.com/xiaomi-xuanjie-chips-ai-phone-definition
 - Summary: At its Xuanjie briefing, Xiaomi unveiled three on-device AI chips — O3, O100 and D100 — yet stopped short of saying what makes a phone an AI phone.
 
+### Gaussian Splatting Underwater: A Controlled Cross-Regime Study
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.25483
+- Summary: The underwater environment is challenging for 3D reconstruction, because particles suspended in the water scatter and diffuse light, turbidity varies, absorption depends on wavelength, and illumination is rarely uniform. Methods based on Gaussian splatting have generally been developed for...
+
 ### Sensitive Information Exposed in Nutex Health Data Breach
 - Source: Security Week
 - Category: security
@@ -1304,6 +1310,12 @@
 - URL: https://tldr.takara.ai/p/2608.24743
 - Summary: Existing linear program (LP) and semidefinite program (SDP) relaxations for rectified linear unit (ReLU) neural network (NN) verification yield overly-conservative safety guarantees due to significant relaxation gaps. While the completely positive program (CPP) formulation closes this gap, it is...
 
+### TorchMorph: CUDA-accelerated Morphological Transforms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24738
+- Summary: Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementation in the Python ecosystem, i.e. scipy.ndimage, is CPU-only, single-array, and therefore unusable inside a GPU training loop without an expensive device-to-host round trip. GPU...
+
 ### Granite 4.2 LLMs: How They're Built
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1451,6 +1463,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24275
 - Summary: Safeguarding language model agents requires assessing complete execution trajectories under context-dependent safety policies. Existing policy-aware safeguards mainly rely on prompting or supervised fine-tuning, limiting their ability to adapt to unseen trajectories and changing policy contexts. We...
+
+### Matched Excess-Outranker Regularization for Candidate-Set Interference in Continual Knowledge Graph Embedding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24273
+- Summary: Continual knowledge graph embedding updates entity and relation representations as a graph grows. Existing methods primarily address catastrophic forgetting, but entity admission also changes the candidate universe of every compatible query. A historical answer can therefore lose rank even when its...
 
 ### Welcome to the spiderverse, a world measured through webs
 - Source: MIT Tech Review AI
@@ -2372,6 +2390,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/ksy4vxmbkfdk
 - Summary: Aug 24, 03:53 UTCInvestigating - Some DOs and D1 databases may be experiencing issues in Hong Kong and Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.
 
+### XTC: Head-Aware Sampling by Excluding Top Choices
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.22758
+- Summary: Standard decoding rules for autoregressive language models promote diversity by rescaling the full next-token distribution or truncating its low-probability tail. These strategies overlook a common regime of open-ended generation in which several continuations are plausible but too much probability...
+
 ### LLM-Based Selection of Incongruent Verbal and Nonverbal Behavior for Virtual Humans
 - Source: HF Daily Papers
 - Category: open-source
@@ -2443,6 +2467,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
 - Summary: The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an...
+
+### Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.21914
+- Summary: We align three upper ontologies that sit under UK and NATO defence data infrastructure: the Information Exchange Standard (IES), the Higher Quality Data Model (HQDM) that underpins the National Digital Twin, and Basic Formal Ontology (BFO). No public alignment between IES and HQDM existed....
 
 ### Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight
 - Source: Security Week
@@ -2992,34 +3022,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/LiquidAI/lfm25-dspark
-
-### Intermittent failures creating agent tasks
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/bhbcjn4n3jzp
-- Summary: Aug 20, 16:14 UTC Update - Users are experiencing delays when starting tasks using Copilot Cloud Agent and are not be able to see the status of these tasks. Copilot Cloud Agent tasks are still being completed. We have identified the cause of the issue and are putting mitigations in place to return...
-
-### Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20210
-- Summary: Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18...
-
-### RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20208
-- Summary: Offline reinforcement learning improves robotic policies using previously collected data without further environment interaction. Yet prevalent diffusion- and flow-matching robot policies lack tractable likelihoods, limiting their use in likelihood-based offline RL post-training. AR-NFs offer both...
-
-### ContractScrub: A benchmark for final review of legal contracts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20204
-- Summary: Legal work, with its heavy reliance on processing large amounts of text, is often considered one of the domains most exposed to the use of LLMs. Contract ``scrubbing,'' the final review of transactional agreements for errors and inconsistencies, is a particularly suitable task for automation,...
-
-### MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20202
-- Summary: Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved...
 
