@@ -6,6 +6,18 @@
 
 ## 2026-08-29
 
+### Network Issues in Montréal
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/z557s71pzcj1
+- Summary: Aug 29, 17:33 UTCResolved - Customers may have observed issues for traffic handled by our Montréal facility between approximately 16:00 and 16:10 UTC today, 2026-08-29.
+
+### Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
+- Summary: Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and...
+
 ### Hasbro Data Breach Exposed Employee Personal Information
 - Source: Security Week
 - Category: security
@@ -603,6 +615,12 @@
 - URL: https://pandaily.com/ulanqab-token-factory
 - Summary: How the Inner Mongolia city of Ulanqab used cheap green power and low latency to become one of Asia-Pacific's fastest-growing AI compute clusters.
 
+### New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+- Summary: Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell. Dubbed GPUThor,...
+
 ### Beyond Execution: Auditing Experimental Fidelity in LLM-Driven Scientific Research
 - Source: HF Daily Papers
 - Category: open-source
@@ -893,6 +911,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids&#8217; use of technology was once a subcurrent, it has become a raging flood. Countries...
+
+### Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+- Summary: The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem...
 
 ### Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine
 - Source: The Hacker News
@@ -1524,6 +1548,12 @@
 - URL: https://status.snowflake.com/incidents/3s0hdzy30jww
 - Summary: Aug 25, 04:35 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
 
+### WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24053
+- Summary: Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of...
+
 ### KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference
 - Source: arXiv AI
 - Category: research
@@ -1778,6 +1808,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/d68x0kzjwhqf
 - Summary: Aug 24, 22:24 UTCIdentified - We have identified the cause of this issue and are implementing a fix.Aug 24, 20:38 UTCInvestigating - Cloudflare is investigating an issue which may result in latency increases for a subset of requests.
 
+### In-Context Inpainting for Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23855
+- Summary: We propose ICI-Time, a novel framework that reframes time series forecasting as a visual inpainting task, leveraging the generalisation power of large vision models (LVMs). Unlike methods that require specialised temporal architectures and extensive domain-specific training, ICI-Time transforms...
+
 ### Issues logging into Claude.ai
 - Source: Anthropic Status
 - Category: incidents
@@ -1855,6 +1891,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.23391
 - Summary: Structured data exists in many forms (tables, knowledge graphs, charts, and time series), and converting it into text may involve different generation tasks. However, most prior work on data-to-text (D2T) generation has focused on specific tasks and datasets, relying either on task-specific...
+
+### Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23383
+- Summary: Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities, follow user controls, and remain stable over extended rollouts. We present JoyAI-Echo-1.5, a unified audio-visual generation system with two...
 
 ### FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations
 - Source: HF Daily Papers
@@ -2375,11 +2417,23 @@
 
 ## 2026-08-23
 
+### Coalition-Aware Skill Reliability for Self-Evolving Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.22610
+- Summary: Agent skills, structured artifacts distilled from interaction trajectories and dynamically reused from skill banks, have become a central mechanism for enabling large language model (LLM)-based self-evolving agents to learn from past experience. Yet existing work has largely focused on the...
+
 ### Elevated network errors for traffic routed between North America origins and SIN (Singapore) colo
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/1wwc0f6m1c21
 - Summary: Aug 23, 02:00 UTCResolved - Between 23rd August 2026, 01:06 UTC - 01:54 UTC, some customers may have experienced elevated 5xx errors and timeouts for traffic between North American origins and our Singapore data centre. This issue is now resolved.
+
+### More accurate behavioral predictions with hybrid Bayesian-connectionist models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.22154
+- Summary: Researchers must often choose between Bayesian or neural network models of behavior, two paradigms with complementary strengths and weaknesses. An ideal paradigm would facilitate testing many kinds of representations and inductive biases; Bayesian models make this easy, while neural networks do...
 
 
 ## 2026-08-22
@@ -2968,58 +3022,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.20202
 - Summary: Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved...
-
-### The Third Restructuring of Software Form: From the Three-Tier Architecture to Storage, Models, and Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20201
-- Summary: Software form has undergone two paradigm shifts since its inception: Software 1.0, in which instructions determine behavior, and Software 2.0, in which data determines behavior (machine learning). This paper argues that a third shift - Software 3.0, in which context and reasoning determine behavior...
-
-### From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20195
-- Summary: Technical documentation is written for human developers, but an increasing share of software changes is now authored by autonomous coding agents. Which documents they consult, when, and what follows remain unknown. We conduct a behaviour-grounded study of agent-documentation interaction across two...
-
-### INC20000168
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/n54hrszdq7h7
-- Summary: Aug 20, 15:43 UTC Resolved - Current status: The third-party cloud platform confirmed that the mitigation was complete, and its automated recovery system appears to have initiated. We independently monitored the environment and verified that service was restored. If you experience additional issues...
-
-### Debates over AI consciousness are a trap
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/
-- Summary: “Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman”...
-
-### Elevated Errors for Thinking mode in ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M0FQAR3NNH3ANVTQMBRD47DC
-- Summary: Status: MonitoringWe have implemented a mitigation for the issue for elevated errors for Thinking Mode and Image Generation in ChatGPT/ChatGPT WorkAffected components Image Generation (Degraded performance) ChatGPT Work (Degraded performance) Conversations (Degraded performance)
-
-### Hackers Target Zimbra Servers in Active Exploitation Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
-- Summary: Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.
-
-### New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/new-cryptographic-context-injection.html
-- Summary: Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI...
-
-### Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20099
-- Summary: LLM-based Multi-Agent Systems (MAS) achieve strong performance on complex reasoning tasks by coordinating multiple agents, but at the cost of substantial token consumption. Recent work on automatic topology design, ARG-Designer, has reframed this problem as autoregressive graph generation. However,...
-
-### Surveillance – Everything You Wanted to Know, But Were Afraid to Ask
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/
-- Summary: We all know they’re watching us. But we don’t know who they are, nor why nor how they are doing it. The post Surveillance – Everything You Wanted to Know, But Were Afraid to Ask appeared first on SecurityWeek.
 
