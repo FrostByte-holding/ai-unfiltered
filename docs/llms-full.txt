@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-08-30
+
+### TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html
+- Summary: Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. "While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique...
+
+
 ## 2026-08-29
 
 ### Network Issues in Montréal
@@ -798,6 +807,12 @@
 
 ## 2026-08-26
 
+### The Latent Diagnostic Taxonomy: A Framework for Constructing Classifiers and Diagnosing Their Decisions, Applied to Prompt Injection Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.26423
+- Summary: This paper proposes a framework for constructing a classifier as a safeguard layer, and for developing a complementary diagnostic that identifies which of the classifier's confident decisions can be trusted. This framework, the Latent Diagnostic Taxonomy, consists of (i) constructing a...
+
 ### Durable Objects and Downstream Service Errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -899,6 +914,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html
 - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different defensive outcomes....
+
+### Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.25735
+- Summary: Hosted retrieval-augmented generation (RAG) and semantic search allow users to query valuable provider-held corpora, raising two competing demands: to hide each query and chosen result, yet reveal only the documents that the user is authorized to receive. Existing cryptographic approaches either...
 
 ### Adobe and Nvidia Patch Dozens of Vulnerabilities
 - Source: Security Week
@@ -1316,6 +1337,12 @@
 - URL: https://tldr.takara.ai/p/2608.24738
 - Summary: Morphological transforms are long-standing tools for shape and mask processing, but the de facto reference implementation in the Python ecosystem, i.e. scipy.ndimage, is CPU-only, single-array, and therefore unusable inside a GPU training loop without an expensive device-to-host round trip. GPU...
 
+### Parameter-Efficient Self-Supervised Adaptation for EEG-FM under Fixed Computational Budgets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24727
+- Summary: EEG foundation models pretrained via self-supervised learning promise transferable representations, but their generalization remains limited, especially across diverse clinical datasets. Full fine-tuning is impractical for resource-constrained clinical settings due to high computational...
+
 ### Granite 4.2 LLMs: How They're Built
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1326,6 +1353,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24660
 - Summary: Markov models are established tools for symbolic music, including non-homogeneous formulations. The narrower contribution examined here is an observation-driven estimation mechanism: overlapping sliding windows derive a trajectory of local transition kernels from one symbolic sequence rather than...
+
+### Causal Modelling of Support Interventions for Student Competency Assessment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24632
+- Summary: Accurate assessment of student competencies is essential for enabling educators to identify individual needs, design targeted interventions, and evaluate the effectiveness of educational strategies. Empirical assessment procedures are typically grounded in psychometric models, such as item response...
 
 ### IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents
 - Source: HF Daily Papers
@@ -1781,6 +1814,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering
 - Summary: An industry legend starts covering the inevitable!
+
+### Boot-and-Feedback Framework for Generalist-Expert Model Collaboration in Breast Ultrasound Diagnosis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23974
+- Summary: Breast ultrasound (BUS) is widely used for breast cancer diagnosis yet remains operator-dependent. While deep learning shows promise, ensuring diagnostic reliability and interpretability is challenging. Recent Multimodal Large Language Models (MLLMs) often generate spurious descriptions due to...
 
 ### Not Carbon-Neutral, Out of the Game: CATL Pushes a Zero-Carbon Battery Supply Chain
 - Source: Pandaily
@@ -2987,40 +3026,4 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/jn37dmb9s37p
 - Summary: Aug 20, 19:19 UTCIdentified - We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.
-
-### Elevated errors on Google connectors
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/6xskhw7rn4tf
-- Summary: Aug 20, 19:01 UTC Resolved - This issue has been resolved. Aug 20, 18:32 UTC Investigating - We are investigating elevated errors affecting Google connectors (Sheets, Docs, Slides, and Chat) and custom Google integrations on Claude.ai. Core functionality is not affected. We will provide an update...
-
-### Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20334
-- Summary: We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image...
-
-### G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20331
-- Summary: Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture...
-
-### $TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.20326
-- Summary: Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen...
-
-### Elevated Codex API authentication errors
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M0G1RZER839AZXWMYKSZF3GR
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Codex API (Operational)
-
-### Durable Objects and Downstream Service Errors
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h
-- Summary: Aug 20, 17:48 UTCResolved - This incident has been resolved.Aug 20, 16:56 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 16:48 UTCInvestigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in...
 
