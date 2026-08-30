@@ -1277,6 +1277,12 @@
 - URL: https://www.technologyreview.com/2026/08/25/1140955/seeing-through-murky-waters/
 - Summary: When remotely operated vehicles settle on the seafloor or dig through a sand bed, they can kick up clouds of sediment that onboard cameras struggle to see through. Often, the only thing to do is wait until the dust settles. But a new system developed by Amy Phung, SM ’23, PhD ’26, and her...
 
+### SPECTRA: Subspace-Preserving Embedding Calibration, Transport, and Replay for Fully Few-Shot Class-Incremental Audio Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.25054
+- Summary: Fully few-shot class-incremental audio classification (FFCAC) requires recognizing new sound classes from only a handful of labeled examples per session, without forgetting previously learned classes and without any large base dataset. Existing methods typically freeze a pre-trained audio--language...
+
 ### U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches
 - Source: The Hacker News
 - Category: security
@@ -1349,6 +1355,12 @@
 - URL: https://tldr.takara.ai/p/2608.24727
 - Summary: EEG foundation models pretrained via self-supervised learning promise transferable representations, but their generalization remains limited, especially across diverse clinical datasets. Full fine-tuning is impractical for resource-constrained clinical settings due to high computational...
 
+### Confident at the moment of action: belief miscalibration in LLM play under hidden information
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24691
+- Summary: Agentic systems increasingly gate actions on a model's own stated confidence, which assumes confidence tracks correctness at the moment of acting. We test this in a hidden-information chess variant where royal status can be secretly, repeatedly relocated between pieces, and where an agent's stated...
+
 ### Granite 4.2 LLMs: How They're Built
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1389,6 +1401,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.24563
 - Summary: Imaging factor disentanglement in text-to-image generation aims to independently control image acquisition properties such as types of camera lenses, sensor types, viewpoints, and domains to enable combinatorial generalization. This should let the model synthesize novel factor combinations...
+
+### FraudBench: Protocol-Sensitive Benchmarking of Adversarial Robustness for Financial Risk Assessment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24551
+- Summary: Machine learning models are widely used in financial fraud and credit-risk detection, yet their adversarial robustness remains difficult to evaluate because financial tabular data involve domain-specific constraints, severe class imbalance, and asymmetric attacker capability. We argue that, in this...
 
 ### Discovering Adaptive Transmission Programs for Collective Innovation
 - Source: HF Daily Papers
@@ -2273,6 +2291,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/9v68b4k90mry
 - Summary: Aug 24, 06:53 UTCResolved - This incident has been resolved.Aug 24, 05:47 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 5xx errors in Chicago. We are working to analyze and mitigate this problem. More updates to follow shortly.
 
+### Minimal Local Simulation Foundations for LLM- and VLM-Driven Agents in 2D and 3D Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.22833
+- Summary: Large language models (LLMs) and vision-language models (VLMs) are expanding the range of behaviors that can be represented in agent-based simulations, but many contemporary platforms are difficult to study, modify, or run on ordinary computers. We present two intentionally minimal simulation...
+
 ### Direct, Parallel, or Sequential? A Comparative Study of Training-Free Multi-Subject Image-to-Video Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2560,6 +2584,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
 - Summary: The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country. As part of the settlement, the social media platform will pay $300 million immediately, and an...
+
+### Multimodal Prompt Learning with Irregular EHRs for Robust Monitoring of Critical Care Patients
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.21941
+- Summary: Accurate assessment of patients in intensive care units (ICUs) is essential for timely clinical intervention and improved patient outcomes. Multimodal electronic health records (EHRs), including structured physiological time series and longitudinal clinical notes, provide complementary information...
 
 ### Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies
 - Source: HF Daily Papers
@@ -2995,35 +3025,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.19218
 - Summary: arXiv:2608.19218v1 Announce Type: new Abstract: Large language models (LLMs) and agentic AI systems are increasingly being explored for domain-specific maintenance and prognostics tasks, raising the question of whether they can effectively support prognostics and health management (PHM). In this...
-
-### MTLS Validation issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/jzv93gkq85bj
-- Summary: Aug 21, 00:13 UTCResolved - This incident has been resolved.Aug 21, 00:05 UTCMonitoring - Cloudflare identified an issue causing mTLS validation failures for some customers. A fix has been implemented and we are monitoring the results.
-
-### Measuring benchmark optimization in speech recognition
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/asr-benchmark-optimization
-
-### How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/pwc-search
-
-
-## 2026-08-20
-
-### The /wayfinder Skill: Navigating the “Fog of War” of Planning
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/wayfinder-skill
-- Summary: Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.
-
-### Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
-- Summary: The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are...
 
