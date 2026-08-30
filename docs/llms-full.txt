@@ -921,6 +921,12 @@
 - URL: https://tldr.takara.ai/p/2608.25735
 - Summary: Hosted retrieval-augmented generation (RAG) and semantic search allow users to query valuable provider-held corpora, raising two competing demands: to hide each query and chosen result, yet reveal only the documents that the user is authorized to receive. Existing cryptographic approaches either...
 
+### NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.26222
+- Summary: Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks. Existing automated testing methods, however, largely rely on response-level feedback: each candidate prompt typically requires generating a target-model response to...
+
 ### Adobe and Nvidia Patch Dozens of Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -1617,6 +1623,12 @@
 - URL: https://tldr.takara.ai/p/2608.24053
 - Summary: Universal multimodal embeddings are becoming a core component of modern AI systems, enabling heterogeneous content to be represented in a shared space for applications such as retrieval, recommendation, classification, and agentic systems. In this report, we present WeMM-Embedding, a family of...
 
+### ALPHABET: A Laplace-Pole History Aggregator with Banked Exponential Transport
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.24051
+- Summary: Can a sequence model remain competitive with only a few thousand parameters and an explicitly auditable prediction interface? We introduce ALPHABET, a compact linear-time model that compresses temporal history into stable complex pole modes: a direct bank synthesizes its modal states back into the...
+
 ### KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference
 - Source: arXiv AI
 - Category: research
@@ -1871,6 +1883,12 @@
 
 ## 2026-08-24
 
+### Native-Space 3D CarveMix for Multi-Site T1w Stroke Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23882
+- Summary: Segmenting ischemic stroke lesions on T1-weighted (T1w) MRI acquired across different scanners and protocols without intensity standardization is difficult because lesions are subtle and share intensity characteristics with cerebrospinal fluid. Standard deep learning architectures trained across...
+
 ### Increased Latency
 - Source: Cloudflare Status
 - Category: incidents
@@ -1888,6 +1906,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/n0rlp126qf8g
 - Summary: Aug 24, 20:26 UTC Resolved - This issue has been resolved. Aug 24, 20:11 UTC Monitoring - We have identified and resolved an issue which resulted in errors when attempting to access Claude.ai, including logging in via subscriptions for Claude Code. Errors occurred between 1:00pm (20:00 UTC) through...
+
+### ADE: Agentic Data Evolution Framework for Human-Centered Objectives
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23719
+- Summary: Aligning large language models to human-centered objectives is difficult when targets are non-executable and context-dependent, limiting reliable verification and scalable supervision. Although synthetic data expands coverage, weak verification shifts the bottleneck from generation to selection....
 
 ### ReWorld: An Interactive World Model with Long-Horizon Memory
 - Source: HF Daily Papers
@@ -2092,6 +2116,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html
 - Summary: Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Operation QUICSILVER, has been found to target government and information technology sectors, per...
+
+### Bridge Damage Detection from Low-Light UAV Imagery via Degradation-Aware Mixture-of-Experts Enhancement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.23136
+- Summary: Poor illumination obscures small, low-contrast defects in UAV bridge imagery, reducing the reliability and operational flexibility of automated inspection. This paper investigates whether degradation-aware image restoration can improve bridge damage detection under low-light conditions and transfer...
 
 ### The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk
 - Source: The Hacker News
@@ -2996,34 +3026,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
 - Summary: The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are...
-
-### Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
-- Summary: Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These...
-
-### Elevated errors on requests to multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/c0ncxxm2wd9r
-- Summary: Aug 20, 19:42 UTC Resolved - This issue has been resolved. Aug 20, 19:16 UTC Investigating - We are investigating elevated errors on requests to some Claude models. We will provide additional updates as soon as possible.
-
-### RESOLVED: We are investigating an issue where customers may experience timeouts, service degradations, errors, and elevated latencies across multiple products in the us-west1 region.
-- Source: GCP Status
-- Category: incidents
-- URL: https://status.cloud.google.com/incidents/utF3FMFdQfwBzJcGG6vf
-- Summary: Incident began at 2026-08-20 08:40 and ended at 2026-08-20 12:20 (all times are US/Pacific).Summary The issue causing timeouts, degradations, errors, and latencies across multiple us-west1 products has been mitigated. Description We have mitigated the issue impacting multiple products in our...
-
-### Elevated Errors R2 and Durable Objects
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/rq2nwg85qqn4
-- Summary: Aug 20, 19:32 UTCResolved - This incident has been resolved.Aug 20, 19:00 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 20, 18:51 UTCIdentified - We have identified and issue that is causing elevated errors for R2 and Durable Objects.
-
-### Missing R2 Audit Logs
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/jn37dmb9s37p
-- Summary: Aug 20, 19:19 UTCIdentified - We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.
 
