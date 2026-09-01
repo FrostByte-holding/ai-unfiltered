@@ -6,6 +6,47 @@
 
 ## 2026-09-01
 
+### RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.
+- Source: GCP Status
+- Category: incidents
+- URL: https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev
+- Summary: Incident began at 2026-09-01 07:44 and ended at 2026-09-01 11:52 (all times are US/Pacific).Summary Multiple products in us-central1-b experienced network service degradation. Description The issue was affecting a portion of the us-central1-b zone. The remaining zones in the region were unaffected....
+
+### How AI plotted an interstellar journey to Alpha Centauri
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/
+- Summary: A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029.&#160; It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to arrive at Alpha Centauri, which is...
+
+### Degraded performance on platform.claude.com and Claude for Microsoft Office 365
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/3g3d55q6vk3h
+- Summary: Sep 1, 18:07 UTC Resolved - This issue has been resolved. Sep 1, 17:52 UTC Monitoring - We are seeing success rates recover across affected services. Core inference and the API are not impacted. Sep 1, 17:05 UTC Investigating - We are investigating reports of degraded performance affecting some...
+
+### Introducing agentic video understanding with Gemini
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
+
+### Degraded performance on Claude for Microsoft Office 365
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/nr3h7bw8b3k3
+- Summary: Sep 1, 16:22 UTC Resolved - This issue has been resolved. Sep 1, 16:02 UTC Investigating - We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.
+
+### PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/pr-not-welcome
+- Summary: Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.
+
+### Delays in commit processing
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/jk2dy5h9yp3m
+- Summary: Sep 1, 16:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 1, 16:00 UTC Update - Time to update pull request diffs have improved to normal...
+
 ### Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests
 - Source: The Hacker News
 - Category: security
@@ -252,6 +293,11 @@
 - URL: https://status.openai.com//incidents/01M1D6E14BQSYQA3R5CNQBB7EB
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
 
+### Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/webgpu-kernels
+
 
 ## 2026-08-31
 
@@ -303,6 +349,18 @@
 - URL: https://tldr.takara.ai/p/2608.31105
 - Summary: Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate. Automated auditors make testing cheap to scale and flexible enough to cover almost...
 
+### FaceSnap: Real-Time Personalized Lightstage Facial Performance Capture
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.31033
+- Summary: Lightstage facial capture produces production-quality digital humans, but it is resource and labor-intensive. Multi-camera setups, hours of computation, and massive data storage create bottlenecks that hinder iterative workflows. This paper introduces FaceSnap, an end-to-end framework that...
+
+### SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.31023
+- Summary: We study dynamic Gaussian Splatting from monocular videos. While recent advancements in dynamic Gaussian splatting offer a promising foundation for modeling dynamic scenes, they often overfit to the training views and fail under occlusion or complex scene motion due to the lack of reliable...
+
 ### ChatGPT Work seeing elevated errors and latency
 - Source: OpenAI Status
 - Category: incidents
@@ -350,6 +408,12 @@
 - Category: security
 - URL: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
 - Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek.
+
+### UFPR-PEs: A Brazilian Face Recognition Benchmark with Self-Declared Race/Color Labels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30688
+- Summary: While face recognition systems are widely deployed, ensuring their demographic reliability and robustness under uncontrolled visual conditions remains a critical challenge. To bridge this gap, we present UFPR-PEs, a benchmark for face recognition bias evaluation using public videos of elected...
 
 ### Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning
 - Source: HF Daily Papers
@@ -405,6 +469,12 @@
 - URL: https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
 - Summary: FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and plans to leak it online. The post Extortion Group Claims Manchester Airports Group Data Breach appeared first on SecurityWeek.
 
+### DiffPDE: Masked Diffusion Language Models as PDE Solver
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30532
+- Summary: Existing approaches for synthesizing Partial Differential Equation (PDE) solvers predominantly rely on autoregressive models, yet their global left-to-right decoding incurs substantial redundancy when addressing inherently localized bugs. In this work, we challenge this inefficient paradigm and...
+
 ### Elevated rate of errors for OpenAI models provided by Copilot
 - Source: GitHub Status
 - Category: incidents
@@ -434,6 +504,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.30442
 - Summary: Recent offline reinforcement learning (RL) studies report policies that outperform physician decisions on clinical outcomes. We conduct a systematic, partially crossed evaluation of five offline RL algorithm families and 14 reward designs in 44,894 post-2018 acute ischemic stroke patients from a...
+
+### Graph Evidence Is Not Enough: Diagnosing Native Decoder Use in Graph-Augmented LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30437
+- Summary: Graph-augmented large language models often assume that graph evidence produced by external computation and placed in the input can be used by the native decoder. We test this assumption with HopQA, a deliberately bounded diagnostic that asks for the shortest-hop distance between two query nodes....
 
 ### Imvision Innovation Bets on AI Imaging Co-Processors to Exit Ambarella's Shadow
 - Source: Pandaily
@@ -2944,82 +3020,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.22910
 - Summary: We develop a finite-width geometric framework describing how learned feature geometries are organized, transported, and selectively aligned in deep neural networks. Incompatibility among weight-generated covariance, gates, and backward sensitivities is quantified through three families of...
-
-### NemoSplat: Feed-Forward 4D Gaussian Splatting for Media-Aware Underwater Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22888
-- Summary: Reconstructing photorealistic scenes in unconstrained underwater environments remains challenging due to severe media-induced light scattering and unpredictable dynamic objects. Recent feed-forward visual foundation models have demonstrated remarkable capabilities in generalized novel view...
-
-### Proxy reliance in large language model decisions is uncalibrated to predictive evidence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22887
-- Summary: Large language models (LLMs) are entering decisions in triage and lending, where task-relevant inference must be distinguished from impermissible proxy use. Current audits ask whether decisions change when demographics change. But attributes correlated with a protected group carry predictive value,...
-
-### Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/
-- Summary: Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek.
-
-### DRAgent: Discriminative Reasoning Agent for Referring Expression Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22885
-- Summary: Referring Expression Segmentation (RES) aims to generate a pixel-level mask for the object specified by a language expression. Recent methods based on multimodal large language models (MLLMs) often rely on one-pass coordinate prediction for visual localization, which serializes continuous spatial...
-
-### Stochastic Separability of Embedding Manifolds
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22874
-- Summary: Neurobiological studies and representation learning have observed that representations of objects belonging to the same category in high-dimensional neural spaces exhibit low-dimensional object manifold characteristics, and different object manifolds are linearly separable in these neural spaces....
-
-### Increased HTTP 5xx Errors in Chicago
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9v68b4k90mry
-- Summary: Aug 24, 06:53 UTCResolved - This incident has been resolved.Aug 24, 05:47 UTCInvestigating - Cloudflare is investigating an increased level of HTTP 5xx errors in Chicago. We are working to analyze and mitigate this problem. More updates to follow shortly.
-
-### Minimal Local Simulation Foundations for LLM- and VLM-Driven Agents in 2D and 3D Environments
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22833
-- Summary: Large language models (LLMs) and vision-language models (VLMs) are expanding the range of behaviors that can be represented in agent-based simulations, but many contemporary platforms are difficult to study, modify, or run on ordinary computers. We present two intentionally minimal simulation...
-
-### Direct, Parallel, or Sequential? A Comparative Study of Training-Free Multi-Subject Image-to-Video Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22819
-- Summary: Text-conditioned image-to-video (I2V) generation has advanced rapidly, yet generating videos with multiple subjects remains challenging. A model must simultaneously preserve the appearance of each subject, assign distinct motions, and maintain coherent spatial and temporal interactions. This paper...
-
-### Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22800
-- Summary: Ensuring reliability in uncertain environments remains difficult for long-horizon robotic manipulation. End-to-end VLA models are data-heavy and opaque, making diagnosis and verification difficult. Hierarchical pipelines are more interpretable, but their plans are often weakly grounded in...
-
-### TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22788
-- Summary: Large-scale rollouts have become a core component of modern LLM systems, spanning reinforcement learning (RL) post-training, on-policy distillation (OPD), and sampling-heavy evaluation pipelines. Unlike online serving, which is typically optimized for request-level latency and throughput, a small...
-
-### SDAD: Spec-Driven Agentic Development for the AI-Native SDLC
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.20341
-- Summary: arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow...
-
-### PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.20342
-- Summary: arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's...
-
-### Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.20378
-- Summary: arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This...
 
