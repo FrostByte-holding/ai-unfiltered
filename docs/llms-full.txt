@@ -6,6 +6,29 @@
 
 ## 2026-09-01
 
+### Network Route Leak in Palmas, Brazil
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/1w42pbthkqjf
+- Summary: Sep 1, 22:05 UTCResolved - This incident has been resolved.Sep 1, 21:47 UTCMonitoring - One of Cloudflare's peers experienced a route leak, misdirecting some traffic to Palmas, Brazil. We are working to mitigate impact to Internet users in this region.
+
+### Pipelines Creation Issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/w6ng4jcxv7m1
+- Summary: Sep 1, 21:51 UTCInvestigating - Cloudflare is investigating an issue with creating new Pipeline resources, including Pipelines, Streams, and Sinks. Existing Pipelines are unaffected. More updates to follow shortly.
+
+### BenchMIRT: What are LLM benchmarks actually measuring?
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/benchmirt
+
+### Cloudflare Access one-time PIN emails blocked by certain email security gateways, including Proofpoint
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/cczd80189gvc
+- Summary: Sep 1, 20:06 UTCInvestigating - Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.
+
 ### RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.
 - Source: GCP Status
 - Category: incidents
@@ -409,6 +432,18 @@
 - URL: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
 - Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek.
 
+### SegWave: Wavelet-Driven Segmentation of Tampered Regions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30714
+- Summary: Verifying image authenticity is increasingly difficult, posing serious risks across journalism, law enforcement, and political domains. Most existing forensic methods rely on high-level visual artifacts and treat frame detection as a simple binary task. To address this, we propose SegWave, a hybrid...
+
+### Failure or Drift? Evaluating Monocular SLAM under Synthetic and Real-World Corruptions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30690
+- Summary: Visual SLAM is commonly evaluated on clean trajectories, although deployment failures are often caused by adverse weather, illumination, blur, and sensor artifacts. Controlled corruptions are attractive because they isolate such factors, but a synthetic stress test is useful only when it leads to...
+
 ### UFPR-PEs: A Brazilian Face Recognition Benchmark with Self-Declared Race/Color Labels
 - Source: HF Daily Papers
 - Category: open-source
@@ -493,6 +528,18 @@
 - URL: https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html
 - Summary: A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux management hosts used to route, authenticate, and manage high-value...
 
+### Agents in the Large: Perception-Centered Architecture for Persistent Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30478
+- Summary: Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decision-making procedures, enabling agents to reason and act in interactive environments. Existing frameworks largely cast these agents as systems for solving user-specified, bounded...
+
+### Beyond Accuracy: Quantifying Pulmonary Attribution in Anatomy-Guided Chest X-Ray Classification Under Domain Shift
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30467
+- Summary: Deep-learning models can achieve strong chest X-ray (CXR) classification performance without establishing whether their predictions predominantly rely on pulmonary image content. This study evaluates pulmonary attribution containment as an anatomy-related reliability property distinct from...
+
 ### Berlin Won’t Pay Extortion Group Claiming Data Theft
 - Source: Security Week
 - Category: security
@@ -540,6 +587,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html
 - Summary: The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targeted. Last week, the DoJ said the National Aeronautics and...
+
+### Semantic-Spatial Discriminability Enhancement for Generalized Visual Grounding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30233
+- Summary: Generalized Visual Grounding (GVG) task aims to localize targets in an image based on referring expressions, extends the classical visual grounding paradigm by integrating multi-target and non-target scenarios. Previous methods typically rely on global semantic matching or coarse-grained region...
 
 ### Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model
 - Source: arXiv AI
@@ -2966,58 +3019,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/vgz5psbjmt1h
 - Summary: Aug 24, 08:30 UTC Resolved - This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5. Aug 24, 07:47 UTC Update - At this time, we have seen errors stabilize on Opus 5 and...
-
-### WADE: A Reasoning-Annotated Benchmark for Multi-Instance Floating-Waste Grounding with Compact Vision-Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22950
-- Summary: Floating waste in inland waterways threatens aquatic ecosystems and requires timely monitoring under cluttered, multi-object conditions. Existing aquatic-waste datasets provide limited geographic coverage, sparse multi-instance annotations, and little supervision beyond boxes and labels. Compact...
-
-### At WRC 2026, UBTECH Pivots From Shipment Counts to Repeat Orders
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ubtech-wrc-2026-pivots-shipment-counts-repeat-orders-aug2026
-- Summary: At the World Robot Conference in Beijing, UBTECH is reframing its story around revenue and repeat purchases rather than shipment numbers, as China's first humanoid-robot stock pushes across industrial, commercial and consumer scenes.
-
-### Anonymous AI Model 'Ox Alpha' Crushes Coding Benchmarks, Sparking a Cross-Country Guessing Game
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/anonymous-ai-model-ox-alpha-crushes-coding-benchmarks-aug2026
-- Summary: On August 20, OpenRouter quietly listed stealth/ox-alpha, an anonymous, free model whose real-world coding results beat several closed frontier models, triggering an industry guessing game and spotlighting China's stealth-model strategy.
-
-### iKang and Huawei Cloud Launch AI Agent for Enterprise Health Management
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ikang-huawei-cloud-launch-ai-agent-enterprise-health-management-aug2026
-- Summary: On August 21, iKang Group and Huawei Cloud jointly launched an AI health management agent that extends AI to corporate employee health, covering data, personalized plans, ongoing intervention, monitoring and risk alerts.
-
-### Honor's Humanoid Robot 'Lightning' Runs 400m in 40.6 Seconds, Beating the Human World Record
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/honor-robot-lightning-beats-human-400m-world-record-aug2026
-- Summary: At the World Humanoid Robot Games in Beijing, Honor's self-developed robot Lightning ran 400m in 40.6 seconds, beating the 43.03s human men's world record set by Wayde van Niekerk at the 2016 Rio Olympics.
-
-### Xiaomi Unveils Xuanjie O3, First Flagship SoC to Break 5 Million Points
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-unveils-xuanjie-o3-first-flagship-soc-break-5-million-aug2026
-- Summary: Xiaomi's new Xuanjie O3 AI flagship SoC scores 5.22 million on AnTuTu, the first flagship chip to pass 5 million, with a ten-core CPU, 16-core GPU and a rebuilt NPU built for on-device MiMo models.
-
-### UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html
-- Summary: Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China,...
-
-### Elevated errors on Fable 5 due to upstream provider
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/wt3hjqcrczfg
-- Summary: Aug 24, 07:58 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 24, 07:12 UTC Update - We are experiencing degraded availability for the Fable model...
-
-### A Commutator Framework for Selective Spectral Alignment in Deep Neural Networks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.22910
-- Summary: We develop a finite-width geometric framework describing how learned feature geometries are organized, transported, and selectively aligned in deep neural networks. Incompatibility among weight-generated covariance, gates, and backward sensitivities is quantified through three families of...
 

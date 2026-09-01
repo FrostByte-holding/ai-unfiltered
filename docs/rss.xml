@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Sep 2026 19:15:48 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 22:26:57 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Network Route Leak in Palmas, Brazil</title>
+            <link>https://www.cloudflarestatus.com/incidents/1w42pbthkqjf</link>
+            <guid>https://www.cloudflarestatus.com/incidents/1w42pbthkqjf</guid>
+            <pubDate>Tue, 01 Sep 2026 22:05:44 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/1w42pbthkqjf">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Sep 1, 22:05 UTCResolved - This incident has been resolved.Sep 1, 21:47 UTCMonitoring - One of Cloudflare&#x27;s peers experienced a route leak, misdirecting some traffic to Palmas, Brazil. We are working to mitigate impact to Internet users in this region.</description>
+        </item>
+        <item>
+            <title>Pipelines Creation Issue</title>
+            <link>https://www.cloudflarestatus.com/incidents/w6ng4jcxv7m1</link>
+            <guid>https://www.cloudflarestatus.com/incidents/w6ng4jcxv7m1</guid>
+            <pubDate>Tue, 01 Sep 2026 21:51:16 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/w6ng4jcxv7m1">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Sep 1, 21:51 UTCInvestigating - Cloudflare is investigating an issue with creating new Pipeline resources, including Pipelines, Streams, and Sinks. Existing Pipelines are unaffected. More updates to follow shortly.</description>
+        </item>
+        <item>
+            <title>BenchMIRT: What are LLM benchmarks actually measuring?</title>
+            <link>https://huggingface.co/blog/allenai/benchmirt</link>
+            <guid>https://huggingface.co/blog/allenai/benchmirt</guid>
+            <pubDate>Tue, 01 Sep 2026 21:39:07 +0000</pubDate>
+            <source url="https://huggingface.co/blog/allenai/benchmirt">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Cloudflare Access one-time PIN emails blocked by certain email security gateways, including Proofpoint</title>
+            <link>https://www.cloudflarestatus.com/incidents/cczd80189gvc</link>
+            <guid>https://www.cloudflarestatus.com/incidents/cczd80189gvc</guid>
+            <pubDate>Tue, 01 Sep 2026 20:06:47 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/cczd80189gvc">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Sep 1, 20:06 UTCInvestigating - Some customers using Proofpoint may experience delayed Cloudflare notifications and login codes. Proofpoint is temporarily deferring messages with an SMTP 421 4.7.0 response. Cloudflare will continue retrying delivery.</description>
+        </item>
         <item>
             <title>RESOLVED: Multiple products in us-central1-b are experiencing network service degradation.</title>
             <link>https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev</link>
@@ -421,42 +457,6 @@
             <source url="https://www.cloudflarestatus.com/incidents/72lc3n642lkf">Cloudflare Status</source>
             <category>incidents</category>
             <description>Aug 31, 20:49 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 31, 20:47 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 31, 20:16 UTCInvestigating - Some customers using Proofpoint may experience delayed Cloudflare notifications and...</description>
-        </item>
-        <item>
-            <title>Degraded performance on claude.ai and Claude Code</title>
-            <link>https://status.claude.com/incidents/r82kdk0m7vqh</link>
-            <guid>https://status.claude.com/incidents/r82kdk0m7vqh</guid>
-            <pubDate>Mon, 31 Aug 2026 20:36:00 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/r82kdk0m7vqh">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Aug 31, 20:36 UTC Resolved - The issue affecting Claude Code has been resolved. Impact occurred from 16∶55 to 19∶16 UTC. Aug 31, 19:21 UTC Investigating - We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an...</description>
-        </item>
-        <item>
-            <title>INC20000188</title>
-            <link>https://status.snowflake.com/incidents/09f44bx0y6lj</link>
-            <guid>https://status.snowflake.com/incidents/09f44bx0y6lj</guid>
-            <pubDate>Mon, 31 Aug 2026 19:44:40 +0000</pubDate>
-            <source url="https://status.snowflake.com/incidents/09f44bx0y6lj">Snowflake Status</source>
-            <category>incidents</category>
-            <description>Aug 31, 19:44 UTC Resolved - Current status: We&#x27;ve monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer experience: Customers hosted in the...</description>
-        </item>
-        <item>
-            <title>HTTP/3 issue affecting R2 custom domains</title>
-            <link>https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk</link>
-            <guid>https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk</guid>
-            <pubDate>Mon, 31 Aug 2026 18:47:05 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Aug 31, 18:47 UTCInvestigating - Some Firefox users may see delayed or failed asset loads on R2 custom domains due to an incorrect HTTP/3 advertisement. We are working on a fix.</description>
-        </item>
-        <item>
-            <title>Hugging Face hack could indicate cultural issues at OpenAI</title>
-            <link>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/</link>
-            <guid>https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/</guid>
-            <pubDate>Mon, 31 Aug 2026 18:00:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging...</description>
         </item>
     </channel>
 </rss>
