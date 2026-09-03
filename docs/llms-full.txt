@@ -6,6 +6,12 @@
 
 ## 2026-09-03
 
+### GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/astra
+- Summary: We spent 20B+ tokens of GPT-6 Astra to explore everything. Here&#8217;s our learnings.
+
 ### Elevated errors across ChatGPT and Codex
 - Source: OpenAI Status
 - Category: incidents
@@ -374,6 +380,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/3qs7m80p13v2
 - Summary: Sep 2, 15:51 UTCResolved - This incident has been resolved.Sep 2, 15:35 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 2, 14:48 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 2, 14:00 UTCInvestigating - Cloudflare is aware of, and...
 
+### SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02741
+- Summary: Signal Phase and Timing (SPaT) messages are a cornerstone of connected vehicle (CV) safety, enabling CVs to perceive and respond to intersection state through Vehicle-to-Infrastructure (V2I) and Vehicle-to-Vehicle (V2V) communication. The integrity of these messages is threatened by a range of...
+
 ### UK Moves to Block High-Risk Tech Suppliers From Critical Infrastructure
 - Source: Security Week
 - Category: security
@@ -385,6 +397,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.02684
 - Summary: Deploying 3D point cloud models on edge hardware such as the NVIDIA Jetson Orin Nano is severely constrained by compute and memory budgets. Existing compression methods require access to the model's original source code, rendering them inapplicable to the Open Neural Network Exchange (ONNX)...
+
+### Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02649
+- Summary: Aggregating noisy, conflicting textual hypotheses into a reliable consensus is a fundamental challenge when deploying NLP systems in real-world industrial settings. While monolithic Large Language Model (LLM) agents offer unbounded expressivity for tasks like Root Cause Analysis (RCA), they suffer...
 
 ### Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code
 - Source: The Hacker News
@@ -414,6 +432,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html
 - Summary: A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and...
+
+### Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02566
+- Summary: Machine-learnt corrections can complement numerical weather prediction only if they adapt to the evolving model state while preserving dynamical consistency and numerical stability. To test this within a global forecasting model, we couple the Met Office (UKMO) Unified Model (UM) with distributed...
 
 ### BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access
 - Source: The Hacker News
@@ -558,6 +582,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-claude-fablemythos-51-new
 - Summary: Queue the usual rush of model launches...
+
+### TAME: Temporal-Aware Mixture-of-Experts for Text-Video Retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02204
+- Summary: Text-Video Retrieval (TVR) retrieves videos that match a natural-language query, but extending image-text models such as CLIP to videos is fundamentally limited by the lack of temporal modeling. Videos exhibit frame-wise heterogeneity in appearance and motion, and compressing all frames into a...
 
 ### Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials
 - Source: The Hacker News
@@ -780,6 +810,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.00065
 - Summary: arXiv:2609.00065v1 Announce Type: new Abstract: A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural choices: which test the field accepts, which identifier...
+
+### Privacy Washing: Detecting Internal Contradictions in Privacy Policies
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02055
+- Summary: Privacy policies may contain internal contradictions in which commitments are undermined by practices documented elsewhere in the same policy. We operationalize this phenomenon, privacy washing, through a four-stage pipeline: statement extraction, compatibility filtering and natural language...
 
 ### Test-Time Logit Prompting for Source-Free Missing Modality Adaptation
 - Source: HF Daily Papers
@@ -2979,40 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.23622
 - Summary: arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to...
-
-### A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23626
-- Summary: arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a...
-
-### TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23631
-- Summary: arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated...
-
-### Equivariant Cellular Sheaves for Molecular Electronic Structure: Bridging Sheaf Cohomology and E(3)-Equivariant Hamiltonian Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.23571
-- Summary: arXiv:2608.23571v1 Announce Type: new Abstract: Equivariant message-passing networks are the standard model for molecular property and interatomic-potential prediction, and recent work predicts the electronic Hamiltonian itself in an E(3)-equivariant way. Separately, topological deep learning has...
-
-### Data Predictability Shapes Weibull Weight-Scale Growth in Transformer Training
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.23573
-- Summary: arXiv:2608.23573v1 Announce Type: new Abstract: A trained transformer's weight magnitudes can be summarized by a two-parameter Weibull distribution whose shape $k \approx 1.2$ is stable across layers and models, so the scale $\lambda$ carries most training-induced movement. What corpus property...
-
-### From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.23660
-- Summary: arXiv:2608.23660v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to provide prior causal knowledge for structural causal discovery, yet whether their direct-edge judgments and confidence can be trusted remains unclear. We systematically evaluate 12...
-
-### Renormalization Group Flow Matching for Scalable Local Generative Modeling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.23696
-- Summary: arXiv:2608.23696v1 Announce Type: new Abstract: Despite their remarkable success in modeling complex data, generative models face a fundamental tradeoff. Global approaches can capture full structural coherence but suffer from high computational costs, while local models are efficient but often fail...
 
