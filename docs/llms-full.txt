@@ -346,6 +346,12 @@
 - URL: https://tldr.takara.ai/p/2609.02804
 - Summary: For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40,...
 
+### DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02796
+- Summary: Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for discourse-aware text to sign language gloss translation grounded in linguistic...
+
 ### Proactive cyber defense for governments and enterprises
 - Source: DeepMind Blog
 - Category: research
@@ -373,6 +379,12 @@
 - Category: security
 - URL: https://www.securityweek.com/uk-moves-to-block-high-risk-tech-suppliers-from-critical-infrastructure/
 - Summary: Late amendments to the Cyber Security and Resilience Bill would give ministers new powers to restrict risky technology providers as supply chain attacks intensify. The post UK Moves to Block High-Risk Tech Suppliers From Critical Infrastructure appeared first on SecurityWeek.
+
+### H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02684
+- Summary: Deploying 3D point cloud models on edge hardware such as the NVIDIA Jetson Orin Nano is severely constrained by compute and memory budgets. Existing compression methods require access to the model's original source code, rendering them inapplicable to the Open Neural Network Exchange (ONNX)...
 
 ### Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code
 - Source: The Hacker News
@@ -438,6 +450,12 @@
 - Category: security
 - URL: https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/
 - Summary: Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards appeared first on SecurityWeek.
+
+### Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02473
+- Summary: Ontology rankers remain useful for rare-disease diagnosis because each candidate can be traced to matched patient phenotypes. Large language models (LLMs) can generate differential diagnoses from the same patient description, but their predictions lack an equally clear evidence trail. Rather than...
 
 ### Malicious Virtualizor Update Served via BGP Hijacking
 - Source: Security Week
@@ -523,6 +541,12 @@
 - URL: https://pandaily.com/violoop-screen-aware-ai-hardware-context-sep2026
 - Summary: A palm-sized USB device from Chinese startup Violoop reads your entire screen to build a proactive AI assistant, half a turn behind closes tens of millions in angel and pre-A funding.
 
+### APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02253
+- Summary: Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden...
+
 ### Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another
 - Source: The Hacker News
 - Category: security
@@ -546,6 +570,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html
 - Summary: The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation. The effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in...
+
+### DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02170
+- Summary: Advertising recommendation requires continuously tuning complex system parameters while balancing commercial returns and user experience. Recent work has introduced large language models (LLMs) with skill documents to assist this labor-intensive process, but skill optimization remains largely...
 
 ### SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks
 - Source: Security Week
@@ -2985,34 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.23696
 - Summary: arXiv:2608.23696v1 Announce Type: new Abstract: Despite their remarkable success in modeling complex data, generative models face a fundamental tradeoff. Global approaches can capture full structural coherence but suffer from high computational costs, while local models are efficient but often fail...
-
-### Response Renormalization for Critical Deep Equilibrium Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.23725
-- Summary: arXiv:2608.23725v1 Announce Type: new Abstract: Deep Equilibrium Models (DEQs) compute predictions from a hidden representation unchanged by the model update. Training through this equilibrium uses implicit differentiation and requires solving an adjoint system built from the residual Jacobian. If...
-
-### Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.23570
-- Summary: arXiv:2608.23570v1 Announce Type: new Abstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly understood. Empirical studies show a puzzling dichotomy: models sometimes effectively leverage...
-
-### From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.23627
-- Summary: arXiv:2608.23627v1 Announce Type: new Abstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge documents. Recent advances in natural language processing (NLP), particularly pretrained transformers and...
-
-### Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.23645
-- Summary: arXiv:2608.23645v1 Announce Type: new Abstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests representational predictions derived from Butt's analysis using contextual embeddings from UrduBERT,...
-
-### The Limits of Automatic Evaluation of Creativity in Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.23705
-- Summary: arXiv:2608.23705v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly capable of generating text that challenges human performance in domains requiring creativity, yet evaluating creativity in LLM-generated content remains a significant challenge. Here, we investigate...
 
