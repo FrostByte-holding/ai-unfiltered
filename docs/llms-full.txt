@@ -6,6 +6,66 @@
 
 ## 2026-09-04
 
+### Cache Purging Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/ff0yvx1d6tby
+- Summary: Sep 4, 15:31 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 4, 14:51 UTCInvestigating - Cloudflare cache purging called via the Dashboard or API is returning errors, with the message "unable to purge. internal error". We are working to resolve this issue as soon as...
+
+### New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html
+- Summary: A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors. The attackers named the implant ted in debug strings left in the...
+
+### Sangoma Switchvox Vulnerabilities Exploited in the Wild
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/
+- Summary: Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.
+
+### The Download: selling battlefield drone data and AI reshaping language
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI&#8217;s...
+
+### 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/
+- Summary: Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor. The post 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover appeared first on SecurityWeek.
+
+### Catch Raises $5 Million for AI Executive Assistant With Guardrails
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/
+- Summary: Catch promises the capabilities of a trusted executive assistant, with built-in controls governing what data and systems it can access. The post Catch Raises $5 Million for AI Executive Assistant With Guardrails appeared first on SecurityWeek.
+
+### VMware Workstation and Fusion Updates Patch Critical Vulnerability
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/
+- Summary: The flaws could allow attackers with administrative access to a virtual machine to execute code on the host system. The post VMware Workstation and Fusion Updates Patch Critical Vulnerability appeared first on SecurityWeek.
+
+### Google Patches 6th Chrome Zero-Day of 2026
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/
+- Summary: Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.
+
+### Data from drones in Ukraine is fueling a new Wild West marketplace
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/
+- Summary: Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to...
+
+### Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+- Summary: Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag &amp; Drop...
+
 ### INC20000199
 - Source: Snowflake Status
 - Category: incidents
@@ -195,6 +255,12 @@
 - URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
 - Summary: The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides...
 
+### TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04071
+- Summary: Pathology foundation models improve transferable representation learning for histopathology, but recent gains often rely on encoders with hundreds of millions of parameters and high inference cost. We propose TAP-Path, a task-adaptive compression framework that directly restructures a pretrained...
+
 ### Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
 - Source: The Hacker News
 - Category: security
@@ -236,6 +302,12 @@
 - Category: research
 - URL: https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/
 
+### More Criticism Does Not Make a Better Review: EquiReview-R
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03943
+- Summary: AI reviewers can now produce many specific criticisms, but more criticism is not necessarily a better review. A review may miss a consequential weakness or retain an allegation that available evidence does not support. These failures require opposite corrections, yet generation-oriented systems and...
+
 ### Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data
 - Source: The Hacker News
 - Category: security
@@ -252,6 +324,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/Hcompany/neomme
+
+### From Ordered Bernoulli Levels to Critical-Line Geometry: Integer Quantization, Bernoulli Residual Phase, and Prime-Power Spectra
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03801
+- Summary: We study the ordered Bernoulli-word kernel f(p,n,k)=p^k(1-p)^(n-k) and the geometry generated by its inverse-integer level sets. The binary level 2^(-n) selects p=1/2 as the unique real split-independent anchor. Under complement-preserving complex continuation, the pair becomes z=1/2+iu and...
 
 ### Elevated errors for Claude Sonnet 5
 - Source: Anthropic Status
@@ -282,6 +360,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html
 - Summary: An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of observed activity was associated with the United States, making it the...
+
+### MetaStructAtlas: A Grounded 3D Vision-Language Dataset and Benchmark for Functional and Structural Reasoning in Whole-Body PET/CT
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03690
+- Summary: The joint interpretation of metabolic function and anatomical structure is essential for clinical diagnosis in whole-body PET/CT. Although recent advances in 3D medical vision-language models have demonstrated remarkable progress, current efforts are limited to regional CT imaging, leaving a...
+
+### Resolution-Aware Experimental Design under Partial Identifiability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03686
+- Summary: Experimental design is commonly framed as choosing the experiment expected to provide the most information. Under partial identifiability however, persistent nuisance uncertainty can make the same observation carry different structural meanings. We introduce Resolution-Aware Experimental Design...
 
 ### 153 Million Driver License Images Offered on Dark Web
 - Source: Security Week
@@ -2925,94 +3015,4 @@
 - Category: security
 - URL: https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/
 - Summary: CISA is urging government agencies to immediately patch the Citrix NetScaler vulnerability tracked as CVE-2026-8452. The post Recent Citrix NetScaler Vulnerability Exploited in the Wild appeared first on SecurityWeek.
-
-### Function-Level Execution Feedback for Code Preference Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23632
-- Summary: arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In code generation, however, process supervision remains underexplored because there is no standard notion of a step....
-
-### Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23640
-- Summary: arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scene-level case-study audit - the first quantified audit of LLM-generated autobiography against a subject-specific...
-
-### How much of a measured AI preference is the model, and how much is the instrument?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23641
-- Summary: arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al. (2024), Mazeika et al. (2025), Mikaelson et al. (2025), Tagliabue and Dung (2025) and Trhlik et al. (2026) have built...
-
-### AI Agents Push Humans Out of the Loop
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23642
-- Summary: arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede...
-
-### FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.23643
-- Summary: arXiv:2608.23643v1 Announce Type: new Abstract: Artificial intelligence is increasingly being introduced into healthcare workflows, yet most evaluations emphasize model accuracy rather than whether adoption is economically worthwhile in real clinical settings. This study proposes FLARE, a...
-
-### Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.24904
-- Summary: arXiv:2608.24904v1 Announce Type: new Abstract: Inertial sensors at multiple body locations can improve activity recognition, but requiring every sensor at inference increases the deployment burden. We study whether four synchronized IMUs available during training can improve a student that uses...
-
-### GreenLeaf Law Embed Tiny: A Compact Embedding Model for Legal Domain Retrieval
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.24936
-- Summary: arXiv:2608.24936v1 Announce Type: new Abstract: We present GreenLeaf Law Embed Tiny, a 0.6B parameter embedding model for legal domain retrieval. GreenLeaf-Tiny achieves 75.11% on the Massive Legal Embedding Benchmark (MLEB) and 64.38% on MTEB(Law, v1),demonstrating competitive performance among...
-
-### Multi-Modal Anomaly Detection: A Survey
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.24937
-- Summary: arXiv:2608.24937v1 Announce Type: new Abstract: Multi-Modal Anomaly Detection (MMAD) detects rare abnormal events from heterogeneous data sources and is increasingly used in safety- and reliability-critical applications such as industrial inspection and cybersecurity. Yet the literature is...
-
-### ExFold: Unified Expert Folding for Training-Free MoE Prefill-Decode Acceleration
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.24938
-- Summary: arXiv:2608.24938v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) models scale capacity for strong quality while keeping per-token compute bounded through sparse expert activation. Yet low-latency MoE serving is increasingly challenging, because it spans two inference phases with...
-
-### When Does Frequency Decomposition Benefit Physics-Informed Neural Networks? A Preliminary Ablation Study
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.24940
-- Summary: arXiv:2608.24940v1 Announce Type: new Abstract: Partial differential equations (PDEs) often have high-frequency and multi-scale features that neural networks struggle to approximate. Physics-Informed Neural Networks (PINNs) build the governing equations directly into training, but suffer from...
-
-### Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.24901
-- Summary: arXiv:2608.24901v1 Announce Type: new Abstract: A decodable "empathy" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We test this for two EPITOME-derived facets -- Recognition (cognitive) and Resonance (affective) -- in...
-
-### Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.24920
-- Summary: arXiv:2608.24920v1 Announce Type: new Abstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated replies across LLMs under two...
-
-### The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.24952
-- Summary: arXiv:2608.24952v1 Announce Type: new Abstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language modeling pipeline remains unclear. Our study traces this "dialect tax" across the natural language...
-
-### Unsupervised Post-Training of Foundation Models: A Survey
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.24982
-- Summary: arXiv:2608.24982v1 Announce Type: new Abstract: Foundation-model post-training usually relies on human labels, preference data, stronger teachers, or executable verifiers. We study Unsupervised Post-Training (UPT): update-bearing adaptation on unlabeled inputs whose learning signal is derived from...
-
-### Does Fine-Tuning Undo Activation Steering? Behavioural Recovery Without Weight-Edit Reversal
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.24988
-- Summary: arXiv:2608.24988v1 Announce Type: new Abstract: Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release. However, models are routinely fine-tuned after deployment, and...
 
