@@ -6,6 +6,12 @@
 
 ## 2026-09-04
 
+### Architecting memory and storage in the AI era
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
+- Summary: The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced...
+
 ### Cache Purging Errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -457,11 +463,29 @@
 - URL: https://pandaily.com/fullive-ai-somni-response-learning-sleep-device-sep2026
 - Summary: Fullive.ai, an AI hardware startup founded under a year ago, has wrapped three funding rounds as it readies its first bedside sleep device Somni — a screen-less lamp that learns how users respond to night-time interventions, a step toward an AI “response model.”
 
+### GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03494
+- Summary: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the total capacity fixed throughout decoding....
+
+### When Do Frozen VLMs Respond to Image-Free Object-Token Edits? An Answer-Key-Free Protocol and What It Reveals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03429
+- Summary: Answering what-if queries about a scene with a VLM usually means injecting the assumption as text or repainting the scene with a generative model. We instead move the edit to the representation level, before the model input. The image is abstracted into a set of object-level tokens, and the...
+
 ### Increased HTTP 522 Errors  in Seattle (SEA)
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/vp04n6xtv51r
 - Summary: Sep 3, 06:30 UTCResolved - Some customers may have observed 522s from 06:30UTC to 07:38 UTC for traffic landing in Seattle (SEA). Impact windows may vary by customer. The issue has been resolved
+
+### DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03423
+- Summary: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or...
 
 ### Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon
 - Source: The Hacker News
@@ -660,6 +684,18 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.01832
 - Summary: arXiv:2609.01832v1 Announce Type: new Abstract: Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score. Large language models (LLMs) can potentially capture various symptoms and their severity from patient...
+
+### How Perturbations Propagate: A Multi-Level Analysis of Robustness in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03322
+- Summary: Language models encounter typos, corrupted text, altered words, and disrupted token order, yet robustness is usually evaluated only through output behavior. We study how six naturalistic and synthetic input perturbations propagate through decoder-only language models at three levels: output...
+
+### Latent Energy Action Planning with World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03294
+- Summary: Latent world models support efficient model predictive control from high-dimensional observations, yet optimizing a single learned latent objective can favor action sequences whose decoder-predicted terminal descriptor does not match the goal descriptor. We introduce Latent Energy Action Planning...
 
 ### Direct Drive's 'Lego' Robots Recognize Their Own Bodies After Assembly
 - Source: Pandaily
@@ -2979,40 +3015,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ulanqab-token-factory
 - Summary: How the Inner Mongolia city of Ulanqab used cheap green power and low latency to become one of Asia-Pacific's fastest-growing AI compute clusters.
-
-### New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
-- Summary: Academic researchers have disclosed a Rowhammer attack impacting NVIDIA workstation GPUs with GDDR6 memory that defeats error correction codes (ECC), the mitigation NVIDIA recommends against GPU Rowhammer, and enables denial-of-service (DoS) and privilege escalation to a root shell. Dubbed GPUThor,...
-
-### Beyond Execution: Auditing Experimental Fidelity in LLM-Driven Scientific Research
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26753
-- Summary: LLM agents used for scientific experimentation must do more than generate executable code: they must implement the reference method faithfully, design experiments that test the paper's claims, and provide evidence supporting those claims. We show that agents often produce methodological...
-
-### Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26729
-- Summary: In recent years, transductive knowledge graph embedding models have been applied to tasks such as link prediction and query answering. Although knowledge graphs often contain rich numerical attributes, most embedding models neglect them, limiting their ability to represent real-world knowledge...
-
-### CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exploitation. The...
-
-### Beyond Reflection: Affirmation as a Promising Behavioral Marker Associated with Quality in Text-Based Counseling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26689
-- Summary: While AI-assisted text-based counseling is gaining attention, it remains empirically unclear which counselor behaviors are associated with higher dialogue quality. Existing research often focuses heavily on Reflection, borrowing frameworks from Motivational Interviewing. To address this gap, we...
-
-### Recent Citrix NetScaler Vulnerability Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/recent-citrix-netscaler-vulnerability-exploited-in-the-wild/
-- Summary: CISA is urging government agencies to immediately patch the Citrix NetScaler vulnerability tracked as CVE-2026-8452. The post Recent Citrix NetScaler Vulnerability Exploited in the Wild appeared first on SecurityWeek.
 
