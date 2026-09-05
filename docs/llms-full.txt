@@ -36,11 +36,41 @@
 - URL: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
 - Summary: The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced...
 
+### In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/
+- Summary: Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. The post In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation...
+
+### HPE Patches Critical RCE Vulnerabilities in AOS-CX
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/
+- Summary: Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek.
+
+### OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/
+- Summary: The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility. The post OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders appeared first on SecurityWeek.
+
+### Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html
+- Summary: Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters. "Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as...
+
 ### Cache Purging Errors
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/ff0yvx1d6tby
 - Summary: Sep 4, 15:31 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 4, 14:51 UTCInvestigating - Cloudflare cache purging called via the Dashboard or API is returning errors, with the message "unable to purge. internal error". We are working to resolve this issue as soon as...
+
+### PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html
+- Summary: PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was...
 
 ### New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic
 - Source: The Hacker News
@@ -83,6 +113,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/
 - Summary: Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.
+
+### Nvidia Is Buying AI Platform Hugging Face for $13 Billion
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/
+- Summary: The deal highlights Nvidia’s push to champion increasingly popular open-source AI models. The post Nvidia Is Buying AI Platform Hugging Face for $13 Billion appeared first on SecurityWeek.
 
 ### Data from drones in Ukraine is fueling a new Wild West marketplace
 - Source: MIT Tech Review AI
@@ -222,6 +258,96 @@
 - URL: https://arxiv.org/abs/2609.02894
 - Summary: arXiv:2609.02894v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) has become a prevailing paradigm for enhancing Large Language Models (LLMs) with non-parametric knowledge. Vanilla RAG efficiently handles simple queries but struggles with relational or multi-hop reasoning....
 
+### Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03407
+- Summary: arXiv:2609.03407v1 Announce Type: new Abstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context. Most prior work has studied this context through single-turn judgments or pressure-laden...
+
+### Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03416
+- Summary: arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and one-sided discrepancy detection of existing...
+
+### DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03423
+- Summary: arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed...
+
+### Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03438
+- Summary: arXiv:2609.03438v1 Announce Type: new Abstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeasible instructions due to benign mistakes. A reliable agent should not only know how to act, but...
+
+### Beyond "Made with AI": Visualizing Provenance Density to Mitigate the Transparency Penalty
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03460
+- Summary: arXiv:2609.03460v1 Announce Type: new Abstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency Trap: users trust fluent hallucinations while also discounting accurate content once it is...
+
+### Mesh-Native Physics-Informed Graph Surrogates for TCAD-in-the-Loop Design Space Exploration
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.02988
+- Summary: arXiv:2609.02988v1 Announce Type: new Abstract: High-fidelity TCAD simulation of drift-diffusion transport remains the workhorse of emerging FinFET device design, but it is computationally expensive, especially for 3D structures where runtime escalates steeply with mesh complexity. This sharply...
+
+### TRACE: Spatiotemporal Contact Memory Graph Network Simulator for Granular Dynamics
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.02991
+- Summary: arXiv:2609.02991v1 Announce Type: new Abstract: Learned graph simulators provide an efficient alternative to high-fidelity solvers for granular dynamics. However, granular motion depends strongly on inter-granular contact history, which is difficult to preserve when particle contacts form, break,...
+
+### No-Regret Bayesian Optimization with Finite-Library Input-Warped Kernels
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.02993
+- Summary: arXiv:2609.02993v1 Announce Type: new Abstract: Gaussian-process Bayesian optimization (GP-BO) excels at black-box optimization of costly functions, e.g., hyperparameter optimization (HPO) and multi-agent system (MAS) design. Convergence-rate guarantees exist for select methods, notably GP upper...
+
+### Evaluating Graph Neural Networks for Change-Criticality Classification in Maritime Navigation Charts
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.02996
+- Summary: arXiv:2609.02996v1 Announce Type: new Abstract: Graph neural networks (GNNs) are a class of neural networks suitable for learning on graph-structured data. Their application to spatial data is a natural extension, however its relatively unclear which message-passing operations, architectural...
+
+### Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.02998
+- Summary: arXiv:2609.02998v1 Announce Type: new Abstract: On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts. Vanilla OPD applies this supervision uniformly across prompts, without checking whether the teacher...
+
+### BharatGather: A Culturally-Informed Benchmark Dataset for Misinformation and Fake News Detection in Indian Public Events
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.02895
+- Summary: arXiv:2609.02895v1 Announce Type: new Abstract: Large-scale public events, such as religious festivals, political rallies, and cultural gatherings, are increasingly vulnerable to the rapid dissemination of misinformation, posing substantial risks to public safety and social cohesion. While...
+
+### PiPMRE: A Pipeline Based on Language Model for Medical Relation Extraction
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.02896
+- Summary: arXiv:2609.02896v1 Announce Type: new Abstract: Medical relation extraction (MRE) is commonly known for extracting entities and their relations jointly from a medical text, which has attracted considerable attention in recent years. Previous studies treat MRE as a sequence tagging task, which...
+
+### Margins, Not Windows: Training-Free Per-Step Lossy Speculative Decoding
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.02897
+- Summary: arXiv:2609.02897v1 Announce Type: new Abstract: Speculative decoding accelerates LLM inference by drafting candidate tokens and verifying them in parallel. Tree-attention drafters such as EAGLE-3 are widely adopted, yet typically hold two decisions fixed: (1) a strict token-match verification rule...
+
+### Distilled Rapid Embedding Transfer (DRET): Parameter-Efficient Biomedical Domain Adaptation via Priority-Based Embedding Transfer
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.02898
+- Summary: arXiv:2609.02898v1 Announce Type: new Abstract: Large domain-specific language models such as BioBERT and ClinicalBERT achieve strong performance on biomedical NLP tasks, but their computational demands make them impractical for many real-world deployments. General-purpose, parameter-efficient...
+
+### Contamination Inflates Scores but Rarely Reorders Large Language Model Leaderboards
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.02899
+- Summary: arXiv:2609.02899v1 Announce Type: new Abstract: Benchmark contamination, the leakage of test items into training data, is widely described as a threat to the reliability of large language model (LLM) leaderboards. We argue that this concern conflates two distinct questions: whether contamination...
+
 ### Elevated number of R2 503 errors in Western North America region
 - Source: Cloudflare Status
 - Category: incidents
@@ -291,6 +417,12 @@
 - URL: https://tldr.takara.ai/p/2609.04177
 - Summary: Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory of actual causality (AC) gives principled verdicts, but only for toy-sized models, because...
 
+### The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04110
+- Summary: Seeing frames in order does not mean representing time. Modern VideoLMs receive ordered video streams, yet their main supervision acts on generated text rather than video-token representations where event dynamics should first emerge. This mismatch allows models to learn temporal answers from...
+
 ### TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -344,6 +476,12 @@
 - URL: https://tldr.takara.ai/p/2609.03943
 - Summary: AI reviewers can now produce many specific criticisms, but more criticism is not necessarily a better review. A review may miss a consequential weakness or retain an allegation that available evidence does not support. These failures require opposite corrections, yet generation-oriented systems and...
 
+### Masked Autoregressive Speech Enhancement with Continuous Neural Audio Codec Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03940
+- Summary: Most previous work on speech enhancement (SE) based on masked generative modeling relied on discrete token representations of audio signals, obtained using neural audio codecs (NACs). However, a recent study has shown that continuous latent representations of NACs can be advantageous for SE in...
+
 ### Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data
 - Source: The Hacker News
 - Category: security
@@ -355,6 +493,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/ktdr5t0xwnhp
 - Summary: Sep 3, 14:22 UTC Update - The Grok 4.5 model has degraded availability as well. We are working with the upstream provider to resolve the issue. Sep 3, 14:20 UTC Update - We are experiencing degraded availability for the Grok 4.6 model in Copilot Chat, VS Code and other Copilot products. This is due...
+
+### When Vision Meets Graphs: A Survey on Graph Reasoning and Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03816
+- Summary: Graphs are a fundamental data structure underlying many problems in the natural and social sciences. Over the past decade, Graph Neural Networks (GNNs) have dominated graph machine learning, supported by solid theoretical foundations. Yet scientists often understand graph structure through vision:...
 
 ### NeoMME: an efficient Multimodal-native and Multilingual Encoder
 - Source: Hugging Face Blog
@@ -547,6 +691,12 @@
 - URL: https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html
 - Summary: The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon. "FalconFlank is a 0day privilege escalation that abuses the office malicious macros...
 
+### Neural-Collapse-guided Task-Free Continual Anomaly Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03406
+- Summary: Recent years have witnessed growing interest in continual anomaly detection for industrial visual inspection. However, real-world manufacturing environments exhibit unpredictable shifts in data distributions, rendering task-dependent continual learning assumptions impractical. To address this...
+
 ### CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners
 - Source: The Hacker News
 - Category: security
@@ -558,6 +708,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-muse-spark-13-matches-gpt
 - Summary: an epic comeback story for Meta
+
+### ALRA: Adaptive Local Relational Alignment for Logit-Based Pre-training Distillation of Autoregressive Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03355
+- Summary: Logit-based knowledge distillation for autoregressive language models usually aligns teacher and student next-token distributions over the entire vocabulary. However, this global objective overlooks relative preferences among likely token alternatives. Existing local approaches often select...
 
 ### EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models
 - Source: arXiv AI
@@ -2860,159 +3016,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html
 - Summary: A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing...
-
-### SSMB: Self-Supervised Local Feature Detection under Motion Blur
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27181
-- Summary: Keypoint detection under motion blur remains a significant challenge, as blur distorts local image structure and degrades the repeatability of feature localization. Existing approaches either rely on computationally expensive deblur-then-detect pipelines that may introduce restoration artifacts, or...
-
-### Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/
-- Summary: The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns. The post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek.
-
-### GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27142
-- Summary: Despite their potential in standardized graph tasks, Large Language Models (LLMs) remain brittle to real-world shifts in node identifiers and task formulation. While deterministic graph tools are invariant to such shifts, extracting topological structures from noisy text is highly fragile for LLMs,...
-
-### Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html
-- Summary: Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE...
-
-### Piloting the world's first double-blind AI evaluations
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
-- Summary: Piloting the world's first double-blind AI evaluations
-
-### Unifying Detection and Adaptation in Task-Free Continual Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27070
-- Summary: To mitigate catastrophic forgetting in downstream continual learning (CL) for large language models (LLMs), existing methods typically constrain parameter updates or introduce task-specific adaptation modules. However, these methods often rely on explicit task boundaries during training, limiting...
-
-### Australia Arrests 2 Alleged TeamPCP Hackers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/
-- Summary: Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison. The post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek.
-
-### Anatomy-Guided Foundation Model Adaptation with Within-Case Prototype Supervision for Standard Plane Detection in Fetal Ultrasound Blind Sweeps
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27051
-- Summary: Detecting the fetal abdominal circumference standard plane in low-cost obstetric blind sweeps is a highly imbalanced frame-classification problem: positive frames account for under 3% of a sequence, form short contiguous segments, and are poorly handled by off-the-shelf ultrasound and vision...
-
-### Performance Foundations of Parallel & Distributed Reasoning Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27046
-- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) and other RL-style post-training paradigms have been used for aligning large language models (LLMs) with reasoning standards. The resulting recent Reasoning Language Models (RLMs) such as DeepSeek-R1, o3, and Kimi k1.5 show that such RL-style...
-
-### Incident with Copilot AI Model Providers
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/tx9qn4khd664
-- Summary: Aug 27, 12:12 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Aug 27, 12:12 UTC Update - The issues with our upstream model provider have been...
-
-### The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently...
-
-### Disruptive cyber activity highlights risk from internet-exposed systems and edge devices
-- Source: NCSC UK
-- Category: security
-- URL: https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices
-
-### OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/
-- Summary: New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels. The post OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack appeared first on SecurityWeek.
-
-### Learn How to Build Security Operations Ready for AI-Powered Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
-- Summary: Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security...
-
-### Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
-- Summary: The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gateway LiteLLM. Louis...
-
-### Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/
-- Summary: The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities. The post Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security appeared first on SecurityWeek.
-
-### Virtual iEEG from Scalp EEG: Charting the Landscape of Source Imaging, Intracranial Inference and Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26998
-- Summary: Intracranial electroencephalography (iEEG) provides temporally precise and spatially specific access to neural activity from focal and deep brain regions, but its invasiveness and restricted anatomical coverage limit routine use. These constraints have motivated scalp-to-intracranial inference,...
-
-### What the Data Says About AI in Security Operations in 2026
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html
-- Summary: AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4% have no plans to...
-
-### CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/
-- Summary: SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader. The post CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite appeared first on SecurityWeek.
-
-### Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-- Summary: Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two...
-
-### Packora: Systematic Design for Generative Molecular Crystal Structure Prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26962
-- Summary: Molecular crystal structure prediction (CSP) is important in pharmaceuticals, agrochemicals, and organic electronics, where subtle differences in molecular conformation and packing can strongly affect material properties. We present Packora, a flow-based generative model for molecular CSP that...
-
-### Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html
-- Summary: Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT. "The samples employ diverse lure themes, suggesting an effort to appeal to a broad range of potential victims. These include government...
-
-### TabuLM: Morphology-Aware Tabular Pre-training for Low-Resource Languages
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.26923
-- Summary: We present TabuLM, the first language model pre-trained on Kinyarwanda tabular data. Kinyarwanda is a morphologically rich Bantu language spoken by over 12 million people in Rwanda, yet lacks any dedicated tabular representation learning resource. TabuLM extends KinyaBERT-large, a two-tier...
-
-### Cyberattack Causes Global Disruption at Boston Scientific
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyberattack-causes-global-disruption-at-boston-scientific/
-- Summary: The cybersecurity incident has disrupted Boston Scientific’s ability to process and ship customer orders. The post Cyberattack Causes Global Disruption at Boston Scientific appeared first on SecurityWeek.
-
-### Is Slate Auto’s new electric truck the EV Americans need?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/
-- Summary: EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country.&#160; One thing that could help turn...
-
-### The Future of AI-Driven Security Depends on Complete Data
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/the-future-of-ai-driven-security-depends-on-complete-data/
-- Summary: For twenty-five years, "data" in security meant logs and events. But logs are a lossy representation of reality. The post The Future of AI-Driven Security Depends on Complete Data appeared first on SecurityWeek.
 
