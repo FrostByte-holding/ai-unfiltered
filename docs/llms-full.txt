@@ -1090,6 +1090,12 @@
 - URL: https://status.claude.com/incidents/ls6bn1x81m0w
 - Summary: Sep 2, 21:44 UTC Resolved - The issue affecting Claude Sonnet 5 has been resolved. Impact occurred from 2:05pm PT / 21:05 UTC to 2:19pm PT / 21:19 UTC. Sep 2, 21:17 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.
 
+### SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03109
+- Summary: Current AI agents compellingly describe slides. However, AI-assisted slide editing requires more than understanding: the output must retain layout, style, component structure, and native editability. Towards, AI-assisted slide editing, existing agents operate on screenshots or weak document...
+
 ### OpenLeash Adds a Human Check to Risky AI Agent Actions
 - Source: Security Week
 - Category: security
@@ -1399,6 +1405,12 @@
 - URL: https://www.latent.space/p/ainews-claude-fablemythos-51-new
 - Summary: Queue the usual rush of model launches...
 
+### LeakageBench: Document-Level Leakage Risk for Redacting Personally Identifiable Information in Document Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02207
+- Summary: Real-world personally identifiable information (PII) redaction often operates on document images---scans, screenshots, and PDF renderings---where OCR errors, layout structure, and visual noise determine whether sensitive information is actually removed. Existing PII benchmarks are mostly...
+
 ### TAME: Temporal-Aware Mixture-of-Experts for Text-Video Retrieval
 - Source: HF Daily Papers
 - Category: open-source
@@ -1662,6 +1674,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.02000
 - Summary: Vision-language models (VLMs) are increasingly evaluated on complex image and video understanding tasks, yet conventional metrics primarily assess final-answer quality and reveal little about how different information sources shape the generation process. We propose a causal and temporal evaluation...
+
+### Linear Fusion MultiDiffusion for Fast Training-Free Spherical Panorama Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.01997
+- Summary: We propose LF-MultiDiffusion, a training-free panorama generation method that extends MultiDiffusion to support linear projections between target and reference image spaces. Our key idea is to reformulate latent aggregation as a regularized least-squares problem and solve it efficiently with a...
 
 ### Delays in credit purchases
 - Source: Anthropic Status
@@ -2296,6 +2314,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/8x66bpk6p9kk
 - Summary: Aug 31, 18:47 UTCInvestigating - Some Firefox users may see delayed or failed asset loads on R2 custom domains due to an incorrect HTTP/3 advertisement. We are working on a fix.
 
+### LLM-as-a-Demographic: Whom Sociodemographic Prompting Helps, and Whom It Hurts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.00222
+- Summary: Large language models (LLMs) are increasingly used as judges for subjective tasks, where annotators disagree and the relevant question is not only how accurate a judge is, but whose judgments it reproduces. Sociodemographic prompting conditions the judge on an annotator's demographic profile to...
+
 ### Synthetic Worlds for Temporal Evaluation and Knowledge Updating in LLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -2319,6 +2343,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html
 - Summary: Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent investigations identifying suspected workers employed in sales and marketing and the medical...
+
+### Stress-Testing Efficient Responsible-AI Evaluation: When Compute Savings Change Benchmark Conclusions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.31108
+- Summary: Efficient evaluation changes the protocol used to support claims about model behavior, yet it is rarely tested whether those claims remain stable after the evaluation itself is made cheaper. We stress-test conclusion robustness in responsible-AI benchmarking by evaluating three dense and...
 
 ### BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing
 - Source: HF Daily Papers
@@ -2988,34 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.26111
 - Summary: arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including...
-
-### PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.26113
-- Summary: arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with...
-
-### CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.26114
-- Summary: arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks,...
-
-### SLM-Conditioned Hierarchical Relation Routing for Labeled Property Graph Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.26132
-- Summary: arXiv:2608.26132v1 Announce Type: new Abstract: Labeled property graphs combine relational structure with heterogeneous textual and categorical properties attached to both nodes and relationships. Conventional graph neural networks typically represent these properties as static feature vectors,...
-
-### NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.26222
-- Summary: arXiv:2608.26222v1 Announce Type: new Abstract: Safety evaluation is critical for assessing whether aligned Large Language Models (LLMs) remain robust against jailbreak attacks. Existing automated testing methods, however, largely rely on response-level feedback: each candidate prompt typically...
-
-### Pruning Binarized Neural Networks: A Dedicated Framework and Globally Weighted Algorithms
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.26233
-- Summary: arXiv:2608.26233v1 Announce Type: new Abstract: Extreme compression of deep neural networks, up to full binarization, dramatically reduces memory footprint and arithmetic complexity, facilitating deployment on constrained edge hardware with field-programmable gate arrays (FPGAs) and...
 
