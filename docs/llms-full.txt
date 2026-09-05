@@ -4,6 +4,45 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-05
+
+### Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html
+- Summary: Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass...
+
+### AutoGraphForge: Towards Automated Graph Theory Discovery
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03478
+- Summary: arXiv:2609.03478v1 Announce Type: new Abstract: We report on our ongoing project to develop a computational pipeline, AutoGraphForge, for an automated graph-theoretic conjecturing-refuting-formalizing-proving system. Conjecture generation is counterexample-guided and runs in rounds: a Graffiti3...
+
+### Making Every Tool Call Count: Necessary Tool-Evidence Path Rewards for Agentic Vision-Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03493
+- Summary: arXiv:2609.03493v1 Announce Type: new Abstract: Modern vision-language models (VLMs) can directly answer many image-grounded questions, yet they often struggle with complex queries requiring fine-grained visual details or external knowledge. To acquire this missing evidence, agentic VLMs invoke...
+
+### GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03494
+- Summary: arXiv:2609.03494v1 Announce Type: new Abstract: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the...
+
+### PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03503
+- Summary: arXiv:2609.03503v1 Announce Type: new Abstract: With the rapid development of the Internet of Things, computation intensive directed acyclic graph (DAG) tasks have become increasingly common in cloud-edge-end collaborative environments. However, cloud, edge, and end nodes are highly heterogeneous...
+
+### What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03515
+- Summary: arXiv:2609.03515v1 Announce Type: new Abstract: Decoding-time KV cache compression research focuses heavily on designing better token scoring functions, while the temporal rule that aggregates scores across decode steps is often treated as an implementation detail. Under aggressive KV compression,...
+
+
 ## 2026-09-04
 
 ### Degradation in repos contents API
@@ -423,6 +462,12 @@
 - URL: https://tldr.takara.ai/p/2609.04110
 - Summary: Seeing frames in order does not mean representing time. Modern VideoLMs receive ordered video streams, yet their main supervision acts on generated text rather than video-token representations where event dynamics should first emerge. This mismatch allows models to learn temporal answers from...
 
+### Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04096
+- Summary: This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp policies, AdaRoboVLG learns an efficient...
+
 ### TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -595,6 +640,18 @@
 - URL: https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/
 - Summary: Publicly disclosed S/MIME flaws could expose encrypted email content, while critical IOS XR and Nexus bugs could enable remote code execution and authentication bypass. The post Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities appeared first on SecurityWeek.
 
+### A computable representation of the physical laboratory enables verifiable workflows
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03621
+- Summary: Making science computable requires representations of both scientific knowledge and the physical world in which scientific claims are tested. A computable representation of the physical laboratory is established through typed research objects, capability-bound operations and a compositional...
+
+### Remember and Reweight: Enhancing Multi-Agent Debate with Experience Memory and Confidence Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03619
+- Summary: Multi-agent debate (MAD) improves the reasoning capabilities of large language models by having multiple agents iteratively refine their responses through discussion. However, MAD suffers from a critical vulnerability known as shared misconception: when a majority of agents initially converge on an...
+
 ### Agriculture relies on fossil fuels. It’s costing us.
 - Source: MIT Tech Review AI
 - Category: research
@@ -666,6 +723,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.03494
 - Summary: Long-output reasoning has made the key--value (KV) cache a critical memory bottleneck for efficient LLM serving. Existing KV compression methods usually rely on a predefined per-request budget and adjust only which KV states are retained, leaving the total capacity fixed throughout decoding....
+
+### Air-Ground Collaborative Vision-and-Language Navigation via Shared Bird's-Eye Maps
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03483
+- Summary: Air-ground collaborative Vision-and-Language Navigation (VLN) pairs an unmanned aerial vehicle (UAV) with a global bird's-eye view and an unmanned ground vehicle (UGV) with a local first-person view, yet the setting remains largely unexplored: existing training-free methods solve single-agent tasks...
 
 ### When Do Frozen VLMs Respond to Image-Free Object-Token Edits? An Answer-Key-Free Protocol and What It Reveals
 - Source: HF Daily Papers
@@ -936,6 +999,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/pzw3kysls711
 - Summary: Sep 3, 01:49 UTCResolved - Between 1:04-1:28 UTC customers reaching Western North America region R2 buckets may have experienced an elevated number of 503 errors.
+
+### SGD-KV: Summarization Guided KV Cache Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03235
+- Summary: Large language models (LLMs) face severe memory bottlenecks in long-context inference due to the linearly growing size of key-value (KV) caches. Existing KV cache compression techniques typically rely on simple heuristics, overlooking the distinct functional roles of different attention heads. We...
 
 ### ChatGPT Work Mode High Error Rates
 - Source: OpenAI Status
@@ -2951,69 +3020,4 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/7wg7mlfgzdyr
 - Summary: Aug 27, 20:26 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
-
-### A startup claims it’s found a drug to make your blood young
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/
-- Summary: I knew I’d officially become a ‘longevity influencer’ this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just...
-
-### Turnstile Challenge Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/bthgp8mprw38
-- Summary: Aug 27, 19:29 UTCResolved - This incident has been resolved.Aug 27, 14:40 UTCInvestigating - Cloudflare is investigating a potential issue with the Turnstile challenge platform. Users may experience failed challenges solve attempts. Further details will be provided as more information becomes...
-
-### Users may experience an increase in error rates in Workspace Agents and ChatGPT Work on Web and Mobile
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M1263309PD7VYV8EF95W2M2P
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Agent (Operational) ChatGPT Work (Operational)
-
-### Incorrect geo location for some Cloudflare WARP users
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/9g65dxfbcjln
-- Summary: Aug 27, 18:56 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 27, 18:46 UTCInvestigating - Cloudflare is investigating issues with Cloudflare WARP and Cloudflare Zero Trust users being incorrectly geolocated by some third party services.
-
-### OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html
-- Summary: OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations...
-
-### SWE-Prime: Fewer Trajectories, Better Performance
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27449
-- Summary: To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision:...
-
-### CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27406
-- Summary: State-of-the-art action-conditioned video models are typically restricted to a single robot embodiment, preventing them from leveraging the vast corpus of heterogeneous video data that contains rich signals for learning generalizable physics. To bridge this gap, we introduce CLAP, a framework for...
-
-### Gemini Omni 1.1 Flash lets you build with more control
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/
-
-### Decoupled I/O-Dominant Pipelines for Large-Scale Whole-Slide Image Embedding Extraction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.27278
-- Summary: Whole-slide images (WSIs) are central to computational pathology but are prohibitively large, making patch-based processing the practical unit for foundation model inference. At scale, however, generating and handling massive numbers of patches on quickly introduces significant I/O and...
-
-### Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
-- Summary: Credit:&nbsp;Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting...
-
-### ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html
-- Summary: A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing...
 
