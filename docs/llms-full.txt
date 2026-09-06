@@ -6,6 +6,12 @@
 
 ## 2026-09-05
 
+### Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html
+- Summary: Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an&nbsp;advisory published on September 5. Sansec, which discovered the...
+
 ### Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
 - Source: The Hacker News
 - Category: security
@@ -77,6 +83,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.03515
 - Summary: arXiv:2609.03515v1 Announce Type: new Abstract: Decoding-time KV cache compression research focuses heavily on designing better token scoring functions, while the temporal rule that aggregates scores across decode steps is often treated as an implementation detail. Under aggressive KV compression,...
+
+### CulturalMenuBench: Probing the Knowledge-Application Gap in Multimodal Culinary Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03526
+- Summary: arXiv:2609.03526v1 Announce Type: new Abstract: Multimodal language models achieve near-ceiling scores on food recognition benchmarks, yet it remains unclear whether this success reflects genuine cultural understanding or mere visual matching. To probe this distinction, we introduce...
+
+### NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03527
+- Summary: arXiv:2609.03527v1 Announce Type: new Abstract: Neonatal respiratory diseases are a major cause of neonatal morbidity and mortality, posing substantial challenges in clinical practice. Despite recent advances, existing Multimodal Large Language Models (MLLMs) face two key limitations in neonatal...
+
+### Feature Reconfiguration With Visual Prior for Medical Lesion Segmentation
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03535
+- Summary: arXiv:2609.03535v1 Announce Type: new Abstract: Lesion segmentation in medical images plays a critical role in clinical diagnosis and treatment planning. Despite significant advances, lesion segmentation remains challenging due to two major factors: (1) complex background interference; (2) diverse...
+
+### Dalek: A Constructive Agent Machine
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03546
+- Summary: arXiv:2609.03546v1 Announce Type: new Abstract: We present Dalek, a closed machine designed for agents that realizes self-maintenance, self-evolution, self-reproduction, and self-organization on any substrate satisfying a general host contract. The machine is built from three primitives---actors,...
+
+### GPS-Bench: A Governance Policy Benchmark for Automating Policy Analysis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.03553
+- Summary: arXiv:2609.03553v1 Announce Type: new Abstract: Policy analysis requires more than predicting whether a proposal will pass: it requires identifying who will be affected, how those actors respond, and what follows. LLM-based policy simulations model these processes at scale, but their validity is...
 
 
 ## 2026-09-04
@@ -498,6 +534,18 @@
 - URL: https://tldr.takara.ai/p/2609.04174
 - Summary: 3D Foundation Models (3DFMs) such as VGGT have recently pushed the boundaries of 3D vision by predicting rich unified representations with feed-foward transformers. The scene representations learned by these models enable strong performance on multiple 3D vision tasks. In this paper, we investigate...
 
+### Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04168
+- Summary: As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not...
+
+### Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04148
+- Summary: As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution...
+
 ### The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -615,6 +663,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.03781
 - Summary: Large language models (LLMs) are increasingly used in multilingual settings, yet their safety is still evaluated primarily in English. This limits our understanding of how alignment failures manifest in low-resource and culturally diverse languages. We introduce IndicSafeEval, a persuasion-based...
+
+### Projected Riemannian Gradient Descent for the Bures-Wasserstein Barycenter: Dimension-Independent Linear Convergence at Unit Step Size
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03762
+- Summary: The computation of the Bures-Wasserstein (BW) barycenter of an ensemble of positive definite matrices arises throughout machine learning, optimal transport, and quantum information. Riemannian gradient descent (RGD) at unit step size -- the fixed-point iteration used in practice -- converges...
 
 ### HiddenLayer Raises $100 Million for AI Runtime Security
 - Source: Security Week
@@ -1290,6 +1344,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html
 - Summary: The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber risk. Download the...
+
+### WiFlow: Estimating Optical Flow using WiFi Channel State Information
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02452
+- Summary: Knowing where and how fast objects are moving within a scene is important across various domains. Usually, cameras are used to capture the data necessary for this task, but adding cameras often raises privacy concerns, and the quality of captured frames is heavily influenced by lighting conditions....
 
 ### Uncertainty-Guided Adverse Weather Restoration via Gated Transformer Network
 - Source: HF Daily Papers
@@ -2356,6 +2416,12 @@
 - URL: https://tldr.takara.ai/p/2608.31105
 - Summary: Users of a deployed language model routinely encounter behaviours that testing almost never surfaces, since deployment puts the model through orders of magnitude more interactions than any evaluation can simulate. Automated auditors make testing cheap to scale and flexible enough to cover almost...
 
+### Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.31076
+- Summary: Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required...
+
 ### FaceSnap: Real-Time Personalized Lightstage Facial Performance Capture
 - Source: HF Daily Papers
 - Category: open-source
@@ -2952,70 +3018,4 @@
 - Category: security
 - URL: https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
 - Summary: A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations. The post PaperCut Releases Emergency Patch for Exploited Zero-Day appeared first on SecurityWeek.
-
-### PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
-- Summary: PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it's "aware of...
-
-### APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html
-- Summary: Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously...
-
-### Tencent Hunyuan Releases Hy4 Preview, Ranking Among the Top Tier of Open-Source Models
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-hunyuan-hy4-preview-open-source-aug2026
-- Summary: On August 28, Tencent Hunyuan released and open-sourced Hy4 preview, its next-generation large language model with 770 billion total parameters and a context window exceeding 1 million tokens.
-
-### Zhipu AI's GLM-5.3-Flash Runs on 100,000 Domestic Chips, Tops OpenRouter Usage
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhipu-glm-5-3-flash-runs-on-100000-domestic-chips
-- Summary: Zhipu AI's GLM-5.3-Flash runs entirely on domestic AI chips and is gaining traction across benchmark and usage rankings.
-
-### Alibaba Launches a Rebuilt Qoder Coding Agent Aimed at Non-Developers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qoder-coding-agent-now-for-everyone
-- Summary: Alibaba's refreshed Qoder turns coding into a conversational workbench for everyone, not just professional developers.
-
-### HarmonyOS Is Now the World's Third-Largest Mobile Operating System, Huawei Says
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/harmonyos-world-third-largest-mobile-operating-system
-- Summary: Huawei's HarmonyOS tops 100,000 native apps and 80 million devices as it closes in on 100 million users.
-
-### China Sets a Unified Rocket-Satellite Interface to Industrialize Its LEO Constellations
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-leo-constellation-unified-satellite-rocket-interface
-- Summary: A new national standard unifies flat-satellite rocket interfaces, letting China's low-Earth-orbit constellations scale like a production line.
-
-### [AINews] OpenAI to reach AGI bar by end-2026
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by
-- Summary: It&#8217;s Time. We&#8217;re in the Endgame now.
-
-### EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.26107
-- Summary: arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient...
-
-### Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.26109
-- Summary: arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a...
-
-### Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2608.26111
-- Summary: arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including...
 

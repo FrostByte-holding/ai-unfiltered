@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 05 Sep 2026 21:57:56 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 06 Sep 2026 03:31:31 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores</title>
+            <link>https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</link>
+            <guid>https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html</guid>
+            <pubDate>Sat, 05 Sep 2026 20:14:47 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html">The Hacker News</source>
+            <category>security</category>
+            <description>Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store&#x27;s server without logging in, Dutch e-commerce security company Sansec said in an&amp;nbsp;advisory published on September 5. Sansec, which discovered the...</description>
+        </item>
         <item>
             <title>Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials</title>
             <link>https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html</link>
@@ -61,15 +70,6 @@
             <source url="https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html">The Hacker News</source>
             <category>security</category>
             <description>A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of...</description>
-        </item>
-        <item>
-            <title>Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</title>
-            <link>https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html</link>
-            <guid>https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html</guid>
-            <pubDate>Sat, 05 Sep 2026 07:31:53 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html">The Hacker News</source>
-            <category>security</category>
-            <description>Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass...</description>
         </item>
         <item>
             <title>AutoGraphForge: Towards Automated Graph Theory Discovery</title>
@@ -432,6 +432,24 @@
             <description>3D Foundation Models (3DFMs) such as VGGT have recently pushed the boundaries of 3D vision by predicting rich unified representations with feed-foward transformers. The scene representations learned by these models enable strong performance on multiple 3D vision tasks. In this paper, we investigate...</description>
         </item>
         <item>
+            <title>Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs</title>
+            <link>https://tldr.takara.ai/p/2609.04168</link>
+            <guid>https://tldr.takara.ai/p/2609.04168</guid>
+            <pubDate>Thu, 03 Sep 2026 17:53:44 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.04168">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not...</description>
+        </item>
+        <item>
+            <title>Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments</title>
+            <link>https://tldr.takara.ai/p/2609.04148</link>
+            <guid>https://tldr.takara.ai/p/2609.04148</guid>
+            <pubDate>Thu, 03 Sep 2026 17:41:05 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.04148">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution...</description>
+        </item>
+        <item>
             <title>The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs</title>
             <link>https://tldr.takara.ai/p/2609.04110</link>
             <guid>https://tldr.takara.ai/p/2609.04110</guid>
@@ -439,24 +457,6 @@
             <source url="https://tldr.takara.ai/p/2609.04110">HF Daily Papers</source>
             <category>open-source</category>
             <description>Seeing frames in order does not mean representing time. Modern VideoLMs receive ordered video streams, yet their main supervision acts on generated text rather than video-token representations where event dynamics should first emerge. This mismatch allows models to learn temporal answers from...</description>
-        </item>
-        <item>
-            <title>Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis</title>
-            <link>https://tldr.takara.ai/p/2609.04096</link>
-            <guid>https://tldr.takara.ai/p/2609.04096</guid>
-            <pubDate>Thu, 03 Sep 2026 17:03:11 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.04096">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp policies, AdaRoboVLG learns an efficient...</description>
-        </item>
-        <item>
-            <title>TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models</title>
-            <link>https://tldr.takara.ai/p/2609.04071</link>
-            <guid>https://tldr.takara.ai/p/2609.04071</guid>
-            <pubDate>Thu, 03 Sep 2026 16:43:36 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.04071">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Pathology foundation models improve transferable representation learning for histopathology, but recent gains often rely on encoders with hundreds of millions of parameters and high inference cost. We propose TAP-Path, a task-adaptive compression framework that directly restructures a pretrained...</description>
         </item>
     </channel>
 </rss>
