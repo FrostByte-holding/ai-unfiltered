@@ -552,6 +552,12 @@
 - URL: https://tldr.takara.ai/p/2609.04110
 - Summary: Seeing frames in order does not mean representing time. Modern VideoLMs receive ordered video streams, yet their main supervision acts on generated text rather than video-token representations where event dynamics should first emerge. This mismatch allows models to learn temporal answers from...
 
+### Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04108
+- Summary: Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals within a single step: either...
+
 ### Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis
 - Source: HF Daily Papers
 - Category: open-source
@@ -694,6 +700,12 @@
 - URL: https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html
 - Summary: An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of observed activity was associated with the United States, making it the...
 
+### Federated Causal Discovery via Regression-Directed Cumulants
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03705
+- Summary: In this paper we study linear non-Gaussian acyclic models (LiNGAM) when used in federated environments. These causal models allow one to go beyond Markov equivalence. However, in many domains data are scarce, and increasing the sample size by centralising data from different clients is not...
+
 ### MetaStructAtlas: A Grounded 3D Vision-Language Dataset and Benchmark for Functional and Structural Reasoning in Whole-Body PET/CT
 - Source: HF Daily Papers
 - Category: open-source
@@ -825,6 +837,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.03483
 - Summary: Air-ground collaborative Vision-and-Language Navigation (VLN) pairs an unmanned aerial vehicle (UAV) with a global bird's-eye view and an unmanned ground vehicle (UGV) with a local first-person view, yet the setting remains largely unexplored: existing training-free methods solve single-agent tasks...
+
+### When Retrieval Helps: Selective Retrieval for Single-Turn Mental-Health QA
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03454
+- Summary: Retrieval-augmented generation (RAG) can improve the specificity and grounding of large language model responses, but its effect is not uniformly beneficial in single-turn mental-health question answering, where user queries often combine emotional distress, treatment concerns, and safety-sensitive...
 
 ### When Do Frozen VLMs Respond to Image-Free Object-Token Edits? An Answer-Key-Free Protocol and What It Reveals
 - Source: HF Daily Papers
@@ -2042,6 +2060,12 @@
 - URL: https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/
 - Summary: Three critical issues in the Fireware OS iked process could allow unauthenticated attackers to execute arbitrary code remotely. The post WatchGuard Patches Critical Vulnerabilities appeared first on SecurityWeek.
 
+### In-Context Neurofeedback: Can LLMs Control Their Internal Representations through Privileged Access?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.00904
+- Summary: Whether large language models (LLMs) can control their own internal representations matters for both machine metacognition and AI safety. A recent study applied neurofeedback to LLMs and claimed that they can control their internal representations. However, the reported control may rely on...
+
 ### Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis
 - Source: The Hacker News
 - Category: security
@@ -2698,6 +2722,12 @@
 - URL: https://tldr.takara.ai/p/2608.30270
 - Summary: Indirect speech acts (ISAs) require pragmatic reasoning over context, as directive intent can- not be inferred from surface form alone. Prior text-based studies and existing multimodal benchmarks largely overlook this requirement, focusing instead on explicitly encoded context or perceptual...
 
+### Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30252
+- Summary: Long-context LLM applications such as document summarization and multi-turn agents require generation from prefixes spanning tens of thousands of tokens, making decoding latency a major bottleneck. Speculative decoding (SD) reduces latency without changing model outputs, but its speedup depends on...
+
 ### CoLa-ICD: A Knowledge-Enhanced Framework for Long-Tail Automated Medical Coding
 - Source: HF Daily Papers
 - Category: open-source
@@ -2988,34 +3018,4 @@
 - Category: security
 - URL: https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/
 - Summary: Nearly 130 tech and cybersecurity companies back a collective call to boost cyber defenses as AI-enabled attacks grow more sophisticated. The post Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge appeared first on SecurityWeek.
-
-### China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
-- Summary: VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and...
-
-### Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/
-- Summary: New research shows that country-of-origin labels can obscure an AI model’s upstream dependencies, inherited behaviors and potential security risks. The post Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says appeared first on SecurityWeek.
-
-### Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html
-- Summary: cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported versions of cPanel...
-
-### How to sign up for a virtual power plant—and decide whether you should
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/
-- Summary: MIT Technology Review’s How To series helps you get things done.&#160; Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to treat them like one. A virtual power plant, or VPP, is a...
-
-### PaperCut Releases Emergency Patch for Exploited Zero-Day
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
-- Summary: A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations. The post PaperCut Releases Emergency Patch for Exploited Zero-Day appeared first on SecurityWeek.
 
