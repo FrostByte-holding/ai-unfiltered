@@ -6,6 +6,18 @@
 
 ## 2026-09-06
 
+### Purchased domains from registrar not appearing in Cloudflare Dashboard
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/1ghtnh94pby6
+- Summary: Sep 6, 17:06 UTCInvestigating - We are investigating reports of delays in the provisioning of newly purchased domains. Our engineering team is currently working to resolve these delays affecting domain registration.
+
+### Service Connectivity Issues in Canberra
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/htwds1qczkzd
+- Summary: Sep 6, 16:36 UTCInvestigating - Customers may experience intermittent connectivity issues when accessing services through our Canberra (CBR01) data center. Our team is actively working to restore normal service.
+
 ### DeepSeek Plans 160,000 Huawei Ascend 950DT Chips for Inner Mongolia Inference Cluster
 - Source: Pandaily
 - Category: chinese-ai
@@ -1093,6 +1105,12 @@
 - URL: https://arxiv.org/abs/2609.01832
 - Summary: arXiv:2609.01832v1 Announce Type: new Abstract: Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score. Large language models (LLMs) can potentially capture various symptoms and their severity from patient...
 
+### PointGT: Simultaneous Geometry and Texture Editing for Point-Based Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03341
+- Summary: We present PointGT, a point-based 3D representation that enables simultaneous editing of object geometry and appearance. Existing reconstruction and view synthesis techniques produce volumetric 3D representations that are high-quality and photorealistic, but are difficult to edit. In particular,...
+
 ### Introducing SINFONIA: Symplectic, slimplectic and Magnusian (Neural) Flows for Orbital Numerical Integration and Acceleration
 - Source: HF Daily Papers
 - Category: open-source
@@ -1176,6 +1194,12 @@
 
 
 ## 2026-09-02
+
+### The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03218
+- Summary: Large Language Models (LLMs) increasingly use user context such as memory, profiles, and role prompts to personalize their responses. This personalization can affect evidence-based judgment: the same evidence may lead to different conclusions under different user contexts. Finance provides a...
 
 ### Elevated errors for Claude Sonnet 5
 - Source: Anthropic Status
@@ -1767,6 +1791,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.02039
 - Summary: Vision-language models (VLMs) have achieved remarkable performance by leveraging complementary information from large-scale image-text pairs. However, missing-modality inputs are commonly encountered during real-world deployment, often leading to significant performance degradation. Existing...
+
+### Detecting Object Hallucinations in Large Vision-Language Models via Cross-Modal Attention Drifts and Mask-Based Verification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02028
+- Summary: Despite recent advances in large vision-language models (LVLMs), object hallucination remains a major barrier to their reliable deployment. Existing detection methods often characterize visual grounding using attention from individual layers, leaving its evolution across layers underexplored. We...
 
 ### Cloudflare Workers Issues in Narita
 - Source: Cloudflare Status
@@ -2443,6 +2473,12 @@
 - URL: https://tldr.takara.ai/p/2609.00222
 - Summary: Large language models (LLMs) are increasingly used as judges for subjective tasks, where annotators disagree and the relevant question is not only how accurate a judge is, but whose judgments it reproduces. Sociodemographic prompting conditions the judge on an annotator's demographic profile to...
 
+### LLM-Driven Autonomous Vehicles Inherit Human Driver Biases in Pedestrian Yielding: Results and Implications From A New Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.00192
+- Summary: Public trust in Autonomous Vehicles (AVs) may depend not only on technical success but also on the fairness of their decision making. While a recent trend in AV research involves using general purpose "common sense" models to guide AV decision making, the degree to which these inherit human biases...
+
 ### Synthetic Worlds for Temporal Evaluation and Knowledge Updating in LLMs
 - Source: HF Daily Papers
 - Category: open-source
@@ -2917,6 +2953,12 @@
 - URL: https://tldr.takara.ai/p/2608.30207
 - Summary: Computer use agents (CUAs) are vision-language models that perceive a screen and act on a real operating system through mouse, keyboard, and terminal, and they are increasingly deployed to automate everyday digital tasks. Because they can be exposed to untrusted content while operating, they are...
 
+### When Models Hear What They Expect: Diagnosing Prosodic Heuristics in Multimodal Sarcasm Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2608.30204
+- Summary: Multimodal Large Language Models (MLLMs) process speech and text jointly, yet whether they exploit prosodic cues for pragmatic inference or rely on surface acoustic patterns has received little systematic investigation. We address this through sarcasm detection, evaluating Qwen2.5-Omni and...
+
 ### TPR-Attention for Combinatorial Generalization
 - Source: HF Daily Papers
 - Category: open-source
@@ -2979,46 +3021,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html
 - Summary: Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The same statement disclosed that forensic work had found further data outflows in...
-
-### Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html
-- Summary: Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by Cosmos Labs and was published without a CVE...
-
-### Elevated errors on Claude Code and Claude Cowork
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/vr9tpk8w7zr8
-- Summary: Aug 28, 20:21 UTC Resolved - The issue affecting Claude Cowork and Claude Code on the web has been resolved. Aug 28, 18:21 UTC Monitoring - A mitigation has been applied for the issue affecting Claude Cowork and Claude Code on the web, and we are monitoring for recovery. Sessions that disconnected...
-
-### Increased HTTP 5xx Errors in Singapore
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/7rlsppn13h62
-- Summary: Aug 28, 17:58 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 28, 17:40 UTCIdentified - We are continuing to work on a fix for this issue.Aug 28, 17:39 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 28, 17:36 UTCInvestigating -...
-
-### Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html
-- Summary: Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional hardening. "This vulnerability gives an unauthenticated attacker remote control over PaperCut's...
-
-### Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html
-- Summary: Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks. Topping the list is support for Encrypted Client Hello (ECH), a privacy standard that prevents networks...
-
-### ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body...
-
-### In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions/
-- Summary: Noteworthy stories that might have slipped under the radar: Manchester Airports Group cyberattack, Carhartt breach data was partly fake, U.S. Bank responds to ransomware gang’s claims. The post In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions appeared first on SecurityWeek.
 
