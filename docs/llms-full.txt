@@ -4,6 +4,21 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-08
+
+### Cache Reserve Issue in Paris
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/qz292kvy220g
+- Summary: Sep 8, 03:25 UTCInvestigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region. We are working to analyse and mitigate this problem. More updates to follow shortly.
+
+### Cloudflare Account Member Invite Issue
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/pjr4m9q1xxb1
+- Summary: Sep 8, 01:42 UTCResolved - This incident has been resolved.Sep 8, 01:32 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 8, 00:35 UTCInvestigating - Cloudflare customers may experience an issue when invited to a new account. An error message is displayed, "Invaild...
+
+
 ## 2026-09-07
 
 ### The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)
@@ -11,6 +26,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/aeo
 - Summary: Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.
+
+### PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html
+- Summary: Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. "Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge...
 
 ### Issues rendering route configuration table in Networking > Routes UI
 - Source: Cloudflare Status
@@ -95,6 +116,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html
 - Summary: Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntress, three unrelated incidents have been found to use diverse initial access...
+
+### Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
+- Summary: A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in...
+
+### N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+- Summary: Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say that is unconfirmed. N-able has released its&nbsp;fourth hotfix&nbsp;in five weeks...
 
 ### Geespace Turns LEO Satellite IoT Into a Car Feature—and a Business
 - Source: Pandaily
@@ -221,6 +254,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.04350
 - Summary: arXiv:2609.04350v1 Announce Type: new Abstract: How do people learn to become better conversationalists? This question is especially important in the context of mental-health counseling, where conversational skills are essential, yet volunteer counselors often have limited access to supervision and...
+
+### A Removal Based Approach to Improve LLM Faithfulness at Test-Time
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.04343
+- Summary: arXiv:2609.04343v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for consequential decisions, making their explanations an important tool for auditing model behavior. Unfortunately, these explanations can be unfaithful, failing to reflect the actual reasoning...
+
+### Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.04373
+- Summary: arXiv:2609.04373v1 Announce Type: new Abstract: Large language models (LLMs) are being deployed at scale in consequential real-world systems, from financial markets to content moderation to hiring. We show that improving individual model capability can degrade rather than improve system-level...
+
+### Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.04377
+- Summary: arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path...
+
+### HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.04444
+- Summary: arXiv:2609.04444v1 Announce Type: new Abstract: Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents...
+
+### PerfReasoning: How Well Do LLMs Reason on Hardware Performance?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.04476
+- Summary: arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs...
+
+### BER-PEF: Unified Human Mobility Predictability Evaluation via Bayes Error Rate Estimation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.04292
+- Summary: arXiv:2609.04292v1 Announce Type: new Abstract: Human mobility predictability concerns the best prediction performance attainable from a given target and input information, but its ground truth is not directly observable on real mobility data. We present BER-PEF, a Bayes-error-rate-based framework...
+
+### Data-Driven Learning of Unknown Nonlinear Differential Equations Using Functional Analysis
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.04329
+- Summary: arXiv:2609.04329v1 Announce Type: new Abstract: In this paper, the problem of data-driven discovery of nonlinear ordinary differential equations (ODEs) is recast, and a new interpretable machine learning (ML) method is proposed. The proposed method aims to learn the unknown vector field of...
+
+### Modular Deep Recurrent Neural Network: Application to Quadrotors
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.04339
+- Summary: arXiv:2609.04339v1 Announce Type: new Abstract: A modular deep Recurrent Neural Network (RNN) is introduced to facilitate the process of deploying various architectures of RNNs, and to automatically compute derivatives for gradient-based learning methods. The modularity leads to a set of new...
+
+### SharedSAE: One Feature Dictionary Across Language Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.04344
+- Summary: arXiv:2609.04344v1 Announce Type: new Abstract: Sparse autoencoders (SAEs) are widely used to interpret language model activations, but SAE training and latent labelling are typically repeated for every model. Here, we show that a single shared SAE can replace a collection of dedicated per-model...
+
+### A Quantum Variational Approach to Prototypical Recurrent Unit
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.04354
+- Summary: arXiv:2609.04354v1 Announce Type: new Abstract: We introduce a lightweight Quantum Prototypical Recurrent Unit (QPRU) that requires significantly fewer parameters than both classical recurrent architectures, such as Long Short- Term Memory (LSTM) and Gated Recurrent Unit (GRU), and quantum...
+
+### VERGE: Verification-Enhanced Refinement for Grounded Extraction of Early-Onset Colorectal Cancer Symptoms in Clinical Notes
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.04366
+- Summary: arXiv:2609.04366v1 Announce Type: new Abstract: Early-onset colorectal cancer is increasing among younger adults, yet red-flag symptoms in this age group have no evidence-based guidelines for follow-up testing, and structured encounter data do not capture the detail needed to support early...
+
+### You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.04384
+- Summary: arXiv:2609.04384v1 Announce Type: new Abstract: Chinese online comments often convey social meaning through indirect and playful language that is hard to interpret without context. Existing evaluations largely organize items around predefined phenomena or controlled pragmatic categories, leaving...
+
+### Evaluation of Phonetic Encoding Algorithms on Transcription Datasets
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.04391
+- Summary: arXiv:2609.04391v1 Announce Type: new Abstract: In this work, a novel evaluation scheme built on a generalized variant of the Rand Index measure, namely, the H\"ullermeier-Rifqi Index, is proposed in order to assess how well phonetic encoding algorithms conform to word-based transcriptions in IPA...
+
+### The Anatomy of an ASR Hallucination
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.04404
+- Summary: arXiv:2609.04404v1 Announce Type: new Abstract: ASR systems sometimes produce fluent text that is unrelated to the speech they receive. We view these hallucinations as one possible consequence of a broader grounding failure, in which the transcript is no longer adequately guided by the audio. To...
+
+### A Systematic Evaluation of Cross-Lingual Consistency Enhancement Methods in Multilingual Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.04409
+- Summary: arXiv:2609.04409v1 Announce Type: new Abstract: Multilingual language models often produce inconsistent answers to semantically equivalent questions across languages, motivating methods to improve cross-lingual consistency (CLC). However, existing methods are typically evaluated using different...
 
 ### How Far Are China's Humanoids From a Real 'ChatGPT Moment'?
 - Source: Pandaily
@@ -488,6 +611,12 @@
 - Category: security
 - URL: https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/
 - Summary: Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.
+
+### Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.05063
+- Summary: When a customer adds a professional camera to their cart, should the system suggest a matching lens, a generic tripod, or another camera body? Complementary Product Recommendation is vital for comprehensive basket building, yet standard models often fail to distinguish between items that are merely...
 
 ### The Download: selling battlefield drone data and AI reshaping language
 - Source: MIT Tech Review AI
@@ -1669,6 +1798,12 @@
 - URL: https://tldr.takara.ai/p/2609.02566
 - Summary: Machine-learnt corrections can complement numerical weather prediction only if they adapt to the evolving model state while preserving dynamical consistency and numerical stability. To test this within a global forecasting model, we couple the Met Office (UKMO) Unified Model (UM) with distributed...
 
+### Stereo 4D Radar for 3D Object Detection: Integrating Geometric Alignment and Absolute Velocity Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02560
+- Summary: Four-dimensional (4D) Radar is a powerful sensing modality capable of detecting surrounding three-dimensional (3D) objects under diverse weather conditions and providing Doppler-based motion information. However, raw 4D Radar signals contain significant clutter from road surfaces, guardrails, and...
+
 ### BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access
 - Source: The Hacker News
 - Category: security
@@ -2229,6 +2364,12 @@
 - URL: https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
 - Summary: Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in...
 
+### From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.01564
+- Summary: Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and...
+
 ### A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains
 - Source: HF Daily Papers
 - Category: open-source
@@ -2788,6 +2929,12 @@
 
 ## 2026-08-31
 
+### Less Is More: Balancing Positive and Negative Space in Visual Concept Blending
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.00476
+- Summary: Graphic designers often blend visual concepts to communicate multiple ideas within a single image, leveraging positive and negative space to create balance, emphasis, and aesthetic appeal. While computational methods have begun to support automatic concept blending, they largely overlook the role...
+
 ### Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2871,148 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2608.31076
 - Summary: Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required...
-
-### FaceSnap: Real-Time Personalized Lightstage Facial Performance Capture
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.31033
-- Summary: Lightstage facial capture produces production-quality digital humans, but it is resource and labor-intensive. Multi-camera setups, hours of computation, and massive data storage create bottlenecks that hinder iterative workflows. This paper introduces FaceSnap, an end-to-end framework that...
-
-### SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.31023
-- Summary: We study dynamic Gaussian Splatting from monocular videos. While recent advancements in dynamic Gaussian splatting offer a promising foundation for modeling dynamic scenes, they often overfit to the training views and fail under occlusion or complex scene motion due to the lack of reliable...
-
-### A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30976
-- Summary: Real-world time-series forecasting is rarely a one-shot model invocation: practitioners must formulate tasks, connect data and models, incorporate domain expertise, assess prediction plausibility, and communicate uncertainty. Specialized forecasting models provide strong numerical predictions but...
-
-### LOCI: A Locator-Critic with Refinement Loop
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30959
-- Summary: Vision-Language Models (VLMs) still struggle on tasks requiring complex visual understanding. We argue that the core issue is not high-level reasoning, but instead failing to locate critical details in the image. Due to this shortcoming, VLMs generate often plausible but incorrect reasoning based...
-
-### One Policy Is Enough: Single-Agent Reinforcement Learning Outperforms Tree Search for Chemistry Tool Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30952
-- Summary: Chemistry questions often demand exact computation and database lookups that a language model cannot supply from its parameters, so it must reach for external tools. Tool use here is a three-part problem: select the right tool from a large pool, fill it with correctly typed arguments, and chain...
-
-### ChatGPT Work seeing elevated errors and latency
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M1C5M4K0WC8PPT0Z175RJA1E
-- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. Plus users are particularly impacted, where Work mode is currently unavailable. We are working on implementing a mitigation.Affected components ChatGPT Work (Partial outage)
-
-### Workers KV experiencing elevated error rates in Western Europe Region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/kby271yt9vwx
-- Summary: Aug 31, 15:04 UTCResolved - This incident has been resolved.Aug 31, 12:40 UTCMonitoring - We are continuing to monitor for any further issues.Aug 31, 12:40 UTCMonitoring - A fix has been implemented and we are monitoring the results.Aug 31, 11:02 UTCInvestigating - We are investigating an issue...
-
-### CARVE: Verified Expansion for Variable-Length Generation in Diffusion Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30922
-- Summary: Masked diffusion language models predict tokens from a partially observed response canvas, enabling bidirectional conditioning and parallel token refinement. Yet standard masked-diffusion decoders use a rigid inference interface: the number of masked positions allocated to the answer is fixed...
-
-### Cloudflare Access bypass IP service experiencing availability issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/fcdl2yb3q7qw
-- Summary: Aug 31, 14:50 UTCResolved - This incident has been resolved.Aug 31, 13:08 UTCIdentified - The issue has been identified and a fix is being implemented.Aug 31, 11:40 UTCInvestigating - We are investigating an issue affecting the Access IP List service, which may result in failures when bypassing...
-
-### Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/
-- Summary: Kaspersky told SecurityWeek that it patched the vulnerability affecting its Endpoint Security product. The post Nightmare Eclipse Drops &#8216;HardBreacher&#8217; Kaspersky Product Exploit appeared first on SecurityWeek.
-
-### Vocal Music under Phoneme-Conditional Analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30823
-- Summary: The vocal music of each language carries a distinctive sonic identity, even without instrumental accompaniment. We ask whether these differences are measurable and traceable to specific phonemes. To tackle this question, we introduce phoneme-conditional analysis, which isolates the acoustic effect...
-
-### ServiceNow Patches 3 Critical Code Injection Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/servicenow-patches-3-critical-code-injection-vulnerabilities/
-- Summary: Attackers could exploit the security defects to execute arbitrary code and access or tamper with data. The post ServiceNow Patches 3 Critical Code Injection Vulnerabilities appeared first on SecurityWeek.
-
-### ⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html
-- Summary: The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent decided its assigned task was optional....
-
-### ChessQueries: Toward Better Chess Board Recognition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30762
-- Summary: Chess board recognition is the task of mapping the image of a chess board to the information of which piece is on which square. So far this task has two established benchmarks: ChessCog is synthetic, and ChessReD comes from smartphone pictures of a single chess board setup. We introduce...
-
-### Autoregressive Mosaics: Probing 2D Spatial Reasoning in Text-Only Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30751
-- Summary: Large language models (LLMs) trained only on text and code can sometimes generate programs that draw recognizable images. However, it is unclear whether this reflects an internal representation of 2D spatial layout or simply the ability to translate spatial descriptions into code. We introduce...
-
-### McKesson Confirms Data Breach as Attacker Deadline Looms
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
-- Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek.
-
-### SegWave: Wavelet-Driven Segmentation of Tampered Regions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30714
-- Summary: Verifying image authenticity is increasingly difficult, posing serious risks across journalism, law enforcement, and political domains. Most existing forensic methods rely on high-level visual artifacts and treat frame detection as a simple binary task. To address this, we propose SegWave, a hybrid...
-
-### Failure or Drift? Evaluating Monocular SLAM under Synthetic and Real-World Corruptions
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30690
-- Summary: Visual SLAM is commonly evaluated on clean trajectories, although deployment failures are often caused by adverse weather, illumination, blur, and sensor artifacts. Controlled corruptions are attractive because they isolate such factors, but a synthetic stress test is useful only when it leads to...
-
-### UFPR-PEs: A Brazilian Face Recognition Benchmark with Self-Declared Race/Color Labels
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30688
-- Summary: While face recognition systems are widely deployed, ensuring their demographic reliability and robustness under uncontrolled visual conditions remains a critical challenge. To bridge this gap, we present UFPR-PEs, a benchmark for face recognition bias evaluation using public videos of elected...
-
-### Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2608.30686
-- Summary: Coding agents are increasingly used for software engineering tasks, including bootstrapping projects from third-party repositories whose integrity cannot be assumed. Prior work on repository poisoning largely focuses on attacker-controlled injection and disguise, but developers also shape risk...
-
-### What the Hugging Face Incident Teaches Security Leaders About AI Agent Access
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/what-the-hugging-face-incident-teaches-security-leaders-about-ai-agent-access/
-- Summary: Security teams must treat autonomous agents as highly privileged identities. The post What the Hugging Face Incident Teaches Security Leaders About AI Agent Access appeared first on SecurityWeek.
-
-### ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html
-- Summary: The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past users who add such software to their antivirus exclusions. Russian cybersecurity vendor Kaspersky...
-
-### Anthropic Warns Claude Users of Infostealer Malware Infections
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/
-- Summary: The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage. The post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek.
-
-### Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html
-- Summary: Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The two independent analyses are based on exposed...
 
