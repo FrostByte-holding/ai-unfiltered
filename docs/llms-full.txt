@@ -6,6 +6,24 @@
 
 ## 2026-09-08
 
+### Microsoft Plugs Nearly 1,000 Security Holes
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/
+- Summary: Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many...
+
+### Intermittent issues accessing the Dashboard on Firefox and Safari
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/hy0gsndpkypz
+- Summary: Sep 8, 20:25 UTCResolved - This incident has been resolved.Sep 8, 20:20 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 8, 20:03 UTCInvestigating - We are continuing to investigate this issue.Sep 8, 19:39 UTCInvestigating - Cloudflare is investigating intermittent...
+
+### Errors in Unified Billing for some requests OpenAI models
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/kq11rg5y66f2
+- Summary: Sep 8, 18:00 UTCResolved - Customers using Unified Billing may have seen a low number of requests to OpenAI models result in errors from 18:01 to 18:34UTC on 8th of September 2026
+
 ### Elevated errors for image generation
 - Source: OpenAI Status
 - Category: incidents
@@ -1404,6 +1422,12 @@
 - URL: https://tldr.takara.ai/p/2609.03582
 - Summary: State-of-the-art AI weather models have shown impressive medium-range forecast skill and computational efficiency, but suffer two key shortcomings: their forecasts have lower spatial and temporal resolution than the best physics-based models and they are exclusively initialized with and trained on...
 
+### From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.04286
+- Summary: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized narrative review traces that development from bilateral retrieval...
+
 ### Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone
 - Source: The Hacker News
 - Category: security
@@ -1812,6 +1836,12 @@
 - URL: https://tldr.takara.ai/p/2609.03153
 - Summary: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner compiles the prompt...
 
+### Large Language Models in Resolving Contextual Knowledge Conflicts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03148
+- Summary: Most prior works focused on conflicts between an LLM's internal parametric knowledge and externally provided context. In contrast, we investigate how LLMs handle conflicts that arise within contextual knowledge itself. We introduce a taxonomy of six types of contextual conflicts (factual,...
+
 ### SLIDEFORGE: An LLM Agent for Controllable Editing of Slides as Structured Artifacts
 - Source: HF Daily Papers
 - Category: open-source
@@ -1830,6 +1860,12 @@
 - URL: https://status.openai.com//incidents/01M1HN7GRR6FJNWFVX2F8QMA3R
 - Summary: Status: ResolvedThe issue affecting new account creation has been resolved.
 
+### Differentially private federated learning with Byzantine-robust aggregation: A cross-domain framework for secure model training in banking and healthcare systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03064
+- Summary: Federated learning allows banks, hospitals, and other regulated organizations to train a shared model without moving raw records off their own servers, which is attractive wherever data protection law or competitive sensitivity rules out pooling data centrally. Two problems limit how far this...
+
 ### Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs
 - Source: The Hacker News
 - Category: security
@@ -1847,6 +1883,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.03026
 - Summary: Mechanistic interpretability is increasingly used to guide interventions such as activation steering, circuit removal, and safety monitoring. Yet an internal estimate that is accurate on average can still choose a poor action. We present ObserverBench, a benchmark framework for testing whether an...
+
+### Unifying Conformal Language Tasks with In-Context Ensembles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.03005
+- Summary: Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as possible. Conformal...
 
 ### UE5M3 FP4 Block Scaling for Stable Language Model Pretraining
 - Source: HF Daily Papers
@@ -2427,6 +2469,12 @@
 - URL: https://tldr.takara.ai/p/2609.02055
 - Summary: Privacy policies may contain internal contradictions in which commitments are undermined by practices documented elsewhere in the same policy. We operationalize this phenomenon, privacy washing, through a four-stage pipeline: statement extraction, compatibility filtering and natural language...
 
+### A Tri-Agent Framework for Evaluating and Aligning Question Clarification Capabilities of Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.02054
+- Summary: Large Language Models (LLMs) are increasingly deployed in interactive systems where understanding user intent precisely is paramount. A key capability for such systems is effective question clarification, especially when user queries are ambiguous or underspecified. This paper introduces a novel...
+
 ### Test-Time Logit Prompting for Source-Free Missing Modality Adaptation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2967,52 +3015,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2608.28594
 - Summary: arXiv:2608.28594v1 Announce Type: new Abstract: Conversational analytics systems assume the user already has a well-formed question, leaving a non-expert facing a blank query box on an unfamiliar enterprise schema. Commercial 'proactive' tools narrow this gap only by detecting statistical anomalies...
-
-### Conservative Hybrid Graph Networks for Process Systems with Learned Routing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.28896
-- Summary: arXiv:2608.28896v1 Announce Type: new Abstract: Industrial process networks do not maintain a single effective topology while operating: streams are throttled or bypassed, and units move between idle, transition, and active regimes. Models of such systems are typically trained on measured state...
-
-### Off-Policy Evaluation for Semantic ID Recommenders: Does the Model's Own Code Hierarchy Help?
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.28905
-- Summary: arXiv:2608.28905v1 Announce Type: new Abstract: Generative recommenders increasingly emit semantic IDs (SIDs): each item is a short sequence of hierarchical discrete codes from a residual quantizer, decoded autoregressively. Before spending scarce A/B-test, a team may decide offline which decoder...
-
-### Learning-Theoretic Foundation for General Coded Computing: The Straggler Setting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.28910
-- Summary: arXiv:2608.28910v1 Announce Type: new Abstract: Coded computing has emerged as a powerful paradigm for mitigating the impact of straggling workers in distributed computing systems. However, existing coded-computing schemes are predominantly designed for the exact recovery of highly structured...
-
-### SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.28911
-- Summary: arXiv:2608.28911v1 Announce Type: new Abstract: The key-value (KV) cache is the dominant memory bottleneck of long-context large language model (LLM) inference, growing linearly with context length. We show that uniform KV quantization on a fractional-bit grid does not degrade gracefully: under a...
-
-### RankShift: In-Database Detection and Explanation of Categorical Shifts
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2608.28922
-- Summary: arXiv:2608.28922v1 Announce Type: new Abstract: A login service can receive its usual number of failed sign-ins while one source grows from 2% to 30% of them. The same pattern appears in system logs when a rare event template becomes common while the message rate stays stable. These events change...
-
-### Looking Again: Measuring Sycophancy in the Reasoning Chains of Multimodal Models Under Pressure
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.28623
-- Summary: arXiv:2608.28623v1 Announce Type: new Abstract: Large multimodal reasoning models (LMRMs) are getting increasingly capable, primarily through generating explicit chain-of-thought reasoning before answering. In language models it has been observed that this performance often comes with sycophancy,...
-
-### MA-RAG: Multi-Agent Retrieval-Augmented Generation for Query-Driven Summarization of Longitudinal Parkinson's Disease Assessments
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.28624
-- Summary: arXiv:2608.28624v1 Announce Type: new Abstract: Accurate interpretation of single-visit and longitudinal clinical assessments for Parkinson's disease is time-consuming and often depends on specialist expertise. Although large language models (LLMs) can generate natural language summaries, they...
-
-### Asymmetric Within-Document Predictive Learning for Scientific Document Representation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2608.28625
-- Summary: arXiv:2608.28625v1 Announce Type: new Abstract: We study predictive pretraining for scientific document representation using the discourse structure of papers. We propose SciJEPA, a citation-free framework that learns through asymmetric within-document prediction: title and abstract representations...
 
