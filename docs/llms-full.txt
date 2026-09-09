@@ -6,6 +6,24 @@
 
 ## 2026-09-09
 
+### INC20000211
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/wkhkwq8lfmb2
+- Summary: Sep 9, 22:08 UTC Identified - Current status: We've identified the source of the issue, and we're implementing a fix to restore service. We'll provide another update within 30 minutes.Customer experience: Customers hosted in the specified regions may be unable to access or use multiple core...
+
+### Workers Cron Triggers degraded
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw
+- Summary: Sep 9, 19:18 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 9, 19:17 UTCInvestigating - Workers Cron Triggers may not execute or may be delayed in executing. Updates to Workers Cron Triggers may take some time to take effect.
+
+### Investigating unexpected usage limit resets
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M23KG62KKK448RN434CQ64Z8
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
+
 ### Increased Error Rate For Pro and Plus Plan Conversations
 - Source: OpenAI Status
 - Category: incidents
@@ -16,6 +34,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
+
+### Increased HTTP Errors
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs
+- Summary: Sep 9, 15:30 UTCResolved - Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating...
 
 ### Cloudflare Workers AI increased errors
 - Source: Cloudflare Status
@@ -260,6 +284,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/kq11rg5y66f2
 - Summary: Sep 8, 18:00 UTCResolved - Customers using Unified Billing may have seen a low number of requests to OpenAI models result in errors from 18:01 to 18:34UTC on 8th of September 2026
 
+### Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09130
+- Summary: An input may activate few hidden units even when different inputs collectively use an entire network. We study the statistical complexity of this input-dependent sparsity in the one-hidden-layer ReLU model of Awasthi et al. (COLT 2024). For width $s$, at most $k$ active units per input, and...
+
 ### When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay
 - Source: HF Daily Papers
 - Category: open-source
@@ -308,6 +338,12 @@
 - URL: https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/
 - Summary: The startup founded by Palo Alto Networks’ Nir Zuk has raised $290 million to build an AI-native security platform for highly regulated organizations that cannot rely on the public cloud. The post Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta appeared first on SecurityWeek.
 
+### API Benchmark Scores Do Not Reliably Transfer to Chatbot Interfaces
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08861
+- Summary: Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems. We...
+
 ### SAP Patches Critical Extended Passport Processing Vulnerability
 - Source: Security Week
 - Category: security
@@ -354,6 +390,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.08736
 - Summary: We study certificates of positivity and optimality for learning problems whose objectives and constraints need not be polynomial. We isolate an axiomatic core of Fischer's constructive strict and weak Positivstellensätze and prove the resulting theorems for abstract function algebras over ordered...
+
+### GoAnt: Quality-Diversity Multi-Agent Search for Alpha Factor Discovery in Market Microstructure Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08719
+- Summary: Automated alpha factor discovery searches symbolic trading signals from price-volume panels and order-book data under a fixed evaluation budget. Existing single- and multi-agent program-search systems can overfit predictive proxies that fail after execution costs and repeatedly explore redundant...
 
 ### Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft
 - Source: Security Week
@@ -475,6 +517,12 @@
 - URL: https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/
 - Summary: Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his family. A great-aunt in China, the story goes, was killed crossing a road...
 
+### Layer Selection in VLMs for Zero-Shot OOD Detection via Multi-Resolution Entropy Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08524
+- Summary: Out-of-distribution (OOD) detection is crucial for safe deployment of medical AI systems, where domain shifts arise across institutions, acquisition protocols, and patient populations. VLMs enable zero-shot OOD detection by embedding images into a language-aligned latent space, where cross-modal...
+
 ### Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell
 - Source: The Hacker News
 - Category: security
@@ -498,6 +546,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/qz292kvy220g
 - Summary: Sep 8, 03:25 UTCInvestigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region. We are working to analyse and mitigate this problem. More updates to follow shortly.
+
+### Sparse Data Augmentation for Optimization with Provable Guarantees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08133
+- Summary: In nonconvex optimization problems arising in geometric machine learning, data augmentation is commonly used to promote invariance by averaging empirical losses over transformations of the data. Computing the fully augmented objective, however, requires access to every element of the transformation...
 
 ### Cloudflare Account Member Invite Issue
 - Source: Cloudflare Status
@@ -2964,57 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.01588
 - Summary: Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete....
-
-### Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html
-- Summary: Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in...
-
-### From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.01564
-- Summary: Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and...
-
-### A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.01563
-- Summary: Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts, structures, and prioritizes risk intelligence from public corporate disclosures. We present an end-to-end pipeline...
-
-### Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html
-- Summary: Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described the threat actor as "specializing in manipulating...
-
-### Introducing agentic video understanding with Gemini
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
-
-### LatentPress: Context Compression Beyond Text and Vision
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.01507
-- Summary: Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen...
-
-### Degraded performance on Claude for Microsoft Office 365
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/nr3h7bw8b3k3
-- Summary: Sep 1, 16:22 UTC Resolved - This issue has been resolved. Sep 1, 16:02 UTC Investigating - We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.
-
-### PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/pr-not-welcome
-- Summary: Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.
-
-### Delays in commit processing
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/jk2dy5h9yp3m
-- Summary: Sep 1, 16:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 1, 16:00 UTC Update - Time to update pull request diffs have improved to normal...
 

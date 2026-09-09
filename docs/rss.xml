@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 09 Sep 2026 16:07:42 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 22:20:24 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>INC20000211</title>
+            <link>https://status.snowflake.com/incidents/wkhkwq8lfmb2</link>
+            <guid>https://status.snowflake.com/incidents/wkhkwq8lfmb2</guid>
+            <pubDate>Wed, 09 Sep 2026 22:08:06 +0000</pubDate>
+            <source url="https://status.snowflake.com/incidents/wkhkwq8lfmb2">Snowflake Status</source>
+            <category>incidents</category>
+            <description>Sep 9, 22:08 UTC Identified - Current status: We&#x27;ve identified the source of the issue, and we&#x27;re implementing a fix to restore service. We&#x27;ll provide another update within 30 minutes.Customer experience: Customers hosted in the specified regions may be unable to access or use multiple core...</description>
+        </item>
+        <item>
+            <title>Workers Cron Triggers degraded</title>
+            <link>https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw</link>
+            <guid>https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw</guid>
+            <pubDate>Wed, 09 Sep 2026 19:18:25 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Sep 9, 19:18 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 9, 19:17 UTCInvestigating - Workers Cron Triggers may not execute or may be delayed in executing. Updates to Workers Cron Triggers may take some time to take effect.</description>
+        </item>
+        <item>
+            <title>Investigating unexpected usage limit resets</title>
+            <link>https://status.openai.com//incidents/01M23KG62KKK448RN434CQ64Z8</link>
+            <guid>https://status.openai.com//incidents/01M23KG62KKK448RN434CQ64Z8</guid>
+            <pubDate>Wed, 09 Sep 2026 17:54:12 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01M23KG62KKK448RN434CQ64Z8">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.</description>
+        </item>
         <item>
             <title>Increased Error Rate For Pro and Plus Plan Conversations</title>
             <link>https://status.openai.com//incidents/01M23BNX5V1XT9P3NP0PX56FTN</link>
@@ -25,6 +52,15 @@
             <source url="https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
+        </item>
+        <item>
+            <title>Increased HTTP Errors</title>
+            <link>https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs</link>
+            <guid>https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs</guid>
+            <pubDate>Wed, 09 Sep 2026 15:30:00 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Sep 9, 15:30 UTCResolved - Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating...</description>
         </item>
         <item>
             <title>Cloudflare Workers AI increased errors</title>
@@ -369,6 +405,15 @@
             <description>Sep 8, 18:00 UTCResolved - Customers using Unified Billing may have seen a low number of requests to OpenAI models result in errors from 18:01 to 18:34UTC on 8th of September 2026</description>
         </item>
         <item>
+            <title>Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks</title>
+            <link>https://tldr.takara.ai/p/2609.09130</link>
+            <guid>https://tldr.takara.ai/p/2609.09130</guid>
+            <pubDate>Tue, 08 Sep 2026 17:53:03 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.09130">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>An input may activate few hidden units even when different inputs collectively use an entire network. We study the statistical complexity of this input-dependent sparsity in the one-hidden-layer ReLU model of Awasthi et al. (COLT 2024). For width $s$, at most $k$ active units per input, and...</description>
+        </item>
+        <item>
             <title>When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay</title>
             <link>https://tldr.takara.ai/p/2609.09116</link>
             <guid>https://tldr.takara.ai/p/2609.09116</guid>
@@ -405,58 +450,13 @@
             <description>Status: InvestigatingWe’re continuing to investigate file-upload processing failures and delays in ChatGPT. Some files may appear uploaded but remain unavailable while processing; other uploads may fail. We have not confirmed recovery and will share another update as we learn more.Affected...</description>
         </item>
         <item>
-            <title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</title>
-            <link>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</link>
-            <guid>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</guid>
-            <pubDate>Tue, 08 Sep 2026 14:23:07 +0000</pubDate>
-            <source url="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom">Hugging Face Blog</source>
+            <title>API Benchmark Scores Do Not Reliably Transfer to Chatbot Interfaces</title>
+            <link>https://tldr.takara.ai/p/2609.08861</link>
+            <guid>https://tldr.takara.ai/p/2609.08861</guid>
+            <pubDate>Tue, 08 Sep 2026 15:08:37 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.08861">HF Daily Papers</source>
             <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses</title>
-            <link>https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3</link>
-            <guid>https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3</guid>
-            <pubDate>Tue, 08 Sep 2026 14:15:25 +0000</pubDate>
-            <source url="https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3">Interconnects</source>
-            <category>open-source</category>
-            <description>The open model ecosystem continues to expand in its breadth</description>
-        </item>
-        <item>
-            <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
-            <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
-            <guid>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</guid>
-            <pubDate>Tue, 08 Sep 2026 14:00:15 +0000</pubDate>
-            <source url="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">DeepMind Blog</source>
-            <category>research</category>
-            <description>AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</description>
-        </item>
-        <item>
-            <title>When Can One Obtain Certificates of Optimality Using Positivstellensaetze?</title>
-            <link>https://tldr.takara.ai/p/2609.08736</link>
-            <guid>https://tldr.takara.ai/p/2609.08736</guid>
-            <pubDate>Tue, 08 Sep 2026 13:30:18 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.08736">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>We study certificates of positivity and optimality for learning problems whose objectives and constraints need not be polynomial. We isolate an axiomatic core of Fischer&#x27;s constructive strict and weak Positivstellensätze and prove the resulting theorems for abstract function algebras over ordered...</description>
-        </item>
-        <item>
-            <title>SUN: Reaching for Novelty in Reinforcement Learning</title>
-            <link>https://tldr.takara.ai/p/2609.08642</link>
-            <guid>https://tldr.takara.ai/p/2609.08642</guid>
-            <pubDate>Tue, 08 Sep 2026 12:12:13 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.08642">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Exploration in reinforcement learning (RL) remains a fundamental challenge. Recent goal-conditioned RL strategies (which select goals to encourage broader state coverage) have shown promising results, but none scores a goal by novelty and reachability jointly: the two signals are traded off by...</description>
-        </item>
-        <item>
-            <title>The Download: our 35 Innovators Under 35 this year</title>
-            <link>https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/</link>
-            <guid>https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/</guid>
-            <pubDate>Tue, 08 Sep 2026 12:10:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under...</description>
+            <description>Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems. We...</description>
         </item>
     </channel>
 </rss>
