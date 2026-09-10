@@ -6,6 +6,24 @@
 
 ## 2026-09-10
 
+### Elevated latency on the Claude API for some users
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/2pt83vlkk7x7
+- Summary: Sep 10, 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.
+
+### Delays in customer support responses
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M26E3PPAYJMMRHX2MZJCTHMF
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
+
+### Elevated errors affecting ChatGPT Work
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M26DX2PP1AFHGJK5E4M6S2J6
+- Summary: Status: ResolvedAll impacted services are now fully recovered.Affected components ChatGPT Work (Operational)
+
 ### Issues Editing Bulk Redirects
 - Source: Cloudflare Status
 - Category: incidents
@@ -379,6 +397,18 @@
 - URL: https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html
 - Summary: Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp; Information stealers like Lumma Stealer or Vidar are equipped to harvest a...
 
+### Why Sample What You Can Enumerate? Exact Policy Optimization for Genomic Tool Selection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10221
+- Summary: Reinforcement learning over a frozen reasoner has become a common recipe for teaching a policy which external tools to invoke. We show that this recipe becomes structurally mismatched in specialist scientific settings where the complete tool-subset space is enumerable. There, a small set of...
+
+### Who Argues What? Joint Argument-Entity Detection and Classification in Political Debates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10192
+- Summary: Political debates are often analyzed through Argument Mining (AM) to investigate the key arguments that drive them. However, political arguments are rarely interpretable from argumentative spans alone, as claims and premises generally depend on the entities (e.g., people, events, locations,...
+
 ### US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities
 - Source: Security Week
 - Category: security
@@ -517,11 +547,23 @@
 - URL: https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html
 - Summary: Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the...
 
+### Morphological Decoupling-Based Skeletal Classification for Clinical Assessment of Malocclusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09801
+- Summary: Malocclusion skeletal grading is a fundamental task in orthodontics, critical for diagnosis and treatment planning. Traditionally, cone-beam computed tomography (CBCT) is used for visual measurement, and the reconstructed lateral cephalograms are handed over to expert dentists for diagnosis....
+
 ### Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html
 - Summary: The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher...
+
+### ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09778
+- Summary: Long-term language-model agents rely on external memory across interactions. Atomic memories are particularly useful: their fine-grained semantic boundaries enable precise retrieval and direct comparison between observations. Yet accumulating atoms inevitably become redundant, overlapping, or...
 
 ### [AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded
 - Source: Latent Space
@@ -732,6 +774,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/
 - Summary: OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather...
+
+### Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09591
+- Summary: Sixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, and distributed sensing. Vision-language-action (VLA) models offer a foundation by...
 
 ### Towards Automatic Evolution Tree Generation from Citation Graphs
 - Source: HF Daily Papers
@@ -2970,52 +3018,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/real-time-intelligence
-
-### Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html
-- Summary: A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and...
-
-### Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.02566
-- Summary: Machine-learnt corrections can complement numerical weather prediction only if they adapt to the evolving model state while preserving dynamical consistency and numerical stability. To test this within a global forecasting model, we couple the Met Office (UKMO) Unified Model (UM) with distributed...
-
-### Stereo 4D Radar for 3D Object Detection: Integrating Geometric Alignment and Absolute Velocity Estimation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.02560
-- Summary: Four-dimensional (4D) Radar is a powerful sensing modality capable of detecting surrounding three-dimensional (3D) objects under diverse weather conditions and providing Doppler-based motion information. However, raw 4D Radar signals contain significant clutter from road surfaces, guardrails, and...
-
-### BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html
-- Summary: Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor...
-
-### Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.02548
-- Summary: Modern large language models (LLMs) rely on reinforcement learning to build strong capabilities in individual domains, but integrating those capabilities into a single deployable model remains challenging. By routing each sample to the teacher whose domain matches it, existing approaches let a...
-
-### Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/rockwell-automation-patches-over-a-dozen-vulnerabilities-across-products/
-- Summary: The industrial giant has released advisories for its RSLinx Classic, ArmorStart, ControlFLASH, FactoryTalk, and other products. The post Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products appeared first on SecurityWeek.
-
-### Doppio: A Dataset for Contactless Weight Estimation of Falling Particles
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.02528
-- Summary: Measuring the mass of powder, including falling particles, is a common task in industrial applications. While scales are effective for static measurements, many applications require contactless sensing, where existing solutions are often costly, application-specific, and technically complex. In...
-
-### Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html
-- Summary: Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's...
 
