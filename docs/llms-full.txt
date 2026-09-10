@@ -284,6 +284,12 @@
 - URL: https://status.openai.com//incidents/01M23KG62KKK448RN434CQ64Z8
 - Summary: Status: ResolvedAll impacted services have now fully recovered.
 
+### DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10506
+- Summary: Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we...
+
 ### HelmGuard Raises $7.3 Million for Agentic GRC and Security
 - Source: Security Week
 - Category: security
@@ -331,6 +337,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.10364
 - Summary: Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data....
+
+### Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10355
+- Summary: Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal...
 
 ### Increased Error Rate For Pro and Plus Plan Conversations
 - Source: OpenAI Status
@@ -474,6 +486,18 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/
 - Summary: Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes. The surge is putting the country on a trajectory to see...
+
+### Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09895
+- Summary: Video-language models and video agents can produce hallucinations that conflict with spatiotemporal evidence. Existing benchmarks mainly evaluate model hallucinations, and heterogeneous mechanisms make detector reliability difficult to compare. We introduce VidHalLoc, a benchmark that evaluates...
+
+### When Does Defendant Statement Matter? A Study of Bias and Persuasion in LLM-Simulated Jurors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09887
+- Summary: LLMs have been used to simulate human decision-making in professional settings, yet their behaviors in common-law jury trials remain unexplored. We study when and how a defendant's courtroom statement affects LLM-simulated jurors, focusing on persuasion, ideological bias, and background-based...
 
 ### New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root
 - Source: The Hacker News
@@ -708,6 +732,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/
 - Summary: OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather...
+
+### Towards Automatic Evolution Tree Generation from Citation Graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09561
+- Summary: Surveys remain the primary way researchers grasp the lineage of methods within an AI subfield, but they scale poorly against the current rate of publication. Existing taxonomy-induction methods are largely leaf-bound and time-agnostic; they tend to force transitional papers into mature leaves and...
 
 
 ## 2026-09-08
@@ -2988,34 +3018,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html
 - Summary: Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's...
-
-### Exploit Published for Fresh Cleo Harmony Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/
-- Summary: The security defect allows remote attackers to bypass authentication through argument bearer manipulation. The post Exploit Published for Fresh Cleo Harmony Vulnerability appeared first on SecurityWeek.
-
-### The Download: AI puzzles and a path to our nearest star system
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI development. The term “machine...
-
-### Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/
-- Summary: Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards appeared first on SecurityWeek.
-
-### Learning to Fuse LLMs with Ontology Rankers for Rare-Disease Diagnosis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.02473
-- Summary: Ontology rankers remain useful for rare-disease diagnosis because each candidate can be traced to matched patient phenotypes. Large language models (LLMs) can generate differential diagnoses from the same patient description, but their predictions lack an equally clear evidence trail. Rather than...
-
-### Malicious Virtualizor Update Served via BGP Hijacking
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/malicious-virtualizor-update-served-via-bgp-hijacking/
-- Summary: Using a technically valid TLS certificate for Softaculous’ domains, a threat actor diverted traffic to fake software updates. The post Malicious Virtualizor Update Served via BGP Hijacking appeared first on SecurityWeek.
 

@@ -5,7 +5,7 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 10 Sep 2026 16:00:37 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 19:05:43 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
         <item>
@@ -396,6 +396,15 @@
             <description>Status: ResolvedAll impacted services have now fully recovered.</description>
         </item>
         <item>
+            <title>DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation</title>
+            <link>https://tldr.takara.ai/p/2609.10506</link>
+            <guid>https://tldr.takara.ai/p/2609.10506</guid>
+            <pubDate>Wed, 09 Sep 2026 17:41:38 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.10506">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we...</description>
+        </item>
+        <item>
             <title>Searching for New Physics with Reinforcement Learning</title>
             <link>https://tldr.takara.ai/p/2609.10382</link>
             <guid>https://tldr.takara.ai/p/2609.10382</guid>
@@ -423,6 +432,15 @@
             <description>Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data....</description>
         </item>
         <item>
+            <title>Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs</title>
+            <link>https://tldr.takara.ai/p/2609.10355</link>
+            <guid>https://tldr.takara.ai/p/2609.10355</guid>
+            <pubDate>Wed, 09 Sep 2026 15:50:39 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.10355">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal...</description>
+        </item>
+        <item>
             <title>Increased Error Rate For Pro and Plus Plan Conversations</title>
             <link>https://status.openai.com//incidents/01M23BNX5V1XT9P3NP0PX56FTN</link>
             <guid>https://status.openai.com//incidents/01M23BNX5V1XT9P3NP0PX56FTN</guid>
@@ -439,24 +457,6 @@
             <source url="https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>Increased HTTP Errors</title>
-            <link>https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs</link>
-            <guid>https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs</guid>
-            <pubDate>Wed, 09 Sep 2026 15:30:00 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Sep 9, 15:30 UTCResolved - Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating...</description>
-        </item>
-        <item>
-            <title>Cloudflare Workers AI increased errors</title>
-            <link>https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym</link>
-            <guid>https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym</guid>
-            <pubDate>Wed, 09 Sep 2026 15:02:41 +0000</pubDate>
-            <source url="https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym">Cloudflare Status</source>
-            <category>incidents</category>
-            <description>Sep 9, 15:02 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 9, 14:25 UTCInvestigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.</description>
         </item>
     </channel>
 </rss>
