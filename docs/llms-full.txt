@@ -6,6 +6,12 @@
 
 ## 2026-09-12
 
+### CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. Details of the...
+
 ### The Rise of the Forward Deployed Engineer — and How To Do the Job Right
 - Source: Latent Space
 - Category: open-source
@@ -545,6 +551,18 @@
 - Category: security
 - URL: https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/
 - Summary: Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board. The post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek.
+
+### GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11923
+- Summary: Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic tree interface. On...
+
+### CausalArena: Benchmarking Causal Discovery in the Foundation Model Era
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11897
+- Summary: Causal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mechanisms that generate data, yet...
 
 ### 3D Point Splatting for mmWave Radar Novel View Synthesis
 - Source: HF Daily Papers
@@ -1171,6 +1189,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.10364
 - Summary: Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data....
+
+### A Later Test Set Is Not a New Domain: Pretraining Familiarity Survives a Contamination-Free Hold-Out
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10357
+- Summary: Time-series foundation models are evaluated almost exclusively on public archives that predate them, so a strong score cannot be separated from having seen the test set during pretraining. The obvious remedy is a hold-out that postdates the models. We build one: thirteen forecasters -- four...
 
 ### Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs
 - Source: HF Daily Papers
@@ -2070,6 +2094,12 @@
 - URL: https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html
 - Summary: Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy...
 
+### CLUES-WEASEL: No additional clues required to choose your time series clustering algorithm
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.07606
+- Summary: Time series data is very common in many real-world applications and in numerous domains, with increasing interest for automated information extraction using machine learning. One of these subfields is time series clustering, which consists in identifying clusters among a set of time series in an...
+
 ### Browser Isolation Session Initialization Failures
 - Source: Cloudflare Status
 - Category: incidents
@@ -2165,6 +2195,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/origin-wukong-quantum-routing-bucket-qram-98-percent-sep2026
 - Summary: On China's third-generation superconducting Origin Wukong machine, researchers report single quantum routers at 98% transmission efficiency and a two-layer network at 93%.
+
+### FedRAW: Preserving Rare-Label Influence in Asynchronous Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.07192
+- Summary: Asynchronous federated learning improves scalability by updating the global model from a server-side buffer of client updates as they arrive, rather than waiting for all selected clients to finish. While efficient, this arrival-driven aggregation can silently distort representation learning under...
 
 ### Saudi HUMAIN-M3 Builds on MiniMax M3 as Nations Hunt Open-Weight AI Bases
 - Source: Pandaily
@@ -2993,40 +3029,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.04177
 - Summary: Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory of actual causality (AC) gives principled verdicts, but only for toy-sized models, because...
-
-### Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04174
-- Summary: 3D Foundation Models (3DFMs) such as VGGT have recently pushed the boundaries of 3D vision by predicting rich unified representations with feed-foward transformers. The scene representations learned by these models enable strong performance on multiple 3D vision tasks. In this paper, we investigate...
-
-### Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04168
-- Summary: As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not...
-
-### Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04148
-- Summary: As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution...
-
-### The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04110
-- Summary: Seeing frames in order does not mean representing time. Modern VideoLMs receive ordered video streams, yet their main supervision acts on generated text rather than video-token representations where event dynamics should first emerge. This mismatch allows models to learn temporal answers from...
-
-### Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04108
-- Summary: Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals within a single step: either...
-
-### Hardware-Aware FP4 FlashAttention-4
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04105
-- Summary: Blackwell's 4-bit floating-point (FP4) tensor cores do not automatically make attention faster because softmax conversion and on-chip dependencies dominate once its matrix products shrink. We address this with \emph{Direct-P} for noncausal inference and a causal path that passes the forward...
 
