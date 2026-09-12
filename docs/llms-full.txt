@@ -6,6 +6,30 @@
 
 ## 2026-09-12
 
+### The Rise of the Forward Deployed Engineer — and How To Do the Job Right
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/forward-deployed-engineer-best-practices
+- Summary: Before co-founding Kepler, Vinoo Ganesh led compute at Palantir and built Project Frontline &#8212; a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.
+
+### BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/
+- Summary: Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments. The post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityWeek.
+
+### When the Whole Company Adopts AI: What It Does to Your SOC
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html
+- Summary: Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from...
+
+### OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
+- Summary: The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at...
+
 ### Issues creating and updating Cloud Connector Rules
 - Source: Cloudflare Status
 - Category: incidents
@@ -1106,6 +1130,12 @@
 - URL: https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/
 - Summary: Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG. The post AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns appeared first on SecurityWeek.
 
+### Algorithmic stability via ensembling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10428
+- Summary: Algorithmic stability refers to the property of an algorithm being insensitive to perturbations of the input data, where the type of perturbation may vary depending on the setting. In this work, we develop a general framework to quantify the extent to which any ensembling strategy defined via...
+
 ### Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
 - Source: The Hacker News
 - Category: security
@@ -1609,6 +1639,12 @@
 - URL: https://arxiv.org/abs/2609.05797
 - Summary: arXiv:2609.05797v1 Announce Type: new Abstract: Safety monitors screen prompts sent to deployed language models, flagging harmful requests so they are never answered. They are evaluated by recall against harmfulness labels, but a catch only prevents harm if the model would otherwise have complied....
 
+### RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09657
+- Summary: Existing emotional support conversation systems mainly focus on one-on-one seeker-supporter interactions and individual emotional states, leaving interpersonal relations in multi-party scenarios underexplored. In this work, we introduce relation-aware emotional support conversation, a new task that...
+
 ### What OpenAI’s latest controversy tells us about the future of math
 - Source: MIT Tech Review AI
 - Category: research
@@ -1923,6 +1959,12 @@
 - URL: https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/
 - Summary: Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his family. A great-aunt in China, the story goes, was killed crossing a road...
 
+### What Fixed-Rollout pass@k Evaluations Can Identify
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09245
+- Summary: Repeated-sampling evaluations increasingly extrapolate pass@k far beyond the number n of samples collected per problem. We show that, in the pooled/random-task conditional-Binomial model, fixed-n success counts identify only the n free moments of the latent per-task success distribution....
+
 ### Layer Selection in VLMs for Zero-Shot OOD Detection via Multi-Resolution Entropy Estimation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2015,6 +2057,12 @@
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs
 - Summary: Sep 7, 17:12 UTCResolved - This incident has been resolved.Sep 7, 16:46 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 7, 16:11 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 7, 15:52 UTCInvestigating - We are continuing to...
+
+### Decomposition-Guided Diffusion Language Models for Inertial Confinement Fusion Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.07756
+- Summary: Inertial confinement fusion (ICF) is a leading pathway toward clean energy, but each shot at the National Ignition Facility costs on the order of one million dollars, making accurate AI surrogates a high-value target. We study exogenous-driven ICF waveform prediction, where a 512-step neutron-rate...
 
 ### Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks
 - Source: The Hacker News
@@ -2405,6 +2453,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html
 - Summary: Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow...
+
+### SCRIPTIOC-BENCH: A Benchmark for Recognizing Actionable Threat Intelligence from Script-Based Malware using LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.06149
+- Summary: Script-based malware remains a prevalent attack technique. These scripts often contain indicators of compromise (IOCs) that provide actionable threat intelligence. However, statically recovering such indicators is challenging, as relevant values may be dispersed or transformed within code. Although...
 
 ### OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot
 - Source: Latent Space
@@ -2975,57 +3029,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.04105
 - Summary: Blackwell's 4-bit floating-point (FP4) tensor cores do not automatically make attention faster because softmax conversion and on-chip dependencies dominate once its matrix products shrink. We address this with \emph{Direct-P} for noncausal inference and a causal path that passes the forward...
-
-### Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04096
-- Summary: This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp policies, AdaRoboVLG learns an efficient...
-
-### TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04071
-- Summary: Pathology foundation models improve transferable representation learning for histopathology, but recent gains often rely on encoders with hundreds of millions of parameters and high inference cost. We propose TAP-Path, a task-adaptive compression framework that directly restructures a pretrained...
-
-### Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html
-- Summary: Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no...
-
-### Elevated errors across ChatGPT and Codex
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M1KWEDH417T2CF44YYHZDFCR
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components GPTs (Degraded performance) Codex Web (Degraded performance) ChatGPT Atlas (Degraded performance) CLI (Degraded performance) Conversations (Degraded performance) Compliance API (Degraded...
-
-### Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/
-- Summary: Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys. The post Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal appeared first on SecurityWeek.
-
-### BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html
-- Summary: Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. "Unlike the standard infostealer model, BraZetsu is a comprehensive master toolkit that...
-
-### Elevated errors for multiple models
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/461yvfrzpwtt
-- Summary: Sep 3, 15:25 UTC Update - The only affected models right now are Opus 4.8 and Opus 5. The rest of the models have recovered to baseline error rate. Sep 3, 14:49 UTC Update - We are continuing to work on a fix for this issue. Sep 3, 13:50 UTC Update - An exhaustive list of affected models:...
-
-### Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/
-- Summary: New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review. The post Capsule Security Launches &#8216;AI Circuit Breaker&#8217; to Stop Rogue Agents appeared first on SecurityWeek.
-
-### Introducing WeatherNext 3, our most advanced and accurate global weather AI model
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/
 
