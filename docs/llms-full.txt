@@ -660,6 +660,12 @@
 - URL: https://tldr.takara.ai/p/2609.11573
 - Summary: Boundary representation (B-rep) is the standard format used by modern CAD systems for parametric 3D models. It turns out, the exact same solid can be represented by different B-reps: for example, two engineers using different operations, a geometry kernel rebuilding the file, and an export setting...
 
+### World in World: Explore the World with World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11548
+- Summary: Autoregressive video world models enable interactive, long-horizon exploration, but flexible control remains challenging. Exploring a source video from new viewpoints requires the generated rollout to remain synchronised with the recorded event, place observed content in the requested view,...
+
 ### Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews
 - Source: Security Week
 - Category: security
@@ -1099,6 +1105,12 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/wkhkwq8lfmb2
 - Summary: Sep 9, 22:08 UTC Identified - Current status: We've identified the source of the issue, and we're implementing a fix to restore service. We'll provide another update within 30 minutes.Customer experience: Customers hosted in the specified regions may be unable to access or use multiple core...
+
+### DR-LabStack: Design and Implementation of a Clinician-Facing Web System for Diabetic Retinopathy Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10796
+- Summary: Pretrained diabetic retinopathy (DR) prediction models differ in their input fields, serialization formats, preprocessing requirements, and output semantics. Making these models accessible through a common clinical interface therefore requires explicit coordination between the user interface and...
 
 ### Workers Cron Triggers degraded
 - Source: Cloudflare Status
@@ -2049,6 +2061,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/qz292kvy220g
 - Summary: Sep 8, 03:25 UTCInvestigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region. We are working to analyse and mitigate this problem. More updates to follow shortly.
 
+### ConversationalVoice: Full-Duplex Speech Data from Real Conversations through Source-Faithful Reconstruction and Conversation-Grounded Expansion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08147
+- Summary: Full-duplex speech models require training data that preserves turn-taking, overlap, interruption, and backchannel behavior, yet these signals are entangled across speakers in noisy real-world recordings. We present Conversational Voice, a pipeline that converts real two-speaker excerpts into three...
+
 ### Sparse Data Augmentation for Optimization with Provable Guarantees
 - Source: HF Daily Papers
 - Category: open-source
@@ -2063,6 +2081,12 @@
 
 
 ## 2026-09-07
+
+### Bayesian Matrix-Valued Graphs for Context-Dependent Multivariate Relationships
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08055
+- Summary: Many scientific graphs attach several variables to each node, so a single scalar edge weight cannot describe direction-dependent interactions. We model each edge by a symmetric positive-definite (SPD) matrix and infer a posterior over matrix-valued graph geometries, which we call the Bayesian...
 
 ### The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)
 - Source: Latent Space
@@ -2438,6 +2462,12 @@
 
 
 ## 2026-09-06
+
+### RAIDAL: Redundancy-Aware Information Density Active Learning for CTC-Based Continuous Sign Language Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.06843
+- Summary: Continuous sign language recognition (CSLR) is a key technology for accessibility, yet its development remains limited by the high cost of annotating continuous video streams. Active learning offers a path toward mitigating this cost, but standard acquisition functions are not designed for weakly...
 
 ### Purchased domains from registrar not appearing in Cloudflare Dashboard
 - Source: Cloudflare Status
@@ -2996,37 +3026,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/cioe-optical-communications-ai-interconnect-shenzhen-sep2026
 - Summary: China’s 27th CIOE expo in Shenzhen puts optical interconnects in focus as AI compute pushes 400G, 800G and 1.6T modules plus LPO, NPO and CPO roadmaps.
-
-### JD Cloud Charts a ‘Physical AI’ Ambition, From Airport Ads to the JDD Stage
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/jd-cloud-physical-ai-airport-ads-jdd-sep2026
-- Summary: JD Cloud is pushing a “physical AI” ambition from airport ads to its annual JDD conference, betting on robots, embodied data and home devices as AI moves from screens into the real world.
-
-
-## 2026-09-03
-
-### Workers Builds elevated queue times
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/48wc4y9p1vym
-- Summary: Sep 3, 23:43 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 3, 23:35 UTCInvestigating - Cloudflare is aware of and investigating an issue with delays running Cloudflare Workers builds which potentially impacts multiple customers.
-
-### GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/astra
-- Summary: We spent 20B+ tokens of GPT-6 Astra to explore everything. Here&#8217;s our learnings.
-
-### ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
-- Summary: The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides...
-
-### A Computationally Feasible Framework for Causal Probabilistic Explanation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.04177
-- Summary: Explaining why a specific outcome occurred, and which inputs deserve the blame or credit, is central to philosophical, scientific, and policy analysis. Existing tools split into two camps. The theory of actual causality (AC) gives principled verdicts, but only for toy-sized models, because...
 
