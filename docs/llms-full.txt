@@ -84,6 +84,36 @@
 - URL: https://arxiv.org/abs/2609.10657
 - Summary: arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \emph{why} this transition occurs, the quantitative structure of \emph{when} it occurs...
 
+### An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.10712
+- Summary: arXiv:2609.10712v1 Announce Type: new Abstract: We study how model post-training and test-time inference design affect natural-language proof generation for hard olympiad mathematics. Starting from Nemotron 3 Ultra, we train two specialist checkpoints using supervised fine-tuning and reinforcement...
+
+### Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.10724
+- Summary: arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared workflows, especially as technical, human, and...
+
+### Towards a Deterministic Math Solver for Clinical Language Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.10728
+- Summary: arXiv:2609.10728v1 Announce Type: new Abstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as a validated function, one at a time. We...
+
+### Studying Without a Syllabus: Task-Agnostic Environment Preprocessing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.10824
+- Summary: arXiv:2609.10824v1 Announce Type: new Abstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated adaptation methods, however, rely on task examples,...
+
+### When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.10873
+- Summary: arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning opportunities at a stated interaction budget. We...
+
 ### Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says
 - Source: Security Week
 - Category: security
@@ -612,6 +642,12 @@
 - URL: https://tldr.takara.ai/p/2609.11737
 - Summary: Collective intelligence depends not only on the capabilities of individual members, but also on how those members are organized. Yet artificial multi-agent systems are typically assembled using fixed organizational structures, even when the physical tasks they perform impose fundamentally different...
 
+### Learning structural balance of graphs from quantum spectral features
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11736
+- Summary: We develop a quantum approach to spectral feature extraction from the density of states (DOS) of a problem-dependent Hamiltonian, and apply it to machine learning on signed graphs. We propose to embed a signed graph as an Ising model instance with positive and negative interactions, and use the...
+
 ### One resignation turned the embers of AI fear into a wildfire
 - Source: Interconnects
 - Category: open-source
@@ -743,6 +779,12 @@
 - Category: security
 - URL: https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach/
 - Summary: In June 2026, hackers stole personal, health, and insurance information from AdaptHealth’s systems. The post 4.1 Million Impacted by AdaptHealth Data Breach appeared first on SecurityWeek.
+
+### DINO-Med: A Unified Patch-Based Adaptation Framework for Multi-Modal Medical Image Analysis Applied to Liver Fibrosis Staging
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11380
+- Summary: Adapting natural-image foundation models like DINOv3 to multi-modal medical imaging is challenging due to the significant domain gap between natural color images and multi-channel medical scans. We present a unified, patch-based framework that processes raw multimodal imaging through training-free...
 
 ### Powering AI is an architecture problem
 - Source: MIT Tech Review AI
@@ -1067,6 +1109,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-not-much-happened-today-d3b
 - Summary: a quiet day
+
+### Rebalancing Token Importance in Language Models with TF-IDF Weighted Cross-Entropy Loss
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.11029
+- Summary: Large language models are typically trained under uniform token weighting, which allows frequent and low-information tokens to dominate learning and can increase the tendency to memorize surface-level text spans. To address this, we present an information-weighted cross-entropy loss that rescales...
 
 ### Unable to open shared ChatGPT Project using direct link
 - Source: OpenAI Status
@@ -1675,6 +1723,12 @@
 - URL: https://arxiv.org/abs/2609.05797
 - Summary: arXiv:2609.05797v1 Announce Type: new Abstract: Safety monitors screen prompts sent to deployed language models, flagging harmful requests so they are never answered. They are evaluated by recall against harmfulness labels, but a catch only prevents harm if the model would otherwise have complied....
 
+### Muon-C: Operator-Aligned Muon for Convolutional Kernels
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09676
+- Summary: Muon replaces matrix momentum with an approximately orthogonal polar direction, but its geometry depends on the matrix representation. For convolution, standard unfolding describes a local patch map rather than the convolution operator. We introduce Muon-C, an operator-aligned optimizer that...
+
 ### RESCUE-BENCH: Towards Relation-Aware Multi-Party Emotional Support Conversation Systems
 - Source: HF Daily Papers
 - Category: open-source
@@ -1898,6 +1952,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html
 - Summary: In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The...
+
+### CLAMP: Constrained Decoding for Vision-Language Embodied Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08602
+- Summary: Embodied planning increasingly relies on vision-language models (VLMs) to translate instructions and visual observations into executable action sequences. However, fluent plans are not always executable. A VLM may refer to objects that are not visually observed, select actions whose required...
 
 ### BitInfinite Wins ECCV 2026 CAD Challenge on Manufacturable STEP BRep Generation
 - Source: Pandaily
@@ -2966,64 +3026,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.02895
 - Summary: arXiv:2609.02895v1 Announce Type: new Abstract: Large-scale public events, such as religious festivals, political rallies, and cultural gatherings, are increasingly vulnerable to the rapid dissemination of misinformation, posing substantial risks to public safety and social cohesion. While...
-
-### PiPMRE: A Pipeline Based on Language Model for Medical Relation Extraction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02896
-- Summary: arXiv:2609.02896v1 Announce Type: new Abstract: Medical relation extraction (MRE) is commonly known for extracting entities and their relations jointly from a medical text, which has attracted considerable attention in recent years. Previous studies treat MRE as a sequence tagging task, which...
-
-### Margins, Not Windows: Training-Free Per-Step Lossy Speculative Decoding
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02897
-- Summary: arXiv:2609.02897v1 Announce Type: new Abstract: Speculative decoding accelerates LLM inference by drafting candidate tokens and verifying them in parallel. Tree-attention drafters such as EAGLE-3 are widely adopted, yet typically hold two decisions fixed: (1) a strict token-match verification rule...
-
-### Distilled Rapid Embedding Transfer (DRET): Parameter-Efficient Biomedical Domain Adaptation via Priority-Based Embedding Transfer
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02898
-- Summary: arXiv:2609.02898v1 Announce Type: new Abstract: Large domain-specific language models such as BioBERT and ClinicalBERT achieve strong performance on biomedical NLP tasks, but their computational demands make them impractical for many real-world deployments. General-purpose, parameter-efficient...
-
-### Contamination Inflates Scores but Rarely Reorders Large Language Model Leaderboards
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02899
-- Summary: arXiv:2609.02899v1 Announce Type: new Abstract: Benchmark contamination, the leakage of test items into training data, is widely described as a threat to the reliability of large language model (LLM) leaderboards. We argue that this concern conflates two distinct questions: whether contamination...
-
-### Elevated number of R2 503 errors in Western North America region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/y27rg9kcyryn
-- Summary: Sep 4, 03:28 UTCResolved - This incident has been resolved.Sep 4, 03:13 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 4, 03:08 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 4, 02:58 UTCInvestigating - Cloudflare is investigating...
-
-### Elevated connectivity degradation in NRT
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/bgbz898hh98g
-- Summary: Sep 4, 02:48 UTCResolved - Between 2:48-3:04 UTC customers reaching Tokyo, JP may have experienced elevated connection resets and latency due to a hardware failure.
-
-### Guangdong’s MLCC ‘Three Musketeers’ Ride the AI Compute Wave to Stronger Earnings
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/guangdong-mlcc-three-musketeers-three-circle-fenghua-viiyong-ai-sep2026
-- Summary: Chaozhou Three-circle (Group) posted surging first-half earnings as AI compute drives demand for MLCCs, alongside peers Fenghua and Viiyong in Guangdong’s “three musketeers” component cluster.
-
-### Shenzhen Startup Yuejia Dynamics Pushes Quadruped Robots Into the Metro, Targets 10,000-Unit Capacity
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/yuejia-dynamics-quadruped-robot-shenzhen-metro-10000-capacity-sep2026
-- Summary: Yuejia Dynamics, a Shenzhen quadruped-robot startup founded in 2025, has deployed inspection robots in Shenzhen Metro and targets annual capacity of 10,000 units by the end of October.
-
-### Sugon Unveils the World’s First 64-Thread Mobile Workstation With an Unnamed Domestic x86 Chip
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sugon-n50-pro-64-thread-mobile-workstation-hygon-cpu-sep2026
-- Summary: Sugon has launched the N50 Pro, billed as the world’s first 64-thread mobile workstation, powered by an unnamed domestic x86 chip widely expected to be Hygon.
-
-### AI Compute Puts Optical Interconnects in Focus as China’s CIOE Expo Opens in Shenzhen
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cioe-optical-communications-ai-interconnect-shenzhen-sep2026
-- Summary: China’s 27th CIOE expo in Shenzhen puts optical interconnects in focus as AI compute pushes 400G, 800G and 1.6T modules plus LPO, NPO and CPO roadmaps.
 
