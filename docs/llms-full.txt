@@ -6,6 +6,12 @@
 
 ## 2026-09-13
 
+### Elevated errors for ChatGPT users in Europe
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2DV6788RRSDZ5K98S5HN0A8
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
 ### Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up
 - Source: Security Week
 - Category: security
@@ -1312,6 +1318,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
 
+### Learning to Adapt and Calibrate: Score Distribution Alignment for Few-Shot Uncertainty Prediction in Medical VLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.10333
+- Summary: Uncertainty estimation for medical vision--language models (VLMs) using conformal prediction has gained increasing attention due to its distribution-free coverage guarantees. However, standard conformal prediction relies on exchangeability between calibration and test data and typically requires a...
+
 ### Increased HTTP Errors
 - Source: Cloudflare Status
 - Category: incidents
@@ -1497,6 +1509,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.09887
 - Summary: LLMs have been used to simulate human decision-making in professional settings, yet their behaviors in common-law jury trials remain unexplored. We study when and how a defendant's courtroom statement affects LLM-simulated jurors, focusing on persuasion, ideological bias, and background-based...
+
+### Albedo Estimation via Latent Bridge Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.09884
+- Summary: Recent advances in Intrinsic Image Decomposition (IID) have increasingly relied on generative models. However, progress remains limited by three key challenges: (a) insufficient physical consistency, (b) high computational cost at inference time, and (c) limited generalization capabilities. In this...
 
 ### New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root
 - Source: The Hacker News
@@ -1909,6 +1927,12 @@
 - URL: https://tldr.takara.ai/p/2609.08861
 - Summary: Benchmark scores are a central currency in model releases: they inform purchasing decisions, shape public trust, and influence policy. Yet, a key assumption underlying benchmark scores is that the model performance measured through APIs faithfully reflects the behavior of deployed systems. We...
 
+### Leveraging Visual and Geometric Priors for Metric-scale and Complete Vehicle Gaussian Reconstruction from Limited Views
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08841
+- Summary: High-fidelity vehicle assets are essential for controllable traffic scene generation, particularly for synthesizing rare and safety-critical long-tail scenarios. However, reconstructing a reusable vehicle representation from in-the-wild onboard images remains challenging for two reasons. First,...
+
 ### SAP Patches Critical Extended Passport Processing Vulnerability
 - Source: Security Week
 - Category: security
@@ -1985,6 +2009,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under...
+
+### Suan: Rectifying Direct Preference Safety Alignment in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.08634
+- Summary: Integrating robust safety guardrails into Large Language Models (LLMs) is essential for delivering helpful yet harmless responses. While proprietary systems exhibit reliable safety controls, their underlying methodologies and trade-offs remain largely undisclosed. Achieving comparable security in...
 
 ### WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls
 - Source: The Hacker News
@@ -2999,34 +3029,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.02890
 - Summary: arXiv:2609.02890v1 Announce Type: new Abstract: A personalized language agent must convert a user's interaction history into behavior on each new request at inference time. Two strategies dominate. Retrieval pulls a few of the user's most relevant past items into the prompt, which is accurate but...
-
-### Counterexamples as Feedback for Agent Self-Correction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02892
-- Summary: arXiv:2609.02892v1 Announce Type: new Abstract: Single-turn code-generation metrics understate a central property of deployed agents: whether they can repair a wrong artifact after receiving concrete feedback. This paper presents A-CEGIS, a lightweight framework that uses counterexamples as...
-
-### Probe Generalization as Subspace Selection for OOD Deception Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02893
-- Summary: arXiv:2609.02893v1 Announce Type: new Abstract: Linear probes can be used to detect behaviors and concepts inside language model activations, but may fail to transfer to out-of-distribution examples. When studying the generalization performance of Llama-3.1-8B-Instruct probes over 3 held-out...
-
-### R$^{2}$Adapter: A Routing and Rewriting Adapter for Efficient Hybrid RAG
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.02894
-- Summary: arXiv:2609.02894v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) has become a prevailing paradigm for enhancing Large Language Models (LLMs) with non-parametric knowledge. Vanilla RAG efficiently handles simple queries but struggles with relational or multi-hop reasoning....
-
-### Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.03407
-- Summary: arXiv:2609.03407v1 Announce Type: new Abstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context. Most prior work has studied this context through single-turn judgments or pressure-laden...
-
-### Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.03416
-- Summary: arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and one-sided discrepancy detection of existing...
 
