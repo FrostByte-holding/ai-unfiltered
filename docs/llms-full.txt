@@ -6,6 +6,78 @@
 
 ## 2026-09-14
 
+### New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html
+- Summary: Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who...
+
+### Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html
+- Summary: A Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. "Red Heron scanned 1,386 Gitea instances across seven countries and...
+
+### Donated livers can be made biologically younger
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/
+- Summary: Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that...
+
+### Humanity’s Last Invention — Richard Socher of Recursive
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/recursive
+- Summary: Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI &#8212; already worth $5B!
+
+### WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html
+- Summary: WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved. "New plugins are reviewed before they enter the...
+
+### AI agents blew the whistle on their cheating colleagues
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/
+- Summary: A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep...
+
+### Elevated errors affecting Work Mode in ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5
+- Summary: Status: MonitoringEarlier today, some ChatGPT Plus users using Work Mode experienced errors starting or resuming tasks, or had limited access to workspace tools and files. We have applied a mitigation and service has recovered. We are monitoring the results.Affected components ChatGPT Work...
+
+### ⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html
+- Summary: AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination. The rest of the week is more familiar: old bugs still working, fresh exploit chains,...
+
+### Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/
+- Summary: China’s Ministry of Foreign Affairs responded to a question about Amodei’s essay by saying that all parties should work together on AI. The post Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development appeared first on SecurityWeek.
+
+### New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/
+- Summary: Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims. The post New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate appeared first on SecurityWeek.
+
+### Personal, Financial Info Exposed in Revolut Data Breach
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/
+- Summary: The company unintentionally disclosed users’ information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.
+
+### The Download: AI’s real extinction threat and age-reversal tech for eyes
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI...
+
 ### Three JFrog Artifactory Flaws Exploited for Backdoor Deployment
 - Source: Security Week
 - Category: security
@@ -2956,79 +3028,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.03553
 - Summary: arXiv:2609.03553v1 Announce Type: new Abstract: Policy analysis requires more than predicting whether a proposal will pass: it requires identifying who will be affected, how those actors respond, and what follows. LLM-based policy simulations model these processes at scale, but their validity is...
-
-
-## 2026-09-04
-
-### Degradation in repos contents API
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/r05vk75c594j
-- Summary: Sep 4, 22:02 UTC Investigating - We are investigating reports of impacted performance for some GitHub services.
-
-### Disruption with Copilot Code Review
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/zw1hbx2yyhvr
-- Summary: Sep 4, 21:54 UTC Update - We are applying the mitigation and expect recovery within approximately 30 minutes. Sep 4, 20:57 UTC Update - Some users may be experiencing failures when using Copilot code review. We have identified the root cause and are working on a mitigation. Sep 4, 20:39 UTC...
-
-### Elevated number of R2 503 errors in Eastern North America region
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/ftvf8c3m4mv5
-- Summary: Sep 4, 21:27 UTCIdentified - The cause of this issue has been identified and a fix is being implemented.Sep 4, 21:10 UTCInvestigating - Cloudflare is investigating issues with R2 buckets in Eastern North America.
-
-### Zero Trust Dashboard - Posture Check Visibility Issue
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/6ztvhhp2ll11
-- Summary: Sep 4, 20:07 UTCResolved - An effective fix for this issue has been implemented and this incident is now resolved.Sep 4, 19:55 UTCIdentified - Cloudflare is aware of, and implementing a fix for individual device posture checks not showing on the Devices Page. Device posture checks in the meantime...
-
-### Architecting memory and storage in the AI era
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
-- Summary: The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced...
-
-### In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/
-- Summary: Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. The post In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation...
-
-### HPE Patches Critical RCE Vulnerabilities in AOS-CX
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/
-- Summary: Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek.
-
-### OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/
-- Summary: The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility. The post OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders appeared first on SecurityWeek.
-
-### Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html
-- Summary: Microsoft is alerting of a "high-volume phishing campaign" that's using invisible Unicode tag characters to bypass email filters. "Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as...
-
-### Cache Purging Errors
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/ff0yvx1d6tby
-- Summary: Sep 4, 15:31 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 4, 14:51 UTCInvestigating - Cloudflare cache purging called via the Dashboard or API is returning errors, with the message "unable to purge. internal error". We are working to resolve this issue as soon as...
-
-### PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html
-- Summary: PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was...
-
-### Measured Sliders: Learning Continuous Controls from Differentiable Image Measurements
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.05234
-- Summary: Continuous sliders are useful only when coefficient changes produce predictable image changes. Yet most diffusion sliders derive their axes from text or learned representations, leaving their scales disconnected from observable image properties. Consequently, we cannot tell in advance which...
 
