@@ -6,6 +6,24 @@
 
 ## 2026-09-17
 
+### We are seeing elevated error rates across API models
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Moderations (Operational) Chat Completions (Operational) Responses (Operational) Login (Operational)...
+
+### Elevated rate of errors for OpenAI models provided by Copilot
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/nvy2q96mcmyg
+- Summary: Sep 17, 21:49 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 17, 21:39 UTC Monitoring - We are experiencing degraded availability for GPT-5.6...
+
+### Elevated errors affecting ChatGPT Work mode
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components ChatGPT Work (Operational)
+
 ### OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training
 - Source: Security Week
 - Category: security
@@ -375,6 +393,12 @@
 - URL: https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/
 - Summary: The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management,...
 
+### Variational Quantum Transformer Architecture for Synthetic Language Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18565
+- Summary: We propose a compact NISQ-compatible quantum transformer architecture for synthetic QNLP sequence modelling. The model preserves the autoregressive next-token interface of a classical transformer, but replaces attention and feed-forward sublayers with variational quantum encoder blocks, connector...
+
 ### The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid
 - Source: MIT Tech Review AI
 - Category: research
@@ -434,6 +458,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
 - Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file...
+
+### GeoCond: A Conditioning-Aware Reliability Adapter for Feed-Forward 3D Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18465
+- Summary: Feed-forward 3D foundation models such as VGGT predict cameras, depth, and point maps in a single pass, but can fail silently under low overlap, low parallax, and extreme relative rotation. Stratified analyses over these factors show that these failures are governed by geometric conditioning and...
+
+### Pose2Muscle: Structured Spatio-Temporal Decoding for Discrete Muscle Activity Estimation from Human Pose
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18336
+- Summary: Muscle activity is fundamental to human movement, and understanding its patterns is critical for injury prevention and rehabilitation. Conventional muscle activity monitoring relies on specialized sensors such as surface electromyography, which limits its practicality for long-term real-world use....
 
 ### Email Notifications Delayed
 - Source: Cloudflare Status
@@ -495,6 +531,12 @@
 - URL: https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/
 - Summary: The security updates resolve over 800 vulnerabilities across 17 product families, including over 100 critical-severity flaws. The post Oracle Patches 800+ Vulnerabilities in September 2026 Security Update appeared first on SecurityWeek.
 
+### Behavior2Value: Benchmarking and Empowering LLMs for Consumer Value Measurement from E-commerce Behaviors
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18203
+- Summary: Human values are deep motivational orientations that shape human behaviors. In e-commerce, they reveal the stable drivers behind users' purchase decisions. Compared with short-term interests, consumer values better explain how users evaluate products before purchase. However, consumer values are...
+
 ### Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
 - Source: The Hacker News
 - Category: security
@@ -518,6 +560,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/active-exploitation-attempts-target.html
 - Summary: A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account...
+
+### Designing Agentic AI Workflow Portfolios under Imperfect Selection and Compute Cost
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18126
+- Summary: Agentic AI systems often approach the same task through multiple workflows that differ in reasoning strategy, verification structure, and compute cost. A natural deployment policy is to use the workflow with the highest average performance, but this can be suboptimal because different workflows may...
 
 ### Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports
 - Source: arXiv AI
@@ -2977,52 +3025,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.10494
 - Summary: Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It...
-
-### Nonmaximal sums of maximally monotone operators under Rockafellar's constraint qualification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.10487
-- Summary: We construct counterexamples to Rockafellar's sum conjecture in which two maximally monotone operators satisfy the interior-domain condition but their sum is not maximally monotone. We give one counterexample on $c_0$ and another on $\ell^1$ with its usual norm. We establish a general construction...
-
-### HelmGuard Raises $7.3 Million for Agentic GRC and Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/
-- Summary: The company will increase its US market presence and will expand its engineering and go-to-market teams. The post HelmGuard Raises $7.3 Million for Agentic GRC and Security appeared first on SecurityWeek.
-
-### AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/
-- Summary: Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG. The post AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns appeared first on SecurityWeek.
-
-### Algorithmic stability via ensembling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.10428
-- Summary: Algorithmic stability refers to the property of an algorithm being insensitive to perturbations of the input data, where the type of perturbation may vary depending on the setting. In this work, we develop a general framework to quantify the extent to which any ensembling strategy defined via...
-
-### Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
-- Summary: Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome. The first in-the-wild use of BlueMoon has been attributed to the China-aligned...
-
-### Android’s September 2026 Updates Patch 180 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/
-- Summary: The security updates resolve critical flaws across Android’s Framework, System, and Kernel components. The post Android&#8217;s September 2026 Updates Patch 180 Vulnerabilities appeared first on SecurityWeek.
-
-### Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/
-- Summary: Major chipmakers announced patches for vulnerabilities recently discovered in their products. The post Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories appeared first on SecurityWeek.
-
-### Searching for New Physics with Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.10382
-- Summary: Finding new physics (NP) is the most important problem in particle physics today. Studying ``anomalies'', i.e., measurements of low-energy observables whose values disagree with the predictions of the Standard Model (SM), is a powerful search strategy. The SM Effective Field Theory (SMEFT) provides...
 
