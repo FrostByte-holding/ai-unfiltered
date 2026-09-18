@@ -6,6 +6,12 @@
 
 ## 2026-09-18
 
+### Delayed support responses
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery. Some support responses by email and chat may still be delayed while we work through affected cases.
+
 ### Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2
 - Source: The Hacker News
 - Category: security
@@ -261,6 +267,12 @@
 - URL: https://thehackernews.com/2026/09/critical-check-point-management-server.html
 - Summary: A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has...
 
+### Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20779
+- Summary: Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this...
+
 ### ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
 - Source: The Hacker News
 - Category: security
@@ -296,6 +308,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html
 - Summary: Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15. The escape runs with the rights of the host account that...
+
+### SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20519
+- Summary: As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take...
 
 ### CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot
 - Source: Security Week
@@ -411,6 +429,18 @@
 - URL: https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html
 - Summary: OpenAI on Wednesday disclosed six new instances of "unexpected or concerning model behavior" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency. "As AI systems grow more...
 
+### Amortizing Physics-Informed Neural Solvers via Graph Hypernetworks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19915
+- Summary: Amortizing physics-informed neural networks (PINNs) across related PDEs requires describing each equation to a reusable solver. Coefficient vectors encode numerical parameters in predefined slots, leaving operator and cross-field assignments implicit. We make these relationships explicit in an...
+
+### Learning and Transferring Closed-Loop Robot Software
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19906
+- Summary: Closed-loop robot policies require observation processing, state management, and situation-dependent branching, making them costly to design and tune manually. Although coding agents increasingly support control-code generation and optimization, it remains unclear whether implementations improved...
+
 ### China Industrial Robots Shift Toward Domestic Capability Structure
 - Source: Pandaily
 - Category: chinese-ai
@@ -458,6 +488,12 @@
 - Category: security
 - URL: https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/
 - Summary: New research from Irregular shows AI agents can retrain and redeploy their own underlying models during routine maintenance tasks. The post AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals appeared first on SecurityWeek.
+
+### Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19831
+- Summary: In this reproducibility study, we investigate the transparency and scrutability of recommender systems enhanced by incorporating generated natural-language user profiles that represent user preferences. The original paper explores the synthesis of user profiles from raw user-generated review text...
 
 ### Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records
 - Source: The Hacker News
@@ -2991,40 +3027,4 @@
 - Category: security
 - URL: https://www.securityweek.com/hacker-conversations-vinnie-liu-performer-turned-ringmaster/
 - Summary: Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox. The post Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster appeared first on SecurityWeek.
-
-### DNS Update Delays
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p
-- Summary: Sep 10, 14:17 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 10, 13:58 UTCInvestigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.
-
-### A Dataset and Model for Imputing Water Surface Elevation on a Large and Extremely Sparse Spatiotemporal Graph
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11580
-- Summary: Continuous monitoring of water surface elevation across river networks is critical for flood forecasting, water resource management, and understanding the global water cycle. Yet, the scarcity of in situ gauges across much of the globe constrains the development of reliable modeling frameworks....
-
-### Learn the Solid, Not the File: Canonical Inputs for Neural Networks on CAD Boundary Representations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11573
-- Summary: Boundary representation (B-rep) is the standard format used by modern CAD systems for parametric 3D models. It turns out, the exact same solid can be represented by different B-reps: for example, two engineers using different operations, a geometry kernel rebuilding the file, and an export setting...
-
-### World in World: Explore the World with World Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11548
-- Summary: Autoregressive video world models enable interactive, long-horizon exploration, but flexible control remains challenging. Exploring a source video from new viewpoints requires the generated rollout to remain synchronised with the recorded event, place observed content in the requested view,...
-
-### Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/
-- Summary: Deceptive apps in Early Access are being used by dishonest developers for their own benefit. The post Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews appeared first on SecurityWeek.
-
-### Webinar Today: Keep Pace With AI – A New Operating Model for Endpoint Remediation
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/webinar-today-keep-pace-with-ai-a-new-operating-model-for-endpoint-remediation/
-- Summary: Join the webinar for a focused, 20-minute discussion on Frontier Pace Governance, an approach to balancing automation, policy, and business risk as IT operations accelerate. The post Webinar Today: Keep Pace With AI &#8211; A New Operating Model for Endpoint Remediation appeared first on...
 

@@ -5,9 +5,18 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 18 Sep 2026 16:01:08 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 22:22:45 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Delayed support responses</title>
+            <link>https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T</link>
+            <guid>https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T</guid>
+            <pubDate>Fri, 18 Sep 2026 21:59:34 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: MonitoringWe have applied the mitigation and are monitoring the recovery. Some support responses by email and chat may still be delayed while we work through affected cases.</description>
+        </item>
         <item>
             <title>Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2</title>
             <link>https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html</link>
@@ -342,6 +351,15 @@
             <description>Status: ResolvedAll impacted services have now fully recovered.Affected components ChatGPT Work (Operational)</description>
         </item>
         <item>
+            <title>Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations</title>
+            <link>https://tldr.takara.ai/p/2609.20779</link>
+            <guid>https://tldr.takara.ai/p/2609.20779</guid>
+            <pubDate>Thu, 17 Sep 2026 17:49:28 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.20779">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this...</description>
+        </item>
+        <item>
             <title>On-Demand Attention: Language Models Know When to Recall</title>
             <link>https://tldr.takara.ai/p/2609.20734</link>
             <guid>https://tldr.takara.ai/p/2609.20734</guid>
@@ -358,6 +376,15 @@
             <source url="https://tldr.takara.ai/p/2609.20598">HF Daily Papers</source>
             <category>open-source</category>
             <description>In this paper, we tackle the problem of jointly estimating the system states and partially unknown dynamics within distributed sensor-equipped networks, particularly in scenarios where only partial state observations are available. To address this issue, we propose an observer-based dynamic...</description>
+        </item>
+        <item>
+            <title>SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</title>
+            <link>https://tldr.takara.ai/p/2609.20519</link>
+            <guid>https://tldr.takara.ai/p/2609.20519</guid>
+            <pubDate>Thu, 17 Sep 2026 14:58:29 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.20519">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take...</description>
         </item>
         <item>
             <title>Increased HTTP Errors in GIG (Rio de Janeiro)</title>
@@ -405,24 +432,6 @@
             <description>Our view of good cyber adversary simulation – and how assured providers can deliver it.</description>
         </item>
         <item>
-            <title>FCA-Guided Counterfactual Explanations for Multi-Modal Breast Cancer Diagnosis: A Framework Achieving Perfect Validity with Emergent Sparsity</title>
-            <link>https://tldr.takara.ai/p/2609.20067</link>
-            <guid>https://tldr.takara.ai/p/2609.20067</guid>
-            <pubDate>Thu, 17 Sep 2026 11:19:26 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.20067">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Deep learning models for multi-modal breast cancer diagnosis achieve high predictive accuracy but remain clinically unacceptable without actionable, counterfactual explanations. Attribution-based methods (LIME, SHAP) are categorically inapplicable to this purpose, as they generate no alternative...</description>
-        </item>
-        <item>
-            <title>DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models</title>
-            <link>https://tldr.takara.ai/p/2609.20051</link>
-            <guid>https://tldr.takara.ai/p/2609.20051</guid>
-            <pubDate>Thu, 17 Sep 2026 10:58:04 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.20051">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Step distillation reduces the cost of video generation, but reusing a LoRA trained for a longer trajectory can alter its functional effect or degrade target quality. Static parameter compatibility offers one perspective on this problem; our observations show that similar measured geometry can...</description>
-        </item>
-        <item>
             <title>Meet the innovators under 35 shaping climate tech</title>
             <link>https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/</link>
             <guid>https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/</guid>
@@ -448,15 +457,6 @@
             <source url="https://www.cloudflarestatus.com/incidents/823rbdm2k25x">Cloudflare Status</source>
             <category>incidents</category>
             <description>Sep 17, 01:09 UTCIdentified - Some Pruna models may not be able to scale up and are therefore either experiencing long queue times or entirely unavailable. We are working with Pruna to resolve the issue.</description>
-        </item>
-        <item>
-            <title>Elevated errors in ChatGPT Work</title>
-            <link>https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY</link>
-            <guid>https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY</guid>
-            <pubDate>Wed, 16 Sep 2026 19:34:36 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components ChatGPT Work (Operational)</description>
         </item>
     </channel>
 </rss>
