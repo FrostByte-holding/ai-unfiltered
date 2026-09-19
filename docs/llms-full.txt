@@ -4,13 +4,58 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-19
+
+### CATL Targets 2027 Small-Batch All-Solid-State Battery Production
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/catl-2027-all-solid-state-small-batch
+- Summary: CATL aims for small-batch all-solid-state battery production in 2027 while current cells sit near TRL-4; the milestone is pilot manufacturing, not mass vehicle adoption before 2030.
+
+### OPPO ColorOS 17 Adds On-Device Linear-Attention Model and Persona X Agents
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/coloros-17-on-device-linear-attention-persona-x
+- Summary: At ODC 2026, OPPO unveiled ColorOS 17 with an on-device Linear Attention model (128K context, lower memory and energy), Persona X memory engine, and Agent Matrix upgrades for Breeno.
+
+### Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/qwen3-8-omni-flash-native-omni-model
+- Summary: Alibaba's Qwen team launched Qwen3.8-Omni-Flash, a native text/image/audio/video model with 1M context, ~26% average gains vs Omni-Plus, open Qwen-Live Harness, and steep API audio price cuts.
+
+### Overbilling for OpenAI-hosted containers in the Agent API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D
+- Summary: Status: IdentifiedWe are still implementing the mitigation.
+
+
 ## 2026-09-18
+
+### SSO sign-in and SCIM provisioning issues
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
 
 ### Delayed support responses
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery. Some support responses by email and chat may still be delayed while we work through affected cases.
+
+### Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html
+- Summary: A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the...
+
+### New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html
+- Summary: WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose...
 
 ### Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2
 - Source: The Hacker News
@@ -42,6 +87,12 @@
 - URL: https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that asked the question...
 
+### 23 Million User Records Compromised in Gyazo Data Breach
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/
+- Summary: Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek.
+
 ### Could AI really kill us all? Your questions, answered.
 - Source: MIT Tech Review AI
 - Category: research
@@ -59,6 +110,36 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html
 - Summary: A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday. The firm said Anthropic...
+
+### Microsoft Patches 18 Vulnerabilities in AI, Cloud Products
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
+- Summary: Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.
+
+### WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html
+- Summary: Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the...
+
+### NightmareStresser DDoS Service Disrupted in International Operation
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/
+- Summary: Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world. The post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWeek.
+
+### Brevo Supply Chain Attack Injects Malware Into 100,000 Websites
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/
+- Summary: Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts. The post Brevo Supply Chain Attack Injects Malware Into 100,000 Websites appeared first on SecurityWeek.
+
+### Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html
+- Summary: A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. "The developer likely wrote the malware using a large language model (LLM), an assessment made with high...
 
 ### The specter of AI-enabled bioweapons is a wake-up call for biotech
 - Source: MIT Tech Review AI
@@ -210,6 +291,96 @@
 - URL: https://arxiv.org/abs/2609.19152
 - Summary: arXiv:2609.19152v1 Announce Type: new Abstract: Misinformation detection tools often rely on binary true and false classifications or models trained on historical examples, limiting their usefulness when novel misleading narratives emerge. Here, we present FakeSpotter, a content- and...
 
+### Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.19244
+- Summary: arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (ChatGPT, Claude, Grok, and...
+
+### Do AI Agents Understand Computer Architecture?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.19387
+- Summary: arXiv:2609.19387v1 Announce Type: new Abstract: Agents are increasingly asked to design hardware, and increasingly reported to succeed. Such reports establish that a design improved; they cannot establish why. An agent that improves an accelerator may be reasoning about the machine, or may be...
+
+### MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.19391
+- Summary: arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LLM-as-a-Verifier,...
+
+### Closed-World Resolution Against Tool Hallucination in LLM Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.19425
+- Summary: arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist and pass arguments no schema declares. Existing defenses either pick the right tool (selection) or...
+
+### The syntax and semantics of goals
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.19448
+- Summary: arXiv:2609.19448v1 Announce Type: new Abstract: In both cognitive science and computer science, goals are conceptualized as cognitive states that flexibly combine with world knowledge to organize and specify purposeful behavior. In this way, goals are compositional representations whose content...
+
+### Learning-Induced Dynamical Transition in Recurrent Neural Networks
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.19288
+- Summary: arXiv:2609.19288v1 Announce Type: new Abstract: Learning in recurrent neural networks can fundamentally reshape their underlying dynamics, transforming initially chaotic activity into stable task-dependent behavior. We develop a non-equilibrium dynamical mean-field theory(DMFT) to describe this...
+
+### Personalized Federated Hierarchical Gaussian Processes for Privacy-Preserving Modeling of Heterogeneous Distributed Systems
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.19337
+- Summary: arXiv:2609.19337v1 Announce Type: new Abstract: We present Personalized Federated Hierarchical Gaussian Processes (pFedHGP) for probabilistic regression and classification when data are distributed across heterogeneous clients. Each client's latent function decomposes into (i) a shared global...
+
+### How to Guide Your Language Flow
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.19356
+- Summary: arXiv:2609.19356v1 Announce Type: new Abstract: We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a similar principle as autoguidance,...
+
+### Smart Insole Human Activity Recognition for Continuous Monitoring in Elderly Care
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.19359
+- Summary: arXiv:2609.19359v1 Announce Type: new Abstract: Falls in older adults are often preceded by changes in mobility, balance, and postural transitions. This paper presents a wireless smart insole platform and machine-learning workflow for recognizing sitting, standing, walking, and unstable walking...
+
+### Stiefel Attention: When the Geometry of Transformer Projection Matrices Dominates Optimizer Choice---and When It Does Not
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.19363
+- Summary: arXiv:2609.19363v1 Announce Type: new Abstract: The query and key projections $\WQ,\WK$ in attention are almost always trained by Euclidean optimizers with no constraint on their geometry. We constrain them to the Stiefel manifold and optimize them there with a Riemannian Adam that carries one...
+
+### Stop Removing Stopwords: How an Inherited Preprocessing Default Distorts Legal Text-as-Data
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.19153
+- Summary: arXiv:2609.19153v1 Announce Type: new Abstract: Empirical legal scholarship increasingly treats judicial text as data, and much of it still runs on sparse, interpretable pipelines -- TF-IDF features and linear classifiers -- because the textual feature is often the object of study, not merely a...
+
+### Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.19154
+- Summary: arXiv:2609.19154v1 Announce Type: new Abstract: While Large Language Models (LLMs) achieve high accuracy on established Classical Chinese Poetry benchmarks, it remains challenging to distinguish transferable Linguistic-Aesthetic Reasoning from reliance on familiar pre-training patterns. To address...
+
+### Towards Proactive Detection of User-Side Implicit Conflicts in Human-LLM Dialogue
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.19155
+- Summary: arXiv:2609.19155v1 Announce Type: new Abstract: In Human-LLM dialogue, follow-up user utterances may implicitly conflict with earlier intents, leading the LLM to misinterpret user needs and generate inappropriate responses. A reliable dialogue system should proactively detect user-side conflicts...
+
+### Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.19156
+- Summary: arXiv:2609.19156v1 Announce Type: new Abstract: Data-driven fine-tuning is widely adopted to enhance reasoning in Large Language Models (LLMs) due to its simplicity and efficiency. However, mainstream imitation learning methods that rely exclusively on perfect reasoning trajectories suffer from a...
+
+### VisKG-LM: Compiling Knowledge Graphs into Visual Memory for Multiple-Choice Question Answering
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.19158
+- Summary: arXiv:2609.19158v1 Announce Type: new Abstract: Knowledge graphs are usually integrated into question answering by encoding a retrieved subgraph with a graph neural network and fusing it with the language model in the online inference path. The same subgraph is therefore re-encoded from scratch...
+
 ### Amap Releases ABot-Earth 0.7 3D-Native Urban World Model
 - Source: Pandaily
 - Category: chinese-ai
@@ -291,6 +462,18 @@
 - URL: https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/
 - Summary: The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran. The post Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels appeared first on SecurityWeek.
 
+### Should This Case Be Adapted? Prediction Fragmentation Controls Test-Time Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20700
+- Summary: Episodic test-time adaptation resets a frozen segmenter to source weights $M_0$ on each case and adapts for a fixed step count. A fixed horizon conflates a cohort-level question, how far to adapt, with an irreducibly per-case one, whether this case should be adapted at all. Cohort means hide that...
+
+### PhGS: Post-Hoc Pruning and Refinement of Single-View Feed-Forward 3D Gaussian Reconstructions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20623
+- Summary: Recent single-view feed-forward 3D Gaussian Splatting (3DGS) generation predicts a fixed number of Gaussians per camera ray, introducing severe spatial redundancy. Most existing compaction strategies target multi-view setups to exploit cross-view consistency and are incompatible with single-image...
+
 ### COIN-GP: Cooperative Online Learning in Networked Distributed Systems with Partial Measurements via Gaussian Process Regression
 - Source: HF Daily Papers
 - Category: open-source
@@ -314,6 +497,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.20519
 - Summary: As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take...
+
+### Resolution limits for process comparison from event data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20489
+- Summary: One hospital runs bloods and imaging at the same time. Another runs them one after the other, in either order, equally often. Knowing which actually happened, and how it is recorded in data, is critical for all operational managers. In process mining, the standard approach is to construct an event...
 
 ### CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot
 - Source: Security Week
@@ -344,6 +533,12 @@
 - Category: security
 - URL: https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/
 - Summary: The company plans to expand into continuous cybersecurity, offering security testing across applications and infrastructure. The post Comp AI Raises $34 Million for AI-Native Compliance and Security appeared first on SecurityWeek.
+
+### AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20325
+- Summary: Agricultural image understanding requires fine-grained recognition of plant diseases, pests, crop structures, and botanical species under complex real-world conditions. Despite recent advances in Multimodal Large Language Models (MLLMs), existing models remain limited to text-only outputs and lack...
 
 ### ISC Patches 14 Vulnerabilities in BIND 9 Security Update
 - Source: Security Week
@@ -512,6 +707,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
 - Summary: Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation. The vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication. "This vulnerability...
+
+### Rethinking Multi-Agent Collaboration: When More Is Less
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19759
+- Summary: The rapid advancement of large language models and single-agent harnesses has reshaped the landscape of autonomous systems, raising a critical question of when multi-agent collaboration offers genuine value. As individual agent capabilities continue to scale, multi-agent collaboration faces...
 
 ### Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day
 - Source: Security Week
@@ -2826,205 +3027,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.10752
 - Summary: arXiv:2609.10752v1 Announce Type: new Abstract: Standard cross-entropy loss causes neural networks trained on ordinal classification tasks to hedge predictions toward center classes, a failure mode we term \emph{center-class hedging}. This occurs because predicting the middle class minimizes...
-
-### A Bellman Optimality Equation for Plasticity
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.10776
-- Summary: arXiv:2609.10776v1 Announce Type: new Abstract: In continual reinforcement learning, carefully managing the stability-plasticity tradeoff remains a core challenge. Recent work by Abel et al. (2025) formalized this dilemma by defining plasticity as the generalized directed information from an...
-
-### Analyzing Traditional and Neural Approaches to Multilingual Readability Assessment
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.10792
-- Summary: arXiv:2609.10792v1 Announce Type: new Abstract: Transformer-based models excel at Automatic Readability Assessment (ARA), yet feature-based models remain in active use because their predictions tie back to linguistic properties. This matters because readability labels are subjective and...
-
-### Larger Context Window, Fewer Overcorrections: Optimizing Prompts and Batching for Minimal-Edit Grammatical Error Correction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.10810
-- Summary: arXiv:2609.10810v1 Announce Type: new Abstract: Minimal-edit Grammatical Error Correction (GEC) is a challenging task for zero- and few-shot prompted Large Language Models (LLMs), which systematically overcorrect and degrade $F_{0.5}$ by rewriting well-formed spans. While fine-tuning provides an...
-
-### Detectable Only Where It Is Confounded: What Verified Duplication Counts Say About Membership Evidence in Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.10830
-- Summary: arXiv:2609.10830v1 Announce Type: new Abstract: When a language model finds a sentence unusually cheap to predict, it is tempting to conclude that the sentence was in its training data. Almost every published test of that inference has had to guess which sentences were in the training data, the...
-
-### Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.10893
-- Summary: arXiv:2609.10893v1 Announce Type: new Abstract: Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically correct but semantically incoherent, containing contradictions or disruptions in...
-
-### LLM-Anchored Paralinguistic Enrichment for Alzheimer's Disease Detection
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.10896
-- Summary: arXiv:2609.10896v1 Announce Type: new Abstract: Speech-based automatic detection of Alzheimer's disease (AD) provides a non-invasive and scalable approach to early cognitive screening. AD affects both lexical-semantic organization and speech production, including atypical pauses and word...
-
-### China AI Chipmakers' Homegrown Scale-Up Interconnect Scorecard
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-ai-chipmakers-scale-up-interconnect-scorecard
-- Summary: A technical scorecard ranks Cambricon MLU-Link, Enflame GCU-LARE, Biren BLink, MetaX and Moore Threads MTLink on bandwidth and deployment-evidence tiers for accelerator scale-up fabrics — ecosystem depth, not fundraising.
-
-### ACE Robotics and NTU Open-Source Puffin-World Multimodal World Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ace-robotics-ntu-puffin-world-multimodal-open-source
-- Summary: ACE Robotics and NTU S-Lab open-sourced Puffin-World, unifying physics, geometry and appearance world states on Puffin-16M data and reporting SOTA camera absolute pose errors to sub-degree on four public benchmarks.
-
-### OpenBMB Releases MiniCPM5-2B as Open On-Device SOTA Under 4B
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openbmb-minicpm5-2b-on-device-open-source-sota
-- Summary: OpenBMB and ModelBest open-sourced MiniCPM5-2B, a 2.52B dense Apache-2.0 model with 131K context averaging 53.9 across 34 benchmarks and beating some 4B open baselines on coding, tools and long context.
-
-### Cambricon Day-0 Adapts DeepSeek-V4.1-Flash on vLLM Stack
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cambricon-day0-deepseek-v4-1-flash-vllm-neuware
-- Summary: Cambricon completed same-day DeepSeek-V4.1-Flash enablement on vLLM, pairing Torch-MLU-Ops and BangC kernels with NeuWare. The story is chip-side Day-0 co-availability, not another model launch recap.
-
-### Huawei Ascend 950DT and Cambricon Raise AI Accelerator Quotes on HBM Squeeze
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-ascend-950dt-cambricon-hbm-pricing-squeeze
-- Summary: Huawei lifted Ascend 950DT indicative quotes past about 250,000 yuan and Cambricon raised planned 690 pricing 20%–30%, Reuters and Bloomberg report, as HBM shortages lift domestic AI card costs ahead of 950DT's Q4 2026 window.
-
-### SSL Certificate Provisioning Delays for Let's Encrypt
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/3r3qcgbb0714
-- Summary: Sep 11, 02:58 UTCIdentified - Let's Encrypt incident is now resolved. Cloudflare managed certificate backlog is still clearing.Sep 11, 02:20 UTCIdentified - Let's Encrypt are seeing SSL certificates provisioning delays. You can read their public status page here:...
-
-
-## 2026-09-10
-
-### Elevated latency on the Claude API for some users
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/2pt83vlkk7x7
-- Summary: Sep 10, 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.
-
-### Delays in customer support responses
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M26E3PPAYJMMRHX2MZJCTHMF
-- Summary: Status: ResolvedAll impacted services have now fully recovered.
-
-### Elevated errors affecting ChatGPT Work
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M26DX2PP1AFHGJK5E4M6S2J6
-- Summary: Status: ResolvedAll impacted services are now fully recovered.Affected components ChatGPT Work (Operational)
-
-### Mandiant Founder Kevin Mandia Joins Amazon Board
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/
-- Summary: Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon’s board. The post Mandiant Founder Kevin Mandia Joins Amazon Board appeared first on SecurityWeek.
-
-### GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11923
-- Summary: Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic tree interface. On...
-
-### CausalArena: Benchmarking Causal Discovery in the Foundation Model Era
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11897
-- Summary: Causal discovery aims to uncover causal structures from data and is fundamental to scientific reasoning and intervention-based decision making. Its evaluation relies heavily on structural causal models (SCMs), which specify a causal graph together with the mechanisms that generate data, yet...
-
-### 3D Point Splatting for mmWave Radar Novel View Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11894
-- Summary: Solving novel view synthesis (NVS) for millimeter-wave (mmWave) radar requires a renderer that is physically faithful, complex-valued, and multi-viewpoint-tractable. No prior method achieves these three properties simultaneously. Differentiable Monte Carlo (MC) ray tracers implement the radar...
-
-### Guided Super-Resolution of Digital Elevation Models with Diffusion-Based Image Generators
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11886
-- Summary: High-resolution digital surface models (DSMs) play an important role in urban analysis, 3D building reconstruction, and infrastructure monitoring, yet their availability remains limited due to the high cost and complexity of data acquisition. In contrast, coarse DSMs from commercial satellite...
-
-### CoRA-NAS: Coarse Ranking and Anchor-Residual Refinement for Neural Architecture Search
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11884
-- Summary: Zero-cost proxies rank architectures cheaply, but their reliability varies across search spaces. We introduce CoRA-NAS (COarse Ranking + Anchor-residual), a two-stage framework combining a static ranking prior with low-cost learning-curve refinement. CoRA-Rank aggregates capacity and...
-
-### ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html
-- Summary: A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A package looks useful...
-
-### SpecGuard: Inference-Time Backdoor Detection For Free
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11799
-- Summary: Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that behaves normally on benign inputs but switches to attacker-controlled behavior when a secret trigger appears. While backdoors can be audited before deployment,...
-
-### Cybersecurity M&A Roundup: 33 Deals Announced in August 2026
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/
-- Summary: Significant cybersecurity M&#038;A deals announced by Brinqa, Cribl, Echo, Fortinet, Kiteworks, Palo Alto Networks, and Visa. The post Cybersecurity M&#038;A Roundup: 33 Deals Announced in August 2026 appeared first on SecurityWeek.
-
-### Issues Editing Bulk Redirects
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/92j1xmlkscw3
-- Summary: Sep 10, 15:59 UTCIdentified - The issue has been identified and a fix is being implemented.Sep 10, 15:41 UTCInvestigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains...
-
-### Degraded functionality for Claude Cowork on Windows
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/r1pqn1kb4hvk
-- Summary: Sep 10, 15:54 UTC Identified - A Windows update released September 8 has caused Claude Cowork on Windows is unable to run local commands on your PC, because its workspace can no longer reach your computer’s drive. For most users, chat and reading or editing files still work. We have identified the...
-
-### ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11737
-- Summary: Collective intelligence depends not only on the capabilities of individual members, but also on how those members are organized. Yet artificial multi-agent systems are typically assembled using fixed organizational structures, even when the physical tasks they perform impose fundamentally different...
-
-### Learning structural balance of graphs from quantum spectral features
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11736
-- Summary: We develop a quantum approach to spectral feature extraction from the density of states (DOS) of a problem-dependent Hamiltonian, and apply it to machine learning on signed graphs. We propose to embed a signed graph as an Ising model instance with positive and negative interactions, and use the...
-
-### One resignation turned the embers of AI fear into a wildfire
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/one-resignation-turned-the-embers
-- Summary: Some quick notes on a truly weird week.
-
-### Learnware and AI Model Management System
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.11656
-- Summary: The transition from file storage to database management systems transformed stored data into managed resources. AI now faces an analogous transition from AI model storage to AI model management. Existing model pools essentially serve as \textit{AI model storage systems}. What is needed instead are...
-
-### Anthropic Researcher Resigns With Warning About the Dangers of AI Development
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/
-- Summary: Both Anthropic and OpenAI have seen high-profile resignations in recent years that were tied to safety concerns. The post Anthropic Researcher Resigns With Warning About the Dangers of AI Development appeared first on SecurityWeek.
-
-### Google Play Early Access Abused to Push Thousands of Deceptive Android Apps
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html
-- Summary: Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the official Android app marketplace. The main idea behind the program is for...
-
-### Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hacker-conversations-vinnie-liu-performer-turned-ringmaster/
-- Summary: Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox. The post Hacker Conversations: Vinnie Liu, Performer Turned Ringmaster appeared first on SecurityWeek.
 
