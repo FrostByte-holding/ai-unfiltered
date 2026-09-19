@@ -552,6 +552,12 @@
 - URL: https://tldr.takara.ai/p/2609.20700
 - Summary: Episodic test-time adaptation resets a frozen segmenter to source weights $M_0$ on each case and adapts for a fixed step count. A fixed horizon conflates a cohort-level question, how far to adapt, with an irreducibly per-case one, whether this case should be adapted at all. Cohort means hide that...
 
+### UniPolicy: Unified Objective-Specific Policies for Generative Search Advertising
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20630
+- Summary: Search advertising connects user intent with commercial content and plays a critical role in platform monetization. Recent systems typically align pretrained generative models with a single business reward, such as eCPM, or use naive reward fusion for preliminary multi-objective alignment. However,...
+
 ### PhGS: Post-Hoc Pruning and Refinement of Single-View Feed-Forward 3D Gaussian Reconstructions
 - Source: HF Daily Papers
 - Category: open-source
@@ -594,6 +600,12 @@
 - URL: https://www.securityweek.com/cisa-retires-weekly-vulnerability-bulletin-in-risk-based-pivot/
 - Summary: The decision follows BOD 26-04, which directs federal organizations to prioritize vulnerabilities based on real-world risk. The post CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot appeared first on SecurityWeek.
 
+### Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20465
+- Summary: We train neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization. The result justifies the future work on training neural networks to achieve high-throughput large-FOV super spatiotemporal resolution SMLM.
+
 ### Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
 - Source: The Hacker News
 - Category: security
@@ -623,6 +635,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.20325
 - Summary: Agricultural image understanding requires fine-grained recognition of plant diseases, pests, crop structures, and botanical species under complex real-world conditions. Despite recent advances in Multimodal Large Language Models (MLLMs), existing models remain limited to text-only outputs and lack...
+
+### To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20186
+- Summary: Speculative Decoding (SD) has significantly accelerated Large Language Model (LLM) inference, yet existing approaches face a fundamental tradeoff between two drafting strategies: neural drafting and context-based copying. Neural drafts (e.g., EAGLE3) provide robust performance across diverse text...
 
 ### ISC Patches 14 Vulnerabilities in BIND 9 Security Update
 - Source: Security Week
@@ -1641,6 +1659,12 @@
 - URL: https://pandaily.com/ebkernel-cog-wm-1-0-cognitive-world-model
 - Summary: Shanghai startup EBKernel launched Cog-WM 1.0 at the Pujiang Innovation Forum, a JEPA-style latent world model that lifts map-free ObjectNav success from 78.5% to 86.89% versus BSC-Nav and tops pi0.5 on manipulation benchmarks by up to about 16%.
 
+### Encoder Awakening via Adapters: Effective Domain-Adaptive Fine-tuning of Speech-LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.17981
+- Summary: Speech Large Language Models (Speech-LLMs), typically built from a pre-trained speech encoder, a modality projector, and an LLM fine-tuned with Low-Rank Adapters (LoRA), have shown strong Automatic Speech Recognition (ASR) performance on general-domain speech. However, adapting them to...
+
 ### Elevated errors with gpt-image-2.5-flare
 - Source: OpenAI Status
 - Category: incidents
@@ -2641,6 +2665,12 @@
 - URL: https://arxiv.org/abs/2609.12243
 - Summary: arXiv:2609.12243v1 Announce Type: new Abstract: Inference-time power sampling via Sequential Monte Carlo (SMC) can substantially improve large language model (LLM) reasoning without requiring post-training. However, many existing SMC approaches rely on equal-weight resampling, which can...
 
+### Typhoon ASR Streaming: Steerable Low-Latency Thai Speech Recognition with Real-Time Shallow Fusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.14991
+- Summary: Open Thai automatic speech recognition (ASR) is dominated by offline, Whisper-based models that read the whole utterance before transcribing, ruling out low-latency uses such as live captioning and voice agents. We present a deployable system for streaming Thai ASR that lets a user steer its...
+
 ### Elevated error rates for Codex and ChatGPT Work
 - Source: OpenAI Status
 - Category: incidents
@@ -2997,34 +3027,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-llm-router-logs-6tb-credential-leak-researcher-claim
 - Summary: Security researcher Chaofan Shou said he obtained about 6TB of invocation logs from a Chinese large-model relay and found SSH keys, cloud credentials and tokens tied to enterprises. The report is presented as a supply-chain risk claim pending confirmation.
-
-### LINXAI D30 Quadruped Carries 33kg to Top of Shenzhen Galaxy Twin Towers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/linxai-d30-quadruped-33kg-galaxy-twin-towers-73-floors
-- Summary: LINXAI said its D30 mid-size quadruped climbed Shenzhen's Galaxy Twin Towers under a continuous 33kg load across 73 floors and more than 2,000 steps, framing the run as special inspection and emergency validation.
-
-### CIOE Shenzhen: AI Compute Tightens Optical Supply as 1.6T Modules Ramp
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cioe-shenzhen-ai-optical-1-6t-modules-supply-tight
-- Summary: At CIOE 2026 in Shenzhen, exhibitors said AI cluster demand is stretching optical interconnect capacity: 800G remains the volume mainstay while 1.6T modules move into headmaker mass production amid tight upstream supply.
-
-### Doubao Work Adds Parallel Multi-Agents and Mac Local GUI Control
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-work-parallel-multi-agents-mac-gui-control
-- Summary: ByteDance's Doubao Work workplace agent now splits tasks across parallel sub-agents and extends Operate Computer screen-click control from Windows to Mac, without relying on APIs or MCP for coverage.
-
-### Unitree Opens UnifoLM-WLA-1.0 Humanoid Foundation Model Project Page
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/unitree-unifolm-wla-1-0-humanoid-foundation-model-project-page
-- Summary: Unitree disclosed UnifoLM-WLA-1.0 on September 10, a ~6B embodied foundation model trained on about 2,500 hours of real-robot data that covers 64 tasks on one checkpoint. The project page is live, but code, weights and datasets remain Coming soon.
-
-### Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html
-- Summary: Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report. Wiz saw the attacks between August 15 and September 8. JFrog had...
 
