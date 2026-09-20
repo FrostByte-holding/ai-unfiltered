@@ -6,6 +6,12 @@
 
 ## 2026-09-20
 
+### Incident with Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/f6yrxnz5f7bs
+- Summary: Sep 20, 22:13 UTC Investigating - We are investigating reports of degraded performance for Pull Requests
+
 ### Faraday Future and Jia Yueting Launch Nine EAI Robots From $9,990
 - Source: Pandaily
 - Category: chinese-ai
@@ -645,6 +651,12 @@
 - URL: https://tldr.takara.ai/p/2609.20630
 - Summary: Search advertising connects user intent with commercial content and plays a critical role in platform monetization. Recent systems typically align pretrained generative models with a single business reward, such as eCPM, or use naive reward fusion for preliminary multi-objective alignment. However,...
 
+### Chronicle: Cut-Point Replay for Regression Testing of LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20625
+- Summary: Large language model responses are non-deterministic, so failures in LLM agents are hard to reproduce: a failure depends on inference that is not bitwise reproducible, on tools that read changing state, and on a multi-step trajectory that a re-run rarely repeats. Record-and-replay makes a run...
+
 ### PhGS: Post-Hoc Pruning and Refinement of Single-View Feed-Forward 3D Gaussian Reconstructions
 - Source: HF Daily Papers
 - Category: open-source
@@ -753,6 +765,12 @@
 - URL: https://tldr.takara.ai/p/2609.20131
 - Summary: Reasoning-based reranking with Large Language Models (LLMs) has shown promising improvements in text ranking. However, current methods predominantly rely on a single reasoning trajectory, resulting in rankings that are susceptible to reasoning errors and inherently constrained in modeling the...
 
+### Local Sparsity Enables Unsupervised LLM Safety Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20129
+- Summary: Deployment-time safety methods for large language models (LLMs) are predominantly supervised and assume access to unsafe training data. Nevertheless, new attacks and harm categories regularly arise, not captured by models trained in such a supervised fashion. An alternative approach is to view this...
+
 ### The Download: mice with part-human brains and climate tech innovators
 - Source: MIT Tech Review AI
 - Category: research
@@ -782,6 +800,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.20067
 - Summary: Deep learning models for multi-modal breast cancer diagnosis achieve high predictive accuracy but remain clinically unacceptable without actionable, counterfactual explanations. Attribution-based methods (LIME, SHAP) are categorically inapplicable to this purpose, as they generate no alternative...
+
+### Evaluating Explanation Methods by the Predictors They Induce
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.20058
+- Summary: Explanations of machine learning models are usually judged by criteria that are hard to compare. We propose a simpler test: if an explanation really describes how a model uses its features, it should be possible to rebuild the model's predictions from it. We turn each explanation into a predictor...
 
 ### DART: Distillation-Aware Reparameterization for Training-Free LoRA Reuse in Few-Step Video Diffusion Models
 - Source: HF Daily Papers
@@ -902,6 +926,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-reality-checks-on-ai-news
 - Summary: A dash of cold water keeps the foomers away.
+
+### SnapPhysics: A Physics-Aware Scene Graph from a Single View for Interactive Mixed Reality Scenes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19815
+- Summary: We propose SnapPhysics, a training-free framework that reconstructs 3D objects and estimates their physical properties such as mass, friction, and center of gravity from a single image. For physically coherent interactions in mixed reality (MR), such properties are as important as geometry. Prior...
 
 ### Dictionary-Constrained Grapheme-to-Phoneme for Unsegmented Languages from LLM-Annotated Data
 - Source: HF Daily Papers
@@ -1914,6 +1944,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html
 - Summary: Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emerging malware family, codenamed BambooToken, is assessed to be active since at...
+
+### Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.17306
+- Summary: Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection...
 
 ### Goal-oriented probabilistic forecasting for dynamic PRB allocation in 5G networks
 - Source: HF Daily Papers
@@ -2991,40 +3027,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b
 - Summary: We agree with Sebastian: this should have been DeepSeek v5
-
-### Huawei Demonstrates 7.2T Optical Module as Industry Standard Converges on 6.4T
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-7-2t-npo-optical-module-cioe-oif-6-4t-standard
-- Summary: SHENZHEN — Huawei demonstrated what it says is the industry's first 7.2-terabit near-packaged optics module at the China International Optoelectronic Exposition on September 10, running live at 200 gigabits per lane across 36 channels, as the international standards body writing the specification...
-
-### Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.10584
-- Summary: arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\min}$, but its deterministic policy...
-
-### Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.10629
-- Summary: arXiv:2609.10629v1 Announce Type: new Abstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with quantum, hybrid quantum-classical, and quantum-inspired solvers. However,...
-
-### A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.10654
-- Summary: arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. This paper presents a multi-stage rule-chaining framework that performs compositional reasoning across...
-
-### Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.10656
-- Summary: arXiv:2609.10656v1 Announce Type: new Abstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net with ranks {2,4,8,16,32}, fixed optimization settings, and a reproducible local-folder pytorch-fid...
-
-### Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.10657
-- Summary: arXiv:2609.10657v1 Announce Type: new Abstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \emph{why} this transition occurs, the quantitative structure of \emph{when} it occurs...
 
