@@ -933,6 +933,12 @@
 - URL: https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html
 - Summary: The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser. The domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors...
 
+### Opinion Dynamics-based Coalition Formation for Federated Learning in Heterogeneous IoT Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19695
+- Summary: Federated learning (FL) enables privacy-preserving, on-device training across heterogeneous Internet-of-Things (IoT) deployments such as smart-city water-metering networks, where each smart meter observes a household-specific consumption time series. Under such statistical heterogeneity, the...
+
 ### MiX: Micro-Inverted-Scaling for End-to-End Low-Bit Vision-Language Model Acceleration
 - Source: HF Daily Papers
 - Category: open-source
@@ -1187,6 +1193,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/aiuc
 - Summary: We sit down with AIUC&#8217;s CEO on their Series A!
+
+### PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.19142
+- Summary: World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn...
 
 ### Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments
 - Source: HF Daily Papers
@@ -1541,6 +1553,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.18126
 - Summary: Agentic AI systems often approach the same task through multiple workflows that differ in reasoning strategy, verification structure, and compute cost. A natural deployment policy is to use the workflow with the highest average performance, but this can be suboptimal because different workflows may...
+
+### Token Latency Fairness: Performance Isolation for Multi-Tenant LLM Serving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18112
+- Summary: LLM serving is typically offered as a shared, multi-tenant service, where high-demand workloads from one client can cause latency SLO violations for others. Existing solutions for performance isolation equalize client throughput in the long run, for example through queueing and batching fairness....
 
 ### A Comprehensive Review of Generative Physical Artificial Intelligence
 - Source: HF Daily Papers
@@ -2614,6 +2632,12 @@
 - URL: https://status.snowflake.com/incidents/8c1snlr8gskb
 - Summary: Sep 14, 06:09 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
 
+### G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.15018
+- Summary: We study relative position encoding for multi-view vision Transformers under camera heterogeneity, including varying fields of view (FoVs) or projection models. Existing rotary relative position encodings commonly use image-plane positional coordinates, producing projection-dependent relative...
+
 ### Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work
 - Source: arXiv AI
 - Category: research
@@ -2920,6 +2944,12 @@
 - URL: https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html
 - Summary: The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at...
 
+### Realtime-Venus: A full-duplex interaction system with asynchronous delegation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.13814
+- Summary: Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive...
+
 ### Issues creating and updating Cloud Connector Rules
 - Source: Cloudflare Status
 - Category: incidents
@@ -2997,37 +3027,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.10873
 - Summary: arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning opportunities at a stated interaction budget. We...
-
-### Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/
-- Summary: Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket. The post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on SecurityWeek.
-
-
-## 2026-09-11
-
-### Network Performance Issues with Taiwan datacenter (TPE)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/2njywrxj8qjf
-- Summary: Sep 11, 22:03 UTCResolved - This incident has been resolved.Sep 11, 19:35 UTCInvestigating - Cloudflare is investigating issues with Network Performance in Taiwan datacenter (TPE) We are working to analyze and mitigate this problem. More updates to follow shortly.
-
-### Cloudflare Tunnel Availability Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/k7l4hzmthl3k
-- Summary: Sep 11, 21:55 UTCInvestigating - Cloudflare is investigating issues with Cloudflare Tunnel. More updates to follow shortly.
-
-### 1% of ChatGPT Work (mobile/web) turns are failing for existing threads
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M28MEQWTQJDRCRPFD9FWQ0H3
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components ChatGPT Work (Degraded performance)
-
-### Roundtables: AI’s apocalypse crisis
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/
-- Summary: Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas...
 
