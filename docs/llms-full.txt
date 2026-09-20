@@ -4,6 +4,39 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-20
+
+### HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/harmonyos-7-xiaoyi-system-agent-skills
+- Summary: Post-launch HarmonyOS 7 coverage frames Xiaoyi as an OS-level agent with 2,100+ system capabilities, 2,000+ agents, and 500+ partner Skills for multi-app task chains.
+
+### ZGCM-1-7B Opens Full Weights, Data, and Code for Math and Agentic Search
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/zgcm-1-7b-open-math-agentic-search
+- Summary: Zhongguancun Academy’s ZGCM-1-7B posts ~97% on MATH-500, ~75% on AIME 2026, and ~63% on WebWalkerQA while releasing weights, data, and training code.
+
+### Huawei Cloud Rolls Out AgentArts and Agentic Cloud Stack for Enterprise AI at Connect 2026
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-cloud-agentarts-agentic-cloud-connect-2026
+- Summary: At Connect 2026, Huawei Cloud said AgentArts already serves 100+ enterprises alongside openJiuwen, Agentic MaaS, and Industry AI Foundry assets for production agents.
+
+### China Mobile Open-Sources Open-RAIL Middleware to Link VLA/WAM Models With Robot Hardware
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/china-mobile-open-rail-vla-wam-middleware
+- Summary: China Mobile’s Open-RAIL middleware adds async inference, hardware abstraction, and ~50–100 LOC model hooks so VLA/WAM stacks can drive heterogeneous robots end to end.
+
+### DeepSeek-V4.1-Flash Ships Causal Encoder–Decoder MoE With 1M Context and Extreme KV Compression
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-v4-1-flash-causal-encoder-decoder-1m-kv
+- Summary: DeepSeek’s V4.1-Flash pairs a 552B Causal Encoder–Decoder MoE with 1M context, CSA2+FP4 KV at ~890 bytes/token, and API access as deepseek-flash.
+
+
 ## 2026-09-19
 
 ### Why I still haven’t bought into true RSI
@@ -36,6 +69,12 @@
 - URL: https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html
 - Summary: SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring...
 
+### Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
+- Summary: A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. "Orkes Conductor 3.21.21...
+
 ### Huaruizhipu Praxis One Brings ~106 TOPS Embodied Edge Compute on MediaTek Genio Pro 5100
 - Source: Pandaily
 - Category: chinese-ai
@@ -65,6 +104,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/huawei-cloud-ascend-950-lingqu-cluster-commercial-dates
 - Summary: Huawei Cloud will commercialize Ascend 950 Lingqu AI cluster service on Sept. 30 in China and Nov. 30 globally—1,024-card UnifiedBus, ~1 EFLOPS FP8, 256TB unified memory.
+
+### Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html
+- Summary: Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted...
 
 ### CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories
 - Source: The Hacker News
@@ -1870,6 +1915,12 @@
 - URL: https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html
 - Summary: Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens...
 
+### Beyond Measurement Metrics: A Human-Centered Framework for Semantic Validation of Network Traffic Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.17014
+- Summary: Machine learning (ML) has become the dominant approach for network traffic classification, achieving very high predictive performance. However, a model is only valuable if it learns semantically meaningful and trustworthy patterns rather than exploiting spurious correlations. Conventional...
+
 ### Disruption with some GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -2293,6 +2344,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/s4x7n3nfqnyy
 - Summary: Sep 14, 20:22 UTCInvestigating - Cloudflare is aware of investigating issues with our Cloudflare Queues product.
 
+### Agentic Search Spaces for Tabular Machine Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.16309
+- Summary: Despite the rapid progress of LLM-based agents for planning, code generation, and debugging, their practical value for tabular machine learning remains underexplored. In this paper, we investigate a concrete use case: whether state-of-the-art agentic AI systems can design extended HPO search spaces...
+
 ### Actions Larger Runner Jobs for some customers may be slow to start
 - Source: GitHub Status
 - Category: incidents
@@ -2472,6 +2529,12 @@
 - Category: security
 - URL: https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/
 - Summary: The flaw allows attackers to send files and execute them without authorization through an active remote session. The post ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks appeared first on SecurityWeek.
+
+### Convergence rates for generative drifting flows: fixed-scale obstructions and multihead acceleration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.15193
+- Summary: Drifting models offer a promising route to faster generative AI: they perform gradual transport during training, while generating new samples in a single step. This paper asks whether the underlying drifting process can converge rapidly to a target distribution under ideal conditions, before...
 
 ### Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users
 - Source: The Hacker News
@@ -2710,6 +2773,12 @@
 
 ## 2026-09-13
 
+### OCT-FedSIR: Toward Trustworthy Federated Ophthalmic Learning under Annotation Noise
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.14734
+- Summary: Federated learning enables collaborative model development without centralizing patient data, but annotation reliability at participating institutions cannot always be assumed. In ophthalmic imaging, differences in disease prevalence and class composition can resemble changes caused by corrupted...
+
 ### Elevated errors for ChatGPT users in Europe
 - Source: OpenAI Status
 - Category: incidents
@@ -2739,6 +2808,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
 - Summary: Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending...
+
+### Digital Persuasion: Understanding the Impact of Online Influencers on Public Opinion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.16062
+- Summary: The studying of opinion dynamics and its propagation within social networks is crucial for addressing a wide range of challenges, including political polarization, public health, and marketing strategies. In this work, we study the problem of opinion dynamics by proposing a framework based on...
 
 
 ## 2026-09-12
@@ -2955,76 +3030,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the...
-
-### Your Critical Vulnerabilities Might Not Be Your Biggest Risk
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html
-- Summary: Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise. A critical vulnerability may look alarming on a scanner report, but if it...
-
-### Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/
-- Summary: Oleksii Oleksiyovych Lytvynenko has been sentenced to 4 years in prison after he was arrested in Ireland in 2023. The post Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison appeared first on SecurityWeek.
-
-### Elevated errors for GPT-5.6 Sol on the API
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M27VK1VN54RQJGJEHB5JTQJJ
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Responses (Operational) Chat Completions (Operational)
-
-### Check Point Patches Critical VPN Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/
-- Summary: Tracked as CVE-2026-85102 and CVE-2026-85103, the flaws could be exploited for remote code execution. The post Check Point Patches Critical VPN Vulnerabilities appeared first on SecurityWeek.
-
-### Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/
-- Summary: Financials have not been disclosed, but the estimated cost is in the tens of millions of dollars. The post Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance appeared first on SecurityWeek.
-
-### Surfshark Systems Targeted by Hackers
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/surfshark-systems-targeted-by-hackers/
-- Summary: A misconfigured test server containing engineering material, including internal configurations, was accessed by threat actors. The post Surfshark Systems Targeted by Hackers appeared first on SecurityWeek.
-
-### Meet the under-35s shaping the future of biotech
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/
-- Summary: Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list...
-
-### Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-says-russian-hackers-used-claude-ai-to-automate-malware-evasion/
-- Summary: Anthropic reveals how criminal groups are increasingly targeting AI vendors' own infrastructure, including to steal a pre-release Claude model. The post Anthropic Says Russian Hackers Used Claude AI to Automate Malware Evasion appeared first on SecurityWeek.
-
-### Elevated errors for ChatGPT users in Europe
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M27Q9GH7WVKNA61ZR3RDMSY5
-- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components ChatGPT Work (Degraded performance)
-
-### PaperCut Flaws Exploited in AI-Powered Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/papercut-flaws-exploited-in-ai-powered-attacks/
-- Summary: A Russian threat actor used AI to build, test, and deploy exploits against hundreds of organizations worldwide. The post PaperCut Flaws Exploited in AI-Powered Attacks appeared first on SecurityWeek.
-
-### INC20000213
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/x3f2pxm6l9zw
-- Summary: Sep 11, 08:12 UTC Update - Current status: We're continuing to investigate the issue with Snowflake Data Cloud. We'll provide another update within 60 minutes.Customer experience: Customers hosted in the specified region may be unable to sign in to Snowsight, and may receive an error message such...
-
-### Researcher Claims 6TB China LLM Router Logs Exposed Enterprise Credentials
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-llm-router-logs-6tb-credential-leak-researcher-claim
-- Summary: Security researcher Chaofan Shou said he obtained about 6TB of invocation logs from a Chinese large-model relay and found SSH keys, cloud credentials and tokens tied to enterprises. The report is presented as a supply-chain risk claim pending confirmation.
 
