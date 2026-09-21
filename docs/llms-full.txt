@@ -6,6 +6,18 @@
 
 ## 2026-09-21
 
+### Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/jev
+- Summary: The definitive Jev podcast with its lead creator.
+
+### Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html
+- Summary: A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own...
+
 ### Google Hit With $463 Million Fine for EU Location Data Rule Breach
 - Source: Security Week
 - Category: security
@@ -534,6 +546,12 @@
 - Category: security
 - URL: https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/
 - Summary: Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.
+
+### Potential-Field Action Representation for Reinforcement Learning in Contact-Rich Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.21609
+- Summary: Model-free reinforcement learning can acquire contact-rich robotic manipulation skills through trial-and-error interaction, but it often requires the policy to learn both task strategy and low-level motion generation. In this setting, the action representation is critical because it determines how...
 
 ### WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage
 - Source: The Hacker News
@@ -1855,6 +1873,12 @@
 - URL: https://tldr.takara.ai/p/2609.18190
 - Summary: How neural representations preserve the structure of input changes connects representation analysis with internal intervention. We study operable representational content through compatible actions of reference transformations on neural features. We characterise when a transformation descends...
 
+### Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors in Vehicle Tracking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.18173
+- Summary: Vehicle tracking is fundamental to applications ranging from urban mobility and public safety to security and defense. Conventional tracking relies on direct access to sensors that provide strong observations such as vehicle identity and location. In practice, however, factors such as ownership,...
+
 ### Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
 - Source: The Hacker News
 - Category: security
@@ -2837,6 +2861,12 @@
 - URL: https://tldr.takara.ai/p/2609.16233
 - Summary: Vision-language models excel at 2D image understanding but remain limited in 3D spatial reasoning. Progress is hindered by limitations in current benchmarks. First, 3D datasets often rely on point clouds that capture geometry but discard rich visual features like texture, text, and materials....
 
+### Multisource Remote Sensing and Geospatial Analysis of Vineyard Wildfire Impacts and Resilience: The 2019 Kincade Fire
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.16168
+- Summary: Working agricultural landscapes are often treated as background to wildfire disasters, even though they are managed fuel mosaics, productive assets, and parts of regional infrastructure systems. We examine vineyard wildfire resilience during the electrically initiated 2019 Kincade Fire in Sonoma...
+
 ### 3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials
 - Source: The Hacker News
 - Category: security
@@ -2902,6 +2932,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5
 - Summary: Status: MonitoringEarlier today, some ChatGPT Plus users using Work Mode experienced errors starting or resuming tasks, or had limited access to workspace tools and files. We have applied a mitigation and service has recovered. We are monitoring the results.Affected components ChatGPT Work...
+
+### Transfer Learning for Socioeconomic Estimation in Forced-Displacement Settings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.15773
+- Summary: Progress in inclusive household surveys has strengthened socioeconomic evidence for forcibly displaced populations, providing indispensable benchmarks on living conditions and welfare. However, these surveys remain resource-intensive and periodic, while conditions can change between rounds,...
 
 ### ⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits
 - Source: The Hacker News
@@ -2986,40 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/shengshu-motus2-self-evolving-dexterous-world-model
 - Summary: Shengshu Technology (GensPI), with Tsinghua-affiliated researchers, unveiled Motus2 — a shared-parameter world-action, action-conditioned world and value model loop for dexterous manipulation, lifting phone-placement success from about 65% to 75% with ~130k hours of egocentric data.
-
-### DeepSeek App Gray-Tests Native AI Voice Chat With Four TTS Voices
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-app-gray-tests-native-ai-voice-chat
-- Summary: DeepSeek is gray-testing in-app AI voice chat: a speaker control in the top-right corner and four selectable TTS voices — Beike, Bailang, Haixing and Anchao — as a product feature distinct from Flash GA and the Pro-to-Flash API cutover.
-
-### China Mobile Cloud Debuts GPU–Neuromorphic Heterogeneous LLM Inference Stack
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-mobile-cloud-gpu-neuromorphic-hetero-llm-inference
-- Summary: At the 2026 China Computing Power Conference, China Mobile Cloud and partners unveiled a domestic GPU plus neuromorphic mixed-inference system for large models, citing roughly 2× output and energy gains and over 40% lower opex on DeepSeek V4 Flash.
-
-### ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/connectwise-patches-screenconnect-vulnerability-exploited-in-worm-like-attacks/
-- Summary: The flaw allows attackers to send files and execute them without authorization through an active remote session. The post ConnectWise Patches ScreenConnect Vulnerability Exploited in Worm-Like Attacks appeared first on SecurityWeek.
-
-### Convergence rates for generative drifting flows: fixed-scale obstructions and multihead acceleration
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.15193
-- Summary: Drifting models offer a promising route to faster generative AI: they perform gradual transport during training, while generating new samples in a single step. This paper asks whether the underlying drifting process can converge rapidly to a target distribution under ideal conditions, before...
-
-### Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html
-- Summary: A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named "Twitch Enhanced Viewer | JeetBot," lists HISHIMIRO/jeetbot.cc as its developer and has the following...
-
-### INC20000217
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/8c1snlr8gskb
-- Summary: Sep 14, 06:09 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
 
