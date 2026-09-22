@@ -6,6 +6,12 @@
 
 ## 2026-09-22
 
+### 🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/john-platt
+- Summary: We talked to Google&#8217;s Oscar winning &#8220;Giganerd&#8221; about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI
+
 ### Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.
 - Source: OpenAI Status
 - Category: incidents
@@ -292,6 +298,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/transformers-llama-cpp-quants
 
+### How UK AISI and EvalEval Are Making Benchmark Results Reproducible
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/evaleval-aisi
+
 
 ## 2026-09-21
 
@@ -300,6 +311,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/jev
 - Summary: The definitive Jev podcast with its lead creator.
+
+### Anatomy-Decomposed Chest Computed Tomography (CT) Projections as Scalable Supervision for Bone Suppression in Chest Radiographs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24937
+- Summary: Bone overlap can obscure abnormalities in chest radiographs, while scarce paired training data limit supervised bone suppression. We address this challenge with a digitally reconstructed radiograph (DRR) framework that converts chest computed tomography (CT) into paired supervision for component...
 
 ### Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR
 - Source: The Hacker News
@@ -324,6 +341,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html
 - Summary: Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company...
+
+### ZVeC: A Zero-Shot Framework for Instance-Level Vehicle Extraction and Generative Point Cloud Completion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24825
+- Summary: LiDAR point clouds acquired in underground environments exhibit severe geometric incompleteness due to occlusions and limited sensor viewpoints, making reliable point cloud completion challenging without large supervised datasets. We propose ZVeC, a zero-shot, instance-driven framework that...
 
 ### Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer
 - Source: Security Week
@@ -384,6 +407,12 @@
 - URL: https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in...
 
+### MIGA:Shared-Geometry Gaussian Representation with Implicit Amplitude Modeling for Accelerated 3D Multi-Echo MRI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24468
+- Summary: Three-dimensional multi-echo MRI provides rich anatomical and quantitative information, but repeated volumetric encoding prolongs acquisition and motivates k-space undersampling. Reconstructing undersampled multi-echo data requires exploiting shared anatomy while preserving echo-dependent signal...
+
 ### How we made the first comprehensive map of deaths along the US border’s “virtual wall”
 - Source: MIT Tech Review AI
 - Category: research
@@ -426,6 +455,12 @@
 - URL: https://www.interconnects.ai/p/the-current-balance-of-power-in-open
 - Summary: The expanded form of a testimony I prepared for Congress.
 
+### MUSE: Dependency-Aware Adaptation of a Frozen Vision Backbone for Multivariate Time Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24441
+- Summary: Multivariate time-series forecasting is essential to many real-world applications. Recent large vision models (LVMs) offer a promising paradigm by transferring cross-domain visual priors to time-series forecasting. However, existing LVM-based methods face two key challenges: balancing independent...
+
 ### CrowdSec Confirms Source Code Stolen in Supply Chain Attack
 - Source: Security Week
 - Category: security
@@ -455,6 +490,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.24324
 - Summary: Electroencephalography (EEG) provides a non-invasive window into dynamic brain activity, yet modeling long-horizon EEG sequences remains challenging due to their high temporal complexity, substantial variability across subjects, and the lack of biologically meaningful sequence representations....
+
+### TTSE: A Two-Track Online Self-Evolution Framework
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24289
+- Summary: As Large Language Model (LLM) agents are applied in continuously interactive environments, driving the evolution of their own capabilities becomes a core problem for achieving long-term autonomy. Currently, environmental knowledge is typically treated as an external fixed input rather than as part...
 
 ### ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure
 - Source: The Hacker News
@@ -2978,46 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.16824
 - Summary: Decentralized bandit systems often contain heterogeneous agents: rewards can change at individual agents even when the best action for the network stays the same. These local changes may cancel when rewards are averaged across agents, so the number of local changes $\Stloc$ can be much larger than...
-
-### Time-warping estimation via stationarity-based learning of the de-warped signal
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.16796
-- Summary: Time-warping estimation is a fundamental problem in signal processing with applications in bioacoustics, radar, and biomedical analysis. This paper introduces a Time-Warping Estimation Trainable (TWET) model for estimating timewarping functions from a single observation. The proposed approach...
-
-### PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.16785
-- Summary: Zero-shot anomaly detection aims to localize anomalies without target-domain samples. Existing CLIP-based methods suffer from coarse anomaly maps and limited semantic prompts. We propose PSMP-CLIP, integrating patch-prompt SAM2 segmentation (PPSS) and multi-semantic guided prompt regularization...
-
-### Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M2HYH64J2CZMZ63HEV2FCQFA
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
-
-### Network latency affecting Singapore
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/pj1qcy7lhm11
-- Summary: Sep 15, 07:35 UTCResolved - This incident has been resolved.Sep 15, 07:16 UTCMonitoring - A fix has been implemented and we are monitoring the results.Sep 15, 07:15 UTCInvestigating - Cloudflare is investigating issues with network performance in Singapore. We are working to analyse and mitigate...
-
-### TAME: Token Attribution and Masking for Emergent misalignment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.16754
-- Summary: Fine-tuning an aligned language model on narrow, flawed data can induce harmful behavior far outside the training domain, known as emergent misalignment (EM). Prior work has localized EM in model weights, activations, and training documents, but it remains unclear which training tokens carry the...
-
-### LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html
-- Summary: A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14. On such servers, many customers' sites run on a single machine, and an attacker with one of...
-
-### VideoMM: Adaptive Macro-Micro Inference for Efficient Video MLLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.16722
-- Summary: Scaling Multimodal Large Language Models (MLLMs) to long-form video understanding is bottlenecked by the explosion of visual tokens, which saturates context windows and incurs prohibitive costs. Current solutions predominantly rely on auxiliary models for token reduction but face a fundamental...
 
