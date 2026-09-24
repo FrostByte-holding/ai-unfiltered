@@ -4,18 +4,87 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-24
+
+### SenseTime Ships SenseNova U1 Pro Image Model With Up to 8K Output via Raccoon and API
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/sensetime-sensenova-u1-pro-image-model-8k-raccoon-api
+- Summary: SenseTime released the production SenseNova U1 Pro image-creation model through its Raccoon app and SenseNova API, citing interleaved text-image chain-of-thought generation and output resolution up to 8K with custom aspect ratios.
+
+### Alibaba Cloud Unveils Qwen Book AI Agent PC: Skill Keyboard, AI Island Display and Omarchy OS Collab
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-cloud-qwen-book-ai-agent-pc-skill-keyboard-omarchy
+- Summary: Alibaba Cloud debuted Qwen Book, its first AI agent PC, at Apsara 2026 with a Skill keyboard array, AI Island status display and an Omarchy open-source desktop OS collaboration, opening a Day One tester program toward December trials.
+
+### Alibaba Launches Qwen Intelligence Phone-Agent Stack; Honor Magic9 Named First Formal Adopter
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/alibaba-qwen-intelligence-phone-agent-stack-honor-magic9
+- Summary: At Apsara 2026, Alibaba released Qwen Intelligence, a modular phone-agent platform spanning Mobile Planner, Mobile-Use and Creative agents plus an OS Harness, with Honor's forthcoming Magic9 series as the first formal adopter.
+
+### Xiaomi Details HySparse2 for MiMo-V3: Two-Level KV Sharing Cuts 1M-Token Prefill FLOPs About 5× vs Hybrid SWA
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaomi-hysparse2-mimo-v3-two-level-kv-sharing-prefill
+- Summary: Xiaomi's LLM-Core team published HySparse2, a hybrid sparse-attention design with two-level KV sharing aimed at MiMo-V3-class agentic models, reporting about 5× lower 1M-token prefill FLOPs versus Hybrid SWA on an 80B-A3B MoE.
+
+### Huawei Debuts OceanStor M900 Context Memory Storage: PB-Scale Shared KV Cache With ~60μs NPU-to-SSD Hop
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-oceanstor-m900-context-memory-storage-kv-cache-60us
+- Summary: At HUAWEI CONNECT 2026, Huawei introduced OceanStor M900 Context Memory Storage for SuperPoDs, claiming a PB-scale shared KV-cache pool, one-hop NPU-to-SSD access near 60 microseconds, and up to 40 TB/s aggregate cluster bandwidth.
+
+
 ## 2026-09-23
+
+### Mobile users unable to see Work Mode and the Model Picker
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Agent (Operational) Sites (Operational) Login (Operational) Search (Operational) Compliance API (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational) Image Generation (Operational) GPTs...
+
+### IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/
+- Summary: IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.
 
 ### How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
 
+### Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html
+- Summary: Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of...
+
+### Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/
+- Summary: The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts. The post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on SecurityWeek.
+
 ### A congressional representative just proposed killing America’s border tower program
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/
 - Summary: Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border.&#160; The announcement comes just days after publication of an MIT Technology Review investigation, “Dying on...
+
+### A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html
+- Summary: The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button...
+
+### MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html
+- Summary: Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an...
 
 ### Advancing Private AI Compute with secure, server-side memory
 - Source: DeepMind Blog
@@ -33,6 +102,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html
 - Summary: A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this...
+
+### Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html
+- Summary: Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and...
 
 ### Incident across several services
 - Source: GitHub Status
@@ -57,11 +132,35 @@
 - URL: https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/
 - Summary: Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature. The post Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare appeared first on SecurityWeek.
 
+### New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html
+- Summary: A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take "full control of the server," the company said on September 22. A&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account...
+
 ### The Download: India’s smart glasses menace and AI’s trillion-dollar gamble
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content...
+
+### Adobe Patches Critical Flaws in Connect, AEM Forms
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/
+- Summary: The nine critical security defects could be exploited for arbitrary code execution and privilege escalation. The post Adobe Patches Critical Flaws in Connect, AEM Forms appeared first on SecurityWeek.
+
+### AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/
+- Summary: The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.
+
+### Chrome 154 Patches 108 Vulnerabilities
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/
+- Summary: The browser update resolves several critical-severity memory safety and memory corruption flaws. The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.
 
 ### Elevated Error Rates for ChatGPT across Plus and Pro plans.
 - Source: OpenAI Status
@@ -74,6 +173,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/
 - Summary: Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people...
+
+### The AI Hype Index: AI loves cheating
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/
+- Summary: Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into...
 
 ### Arista Urges Immediate Patching of Exploited VCO Zero-Day
 - Source: Security Week
@@ -248,6 +353,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.25028
 - Summary: arXiv:2609.25028v1 Announce Type: new Abstract: QMSum provides no scorer, making query-focused meeting summarization results difficult to compare. We rescore or generate 15 systems under one implementation. Through a common inference port, a released 406M Fusion-in-Decoder specialist loses 6.30...
+
+### X-Planner: Event-Structured Task Planning for Embodied Intelligence
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.25187
+- Summary: arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to...
+
+### Lean Pool: An AI-Maintained Archive of Formalized Mathematics
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.25199
+- Summary: arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.
+
+### The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.25254
+- Summary: arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The...
+
+### MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.25272
+- Summary: arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructured clinical narratives. We propose MedGate-Fusion, a multi-modal gated architecture that...
+
+### When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2609.25284
+- Summary: arXiv:2609.25284v1 Announce Type: new Abstract: A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections...
+
+### Brain-Inspired Hierarchical Modularity for General Continual Learning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.25146
+- Summary: arXiv:2609.25146v1 Announce Type: new Abstract: Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments. However, conventional continual learning is typically studied with...
+
+### Dual-GNN Multilevel Coarsening for Maximum Independent Set
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.25149
+- Summary: arXiv:2609.25149v2 Announce Type: new Abstract: The maximum independent set (MIS) problem is a fundamental NP-hard combinatorial optimization problem with applications in scheduling, resource allocation, and network analysis. Exact solvers can provide high-quality solutions or optimality...
+
+### Exposing Blind Spots in Deep Imbalanced Regression Evaluation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.25152
+- Summary: arXiv:2609.25152v1 Announce Type: new Abstract: Deep Imbalanced Regression (DIR) addresses a common failure mode of regression models: target distributions are highly non-uniform, causing models to perform best in densely populated target regions even when reliable performance is required across...
+
+### Learning Neural Feedback Linearization for Data-driven Systems via Augmented Lagrangian
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.25163
+- Summary: arXiv:2609.25163v1 Announce Type: new Abstract: The paper proposes a novel data-driven framework for designing and training a feedback linearizing controller by explicitly incorporating relative degree based conditions into the learning process. This enables the conventional feedback controller...
+
+### Mitigating Sequential Reappearance in Diffusion Data-Point Unlearning
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2609.25166
+- Summary: arXiv:2609.25166v1 Announce Type: new Abstract: Diffusion data-point unlearning is typically evaluated immediately after each deletion, even though subsequent requests may repeatedly update the same model. We identify sequential reappearance, a failure mode in which an instance that is initially...
+
+### From Tone to Trajectory: Continuous Sentiment and the Shape of Monetary Policy Communication
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.25034
+- Summary: arXiv:2609.25034v1 Announce Type: new Abstract: Central bank press conferences are not merely information releases --- they are structured narratives. We study whether the shape of sentiment within a statement, not just its average tone, carries policy-relevant signals. Constructing sentiment arcs...
+
+### Peerify: Benchmarking Peer-Review Claim Verification
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.25046
+- Summary: arXiv:2609.25046v1 Announce Type: new Abstract: Peer review plays a central role in scholarly publishing, yet verifying whether reviewer claims are supported by manuscript evidence remains a largely manual and time-consuming process. We present Peerify, a pipeline for manuscript-grounded...
+
+### AIBuildAI-2.5: Efficient Autonomous AI Model Development Through LLM-Guided Tree Search
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.25047
+- Summary: arXiv:2609.25047v1 Announce Type: new Abstract: Autonomous agents that automatically build artificial intelligence (AI) models could broaden access to AI across science and engineering. A popular line of such agents frames model building as a code search problem and solves it by tree search, in...
+
+### Prompt Breadth and Rollout Refresh Interact in On-Policy Distillation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.25048
+- Summary: arXiv:2609.25048v1 Announce Type: new Abstract: How many prompts does on-policy distillation (OPD) need, and how does the answer depend on the student policies that generate its training responses? We study these two controls jointly: prompt breadth and rollout refresh. A 3x3 mathematical-reasoning...
+
+### Mitigating LLM Over-Refusal via Dynamic Semantic Routing Calibratione
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2609.25049
+- Summary: arXiv:2609.25049v1 Announce Type: new Abstract: Large language models (LLMs) aligned for safety often suffer from over-refusal, incorrectly rejecting benign yet safety-related instructions. Prior studies primarily attribute this to static representation overlap, largely overlooking the underlying...
 
 ### China Assembles Orbital Datacenter Pieces: In-Orbit AI, Cloud-Native Sats and 100Gbps Laser Links
 - Source: Pandaily
@@ -2826,196 +3021,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-jev-a-system-one-model-that
 - Summary: congrats to TypeSafe!
-
-### Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html
-- Summary: Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file...
-
-### GeoCond: A Conditioning-Aware Reliability Adapter for Feed-Forward 3D Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18465
-- Summary: Feed-forward 3D foundation models such as VGGT predict cameras, depth, and point maps in a single pass, but can fail silently under low overlap, low parallax, and extreme relative rotation. Stratified analyses over these factors show that these failures are governed by geometric conditioning and...
-
-### MSR: Multiple Subject Reference for Video Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18393
-- Summary: Conditioning a video generator on multiple images requires preserving appearance while associating each reference with its intended role. We present MSR (Multiple Subject Reference), a slot-aware conditioning scheme for LTX-based video generation. Each reference image is independently encoded as a...
-
-### Pose2Muscle: Structured Spatio-Temporal Decoding for Discrete Muscle Activity Estimation from Human Pose
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18336
-- Summary: Muscle activity is fundamental to human movement, and understanding its patterns is critical for injury prevention and rehabilitation. Conventional muscle activity monitoring relies on specialized sensors such as surface electromyography, which limits its practicality for long-term real-world use....
-
-### Email Notifications Delayed
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/d4kgs6xmq9tl
-- Summary: Sep 16, 08:50 UTCResolved - This incident has been resolved.Sep 16, 08:33 UTCInvestigating - Cloudflare is investigating delays with dispatching of notification emails for some customers. Webhooks and PagerDuty notifications are not affected.
-
-### Trajectory Learnability for Offline On-Policy Distillation with Imperfect Teachers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18321
-- Summary: Offline on-policy distillation gains efficiency by collecting student trajectories and teacher supervision once and reusing them throughout optimization. The same reuse makes imperfect supervision persistent. Since even strong teachers can fail, we ask \emph{what remains learnable from imperfect...
-
-### Enterprises Warned of Attacks Exploiting WSO2 Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/
-- Summary: The vulnerability, tracked as CVE-2026-5430, can be exploited to gain access to valuable enterprise data. The post Enterprises Warned of Attacks Exploiting WSO2 Vulnerability appeared first on SecurityWeek.
-
-### Support Helpdesk Availability Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/zlyf7lvpp05s
-- Summary: Sep 16, 08:32 UTCInvestigating - We are continuing to investigate this issue.Sep 16, 08:31 UTCInvestigating - Our helpdesk provider is currently experiencing issues, and as such customers might encounter errors while submitting or viewing tickets. Responses on customer inquiries may be delayed...
-
-### Degradation with Gemini 3.8 Flash
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/nlxnbqnkdzdl
-- Summary: Sep 16, 08:28 UTC Update - Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate. Sep 16, 07:21 UTC Investigating - We are investigating reports of degraded availability for Copilot AI Model Providers
-
-### D-Robotics and GigaAI Pair GigaBrain-0.7 With Sunrise S600 Edge Stack
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/d-robotics-gigaai-gigabrain-0-7-sunrise-s600
-- Summary: D-Robotics and GigaAI will adapt open-source embodied model GigaBrain-0.7 for the Sunrise S600 edge platform at 560 TOPS INT8, linking GigaWorld and policy stacks for Maker, light-pickup, dual-arm and mobile-chassis deployments.
-
-### Huawei Ascend CANN Open-Source Community Claims China-Leading Activity
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-ascend-cann-open-source-community-china-activity
-- Summary: Huawei says its Ascend CANN open-source community now tops 6,230 monthly active developers and 60 million-plus repository downloads, with more than half of active contributions coming from outside Ascend and Day-0 open source for Ascend 950.
-
-### ByteDance Ties Doubao, Feishu and Volcengine Into an AI Office Stack
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-doubao-feishu-volcengine-ai-office-stack
-- Summary: At Feishu's 2026 conference, CEO Liang Rubo cast Doubao agents, Feishu collaboration and Volcengine models-and-compute as one enterprise stack, highlighting Feishu 8.0 Agent CLI endpoints rising from 247 to 767 and H1 ARR growth 2.5 times year earlier.
-
-### Shanghai AI Lab Releases Atria Dawn Preview, a 744B MoE Agentic Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/shanghai-ai-lab-atria-dawn-preview-744b-moe-agent
-- Summary: Shanghai Artificial Intelligence Laboratory open-sourced Atria Dawn Preview under MIT, a 744B MoE agentic model built on GLM-5.2 with 256K context, FP8 weights, and a leading AutomationBench score of 53.8 for long-horizon research and engineering agents.
-
-### Huawei Unveils 3D AI Data-Center Reference Architecture in Wuhu
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-3d-aidc-data-center-reference-architecture-wuhu
-- Summary: At an AIDC field meeting in Wuhu, Huawei released what it calls the industry's first 3D data-center reference architecture—cooling, IT, power and rooftop backup stacked vertically—to support 100,000-plus-card clusters with about nine-month delivery and over 90% electromechanical prefabrication.
-
-### Oracle Patches 800+ Vulnerabilities in September 2026 Security Update
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/
-- Summary: The security updates resolve over 800 vulnerabilities across 17 product families, including over 100 critical-severity flaws. The post Oracle Patches 800+ Vulnerabilities in September 2026 Security Update appeared first on SecurityWeek.
-
-### I code or AI code: A comparative evaluation of AI-rated scores in classroom observations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18274
-- Summary: Classroom observations are widely recognized as a key tool for establishing benchmarks of education quality and guiding pedagogical improvement, yet they remain resource-intensive and dependent on trained observers. This study evaluated the feasibility of using a LLM (GPT-5 model) to score...
-
-### Evolving Error States: Failure-Aware Progressive Repair for Ultrasound Lesion Segmentation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18256
-- Summary: Reliability under sparse and heterogeneous failures remains a fundamental challenge for medical image segmentation. High average accuracy can conceal a small set of structurally distinct and clinically consequential errors. Existing post-hoc correction methods alleviate this problem, but typically...
-
-### Acting in Meters: Learning Metric Interactions for Precise Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18243
-- Summary: Vision-Language-Action models and World-Action Models have advanced language-conditioned robotic manipulation, yet often leave metric relations among actions, objects, and scene geometry implicit. Human manipulation combines semantic understanding of task-relevant objects with spatial feedback that...
-
-### Behavior2Value: Benchmarking and Empowering LLMs for Consumer Value Measurement from E-commerce Behaviors
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18203
-- Summary: Human values are deep motivational orientations that shape human behaviors. In e-commerce, they reveal the stable drivers behind users' purchase decisions. Compared with short-term interests, consumer values better explain how users evaluate products before purchase. However, consumer values are...
-
-### T-SANDHI: Tone Sandhi-aware Adaptive Network with Decoupled Hybrid Injection for Low-resource Taiwanese Hokkien Speech Recognition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18194
-- Summary: In Taiwanese Hokkien automatic speech recognition (ASR), prior studies often treat tone sandhi as a major challenge under the assumption that models fail to process implicit phonological variations. However, our experiments on Taiwanese Hokkien reveal that speech foundation models actually handle...
-
-### Transformation Laws in Neural Representations: Structure, Realisability, and Construction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18190
-- Summary: How neural representations preserve the structure of input changes connects representation analysis with internal intervention. We study operable representational content through compatible actions of reference transformations on neural features. We characterise when a transformation descends...
-
-### Beyond Direct Sensing: Harnessing Indirect Observations from Third-Party Sensors in Vehicle Tracking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18173
-- Summary: Vehicle tracking is fundamental to applications ranging from urban mobility and public safety to security and defense. Conventional tracking relies on direct access to sensors that provide strong observations such as vehicle identity and location. In practice, however, factors such as ownership,...
-
-### Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
-- Summary: Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. "This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote...
-
-### Energy-Regularized Imitation Learning for Force- and Work-Aware Robotic Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18164
-- Summary: This paper studies energy-aware manipulation as a physically grounded learning problem. We define a joint-space mechanical-work proxy from joint torque and angular displacement, and train a differentiable energy predictor that estimates this work from robot states and actions. The predictor...
-
-### Time-Aligned Evolving Concept Graphs for Scientific Relation Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18163
-- Summary: Forecasting scientific relations can guide discovery by identifying promising connections before they emerge. Existing approaches often model concept semantics and graph structure separately or summarize semantics over coarse historical snapshots, leaving semantic representations potentially...
-
-### TeochewBench: A Human-Reviewed Benchmark for Teochew Hanzi Translation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18156
-- Summary: Teochew has a substantial speaker community and exhibits distinctive lexical, syntactic, and pragmatic features, yet textual resources for evaluating large language models remain limited. We present TeochewBench, a human-reviewed benchmark comprising 300 Teochew Hanzi expressions for evaluating...
-
-### Multi-View Mixture-of-Experts with Vision-Language Reranking for Cross-View Object Geo-Localization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18139
-- Summary: Cross-view object geo-localization (CVOGL) locates a target in satellite imagery using drone or street-view queries. Existing methods train separate detectors for each viewpoint, leading to parameter redundancy and impeding cross-view knowledge sharing. Moreover, top-ranked satellite candidates are...
-
-### Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/active-exploitation-attempts-target.html
-- Summary: A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account...
-
-### Designing Agentic AI Workflow Portfolios under Imperfect Selection and Compute Cost
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18126
-- Summary: Agentic AI systems often approach the same task through multiple workflows that differ in reasoning strategy, verification structure, and compute cost. A natural deployment policy is to use the workflow with the highest average performance, but this can be suboptimal because different workflows may...
-
-### Token Latency Fairness: Performance Isolation for Multi-Tenant LLM Serving
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18112
-- Summary: LLM serving is typically offered as a shared, multi-tenant service, where high-demand workloads from one client can cause latency SLO violations for others. Existing solutions for performance isolation equalize client throughput in the long run, for example through queueing and batching fairness....
-
-### A Comprehensive Review of Generative Physical Artificial Intelligence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.18111
-- Summary: The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics known as Generative Physical Artificial Intelligence (GPAI). These agentic AI systems autonomously perceive, reason, and act in complex real-world situations. This survey...
-
-### Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.13475
-- Summary: arXiv:2609.13475v1 Announce Type: new Abstract: Existing pipelines for clinical timeline extraction from case reports are evaluated using an expert reference and are limited by imperfect reference annotations and imprecise event alignment. We developed GAVEL, an LLM judge protocol that compares two...
 
