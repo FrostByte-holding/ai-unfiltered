@@ -6,6 +6,18 @@
 
 ## 2026-09-24
 
+### Disruption with billing information updates
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1dk955gg3bvz
+- Summary: Sep 24, 20:41 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 24, 20:24 UTC Monitoring - The degradation has been mitigated. We are monitoring to...
+
+### Elevated Error Rates on GPT-6 Astra Pro
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
+
 ### Introducing Gemini 3.8 Live with Live Avatar
 - Source: DeepMind Blog
 - Category: research
@@ -394,17 +406,35 @@
 - URL: https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/
 - Summary: The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.
 
+### SGDet3D++: Geometry-Grounded Semantics for 4D Radar and Camera 3D Object Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27671
+- Summary: 4D radar complements dense image semantics with long-range geometry and radial motion, but existing radar--camera detectors largely solve \emph{where} to align the modalities while leaving \emph{whether} a piece of evidence supports an evolving object hypothesis implicit. An image token may...
+
 ### Chrome 154 Patches 108 Vulnerabilities
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/
 - Summary: The browser update resolves several critical-severity memory safety and memory corruption flaws. The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.
 
+### Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27664
+- Summary: Cooperation emergence is a central problem in multi-agent systems because decentralized agents must coordinate while adapting to the changing behavior of others. Evolutionary game theory identifies strategically stable outcomes, but stability under a population adjustment dynamic need not imply...
+
 ### A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/
 - Summary: Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology’s development for safety reasons. The post A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk appeared first on SecurityWeek.
+
+### Learning Local Heterogeneity and Cross-Region Context for Large-Scale Traffic Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27637
+- Summary: Traffic flow forecasting is essential to intelligent transportation systems. Large-scale traffic forecasting requires jointly modeling local spatial dependencies and cross-region context.Spatial dependencies between geographically neighboring nodes are heterogeneous due to differences in road...
 
 ### Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm
 - Source: Security Week
@@ -453,6 +483,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html
 - Summary: A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046,...
+
+### Know-Your-Scene (KYS)-SLAM: Hierarchical Semantic-Motion Priors for Feature Matching in Stereo Visual SLAM
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27509
+- Summary: Stereo visual SLAM systems built on local descriptors suffer from semantic ambiguity, instance-level confusion, and independently moving objects, each corrupting data association and accumulating as trajectory drift. Prevailing semantic and dynamic SLAM methods address this through binary feature...
 
 ### Zhipu Open-Sources ZCode After Repo-Upload Fix; CAICT and NSFOCUS Audits Cite Removals
 - Source: Pandaily
@@ -711,6 +747,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.25049
 - Summary: arXiv:2609.25049v1 Announce Type: new Abstract: Large language models (LLMs) aligned for safety often suffer from over-refusal, incorrectly rejecting benign yet safety-related instructions. Prior studies primarily attribute this to static representation overlap, largely overlooking the underlying...
+
+### Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27321
+- Summary: Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an...
 
 ### China Assembles Orbital Datacenter Pieces: In-Orbit AI, Cloud-Native Sats and 100Gbps Laser Links
 - Source: Pandaily
@@ -2974,46 +3016,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.17546
 - Summary: arXiv:2609.17546v1 Announce Type: new Abstract: In this position paper, we argue that legal LLMs' hallucinations should be evaluated as a failure of legal warrant rather than as factual inaccuracy or citation failure. We define claim-authority warrant as the context-sensitive relation between a...
-
-### Chain-of-Thought Entropy as a Reliability Signal: A Preregistered Reproduction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.19606
-- Summary: This empirical study is an independent reproduction of the dissociation Zhao reported in 2026. The shape of a large language model's chain-of-thought entropy trajectory predicts whether the final answer is correct, while the magnitude of its total entropy drop does not. The dissociation merits...
-
-### DeepCybo PhysBrain 1.5 Posts 72.5 on 28 Benchmarks as Open Physical Foundation Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepcybo-physbrain-1-5-physical-foundation-model
-- Summary: DeepCybo open-sources PhysBrain 1.5 (2B/8B): 72.5 average across 28 public embodied benchmarks, claimed open-source lead, with unified understanding, action, and future-state tokens plus an eval kit.
-
-### Infinigence AI Open-Sources APXInf for Embodied Edge Inference on Jetson Thor
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/infinigence-ai-apxinf-embodied-edge-inference-open-source
-- Summary: Infinigence AI open-sources APXInf with Tsinghua and SJTU: PI 0.5 FP8 on Jetson Thor drops end-to-end latency from ~278 ms to ~26 ms (~38.46 Hz), with Orin/Thor/RTX 4090 support and a domestic-chip roadmap.
-
-### Huawei Maps Intelligent World 2035 Around Agent Token Traffic and Ten Tech Directions
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-intelligent-world-2035-agent-token-roadmap
-- Summary: Huawei's Intelligent World 2035 and GDII 2026 forecast agents above 90% of AI token traffic by 2035 and roughly 900 billion agents, with ten infra directions from SuperPoD and Tau Scaling to Agent OS and agent security.
-
-### CXMT HBM Yield Near 25% as YMTC XStacking Hybrid Bond Enters DRAM Stack Plans
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cxmt-ymtc-hbm-yield-xstacking-dram-hybrid-bond
-- Summary: KSIA-cited gaps put China about 3 years behind Korea on HBM, 2 on DRAM, 1 on NAND; CXMT LPDDR6 is in volume while HBM trial yield ~25%, with a YMTC XStacking Cu–Cu hybrid-bond DRAM stack plan.
-
-### Tencent Open-Sources WeKnora With Official DeepSeek Harness Plugin
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-weknora-open-source-deepseek-harness-plugin
-- Summary: Tencent WeChat open-sources WeKnora, a RAG-to-agent knowledge platform with 25k+ GitHub stars, plus an official DeepSeek Harness plugin that adds four read-only retrieval tools for enterprise documents.
-
-### Replicate Pruna issue
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/823rbdm2k25x
-- Summary: Sep 17, 01:09 UTCIdentified - Some Pruna models may not be able to scale up and are therefore either experiencing long queue times or entirely unavailable. We are working with Pruna to resolve the issue.
 
