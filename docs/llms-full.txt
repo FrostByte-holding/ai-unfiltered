@@ -6,6 +6,24 @@
 
 ## 2026-09-25
 
+### Issues with Codex
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39
+- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.Affected components VS Code extension (Full outage) Codex API (Full outage) Codex Web (Full outage) CLI (Full outage)
+
+### INC20000237
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/g8td4vy3qjk7
+- Summary: Sep 25, 23:00 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 30 minutes.Customer experience: Customers hosted in the specified regions may be unable to access or use multiple core Snowflake services and features. Affected...
+
+### U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/
+- Summary: A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to...
+
 ### In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure
 - Source: Security Week
 - Category: security
@@ -225,6 +243,12 @@
 - URL: https://tldr.takara.ai/p/2609.30205
 - Summary: Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthesize information from patient records. Their safety and utility depend on rigorous evaluation, yet existing benchmarks...
 
+### Do Audio Language Models Hear and Read Distinctive Features Alike?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.30167
+- Summary: Audio language models pass speech and text through a single decoder. We ask whether that decoder represents a distinctive feature in the same direction when a phoneme is heard and when it is read. For minimal pairs of phonemes differing in one feature, we take the offset between the two members'...
+
 ### GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI
 - Source: HF Daily Papers
 - Category: open-source
@@ -247,6 +271,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html
 - Summary: The "third-party[.]com" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. "third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,"...
+
+### A Contraction Framework for Stochastic Operators with Bootstrapping: Application to TD Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.29961
+- Summary: Many iterative algorithms rely on bootstrapping. A variable is updated using a second, frozen copy as a target, which is periodically replaced with the updated variable. Majorize-minimize and inexact proximal-point methods share this structure, as does temporal-difference (TD) learning. However,...
 
 ### ENDOPROMPT: Victim-Side Pseudo-References for Utility Degradation
 - Source: HF Daily Papers
@@ -276,6 +306,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
+
+### S2Planner: Multi-Scale Semantic Planner for End-to-End Autonomous Driving
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.29813
+- Summary: We present S2Planner, a trajectory planner that combines three front-facing cameras with ego-motion history and the current driving command. A fine-tuned DINOv3 backbone and a Spatial Tuning Adapter produce multi-scale image features; a coarse-to-fine decoder then uses trajectory self-attention and...
 
 ### AI-Powered Campaign Targets Hundreds of Online Retailers
 - Source: Security Week
@@ -409,11 +445,23 @@
 - URL: https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html
 - Summary: Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It...
 
+### Empath: Tracing Multi-Level Emotion Dynamics in Crisis Counseling Dialogues
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.29056
+- Summary: Emotion dynamics are critical for understanding crisis-support conversations, yet most computational work treats emotion as static utterance-level labels. We introduce EMPATH, a framework for understanding affective dynamics in mental health dialogues across three granularities: turn-level labels,...
+
 ### Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html
 - Summary: Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). "An unauthenticated attacker...
+
+### Automatic Rank Allocation for Low-Rank Adaptation in Large Language Models via lp Regularization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28998
+- Summary: Low-rank adaptation (LoRA) has become a popular parameter-efficient fine-tuning method for large language models. A key challenge in LoRA is how to determine the rank of each adaptation matrix, as rank directly controls its capacity and efficiency. Existing adaptive-rank methods typically allocate...
 
 ### Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass
 - Source: arXiv AI
@@ -2971,52 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.20465
 - Summary: We train neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization. The result justifies the future work on training neural networks to achieve high-throughput large-FOV super spatiotemporal resolution SMLM.
-
-### Correlation-Free Transition Path Sampling through Shooting Point Generation Guided by Committor Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.20461
-- Summary: Studying the dynamical behavior of a system often depends on characterizing how it transitions between long-lived states. Because such transitions are rare, observing them usually requires specialized enhanced sampling techniques. Transition Path Sampling (TPS) is a well-established method for...
-
-### Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html
-- Summary: The Iran-linked "hacktivist" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE. "HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information...
-
-### Increased HTTP Errors in GIG (Rio de Janeiro)
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/83kl8stzw5zn
-- Summary: Sep 17, 14:00 UTCResolved - Cloudflare is aware that there was an increased level of HTTP errors in the GIG (Rio de Janeiro) datacenter, between 14:00 and 14:30 UTC. This has since recovered and normal operations have resumed.
-
-### Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/
-- Summary: Revolut allegedly fed customer information to hackers impersonating an Italian government agency for five months. The post Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom appeared first on SecurityWeek.
-
-### Comp AI Raises $34 Million for AI-Native Compliance and Security
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/
-- Summary: The company plans to expand into continuous cybersecurity, offering security testing across applications and infrastructure. The post Comp AI Raises $34 Million for AI-Native Compliance and Security appeared first on SecurityWeek.
-
-### AgriScope: Pixel-Grounded Multimodal Understanding for Agricultural Images
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.20325
-- Summary: Agricultural image understanding requires fine-grained recognition of plant diseases, pests, crop structures, and botanical species under complex real-world conditions. Despite recent advances in Multimodal Large Language Models (MLLMs), existing models remain limited to text-only outputs and lack...
-
-### To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.20186
-- Summary: Speculative Decoding (SD) has significantly accelerated Large Language Model (LLM) inference, yet existing approaches face a fundamental tradeoff between two drafting strategies: neural drafting and context-based copying. Neural drafts (e.g., EAGLE3) provide robust performance across diverse text...
-
-### ISC Patches 14 Vulnerabilities in BIND 9 Security Update
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/isc-patches-14-vulnerabilities-in-bind-9-security-update/
-- Summary: Attackers could exploit the flaws to increase resource usage, trigger an unexpected program exit, or terminate the named process. The post ISC Patches 14 Vulnerabilities in BIND 9 Security Update appeared first on SecurityWeek.
 
