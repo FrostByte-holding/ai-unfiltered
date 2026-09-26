@@ -6,11 +6,29 @@
 
 ## 2026-09-26
 
+### Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html
+- Summary: The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain...
+
+### China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/
+- Summary: The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents. The post China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks appeared first on SecurityWeek.
+
 ### New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/
 - Summary: The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions. The post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek.
+
+### Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
+- Summary: Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could...
 
 ### OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure
 - Source: Security Week
@@ -916,6 +934,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/nemotron-diarization
 
+### SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28064
+- Summary: Driving world-action models improve planning by coupling multimodal reasoning with future prediction, but their growing inference cost increasingly conflicts with the real-time latency requirements of vehicle control. Existing acceleration methods reduce tokens, layers, or sampling steps with...
+
 ### Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance
 - Source: HF Daily Papers
 - Category: open-source
@@ -1471,6 +1495,12 @@
 - URL: https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and
 - Summary: Podcast #19
 
+### Double Descent and Malign Overfitting in Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.26392
+- Summary: Conventional wisdom in deep learning holds that overparameterization---having more parameters $p$ than training samples $n$---is benign: larger models generalize better and, even without regularization, interpolating models generalize well, the test error following a double-descent curve. One might...
+
 ### Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity
 - Source: Security Week
 - Category: security
@@ -1572,6 +1602,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/china-embodied-ai-training-grounds-70-plus-dataset-standard-nov-1
 - Summary: A CAICT report and Xinhua coverage put more than 70 embodied-AI training grounds in operation by end-June 2026, with 40-plus more planned and a dataset quality standard set to take effect November 1.
+
+### The Limits of Simulated Societies: How Post-Training and Survey Fine-Tuning Erase Cross-Cultural Variance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25760
+- Summary: Using large language models (LLMs) to simulate diverse human populations has the potential to transform many aspects of computational social science, yet many evaluations score the average response rather than the spread of opinion within real groups. Here, we develop a diagnostic framework that...
 
 ### One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
 - Source: The Hacker News
@@ -2070,6 +2106,12 @@
 - URL: https://www.interconnects.ai/p/the-current-balance-of-power-in-open
 - Summary: The expanded form of a testimony I prepared for Congress.
 
+### ActGov: Governing LLM Agent Actions via Policy-Constrained Validation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24446
+- Summary: Large language model (LLM) agents increasingly execute long-horizon workflows through external tools, allowing untrusted outputs to influence subsequent actions and exceed user authorization. Existing defenses isolate injected content or constrain execution with predefined plans and static...
+
 ### MUSE: Dependency-Aware Adaptation of a Frozen Vision Backbone for Multivariate Time Series Forecasting
 - Source: HF Daily Papers
 - Category: open-source
@@ -2435,6 +2477,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/cxmt-g5-dram-platform-mass-production-24gb-lpddr5x
 - Summary: ChangXin Memory Technologies says its G5 DRAM platform is in mass production, with 11.95nm half-pitch via SAQP, ≥50% more dies per wafer, and 24Gb LPDDR5X already shipping.
+
+### Colon3R: Cross-Domain 3D Reconstruction from Monocular Colonoscopic Video
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.23961
+- Summary: Monocular colonoscopic 3D reconstruction is important for surgical robotic colonoscopy, but remains challenging due to weak texture, specular reflections, limited view overlap, and non-rigid tissue motion. Conventional multi-view 3D reconstruction methods rely on stable correspondences and...
 
 ### Djinnlang: Higher-Level Programming by Unambiguous Specification with an LLM in the Compiler
 - Source: HF Daily Papers
@@ -2971,52 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.19359
 - Summary: arXiv:2609.19359v1 Announce Type: new Abstract: Falls in older adults are often preceded by changes in mobility, balance, and postural transitions. This paper presents a wireless smart insole platform and machine-learning workflow for recognizing sitting, standing, walking, and unstable walking...
-
-### Stiefel Attention: When the Geometry of Transformer Projection Matrices Dominates Optimizer Choice---and When It Does Not
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19363
-- Summary: arXiv:2609.19363v1 Announce Type: new Abstract: The query and key projections $\WQ,\WK$ in attention are almost always trained by Euclidean optimizers with no constraint on their geometry. We constrain them to the Stiefel manifold and optimize them there with a Riemannian Adam that carries one...
-
-### Stop Removing Stopwords: How an Inherited Preprocessing Default Distorts Legal Text-as-Data
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19153
-- Summary: arXiv:2609.19153v1 Announce Type: new Abstract: Empirical legal scholarship increasingly treats judicial text as data, and much of it still runs on sparse, interpretable pipelines -- TF-IDF features and linear classifiers -- because the textual feature is often the object of study, not merely a...
-
-### Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19154
-- Summary: arXiv:2609.19154v1 Announce Type: new Abstract: While Large Language Models (LLMs) achieve high accuracy on established Classical Chinese Poetry benchmarks, it remains challenging to distinguish transferable Linguistic-Aesthetic Reasoning from reliance on familiar pre-training patterns. To address...
-
-### Towards Proactive Detection of User-Side Implicit Conflicts in Human-LLM Dialogue
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19155
-- Summary: arXiv:2609.19155v1 Announce Type: new Abstract: In Human-LLM dialogue, follow-up user utterances may implicitly conflict with earlier intents, leading the LLM to misinterpret user needs and generate inappropriate responses. A reliable dialogue system should proactively detect user-side conflicts...
-
-### Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19156
-- Summary: arXiv:2609.19156v1 Announce Type: new Abstract: Data-driven fine-tuning is widely adopted to enhance reasoning in Large Language Models (LLMs) due to its simplicity and efficiency. However, mainstream imitation learning methods that rely exclusively on perfect reasoning trajectories suffer from a...
-
-### VisKG-LM: Compiling Knowledge Graphs into Visual Memory for Multiple-Choice Question Answering
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19158
-- Summary: arXiv:2609.19158v1 Announce Type: new Abstract: Knowledge graphs are usually integrated into question answering by encoding a retrieved subgraph with a graph neural network and fusing it with the language model in the online inference path. The same subgraph is therefore re-encoded from scratch...
-
-### Amap Releases ABot-Earth 0.7 3D-Native Urban World Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/amap-abot-earth-0-7-3d-urban-world-model
-- Summary: Amap (AutoNavi) launched ABot-Earth 0.7, a 3D-native urban world model that claims satellite or text input can generate kilometer-scale 3DGS cities on one consumer GPU in about 10 minutes—roughly 1,000× faster than traditional pipelines—with Flying Street View 2.0 integration.
-
-### TaichuAI Open-Sources ZDTaichu5.0-9B Spatial Multimodal Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/taichuai-zdtaichu5-0-9b-spatial-multimodal-open-source
-- Summary: TaichuAI released ZDTaichu5.0-9B, a ~9B open multimodal model (Qwen3.5-9B + C-RADIOv4-H) with any-resolution image/video input and reported spatial/agent scores including ViewSpatial 62.5, MMSI 47.2, MindCube-tiny 78.3, TAU2 87.7, and Claw-Eval 71.4.
 
