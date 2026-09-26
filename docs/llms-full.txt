@@ -6,6 +6,36 @@
 
 ## 2026-09-26
 
+### New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/
+- Summary: The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions. The post New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining appeared first on SecurityWeek.
+
+### OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/
+- Summary: OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.” The post OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure appeared first on SecurityWeek.
+
+### Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html
+- Summary: Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to...
+
+### SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows -...
+
+### Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html
+- Summary: Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. "Kiteworks received credible threat intelligence from federal intelligence authorities...
+
 ### When Explanations Cannot Be Read: Measuring and Correcting SHAP and LIME Rendering for Right-to-Left Languages
 - Source: arXiv Machine Learning
 - Category: research
@@ -845,6 +875,12 @@
 - URL: https://tldr.takara.ai/p/2609.28239
 - Summary: With the development of applications like autonomous driving, object detection has gained significant attention, while also highlighting critical vulnerabilities like backdoor attacks that severely compromise model integrity. Specifically, such attacks involve altering the categories of objects...
 
+### Log-Depth Recurrent Language Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28212
+- Summary: Language modeling using Transformers has become commonplace despite their fixed computational depth and quadratic runtime with respect to input tokens. Recurrent models on the other hand offer linear depth but no parallel execution. In this work, we extend balanced-tree recursive operators from...
+
 ### This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move
 - Source: The Hacker News
 - Category: security
@@ -981,6 +1017,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### BiCFlow-MER: Orchestrating Discriminative and Generative Multimodal Emotion Recognition via Conditional Transport
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27615
+- Summary: In multimodal emotion recognition (MER), human affective states are inferred by integrating complementary cues from multiple modalities. In audio-text MER, affective cues are often entangled with speaker style and lexical content, while cross-modal disagreement further complicates how the evidence...
 
 ### Smart glasses are already causing havoc in India
 - Source: MIT Tech Review AI
@@ -1747,6 +1789,12 @@
 - URL: https://pandaily.com/ubtech-uworld-u1-mass-deliveries-consumer-humanoid
 - Summary: UBTECH has started delivering UWorld U1 Lite, Pro and Ultra companion humanoids to Chinese buyers after a June launch that logged more than 13,000 orders.
 
+### SambaGraph: Action-Reaction Spatio-Temporal Graphs for Soccer Tactical Response Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25569
+- Summary: Soccer tactics are interactive: an attacking action changes the opponent's defensive problem, and the observed response depends on the multi-agent match state. We introduce SambaGraph, an action--reaction spatio-temporal graph dataset and benchmark for soccer tactical response modeling. From...
+
 ### ByteDance Doubao Phone Agent Goes MCP/A2A-First With GUI Fallback
 - Source: Pandaily
 - Category: chinese-ai
@@ -1884,6 +1932,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.24825
 - Summary: LiDAR point clouds acquired in underground environments exhibit severe geometric incompleteness due to occlusions and limited sensor viewpoints, making reliable point cloud completion challenging without large supervised datasets. We propose ZVeC, a zero-shot, instance-driven framework that...
+
+### The Answer-Basin Representation Hypothesis: We Are Not Probing or Steering Concepts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24821
+- Summary: The Linear Representation Hypothesis associates high-level concepts with directions in language models, but it remains unclear how these concept-related linear structures are organized within the model. We propose the Answer-Basin Representation Hypothesis: the probability measure induced over...
 
 ### Detecting Agitation Before Behavioral Escalation in Autistic Youth Through Multimodal Wearable Sensing
 - Source: HF Daily Papers
@@ -2395,6 +2449,12 @@
 
 
 ## 2026-09-20
+
+### MCPGen: Benchmarking LLMs on Executable MCPWorkflow Development
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.23925
+- Summary: We study whether LLMs can produce executable workflow artifacts that remain consistent across graph structure, tool implementation, schema bindings, and runtime wiring. In this setting, correctness depends on cross-layer consistency: a workflow may be structurally plausible, yet still fail because...
 
 ### Incident with Pull Requests
 - Source: GitHub Status
@@ -2959,67 +3019,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/taichuai-zdtaichu5-0-9b-spatial-multimodal-open-source
 - Summary: TaichuAI released ZDTaichu5.0-9B, a ~9B open multimodal model (Qwen3.5-9B + C-RADIOv4-H) with any-resolution image/video input and reported spatial/agent scores including ViewSpatial 62.5, MMSI 47.2, MindCube-tiny 78.3, TAU2 87.7, and Claw-Eval 71.4.
-
-### ByteDance Ships Doubao-Seed-2.1-pro 0915 With Multimodal Coding on Volcengine
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-seed-2-1-pro-0915-multimodal-coding
-- Summary: Volcengine fully released Doubao-Seed-2.1-pro 0915 with multimodal coding demos—including a ~280k-line Java ERP rebuilt from screen recordings and sketches—~83% mergeable Luanti repo fixes, Doubao Work/TRAE integration, and 30%+ lower image/video inference token cost.
-
-### Huawei OceanStor M900 Brings PB-Class Shared KV Cache to AI SuperPoDs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-oceanstor-m900-ai-kv-cache-memory-storage
-- Summary: Huawei's OceanStor M900 AI memory storage targets hyperscale inference with Lingqu-pooled KV Cache up to 64 PB per cluster, ~60μs NPU-to-SSD latency, ~40 TB/s aggregate bandwidth, and KV-Aware scheduling claiming up to 24 DWPD.
-
-### Huawei Positions Lingqu UnifiedBus as Core of Agentic SuperPoD Cluster Architecture
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-lingqu-unifiedbus-agentic-superpod-cluster-hc-2026
-- Summary: At Huawei Connect 2026, Yang Chaobin cast Lingqu UnifiedBus as the interconnect core for cabinet-to-cluster SuperPoD co-architecture, with TB-class bandwidth, ~2μs RTT, and an Agentic SuperPoD stack of Kunpeng 950, Ascend 960, OceanStor M900 and UBG.
-
-
-## 2026-09-17
-
-### We are seeing elevated error rates across API models
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Moderations (Operational) Chat Completions (Operational) Responses (Operational) Login (Operational)...
-
-### Elevated rate of errors for OpenAI models provided by Copilot
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/nvy2q96mcmyg
-- Summary: Sep 17, 21:49 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 17, 21:39 UTC Monitoring - We are experiencing degraded availability for GPT-5.6...
-
-### Elevated errors affecting ChatGPT Work mode
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components ChatGPT Work (Operational)
-
-### Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/critical-check-point-management-server.html
-- Summary: A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has...
-
-### Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.20779
-- Summary: Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this...
-
-### Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.20744
-- Summary: Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck. Linear attention offers an appealing alternative and has been widely adopted in recent large language models, but directly applying it to video models...
-
-### ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html
-- Summary: Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying...
 
