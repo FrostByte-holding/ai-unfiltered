@@ -4,6 +4,15 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-09-27
+
+### INC20000239
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/3ykqqwk3s758
+- Summary: Sep 27, 03:16 UTC Resolved - Current status: We've coordinated with our third-party cloud platform to implement the fix for this issue, and we've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via...
+
+
 ## 2026-09-26
 
 ### Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials
@@ -29,6 +38,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
 - Summary: Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could...
+
+### Zero Trust for AI Agents Starts With Fixing Zero Visibility
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html
+- Summary: The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely...
 
 ### OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure
 - Source: Security Week
@@ -394,6 +409,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html
 - Summary: The "third-party[.]com" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. "third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,"...
+
+### ADATEX4D: adaptive texture capacity allocation for 4D gaussian splatting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.29963
+- Summary: Textured Gaussians improve local appearance capacity, but assigning the same texture resolution to every primitive wastes storage on low-detail or weakly visible regions. We introduce AdaTex4D, an adaptive texture-capacity module for deformation-based 4D Gaussian Splatting. Each Gaussian carries...
 
 ### A Contraction Framework for Stochastic Operators with Bootstrapping: Application to TD Learning
 - Source: HF Daily Papers
@@ -1429,6 +1450,12 @@
 
 ## 2026-09-22
 
+### A Hierarchy-Aware Video-Language Model Evaluation and Hyperbolic Baseline for Surgery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.27139
+- Summary: Surgical procedures follow a phase-to-step hierarchy, yet the video-language models used to recognize them are evaluated with flat per-level metrics that ignore cross-level coherence and error structure. In this paper we make two contributions to address this problem, (i) we introduce SurgHiBench,...
+
 ### 🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science
 - Source: Latent Space
 - Category: open-source
@@ -1602,6 +1629,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/temp-upload-test-delete-me-20260922pm
 - Summary: temp
+
+### Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25848
+- Summary: A higher evaluation score does not always mean a better language model system. When optimization exploits an evaluator's mistakes, measured progress can conceal unchanged or deteriorating task performance. This failure can arise through parameter updates, selection among generated outputs, or...
 
 ### Shanghai AI Lab Ships Intern-S2-397B Science Multimodal Model With Memory Decoder
 - Source: Pandaily
@@ -2496,6 +2529,12 @@
 - URL: https://pandaily.com/cxmt-g5-dram-platform-mass-production-24gb-lpddr5x
 - Summary: ChangXin Memory Technologies says its G5 DRAM platform is in mass production, with 11.95nm half-pitch via SAQP, ≥50% more dies per wafer, and 24Gb LPDDR5X already shipping.
 
+### Exponential Family Synthetic Controls
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.23970
+- Summary: We develop exponential family synthetic controls (EFSC), a distributional version of synthetic controls for a panel of datasets. Each cell of the panel corresponds to a dataset drawn from an exponential family whose natural parameters factorize probabilistically across units and times. We estimate...
+
 ### Colon3R: Cross-Domain 3D Reconstruction from Monocular Colonoscopic Video
 - Source: HF Daily Papers
 - Category: open-source
@@ -2569,6 +2608,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context
 - Summary: StepFun’s Step 5 Preview pairs a 600B/27B sparse MoE with a 92-layer narrow-deep stack and 1M context for long-horizon agents, with weights planned for October 15.
+
+### Retrieval Geometry Shapes Cache-Based Clip Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.23409
+- Summary: Cache-based test-time adaptation improves CLIP predictions by storing and retrieving examples from the target stream while keeping the model frozen. However, existing methods largely treat the feature space used for image-image retrieval as fixed, leaving open how much adaptation depends on the...
 
 ### HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills
 - Source: Pandaily
@@ -2977,46 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.19149
 - Summary: arXiv:2609.19149v1 Announce Type: new Abstract: Subliminal learning shows that language models can transmit a hidden trait through outputs that appear unrelated to it. One proposed explanation, token entanglement, links animal and number tokens through the model's output vocabulary. Yet existing...
-
-### Sampling Reveals Style: Unsupervised, Training-Free Discovery of Prompt-Conditional Stylistic Axes in LLM Activations
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19150
-- Summary: arXiv:2609.19150v1 Announce Type: new Abstract: Large language models (LLMs) encode rich stylistic structure in their hidden activations, but discovering which stylistic dimensions are salient for a given prompt typically requires supervised contrastive data. We present a training-free,...
-
-### What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19151
-- Summary: arXiv:2609.19151v1 Announce Type: new Abstract: Generative AI (GenAI) applications have achieved rapid consumer adoption, yet little large-scale research examines user-perceived quality, trust, and adoption barriers. We present one of the first cross-application analyses of app store reviews for...
-
-### FakeSpotter: A content and strategy agnostic Viral Misinformation Detection Tool
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19152
-- Summary: arXiv:2609.19152v1 Announce Type: new Abstract: Misinformation detection tools often rely on binary true and false classifications or models trained on historical examples, limiting their usefulness when novel misleading narratives emerge. Here, we present FakeSpotter, a content- and...
-
-### Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19244
-- Summary: arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (ChatGPT, Claude, Grok, and...
-
-### Do AI Agents Understand Computer Architecture?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19387
-- Summary: arXiv:2609.19387v1 Announce Type: new Abstract: Agents are increasingly asked to design hardware, and increasingly reported to succeed. Such reports establish that a design improved; they cannot establish why. An agent that improves an accelerator may be reasoning about the machine, or may be...
-
-### MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19391
-- Summary: arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LLM-as-a-Verifier,...
-
-### Closed-World Resolution Against Tool Hallucination in LLM Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19425
-- Summary: arXiv:2609.19425v1 Announce Type: new Abstract: Tool-augmented large language model (LLM) agents fail in a way no tool-selection or tool-security method addresses: they call tools that do not exist and pass arguments no schema declares. Existing defenses either pick the right tool (selection) or...
 
