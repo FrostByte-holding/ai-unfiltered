@@ -6,6 +6,18 @@
 
 ## 2026-09-27
 
+### Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/
+- Summary: CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28. The post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on SecurityWeek.
+
+### Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+- Summary: Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say...
+
 ### INC20000239
 - Source: Snowflake Status
 - Category: incidents
@@ -956,6 +968,12 @@
 - URL: https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric
 - Summary: Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.
 
+### ZoomDiff: A High-Fidelity Diffusion Model for Dual-Camera Smooth Zooming
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28083
+- Summary: Digital zoom transitions between dual cameras often exhibit conspicuous discontinuities in geometric structure and chromatic consistency, degrading the user experience. While recent dual-camera smooth zoom (DCSZ) methods attempt to mitigate this by fine-tuning frame interpolation (FI) models on...
+
 ### **Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1858,6 +1876,12 @@
 - URL: https://arxiv.org/abs/2609.22104
 - Summary: arXiv:2609.22104v1 Announce Type: new Abstract: As automated scientific discovery advances, Large Language Models (LLMs) can now generate research ideas at an unprecedented scale, shifting the bottleneck from idea generation to idea evaluation. Existing evaluators mainly rely on parametric LLM...
 
+### Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific Calibration Transfer Persists Within a Single Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25647
+- Summary: Predicting early outcomes based on trajectory can decrease the expenses associated with agent evaluation by terminating a run once the outcome becomes sufficiently predictable, assuming that the predictor's confidence is properly calibrated. Calibration is at risk when a predictor is applied to an...
+
 ### Elevated errors for multiple models
 - Source: Anthropic Status
 - Category: incidents
@@ -1947,6 +1971,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.24984
 - Summary: Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is...
+
+### DolphinBench: Mapping the Pareto Frontier of Agent Memory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24971
+- Summary: Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover,...
 
 ### Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences
 - Source: HF Daily Papers
@@ -2300,6 +2330,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.24128
 - Summary: Judge-specific sensitivity is useful for aggregating pairwise LLM evaluations, but its interpretation depends on which systematic presentation effects the ranking model includes. We introduce OSCAR, an order-aware framework for scoring and calibrating AI rankings, and study position as one such...
+
+### Reinforcement Learning under State and Outcome Uncertainty: A Foundational Distributional Perspective
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24103
+- Summary: In many real-world planning tasks, agents must tackle uncertainty about the environment's state and variability in the outcomes of any chosen policy. We address both forms of uncertainty as a first step toward safer algorithms in partially observable settings. Specifically, we extend Distributional...
 
 ### RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models
 - Source: arXiv AI
@@ -2672,6 +2708,12 @@
 - URL: https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html
 - Summary: Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public...
 
+### RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.22947
+- Summary: Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward models often produce unstable scalar scores because they directly map complex, subjective video quality into a single score without...
+
 ### SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE
 - Source: The Hacker News
 - Category: security
@@ -2980,46 +3022,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.19212
 - Summary: arXiv:2609.19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under controlled settings. Existing studies therefore rely on simplifications such...
-
-### Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19209
-- Summary: arXiv:2609.19209v1 Announce Type: new Abstract: Generative query suggestion aims to enhance user engagement by anticipating user intents and recommending relevant follow-up queries. A central challenge is to generate slates whose individual queries are useful while the slate covers distinct...
-
-### Layer-wise Curriculum Learning for Efficient LLM Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19213
-- Summary: arXiv:2609.19213v1 Announce Type: new Abstract: In this paper, we introduce layer-wise curriculum learning for efficient LLM compression. The proposed method facilitates the knowledge transfer from the teacher model to the student model, utilizing a curriculum learning approach that begins with...
-
-### Block Parallelism For Efficient Distributed Long-Context Diffusion Language Model Training
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19242
-- Summary: arXiv:2609.19242v1 Announce Type: new Abstract: Block diffusion language models (BDLMs) combine autoregressive dependencies across blocks with parallel denoising within blocks, but long-context training is constrained by distributed attention communication and activation memory. Conventional...
-
-### Randomized SVD Approximations for Spectral Co-Clustering of Word-Document Matrices
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19243
-- Summary: arXiv:2609.19243v1 Announce Type: new Abstract: Spectral co-clustering is a useful tool for discovering latent structure in word-document matrices, but its reliance on singular value decomposition (SVD) can make standard formulations expensive on high-dimensional data. This paper presents two...
-
-### Radio-Frequency Convolutional Neural Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.19279
-- Summary: arXiv:2609.19279v1 Announce Type: new Abstract: Running artificial intelligence (AI) models directly on edge devices such as smartphones, wearables, and drones offers low latency, pervasive scalability, and data privacy, but these devices rarely carry the computing capability that modern neural...
-
-### Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19148
-- Summary: arXiv:2609.19148v1 Announce Type: new Abstract: Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal disagreement -- the...
-
-### Subliminal Prompting Beyond Static Geometry: Causal Depth and Multi-Token Confounds
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.19149
-- Summary: arXiv:2609.19149v1 Announce Type: new Abstract: Subliminal learning shows that language models can transmit a hidden trait through outputs that appear unrelated to it. One proposed explanation, token entanglement, links animal and number tokens through the model's output vocabulary. Yet existing...
 
