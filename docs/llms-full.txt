@@ -595,6 +595,12 @@
 - URL: https://pandaily.com/deepseek-dsec-elastic-compute-agentic-training-sandbox-3m-day
 - Summary: DeepSeek detailed DSec, its Elastic Compute sandbox platform for agentic RL, reporting about 3M sandboxes/day, peak concurrency above 380k and create rates over 5,000/s, with Wenfeng Liang among co-authors on arXiv 2609.22978.
 
+### Sharp Limits for Honest Uncertainty in Hard-Budget Repeated Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.29140
+- Summary: Repeated evaluation can estimate a benchmark score accurately while still requiring replication to certify narrow uncertainty. We characterize that requirement on a fixed grid of $M$ tasks with $L$ binary paths per task under the hard budget $(M+t)K$, where each path costs at most $K$ responses or...
+
 ### Critical WordPress Vulnerability Exploited Immediately After Disclosure
 - Source: Security Week
 - Category: security
@@ -1666,6 +1672,12 @@
 - URL: https://pandaily.com/china-embodied-ai-training-grounds-70-plus-dataset-standard-nov-1
 - Summary: A CAICT report and Xinhua coverage put more than 70 embodied-AI training grounds in operation by end-June 2026, with 40-plus more planned and a dataset quality standard set to take effect November 1.
 
+### Protocol before progress: leakage-aware evaluation of AIS trajectory prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25827
+- Summary: Reported gains in vessel-trajectory prediction from Automatic Identification System (AIS) data are credited to new architectures, but the evaluation protocol is rarely measured as a source of error reduction. We build a leakage-aware protocol with vessel-, time- and region-disjoint splits and apply...
+
 ### The Limits of Simulated Societies: How Post-Training and Survey Fine-Tuning Erase Cross-Cultural Variance
 - Source: HF Daily Papers
 - Category: open-source
@@ -1942,6 +1954,12 @@
 - URL: https://pandaily.com/hygon-cpu1000-series-physical-ai-edge-chip-shenzhen
 - Summary: Hygon is launching a CPU1000-series processor iteration in Shenzhen aimed at low-power edge compute for robotics, machine vision and smart manufacturing, extending beyond its data-center CPU lines.
 
+### West-WRF AI 2-km: High-Resolution Prediction of Integrated Vapor Transport and Precipitation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25512
+- Summary: We introduce a stretched-grid artificial intelligence (AI) weather forecasting model with 2-km resolution over the western United States and part of the Northeast Pacific and approximately 31-km resolution elsewhere globally. Forecasting over the western U.S. is challenging because complex...
+
 ### Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1965,6 +1983,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/jev
 - Summary: The definitive Jev podcast with its lead creator.
+
+### Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25285
+- Summary: Finding circuits in language models usually means running many careful interventions. We try something simpler: treat attention as a routing map from one forward pass, keep a small set of routes that point toward the answer, and ask whether those routes actually matter. They often do. On induction...
 
 ### WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory
 - Source: HF Daily Papers
@@ -2684,6 +2708,12 @@
 
 ## 2026-09-19
 
+### Exact Quotients of Fresnel-Kummer Surfaces and Certified Biaxial Refraction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.23249
+- Summary: The Fresnel wave surface governs the propagation of light in a transparent biaxial crystal. It is a special Kummer quartic, and we identify it exactly. Over the complex numbers the wave surface of a crystal is the Kummer surface of the Jacobian of an explicit genus-two curve branched at the signed...
+
 ### Why I still haven’t bought into true RSI
 - Source: Interconnects
 - Category: open-source
@@ -2992,34 +3022,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html
 - Summary: Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. "Distributed primarily via targeted smishing (SMS/text...
-
-### Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19170
-- Summary: arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize sampled dynamics. We construct an ergodic two-state counterexample in which...
-
-### BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19180
-- Summary: arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitative physics model,...
-
-### What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19182
-- Summary: arXiv:2609.19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated. Yet model rankings alone reveal little about how evaluation requirements themselves are changing. The expanding variety of benchmarks offers another...
-
-### Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19203
-- Summary: arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an implicit runtime...
-
-### What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.19212
-- Summary: arXiv:2609.19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under controlled settings. Existing studies therefore rely on simplifications such...
 
