@@ -879,6 +879,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
 
+### Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28580
+- Summary: Although hyperspectral images (HSIs) provide rich spectral-spatial information, accurate pixel-level classification remains challenging because of spectral-spatial heterogeneity and complex spatial structures. Existing vision state space models (Mamba) typically construct sequences according to...
+
 ### Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
 - Source: The Hacker News
 - Category: security
@@ -973,6 +979,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric
 - Summary: Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.
+
+### Can LLMs Catch a Rigged Backtest? A Clean-Control Calibration Benchmark
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28090
+- Summary: Backtest auditing is a calibration problem: high flaw recall is not useful when the model falsely flags matched clean strategies. We build a 96-item paired benchmark in which every flawed backtest has a clean control that holds strategy, dates, code style, labels, and reporting scaffold fixed while...
 
 ### ZoomDiff: A High-Fidelity Diffusion Model for Dual-Camera Smooth Zooming
 - Source: HF Daily Papers
@@ -1480,6 +1492,12 @@
 - URL: https://tldr.takara.ai/p/2609.27139
 - Summary: Surgical procedures follow a phase-to-step hierarchy, yet the video-language models used to recognize them are evaluated with flat per-level metrics that ignore cross-level coherence and error structure. In this paper we make two contributions to address this problem, (i) we introduce SurgHiBench,...
 
+### $\unicode{x1F493}$Heartian: Physiology-Aware Relightable Gaussian Head Avatar
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.28539
+- Summary: Gaussian head avatars typically model intrinsic facial appearance as temporally static, omitting subtle cardiac-induced skin-color variation. We propose $\unicode{x1F493}$Heartian, a physiology-aware modulation framework that learns cardiac-cycle-dependent per-frame albedo modulation of facial...
+
 ### 🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science
 - Source: Latent Space
 - Category: open-source
@@ -1984,6 +2002,12 @@
 - URL: https://www.latent.space/p/jev
 - Summary: The definitive Jev podcast with its lead creator.
 
+### Learning from Humans for Proactive Assistance in Human-Robot Collaborative Transport
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.25351
+- Summary: We focus on human-robot collaborative transport, a challenging task of broad relevance spanning logistics, manufacturing, and the home, in which a user and a robot work together to relocate a large or heavy object. To act as an effective partner, the robot should reduce the user's effort by...
+
 ### Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass
 - Source: HF Daily Papers
 - Category: open-source
@@ -2324,6 +2348,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/
 - Summary: Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies. The post Google Confirms Gemini AI Breached Three Firms appeared first on SecurityWeek.
+
+### LoopCD: Loop-wise Contrastive Decoding for Improving Reasoning in Looped Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.24196
+- Summary: Looped Language Models (LoopLMs) perform "latent reasoning" by recursively refining internal latent representations with shared weights, offering a more effective alternative to explicit verbal reasoning. Despite their effectiveness, we find that LoopLMs remain prone to loop instability: unstable...
 
 ### Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors
 - Source: The Hacker News
@@ -2992,34 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/zhipu-glm-5-3-flashx-domestic-accelerator-inference
 - Summary: Zhipu AI launched GLM-5.3-FlashX with claimed ~200 tok/s inference on ~100,000 domestic accelerators; Flash base is a 320B MoE/18B active open model, with an Infra Agent optimizing the serving stack.
-
-### CXMT Plans Beijing NAND Flash R&D Line as DRAM Leader Eyes YMTC's Turf
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cxmt-beijing-nand-flash-rd-line-ymtc
-- Summary: CXMT is preparing a Beijing NAND flash R&amp;D production line amid a global memory shortage, expanding the DRAM leader into YMTC's flash segment in China's dual-star storage lineup.
-
-### MIND Secures $72 Million for AI-Powered DLP
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/
-- Summary: The company will use the funding to accelerate platform development and expand its presence in key enterprise markets. The post MIND Secures $72 Million for AI-Powered DLP appeared first on SecurityWeek.
-
-### Check Point, Kaspersky, Tanium Patch Product Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/
-- Summary: Check Point Security Management and Log Servers are affected by a critical vulnerability that can allow remote code execution with root privileges. The post Check Point, Kaspersky, Tanium Patch Product Vulnerabilities appeared first on SecurityWeek.
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today-612
-- Summary: a quiet day
-
-### RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html
-- Summary: Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices. "Distributed primarily via targeted smishing (SMS/text...
 
