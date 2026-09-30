@@ -6,6 +6,23 @@
 
 ## 2026-09-30
 
+### Elevated latency for some API requests
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Chat Completions (Operational) Responses (Operational)
+
+### Gemini 4 Argon: our next era of frontier intelligence
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
+
+### Introducing SynthID Bio
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-synthid-bio/
+- Summary: Proof of concept for watermarking AI-generated proteins while preserving biological function.
+
 ### Google: AI Is Changing the Pace and Profile of Vulnerability Discovery
 - Source: Security Week
 - Category: security
@@ -252,6 +269,11 @@
 - URL: https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/
 - Summary: The accord opened the door to future regulation but focused on four voluntary steps for the companies to take. The post Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development appeared first on SecurityWeek.
 
+### Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/open-tts-leaderboard
+
 
 ## 2026-09-29
 
@@ -309,6 +331,12 @@
 - URL: https://status.claude.com/incidents/4xvtc2gnq73l
 - Summary: Sep 29, 16:27 UTC Resolved - The issue affecting Claude.ai, the Claude desktop and mobile apps, Claude Code, Claude Cowork, and the Claude API has been resolved, and services have been operating normally since recovery. Impact occurred from 07:00 PT / 14:00 UTC to 07:59 PT / 14:59 UTC. Sep 29,...
 
+### FlowMap-OPD: Rollout--Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37851
+- Summary: Few-step flow-map generators, including MeanFlow and consistency models, enable efficient sampling through long-range transport, yet their on-policy distillation remains underexplored. We introduce FlowMap-OPD, an on-policy distillation framework that separates student-state acquisition from...
+
 ### NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction
 - Source: Hugging Face Blog
 - Category: open-source
@@ -360,6 +388,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big...
+
+### Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37267
+- Summary: Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T):...
 
 ### Coming soon: Our 2026 list of Climate Tech Companies to Watch
 - Source: MIT Tech Review AI
@@ -432,6 +466,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html
 - Summary: A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the...
+
+### FastVR: Efficient Streaming Video Restoration with One-Step Diffusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.36757
+- Summary: Diffusion-based video restoration recovers realistic details, but its practical deployment is limited by two efficiency bottlenecks: costly VAE encoding and decoding, and the quadratic cost of full self-attention in diffusion transformers (DiTs). This paper presents FastVR, a streaming video...
+
+### NesTok: Nested Self-Aligned 1D Tokenizer for Autoregressive Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.36756
+- Summary: One-dimensional (1D) variable-length visual tokenizers enable adaptive compression by varying the number of tokens, allowing downstream autoregressive (AR) models to flexibly trade off generation quality against computational cost using a single tokenizer. However, existing approaches based on...
 
 ### OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
 - Source: The Hacker News
@@ -552,6 +598,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b
 - Summary: Congrats team!
+
+### FM-ReID: Selective Competitive Token Routing for Object Re-Identification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.36560
+- Summary: Object re-identification (ReID) faces a recurring challenge: different identities can share highly similar global appearances, while the cues that distinguish them are localized, heterogeneous, and visible only under particular viewpoints. This challenge arises in animal ReID through markings,...
 
 ### [AINews] Opus 5.5 is good at explainer videos
 - Source: Latent Space
@@ -2967,58 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.22091
 - Summary: arXiv:2609.22091v1 Announce Type: new Abstract: Retrieval over a personal memory store is retrospective: it surfaces what resembles the query, and it is blind to what the user has committed to do. We describe a prospective term for memory retrieval that costs no inference at query time. Commitments...
-
-### Summarize, Judge, Refine: Decoupled Content Understanding and Policy Learning for Multimodal Content Moderation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.22094
-- Summary: arXiv:2609.22094v1 Announce Type: new Abstract: Content moderation systems traditionally entangle multimodal understanding with policy-specific classification, requiring full pipeline retraining for every policy change and suffering from label scarcity since multimedia cannot be meaningfully...
-
-### AI-inferred expressed well-being and collective-action discourse in climate-change campaigns on X
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.22096
-- Summary: arXiv:2609.22096v1 Announce Type: new Abstract: Climate campaigns are often evaluated through attention and mobilization, but less is known about the well-being language that accompanies them. Whether campaign periods alter positive affect and hope, and whether happiness aligns with action...
-
-### Token Signatures of Code: Comparing Coding Behaviors Across Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.22097
-- Summary: arXiv:2609.22097v1 Announce Type: new Abstract: The evaluation of large language models (LLMs) on coding tasks has primarily focused on performance metrics such as pass@k. As LLMs continue to advance, many models now meet baseline performance requirements, reducing the discriminative power of...
-
-### Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.22161
-- Summary: arXiv:2609.22161v1 Announce Type: new Abstract: Medical large language models are commonly trained on mixtures of didactic data (e.g., textbooks) and clinical data (e.g., patient records), yet how these data types differentially shape model capabilities remains unclear. We address this issue with...
-
-### An Affordable AI-Integrated Smart Cane for Multimodal Mobility Assistance of Visually Impaired Users
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.22277
-- Summary: arXiv:2609.22277v1 Announce Type: new Abstract: Visual impairment affects over 2.2 billion people worldwide, yet conventional white canes cannot detect elevated hazards or provide semantic environmental context. Existing AI-assisted navigation systems typically rely on expensive hardware or cloud...
-
-### PAANI : On Device Visual Evidence Fusion and Explainable Guidance for River Robot Simulation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.22353
-- Summary: arXiv:2609.22353v1 Announce Type: new Abstract: Mobile river monitoring robots must interpret obstacles and water boundaries that geographic waypoints alone cannot describe. On resource constrained platforms, converting imperfect visual predictions into timely and inspectable guidance is a distinct...
-
-### Social Influence and the Allocation of Scientific Attention in AI Populations
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.22408
-- Summary: arXiv:2609.22408v1 Announce Type: new Abstract: AI systems are becoming participants in the evaluation and use of scientific research. They encounter citation counts, download statistics and lists of popular articles developed around human readers, but the collective consequences of these signals...
-
-### Learning 3D biophysical cell properties from 2D images and cell-population statistics
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.22410
-- Summary: arXiv:2609.22410v1 Announce Type: new Abstract: Inferring 3D cellular properties from 2D microscopy is difficult when a reference instrument reports only population statistics rather than labels for individual cells. Here we develop a population-supervised framework that maps single 2D red-cell...
-
-### ZoAQ: Adaptive Zeroth-Order Querying via Query-Reuse Coupling
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.22115
-- Summary: arXiv:2609.22115v1 Announce Type: new Abstract: Zeroth-order optimization (ZOO) estimates updates from function evaluations, making perturbation queries a primary cost. Fixed budgets spend the same number of queries at every step, while adaptive controllers may offset their savings by using...
 
