@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 01 Oct 2026 15:12:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 20:51:57 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Issues with login, signup, and ads</title>
+            <link>https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM</link>
+            <guid>https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM</guid>
+            <pubDate>Thu, 01 Oct 2026 19:39:30 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Ads Manager (Operational) Ads API (Operational) Login (Operational)</description>
+        </item>
+        <item>
+            <title>Delayed credits on the Claude Platform</title>
+            <link>https://status.claude.com/incidents/k0h22tsvnydg</link>
+            <guid>https://status.claude.com/incidents/k0h22tsvnydg</guid>
+            <pubDate>Thu, 01 Oct 2026 18:23:02 +0000</pubDate>
+            <source url="https://status.claude.com/incidents/k0h22tsvnydg">Anthropic Status</source>
+            <category>incidents</category>
+            <description>Oct 1, 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1, 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in...</description>
+        </item>
         <item>
             <title>Actions Job Delays</title>
             <link>https://www.githubstatus.com/incidents/2dpbcq5j165n</link>
@@ -378,6 +396,15 @@
             <description></description>
         </item>
         <item>
+            <title>StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry</title>
+            <link>https://tldr.takara.ai/p/2609.40244</link>
+            <guid>https://tldr.takara.ai/p/2609.40244</guid>
+            <pubDate>Wed, 30 Sep 2026 17:34:58 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.40244">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Mobile robots and vehicles carry synchronized multi-camera rigs, yet many streaming 3D foundation models are designed for monocular input, leaving efficient use of rig geometry a challenge. We present StreamRig, a freeze-and-stream framework that builds causal streaming odometry for calibrated rigs...</description>
+        </item>
+        <item>
             <title>MANET-GNN: Learned Decentralized Optimization of Power Allocation in Multi-Channel MANETs</title>
             <link>https://tldr.takara.ai/p/2609.40170</link>
             <guid>https://tldr.takara.ai/p/2609.40170</guid>
@@ -385,6 +412,15 @@
             <source url="https://tldr.takara.ai/p/2609.40170">HF Daily Papers</source>
             <category>open-source</category>
             <description>MANETs enable flexible infrastructure-less wireless connectivity in dynamic and resource-constrained environments. As modern MANETs exploit multiple frequency channels and support heterogeneous traffic patterns, decentralized transmit-power allocation becomes increasingly challenging. We develop a...</description>
+        </item>
+        <item>
+            <title>Learning Functional Subspaces for Neural Network Compression</title>
+            <link>https://tldr.takara.ai/p/2609.40127</link>
+            <guid>https://tldr.takara.ai/p/2609.40127</guid>
+            <pubDate>Wed, 30 Sep 2026 16:47:35 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.40127">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with...</description>
         </item>
         <item>
             <title>Introducing SynthID Bio</title>
@@ -405,6 +441,15 @@
             <description>Hyperspectral remote sensing has advanced across diverse deep learning paradigms, including spectral spatial CNNs, Vision Transformers, Mamba, graph neural networks, Kolmogorov Arnold networks, and self supervised masked autoencoding. Yet progress remains hindered by fragmented repositories,...</description>
         </item>
         <item>
+            <title>Drift Inspector: Exploring and Measuring Scientific Drift with Atomic Contribution Claims</title>
+            <link>https://tldr.takara.ai/p/2609.39710</link>
+            <guid>https://tldr.takara.ai/p/2609.39710</guid>
+            <pubDate>Wed, 30 Sep 2026 13:24:39 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.39710">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Scientific abstracts mix contributions with background, motivation, and meta-language, so tools that read them as-is cannot separate what a field produces from what it discusses. We present Drift Inspector, an open-source system for measuring and exploring how a research field changes over time at...</description>
+        </item>
+        <item>
             <title>Elevated error rates for ChatGPT Pro and Plus users</title>
             <link>https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K</link>
             <guid>https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K</guid>
@@ -412,51 +457,6 @@
             <source url="https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)</description>
-        </item>
-        <item>
-            <title>The Download: OpenAI’s chief research officer explains its hacking response</title>
-            <link>https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/</link>
-            <guid>https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/</guid>
-            <pubDate>Wed, 30 Sep 2026 12:10:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into...</description>
-        </item>
-        <item>
-            <title>“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer</title>
-            <link>https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/</link>
-            <guid>https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/</guid>
-            <pubDate>Wed, 30 Sep 2026 10:40:30 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised...</description>
-        </item>
-        <item>
-            <title>MindWorldBench: Evaluating Mental-State-to-Behavior Reasoning in Image-to-Video Generation</title>
-            <link>https://tldr.takara.ai/p/2609.39147</link>
-            <guid>https://tldr.takara.ai/p/2609.39147</guid>
-            <pubDate>Wed, 30 Sep 2026 07:14:28 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.39147">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Current image-to-video models achieve visual realism and physical plausibility, but reasoning about mental states remains unexplored. Actions are driven by belief, desire, and perception, requiring inference beyond explicit instructions. We introduce MindWorldBench to evaluate...</description>
-        </item>
-        <item>
-            <title>LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models</title>
-            <link>https://tldr.takara.ai/p/2609.39071</link>
-            <guid>https://tldr.takara.ai/p/2609.39071</guid>
-            <pubDate>Wed, 30 Sep 2026 06:09:09 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.39071">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses. Existing reward methods, however, often rely on coarse-grained holistic judgments, providing limited domain specificity and interpretability. We introduce...</description>
-        </item>
-        <item>
-            <title>[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU</title>
-            <link>https://www.latent.space/p/ainews-openai-devday-2026-dots-61</link>
-            <guid>https://www.latent.space/p/ainews-openai-devday-2026-dots-61</guid>
-            <pubDate>Wed, 30 Sep 2026 05:53:10 +0000</pubDate>
-            <source url="https://www.latent.space/p/ainews-openai-devday-2026-dots-61">Latent Space</source>
-            <category>open-source</category>
-            <description>the most confident DevDay yet.</description>
         </item>
     </channel>
 </rss>

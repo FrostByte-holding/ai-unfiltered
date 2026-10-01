@@ -6,6 +6,18 @@
 
 ## 2026-10-01
 
+### Issues with login, signup, and ads
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Ads Manager (Operational) Ads API (Operational) Login (Operational)
+
+### Delayed credits on the Claude Platform
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/k0h22tsvnydg
+- Summary: Oct 1, 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1, 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in...
+
 ### Actions Job Delays
 - Source: GitHub Status
 - Category: incidents
@@ -265,11 +277,23 @@
 - Category: research
 - URL: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
 
+### StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40244
+- Summary: Mobile robots and vehicles carry synchronized multi-camera rigs, yet many streaming 3D foundation models are designed for monocular input, leaving efficient use of rig geometry a challenge. We present StreamRig, a freeze-and-stream framework that builds causal streaming odometry for calibrated rigs...
+
 ### MANET-GNN: Learned Decentralized Optimization of Power Allocation in Multi-Channel MANETs
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.40170
 - Summary: MANETs enable flexible infrastructure-less wireless connectivity in dynamic and resource-constrained environments. As modern MANETs exploit multiple frequency channels and support heterogeneous traffic patterns, decentralized transmit-power allocation becomes increasingly challenging. We develop a...
+
+### Learning Functional Subspaces for Neural Network Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40127
+- Summary: Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with...
 
 ### Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets
 - Source: The Hacker News
@@ -312,6 +336,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/
 - Summary: Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution. The post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.
+
+### Drift Inspector: Exploring and Measuring Scientific Drift with Atomic Contribution Claims
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39710
+- Summary: Scientific abstracts mix contributions with background, motivation, and meta-language, so tools that read them as-is cannot separate what a field produces from what it discusses. We present Drift Inspector, an open-source system for measuring and exploring how a research field changes over time at...
 
 ### Elevated error rates for ChatGPT Pro and Plus users
 - Source: OpenAI Status
@@ -565,6 +595,12 @@
 - URL: https://arxiv.org/abs/2609.31687
 - Summary: arXiv:2609.31687v1 Announce Type: new Abstract: Parallel numerical libraries such as PETSc are widely used in science and engineering applications where wrong results can have costly consequences. Despite this, numerical libraries are rarely formally verified. One of the challenges is the need for...
 
+### More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38827
+- Summary: Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and...
+
 ### Elevated errors in ChatGPT Space Pages
 - Source: OpenAI Status
 - Category: incidents
@@ -588,6 +624,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/manus-2-0-cascade-agent-harness-cue-personal-agents
 - Summary: Manus 2.0 brings the Cascade agent harness, which cut tokens 23.2% and cost 32% in one test, and Cue, an app giving each agent its own email, phone number and wallet. A China version is in the works.
+
+### Learning Under Forgetting: Statistical Support-Selective Retention in Stochastic Training Dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38768
+- Summary: Prior work has shown that neural networks exhibit implicit biases toward low-complexity structure (e.g., spectral bias), memorization dynamics, and compression-like effects during training, but a unified dynamical account of selective retention remains incomplete. We propose Repeated Reinforcement...
 
 ### Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development
 - Source: Security Week
@@ -2976,46 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.25046
 - Summary: arXiv:2609.25046v1 Announce Type: new Abstract: Peer review plays a central role in scholarly publishing, yet verifying whether reviewer claims are supported by manuscript evidence remains a largely manual and time-consuming process. We present Peerify, a pipeline for manuscript-grounded...
-
-### AIBuildAI-2.5: Efficient Autonomous AI Model Development Through LLM-Guided Tree Search
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25047
-- Summary: arXiv:2609.25047v1 Announce Type: new Abstract: Autonomous agents that automatically build artificial intelligence (AI) models could broaden access to AI across science and engineering. A popular line of such agents frames model building as a code search problem and solves it by tree search, in...
-
-### Prompt Breadth and Rollout Refresh Interact in On-Policy Distillation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25048
-- Summary: arXiv:2609.25048v1 Announce Type: new Abstract: How many prompts does on-policy distillation (OPD) need, and how does the answer depend on the student policies that generate its training responses? We study these two controls jointly: prompt breadth and rollout refresh. A 3x3 mathematical-reasoning...
-
-### Mitigating LLM Over-Refusal via Dynamic Semantic Routing Calibratione
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25049
-- Summary: arXiv:2609.25049v1 Announce Type: new Abstract: Large language models (LLMs) aligned for safety often suffer from over-refusal, incorrectly rejecting benign yet safety-related instructions. Prior studies primarily attribute this to static representation overlap, largely overlooking the underlying...
-
-### Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27321
-- Summary: Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an...
-
-### DRSR: Learning Set-Level Deletion Risk for Efficient Long-Horizon Agents
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27276
-- Summary: Long-horizon language-model agents accumulate reasoning traces, tool exchanges, and observations whose relevance changes with the current decision. Existing compression strategies often score historical units independently, but the safety of deleting several units is generally not determined by...
-
-### China Assembles Orbital Datacenter Pieces: In-Orbit AI, Cloud-Native Sats and 100Gbps Laser Links
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-orbital-datacenter-in-orbit-ai-100gbps-laser-links
-- Summary: A September 23 synthesis of recent launches and tests describes China lofting the building blocks of an orbital datacenter—on-board AI compute, cloud-native satellite software and 100 Gbps-class laser links—across several parallel programs.
-
-### Inspur MetaBrain SD200 Ultra Packs 128 Domestic AI Chips for 2.8T Kimi K3 Under 5.85ms/Token
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/inspur-metabrain-sd200-ultra-128-chip-kimi-k3-5-85ms
-- Summary: At AICC2026, Inspur Information launched the MetaBrain SD200 Ultra supernode with 128 tightly coupled domestic AI chips, 8 TB of unified accelerator memory and a claimed sub-5.85 ms/token latency running 2.8-trillion-parameter Kimi K3.
 
