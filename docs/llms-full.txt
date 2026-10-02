@@ -6,6 +6,23 @@
 
 ## 2026-10-02
 
+### GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
+- Summary: A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own...
+
+### Issues with data analysis and file creation in ChatGPT
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M3YNNVTSCXS8YM2V1YMHMVSE
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components FedRAMP (Operational)
+
+### Open-sourcing AstaBrief, the fast report-generation model in Asta
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/astabrief
+
 ### In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats
 - Source: Security Week
 - Category: security
@@ -609,6 +626,12 @@
 - URL: https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html
 - Summary: Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. "Once executed, the legitimate MSP360...
 
+### Tissue Detection Determines False Positives in Diffusion-Based Histopathology Artifact Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40083
+- Summary: One-class artifact detectors for whole-slide images learn normal tissue from a clean training pool and flag departures from it. The pool is built by a preprocessing pipeline whose tissue-detection step is usually treated as neutral. We tested whether it is. On 16 annotated TCGA slides, we rebuilt...
+
 ### WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks
 - Source: HF Daily Papers
 - Category: open-source
@@ -747,6 +770,12 @@
 - URL: https://tldr.takara.ai/p/2609.39387
 - Summary: Neural operators increasingly benefit from pretraining on numerical simulations, yet adapting them for real-world prediction remains challenging. We introduce the Retain-and-Repair Neural Operator (R$^2$NO), a framework for adapting simulation-pretrained operators to real-world data while retaining...
 
+### Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39358
+- Summary: A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, former CEO of Infosys, argues that this bound limits which tasks a model can carry out or verify (arXiv:2507.07505). We ask how much of the budget beneath that ceiling is spent on work...
+
 ### Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT
 - Source: The Hacker News
 - Category: security
@@ -842,6 +871,24 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-openai-devday-2026-dots-61
 - Summary: the most confident DevDay yet.
+
+### C-STRIDE: An Observation-Driven AI Digital Twin for Predicting Basin-Wide Flood Fields from Sparse Stream-Gauge Histories
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39005
+- Summary: Emergency managers need to know where floodwater is, how deep it is, and how it will change over the coming hours across an entire river basin. During a flood, however, real-time measurements come from only a handful of stream gauges, and high-resolution hydrodynamic models are too costly to rerun...
+
+### Fairness Beyond a Single Run: Training-Seed Variability in Speech LLM Adaptation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38976
+- Summary: Demographic fairness gaps in automatic speech recognition are almost always reported from a single training run. We fine-tune the Q-former projector and LoRA adapters of a speech LLM at five audio compression factors and six random seeds, holding the encoder, base decoder, data and decoding fixed,...
+
+### Adaptive Self-Consistency: From Black-Box Sampling to Distribution-Valued Feedback
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38931
+- Summary: Self-consistency samples many reasoning trajectories and aggregates their final answers, treating the LLM as a black box that returns one answer per trajectory. Yet the final answer of each trajectory is sampled from a softmax vector that is available from the model's log-probabilities. We refer to...
 
 ### Learning Where to Steer: Noise-Space Geometry for Efficient Offline Multi-Objective Optimization with Generative Models
 - Source: HF Daily Papers
@@ -2972,52 +3019,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.27741
 - Summary: In value-based reinforcement learning, improving the accuracy of policy evaluation has been shown to improve downstream policy optimization performance. The widely adopted family of approximations relying on $n$-step truncation yields computationally efficient value estimators but is inherently...
-
-### 545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html
-- Summary: Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a...
-
-### Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html
-- Summary: Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, is a "major step up from Opus 5," and "achieves the best scores of any model to...
-
-### Adobe Patches Critical Flaws in Connect, AEM Forms
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/
-- Summary: The nine critical security defects could be exploited for arbitrary code execution and privilege escalation. The post Adobe Patches Critical Flaws in Connect, AEM Forms appeared first on SecurityWeek.
-
-### AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/
-- Summary: The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.
-
-### Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html
-- Summary: A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22. The flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but...
-
-### SGDet3D++: Geometry-Grounded Semantics for 4D Radar and Camera 3D Object Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27671
-- Summary: 4D radar complements dense image semantics with long-range geometry and radial motion, but existing radar--camera detectors largely solve \emph{where} to align the modalities while leaving \emph{whether} a piece of evidence supports an evolving object hypothesis implicit. An image token may...
-
-### Chrome 154 Patches 108 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/
-- Summary: The browser update resolves several critical-severity memory safety and memory corruption flaws. The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.
-
-### Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27664
-- Summary: Cooperation emergence is a central problem in multi-agent systems because decentralized agents must coordinate while adapting to the changing behavior of others. Evolutionary game theory identifies strategically stable outcomes, but stability under a population adjustment dynamic need not imply...
 
