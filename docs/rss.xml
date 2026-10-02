@@ -5,9 +5,189 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 01 Oct 2026 20:51:57 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 02 Oct 2026 04:38:49 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>AutoSynthData: Generating Training Data for Enterprise Agents</title>
+            <link>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</link>
+            <guid>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</guid>
+            <pubDate>Fri, 02 Oct 2026 04:01:31 +0000</pubDate>
+            <source url="https://huggingface.co/blog/ServiceNow-AI/autosynthdata">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Heavy-Tailed Memory Traces in Long-Horizon Language Agents</title>
+            <link>https://arxiv.org/abs/2610.00010</link>
+            <guid>https://arxiv.org/abs/2610.00010</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00010">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite...</description>
+        </item>
+        <item>
+            <title>When Do Causal World Models Help Modular LLM Agents</title>
+            <link>https://arxiv.org/abs/2610.00012</link>
+            <guid>https://arxiv.org/abs/2610.00012</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00012">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this...</description>
+        </item>
+        <item>
+            <title>From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution</title>
+            <link>https://arxiv.org/abs/2610.00015</link>
+            <guid>https://arxiv.org/abs/2610.00015</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00015">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through...</description>
+        </item>
+        <item>
+            <title>What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA</title>
+            <link>https://arxiv.org/abs/2610.00018</link>
+            <guid>https://arxiv.org/abs/2610.00018</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00018">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2610.00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention...</description>
+        </item>
+        <item>
+            <title>Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?</title>
+            <link>https://arxiv.org/abs/2610.00025</link>
+            <guid>https://arxiv.org/abs/2610.00025</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00025">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2610.00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether...</description>
+        </item>
+        <item>
+            <title>Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices</title>
+            <link>https://arxiv.org/abs/2610.00002</link>
+            <guid>https://arxiv.org/abs/2610.00002</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00002">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2610.00002v1 Announce Type: new Abstract: We introduce reverse Item Response Theory (IRT) to pharmacogenomic drug-response analysis by treating cancer types as latent &quot;subjects&quot; with resistance ability and drugs as &quot;items&quot; with evasion difficulty. Applied to 242,036 drug sensitivity...</description>
+        </item>
+        <item>
+            <title>How Far is Adam from Natural Gradient Descent?</title>
+            <link>https://arxiv.org/abs/2610.00004</link>
+            <guid>https://arxiv.org/abs/2610.00004</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00004">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2610.00004v1 Announce Type: new Abstract: Adam is the standard optimizer in deep learning, yet its geometric relationship to natural gradient descent (NGD) contains unresolved questions. We study Adam&#x27;s full update rule, including momentum, as a diagonal empirical Fisher approximation subject...</description>
+        </item>
+        <item>
+            <title>FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law</title>
+            <link>https://arxiv.org/abs/2610.00009</link>
+            <guid>https://arxiv.org/abs/2610.00009</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00009">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2610.00009v1 Announce Type: new Abstract: Frequency-collapse attention [Zeris, 2026e] achieves large gains over standard dot-product attention by replacing the Q/K dot product with a bandpass-filtered inner product at a learned frequency. A natural follow-up question is: which filter shape...</description>
+        </item>
+        <item>
+            <title>Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System</title>
+            <link>https://arxiv.org/abs/2610.00035</link>
+            <guid>https://arxiv.org/abs/2610.00035</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00035">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2610.00035v1 Announce Type: new Abstract: Predicting student performance from educational interaction data requires models that are both accurate and sufficiently transparent to support meaningful intervention, while demographic information introduces an additional risk of unfair predictions....</description>
+        </item>
+        <item>
+            <title>Fast Polynomial Transcendentals for LLMs</title>
+            <link>https://arxiv.org/abs/2610.00049</link>
+            <guid>https://arxiv.org/abs/2610.00049</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00049">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2610.00049v1 Announce Type: new Abstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test...</description>
+        </item>
+        <item>
+            <title>On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence</title>
+            <link>https://arxiv.org/abs/2610.00007</link>
+            <guid>https://arxiv.org/abs/2610.00007</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00007">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2610.00007v1 Announce Type: new Abstract: Named-entity recognition (NER) is increasingly wanted on-device (no API, low latency, data kept local). The practitioner&#x27;s question is not the leaderboard but which model is deployable, how to evaluate it without human annotation, and whether its...</description>
+        </item>
+        <item>
+            <title>SCM-based Fairness and Faithful Explainability for Legal Document Classification</title>
+            <link>https://arxiv.org/abs/2610.00045</link>
+            <guid>https://arxiv.org/abs/2610.00045</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00045">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2610.00045v1 Announce Type: new Abstract: Transformer models such as LegalBERT are increasingly used in legal decision support, raising concerns about both fairness and the transparency of model explanations. These properties are usually evaluated separately, leaving open whether a debiasing...</description>
+        </item>
+        <item>
+            <title>The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating</title>
+            <link>https://arxiv.org/abs/2610.00054</link>
+            <guid>https://arxiv.org/abs/2610.00054</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00054">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge&#x27;s verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout distorts position...</description>
+        </item>
+        <item>
+            <title>Measuring Human-Like Bias in LLMs? A Critique of Human-Derived Bias Constructs in LLM Evaluation</title>
+            <link>https://arxiv.org/abs/2610.00070</link>
+            <guid>https://arxiv.org/abs/2610.00070</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00070">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2610.00070v1 Announce Type: new Abstract: Researchers increasingly use human-derived bias constructs to study Large Language Models (LLMs), including social-cognitive constructs such as implicit bias and stereotype activation, and cognitive biases such as anchoring, framing effects, and...</description>
+        </item>
+        <item>
+            <title>Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights</title>
+            <link>https://arxiv.org/abs/2610.00087</link>
+            <guid>https://arxiv.org/abs/2610.00087</guid>
+            <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2610.00087">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2610.00087v1 Announce Type: new Abstract: The advancement of natural language processing (NLP) has expanded AI-based text classification in the legal domain. However, accurately classifying legal documents remains challenging due to the complexity of legal texts and subtle differences between...</description>
+        </item>
+        <item>
+            <title>China&#x27;s BEST Fusion Project Campus Delivered Early as Main Machine Enters Four-Ring Assembly</title>
+            <link>https://pandaily.com/best-fusion-tokamak-hefei-campus-delivered-four-ring-assembly</link>
+            <guid>https://pandaily.com/best-fusion-tokamak-hefei-campus-delivered-four-ring-assembly</guid>
+            <pubDate>Fri, 02 Oct 2026 01:54:35 +0000</pubDate>
+            <source url="https://pandaily.com/best-fusion-tokamak-hefei-campus-delivered-four-ring-assembly">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>The campus of BEST, China&#x27;s compact fusion experiment in Hefei, was delivered early. The main machine has begun four-ring assembly, with completion targeted for end-2027.</description>
+        </item>
+        <item>
+            <title>X Square Robot&#x27;s TwinDEX Learns a 24-Step Chemistry Experiment With Zero On-Robot Training Data</title>
+            <link>https://pandaily.com/x-square-robot-twindex-robot-free-data-dexterous-chemistry-experiment</link>
+            <guid>https://pandaily.com/x-square-robot-twindex-robot-free-data-dexterous-chemistry-experiment</guid>
+            <pubDate>Fri, 02 Oct 2026 01:54:19 +0000</pubDate>
+            <source url="https://pandaily.com/x-square-robot-twindex-robot-free-data-dexterous-chemistry-experiment">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>X Square Robot&#x27;s TwinDEX pairs a wearable exoskeleton with a matching three-finger hand; a policy trained only on a few hundred robot-free demos ran a 24-step chemistry experiment.</description>
+        </item>
+        <item>
+            <title>Huawei&#x27;s openJiuwen Gives WorkSwarm Full-Duplex Voice and Video, Ready to Deploy on Ascend NPUs</title>
+            <link>https://pandaily.com/huawei-openjiuwen-workswarm-full-duplex-multimodal-agent-ascend</link>
+            <guid>https://pandaily.com/huawei-openjiuwen-workswarm-full-duplex-multimodal-agent-ascend</guid>
+            <pubDate>Fri, 02 Oct 2026 01:54:06 +0000</pubDate>
+            <source url="https://pandaily.com/huawei-openjiuwen-workswarm-full-duplex-multimodal-agent-ascend">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>openJiuwen, Huawei&#x27;s open-source agent platform, added full-duplex voice and video to WorkSwarm: users can interrupt and keep talking while a background Core Agent works through tool tasks.</description>
+        </item>
+        <item>
+            <title>Academia is for Ambition — Alex Zhang, MIT</title>
+            <link>https://www.latent.space/p/rlm</link>
+            <guid>https://www.latent.space/p/rlm</guid>
+            <pubDate>Fri, 02 Oct 2026 00:28:04 +0000</pubDate>
+            <source url="https://www.latent.space/p/rlm">Latent Space</source>
+            <category>open-source</category>
+            <description>We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.</description>
+        </item>
         <item>
             <title>Issues with login, signup, and ads</title>
             <link>https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM</link>
@@ -25,6 +205,42 @@
             <source url="https://status.claude.com/incidents/k0h22tsvnydg">Anthropic Status</source>
             <category>incidents</category>
             <description>Oct 1, 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1, 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in...</description>
+        </item>
+        <item>
+            <title>Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks</title>
+            <link>https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/</link>
+            <guid>https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/</guid>
+            <pubDate>Thu, 01 Oct 2026 18:00:00 +0000</pubDate>
+            <source url="https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/">Security Week</source>
+            <category>security</category>
+            <description>Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right. The post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains</title>
+            <link>https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/</link>
+            <guid>https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/</guid>
+            <pubDate>Thu, 01 Oct 2026 17:16:41 +0000</pubDate>
+            <source url="https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/">Security Week</source>
+            <category>security</category>
+            <description>Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures. The post Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers</title>
+            <link>https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html</link>
+            <guid>https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html</guid>
+            <pubDate>Thu, 01 Oct 2026 16:55:57 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html">The Hacker News</source>
+            <category>security</category>
+            <description>Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when...</description>
+        </item>
+        <item>
+            <title>ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories</title>
+            <link>https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html</link>
+            <guid>https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html</guid>
+            <pubDate>Thu, 01 Oct 2026 16:45:38 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html">The Hacker News</source>
+            <category>security</category>
+            <description>This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is...</description>
         </item>
         <item>
             <title>Actions Job Delays</title>
@@ -90,24 +306,6 @@
             <description>Oct 1, 13:57 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 1, 13:51 UTC Monitoring - The degradation has been mitigated. We are monitoring to...</description>
         </item>
         <item>
-            <title>AI Has Changed Attack Speed, Not Security Fundamentals</title>
-            <link>https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/</link>
-            <guid>https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/</guid>
-            <pubDate>Thu, 01 Oct 2026 13:15:00 +0000</pubDate>
-            <source url="https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/">Security Week</source>
-            <category>security</category>
-            <description>As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals. The post AI Has Changed Attack Speed, Not Security Fundamentals appeared first on SecurityWeek.</description>
-        </item>
-        <item>
-            <title>Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure</title>
-            <link>https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/</link>
-            <guid>https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/</guid>
-            <pubDate>Thu, 01 Oct 2026 12:55:57 +0000</pubDate>
-            <source url="https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/">Security Week</source>
-            <category>security</category>
-            <description>Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction. The post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.</description>
-        </item>
-        <item>
             <title>The Download: AI “mind-reading” and creative uses for small batteries</title>
             <link>https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/</link>
             <guid>https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/</guid>
@@ -133,15 +331,6 @@
             <source url="https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html">The Hacker News</source>
             <category>security</category>
             <description>OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A &quot;core cluster of the activity,&quot; going back to the first week of July, has been attributed to...</description>
-        </item>
-        <item>
-            <title>CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV</title>
-            <link>https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html</link>
-            <guid>https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html</guid>
-            <pubDate>Thu, 01 Oct 2026 10:33:16 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html">The Hacker News</source>
-            <category>security</category>
-            <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504...</description>
         </item>
         <item>
             <title>An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan</title>
@@ -180,33 +369,6 @@
             <description>Bilibili&#x27;s Index LLM team released Index-Translate under Apache-2.0: 2B, 9B and 35B-A3B preview text models for 150 languages, plus dubbing, syllable-control and long-document variants.</description>
         </item>
         <item>
-            <title>XPeng and Banma Run a 30B-Class Cockpit AI Model On-Device on XPeng&#x27;s 750-TOPS Turing Chip</title>
-            <link>https://pandaily.com/xpeng-banma-turing-chip-30b-autoomni-on-device-ai-cockpit</link>
-            <guid>https://pandaily.com/xpeng-banma-turing-chip-30b-autoomni-on-device-ai-cockpit</guid>
-            <pubDate>Thu, 01 Oct 2026 07:15:56 +0000</pubDate>
-            <source url="https://pandaily.com/xpeng-banma-turing-chip-30b-autoomni-on-device-ai-cockpit">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>XPeng and Banma Intelligence built a cockpit solution that runs a 30B-class AutoOmni model locally on XPeng&#x27;s 750-TOPS Turing chip, keeping core AI features working offline.</description>
-        </item>
-        <item>
-            <title>Horizon Robotics Releases HSD V2.1 With End-to-End Reversing, iCAR V27 First in Line for OTA</title>
-            <link>https://pandaily.com/horizon-robotics-hsd-v2-1-end-to-end-reversing-icar-v27-ota</link>
-            <guid>https://pandaily.com/horizon-robotics-hsd-v2-1-end-to-end-reversing-icar-v27-ota</guid>
-            <pubDate>Thu, 01 Oct 2026 07:15:43 +0000</pubDate>
-            <source url="https://pandaily.com/horizon-robotics-hsd-v2-1-end-to-end-reversing-icar-v27-ota">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Horizon Robotics&#x27; HSD V2.1 adds end-to-end reversing in all scenarios, with 43% more miles per intervention and 255% better interactive lane changes. iCAR V27 OTA starts October 8.</description>
-        </item>
-        <item>
-            <title>Huawei Launches Grid-Interactive AIDC 1.0, Linking AI Data-Center Power, Cooling and Ascend Servers</title>
-            <link>https://pandaily.com/huawei-grid-interactive-aidc-1-0-power-liquid-cooling-ascend-sensetime-lingang</link>
-            <guid>https://pandaily.com/huawei-grid-interactive-aidc-1-0-power-liquid-cooling-ascend-sensetime-lingang</guid>
-            <pubDate>Thu, 01 Oct 2026 07:15:28 +0000</pubDate>
-            <source url="https://pandaily.com/huawei-grid-interactive-aidc-1-0-power-liquid-cooling-ascend-sensetime-lingang">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Huawei Digital Power&#x27;s grid-interactive AIDC 1.0 pairs grid-forming storage, new UPS lines and an Ascend-aware liquid-cooling controller; a SenseTime site got 18 MW of power in 45 days.</description>
-        </item>
-        <item>
             <title>[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output</title>
             <link>https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer</link>
             <guid>https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer</guid>
@@ -214,150 +376,6 @@
             <source url="https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer">Latent Space</source>
             <category>open-source</category>
             <description>... but you can&amp;#8217;t try it yet unless you are &amp;#8220;government users and trusted cyber defenders in the Fairwind Program&amp;#8221;</description>
-        </item>
-        <item>
-            <title>Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs</title>
-            <link>https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html</link>
-            <guid>https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html</guid>
-            <pubDate>Thu, 01 Oct 2026 04:35:34 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html">The Hacker News</source>
-            <category>security</category>
-            <description>Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue&#x27;s Threat Hunt Operations &amp;amp; Research (THOR) team, which analyzed the...</description>
-        </item>
-        <item>
-            <title>Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation</title>
-            <link>https://arxiv.org/abs/2609.38282</link>
-            <guid>https://arxiv.org/abs/2609.38282</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38282">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2609.38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same...</description>
-        </item>
-        <item>
-            <title>AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks</title>
-            <link>https://arxiv.org/abs/2609.38288</link>
-            <guid>https://arxiv.org/abs/2609.38288</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38288">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a...</description>
-        </item>
-        <item>
-            <title>MoFlow: Multi-Objective Agentic Workflow Generation</title>
-            <link>https://arxiv.org/abs/2609.38294</link>
-            <guid>https://arxiv.org/abs/2609.38294</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38294">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of...</description>
-        </item>
-        <item>
-            <title>AI Agents are Vulnerable to Radicalization</title>
-            <link>https://arxiv.org/abs/2609.38296</link>
-            <guid>https://arxiv.org/abs/2609.38296</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38296">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people&#x27;s beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona...</description>
-        </item>
-        <item>
-            <title>CARAT: Do Materials LLMs Reason or Recite?</title>
-            <link>https://arxiv.org/abs/2609.38340</link>
-            <guid>https://arxiv.org/abs/2609.38340</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38340">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT...</description>
-        </item>
-        <item>
-            <title>Travel Time Prediction in Supply Chain Management Using Machine Learning</title>
-            <link>https://arxiv.org/abs/2609.38190</link>
-            <guid>https://arxiv.org/abs/2609.38190</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38190">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2609.38190v1 Announce Type: new Abstract: The purpose of this research is to find data and methods using machine learning and deep learning to correctly predict the estimated travel time for transportation and logistics in a supply chain system. The supply chain ecosystem is very complex and...</description>
-        </item>
-        <item>
-            <title>EHR2Trace: Auditable EHR Data Infrastructure for Patient World Models and Clinical Agents</title>
-            <link>https://arxiv.org/abs/2609.38193</link>
-            <guid>https://arxiv.org/abs/2609.38193</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38193">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2609.38193v1 Announce Type: new Abstract: Patient world models and clinical agents aim to predict changes in patients&#x27; health and support clinical work. Developing these systems requires reliable histories of patient conditions, treatments, and the information available at each decision....</description>
-        </item>
-        <item>
-            <title>A Moving-Horizon Approximate Branch-and-Reduce Method for Deep Classification Trees</title>
-            <link>https://arxiv.org/abs/2609.38194</link>
-            <guid>https://arxiv.org/abs/2609.38194</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38194">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2609.38194v1 Announce Type: new Abstract: Despite the importance for interpretability, decision trees face severe scalability challenges. Existing global optimal methods are often limited by binary feature selection and shallow tree depths, whereas traditional heuristic approaches frequently...</description>
-        </item>
-        <item>
-            <title>A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection</title>
-            <link>https://arxiv.org/abs/2609.38195</link>
-            <guid>https://arxiv.org/abs/2609.38195</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38195">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2609.38195v1 Announce Type: new Abstract: Operators for interfacial problems are trained on reference solutions produced by the solver they are intended to replace. This work develops a data-free physics-informed neural operator for level-set interface advection, in which the interface is the...</description>
-        </item>
-        <item>
-            <title>Conformal Adversarial Generative Ensemble</title>
-            <link>https://arxiv.org/abs/2609.38196</link>
-            <guid>https://arxiv.org/abs/2609.38196</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.38196">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2609.38196v1 Announce Type: new Abstract: Accurate time series forecasting is critical across various domains, yet traditional ensemble methods often suffer from the disproportionate influence of extreme forecasts. We introduce the Conformal Adversarial Generative Ensemble (CAGE), a novel...</description>
-        </item>
-        <item>
-            <title>FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech</title>
-            <link>https://arxiv.org/abs/2609.35791</link>
-            <guid>https://arxiv.org/abs/2609.35791</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.35791">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2609.35791v1 Announce Type: new Abstract: Natural turn-taking in full-duplex voice interaction requires determining from partial speech whether a pause reflects hesitation or a completed conversational intent. Acoustic voice activity detection lacks this semantic information, while cascaded...</description>
-        </item>
-        <item>
-            <title>Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention</title>
-            <link>https://arxiv.org/abs/2609.35794</link>
-            <guid>https://arxiv.org/abs/2609.35794</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.35794">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2609.35794v1 Announce Type: new Abstract: Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely rely on monolithic LLMs to...</description>
-        </item>
-        <item>
-            <title>Developing an OCR model for Extracting Information from Invoices with Korean Language</title>
-            <link>https://arxiv.org/abs/2609.35796</link>
-            <guid>https://arxiv.org/abs/2609.35796</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.35796">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2609.35796v1 Announce Type: new Abstract: Invoices are commercial documents that contain various pieces of information, including the purchased items, time, and total money. Making the extraction of important information crucial. The stored information serves different purposes. Korean...</description>
-        </item>
-        <item>
-            <title>Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models</title>
-            <link>https://arxiv.org/abs/2609.35804</link>
-            <guid>https://arxiv.org/abs/2609.35804</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.35804">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2609.35804v1 Announce Type: new Abstract: Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment as intelligent assistants in decision-making contexts. However, the increasing complexity of these...</description>
-        </item>
-        <item>
-            <title>Alignment Forecasting: Predicting Misalignment From Training Data</title>
-            <link>https://arxiv.org/abs/2609.35805</link>
-            <guid>https://arxiv.org/abs/2609.35805</guid>
-            <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2609.35805">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2609.35805v1 Announce Type: new Abstract: Training a language model on data with a narrow flaw can sometimes make the model broadly misaligned. Inspecting the data at face value often does not settle whether it will emerge, and today it is caught only after training, by auditing the resulting...</description>
         </item>
         <item>
             <title>[Retroactive] Actions workflow run failures after deployment gate approvals</title>
@@ -396,6 +414,15 @@
             <description></description>
         </item>
         <item>
+            <title>Disentangling Computation in Multi-Task Neural Networks with the Green&#x27;s Operator</title>
+            <link>https://tldr.takara.ai/p/2609.40292</link>
+            <guid>https://tldr.takara.ai/p/2609.40292</guid>
+            <pubDate>Wed, 30 Sep 2026 17:49:59 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.40292">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>How is computation organized and reused across tasks and time in a trained recurrent network? Most analyses emphasize the geometry of neural activity, dynamical motifs, or local perturbation growth. We instead study the network&#x27;s global first-order perturbation response. The finite-horizon Green&#x27;s...</description>
+        </item>
+        <item>
             <title>StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry</title>
             <link>https://tldr.takara.ai/p/2609.40244</link>
             <guid>https://tldr.takara.ai/p/2609.40244</guid>
@@ -423,40 +450,13 @@
             <description>Modern transformers pair impressive capabilities with substantial memory and compute demands. Low-rank weight factorization reduces both while keeping the matrices dense, and thus efficient on standard hardware. Existing methods, however, choose the subspace to remove from each weight matrix with...</description>
         </item>
         <item>
-            <title>Introducing SynthID Bio</title>
-            <link>https://deepmind.google/blog/introducing-synthid-bio/</link>
-            <guid>https://deepmind.google/blog/introducing-synthid-bio/</guid>
-            <pubDate>Wed, 30 Sep 2026 15:03:07 +0000</pubDate>
-            <source url="https://deepmind.google/blog/introducing-synthid-bio/">DeepMind Blog</source>
-            <category>research</category>
-            <description>Proof of concept for watermarking AI-generated proteins while preserving biological function.</description>
-        </item>
-        <item>
-            <title>Hyperspectral Image Models: Technical Report</title>
-            <link>https://tldr.takara.ai/p/2609.39871</link>
-            <guid>https://tldr.takara.ai/p/2609.39871</guid>
-            <pubDate>Wed, 30 Sep 2026 14:50:21 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.39871">HF Daily Papers</source>
+            <title>WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks</title>
+            <link>https://tldr.takara.ai/p/2609.40031</link>
+            <guid>https://tldr.takara.ai/p/2609.40031</guid>
+            <pubDate>Wed, 30 Sep 2026 16:03:02 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2609.40031">HF Daily Papers</source>
             <category>open-source</category>
-            <description>Hyperspectral remote sensing has advanced across diverse deep learning paradigms, including spectral spatial CNNs, Vision Transformers, Mamba, graph neural networks, Kolmogorov Arnold networks, and self supervised masked autoencoding. Yet progress remains hindered by fragmented repositories,...</description>
-        </item>
-        <item>
-            <title>Drift Inspector: Exploring and Measuring Scientific Drift with Atomic Contribution Claims</title>
-            <link>https://tldr.takara.ai/p/2609.39710</link>
-            <guid>https://tldr.takara.ai/p/2609.39710</guid>
-            <pubDate>Wed, 30 Sep 2026 13:24:39 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2609.39710">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Scientific abstracts mix contributions with background, motivation, and meta-language, so tools that read them as-is cannot separate what a field produces from what it discusses. We present Drift Inspector, an open-source system for measuring and exploring how a research field changes over time at...</description>
-        </item>
-        <item>
-            <title>Elevated error rates for ChatGPT Pro and Plus users</title>
-            <link>https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K</link>
-            <guid>https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K</guid>
-            <pubDate>Wed, 30 Sep 2026 13:23:37 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)</description>
+            <description>Digital image watermarking is increasingly critical in media contexts, as emerging regulations and industry practices require marking AI-generated content and ensuring traceable sources to prevent manipulation or misuse. Recent advances in invisible watermarking methods highlight the need to update...</description>
         </item>
     </channel>
 </rss>

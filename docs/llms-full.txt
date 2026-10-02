@@ -4,6 +4,128 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-02
+
+### AutoSynthData: Generating Training Data for Enterprise Agents
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+
+### Heavy-Tailed Memory Traces in Long-Horizon Language Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.00010
+- Summary: arXiv:2610.00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite...
+
+### When Do Causal World Models Help Modular LLM Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.00012
+- Summary: arXiv:2610.00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this...
+
+### From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.00015
+- Summary: arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through...
+
+### What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.00018
+- Summary: arXiv:2610.00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention...
+
+### Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.00025
+- Summary: arXiv:2610.00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether...
+
+### Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.00002
+- Summary: arXiv:2610.00002v1 Announce Type: new Abstract: We introduce reverse Item Response Theory (IRT) to pharmacogenomic drug-response analysis by treating cancer types as latent "subjects" with resistance ability and drugs as "items" with evasion difficulty. Applied to 242,036 drug sensitivity...
+
+### How Far is Adam from Natural Gradient Descent?
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.00004
+- Summary: arXiv:2610.00004v1 Announce Type: new Abstract: Adam is the standard optimizer in deep learning, yet its geometric relationship to natural gradient descent (NGD) contains unresolved questions. We study Adam's full update rule, including momentum, as a diagonal empirical Fisher approximation subject...
+
+### FourierQK: Filter Shape, Admissibility and the Leakage-Coverage Law
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.00009
+- Summary: arXiv:2610.00009v1 Announce Type: new Abstract: Frequency-collapse attention [Zeris, 2026e] achieves large gains over standard dot-product attention by replacing the Q/K dot product with a bandpass-filtered inner product at a learned frequency. A natural follow-up question is: which filter shape...
+
+### Integrating Fairness and Explainability in a Multiple Instance Reinforcement Learning System
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.00035
+- Summary: arXiv:2610.00035v1 Announce Type: new Abstract: Predicting student performance from educational interaction data requires models that are both accurate and sufficiently transparent to support meaningful intervention, while demographic information introduces an additional risk of unfair predictions....
+
+### Fast Polynomial Transcendentals for LLMs
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.00049
+- Summary: arXiv:2610.00049v1 Announce Type: new Abstract: Graphics processing unit (GPU) generations scale matrix, special-function, and memory pipelines at different rates, so kernel bottlenecks move as hardware evolves. FlashAttention-4 exposed this imbalance inside attention on NVIDIA Blackwell. We test...
+
+### On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.00007
+- Summary: arXiv:2610.00007v1 Announce Type: new Abstract: Named-entity recognition (NER) is increasingly wanted on-device (no API, low latency, data kept local). The practitioner's question is not the leaderboard but which model is deployable, how to evaluate it without human annotation, and whether its...
+
+### SCM-based Fairness and Faithful Explainability for Legal Document Classification
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.00045
+- Summary: arXiv:2610.00045v1 Announce Type: new Abstract: Transformer models such as LegalBERT are increasingly used in legal decision support, raising concerns about both fairness and the transparency of model explanations. These properties are usually evaluated separately, leaving open whether a debiasing...
+
+### The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.00054
+- Summary: arXiv:2610.00054v1 Announce Type: new Abstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout distorts position...
+
+### Measuring Human-Like Bias in LLMs? A Critique of Human-Derived Bias Constructs in LLM Evaluation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.00070
+- Summary: arXiv:2610.00070v1 Announce Type: new Abstract: Researchers increasingly use human-derived bias constructs to study Large Language Models (LLMs), including social-cognitive constructs such as implicit bias and stereotype activation, and cognitive biases such as anchoring, framing effects, and...
+
+### Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.00087
+- Summary: arXiv:2610.00087v1 Announce Type: new Abstract: The advancement of natural language processing (NLP) has expanded AI-based text classification in the legal domain. However, accurately classifying legal documents remains challenging due to the complexity of legal texts and subtle differences between...
+
+### China's BEST Fusion Project Campus Delivered Early as Main Machine Enters Four-Ring Assembly
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/best-fusion-tokamak-hefei-campus-delivered-four-ring-assembly
+- Summary: The campus of BEST, China's compact fusion experiment in Hefei, was delivered early. The main machine has begun four-ring assembly, with completion targeted for end-2027.
+
+### X Square Robot's TwinDEX Learns a 24-Step Chemistry Experiment With Zero On-Robot Training Data
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/x-square-robot-twindex-robot-free-data-dexterous-chemistry-experiment
+- Summary: X Square Robot's TwinDEX pairs a wearable exoskeleton with a matching three-finger hand; a policy trained only on a few hundred robot-free demos ran a 24-step chemistry experiment.
+
+### Huawei's openJiuwen Gives WorkSwarm Full-Duplex Voice and Video, Ready to Deploy on Ascend NPUs
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-openjiuwen-workswarm-full-duplex-multimodal-agent-ascend
+- Summary: openJiuwen, Huawei's open-source agent platform, added full-duplex voice and video to WorkSwarm: users can interrupt and keep talking while a background Core Agent works through tool tasks.
+
+### Academia is for Ambition — Alex Zhang, MIT
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/rlm
+- Summary: We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.
+
+
 ## 2026-10-01
 
 ### Issues with login, signup, and ads
@@ -17,6 +139,30 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/k0h22tsvnydg
 - Summary: Oct 1, 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1, 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in...
+
+### Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/
+- Summary: Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era—if you get the implementation right. The post Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks appeared first on SecurityWeek.
+
+### Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/
+- Summary: Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures. The post Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains appeared first on SecurityWeek.
+
+### Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html
+- Summary: Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid. The 16-year-old was one of 3 people arrested on September 30, when...
+
+### ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html
+- Summary: This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years. That is...
 
 ### Actions Job Delays
 - Source: GitHub Status
@@ -83,6 +229,24 @@
 - URL: https://thehackernews.com/2026/10/how-financial-services-companies-can.html
 - Summary: Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vulnerabilities. Engineering explains what it would take to upgrade the platform where they live. Somebody prices out the regression testing. Somebody else...
 
+### Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/
+- Summary: The Series B brings the AI-powered offensive security startup’s total funding to roughly $445 million only seven months after its public launch. The post Kevin Mandia’s Armadin Raises $255 Million at $2.5 Billion Valuation appeared first on SecurityWeek.
+
+### Treasury Blacklists Most-Wanted ATM Malware Developer and His Network
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/treasury-blacklists-most-wanted-atm-malware-developer-and-his-network/
+- Summary: The US government continues its crackdown on Tren de Aragua over its ATM jackpotting scheme. The post Treasury Blacklists Most-Wanted ATM Malware Developer and His Network appeared first on SecurityWeek.
+
+### Zammad Zero-Days Exploited in AI-Powered DIVD Hack
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/
+- Summary: The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root. The post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.
+
 ### OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates
 - Source: The Hacker News
 - Category: security
@@ -106,6 +270,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/
 - Summary: If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small...
+
+### Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html
+- Summary: Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. "It delivers frontier performance in complex workflows across real-world software engineering,...
 
 ### AIsphere Launches PixVerse R2, a Real-Time World Model That Remembers What Happens in a Session
 - Source: Pandaily
@@ -142,6 +312,18 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer
 - Summary: ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;
+
+### Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html
+- Summary: Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs....
+
+### Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html
+- Summary: Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. "Their investigation identified malicious activity involving third-party security...
 
 ### Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs
 - Source: The Hacker News
@@ -277,6 +459,12 @@
 - Category: research
 - URL: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
 
+### Disentangling Computation in Multi-Task Neural Networks with the Green's Operator
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40292
+- Summary: How is computation organized and reused across tasks and time in a trained recurrent network? Most analyses emphasize the geometry of neural activity, dynamical motifs, or local perturbation growth. We instead study the network's global first-order perturbation response. The finite-horizon Green's...
+
 ### StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry
 - Source: HF Daily Papers
 - Category: open-source
@@ -306,6 +494,18 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html
 - Summary: Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. "Once executed, the legitimate MSP360...
+
+### WARP: A Unified Benchmark for Invisible Image Watermarking -- Robustness and Protection Against Attacks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40031
+- Summary: Digital image watermarking is increasingly critical in media contexts, as emerging regulations and industry practices require marking AI-generated content and ensuring traceable sources to prevent manipulation or misuse. Recent advances in invisible watermarking methods highlight the need to update...
+
+### Amortized Bayesian Inference on Multilevel Models of Arbitrary Structure
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40024
+- Summary: We develop a general method for amortized Bayesian inference on multilevel models of arbitrary structure. Given a generative model specified as a directed acyclic graph, our method automatically derives valid factorizations of the joint posterior and matching neural network architectures. The key...
 
 ### Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager
 - Source: The Hacker News
@@ -354,6 +554,12 @@
 - Category: security
 - URL: https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/
 - Summary: WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS. The post WatchGuard Patches Critical Fireware OS Code Injection Vulnerability appeared first on SecurityWeek.
+
+### FANVIDv2: Evaluating Video Super-Resolution by Face and Licence-Plate Recognition Under Compound Degradation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39649
+- Summary: Video super-resolution (VSR) is normally judged by PSNR and SSIM on clips that were downsampled bicubically, although in surveillance its purpose is to make faces and licence plates \emph{recognisable}. We present FANVIDv2, a benchmark that scores VSR by what a recognition pipeline can do with its...
 
 ### Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks
 - Source: Security Week
@@ -486,6 +692,12 @@
 - Category: security
 - URL: https://www.securityweek.com/high-severity-vulnerabilities-patched-in-openssl-wolfssl/
 - Summary: Roughly a dozen vulnerabilities have been patched in each of the open source cryptographic libraries. The post High-Severity Vulnerabilities Patched in OpenSSL, WolfSSL appeared first on SecurityWeek.
+
+### Learning Infinite-Horizon Average-Reward CMDPs via State Augmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39093
+- Summary: We study infinite-horizon average-reward constrained Markov decision processes (CMDPs) under the weakly communicating assumption. Existing high-probability guarantees for this setting either require computationally inefficient algorithms or have suboptimal dependence on the number of interactions...
 
 ### LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models
 - Source: HF Daily Papers
@@ -2808,214 +3020,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-claude-opus-55-the-new-default
 - Summary: overshadowing more efficient GPT6 models from OpenAI
-
-### Check Point Patches Exploited Management Server Zero-Day
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/
-- Summary: The critical-severity flaw could allow unauthenticated attackers to upload and execute arbitrary scripts. The post Check Point Patches Exploited Management Server Zero-Day appeared first on SecurityWeek.
-
-### PRISM-VLM: A Multi-Axis Discriminative Benchmark for Compact Vision-Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27395
-- Summary: Compact vision-language models (VLMs) now power a growing share of multimodal applications. The benchmarks used to compare them, however, inherit a frontier-centric design: each model is reduced to a single accuracy number, narrowing the inter-model gap on saturated suites and pressing models into...
-
-### AraGenre 2026: A Hierarchical Definition-Guided Arabic Genre Classification Shared Task
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27387
-- Summary: AraGenre is a shared task on hierarchical, definition-guided Arabic genre classification, motivated by the limited availability of annotated data in Arabic and other low-resource languages. Systems assign each Arabic text segment both a broad communicative genre and a fine-grained specific genre....
-
-### When Entanglement Lower-Bounds Disparity: Auditing and Repairing Demographic Fairness in Audio Understanding Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27382
-- Summary: Speech technology penalizes some voices: recognition errs nearly twice as often for Black speakers, and accuracy declines for second-language accents and older speakers. We introduce TRIAD, an audit grid crossing 120 texts, 24 rendered demographic voice profiles (gender, age band, accent), and ten...
-
-### ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html
-- Summary: The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. "We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who...
-
-### ASAP: Visual Analytics for Identifying and Analyzing Image Patterns in AI-generated Images
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27371
-- Summary: Generative image models can produce highly realistic images, raising concerns about potential misuse in creating deceptive content. Current deepfake approaches face several challenges, including limited generalizability, lack of interpretability, and poor actionability. To help address these, we...
-
-### Beyond Mean Foils: Auditing Worst-Foil Specificity in Frozen CLIP Region Explanations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27356
-- Summary: A region can overlap a target object yet contribute more to another class. We test regions selected by Cluster-based Concept Importance (CCI) in frozen CLIP. Across COCO and VOC with two checkpoints, 41.08-64.78% of regions that pass overlap and mean-contrast checks fail against the strongest...
-
-### Can Vision-Language Models Analyze Human-Centered Video? Mapping Model Capabilities and Human-AI Collaborative Workflows
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.27327
-- Summary: Video provides a rich record of human behavior, interaction, and situated contexts, offering important evidence for understanding people and conducting human-centered research. As vision-language models (VLMs) become increasingly capable of analyzing video, they offer opportunities to automate this...
-
-### Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25010
-- Summary: arXiv:2609.25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as "synthetic personas" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence that profile-conditioned LLMs mimic human samples. But is that prediction...
-
-### Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25013
-- Summary: arXiv:2609.25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis. Among them, TabPFN has emerged as an effective approach for low-data tabular classification tasks. However, the impact of optimization and...
-
-### 4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25036
-- Summary: arXiv:2609.25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, or rendering rather than for learning reusable predictive dynamics. We...
-
-### An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25088
-- Summary: arXiv:2609.25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models...
-
-### Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25165
-- Summary: arXiv:2609.25165v1 Announce Type: new Abstract: In this report, we introduce \textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal...
-
-### "As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25021
-- Summary: arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like "I'm just an AI" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them...
-
-### Federating Quantum and Classical Computing: A Privacy-Preserving Hybrid Approach
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25082
-- Summary: arXiv:2609.25082v1 Announce Type: new Abstract: Quantum machine learning (QML) is increasingly recognized as one of the most promising near-term applications of quantum computing, viewed as a next-frontier candidate beyond purely classical approaches. Hybrid quantum-classical models operationalize...
-
-### Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25131
-- Summary: arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong tokens, it also exposes correct intermediate predictions to later errors. An experiment on Sudoku puzzles shows that...
-
-### The Probabilistic Structure of Large Language Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25134
-- Summary: arXiv:2609.25134v1 Announce Type: new Abstract: This paper presents a probabilistic perspective on large language models (LLMs), developed with the aim of bringing together, in a single self-contained account, tools that are usually treated separately across the literature. LLMs are described...
-
-### Stable Unsupervised Continual Chunking with Sheaf SyncMap
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25143
-- Summary: arXiv:2609.25143v1 Announce Type: new Abstract: Unsupervised Continual chunking is a fundamental problem in machine learning and neuroscience, where the goal is to identify groups of states that frequently co-occur in temporal sequences. A key challenge is to form accurate chunks while maintaining...
-
-### What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25006
-- Summary: arXiv:2609.25006v1 Announce Type: new Abstract: Text classifiers trained on the ISOT/Kaggle "Fake and Real News" corpus routinely report accuracy and F1 above 0.98, a level of performance that sits uneasily beside the difficulty of assessing veracity. Using a transparent TF-IDF and...
-
-### Training a Language Model End-to-End in Rust: An Experience Report
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25008
-- Summary: arXiv:2609.25008v1 Announce Type: new Abstract: I pretrained a language model end-to-end in Rust - alone, with no team, no PyTorch, and no Python in the training path - for $164 in rented GPU time. I report that as an achievement, not a recommendation: the more useful contribution is a measured...
-
-### Same Quantity, Different Answer: Numerical Representation Invariance in Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25009
-- Summary: arXiv:2609.25009v1 Announce Type: new Abstract: Numerically equivalent word problems should yield the same canonical answer whether a quantity is written as a decimal, fraction, percentage, number word, scientific notation, or an exactly converted unit. We generate 3,600 exact-rational problems and...
-
-### A Computational Approach to Measuring Semantic Change in Sanskrit Literature
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25012
-- Summary: arXiv:2609.25012v1 Announce Type: new Abstract: Diachronic word embeddings have become the modern standard for tracking semantic change, yet they have been largely validated on modern, high-resource, and well-segmented languages. This paper tests whether the paradigm transfers to Sanskrit, an...
-
-### Retrieved-Span Training for Efficient Query-Focused Meeting Summarization on QMSum
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25028
-- Summary: arXiv:2609.25028v1 Announce Type: new Abstract: QMSum provides no scorer, making query-focused meeting summarization results difficult to compare. We rescore or generate 15 systems under one implementation. Through a common inference port, a released 406M Fusion-in-Decoder specialist loses 6.30...
-
-### X-Planner: Event-Structured Task Planning for Embodied Intelligence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25187
-- Summary: arXiv:2609.25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to...
-
-### Lean Pool: An AI-Maintained Archive of Formalized Mathematics
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25199
-- Summary: arXiv:2609.25199v1 Announce Type: new Abstract: Lean Pool is a repository of formalized mathematics. It is grown, maintained and optimized by AI agents.
-
-### The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25254
-- Summary: arXiv:2609.25254v1 Announce Type: new Abstract: Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The...
-
-### MedGate-Fusion: Integrating First-Encounter Semantic Narratives and Physiological Biomarkers for Prospective Stroke Risk Stratification
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25272
-- Summary: arXiv:2609.25272v1 Announce Type: new Abstract: Prospective stroke risk stratification in primary care is challenging because early risk signals are distributed across routine biomarkers and unstructured clinical narratives. We propose MedGate-Fusion, a multi-modal gated architecture that...
-
-### When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.25284
-- Summary: arXiv:2609.25284v1 Announce Type: new Abstract: A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections...
-
-### Brain-Inspired Hierarchical Modularity for General Continual Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25146
-- Summary: arXiv:2609.25146v1 Announce Type: new Abstract: Continual learning, the ability to learn from sequential experience while retaining and adapting prior knowledge, is central to intelligent systems operating in changing environments. However, conventional continual learning is typically studied with...
-
-### Dual-GNN Multilevel Coarsening for Maximum Independent Set
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25149
-- Summary: arXiv:2609.25149v2 Announce Type: new Abstract: The maximum independent set (MIS) problem is a fundamental NP-hard combinatorial optimization problem with applications in scheduling, resource allocation, and network analysis. Exact solvers can provide high-quality solutions or optimality...
-
-### Exposing Blind Spots in Deep Imbalanced Regression Evaluation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25152
-- Summary: arXiv:2609.25152v1 Announce Type: new Abstract: Deep Imbalanced Regression (DIR) addresses a common failure mode of regression models: target distributions are highly non-uniform, causing models to perform best in densely populated target regions even when reliable performance is required across...
-
-### Learning Neural Feedback Linearization for Data-driven Systems via Augmented Lagrangian
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25163
-- Summary: arXiv:2609.25163v1 Announce Type: new Abstract: The paper proposes a novel data-driven framework for designing and training a feedback linearizing controller by explicitly incorporating relative degree based conditions into the learning process. This enables the conventional feedback controller...
-
-### Mitigating Sequential Reappearance in Diffusion Data-Point Unlearning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.25166
-- Summary: arXiv:2609.25166v1 Announce Type: new Abstract: Diffusion data-point unlearning is typically evaluated immediately after each deletion, even though subsequent requests may repeatedly update the same model. We identify sequential reappearance, a failure mode in which an instance that is initially...
-
-### From Tone to Trajectory: Continuous Sentiment and the Shape of Monetary Policy Communication
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25034
-- Summary: arXiv:2609.25034v1 Announce Type: new Abstract: Central bank press conferences are not merely information releases --- they are structured narratives. We study whether the shape of sentiment within a statement, not just its average tone, carries policy-relevant signals. Constructing sentiment arcs...
-
-### Peerify: Benchmarking Peer-Review Claim Verification
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.25046
-- Summary: arXiv:2609.25046v1 Announce Type: new Abstract: Peer review plays a central role in scholarly publishing, yet verifying whether reviewer claims are supported by manuscript evidence remains a largely manual and time-consuming process. We present Peerify, a pipeline for manuscript-grounded...
 
