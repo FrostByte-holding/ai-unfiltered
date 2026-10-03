@@ -358,6 +358,12 @@
 - URL: https://tldr.takara.ai/p/2610.01934
 - Summary: Hypernetworks have recently shown success in dynamically adapting the parameters of Large Language Models (LLMs) at runtime based on signals such as task descriptions or additional demostrations. Here we ask: how much adaptation signal can be obtained using only the input query to an LLM?. To...
 
+### A foundation for systematic analysis of transformers and RNNs for tractography
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.01894
+- Summary: Machine learning (ML) has emerged as a promising approach for improving diffusion MRI (dMRI) tractography, a task that remains limited by the intrinsic tension between local diffusion information and global anatomical plausibility. In this work, we systematically evaluate recurrent neural networks...
+
 ### TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design
 - Source: HF Daily Papers
 - Category: open-source
@@ -645,6 +651,12 @@
 - URL: https://www.githubstatus.com/incidents/dqn46wtvbdzv
 - Summary: Oct 1, 02:00 UTC Resolved - On October 1, around 02:00 UTC, an isolated infrastructure failure caused GitHub Actions to lose execution state for a small number of existing workflow runs. Affected runs may remain stuck, fail deployment approvals, or return errors when cancelled. Service connectivity...
 
+### Kinematic MeanFlow: One-Step Action Generation Policy for Robotic Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.00864
+- Summary: In this paper, we study how to achieve one-step action generation in Robotic Foundation Models (RFMs), aiming to overcome the high inference latency of multi-step flow matching. MeanFlow provides a promising framework for this goal, yet its direct application leads to performance collapse. We...
+
 
 ## 2026-09-30
 
@@ -772,6 +784,12 @@
 - Category: security
 - URL: https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/
 - Summary: Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution. The post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.
+
+### MemCodex: Self-Programming Hierarchical Memory for Language Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39765
+- Summary: Agent memory faces heterogeneous access needs: a single-hop question may require one piece of evidence, whereas a multi-hop question must combine evidence from multiple sources. Predefined memory workflows cannot adapt to these varying needs. Recent adaptive methods search or learn over memory...
 
 ### The Nixtlaverse: An Open-Source Ecosystem for Forecasting
 - Source: HF Daily Papers
@@ -1201,6 +1219,12 @@
 - URL: https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N
 - Summary: Status: ResolvedThe issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business...
 
+### Marking Contour Tones in Yorùbá: A Typographic and Computational Proposal
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38627
+- Summary: Yorùbá is a tonal language in which contour tones pose persistent orthographic challenges. These are especially notable for personal names and lexical items whose conventional spellings avoid vowel lengthening that would otherwise provide a host syllable for the second tone. A particular concern is...
+
 ### OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference
 - Source: Security Week
 - Category: security
@@ -1283,6 +1307,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.37783
 - Summary: Photographic evidence is becoming increasingly vulnerable to forms of alteration and fabrication that existing legal and technical workflows are not well equipped to evaluate. Surveillance frames, dashcam stills, and phone photographs may be used to establish presence, sequence, causation, damage,...
+
+### Context Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37725
+- Summary: We introduce Context Language Models (CLMs), language models that natively manage their own context. We implement this by treating the context as a file and allowing the model to make unrestricted updates to this file. This allows the model to learn what is most important to maintain in context,...
 
 ### Locating Answer-Correctness Signals in Frozen Large Language Models
 - Source: HF Daily Papers
@@ -2992,36 +3022,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xiaomi-hysparse2-mimo-v3-two-level-kv-sharing-prefill
 - Summary: Xiaomi's LLM-Core team published HySparse2, a hybrid sparse-attention design with two-level KV sharing aimed at MiMo-V3-class agentic models, reporting about 5× lower 1M-token prefill FLOPs versus Hybrid SWA on an 80B-A3B MoE.
-
-### Huawei Debuts OceanStor M900 Context Memory Storage: PB-Scale Shared KV Cache With ~60μs NPU-to-SSD Hop
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-oceanstor-m900-context-memory-storage-kv-cache-60us
-- Summary: At HUAWEI CONNECT 2026, Huawei introduced OceanStor M900 Context Memory Storage for SuperPoDs, claiming a PB-scale shared KV-cache pool, one-hop NPU-to-SSD access near 60 microseconds, and up to 40 TB/s aggregate cluster bandwidth.
-
-
-## 2026-09-23
-
-### Mobile users unable to see Work Mode and the Model Picker
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Agent (Operational) Sites (Operational) Login (Operational) Search (Operational) Compliance API (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational) Image Generation (Operational) GPTs...
-
-### IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/
-- Summary: IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.
-
-### How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
-
-### Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.28580
-- Summary: Although hyperspectral images (HSIs) provide rich spectral-spatial information, accurate pixel-level classification remains challenging because of spectral-spatial heterogeneity and complex spatial structures. Existing vision state space models (Mamba) typically construct sequences according to...
 
