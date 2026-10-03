@@ -6,6 +6,18 @@
 
 ## 2026-10-03
 
+### MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html
+- Summary: The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a "Security Service Espionage Alert" issued on September 30, 2026, MI5 said the "primary purpose...
+
+### Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html
+- Summary: The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat...
+
 ### doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures
 - Source: Security Week
 - Category: security
@@ -346,11 +358,23 @@
 - URL: https://tldr.takara.ai/p/2610.01934
 - Summary: Hypernetworks have recently shown success in dynamically adapting the parameters of Large Language Models (LLMs) at runtime based on signals such as task descriptions or additional demostrations. Here we ask: how much adaptation signal can be obtained using only the input query to an LLM?. To...
 
+### TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.01887
+- Summary: Dynamic resource assignment, the real-time allocation of task streams to heterogeneous processing nodes, is the backbone of modern computing infrastructure. While learning-based schedulers excel in research, industrial deployments still rely on hand-written rules that operators can read, audit, and...
+
 ### Actions Job Delays
 - Source: GitHub Status
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/2dpbcq5j165n
 - Summary: Oct 1, 15:10 UTC Monitoring - The degradation affecting Actions has been mitigated. We are monitoring to ensure stability. Oct 1, 15:02 UTC Update - Run-start delays on Ubuntu runners have been resolved. We are investigating run-start delays on Windows runners and will share more information as it...
+
+### Varda-single-1.0: deterministic data-driven weather forecasting at 1 km resolution over Switzerland's complex topography
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.01835
+- Summary: We present Varda-single-1.0, a medium-range data-driven weather prediction system built for the Alpine domain. It provides hourly deterministic regional forecasts on a mesh of 1 km resolution and global forecasts on a 31 km mesh. The system comprises two independently trained stretched-grid Graph...
 
 ### Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs
 - Source: Hugging Face Blog
@@ -833,6 +857,12 @@
 - URL: https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/
 - Summary: The state-sponsored group has launched larger-scale phishing campaigns to deploy the CosmicPulse backdoor. The post Russian APT Star Blizzard Uses &#8216;RedFlick&#8217; Infection Chain in Recent Attacks appeared first on SecurityWeek.
 
+### OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39490
+- Summary: Recent advances have enabled unified omni-modal models in understanding audio, vision, and language. However, existing benchmarks, training data, and learning methods largely treat the modalities independently, leaving the capability of audio-visual joint reasoning poorly evaluated and...
+
 ### US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access
 - Source: The Hacker News
 - Category: security
@@ -994,6 +1024,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.38976
 - Summary: Demographic fairness gaps in automatic speech recognition are almost always reported from a single training run. We fine-tune the Q-former projector and LoRA adapters of a speech LLM at five audio compression factors and six random seeds, holding the encoder, base decoder, data and decoding fixed,...
+
+### APTInvestBench: Evaluating Autonomous APT Investigation under Varying Telemetry
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38954
+- Summary: Large language model (LLM) agents could help security operations centers (SOCs) investigate advanced persistent threats (APTs) by turning weak leads into evidence for intrusion scoping and response. Yet success under one telemetry setting does not establish robustness to changes in log collection,...
 
 ### Adaptive Self-Consistency: From Black-Box Sampling to Distribution-Valued Feedback
 - Source: HF Daily Papers
@@ -1235,6 +1271,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.37801
 - Summary: The ByteTrack algorithm is a widely used and computationally efficient multi-object tracking architecture. Its core innovation lies in the combination of lenient bounding box associations with tracklet similarity matching to robustly deal with object occlusions. However, this strategy is...
+
+### CHOQOLATE: Organizing Concept Bottleneck Latent Spaces with Choquet Integrals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37786
+- Summary: Concept Bottleneck Models (CBMs) built on vision-language models such as CLIP represent a latent space as human-understandable concepts. These representations are unfaithful: related concepts are entangled, so individual scores do not reflect their intended meaning. We propose CHOQOLATE, an...
 
 ### A Benchmark & Dataset for Detecting AI-Manipulated Visual Evidence in the Court System
 - Source: HF Daily Papers
@@ -2982,46 +3024,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.28580
 - Summary: Although hyperspectral images (HSIs) provide rich spectral-spatial information, accurate pixel-level classification remains challenging because of spectral-spatial heterogeneity and complex spatial structures. Existing vision state space models (Mamba) typically construct sequences according to...
-
-### Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html
-- Summary: Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of...
-
-### Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/
-- Summary: The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts. The post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on SecurityWeek.
-
-### Predicting the Progression of Adolescent Idiopathic Scoliosis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.28434
-- Summary: Adolescent Idiopathic Scoliosis is defined as a lateral curvature of the spine that develops during adolescence, without known cause. The condition can result in significant pain and disability, and often progresses rapidly during adolescence. The objective of this paper is to predict the...
-
-### A congressional representative just proposed killing America’s border tower program
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/
-- Summary: Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border.&#160; The announcement comes just days after publication of an MIT Technology Review investigation, “Dying on...
-
-### A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html
-- Summary: The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button...
-
-### Local Geometric Mixing via Dobrushin Contraction with Applications to Diffusion Path Monte Carlo and the Proximal Sampler
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.28338
-- Summary: Local geometric mixing localizes geometric mixing by requiring geometric convergence to equilibrium in total variation only over finitely many transitions. It accommodates local convergence rates and captures rapid local equilibration, even when global mixing is much slower. We establish and...
-
-### MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html
-- Summary: Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an...
 
