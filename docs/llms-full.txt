@@ -6,6 +6,12 @@
 
 ## 2026-10-04
 
+### Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/
+- Summary: The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek.
+
 ### ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
 - Source: The Hacker News
 - Category: security
@@ -611,6 +617,12 @@
 - URL: https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer
 - Summary: ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;
 
+### AbsorbEvo: An Agentic Framework for Autonomous Inverse Design of Microwave Absorbers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.01119
+- Summary: Designing high-performance microwave absorbers requires specialized expertise in electromagnetic theory, materials science and simulation programming, and entails time-consuming optimization. Here, we present AbsorbEvo, an agentic framework for autonomous inverse design that translates...
+
 ### Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path
 - Source: The Hacker News
 - Category: security
@@ -1015,6 +1027,12 @@
 - URL: https://tldr.takara.ai/p/2609.39358
 - Summary: A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, former CEO of Infosys, argues that this bound limits which tasks a model can carry out or verify (arXiv:2507.07505). We ask how much of the budget beneath that ceiling is spent on work...
 
+### HAPMoE: Heterogeneity-Aware Automatic Parallelism Planning for Mixture-of-Experts Models Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39350
+- Summary: As model sizes continue to scale, distributed training has become inevitable. Automatic parallelization techniques can derive efficient training parallelism strategies at low cost while achieving superior performance. The difficulty of this problem is jointly determined by the complexity of the...
+
 ### Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT
 - Source: The Hacker News
 - Category: security
@@ -1303,6 +1321,12 @@
 - URL: https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/
 - Summary: The accord opened the door to future regulation but focused on four voluntary steps for the companies to take. The post Trump Says Top Tech Firms Have Signed Accord to ‘Self-Police’ AI Development appeared first on SecurityWeek.
 
+### UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.38721
+- Summary: Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive...
+
 ### Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1388,6 +1412,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.37934
 - Summary: Forecasting time-varying functional connectivity from electroencephalography (EEG) requires modeling both history-dependent trends and structured variability across channels. Conditional flow matching provides a framework for distributional forecasting, yet it remains unclear whether graph-informed...
+
+### Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37868
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) methods such as GRPO rely on successful self-generated trajectories, but finite rollout budgets can produce all-fail groups with no reward-based policy-gradient signal. While additional rollouts improve the chance of success at higher cost,...
 
 ### FlowMap-OPD: Rollout--Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators
 - Source: HF Daily Papers
@@ -2994,34 +3024,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.26839
 - Summary: arXiv:2609.26839v1 Announce Type: new Abstract: Post-hoc probability calibration is usually evaluated under an optimistic assumption: the held-out calibration labels are clean. In many AI deployment settings, however, labels come from weak annotators, historical decisions, heuristics, or distant...
-
-### COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.26913
-- Summary: arXiv:2609.26913v1 Announce Type: new Abstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initial model, while dense...
-
-### Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.26926
-- Summary: arXiv:2609.26926v1 Announce Type: new Abstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by applying an...
-
-### Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.26942
-- Summary: arXiv:2609.26942v1 Announce Type: new Abstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate kinship terms in three non...
-
-### Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.26945
-- Summary: arXiv:2609.26945v1 Announce Type: new Abstract: Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating the ability of LLMs to classify interpretive canons as articulated by Larenz in the tradition of...
-
-### When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.26976
-- Summary: arXiv:2609.26976v1 Announce Type: new Abstract: Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-context multiple-choice QA after strong retrieval, routing, budgeted-selector, and reranking controls. Our...
 
