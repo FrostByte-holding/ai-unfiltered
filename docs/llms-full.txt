@@ -4,7 +4,39 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-04
+
+### Gotion Unveils 330Wh/kg Hybrid Solid-Liquid Cylindrical Battery for eVTOLs and Low-Altitude Flight
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/gotion-low-altitude-high-power-battery-330whkg-46-series-evtol
+- Summary: Gotion's new 46-series cylindrical cell for low-altitude aircraft reaches 330Wh/kg, sustains 6C discharge below 25% charge and supports fast charging or swapping in under five minutes.
+
+### Xi'an Jiaotong University Simulates 33-Nozzle Rocket Plumes on 6.774 Trillion Cells With Sugon 8000
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xian-jiaotong-university-sugon-8000-rocket-plume-simulation-6-774-trillion-cells
+- Summary: A Xi'an Jiaotong University team ran a 6.774-trillion-cell simulation of 33 interacting rocket plumes on tens of thousands of domestic GPUs, reaching 99.01% weak-scaling efficiency.
+
+### Xiaomi Vision Gran Turismo Joins Gran Turismo 7 in October as First Chinese-Brand VGT
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaomi-vision-gran-turismo-gt7-october-first-chinese-vgt-ev-lessons
+- Summary: Xiaomi's Vision Gran Turismo concept arrives in GT7 with the October Spec IV update, the first Chinese-brand VGT, alongside the series' first driving lessons built around EVs.
+
+### Huawei's openJiuwen Open-Sources X-Router to Pick the Right Model for Each Agent Request
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-openjiuwen-x-router-self-evolving-model-router-agents
+- Summary: openJiuwen's X-Router sends easy agent requests to light models and hard ones to stronger models, learning from feedback. Tests show near-baseline scores at roughly half the cost.
+
+
 ## 2026-10-03
+
+### The Agent Said It Was Done. The Database Disagreed.
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/microsoft/thinkingbox
 
 ### MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
 - Source: The Hacker News
@@ -429,6 +461,12 @@
 - URL: https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/
 - Summary: Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction. The post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.
 
+### Revisiting Cross-Reconstruction for Generalizable Deepfake Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.01544
+- Summary: Existing image forgery detectors often suffer from generalization to unseen manipulation methods due to the limited ability to capture transferable forensic cues. Recent cross-reconstruction based methods attempt to improve generalization through semantic-artifact disentanglement, but typically...
+
 ### The Download: AI “mind-reading” and creative uses for small batteries
 - Source: MIT Tech Review AI
 - Category: research
@@ -713,6 +751,12 @@
 - URL: https://tldr.takara.ai/p/2609.40170
 - Summary: MANETs enable flexible infrastructure-less wireless connectivity in dynamic and resource-constrained environments. As modern MANETs exploit multiple frequency channels and support heterogeneous traffic patterns, decentralized transmit-power allocation becomes increasingly challenging. We develop a...
 
+### Reinforcement Learning-Guided Graph Transformations for SpTRSV Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40159
+- Summary: Sparse triangular solve (SpTRSV) is a fundamental kernel in numerous scientific and engineering applications. However, the data dependencies inherent in sparse triangular matrices significantly limit the available parallelism and make efficient workload distribution challenging. Recent graph...
+
 ### Learning Functional Subspaces for Neural Network Compression
 - Source: HF Daily Papers
 - Category: open-source
@@ -743,6 +787,12 @@
 - URL: https://tldr.takara.ai/p/2609.40031
 - Summary: Digital image watermarking is increasingly critical in media contexts, as emerging regulations and industry practices require marking AI-generated content and ensuring traceable sources to prevent manipulation or misuse. Recent advances in invisible watermarking methods highlight the need to update...
 
+### Who Verifies the Graph? Misspecification Attacks on Causal Action Verification for Language Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.40027
+- Summary: Causal action verifiers gate an agent's state-changing tool calls by checking whether each proposed intervention is identifiable against a committed action-state graph, and they issue a certificate that carries the identification argument and a one-sided lower confidence bound. One such verifier,...
+
 ### Amortized Bayesian Inference on Multilevel Models of Arbitrary Structure
 - Source: HF Daily Papers
 - Category: open-source
@@ -754,6 +804,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html
 - Summary: Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the...
+
+### RoPE at the End of Its Rope? Theory, Diagnosis, and Mitigation of Long-Context Failures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.39929
+- Summary: Long-context failures of RoPE-based language models can arise from RoPE's intrinsic tradeoff between maintaining stable token preferences and distinguishing nearby positions. Determining which weakness to address, and how, requires a more precise characterization of RoPE's behavior in trained...
 
 ### Introducing SynthID Bio
 - Source: DeepMind Blog
@@ -1378,6 +1434,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/
 - Summary: Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting...
+
+### Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2609.37236
+- Summary: An agent that uses tools typically responds to what the user explicitly asks, yet completing the task may require information the user never requested. Work on proactive agents mainly studies whether and when an agent should act on its own, not what information it should pursue. We study a distinct...
 
 ### Making AI an asset, not an expense
 - Source: MIT Tech Review AI
@@ -2962,64 +3024,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.26890
 - Summary: arXiv:2609.26890v1 Announce Type: new Abstract: Many physical data assimilation (DA) workflows require smoothing methods that represent non-Gaussian posteriors over physical state variables, scale to high-dimensional simulators, train from observation windows alone, and remain compatible with...
-
-### LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.27009
-- Summary: arXiv:2609.27009v1 Announce Type: new Abstract: Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural challenges. First, existing RAG and GraphRAG methods emphasize lexical or semantic similarity while...
-
-### LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.27032
-- Summary: arXiv:2609.27032v1 Announce Type: new Abstract: Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or other structural units in isolation, yet give little...
-
-### EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.27043
-- Summary: arXiv:2609.27043v1 Announce Type: new Abstract: Large language models have allowed the rapid deployment of pedagogical annotations corresponding to constructs of interest, allowing a natural language interface for generating classifications on a conversational dataset. However due to the opaque...
-
-### The Illinois Social Attitudes Aggregate Corpus (ISAAC): An Open Tool and Reproducible Pipeline for Analyzing Social Group Discourse at Scale
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.27059
-- Summary: arXiv:2609.27059v1 Announce Type: new Abstract: We introduce the Illinois Social Attitudes Aggregate Corpus (ISAAC), an open, modular, and accessible corpus of 527 million+ English-language Reddit posts selected for relevance to six key social group distinctions based on race, sexuality, age,...
-
-### What Changes When Fact-Verification Scores Improve? Evidence and Answer Accounting Across Trained Verifiers and LLMs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.27064
-- Summary: arXiv:2609.27064v1 Announce Type: new Abstract: A joint fact-verification score assesses answers and submitted evidence together. When the score improves, how much of the gain remains if the answers are held fixed? On FEVEROUS, strict score is the percentage of claims with a correct answer and a...
-
-### PFArena: Benchmarking Language Models for Protein Modification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.28921
-- Summary: Protein modification requires navigating an immense sequence space, yet wet-lab validation remains low-throughput and costly. Although computational paradigms including protein language models (PLMs), large language models (LLMs), and LLM-based agents have shown promise in protein modification,...
-
-### SenseTime Ships SenseNova U1 Pro Image Model With Up to 8K Output via Raccoon and API
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sensetime-sensenova-u1-pro-image-model-8k-raccoon-api
-- Summary: SenseTime released the production SenseNova U1 Pro image-creation model through its Raccoon app and SenseNova API, citing interleaved text-image chain-of-thought generation and output resolution up to 8K with custom aspect ratios.
-
-### Alibaba Cloud Unveils Qwen Book AI Agent PC: Skill Keyboard, AI Island Display and Omarchy OS Collab
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-cloud-qwen-book-ai-agent-pc-skill-keyboard-omarchy
-- Summary: Alibaba Cloud debuted Qwen Book, its first AI agent PC, at Apsara 2026 with a Skill keyboard array, AI Island status display and an Omarchy open-source desktop OS collaboration, opening a Day One tester program toward December trials.
-
-### Alibaba Launches Qwen Intelligence Phone-Agent Stack; Honor Magic9 Named First Formal Adopter
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/alibaba-qwen-intelligence-phone-agent-stack-honor-magic9
-- Summary: At Apsara 2026, Alibaba released Qwen Intelligence, a modular phone-agent platform spanning Mobile Planner, Mobile-Use and Creative agents plus an OS Harness, with Honor's forthcoming Magic9 series as the first formal adopter.
-
-### Xiaomi Details HySparse2 for MiMo-V3: Two-Level KV Sharing Cuts 1M-Token Prefill FLOPs About 5× vs Hybrid SWA
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-hysparse2-mimo-v3-two-level-kv-sharing-prefill
-- Summary: Xiaomi's LLM-Core team published HySparse2, a hybrid sparse-attention design with two-level KV sharing aimed at MiMo-V3-class agentic models, reporting about 5× lower 1M-token prefill FLOPs versus Hybrid SWA on an 80B-A3B MoE.
 
