@@ -6,6 +6,54 @@
 
 ## 2026-10-06
 
+### Computer Use Is Experiencing Issues
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M493CZ0CB14KPC0EER83MNVB
+- Summary: Status: InvestigatingWe are investigating issues for agents api and computer use.Affected components Agents (Degraded performance)
+
+### Errors processing large PDFs in the Responses API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M48Y8E81QAFF9XKVGE118E6X
+- Summary: Status: IdentifiedWe are implementing the mitigation.Affected components Responses (Degraded performance)
+
+### INC20000263
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/5dtf6t7880nj
+- Summary: Oct 6, 15:57 UTC Resolved - Current status: We've coordinated with our third-party provider who implemented a fix for this issue, and we've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake...
+
+### Elevated error rates in ChatGPT Go conversations
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M48PT6B8SDTW023NC9XZTBC0
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational)
+
+### The Cyber Risk Discourse is Broken
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken
+- Summary: Open-weights, ideology, and acknowledging trade-offs.
+
+### FBI Blames Contractor’s Missed Patch for ShinyHunters Breach
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/
+- Summary: The FBI has removed an Accenture contractor over a data breach that exposed personal information of thousands of bureau employees. The post FBI Blames Contractor&#8217;s Missed Patch for ShinyHunters Breach appeared first on SecurityWeek.
+
+### Elevated errors for Claude Opus 5.5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/ch27pb90bn85
+- Summary: Oct 6, 12:43 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Oct 6, 12:37 UTC Identified - We have identified the cause of elevated errors on requests to Claude Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 6, 12:24 UTC Investigating -...
+
+### Incident affecting ASOS customers
+- Source: NCSC UK
+- Category: security
+- URL: https://www.ncsc.gov.uk/news/incident-affecting-asos-customers
+- Summary: ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.
+
 ### Cybersecurity M&A Roundup: 39 Deals Announced in September 2026
 - Source: Security Week
 - Category: security
@@ -259,6 +307,12 @@
 - URL: https://status.openai.com//incidents/01M46KED6KQ6PR195KZYYVNY8W
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.
 
+### S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06847
+- Summary: Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules. We introduce Serial-to-Parallel Diffusion (S2PD), which performs...
+
 ### Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
 - Source: The Hacker News
 - Category: security
@@ -289,6 +343,12 @@
 - URL: https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
 - Summary: A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter...
 
+### Agentic schema-guided extraction of materials process knowledge from scientific literature
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06322
+- Summary: Materials literature contains detailed experimental knowledge, but procedures, chemical entities and measurements remain difficult to aggregate because they are reported in heterogeneous forms and depend on process-specific context. We present SciKGExtract, a schema-guided framework that combines...
+
 ### Bringing predictive analytics to the agentic AI era
 - Source: MIT Tech Review AI
 - Category: research
@@ -312,6 +372,18 @@
 - Category: security
 - URL: https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/
 - Summary: ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation. The post Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws appeared first on SecurityWeek.
+
+### OCL-PDE: A Generative Framework for PDE Inverse Problems with Observation-Complementary Latents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06259
+- Summary: Partial differential equation (PDE) inverse problems are often ill-posed, making fine-scale details difficult to recover. We address this problem by introducing a learned observation-complementary latent representation that preserves reconstruction-relevant information and is combined with the...
+
+### Joint Class-Time Learning for Video Classification with Multi-Instance Partial-Label Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06234
+- Summary: Multi-instance partial-label learning (MIPL) addresses inexact supervision in both the instance and label spaces, which can be applied to video classification. However, bag-level labels do not explicitly supervise the correspondence between candidate classes and temporal evidence. We propose...
 
 ### 250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms
 - Source: Security Week
@@ -402,6 +474,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/dalian-university-of-technology-va-bench-multimodal-models-robot-arm-tasks-qwen3-8-max
 - Summary: VA-Bench from Dalian University of Technology tests 12 multimodal model setups on robot-arm tasks; Qwen3.8-max leads at 53.93%, and none finishes a strict long-horizon task.
+
+### Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.05872
+- Summary: A long-standing goal of AI is a model that can continually learn and improve itself. On post-trained models, supervised finetuning (SFT) on new data often causes poor generalization and catastrophic forgetting. As such, the conventional wisdom is that on-policy training is a prerequisite for...
 
 ### New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline
 - Source: The Hacker News
@@ -2940,84 +3018,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.30277
 - Summary: arXiv:2609.30277v1 Announce Type: new Abstract: Implicit Graph Neural Networks (IGNNs) define node representations as fixed points of message-passing operators, enabling effectively infinite-depth propagation, iteration-independent parameterization, and flexible test-time computation. Yet these...
-
-### Neural Ideals and Neural Codes: An Algebraic Framework for Neural Network Classification and Feature Interpretation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.30279
-- Summary: arXiv:2609.30279v1 Announce Type: new Abstract: Understanding the features captured by the hidden layers of neural networks is a fundamental challenge in machine learning, despite their widespread success across various classification problems. In this work, we propose an algebraic framework for...
-
-### Seasonal and Quantum-inspired Models for Neutron Monitor Time Series Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.30281
-- Summary: arXiv:2609.30281v1 Announce Type: new Abstract: We present a focused and reproducible study of multi-horizon forecasting on the Lomnicky Stit neutron monitor (LMKS) time series. Our evaluation suite covers simple seasonal baselines, modern deep sequence models, and functional and quantum-inspired...
-
-### When Does Advection-Aware Graph Nowcasting Help? A Controlled Study of Distributed Solar Ramp Forecasting with a Self-Supervised Cloud-Motion Estimator
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.30286
-- Summary: arXiv:2609.30286v1 Announce Type: new Abstract: Short-term forecasting of cloud-induced power ramps across a network of distributed photovoltaic (PV) or irradiance sensors is a recognised pain point for grid operators. A natural idea is to make the graph neural network (GNN) advection-aware:...
-
-### Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.30293
-- Summary: arXiv:2609.30293v1 Announce Type: new Abstract: The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-visible tool discovery from...
-
-### SlideLab: Audience-Centered Scientific Slide Generation and Evaluation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.30294
-- Summary: arXiv:2609.30294v1 Announce Type: new Abstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab, a training-free multi-agent...
-
-### SignTrace: Describe a Sign, Find the Word
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.30295
-- Summary: arXiv:2609.30295v1 Announce Type: new Abstract: Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem through natural-language access to a Chinese...
-
-### Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.30297
-- Summary: arXiv:2609.30297v1 Announce Type: new Abstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., "recommend Italian indie artists I haven't heard before"). A central challenge in building such...
-
-### A Benchmark Framework for Screening Automation in Systematic Reviews
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2609.30298
-- Summary: arXiv:2609.30298v1 Announce Type: new Abstract: Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article...
-
-### mmHRI: Towards Privacy-Preserving Human-Robot Interaction with Millimeter-Wave Radar
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.34220
-- Summary: Assistive robots increasingly operate in many human-centered environments and perform various human-robot interaction (HRI) tasks, such as object delivery. However, most existing HRI systems rely on RGB cameras that continuously observe humans to respond to non-verbal commands, such as hand...
-
-### Welcome RL Environments to the hub
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/rl-environments
-
-
-## 2026-09-27
-
-### Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/
-- Summary: CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28. The post Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks appeared first on SecurityWeek.
-
-### Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
-- Summary: Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not confirmed the flaws or published a fix. Some administrators say...
-
-### INC20000239
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/3ykqqwk3s758
-- Summary: Sep 27, 03:16 UTC Resolved - Current status: We've coordinated with our third-party cloud platform to implement the fix for this issue, and we've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via...
 
