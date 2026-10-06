@@ -6,6 +6,17 @@
 
 ## 2026-10-06
 
+### Several services are degraded
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/cjwszcf57bff
+- Summary: Oct 6, 22:40 UTC Update - We are deploying a mitigation and plan to resume migrations shortly thereafter Oct 6, 21:29 UTC Update - We are working towards a mitigation that will allow us to resume processing enterprise migrations. Oct 6, 20:57 UTC Investigating - All services are functioning...
+
+### EmbeddingGemma 2: an open, lightweight multimodal embedding model
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
+
 ### Computer Use Is Experiencing Issues
 - Source: OpenAI Status
 - Category: incidents
@@ -313,6 +324,12 @@
 - URL: https://tldr.takara.ai/p/2610.06847
 - Summary: Bidirectional video diffusion models denoise entire videos in parallel, yet when trained on effectively unlimited in-distribution data from procedural generators, continue to violate physical laws and simple symbolic rules. We introduce Serial-to-Parallel Diffusion (S2PD), which performs...
 
+### Collective intelligence through aggregation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06652
+- Summary: Suppose a committee, expert panel, or other group is making judgments on some issues, where these may be not just yes/no-questions, such as whether a defendant is guilty, but also variables with many possible values, such as macroeconomic or meteorological variables or travel directions....
+
 ### Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes
 - Source: The Hacker News
 - Category: security
@@ -342,6 +359,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html
 - Summary: A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. There are actively exploited bugs in the mix, cleaner intrusion paths, smarter...
+
+### Correct Verdicts, Flawed Reasoning: Structured Auditing of LLM-based Vulnerability Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06366
+- Summary: Large Language Models (LLMs) are increasingly deployed for automated software vulnerability analysis. Binary classification alone is insufficient; practitioners need explanations to triage bugs and engineer patches. Standard practice relies on Chain-of-Thought (CoT) prompting, but free-form...
 
 ### Agentic schema-guided extraction of materials process knowledge from scientific literature
 - Source: HF Daily Papers
@@ -427,11 +450,29 @@
 - URL: https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html
 - Summary: Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. "Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their...
 
+### Benchmarking CLIP for Zero-Shot Face and Periocular Gender Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06102
+- Summary: We investigate CLIP for zero-shot gender estimation from full-face and periocular images. Three CLIP backbones are evaluated on 11,299 frontal images from Adience using image-text similarity with male/female prompts, achieving 95.54% full-face accuracy without task-specific training. For...
+
 ### Elevated Work Mode errors
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z
 - Summary: Status: MonitoringWe have mitigated the issue, and are monitoring recovery.Affected components Codex in ChatGPT Desktop (Degraded performance) ChatGPT Work (Degraded performance)
+
+### RocketAgent: A Long-Horizon Engineering Agent for Multidisciplinary Design of Liquid-Rocket Thrust Chambers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06044
+- Summary: Liquid-rocket thrust-chamber design involves interdependent analyses in which downstream constraints can require earlier design decisions to be revisited. Managing these dependencies across heterogeneous tools requires consistent design information and coordinated updates throughout the workflow....
+
+### Casual Flash Lighting for Gaussian Splat Inverse Rendering
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.06035
+- Summary: Recovering geometry, materials, and lighting from photographs is highly ambiguous when only static illumination is available. Active-lighting setups reduce the ambiguity but require dark rooms or specialized hardware. Instead, we synergize both static and flash lighting from casual indoor capture,...
 
 ### Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE
 - Source: The Hacker News
@@ -2976,46 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.30292
 - Summary: arXiv:2609.30292v1 Announce Type: new Abstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise...
-
-### A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.30397
-- Summary: arXiv:2609.30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth explanations. In the literature, existing evaluation approaches...
-
-### Predicting Transmembrane Protein Topology from 3D Structure
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.30446
-- Summary: arXiv:2609.30446v1 Announce Type: new Abstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the...
-
-### Spectral Feedback for Test-Time Alignment of Protein Diffusion Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.30456
-- Summary: arXiv:2609.30456v1 Announce Type: new Abstract: Reward maximization alignment methods for discrete diffusion models have primarily focused on steering the reverse process, either by influencing token logits or by selecting favorable sequences at intermediate steps. These approaches largely treat...
-
-### Pretrained ASR Pseudo-labeling for Noisy Police Audio
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.30469
-- Summary: arXiv:2609.30469v1 Announce Type: new Abstract: Pretrained ASR systems perform poorly on noisy Broadcast Police Communication (BPC), hindering efforts to understand police decision-making. Pseudo-labeling offers an unsupervised path to improve ASR without expensive human labels, but the efficacy of...
-
-### Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.30484
-- Summary: arXiv:2609.30484v1 Announce Type: new Abstract: While large language models (LLMs) have achieved remarkable linguistic capabilities, a profound question lingers at their core: do these models truly comprehend context or simply excel at pattern matching on an unprecedented scale? Contextual...
-
-### Why Clipping Matters in AdaGrad? Toward a High-Probability Theory under Generalized Smoothness
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.30276
-- Summary: arXiv:2609.30276v1 Announce Type: new Abstract: We analyze the original same-step coordinate-wise AdaGrad under generalized smoothness and heavy-tailed noise with bounded variance. In this setting, local curvature may grow sub-quadratically with the gradient norm, and stochastic gradients are...
-
-### Fixed Points Without Fixed Diffusion: Implicit Neural Sheaves for Convergent Test-Time Computation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.30277
-- Summary: arXiv:2609.30277v1 Announce Type: new Abstract: Implicit Graph Neural Networks (IGNNs) define node representations as fixed points of message-passing operators, enabling effectively infinite-depth propagation, iteration-independent parameterization, and flexible test-time computation. Yet these...
 
