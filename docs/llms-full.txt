@@ -6,6 +6,29 @@
 
 ## 2026-10-07
 
+### Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M4BP5JE7DKJSP3VG2S2DCWF2
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components dots (Operational)
+
+### Dot in Codex may fail to create new threads
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M4BK9J2M83R4SSC71D9FXW45
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components dots (Operational)
+
+### Incident with Git Operations, Issues, Actions and Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/qpfv5p86dmrl
+- Summary: Oct 7, 18:04 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 7, 18:00 UTC Update - All systems have recovered. We have applied mitigations and do...
+
+### Multimodal open d1 decision models for the edge
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/open-d1
+
 ### Incident with Git Operations, Pull Requests and Actions
 - Source: GitHub Status
 - Category: incidents
@@ -295,6 +318,12 @@
 - URL: https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html
 - Summary: Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system...
 
+### Building Rome from a Single Image
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08790
+- Summary: Single-image scene generation aims to produce a complete 3D scene mesh from a single image, including surfaces the camera did not observe. While pretrained 3D object generators encode a strong shape prior, they are mainly designed for isolated objects in a fixed canonical volume and focus mostly on...
+
 ### QF3: Fast Flow RL with Filtered Q-Gradients
 - Source: HF Daily Papers
 - Category: open-source
@@ -312,6 +341,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.08777
 - Summary: Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can...
+
+### Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08722
+- Summary: Many long-horizon agents compact their context on a global rule, usually a token budget, blind to what the agent was doing. We ask whether the agent's recent behaviour predicts when a compaction will hurt. TRACE's public corpus of 590 harness-triggered AppWorld compaction boundaries replays each...
 
 ### Computer Use Is Experiencing Issues
 - Source: OpenAI Status
@@ -450,6 +485,12 @@
 - URL: https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/
 - Summary: There’s a growing need for long-duration storage to meet energy demand and balance out renewables on the grid. Energy Dome uses compressed carbon dioxide gas in its massive grid batteries, which can deliver power for up to 24 hours.&#160; As the world races to meet growing electricity demand, solar...
 
+### Brimstone and its one-stop process for making cleaner cement and critical minerals
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/
+- Summary: Brimstone is making strides on two industrial problems, reducing the emissions from cement and providing a way to produce more critical minerals within the US. If the company can do both, with the same rocks in the same plant, it would unlock a cleaner and more efficient process for manufacturing...
+
 ### Long-Running NPM Malware Campaign Accumulates 40,000 Downloads
 - Source: Security Week
 - Category: security
@@ -497,6 +538,12 @@
 - Category: security
 - URL: https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/
 - Summary: Companies are pouring time and dollars into security awareness training, but little evidence shows it actually works against social engineering. The post Social Engineering Detection Moves Into the Live Conversation appeared first on SecurityWeek.
+
+### Feature Encoding in VAE-based Audio Decoders: Effects of Input, Depth and Distribution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.07966
+- Summary: Neural audio synthesis models like the Realtime Audio Variational autoEncoder (RAVE) achieve impressive genera tion quality, yet how their internal representations encode musical features remains poorly understood. We present a systematic layer-wise and cross-layer cluster analysis of RAVE decoder...
 
 ### Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products
 - Source: The Hacker News
@@ -629,6 +676,12 @@
 - URL: https://status.openai.com//incidents/01M47HC9SGHGFPBN44KGC6SKAQ
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational) Image Generation (Operational) ChatGPT Work (Operational) Space (Operational) dots (Operational)
 
+### Adaptive Model Inversion Attacks Generalize a Privacy-Robustness Tradeoff
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.07677
+- Summary: In this paper, we show that standard evaluations of high-resolution Model Inversion Attacks (MIAs) significantly underestimate training-data privacy leakage. State-of-the-art privacy defenses, standard training techniques such as MixUp and Adversarial Training, and undefended models all leak...
+
 ### POWERCHINA Connects 1-GW Gonghe Solar PV and Molten-Salt Tower Project in Qinghai to the Grid
 - Source: Pandaily
 - Category: chinese-ai
@@ -652,6 +705,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/moxin-technology-moworld-4d-world-model-huawei-mate-90-on-device-pet-digital-twin
 - Summary: Moxin Technology's MoWorld turns a few pet photos into an animated 4D twin on Huawei's Mate 90, pairing Ascend cloud generation with a 600M-parameter model on Kirin.
+
+### Unanimously Wrong: Certified Abstention from How Medical LLM Consensus Forms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.07570
+- Summary: In clinical practice, agreement among independent experts is treated as evidence of reliability, and multi-round consensus has become a core mechanism of agentic medical question-answering systems. When such a system must decide whether to trust its own answer, the prevailing signal is again...
 
 ### Elevated errors in API Platform login and administration APIs.
 - Source: OpenAI Status
@@ -2957,64 +3016,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2609.36616
 - Summary: Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving persistent scene content. We construct VIGOR-his, a decade-spanning cross-view...
-
-### [AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b
-- Summary: Congrats team!
-
-### FM-ReID: Selective Competitive Token Routing for Object Re-Identification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.36560
-- Summary: Object re-identification (ReID) faces a recurring challenge: different identities can share highly similar global appearances, while the cues that distinguish them are localized, heterogeneous, and visible only under particular viewpoints. This challenge arises in animal ReID through markings,...
-
-### [AINews] Opus 5.5 is good at explainer videos
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-opus-55-is-good-at-explainer
-- Summary: a rare feature of a capability
-
-### ENN Xuanlong-50U Achieves Hydrogen-Boron Fusion Reaction Above 10^8/s
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/enn-xuanlong-50u-hydrogen-boron-fusion-reaction
-- Summary: ENN Energy Research Institute reported that Xuanlong-50U (EXL-50U) achieved a hydrogen-boron fusion reaction above 10^8 per second in late September 2026, with Helong-2 (EHL-2) targeted for completion around end-2027.
-
-### MirrorMe VIVA Dexterous Hand and CADA Model Demo Four-Hand Piano
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/mirrorme-viva-cada-dexterous-hand-four-hand-piano
-- Summary: MirrorMe Technology's VIVA dexterous hand—claiming >1000 deg/s joints and 33 N fingertip force—plus its CADA music embodied model showed real-time human-robot four-hand piano around September 24, 2026.
-
-### Delta Intelligence Ships Delta-0 Native Humanoid Foundation Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/delta-intelligence-delta-0-native-humanoid-foundation-model
-- Summary: On September 28, 2026 Delta Intelligence released Delta-0, a brain-cerebellum-force humanoid foundation model that demoed 32 planned steps and nine household tasks in about 210 seconds of continuous loco-manipulation.
-
-### LimX Dynamics and Kyland Ship First Humanoid on Domestic Electronic Architecture
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/limx-kyland-domestic-electronic-architecture-humanoid-intewell-autbus
-- Summary: On September 28, 2026 in Yichang, LimX Dynamics and Kyland Technology unveiled a humanoid integrating Kyland Intewell, AUTBUS and MaVIEW as a fully domestic electronic architecture with microsecond motion control claims.
-
-### Huawei Cloud CodeArts Ships Harmony Coding LLM Tuned for ArkTS
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-cloud-codearts-harmony-coding-llm-arkts
-- Summary: On September 21, 2026 Huawei Cloud upgraded CodeArts with a Harmony coding LLM for ArkTS, citing ~78% one-shot compile pass gains and >80% lower thousand-line error rates, plus a DevEco CLI agent and cloud practice center.
-
-### Claude Code’s Next Era — Thariq Shihipar, Anthropic
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/thariq
-- Summary: Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier
-
-### FineART: Fine-grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2609.36416
-- Summary: Robots operating in real-world environments must execute complex, multi-step bimanual tasks over long horizons rather than single, isolated actions. Current manipulation datasets struggle to support this capability: although single-arm datasets reach hundreds of thousands of trajectories, they...
 
