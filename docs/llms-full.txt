@@ -503,6 +503,12 @@
 - URL: https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html
 - Summary: The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, keeping things secure is a problem on both sides of the fence. The rest of the...
 
+### VFold: Symmetry-Aware Cross-Layer Value Cache Compression
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.12338
+- Summary: While caching key-value (KV) states accelerates Large Language Model (LLM) decoding, this cache can dominate memory usage at long context lengths. One solution is to compress this memory by exploiting inter-layer cache similarities. However, most existing techniques necessitate architectural...
+
 ### Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk
 - Source: Latent Space
 - Category: open-source
@@ -767,6 +773,12 @@
 - URL: https://arxiv.org/abs/2610.08833
 - Summary: arXiv:2610.08833v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) decode by repeatedly committing tokens to masked positions, but these commitments are usually irreversible. A token chosen under sparse, partial context is kept fixed, even when later context no longer supports...
 
+### TKCAM: Text and Keyframe to Camera Trajectory Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11105
+- Summary: Generating high-quality and controllable camera motion is essential for AI-assisted cinematography, video synthesis, and 3D scene understanding. We introduce TKCAM, a Text- and Keyframe-conditioned CAMera-motion synthesis framework based on generative masked modeling. We represent camera dynamics...
+
 ### World's Largest Flexible DC Transformer, Rated 770 MVA, Installed in Central Guangzhou
 - Source: Pandaily
 - Category: chinese-ai
@@ -817,6 +829,12 @@
 - URL: https://status.claude.com/incidents/vmys9qn874h4
 - Summary: Oct 7, 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.
 
+### Less from More: Reinforcing Sparse Video Reasoning from Dense References
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10893
+- Summary: Video-language models commonly assume that more temporal observations lead to more reliable reasoning. We question this assumption and argue that the key challenge is not merely processing more video frames efficiently, but learning to reason reliably under limited temporal evidence. We propose...
+
 ### Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains
 - Source: The Hacker News
 - Category: security
@@ -852,6 +870,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html
 - Summary: Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a...
+
+### How assigned AI use before class shapes active student engagement in class
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10463
+- Summary: AI learning tools are rapidly entering classrooms, but evidence about whether they help students learn is mixed and rests mostly on test scores. Comparatively less research addresses whether the use of AI changes students' live learning behaviors in class. Here, we report the results of a...
 
 ### ECHO: Embodied Camera Observations of Human Object Carrying
 - Source: HF Daily Papers
@@ -1373,6 +1397,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html
 - Summary: Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system...
+
+### One-Slide Calibration of Pathology Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08944
+- Summary: Scanner variation changes how pathology foundation models represent the same tissue. We introduce SlideRuler, which uses regions within a slide as internal controls to estimate and correct acquisition-induced shifts in other regions. A transfer map learned from paired rescans enables calibration...
 
 ### Building Rome from a Single Image
 - Source: HF Daily Papers
@@ -2990,34 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2609.38340
 - Summary: arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT...
-
-### Travel Time Prediction in Supply Chain Management Using Machine Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.38190
-- Summary: arXiv:2609.38190v1 Announce Type: new Abstract: The purpose of this research is to find data and methods using machine learning and deep learning to correctly predict the estimated travel time for transportation and logistics in a supply chain system. The supply chain ecosystem is very complex and...
-
-### EHR2Trace: Auditable EHR Data Infrastructure for Patient World Models and Clinical Agents
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.38193
-- Summary: arXiv:2609.38193v1 Announce Type: new Abstract: Patient world models and clinical agents aim to predict changes in patients' health and support clinical work. Developing these systems requires reliable histories of patient conditions, treatments, and the information available at each decision....
-
-### A Moving-Horizon Approximate Branch-and-Reduce Method for Deep Classification Trees
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.38194
-- Summary: arXiv:2609.38194v1 Announce Type: new Abstract: Despite the importance for interpretability, decision trees face severe scalability challenges. Existing global optimal methods are often limited by binary feature selection and shallow tree depths, whereas traditional heuristic approaches frequently...
-
-### A Data-Free Physics-Informed Neural Operator for Level-Set Interface Advection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.38195
-- Summary: arXiv:2609.38195v1 Announce Type: new Abstract: Operators for interfacial problems are trained on reference solutions produced by the solver they are intended to replace. This work develops a data-free physics-informed neural operator for level-set interface advection, in which the interface is the...
-
-### Conformal Adversarial Generative Ensemble
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2609.38196
-- Summary: arXiv:2609.38196v1 Announce Type: new Abstract: Accurate time series forecasting is critical across various domains, yet traditional ensemble methods often suffer from the disproportionate influence of extreme forecasts. We introduce the Conformal Adversarial Generative Ensemble (CAGE), a novel...
 

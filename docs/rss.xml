@@ -5,7 +5,7 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 10 Oct 2026 14:18:54 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 10 Oct 2026 19:52:16 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
         <item>
@@ -423,6 +423,15 @@
             <description>Incident began at 2026-10-08 05:19 (all times are US/Pacific).Summary Google Cloud Storage customers are experiencing elevated latencies and error rates when performing upload or write operations Description We are continuing to mitigate the issue with Google Cloud Storage in the us-central1 region...</description>
         </item>
         <item>
+            <title>VFold: Symmetry-Aware Cross-Layer Value Cache Compression</title>
+            <link>https://tldr.takara.ai/p/2610.12338</link>
+            <guid>https://tldr.takara.ai/p/2610.12338</guid>
+            <pubDate>Thu, 08 Oct 2026 17:14:28 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.12338">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>While caching key-value (KV) states accelerates Large Language Model (LLM) decoding, this cache can dominate memory usage at long context lengths. One solution is to compress this memory by exploiting inter-layer cache similarities. However, most existing techniques necessitate architectural...</description>
+        </item>
+        <item>
             <title>Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</title>
             <link>https://www.latent.space/p/periodic</link>
             <guid>https://www.latent.space/p/periodic</guid>
@@ -448,15 +457,6 @@
             <source url="https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT">OpenAI Status</source>
             <category>incidents</category>
             <description>Status: ResolvedAll impacted services have now fully recovered.Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)</description>
-        </item>
-        <item>
-            <title>Elevated errors with GPT-5.6 Instant in FedRAMP workspaces</title>
-            <link>https://status.openai.com//incidents/01M4CBXZ62A9SVH8D74KVYQC8M</link>
-            <guid>https://status.openai.com//incidents/01M4CBXZ62A9SVH8D74KVYQC8M</guid>
-            <pubDate>Thu, 08 Oct 2026 00:03:18 +0000</pubDate>
-            <source url="https://status.openai.com//incidents/01M4CBXZ62A9SVH8D74KVYQC8M">OpenAI Status</source>
-            <category>incidents</category>
-            <description>Status: ResolvedAll impacted services have now fully recovered.Affected components FedRAMP (Operational)</description>
         </item>
     </channel>
 </rss>
