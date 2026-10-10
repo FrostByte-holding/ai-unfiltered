@@ -6,6 +6,12 @@
 
 ## 2026-10-10
 
+### [Subscriber Exclusive] NYC Subscriber Meetups!
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/nyc2026
+- Summary: Tomorrow and Tuesday. If you see this you&#8217;re in!
+
 ### Building AI for Reliable Execution: Lessons From Industrial Robotics
 - Source: Latent Space
 - Category: open-source
@@ -533,6 +539,12 @@
 - URL: https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html
 - Summary: The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company...
 
+### A persistent accuracy ceiling in automated verbal deception detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.12118
+- Summary: Automated methods have been proposed to overcome the limitations of human verbal deception detection, but evidence remains fragmented across disciplines. We systematically reviewed 25 years of research (289 reports, 6,136 classification models) and meta-analyzed 3,653 models nested within 97...
+
 ### Security Awareness Training Isn’t Dead, but It Needs a Rethink
 - Source: Security Week
 - Category: security
@@ -676,6 +688,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html
 - Summary: The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 "contains obfuscated malware that harvests...
+
+### Neuro-Memory Fuzzy Inference System for Mimicking Human-like Car Following Behavior
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11252
+- Summary: This study presents the Neuro-Memory Fuzzy Inference System (NeMeFIS), a hierarchical machine learning architecture that asymmetrically models acceleration and deceleration in car following behavior by integrating five human memory types procedural, working, episodic, semantic, and declarative. By...
 
 ### Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.
 - Source: OpenAI Status
@@ -828,6 +846,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/vmys9qn874h4
 - Summary: Oct 7, 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.
+
+### How Hackable Is Your Speech Quality Metric? A Corrected Protocol, a Benchmark, and What Patching Buys
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10899
+- Summary: Speech quality predictors are increasingly used as rewards, yet no agreed measure of their hackability exists. The usual measurement has two flaws. First, the perturbation reaches the predictor through a processing chain -- here a neural codec -- that shifts the score on its own, which scoring...
 
 ### Less from More: Reinforcing Sparse Video Reasoning from Dense References
 - Source: HF Daily Papers
@@ -1381,10 +1405,22 @@
 - URL: https://www.githubstatus.com/incidents/cjwszcf57bff
 - Summary: Oct 6, 22:40 UTC Update - We are deploying a mitigation and plan to resume migrations shortly thereafter Oct 6, 21:29 UTC Update - We are working towards a mitigation that will allow us to resume processing enterprise migrations. Oct 6, 20:57 UTC Investigating - All services are functioning...
 
+### Towards AI-Generated Music Plagiarism Detection as a Version Identification Problem
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.09075
+- Summary: The rapid expansion of text-to-music generative models challenges traditional paradigms of music creation and intellectual property. Plagiarism in this context is rarely an absolute mathematical binary, but an ambiguous threshold negotiated over harmonic structure, melodic contours, or overall...
+
 ### EmbeddingGemma 2: an open, lightweight multimodal embedding model
 - Source: DeepMind Blog
 - Category: research
 - URL: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
+
+### Shared-Roadmap Generation and Evaluator for Multi-Agent Path Planning Using Heterogeneous Graph Neural Network
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.09034
+- Summary: Multi-agent path planning (MAPP) in continuous environments often relies on roadmaps to balance safety and search efficiency. However, traditional roadmap generation methods, such as lattice grids or standard sampling-based approaches, frequently face a trade-off between graph density and the...
 
 ### Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes
 - Source: The Hacker News
@@ -2984,40 +3020,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
 - Summary: MetaMask on Thursday said it's responding to what it described as an "ongoing security incident" impacting part of its infrastructure. "We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors," the software cryptocurrency wallet...
-
-### Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html
-- Summary: Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data. LevelBlue's Threat Hunt Operations &amp; Research (THOR) team, which analyzed the...
-
-### Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.38282
-- Summary: arXiv:2609.38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same...
-
-### AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.38288
-- Summary: arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a...
-
-### MoFlow: Multi-Objective Agentic Workflow Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.38294
-- Summary: arXiv:2609.38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency. Existing methods for workflow generation typically optimize accuracy alone or a weighted sum of...
-
-### AI Agents are Vulnerable to Radicalization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.38296
-- Summary: arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona...
-
-### CARAT: Do Materials LLMs Reason or Recite?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2609.38340
-- Summary: arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT...
 
