@@ -1017,6 +1017,12 @@
 - URL: https://tldr.takara.ai/p/2610.10370
 - Summary: As smart glasses and lightweight MR devices become increasingly practical, input remains a key challenge. The bare palm is an always-available, tactile, and proprioceptively accessible surface, but it has neither an explicit coordinate system nor embedded touch sensing. Prior on-palm systems...
 
+### Temporally Interpretable Differentiable Decision Trees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10367
+- Summary: Interpretability offers a solution to safe autonomy by providing transparency into an agent's underlying decision-making model. Within sequential-decision making tasks, differentiable decision trees (DDTs) are one approach to such interpretability, maintaining automatic-differentiable policies...
+
 ### AutoAdapt: Automatic Domain Discovery Enables Low-Cost Extensibility
 - Source: HF Daily Papers
 - Category: open-source
@@ -1146,6 +1152,12 @@
 - Category: security
 - URL: https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/
 - Summary: The Japanese chip testing giant said hackers stole personal information from its servers in the February 2026 cyberattack. The post Advantest Discloses Data Breach Months After Ransomware Attack appeared first on SecurityWeek.
+
+### Expected Sample Complexity in Multi-Armed Bandits
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.09929
+- Summary: Sample complexity is a widely used metric in sequential decision-making problems, defined as the number of suboptimal decisions during the interaction between the agent and an environment. We study the sample complexity of stochastic multi-armed bandit problems and introduce the expected sample...
 
 ### The Download: weight-loss drugs slowing aging and carbon dioxide batteries
 - Source: MIT Tech Review AI
@@ -1593,6 +1605,12 @@
 - URL: https://status.openai.com//incidents/01M493CZ0CB14KPC0EER83MNVB
 - Summary: Status: InvestigatingWe are investigating issues for agents api and computer use.Affected components Agents (Degraded performance)
 
+### ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08691
+- Summary: Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and social sciences. We formalize ScienceClaw as...
+
 ### Weight-loss drugs show signs of slowing biological aging, say drugmakers
 - Source: MIT Tech Review AI
 - Category: research
@@ -1611,11 +1629,23 @@
 - URL: https://status.snowflake.com/incidents/5dtf6t7880nj
 - Summary: Oct 6, 15:57 UTC Resolved - Current status: We've coordinated with our third-party provider who implemented a fix for this issue, and we've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake...
 
+### Less Is More: A Leakage-Controlled Study of Dermoscopic Preprocessing for Joint Skin Lesion Classification and Segmentation with YOLO26
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08570
+- Summary: Handcrafted preprocessing is widely employed in automated dermoscopic analysis to suppress imaging artifacts and enhance lesion visibility. Nevertheless, its actual contribution to modern real-time models remains unclear, particularly when evaluation protocols do not adequately control correlations...
+
 ### How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.08514
 - Summary: Execution feedback lets coding agents revise programs and learn from their own corrections. A correction's learning weight should reflect both the transitions supported by its executions and the amount of evidence behind that support. We introduce Effective-Evidence Self-Distillation (EESD), which...
+
+### X-OPM: Explainable Automatic Digital On-Chip Power Modeling for Enhanced Robustness
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08502
+- Summary: Proactive power management systems reduce processor dynamic power through runtime power prediction and power-aware scheduling. Accurate, stable and low-overhead digital on-chip power meters (OPMs) are crucial for improving the prediction quality. Recent studies have explored various modeling...
 
 ### UNREAL: Unifying Retrieval and Long-Context with a Single Model
 - Source: HF Daily Papers
@@ -2993,34 +3023,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.01751
 - Summary: Adaptive model search is path dependent: once a challenger is adopted, it becomes the reference from which later candidates are generated. A statistically unsupported replacement can therefore alter hypotheses that have not yet been proposed. We introduce Evidence-Gated Research (EGR), a...
-
-### Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/
-- Summary: Police took control of KillSec’s leak site and secured at least 110 terabytes of data stolen from victims. The post Police Shut Down KillSec Ransomware, Identify Alleged Teen Leader appeared first on SecurityWeek.
-
-### Elevated request latency
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/c8466lzvnmsv
-- Summary: Oct 1, 13:57 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 1, 13:51 UTC Monitoring - The degradation has been mitigated. We are monitoring to...
-
-### AI Has Changed Attack Speed, Not Security Fundamentals
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-has-changed-attack-speed-not-security-fundamentals/
-- Summary: As AI accelerates vulnerability discovery and exploitation, so-called virtual patching still comes down to defense-in-depth and strong application security fundamentals. The post AI Has Changed Attack Speed, Not Security Fundamentals appeared first on SecurityWeek.
-
-### Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/
-- Summary: Under certain conditions, CVE-2026-73570 can be exploited via specially crafted emails without user interaction. The post Zimbra Vulnerability Exploited in the Wild Prior to Public Disclosure appeared first on SecurityWeek.
-
-### Revisiting Cross-Reconstruction for Generalizable Deepfake Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.01544
-- Summary: Existing image forgery detectors often suffer from generalization to unseen manipulation methods due to the limited ability to capture transferable forensic cues. Recent cross-reconstruction based methods attempt to improve generalization through semantic-artifact disentanglement, but typically...
 
