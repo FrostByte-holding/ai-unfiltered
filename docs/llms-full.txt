@@ -6,6 +6,30 @@
 
 ## 2026-10-11
 
+### Huawei's HarmonyOS Interconnect App Arrives on Apple Watch, Pairing First With Mate 90 Phones
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-harmonyos-interconnect-app-apple-watch-pura-x-view-mate-90-mate-xt-2
+- Summary: Huawei's HarmonyOS Interconnect app is now on Apple Watch, relaying notifications and finding devices across both ecosystems. Pura X View, Mate 90 series and Mate XT 2 phones are supported first.
+
+### CapCut, Tencent and Kuaishou Race to Build AI Tools for Interactive Film Games
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/capcut-icg-studio-tencent-tdream-kuaishou-ai-interactive-film-game-creator-tools
+- Summary: ByteDance's CapCut team, Tencent and Kuaishou are all rolling out AI tools for branching, playable stories. Costs are falling, but scripts, hit titles and distribution remain open problems.
+
+### Community-Built DS Bot Plugin Turns DeepSeek Harness Into a Team of Long-Lived Bots
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ds-bot-community-plugin-deepseek-harness-multi-bot-team-main-bot-long-term-memory
+- Summary: DS Bot, an unofficial open-source plugin for DeepSeek Harness, gives each bot its own role, model and memory, and routes group chats through a main bot to save tokens. Data stays local.
+
+### Ant Group's LingGuang 2.0 Enters Limited Beta as a Personal Agent With Long-Term Memory
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/ant-group-lingguang-2-0-limited-beta-personal-ai-agent-long-term-memory-skills-mcp
+- Summary: Sources close to the project say Ant Group's LingGuang is testing a version that remembers users, pushes tasks forward on its own and calls Skills and MCP tools, with a full rollout due this month.
+
 ### Startup Led by Ex-Nvidia GPU Architect Designs Y10 Chip to Close Robot Control Loops in 1 ms
 - Source: Pandaily
 - Category: chinese-ai
@@ -536,6 +560,12 @@
 - URL: https://tldr.takara.ai/p/2610.12338
 - Summary: While caching key-value (KV) states accelerates Large Language Model (LLM) decoding, this cache can dominate memory usage at long context lengths. One solution is to compress this memory by exploiting inter-layer cache similarities. However, most existing techniques necessitate architectural...
 
+### ContiLNN: Mitigating Slice Sampling Discontinuity with Liquid Neural Networks for Medical Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.12337
+- Summary: Anatomical continuity provides complementary information for medical image restoration, but its use requires accounting for local anatomy and variations in slice sampling. We introduce ContiLNN, which augments two-dimensional restoration backbones with bidirectional closed-form continuous-time...
+
 ### Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk
 - Source: Latent Space
 - Category: open-source
@@ -962,6 +992,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/LiquidAI/open-d1
+
+### Safe Meta-Policy Design with Risk Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10393
+- Summary: Models can be retrained as new data arrive, but deploying every new version risks replacing a good policy with a worse one. We study how to plan policy updates (i.e., meta-policy) before future candidates are trained, balancing the benefits of improvement against the risk of performance regression....
 
 ### PalmSpace: Towards a Versatile On-Palm Interaction Space through Unified Touch Modeling
 - Source: HF Daily Papers
@@ -1521,6 +1557,12 @@
 - URL: https://tldr.takara.ai/p/2610.08722
 - Summary: Many long-horizon agents compact their context on a global rule, usually a token budget, blind to what the agent was doing. We ask whether the agent's recent behaviour predicts when a compaction will hurt. TRACE's public corpus of 590 harness-triggered AppWorld compaction boundaries replays each...
 
+### Co-Evolving Paths and Flows via Path-Flow Alignment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08717
+- Summary: We study path-flow alignment as a unified training objective for flow matching. Instead of fixing the interpolation path and learning only the velocity field, we jointly train an endpoint-preserving path network and a flow network using the same alignment loss: the flow learns to match the path...
+
 ### Computer Use Is Experiencing Issues
 - Source: OpenAI Status
 - Category: incidents
@@ -1544,6 +1586,12 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/5dtf6t7880nj
 - Summary: Oct 6, 15:57 UTC Resolved - Current status: We've coordinated with our third-party provider who implemented a fix for this issue, and we've monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake...
+
+### How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08514
+- Summary: Execution feedback lets coding agents revise programs and learn from their own corrections. A correction's learning weight should reflect both the transitions supported by its executions and the amount of evidence behind that support. We introduce Effective-Evidence Self-Distillation (EESD), which...
 
 ### UNREAL: Unifying Retrieval and Long-Context with a Single Model
 - Source: HF Daily Papers
@@ -1598,6 +1646,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together a list of the most promising climate tech companies in the world....
+
+### Anytime-valid simulation-based hypothesis testing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08210
+- Summary: For a given data distribution $(X_t)_{t \in \mathbb{N}} \sim Q$ i.i.d., we investigate the hypothesis testing problem: $H_0: Q = P_0$ vs. $H_1: Q = P_1$, for two different model probability distributions $P_0$ and $P_1$. In contrast to the standard setting, where analytic densities $p_0$ and $p_1$...
 
 ### Incident affecting ASOS customers
 - Source: NCSC UK
@@ -2969,58 +3023,4 @@
 - Category: security
 - URL: https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/
 - Summary: The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root. The post Zammad Zero-Days Exploited in AI-Powered DIVD Hack appeared first on SecurityWeek.
-
-### OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html
-- Summary: OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A "core cluster of the activity," going back to the first week of July, has been attributed to...
-
-### CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504...
-
-### An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/
-- Summary: A new AI tool can guess what you’re looking at just by analyzing your brain scans—and re-create that image with remarkable precision. It can go the other way, too, and predict a person’s brain activity based on what they’re looking at. In the image above, for example, the left-hand image of each...
-
-### How smaller, distributed batteries could help the grid
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/
-- Summary: If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small...
-
-### MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.01352
-- Summary: Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an...
-
-### Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html
-- Summary: Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind Program. "It delivers frontier performance in complex workflows across real-world software engineering,...
-
-### AutoGUIWorld: Image Generators as Visual World Models for GUI Agent
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.01215
-- Summary: GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the...
-
-### AIsphere Launches PixVerse R2, a Real-Time World Model That Remembers What Happens in a Session
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/aisphere-pixverse-r2-real-time-world-model-omni-causal-ar
-- Summary: AIsphere's PixVerse R2 generates explorable audiovisual worlds in real time, taking text, image, audio and keyboard input mid-stream and keeping state across a session.
-
-### Bilibili Open-Sources Index-Translate, a Qwen3.5-Based Translation Model Family for 150 Languages
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bilibili-index-translate-open-source-qwen3-5-150-languages
-- Summary: Bilibili's Index LLM team released Index-Translate under Apache-2.0: 2B, 9B and 35B-A3B preview text models for 150 languages, plus dubbing, syllable-control and long-document variants.
 
