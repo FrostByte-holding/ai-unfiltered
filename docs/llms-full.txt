@@ -4,6 +4,27 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-11
+
+### Startup Led by Ex-Nvidia GPU Architect Designs Y10 Chip to Close Robot Control Loops in 1 ms
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/y10-physical-ai-chip-1ms-closed-loop-latency-fpga-platform-xu-feixiang
+- Summary: A Jiangsu chip startup founded by former Nvidia GPU architect Xu Feixiang is building Y10, a physical AI processor aiming for sub-millisecond closed-loop latency, with an FPGA platform due this year.
+
+### Westlake Robotics' WR1 Brain Has Two Humanoids Fold Trousers With Dexterous Hands
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/westlake-robotics-wr1-humanoid-general-brain-dexterous-hand-clothes-folding
+- Summary: Westlake Robotics' WR1 general brain drives humanoids through a kitchen-to-bedroom chore run and a two-robot trouser fold that the company calls a world first for dexterous hands.
+
+### DeepSeek Harness v0.2.1-alpha.2 Pre-Release Adds Reasoning Translation and Git Worktrees
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-harness-v0-2-1-alpha-2-reasoning-translation-git-worktrees-ssh-helper
+- Summary: DeepSeek's open-source agent runtime adds experimental reasoning translation and Git Worktrees plugins, a working_directory tool, SDK session-directory APIs and an SSH helper.
+
+
 ## 2026-10-10
 
 ### [Subscriber Exclusive] NYC Subscriber Meetups!
@@ -605,6 +626,12 @@
 - URL: https://www.securityweek.com/tp-link-faces-state-lawsuits-and-new-scrutiny-over-isp-router-flaws/
 - Summary: SEC Consult has published technical details on vulnerabilities mentioned in a complaint filed by several US states. The post TP-Link Faces State Lawsuits and New Scrutiny Over ISP Router Flaws appeared first on SecurityWeek.
 
+### Neural Networks for Temporal Pattern Recognition and Dynamic Arm Gesture Speed Estimation for Robot Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11631
+- Summary: Deploying intelligent robotic systems that interact with humans through gestures requires neural networks capable of recognizing diverse temporal patterns. We present a systematic benchmark of ten abstract sequential tasks--five permutation-invariant (set) and five order-dependent (sequence)...
+
 ### Why we’re watching these climate tech companies
 - Source: MIT Tech Review AI
 - Category: research
@@ -616,6 +643,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html
 - Summary: Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. "The extensions masquerade as wallet portals, desktop utilities, and browser tools, but their code intercepts recovery...
+
+### SV-TAD: Native Sparse Convs for Efficient Temporal Action Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11579
+- Summary: To adapt billion-parameter Vision Transformers for long-video understanding, recent methods freeze the backbone and train lightweight convolutional modules. While effective for parameter-efficient training, existing adapters do not reduce inference-time computation, leaving scalability with respect...
 
 ### Fake Decryption Tools Masked $11M Markup in Ransomware Recovery Scheme
 - Source: Security Week
@@ -688,6 +721,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html
 - Summary: The npm package known as "tensorlake," a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 "contains obfuscated malware that harvests...
+
+### LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11253
+- Summary: Large language model agents are being increasingly deployed as autonomous scientists, designing experiments and inferring mechanistic world models with minimal human oversight. Yet identifiability is often overlooked: when a plateau is reached, the agent needs to know whether it is not yet capable...
 
 ### Neuro-Memory Fuzzy Inference System for Mimicking Human-like Car Following Behavior
 - Source: HF Daily Papers
@@ -858,6 +897,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.10893
 - Summary: Video-language models commonly assume that more temporal observations lead to more reliable reasoning. We question this assumption and argue that the key challenge is not merely processing more video frames efficiently, but learning to reason reliably under limited temporal evidence. We propose...
+
+### Enabling Preference-driven Unlearning in Few-step Distilled Text-to-Image Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10859
+- Summary: Text-to-image diffusion models are increasingly distilled into few-step variants and being deployed to enable fast inference. However, their ability to generate harmful or undesired content poses significant safety risks. Data-driven unlearning methods suppress targeted generations by fine-tuning...
 
 ### Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains
 - Source: The Hacker News
@@ -1119,6 +1164,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.09690
 - Summary: Autonomous underwater vehicles (AUVs) commonly rely on inertial navigation systems (INS) aided by Doppler velocity logs (DVLs) for reliable underwater navigation. Accurate DVL velocity estimation is therefore essential for successful operation. Recent learning-based methods have demonstrated...
+
+### When AI Finds Hidden Messages, Does It Report?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10620
+- Summary: When an assistant encounters a message for another AI, does it tell its user? Four fixed model-provider deployments perform simulated source tasks in 1,280 ordinary-note and 128 enhanced-note sessions. Harmless and harmful messages have matched plaintext and ROT13 versions, with no-message...
 
 ### DSTNet: Dynamic Spectral Trajectory Network for Causal Multi-Horizon Financial Forecasting
 - Source: HF Daily Papers
@@ -2972,52 +3023,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/bilibili-index-translate-open-source-qwen3-5-150-languages
 - Summary: Bilibili's Index LLM team released Index-Translate under Apache-2.0: 2B, 9B and 35B-A3B preview text models for 150 languages, plus dubbing, syllable-control and long-document variants.
-
-### XPeng and Banma Run a 30B-Class Cockpit AI Model On-Device on XPeng's 750-TOPS Turing Chip
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xpeng-banma-turing-chip-30b-autoomni-on-device-ai-cockpit
-- Summary: XPeng and Banma Intelligence built a cockpit solution that runs a 30B-class AutoOmni model locally on XPeng's 750-TOPS Turing chip, keeping core AI features working offline.
-
-### Horizon Robotics Releases HSD V2.1 With End-to-End Reversing, iCAR V27 First in Line for OTA
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/horizon-robotics-hsd-v2-1-end-to-end-reversing-icar-v27-ota
-- Summary: Horizon Robotics' HSD V2.1 adds end-to-end reversing in all scenarios, with 43% more miles per intervention and 255% better interactive lane changes. iCAR V27 OTA starts October 8.
-
-### Huawei Launches Grid-Interactive AIDC 1.0, Linking AI Data-Center Power, Cooling and Ascend Servers
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-grid-interactive-aidc-1-0-power-liquid-cooling-ascend-sensetime-lingang
-- Summary: Huawei Digital Power's grid-interactive AIDC 1.0 pairs grid-forming storage, new UPS lines and an Ascend-aware liquid-cooling controller; a SenseTime site got 18 MW of power in 45 days.
-
-### [AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer
-- Summary: ... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;
-
-### AbsorbEvo: An Agentic Framework for Autonomous Inverse Design of Microwave Absorbers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.01119
-- Summary: Designing high-performance microwave absorbers requires specialized expertise in electromagnetic theory, materials science and simulation programming, and entails time-consuming optimization. Here, we present AbsorbEvo, an agentic framework for autonomous inverse design that translates...
-
-### Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html
-- Summary: Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have been used in attacks against specific targeted individuals. The trigger is a malicious PDF with a crafted embedded font that crashes unpatched iPhones and Macs....
-
-### Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html
-- Summary: Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. "Their investigation identified malicious activity involving third-party security...
-
-### MetaMask Security Incident Prompts Exit of Affected Ethereum Validators
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html
-- Summary: MetaMask on Thursday said it's responding to what it described as an "ongoing security incident" impacting part of its infrastructure. "We are actively addressing and remediating the issue internally, in coordination with external partners and security advisors," the software cryptocurrency wallet...
 
