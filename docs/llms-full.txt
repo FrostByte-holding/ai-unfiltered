@@ -6,10 +6,37 @@
 
 ## 2026-10-13
 
+### Microsoft Patches More Than 1,400 Security Flaws
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/
+- Summary: Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.
+
+### Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/dyna
+- Summary: Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI
+
+### Developing Gemini 4 Argon responsibly and safely
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
+
 ### Run fast, private agents on-device with LFM2.5-24B-A2B
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+
+### Gemini 4 Argon for Robotics
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-4-argon-for-robotics/
+
+### Gemini 4 Argon: Built to solve your hardest problems
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/introducing-gemini-4-argon/
 
 ### The Download: open model trade-offs and geothermal power’s promise
 - Source: MIT Tech Review AI
@@ -737,6 +764,12 @@
 - URL: https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html
 - Summary: The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job...
 
+### Make It Flow: Animating Water in 3D Gaussian Splatting Scenes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.13860
+- Summary: Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. While coherent motion...
+
 ### P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
 - Source: The Hacker News
 - Category: security
@@ -825,6 +858,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.13304
 - Summary: DAG structures can be learned from observations by incorporating acyclicity via smooth constraints, such as DAGMA's log-determinant function. Typically, observations and the underlying DAG are related through linear structural equation models, with Gaussianity assumption on the disturbances at each...
+
+### Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.13273
+- Summary: API specifications serve as critical documentation for modern software development, directly impacting integration efficiency and client code generation. While recent advancements have leveraged Large Language Models (LLMs) to generate initial specifications from source code, existing approaches...
 
 ### Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents
 - Source: HF Daily Papers
@@ -1539,6 +1578,12 @@
 - URL: https://tldr.takara.ai/p/2610.10893
 - Summary: Video-language models commonly assume that more temporal observations lead to more reliable reasoning. We question this assumption and argue that the key challenge is not merely processing more video frames efficiently, but learning to reason reliably under limited temporal evidence. We propose...
 
+### Sparse Attention Is Matrix Approximation, Not Choosing from a Bag of Values
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10871
+- Summary: Large Language Models (LLMs) achieve strong performance across many domains, but their efficiency is limited by the quadratic cost of attention with respect to prompt length. Sparse attention reduces this cost by retaining only a small fraction of query-key interactions to approximate the full...
+
 ### Enabling Preference-driven Unlearning in Few-step Distilled Text-to-Image Diffusion Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1609,6 +1654,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/LiquidAI/open-d1
+
+### Reasoning-Token Spikes Under Prompted Untruthful Responses in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10405
+- Summary: Monitoring the chain-of-thought of reasoning artificial intelligence (AI) models remains a key approach to detecting deception and other forms of misbehavior in such models. However, semantic chain-of-thought monitoring depends on reasoning traces being legible and sufficiently faithful to the...
 
 ### Safe Meta-Policy Design with Risk Control
 - Source: HF Daily Papers
@@ -2197,6 +2248,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.08944
 - Summary: Scanner variation changes how pathology foundation models represent the same tissue. We introduce SlideRuler, which uses regions within a slide as internal controls to estimate and correct acquisition-induced shifts in other regions. A transfer map learned from paired rescans enables calibration...
+
+### AdaGuard: Enhancing Safety and Policy Compliance with Reasoning-Enabled LLM-As-A-Judge Guardrails
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08923
+- Summary: Enterprise generative AI applications require robust safety mechanisms that can accommodate diverse risk postures, evolving policies, and varying latency constraints. Current guardrail solutions often suffer from rigidity, relying on fixed policy sets and offering limited transparency or reasoning...
 
 ### Building Rome from a Single Image
 - Source: HF Daily Papers
@@ -2960,64 +3017,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html
 - Summary: Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. "CVE-2026-88779 is a memory overflow...
-
-### Usefulness of Quantile-Aware Diffusion Modeling for Highly Imbalanced Tabular Data
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.05825
-- Summary: Classification problem in the context of highly imbalanced data is a major challenge in many real-world applications (e.g., FinTech, healthcare, etc.). In these cases, the vast majority of instances belong to a single class and a small fraction represent the minority class (often the most critical...
-
-### Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/
-- Summary: Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek.
-
-### EmTech Future 2026: When AI Meets Everything
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/
-- Summary: Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom with our MIT Technology Review editors...
-
-### MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.02260
-- Summary: arXiv:2610.02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physical laws. However, existing constrained samplers often face a...
-
-### Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.02267
-- Summary: arXiv:2610.02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with...
-
-### The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.02281
-- Summary: arXiv:2610.02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a useful signal about how companies disclose their response to AI? We...
-
-### Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.02300
-- Summary: arXiv:2610.02300v1 Announce Type: new Abstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace, applied broadly across prompts. We provide a controlled geometric analysis of this global-unsafety...
-
-### Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.02330
-- Summary: arXiv:2610.02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit...
-
-### Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identification
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.02224
-- Summary: arXiv:2610.02224v1 Announce Type: new Abstract: Rapid and reliable identification of pharmaceutical residues is important for safeguarding public health, ensuring food safety, and enabling practical Raman-based screening. In this study, we propose HyMLRaman, a hybrid Raman spectroscopy framework...
-
-### The Price of Greenwashing: Algorithmic Verification and Market Discipline using Conformal Machine Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.02225
-- Summary: arXiv:2610.02225v1 Announce Type: new Abstract: While corporate sustainability mandates are expanding, the systemic reliance on self-reported emissions data exposes financial markets to pervasive greenwashing. Current literature relies heavily on subjective ESG ratings or textual sentiment...
 
