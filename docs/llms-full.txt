@@ -6,6 +6,17 @@
 
 ## 2026-10-13
 
+### Run fast, private agents on-device with LFM2.5-24B-A2B
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b
+
+### The Download: open model trade-offs and geothermal power’s promise
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the...
+
 ### XWorm RAT Evolves Into Surveillance Platform
 - Source: Security Week
 - Category: security
@@ -815,6 +826,12 @@
 - URL: https://tldr.takara.ai/p/2610.13304
 - Summary: DAG structures can be learned from observations by incorporating acyclicity via smooth constraints, such as DAGMA's log-determinant function. Typically, observations and the underlying DAG are related through linear structural equation models, with Gaussianity assumption on the disturbances at each...
 
+### Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.13267
+- Summary: Large language model (LLM) agents are highly vulnerable to memory-poisoning attacks. Existing defenses primarily rely on external modules for either static memory isolation or continuous online auditing, resulting in low memory efficiency and high computational overhead. To address these...
+
 ### Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media
 - Source: HF Daily Papers
 - Category: open-source
@@ -928,6 +945,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html
 - Summary: The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were...
+
+### SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.13081
+- Summary: Recent work on large audio-language models (LALMs) explores adaptive reasoning to balance accuracy and efficiency. However, existing approaches often rely on coarse-grained difficulty estimation, overlooking the diverse factors that determine reasoning effort. We address this limitation by deriving...
 
 ### Formula Predicts When AI Chatbots Are at Risk of Turning Bad
 - Source: Security Week
@@ -1183,6 +1206,12 @@
 - Category: security
 - URL: https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data
 - Summary: Joint advisory with international partners highlights malicious targeting of organisations from a range of sectors across the globe.
+
+### The Ball and the Box: Two Geometries of Computation in Superposition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11744
+- Summary: Neural representations can encode more features than they have dimensions, a phenomenon known as superposition. We study the dimension needed to compute Boolean gates from such representations. For a single threshold layer with a Gaussian random dictionary and uniformly random sparse Boolean...
 
 ### Rein Security Raises $25 Million to Guard AI Agents at Runtime
 - Source: Security Week
@@ -2151,6 +2180,12 @@
 - URL: https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html
 - Summary: Cybersecurity researchers have disclosed details of a "human-operated phishing platform" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer...
 
+### HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08970
+- Summary: Humanoid loco-manipulation of large, heavy objects demands forceful interaction across the entire body. However, such payloads shift a humanoid's center of mass and impose sustained loads across the upper body, challenging balance and command tracking. We present HULK, a whole-body control...
+
 ### Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan
 - Source: The Hacker News
 - Category: security
@@ -2234,6 +2269,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M48Y8E81QAFF9XKVGE118E6X
 - Summary: Status: IdentifiedWe are implementing the mitigation.Affected components Responses (Degraded performance)
+
+### LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08620
+- Summary: High-beam-count LiDAR sensors are costly, yet many perception pipelines require dense angular sampling. Using a pretrained Stable Diffusion model as the backbone, we fine-tune a LiDAR-conditioned depth model with pseudo-depth targets from a 2D foundation model. During training, the LiDAR...
 
 ### InterCorrect: Intersection-Aware Correction of Demographic Model Merging for Fair ASR
 - Source: HF Daily Papers
@@ -2979,46 +3020,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.02225
 - Summary: arXiv:2610.02225v1 Announce Type: new Abstract: While corporate sustainability mandates are expanding, the systemic reliance on self-reported emissions data exposes financial markets to pervasive greenwashing. Current literature relies heavily on subjective ESG ratings or textual sentiment...
-
-### State-Space Unlearning for Non-Stationary Bias in Land Surface Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.02248
-- Summary: arXiv:2610.02248v1 Announce Type: new Abstract: Operational land surface forecasting systems built on Mamba-family Structured State Space Models absorb non-stationary confounding events (unrecorded irrigation booms, dam-operation shifts, sensor recalibrations) into their state-transition matrices,...
-
-### Nearest-neighbour baselines for fingerprint prediction from MS/MS spectra under different assumptions
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.02249
-- Summary: arXiv:2610.02249v1 Announce Type: new Abstract: It has recently been shown that nearest-neighbour retrieval provides a strong baseline for molecular fingerprint prediction from MS/MS spectra, with several variants matching or outperforming current deep learning models (Khoo and Barzilay, 2026; Liu...
-
-### Rank-Aware Speculative Sampling for Diffusion Draft Trees
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.02251
-- Summary: arXiv:2610.02251v1 Announce Type: new Abstract: Speculative sampling accelerates diffusion generation by verifying inexpensive draft states in parallel while preserving the target law. Recent tree-based methods allocate the parallel compute budget more effectively than single-chain drafts, as...
-
-### HakemBench: A Turkish Benchmark of Typed Decisions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.02293
-- Summary: arXiv:2610.02293v1 Announce Type: new Abstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is released fully open under CC BY 4.0, with 2,346 items...
-
-### Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.02425
-- Summary: arXiv:2610.02425v1 Announce Type: new Abstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measures this difference in Chinese...
-
-### Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.02444
-- Summary: arXiv:2610.02444v1 Announce Type: new Abstract: Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tuning does not close and can actively worsen. We frame counterexample generation as constrained witness...
-
-### FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.02455
-- Summary: arXiv:2610.02455v1 Announce Type: new Abstract: Multi-party financial chatrooms are vital for sales-and-trading professionals, but their complexity makes manual recovery of missed trades infeasible: each Request for Quote (RFQ) is an event whose final price and trade outcome appear many messages...
 
