@@ -6,6 +6,12 @@
 
 ## 2026-10-12
 
+### How Anthropic’s Dynamic Workflows Coordinate Claude Agents
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/claude-dynamic-workflows
+- Summary: At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.
+
 ### Incident with Actions, Pull Requests and Issues
 - Source: GitHub Status
 - Category: incidents
@@ -78,6 +84,12 @@
 - URL: https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html
 - Summary: Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request...
 
+### Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/
+- Summary: The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek.
+
 ### Mars may be a hellhole, but the moon is not far behind
 - Source: MIT Tech Review AI
 - Category: research
@@ -95,6 +107,24 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/
 - Summary: In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro...
+
+### Critical SonicWall Vulnerability Exploited Days After Disclosure
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/
+- Summary: CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations. The post Critical SonicWall Vulnerability Exploited Days After Disclosure appeared first on SecurityWeek.
+
+### Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/
+- Summary: Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek.
+
+### CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html
+- Summary: Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like...
 
 ### Baidu World 2026 Set for November 12 in Beijing Under the Theme 'Next Act, Intelligent Organization'
 - Source: Pandaily
@@ -215,6 +245,96 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.12582
 - Summary: arXiv:2610.12582v1 Announce Type: new Abstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model...
+
+### Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.12598
+- Summary: arXiv:2610.12598v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We...
+
+### CLEAT: Learning Value-Guided Clarification for Interactive Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.12655
+- Summary: arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet...
+
+### MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.12659
+- Summary: arXiv:2610.12659v1 Announce Type: new Abstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of...
+
+### Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.12762
+- Summary: arXiv:2610.12762v1 Announce Type: new Abstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and...
+
+### Representation Alignment from a Few Paired Data via Distilled Optimal Transport
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.12781
+- Summary: arXiv:2610.12781v1 Announce Type: new Abstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \sim 100$--$500$ pairs are available, while unpaired data on either side is abundant. Our method...
+
+### GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.12528
+- Summary: arXiv:2610.12528v1 Announce Type: new Abstract: Continuous glucose monitoring (CGM) foundation models encode each day as one vector that mixes who the person is, what happened that day and how the sensor measured it, so measurement differences travel with the representation into new cohorts. We ask...
+
+### CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.12530
+- Summary: arXiv:2610.12530v1 Announce Type: new Abstract: Training-free feature reuse accelerates diffusion transformer inference by replacing full denoising computation at selected steps with cached approximations. Existing methods mainly improve the reconstruction of skipped features, but we find that once...
+
+### Market Impact Estimation via Causal Foundation Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.12537
+- Summary: arXiv:2610.12537v1 Announce Type: new Abstract: When a trader executes a large order, the relevant question is not \emph{what will the price be?} but \emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators)...
+
+### Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncation and Censoring
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.12538
+- Summary: arXiv:2610.12538v1 Announce Type: new Abstract: Modern machine learning models are typically trained on data assumed to be representative of the predictive tasks the model will face in the future, but practical datasets violate this assumption. We focus on outcome-dependent truncation in which an...
+
+### Enriched Holomorphic Neural Networks for 2D and 3D Laplace Problems
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.12541
+- Summary: arXiv:2610.12541v1 Announce Type: new Abstract: Boundary-value problems for the Laplace equation develop singular behaviour near corners, edges and junctions that smooth approximators resolve poorly. We combine holomorphic neural networks with singular functions derived from the local geometry and...
+
+### Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.12601
+- Summary: arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward...
+
+### Self-Preservation in Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.12602
+- Summary: arXiv:2610.12602v1 Announce Type: new Abstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent work shows that language...
+
+### GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.12617
+- Summary: arXiv:2610.12617v1 Announce Type: new Abstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges for retrieval-augmented question...
+
+### perturber: A Stateless Service for Semantics-Preserving Text Perturbations
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.12667
+- Summary: arXiv:2610.12667v1 Announce Type: new Abstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requires applying perturbations one...
+
+### GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.12669
+- Summary: arXiv:2610.12669v1 Announce Type: new Abstract: Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks cannot be supported reliably without...
 
 ### CCCC Completes Design Work for a 10,000-Tonne Deep-Sea Survey Ship With 5,000-Meter Drilling Kit
 - Source: Pandaily
@@ -553,6 +673,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.13304
 - Summary: DAG structures can be learned from observations by incorporating acyclicity via smooth constraints, such as DAGMA's log-determinant function. Typically, observations and the underlying DAG are related through linear structural equation models, with Gaussianity assumption on the disturbances at each...
+
+### Neural Surrogate Modeling of Ultrasonic Wave Propagation in Heterogeneous Media
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.13258
+- Summary: Neural surrogates provide computationally efficient auto-regressive modeling of wave propagation, enabling e.g. fast inverse solutions. Despite recent progress, the current surrogates are not yet sufficient for the needs of ultrasonic sensing, characterized by high frequency and heterogeneous...
 
 ### GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys
 - Source: The Hacker News
@@ -1031,6 +1157,12 @@
 - URL: https://www.latent.space/p/ainews-claude-haiku-55-better-than
 - Summary: yay small models
 
+### Equal Path Cost, Unequal Output Effects: Understanding Perturbation Propagation in Diffusion Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.11380
+- Summary: Diffusion models have achieved remarkable success in generative modeling, with their sampling procedures routinely modified to control generation and improve efficiency. These modifications introduce perturbations along the sampling trajectory, raising a central question: how do such perturbations...
+
 ### Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm
 - Source: The Hacker News
 - Category: security
@@ -1332,6 +1464,12 @@
 - URL: https://tldr.takara.ai/p/2610.10301
 - Summary: Modern applications of AI rely on increasingly complex models. Explainable AI (XAI) has emerged as a set of techniques aimed at improving model transparency. However, existing XAI methods typically assume input features to be inherently interpretable, or they rely on intermediate internal...
 
+### Physics-Aligned Electronic Ground-State Learning Improves Generalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.10298
+- Summary: Machine-learned interatomic potentials (MLIPs) excel at in-distribution tasks, accelerating drug and material development, yet they struggle to generalize out-of-distribution. We propose to push the cost-accuracy Pareto frontier by designing observable-agnostic electronic ground-state descriptor...
+
 ### Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely
 - Source: The Hacker News
 - Category: security
@@ -1479,6 +1617,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html
 - Summary: If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth...
+
+### LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.09872
+- Summary: Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware...
 
 ### Hard, Yet Reducible: Controlled Forward Transfer for Synthetic Degradation Curation
 - Source: HF Daily Papers
@@ -1877,6 +2021,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.08777
 - Summary: Interactive video world models need to generate each video chunk efficiently while responding faithfully to user controls. Many systems use chunk-wise autoregressive generation with few-step denoising, but each chunk still requires several costly denoising iterations. Training-free caching can...
+
+### The Missing Minimal Pair: Stereotype Evaluation in LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.08747
+- Summary: A common approach to measuring bias in Large Language Models is to compare the log-likelihoods of two contrastive stereotype sentences. We argue that such single-pair comparisons are often unreliable: simply rewriting the same stereotype with an alternative attribute can yield logically...
 
 ### Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus
 - Source: HF Daily Papers
@@ -2871,158 +3021,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xian-jiaotong-university-sugon-8000-rocket-plume-simulation-6-774-trillion-cells
 - Summary: A Xi'an Jiaotong University team ran a 6.774-trillion-cell simulation of 33 interacting rocket plumes on tens of thousands of domestic GPUs, reaching 99.01% weak-scaling efficiency.
-
-### Xiaomi Vision Gran Turismo Joins Gran Turismo 7 in October as First Chinese-Brand VGT
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-vision-gran-turismo-gt7-october-first-chinese-vgt-ev-lessons
-- Summary: Xiaomi's Vision Gran Turismo concept arrives in GT7 with the October Spec IV update, the first Chinese-brand VGT, alongside the series' first driving lessons built around EVs.
-
-### Huawei's openJiuwen Open-Sources X-Router to Pick the Right Model for Each Agent Request
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-openjiuwen-x-router-self-evolving-model-router-agents
-- Summary: openJiuwen's X-Router sends easy agent requests to light models and hard ones to stronger models, learning from feedback. Tests show near-baseline scores at roughly half the cost.
-
-
-## 2026-10-03
-
-### The Agent Said It Was Done. The Database Disagreed.
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/microsoft/thinkingbox
-
-### MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html
-- Summary: The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service. In a "Security Service Espionage Alert" issued on September 30, 2026, MI5 said the "primary purpose...
-
-### Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html
-- Summary: The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries. The activity, observed by the Symantec and Carbon Black Threat...
-
-### doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/
-- Summary: doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority. The post doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures appeared first on SecurityWeek.
-
-### Fortra Patches Critical Vulnerabilities in BoKS
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/
-- Summary: The bugs could lead to authentication bypass, shell command execution, and memory corruption. The post Fortra Patches Critical Vulnerabilities in BoKS appeared first on SecurityWeek.
-
-### The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html
-- Summary: Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility,...
-
-### [AINews] not much happened today
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-not-much-happened-today-cee
-- Summary: a quiet day.
-
-
-## 2026-10-02
-
-### GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
-- Summary: A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab&nbsp;said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own...
-
-### Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html
-- Summary: Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy organizations in Taiwan, India, the Philippines, Cambodia, Pakistan, Thailand, and Myanmar, involves the...
-
-### Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html
-- Summary: Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for...
-
-### Issues with data analysis and file creation in ChatGPT
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M3YNNVTSCXS8YM2V1YMHMVSE
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components FedRAMP (Operational)
-
-### Redefining enterprise intelligence with autonomous AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/
-- Summary: Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year....
-
-### Open-sourcing AstaBrief, the fast report-generation model in Asta
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/astabrief
-
-### In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/
-- Summary: Noteworthy stories that might have slipped under the radar: Kiteworks patches over 100 vulnerabilities, Microsoft publishes 2026 Digital Defense Report, AI finds 24 Android app flaws. The post In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats appeared...
-
-### Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/airbnb
-- Summary: After leading Meta&#8217;s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI &#8212; from how its teams develop products to how it serves guests.
-
-### macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/
-- Summary: The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek.
-
-### OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html
-- Summary: OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. "We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a...
-
-### The Download: a biological de-aging contest and why LLMs don’t reason
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A new contest pits competitors against each other in a race to biological youth —Jessica Hamzelou This week, I officially signed up for an unusual...
-
-### Crypto Scammers Hijack Microsoft’s Official X Account
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/
-- Summary: Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account. The post Crypto Scammers Hijack Microsoft&#8217;s Official X Account appeared first on SecurityWeek.
-
-### Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html
-- Summary: The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides....
-
-### In Rare Move, Alleged Iranian State Hacker Extradited to US
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/
-- Summary: Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first on SecurityWeek.
-
-### Unmasking Propaganda: A Comparative Analysis of Masked and Causal Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.03077
-- Summary: Propaganda detection is an essential task in natural language processing (NLP), particularly in the context of manipulative political communications. However, identifying specific propaganda techniques presents a significant challenge due to their often subtle nature and reliance on context, making...
-
-### Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/
-- Summary: The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025. The post Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks appeared first on SecurityWeek.
 
