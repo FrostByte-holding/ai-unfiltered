@@ -5,9 +5,36 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 14 Oct 2026 16:45:30 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 14 Oct 2026 23:01:45 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents</title>
+            <link>https://www.latent.space/p/crossing-the-threshold</link>
+            <guid>https://www.latent.space/p/crossing-the-threshold</guid>
+            <pubDate>Wed, 14 Oct 2026 21:40:52 +0000</pubDate>
+            <source url="https://www.latent.space/p/crossing-the-threshold">Latent Space</source>
+            <category>open-source</category>
+            <description>At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.</description>
+        </item>
+        <item>
+            <title>Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio</title>
+            <link>https://www.latent.space/p/lab-in-the-loop-at-compute-speed</link>
+            <guid>https://www.latent.space/p/lab-in-the-loop-at-compute-speed</guid>
+            <pubDate>Wed, 14 Oct 2026 20:35:09 +0000</pubDate>
+            <source url="https://www.latent.space/p/lab-in-the-loop-at-compute-speed">Latent Space</source>
+            <category>open-source</category>
+            <description>How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.</description>
+        </item>
+        <item>
+            <title>Delayed Costs data in the Compliance API</title>
+            <link>https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG</link>
+            <guid>https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG</guid>
+            <pubDate>Wed, 14 Oct 2026 20:00:36 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: IdentifiedWe have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore...</description>
+        </item>
         <item>
             <title>HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost</title>
             <link>https://huggingface.co/blog/allenai/hiro-acev2</link>
@@ -405,6 +432,15 @@
             <description>Existing malware detection approaches heavily rely on handcrafted features derived from static or dynamic analysis of the executable files. These methods require specialized domain expertise, dedicated analysis tools, and time-consuming analysis, which limits their scalability and robustness in the...</description>
         </item>
         <item>
+            <title>Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges</title>
+            <link>https://tldr.takara.ai/p/2610.18766</link>
+            <guid>https://tldr.takara.ai/p/2610.18766</guid>
+            <pubDate>Tue, 13 Oct 2026 17:27:23 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.18766">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive criteria from observed response candidates, introducing response-induced bias that may limit rubric generalizability. Their judges also struggle with mechanical constraints when...</description>
+        </item>
+        <item>
             <title>Run fast, private agents on-device with LFM2.5-24B-A2B</title>
             <link>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</link>
             <guid>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</guid>
@@ -421,42 +457,6 @@
             <source url="https://tldr.takara.ai/p/2610.18642">HF Daily Papers</source>
             <category>open-source</category>
             <description>The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, including layer-wise...</description>
-        </item>
-        <item>
-            <title>Gemini 4 Argon for Robotics</title>
-            <link>https://deepmind.google/blog/gemini-4-argon-for-robotics/</link>
-            <guid>https://deepmind.google/blog/gemini-4-argon-for-robotics/</guid>
-            <pubDate>Tue, 13 Oct 2026 16:01:58 +0000</pubDate>
-            <source url="https://deepmind.google/blog/gemini-4-argon-for-robotics/">DeepMind Blog</source>
-            <category>research</category>
-            <description></description>
-        </item>
-        <item>
-            <title>Gemini 4 Argon: Built to solve your hardest problems</title>
-            <link>https://deepmind.google/blog/introducing-gemini-4-argon/</link>
-            <guid>https://deepmind.google/blog/introducing-gemini-4-argon/</guid>
-            <pubDate>Tue, 13 Oct 2026 16:01:52 +0000</pubDate>
-            <source url="https://deepmind.google/blog/introducing-gemini-4-argon/">DeepMind Blog</source>
-            <category>research</category>
-            <description></description>
-        </item>
-        <item>
-            <title>Noise2Match: Self-Supervised Low-Dose CT Denoising via Adaptive Inter-Slice Matching</title>
-            <link>https://tldr.takara.ai/p/2610.18379</link>
-            <guid>https://tldr.takara.ai/p/2610.18379</guid>
-            <pubDate>Tue, 13 Oct 2026 13:32:43 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2610.18379">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>With the rapid development of deep learning, supervised convolutional neural network methods have greatly improved the performance of low-dose computed tomography (CT) denoising. However, they require paired noisy-clean training data, which is difficult to obtain in practice. Some classic...</description>
-        </item>
-        <item>
-            <title>The Download: open model trade-offs and geothermal power’s promise</title>
-            <link>https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/</link>
-            <guid>https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/</guid>
-            <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the...</description>
         </item>
     </channel>
 </rss>

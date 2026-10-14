@@ -6,6 +6,24 @@
 
 ## 2026-10-14
 
+### Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/crossing-the-threshold
+- Summary: At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.
+
+### Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/lab-in-the-loop-at-compute-speed
+- Summary: How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.
+
+### Delayed Costs data in the Compliance API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG
+- Summary: Status: IdentifiedWe have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore...
+
 ### HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
 - Source: Hugging Face Blog
 - Category: open-source
@@ -331,6 +349,12 @@
 - URL: https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html
 - Summary: A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's...
 
+### Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18766
+- Summary: Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive criteria from observed response candidates, introducing response-induced bias that may limit rubric generalizability. Their judges also struggle with mechanical constraints when...
+
 ### Adobe Patches 140 Vulnerabilities Across 10 Products
 - Source: Security Week
 - Category: security
@@ -429,6 +453,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/
 - Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk....
+
+### Beyond Black Boxes: Visual Grounding for Text Embeddings
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18047
+- Summary: In this paper, our goal is to represent text embeddings as sketches for three main reasons. First, to visualize text representation and to explore their potential their potential for AI explainability. Second, to investigate the potential benefits of the sketch-based representation for information...
 
 ### Cyberattack Prompts Ahold Delhaize to Disconnect Systems
 - Source: Security Week
@@ -537,6 +567,24 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/national-railway-administration-15th-five-year-railway-tech-plan-cr450-400kmh-600kmh-maglev-12306
 - Summary: The National Railway Administration's 2026-2030 railway tech plan covers CR450 trains for 400 km/h service, 600 km/h maglev test validation, an AI upgrade for 12306 and 5G-R networks.
+
+### RAN-JEPA: An Action-Conditioned World Model for Energy-efficient Mobile Network Control
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17584
+- Summary: Operational mobile networks are rich in observations but poor in interventions: they continuously generate large volumes of passive telemetry, while controlled action--response trajectories remain comparatively scarce and costly to collect. This observation--intervention asymmetry is a central...
+
+### FlashVSR+: Efficient Video Super-Resolution via Hybrid Attention and Reward-Yield Distribution Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17552
+- Summary: Recent video super-resolution (VSR) models achieve efficient one-step generation through diffusion distillation. However, high-resolution inference remains costly, and distilled models are difficult to align with human preferences. These challenges call for improvements in both model architecture...
+
+### Foundation Models for Event Prediction Across Heterogeneous Event Logs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17503
+- Summary: Event logs are ubiquitous across real-world domains, including business processes, manufacturing workflows, healthcare, and many other operational systems. Yet event logs can differ substantially in their event semantics, label spaces, interaction patterns, and temporal scales, making it difficult...
 
 
 ## 2026-10-12
@@ -2969,51 +3017,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/huawei-mate-90-multi-device-communication-sharing-network-pooling-high-speed-rail
 - Summary: Huawei's Mate 90 can pool the cellular connections of up to four nearby Huawei devices; Richard Yu said a Beijing-Shanghai rail test cut video-call stutter by 90%.
-
-### openJiuwen's DigitalMate Turns One Sentence Into a Native Task Screen on HarmonyOS
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openjiuwen-digitalmate-harmonyos-task-center-agent-a2ui
-- Summary: openJiuwen's DigitalMate, a HarmonyOS task-center agent, merges travel, local services, email and media from one request, builds native screens with A2UI, and asks before acting.
-
-### Social Engineering Detection Moves Into the Live Conversation
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/social-engineering-detection-moves-into-the-live-conversation/
-- Summary: Companies are pouring time and dollars into security awareness training, but little evidence shows it actually works against social engineering. The post Social Engineering Detection Moves Into the Live Conversation appeared first on SecurityWeek.
-
-### Feature Encoding in VAE-based Audio Decoders: Effects of Input, Depth and Distribution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.07966
-- Summary: Neural audio synthesis models like the Realtime Audio Variational autoEncoder (RAVE) achieve impressive genera tion quality, yet how their internal representations encode musical features remains poorly understood. We present a systematic layer-wise and cross-layer cluster analysis of RAVE decoder...
-
-### ReGraph: A Computational Account of Emergent Generalization in the "what" and "where" Dual Visual Streams
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.07962
-- Summary: Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate...
-
-### Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html
-- Summary: A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must already know a file's exact name and path and cannot list what the directory...
-
-### FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html
-- Summary: The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. "To...
-
-### Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/tiiuae/falcon-emirati
-
-### [AINews] Reflection Beam - 501B-A23B American Open Model
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-reflection-beam-501b-a23b
-- Summary: A small win for US open source
 
