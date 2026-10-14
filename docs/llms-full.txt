@@ -6,11 +6,52 @@
 
 ## 2026-10-14
 
+### HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/hiro-acev2
+
+### ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/
+- Summary: ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.
+
+### U.K. Sanctions Cryptomus for RU Money Laundering
+- Source: Krebs on Security
+- Category: security
+- URL: https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/
+- Summary: The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial...
+
+### CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw,...
+
+### The Download: faking blood and the future of batteries
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq,...
+
+### Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8
+- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Images (Operational)
+
 ### Degraded performance in Codex and ChatGPT Work
 - Source: OpenAI Status
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES
 - Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are still implementing the mitigation.Affected components Codex in ChatGPT Desktop (Degraded performance) ChatGPT Work (Degraded performance)
+
+### The US military’s race to make fake blood
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/
+- Summary: Its call sign was Morphine 1-2. &#160; In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an emergency mission to fly through an insurgent-controlled area in broad...
 
 ### AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host
 - Source: The Hacker News
@@ -266,6 +307,18 @@
 - URL: https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
 - Summary: A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that&nbsp;converts a personal...
 
+### The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18845
+- Summary: Earth observation (EO) models are still built by hand. For each new task, experts design a training recipe and tune it against a benchmark. We show that this loop can be handed to an agent. Any verifiable task can be cast as a harness and a verifier, where the harness defines what the agent may use...
+
+### Bytes to Threats: Byte-Sequence Transformer For Malware Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18787
+- Summary: Existing malware detection approaches heavily rely on handcrafted features derived from static or dynamic analysis of the executable files. These methods require specialized domain expertise, dedicated analysis tools, and time-consuming analysis, which limits their scalability and robustness in the...
+
 ### Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far
 - Source: The Hacker News
 - Category: security
@@ -301,6 +354,12 @@
 - URL: https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html
 - Summary: GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. "Your configuration becomes...
 
+### MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18642
+- Summary: The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, including layer-wise...
+
 ### Gemini 4 Argon for Robotics
 - Source: DeepMind Blog
 - Category: research
@@ -316,6 +375,12 @@
 - Category: security
 - URL: https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/
 - Summary: Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services. The post Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach appeared first on SecurityWeek.
+
+### Noise2Match: Self-Supervised Low-Dose CT Denoising via Adaptive Inter-Slice Matching
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18379
+- Summary: With the rapid development of deep learning, supervised convolutional neural network methods have greatly improved the performance of low-dose computed tomography (CT) denoising. However, they require paired noisy-clean training data, which is difficult to obtain in practice. Some classic...
 
 ### The Download: open model trade-offs and geothermal power’s promise
 - Source: MIT Tech Review AI
@@ -442,6 +507,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/huawei-kirin-media-briefing-9050-pro-full-architecture-100-million-devices-kirin-2027-ready
 - Summary: At its first Kirin technical briefing in six years, Huawei showed the full Kirin 9050 Pro block diagram, said Kirin devices passed 100 million shipments and called Kirin 2027 ready.
+
+### Prefilling-dLLM v2: Learned Chunk Routing for Long-Context Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17868
+- Summary: Diffusion language models apply bidirectional attention over the whole context at every denoising step, so a longer context makes each step substantially more expensive. Sparsifying only at inference leaves the pretrained weights unchanged, so the model is never trained under the sparse pattern it...
 
 ### OnePlus 16 Debuts With Snapdragon 8 Elite Gen 6, 185Hz Display and 9,000mAh Battery From 5,699 Yuan
 - Source: Pandaily
@@ -2945,76 +3016,4 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-reflection-beam-501b-a23b
 - Summary: A small win for US open source
-
-### Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html
-- Summary: Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5. They used a private Danish company's lawful...
-
-### ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html
-- Summary: A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. "Instead of downloading and executing remote payloads like the typical attack pattern, in this attack, the websites pre-fetch a script payload into the...
-
-### Exact Calibration and Sharp Risk Geometry for Volume-Sampled Ridge Regression
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.07721
-- Summary: We study ridge regression from exactly $s$ distinct rows of a fixed design. Responses are fixed, and only the subset is random. The determinant law and selected ridge fit share one positive definite penalty. Established mean identities and exponential-family duality give the unique penalty that...
-
-### Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03872
-- Summary: arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely reveals its...
-
-### REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03888
-- Summary: arXiv:2610.03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically grounded but costly for large-scale...
-
-### Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03894
-- Summary: arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stated confidence barely beats chance on...
-
-### SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03934
-- Summary: arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test...
-
-### MLLMs Fail to Refuse when Using Tools Agentically
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03938
-- Summary: arXiv:2610.03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging. Despite the recent strong success of agentic MLLMs, this work uncovers a critical safety failure in...
-
-### Bayes-Sufficient Compression Is Not Enough: How Does Communication Help Multi-Agent Systems?
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.03769
-- Summary: arXiv:2610.03769v1 Announce Type: new Abstract: Multi-agent LLM systems pair a sender with broad context and an executor with a limited local view. We study when a short message improves the executor's next decision, when raw context is preferable, and when a stronger sender helps. Our framework,...
-
-### Least Squares for Time Series Forecasting
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.03812
-- Summary: arXiv:2610.03812v1 Announce Type: new Abstract: A time-series forecast is scored on a future value of the series. A representation loss that regresses the next latent, as in LeNEPA, is a different least-squares problem on the same bottleneck. We write both programs down. The forecast program...
-
-### Memory-State Critic for Asymmetric Actor-Critic with Application to Vision-Based Pursuit-Evasion
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.03830
-- Summary: arXiv:2610.03830v1 Announce Type: new Abstract: In partially observable Markov decision processes, the optimal policy generally depends on the history of observations and past actions. Asymmetric actor-critic methods have become popular to learn such policies when additional information, such as...
-
-### Where Does Jagged Competence Come From?
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.03831
-- Summary: arXiv:2610.03831v1 Announce Type: new Abstract: Capable systems often show jagged competence: low average error alongside failures on particular inputs. We ask where it comes from in a task built from two known layers. A lower layer A computes five per-slot sums from records; an upper layer B uses...
 
