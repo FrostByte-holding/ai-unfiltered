@@ -6,6 +6,17 @@
 
 ## 2026-10-15
 
+### Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ibm-granite/granite-switch-4-1
+
+### CCA Automations are delayed when starting an Automation
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/vlxrztp88101
+- Summary: Oct 15, 18:56 UTC Resolved - We suspected that CCA Automations were experiencing delays when users start an Automation, but further investigation found that there was no delay or impact to CCA Automations. Oct 15, 18:53 UTC Monitoring - The degradation has been mitigated. We are monitoring to...
+
 ### Issues logging in and signing up for ChatGPT on iOS
 - Source: OpenAI Status
 - Category: incidents
@@ -274,6 +285,11 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/flux-3
 
+### Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/meta-muse-spark-open
+
 
 ## 2026-10-14
 
@@ -300,6 +316,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html
 - Summary: Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds,...
+
+### PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.20548
+- Summary: Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral...
 
 ### Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App
 - Source: The Hacker News
@@ -330,6 +352,12 @@
 - URL: https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/
 - Summary: In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on...
 
+### Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.20384
+- Summary: Agents for mixed-degradation image restoration typically learn what a tool does to an image only after running it: failed calls waste computation and harmful outputs go unnoticed until too late. We propose PreActIR, an agentic restoration framework that predicts tool consequences before execution....
+
 ### ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw
 - Source: Security Week
 - Category: security
@@ -347,6 +375,12 @@
 - Category: security
 - URL: https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/
 - Summary: The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK. The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.
+
+### Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.20220
+- Summary: Autoregressive generation underlies real-time, causal video synthesis and is the backbone of video world models. Today's dominant approach distills a bidirectional diffusion model into a causal few-step student, but existing pipelines make this conversion prohibitively expensive, requiring offline...
 
 ### Virtual Event Today: Zero Trust Strategies Summit
 - Source: Security Week
@@ -492,6 +526,12 @@
 - URL: https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/
 - Summary: Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.
 
+### ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19693
+- Summary: Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard compliance scores do not distinguish preserving a model's observed format from correcting it, or reveal whether that correction holds across variants. We introduce...
+
 ### Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day
 - Source: Security Week
 - Category: security
@@ -515,6 +555,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon
 - Summary: Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.
+
+### INTACT: Inducing Latent Reasoning on a Frozen Backbone
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19568
+- Summary: Latent reasoning replaces natural-language chains of thought with compact continuous "soft-token" representations, reducing the number of intermediate tokens that must be decoded autoregressively. We use a small external encoder to induce latent reasoning in a frozen backbone model. The encoder...
 
 ### Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug
 - Source: The Hacker News
@@ -2969,52 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.09522
 - Summary: First order Langevin algorithms for constrained sampling in machine learning, such as projected Langevin Monte Carlo which are based on discretizations of reflected Langevin dynamics, require differentiable log densities that limits their applicability. This paper introduces reflected anchored...
-
-### RT-DETR-World: Transferring Rich LLM Semantics to Real-Time Open-Vocabulary Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09502
-- Summary: Open-vocabulary detection (OVD) recognizes categories unseen during training through textual category queries, yet achieving strong generalization with real-time efficiency remains challenging. Beyond vocabulary scaling, zero-shot generalization may benefit from reusable visual--semantic cues...
-
-### Cognitive Schemas, Laws and Tasks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09495
-- Summary: This paper asks how explicit representations can support reusable cognitive schemas in knowledge-based problem solving. We develop a structural framework in which schemas are organized by the information and relations required for their use, rather than introduced as unrelated primitives. The...
-
-### Mitigating Accent-Language Confusion in Self-Supervised Speech Representations for Language Identification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09486
-- Summary: Spoken language identification (LID) aims to recognize the target language regardless of accent. In practice, however, LID models fine-tuned from self-supervised speech representations frequently confuse accents with languages, misclassifying non-native (L2) speech as the speaker's first language...
-
-### From Global Alignment to Local Grounding: Zero-Shot Chinese Character Recognition with Radical Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09449
-- Summary: Zero-shot Chinese character recognition (ZS-CCR) aims to recognize characters whose categories are never observed during training, and typically relies on the compositional structure shared between seen and unseen characters. Recent CLIP-style methods represent this structure with the Ideographic...
-
-### [AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai
-- Summary: Our head hurts.
-
-### Efficient Reasoning with Flow Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09416
-- Summary: Flow Language Models (FLMs) have emerged as a continuous-state alternative to discrete diffusion language models, yet the role of their continuous representations in reasoning remains unclear. We investigate this question by comparing the reasoning efficiency of FLMs and discrete diffusion models,...
-
-### Finding the Right Balance: Relevance and Diversity in LLM Retrieval
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.09412
-- Summary: Retrieval diversification is widely available in retrieval-augmented generation (RAG) frameworks, yet prior studies disagree on whether it improves retrieval and answer quality. We show that its effectiveness varies primarily with candidate-pool redundancy, in a pattern consistent with the number...
-
-### Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.03948
-- Summary: arXiv:2610.03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomous driving decision-making approaches...
 
