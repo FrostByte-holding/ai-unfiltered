@@ -294,6 +294,12 @@
 - URL: https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html
 - Summary: Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the...
 
+### Twice Upon a Time: Complementary Representations for Time-Series Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.22327
+- Summary: Time Series Language Models (TSLMs) enable language-based understanding and reasoning over temporal data, yet a fundamental question remains: what information should their time-series representations preserve, and what variation should they factor out? Existing TSLMs typically expose the language...
+
 ### ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -354,6 +360,12 @@
 - URL: https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html
 - Summary: NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each...
 
+### N-Gram Memories at Two Bits: Quantizing Lookup Tables in Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21810
+- Summary: Conditional memory expands language-model capacity through selective lookup, but the full embedding table must remain available for every possible input. We introduce Conditional Program (CP), a compressed representation that reconstructs only the rows an input requests. CP represents each row by a...
+
 ### Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers
 - Source: Security Week
 - Category: security
@@ -401,6 +413,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html
 - Summary: AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners are developing reliable ways to verify it. Without governance models and...
+
+### Diffusion Language Models as Open Quantum Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21672
+- Summary: Diffusion language models generate text by reversing a classical diffusion process over token sequences. We show that their continuous-time forward and reverse dynamics can be embedded in the framework of open quantum systems, which describes quantum systems interacting with their environment. This...
 
 ### India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1
 - Source: The Hacker News
@@ -550,6 +568,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/skywork-matrix-game-4-open-source-game-engine-real-time-neural-rendering-rtx-5090
 - Summary: Kunlun Tech's Skywork AI released Matrix-Game 4.0 under Apache-2.0: an engine runs the rules and physics while a causal video model renders low-poly frames into detailed game visuals.
+
+### Poisoning the corpora of protein design systems during pre-training and retrieval
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21200
+- Summary: Protein foundation models increasingly support the generation of novel biological sequences, yet their reliance on large public datasets creates opportunities for adversarial manipulation of the material they learn from and retrieve. We investigate two data-only poisoning attacks against protein...
 
 ### Harness^2: Recursive Agent Harnessing for an Open World
 - Source: arXiv AI
@@ -730,6 +754,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.19134
 - Summary: arXiv:2610.19134v1 Announce Type: new Abstract: Feature distillation is usually expected to add to logit distillation. We find that this expectation does not hold for two common feature losses in compact multilingual automatic speech recognition (ASR), and analyze why through their gradients. The...
+
+### SIEVE: Overcoming Topological Obstruction in Equivariant Self-Supervised Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21087
+- Summary: We identify a theoretical incompatibility between 3D point cloud masked autoencoding and SE(3)-equivariant networks. We prove that standard masking triggers a topological collapse, effectively forcing the model to hallucinate orientation without a reference frame. To resolve this, we introduce...
 
 ### StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction
 - Source: HF Daily Papers
@@ -2987,34 +3017,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.08811
 - Summary: arXiv:2610.08811v1 Announce Type: new Abstract: As context windows scale to tens or hundreds of thousands of tokens, KV cache compression has become essential for efficient LLM inference. Existing methods fall into three families: score-based eviction, summary compensation, and offload-and-recall....
-
-### Bounded Autonomy and Verifiable Safety for Agentic AI Enabled Automation
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.08815
-- Summary: arXiv:2610.08815v1 Announce Type: new Abstract: Agentic AI-enabled automation cannot be safely deployed in high-stakes environments on probabilistic reasoning alone. A recurring risk is epistemic drift: as reasoning deepens, system behavior may move away from subject-matter-expert constraints for...
-
-### Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.08794
-- Summary: arXiv:2610.08794v1 Announce Type: new Abstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench, an open-source framework that evaluates tokenizers on...
-
-### Child ASR Adaptation with Adult Retention: An Empirical Study
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.08827
-- Summary: arXiv:2610.08827v1 Announce Type: new Abstract: Automatic Speech Recognition (ASR) systems often underperform for children and non-native speakers, while adapting adult ASR models to child speech can cause adult-speech forgetting. We study child ASR adaptation with adult retention across Arabic and...
-
-### When Forgetting Looks Like Improvement: Metric Masking in Streaming Diarizer Adaptation and the Price of Rehearsal
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.08828
-- Summary: arXiv:2610.08828v1 Announce Type: new Abstract: Small-data adaptation can improve speech detection while degrading speaker attribution. We study this discrepancy in a released streaming diarizer adapted on 7.5 h of two-party conversation and evaluated across six corpora. Adaptation substantially...
-
-### Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.08829
-- Summary: arXiv:2610.08829v1 Announce Type: new Abstract: Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather than free-form responses. Whether this interface can support effective reasoning for text classification...
 
