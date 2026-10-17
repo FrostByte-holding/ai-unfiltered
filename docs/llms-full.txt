@@ -1082,6 +1082,12 @@
 - URL: https://arxiv.org/abs/2610.19134
 - Summary: arXiv:2610.19134v1 Announce Type: new Abstract: Feature distillation is usually expected to add to logit distillation. We find that this expectation does not hold for two common feature losses in compact multilingual automatic speech recognition (ASR), and analyze why through their gradients. The...
 
+### All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21147
+- Summary: Large language models increasingly rely on external memory to answer queries grounded in long-horizon histories such as multi-session dialogues and lengthy documents. However, existing memory methods often optimize retrieval and memory construction separately, without a shared reward space for...
+
 ### Stronger Judges Do Not See More: Deployment-Integrity Blindness in LLM Evaluation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1472,6 +1478,12 @@
 - URL: https://pandaily.com/huawei-hisilicon-in-house-1-inch-ryyb-sensor-xmage-z10-kirin-9050-anti-quantum-h266
 - Summary: Huawei says its XMAGE Z10 camera module uses a HiSilicon-designed 50MP 1-inch RYYB sensor, and that Kirin 9050 is among the first mobile SoCs certified against quantum attacks.
 
+### SaTPO: Text-to-Image Safety Alignment via Transition Preference Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19563
+- Summary: Safety alignment of text-to-image diffusion models aims to suppress harmful content without compromising useful generation capabilities. However, preferences over completed images compress multidimensional generation factors into a coarse signal, potentially driving changes beyond those required...
+
 ### Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling
 - Source: HF Daily Papers
 - Category: open-source
@@ -1827,6 +1839,12 @@
 - URL: https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/
 - Summary: Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities. The post Google Partially Reverses Chrome Bug Bounty Cuts appeared first on SecurityWeek.
 
+### ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18683
+- Summary: Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform credit assignment dilemma that broadcasts trajectory-level advantages equally to all actions. Our...
+
 ### GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking
 - Source: The Hacker News
 - Category: security
@@ -1884,6 +1902,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.18379
 - Summary: With the rapid development of deep learning, supervised convolutional neural network methods have greatly improved the performance of low-dose computed tomography (CT) denoising. However, they require paired noisy-clean training data, which is difficult to obtain in practice. Some classic...
+
+### Jev-Guard: Fast Routing and Auditing Agent Actions over Editable Policy Trees
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18326
+- Summary: Agent harnesses require a low-latency guardrail model together with customizable audit policies. However, deploying an auto-regressive guardrail model remains challenging: such models incur high inference latency and are often poorly aligned with customized policies. To address these problems, we...
 
 ### The Download: open model trade-offs and geothermal power’s promise
 - Source: MIT Tech Review AI
@@ -2028,6 +2052,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.17868
 - Summary: Diffusion language models apply bidirectional attention over the whole context at every denoising step, so a longer context makes each step substantially more expensive. Sparsifying only at inference leaves the pretrained weights unchanged, so the model is never trained under the sparse pattern it...
+
+### ProtoArena: Can AI Agents Discover and Exploit Real-World Cross-Component Protocol Vulnerabilities?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17837
+- Summary: Large language model (LLM) agents are increasingly used for vulnerability analysis, yet existing benchmarks provide limited coverage of exploitation that depends on interactions among network protocol components. Such vulnerabilities arise from inconsistencies in message interpretation, timing,...
 
 ### Deficit-Driven Stratified Acquisition for Building STRATA-S12: An Open SAR-Optical Corpus for Self-Supervised Learning
 - Source: HF Daily Papers
@@ -2987,34 +3017,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.12959
 - Summary: Video large language models (VLLMs) rely on long visual token sequences to understand complex temporal content, which makes visual token compression important for efficient inference. Existing training-free compression methods mainly reduce the number of tokens sent to the language model, but the...
-
-### CAIR Unveils CARES 4.0, a Multimodal Clinical Agent That Gives Doctors Suggestions, Not Verdicts
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/cair-cas-hong-kong-cares-4-0-multimodal-clinical-ai-agent-open-source
-- Summary: CAIR, the Chinese Academy of Sciences' Hong Kong AI and robotics centre, unveiled CARES 4.0, a clinical agent that drafts reports and analyses for doctors to review.
-
-### Huawei Opens DevEco Studio Public Beta on HarmonyOS PCs, Adds DevEco Code and DevEco CLI
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-deveco-studio-harmonyos-pc-public-beta-deveco-code-cli-glm
-- Summary: Huawei's DevEco Studio for HarmonyOS PCs enters public beta, alongside first public betas of DevEco Code, with GLM-5.3 and GLM-5.1 built in, and DevEco CLI.
-
-### Simplexity Robotics Trains One Robot to Tend Two CNC Lathes With 600 Real Trajectories
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/simplexity-robotics-iros-2026-cnc-lathe-tending-600-trajectories-0-5mm
-- Summary: At IROS 2026, Simplexity Robotics showed one robot tending two CNC lathes and inserting parts with 0.5 mm clearance after training on 600 real trajectories.
-
-### Huawei Has Built KV Cache Storage, but the SSDs Behind It Still Lack a Standard
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-oceanstor-m900-kv-cache-ssd-spec-dwpd-standard-unsettled
-- Summary: Huawei's OceanStor M900 gives KV cache its own storage tier, but industry sources say SSD endurance specs for the job still swing between 3 and 9 DWPD.
-
-### ByteDance Seed Paper Finds a 'Phase Sensitivity' Blind Spot in Chunked KV-Cache Compression
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/bytedance-seed-phase-sensitivity-chunked-kv-cache-compression-deepseek-v4
-- Summary: A ByteDance Seed paper finds retrieval accuracy in chunk-compressed models such as DeepSeek-V4 can swing by up to 40 points depending on where a token sits.
 
