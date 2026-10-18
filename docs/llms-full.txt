@@ -1355,6 +1355,12 @@
 - URL: https://tldr.takara.ai/p/2610.20137
 - Summary: Current video object removal methods suffer from prohibitive latency (minutes per video) and non-causal processing that prevents real-time interaction. We present StreamErase, enabling sub-second latency with up to 26 FPS streaming generation on a single GPU. Our approach first augments a...
 
+### Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.20100
+- Summary: Graphical user interface (GUI) agents now execute workflows across real applications, but when execution drifts, users must determine what changed, what should have remained untouched, and what can still be recovered. Plan-centric interfaces leave users supervising procedure, but users live with...
+
 ### CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts
 - Source: The Hacker News
 - Category: security
@@ -1558,6 +1564,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon
 - Summary: Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.
+
+### Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19608
+- Summary: Counts of which brands a large language model names are useful only if they hold long enough to act on. We test this with a pre-registered replication. The same 162 requests (54 questions in English, Estonian and Finnish about three software categories, four of twelve candidate brands per question,...
 
 ### PA1-OPD: One-Step Prefix-Augmented On-Policy Distillation for Language Model Pretraining
 - Source: HF Daily Papers
@@ -1921,6 +1933,12 @@
 - URL: https://tldr.takara.ai/p/2610.19065
 - Summary: Generative retrieval (GR) has emerged as a strong candidate generator for sequential recommendation as language models and semantic-item identifiers have improved. However, GR is not a uniformly stronger replacement of dense retrieval (DR) in online retail candidate generation. We examine their...
 
+### Deep Generative Models for Phylogenetic Inference with Complex Evolutionary Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19053
+- Summary: Inference of phylogenetic trees from sequences plays a central role in understanding evolutionary relationships, with applications ranging from tracking pathogen spread to reconstructing the history of life. Conventionally, practitioners obtain posteriors over trees using likelihood-based methods...
+
 ### Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams
 - Source: HF Daily Papers
 - Category: open-source
@@ -2067,6 +2085,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.18596
 - Summary: Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real-world deployment demands more: learning new tasks efficiently while retaining previously acquired behaviors. Existing continual RL methods on top of VLAs mitigate forgetting but...
+
+### Empathy Is Not the Scapegoat for Declines in Factuality and Reliability
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18541
+- Summary: Language models are increasingly expected to support users in stressful or uncertain situations, where warmth and empathy are desirable. While recent work associates warmer models with reduced reliability, we show that this conclusion is incomplete. Prior studies often train primarily on empathetic...
 
 ### MemoryVLN: From Ego-Aware Memory Representation to Cross-Context Memory Reuse in Vision-Language Navigation
 - Source: HF Daily Papers
@@ -2289,6 +2313,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.17731
 - Summary: As foundation models enter creative industries, understanding their aesthetic preferences becomes an important step toward AI-assisted creative decision making. In this work, we investigate how foundation models evaluate creative content and characterize their ``machine taste'' using K-pop songs...
+
+### MedEvo: Medical Reasoning Evolution through Knowledge Navigation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17690
+- Summary: Medical multimodal reasoning models are typically trained on teacher-generated rationales, discarding the valid reasoning in students' own failed trajectories, while general-domain correction methods offer little guidance for errors in image reading, anatomical context, or differential diagnosis....
 
 ### Deficit-Driven Stratified Acquisition for Building STRATA-S12: An Open SAR-Optical Corpus for Self-Supervised Learning
 - Source: HF Daily Papers
@@ -2990,34 +3020,4 @@
 - Category: security
 - URL: https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/
 - Summary: Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on...
-
-### Agentic Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.13455
-- Summary: Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool for writing, answering questions, and much more. Their answers already influence our decisions and our actions. What...
-
-### Google Domains Impacted by Recent ccTLD Hijacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/
-- Summary: Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains. The post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek.
-
-### The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html
-- Summary: As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The "Horizons of Identity Security" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in...
-
-### Unpatched AhsayCBS Vulnerabilities Exploited in the Wild
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/
-- Summary: The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands. The post Unpatched AhsayCBS Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.
-
-### Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/
-- Summary: Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices. The post Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries appeared first on SecurityWeek.
 
