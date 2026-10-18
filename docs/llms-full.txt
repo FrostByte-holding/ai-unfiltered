@@ -4,6 +4,33 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-18
+
+### WeChat for HarmonyOS Adds A2A Link With Huawei's Celia for Voice Messages and Calls
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/wechat-harmonyos-8-0-22-a2a-huawei-celia-voice-messages-video-calls
+- Summary: Version 8.0.22 lets users ask Celia to text a WeChat friend or start a voice or video call. Group chats, stickers and WeChat's cloned accounts are not supported yet.
+
+### Tsinghua, ModelBest and OpenBMB Release PilotDeck 2.0, an Open-Source Agent Operating System
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/pilotdeck-2-0-open-source-agent-os-tsinghua-thunlp-modelbest-openbmb-white-box-memory-smart-routing
+- Summary: PilotDeck 2.0 isolates each project in its own WorkSpace, makes agent memory visible and editable, and routes routine subtasks to lighter models, cutting long-task cost by about 83% in team tests.
+
+### DeepSeek Makes V4.1-Flash-1017 Official With MIT-Licensed Weights and Stronger Agentic Coding
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-v4-1-flash-1017-official-release-mit-weights-terminal-bench-wish-style-programming
+- Summary: The minor update lifts Terminal-Bench 4.0 from 31.2 to 42.3, trims run time and output length, and is tuned for DeepSeek Harness and Tencent's CodeBuddy and WorkBuddy. Price is unchanged.
+
+### Peng Cheng Cloud Brain III Puts 10,000P of Domestic AI Computing Into Trial Operation
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/peng-cheng-cloud-brain-iii-10000p-domestic-ai-computing-trial-operation-wcnc-2026
+- Summary: Peng Cheng Laboratory's flagship AI computing facility now runs 10,000P while construction continues toward a planned 16,000P, serving domestic model training and AI for science research.
+
+
 ## 2026-10-17
 
 ### Meta shakes up the frontiers, open and closed
@@ -89,6 +116,36 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.20822
 - Summary: arXiv:2610.20822v1 Announce Type: new Abstract: Text-to-video models often generate the visual concepts requested in natural language prompts but fail to satisfy their intended ordering, timing, and persistence requirements. We propose representing these requirements as specifications in a formal...
+
+### Confidence-Calibrated Inference Expansion for Evaluator-Guided Test-Time Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.20836
+- Summary: arXiv:2610.20836v1 Announce Type: new Abstract: Evaluator-guided reasoning presents a local control problem at every step: trust the current answer, return a fallback, or spend more inference. We formulate this choice as a compute-aware three-action controller, scoring terminal actions by predicted...
+
+### Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.20845
+- Summary: arXiv:2610.20845v1 Announce Type: new Abstract: Skill-policy co-evolution, in which an agent's policy model and its skill bank improve each other during training, is a promising paradigm for self-improving agents. Current evaluations score the co-evolved policy on the final bank it trained with...
+
+### Anticipatory Commonsense with Moving Objects: An ASP-Based Framework for Predictive Reasoning with Interacting Trajectories
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.20867
+- Summary: arXiv:2610.20867v1 Announce Type: new Abstract: We present a general declarative framework for anticipatory reasoning about interactive motion in complex dynamic environments. Our focus is on (explainable) anticipatory space-time mental model formation at a semantic level to heuristically guide...
+
+### A Multi-Tiered AI Accessibility Model (MAIAM): Proportionate Access and Capability Limits for Comprehensive Frontier AI Safety
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.20921
+- Summary: arXiv:2610.20921v1 Announce Type: new Abstract: Most debate about releasing capable AI systems treats the choice as binary: keep the model behind an API, or publish the weights. That framing runs together two separate decisions. One is how capable a system may become. The other is who may obtain a...
+
+### Defining and Generating Compositional Structure
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.20922
+- Summary: arXiv:2610.20922v1 Announce Type: new Abstract: Compositional structure is pervasive in nature and across scales: atoms combine into molecules, molecules into cells, and cells into organisms, while further compositional hierarchies appear within each level. More broadly, compositionality, the reuse...
 
 ### UBTECH Details Thinker-WM, a World Model That Unifies Video, Depth and Robot Actions
 - Source: Pandaily
@@ -1757,6 +1814,12 @@
 - URL: https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/
 - Summary: Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.
 
+### Can LLM Agents Efficiently Identify Appliance Faults? Insights From Diagnosing a Simulated Appliance
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19291
+- Summary: In so-called "Industry 4.0," integrated sensors, analytics tools, and other digital technologies supplement industrial workflows, potentiating enhanced visibility and automation. Prognostics and health management (PHM) and natural language processing (NLP) practitioners alike have explored the...
+
 ### Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say
 - Source: Security Week
 - Category: security
@@ -2005,6 +2068,18 @@
 - URL: https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS
 - Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Codex Web (Degraded performance) CLI (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance) ChatGPT Work (Degraded performance)
 
+### COMPASS: Contextual Moment Prior Alignment for Generalizable AIGI Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18034
+- Summary: Generalizable AI-generated image (AIGI) and deepfake detection remain challenging due to the asymmetry phenomenon, where adaptation to limited training distributions can degrade the transferable representations of Vision Foundation Models (VFMs). Recent subspace adaptation methods mitigate this...
+
+### Match the Canvas, Not Just the Answer: Predictability-Aware SFT for Diffusion Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18001
+- Summary: Diffusion language models (DLMs) enable flexible parallel generation by resolving tokens according to the model's evolving predictability rather than a fixed left-to-right order. This flexibility, however, introduces training choices absent from standard autoregressive teacher forcing: which...
+
 ### AI labs are buying data from dead startups to train their models
 - Source: MIT Tech Review AI
 - Category: research
@@ -2083,6 +2158,12 @@
 - URL: https://tldr.takara.ai/p/2610.17837
 - Summary: Large language model (LLM) agents are increasingly used for vulnerability analysis, yet existing benchmarks provide limited coverage of exploitation that depends on interactions among network protocol components. Such vulnerabilities arise from inconsistencies in message interpretation, timing,...
 
+### I3L: Iterative Interactive Imitation Learning for Whole-Body Mobile Manipulation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17748
+- Summary: Policies trained offline from teleoperated demonstrations can degrade outside their training distribution. This gap is particularly acute in long-horizon whole-body mobile manipulation, where long horizons amplify compounding errors and coordinated arm, torso, and base motion makes exhaustive...
+
 ### Deficit-Driven Stratified Acquisition for Building STRATA-S12: An Open SAR-Optical Corpus for Self-Supervised Learning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2139,6 +2220,12 @@
 
 
 ## 2026-10-12
+
+### From Sampled Evidence to Radiology Reports: Objectives, Constraints, and Realization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17318
+- Summary: Sampling multiple reports creates an inference problem: how should sampled evidence be converted into a final decision, and does a better structured decision yield a better report? We study these questions through a framework that separates the decision signal, scoring objective, and feasible...
 
 ### How Anthropic’s Dynamic Workflows Coordinate Claude Agents
 - Source: Latent Space
@@ -2933,88 +3020,4 @@
 - Category: security
 - URL: https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/
 - Summary: $1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools. The post Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own appeared first on SecurityWeek.
-
-### FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html
-- Summary: The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax Typhoon. To that end, the agencies seized several domains and blocked access to platforms that were...
-
-### SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.13081
-- Summary: Recent work on large audio-language models (LALMs) explores adaptive reasoning to balance accuracy and efficiency. However, existing approaches often rely on coarse-grained difficulty estimation, overlooking the diverse factors that determine reasoning effort. We address this limitation by deriving...
-
-### Formula Predicts When AI Chatbots Are at Risk of Turning Bad
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/formula-predicts-when-ai-chatbots-are-at-risk-of-turning-bad/
-- Summary: Researchers from George Washington University have published a paper examining whether the time and cause of AI going rogue can be predicted. The post Formula Predicts When AI Chatbots Are at Risk of Turning Bad appeared first on SecurityWeek.
-
-### An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.10541
-- Summary: arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or...
-
-### Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.10549
-- Summary: arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a...
-
-### Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.10590
-- Summary: arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at...
-
-### Verification and Self-Improvement in Agentic AI: Foundations and Limits
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.10611
-- Summary: arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with...
-
-### The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.10629
-- Summary: arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it...
-
-### Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.10552
-- Summary: arXiv:2610.10552v1 Announce Type: new Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arms being compared have very different trainable-parameter counts, a shared rate can simultaneously depress the larger...
-
-### SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.10571
-- Summary: arXiv:2610.10571v1 Announce Type: new Abstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but building general-purpose EEG models remains challenging due to the heterogeneity of subjects, devices, and electrode montages. Existing EEG foundation models...
-
-### Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.10594
-- Summary: arXiv:2610.10594v1 Announce Type: new Abstract: Activation probes that monitor deployed language models are trained on synthetic conversations, and how many a probe needs is open. We trace learning curves over 10-590 synthetic samples for three monitoring concepts, high-stakes situations, replies...
-
-### Temporal transformer CAN encoder with federated lightweight heads for anomaly detection
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.10613
-- Summary: arXiv:2610.10613v1 Announce Type: new Abstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in...
-
-### When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.10616
-- Summary: arXiv:2610.10616v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models produce routing information during inference that may be logged or exposed for monitoring, debugging, load analysis, and safety auditing. Unlike ordinary model outputs, this telemetry reveals a view of the...
-
-### Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.10550
-- Summary: arXiv:2610.10550v1 Announce Type: new Abstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompts that describe new contexts. Full-model fine-tuning is parameter-intensive, whereas low-rank adaptation (LoRA) reduces...
 
