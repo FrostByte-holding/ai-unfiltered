@@ -1241,6 +1241,12 @@
 - URL: https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/
 - Summary: In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on...
 
+### STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.20390
+- Summary: With the rapid development of vision-language models (VLMs), Web-GUI agents have achieved promising performance in interacting with real-world interfaces through screenshot-based grounding. However, high-resolution screenshots and multi-turn histories introduce excessive visual tokens, causing...
+
 ### Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration
 - Source: HF Daily Papers
 - Category: open-source
@@ -1832,6 +1838,12 @@
 - URL: https://www.latent.space/p/dyna
 - Summary: Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI
 
+### LLMs program using Reusable and Composable Abstract Representations
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19238
+- Summary: When writing code, the same computation can be expressed in different programming languages and through different implementation strategies. We show that the activations of LLMs capture this shared structure in reusable and composable abstract representations when they generate code. These...
+
 ### [Retroactive] Actions workflow run logs delayed
 - Source: GitHub Status
 - Category: incidents
@@ -1984,6 +1996,12 @@
 - URL: https://tldr.takara.ai/p/2610.18449
 - Summary: AI agents for autonomous scientific discovery must decide which experiments to run under a limited budget. Most benchmarks for science agents provide fixed datasets, while others that support active experimentation largely rely on simulation. We introduce Autonomous Science Bench, an initial...
 
+### Beyond RMSE and Granger Gain: Multi-Horizon Forecast-Error Entropy for Nonlinear Predictive Coupling
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18390
+- Summary: We investigate whether the past of an auxiliary time series provides predictive information about a target beyond that contained in the target's own history. We compare matched out-of-sample target-only and target-plus-source forecasts and introduce the forecast-error distribution entropy (FEDE)...
+
 ### Noise2Match: Self-Supervised Low-Dose CT Denoising via Adaptive Inter-Slice Matching
 - Source: HF Daily Papers
 - Category: open-source
@@ -2086,6 +2104,12 @@
 - URL: https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/
 - Summary: When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a...
 
+### Saliency-Guided Replay for Continual Learning in Deep Spiking Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17998
+- Summary: Spiking Neural Networks (SNNs) are promising for energy-efficient neuromorphic computing, but they still suffer from catastrophic forgetting when learning tasks sequentially. This work investigates the integration of Experience Packing and Replay (EPR) as a memory-efficient continual learning...
+
 ### Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers
 - Source: The Hacker News
 - Category: security
@@ -2163,6 +2187,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.17748
 - Summary: Policies trained offline from teleoperated demonstrations can degrade outside their training distribution. This gap is particularly acute in long-horizon whole-body mobile manipulation, where long horizons amplify compounding errors and coordinated arm, torso, and base motion makes exhaustive...
+
+### Understanding Machine Taste: Aesthetic Agreement Across Foundation Models in K-pop
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17731
+- Summary: As foundation models enter creative industries, understanding their aesthetic preferences becomes an important step toward AI-assisted creative decision making. In this work, we investigate how foundation models evaluate creative content and characterize their ``machine taste'' using K-pop songs...
 
 ### Deficit-Driven Stratified Acquisition for Building STRATA-S12: An Open SAR-Optical Corpus for Self-Supervised Learning
 - Source: HF Daily Papers
@@ -2990,34 +3020,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/bytedance-trae-merges-traework-traecode-agent-ide-modes-traework-shutdown-oct-23
 - Summary: ByteDance's TRAE folds TraeWork and TraeCode into one app with Agent and IDE modes across desktop, web and mobile. TraeWork stops service on October 23.
-
-### openJiuwen Open-Sources an Enterprise AgentOS for Agent Swarms, Sandboxes and Multi-Tenant Control
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openjiuwen-open-source-enterprise-agentos-swarm-sandbox-multi-tenant-appliance
-- Summary: Huawei-backed openJiuwen has open-sourced AgentOS for Enterprise, a runtime for multi-agent swarms with sandboxes, tenant isolation and appliance deployment in hours.
-
-### Richard Yu: More Huawei Phones Will Get LogicFolding Chips as Tau Roadmap Targets 5 GHz by 2031
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/richard-yu-more-huawei-phones-logicfolding-kirin-9050-pro-tau-roadmap-5ghz-2031
-- Summary: Richard Yu says LogicFolding chips will spread beyond Huawei's flagships, details the Kirin 9050 Pro's in-house blocks, and points to a 5 GHz, 400+ MTr/mm² goal for 2031.
-
-### Does Location Matter? A Black-Box Causal Audit Reveals Model-Dependent Audio Grounding in LALM Hallucination
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.13112
-- Summary: Large audio-language models (LALMs) frequently exhibit object hallucination, affirming absent sounds. The dominant mitigation, Audio-Aware Decoding (AAD), contrasts logits under real audio against an all-zero "blank" waveform, flagged by prior review as out-of-distribution. We introduce a black-box...
-
-### Citrix Urges Immediate Patching of Critical NetScaler Vulnerability
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/citrix-urges-immediate-patching-of-critical-netscaler-vulnerability/
-- Summary: The security defect, tracked as CVE-2026-107406, could lead to remote code execution or denial-of-service. The post Citrix Urges Immediate Patching of Critical NetScaler Vulnerability appeared first on SecurityWeek.
-
-### Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/google-pixel-10-exploits-earned-hackers-560000-at-pwn2own/
-- Summary: $1.2 million was paid out at Pwn2Own Ireland 2026 for exploits targeting phones, printers, smart speakers, smart home hubs, and AI infrastructure and coding tools. The post Google Pixel 10 Exploits Earned Hackers $560,000 at Pwn2Own appeared first on SecurityWeek.
 
