@@ -4,6 +4,39 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-19
+
+### PHYBOT Debuts PhyHand, a 23-DoF Direct-Drive Dexterous Hand, at the Canton Fair
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/phybot-phyhand-23-dof-direct-drive-dexterous-hand-canton-fair-phybot-c-humanoid-double-fish
+- Summary: The 750-gram hand has 23 active degrees of freedom and dual encoders. It has passed lab validation and can perform gestures; PHYBOT says fine grasping is still in development.
+
+### Shenzhen's International Quantum Academy Entangles Up to Six Phonon Modes on a 2D Chip
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/international-quantum-academy-shenzhen-science-genuine-multipartite-phonon-entanglement-hbar-2d-chip
+- Summary: Two acoustic resonators, superconducting qubits and a tunable coupler on one chip produced genuinely entangled states across up to six phonon modes and moved them between resonators.
+
+### X-Humanoid Sets Out Its Roadmap for a Unified Embodied Model and Self-Evolving Robot Policies
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/x-humanoid-roscon-china-2026-unified-embodied-model-roadmap-pelican-unify-world-model-simulator
+- Summary: At ROSCon China 2026, the Beijing center described four levels of generalization and a layered data plan built around a world model simulator, and introduced Pelican-Unify.
+
+### VAST Open-Sources EdenLive, a Real-Time Model That Renders Simple Game Footage as Detailed Video
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/vast-edenlive-open-source-real-time-generative-renderer-world-model-5b-14b-rtx-5090
+- Summary: Upstream code keeps the game state while EdenLive renders it into detailed frames. VAST says its 5B model tops 24 FPS at 720p on a single RTX 5090. Weights and code are open.
+
+### INC20000290
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/lym8hrq57fn8
+- Summary: Oct 19, 01:11 UTC Resolved - Current status: We've monitored the environment and confirmed that service has been restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer experience: Customers hosted...
+
+
 ## 2026-10-18
 
 ### US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars
@@ -708,6 +741,12 @@
 - URL: https://tldr.takara.ai/p/2610.22100
 - Summary: Byte-level language models such as the Byte Latent Transformer (BLT) run their large global model once per patch and start a patch where a small model's next-byte entropy is high. This rule rarely starts a patch at in-line computed results, such as the number after "=" in a worked solution, and...
 
+### ABNAT: Attention-Based Noise-Aware Training for Robust Transformers on Analog Compute-in-Memory Systems
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.22065
+- Summary: Transformer-based models have become the backbone of a wide range of tasks, but their intensive computation and data movement incur substantial energy overhead. Analog compute-in-memory (CIM) offers an energy-efficient alternative, yet its inherent hardware non-idealities perturb stored weights and...
+
 ### GraphACM: Graph-based Action Consistency Measurement for Uncertainty Quantification in LLM Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -994,6 +1033,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/skywork-matrix-game-4-open-source-game-engine-real-time-neural-rendering-rtx-5090
 - Summary: Kunlun Tech's Skywork AI released Matrix-Game 4.0 under Apache-2.0: an engine runs the rules and physics while a causal video model renders low-poly frames into detailed game visuals.
+
+### Hard Way, The Only Way: Provable Merits of Training on Hardest Examples
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.21201
+- Summary: Despite a surge of empirical interest in the ``unreasonable effectiveness'' of drastic data pruning for AI systems, a unified theoretical understanding of this phenomenon remains elusive. In this work, we provide a precise high-dimensional theory of learning under data pruning via weighted...
 
 ### Poisoning the corpora of protein design systems during pre-training and retrieval
 - Source: HF Daily Papers
@@ -2296,6 +2341,18 @@
 - URL: https://tldr.takara.ai/p/2610.17868
 - Summary: Diffusion language models apply bidirectional attention over the whole context at every denoising step, so a longer context makes each step substantially more expensive. Sparsifying only at inference leaves the pretrained weights unchanged, so the model is never trained under the sparse pattern it...
 
+### RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17867
+- Summary: Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 86M-parameter relational...
+
+### GeoNIRS: Geometry-Aware Pretraining for Heterogeneous fNIRS Representation Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17845
+- Summary: Functional near-infrared spectroscopy (fNIRS) provides portable and spatially localized measurements of cortical hemodynamics, but differences in channel count, probe layout, signal distribution, and task type hinder joint pretraining across datasets. We introduce GeoNIRS, a geometry-aware...
+
 ### ProtoArena: Can AI Agents Discover and Exploit Real-World Cross-Component Protocol Vulnerabilities?
 - Source: HF Daily Papers
 - Category: open-source
@@ -2388,6 +2445,12 @@
 - Category: open-source
 - URL: https://www.latent.space/p/claude-dynamic-workflows
 - Summary: At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.
+
+### AutoMARS: Automatic and Scalable Multi-Agent Large Language Model Framework for Supply Chain Risk Assessment
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.17206
+- Summary: We propose AutoMARS (Automatic Multi-Agent Risk Assessment), an agentic framework for automatic and scalable comparative risk assessment in supply chain networks. The framework enables end-to-end execution of analytical workflows by automatically planning tasks, coordinating specialized agents,...
 
 ### Incident with Actions, Pull Requests and Issues
 - Source: GitHub Status
@@ -2961,63 +3024,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html
 - Summary: The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a&nbsp;post on X. ShinyHunters is the extortion group that said in September it had&nbsp;breached the FBI's jobs portal&nbsp;and stolen sensitive data on almost all FBI agents and job...
-
-### Make It Flow: Animating Water in 3D Gaussian Splatting Scenes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.13860
-- Summary: Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. While coherent motion...
-
-### P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html
-- Summary: Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. "Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2...
-
-### Impactful scheduling for GPU clusters
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/allenai/impactful-scheduling
-
-### TP-Link Sued by Four More U.S. States Over Router Security and China Ties
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html
-- Summary: Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers about how secure its routers are and how separate it is from China....
-
-### Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html
-- Summary: Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its&nbsp;changelog&nbsp;described...
-
-### Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/anthropic-launches-free-ai.html
-- Summary: Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude to find vulnerabilities during Project Glasswing," Anthropic said. "Projects...
-
-### Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html
-- Summary: Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication...
-
-### Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306...
-
-### The Download: AI’s refusal problem and weight-loss drug side effects
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how...
-
-### In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/
-- Summary: Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on...
 
