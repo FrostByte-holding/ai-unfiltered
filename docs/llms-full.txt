@@ -222,6 +222,11 @@
 - URL: https://status.snowflake.com/incidents/lym8hrq57fn8
 - Summary: Oct 19, 01:11 UTC Resolved - Current status: We've monitored the environment and confirmed that service has been restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in Snowsight.Customer experience: Customers hosted...
 
+### TorchNeuron: running HF models on AWS Trainium is easier than ever
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/hf-torchneuron
+
 
 ## 2026-10-18
 
@@ -470,6 +475,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html
 - Summary: OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to...
+
+### Forecasting Voltage Time Series under Anomalies Using a WGAN Model With Lipschitz Control and Progressive Kernel Critic Strategy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.23394
+- Summary: In time-series forecasting tasks, the use of recursive forecasting on high-dimensional data substantially increases the complexity of the prediction process. The main challenge is that long-term dynamics becomes harder to model, since the sequences show greater temporal variability. To counteract...
 
 ### The Download: failed social media bans, and extending pets’ lives
 - Source: MIT Tech Review AI
@@ -838,6 +849,12 @@
 
 ## 2026-10-15
 
+### MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.22751
+- Summary: Medical vision-language models (VLMs) for visual question answering (VQA) often pass long visual-token sequences to the language model, making visual-token pruning attractive but risky for medical images, where answers may depend on localized boundary and texture evidence. We study training free...
+
 ### Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint
 - Source: Hugging Face Blog
 - Category: open-source
@@ -872,6 +889,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.22306
 - Summary: Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, and the camera pans and zooms at the same time. We present ARC-SORT (Adaptive, Robust, Compensated SORT), a tracking-by-detection tracker that trains nothing and runs in real time....
+
+### Towards Continual Learning: Mitigating Forgetting With Subspace Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.22293
+- Summary: Large language models (LLMs) acquire new skills through fine-tuning, but it can destroy capabilities they already have: catastrophic forgetting remains a central obstacle to continual learning in LLMs. Recent works connect forgetting to how far, and along which directions, fine-tuning moves the...
 
 ### Improving Environment-Agnostic Coding Agents: The Role of Scaffolding
 - Source: HF Daily Papers
@@ -2183,6 +2206,12 @@
 - URL: https://www.githubstatus.com/incidents/6yk962mhlr3h
 - Summary: Oct 13, 20:30 UTC Resolved - On October 13, around 20:42 UTC, an infrastructure failure caused GitHub Actions to have delays showing logs for workflow runs. No logs were lost and the issue has now been resolved and log processing has caught up.The actual workflows producing the logs were not...
 
+### Compiling Expert Procedures into Verified Programs: When a Small Model Is Enough
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.19148
+- Summary: In procedural tool-use domains, how much of the gap between base models is procedure rather than capability? We build an explicit program from a teacher's traces and run it in front of unchanged small models, including an 8B model. The construction, PLVR , takes the reasoning traces of a teacher,...
+
 ### Developing Gemini 4 Argon responsibly and safely
 - Source: DeepMind Blog
 - Category: research
@@ -2235,6 +2264,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
 - Summary: A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it. The flaw was in the feature that&nbsp;converts a personal...
+
+### Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.18868
+- Summary: Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely...
 
 ### The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement
 - Source: HF Daily Papers
@@ -2979,40 +3014,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.12537
 - Summary: arXiv:2610.12537v1 Announce Type: new Abstract: When a trader executes a large order, the relevant question is not \emph{what will the price be?} but \emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators)...
-
-### Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncation and Censoring
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.12538
-- Summary: arXiv:2610.12538v1 Announce Type: new Abstract: Modern machine learning models are typically trained on data assumed to be representative of the predictive tasks the model will face in the future, but practical datasets violate this assumption. We focus on outcome-dependent truncation in which an...
-
-### Enriched Holomorphic Neural Networks for 2D and 3D Laplace Problems
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.12541
-- Summary: arXiv:2610.12541v1 Announce Type: new Abstract: Boundary-value problems for the Laplace equation develop singular behaviour near corners, edges and junctions that smooth approximators resolve poorly. We combine holomorphic neural networks with singular functions derived from the local geometry and...
-
-### Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.12601
-- Summary: arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward...
-
-### Self-Preservation in Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.12602
-- Summary: arXiv:2610.12602v1 Announce Type: new Abstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent work shows that language...
-
-### GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.12617
-- Summary: arXiv:2610.12617v1 Announce Type: new Abstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges for retrieval-augmented question...
-
-### perturber: A Stateless Service for Semantics-Preserving Text Perturbations
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.12667
-- Summary: arXiv:2610.12667v1 Announce Type: new Abstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requires applying perturbations one...
 
