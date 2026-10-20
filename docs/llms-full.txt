@@ -6,6 +6,23 @@
 
 ## 2026-10-20
 
+### The Programmable Data Center — Evan Conrad, SF Compute
+- Source: Latent Space
+- Category: open-source
+- URL: https://www.latent.space/p/sfcompute2
+- Summary: From GPU trading to physical settlement, independent markets, and programmable compute
+
+### NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/cosmos3-h-dreams
+
+### Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek
+- Summary: Western open models strike back
+
 ### FairStress: A deeper evaluation of fairness in LLM decision-making
 - Source: Hugging Face Blog
 - Category: open-source
@@ -304,6 +321,24 @@
 - URL: https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/
 - Summary: Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures. The post Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks appeared first on SecurityWeek.
 
+### InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26853
+- Summary: Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic...
+
+### Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26836
+- Summary: LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used...
+
+### Competing Learning in Hybrid Architectures
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26830
+- Summary: Many modern language models have adopted hybrid architectures that incorporate both linear-time recurrence and softmax attention. Modern recurrence layers provide a highly expressive mixing mechanism while ensuring high throughput by compressing contextual information into a fixed-size state, but...
+
 ### “We were looking at it wrong”: The explosive claim that’s upended the AI world
 - Source: MIT Tech Review AI
 - Category: research
@@ -394,6 +429,12 @@
 - URL: https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html
 - Summary: In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and...
 
+### TaQFormer: A Treatment-as-Query Transformer with Data-Fusion for Multidimensional Treatment Modeling in Coupon Allocation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26199
+- Summary: We study coupon allocation on an online marketplace offering multiple service categories. Issuing coupons requires choosing a vector of category-specific discounts, accounting for both their direct effects and cross-category demand shifts. We present TaQFormer, a treatment-as-query Transformer for...
+
 ### Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack
 - Source: Security Week
 - Category: security
@@ -477,6 +518,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
 - Summary: An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key...
+
+### NADS: Navigator-Guided Data Selection for Mitigating Catastrophic Forgetting in Fine-Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.25751
+- Summary: Catastrophic forgetting is a central obstacle in single-stage fine-tuning of large language models (LLMs) on a new task, especially when the original pretraining data are unavailable. Synthetic data offers a practical mitigation path, but candidate pools are often noisy and redundant, making...
 
 ### When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration
 - Source: arXiv Machine Learning
@@ -2961,52 +3008,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html
 - Summary: Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12. The chain was...
-
-### AI Turns Familiar Cyberattacks Into a Race Against Time
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ai-turns-familiar-cyberattacks-into-a-race-against-time/
-- Summary: IBM’s Steve Wallin talks to SecurityWeek on the effect of AI-driven attacks on enterprise defenses. The post AI Turns Familiar Cyberattacks Into a Race Against Time appeared first on SecurityWeek.
-
-### $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/
-- Summary: A small circuit board hidden under the signers’ screens read user data and transmitted it to the attackers. The post $86 Million Crypto Heist Linked to Ledger Signer Hardware Implant appeared first on SecurityWeek.
-
-### Narrative Lookahead in LLMs: Event-Level Decodability, Predictive Advantage, and Steering
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.18121
-- Summary: Do language models carry information about narrative events before writing them, and how far ahead? We examine narrative lookahead through salient, state-changing events rather than tokens or response-level attributes. We extract 23,355 LLM-annotated events from 2,000 stories generated by four...
-
-### Product Walkthrough: Bitdefender AI Visibility and Control
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html
-- Summary: A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine...
-
-### Open models have real benefits. Do they outweigh the risks?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/
-- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk....
-
-### Beyond Black Boxes: Visual Grounding for Text Embeddings
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.18047
-- Summary: In this paper, our goal is to represent text embeddings as sketches for three main reasons. First, to visualize text representation and to explore their potential their potential for AI explainability. Second, to investigate the potential benefits of the sketch-based representation for information...
-
-### Cyberattack Prompts Ahold Delhaize to Disconnect Systems
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/
-- Summary: The company says it took some of its systems offline to contain a security issue within its network. The post Cyberattack Prompts Ahold Delhaize to Disconnect Systems appeared first on SecurityWeek.
-
-### [AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
-- Summary: MSL&#8217;s emergence as a frontier lab is finally complete.
 
