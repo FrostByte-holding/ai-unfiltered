@@ -6,6 +6,22 @@
 
 ## 2026-10-21
 
+### Degraded performance for Claude Fable 5
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/njk29r81v3wg
+- Summary: Oct 21, 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21, 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.
+
+### NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/kumo-relational
+
+### How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
+
 ### Elevated error rates for gpt-5.6-luna API requests
 - Source: OpenAI Status
 - Category: incidents
@@ -347,6 +363,18 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/cosmos3-h-dreams
 
+### Value-Rich, Differently Organized: Measuring Value Expression and Organization in AI-Generated Debates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28604
+- Summary: Current evaluation of LLM-generated debate largely focuses on argumentative quality, leaving the value structure of generated arguments underexamined. We introduce a diagnostic metric framework for comparing how values are expressed and organized in human-reference and AI-generated debates. The...
+
+### Authentication errors for some API users
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG
+- Summary: Status: ResolvedOn October 20, from 9:35 to 10:35 a.m. PDT, some API users near Illinois experienced authentication errors. We rolled back a configuration change, and service was restored.Affected components Login (Operational)
+
 ### Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
 - Source: The Hacker News
 - Category: security
@@ -363,6 +391,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/fairstress
+
+### A Digital Twin to Improve Cyber-Social Impact
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28430
+- Summary: The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape. Traditional cybersecurity models, primarily based on the Confidentiality, Integrity, and Availability (CIA triad), fail to capture the...
 
 ### US Agencies Detail Incident Response Practices for Rogue AI Agents
 - Source: Security Week
@@ -585,6 +619,18 @@
 - URL: https://www.latent.space/p/ainews-not-much-happened-today-f09
 - Summary: Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they&#8217;re not going to be in super wide use just yet.
 
+### Ensemble-Aware Structural Encoding (EASE): Conditioning Protein Encoders on Peptide Conformational Ensembles
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27638
+- Summary: Protein foundation models provide transferable representations for downstream peptide prediction tasks. However, existing representations typically reduce a peptide to a single sequence or structure, which may miss conformational variability relevant to key peptide properties, including...
+
+### ABench: Adversarily Benchmarking Large Language Models across Taxonomized Values
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27611
+- Summary: Ensuring the alignment of Large Language Models (LLMs) with diverse cultural values is critical for their safe global deployment. However, existing alignment benchmarks are predominantly English-centric or confined to simple discriminative tasks. Moreover, they often fail to effectively evaluate...
+
 ### Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware
 - Source: The Hacker News
 - Category: security
@@ -806,6 +852,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/ant-group-inclusionai-ming-3-0-tts-open-source-0-5b-tiny-moe-voice-control
 - Summary: Ming-3.0-tts ships under MIT in two sizes, with voice cloning, text-based voice design, 14 paralinguistic tags, seven languages plus Sichuanese and Cantonese, and multi-speaker podcasts.
+
+### Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27468
+- Summary: Adapting a forecasting system to a changing world classically means retraining. We ask whether the task of continually learning regimes for time series forecasting can be represented by a piece of text: a guidance block, evolved by outcome-driven reflection and used in a frozen LLM forecaster's...
 
 ### Hugging Face ❤️ TorchTPU: TPUs, Natively
 - Source: Hugging Face Blog
@@ -2955,58 +3007,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.19561
 - Summary: An early mistake in the generated reasoning can constrain all subsequent reasoning. Repeated-generation methods, like MCMC-based approaches, attempt to improve output quality by sampling multiple generations, but their effectiveness can be limited by randomly selecting where to regenerate. On...
-
-### Learning Visual Speech Representations via Cross-Modal Distillation and Joint Face-Lip Modeling
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19559
-- Summary: Lipreading remains challenging due to the inherent ambiguity of visual speech cues and their sensitivity to head pose and video resolution. In this work, we propose FLARE, a framework for robust visual speech representation learning via cross-modal distillation and joint face-lip modeling. FLARE...
-
-### Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.14005
-- Summary: arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines...
-
-### The Silent Failures in Agentic Data Science
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.14115
-- Summary: arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of data science agents that promise automating the design and execution of data science from task formulation to model...
-
-### ClawLoop: Self-Improving Agents via Harness-Native Training Loop
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.14118
-- Summary: arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous...
-
-### Correction Training for Diffusion Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.14136
-- Summary: arXiv:2610.14136v1 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier...
-
-### Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.14146
-- Summary: arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension...
-
-### MDN-VJEPA: Multimodal Probabilistic Joint-Embedding World Models
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.13956
-- Summary: arXiv:2610.13956v1 Announce Type: new Abstract: Joint-Embedding Predictive Architectures (JEPAs) learn world models by predicting future representations rather than reconstructing observations. Variational JEPA (VJEPA) gives this prediction probabilistic semantics and permits flexible conditional...
-
-### LACRM: LLM-Guided Mining of Directed Advertiser Competition Relationships in E-Commerce Advertising
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.13959
-- Summary: arXiv:2610.13959v1 Announce Type: new Abstract: In e-commerce advertising, ad platforms typically fail to model the externalities among advertisers when making optimization decisions: an advertiser's actual performance is largely shaped by rivals competing for the same users; these rivals typically...
-
-### MRFlow: Mechanism-Structured Residual Flow Matching for Virtual Cell Perturbation Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.13966
-- Summary: arXiv:2610.13966v1 Announce Type: new Abstract: Predicting cellular responses to chemical and genetic perturbations is a central test for AI virtual cells, yet many single-cell models reduce each condition to an average expression shift. This target is misaligned with perturbation biology: rare...
 
