@@ -4,6 +4,39 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-10-22
+
+### ChatGPT conversion failures in India, Japan and Korea. And Response API errors
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M5GPE9C4E19HE461P8JAMYXD
+- Summary: Status: MonitoringWe have applied the mitigation and are monitoring the recovery.Affected components Responses (Degraded performance) Conversations (Degraded performance)
+
+### China Telecom's TeleAI Spins Out Gamma Robotics to Build Self-Evolving Humanoid Robots
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/china-telecom-teleai-gamma-robotics-self-evolving-humanoid-whole-body-model
+- Summary: Gamma Robotics, the first market-oriented company incubated by China Telecom's TeleAI, has launched in Shanghai to develop self-evolving humanoid robots and whole-body models.
+
+### Qianjue Unveils Polibrain, a Predictive World Model Built to Run Across Robot Body Types
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/qianjue-polibrain-predictive-world-model-cross-embodiment-robots
+- Summary: Robot-brain developer Qianjue launched Polibrain, a world model that predicts task-relevant state changes instead of future video frames, adapted to quadruped, humanoid and wheeled robots.
+
+### MemTensor Open-Sources MemT 1.0, Memory-Native Models That Keep Long Histories in a Fixed State
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/memtensor-memt-1-0-open-source-memory-native-models-flash-nano
+- Summary: MemTensor released MemT 1.0 Flash and Nano, models with a built-in trainable memory state. It reports about 4x faster inference at 256K history and 130x smaller storage.
+
+### Lanxin Computing Unveils RISC-V Supernode Built on Its 48-Core LX500 Inference Chip
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/lanxin-computing-lx500-risc-v-ai-inference-supernode-48-core-75-tops
+- Summary: Lanxin Computing has launched a supernode built on LX500, a 48-core RISC-V chip with a 75 TOPS INT8 AI engine that puts general computing and inference on one die.
+
+
 ## 2026-10-21
 
 ### Degraded performance for Claude Fable 5
@@ -12,15 +45,39 @@
 - URL: https://status.claude.com/incidents/njk29r81v3wg
 - Summary: Oct 21, 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21, 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.
 
+### Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html
+- Summary: GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update...
+
 ### NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/kumo-relational
 
+### LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
+- Summary: The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and...
+
 ### How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
+
+### Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/
+- Summary: Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis. The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared first on SecurityWeek.
+
+### PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/
+- Summary: Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.
 
 ### Elevated error rates for gpt-5.6-luna API requests
 - Source: OpenAI Status
@@ -33,6 +90,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/nms1dpzmh9d9
 - Summary: Oct 21, 16:34 UTC Update - Audit log events continue to be delayed by up to 110 minutes. Pull request updates have recovered. Actions is recovering, and users should no longer experience impact in Actions. Webhook deliveries continue to recover as we work through backlogs. We are monitoring...
+
+### OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html
+- Summary: OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and...
 
 ### Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.
 - Source: Hugging Face Blog
@@ -74,6 +137,12 @@
 - URL: https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html
 - Summary: PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called...
 
+### Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/
+- Summary: Asymptote Labs raises $5.5M seed led by Tower Research Ventures to commercialize its Beacon AI agent runtime security platform. The post Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security appeared first on SecurityWeek.
+
 ### Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands
 - Source: The Hacker News
 - Category: security
@@ -86,10 +155,22 @@
 - URL: https://www.latent.space/p/claude-mods
 - Summary: Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.
 
+### Memory Bugs Account for Most of Chrome’s 353 New Security Fixes
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/
+- Summary: The update fixes 353 flaws, including 163 memory corruption and 125 use-after-free vulnerabilities. The post Memory Bugs Account for Most of Chrome&#8217;s 353 New Security Fixes appeared first on SecurityWeek.
+
 ### NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/nvidia/kumo-forecast
+
+### OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/
+- Summary: In two internal incidents, agents read routine coding instructions as permission to weaken monitoring, and one gave a false answer about it. The post OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor appeared first on SecurityWeek.
 
 ### The Download: introducing the Impossible issue
 - Source: MIT Tech Review AI
@@ -97,11 +178,23 @@
 - URL: https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why?...
 
+### China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html
+- Summary: Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025. "The most distinctive technical marker for Bronze Sandcastle is its consistent use...
+
 ### Critical security issue affecting PHP
 - Source: NCSC UK
 - Category: security
 - URL: https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 - Summary: Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).
+
+### Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html
+- Summary: Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are...
 
 ### We can do impossible things
 - Source: MIT Tech Review AI
@@ -114,6 +207,24 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/
 - Summary: Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in...
+
+### Exercise in a pill
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/
+- Summary: We all know exercise is good for us. It builds muscle, strengthens bones, lowers blood pressure, and boosts mood. By deciphering how movement benefits the body, researchers hope to develop medicines that can offer some of the same perks—without the workout. The idea isn’t to replace exercise but to...
+
+### Interspecies communication
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/
+- Summary: Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient...
+
+### Cleaning up PFAS
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/21/1146128/cleaning-up-pfas-impossible-issue/
+- Summary: Scrubbing Earth of per- and polyfluoroalkyl substances—a.k.a. PFAS or forever chemicals—could eliminate a list of woes for people and planet. Used for decades in everything from nonstick pans to firefighting foams, PFAS have been linked to increased risks of fertility challenges, developmental...
 
 ### INC20000299
 - Source: Snowflake Status
@@ -289,6 +400,96 @@
 - URL: https://arxiv.org/abs/2610.24223
 - Summary: arXiv:2610.24223v1 Announce Type: new Abstract: While aligned large language models (LLMs) can successfully complete many creative tasks, their outputs tend to be highly self-similar. Though solutions to this problem of "mode collapse" have been proposed, comprehensive large-scale surveys of the...
 
+### Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.26941
+- Summary: arXiv:2610.26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and...
+
+### Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.26942
+- Summary: arXiv:2610.26942v1 Announce Type: new Abstract: Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards. To overcome this, we introduce a bounded, online...
+
+### MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.26943
+- Summary: arXiv:2610.26943v1 Announce Type: new Abstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems...
+
+### LightCRS: Lightweight Multi-Domain Conversational Recommendation System
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.26948
+- Summary: arXiv:2610.26948v1 Announce Type: new Abstract: Conversational recommender systems have recently adopted vision-language models to match user dialogue intents with multimodal product information. However, extending these methods to many product domains faces a dilemma: deploying a separately...
+
+### When Planning Problems Become Hard for LLMs: Separating Structural Complexity from Semantic Interpretability
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2610.26964
+- Summary: arXiv:2610.26964v1 Announce Type: new Abstract: Large language models (LLMs) struggle with classical planning, but benchmarks rarely distinguish structural difficulty from the difficulty of interpreting symbolic vocabulary. We examine seven STRIPS domains with BFS-optimal plan lengths. For...
+
+### High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.26866
+- Summary: arXiv:2610.26866v1 Announce Type: new Abstract: Mechanistic studies of large language models localize function in parameters, attention heads or neurons, but those parts do not specify how one inference unfolds. We treat the ordered layer-state trajectory as the empirical process and test whether...
+
+### Steerable Pluralistic Policy Alignment from Anonymized Crowd Feedback
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.26914
+- Summary: arXiv:2610.26914v1 Announce Type: new Abstract: Pluralistic alignment requires AI systems to learn from diverse populations whose preferences may reflect heterogeneous or even conflicting objectives, and to personalize their behavior to individual users. Existing approaches in pluralistic alignment...
+
+### Expert-Guided Rubrics as Dense Reward Signals for Reinforcement Learning in Non-Verifiable Domains
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.26932
+- Summary: arXiv:2610.26932v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as autonomous agents in non-verifiable domains such as financial services, where they must interpret user intent, rewrite queries, and retrieve information under domain-specific constraints....
+
+### Beyond Policy Discrepancy: Capability-Aware Multi-Teacher On-Policy Distillation
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.26950
+- Summary: arXiv:2610.26950v2 Announce Type: new Abstract: Multi-teacher on-policy distillation (MOPD) integrates domain specialists into a shared student, but determining how strongly each teacher should supervise remains challenging. Existing discrepancy-based allocation can assign strong supervision even...
+
+### Dynamic System Inspired Continuous Large Language Model for AI4Science Tasks
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2610.26959
+- Summary: arXiv:2610.26959v1 Announce Type: new Abstract: Scientific foundation models increasingly operate on continuous phenomena, yet still use discrete residual computation. We ask whether pretrained residual transformations can support additional latent computation without expanding the backbone. To...
+
+### H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.26864
+- Summary: arXiv:2610.26864v1 Announce Type: new Abstract: Gradient ascent (GA) is a simple language-model unlearning baseline, but it continues increasing forget loss after useful forgetting has occurred. This unbounded pressure can damage retained utility and make forgotten examples abnormally high-loss. We...
+
+### AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.26865
+- Summary: arXiv:2610.26865v1 Announce Type: new Abstract: Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live talks, while merging every domain into one growing...
+
+### WaveCommitments: Private and Verifiable Speech-Agent Marketplaces
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.26867
+- Summary: arXiv:2610.26867v2 Announce Type: new Abstract: Modern speech systems are evolving into ecosystems of autonomous speech agents that interact, negotiate, and trade assets such as embeddings, spectrograms, or raw data. In such markets, sellers cannot reveal assets for evaluation due to privacy...
+
+### Multimodal Ambivalence and Hesitancy Recognition with Bidirectional Audio--Text Cross-Attention
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.26868
+- Summary: arXiv:2610.26868v1 Announce Type: new Abstract: Ambivalence and hesitancy (A/H) are subtle behavioural states that can be expressed through both what a person says and how it is spoken. This paper presents an audio--text framework for video-level A/H recognition. Full-video transcripts and speech...
+
+### Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2610.26888
+- Summary: arXiv:2610.26888v1 Announce Type: new Abstract: We present Mixture of Phonetic Experts based Low-Rank Adaptation (MoPE-LoRA), a parameter-efficient adaptation framework for accented English speech recognition. Recent mixture-of-experts approaches typically allocate experts per accent, implicitly...
+
 ### Degraded performance in ChatGPT, Codex, and APIs
 - Source: OpenAI Status
 - Category: incidents
@@ -369,6 +570,18 @@
 - URL: https://tldr.takara.ai/p/2610.28604
 - Summary: Current evaluation of LLM-generated debate largely focuses on argumentative quality, leaving the value structure of generated arguments underexamined. We introduce a diagnostic metric framework for comparing how values are expressed and organized in human-reference and AI-generated debates. The...
 
+### SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28585
+- Summary: Simulation is a powerful tool for robotics, but building diverse, simulation-ready scenes at scale remains difficult. Reconstructing scenes from single images is a promising alternative, but visual similarity alone is insufficient: objects must also be recovered, accurately placed, and physically...
+
+### Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28584
+- Summary: Autoregressive models (ARMs) face a "Sequentiality Bottleneck" in reasoning, while diffusion language models (DLMs) offer parallelism but lack semantic coherence. To addresses both limitations, we propose Collaborative Reasoning Asymmetric Learning (CoRAL), a hybrid framework via an Asymmetric...
+
 ### Authentication errors for some API users
 - Source: OpenAI Status
 - Category: incidents
@@ -391,6 +604,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/allenai/fairstress
+
+### CNN-based classifier for subject-independent MBTI Extraversion/Introversion preference classification from short-time EEG signals
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28442
+- Summary: This study examines whether short, minimally preprocessed EEG segments contain sufficient information to distinguish between individuals classified as extraverted or introverted according to the Myers--Briggs Type Indicator (MBTI). EEG recordings from 50 participants were divided into 4-s segments...
 
 ### A Digital Twin to Improve Cyber-Social Impact
 - Source: HF Daily Papers
@@ -534,6 +753,12 @@
 - Category: security
 - URL: https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/
 - Summary: Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals. The post 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach appeared first on SecurityWeek.
+
+### CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27901
+- Summary: Large Language Models (LLMs) are increasingly used as research collaborators for hypothesis refinement, methodological planning, and technical analysis across multi-turn interactions. In this setting, a useful assistant must be accurate, methodologically justified, logically consistent, and...
 
 ### INC20000294
 - Source: Snowflake Status
@@ -816,6 +1041,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.24157
 - Summary: arXiv:2610.24157v1 Announce Type: new Abstract: We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with language models. Existing language model annotation...
+
+### TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27568
+- Summary: Neural combinatorial optimization has enabled fast constructive solvers for the Capacitated Vehicle Routing Problem (CVRP), yet most autoregressive models still construct solutions through sequential node selection and represent route organization only implicitly. We investigate whether route-level...
 
 ### StartLux-Decision v1.1 Tops Decision Index 0.3.2 With Open Models That Think Only When Unsure
 - Source: Pandaily
@@ -2779,232 +3010,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.19955
 - Summary: World models aim to learn compact representations of an environment from observations, enabling agents to predict future states and plan their behaviour. However, most existing approaches learn black-box representations, with limited ability to incorporate prior knowledge about the world. We...
-
-### When Protection Overrides Consequences: Understanding Protection Mode in Large Language Model Decision-Making
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19948
-- Summary: Frontier language models excel at complex tasks yet may prioritize protection over larger physical consequences in simple, urgent decisions. GPT-5.6 Sol, for example, moves a girl playing in shallow water before retrieving a submerged camera. We call this Protection Mode and study it with...
-
-### SAM3RL: Memory Control via Reinforcement Learning for Visual Object Tracking
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19931
-- Summary: Segment Anything Model 3 (SAM 3) is a foundation model for image and video segmentation that sets the state of the art in visual object tracking. Its tracker, inherited from SAM 2, stores information from past frames in a memory bank, managed by a simple First-In-First-Out rule, allowing temporal...
-
-### MemDuet: Learning Dual-Process Memory for Long-Context Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19928
-- Summary: Reasoning over infinitely long documents is becoming a reality with recurrent memory agents. However, increasing context length exacerbates the trade-off between reasoning performance and inference efficiency. Inspired by Kahneman's account of fast and slow thinking, we propose MemDuet, a...
-
-### How GUI Agents Fail: GraceBench for Execution Stability Diagnosis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19900
-- Summary: As GUI agents are increasingly deployed for mobile task automation, their reliability depends not only on final task outcomes, but also on whether they reach these outcomes through stable interaction trajectories. In automation workflows, unnecessary actions, detours, and execution errors can add...
-
-### Frustratingly Easy Majority Voting Using Length Conditioning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19890
-- Summary: Majority Voting (MV) is a simple and widely used strategy which improves the reasoning accuracy of Large Language Models (LLMs) by allocating additional inference-time computation. Specifically, in MV multiple Chain-of-Thoughts (CoTs) are independently sampled and the most frequent final answer is...
-
-### Degraded performance in Codex and ChatGPT Work
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES
-- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for the impacted services. We are still implementing the mitigation.Affected components Codex in ChatGPT Desktop (Degraded performance) ChatGPT Work (Degraded performance)
-
-### The US military’s race to make fake blood
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/14/1145807/us-military-race-to-make-fake-blood/
-- Summary: Its call sign was Morphine 1-2. &#160; In February 2007, the hulking dual-­rotor casualty evacuation helicopter had just flown three wounded soldiers to a field hospital in Balad, north of Baghdad, when another call came: an emergency mission to fly through an insurgent-controlled area in broad...
-
-### Efficient contextual partial monitoring with general function approximation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19804
-- Summary: We study finite stochastic partial monitoring (PM) games with side information, a paradigm of sequential learning with partial feedback. On each round $t \in [T]$, both player and environment observe a context and player chooses an action and environment simultaneously chooses an outcome. The...
-
-### Generative World Simulation with DAO and JING
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19726
-- Summary: We present a Generative World Simulation framework that couples persistent shared world state with continuous first-person audiovisual generation. The framework integrates DAO, a computable world engine, and JING, an Egocentric Interactive Experience Model, to support sustained interaction for...
-
-### Articulation Upper Bounds for Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19721
-- Summary: Language captures only a subset of the perceptions, intuitions and intents that form meaning between speakers. What, then, are the limits of language? We take steps towards measuring this in LLMs as follows: for a set of concepts, we measure how well each concept can be transmitted between two LLMs...
-
-### AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html
-- Summary: A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The...
-
-### MemSilicon Tapes Out MountTai 2026, a 28nm 1Gb RRAM Chip With One Transistor per Four Cells
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/memsilicon-mounttai-2026-1t4r-1gb-rram-tape-out-28nm
-- Summary: MemSilicon says MountTai 2026 is the first high-density 1T4R RRAM chip at gigabit scale: 1Gb on 28nm CMOS, 30Mb/mm2 density, under 20ns access and on-chip ECC. Validation is underway.
-
-### Dobot Launches VEGA 7, a Seven-Axis Force-Controlled Arm for Embodied AI With 50,000-Hour MTBF
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dobot-vega-7-seven-axis-force-control-arm-embodied-ai-50000-hour-mtbf
-- Summary: Dobot's VEGA 7 has torque sensors and brakes in every joint, 0.15N force control accuracy, a 7kg payload and 725mm reach, aimed at wheeled dual-arm robots and embodied AI work.
-
-### PHANES AI Launches SeePhys Hub, a Wearable Kit That Records Vision, Touch and Full-Body Motion
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/phanes-ai-seephys-hub-whole-body-multimodal-data-capture-vision-touch-motion-robot-training
-- Summary: PHANES AI's SeePhys Hub pairs a four-camera headband with wrist, waist and leg trackers and tactile gloves, capturing human motion and touch data for training robots.
-
-### Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-firefox-updates-patch-114-flaws-as-mozilla-unveils-firefox-enterprise/
-- Summary: Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek.
-
-### Doubao Phone Assistant Opens Screen Automation to Third-Party Apps as 151 Apps Opt Out
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/doubao-phone-assistant-saep-screen-automation-third-party-apps-151-opt-out-list
-- Summary: ByteDance's Doubao phone assistant ended the 30-day notice period for its SAEP protocol and will gradually allow AI screen automation in third-party apps that have not opted out.
-
-### Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/
-- Summary: Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.
-
-### ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19693
-- Summary: Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard compliance scores do not distinguish preserving a model's observed format from correcting it, or reveal whether that correction holds across variants. We introduce...
-
-### Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/
-- Summary: The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild. The post Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day appeared first on SecurityWeek.
-
-### MicroSDF: Microfacet-Driven Hybrid Neural SDFs for Mixed-Reflectance Surface Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19681
-- Summary: Accurate 3D reconstruction in real-world environments remains a significant challenge due to the coexistence of reflective and non-reflective surfaces, which pose distinct modeling demands. Existing methods often treat these surface types separately, limiting their generalizability and physical...
-
-### SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/sap-patches-critical-netweaver-s-4hana-vulnerabilities/
-- Summary: The bugs could allow attackers to invoke internal operations and execute code, completely compromising the system. The post SAP Patches Critical NetWeaver, S/4HANA Vulnerabilities appeared first on SecurityWeek.
-
-### Synthetic reaction data from transformation rules for graph-to-sequence pretraining in biodegradation pathway prediction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19640
-- Summary: The scarcity of observed biodegradation reactions constrains the training of product and pathway predictors. We present enviGraph, a framework that generates and curates synthetic reaction data, uses these data to pretrain a graph-to-sequence predictor, and fine-tunes the predictor on observed...
-
-### Risk-Controlled DFT Selection for Machine-Learned Interatomic Potentials
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19630
-- Summary: Automated materials discovery requires evaluating large pools of candidate configurations, with density functional theory (DFT) as a major throughput bottleneck. Pretrained machine-learned interatomic potentials (MLIPs) approximate DFT cheaply, but their errors vary by orders of magnitude across...
-
-### Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html
-- Summary: Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over. The protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into...
-
-### [AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon
-- Summary: Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.
-
-### Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19608
-- Summary: Counts of which brands a large language model names are useful only if they hold long enough to act on. We test this with a pre-registered replication. The same 162 requests (54 questions in English, Estonian and Finnish about three software categories, four of twelve candidate brands per question,...
-
-### PA1-OPD: One-Step Prefix-Augmented On-Policy Distillation for Language Model Pretraining
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19601
-- Summary: Knowledge distillation (KD) improves language-model pretraining by matching teacher distributions at corpus prefixes, but provides no direct supervision at contexts induced by student predictions. We introduce PA1-OPD, which augments corpus-path distillation with teacher feedback after one...
-
-### InstructPro2: Natural Language and Biological Grounding Guided De Novo Protein Design
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19592
-- Summary: The ability to generate proteins with desired functions is a central goal of computational biology. Although natural language can express diverse design objectives, existing protein generation methods often support only narrow tasks or make limited use of biological constraints. We develop...
-
-### Bridging the Topological Divide: Dual-Branch Graph Distillation with Semantic Priors for Robust Cold-Start Recommendation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19578
-- Summary: Graph Collaborative Filtering models have achieved remarkable success in recommendation systems. However, they inherently suffer from a catastrophic representation collapse in strict cold-start scenarios due to the topological isolation of unobserved items. While integrating multi-modal semantic...
-
-### INTACT: Inducing Latent Reasoning on a Frozen Backbone
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19568
-- Summary: Latent reasoning replaces natural-language chains of thought with compact continuous "soft-token" representations, reducing the number of intermediate tokens that must be decoded autoregressively. We use a small external encoder to induce latent reasoning in a frozen backbone model. The encoder...
-
-### Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html
-- Summary: Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL...
-
-### MagicLab's EchoPolicy-0 Tops AI2's MolmoSpaces Combined Board With a 75.4% Manipulation Success Rate
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/magiclab-echopolicy-0-ai2-molmospaces-combined-leaderboard-75-4-percent-magicbrain
-- Summary: MagicLab says its VLM agent framework EchoPolicy-0 averaged 75.4% across four MolmoSpaces tasks, and AI2's published leaderboard data lists it first. Its MagicBrain hit 94.4% on pick.
-
-### Hello Inc.'s Robotaxi Unit Releases HelloWorld, a World Model That Builds Driving Scenes on Demand
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/hello-inc-robotaxi-helloworld-generative-driving-world-model-multi-view-video-lidar
-- Summary: HelloWorld, a generative driving world model from Hello Inc.'s robotaxi team, creates multi-view camera video and lidar data from edited layouts or plain-language prompts for testing.
-
-### Tsinghua's SRHarness Helps AI Agents Find Formulas, While MechBench Tests Whether They Grasp Why
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tsinghua-srharness-agentic-symbolic-regression-mechbench-mechanism-discovery
-- Summary: Tsinghua researchers released SRHarness, an open-source runtime for agentic symbolic regression, and MechBench, a benchmark that tests whether AI can recover the mechanisms behind formulas.
-
-### ModelBest Open-Sources MiniCPM-V 4.7, Its First MoE Multimodal Model, Running in 3GB on a Phone
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/modelbest-minicpm-v-4-7-open-source-35b-a3b-moe-3gb-iphone-on-device
-- Summary: ModelBest's MiniCPM-V 4.7 comes in 35B-A3B and 1B sizes. The MoE version decodes at over 13 tokens/s in about 3GB of memory on an iPhone 17 Pro Max, the company says.
-
-### Huawei Confirms In-House HiSilicon 1-Inch Sensor in XMAGE Z10, Details Kirin 9050 Security
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-hisilicon-in-house-1-inch-ryyb-sensor-xmage-z10-kirin-9050-anti-quantum-h266
-- Summary: Huawei says its XMAGE Z10 camera module uses a HiSilicon-designed 50MP 1-inch RYYB sensor, and that Kirin 9050 is among the first mobile SoCs certified against quantum attacks.
-
-### SaTPO: Text-to-Image Safety Alignment via Transition Preference Optimization
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19563
-- Summary: Safety alignment of text-to-image diffusion models aims to suppress harmful content without compromising useful generation capabilities. However, preferences over completed images compress multidimensional generation factors into a coarse signal, potentially driving changes beyond those required...
-
-### REWIND: Uncertainty-Guided Trajectory Repair for Test-Time Reasoning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.19561
-- Summary: An early mistake in the generated reasoning can constrain all subsequent reasoning. Repeated-generation methods, like MCMC-based approaches, attempt to improve output quality by sampling multiple generations, but their effectiveness can be limited by randomly selecting where to regenerate. On...
 
