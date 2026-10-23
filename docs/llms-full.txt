@@ -6,6 +6,18 @@
 
 ## 2026-10-23
 
+### Degraded experience with ChatGPT app connections using CIMD
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M5NFF94XCJ6CGTD4S78A9BEB
+- Summary: Status: InvestigatingWe are investigating the issue for the listed services.Affected components Connectors/Apps (Degraded performance)
+
+### Help Center Chat Support Degraded
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN
+- Summary: Status: ResolvedAll impacted services have now fully recovered.
+
 ### Network connectivity issues affecting services in North America
 - Source: Cloudflare Status
 - Category: incidents
@@ -449,6 +461,12 @@
 - URL: https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/
 - Summary: The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek.
 
+### A Visual Grounding Benchmark for Retinal OCT with Multimodal Large Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31205
+- Summary: Multimodal large language models (MLLMs) can answer clinical questions about medical images, but trustworthy use requires visual grounding: models should localize the pathology they report rather than rely on spurious shortcuts. Whether MLLMs can visually ground clinical findings in retinal optical...
+
 ### Signal Vulnerability Lets Malicious Callers Block Hang-Ups
 - Source: Security Week
 - Category: security
@@ -473,11 +491,23 @@
 - URL: https://tldr.takara.ai/p/2610.31130
 - Summary: Offline tests can fail to reveal whether an agent update will remain safe after deployment. We operationalize this post-audit mirage using matched safe and harmful lifecycles that expose identical verifier-visible evidence while an isolated scorer records opposite deployment truth. Our theorem...
 
+### Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31113
+- Summary: Recent advances in large language models and agentic workflows offer a new paradigm to early-stage structural design translating design intent into structural models. Although text-to-3D approaches have demonstrated that natural language can be used to produce visual, mesh-based geometric models,...
+
 ### Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
 - Summary: Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed "anomalous activity" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in...
+
+### RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31098
+- Summary: Speculative decoding is a popular decode acceleration method. As such, it is particularly relevant to long-output generation, which requires an increasingly large KV cache. KV cache compression offers a way to constrain costs in long-context drafting. However, compression methods that focus on...
 
 ### Splunk, SolarWinds Release Fresh Security Updates
 - Source: Security Week
@@ -509,6 +539,12 @@
 - URL: https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/
 - Summary: Initial attempts were observed on October 17, and mass activity began shortly after patches were released. The post PHP2Shell Exploitation Started Days Before Patches appeared first on SecurityWeek.
 
+### SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31000
+- Summary: Large language models (LLMs) have shown strong potential for cybersecurity, leading to growing interest in LLM-based automated cybersecurity log analysis. However, current datasets (1) are limited in scale; (2) rely mainly on single-source evidence; and (3) have only binary or multi-class attack...
+
 ### AI’s hidden storage bill: What inference leaves behind
 - Source: MIT Tech Review AI
 - Category: research
@@ -532,6 +568,12 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/wj6r4t6mxq1r
 - Summary: Oct 22, 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22, 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude Cowork and we are monitoring for recovery. Oct 22, 03:50 UTC Investigating - We are investigating...
+
+### Continuous-depth Deep Gaussian Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30890
+- Summary: Deep Gaussian processes (DGPs) are appealing Bayesian regression models, but their standard discrete-depth parameterization often becomes harder to optimize as depth grows. We argue that depth is better treated as a latent continuous evolution than as a long discrete stack. We therefore propose a...
 
 ### Ensemble forecasting with IBM Granite time-series models
 - Source: Hugging Face Blog
@@ -2967,46 +3009,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.20631
 - Summary: arXiv:2610.20631v1 Announce Type: new Abstract: Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging API. Using the...
-
-### MeddeX: A Retrieval-Augmented LLaMA-3 System with Gemini Vision for Evidence-Backed Medical Report Analysis
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.20632
-- Summary: arXiv:2610.20632v1 Announce Type: new Abstract: Modern healthcare generates increasingly complex medical reports that challenge clinical professionals in terms of time and interpretive burden. Manual review processes are slow, error-prone, and difficult to scale. This paper presents MeddeX, a...
-
-### Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.20679
-- Summary: arXiv:2610.20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score means or when it should be trusted. We introduce Counterfactual...
-
-### IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.20681
-- Summary: arXiv:2610.20681v1 Announce Type: new Abstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework combining LLM reasoning with symbolic computation for...
-
-### L2G-SR: Learning to Guide LLM-based Symbolic Regression
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.20685
-- Summary: arXiv:2610.20685v1 Announce Type: new Abstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor an accurate surrogate over a candidate with the right structure. We propose L2G-SR, a framework for...
-
-### When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.20764
-- Summary: arXiv:2610.20764v1 Announce Type: new Abstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system can no longer reliably perceive, reason, and act? We...
-
-### ARIA: Runtime Inspection and Amendment for Multi-Agent Systems
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.20780
-- Summary: arXiv:2610.20780v1 Announce Type: new Abstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly re-executing them to search for corrections does not provide a...
-
-### Spectral Indistinguishability and Learning-Curve Identifiability in Quadratic Networks
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.20678
-- Summary: arXiv:2610.20678v1 Announce Type: new Abstract: We study what spectral summaries and scalar learning curves reveal about centered quadratic networks. We construct analytic positive input densities with exactly Gaussian one- and two-coordinate marginals. Their complete fourth-moment operators are...
 
