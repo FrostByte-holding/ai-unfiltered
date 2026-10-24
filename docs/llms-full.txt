@@ -1370,6 +1370,12 @@
 - URL: https://tldr.takara.ai/p/2610.30004
 - Summary: Alarm root-cause analysis is studied on data that cannot be shared. Operator logs are confidential, so what the field publishes is a causal graph between alarm types rather than per-incident causes, a fixed scenario set, gated, or never released. Two recent benchmarks carry per-incident root causes...
 
+### EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29999
+- Summary: Reinforcement learning (RL) based on PPO-style clipping has become an effective approach to improving the reasoning capabilities of large language models (LLMs). However, standard token-level clipping measures policy change only through the conditional probability of the current token, while the...
+
 ### Delays for Pull Requests and Webhook deliveries
 - Source: GitHub Status
 - Category: incidents
@@ -1528,6 +1534,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.29533
 - Summary: Autoregressive (AR) models have proved effective for zero-shot prediction from longitudinal electronic health records, but impose strictly sequential generation on trajectories containing temporally clustered and interdependent clinical events. We investigate block-based masked diffusion (BD) as an...
+
+### Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29520
+- Summary: Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with...
 
 ### We can do impossible things
 - Source: MIT Tech Review AI
@@ -2171,6 +2183,12 @@
 - URL: https://tldr.takara.ai/p/2610.27960
 - Summary: The Segment Anything Model 3 (SAM3) has achieved significant progress in Promptable Concept Segmentation (PCS) by processing short noun phrases to generate segmentation masks with unique instance identifiers. While SAM3 excels at single-concept segmentation, it falls short in complex, real-world...
 
+### From DQI to C-DQI: Automatic Codebook Generation and Evaluation for Measuring Computational Discourse Quality Index
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27937
+- Summary: Effective democratic deliberation is vital for civic engagement and the health of legislative institutions. However, assessing parliamentary discourse quality is traditionally done using expert-scored, theory-based codebooks (CBs), which are rigid, labor-intensive, and prone to biases. While Large...
+
 ### 970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach
 - Source: Security Week
 - Category: security
@@ -2639,6 +2657,12 @@
 - URL: https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/
 - Summary: U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources...
 
+### Selecting the Best Few with Human Evaluators: Adaptively Combining Ratings and Pairwise Comparisons
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26380
+- Summary: This paper considers a decision-maker tasked with identifying the $k$ best items from a large pool of candidates, such as job applicants, LLMs, award nominees, or new product ideas. The decision-maker learns about the items' quality by soliciting human evaluations. Each evaluation can be costly, so...
+
 ### ConnectWise Suspends Cloud Services in Response to Cyberattack
 - Source: Security Week
 - Category: security
@@ -2686,6 +2710,12 @@
 - Category: security
 - URL: https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/
 - Summary: The persistent, stealthy FortiGate implant was deployed against a telecommunications organization. The post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek.
+
+### Reinforcement Learning Controllers for Fusion Scenario Development
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26138
+- Summary: Scenario development, the design of the waveforms that take a tokamak discharge from breakdown to flat-top, is still an iterative, labour-intensive process. Every candidate scenario has to be simulated with a controller in the loop, and the classical shape and current controllers need low-level...
 
 ### Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic
 - Source: The Hacker News
@@ -2976,37 +3006,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/wechat-harmonyos-8-0-22-a2a-huawei-celia-voice-messages-video-calls
 - Summary: Version 8.0.22 lets users ask Celia to text a WeChat friend or start a voice or video call. Group chats, stickers and WeChat's cloned accounts are not supported yet.
-
-### Tsinghua, ModelBest and OpenBMB Release PilotDeck 2.0, an Open-Source Agent Operating System
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/pilotdeck-2-0-open-source-agent-os-tsinghua-thunlp-modelbest-openbmb-white-box-memory-smart-routing
-- Summary: PilotDeck 2.0 isolates each project in its own WorkSpace, makes agent memory visible and editable, and routes routine subtasks to lighter models, cutting long-task cost by about 83% in team tests.
-
-### DeepSeek Makes V4.1-Flash-1017 Official With MIT-Licensed Weights and Stronger Agentic Coding
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-v4-1-flash-1017-official-release-mit-weights-terminal-bench-wish-style-programming
-- Summary: The minor update lifts Terminal-Bench 4.0 from 31.2 to 42.3, trims run time and output length, and is tuned for DeepSeek Harness and Tencent's CodeBuddy and WorkBuddy. Price is unchanged.
-
-### Peng Cheng Cloud Brain III Puts 10,000P of Domestic AI Computing Into Trial Operation
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/peng-cheng-cloud-brain-iii-10000p-domestic-ai-computing-trial-operation-wcnc-2026
-- Summary: Peng Cheng Laboratory's flagship AI computing facility now runs 10,000P while construction continues toward a planned 16,000P, serving domestic model training and AI for science research.
-
-
-## 2026-10-17
-
-### Meta shakes up the frontiers, open and closed
-- Source: Interconnects
-- Category: open-source
-- URL: https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open
-- Summary: US open weights are back!
-
-### MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
-- Summary: Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named "imgdecode," was uploaded to the package registry on September 30, 2026, by a user named "malfexteste8." It has been...
 
