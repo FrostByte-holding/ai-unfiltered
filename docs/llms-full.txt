@@ -776,6 +776,12 @@
 - URL: https://www.githubstatus.com/incidents/q29p76qtnkyk
 - Summary: Oct 22, 15:18 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 22, 15:18 UTC Update - GitHub Actions workflow and step result processing has...
 
+### SQuAT: Spherical Lattice Vector Quantization-Aware Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31412
+- Summary: Vector quantization (VQ), in particular lattice-based methods, offer strong rate-distortion trade-offs for low-bit large language models (LLMs), yet their behavior under quantization-aware training (VQ-QAT) remains poorly understood. We scale lattice VQ-QAT to billion-parameter LLMs and...
+
 ### Hacker Conversations: Corey Thuen and the Evil Bit
 - Source: Security Week
 - Category: security
@@ -1516,6 +1522,12 @@
 - Category: security
 - URL: https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 - Summary: Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).
+
+### TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29617
+- Summary: Edge medical segmentation must reconcile small model size, high accuracy, and fast inference. TernScope addresses this tradeoff through model--hardware co-design, learning a compact segmentation network whose low-bit operators also simplify hardware execution. Split-channel large-kernel blocks...
 
 ### Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports
 - Source: The Hacker News
@@ -2567,6 +2579,12 @@
 
 ## 2026-10-19
 
+### Preference-Aware Pareto Steering for Multi-Task Speech LLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27200
+- Summary: Speech large language models (LLMs) perform multiple tasks, including automatic speech recognition (ASR), timestamp prediction (TS), and speech translation (ST). Joint training of speech LLMs creates task trade-offs, yet standard training with fixed loss weights does not generally control the...
+
 ### Making the internet better for AI agents might make it worse for everyone else
 - Source: MIT Tech Review AI
 - Category: research
@@ -2584,6 +2602,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.26853
 - Summary: Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic...
+
+### Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26848
+- Summary: In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from...
 
 ### Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy
 - Source: HF Daily Papers
@@ -2746,6 +2770,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/
 - Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist...
+
+### PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.25961
+- Summary: Fast and reliable manipulation is crucial for practical robot deployment. Although Vision-Language-Action (VLA) models have recently shown remarkable progress as generalist robot policies, their execution often remains temporally inefficient. A key source of this inefficiency is that policies learn...
 
 ### Anthropic Acquires Confidential AI Startup Opaque Systems
 - Source: Security Week
@@ -2976,34 +3006,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xian-jiaotong-university-plasmon-enhanced-ferroelectric-2d-phototransistor-ws2-partial-discharge-detection
 - Summary: Gold nanoparticles and a 10nm ferroelectric gate let a WS2 device reach 1.36 x 10^14 Jones detectivity and a 9.51 ms response with no gate voltage, aimed at partial discharge monitoring.
-
-### SUPCON Adopts Alibaba's QwenWork Agent Across Its Marketing Chain, Plans Wider Rollout
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/supcon-alibaba-qwenwork-agent-marketing-chain-solution-proposals-ai-marketing-skill-library
-- Summary: The industrial AI company says QwenWork cuts the time to produce a sales solution proposal from more than five days to about one, and plans to extend it to procurement, finance, HR and R&amp;D.
-
-### Zhejiang University's EMem-Bench Tests Whether Embodied Agents Remember What They Saw and Tried
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhejiang-university-embodiedmemory-bench-emem-bench-2554-episodes-emem-8b-embodied-memory
-- Summary: The benchmark's 2,554 executable episodes test whether agents can recall, update and reuse memories in simulated homes. The top model averages 64.2%; the team's EMem memory system adds large gains.
-
-### Glenfly Samples GF800, Its First Arm SoC Pairing an In-House GPU With a Dedicated NPU
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/glenfly-gf800-first-arm-soc-in-house-gpu-npu-sampling-edge-ai-ciif-2026
-- Summary: The GF800 combines eight Cortex-A78 cores with Glenfly's own GPU, an NPU and unified memory. It has finished chip debugging and is now sampling to customers for edge AI and robotics.
-
-### ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html
-- Summary: ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are...
-
-### WeChat for HarmonyOS Adds A2A Link With Huawei's Celia for Voice Messages and Calls
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/wechat-harmonyos-8-0-22-a2a-huawei-celia-voice-messages-video-calls
-- Summary: Version 8.0.22 lets users ask Celia to text a WeChat friend or start a voice or video call. Group chats, stickers and WeChat's cloned accounts are not supported yet.
 
