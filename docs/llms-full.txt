@@ -6,6 +6,18 @@
 
 ## 2026-10-25
 
+### Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html
+- Summary: A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls...
+
+### PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
+- Summary: Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. "In one case, the attackers targeted a government entity in Europe and within two...
+
 ### Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings
 - Source: Interconnects
 - Category: open-source
@@ -1475,6 +1487,12 @@
 - Category: open-source
 - URL: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
 
+### From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30051
+- Summary: Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have...
+
 ### Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections
 - Source: Security Week
 - Category: security
@@ -1622,6 +1640,12 @@
 - Category: security
 - URL: https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/
 - Summary: The update fixes 353 flaws, including 163 memory corruption and 125 use-after-free vulnerabilities. The post Memory Bugs Account for Most of Chrome&#8217;s 353 New Security Fixes appeared first on SecurityWeek.
+
+### TraceForge: Distilling with Your Own Thinking
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29680
+- Summary: Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is...
 
 ### NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability
 - Source: Hugging Face Blog
@@ -1849,6 +1873,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.29245
 - Summary: Language-model agents are increasingly asked to run experiments, yet benchmarks rarely measure whether those experiments improve the decisions they are meant to inform. We introduce CrashGym, a deterministic, replayable limit-order-book simulator in which an agent must choose between a deleveraging...
+
+### When Multiple Choices Are Correct: Asymmetric Probability Allocation in Jev and Other Decision Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29217
+- Summary: Decision models return normalized probability distributions over candidate choices, which downstream applications can use to select among choices. Although their providers emphasize the reliability of these probabilities, calibration on tasks with a single correct choice does not establish their...
 
 ### On the gradient conjecture at infinity: Finite spherical length for gradient trajectories of definable potentials
 - Source: HF Daily Papers
@@ -2870,6 +2900,12 @@
 - URL: https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/
 - Summary: U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources...
 
+### BOSS: Token-Budgeted Online Sampling and Selection for LLM Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26383
+- Summary: Test-time scaling can improve LLM reasoning, but existing approaches typically adapt generation or apply answer selection after a predetermined generation schedule. We study within-instance allocation: under a hard per-instance prompt-plus-completion token cap, when should inference stop, generate...
+
 ### Selecting the Best Few with Human Evaluators: Adaptively Combining Ratings and Pairwise Comparisons
 - Source: HF Daily Papers
 - Category: open-source
@@ -2942,6 +2978,12 @@
 - URL: https://tldr.takara.ai/p/2610.26138
 - Summary: Scenario development, the design of the waveforms that take a tokamak discharge from breakdown to flat-top, is still an iterative, labour-intensive process. Every candidate scenario has to be simulated with a controller in the loop, and the classical shape and current controllers need low-level...
 
+### Optimal Multi-Kernel Combination for Online Multi-Label Classification
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26123
+- Summary: Multi-label classification is particularly challenging in streaming scenarios, where data arrives sequentially. Online kernel methods offer a promising solution. However, prevailing methods rely on a single preselected kernel, making them prone to suboptimal choices since the global data...
+
 ### Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic
 - Source: The Hacker News
 - Category: security
@@ -2965,46 +3007,4 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/
 - Summary: What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed...
-
-### How far can we push computing?
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/
-- Summary: MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist...
-
-### PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.25961
-- Summary: Fast and reliable manipulation is crucial for practical robot deployment. Although Vision-Language-Action (VLA) models have recently shown remarkable progress as generalist robot policies, their execution often remains temporally inefficient. A key source of this inefficiency is that policies learn...
-
-### Anthropic Acquires Confidential AI Startup Opaque Systems
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/
-- Summary: Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware. The post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek.
-
-### Out-of-Distribution Detection in Continual Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.25901
-- Summary: Out-of-distribution detection in continual learning (OOD-CL) is highly challenging, as it requires (i) learning a sequence of tasks without catastrophic forgetting, and (ii) identifying unknown samples (OOD) without access to known (in-distribution (ID)) data from past tasks, where standard...
-
-### Volcano Engine Offers Up to ¥200,000 for Seedance AI Dramas Ranked on Hongguo
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/volcano-engine-seedance-premium-ai-drama-incentive-hongguo-top50-200000-yuan
-- Summary: AI comics and digital-human dramas made fully with Seedance, over 50% Seedance 2.5, can earn up to 200,000 yuan if they hit Hongguo's monthly AI-drama TOP50 and pass generation-log checks.
-
-### Lawaken Opens Pre-Sale of X-AI Memory Glasses From ¥699 With MCP Agent Hooks
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/lawaken-x-ai-memory-glasses-presale-699-yuan-12-hour-recording-mcp-workbuddy
-- Summary: The 26-gram glasses record up to 12 hours, translate 128 languages, sync with Tencent WorkBuddy and expose memory to Doubao, Feishu, QwenWork, Codex and Claude via MCP.
-
-### SenseTime's SenseCore Details Prefill/Decode Split Clusters for Agentic Inference
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/sensetime-sensecore-csdi-summit-prefill-decode-heterogeneous-inference-token-factory
-- Summary: At CSDI Summit, SenseCore described domestic Prefill and high-bandwidth Decode linked by KV Cache, about 5x token throughput in one test, and a path from 6 to 10 trillion tokens a day by Q4 2026.
 
