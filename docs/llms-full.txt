@@ -6,6 +6,18 @@
 
 ## 2026-10-25
 
+### Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber
+- Summary: #20
+
+### Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/
+- Summary: Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek.
+
 ### Elevated errors for Claude Fable 5.1
 - Source: Anthropic Status
 - Category: incidents
@@ -839,6 +851,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html
 - Summary: Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network...
+
+### Diffusion Language Models for Perplexity-Aware Black-Box Attacks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31558
+- Summary: \emph{Continuous-space} attacks find prompts that trigger malicious behaviors, such as overthinking, in black-box LLMs by sampling or optimizing over a low-dimensional Gaussian latent space and decoding it to text through a \emph{random mapping} and nearest-token lookup. Because the random mapping...
 
 ### Errors loading Issues, Pull Requests, and search results
 - Source: GitHub Status
@@ -2042,6 +2060,12 @@
 - URL: https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H
 - Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Files (Operational) Agent (Operational) Realtime (Operational) GPTs (Operational) Search (Operational) Login (Operational) Conversations (Operational) Images (Operational) Moderations (Operational) Compliance API...
 
+### From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29140
+- Summary: Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that largely exclude AI. Institutions in India have an approved intake of nearly 2.9 million seats in engineering...
+
 ### METASTONE Launches TokenFleet to Schedule LLM Inference Across GPU Clusters and Data Centers
 - Source: Pandaily
 - Category: chinese-ai
@@ -2708,6 +2732,12 @@
 - URL: https://tldr.takara.ai/p/2610.27468
 - Summary: Adapting a forecasting system to a changing world classically means retraining. We ask whether the task of continually learning regimes for time series forecasting can be represented by a piece of text: a guidance block, evolved by outcome-driven reflection and used in a frozen LLM forecaster's...
 
+### Ask to Distill: Learning to Synthesize Data for On-Policy Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27450
+- Summary: On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as carriers of distributional knowledge transfer. How can we assess whether a newly generated question is valuable for distillation, and learn to generate better questions---without...
+
 ### Hugging Face ❤️ TorchTPU: TPUs, Natively
 - Source: Hugging Face Blog
 - Category: open-source
@@ -2725,6 +2755,12 @@
 
 
 ## 2026-10-19
+
+### When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27305
+- Summary: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden. We...
 
 ### Preference-Aware Pareto Steering for Multi-Task Speech LLMs
 - Source: HF Daily Papers
@@ -2858,6 +2894,12 @@
 - URL: https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/
 - Summary: Threat actors have been observed delivering cryptocurrency miners and proxy software. The post Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure appeared first on SecurityWeek.
 
+### Learning SOCP Solver Dynamics with Graph Neural Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.26285
+- Summary: Second-order cone programs (SOCPs) are a fundamental class of convex optimization problems widely applied across engineering domains. Classical interior-point methods are robust and accurate, but their iterative nature can be costly in real-time or repeated-solve settings. This has motivated...
+
 ### The Download: preserving the Arctic permafrost, and playful AI agents
 - Source: MIT Tech Review AI
 - Category: research
@@ -2965,46 +3007,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/sensetime-sensecore-csdi-summit-prefill-decode-heterogeneous-inference-token-factory
 - Summary: At CSDI Summit, SenseCore described domestic Prefill and high-bandwidth Decode linked by KV Cache, about 5x token throughput in one test, and a path from 6 to 10 trillion tokens a day by Q4 2026.
-
-### Xiaomi Auto Rolls Out HyperOS 1.18 With Smoother City Assist for SU7 and YU7
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-auto-hyperos-1-18-ota-su7-yu7-had-city-assisted-driving-parking-nav
-- Summary: SU7 and YU7 with Xiaomi HAD get smoother city accel, lane changes and intersections, quieter lane-change prompts, and wider YU7 parking-spot navigation to elevators and chargers.
-
-### ACE Robotics Releases ACE-Brain-0.6, a 9B Model Tuned for Visual Grounding on Spatial Data
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ace-robotics-ace-brain-0-6-9b-visual-grounding-spatial-supervision-qwen3-5-gpt-6-astra
-- Summary: Company-reported scores: ACE-Brain-0.6 beats GPT-6 Astra on six of eight grounding tests after ~1M spatial samples. Public repos still list 0/0.5, not 0.6 weights.
-
-### Manifold-Constrained Residual Adaptation with Frame-Adaptive Layer Aggregation for Speaker Verification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.25892
-- Summary: Large self-supervised speech models provide powerful representations for speaker verification, but full fine-tuning is expensive. Most conventional adapters insert small trainable modules to modify the output of each layer, while keeping the original residual connections unchanged. Building on our...
-
-### Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html
-- Summary: A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16. He showed the attack working against home gateways...
-
-### OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
-- Summary: An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key...
-
-### NADS: Navigator-Guided Data Selection for Mitigating Catastrophic Forgetting in Fine-Tuning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.25751
-- Summary: Catastrophic forgetting is a central obstacle in single-stage fine-tuning of large language models (LLMs) on a new task, especially when the original pretraining data are unavailable. Synthetic data offers a practical mitigation path, but candidate pools are often noisy and redundant, making...
-
-### When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22379
-- Summary: arXiv:2610.22379v1 Announce Type: new Abstract: Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical...
 
