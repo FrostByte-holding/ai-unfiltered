@@ -1007,6 +1007,12 @@
 - URL: https://tldr.takara.ai/p/2610.31108
 - Summary: While functional magnetic resonance imaging (fMRI) decoders reconstruct images and 3D objects, recovering the metric geometry of rooms from a moving viewpoint remains an open challenge. We introduce, to our knowledge for the first time, the task of reconstructing 3D layouts of held-out scenes using...
 
+### Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31107
+- Summary: Web agents increasingly serve the same user across repeated online tasks such as booking travel, shopping, and scheduling, so their long-term usefulness depends on how well they know the user's preferences. Passive memory and personalization methods cannot obtain preferences the user never reveals,...
+
 ### Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation
 - Source: The Hacker News
 - Category: security
@@ -1102,6 +1108,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.30890
 - Summary: Deep Gaussian processes (DGPs) are appealing Bayesian regression models, but their standard discrete-depth parameterization often becomes harder to optimize as depth grows. We argue that depth is better treated as a latent continuous evolution than as a long discrete stack. We therefore propose a...
+
+### HimmBO: High-Dimensional Interactive Model-Merging Bayesian Optimization for Image Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30875
+- Summary: Fine-tuning has become a common way to customize text-to-image models, leading to community collections of over 100K lightweight adapters. Adapters sharing a base model can be merged with continuous coefficients. This turns a large collection into a high-dimensional continuous design space, which...
 
 ### Ensemble forecasting with IBM Granite time-series models
 - Source: Hugging Face Blog
@@ -1646,6 +1658,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.29680
 - Summary: Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is...
+
+### Lifting PCA in the Wasserstein Space
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29679
+- Summary: Principal Component Analysis (PCA) is a fundamental tool for statistical dimension reduction, yet no canonical extension to distribution-valued data has emerged within the framework of optimal transport. While Wasserstein barycenters and Wasserstein least-squares regression provide canonical...
 
 ### NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability
 - Source: Hugging Face Blog
@@ -2194,6 +2212,12 @@
 - URL: https://status.openai.com//incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG
 - Summary: Status: ResolvedOn October 20, from 9:35 to 10:35 a.m. PDT, some API users near Illinois experienced authentication errors. We rolled back a configuration change, and service was restored.Affected components Login (Operational)
 
+### The Dynamics of Collapse and Recovery in Clustered Federated Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28565
+- Summary: Clustered federated learning (CFL) can suffer from cluster collapse. In particular, under unfavorable initialization, early client assignments concentrate heterogeneous groups on one cluster model, which is then trained toward a pooled compromise, while another model receives no updates. Since the...
+
 ### Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software
 - Source: The Hacker News
 - Category: security
@@ -2437,6 +2461,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.27782
 - Summary: Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human...
+
+### Give the Model a Finger: Developmentally Aligned Evaluation of Counting in Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27756
+- Summary: Vision-language models (VLMs) are exact on small sets and drift into estimation on larger ones, a profile reminiscent of children before they master counting. Children cross the barrier with epistemic actions: pointing at each item while reciting number words, moving counted items aside,...
 
 ### ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan
 - Source: The Hacker News
@@ -2977,34 +3007,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.26138
 - Summary: Scenario development, the design of the waveforms that take a tokamak discharge from breakdown to flat-top, is still an iterative, labour-intensive process. Every candidate scenario has to be simulated with a controller in the loop, and the classical shape and current controllers need low-level...
-
-### Optimal Multi-Kernel Combination for Online Multi-Label Classification
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.26123
-- Summary: Multi-label classification is particularly challenging in streaming scenarios, where data arrives sequentially. Online kernel methods offer a promising solution. However, prevailing methods rely on a single preselected kernel, making them prone to suboptimal choices since the global data...
-
-### Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html
-- Summary: A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. "The...
-
-### MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/
-- Summary: Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics. The post MITRE ATT&#038;CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek.
-
-### Inside the quest to combat Arctic fires and save the planet’s frozen carbon
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/
-- Summary: In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and...
-
-### AI researchers stranded Claude on a virtual desert island. It started to “play.”
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/
-- Summary: What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed...
 
