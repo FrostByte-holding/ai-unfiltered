@@ -6,6 +6,42 @@
 
 ## 2026-10-25
 
+### Elevated errors for Claude Fable 5.1
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/vx06kp8wfpq2
+- Summary: Oct 25, 08:49 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:08 PT / 08:08 UTC to 01:29 PT / 08:29 UTC. Oct 25, 08:30 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 25, 08:17 UTC...
+
+### Elevated errors for Claude Sonnet 5.5 and other models
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/334jvgbrc4ff
+- Summary: Oct 25, 07:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 23:05 PT on October 24 / 06:05 UTC on October 25 to 23:35 PT on October 24 / 06:35 UTC on October 25. Oct 25, 06:35 UTC Monitoring - A fix has been deployed for the issue affecting Claude...
+
+### Meituan Waimai Offers Restaurants a Free AI Store Manager for Diagnosis, Store Checks and Menus
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/meituan-waimai-free-ai-store-manager-restaurants-diagnosis-store-inspection-menu-operations
+- Summary: Meituan Waimai will give restaurant merchants across China free access to an AI store manager that diagnoses operations, inspects stores, manages menus and helps new outlets, then tracks the results.
+
+### MOSS-Image Passes 1 Million Downloads in Four Days and Tops Hugging Face Text-to-Image Trends
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/moss-image-1-million-downloads-four-days-hugging-face-trending-community-lora-quantized-versions
+- Summary: Four days after release, the open-source MOSS-Image model from MOSI and OpenMOSS drew about 1.3 million downloads across repositories, 1.4k GitHub stars and a wave of community speed-ups and LoRAs.
+
+### Qwen's Jiang Guanjun Lays Out a Personal Agent Framework Built on Models, Memory and Ecosystem
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/qwen-jiang-guanjun-cncc-personal-agent-framework-model-memory-ecosystem-8000-atomic-capabilities
+- Summary: At CNCC 2026, Alibaba's Qwen AI algorithm lead said personal agents need models, memory and an ecosystem working together, and described a map of 8,000+ atomic capabilities across 30+ industries.
+
+### OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html
+- Summary: OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. "Based on the current state of alignment research, monitoring systems, and the security of internet...
+
 ### Baidu Health Adds a Video Health Camera and Doctor Matching, Says AI Services Top 50M Monthly Users
 - Source: Pandaily
 - Category: chinese-ai
@@ -1381,6 +1417,12 @@
 
 ## 2026-10-21
 
+### Protegrity-PII Technical Report
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30518
+- Summary: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precision of 0.907 on a new benchmark we propose, PII-SCOPE. Our model processes text in 0.49 seconds per million characters at \$0.0005 per million...
+
 ### Degraded performance for Claude Fable 5
 - Source: Anthropic Status
 - Category: incidents
@@ -1473,6 +1515,12 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/amazon/profiling-torchneuron-part-1
+
+### Preventing Model Extraction in Contextual Linear Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29918
+- Summary: Consider a contextual linear optimization problem, where a predict-then-optimize (PTO) system returns optimal decisions without revealing the cost vectors used in its downstream linear program. Our focus is on how to prevent attackers, who can submit context queries, from extracting the underlying...
 
 ### Expandable Modality Experts for Medical Vision-Language Learning
 - Source: HF Daily Papers
@@ -1604,11 +1652,23 @@
 - URL: https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html
 - Summary: Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are...
 
+### Unlocking Spatial Grounding in Flow-Matching Models via SNR Tuning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29581
+- Summary: Despite the success of foundation models in image synthesis, achieving fine-grained spatial control remains a significant challenge, typically requiring auxiliary structural adapters or complex inference-time steering. While modern vision-language (VLM) text encoders possess the latent capacity to...
+
 ### Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/
 - Summary: The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first on SecurityWeek.
+
+### Implicit Feature Reweighting for Label-Free Graph Generalization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29571
+- Summary: Graph-level out-of-distribution (OOD) generalization is critical for deploying graph neural networks in real-world applications where distribution shifts are inevitable. Existing approaches typically require class labels during representation learning to decide which substructures are predictive,...
 
 ### Block Diffusion for Longitudinal EHR: Accuracy, Efficiency, and Representation Trade-offs
 - Source: HF Daily Papers
@@ -2312,6 +2372,12 @@
 - URL: https://tldr.takara.ai/p/2610.27863
 - Summary: The increasing use of large language models for code generation calls for methods that distinguish purely human-written code from AI-involved code: files in which any part, however small, was generated or substantially modified by a model. Beyond flagging such files, we aim to localize the lines or...
 
+### Certified Adaptive List Decoding for Error-Correcting Codes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27805
+- Summary: Maximum-likelihood (ML) decoding of linear block codes is NP-hard, so neural decoders are evaluated by how closely they approach it. We observe that proving a candidate optimal can be far easier than finding it, and build a decoder that does both. We cast decoding as a search over an...
+
 ### RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation
 - Source: HF Daily Papers
 - Category: open-source
@@ -2941,70 +3007,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.22379
 - Summary: arXiv:2610.22379v1 Announce Type: new Abstract: Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical...
-
-### Trust but Verify: Designing Region-Inhomogeneous Forward Dynamics for Discrete Diffusion
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22380
-- Summary: arXiv:2610.22380v1 Announce Type: new Abstract: Continuous diffusion treats the forward process as a design space; discrete language diffusion often uses absorbing corruption, leaving context fully trusted throughout generation. This makes trust binary: corrupted context is copied as ground truth,...
-
-### Binding-Specific Relearning Savings for Test-Time Continual Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22381
-- Summary: arXiv:2610.22381v1 Announce Type: new Abstract: When a fact becomes harder to elicit from a language model, has the model lost it, or has it merely become less accessible? Parameter-updating test-time continual learning agents are usually evaluated by current output accuracy; we ask whether that...
-
-### CGDT-CESN: Correlation-Guided and Dynamics-Trained Clustered Echo State Network for Multivariate Time-Series Prediction
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22430
-- Summary: arXiv:2610.22430v1 Announce Type: new Abstract: Accurate prediction of multivariate time series requires models that simultaneously capture variable-specific dynamics and cross-variable interactions. In this work, a Correlation-Guided and Dynamics-Trained Clustered Echo State Network (CGDT-CESN) is...
-
-### BOLT: Multi-Bottleneck Bound-Guided Learning for Flexible Job-Shop Scheduling with Time Lags and Resource-Coupled Transport
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22433
-- Summary: arXiv:2610.22433v1 Announce Type: new Abstract: Flexible job-shop scheduling becomes resource-coupled when a scarce vehicle fleet moves jobs between stations, because the schedule sets the transport waits. BOLT (bound-oriented learning for transport-coupled scheduling) builds a lower bound from...
-
-### Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.22428
-- Summary: arXiv:2610.22428v1 Announce Type: new Abstract: In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of 268M parameters, and because quantisation methods leave the embedding in 16-bit, it is also most of the file once the rest of the...
-
-### Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.22454
-- Summary: arXiv:2610.22454v1 Announce Type: new Abstract: Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with token-, layer- and attention-path interventions on...
-
-### From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.22468
-- Summary: arXiv:2610.22468v1 Announce Type: new Abstract: Action nominal constructions (ANCs) express events in nominal form, with their argument marking following patterns found in clauses or ordinary noun phrases. In this paper, we investigate how different grammatical configurations affect language...
-
-### RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.22507
-- Summary: arXiv:2610.22507v1 Announce Type: new Abstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In...
-
-### AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.22511
-- Summary: arXiv:2610.22511v1 Announce Type: new Abstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these...
-
-### TRACE: Transformer Residual Activation Codebook Encoding for Communication-efficient Distributed Edge Inference
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22435
-- Summary: arXiv:2610.22435v1 Announce Type: new Abstract: Distributed Transformer inference across co-located edge devices is fundamentally communication-bound, as exchanging activations between sequence-parallel partitions dominates inference latency under commodity edge bandwidths. Existing compression...
-
-### Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.22436
-- Summary: arXiv:2610.22436v1 Announce Type: new Abstract: The signal generation capabilities of a novel data augmentation framework are examined in aerospace structures. First, the framework learns class-conditional temporal and spectral characteristics of the measured structural responses. It uses...
 
