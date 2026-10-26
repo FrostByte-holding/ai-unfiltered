@@ -6,11 +6,77 @@
 
 ## 2026-10-26
 
+### Ads POST /ads/* endpoints elevated error rates
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M5WPZTT0385GMEV1353ZC4AM
+- Summary: Status: IdentifiedWe have identified that users are experiencing elevated errors for POST /ads/* endpoints. We are working on implementing a mitigation.Affected components Ads API (Degraded performance)
+
+### Supabase’s Plan for a Billion AI-Built Apps
+- Source: Latent Space
+- Category: open-source
+- URL: https://latent.space/p/supabase_s_plan_for_a_billion_ai-built_apps/
+- Summary: AI agents are creating more software—and that changes what a backend needs to do. Supabase co-founders Paul Copplestone and Ant Wilson join swyx to discuss running long-lived workloads alongside the database, making schemas easier for agents to underst...
+
+### PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/php-issues-second-windows-security.html
+- Summary: PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when...
+
+### Will the real Anthropic please stand up
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/
+- Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s...
+
+### Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html
+- Summary: Cybersecurity researchers are calling attention to what they say is a "recurring social engineering pattern" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. "A consistent pattern of attacker...
+
+### Industrial Vendors Check Products for PHP2Shell Vulnerabilities
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/
+- Summary: Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek.
+
+### Genesys Hack Exposes Customer Data From Internal Systems
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/
+- Summary: The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.
+
+### Stolen AI Reasoning Could Help China Build Cheaper Rivals
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/
+- Summary: Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek.
+
+### PHP2Shell Exploitation Moves From Probes to Working Shells
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/
+- Summary: Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on SecurityWeek.
+
+### The Download: everyday AI harms and the race to nuclear spaceflight
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive...
+
 ### Mythos 5 Ignored Real-World Harm in July Attack
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/
 - Summary: The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub. The post Mythos 5 Ignored Real-World Harm in July Attack appeared first on SecurityWeek.
+
+### The focus on AI safety disasters ignores everyday harms
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/
+- Summary: Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear...
 
 ### Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations
 - Source: The Hacker News
@@ -1136,6 +1202,12 @@
 - URL: https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/
 - Summary: The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek.
 
+### Moving Regions, Not Moving Objects: Segmenting What Actually Moves under Camera Motion
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.31209
+- Summary: Moving object segmentation is conventionally formulated at the sequence and object level, marking an entire instance as moving once it moves anywhere in a video. Recent instantaneous formulations distinguish moving from stationary intervals, but still generate masks at the object level through...
+
 ### A Visual Grounding Benchmark for Retinal OCT with Multimodal Large Language Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -1636,6 +1708,12 @@
 - URL: https://tldr.takara.ai/p/2610.30518
 - Summary: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precision of 0.907 on a new benchmark we propose, PII-SCOPE. Our model processes text in 0.49 seconds per million characters at \$0.0005 per million...
 
+### Towards Faithful Data Selection: Statistical Limits and Scalable Algorithms
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30442
+- Summary: What does it mean to have an optimal data selection algorithm? Optimality is conventionally framed as finding a subset that minimizes the population error of the classifier trained only on that subset. Our starting point in this work is first to show that this goal is information-theoretically...
+
 ### Degraded performance for Claude Fable 5
 - Source: Anthropic Status
 - Category: incidents
@@ -1924,6 +2002,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.29520
 - Summary: Retrieval-based in-context learning (ICL) enables large language models (LLMs) to predict tabular labels from similar examples, but it remains unclear whether LLM inference improves on direct voting over those same examples. We address this question by comparing four general-purpose LLMs with...
+
+### Shortcut-Resistant CAM Distillation for Long-Tailed Recognition
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29508
+- Summary: Real-world datasets often follow a long-tailed distribution, making generalization to tail classes difficult. We revisit this problem through the lens of shortcut learning, where models prefer the easiest predictive cues (e.g., background or textures) over object-centric semantics, especially under...
 
 ### We can do impossible things
 - Source: MIT Tech Review AI
@@ -2442,6 +2526,12 @@
 - URL: https://tldr.takara.ai/p/2610.28430
 - Summary: The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape. Traditional cybersecurity models, primarily based on the Confidentiality, Integrity, and Availability (CIA triad), fail to capture the...
 
+### StreamEval: Evaluating Interactive Streaming Video Generation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28402
+- Summary: We introduce StreamEval with four key features: (1) First interactive streaming video generation benchmark. (2) Fully open source. Benchmark data, evaluation code, protocols, and scoring rules are publicly available. (3) Comprehensive coverage. Five tasks cover avatar dialogue, avatar performance,...
+
 ### US Agencies Detail Incident Response Practices for Rogue AI Agents
 - Source: Security Week
 - Category: security
@@ -2488,6 +2578,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html
 - Summary: A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites...
+
+### TPO: Tri-level Distributionally Robust Learning for OOD Direct Preference Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28229
+- Summary: Direct Preference Optimization (DPO) minimizes empirical risk over observed preference comparisons, implicitly assuming that the training preference distribution matches the deployment preference distribution. In practice, this i.i.d. assumption often fails, as preference distribution shift...
 
 ### AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign
 - Source: Security Week
@@ -2914,98 +3010,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.23935
 - Summary: arXiv:2610.23935v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens...
-
-### OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.24087
-- Summary: arXiv:2610.24087v1 Announce Type: new Abstract: Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or...
-
-### Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.24118
-- Summary: arXiv:2610.24118v1 Announce Type: new Abstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role distinctions can be recovered from large language models,...
-
-### Prefix-Tuning for Arbitrary Output Sequences on Pretrained Transformers
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.24123
-- Summary: arXiv:2610.24123v1 Announce Type: new Abstract: Prefix-tuning is a parameter-efficient fine-tuning method for large language models (LLMs) that steers model outputs by prepending task-specific prefix representations to the input sequence. Despite its practical success, the theoretical understanding...
-
-### Preservation and loss of algorithmic structure in experimental diffusion of joint-action norms
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.24150
-- Summary: arXiv:2610.24150v1 Announce Type: new Abstract: Everyday norms of social interaction - e.g. norms of sharing space, taking turns, or queuing - are essential to large societies, offering structured procedures for common interactions. However, it remains unclear how the underlying algorithms of these...
-
-### CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.24157
-- Summary: arXiv:2610.24157v1 Announce Type: new Abstract: We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with language models. Existing language model annotation...
-
-### TRCM: Topology-Aware Route-Consistency Modeling for Robust Neural Vehicle Routing
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.27568
-- Summary: Neural combinatorial optimization has enabled fast constructive solvers for the Capacitated Vehicle Routing Problem (CVRP), yet most autoregressive models still construct solutions through sequential node selection and represent route organization only implicitly. We investigate whether route-level...
-
-### StartLux-Decision v1.1 Tops Decision Index 0.3.2 With Open Models That Think Only When Unsure
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/startlux-decision-v1-1-decision-index-0-3-2-autothink-open-models
-- Summary: StartLux's 27B Instant model leads the community-run Decision Index 0.3.2 with a Full score of 69.12. The family spans eight open models from 0.8B to 27B under a non-commercial license.
-
-### Tencent's Marvis AI Butler Lands in the Kylin Software Store With Support for Domestic CPUs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-marvis-ai-butler-kylin-software-store-v10-sp1-domestic-cpu
-- Summary: Marvis now installs on Kylin Desktop OS V10 SP1 for x86 and ARM, can call Kylin's security and system tools, and is open to government, state-owned and industry partners.
-
-### Tencent Launches Free WorkBuddy Education Edition With 2,000 Monthly Credits for Every Teacher
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-workbuddy-education-public-welfare-edition-teachers-2000-credits-monthly
-- Summary: Tencent SSV's free WorkBuddy edition gives teachers 12 months of credits, 100-plus expert skills built with Peking University and Beijing Normal University, and five classroom tools.
-
-### AgiBot's Lingxi X2 Handles 46,686 Patient Queries at Peking University People's Hospital Front Desk
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/agibot-lingxi-x2-peking-university-peoples-hospital-guide-ant-afu-46686-interactions
-- Summary: Running Ant Group's Afu medical assistant, the half-size humanoid worked 66 days at an outpatient help desk, averaging about 707 interactions a day and peaking at 1,420.
-
-### X Square Robot Launches X2Real, an Evolving Simulation Benchmark It Says Tracks Real-Robot Results
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/x-square-robot-x2real-evolving-simulation-benchmark-embodied-ai-sim-to-real
-- Summary: X2Real calibrates simulated robots against real hardware, spans 44 tasks in 10 categories, and uses AI agents to write new tests. The company reports 0.96 sim-to-real success correlation.
-
-### Ant Group Open-Sources Ming-3.0-tts, Small Speech Models With Voice Design and Fine Control
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ant-group-inclusionai-ming-3-0-tts-open-source-0-5b-tiny-moe-voice-control
-- Summary: Ming-3.0-tts ships under MIT in two sizes, with voice cloning, text-based voice design, 14 paralinguistic tags, seven languages plus Sichuanese and Cantonese, and multi-speaker podcasts.
-
-### Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.27468
-- Summary: Adapting a forecasting system to a changing world classically means retraining. We ask whether the task of continually learning regimes for time series forecasting can be represented by a piece of text: a guidance block, evolved by outcome-driven reflection and used in a frozen LLM forecaster's...
-
-### Ask to Distill: Learning to Synthesize Data for On-Policy Distillation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.27450
-- Summary: On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as carriers of distributional knowledge transfer. How can we assess whether a newly generated question is valuable for distillation, and learn to generate better questions---without...
-
-### Hugging Face ❤️ TorchTPU: TPUs, Natively
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/hf-torchtpu
-
-### AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/anylanguagemodel-1-0
 
