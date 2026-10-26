@@ -6,6 +6,12 @@
 
 ## 2026-10-26
 
+### Incident with Actions, Issues, API Requests and Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/f1vvv30224wd
+- Summary: Oct 26, 18:57 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 26, 18:54 UTC Update - We saw elevated latency affecting REST API requests, including...
+
 ### Ads POST /ads/* endpoints elevated error rates
 - Source: OpenAI Status
 - Category: incidents
@@ -649,6 +655,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html
 - Summary: The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16,...
+
+### Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.32486
+- Summary: Deploying Vision-Language Models for video anomaly detection confronts a fundamental constraint. Their semantic reasoning demands computational budgets incompatible with the scale of real-world video streams. We present Signal-Aware Adaptive Fusion (SAAF), a framework that achieves efficient...
 
 ### China APT Uses AI Pentest Tool Artex in ConnectWise Attacks
 - Source: Security Week
@@ -1766,6 +1778,12 @@
 - URL: https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/
 - Summary: Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis. The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared first on SecurityWeek.
 
+### Plausible but Unimplantable: A Trustworthiness Audit of Shape Completion Foundation Models for Cranial Defect Reconstruction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.30035
+- Summary: A patient who has lost part of the skull vault needs an implant that fits the defect exactly, and such implants are still drawn by hand in CAD by specialists, which makes each case slow and expensive. The task can be considered as a shape completion problem, so pretrained completion models, and now...
+
 ### PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors
 - Source: Security Week
 - Category: security
@@ -2393,6 +2411,12 @@
 - URL: https://tldr.takara.ai/p/2610.29140
 - Summary: Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that largely exclude AI. Institutions in India have an approved intake of nearly 2.9 million seats in engineering...
 
+### Diffusion Posterior Sampling with Uncertain Forward Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.29102
+- Summary: Diffusion posterior samplers reconstruct signals by combining a pretrained diffusion prior with a measurement likelihood specified by a forward model and a noise model. Calibration and reference data can characterize uncertainty in the forward model's parameters, such as blur kernels or detector...
+
 ### METASTONE Launches TokenFleet to Schedule LLM Inference Across GPU Clusters and Data Centers
 - Source: Pandaily
 - Category: chinese-ai
@@ -2669,6 +2693,12 @@
 - URL: https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/
 - Summary: Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent’s risk rises. The post Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring appeared first on SecurityWeek.
 
+### Reinforcement learning for hardware acceleration and system-level optimization on FPGA and integrated-circuit platforms: A survey
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.28699
+- Summary: Reinforcement learning (RL) enables adaptive and autonomous decision-making in embedded, edge, and heterogeneous computing systems. Field-programmable gate arrays (FPGAs) and integrated circuits (ICs) offer low latency, energy efficiency, and architectural flexibility for RL deployment, while...
+
 ### Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader
 - Source: The Hacker News
 - Category: security
@@ -2800,6 +2830,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/chery-ziwei-chips-c100-central-computing-s1500-sic-m-series-control
 - Summary: At its 2026 Global Innovation Conference, Chery showed three Ziwei chip lines: a C100 central computing chip, an S1500 1,500V silicon carbide power chip on 8-inch wafers, and M-series control chips.
+
+### Hearsay or Fact? How Framing and Elicitation Shape LLM Probability Updates
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.27745
+- Summary: Large language models (LLMs) are increasingly used as judgment assistants and as stand-in participants in psychology experiments, yet little is known about how much their probability estimates move in response to a single new piece of information. We pair premise-hypothesis items from $δ$-SNLI with...
 
 ### CILA: Confusion-based Instance-wise Logit Adjustment for Long-Tailed Recognition
 - Source: HF Daily Papers
@@ -2974,40 +3010,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.24090
 - Summary: arXiv:2610.24090v1 Announce Type: new Abstract: Does persistent memory accumulated from previous attempts help an LLM agent solve new problems, and does memory design affect that benefit? We study programmatic Chinese-character drawing across five agent conditions attempting the same 668 items....
-
-### Cache2LoRA: Understanding and Improving Context Internalization
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.24107
-- Summary: arXiv:2610.24107v1 Announce Type: new Abstract: Context-to-LoRA methods encode documents as low-rank parameter updates, allowing language models to answer without retaining the source text in their decoding context. How reliably do these updates preserve facts and support their use under different...
-
-### Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.23923
-- Summary: arXiv:2610.23923v1 Announce Type: new Abstract: Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference...
-
-### Improving Fake Profile Detection Through Multimodal Learning and Research-Guided Feature Integration
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.23926
-- Summary: arXiv:2610.23926v1 Announce Type: new Abstract: Fake accounts continue to undermine online platforms, yet it remains unclear whether multimodal learning offers meaningful improvements over strong metadata baselines or graph-based approaches. In this work, we study bot detection by integrating...
-
-### miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.23928
-- Summary: arXiv:2610.23928v1 Announce Type: new Abstract: Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical...
-
-### Organizing LLM Inference for Aggregate Predictions from Behavioral Data
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.23934
-- Summary: arXiv:2610.23934v1 Announce Type: new Abstract: When using a large language model (LLM) to simulate a user population, how should we combine individual behavioral histories to predict the fraction of users who take a particular action? We study this question in e-commerce, predicting observed...
-
-### Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.23935
-- Summary: arXiv:2610.23935v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens...
 
