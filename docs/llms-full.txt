@@ -6,6 +6,28 @@
 
 ## 2026-10-28
 
+### Elevated errors affecting the Google Calendar connector
+- Source: Anthropic Status
+- Category: incidents
+- URL: https://status.claude.com/incidents/phg1y2yh07n2
+- Summary: Oct 28, 20:05 UTC Resolved - The issue affecting the Google Calendar connector on claude.ai, Claude Code, and Claude Cowork has been resolved. Impact occurred from 04:07 PT / 11:07 UTC on October 26 to 11:52 PT / 18:52 UTC on October 28. Oct 28, 19:47 UTC Monitoring - We are seeing recovery for...
+
+### Why Agents Love Supabase
+- Source: Latent Space
+- Category: open-source
+- URL: https://latent.space/p/supabase/
+- Summary: Paul Copplestone and Ant Wilson on building the backend for AI agents
+
+### Gemini 4 Carbon: Our next frontier model
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
+
+### NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/nemotron-transcribe-granary
+
 ### Disruption with some Copilot services
 - Source: GitHub Status
 - Category: incidents
@@ -336,11 +358,23 @@
 - URL: https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/
 - Summary: A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek.
 
+### TopoField: Technical Report for ECCV 2026 SceneFun3D Challenge
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.37218
+- Summary: Functional segmentation requires locating small interactive parts, such as knobs, buttons, and sockets, in indoor point clouds and returning confidence-ranked instance masks. A point-wise semantic predictor produces a continuous probability field, whereas the benchmark evaluates a discrete set of...
+
 ### HPE Patches Dozens of Critical Flaws in Networking Products
 - Source: Security Week
 - Category: security
 - URL: https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/
 - Summary: Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.
+
+### Rènyi-Regularized Flow-Based Variational Inference for Bayesian Calibration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.37169
+- Summary: Variational inference with normalizing flows provides a flexible posterior approximation for Bayesian model calibration, but struggles when the posterior has several modes separated by regions of low probability mass. We study this behavior in a two-parameter twin experiment and regularize the...
 
 ### The Download: Anthropic’s IPO, smarter power grids, and exercise pills
 - Source: MIT Tech Review AI
@@ -450,6 +484,12 @@
 - URL: https://latent.space/p/ainews-anthropic-s1/
 - Summary: The S-1, the numbers, and the reactions.
 
+### Frequency-Uniform Log-Regret Reinforcement Learning for Diffusions
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36758
+- Summary: High-frequency control problems are often studied through time discretization, but refining the timestep $δ$ increases the discrete horizon $H=T/δ$ and can make standard finite-horizon regret guarantees deteriorate even when the physical horizon $T$ is fixed. We study episodic value-based...
+
 ### Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems
 - Source: Security Week
 - Category: security
@@ -491,6 +531,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html
 - Summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. "Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating...
+
+### Conservative Dueling Bandits: Preference Learning under Baseline Constraints
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36708
+- Summary: Contextual dueling bandits learn from pairwise comparisons, the same feedback used to fine-tune language models from human preferences. Standard algorithms explore aggressively and can show users two poor options. We study conservative contextual dueling bandits, which require that, at every round,...
 
 ### TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules
 - Source: arXiv AI
@@ -617,6 +663,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/tencent-hunyuan-hy-simulmt-open-source-simultaneous-interpretation-voice-cloning-streamlaal
 - Summary: Hy-SimulMT translates Chinese and English speech in real time in the speaker's own voice. Tencent puts its official StreamLAAL latency at about 3 seconds on long-form speech.
+
+### CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36484
+- Summary: Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces and time pressure through which human participants actually engage with experiments. At the same time, AI agents can now...
 
 ### Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics
 - Source: Security Week
@@ -2959,58 +3011,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/xiaomi-mimo-v2-6-pro-tencent-workbuddy-tokenhub-1m-context
 - Summary: Xiaomi MiMo-V2.6-Pro is now available inside Tencent's WorkBuddy agent and on Tencent Cloud TokenHub as mimo-v2.6-pro, with a 1M-token context window and OpenAI- and Anthropic-compatible APIs.
-
-### Xiaomi Open-Sources Xiaomi-Lens-0, a 4B Model That Points to Image Regions Pixel by Pixel
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-lens-0-4b-open-source-pixel-mask-grounding-lensbench
-- Summary: Xiaomi's SeerRay-Lab open-sourced Xiaomi-Lens-0, a 4B multimodal model on Qwen3.5-4B that emits mask tokens for pixel-level regions mid-answer. It also released the LensBench benchmark.
-
-### Peking University and PrimeBot's HIL-UMI Collects Robot Correction Data Without a Robot Arm
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/peking-university-primebot-hil-umi-robot-free-human-in-loop-vla-post-training
-- Summary: Peking University and PrimeBot's HIL-UMI uses a handheld gripper to collect robot correction data when a policy disagrees with a human demo. The team claims about 5.6x efficiency versus HG-DAgger.
-
-### Ant Group and vLLM Open-Source Humming, Quantized Inference Kernels With Zhenwu 810E Support
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ant-group-vllm-humming-quantized-inference-kernels-zhenwu-810e
-- Summary: Ant Group and the vLLM community open-sourced Humming, a JIT GEMM kernel library for quantized inference. It covers INT1-8 and FP4-FP8 mixes and fully supports T-Head's Zhenwu 810E.
-
-### Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html
-- Summary: A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber...
-
-### Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/
-- Summary: Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader. The post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.
-
-### CrashGym: Measuring the Decision Value of Experimentation for LLM Agents in Counterfactual Market Crashes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.29245
-- Summary: Language-model agents are increasingly asked to run experiments, yet benchmarks rarely measure whether those experiments improve the decisions they are meant to inform. We introduce CrashGym, a deterministic, replayable limit-order-book simulator in which an agent must choose between a deleveraging...
-
-### Cache Locally, Recompute Selectively for Streaming Video Understanding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.29229
-- Summary: Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user queries with low latency. Recent methods reduce query-time cost by prefilling frames into KV caches during idle time and reusing the cached KVs at query time. To bound per-frame...
-
-### When Multiple Choices Are Correct: Asymmetric Probability Allocation in Jev and Other Decision Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.29217
-- Summary: Decision models return normalized probability distributions over candidate choices, which downstream applications can use to select among choices. Although their providers emphasize the reliability of these probabilities, calibration on tasks with a single correct choice does not establish their...
-
-### On the gradient conjecture at infinity: Finite spherical length for gradient trajectories of definable potentials
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.29211
-- Summary: We prove that for every open $ U \subseteq \mathbb R^n $ the spherical projection of every gradient trajectory $θ(t)$, $t \geq 0$, of a definable $C^1$-potential $F \colon U \to \mathbb R$ has finite length and, in particular, converges (directional convergence). In other words, every gradient...
 
