@@ -6,6 +6,12 @@
 
 ## 2026-10-29
 
+### Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning
+- Source: Latent Space
+- Category: open-source
+- URL: https://latent.space/p/elorian/
+- Summary: A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.
+
 ### Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps
 - Source: Security Week
 - Category: security
@@ -729,6 +735,12 @@
 - URL: https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/
 - Summary: Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves,...
 
+### Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.37037
+- Summary: Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks...
+
 ### Online gas classification at the edge
 - Source: HF Daily Papers
 - Category: open-source
@@ -746,6 +758,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.36990
 - Summary: Multilingual evaluation benchmarks are the primary instrument for assessing whether large language models generalize beyond English, yet the adequacy of these benchmarks has received little systematic scrutiny. We present a data-driven audit of 51 recent multilingual benchmarks spanning 242...
+
+### LearnPrunerV2: Learnable Progressive Token Pruning for Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36986
+- Summary: Vision-Language Models (VLMs) have demonstrated remarkable multimodal capabilities but suffer from prohibitive computational overhead due to the massive number of visual tokens. While token pruning is a promising solution, existing methods still suffer from two major drawbacks: 1) unreliable...
 
 ### This is Fine: What NetScaler Zero-Days Tell Us About the New Normal
 - Source: Security Week
@@ -788,6 +806,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.36859
 - Summary: Real-to-Sim-to-Real (Real2Sim2Real) enables structured world representations for planning, interpretability, and safe execution. Most existing approaches rely on passive perception, which creates real2sim gaps due to imperfect observation. Inspired by how humans perceive actively through actions,...
+
+### When All Rollouts Fail: Policy-Compatible Joint Decoding for Hard-Problem Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36849
+- Summary: Reinforcement Learning with Verifiable Rewards (RLVR) derives its learning signal from binary rewards via on-policy exploration and becomes a powerful paradigm for improving the reasoning of large language models. Yet it faces a learning cliff on problems beyond model's current ability: when every...
 
 ### Elevated error rates for most hosted Code Reviews and Security Reviews on private GitHub repositories
 - Source: OpenAI Status
@@ -1073,6 +1097,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/
 - Summary: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s...
+
+### Game theory of academic effort and hiring in the age of AI
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.35802
+- Summary: Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result acted as a reliable...
 
 ### SEMA-Auto: Sighted and Efficient Multi-Turn Attack with Autonomy
 - Source: HF Daily Papers
@@ -1454,6 +1484,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
 - Summary: Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. "In one case, the attackers targeted a government entity in Europe and within two...
+
+### Automated, auditable dating of the Babylonian Astronomical Diaries with language models and astronomical tools
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34297
+- Summary: The Babylonian Astronomical Diaries record the sky over nearly six centuries. Many tablets are broken and have lost their date formula. Experts dated many of them one tablet at a time in the standard edition, Astronomical Diaries and Related Texts from Babylonia (ADART). They used the recorded sky...
 
 ### Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings
 - Source: Interconnects
@@ -2977,40 +3013,4 @@
 - Category: security
 - URL: https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/
 - Summary: Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis. The post Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections appeared first on SecurityWeek.
-
-### Plausible but Unimplantable: A Trustworthiness Audit of Shape Completion Foundation Models for Cranial Defect Reconstruction
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.30035
-- Summary: A patient who has lost part of the skull vault needs an implant that fits the defect exactly, and such implants are still drawn by hand in CAD by specialists, which makes each case slow and expensive. The task can be considered as a shape completion problem, so pretrained completion models, and now...
-
-### PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/
-- Summary: Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches. The post PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors appeared first on SecurityWeek.
-
-### GuideEvolve: Self-Evolving Agent Framework with Expert Guidance and 3Ts Mechanisms
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.30017
-- Summary: This study introduces GuideEvolve, a self-evolving agent framework incorporating expert guidance and three autonomous regulatory mechanisms, collectively termed the 3Ts: Think Fast and Slow, Throwback, and Termination by choice. The framework addresses critical limitations in extant self-evolving...
-
-### Elevated error rates for gpt-5.6-luna API requests
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M5FHKHPQJMSHCE2B2WDPZW2N
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components Chat Completions (Operational) Responses (Operational)
-
-### Every Alarm Has a Cause: An Open Generator of Telecom Alarm Storms with Exact Root Causes, Bound to NORIA-O, RFC 8632 and TMF642
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.30004
-- Summary: Alarm root-cause analysis is studied on data that cannot be shared. Operator logs are confidential, so what the field publishes is a causal graph between alarm types rather than per-incident causes, a fixed scenario set, gated, or never released. Two recent benchmarks carry per-incident root causes...
-
-### EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.29999
-- Summary: Reinforcement learning (RL) based on PPO-style clipping has become an effective approach to improving the reasoning capabilities of large language models (LLMs). However, standard token-level clipping measures policy change only through the conditional probability of the current token, while the...
 
