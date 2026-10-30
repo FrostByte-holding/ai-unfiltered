@@ -5,9 +5,45 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 30 Oct 2026 14:54:31 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 20:30:23 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences</title>
+            <link>https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7</link>
+            <guid>https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7</guid>
+            <pubDate>Fri, 30 Oct 2026 19:38:47 +0000</pubDate>
+            <source url="https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7">OpenAI Status</source>
+            <category>incidents</category>
+            <description>Status: InvestigatingWe’re aware of issues affecting search in Dots, ChatGPT Work, and some ChatGPT thinking experiences. We’re investigating and will share updates here.Affected components ChatGPT Work (Degraded performance) dots (Degraded performance)</description>
+        </item>
+        <item>
+            <title>Incident with Actions, Pages, and Webhooks</title>
+            <link>https://www.githubstatus.com/incidents/pwxsjgnvrk6b</link>
+            <guid>https://www.githubstatus.com/incidents/pwxsjgnvrk6b</guid>
+            <pubDate>Fri, 30 Oct 2026 19:23:40 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/pwxsjgnvrk6b">GitHub Status</source>
+            <category>incidents</category>
+            <description>Oct 30, 19:23 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 30, 18:32 UTC Monitoring - The degradation affecting Actions, Pages and Webhooks has...</description>
+        </item>
+        <item>
+            <title>nemotron-halloween</title>
+            <link>https://huggingface.co/blog/nvidia/nemotron-halloween</link>
+            <guid>https://huggingface.co/blog/nvidia/nemotron-halloween</guid>
+            <pubDate>Fri, 30 Oct 2026 17:57:24 +0000</pubDate>
+            <source url="https://huggingface.co/blog/nvidia/nemotron-halloween">Hugging Face Blog</source>
+            <category>open-source</category>
+            <description></description>
+        </item>
+        <item>
+            <title>Was I wrong about open models &amp; cyber risks?</title>
+            <link>https://www.interconnects.ai/p/was-i-wrong-about-open-models-and</link>
+            <guid>https://www.interconnects.ai/p/was-i-wrong-about-open-models-and</guid>
+            <pubDate>Fri, 30 Oct 2026 17:36:56 +0000</pubDate>
+            <source url="https://www.interconnects.ai/p/was-i-wrong-about-open-models-and">Interconnects</source>
+            <category>open-source</category>
+            <description>Last week coined the term &amp;#8220;Black October&amp;#8220; after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.</description>
+        </item>
         <item>
             <title>Disruption with GitHub services</title>
             <link>https://www.githubstatus.com/incidents/nxy2l0ssxm10</link>
@@ -324,6 +360,24 @@
             <description>arXiv:2610.37680v1 Announce Type: new Abstract: Closing the gap between frontier and smaller language models is usually approached by distillation: fine-tuning the small model (student) on a frontier model&#x27;s (teacher) outputs, which binds transfer to training compute and leaves the transferred...</description>
         </item>
         <item>
+            <title>world2vec: Mechanistic world models through latent dynamics learning</title>
+            <link>https://tldr.takara.ai/p/2610.40637</link>
+            <guid>https://tldr.takara.ai/p/2610.40637</guid>
+            <pubDate>Thu, 29 Oct 2026 17:58:23 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.40637">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly...</description>
+        </item>
+        <item>
+            <title>Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In</title>
+            <link>https://tldr.takara.ai/p/2610.40588</link>
+            <guid>https://tldr.takara.ai/p/2610.40588</guid>
+            <pubDate>Thu, 29 Oct 2026 17:47:40 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.40588">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>When AI agents share channels and credentials, one agent can press another to break its operator&#x27;s rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the...</description>
+        </item>
+        <item>
             <title>FARMS: A Verifiable Foundation for Automated Computational Science</title>
             <link>https://tldr.takara.ai/p/2610.40560</link>
             <guid>https://tldr.takara.ai/p/2610.40560</guid>
@@ -333,13 +387,22 @@
             <description>Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that...</description>
         </item>
         <item>
-            <title>A Unified Hessian-Guided Framework for Post-Training Quantization</title>
-            <link>https://tldr.takara.ai/p/2610.40345</link>
-            <guid>https://tldr.takara.ai/p/2610.40345</guid>
-            <pubDate>Thu, 29 Oct 2026 16:06:01 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2610.40345">HF Daily Papers</source>
+            <title>LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation</title>
+            <link>https://tldr.takara.ai/p/2610.40495</link>
+            <guid>https://tldr.takara.ai/p/2610.40495</guid>
+            <pubDate>Thu, 29 Oct 2026 17:18:51 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.40495">HF Daily Papers</source>
             <category>open-source</category>
-            <description>Low-bit quantization enables efficient deployment of large language models by reducing memory footprint and computational cost. Achieving high accuracy at low precision requires selecting quantization ranges, linear transformations, and weight rounding decisions. Existing approaches typically...</description>
+            <description>We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in...</description>
+        </item>
+        <item>
+            <title>A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset</title>
+            <link>https://tldr.takara.ai/p/2610.40455</link>
+            <guid>https://tldr.takara.ai/p/2610.40455</guid>
+            <pubDate>Thu, 29 Oct 2026 17:01:30 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2610.40455">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Aerial imagery provides complementary spatial context for autonomous driving by exposing road structure beyond the immediate perception range of onboard sensors. Yet map construction from aerial imagery, aerial-assisted online HD mapping, and cross-view localization are typically studied on...</description>
         </item>
         <item>
             <title>Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning</title>
@@ -358,15 +421,6 @@
             <source url="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>AI Cosmos: An Agentic Infra for Situated Learning</title>
-            <link>https://tldr.takara.ai/p/2610.40031</link>
-            <guid>https://tldr.takara.ai/p/2610.40031</guid>
-            <pubDate>Thu, 29 Oct 2026 13:36:31 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2610.40031">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Large language models (LLMs) can improve task performance during learning, yet these gains do not necessarily reflect learners&#x27; ability to thereafter apply the knowledge and skills independently. We present AI Cosmos, an agentic infrastructure for situated learning that organizes learning around...</description>
         </item>
         <item>
             <title>Disruption with Copilot Cloud services</title>
@@ -403,60 +457,6 @@
             <source url="https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/">MIT Tech Review AI</source>
             <category>research</category>
             <description>Climate change itself is increasingly fueling climate change. Rising concentrations of greenhouse gases are driving up global temperatures, setting off dangerous feedback loops that we have not fully accounted for in our climate models—or our emissions-reduction goals. Scientists have long warned...</description>
-        </item>
-        <item>
-            <title>[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders</title>
-            <link>https://latent.space/p/ainews-gemini-4-carbon/</link>
-            <guid>https://latent.space/p/ainews-gemini-4-carbon/</guid>
-            <pubDate>Thu, 29 Oct 2026 05:55:19 +0000</pubDate>
-            <source url="https://latent.space/p/ainews-gemini-4-carbon/">Latent Space</source>
-            <category>open-source</category>
-            <description>Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.</description>
-        </item>
-        <item>
-            <title>Retaining Repair Hypotheses for Cost-Aware Execution</title>
-            <link>https://tldr.takara.ai/p/2610.39410</link>
-            <guid>https://tldr.takara.ai/p/2610.39410</guid>
-            <pubDate>Thu, 29 Oct 2026 05:49:54 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2610.39410">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>Several corrections of an executable model can fit the same observations while predicting different execution outcomes. We study a repair-to-execution interface that retains compatible finite guard repairs, conditions their weights on diagnostic and ordinary-execution observations, and uses their...</description>
-        </item>
-        <item>
-            <title>INC20000319</title>
-            <link>https://status.snowflake.com/incidents/9ssl44lx0my9</link>
-            <guid>https://status.snowflake.com/incidents/9ssl44lx0my9</guid>
-            <pubDate>Thu, 29 Oct 2026 04:50:40 +0000</pubDate>
-            <source url="https://status.snowflake.com/incidents/9ssl44lx0my9">Snowflake Status</source>
-            <category>incidents</category>
-            <description>Oct 29, 04:29 UTC Investigating - Current status: We&#x27;re investigating an issue with Snowflake Data Cloud. We&#x27;ll provide an update within 60 minutes.Customer experience: Customers hosted in the specified regions may experience delays or intermittent failures when resuming or managing virtual...</description>
-        </item>
-        <item>
-            <title>Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks</title>
-            <link>https://tldr.takara.ai/p/2610.39193</link>
-            <guid>https://tldr.takara.ai/p/2610.39193</guid>
-            <pubDate>Thu, 29 Oct 2026 02:15:35 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2610.39193">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>LLM-based agents are increasingly used to complete complex, long-horizon tasks without human intervention. To make progress toward the task goal, agents need to perform different duties, such as planning and verification, when needed. To understand how single agents manage these duties during...</description>
-        </item>
-        <item>
-            <title>Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready</title>
-            <link>https://huggingface.co/blog/announcing-project-protostar</link>
-            <guid>https://huggingface.co/blog/announcing-project-protostar</guid>
-            <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-            <source url="https://huggingface.co/blog/announcing-project-protostar">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
-        </item>
-        <item>
-            <title>Welcome Le Chonk: Mistral Large 4 on Hugging Face</title>
-            <link>https://huggingface.co/blog/mistral-large4</link>
-            <guid>https://huggingface.co/blog/mistral-large4</guid>
-            <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-            <source url="https://huggingface.co/blog/mistral-large4">Hugging Face Blog</source>
-            <category>open-source</category>
-            <description></description>
         </item>
     </channel>
 </rss>

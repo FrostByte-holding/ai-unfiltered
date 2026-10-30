@@ -6,6 +6,29 @@
 
 ## 2026-10-30
 
+### Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7
+- Summary: Status: InvestigatingWe’re aware of issues affecting search in Dots, ChatGPT Work, and some ChatGPT thinking experiences. We’re investigating and will share updates here.Affected components ChatGPT Work (Degraded performance) dots (Degraded performance)
+
+### Incident with Actions, Pages, and Webhooks
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/pwxsjgnvrk6b
+- Summary: Oct 30, 19:23 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Oct 30, 18:32 UTC Monitoring - The degradation affecting Actions, Pages and Webhooks has...
+
+### nemotron-halloween
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/nemotron-halloween
+
+### Was I wrong about open models & cyber risks?
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/was-i-wrong-about-open-models-and
+- Summary: Last week coined the term &#8220;Black October&#8220; after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.
+
 ### Disruption with GitHub services
 - Source: GitHub Status
 - Category: incidents
@@ -273,11 +296,35 @@
 - URL: https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html
 - Summary: Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from...
 
+### world2vec: Mechanistic world models through latent dynamics learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40637
+- Summary: World models can achieve strong control performance without faithfully capturing the dynamics of their environment, limiting their potential for mechanistic interpretability and scientific discovery. Here, we introduce world2vec to learn mechanistic world models without reward information directly...
+
+### Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40588
+- Summary: When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the...
+
 ### FARMS: A Verifiable Foundation for Automated Computational Science
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.40560
 - Summary: Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that...
+
+### LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40495
+- Summary: We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in...
+
+### A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40455
+- Summary: Aerial imagery provides complementary spatial context for autonomous driving by exposing road structure beyond the immediate perception range of onboard sensors. Yet map construction from aerial imagery, aerial-assisted online HD mapping, and cross-view localization are typically studied on...
 
 ### When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis
 - Source: Security Week
@@ -373,6 +420,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit...
+
+### M-PFT: Angular Margin for Calibrated Prompt-Tuning of Fine-Tuned Vision-Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.39861
+- Summary: Prompt-tuning has emerged as a parameter-efficient technique for adapting large-scale vision-language models (VLMs) to downstream tasks while keeping the pre-trained weights frozen. However, prompt-tuned VLMs often suffer from a base-to-novel dual miscalibration problem, where models typically show...
 
 ### Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls
 - Source: The Hacker News
@@ -2962,57 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.30917
 - Summary: Large language models (LLMs) can translate natural-language optimization problems into solver programs, but reliably producing correct formulations and implementations remains challenging. Existing approaches improve optimization modeling through agentic workflows or task-specific post-training....
-
-### LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html
-- Summary: LiteLLM on Wednesday disclosed that threat actors compromised "multiple independent security controls" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub...
-
-### Elevated errors affecting Connectors
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/wj6r4t6mxq1r
-- Summary: Oct 22, 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22, 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude Cowork and we are monitoring for recovery. Oct 22, 03:50 UTC Investigating - We are investigating...
-
-### Continuous-depth Deep Gaussian Processes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.30890
-- Summary: Deep Gaussian processes (DGPs) are appealing Bayesian regression models, but their standard discrete-depth parameterization often becomes harder to optimize as depth grows. We argue that depth is better treated as a latent continuous evolution than as a long discrete stack. We therefore propose a...
-
-### HimmBO: High-Dimensional Interactive Model-Merging Bayesian Optimization for Image Generation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.30875
-- Summary: Fine-tuning has become a common way to customize text-to-image models, leading to community collections of over 100K lightweight adapters. Adapters sharing a base model can be merged with continuous coefficients. This turns a large collection into a high-dimensional continuous design space, which...
-
-### Ensemble forecasting with IBM Granite time-series models
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1
-
-### Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html
-- Summary: Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could...
-
-### [AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months
-- Source: Latent Space
-- Category: open-source
-- URL: https://www.latent.space/p/ainews-openais-patch-the-planet-program
-- Summary: The Big Hardening begins
-
-### [AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months
-- Source: Latent Space
-- Category: open-source
-- URL: https://latent.space/p/ainews-openais-patch-the-planet-program/
-- Summary: The Big Hardening begins
-
-### Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/
-- Summary: Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek.
 
