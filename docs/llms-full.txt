@@ -6,6 +6,12 @@
 
 ## 2026-10-31
 
+### Agents Prompt People: Using Agents for Long-Horizon Financial Work
+- Source: Latent Space
+- Category: open-source
+- URL: https://latent.space/p/arca/
+- Summary: Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.
+
 ### Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data
 - Source: The Hacker News
 - Category: security
@@ -563,6 +569,12 @@
 - URL: https://tldr.takara.ai/p/2610.40495
 - Summary: We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in...
 
+### Preserving Utility in Continual LLM Unlearning via Orthogonal Projections
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40483
+- Summary: Unlearning concerns the task of removing the influence of a sensitive portion of the training data, such as protected, copyrighted or private text, from a model without retraining it from scratch. While unlearning requests happen continuously during a model's lifetime, the vast majority of LLM...
+
 ### A Unified Benchmark for Aerial-Enhanced Autonomous Driving: The KITScenes Aerial Dataset
 - Source: HF Daily Papers
 - Category: open-source
@@ -790,6 +802,12 @@
 - URL: https://pandaily.com/huawei-ascend-950dt-1024-npu-superpod-cluster-wuhan-liquid-cooled-1-eflops-fp8
 - Summary: A 1,024-NPU Ascend 950DT liquid-cooled SuperPoD went live in Wuhan on October 28, offering 1 EFLOPS of FP8 compute and 256TB of unified memory. It took one month from start to power-on.
 
+### China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks...
+
 ### [AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders
 - Source: Latent Space
 - Category: open-source
@@ -909,6 +927,12 @@
 
 
 ## 2026-10-28
+
+### Implicit Reasoning in Transformers: Bridging the Compositionality Gap in GPT-2-like Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.39016
+- Summary: Compositional generalization remains a persistent limitation of transformer language models: even when a model learns to combine known facts correctly in-distribution (ID), the same compositional mechanism may fail when applied to out-of-distribution (OOD) knowledge. We investigate this...
 
 ### Creating AI value with enterprise context
 - Source: MIT Tech Review AI
@@ -1086,6 +1110,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html
 - Summary: An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and...
+
+### Holistic Diversity Management in LLM-Guided Evolutionary Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.38407
+- Summary: LLM-guided evolutionary search iteratively selects existing programs, uses LLMs as mutation operators to generate a new program, and evaluates it to guide subsequent search. To preserve diversity and reduce the risk of premature convergence, it often adopts the island model, in which groups of...
 
 ### Hi3D Open-Sources Hi3D v1.0, a Sparc3D-Based Model That Refines 3D Meshes Up to 1536 Resolution
 - Source: Pandaily
@@ -1670,6 +1700,12 @@
 - URL: https://arxiv.org/abs/2610.33006
 - Summary: arXiv:2610.33006v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that compress a context into a shorter representation before inference. Existing soft-prompt compression...
 
+### Less is more: learning what to profile for GPU kernel optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36576
+- Summary: Large language models have recently shown strong potential for automatically optimizing GPU kernels, yet their effectiveness depends critically on the hardware information available to the kernel optimization model. Existing systems typically rely on predefined profiling strategies, leaving what to...
+
 ### Shanghai Sets Satellite Internet Goals: 400 Gbps Laser Links, Onboard AI and Direct-to-Phone Access
 - Source: Pandaily
 - Category: chinese-ai
@@ -2215,6 +2251,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.35960
 - Summary: Purpose: To compare 2D, 2.5D, and 3D residual networks for pulmonary nodule malignancy-risk classification and evaluate momentum-contrast pretraining, mild augmentation, and exclusion of indeterminate ratings. Methods: A retrospectively prepared LIDC-IDRI cohort contained 2,654 nodules labeled...
+
+### MetaARIMA: Configuration-Level Transfer Learning for ARIMA Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34171
+- Summary: Time Series Foundation Models have demonstrated that pretraining on diverse datasets enables effective transfer to new forecasting tasks. Classical methods like ARIMA, however, remain configured and trained independently for each series, discarding knowledge from previous experiments. Consequently,...
 
 ### Elevated errors for Claude Fable 5.1
 - Source: Anthropic Status
@@ -2977,46 +3019,4 @@
 - Source: Hugging Face Blog
 - Category: open-source
 - URL: https://huggingface.co/blog/microsoft/thinkingbox-training
-
-### Network Error Log Processing Unavailable
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/l3d16334tgjp
-- Summary: Oct 22, 22:00 UTCResolved - This incident has been resolved.Oct 22, 21:36 UTCMonitoring - A fix has been implemented and we are monitoring the results.Oct 22, 20:08 UTCInvestigating - Partial service restored. Root cause investigation is currently underway.Oct 22, 16:30 UTCInvestigating - Since...
-
-### New Ad Accounts failing to provision admins
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M5JHVJVC8WAXB4WRYFMKG6HP
-- Summary: Status: IdentifiedWe have identified the issue and are working to implement the mitigation.Affected components Ads Manager (Degraded performance) Ads API (Degraded performance)
-
-### Designing an AI serving harness built to last
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/
-- Summary: The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context...
-
-### Degraded Performance of Dots on Enterprise
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M5JF8DR3EGQJNTXPZ24AKX2G
-- Summary: Status: ResolvedAll impacted services have now fully recovered.Affected components dots (Operational)
-
-### The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html
-- Summary: Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little...
-
-### Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html
-- Summary: Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22. The flaw lets anyone who can log in to the orchestrator, even with a...
-
-### The Foundations of Scalable AI
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/
-- Summary: A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review&#8217;s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment...
 
