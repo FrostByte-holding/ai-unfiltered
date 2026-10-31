@@ -569,6 +569,12 @@
 - URL: https://tldr.takara.ai/p/2610.40495
 - Summary: We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in...
 
+### The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40485
+- Summary: In low-rank matrix sensing of a rank-$D$ factor $U^\ast \in \mathbb{R}^{V \times D}$, replacing isotropic Gaussian designs with power-law measurement covariance $Σ= \mathrm{diag}(j^{-s})_{j=1}^V$ leaves the Burer--Monteiro landscape free of spurious local minima, yet division-normalised first-order...
+
 ### Preserving Utility in Continual LLM Unlearning via Orthogonal Projections
 - Source: HF Daily Papers
 - Category: open-source
@@ -813,6 +819,12 @@
 - Category: open-source
 - URL: https://latent.space/p/ainews-gemini-4-carbon/
 - Summary: Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.
+
+### Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html
+- Summary: Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. "Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet," the...
 
 ### Retaining Repair Hypotheses for Cost-Aware Execution
 - Source: HF Daily Papers
@@ -1490,6 +1502,12 @@
 - URL: https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/
 - Summary: Running at system boot, it periodically polled the update domain to execute any code served, with full privileges. The post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on SecurityWeek.
 
+### LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.37720
+- Summary: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for...
+
 ### Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers
 - Source: The Hacker News
 - Category: security
@@ -1603,6 +1621,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.36708
 - Summary: Contextual dueling bandits learn from pairwise comparisons, the same feedback used to fine-tune language models from human preferences. Standard algorithms explore aggressively and can show users two poor options. We study conservative contextual dueling bandits, which require that, at every round,...
+
+### Haste Makes Waste? Towards Safe Few-Step Text-to-Image Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36665
+- Summary: While few-step distilled text-to-image models have gained traction due to their fast generation times, the speed-up implications on their unsafe generation rates remain unknown. We uncover an inherent tension between speed and safety: few-step models are often more unsafe than their teachers, and...
 
 ### When Is a Cheap Fairness Edit Safe? Screening Post-Hoc Edits in Two-Sided Matching Markets
 - Source: HF Daily Papers
@@ -2210,6 +2234,12 @@
 
 ## 2026-10-25
 
+### FlexiMIND: Combined Pretrained Vision Features and Local Structure for Training-Free Deformable Medical Image Registration
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34600
+- Summary: Objective. Deformable image registration remains challenging because corresponding anatomy may exhibit different intensity relationships. Hand-crafted modality-robust descriptors such as Modality-Independent Neighborhood Descriptor with Self-Similarity Context (MIND-SSC) and features from...
+
 ### Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers
 - Source: The Hacker News
 - Category: security
@@ -2251,6 +2281,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.35960
 - Summary: Purpose: To compare 2D, 2.5D, and 3D residual networks for pulmonary nodule malignancy-risk classification and evaluate momentum-contrast pretraining, mild augmentation, and exclusion of indeterminate ratings. Methods: A retrospectively prepared LIDC-IDRI cohort contained 2,654 nodules labeled...
+
+### AudioFM: Towards General Purpose Audio Representation Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34183
+- Summary: Learning audio representations that effectively bridge holistic global soundscapes with fine-grained acoustic moments is a long-standing goal in self-supervised learning. Recording-level contrastive objectives encourage agreement between pooled audio representations, but do not explicitly supervise...
 
 ### MetaARIMA: Configuration-Level Transfer Learning for ARIMA Models
 - Source: HF Daily Papers
@@ -2982,41 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/openharmony-nearlink-hardware-developer-day-shenzhen-protocol-stack-chips-metro
 - Summary: An OpenHarmony hardware developer day in Shenzhen focused on NearLink short-range wireless, covering the protocol stack, HiSilicon chips, the distributed soft bus and smart traffic and metro projects.
-
-### Ant Digital Technologies Releases LingDT-Decision-1.0, a Model Built for Fast Enterprise Decisions
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/ant-digital-technologies-lingdt-decision-1-0-enterprise-decision-model
-- Summary: Ant Digital Technologies released LingDT-Decision-1.0 in 4B and 27B sizes, a model that makes structured choices directly instead of generating text, and says it cuts token use by more than 90%.
-
-### iFLYTEK Launches Spark X2.6, Trained on Domestic Compute, and Open-Sources a 4B On-Device Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/iflytek-spark-x2-6-domestic-compute-training-open-source-4b-on-device-sparkaudio
-- Summary: At its 1024 developer festival, iFLYTEK released Spark X2.6, a 293B-A30B MoE model trained on domestic compute, open-sourced the on-device Spark X2.6-4B and debuted the SparkAudio 1.0 speech model.
-
-### Huawei Details Stellar AI Fabric Storage-Network Design to Ease the KV Cache Bottleneck
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-stellar-ai-fabric-hcf-kv-cache-storage-network-asc-2026
-- Summary: At ASC 2026 in Shanghai, Huawei laid out a storage-network convergence approach for agentic AI inference and cited lab tests showing a 7.3x inference throughput gain from KV Cache offloading.
-
-### DeepSeek and MiniMax Complete AI Export Registration and Move Ahead With Overseas Licensing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-minimax-complete-ai-technology-export-registration-open-source-overseas-licensing
-- Summary: DeepSeek and MiniMax have completed registration under China's draft AI technology export rules and have gone ahead with open-source releases and overseas licensing, according to state media.
-
-### Does Your Model Run on AWS Trainium? Look It Up
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/torch-neuronx-model-support
-
-
-## 2026-10-22
-
-### Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/microsoft/thinkingbox-training
 
