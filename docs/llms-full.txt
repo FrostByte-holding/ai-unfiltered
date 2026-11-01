@@ -6,6 +6,54 @@
 
 ## 2026-11-01
 
+### Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/
+- Summary: The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek.
+
+### CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html
+- Summary: A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that...
+
+### Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html
+- Summary: Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says&nbsp;it is refunding about $2.7 million to...
+
+### FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html
+- Summary: The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S....
+
+### NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/netamloader-malware-targets-government.html
+- Summary: Cybersecurity researchers have disclosed details of what has been described as a "highly sophisticated infection chain" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and...
+
+### Huawei Qiankun ADS Passes 17.3 Billion Kilometers of Cumulative Assisted Driving
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-qiankun-ads-17-3-billion-km-assisted-driving-6-91-million-collisions-avoided
+- Summary: Huawei Qiankun ADS has logged more than 17.3 billion km of assisted driving and avoided over 6.91 million potential collisions, about 1.3 billion km more than in early October.
+
+### AI Agents Now Create Over 20,000 Tencent Cloud TDSQL-C Databases a Day, Up More Than 80x
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/tencent-cloud-ai-agents-create-20000-tdsql-c-databases-daily-li-ning-50-agents-workbuddy
+- Summary: Tencent Cloud says agents now create over 20,000 TDSQL-C database instances a day, with over 1 million active. WorkBuddy user Li Ning runs about 50 agents and plans to reach 200 within a year.
+
+### CXMT Answers Micron's Case Against 4F² DRAM, Says First 4F² Samples Ship by Year-End
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/cxmt-4f2-vertical-channel-dram-sixth-gen-platform-responds-micron-capacitor-pitch-samsung-sk-hynix
+- Summary: CXMT says its sixth-gen DRAM platform is built on 4F² and has passed engineering-sample checks, and responds to Micron's argument that capacitor pitch, not cell layout, limits density.
+
 ### SenseTime Open-Sources SenseNova-Loop-9B-Preview, a Looped Model That Runs Its Middle Layers Twice
 - Source: Pandaily
 - Category: chinese-ai
@@ -620,6 +668,12 @@
 - URL: https://tldr.takara.ai/p/2610.40455
 - Summary: Aerial imagery provides complementary spatial context for autonomous driving by exposing road structure beyond the immediate perception range of onboard sensors. Yet map construction from aerial imagery, aerial-assisted online HD mapping, and cross-view localization are typically studied on...
 
+### Glance: The Generator Is Its Own Reranker
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40454
+- Summary: Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill....
+
 ### When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis
 - Source: Security Week
 - Category: security
@@ -637,6 +691,12 @@
 - Category: open-source
 - URL: https://latent.space/p/elorian/
 - Summary: A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.
+
+### RFW-A: Agentic Procedural Generation of 400K Articulated Assets over 500 Categories
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40333
+- Summary: High-quality articulated assets are essential for embodied perception, simulation, and manipulation, yet constructing them at scale remains difficult. Manual annotation and procedural modeling require substantial human effort. Recent agentic systems automate asset construction through program...
 
 ### Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions
 - Source: The Hacker News
@@ -1113,6 +1173,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html
 - Summary: Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score:...
+
+### Logical Guidance of Stochastic Interpolants
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.38648
+- Summary: Guidance and composition of generative models have applications in visual design, chemistry, and biology. Logical guidance composes conditional scores exactly for diffusion models. However, Flow Matching (FM) and Stochastic Interpolants (SI) learn velocity fields. We show that negation and...
 
 ### Long-Hidden Flaws Patched in EPICS Research Facility Control Software
 - Source: Security Week
@@ -1970,6 +2036,12 @@
 - URL: https://tldr.takara.ai/p/2610.35347
 - Summary: Voronoi tessellations have recently emerged as an adaptive, space-partitioning discretization for shape and appearance reconstruction from multi-view images. However, the irregular cells they produce make the repeated reconstruction of the tessellation during optimization costly. We therefore...
 
+### Reward-Guided RRT* for Budgeted Task and Motion Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.35289
+- Summary: Robotic missions involving spatially distributed tasks often require jointly selecting rewarding locations and planning feasible motions under limited travel budgets. This paper proposes Reward-Guided RRT*, a new sampling-based framework that constructs a budget-feasible mission through a sequence...
+
 ### Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes
 - Source: The Hacker News
 - Category: security
@@ -2239,6 +2311,12 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.31683
 - Summary: arXiv:2610.31683v1 Announce Type: new Abstract: Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present...
+
+### Natural Jammers: When Non-Robust Features Become Antagonistic
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34785
+- Summary: Deep neural networks are known to rely on non-robust features that align poorly with human perception. Prior work has largely framed these features as opportunistic shortcuts that help standard models on clean data. We show instead that non-robust cues can be antagonistic: they can act as Natural...
 
 ### FGD2HF: Frequency-guided Dual-domain Hypergraph Fusion for Semantic Segmentation
 - Source: HF Daily Papers
@@ -2943,82 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.30154
 - Summary: arXiv:2610.30154v1 Announce Type: new Abstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation....
-
-### Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30158
-- Summary: arXiv:2610.30158v1 Announce Type: new Abstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge, the first digital assistant named Lighthouse--commonly...
-
-### TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30161
-- Summary: arXiv:2610.30161v1 Announce Type: new Abstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules....
-
-### FusionEval: Benchmarking Model Fusion for Large Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30162
-- Summary: arXiv:2610.30162v1 Announce Type: new Abstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses...
-
-### Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30296
-- Summary: arXiv:2610.30296v1 Announce Type: new Abstract: Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers published between 2020 and...
-
-### Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.30205
-- Summary: arXiv:2610.30205v1 Announce Type: new Abstract: When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again. In tool calling, this record makes small models more likely to repeat the failed action. We test whether the same holds in games...
-
-### Breaking the high-degree barrier in Lehmer's problem with a human-AI discovery loop
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.30277
-- Summary: arXiv:2610.30277v1 Announce Type: new Abstract: While artificial intelligence has made rapid progress in mathematical reasoning, many open problems depend on structure that is revealed only through large-scale computational exploration and analytical synthesis. One such example is Lehmer's problem...
-
-### Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.30351
-- Summary: arXiv:2610.30351v1 Announce Type: new Abstract: Large language models often apply complex reasoning indiscriminately, leading to overthinking on simple tasks and underthinking on harder ones. We present Route-and-Generate (Rouge), a hierarchical training framework that enables LLMs to adaptively...
-
-### Soft Ontology Priors over Latent Concept Posteriors for Weakly Supervised Neuro-Symbolic Learning
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.30391
-- Summary: arXiv:2610.30391v1 Announce Type: new Abstract: Neuro-symbolic (NeSy) predictors that supervise only the task label suffer from reasoning shortcuts: distinct concept mappings achieve the same maximum likelihood, leaving the recovered concepts unidentifiable and unsafe for downstream reuse. We...
-
-### RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.30429
-- Summary: arXiv:2610.30429v1 Announce Type: new Abstract: Large language model (LLM) based multi-agent systems often rely on predefined collaboration structures, limiting their adaptability to evolving task requirements. Although recent approaches enable dynamic orchestration, trajectory-level rewards they...
-
-### How Prompt Style Affects AI Accuracy and Speed in Competitive Programming
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30223
-- Summary: arXiv:2610.30223v1 Announce Type: new Abstract: Large language models are increasingly used in competitive programming, and their outputs are sensitive to how a prompt is phrased. Prior work has compared prompt strategies for accuracy on competitive programming, but not for runtime speed, and has...
-
-### GANet: A Lightweight Group Attention Network for Plant Disease Identification on Embedded Systems
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30225
-- Summary: arXiv:2610.30225v1 Announce Type: new Abstract: Global warming and climate change are major catalysts for plant diseases, significantly affecting food production worldwide. Addressing this issue requires continuous monitoring and early detection of plant diseases. While recent advancements in deep...
-
-### Benchmarking Model Compression Techniques Across Heterogeneous Edge Platforms: A Predictive Maintenance Use Case for Rotating Machinery
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30228
-- Summary: arXiv:2610.30228v1 Announce Type: new Abstract: To enable Industry 5.0, where autonomous systems are widely adopted and integrated with people to promote sustainable development in industries, it is imperative to adapt complex deep learning models to operate efficiently on resource-constrained...
-
-### Automated screening of privacy risks in medical AI
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30229
-- Summary: arXiv:2610.30229v1 Announce Type: new Abstract: Medical artificial intelligence (AI) models are often shared without their training data, assuming this protects the patients who contributed them. However, a model can reveal whether a patient's records were used in training, a privacy breach known...
 
