@@ -901,6 +901,12 @@
 - URL: https://pandaily.com/huawei-ascend-950dt-1024-npu-superpod-cluster-wuhan-liquid-cooled-1-eflops-fp8
 - Summary: A 1,024-NPU Ascend 950DT liquid-cooled SuperPoD went live in Wuhan on October 28, offering 1 EFLOPS of FP8 compute and 256TB of unified memory. It took one month from start to power-on.
 
+### CBE: A Complexity-adaptive Boundary-aware Ensemble Method for Imbalanced Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.39466
+- Summary: In many real-world classification tasks, datasets exhibit class imbalance, which can degrade the generalization performance of conventional learning algorithms. Data complexity has recently been recognized as a more objective indicator of learning difficulty than the imbalance ratio alone, because...
+
 ### China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility
 - Source: The Hacker News
 - Category: security
@@ -1898,6 +1904,12 @@
 - URL: https://tldr.takara.ai/p/2610.36355
 - Summary: Prefix caching enables a Large Language Model (LLM) servers to reuse the Key-Value (KV) states and accelerate prefill computation stage for requests that share a prefix with earlier prompts, thus reducing latency and serving cost. With limited memory resource, the KV cache eviction policy becomes a...
 
+### A Smart Instant Book Filter Model based on Dual-Objective Optimization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.36287
+- Summary: Hospitality service in online marketplaces has become increasingly popular over the past few years, not only because it helps people easily rent short-term lodging but also because it empowers travelers to connect with locals and feel belonging. A typical pattern of these industries is a central...
+
 ### Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI
 - Source: Security Week
 - Category: security
@@ -1969,6 +1981,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.35729
 - Summary: Imagery captured by unmanned aerial vehicle (UAV) systems increasingly raises privacy concerns, as UAV aerial surveillance routinely captures sensitive objects such as pedestrians and vehicles alongside ordinary scene content. Existing privacy-preserving approaches typically employ class-agnostic...
+
+### Towards a Unified Framework of Optimal Input-Side Dimensional Configuration for Deep CTR Prediction
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.35695
+- Summary: Deep click-through rate (CTR) prediction has achieved substantial success through increasingly expressive feature interaction architectures. However, predictive performance also depends on how input-side information is configured before interaction modeling. Existing studies have shown that...
 
 ### Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware
 - Source: The Hacker News
@@ -2137,6 +2155,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.34994
 - Summary: Modern large language models (LLMs) often exhibit overconfident errors, assigning high confidence to incorrect predictions and thereby undermining reliability in real-world use. Existing calibration methods typically rely on post-hoc adjustment or retraining, operating at the output level without...
+
+### Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34991
+- Summary: End-to-end full-duplex spoken dialogue models enable natural, real-time spoken interactions with interruptions, backchannels, and overlapping speech. Prior evaluations have assessed diverse interaction capabilities and identified some degradation patterns across conversational turns. However, how...
 
 ### Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs
 - Source: The Hacker News
@@ -2422,6 +2446,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.34183
 - Summary: Learning audio representations that effectively bridge holistic global soundscapes with fine-grained acoustic moments is a long-standing goal in self-supervised learning. Recording-level contrastive objectives encourage agreement between pooled audio representations, but do not explicitly supervise...
+
+### Reasoning or Just Prompting? Probing the Mechanism of Latent Chemical Reasoning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34173
+- Summary: Latent reasoning performs intermediate computation in continuous space rather than through explicit tokens, which is particularly appealing in chemistry, where errors in explicit reasoning can propagate to the final answer. Yet if latent states truly constitute an implicit reasoning chain, they...
 
 ### MetaARIMA: Configuration-Level Transfer Learning for ARIMA Models
 - Source: HF Daily Papers
@@ -2991,34 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.30206
 - Summary: arXiv:2610.30206v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence...
-
-### Spectral Uncertainty Decomposition for Sparse Bayesian Learning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30207
-- Summary: arXiv:2610.30207v1 Announce Type: new Abstract: Estimating distributed neural sources from M/EEG measurements is an ill-posed inverse problem where principled uncertainty quantification remains challenging. The usual conditional Gaussian posterior covariance does not explicitly distinguish...
-
-### Prediction Is Not Calibration: Item Parameter Recovery and Representation Coupling in Knowledge Tracing
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30211
-- Summary: arXiv:2610.30211v1 Announce Type: new Abstract: Knowledge tracing (KT) models can estimate item parameters through an item response decoder trained solely for next-response prediction, yet predictive accuracy does not guarantee parameter recovery. We study 2PL, GPCM, and NRM decoders paired with...
-
-### AI Mindmeld: A Latent Interconnect Protocol
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30215
-- Summary: arXiv:2610.30215v1 Announce Type: new Abstract: LLMs can act as scientific agents using tools to consult specialists and run experiments. Yet specialist information must enter their context, generally as text, images, audio or video: a bottleneck between models with rich, high-dimensional...
-
-### When Reconstruction Is Not Enough: Doubly Robust Counterfactual and Interventional Mediation Analysis with Learned Multimodal Representations
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30220
-- Summary: arXiv:2610.30220v1 Announce Type: new Abstract: Learned representations of high-dimensional multimodal health records are increasingly used to adjust for confounding, yet they are usually trained to reconstruct the data rather than preserve the information that causal identification requires. We...
-
-### baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30154
-- Summary: arXiv:2610.30154v1 Announce Type: new Abstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation....
 
