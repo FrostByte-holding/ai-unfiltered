@@ -4,6 +4,33 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-11-01
+
+### SenseTime Open-Sources SenseNova-Loop-9B-Preview, a Looped Model That Runs Its Middle Layers Twice
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/sensetime-sensenova-loop-9b-preview-looped-transformer-mhc-open-source-apache-2
+- Summary: SenseTime's open-source SenseNova-Loop-9B-Preview runs a shared 24-layer block twice, giving 56 layer passes from 32 layers, and adds two-stream mHC. Weights are Apache 2.0.
+
+### Westlake University Opens a World Model Research Center Led by Yu Kaicheng
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/westlake-university-world-model-research-center-yu-kaicheng-jin-yaochu-physical-intelligence
+- Summary: Westlake University opened a world model research center at its Yungu Campus on October 31, directed by Yu Kaicheng with Jin Yaochu as chief scientist, to focus on physical intelligence.
+
+### Peking University Team Ports DFT Software ABACUS to Huawei Kunpeng 920, Reports Up to 10.7x Speedups
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/peking-university-abacus-dft-huawei-kunpeng-920-sve-matrix-unit-19-operators-open-source
+- Summary: A Peking University team ported DFT package ABACUS to Huawei's Kunpeng 920 and tuned 19 core operators, reporting 1.3x to 3.9x speedups over a mainstream x86 CPU at 28 cores.
+
+### DeepSeek Harness Team Open-Sources a Super-agent Prototype That Finds and Fixes Bugs on Its Own
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-harness-super-agent-prototype-router-worker-event-driven-watchdog-open-source-mit
+- Summary: DeepSeek's Harness team released an MIT-licensed Super-agent prototype: a resident Router dispatches work to isolated Workers that react to GitHub and chat events, fix bugs and open PRs.
+
+
 ## 2026-10-31
 
 ### Agents Prompt People: Using Agents for Long-Horizon Financial Work
@@ -551,6 +578,12 @@
 - URL: https://tldr.takara.ai/p/2610.40588
 - Summary: When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the...
 
+### VeriCUA: Verification as Agentic Exploration for Computer-Using Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.40578
+- Summary: Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or...
+
 ### FARMS: A Verifiable Foundation for Automated Computational Science
 - Source: HF Daily Papers
 - Category: open-source
@@ -837,6 +870,12 @@
 - Category: incidents
 - URL: https://status.snowflake.com/incidents/9ssl44lx0my9
 - Summary: Oct 29, 04:29 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 60 minutes.Customer experience: Customers hosted in the specified regions may experience delays or intermittent failures when resuming or managing virtual...
+
+### CoToan: Executable Rules and a Representation Contract for Reproducible Game AI Evaluation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.39353
+- Summary: Game AI results are comparable only when different implementations expose the same decision problem. Yet seemingly minor representation choices can silently change that problem by altering action probabilities or collapsing states with different outcomes. We study this issue through CoToan, an...
 
 ### From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors
 - Source: arXiv AI
@@ -2231,6 +2270,12 @@
 - URL: https://pandaily.com/amap-robot-dog-tutu-alibaba-xixi-campus-patrol-abot-agentos-work-orders
 - Summary: Amap's quadruped robot Tutu now runs security inspections at Alibaba's Hangzhou Xixi campus, using the ABot stack to plan routes, photograph checkpoints and send evidence into campus work orders.
 
+### Hierarchical Task Network planning in the Goal Lifecycle
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34668
+- Summary: Goal reasoning (GR) is the process by which intelligent agents continually reason about the goals they are pursuing, which may lead to goal change, for instance when opportunities arise, or when events cause discrepancies among expected and actual outcomes of actions planned to achieve goals. In...
+
 
 ## 2026-10-25
 
@@ -2239,6 +2284,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.34600
 - Summary: Objective. Deformable image registration remains challenging because corresponding anatomy may exhibit different intensity relationships. Hand-crafted modality-robust descriptors such as Modality-Independent Neighborhood Descriptor with Self-Similarity Context (MIND-SSC) and features from...
+
+### Does the Voynich Manuscript Mean Anything? Calibrated Tests Find Little Trace of Language
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34499
+- Summary: The Voynich manuscript is a fifteenth-century book in a script that no one can read. One account holds that its text means nothing and that a scribe made it by copying his own words and changing them a little. The other holds that a real language lies hidden behind a cipher. We write each account...
 
 ### Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers
 - Source: The Hacker News
@@ -2251,6 +2302,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
 - Summary: Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. "In one case, the attackers targeted a government entity in Europe and within two...
+
+### TopX: Text-to-Motion for Unseen Skeletons from the Skeleton File Alone
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2610.34321
+- Summary: Text-to-motion models generate motion only for the skeletons they were trained on, while a new character arrives as a skeleton file and nothing else. We study text-to-motion for skeletons unseen in training, without clips of the character, templates, retargeting or fine-tuning. We present TopX, a...
 
 ### Automated, auditable dating of the Babylonian Astronomical Diaries with language models and astronomical tools
 - Source: HF Daily Papers
@@ -2964,58 +3021,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.30229
 - Summary: arXiv:2610.30229v1 Announce Type: new Abstract: Medical artificial intelligence (AI) models are often shared without their training data, assuming this protects the patients who contributed them. However, a model can reveal whether a patient's records were used in training, a privacy breach known...
-
-### Edit, Don't Imitate: Minimal-Edit On-Policy Distillation for Multimodal Reasoning
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2610.30231
-- Summary: arXiv:2610.30231v1 Announce Type: new Abstract: Visual mathematical reasoning can fail before reasoning begins: when a vision-language model (VLM) misreads a diagram, subsequent reasoning proceeds from false premises. This perceptual bottleneck is especially pronounced in smaller models, while...
-
-### AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30344
-- Summary: arXiv:2610.30344v1 Announce Type: new Abstract: Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resource-efficient framework for...
-
-### Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30349
-- Summary: arXiv:2610.30349v1 Announce Type: new Abstract: LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging well. We train a reinforcement learning policy...
-
-### CiteAnchor: Source-Aware Grounding for Hallucinated Citation Detection and Resolution
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30355
-- Summary: arXiv:2610.30355v1 Announce Type: new Abstract: Hallucinated citations make it harder to trace sources and verify the evidence behind scientific claims. Detecting them is difficult because bibliographic records can be incomplete or differ across source types and publication versions. A plausible...
-
-### Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30374
-- Summary: arXiv:2610.30374v1 Announce Type: new Abstract: The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural machine translation (NMT) system that Wdowiak customized for...
-
-### MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2610.30379
-- Summary: arXiv:2610.30379v1 Announce Type: new Abstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs: constrained bridges between language and symbolic planning....
-
-### Delays in customer support responses
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M5KDJ4079XQTZDSRX40NMN6H
-- Summary: Status: InvestigatingWe are investigating technical issues affecting our customer support systems. Customers may experience longer than usual response times. We are working to restore normal operations.
-
-### Support Helpdesk Availability Issues
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/8m9a1fjjwxp5
-- Summary: Oct 23, 03:37 UTCIdentified - Support portal, live chat support and emergency telephone line are still unavailable due to the ongoing helpdesk provider outage. Customers may experience issues submitting or viewing tickets/chats, and overall response times may be delayed. Customers with urgent...
-
-### OpenHarmony and NearLink Developer Day in Shenzhen Focuses on Protocol Stacks, Chips and Metro Gates
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openharmony-nearlink-hardware-developer-day-shenzhen-protocol-stack-chips-metro
-- Summary: An OpenHarmony hardware developer day in Shenzhen focused on NearLink short-range wireless, covering the protocol stack, HiSilicon chips, the distributed soft bus and smart traffic and metro projects.
 
