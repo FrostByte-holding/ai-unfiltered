@@ -4,7 +4,22 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-11-06
+
+### Degraded performance for multiple GitHub services
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/pfbmpxxfq1cy
+- Summary: Nov 6, 00:20 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 6, 00:19 UTC Monitoring - This incident has been resolved. All affected services,...
+
+
 ## 2026-11-05
+
+### Workers Builds Issues
+- Source: Cloudflare Status
+- Category: incidents
+- URL: https://www.cloudflarestatus.com/incidents/yaa0witbl2me
+- Summary: Nov 5, 20:20 UTCResolved - Queue times have returned to normal.Nov 5, 19:55 UTCMonitoring - Builds are being processed and we're working through backlogNov 5, 19:51 UTCIdentified - Cloudflare is aware of and investigating an issue with Cloudflare Workers Builds which potentially impacts multiple...
 
 ### New NVIDIA Cosmos 3 Open Models for Interactive World Simulation
 - Source: Hugging Face Blog
@@ -34,11 +49,29 @@
 - Category: research
 - URL: https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/
 
+### OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html
+- Summary: Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw...
+
+### Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html
+- Summary: Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration...
+
 ### Network disruption across multiple colocations in India
 - Source: Cloudflare Status
 - Category: incidents
 - URL: https://www.cloudflarestatus.com/incidents/1i6fnludjh1m
 - Summary: Nov 5, 16:16 UTCResolved - This incident has been resolved.Nov 5, 15:37 UTCIdentified - We have identified 9 impacted colocations, all in India, and have removed them from our network. We are working on identifying the underlying issues and bringing them back online.Nov 5, 15:05 UTCInvestigating -...
+
+### ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html
+- Summary: How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster,...
 
 ### Increased Errors for Durable Objects in Western Europe
 - Source: Cloudflare Status
@@ -46,11 +79,47 @@
 - URL: https://www.cloudflarestatus.com/incidents/oy8gxjb38yse
 - Summary: Nov 5, 13:23 UTCMonitoring - Cloudflare investigated an issue that caused an increase of errors for Durable Objects in Western Europe. The issue has been resolved and we are monitoring the results.
 
+### Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/
+- Summary: More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns appeared first on SecurityWeek.
+
 ### The Download: Texas’s fragile AI boom and energy policy shifts
 - Source: MIT Tech Review AI
 - Category: research
 - URL: https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground...
+
+### Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/
+- Summary: The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.
+
+### Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/
+- Summary: Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.
+
+### Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/is-your-exposure-management-platform.html
+- Summary: A critical finding can move through several security tools and still leave the organization exposed.&nbsp; The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what...
+
+### OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
+- Summary: OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. "Our prototype identified and analyzed 2,308 candidate Linux kernel...
+
+### The Agent Smith Dilemma: Governing Agentic Identities
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/
+- Summary: Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.
 
 ### CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality
 - Source: Security Week
@@ -232,6 +301,96 @@
 - URL: https://arxiv.org/abs/2611.05385
 - Summary: arXiv:2611.05385v1 Announce Type: new Abstract: Automated detection of machine-generated text is applied where the verdict carries a cost for the author, yet origin is a property of the production process, not an observable property of the text. The conditions under which a text is produced push it...
 
+### Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2611.05450
+- Summary: arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such assistance requires agents to discover how unfamiliar environments work, reuse what they learn across tasks, and keep...
+
+### Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2611.05459
+- Summary: arXiv:2611.05459v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used to support scientific literature reviews, yet evaluations often examine individual tasks rather than the review process as a whole. We assess six AI tools across four stages: finding relevant...
+
+### SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2611.05512
+- Summary: arXiv:2611.05512v1 Announce Type: new Abstract: AI Agents are becoming digital coworkers that can browse the web, write code, run experiments, and assist humans over extended horizons. Yet existing benchmarks fall short of real knowledge work: many rely on synthetic data or isolated tasks, missing...
+
+### MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion Probabilistic Models
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2611.05524
+- Summary: arXiv:2611.05524v1 Announce Type: new Abstract: We propose MA-SafeDiffuser, a multi-agent extension of SafeDiffuser that equips diffusion-based trajectory planners with finite-time diffusion invariance guarantees for joint-agent safety specifications. Building on the single-agent construction that...
+
+### Towards Efficient Whole Page Ranking with One-Pass Inference
+- Source: arXiv AI
+- Category: research
+- URL: https://arxiv.org/abs/2611.05542
+- Summary: arXiv:2611.05542v1 Announce Type: new Abstract: Whole-page ranking jointly optimizes advertisements and organic content to balance business outcomes and user engagement under complex layout and business constraints. Existing non-autoregressive (NAR) approaches enable efficient page generation but...
+
+### Quantifying out-of-distribution data severity with Wasserstein distances: benchmarking large language models for alloy property prediction
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2611.03767
+- Summary: arXiv:2611.03767v1 Announce Type: new Abstract: As general-purpose Large Language Models (LLMs), such as Gemini and DeepSeek, exhibit increasingly advanced reasoning capabilities, a critical question arises: how do their property prediction abilities compare to those of domain-specific pretrained...
+
+### Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2611.03768
+- Summary: arXiv:2611.03768v1 Announce Type: new Abstract: Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention...
+
+### Probabilistic Steering of Generative Priors for Lab-in-the-Loop Antibody Optimization
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2611.03844
+- Summary: arXiv:2611.03844v1 Announce Type: new Abstract: Therapeutic antibody development is often framed as comprising two discrete stages: initial discovery of novel binders followed by iterative optimization to refine these hits into therapeutic-grade molecules. Models and methods often reflect these...
+
+### Dr. No: Feature Steering for Abstention in Vision-Language Models
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2611.03862
+- Summary: arXiv:2611.03862v1 Announce Type: new Abstract: Large foundation models often answer even when the available visual or textual evidence is insufficient to support a reliable conclusion. This failure to abstain makes them hard to trust in high-stakes or information-seeking settings, where a...
+
+### ExaTune: Exhaustive Hyperparameter Landscape Exploration at Scale
+- Source: arXiv Machine Learning
+- Category: research
+- URL: https://arxiv.org/abs/2611.03867
+- Summary: arXiv:2611.03867v1 Announce Type: new Abstract: Hyperparameter optimization (HPO) returns a single optimal configuration, systematically discarding the explored performance landscape that encodes how results depend on configuration choices. Fitness landscape analysis comprises a robust collection...
+
+### SRRM: A Retrieval-Reconstruction Benchmark for Evaluating Long-Context Memory in Small Language Models
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2611.05386
+- Summary: arXiv:2611.05386v1 Announce Type: new Abstract: Small Language Models (SLMs) are increasingly deployed on consumer-grade hardware, yet their ability to preserve information across progressively longer contexts remains insufficiently understood. Existing benchmarks primarily evaluate...
+
+### AI-Driven SaaS Platform Integration: AI Express for Unified Generative AI Services with Pay-As-You-Go Credit Systems and Scalable Microservice Architecture
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2611.05389
+- Summary: arXiv:2611.05389v1 Announce Type: new Abstract: Generative AI is currently fragmented, with separate subscriptions required for text generation, image synthesis, and code assistance, leading to high costs and workflow disruptions. AI Express is a SaaS platform that consolidates these capabilities...
+
+### When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2611.05517
+- Summary: arXiv:2611.05517v1 Announce Type: new Abstract: For humans, referential disambiguation is a collaborative process involving clarification questions asked when they will meaningfully change the outcome. However, large language models (LLMs) have been shown to be biased toward premature answering,...
+
+### Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2611.05539
+- Summary: arXiv:2611.05539v1 Announce Type: new Abstract: LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The rewrite is character-aligned to the OCR input, its...
+
+### RAGCompass: Generalizable Retriever Routing via Reranking
+- Source: arXiv NLP
+- Category: research
+- URL: https://arxiv.org/abs/2611.05596
+- Summary: arXiv:2611.05596v1 Announce Type: new Abstract: Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different retrievers, which one is most suited for that query? Existing...
+
 ### Want to Rent an Internet Address at the White House?
 - Source: Krebs on Security
 - Category: security
@@ -365,6 +524,12 @@
 - URL: https://www.cloudflarestatus.com/incidents/nbnize4e990z
 - Summary: Nov 4, 15:33 UTCResolved - This incident has been resolved.Nov 4, 15:19 UTCMonitoring - A fix has been implemented and we are monitoring the results.Nov 4, 14:58 UTCIdentified - The issue has been identified and a fix is being implemented.Nov 4, 13:39 UTCInvestigating - We are currently...
 
+### SpikePose: Lightweight Video Human Pose Estimation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06594
+- Summary: Efficient video human pose estimation must balance localisation accuracy, motion quality, and energy cost. We present SpikePose, a lightweight video pose estimator that pairs a frame-reset, single-step spiking encoder with motion-aligned heatmap memory (MAM). The encoder supplies per-frame spatial...
+
 ### Sysdig Adds Runtime Security and Governance for AI Agents
 - Source: Security Week
 - Category: security
@@ -382,6 +547,18 @@
 - Category: security
 - URL: https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/
 - Summary: An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.
+
+### RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06554
+- Summary: Resource management for distributed edge networks hosting different services has been handled efficiently using Reinforcement learning (RL). Reward generalization in complex workflows is still an open issue within the RL realm. Therefore, this work proposes RAGAM-AI, a hybrid framework that...
+
+### Adapting Sleep Foundation Models for Dense Sleep Spindle Localization
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06546
+- Summary: Adapting sleep foundation models to dense electroencephalography (EEG) event localization is challenging because multi-second representations may not preserve sufficient temporal detail for precise boundary recovery. We address sleep spindle localization by adapting a frozen SleepFM encoder with a...
 
 ### Agentic Data Security Firm Sentra Raises $150 Million
 - Source: Security Week
@@ -490,6 +667,12 @@
 - Category: security
 - URL: https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/
 - Summary: A $300,000 award went to a pre-launch flaw that exposed conversations and tokens on internal Muse test VMs used by Meta staff. The post Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million appeared first on SecurityWeek.
+
+### RDT-3D: Resolution-Decoupled Training for High-Fidelity 3D Geometry Generation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06141
+- Summary: High-fidelity 3D geometry generation requires maintaining global structural coherence alongside fine-grained surface details. While recent coarse-to-fine frameworks leverage Rotary Position Embeddings (RoPE) to condition local queries, we reveal a critical training-inference resolution discrepancy:...
 
 ### Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure
 - Source: The Hacker News
@@ -766,6 +949,12 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/deepseek-qwen-minimax-wuzhen-dialogue-open-source-models-risk-wic-2026
 - Summary: At the Wuzhen Summit, DeepSeek's Xi Gao, Qwen's Dayiheng Liu and MiniMax's Wen Feng explained why they open-source models and how irrevocable releases should be governed.
+
+### ME^2FDiff: Multiscale Expert Enhancing Feature Diffusion in Residual Network for Brain Tumor Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.05766
+- Summary: Automated segmentation of post-treatment glioma from MRI is essential for accurate diagnosis and treatment planning, yet remains difficult. Surgery and chemoradiotherapy cause structural changes in brain like resection cavities, edema, and fibrosis, that alter imaging appearance and mimic tumor...
 
 
 ## 2026-11-03
@@ -2830,188 +3019,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2610.36169
 - Summary: arXiv:2610.36169v1 Announce Type: new Abstract: A retrieval-augmented language model answers from two sources, the retrieved context and its own knowledge, and the two disagree whenever the context is incomplete or wrong. Existing methods settle the disagreement with a rule fixed at design time:...
-
-### Learning Human Sports Motion Feasibility via Quantile Regression on Tracking Data
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.36183
-- Summary: arXiv:2610.36183v1 Announce Type: new Abstract: We study time-to-arrival (TTA) in sports: the shortest plausible time a player needs to reach an arbitrary location on the pitch given their current kinematic state, estimated as the lower envelope of observed locomotion times. Rather than modeling...
-
-### Skill Dreaming: Evolving Repository Skills through Pull Request Streams
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.36188
-- Summary: arXiv:2610.36188v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on reusable skills for complex software engineering tasks, making skill libraries essential for repository development and maintenance. However, repository-specific skills must evolve with changing...
-
-### MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor Infused with Systems Engineering Knowledge
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.36234
-- Summary: arXiv:2610.36234v1 Announce Type: new Abstract: Requirements engineering (RE) is foundational to systems engineering (SE), as requirement defects can propagate downstream and adversely affect development outcomes. Although large language models (LLMs) are promising for requirement quality...
-
-### There Is No Free Lunch in RLVR: Every pass@1 Gain Has a pass@k Price
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.39295
-- Summary: Reinforcement learning with verifiable rewards (RLVR) makes a language model solve more problems on the first try and fewer when given many tries: it raises pass@1 while the base model overtakes it at large sampling budget k. Is this a failure of RL to add reasoning, or a transient that more...
-
-### Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.39193
-- Summary: LLM-based agents are increasingly used to complete complex, long-horizon tasks without human intervention. To make progress toward the task goal, agents need to perform different duties, such as planning and verification, when needed. To understand how single agents manage these duties during...
-
-### AZSpace's DEAR-21 Cargo Spacecraft Completes Mechanical Tests, With a First Flight Planned for 2027
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/azspace-dear-21-c2000-cargo-spacecraft-mechanical-tests-first-flight-first-half-2027
-- Summary: AZSpace's DEAR-21 structural test spacecraft, the first flight model of its C2000 medium cargo series, has completed mechanical testing. Launch is planned for the first half of 2027.
-
-### China Releases First Fengyun Satellite AI Models for Typhoon Analysis and Severe Storm Warnings
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/first-fengyun-satellite-extreme-weather-ai-models-typhoon-cloud-image-interpretation-severe-convection-nowcasting
-- Summary: The first Fengyun weather satellite AI models for extreme weather were released on October 29: one interprets typhoon cloud imagery every 15 minutes, the other forecasts severe convection hours ahead.
-
-### DingTalk Open-Sources Its DWS Command-Line Tool for AI Agents, With a Build for HarmonyOS PCs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/dingtalk-open-sources-dws-workspace-cli-ai-agents-harmonyos-pc-openharmony-arm64-build
-- Summary: DingTalk has open-sourced DWS, a command-line tool that lets people and AI agents work with chats, meetings, docs, calendars and approvals, and added an OpenHarmony build validated on HarmonyOS PCs.
-
-### MoleculeMind's MMDesign Report: 18 of 19 De Novo Design Projects Yielded Lab-Confirmed Binders
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moleculemind-mmdesign-technical-report-18-of-19-projects-confirmed-binders-six-gpcr-targets-nk3r
-- Summary: A new MoleculeMind technical report says MMDesign produced lab-confirmed binders in 18 of 19 de novo nanobody and macrocyclic peptide projects, including all six GPCR targets it tried.
-
-### Apex Intelligence Releases Apex-35B-V1.0, a Qwen3.6-Based Model Built With AI Research Agents
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/apex-intelligence-apex-35b-v1-0-qwen3-6-35b-a3b-apex-research-automated-ai-research-cfd-bench
-- Summary: Apex Intelligence has released Apex-35B-V1.0, built on Qwen3.6-35B-A3B with help from its Apex Research system. The company's internal tests show a 32.1-point CFD-Bench gain.
-
-### DeepSeek V5 Placeholder IDs Show Up in Harness Code; V4.1-Flash Leads Open Weights on FrontierCode
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-v5-placeholder-identifiers-harness-code-v4-1-flash-1017-frontiercode-2-0-aa-index-v5
-- Summary: DeepSeek Harness test code lists deepseek-v5, v5-open and v5-next as placeholders; no V5 has been announced. V4.1-Flash-1017 led open-weight models on FrontierCode 2.0.
-
-### Moore Threads Open-Sources Megatron-MUSA-Titan for Trillion-Parameter MoE Training on Its GPUs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moore-threads-open-sources-megatron-musa-titan-trillion-parameter-moe-training-10000-gpu-blockwise-fp8
-- Summary: Moore Threads has open-sourced Megatron-MUSA-Titan, the training stack it uses for trillion-parameter MoE pretraining on 10,000-GPU clusters, with blockwise FP8 and support for slime and miles RL.
-
-### Iluvatar CoreX Shows Its Tiangai 300 GPU Running Live, Claiming 1.05x H200 Throughput
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/iluvatar-corex-tiangai-300-gpu-first-live-demo-1-05x-h200-claim-afd-heterogeneous-inference
-- Summary: Iluvatar CoreX gave the Tiangai 300 general-purpose GPU its first live demo and says third-party tests put single-card throughput at 1.05 times the H200. The test method was not disclosed.
-
-### Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/announcing-project-protostar
-
-### Welcome Le Chonk: Mistral Large 4 on Hugging Face
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/mistral-large4
-
-### Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/anydecisionmodel
-
-
-## 2026-10-28
-
-### Implicit Reasoning in Transformers: Bridging the Compositionality Gap in GPT-2-like Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.39016
-- Summary: Compositional generalization remains a persistent limitation of transformer language models: even when a model learns to combine known facts correctly in-distribution (ID), the same compositional mechanism may fail when applied to out-of-distribution (OOD) knowledge. We investigate this...
-
-### Geometric Time Score Estimators: Bridging Self-Predictive Representations and Generative Occupancy Models For Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.38901
-- Summary: In reinforcement learning (RL), temporal reasoning is essential for estimating the density of future outcomes under a policy's occupancy measure. While self-predictive representations have been a dominant paradigm for occupancy density estimation, we find that they yield surprisingly poor...
-
-### Creating AI value with enterprise context
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/
-- Summary: Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the...
-
-### Elevated errors affecting the Google Calendar connector
-- Source: Anthropic Status
-- Category: incidents
-- URL: https://status.claude.com/incidents/phg1y2yh07n2
-- Summary: Oct 28, 20:05 UTC Resolved - The issue affecting the Google Calendar connector on claude.ai, Claude Code, and Claude Cowork has been resolved. Impact occurred from 04:07 PT / 11:07 UTC on October 26 to 11:52 PT / 18:52 UTC on October 28. Oct 28, 19:47 UTC Monitoring - We are seeing recovery for...
-
-### Why Agents Love Supabase
-- Source: Latent Space
-- Category: open-source
-- URL: https://latent.space/p/supabase/
-- Summary: Paul Copplestone and Ant Wilson on building the backend for AI agents
-
-### Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html
-- Summary: The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. "First identified in late 2023, Silent Train uses rotating chains of compromised...
-
-### Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html
-- Summary: Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and...
-
-### Gemini 4 Carbon: Our next frontier model
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
-
-### Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html
-- Summary: A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at...
-
-### PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html
-- Summary: Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25,...
-
-### Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/
-- Summary: Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek.
-
-### NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/nvidia/nemotron-transcribe-granary
-
-### Disruption with some Copilot services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/l7ycmglmykgg
-- Summary: Oct 28, 14:33 UTC Update - We are experiencing degraded availability for the GPT-5.3-Codex, GPT-5.6 Luna, GPT-6.1 Sol, GPT-5.6 Terra, GPT-6 Luna, and MAI Code 1.1 Flash models in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to...
-
-### Upwind Security Raises $400 Million at $3.8 Billion Valuation
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/
-- Summary: The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek.
-
-### Chrome and Firefox Updates Patch Over 200 Vulnerabilities
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/
-- Summary: The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.
 

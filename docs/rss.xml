@@ -5,9 +5,27 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 05 Nov 2026 19:50:28 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 00:52:20 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>Degraded performance for multiple GitHub services</title>
+            <link>https://www.githubstatus.com/incidents/pfbmpxxfq1cy</link>
+            <guid>https://www.githubstatus.com/incidents/pfbmpxxfq1cy</guid>
+            <pubDate>Fri, 06 Nov 2026 00:20:49 +0000</pubDate>
+            <source url="https://www.githubstatus.com/incidents/pfbmpxxfq1cy">GitHub Status</source>
+            <category>incidents</category>
+            <description>Nov 6, 00:20 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 6, 00:19 UTC Monitoring - This incident has been resolved. All affected services,...</description>
+        </item>
+        <item>
+            <title>Workers Builds Issues</title>
+            <link>https://www.cloudflarestatus.com/incidents/yaa0witbl2me</link>
+            <guid>https://www.cloudflarestatus.com/incidents/yaa0witbl2me</guid>
+            <pubDate>Thu, 05 Nov 2026 20:20:10 +0000</pubDate>
+            <source url="https://www.cloudflarestatus.com/incidents/yaa0witbl2me">Cloudflare Status</source>
+            <category>incidents</category>
+            <description>Nov 5, 20:20 UTCResolved - Queue times have returned to normal.Nov 5, 19:55 UTCMonitoring - Builds are being processed and we&#x27;re working through backlogNov 5, 19:51 UTCIdentified - Cloudflare is aware of and investigating an issue with Cloudflare Workers Builds which potentially impacts multiple...</description>
+        </item>
         <item>
             <title>New NVIDIA Cosmos 3 Open Models for Interactive World Simulation</title>
             <link>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</link>
@@ -54,6 +72,24 @@
             <description></description>
         </item>
         <item>
+            <title>OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux</title>
+            <link>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</link>
+            <guid>https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html</guid>
+            <pubDate>Thu, 05 Nov 2026 16:42:46 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html">The Hacker News</source>
+            <category>security</category>
+            <description>Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw...</description>
+        </item>
+        <item>
+            <title>Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction</title>
+            <link>https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html</link>
+            <guid>https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html</guid>
+            <pubDate>Thu, 05 Nov 2026 16:42:32 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html">The Hacker News</source>
+            <category>security</category>
+            <description>Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration...</description>
+        </item>
+        <item>
             <title>Network disruption across multiple colocations in India</title>
             <link>https://www.cloudflarestatus.com/incidents/1i6fnludjh1m</link>
             <guid>https://www.cloudflarestatus.com/incidents/1i6fnludjh1m</guid>
@@ -61,6 +97,15 @@
             <source url="https://www.cloudflarestatus.com/incidents/1i6fnludjh1m">Cloudflare Status</source>
             <category>incidents</category>
             <description>Nov 5, 16:16 UTCResolved - This incident has been resolved.Nov 5, 15:37 UTCIdentified - We have identified 9 impacted colocations, all in India, and have removed them from our network. We are working on identifying the underlying issues and bringing them back online.Nov 5, 15:05 UTCInvestigating -...</description>
+        </item>
+        <item>
+            <title>ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories</title>
+            <link>https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html</link>
+            <guid>https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html</guid>
+            <pubDate>Thu, 05 Nov 2026 14:41:10 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html">The Hacker News</source>
+            <category>security</category>
+            <description>How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn&#x27;t. And while new tools are helping find security holes faster,...</description>
         </item>
         <item>
             <title>Increased Errors for Durable Objects in Western Europe</title>
@@ -72,6 +117,15 @@
             <description>Nov 5, 13:23 UTCMonitoring - Cloudflare investigated an issue that caused an increase of errors for Durable Objects in Western Europe. The issue has been resolved and we are monitoring the results.</description>
         </item>
         <item>
+            <title>Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns</title>
+            <link>https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/</link>
+            <guid>https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/</guid>
+            <pubDate>Thu, 05 Nov 2026 13:22:12 +0000</pubDate>
+            <source url="https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/">Security Week</source>
+            <category>security</category>
+            <description>More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &amp;#8216;Suspended&amp;#8217; Pages to Evade Takedowns appeared first on SecurityWeek.</description>
+        </item>
+        <item>
             <title>The Download: Texas’s fragile AI boom and energy policy shifts</title>
             <link>https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</link>
             <guid>https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</guid>
@@ -81,49 +135,49 @@
             <description>This is today&amp;#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground...</description>
         </item>
         <item>
-            <title>CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality</title>
-            <link>https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/</link>
-            <guid>https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/</guid>
-            <pubDate>Thu, 05 Nov 2026 11:00:00 +0000</pubDate>
-            <source url="https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/">Security Week</source>
+            <title>Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised</title>
+            <link>https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/</link>
+            <guid>https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/</guid>
+            <pubDate>Thu, 05 Nov 2026 12:58:32 +0000</pubDate>
+            <source url="https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/">Security Week</source>
             <category>security</category>
-            <description>Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.</description>
+            <description>The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.</description>
         </item>
         <item>
-            <title>Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</title>
-            <link>https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/</link>
-            <guid>https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/</guid>
-            <pubDate>Thu, 05 Nov 2026 10:56:41 +0000</pubDate>
-            <source url="https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/">Security Week</source>
+            <title>Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</title>
+            <link>https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/</link>
+            <guid>https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/</guid>
+            <pubDate>Thu, 05 Nov 2026 12:33:49 +0000</pubDate>
+            <source url="https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/">Security Week</source>
             <category>security</category>
-            <description>Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared first on SecurityWeek.</description>
+            <description>Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.</description>
         </item>
         <item>
-            <title>Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes</title>
-            <link>https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/</link>
-            <guid>https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/</guid>
-            <pubDate>Thu, 05 Nov 2026 10:37:13 +0000</pubDate>
-            <source url="https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/">Security Week</source>
+            <title>Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out</title>
+            <link>https://thehackernews.com/2026/11/is-your-exposure-management-platform.html</link>
+            <guid>https://thehackernews.com/2026/11/is-your-exposure-management-platform.html</guid>
+            <pubDate>Thu, 05 Nov 2026 12:25:00 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/11/is-your-exposure-management-platform.html">The Hacker News</source>
             <category>security</category>
-            <description>The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine. The post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first on SecurityWeek.</description>
+            <description>A critical finding can move through several security tools and still leave the organization exposed.&amp;nbsp; The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what...</description>
         </item>
         <item>
-            <title>5 Active Cyber Threats That Put US Enterprises at Risk in October 2026</title>
-            <link>https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html</link>
-            <guid>https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html</guid>
-            <pubDate>Thu, 05 Nov 2026 10:06:19 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html">The Hacker News</source>
+            <title>OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run</title>
+            <link>https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html</link>
+            <guid>https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html</guid>
+            <pubDate>Thu, 05 Nov 2026 12:08:54 +0000</pubDate>
+            <source url="https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html">The Hacker News</source>
             <category>security</category>
-            <description>October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk...</description>
+            <description>OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. &quot;Our prototype identified and analyzed 2,308 candidate Linux kernel...</description>
         </item>
         <item>
-            <title>OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks</title>
-            <link>https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/</link>
-            <guid>https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/</guid>
-            <pubDate>Thu, 05 Nov 2026 10:02:00 +0000</pubDate>
-            <source url="https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/">Security Week</source>
+            <title>The Agent Smith Dilemma: Governing Agentic Identities</title>
+            <link>https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/</link>
+            <guid>https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/</guid>
+            <pubDate>Thu, 05 Nov 2026 11:15:00 +0000</pubDate>
+            <source url="https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/">Security Week</source>
             <category>security</category>
-            <description>OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently. The post OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks appeared first on SecurityWeek.</description>
+            <description>Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.</description>
         </item>
         <item>
             <title>A new bill could change how the US builds energy infrastructure</title>
@@ -133,24 +187,6 @@
             <source url="https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/">MIT Tech Review AI</source>
             <category>research</category>
             <description>A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan...</description>
-        </item>
-        <item>
-            <title>Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content</title>
-            <link>https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html</link>
-            <guid>https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html</guid>
-            <pubDate>Thu, 05 Nov 2026 09:13:28 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html">The Hacker News</source>
-            <category>security</category>
-            <description>Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by...</description>
-        </item>
-        <item>
-            <title>CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access</title>
-            <link>https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html</link>
-            <guid>https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html</guid>
-            <pubDate>Thu, 05 Nov 2026 08:42:03 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html">The Hacker News</source>
-            <category>security</category>
-            <description>The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and...</description>
         </item>
         <item>
             <title>SuperCLUE Office Agent Benchmark Crowns Doubao Work Ahead of Kimi Work and WorkBuddy</title>
@@ -189,15 +225,6 @@
             <description>Moonshot AI&#x27;s Kimi Hosted Agents offers a 24/7 managed agent harness with sandboxes, audit trails, Inference Hook and eight finance templates, so teams need not self-host the runtime.</description>
         </item>
         <item>
-            <title>Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution</title>
-            <link>https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html</link>
-            <guid>https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html</guid>
-            <pubDate>Thu, 05 Nov 2026 07:06:33 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html">The Hacker News</source>
-            <category>security</category>
-            <description>Zyxel GS1900 network switches that received the vendor&#x27;s earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch&#x27;s web management interface run commands on it without logging in. Zyxel has...</description>
-        </item>
-        <item>
             <title>[AINews] It&#x27;s Swapping Season</title>
             <link>https://latent.space/p/ainews-it-s-swapping-season/</link>
             <guid>https://latent.space/p/ainews-it-s-swapping-season/</guid>
@@ -205,15 +232,6 @@
             <source url="https://latent.space/p/ainews-it-s-swapping-season/">Latent Space</source>
             <category>open-source</category>
             <description>November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.</description>
-        </item>
-        <item>
-            <title>Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says</title>
-            <link>https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html</link>
-            <guid>https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html</guid>
-            <pubDate>Thu, 05 Nov 2026 05:17:04 +0000</pubDate>
-            <source url="https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html">The Hacker News</source>
-            <category>security</category>
-            <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is...</description>
         </item>
         <item>
             <title>Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions</title>
@@ -439,24 +457,6 @@
             <source url="https://huggingface.co/blog/Dharma-AI/dharma-field-extractor">Hugging Face Blog</source>
             <category>open-source</category>
             <description></description>
-        </item>
-        <item>
-            <title>What’s next for US energy policy after the midterm elections?</title>
-            <link>https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/</link>
-            <guid>https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/</guid>
-            <pubDate>Wed, 04 Nov 2026 17:08:00 +0000</pubDate>
-            <source url="https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/">MIT Tech Review AI</source>
-            <category>research</category>
-            <description>I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory...</description>
-        </item>
-        <item>
-            <title>Incident with Actions and Pages</title>
-            <link>https://www.githubstatus.com/incidents/xr3myzj7ms51</link>
-            <guid>https://www.githubstatus.com/incidents/xr3myzj7ms51</guid>
-            <pubDate>Wed, 04 Nov 2026 17:01:11 +0000</pubDate>
-            <source url="https://www.githubstatus.com/incidents/xr3myzj7ms51">GitHub Status</source>
-            <category>incidents</category>
-            <description>Nov 4, 17:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 4, 16:49 UTC Update - The degradation has been mitigated. We are monitoring to ensure...</description>
         </item>
     </channel>
 </rss>
