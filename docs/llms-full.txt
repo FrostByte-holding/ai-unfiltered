@@ -6,6 +6,12 @@
 
 ## 2026-11-06
 
+### INC20000336
+- Source: Snowflake Status
+- Category: incidents
+- URL: https://status.snowflake.com/incidents/x3qhhkdr8yqw
+- Summary: Nov 6, 23:32 UTC Investigating - Current status: We're investigating an issue with Snowflake Data Cloud. We'll provide an update within 60 minutes.Customer experience: Customers hosted in the specified region may experience delays when resuming or scaling up virtual warehouses. Existing warehouses...
+
 ### Elevated error rates with Brex Cards and U.S. business Mastercards
 - Source: OpenAI Status
 - Category: incidents
@@ -347,17 +353,35 @@
 - URL: https://www.cloudflarestatus.com/incidents/1i6fnludjh1m
 - Summary: Nov 5, 16:16 UTCResolved - This incident has been resolved.Nov 5, 15:37 UTCIdentified - We have identified 9 impacted colocations, all in India, and have removed them from our network. We are working on identifying the underlying issues and bringing them back online.Nov 5, 15:05 UTCInvestigating -...
 
+### ProQuant: Progressive Quantization-aware Training for Edge MLLMs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.08216
+- Summary: Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge...
+
 ### Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.08160
 - Summary: Attention-based time series forecasters commonly group consecutive observations into patches. Patch length is known to have a substantial impact on forecasting performance, yet its selection remains largely empirical. We develop a theoretical framework that explains why patch length matters for...
 
+### Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.08144
+- Summary: Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a...
+
 ### ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories
 - Source: The Hacker News
 - Category: security
 - URL: https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html
 - Summary: How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster,...
+
+### Linguistic boundaries emerge from pressure-constrained processing dynamics
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.08085
+- Summary: Human cognition organizes continuous experience into bounded units while maintaining continuity across them. Linguistic elements are also organized into bounded structural units such as words and phrases, with sentence marking the final bound of a grammatical construction process. How do such...
 
 ### Increased Errors for Durable Objects in Western Europe
 - Source: Cloudflare Status
@@ -382,6 +406,12 @@
 - Category: security
 - URL: https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/
 - Summary: The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.
+
+### IDPrior: Decoupling Identity Generation from Facial Image Synthesis
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07941
+- Summary: Large-scale identity-labeled face datasets are essential for training modern face recognition models, yet collecting and annotating such data is costly and raises privacy and ethical concerns. Existing synthetic face generation methods typically derive identities from predefined class labels,...
 
 ### Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws
 - Source: Security Week
@@ -460,6 +490,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html
 - Summary: The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and...
+
+### What the Middleman Delivers: Answer Behavior, Tool Permissions, and Billed Usage in LLM API Relays
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07650
+- Summary: Third-party application programming interface (API) relays offer access to large language models (LLMs), often at lower prices. Users depend on these services for model quality, instruction compliance, and accurate billing. However, existing studies leave unclear whether relays meet these...
 
 ### SuperCLUE Office Agent Benchmark Crowns Doubao Work Ahead of Kimi Work and WorkBuddy
 - Source: Pandaily
@@ -2982,40 +3018,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2610.40578
 - Summary: Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or...
-
-### FARMS: A Verifiable Foundation for Automated Computational Science
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40560
-- Summary: Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that...
-
-### Efficient Scalable Oversight via Rewinding
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40535
-- Summary: Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems. One proposed approach uses relativizing interactive proofs, in which a weak verifier checks the output of a complex oracle-aided computation by interacting with one or more...
-
-### LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40495
-- Summary: We present LucidLyra, a framework that makes generatively reconstructed 3D scenes directly queryable for semantics and instances in a feed-forward manner from video latents. While generative 3D reconstruction can synthesize virtual environments from a single image, downstream applications in...
-
-### rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40488
-- Summary: Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known? We give six frontier models seven recent NLP papers. Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each...
-
-### The Precision Wall: An Optimizer-Dependent Boundary for Optimization under Power-Law Measurement Spectra
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40485
-- Summary: In low-rank matrix sensing of a rank-$D$ factor $U^\ast \in \mathbb{R}^{V \times D}$, replacing isotropic Gaussian designs with power-law measurement covariance $Σ= \mathrm{diag}(j^{-s})_{j=1}^V$ leaves the Burer--Monteiro landscape free of spurious local minima, yet division-normalised first-order...
-
-### Preserving Utility in Continual LLM Unlearning via Orthogonal Projections
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.40483
-- Summary: Unlearning concerns the task of removing the influence of a sensitive portion of the training data, such as protected, copyrighted or private text, from a model without retraining it from scratch. While unlearning requests happen continuously during a model's lifetime, the vast majority of LLM...
 
