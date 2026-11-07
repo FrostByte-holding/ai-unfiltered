@@ -6,6 +6,48 @@
 
 ## 2026-11-07
 
+### SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+- Summary: CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.
+
+### China Seeks Comment on Robot Identification Codes Covering All Robot Categories
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/miit-draft-robot-product-identification-codes-all-categories-lifecycle-traceability
+- Summary: MIIT's draft proposes a unique code for each robot across industrial, service and special-purpose categories. Public comments are open through December 5.
+
+### Xiaomi EV Forms International Business Department Ahead of Planned European Entry
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/xiaomi-ev-international-business-department-yu-liguo-europe-expansion
+- Summary: Xiaomi EV's new international department brings sales, channels, logistics and service under Yu Liguo as it prepares for a planned European launch in 2027.
+
+### DEEP Robotics Launches X50 Quadruped With a Claimed 50-Kilogram Working Payload
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deep-robotics-x50-heavy-duty-quadruped-50kg-payload-inspection-firefighting
+- Summary: DEEP Robotics says X50 can carry 50 kilograms at 3 m/s for over two kilometers, targeting industrial inspection, equipment transport and emergency response.
+
+### OpenCSG Releases Agentic-27B for Tool Workflows, With Commercial Use Requiring Permission
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/opencsg-agentic-27b-tool-workflows-single-gpu-commercial-license
+- Summary: OpenCSG's 27B agent model targets tool selection and failure recovery, with single-A800 test results. Its license requires permission for commercial use.
+
+### Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/huawei-harmonyos-pc-standalone-assistant-work-office-agent-release
+- Summary: Huawei's standalone HarmonyOS PC assistant adds an official office-agent release with cloud or local execution, phone task dispatch and AI-point membership billing.
+
+### Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html
+- Summary: Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects "Yes, and don't ask again," Anthropic's AI coding assistant can save the command, word-for-word, including the secret,...
+
 ### Network Performance Issues in Chicago
 - Source: Cloudflare Status
 - Category: incidents
@@ -429,6 +471,12 @@
 - URL: https://www.githubstatus.com/incidents/t89g2q1800fr
 - Summary: Nov 5, 17:42 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 5, 17:04 UTC Monitoring - The degradation affecting Actions has been mitigated. We are...
 
+### SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.08364
+- Summary: Online 3D bin packing with a processing buffer requires choosing which box to pack, its orientation, and its placement while keeping the stack stable under unknown future arrivals. A collapse ends the episode and forfeits the remaining volume. Existing methods use geometric rules or hard stability...
+
 ### AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research
 - Source: Security Week
 - Category: security
@@ -536,6 +584,12 @@
 - URL: https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/
 - Summary: Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.
 
+### Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07913
+- Summary: Language models can produce similar probabilistic predictions after observing outcomes, reading summaries, receiving instructions, or undergoing activation interventions. Whether these routes induce equivalent belief states remains unclear: agreement in current predictions does not establish how a...
+
 ### Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out
 - Source: The Hacker News
 - Category: security
@@ -547,6 +601,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
 - Summary: OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. "Our prototype identified and analyzed 2,308 candidate Linux kernel...
+
+### FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07870
+- Summary: Large language models use auxiliary conditioning to incorporate additional information into time-series forecasts. However, auxiliary conditioning does not consistently improve accuracy and can increase forecasting error when its influence is poorly matched to the observed temporal context. We...
 
 ### The Agent Smith Dilemma: Governing Agentic Identities
 - Source: Security Week
@@ -602,6 +662,12 @@
 - URL: https://tldr.takara.ai/p/2611.07695
 - Summary: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation...
 
+### Non-Parametric Mutual Information Estimation with Vine Copulas
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07693
+- Summary: We introduce VINE: a non-parametric mutual information (MI) estimator based on simplified D-vine copulas. Approximating the joint density with a simplified D-vine allows the density ratio to simplify to a product of pair copulas, which we can estimate non-parametrically. This structural...
+
 ### Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content
 - Source: The Hacker News
 - Category: security
@@ -619,6 +685,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.07650
 - Summary: Third-party application programming interface (API) relays offer access to large language models (LLMs), often at lower prices. Users depend on these services for model quality, instruction compliance, and accurate billing. However, existing studies leave unclear whether relays meet these...
+
+### MambaTG: Candidate-Aware State Space Modeling for Future Link Prediction on Temporal Graphs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07569
+- Summary: Future link prediction on temporal graphs involves both repeated interactions between previously connected node pairs and first-time interactions between pairs with no prior interaction. While repeated-edge prediction can exploit direct pairwise evidence, unseen-edge prediction must generalize...
 
 ### SuperCLUE Office Agent Benchmark Crowns Doubao Work Ahead of Kimi Work and WorkBuddy
 - Source: Pandaily
@@ -2946,76 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/syndexy-c1-dexterous-humanoid-robot-first-small-batch-delivery-visuotactile-precision-assembly
 - Summary: Beijing startup SynDexy has delivered its first small batch of C1 humanoids for precision assembly at electronics plants, six months after development began. Key tasks exceeded 98% success in tests.
-
-### Midea's Six-Arm MIRO U Robot Fastened Back-Panel Screws on 100,000 Washing Machines in Three Months
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/midea-miro-u-six-arm-humanoid-robot-100000-washing-machines-screws-guangdong-2000-humanoids-factories
-- Summary: Midea's six-arm MIRO U has driven back-panel screws on 100,000 washers over three months, six screws in about 10 seconds, as Guangdong reports more than 2,000 humanoid robots in factories.
-
-### Tencent Opens Its Internal Data Tool Beacon AI to the Public for Plain-Language Data Analysis
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tencent-beacon-ai-data-analysis-platform-opens-to-public-natural-language-dashboards-self-harness-mcp
-- Summary: Tencent has opened Beacon AI, its data analysis platform used by over 100 internal teams, to outside users. It builds dashboards from plain language and adds Self-Harness, skills and MCP access.
-
-### Zhuoyu Brings Its Driving Model to Heavy Trucks, PDS 4 Highway Assist Now in Mass Production
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/zhuoyu-technology-commercial-vehicle-driver-assistance-pds-4-heavy-truck-highway-noa-mass-production
-- Summary: Zhuoyu Technology moved its passenger-car driving model to heavy trucks. PDS 4 highway assist is in mass production, with a 500-meter in-cabin lidar and fuel-saving logic trimming use 4.5% to 7.5%.
-
-### Tsinghua, Infinigence AI and AgiBot Train 96 Real Robots to Learn From Each Other's Experience
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/tsinghua-infinigence-ai-agibot-collective-experience-learning-cel-96-real-robots
-- Summary: A Tsinghua, Infinigence AI and AgiBot team trained 96 real robots to share experience. Two unseen robots hit 97.5% success over 600 trials, and phone packaging rose from 79.2% to 98.3%.
-
-### CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html
-- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) -...
-
-### STAR-FER: Adaptive Selective Restoration for Edge-Based Low-Resolution Facial Expression Recognition
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2610.41310
-- Summary: Variable interaction distances continuously degrade facial resolution in edge-based affective interaction, making low-resolution facial expression recognition (FER) difficult under limited computation. Full-face image or feature restoration incurs substantial overhead, whereas lightweight...
-
-### Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/10/binance-suffers-security-breach.html
-- Summary: Cryptocurrency giant Binance said on Thursday that a "security incident" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far.&nbsp; Tether and Circle said they have...
-
-### LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.37720
-- Summary: arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert...
-
-### Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.37731
-- Summary: arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We...
-
-### ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.37732
-- Summary: arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as...
-
-### OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.37739
-- Summary: arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce...
-
-### WebAnything: From the Wild Web to Scalable Agent Environments
-- Source: arXiv AI
-- Category: research
-- URL: https://arxiv.org/abs/2610.37786
-- Summary: arXiv:2610.37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites....
 
