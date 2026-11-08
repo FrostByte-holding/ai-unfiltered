@@ -6,6 +6,12 @@
 
 ## 2026-11-08
 
+### Elevated errors with image generation
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M6XVDCKRT3PSB0YP8J30GTD5
+- Summary: Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Image Generation (Operational)
+
 ### Increase in timeouts for some unauthenticated users
 - Source: GitHub Status
 - Category: incidents
@@ -665,6 +671,12 @@
 - URL: https://thehackernews.com/2026/11/is-your-exposure-management-platform.html
 - Summary: A critical finding can move through several security tools and still leave the organization exposed.&nbsp; The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what...
 
+### DISCERN: Distributional Synthetic Replay for Retain-Free Incremental Machine Unlearning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07892
+- Summary: Machine unlearning aims to remove the influence of specific training data from a trained model without retraining from scratch. In real deployments, however, deletion requests arrive over time, calling for incremental class unlearning (ICU): classes are removed sequentially, previously forgotten...
+
 ### OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
 - Source: The Hacker News
 - Category: security
@@ -1055,6 +1067,12 @@
 - URL: https://status.openai.com//incidents/01M6MBCX427A7113A3T4FJ1N6Y
 - Summary: Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Conversations (Operational)
 
+### HyFlash: A Prefix-Memory Prior for On-Device Speculative Decoding
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.07263
+- Summary: Parallel block drafting accelerates speculative decoding by predicting multiple future positions in a single backbone pass, but on-device deployment constrains both drafter capacity and context storage. Under tight memory budgets, drafters must model long-range dependencies and fine-grained...
+
 ### A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.
 - Source: Hugging Face Blog
 - Category: open-source
@@ -1075,6 +1093,12 @@
 - URL: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
 - Summary: November 3, 2026 — A quiet day lets us share some behind the senes.
 
+### BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06911
+- Summary: Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs)...
+
 ### Perceptive Humanoid Motion from Simulation
 - Source: HF Daily Papers
 - Category: open-source
@@ -1086,6 +1110,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/
 - Summary: Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for...
+
+### Motion-guided Contrastive Regularization For Latent World Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.06901
+- Summary: JEPA-style world models learn action-conditioned latent dynamics without reconstructing observations, but distributional regularization alone does not ensure that their representations preserve information needed for control. We identify static collapse, a failure mode in which the encoder...
 
 ### Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization
 - Source: HF Daily Papers
@@ -2390,6 +2420,12 @@
 - URL: https://tldr.takara.ai/p/2611.02952
 - Summary: Self-supervised learning inherits the coverage of its source data. When an unlabeled corpus is long-tailed, the representation becomes dense around frequent modes and thin where coverage is weak. Objectives for long-tailed SSL reweight the images already in the corpus and add no new ones. We...
 
+### Action Verification through Conjecture and Refutation for Language Model Agents
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.02950
+- Summary: Language model agents increasingly act on users' behalf by manipulating external environments through tools, often from high-level instructions that leave critical task- and environment-specific context unstated. To prevent resulting misaligned actions, recent work verifies proposed actions before...
+
 ### Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data
 - Source: The Hacker News
 - Category: security
@@ -2983,40 +3019,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/inspatio-simulation-embodied-ai-data-collection-center-hangzhou-million-hours-month-topos-pro-hesai-kosmo
 - Summary: Spatial intelligence firm InSpatio opened what it calls China's first simulation-led embodied AI data center in Hangzhou, aiming to produce a million hours of robot training data a month.
-
-### AgiBot Proposes Worken to Measure Robot Work, Aims to Cut Engineers per Robot to 1 in 10 by Year-End
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/agibot-worken-effective-intelligent-work-hours-robot-engineer-ratio-3-to-1-10-to-1-chimelong
-- Summary: AgiBot has proposed Worken, a unit for the useful work robots actually do. At one theme park it went from one engineer per robot to one per three, and targets one per 10 by year-end and 20 next year.
-
-### Xiaomi Open-Sources Xiaomi-OCR-0, a 0.8B Document Model That Tops OmniDocBench in Its Size Class
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/xiaomi-ocr-0-open-source-0-8b-document-parsing-key-information-extraction-omnidocbench-96-83
-- Summary: Xiaomi has open-sourced Xiaomi-OCR-0, a 0.8B model for document parsing, key-field extraction and OCR question answering. It scores 96.83 on OmniDocBench v1.6, first among models under 1B.
-
-### Baidu Says Search Now Improves Itself From Live Feedback, Cuts API to 4.9 Yuan per 1,000 Calls
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/baidu-search-recursive-self-evolution-search-ai-api-4-9-yuan-per-1000-calls-below-deepseek
-- Summary: Baidu says its search engine now retrains itself from real queries and feedback without human tuning, and is selling an enhanced search AI API at 4.9 yuan per 1,000 calls through December 31.
-
-### Horizon Robotics Journey 6P and HSD Reportedly Head to BYD's God's Eye B; Yu Kai Splits TOPS Claims
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/horizon-robotics-journey-6p-hsd-byd-gods-eye-b-november-yu-kai-nv-tops-equivalent-tops
-- Summary: Horizon Robotics' Journey 6P chip and HSD software are reportedly entering BYD's God's Eye B, with first cars due in November. CEO Yu Kai says Horizon will now list two compute figures.
-
-### DeepSeek Website Code Points to Cyber, a Dedicated Cybersecurity Model in Limited Testing
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-cyber-cybersecurity-model-front-end-code-cyber-personal-v3-cyber-enterprise-v4-cyber-key
-- Summary: Code on DeepSeek's website references Cyber, a cybersecurity model with personal and enterprise versions, ID checks and a separate Cyber Key. DeepSeek has not announced it; testing looks limited.
-
-### INC20000321
-- Source: Snowflake Status
-- Category: incidents
-- URL: https://status.snowflake.com/incidents/gcsk36bw5g0r
-- Summary: Oct 31, 00:04 UTC Resolved - Current status: We've implemented the fix for this issue and monitored the environment to confirm that service was restored. If you experience additional issues or have questions, please open a support case via Snowflake Community or the Support page in...
 
