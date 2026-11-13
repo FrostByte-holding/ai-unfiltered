@@ -6,6 +6,57 @@
 
 ## 2026-11-13
 
+### Delayed Costs Data in the Compliance API
+- Source: OpenAI Status
+- Category: incidents
+- URL: https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0
+- Summary: Status: MonitoringWe’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected.Affected components Compliance API (Degraded performance)
+
+### Incident with Pull Requests
+- Source: GitHub Status
+- Category: incidents
+- URL: https://www.githubstatus.com/incidents/1xzmt89vv61l
+- Summary: Nov 13, 18:29 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 13, 17:46 UTC Update - We continue to monitor the stability of merge requests. Nov...
+
+### Build a Robot Pick-and-Place Simulation with SimReady Assets
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place
+
+### XYBench: Helping with the problem behind the question
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/allenai/xybench
+
+### PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html
+- Summary: A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked...
+
+### New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html
+- Summary: Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need...
+
+### FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html
+- Summary: The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months....
+
+### llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+- Source: Hugging Face Blog
+- Category: open-source
+- URL: https://huggingface.co/blog/ggml-org/llama-cpp-v1
+
+### The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan
+- Source: MIT Tech Review AI
+- Category: research
+- URL: https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/
+- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former...
+
 ### The Sequence Robotics - Issue #971: Robots Should Learn on the Job
 - Source: The Sequence
 - Category: open-source
@@ -319,6 +370,18 @@
 - URL: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
 - Summary: Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion...
 
+### Validation-Guided Prompt Selection for Differential Morphing Attack Detection
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.17176
+- Summary: Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning....
+
+### STeP-C: Real-Time Neural Compression for Distributed Fiber-Optic Sensing at Scale
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.17126
+- Summary: Distributed fiber-optic sensing (DFOS) technologies such as Distributed Acoustic Sensing (DAS) generate continuous, high-resolution spatio-temporal data at rates exceeding hundreds of megabytes per second, creating severe challenges for real-time storage and transmission. While neural compression...
+
 ### Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry
 - Source: The Hacker News
 - Category: security
@@ -343,6 +406,12 @@
 - URL: https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html
 - Summary: Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by...
 
+### Uncertainty-aware quantum machine learning based on Dempster-Shafer theory
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16903
+- Summary: A large body of work in quantum machine learning has centered on characterizing the expressivity and performance of quantum models. In contrast, little attention has been paid to the reliability of predictions beyond average performance measures such as accuracy. In this work, we introduce an...
+
 ### Chrome, Firefox Updates Patch Over 180 Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -354,6 +423,12 @@
 - Category: security
 - URL: https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/
 - Summary: Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek.
+
+### ScrewSense: Mapping the Invisible - Anomaly Detection and Error Classification in Screwdriving Processes
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16789
+- Summary: The growing volume of process data generated by screwdriving systems, combined with advancements in computing power, data storage, and algorithms, is facilitating the application of artificial intelligence in this field. Accurately detecting and classifying screwdriving errors is crucial for...
 
 ### Daylight Lands $80 Million for AI-Powered Security Operations
 - Source: Security Week
@@ -408,6 +483,12 @@
 - Category: security
 - URL: https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/
 - Summary: The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.
+
+### Machine Learning for Scalable Multi-AP Coordination in IEEE 802.11bn Networks
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16634
+- Summary: As Wi-Fi deployments become denser, fully distributed random channel access no longer guarantees the required quality of service. The multi-access point coordination (MAPC) framework introduced in IEEE~802.11bn lets neighboring access points (APs) cooperate, but choosing which APs transmit together...
 
 ### Hackers Deploy Malware in Fresh ScreenConnect Campaign
 - Source: Security Week
@@ -1070,6 +1151,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.13941
 - Summary: Estimating precipitation at the global scale is vital for Earth system science and disaster response, yet observational coverage and measurement precision remain constrained. Existing solutions provide options that trade off desirable traits such as skill, latency, geographical coverage, temporal...
+
+### Opening the datasets behind our AI weather models
+- Source: DeepMind Blog
+- Category: research
+- URL: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/
+- Summary: Foundational precipitation and geostationary satellite datasets to observe the planet clearly.
 
 ### CAppleNet: A Coordinate Attention-Based YOLO11 for Real-Time Apple Stem Cavity and Calyx Detection
 - Source: HF Daily Papers
@@ -2925,94 +3012,4 @@
 - Category: research
 - URL: https://arxiv.org/abs/2611.03862
 - Summary: arXiv:2611.03862v1 Announce Type: new Abstract: Large foundation models often answer even when the available visual or textual evidence is insufficient to support a reliable conclusion. This failure to abstain makes them hard to trust in high-stakes or information-seeking settings, where a...
-
-### ExaTune: Exhaustive Hyperparameter Landscape Exploration at Scale
-- Source: arXiv Machine Learning
-- Category: research
-- URL: https://arxiv.org/abs/2611.03867
-- Summary: arXiv:2611.03867v1 Announce Type: new Abstract: Hyperparameter optimization (HPO) returns a single optimal configuration, systematically discarding the explored performance landscape that encodes how results depend on configuration choices. Fitness landscape analysis comprises a robust collection...
-
-### SRRM: A Retrieval-Reconstruction Benchmark for Evaluating Long-Context Memory in Small Language Models
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2611.05386
-- Summary: arXiv:2611.05386v1 Announce Type: new Abstract: Small Language Models (SLMs) are increasingly deployed on consumer-grade hardware, yet their ability to preserve information across progressively longer contexts remains insufficiently understood. Existing benchmarks primarily evaluate...
-
-### AI-Driven SaaS Platform Integration: AI Express for Unified Generative AI Services with Pay-As-You-Go Credit Systems and Scalable Microservice Architecture
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2611.05389
-- Summary: arXiv:2611.05389v1 Announce Type: new Abstract: Generative AI is currently fragmented, with separate subscriptions required for text generation, image synthesis, and code assistance, leading to high costs and workflow disruptions. AI Express is a SaaS platform that consolidates these capabilities...
-
-### When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2611.05517
-- Summary: arXiv:2611.05517v1 Announce Type: new Abstract: For humans, referential disambiguation is a collaborative process involving clarification questions asked when they will meaningfully change the outcome. However, large language models (LLMs) have been shown to be biased toward premature answering,...
-
-### Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2611.05539
-- Summary: arXiv:2611.05539v1 Announce Type: new Abstract: LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The rewrite is character-aligned to the OCR input, its...
-
-### RAGCompass: Generalizable Retriever Routing via Reranking
-- Source: arXiv NLP
-- Category: research
-- URL: https://arxiv.org/abs/2611.05596
-- Summary: arXiv:2611.05596v1 Announce Type: new Abstract: Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different retrievers, which one is most suited for that query? Existing...
-
-### Want to Rent an Internet Address at the White House?
-- Source: Krebs on Security
-- Category: security
-- URL: https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/
-- Summary: Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was...
-
-### TRiST: Topology-Reinforced Swin Transformer for Medical Image Analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07431
-- Summary: Medical images contain topological patterns, such as connected components and loops, at scales ranging from small lesions to organ boundaries. Although hierarchical Vision Transformers have advanced medical image analysis, they do not explicitly incorporate topology throughout their multiscale...
-
-### Spectral symmetry fingerprints in equivariant representations
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07410
-- Summary: Symmetry governs the organization of physical structures, while symmetry breaking reveals their transformations. In geometric deep learning, symmetry imposes rank constraints on equivariant representations, limiting the expressive capacity of equivariant graph neural networks (GNNs). Here we show...
-
-### CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07393
-- Summary: Recent work in machine learning has demonstrated that transformer-based language model agents can communicate state not only through text, but also directly in latent space via key-value (KV) caches. In this paper, we argue that such cache-to-cache translation can provide utility beyond the...
-
-### China Merchants' LionRock AI Lab Open-Sources Lion-ER-35B-A3B Embodied Reasoning Model
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/china-merchants-lionrock-ai-lab-lion-er-35b-a3b-embodied-reasoning-model-open-source
-- Summary: China Merchants' LionRock AI Lab open-sourced Lion-ER-35B-A3B, a 3B-active embodied reasoning model built with a capability-driven data engine that beat its base on ten benchmarks.
-
-### openJiuwen's Hyper-Agent Swarm Puts Persistent AI Agents Into Work Chats as Digital Employees
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/openjiuwen-hyper-agent-swarm-architecture-persistent-agents-workswarm-digital-employees
-- Summary: openJiuwen's Hyper-Agent swarm architecture lets persistent agents with their own identities and inboxes join Feishu and DingTalk groups as digital employees via WorkSwarm.
-
-### Moxin Technology Launches MoWorld 2.0, an Ascend-Native 4D World Model That Simulates Physics
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/moxin-technology-moworld-2-0-ascend-native-4d-world-model-physics-gaussian-assets
-- Summary: Moxin Technology's MoWorld 2.0 adds gravity, elasticity and fluids to 4D Gaussian scenes, runs video inference at about 70 fps and is trained and deployed on Huawei Ascend.
-
-### Huawei's Xiaoyi Work Is First to Run openPangu-2.1-Pro, Billed for HarmonyOS Task Enhancement
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-xiaoyi-work-openpangu-2-1-pro-harmonyos-task-enhancement-agent
-- Summary: IT Home found openPangu-2.1-Pro live first in Huawei's Xiaoyi Work agent, labeled HarmonyOS task enhancement, days after openPangu-2.0 was slated to leave Huawei Cloud MaaS.
-
-### Huawei Ascend Adds Day-Zero Support for Kimi K3.1 Pro Across Atlas A3 and Ascend 950 SuperPoDs
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/huawei-ascend-day-zero-kimi-k3-1-pro-vllm-ascend-sglang-atlas-900-a3-950-superpod
-- Summary: Huawei says vLLM Ascend and SGLang run Moonshot AI's 2.8-trillion-parameter Kimi K3.1 Pro on Atlas 800 A3, Atlas 900 A3 SuperPoD and Ascend 950 SuperPoD from launch day.
 
