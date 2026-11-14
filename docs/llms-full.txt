@@ -6,6 +6,24 @@
 
 ## 2026-11-14
 
+### Is AI Making Us Worse at Cybersecurity?
+- Source: Security Week
+- Category: security
+- URL: https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/
+- Summary: Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek.
+
+### Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html
+- Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability,...
+
+### Open-source AI without Jensen
+- Source: Interconnects
+- Category: open-source
+- URL: https://www.interconnects.ai/p/open-source-ai-without-jensen
+- Summary: A decapitation. It&#8217;s time to rebuild.
+
 ### Apple Reveals How Secure Exclaves Shield Camera and Microphone Data
 - Source: Security Week
 - Category: security
@@ -649,6 +667,12 @@
 - URL: https://tldr.takara.ai/p/2611.16903
 - Summary: A large body of work in quantum machine learning has centered on characterizing the expressivity and performance of quantum models. In contrast, little attention has been paid to the reliability of predictions beyond average performance measures such as accuracy. In this work, we introduce an...
 
+### TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16897
+- Summary: We introduce TokenStream, an optimization-based framework that composes independently learned subject identities in text-to-video generation without a reference-video training dataset or joint optimization of each new subject combination. Learning from a single reference image makes subject...
+
 ### Chrome, Firefox Updates Patch Over 180 Vulnerabilities
 - Source: Security Week
 - Category: security
@@ -926,6 +950,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M765MJQK7F85SC82RMTYN0V3
 - Summary: Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Login (Operational) ChatGPT Work (Operational) Sites (Operational) Space (Operational) dots (Operational) Live (Operational)
+
+### Adaptive Distance Detection and Adaptive Instance Segmentation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.15991
+- Summary: This paper is about object detection model and semantic segmentation model in an FPS game Counter Strike: Condition Zero to detect enemies. Semantic segmentation is pixel-wise detection algorithm. We customized the architecture for semantic segmentation. We used YOLOv5s to train object detection...
 
 ### Incident with Webhooks
 - Source: GitHub Status
@@ -1213,6 +1243,12 @@
 - Category: open-source
 - URL: https://latent.space/p/codex-work/
 - Summary: On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.
+
+### Stress-Testing Sandbagging Detection Under Adaptive Attack
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.14950
+- Summary: Developers, auditors and researchers read evaluation scores as evidence of what a model can do. A model that sandbags, scoring low on purpose while keeping the capability, turns a low score into false reassurance. Sandbagging detectors are usually tested once against a fixed attack, but a real...
 
 ### Unitree Opens a Tianjin Subsidiary to Prototype Power-Inspection and Logistics-Sorting Robots
 - Source: Pandaily
@@ -2285,6 +2321,12 @@
 
 ## 2026-11-08
 
+### Query- and Candidate-Aware Long User Sequence Modeling for Sponsored Product Ranking in Search
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.11675
+- Summary: User sequence modeling is widely used in recommendation and advertising. Search ranking presents an additional challenge: the current query expresses immediate intent, while a candidate product determines which parts of a user's long-term history are relevant. We present a production sequence...
+
 ### How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco
 - Source: Latent Space
 - Category: open-source
@@ -2377,6 +2419,12 @@
 
 
 ## 2026-11-07
+
+### Locating and Repairing Domain Shift in VLM Trajectory Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.10720
+- Summary: Vision-Language Models (VLMs) are increasingly adopted as end-to-end driving planners, yet they suffer from cross-city domain shift. Existing methods treat this shift as a single quantity addressed by uniform alignment or single-site editing. We challenge this view on two counts: (i) domain shift...
 
 ### SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins
 - Source: Security Week
@@ -2967,52 +3015,4 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.07913
 - Summary: Language models can produce similar probabilistic predictions after observing outcomes, reading summaries, receiving instructions, or undergoing activation interventions. Whether these routes induce equivalent belief states remains unclear: agreement in current predictions does not establish how a...
-
-### Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/is-your-exposure-management-platform.html
-- Summary: A critical finding can move through several security tools and still leave the organization exposed.&nbsp; The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what...
-
-### DISCERN: Distributional Synthetic Replay for Retain-Free Incremental Machine Unlearning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07892
-- Summary: Machine unlearning aims to remove the influence of specific training data from a trained model without retraining from scratch. In real deployments, however, deletion requests arrive over time, calling for incremental class unlearning (ICU): classes are removed sequentially, previously forgotten...
-
-### OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html
-- Summary: OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. "Our prototype identified and analyzed 2,308 candidate Linux kernel...
-
-### The Sequence Opinion - Issue #966: The Forward Curve of Intelligence
-- Source: The Sequence
-- Category: open-source
-- URL: https://thesequence.substack.com/p/the-sequence-opinion-issue-966-the
-- Summary: How GPU derivatives could reshape the economics of AI
-
-### InnerLogic-Surg: An Open Surgical Foundation Model via Continual Pretraining
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07883
-- Summary: Vision foundation models are the backbone of modern surgical image analysis, yet most surgical systems still rely on encoders pretrained on natural images or on specialist models trained from scratch on comparatively small datasets. Pretraining encoders on large amounts of surgery-specific data has...
-
-### FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07870
-- Summary: Large language models use auxiliary conditioning to incorporate additional information into time-series forecasts. However, auxiliary conditioning does not consistently improve accuracy and can increase forecasting error when its influence is poorly matched to the observed temporal context. We...
-
-### PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07867
-- Summary: Building a playable world requires more than generating plausible video: it demands responsive control, persistent spatial structure, and coherent interactions with dynamic entities. Using generated frames as the sole recurrent world representation ties these requirements to view-dependent...
-
-### Enhanced MRI brain tumor detection using deep learning in conjunction with explainable AI SHAP based diverse and multi feature analysis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07843
-- Summary: Recent innovations in medical imaging have markedly improved brain tumor identification, surpassing conventional diagnostic approaches that suffer from low resolution, radiation exposure, and limited contrast. Magnetic Resonance Imaging (MRI) is pivotal in precise and accurate tumor...
 
