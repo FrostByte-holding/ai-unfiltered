@@ -1755,6 +1755,12 @@
 - URL: https://tldr.takara.ai/p/2611.13552
 - Summary: Post-training improves language-model reasoning, but how it changes the use of internal information and verbalized chain of thought (CoT) remains unclear. We study successive SFT, DPO, and RLVR checkpoints of Olmo-3-7B-Instruct on multi-digit addition, using carry values as known intermediate...
 
+### Distribution Shift Detection in Remote Sensing Imagery using Machine Learning Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13510
+- Summary: Remote sensing imagery acquired by Unmanned Aerial Vehicles (UAVs) supports wide range of applications; however, deploying machine learning (ML) models on resource-constrained aerial platforms introduces challenges beyond predictive accuracy, particularly when deployment data differ from the...
+
 ### Deep Personalization: Continuous Context Observation for Local Proactive Agents
 - Source: HF Daily Papers
 - Category: open-source
@@ -1827,6 +1833,24 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M7193DWYRFWQM5W6E3VZ7TM7
 - Summary: Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Realtime (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Agents (Operational) Live (Operational) Images...
+
+### Robust Flow Matching under Target Corruption and Label Noise
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13324
+- Summary: Flow Matching (FM) is a strong framework for generative modeling due to its stable training and efficient sampling. However, FM assumes clean target data and labels, an assumption often violated in practice. We formulate FM training as a time-dependent regression problem over conditional vector...
+
+### Beyond the First Hit: Towards Tight Guarantees for $k$-means++
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.14573
+- Summary: Let $R_k$ be the worst-case ratio between the expected cost of the $k$ seeds chosen by $k$-means++ and the optimal $k$-means cost. In their seminal paper introducing $k$-means++, Arthur and Vassilvitskii (SODA 2007) showed that $2\ln k\le R_k\le8(\ln k+2)$, and Makarychev, Reddy and Shan (NeurIPS...
+
+### Image Quality and the Reliability of Fabric-Density Measurement: Counting Threads from Smartphone Photos Through a Pick Glass
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13200
+- Summary: Thread density, the threads per inch along and across a woven fabric, is a basic specification that buyers check whenever fabric is sold. Without laboratory instruments, inspectors count it slowly, by eye, through a pick glass, a folding 10$\times$ magnifier with a one-inch window. A smartphone...
 
 ### Network Performance Issues in Eastern North America
 - Source: Cloudflare Status
@@ -2269,6 +2293,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.11861
 - Summary: Prompt injections have emerged as one of the top security risks faced by AI agents today. Early work in prompt injection attacks looked at simple tool-call agents and static attack payloads, and were saturated since mid-2025. As of Fall 2026, human red-teaming may be nearing saturation, especially...
+
+### Is a CNN-Transformer Ensemble Worth It When a Chest X-Ray Foundation Model Is Available?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13014
+- Summary: Ensembles of ImageNet-pretrained convolutional networks and Vision Transformers are a common way to improve multi-label chest X-ray classification. We ask whether such an ensemble is still worth its cost when a model pretrained on chest radiographs is available. On the official patient-disjoint...
 
 ### HiddenPathQA: A Benchmark for Knowledge Graph Question Answering When Questions Hide Their Paths
 - Source: HF Daily Papers
@@ -2985,34 +3015,4 @@
 - Category: security
 - URL: https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/
 - Summary: More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns appeared first on SecurityWeek.
-
-### The Download: Texas’s fragile AI boom and energy policy shifts
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground...
-
-### Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/
-- Summary: The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.
-
-### IDPrior: Decoupling Identity Generation from Facial Image Synthesis
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07941
-- Summary: Large-scale identity-labeled face datasets are essential for training modern face recognition models, yet collecting and annotating such data is costly and raises privacy and ethical concerns. Existing synthetic face generation methods typically derive identities from predefined class labels,...
-
-### Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/
-- Summary: Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.
-
-### Same Answer, Different Future: Matched Predictions Do Not Imply Matched Belief Updating in Language Models
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.07913
-- Summary: Language models can produce similar probabilistic predictions after observing outcomes, reading summaries, receiving instructions, or undergoing activation interventions. Whether these routes induce equivalent belief states remains unclear: agreement in current predictions does not establish how a...
 
