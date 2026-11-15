@@ -814,6 +814,12 @@
 - URL: https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html
 - Summary: Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and...
 
+### Natural Gradient Learning in Predictive Coding through Lateral Circuits
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16666
+- Summary: Predictive coding (PC) trains neural networks through local energy-minimization dynamics without depending on a global error signal that backpropagation (BP) requires. Although PC is a promising alternative algorithm for efficient learning, the computational cost of inference dynamics currently...
+
 ### PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution
 - Source: The Hacker News
 - Category: security
@@ -1860,11 +1866,23 @@
 - URL: https://tldr.takara.ai/p/2611.13552
 - Summary: Post-training improves language-model reasoning, but how it changes the use of internal information and verbalized chain of thought (CoT) remains unclear. We study successive SFT, DPO, and RLVR checkpoints of Olmo-3-7B-Instruct on multi-digit addition, using carry values as known intermediate...
 
+### EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13525
+- Summary: Communities in the United States and around the world are contesting data centers, the physical infrastructure of AI. These disputes pose environmental justice issues: residents must weigh unevenly distributed burdens using evidence scattered across metrics, corporate claims, policy documents, and...
+
 ### Distribution Shift Detection in Remote Sensing Imagery using Machine Learning Models
 - Source: HF Daily Papers
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.13510
 - Summary: Remote sensing imagery acquired by Unmanned Aerial Vehicles (UAVs) supports wide range of applications; however, deploying machine learning (ML) models on resource-constrained aerial platforms introduces challenges beyond predictive accuracy, particularly when deployment data differ from the...
+
+### Sharp Sample Complexity of KL-Regularized Reinforcement Learning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13480
+- Summary: KL-regularized reinforcement learning, the objective behind maximum-entropy RL and RL from human feedback, is variational inference in the graphical model of "control as inference": the regularized optimal policy is a posterior over trajectories, and the suboptimality of a policy is $β$ times a KL...
 
 ### Deep Personalization: Continuous Context Observation for Local Proactive Agents
 - Source: HF Daily Papers
@@ -1919,6 +1937,12 @@
 - Category: incidents
 - URL: https://www.githubstatus.com/incidents/6jm5k16vyhfg
 - Summary: Nov 10, 00:05 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 9, 23:59 UTC Update - The issue affecting GPT-5.3 Codex, GPT-5.6 Luna, and GPT-5.6...
+
+### Online-Adaptive Fuzzy Cognitive Maps for Neuro-symbolic Financial Forecasting
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13388
+- Summary: We present a neuro-symbolic framework that pairs online-adaptive Fuzzy Cognitive Maps (FCMs) with long short-term memory (LSTM) networks for financial forecasting. Financial markets exhibit regime shifts and nonlinear dynamics. Existing models often trade off one of these key properties: these...
 
 ### Pay for Hugging Face Hub with your Google Cloud Account
 - Source: Hugging Face Blog
@@ -2176,6 +2200,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.12024
 - Summary: Verifying the local robustness of neural networks under $\ell_0$ perturbations is inherently combinatorial, as it must reason over all sparse subsets of $ε$ perturbed pixels. This paper presents FocusBranch, a combinatorial branch-and-bound framework for $\ell_0$ robustness verification. The key...
+
+### Trajectory Density Ratios under Weak Support: A Survey across the Sciences
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.11985
+- Summary: Many problems across the sciences compare two stochastic processes through the sequences they generate. Reinforcement learning asks what a new policy would return from the trajectories of an old one; molecular simulation asks how much more a ligand binds from samples of the unbound state; climate...
 
 ### BYD Debuts Flash-Charging Robotic Arm in the UAE That Plugs In Without the Driver
 - Source: Pandaily
@@ -2988,33 +3018,4 @@
 - Category: chinese-ai
 - URL: https://pandaily.com/netease-youdao-interactive-math-tutoring-agent-step-by-step-dynamic-whiteboard
 - Summary: NetEase Youdao launched an interactive math tutoring agent that teaches step by step, takes follow-up questions on any step and draws diagrams on a dynamic whiteboard.
-
-### Geekplus Shows Its RoboShuttle Hyper Climbing Robot at CeMAT Asia, Rated at 6,000 Totes an Hour
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/geekplus-roboshuttle-hyper-climbing-robot-cemat-asia-tote-to-person
-- Summary: Geekplus showed its RS Hyper climbing robot at CeMAT Asia; the company rates RoboShuttle Hyper at 6,000 totes per hour per 1,000 sq m, with a Max workstation handling 800 an hour.
-
-### DeepSeek Harness Reaches 1.54 Million Daily Users and Plans an Official Plugin Marketplace
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/deepseek-harness-1-54-million-daily-active-users-official-plugin-marketplace
-- Summary: DeepSeek Harness hit 1.54 million daily users and about 92 trillion tokens a day, with some 35,000 third-party plugins; an official plugin marketplace and author program are next.
-
-### Baidu Open-Sources ERNIE-5.5-Flash-Base, a 280B MoE Base Model With 14B Active Parameters
-- Source: Pandaily
-- Category: chinese-ai
-- URL: https://pandaily.com/baidu-ernie-5-5-flash-base-open-source-280b-moe-14b-active-base-model
-- Summary: Baidu released ERNIE-5.5-Flash-Base, a raw pretraining checkpoint with 280B total and 14B active parameters, 128K training context and 1M-token support, for further training.
-
-### Degraded performance for multiple GitHub services
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/pfbmpxxfq1cy
-- Summary: Nov 6, 00:20 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 6, 00:19 UTC Monitoring - This incident has been resolved. All affected services,...
-
-### Egyptian and Nigerian English join the Open ASR Leaderboard
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/open-asr-leaderboard-liva
 
