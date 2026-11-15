@@ -4,6 +4,27 @@
 > Updated every 4 hours. Links to original sources.
 
 
+## 2026-11-15
+
+### COMAC's CE-25A Electric Commercial Aircraft Completes Its First Crewed Flight
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/comac-ce-25a-electric-commercial-aircraft-first-crewed-flight
+- Summary: COMAC's 19-seat CE-25A electric aircraft flew with two pilots and a flight test engineer aboard for the first time, covering 60.4 km in 16 minutes 38 seconds.
+
+### UniPat AI's SPU Benchmark Asks AI Agents to Predict Real Wet-Lab Results, and None Score Above 0.5
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/unipat-ai-science-prediction-universe-spu-benchmark-wet-lab-outcome-prediction-agents
+- Summary: UniPat AI's SPU benchmark has AI agents rank the outcomes of 4,207 real wet-lab experiments. The best of 13 configurations averaged 0.486 out of 1.
+
+### DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/deepseek-web-frontend-code-quota-management-coding-plan-unannounced
+- Summary: Developers found quota-management code on DeepSeek's web chat that points to a 'Coding Plan'. DeepSeek has announced no subscription, price, tier or launch date.
+
+
 ## 2026-11-14
 
 ### Is AI Making Us Worse at Cybersecurity?
@@ -744,6 +765,12 @@
 - Category: security
 - URL: https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html
 - Summary: PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described as...
+
+### Rethinking Actions: Continuity-Aware Priors for World-Model Planning
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.16645
+- Summary: Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness,...
 
 ### Notion Customer Data Compromised in Fireworks AI Hack
 - Source: Security Week
@@ -1653,6 +1680,12 @@
 - URL: https://tldr.takara.ai/p/2611.13609
 - Summary: In Uzbek official and technical documents, a large share of OCR errors is caused not by poor image quality but by characters that are visually identical across the two alphabets in use. Because the script transition is still under way, Cyrillic and Latin appear on the same page and often within a...
 
+### One Byte, One Token: Byteifying a 27B Hybrid-Attention LLM with Self-Generated Data
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.13607
+- Summary: Byte-level BPE fragments Chinese text (for Qwen3.8 on Chinese Wikipedia, 3.84 bytes per token on average; 64% of tokens are single characters) and hides spelling from the model. We ask whether an already-trained 27B subword model can be converted directly into a pure byte-level model (one byte, one...
+
 ### Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training
 - Source: arXiv AI
 - Category: research
@@ -1917,6 +1950,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.12690
 - Summary: Causal inference under treatment interference requires assumptions to reduce the exponentially large number of potential outcomes. We develop hierarchical finite-population models for potential outcomes by separating these assumptions into three layers: interference neighborhoods, exposure...
+
+### GHiML: VLM-Guided Hierarchical Multi-Label Learning with Applications to Benthic Imagery
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.12564
+- Summary: Vision language models (VLMs) encode substantial expert knowledge within their weights, yet their direct application to specialised classification domains such as benthic imagery remains limited. Meanwhile, vision transformers trained on these tasks rely predominantly on low-level visual latents...
 
 ### Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context
 - Source: Hugging Face Blog
@@ -2450,6 +2489,18 @@
 
 ## 2026-11-07
 
+### Can small transformers learn the language of Coxeter groups?
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.10936
+- Summary: The field of mechanistic interpretability is well-suited to collaborative projects between mathematicians and AI researchers. This work describes one such project. We trained a small transformer to learn the language of the Coxeter group affine A2, best known as the symmetries of the tiling of the...
+
+### Learning Biological Hierarchies in Single-Cell Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.10838
+- Summary: Cell types are organized by taxonomic relationships that define lineages in the so-called cell ontology. However, most existing foundation models typically ignore cell-type lineages encoded in this cell ontology. We introduce a biologically informed foundation model called scOntoFM, which embeds...
+
 ### Locating and Repairing Domain Shift in VLM Trajectory Planning
 - Source: HF Daily Papers
 - Category: open-source
@@ -2967,52 +3018,4 @@
 - Category: security
 - URL: https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html
 - Summary: Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration...
-
-### Network disruption across multiple colocations in India
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/1i6fnludjh1m
-- Summary: Nov 5, 16:16 UTCResolved - This incident has been resolved.Nov 5, 15:37 UTCIdentified - We have identified 9 impacted colocations, all in India, and have removed them from our network. We are working on identifying the underlying issues and bringing them back online.Nov 5, 15:05 UTCInvestigating -...
-
-### ProQuant: Progressive Quantization-aware Training for Edge MLLMs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.08216
-- Summary: Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge...
-
-### Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.08160
-- Summary: Attention-based time series forecasters commonly group consecutive observations into patches. Patch length is known to have a substantial impact on forecasting performance, yet its selection remains largely empirical. We develop a theoretical framework that explains why patch length matters for...
-
-### Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.08144
-- Summary: Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it. On Pendulum, HalfCheetah, Hopper and a...
-
-### ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html
-- Summary: How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster,...
-
-### Linguistic boundaries emerge from pressure-constrained processing dynamics
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.08085
-- Summary: Human cognition organizes continuous experience into bounded units while maintaining continuity across them. Linguistic elements are also organized into bounded structural units such as words and phrases, with sentence marking the final bound of a grammatical construction process. How do such...
-
-### Increased Errors for Durable Objects in Western Europe
-- Source: Cloudflare Status
-- Category: incidents
-- URL: https://www.cloudflarestatus.com/incidents/oy8gxjb38yse
-- Summary: Nov 5, 13:23 UTCMonitoring - Cloudflare investigated an issue that caused an increase of errors for Durable Objects in Western Europe. The issue has been resolved and we are monitoring the results.
-
-### Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/
-- Summary: More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake &#8216;Suspended&#8217; Pages to Evade Takedowns appeared first on SecurityWeek.
 
