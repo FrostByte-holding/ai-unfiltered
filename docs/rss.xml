@@ -5,9 +5,189 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 15 Nov 2026 20:52:40 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2026 05:24:18 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
+        <item>
+            <title>When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors</title>
+            <link>https://arxiv.org/abs/2611.17338</link>
+            <guid>https://arxiv.org/abs/2611.17338</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17338">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves...</description>
+        </item>
+        <item>
+            <title>Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs</title>
+            <link>https://arxiv.org/abs/2611.17339</link>
+            <guid>https://arxiv.org/abs/2611.17339</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17339">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device,...</description>
+        </item>
+        <item>
+            <title>LoRAWeaver: Directional Adapter Routing in LoRA Representation Space</title>
+            <link>https://arxiv.org/abs/2611.17340</link>
+            <guid>https://arxiv.org/abs/2611.17340</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17340">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter...</description>
+        </item>
+        <item>
+            <title>Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction</title>
+            <link>https://arxiv.org/abs/2611.17341</link>
+            <guid>https://arxiv.org/abs/2611.17341</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17341">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer...</description>
+        </item>
+        <item>
+            <title>An Operationalization of Opaque Serial Depth</title>
+            <link>https://arxiv.org/abs/2611.17495</link>
+            <guid>https://arxiv.org/abs/2611.17495</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17495">arXiv AI</source>
+            <category>research</category>
+            <description>arXiv:2611.17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial...</description>
+        </item>
+        <item>
+            <title>Alignment with Reflect-Reasoning: Learning How To Follow Principles</title>
+            <link>https://arxiv.org/abs/2611.17398</link>
+            <guid>https://arxiv.org/abs/2611.17398</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17398">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2611.17398v1 Announce Type: new Abstract: The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences...</description>
+        </item>
+        <item>
+            <title>WETW: Learning Pair-Specific Weighted Euclidean Distances for Efficient DTW Search</title>
+            <link>https://arxiv.org/abs/2611.17412</link>
+            <guid>https://arxiv.org/abs/2611.17412</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17412">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2611.17412v1 Announce Type: new Abstract: Dynamic Time Warping (DTW) is the standard distance for similarity search over time series that are misaligned in time, but its cost is quadratic in the series length and lower bounds often prune few candidates, so search over large collections of...</description>
+        </item>
+        <item>
+            <title>Classification with Large-Step Gradient Descent: Unifying Self-Stabilization and Convergence Rates</title>
+            <link>https://arxiv.org/abs/2611.17459</link>
+            <guid>https://arxiv.org/abs/2611.17459</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17459">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2611.17459v1 Announce Type: new Abstract: Neural networks are often trained with gradient descent (GD) using step sizes that exceed classical stability thresholds, a regime where standard convergence theory no longer applies. Despite exhibiting non-monotonic loss and oscillatory dynamics,...</description>
+        </item>
+        <item>
+            <title>Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments</title>
+            <link>https://arxiv.org/abs/2611.17460</link>
+            <guid>https://arxiv.org/abs/2611.17460</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17460">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2611.17460v1 Announce Type: new Abstract: AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people&#x27;s authority. When completion requires violating a...</description>
+        </item>
+        <item>
+            <title>Diffusion Tree Sampling for Inference Time Adaptation of Crystal Generative Models</title>
+            <link>https://arxiv.org/abs/2611.17462</link>
+            <guid>https://arxiv.org/abs/2611.17462</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17462">arXiv Machine Learning</source>
+            <category>research</category>
+            <description>arXiv:2611.17462v1 Announce Type: new Abstract: Diffusion-based generative models have become strong priors over plausible crystal structures, but turning that prior into promising candidates requires steering toward several conflicting properties at once. Fine-tuning is expensive and produces a...</description>
+        </item>
+        <item>
+            <title>Tracing Knowledge and Reasoning in LLM</title>
+            <link>https://arxiv.org/abs/2611.17461</link>
+            <guid>https://arxiv.org/abs/2611.17461</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17461">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2611.17461v1 Announce Type: new Abstract: Current evaluations of Large Language Models (LLMs) report performance at the dataset or task level, revealing what a model achieves but offering little insight into the internal processing associated with its performance. We propose a task-centric...</description>
+        </item>
+        <item>
+            <title>Poetry &#x27;resurrection&#x27; from LLMs</title>
+            <link>https://arxiv.org/abs/2611.17464</link>
+            <guid>https://arxiv.org/abs/2611.17464</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17464">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2611.17464v1 Announce Type: new Abstract: In an era where linguistic creativity is challenged by algorithmic authorship, we pose a provocative question: can artificial intelligence (AI) write an infinite poem? We set up two experiments to investigate the quantitative and qualitative output...</description>
+        </item>
+        <item>
+            <title>Creating Steering Vectors via Input Optimisation</title>
+            <link>https://arxiv.org/abs/2611.17481</link>
+            <guid>https://arxiv.org/abs/2611.17481</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17481">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2611.17481v1 Announce Type: new Abstract: Activation steering influences a language model&#x27;s behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at every generation step. We introduce ActGCG, a...</description>
+        </item>
+        <item>
+            <title>Benchmarks Don&#x27;t Talk Back: Learning Through Self-Disagreement</title>
+            <link>https://arxiv.org/abs/2611.17563</link>
+            <guid>https://arxiv.org/abs/2611.17563</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17563">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2611.17563v1 Announce Type: new Abstract: A benchmark usually measures a language model alone with a question, and deployment rarely looks like that: answers get contested, and models give up correct ones under counter-reasoning that is itself wrong. We show that what fails there is not a...</description>
+        </item>
+        <item>
+            <title>CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais</title>
+            <link>https://arxiv.org/abs/2611.17573</link>
+            <guid>https://arxiv.org/abs/2611.17573</guid>
+            <pubDate>Mon, 16 Nov 2026 05:00:00 +0000</pubDate>
+            <source url="https://arxiv.org/abs/2611.17573">arXiv NLP</source>
+            <category>research</category>
+            <description>arXiv:2611.17573v1 Announce Type: new Abstract: Cameroon Pidgin English (a West African Pidgin English variety) and Camfranglais are widely used in Cameroon, yet to our knowledge, neither has a dedicated spoken Natural Language Inference (NLI) resource. We introduce CamSpokenNLI, a pilot dataset of...</description>
+        </item>
+        <item>
+            <title>Sun Yat-sen University&#x27;s GeoThinker-F Speeds Up Spatial Reasoning 3.6x by Dropping the 3D Encoder</title>
+            <link>https://pandaily.com/sun-yat-sen-university-geothinker-f-spatial-reasoning-without-3d-encoder</link>
+            <guid>https://pandaily.com/sun-yat-sen-university-geothinker-f-spatial-reasoning-without-3d-encoder</guid>
+            <pubDate>Mon, 16 Nov 2026 02:09:26 +0000</pubDate>
+            <source url="https://pandaily.com/sun-yat-sen-university-geothinker-f-spatial-reasoning-without-3d-encoder">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Sun Yat-sen University&#x27;s GeoThinker-F learns 3D cues from VGGT during training, then drops it, cutting spatial reasoning latency from 1.45 s to 0.40 s.</description>
+        </item>
+        <item>
+            <title>Future Doctor Says MedGPT Outscored Doctors in 88% of Comparisons on Complex Lung Cancer Cases</title>
+            <link>https://pandaily.com/future-doctor-medgpt-lung-cancer-multicenter-study-250-doctors</link>
+            <guid>https://pandaily.com/future-doctor-medgpt-lung-cancer-multicenter-study-250-doctors</guid>
+            <pubDate>Mon, 16 Nov 2026 02:09:13 +0000</pubDate>
+            <source url="https://pandaily.com/future-doctor-medgpt-lung-cancer-multicenter-study-250-doctors">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Future Doctor says MedGPT beat unassisted doctors in 660 of 750 comparisons on 40 complex lung cancer cases, scored by AI judges. The figures are self-reported.</description>
+        </item>
+        <item>
+            <title>Qianfan Constellation Reaches 274 Satellites, 50 Short of SpaceSail&#x27;s Year-End Service Target</title>
+            <link>https://pandaily.com/qianfan-spacesail-constellation-274-satellites-phase-one-target-brazil-terminal</link>
+            <guid>https://pandaily.com/qianfan-spacesail-constellation-274-satellites-phase-one-target-brazil-terminal</guid>
+            <pubDate>Mon, 16 Nov 2026 02:09:03 +0000</pubDate>
+            <source url="https://pandaily.com/qianfan-spacesail-constellation-274-satellites-phase-one-target-brazil-terminal">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>Qianfan has 274 satellites in orbit, 50 short of the 324 SpaceSail needs to start service by year-end. A user terminal is certified in Brazil, its likely first market.</description>
+        </item>
+        <item>
+            <title>ACE Music v1 Edges Past Suno v6 to Top Artificial Analysis&#x27; Vocal Music Leaderboard</title>
+            <link>https://pandaily.com/ace-music-v1-artificial-analysis-vocal-music-leaderboard-suno-v6</link>
+            <guid>https://pandaily.com/ace-music-v1-artificial-analysis-vocal-music-leaderboard-suno-v6</guid>
+            <pubDate>Mon, 16 Nov 2026 02:08:53 +0000</pubDate>
+            <source url="https://pandaily.com/ace-music-v1-artificial-analysis-vocal-music-leaderboard-suno-v6">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>ACE Music v1 leads Artificial Analysis&#x27; vocal music board at 1160 Elo, 16 points above Suno v6, inside overlapping error bars. Checked Nov. 16, 10:00 Beijing time.</description>
+        </item>
+        <item>
+            <title>Huawei Cloud Opens openPangu-2.1-Pro on MaaS With Output Priced at 3.2 Yuan per Million Tokens</title>
+            <link>https://pandaily.com/huawei-cloud-maas-openpangu-2-1-pro-api-agents-arkts-ascend-operators</link>
+            <guid>https://pandaily.com/huawei-cloud-maas-openpangu-2-1-pro-api-agents-arkts-ascend-operators</guid>
+            <pubDate>Mon, 16 Nov 2026 02:08:43 +0000</pubDate>
+            <source url="https://pandaily.com/huawei-cloud-maas-openpangu-2-1-pro-api-agents-arkts-ascend-operators">Pandaily</source>
+            <category>chinese-ai</category>
+            <description>openPangu-2.1-Pro is now a public API on Huawei Cloud MaaS, tuned for agents, ArkTS and Ascend operators, at 0.8 yuan input and 3.2 yuan output per million tokens.</description>
+        </item>
         <item>
             <title>Pentagon Renames CDAO ‘Super Intelligence Office’</title>
             <link>https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/</link>
@@ -16,6 +196,15 @@
             <source url="https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/">Security Week</source>
             <category>security</category>
             <description>The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.</description>
+        </item>
+        <item>
+            <title>The Sequence Radar - Issue #972: Last Week in AI: The Invisible Hand Wore a Leather Jacket</title>
+            <link>https://thesequence.substack.com/p/the-sequence-radar-issue-972-last</link>
+            <guid>https://thesequence.substack.com/p/the-sequence-radar-issue-972-last</guid>
+            <pubDate>Sun, 15 Nov 2026 12:01:06 +0000</pubDate>
+            <source url="https://thesequence.substack.com/p/the-sequence-radar-issue-972-last">The Sequence</source>
+            <category>open-source</category>
+            <description>Jensen Huang helped design and finance the AI market. Now it has to discover how much of its independence depended on him.</description>
         </item>
         <item>
             <title>Italy Fines Meta €805 Million Over Facebook&#x27;s Android Gallery Access Without Explicit Consent</title>
@@ -34,51 +223,6 @@
             <source url="https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html">The Hacker News</source>
             <category>security</category>
             <description>The compromise of Anthropic&#x27;s official Claude Code extension on Cursor&#x27;s extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. &quot;An attacker obtained an access key we had issued to Fireworks,&quot; Cursor said in a Friday...</description>
-        </item>
-        <item>
-            <title>Huawei Details Kirin 9050&#x27;s Balong AI Modem, Claiming Four-SIM Three-Standby and Faster Uplink</title>
-            <link>https://pandaily.com/huawei-kirin-9050-balong-ai-modem-four-sim-three-standby-converged-communication</link>
-            <guid>https://pandaily.com/huawei-kirin-9050-balong-ai-modem-four-sim-three-standby-converged-communication</guid>
-            <pubDate>Sun, 15 Nov 2026 07:12:34 +0000</pubDate>
-            <source url="https://pandaily.com/huawei-kirin-9050-balong-ai-modem-four-sim-three-standby-converged-communication">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>Huawei says the Kirin 9050&#x27;s Balong AI Modem runs three of four SIMs on standby and flags over 90% of forwarded overseas scam calls, and claims gains over an unnamed rival.</description>
-        </item>
-        <item>
-            <title>HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification</title>
-            <link>https://pandaily.com/hypers2c-digital-front-end-eda-toolchain-hyperhybrid-hscompile-hsdebug-agents</link>
-            <guid>https://pandaily.com/hypers2c-digital-front-end-eda-toolchain-hyperhybrid-hscompile-hsdebug-agents</guid>
-            <pubDate>Sun, 15 Nov 2026 07:12:25 +0000</pubDate>
-            <source url="https://pandaily.com/hypers2c-digital-front-end-eda-toolchain-hyperhybrid-hscompile-hsdebug-agents">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>HyperS2C, formed from S2C and HyperSilicon, launched a &#x27;5+1&#x27; digital front-end EDA toolchain, the HyperHybrid platform and two verification agents.</description>
-        </item>
-        <item>
-            <title>yetone&#x27;s Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth</title>
-            <link>https://pandaily.com/yetone-alma-agent-harness-frontierharness-v1-1-ranking-tool-model-alma-relay</link>
-            <guid>https://pandaily.com/yetone-alma-agent-harness-frontierharness-v1-1-ranking-tool-model-alma-relay</guid>
-            <pubDate>Sun, 15 Nov 2026 07:12:14 +0000</pubDate>
-            <source url="https://pandaily.com/yetone-alma-agent-harness-frontierharness-v1-1-ranking-tool-model-alma-relay">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>yetone&#x27;s Alma was third in a Nov. 11 snapshot of the FrontierHarness v1.1 coding-harness benchmark. On the completed board it ranks sixth by pass rate, at 59.7%.</description>
-        </item>
-        <item>
-            <title>D-Robotics and Infinigence AI Bring RLinf and Three Other Open-Source Robot Tools to Sunrise Chips</title>
-            <link>https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain</link>
-            <guid>https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain</guid>
-            <pubDate>Sun, 15 Nov 2026 07:12:04 +0000</pubDate>
-            <source url="https://pandaily.com/d-robotics-infinigence-ai-rlinf-rlark-rpent-apxinf-sunrise-robogo-embodied-toolchain">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>D-Robotics and Infinigence AI link RLark, RLinf, RPent and APXInf to Sunrise chips and RoboGo. RLinf is on RoboGo, and APXInf runs Pi0.5 on Sunrise S600.</description>
-        </item>
-        <item>
-            <title>COMAC&#x27;s CE-25A Electric Commercial Aircraft Completes Its First Crewed Flight</title>
-            <link>https://pandaily.com/comac-ce-25a-electric-commercial-aircraft-first-crewed-flight</link>
-            <guid>https://pandaily.com/comac-ce-25a-electric-commercial-aircraft-first-crewed-flight</guid>
-            <pubDate>Sun, 15 Nov 2026 01:48:00 +0000</pubDate>
-            <source url="https://pandaily.com/comac-ce-25a-electric-commercial-aircraft-first-crewed-flight">Pandaily</source>
-            <category>chinese-ai</category>
-            <description>COMAC&#x27;s 19-seat CE-25A electric aircraft flew with two pilots and a flight test engineer aboard for the first time, covering 60.4 km in 16 minutes 38 seconds.</description>
         </item>
         <item>
             <title>Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook</title>
@@ -306,141 +450,6 @@
             <description>Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Sites (Operational)</description>
         </item>
         <item>
-            <title>Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets</title>
-            <link>https://arxiv.org/abs/2611.14544</link>
-            <guid>https://arxiv.org/abs/2611.14544</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14544">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2611.14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal move is loud. One...</description>
-        </item>
-        <item>
-            <title>Cleaning an Agent&#x27;s History Hurts When the World Still Holds the Error</title>
-            <link>https://arxiv.org/abs/2611.14654</link>
-            <guid>https://arxiv.org/abs/2611.14654</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14654">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history...</description>
-        </item>
-        <item>
-            <title>Together Compiler: Continual Compilation for AI Inference</title>
-            <link>https://arxiv.org/abs/2611.14681</link>
-            <guid>https://arxiv.org/abs/2611.14681</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14681">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2611.14681v1 Announce Type: new Abstract: Today&#x27;s AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing...</description>
-        </item>
-        <item>
-            <title>When Should Semantic Priors Enter Partially-Identified Causal Discovery?</title>
-            <link>https://arxiv.org/abs/2611.14736</link>
-            <guid>https://arxiv.org/abs/2611.14736</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14736">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2611.14736v1 Announce Type: new Abstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect proposals can exclude the true causal graph and...</description>
-        </item>
-        <item>
-            <title>SynthCorp: A Platform for Creating Benchmarks for Data Agents</title>
-            <link>https://arxiv.org/abs/2611.14765</link>
-            <guid>https://arxiv.org/abs/2611.14765</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14765">arXiv AI</source>
-            <category>research</category>
-            <description>arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify...</description>
-        </item>
-        <item>
-            <title>CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion</title>
-            <link>https://arxiv.org/abs/2611.14589</link>
-            <guid>https://arxiv.org/abs/2611.14589</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14589">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2611.14589v1 Announce Type: new Abstract: Second-order optimizers improve deep neural network training using curvature information, but their practical efficiency is limited by GPU execution overhead. AdaFisher reduces Fisher Information Matrix (FIM) approximation costs through diagonal...</description>
-        </item>
-        <item>
-            <title>An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning</title>
-            <link>https://arxiv.org/abs/2611.14590</link>
-            <guid>https://arxiv.org/abs/2611.14590</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14590">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2611.14590v1 Announce Type: new Abstract: Classification of lung adenocarcinoma into poorly differentiated (PD) and well-to-moderately differentiated (WMD) subtypes plays an important role in patient survival; however, consistent classification is difficult due to inter-observer variability...</description>
-        </item>
-        <item>
-            <title>Adversarial Risk in the Generative AI Era Necessitates Dropping the Small Epsilon Ball</title>
-            <link>https://arxiv.org/abs/2611.14594</link>
-            <guid>https://arxiv.org/abs/2611.14594</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14594">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2611.14594v1 Announce Type: new Abstract: Adversarial Machine Learning research is currently centered on the search for the epsilon-ball: minimal perturbations designed to fool models while remaining imperceptible to humans. We argue that this fixation on $\ell_p$ norms is a metrological trap...</description>
-        </item>
-        <item>
-            <title>StructRL: Model-Free Reinforcement Learning with Replay Graphs</title>
-            <link>https://arxiv.org/abs/2611.14599</link>
-            <guid>https://arxiv.org/abs/2611.14599</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14599">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2611.14599v1 Announce Type: new Abstract: StructRL turns the experience collected during reinforcement learning into an explicit replay graph. Once the graph contains a path to the task goal, dynamic programming selects actions on the observed part of the state space; these actions form a...</description>
-        </item>
-        <item>
-            <title>KernelMosaic: An Open Dataset and Agentic Framework for CUDA Kernel Generation</title>
-            <link>https://arxiv.org/abs/2611.14604</link>
-            <guid>https://arxiv.org/abs/2611.14604</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14604">arXiv Machine Learning</source>
-            <category>research</category>
-            <description>arXiv:2611.14604v1 Announce Type: new Abstract: Training large language models to generate efficient CUDA kernels requires supervision spanning diverse computational requirements and iterative code optimization. Constructing this supervision is challenging because of heterogeneous specifications,...</description>
-        </item>
-        <item>
-            <title>Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models</title>
-            <link>https://arxiv.org/abs/2611.14661</link>
-            <guid>https://arxiv.org/abs/2611.14661</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14661">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2611.14661v1 Announce Type: new Abstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each requirement of compliance on shared items, in 12 checkpoints...</description>
-        </item>
-        <item>
-            <title>MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation</title>
-            <link>https://arxiv.org/abs/2611.14675</link>
-            <guid>https://arxiv.org/abs/2611.14675</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14675">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2611.14675v1 Announce Type: new Abstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\=asa, and discourse-level zero-anaphora forced by poetic meter. We present MITRA-Swarm, a multi-agent...</description>
-        </item>
-        <item>
-            <title>Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making</title>
-            <link>https://arxiv.org/abs/2611.14700</link>
-            <guid>https://arxiv.org/abs/2611.14700</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14700">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2611.14700v1 Announce Type: new Abstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as designs evolve often bottleneck design iteration and...</description>
-        </item>
-        <item>
-            <title>Benchmarking Multilingual Document Understanding in Vision-Language Models</title>
-            <link>https://arxiv.org/abs/2611.14758</link>
-            <guid>https://arxiv.org/abs/2611.14758</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14758">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2611.14758v1 Announce Type: new Abstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow problems. How well current VLMs generalize across...</description>
-        </item>
-        <item>
-            <title>An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue</title>
-            <link>https://arxiv.org/abs/2611.14774</link>
-            <guid>https://arxiv.org/abs/2611.14774</guid>
-            <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
-            <source url="https://arxiv.org/abs/2611.14774">arXiv NLP</source>
-            <category>research</category>
-            <description>arXiv:2611.14774v1 Announce Type: new Abstract: Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions of hours of speech. This is costly, rewrites the...</description>
-        </item>
-        <item>
             <title>AI Ambition: ArtCraft Cloned Photoshop and Now Wants to &quot;Rebuild Everything&quot;</title>
             <link>https://latent.space/p/artcraft/</link>
             <guid>https://latent.space/p/artcraft/</guid>
@@ -448,15 +457,6 @@
             <source url="https://latent.space/p/artcraft/">Latent Space</source>
             <category>open-source</category>
             <description>ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!</description>
-        </item>
-        <item>
-            <title>Elevated errors affecting the Microsoft 365 connector</title>
-            <link>https://status.claude.com/incidents/sqn3fg1l96dl</link>
-            <guid>https://status.claude.com/incidents/sqn3fg1l96dl</guid>
-            <pubDate>Thu, 12 Nov 2026 23:54:26 +0000</pubDate>
-            <source url="https://status.claude.com/incidents/sqn3fg1l96dl">Anthropic Status</source>
-            <category>incidents</category>
-            <description>Nov 12, 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook remains affected. You can follow Microsoft&#x27;s progress at https://status.cloud.microsoft. We...</description>
         </item>
     </channel>
 </rss>
