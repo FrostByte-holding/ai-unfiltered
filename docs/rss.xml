@@ -5,7 +5,7 @@
         <link>https://ai-unfiltered.com/</link>
         <description>Chinese AI • Open Source • Security • Incidents. Signal, not noise.</description>
         <language>en-us</language>
-        <lastBuildDate>Sat, 21 Nov 2026 12:14:34 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 21:29:33 +0000</lastBuildDate>
         <atom:link href="https://ai-unfiltered.com/rss.xml" rel="self" type="application/rss+xml"/>
         
         <item>
@@ -405,6 +405,15 @@
             <description>Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these...</description>
         </item>
         <item>
+            <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
+            <link>https://tldr.takara.ai/p/2611.26510</link>
+            <guid>https://tldr.takara.ai/p/2611.26510</guid>
+            <pubDate>Thu, 19 Nov 2026 17:57:59 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2611.26510">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to...</description>
+        </item>
+        <item>
             <title>Elevated error rates for gpt-6 Luna API requests</title>
             <link>https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ</link>
             <guid>https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ</guid>
@@ -414,6 +423,15 @@
             <description>Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Chat Completions (Operational) Responses (Operational)</description>
         </item>
         <item>
+            <title>TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action</title>
+            <link>https://tldr.takara.ai/p/2611.26405</link>
+            <guid>https://tldr.takara.ai/p/2611.26405</guid>
+            <pubDate>Thu, 19 Nov 2026 16:53:19 +0000</pubDate>
+            <source url="https://tldr.takara.ai/p/2611.26405">HF Daily Papers</source>
+            <category>open-source</category>
+            <description>Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the...</description>
+        </item>
+        <item>
             <title>Degraded availability for GPT-6 Luna in Copilot</title>
             <link>https://www.githubstatus.com/incidents/gp7nhc88bwv9</link>
             <guid>https://www.githubstatus.com/incidents/gp7nhc88bwv9</guid>
@@ -421,24 +439,6 @@
             <source url="https://www.githubstatus.com/incidents/gp7nhc88bwv9">GitHub Status</source>
             <category>incidents</category>
             <description>Nov 19, 16:37 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 19, 16:28 UTC Monitoring - The degradation affecting Copilot AI Model Providers has...</description>
-        </item>
-        <item>
-            <title>Sirius-Tiamat: How Small Can a One-Pass Decision Encoder Get Before Its Decisions Change?</title>
-            <link>https://tldr.takara.ai/p/2611.26339</link>
-            <guid>https://tldr.takara.ai/p/2611.26339</guid>
-            <pubDate>Thu, 19 Nov 2026 16:17:13 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2611.26339">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>A one-pass decision encoder reads a text, a question and several named options, and returns a probability for each option in a single forward pass. We ask how far Laya, a 421M-parameter encoder of this kind, can be compressed before its decisions change. We count decisions that differ from Laya&#x27;s...</description>
-        </item>
-        <item>
-            <title>Actor-Predictor Architecture for Reinforcement Learning with Formal Specification Objectives</title>
-            <link>https://tldr.takara.ai/p/2611.26313</link>
-            <guid>https://tldr.takara.ai/p/2611.26313</guid>
-            <pubDate>Thu, 19 Nov 2026 16:03:02 +0000</pubDate>
-            <source url="https://tldr.takara.ai/p/2611.26313">HF Daily Papers</source>
-            <category>open-source</category>
-            <description>One fundamental challenge in reinforcement learning (RL) is enforcing temporal safety constraints, such as satisfying formal specifications. Existing methods often transform logic formulas into automata for state augmentation and reward shaping. However, this approach assumes that automaton...</description>
         </item>
         <item>
             <title>The Download: a living liver, a billion-dollar battery deal, and AI hype</title>

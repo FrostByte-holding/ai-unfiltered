@@ -514,6 +514,12 @@
 - URL: https://tldr.takara.ai/p/2611.26511
 - Summary: Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these...
 
+### AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.26510
+- Summary: Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to...
+
 ### phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution
 - Source: The Hacker News
 - Category: security
@@ -525,6 +531,12 @@
 - Category: incidents
 - URL: https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ
 - Summary: Status: ResolvedAll affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.Affected components Chat Completions (Operational) Responses (Operational)
+
+### TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.26405
+- Summary: Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the...
 
 ### Degraded availability for GPT-6 Luna in Copilot
 - Source: GitHub Status
@@ -840,6 +852,12 @@
 - Category: research
 - URL: https://deepmind.google/blog/introducing-gemini-4-neon/
 
+### A Verifier from the Past: Test-Time Compute for Time Series Foundation Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.25171
+- Summary: Test-time compute (TTC) improves language models by spending additional inference compute to generate, verify, and select among candidate outputs, but this recipe has not transferred directly to time series forecasting. A language model can verify a proof or vote across samples, but a forecaster...
+
 ### Auditing Learned Dynamics in Weather Models
 - Source: HF Daily Papers
 - Category: open-source
@@ -961,6 +979,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/
 - Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful...
+
+### MoE-Context: Show the Model Only What It Needs
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.24379
+- Summary: AI agents read their whole history at every step. People do not work like that: we keep what the moment needs and hold the rest as a rough note we can recall. MoE-Context applies this to language models. The context is split into blocks. Before each step a fast yes or no pass decides which blocks...
 
 ### Tell Me How Sure You Are: Communicating Uncertainty in Auxiliary Evidence to Foundation Models
 - Source: HF Daily Papers
@@ -1328,6 +1352,12 @@
 
 
 ## 2026-11-17
+
+### EEG2MCU: Sensing-to-Execution Co-Design for Wearable EEG Inference
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.23619
+- Summary: Wearable EEG inference is constrained not only by model size, but also by the channel-dependent sensing front end that must process high-dimensional inputs before compact downstream computation. We present EEG2MCU, a sensing-to-execution co-design framework that treats electrode count as a hardware...
 
 ### Some users unable to sign in with Apple on claude.ai and the Claude iOS app
 - Source: Anthropic Status
@@ -2987,34 +3017,4 @@
 - Category: security
 - URL: https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/
 - Summary: Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.
-
-### Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/
-- Summary: Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek.
-
-### ScrewSense: Mapping the Invisible - Anomaly Detection and Error Classification in Screwdriving Processes
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.16789
-- Summary: The growing volume of process data generated by screwdriving systems, combined with advancements in computing power, data storage, and algorithms, is facilitating the application of artificial intelligence in this field. Accurately detecting and classifying screwdriving errors is crucial for...
-
-### Daylight Lands $80 Million for AI-Powered Security Operations
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/
-- Summary: The company plans to accelerate product development, hire new talent, expand its US presence, and enter new markets. The post Daylight Lands $80 Million for AI-Powered Security Operations appeared first on SecurityWeek.
-
-### The Download: COP31’s climate challenge and the quest for immortality
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/
-- Summary: This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the...
-
-### SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html
-- Summary: The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The...
 
