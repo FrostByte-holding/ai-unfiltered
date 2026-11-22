@@ -6,6 +6,60 @@
 
 ## 2026-11-22
 
+### Unitree Robot Wins Xiongan Boxing Belt in Bout Against EngineAI
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/unitree-engineai-xiongan-robot-boxing-belt
+- Summary: A Unitree robot won the reported Xiongan boxing belt against EngineAI; the machines’ models and teleoperation or autonomy arrangements were not disclosed.
+
+### OpenAtom Forms Working Committee for Humanoid Robot Open-Source Community
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/openatom-humanoid-robot-open-source-working-committee
+- Summary: Nine organizations founded an OpenAtom humanoid-robot community committee to coordinate shared software, models, data and governance.
+
+### AgiBot Deploys G2 Robots on Lens Technology’s Smartphone Test Lines
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/agibot-g2-lens-technology-smartphone-testing-lines
+- Summary: Dozens of AgiBot G2 robots are reported on Lens Technology phone-test lines, handling devices and interacting with testing equipment.
+
+### miHoYo Details Gamer VLA Research for Long-Horizon Game Control
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/mihoyo-gamer-vla-long-horizon-game-control-research
+- Summary: miHoYo’s Gamer research maps screen observations to keyboard and mouse actions; author-reported autonomous time is not a consumer bot release.
+
+### UNISOC Details UniSwap Ultra Engine for Flash-Backed Smartphone Memory
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/unisoc-uniswap-ultra-engine-flash-backed-memory
+- Summary: UNISOC combines chip scheduling, compressed memory and UFS-backed swapping; its smoothness and latency improvements remain laboratory claims.
+
+### Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/zoellent-gr-sac-gated-residual-controller-frozen-vla
+- Summary: Zoellent’s GR-SAC adds a small controller to a frozen VLA, reporting five more successful episodes in an 800-test RoboMME reference evaluation.
+
+### Aridge Reports A868 Tilt-Transition Flight-Test Success
+- Source: Pandaily
+- Category: chinese-ai
+- URL: https://pandaily.com/aridge-a868-full-tilt-transition-flight-test
+- Summary: Aridge says its full-scale A868 completed tilt-transition flight testing, a development milestone rather than certification or passenger-service approval.
+
+### OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html
+- Summary: Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a...
+
+### Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps
+- Source: The Hacker News
+- Category: security
+- URL: https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html
+- Summary: A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the...
+
 ### CRSC Says Its 4.9GHz Cell-Free Base Station Has Received Network-Access Approval
 - Source: Pandaily
 - Category: chinese-ai
@@ -757,6 +811,12 @@
 - URL: https://pandaily.com/phancy-phai-a1-coding-weights-ascend-phai-m1-video
 - Summary: Phancy details Ascend-post-trained Phai-A1 coding weights and the Phai-M1 video trial, with benchmark, context and availability caveats.
 
+### Rubric Semantics or Numerical Priors? Auditing Scale-Direction Bias in LLM Judges
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.25588
+- Summary: Recent benchmark evaluations increasingly rely on Large Language Models (LLMs) as automatic judges. This paradigm assumes LLMs evaluate based on the rubric's semantic meaning rather than its numeric scale. We question this assumption by introducing semantic faithfulness: the principle that...
+
 ### Diagnosis is not a policy: a state-transition audit of caoability-conditioned test-time inference
 - Source: HF Daily Papers
 - Category: open-source
@@ -982,6 +1042,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/
 - Summary: Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go...
+
+### Probing agent overeagerness in realistic settings with continuation audits
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.24491
+- Summary: Frontier coding agents increasingly exhibit overeagerness, taking surprising, sometimes reckless actions beyond a user's mandate --- reported in recent system cards from frontier model developers. These cases are surfaced through internal deployment monitoring, which requires private traffic and is...
 
 ### Elevated conversation errors for Free and Go users
 - Source: OpenAI Status
@@ -1524,6 +1590,12 @@
 - URL: https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/
 - Summary: Pretxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm. The post Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool appeared first on SecurityWeek.
 
+### CrossEnv: Synthesizing Verifiable Cross-Environment Tasks for Long-Horizon Agent Training
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.22777
+- Summary: Executable synthetic environments provide scalable training tasks and verifiable feedback for long-horizon agents. Existing environment synthesis methods primarily generate tasks within individual environments. However, these tasks do not adequately capture real-world interactions across services,...
+
 ### StitchRAG: Constructing Compact and Evidence-Preserving Contexts for RAG with Diffusion-Based Stitching
 - Source: HF Daily Papers
 - Category: open-source
@@ -1649,6 +1721,12 @@
 - Category: open-source
 - URL: https://tldr.takara.ai/p/2611.22426
 - Summary: Parallel Looped Transformers (PLTs) use otherwise idle decoding compute by overlapping recurrent iterations. However, vanilla PLTs scale poorly with depth: they exhibit training-loss spikes, and their quality gains shrink as more loops are added. The benefit of additional loops depends on the...
+
+### CutAgent: Creative-Gene-Driven Planning and Experience-Guided Self-Refinement for High-CTR E-commerce Advertising Video Creation
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.22418
+- Summary: E-commerce advertising video creation requires both high-level creative planning and reliable multi-modal production. However, existing methods often map product attributes directly to scripts or editing decisions without explicitly modeling advertising strategies, narrative structures, and...
 
 ### M$^3$-Test: Coverage Gaps in Joint-Perturbation Testing of Visual Question Answering
 - Source: HF Daily Papers
@@ -1886,6 +1964,12 @@
 - Category: research
 - URL: https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/
 - Summary: In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had...
+
+### Deep Learning for Physicists: From Linear Regression to Reasoning Models
+- Source: HF Daily Papers
+- Category: open-source
+- URL: https://tldr.takara.ai/p/2611.21295
+- Summary: These lecture notes are based on an introductory course on neural networks and deep learning that the author taught in the School of Mathematical Sciences at Queen Mary University of London in 2023/24 and 2024/25. The author, however, is a physicist, and it shows: wherever possible, ideas are...
 
 ### Benchmarking Large Language Models for Linguistic Annotation
 - Source: HF Daily Papers
@@ -2938,86 +3022,4 @@
 - Category: incidents
 - URL: https://status.claude.com/incidents/sqn3fg1l96dl
 - Summary: Nov 12, 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook remains affected. You can follow Microsoft's progress at https://status.cloud.microsoft. We...
-
-### Disruption with Email Delivery
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/nwbjzl7nfrc2
-- Summary: Nov 12, 21:43 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 12, 21:43 UTC Update - We’ve resolved the email-processing impact on our systems and...
-
-### Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams
-- Source: Security Week
-- Category: security
-- URL: https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/
-- Summary: Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek.
-
-### Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility
-- Source: MIT Tech Review AI
-- Category: research
-- URL: https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
-- Summary: Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were...
-
-### Incident with Webhooks API
-- Source: GitHub Status
-- Category: incidents
-- URL: https://www.githubstatus.com/incidents/gl7yhd7jx00v
-- Summary: Nov 12, 19:33 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Nov 12, 19:20 UTC Monitoring - The degradation affecting Webhooks has been mitigated. We...
-
-### LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B
-- Source: Hugging Face Blog
-- Category: open-source
-- URL: https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite
-
-### Elevated errors affecting the Microsoft 365 connector
-- Source: OpenAI Status
-- Category: incidents
-- URL: https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8
-- Summary: Status: InvestigatingWe’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more.Affected components Connectors/Apps (Degraded performance)
-
-### Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\sqrt S$ and $\sqrt K$ Dependencies in Tabular and Linear AMDPs
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.17214
-- Summary: We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\tilde O(HS\sqrt{AK})$, whose $\sqrt S$ gap to the...
-
-### Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html
-- Summary: Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come...
-
-### ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html
-- Summary: A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and...
-
-### Introducing Gemini 4 Hydrogen
-- Source: DeepMind Blog
-- Category: research
-- URL: https://deepmind.google/blog/introducing-gemini-4-hydrogen/
-
-### New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access
-- Source: The Hacker News
-- Category: security
-- URL: https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html
-- Summary: Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion...
-
-### Validation-Guided Prompt Selection for Differential Morphing Attack Detection
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.17176
-- Summary: Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning....
-
-### STeP-C: Real-Time Neural Compression for Distributed Fiber-Optic Sensing at Scale
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.17126
-- Summary: Distributed fiber-optic sensing (DFOS) technologies such as Distributed Acoustic Sensing (DAS) generate continuous, high-resolution spatio-temporal data at rates exceeding hundreds of megabytes per second, creating severe challenges for real-time storage and transmission. While neural compression...
-
-### Near-Optimal Regret for Oracle-Efficient Adversarial Contextual Bandits
-- Source: HF Daily Papers
-- Category: open-source
-- URL: https://tldr.takara.ai/p/2611.17109
-- Summary: We study contextual bandits with $K$ actions, a class of $N$ policies, and i.i.d.\ contexts from a distribution that the learner can sample. For any sequence of loss functions fixed before play, we give an oracle-efficient algorithm with expected regret $O(\sqrt{KT\log(2N)}\,\log(2KT))$ against the...
 
